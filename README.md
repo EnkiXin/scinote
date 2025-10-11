@@ -31,7 +31,7 @@ Requires models to integrate visual experiment processes with domain knowledge t
 - **Scientific Discovery**
 
 <p align="center">
-  <img src="./figs/ExpVid.png" alt="ExpVid Overview" width="720">
+  <img src="./figs/ExpVid.png" alt="ExpVid Overview" width="100%">
 </p>
 
 ---
@@ -47,7 +47,7 @@ Requires models to integrate visual experiment processes with domain knowledge t
 | Level-3 | Full experiments | ∼8 min |
 
 <p align="center">
-  <img src="./figs/bench_statistics.png" alt="Dataset Statistics" width="720">
+  <img src="./figs/bench_statistics.png" alt="Dataset Statistics" width="100%">
 </p>
 
 ---
@@ -57,7 +57,7 @@ Requires models to integrate visual experiment processes with domain knowledge t
 **ExpVid** adopts a *vision-centric semi-automatic pipeline* that combines LLM-based generation with expert human validation.
 
 <p align="center">
-  <img src="./figs/curation_pipeline.png" alt="Curation Pipeline" width="720">
+  <img src="./figs/curation_pipeline.png" alt="Curation Pipeline" width="100%">
 </p>
 
 ---

@@ -22,6 +22,7 @@ While MLLMs show promise in general video tasks, they struggle with the fine-gra
 
 2. Three-Level Task Hierarchy
 ExpVid organizes tasks into three hierarchical levels, mirroring the complexity of the scientific process, from basic observation to high-level discovery.
+
 | Level | Focus | Temporal Scale | Tasks |
 | :--- | :--- | :--- | :--- |
 | **Level 1: Fine-grained Perception** | Visual grounding of basic elements. | Short Clips (~8s) | Tool Recognition, Material Recognition, Quantity Recognition, Operation Recognition. |

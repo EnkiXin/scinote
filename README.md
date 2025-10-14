@@ -93,7 +93,13 @@ pip install -r requirements.txt
 If you find **ExpVid** useful for your research, please cite:
 
 ```bibtex
-xxx
+@article{xu2025expvid,
+  title={ExpVid: A Benchmark for Experiment Video Understanding \& Reasoning},
+  author={Xu, Yicheng and Wu, Yue and Yu, Jiashuo and Yan, Ziang and Jiang, Tianxiang and He, Yinan and Zhao, Qingsong and Chen, Kai and Qiao, Yu and Wang, Limin and Okumura, Manabu and Wang, Yi},
+  journal={arXiv preprint arXiv:2510.11606},
+  year={2025}
+}
+
 ```
 
 ## 🤝Contact

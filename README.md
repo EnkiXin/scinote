@@ -69,7 +69,7 @@ We evaluated 19 leading MLLMs (both proprietary and open-source) on ExpVid. The 
 
 ## 🛠️Getting Started
 ### Data Access
-The ExpVid dataset, including video clips, ASR transcripts, corresponding papers, and the 7,800 QA pairs across all three levels, is be made publicly available at xxx.
+The ExpVid dataset, including video clips, ASR transcripts, corresponding papers, and the 7,800 QA pairs across all three levels, is be made publicly available at [Hugging Face](https://huggingface.co/datasets/OpenGVLab/ExpVid).
 
 ### Evaluation
 We provide scripts and detailed instructions for evaluating MLLMs on ExpVid using the standard prompt templates used in our paper.

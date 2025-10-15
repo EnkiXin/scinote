@@ -104,3 +104,6 @@ If you find **ExpVid** useful for your research, please cite:
 
 ## 🤝Contact
 For questions or feedback regarding the benchmark, you may join our wechat group or open issues for discussions.
+
+<img src="https://github.com/user-attachments/assets/3f31863f-eea0-4f15-be4d-e63c8dd9bb21" alt="wechat_1015" width="200">
+

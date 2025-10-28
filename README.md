@@ -1,4 +1,4 @@
-# ExpVid: A Benchmark for Experiment Video Understanding & Reasoning [\[Paper\]](https://arxiv.org/abs/xxxx.xxxxx)
+# ExpVid: A Benchmark for Experiment Video Understanding & Reasoning [\[Paper\]](https://arxiv.org/abs/2510.11606)
 
 [![🤗 ExpVid Dataset](https://img.shields.io/badge/🤗%20ExpVid-Dataset-yellow)](https://huggingface.co/datasets/linghan199/ExpVid)
 

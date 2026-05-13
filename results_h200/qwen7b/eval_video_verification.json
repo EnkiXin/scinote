@@ -1,0 +1,5992 @@
+{
+  "task": "video_verification",
+  "accuracy": 17.38,
+  "n_valid": 748,
+  "n_error": 0,
+  "results": [
+    {
+      "id": "58301_clip_7_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "58301_clip_9_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.54
+    },
+    {
+      "id": "55685_clip_3_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.75
+    },
+    {
+      "id": "55685_clip_4_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.61
+    },
+    {
+      "id": "62417_clip_3_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.79
+    },
+    {
+      "id": "62417_clip_2_video_verification",
+      "pred": "B",
+      "gold": "F",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.5
+    },
+    {
+      "id": "51044_clip_2_video_verification",
+      "pred": "D",
+      "gold": "H",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "51044_clip_3_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.24
+    },
+    {
+      "id": "50867_clip_5_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.4
+    },
+    {
+      "id": "50867_clip_3_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "200229_clip_3_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.46
+    },
+    {
+      "id": "200229_clip_10_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.5
+    },
+    {
+      "id": "53021_clip_5_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "53021_clip_7_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.33
+    },
+    {
+      "id": "67016_clip_10_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.26
+    },
+    {
+      "id": "67016_clip_12_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "63855_clip_7_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 1.03
+    },
+    {
+      "id": "63855_clip_8_video_verification",
+      "pred": "C",
+      "gold": "H",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.63
+    },
+    {
+      "id": "50600_clip_2_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.52
+    },
+    {
+      "id": "50600_clip_5_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.61
+    },
+    {
+      "id": "57543_clip_9_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.68
+    },
+    {
+      "id": "57543_clip_1_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.52
+    },
+    {
+      "id": "59541_clip_3_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "59541_clip_7_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.86
+    },
+    {
+      "id": "61180_clip_5_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61180_clip_7_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.51
+    },
+    {
+      "id": "54664_clip_2_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.32
+    },
+    {
+      "id": "54664_clip_7_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.25
+    },
+    {
+      "id": "57346_clip_3_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.53
+    },
+    {
+      "id": "57346_clip_5_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.52
+    },
+    {
+      "id": "63694_clip_9_video_verification",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.55
+    },
+    {
+      "id": "63694_clip_7_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.83
+    },
+    {
+      "id": "60828_clip_6_video_verification",
+      "pred": "B",
+      "gold": "F",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "60828_clip_3_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "58283_clip_4_video_verification",
+      "pred": "",
+      "gold": "G",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.53
+    },
+    {
+      "id": "58283_clip_6_video_verification",
+      "pred": "C",
+      "gold": "I",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "53260_clip_3_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "53260_clip_2_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.46
+    },
+    {
+      "id": "57982_clip_3_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "57982_clip_2_video_verification",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.62
+    },
+    {
+      "id": "52557_clip_2_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "52557_clip_7_video_verification",
+      "pred": "",
+      "gold": "F",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.45
+    },
+    {
+      "id": "63779_clip_1_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.34
+    },
+    {
+      "id": "63779_clip_5_video_verification",
+      "pred": "",
+      "gold": "H",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.54
+    },
+    {
+      "id": "56859_clip_9_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.37
+    },
+    {
+      "id": "56859_clip_4_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.42
+    },
+    {
+      "id": "3874_clip_3_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "3874_clip_9_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.36
+    },
+    {
+      "id": "54899_clip_7_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.53
+    },
+    {
+      "id": "54899_clip_4_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.34
+    },
+    {
+      "id": "200206_clip_8_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.59
+    },
+    {
+      "id": "200206_clip_2_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58052_clip_4_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "58052_clip_3_video_verification",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "56857_clip_6_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.42
+    },
+    {
+      "id": "56857_clip_4_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.5
+    },
+    {
+      "id": "62649_clip_3_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.49
+    },
+    {
+      "id": "62649_clip_5_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.3
+    },
+    {
+      "id": "58332_clip_1_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.67
+    },
+    {
+      "id": "58332_clip_8_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.51
+    },
+    {
+      "id": "59474_clip_12_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.5
+    },
+    {
+      "id": "59474_clip_7_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.5
+    },
+    {
+      "id": "61691_clip_5_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.54
+    },
+    {
+      "id": "61691_clip_6_video_verification",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.55
+    },
+    {
+      "id": "57489_clip_2_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "57489_clip_3_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.36
+    },
+    {
+      "id": "57137_clip_8_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.46
+    },
+    {
+      "id": "57137_clip_3_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "53367_clip_3_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "53367_clip_2_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.54
+    },
+    {
+      "id": "62279_clip_1_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.45
+    },
+    {
+      "id": "62279_clip_7_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.33
+    },
+    {
+      "id": "50210_clip_6_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.86
+    },
+    {
+      "id": "50210_clip_2_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "201866_clip_3_video_verification",
+      "pred": "D",
+      "gold": "H",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.57
+    },
+    {
+      "id": "201866_clip_2_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.26
+    },
+    {
+      "id": "3255_clip_2_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.49
+    },
+    {
+      "id": "3255_clip_6_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "55531_clip_7_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.51
+    },
+    {
+      "id": "55531_clip_14_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "4308_clip_4_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.48
+    },
+    {
+      "id": "4308_clip_7_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "58674_clip_5_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.52
+    },
+    {
+      "id": "58674_clip_8_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.51
+    },
+    {
+      "id": "56248_clip_7_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.59
+    },
+    {
+      "id": "56248_clip_2_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.44
+    },
+    {
+      "id": "58644_clip_5_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.55
+    },
+    {
+      "id": "58644_clip_9_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "56268_clip_2_video_verification",
+      "pred": "D",
+      "gold": "H",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "56268_clip_7_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.47
+    },
+    {
+      "id": "59965_clip_5_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.33
+    },
+    {
+      "id": "59965_clip_1_video_verification",
+      "pred": "A",
+      "gold": "F",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.46
+    },
+    {
+      "id": "51161_clip_3_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "51161_clip_1_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.21
+    },
+    {
+      "id": "3187_clip_6_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "3187_clip_3_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.33
+    },
+    {
+      "id": "65412_clip_6_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.53
+    },
+    {
+      "id": "65412_clip_2_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.8
+    },
+    {
+      "id": "55504_clip_3_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "55504_clip_4_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.25
+    },
+    {
+      "id": "57293_clip_2_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57293_clip_5_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.52
+    },
+    {
+      "id": "2702_clip_4_video_verification",
+      "pred": "",
+      "gold": "G",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.56
+    },
+    {
+      "id": "2702_clip_7_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.32
+    },
+    {
+      "id": "4422_clip_4_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.49
+    },
+    {
+      "id": "4422_clip_5_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "56243_clip_1_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.44
+    },
+    {
+      "id": "56243_clip_3_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "J",
+      "elapsed": 0.54
+    },
+    {
+      "id": "50849_clip_3_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.47
+    },
+    {
+      "id": "50849_clip_2_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "1942_clip_5_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.32
+    },
+    {
+      "id": "1942_clip_6_video_verification",
+      "pred": "D",
+      "gold": "I",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.49
+    },
+    {
+      "id": "56074_clip_6_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "56074_clip_2_video_verification",
+      "pred": "A",
+      "gold": "E",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "2958_clip_3_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "2958_clip_7_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.32
+    },
+    {
+      "id": "55649_clip_6_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "55649_clip_8_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.38
+    },
+    {
+      "id": "60960_clip_9_video_verification",
+      "pred": "C",
+      "gold": "G",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.52
+    },
+    {
+      "id": "60960_clip_5_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.33
+    },
+    {
+      "id": "56888_clip_4_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.37
+    },
+    {
+      "id": "56888_clip_5_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "55858_clip_3_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "55858_clip_8_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "64041_clip_3_video_verification",
+      "pred": "B",
+      "gold": "F",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "64041_clip_1_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.31
+    },
+    {
+      "id": "51357_clip_2_video_verification",
+      "pred": "D",
+      "gold": "I",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "51357_clip_9_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.5
+    },
+    {
+      "id": "61062_clip_8_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61062_clip_7_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.81
+    },
+    {
+      "id": "60469_clip_1_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.48
+    },
+    {
+      "id": "60469_clip_7_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.53
+    },
+    {
+      "id": "54934_clip_2_video_verification",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "54934_clip_4_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "62309_clip_6_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.53
+    },
+    {
+      "id": "62309_clip_7_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "56679_clip_6_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.71
+    },
+    {
+      "id": "56679_clip_4_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "57613_clip_7_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.34
+    },
+    {
+      "id": "57613_clip_3_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.53
+    },
+    {
+      "id": "61805_clip_6_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.92
+    },
+    {
+      "id": "61805_clip_7_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.5
+    },
+    {
+      "id": "54413_clip_3_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "54413_clip_8_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.61
+    },
+    {
+      "id": "58296_clip_4_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "58296_clip_3_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "50648_clip_4_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.3
+    },
+    {
+      "id": "50648_clip_3_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "G",
+      "elapsed": 0.48
+    },
+    {
+      "id": "62107_clip_4_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.33
+    },
+    {
+      "id": "62107_clip_7_video_verification",
+      "pred": "C",
+      "gold": "F",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.54
+    },
+    {
+      "id": "50459_clip_6_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "50459_clip_9_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "59155_clip_11_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.51
+    },
+    {
+      "id": "59155_clip_8_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.3
+    },
+    {
+      "id": "57518_clip_11_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.5
+    },
+    {
+      "id": "57518_clip_3_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.5
+    },
+    {
+      "id": "62964_clip_3_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "62964_clip_6_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.51
+    },
+    {
+      "id": "52874_clip_11_video_verification",
+      "pred": "D",
+      "gold": "H",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "52874_clip_7_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.25
+    },
+    {
+      "id": "61800_clip_3_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "61800_clip_6_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "3691_clip_1_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.53
+    },
+    {
+      "id": "3691_clip_5_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "64216_clip_8_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.52
+    },
+    {
+      "id": "64216_clip_2_video_verification",
+      "pred": "B",
+      "gold": "I",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.57
+    },
+    {
+      "id": "58334_clip_10_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "58334_clip_8_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.23
+    },
+    {
+      "id": "57385_clip_8_video_verification",
+      "pred": "B",
+      "gold": "E",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.53
+    },
+    {
+      "id": "57385_clip_6_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "56627_clip_7_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.47
+    },
+    {
+      "id": "56627_clip_6_video_verification",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "50327_clip_3_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "50327_clip_4_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.86
+    },
+    {
+      "id": "56094_clip_13_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "56094_clip_15_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.25
+    },
+    {
+      "id": "67235_clip_9_video_verification",
+      "pred": "D",
+      "gold": "I",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "67235_clip_4_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.38
+    },
+    {
+      "id": "52614_clip_1_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.46
+    },
+    {
+      "id": "52614_clip_5_video_verification",
+      "pred": "A",
+      "gold": "E",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.76
+    },
+    {
+      "id": "63422_clip_3_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.51
+    },
+    {
+      "id": "63422_clip_9_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "61453_clip_3_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61453_clip_4_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.53
+    },
+    {
+      "id": "60982_clip_3_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "60982_clip_10_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.3
+    },
+    {
+      "id": "54971_clip_6_video_verification",
+      "pred": "B",
+      "gold": "G",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "54971_clip_3_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "57774_clip_7_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.97
+    },
+    {
+      "id": "57774_clip_5_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "G",
+      "elapsed": 0.42
+    },
+    {
+      "id": "62754_clip_12_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.55
+    },
+    {
+      "id": "62754_clip_3_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "4159_clip_3_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.49
+    },
+    {
+      "id": "4159_clip_4_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "57309_clip_1_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.33
+    },
+    {
+      "id": "57309_clip_4_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.28
+    },
+    {
+      "id": "57598_clip_5_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.42
+    },
+    {
+      "id": "57598_clip_4_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "55979_clip_4_video_verification",
+      "pred": "A",
+      "gold": "E",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.46
+    },
+    {
+      "id": "55979_clip_2_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.59
+    },
+    {
+      "id": "57407_clip_7_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "57407_clip_1_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "54611_clip_6_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "54611_clip_9_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "60273_clip_11_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.51
+    },
+    {
+      "id": "60273_clip_6_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.42
+    },
+    {
+      "id": "58892_clip_2_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "58892_clip_3_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.48
+    },
+    {
+      "id": "54144_clip_7_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.48
+    },
+    {
+      "id": "54144_clip_6_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "61231_clip_2_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.5
+    },
+    {
+      "id": "61231_clip_5_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "50389_clip_4_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.25
+    },
+    {
+      "id": "50389_clip_7_video_verification",
+      "pred": "C",
+      "gold": "H",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "57329_clip_5_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.64
+    },
+    {
+      "id": "57329_clip_3_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.7
+    },
+    {
+      "id": "201062_clip_7_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.34
+    },
+    {
+      "id": "201062_clip_10_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "56655_clip_3_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.42
+    },
+    {
+      "id": "56655_clip_1_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.23
+    },
+    {
+      "id": "64923_clip_7_video_verification",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.48
+    },
+    {
+      "id": "64923_clip_4_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.54
+    },
+    {
+      "id": "50484_clip_7_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "50484_clip_2_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "64759_clip_2_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.5
+    },
+    {
+      "id": "64759_clip_6_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.36
+    },
+    {
+      "id": "58916_clip_8_video_verification",
+      "pred": "",
+      "gold": "F",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.46
+    },
+    {
+      "id": "58916_clip_9_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "57240_clip_2_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "57240_clip_4_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "53876_clip_8_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.29
+    },
+    {
+      "id": "53876_clip_1_video_verification",
+      "pred": "C",
+      "gold": "F",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "53789_clip_8_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.82
+    },
+    {
+      "id": "53789_clip_2_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.49
+    },
+    {
+      "id": "52732_clip_3_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "52732_clip_9_video_verification",
+      "pred": "",
+      "gold": "F",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "52859_clip_6_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "52859_clip_5_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.29
+    },
+    {
+      "id": "62671_clip_9_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.25
+    },
+    {
+      "id": "62671_clip_2_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.26
+    },
+    {
+      "id": "53411_clip_3_video_verification",
+      "pred": "A",
+      "gold": "E",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.47
+    },
+    {
+      "id": "53411_clip_6_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.29
+    },
+    {
+      "id": "57343_clip_1_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "57343_clip_13_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.52
+    },
+    {
+      "id": "58927_clip_2_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "58927_clip_9_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "51084_clip_3_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.84
+    },
+    {
+      "id": "51084_clip_2_video_verification",
+      "pred": "",
+      "gold": "F",
+      "score": 0.0,
+      "response": "G",
+      "elapsed": 0.46
+    },
+    {
+      "id": "50371_clip_3_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "50371_clip_6_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58314_clip_8_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.51
+    },
+    {
+      "id": "58314_clip_4_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "57928_clip_7_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "57928_clip_1_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.51
+    },
+    {
+      "id": "56327_clip_1_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.27
+    },
+    {
+      "id": "56327_clip_6_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "62182_clip_8_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "62182_clip_9_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "55689_clip_5_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "55689_clip_2_video_verification",
+      "pred": "",
+      "gold": "F",
+      "score": 0.0,
+      "response": "G",
+      "elapsed": 0.46
+    },
+    {
+      "id": "62157_clip_6_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.56
+    },
+    {
+      "id": "62157_clip_5_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.52
+    },
+    {
+      "id": "63892_clip_6_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "63892_clip_7_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.52
+    },
+    {
+      "id": "51747_clip_2_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.42
+    },
+    {
+      "id": "51747_clip_12_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.46
+    },
+    {
+      "id": "3227_clip_5_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.32
+    },
+    {
+      "id": "3227_clip_9_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "59270_clip_5_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "59270_clip_1_video_verification",
+      "pred": "C",
+      "gold": "F",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "57908_clip_5_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.46
+    },
+    {
+      "id": "57908_clip_7_video_verification",
+      "pred": "C",
+      "gold": "F",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "56778_clip_7_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.65
+    },
+    {
+      "id": "56778_clip_2_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57531_clip_7_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "57531_clip_5_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "55500_clip_1_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "55500_clip_2_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "54818_clip_8_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.74
+    },
+    {
+      "id": "54818_clip_2_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.74
+    },
+    {
+      "id": "61770_clip_6_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.71
+    },
+    {
+      "id": "61770_clip_4_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "59764_clip_2_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.46
+    },
+    {
+      "id": "59764_clip_4_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.34
+    },
+    {
+      "id": "57265_clip_8_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.53
+    },
+    {
+      "id": "57265_clip_3_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.48
+    },
+    {
+      "id": "59396_clip_5_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.55
+    },
+    {
+      "id": "59396_clip_7_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "57561_clip_4_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.29
+    },
+    {
+      "id": "57561_clip_2_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "55934_clip_5_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "55934_clip_2_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "59728_clip_6_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.67
+    },
+    {
+      "id": "59728_clip_5_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.37
+    },
+    {
+      "id": "59271_clip_5_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.37
+    },
+    {
+      "id": "59271_clip_3_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.46
+    },
+    {
+      "id": "59992_clip_2_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.67
+    },
+    {
+      "id": "59992_clip_1_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.53
+    },
+    {
+      "id": "50107_clip_6_video_verification",
+      "pred": "D",
+      "gold": "K",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.82
+    },
+    {
+      "id": "50107_clip_4_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "63662_clip_8_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.53
+    },
+    {
+      "id": "63662_clip_6_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "60744_clip_8_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.48
+    },
+    {
+      "id": "60744_clip_5_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.53
+    },
+    {
+      "id": "52214_clip_1_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.48
+    },
+    {
+      "id": "52214_clip_4_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "59739_clip_6_video_verification",
+      "pred": "C",
+      "gold": "G",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.63
+    },
+    {
+      "id": "59739_clip_5_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.29
+    },
+    {
+      "id": "58818_clip_1_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.73
+    },
+    {
+      "id": "58818_clip_3_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.97
+    },
+    {
+      "id": "1842_clip_6_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.38
+    },
+    {
+      "id": "1842_clip_3_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "57021_clip_2_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.59
+    },
+    {
+      "id": "57021_clip_1_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.52
+    },
+    {
+      "id": "62650_clip_9_video_verification",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.58
+    },
+    {
+      "id": "62650_clip_7_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.53
+    },
+    {
+      "id": "64175_clip_2_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.88
+    },
+    {
+      "id": "64175_clip_6_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.71
+    },
+    {
+      "id": "59700_clip_5_video_verification",
+      "pred": "B",
+      "gold": "E",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "59700_clip_9_video_verification",
+      "pred": "",
+      "gold": "F",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.51
+    },
+    {
+      "id": "56013_clip_3_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.63
+    },
+    {
+      "id": "56013_clip_1_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "G",
+      "elapsed": 0.48
+    },
+    {
+      "id": "64400_clip_4_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "64400_clip_1_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "63013_clip_12_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "63013_clip_11_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "2757_clip_9_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.48
+    },
+    {
+      "id": "2757_clip_6_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.37
+    },
+    {
+      "id": "60245_clip_2_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.54
+    },
+    {
+      "id": "60245_clip_8_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.51
+    },
+    {
+      "id": "3642_clip_3_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "3642_clip_5_video_verification",
+      "pred": "C",
+      "gold": "J",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "52299_clip_5_video_verification",
+      "pred": "",
+      "gold": "G",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "52299_clip_6_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.5
+    },
+    {
+      "id": "63101_clip_8_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.53
+    },
+    {
+      "id": "63101_clip_9_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.55
+    },
+    {
+      "id": "64314_clip_8_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.53
+    },
+    {
+      "id": "64314_clip_7_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.52
+    },
+    {
+      "id": "63997_clip_6_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "63997_clip_4_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "55532_clip_3_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.32
+    },
+    {
+      "id": "55532_clip_4_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.46
+    },
+    {
+      "id": "60711_clip_4_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "60711_clip_7_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.21
+    },
+    {
+      "id": "61625_clip_2_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61625_clip_3_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "59243_clip_1_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.31
+    },
+    {
+      "id": "59243_clip_8_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.34
+    },
+    {
+      "id": "53009_clip_2_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "53009_clip_5_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "52601_clip_8_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "52601_clip_7_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "61054_clip_8_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.52
+    },
+    {
+      "id": "61054_clip_1_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.51
+    },
+    {
+      "id": "54614_clip_4_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "54614_clip_5_video_verification",
+      "pred": "B",
+      "gold": "I",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "63129_clip_6_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "63129_clip_3_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.19
+    },
+    {
+      "id": "52411_clip_6_video_verification",
+      "pred": "",
+      "gold": "F",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.47
+    },
+    {
+      "id": "52411_clip_7_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.76
+    },
+    {
+      "id": "53248_clip_6_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "53248_clip_7_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.48
+    },
+    {
+      "id": "56779_clip_8_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "56779_clip_6_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "52818_clip_4_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.33
+    },
+    {
+      "id": "52818_clip_6_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.52
+    },
+    {
+      "id": "58267_clip_2_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.48
+    },
+    {
+      "id": "58267_clip_7_video_verification",
+      "pred": "C",
+      "gold": "H",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.52
+    },
+    {
+      "id": "62088_clip_6_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "62088_clip_2_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "60461_clip_8_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.31
+    },
+    {
+      "id": "60461_clip_5_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.23
+    },
+    {
+      "id": "59358_clip_8_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.52
+    },
+    {
+      "id": "59358_clip_5_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "52225_clip_2_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.49
+    },
+    {
+      "id": "52225_clip_4_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "63296_clip_3_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "I",
+      "elapsed": 0.51
+    },
+    {
+      "id": "63296_clip_8_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.52
+    },
+    {
+      "id": "56338_clip_4_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.31
+    },
+    {
+      "id": "56338_clip_5_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.38
+    },
+    {
+      "id": "63501_clip_4_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.34
+    },
+    {
+      "id": "63501_clip_5_video_verification",
+      "pred": "D",
+      "gold": "G",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.52
+    },
+    {
+      "id": "55718_clip_4_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "55718_clip_6_video_verification",
+      "pred": "B",
+      "gold": "F",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "55964_clip_7_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.29
+    },
+    {
+      "id": "55964_clip_2_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.49
+    },
+    {
+      "id": "58164_clip_6_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "58164_clip_7_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "55463_clip_1_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.5
+    },
+    {
+      "id": "55463_clip_8_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.38
+    },
+    {
+      "id": "57988_clip_2_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "57988_clip_6_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.53
+    },
+    {
+      "id": "3953_clip_4_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "3953_clip_1_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "61993_clip_10_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.34
+    },
+    {
+      "id": "61993_clip_9_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "52742_clip_8_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "52742_clip_9_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "61037_clip_7_video_verification",
+      "pred": "C",
+      "gold": "F",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61037_clip_3_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.46
+    },
+    {
+      "id": "50969_clip_6_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "50969_clip_3_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.46
+    },
+    {
+      "id": "58743_clip_2_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.46
+    },
+    {
+      "id": "58743_clip_3_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.32
+    },
+    {
+      "id": "54752_clip_2_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "54752_clip_5_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.56
+    },
+    {
+      "id": "61013_clip_6_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "61013_clip_7_video_verification",
+      "pred": "B",
+      "gold": "H",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.52
+    },
+    {
+      "id": "59449_clip_5_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.52
+    },
+    {
+      "id": "59449_clip_7_video_verification",
+      "pred": "D",
+      "gold": "G",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.57
+    },
+    {
+      "id": "52456_clip_9_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.54
+    },
+    {
+      "id": "52456_clip_10_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.31
+    },
+    {
+      "id": "63838_clip_5_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "63838_clip_4_video_verification",
+      "pred": "C",
+      "gold": "F",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.6
+    },
+    {
+      "id": "58290_clip_6_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.5
+    },
+    {
+      "id": "58290_clip_4_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "3563_clip_4_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "3563_clip_2_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "57789_clip_7_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.23
+    },
+    {
+      "id": "57789_clip_4_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.52
+    },
+    {
+      "id": "2137_clip_7_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "2137_clip_9_video_verification",
+      "pred": "",
+      "gold": "G",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.77
+    },
+    {
+      "id": "57541_clip_6_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.74
+    },
+    {
+      "id": "57541_clip_4_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "63934_clip_2_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.6
+    },
+    {
+      "id": "63934_clip_1_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.75
+    },
+    {
+      "id": "53931_clip_4_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "53931_clip_6_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "56266_clip_5_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.71
+    },
+    {
+      "id": "56266_clip_2_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.52
+    },
+    {
+      "id": "2464_clip_5_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "2464_clip_2_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.32
+    },
+    {
+      "id": "64484_clip_7_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.35
+    },
+    {
+      "id": "64484_clip_9_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.77
+    },
+    {
+      "id": "51974_clip_10_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "51974_clip_12_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.49
+    },
+    {
+      "id": "64798_clip_2_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "64798_clip_7_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "58022_clip_3_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.31
+    },
+    {
+      "id": "58022_clip_5_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.27
+    },
+    {
+      "id": "55459_clip_4_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "55459_clip_3_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.32
+    },
+    {
+      "id": "51513_clip_6_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.48
+    },
+    {
+      "id": "51513_clip_3_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "59119_clip_4_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "59119_clip_5_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.55
+    },
+    {
+      "id": "57660_clip_2_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "57660_clip_4_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.53
+    },
+    {
+      "id": "62623_clip_6_video_verification",
+      "pred": "D",
+      "gold": "J",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.52
+    },
+    {
+      "id": "62623_clip_10_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.51
+    },
+    {
+      "id": "65126_clip_9_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "65126_clip_8_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "61743_clip_3_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "I",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61743_clip_4_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.51
+    },
+    {
+      "id": "64560_clip_4_video_verification",
+      "pred": "C",
+      "gold": "G",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.56
+    },
+    {
+      "id": "64560_clip_1_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.53
+    },
+    {
+      "id": "50196_clip_2_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.65
+    },
+    {
+      "id": "50196_clip_3_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "56639_clip_1_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "56639_clip_6_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.4
+    },
+    {
+      "id": "59156_clip_6_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "59156_clip_8_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.31
+    },
+    {
+      "id": "50658_clip_9_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.32
+    },
+    {
+      "id": "50658_clip_4_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "64146_clip_8_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.55
+    },
+    {
+      "id": "64146_clip_4_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.29
+    },
+    {
+      "id": "57914_clip_3_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.54
+    },
+    {
+      "id": "57914_clip_2_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.55
+    },
+    {
+      "id": "62559_clip_4_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.52
+    },
+    {
+      "id": "62559_clip_2_video_verification",
+      "pred": "C",
+      "gold": "G",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.87
+    },
+    {
+      "id": "201777_clip_8_video_verification",
+      "pred": "",
+      "gold": "G",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.51
+    },
+    {
+      "id": "201777_clip_7_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.39
+    },
+    {
+      "id": "57313_clip_1_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.5
+    },
+    {
+      "id": "57313_clip_2_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "65086_clip_1_video_verification",
+      "pred": "C",
+      "gold": "F",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.85
+    },
+    {
+      "id": "65086_clip_6_video_verification",
+      "pred": "C",
+      "gold": "J",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.53
+    },
+    {
+      "id": "57737_clip_4_video_verification",
+      "pred": "",
+      "gold": "G",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.53
+    },
+    {
+      "id": "57737_clip_6_video_verification",
+      "pred": "",
+      "gold": "F",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.51
+    },
+    {
+      "id": "58081_clip_2_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "58081_clip_5_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "G",
+      "elapsed": 0.51
+    },
+    {
+      "id": "54863_clip_5_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.31
+    },
+    {
+      "id": "54863_clip_2_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "51846_clip_3_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.26
+    },
+    {
+      "id": "51846_clip_5_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.32
+    },
+    {
+      "id": "63543_clip_3_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.36
+    },
+    {
+      "id": "63543_clip_8_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "60488_clip_2_video_verification",
+      "pred": "",
+      "gold": "G",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.5
+    },
+    {
+      "id": "60488_clip_4_video_verification",
+      "pred": "B",
+      "gold": "H",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.52
+    },
+    {
+      "id": "60500_clip_8_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "60500_clip_7_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.27
+    },
+    {
+      "id": "3564_clip_10_video_verification",
+      "pred": "D",
+      "gold": "G",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "3564_clip_5_video_verification",
+      "pred": "",
+      "gold": "F",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.55
+    },
+    {
+      "id": "62771_clip_3_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.54
+    },
+    {
+      "id": "62771_clip_10_video_verification",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.52
+    },
+    {
+      "id": "57909_clip_2_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.67
+    },
+    {
+      "id": "57909_clip_5_video_verification",
+      "pred": "A",
+      "gold": "G",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.51
+    },
+    {
+      "id": "50191_clip_1_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.49
+    },
+    {
+      "id": "50191_clip_5_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.58
+    },
+    {
+      "id": "52750_clip_5_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "52750_clip_4_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.23
+    },
+    {
+      "id": "58474_clip_3_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.56
+    },
+    {
+      "id": "58474_clip_4_video_verification",
+      "pred": "C",
+      "gold": "F",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.76
+    },
+    {
+      "id": "60599_clip_4_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.54
+    },
+    {
+      "id": "60599_clip_3_video_verification",
+      "pred": "C",
+      "gold": "G",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.53
+    },
+    {
+      "id": "56488_clip_7_video_verification",
+      "pred": "",
+      "gold": "F",
+      "score": 0.0,
+      "response": "G",
+      "elapsed": 0.48
+    },
+    {
+      "id": "56488_clip_6_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "58323_clip_7_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.54
+    },
+    {
+      "id": "58323_clip_3_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.49
+    },
+    {
+      "id": "61330_clip_7_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "61330_clip_10_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61173_clip_7_video_verification",
+      "pred": "",
+      "gold": "G",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.52
+    },
+    {
+      "id": "61173_clip_1_video_verification",
+      "pred": "B",
+      "gold": "G",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "3608_clip_6_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "3608_clip_7_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "51250_clip_3_video_verification",
+      "pred": "",
+      "gold": "F",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "51250_clip_2_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "61954_clip_5_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "61954_clip_1_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.61
+    },
+    {
+      "id": "50527_clip_2_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "50527_clip_5_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.49
+    },
+    {
+      "id": "55080_clip_5_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.77
+    },
+    {
+      "id": "55080_clip_3_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "4022_clip_1_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "4022_clip_5_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "59447_clip_8_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.52
+    },
+    {
+      "id": "59447_clip_7_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.34
+    },
+    {
+      "id": "57847_clip_6_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.73
+    },
+    {
+      "id": "57847_clip_8_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.51
+    },
+    {
+      "id": "2177_clip_6_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.82
+    },
+    {
+      "id": "2177_clip_2_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.42
+    },
+    {
+      "id": "54615_clip_5_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.32
+    },
+    {
+      "id": "54615_clip_4_video_verification",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58971_clip_12_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.28
+    },
+    {
+      "id": "58971_clip_9_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.31
+    },
+    {
+      "id": "57629_clip_3_video_verification",
+      "pred": "D",
+      "gold": "G",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.53
+    },
+    {
+      "id": "57629_clip_7_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58580_clip_3_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.54
+    },
+    {
+      "id": "58580_clip_5_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.8
+    },
+    {
+      "id": "58184_clip_3_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.56
+    },
+    {
+      "id": "58184_clip_5_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.53
+    },
+    {
+      "id": "52542_clip_1_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "52542_clip_7_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.48
+    },
+    {
+      "id": "56676_clip_4_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.63
+    },
+    {
+      "id": "56676_clip_3_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.41
+    },
+    {
+      "id": "58239_clip_5_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.54
+    },
+    {
+      "id": "58239_clip_1_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "59338_clip_9_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.46
+    },
+    {
+      "id": "59338_clip_4_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.32
+    },
+    {
+      "id": "4415_clip_7_video_verification",
+      "pred": "D",
+      "gold": "E",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "4415_clip_5_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "52653_clip_6_video_verification",
+      "pred": "C",
+      "gold": "I",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "52653_clip_4_video_verification",
+      "pred": "A",
+      "gold": "G",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.47
+    },
+    {
+      "id": "56819_clip_7_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.48
+    },
+    {
+      "id": "56819_clip_6_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "62853_clip_4_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.31
+    },
+    {
+      "id": "62853_clip_9_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.47
+    },
+    {
+      "id": "52098_clip_5_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "52098_clip_4_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "K",
+      "elapsed": 0.5
+    },
+    {
+      "id": "57499_clip_4_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.6
+    },
+    {
+      "id": "57499_clip_7_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61124_clip_8_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.49
+    },
+    {
+      "id": "61124_clip_9_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.52
+    },
+    {
+      "id": "55594_clip_6_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.42
+    },
+    {
+      "id": "55594_clip_2_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "58174_clip_9_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.43
+    },
+    {
+      "id": "58174_clip_8_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.54
+    },
+    {
+      "id": "61760_clip_2_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.46
+    },
+    {
+      "id": "61760_clip_3_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.6
+    },
+    {
+      "id": "53010_clip_2_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.42
+    },
+    {
+      "id": "53010_clip_7_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.33
+    },
+    {
+      "id": "57131_clip_2_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.49
+    },
+    {
+      "id": "57131_clip_1_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.32
+    },
+    {
+      "id": "57016_clip_3_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "57016_clip_10_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "53156_clip_4_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.31
+    },
+    {
+      "id": "53156_clip_2_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "61383_clip_7_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61383_clip_6_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "52325_clip_3_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "52325_clip_7_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.73
+    },
+    {
+      "id": "2465_clip_2_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "L",
+      "elapsed": 0.48
+    },
+    {
+      "id": "2465_clip_1_video_verification",
+      "pred": "D",
+      "gold": "I",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "61798_clip_6_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61798_clip_2_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54661_clip_1_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "54661_clip_8_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "56611_clip_9_video_verification",
+      "pred": "C",
+      "gold": "G",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.52
+    },
+    {
+      "id": "56611_clip_1_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.31
+    },
+    {
+      "id": "65848_clip_7_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.59
+    },
+    {
+      "id": "65848_clip_3_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61666_clip_2_video_verification",
+      "pred": "C",
+      "gold": "F",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61666_clip_8_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.53
+    },
+    {
+      "id": "56825_clip_1_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "56825_clip_5_video_verification",
+      "pred": "B",
+      "gold": "H",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.55
+    },
+    {
+      "id": "58223_clip_9_video_verification",
+      "pred": "B",
+      "gold": "F",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.76
+    },
+    {
+      "id": "58223_clip_2_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58727_clip_10_video_verification",
+      "pred": "A",
+      "gold": "E",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.51
+    },
+    {
+      "id": "58727_clip_8_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.29
+    },
+    {
+      "id": "58882_clip_2_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.96
+    },
+    {
+      "id": "58882_clip_9_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "51079_clip_7_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "51079_clip_9_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.55
+    },
+    {
+      "id": "67076_clip_9_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "G",
+      "elapsed": 0.48
+    },
+    {
+      "id": "67076_clip_4_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.59
+    },
+    {
+      "id": "59616_clip_11_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.49
+    },
+    {
+      "id": "59616_clip_10_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "59027_clip_5_video_verification",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "59027_clip_2_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.31
+    },
+    {
+      "id": "57759_clip_7_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.48
+    },
+    {
+      "id": "57759_clip_9_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "56494_clip_6_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.78
+    },
+    {
+      "id": "56494_clip_1_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "61184_clip_5_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.64
+    },
+    {
+      "id": "61184_clip_3_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.49
+    },
+    {
+      "id": "62864_clip_7_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.52
+    },
+    {
+      "id": "62864_clip_6_video_verification",
+      "pred": "C",
+      "gold": "I",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61876_clip_4_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.68
+    },
+    {
+      "id": "61876_clip_5_video_verification",
+      "pred": "D",
+      "gold": "K",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "55968_clip_8_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.49
+    },
+    {
+      "id": "55968_clip_2_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58359_clip_7_video_verification",
+      "pred": "C",
+      "gold": "G",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.56
+    },
+    {
+      "id": "58359_clip_4_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.7
+    },
+    {
+      "id": "53980_clip_8_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "53980_clip_9_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "57979_clip_1_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.72
+    },
+    {
+      "id": "57979_clip_4_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "58484_clip_6_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.23
+    },
+    {
+      "id": "58484_clip_9_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "55301_clip_7_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "55301_clip_2_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.31
+    },
+    {
+      "id": "50332_clip_1_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.46
+    },
+    {
+      "id": "50332_clip_6_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.65
+    },
+    {
+      "id": "61854_clip_8_video_verification",
+      "pred": "",
+      "gold": "H",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.51
+    },
+    {
+      "id": "61854_clip_3_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "58083_clip_11_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.53
+    },
+    {
+      "id": "58083_clip_3_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "56423_clip_7_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.35
+    },
+    {
+      "id": "56423_clip_1_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.37
+    },
+    {
+      "id": "2618_clip_2_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.45
+    },
+    {
+      "id": "2618_clip_3_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "55614_clip_6_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "I",
+      "elapsed": 0.48
+    },
+    {
+      "id": "55614_clip_5_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "201832_clip_8_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.64
+    },
+    {
+      "id": "201832_clip_1_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.47
+    },
+    {
+      "id": "56195_clip_2_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "56195_clip_7_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "56437_clip_1_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.88
+    },
+    {
+      "id": "56437_clip_5_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.21
+    },
+    {
+      "id": "61243_clip_7_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.64
+    },
+    {
+      "id": "61243_clip_5_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.37
+    },
+    {
+      "id": "63245_clip_5_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.61
+    },
+    {
+      "id": "63245_clip_1_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.6
+    },
+    {
+      "id": "54839_clip_7_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "I",
+      "elapsed": 0.34
+    },
+    {
+      "id": "54839_clip_4_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.37
+    },
+    {
+      "id": "57332_clip_6_video_verification",
+      "pred": "A",
+      "gold": "E",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.57
+    },
+    {
+      "id": "57332_clip_5_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.35
+    },
+    {
+      "id": "64889_clip_4_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.51
+    },
+    {
+      "id": "64889_clip_7_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "51551_clip_5_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.59
+    },
+    {
+      "id": "51551_clip_4_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.33
+    },
+    {
+      "id": "60692_clip_5_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.51
+    },
+    {
+      "id": "60692_clip_8_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.5
+    },
+    {
+      "id": "61391_clip_5_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "61391_clip_6_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "54786_clip_4_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.87
+    },
+    {
+      "id": "54786_clip_2_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "57573_clip_1_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "57573_clip_4_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.53
+    },
+    {
+      "id": "4104_clip_6_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "4104_clip_5_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.38
+    },
+    {
+      "id": "200904_clip_3_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "200904_clip_2_video_verification",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.51
+    },
+    {
+      "id": "2693_clip_5_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "2693_clip_3_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.33
+    },
+    {
+      "id": "56418_clip_3_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.63
+    },
+    {
+      "id": "56418_clip_5_video_verification",
+      "pred": "A",
+      "gold": "E",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.47
+    },
+    {
+      "id": "50593_clip_2_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.31
+    },
+    {
+      "id": "50593_clip_5_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.42
+    },
+    {
+      "id": "58577_clip_5_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "H",
+      "elapsed": 0.55
+    },
+    {
+      "id": "58577_clip_1_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.52
+    },
+    {
+      "id": "3847_clip_2_video_verification",
+      "pred": "B",
+      "gold": "E",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "3847_clip_6_video_verification",
+      "pred": "C",
+      "gold": "F",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.87
+    },
+    {
+      "id": "60961_clip_6_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.68
+    },
+    {
+      "id": "60961_clip_1_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.53
+    },
+    {
+      "id": "58104_clip_2_video_verification",
+      "pred": "",
+      "gold": "F",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.86
+    },
+    {
+      "id": "58104_clip_3_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.67
+    },
+    {
+      "id": "59555_clip_5_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "59555_clip_9_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "4295_clip_4_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "4295_clip_1_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "4142_clip_8_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.38
+    },
+    {
+      "id": "4142_clip_9_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "54171_clip_4_video_verification",
+      "pred": "",
+      "gold": "A",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.46
+    },
+    {
+      "id": "54171_clip_2_video_verification",
+      "pred": "C",
+      "gold": "E",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "57075_clip_9_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.32
+    },
+    {
+      "id": "57075_clip_3_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.38
+    },
+    {
+      "id": "51388_clip_6_video_verification",
+      "pred": "",
+      "gold": "E",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "51388_clip_7_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "55835_clip_4_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.87
+    },
+    {
+      "id": "55835_clip_6_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.48
+    },
+    {
+      "id": "50946_clip_3_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.37
+    },
+    {
+      "id": "50946_clip_1_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.42
+    },
+    {
+      "id": "61449_clip_1_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "61449_clip_8_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.75
+    },
+    {
+      "id": "55098_clip_7_video_verification",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.47
+    },
+    {
+      "id": "55098_clip_5_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.31
+    },
+    {
+      "id": "53672_clip_1_video_verification",
+      "pred": "C",
+      "gold": "H",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "53672_clip_7_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.26
+    },
+    {
+      "id": "2355_clip_6_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.5
+    },
+    {
+      "id": "2355_clip_2_video_verification",
+      "pred": "",
+      "gold": "C",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.47
+    },
+    {
+      "id": "3250_clip_3_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.46
+    },
+    {
+      "id": "3250_clip_4_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "3888_clip_2_video_verification",
+      "pred": "B",
+      "gold": "E",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.46
+    },
+    {
+      "id": "3888_clip_4_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.56
+    },
+    {
+      "id": "60241_clip_10_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "60241_clip_4_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.3
+    },
+    {
+      "id": "53800_clip_5_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "200093_clip_7_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "63039_clip_1_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.67
+    },
+    {
+      "id": "57379_clip_3_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.86
+    },
+    {
+      "id": "54030_clip_3_video_verification",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.47
+    },
+    {
+      "id": "61930_clip_8_video_verification",
+      "pred": "D",
+      "gold": "G",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.62
+    },
+    {
+      "id": "56127_clip_5_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.31
+    },
+    {
+      "id": "64072_clip_5_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "3521_clip_7_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "3039_clip_3_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.62
+    },
+    {
+      "id": "60259_clip_7_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.58
+    },
+    {
+      "id": "62458_clip_8_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.51
+    },
+    {
+      "id": "54147_clip_3_video_verification",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.53
+    },
+    {
+      "id": "58458_clip_4_video_verification",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.46
+    },
+    {
+      "id": "53618_clip_4_video_verification",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.55
+    },
+    {
+      "id": "63020_clip_1_video_verification",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "62432_clip_4_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.52
+    },
+    {
+      "id": "54972_clip_8_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "G",
+      "elapsed": 0.47
+    },
+    {
+      "id": "54189_clip_6_video_verification",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "58099_clip_9_video_verification",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.81
+    },
+    {
+      "id": "55307_clip_3_video_verification",
+      "pred": "A",
+      "gold": "F",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.47
+    },
+    {
+      "id": "62876_clip_7_video_verification",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "61411_clip_3_video_verification",
+      "pred": "D",
+      "gold": "F",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.52
+    },
+    {
+      "id": "62533_clip_7_video_verification",
+      "pred": "",
+      "gold": "D",
+      "score": 0.0,
+      "response": "F",
+      "elapsed": 0.31
+    },
+    {
+      "id": "56651_clip_3_video_verification",
+      "pred": "",
+      "gold": "B",
+      "score": 0.0,
+      "response": "E",
+      "elapsed": 0.45
+    },
+    {
+      "id": "58438_clip_2_video_verification",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "52090_clip_13_video_verification",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.24
+    },
+    {
+      "id": "60550_clip_1_video_verification",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "3164_clip_2_video_verification",
+      "pred": "C",
+      "gold": "I",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "56997_clip_8_video_verification",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "4154_clip_5_video_verification",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.8
+    },
+    {
+      "id": "64100_clip_3_video_verification",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.4
+    }
+  ]
+}

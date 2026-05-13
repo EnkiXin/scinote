@@ -201,34 +201,69 @@ max_pixels = 360 * 420  # 别压更低，会触发 min_pixels 错误
 
 ---
 
-## H200 Phase 0 — Qwen2.5-VL-7B Pipeline Sanity (2026-05-13)
+## H200 Qwen2.5-VL-7B — 论文 vs C1 baseline vs +note (Two-stage v2)
 
-**机器**：UNT `ci-l-2x6nxb4`（8× H200 143GB），仅占 GPU 0
+**机器**：UNT `ci-l-2x6nxb4`（8× H200 143GB）
 **Env**：`expvid` conda env，Python 3.11，torch 2.6.0+cu124，transformers 4.57.6
-**目标**：在新机器上端到端跑通 evaluate.py，对账 Mac/featurize 4090 上的现有 7B 数据
+**Frames**：统一 32 frames（不像 Mac 4090 L3 必须 patched 到 8 frames）
+**Backbone**：Qwen2.5-VL-7B-Instruct，bf16，单卡推理
 
-### L1（4 task，全量）— ✅ 复现 Mac 数据
+参考点：
+- **Paper** = ExpVid 论文 Table 2 的 Qwen2.5-VL-7B-Instruct (think=×) 数字 (Xu et al., ICLR 2026, arXiv:2510.11606)
+- **H200 C1** = 视频 only baseline（[evaluate.py](evaluate.py)），即论文标准设置在 H200 上的复现
+- **H200 +note** = Two-stage v2 task-aware notes（[evaluate_twostage_v2.py](evaluate_twostage_v2.py)）：Stage 1 VLM 生成结构化笔记，Stage 2 用笔记答题，**全程不喂 ASR**
 
-| Task | H200 (32 frames) | Mac/featurize (32 frames) | Δ | n_valid | errors |
-|---|---|---|---|---|---|
-| materials | 34.00% | 34.28% | -0.3pp ✅ | 1266 | 0 |
-| tools | 36.30% | 35.66% | +0.6pp ✅ | 1130 | 0 |
-| operation | 64.60% | 64.43% | +0.2pp ✅ | 938 | 0 |
-| quantity | 47.20% | 48.78% | -1.6pp ⚠️ | 701 | 0 |
-| **avg** | **45.52%** | **45.79%** | **-0.27pp** ✅ | **4035** | **0** |
+### L1 (Fine-grained Perception, 32 frames)
 
-**结论**：L1 复现成功。整体平均偏差 0.27pp，单 task 最大偏差 -1.6pp（quantity），仍在 ±2pp 合理范围内（采样 + 推理随机性可解释）。H200 上 0 errors（Mac 上有 OOM 噪声）说明 143GB VRAM 完全充裕。
+| Task | Paper (×think) | H200 C1 | H200 +note | Δ (+note − C1) |
+|---|---|---|---|---|
+| materials | 33.9 | **34.00** | **35.78** | **+1.8** ✅ |
+| tools | 32.0 | 36.30 | 32.65 | -3.7 ❌ |
+| operation | 62.4 | 64.60 | 52.13 | -12.5 ❌ |
+| quantity | 49.0 | 47.20 | 32.38 | -14.8 ❌ |
+| **avg** | **42.6** | **45.52** | **38.23** | **-7.3** |
 
-### 运行时长
+**L1 解读**：
+- ✅ H200 C1 baseline 比论文 +2.9pp，验证 pipeline 跑通
+- ✅ materials task 上 +note 涨 +1.8pp — task-aware prompt 强制 VLM 在笔记里写下具体可读标签
+- ❌ operation / quantity 上 +note 大跌（-12.5 / -14.8）— task-aware prompt focus 过头丢 context（"count things" 时只记数字丢了 setting）
+- 与 Mac/featurize 早先实验（[原 Mac §Two-stage v2](#two-stage-prompt-实验) 已被本表替代）趋势一致：v2 helps materials, hurts operation/quantity
+- **finding**: 单一固定 prompt 不够，需要 **训练学到 task-conditional 该记什么不该记什么**（counterfactual SFT for note-taking，TBD）
 
-| Step | Wall clock |
-|---|---|
-| Env setup + smoke test | 5 min |
-| L1 full (4 task, 4035 samples) | ~1h 56min |
-| 推理速度 | ~0.1-0.3s/sample after warmup |
+### L2 (Procedural Understanding, 32 frames)
 
-### L2 / L3
-🔄 跑中 (GPU 0, `--resume`)。
+| Task | Paper (×think) | H200 C1 | H200 +note | Δ (+note − C1) |
+|---|---|---|---|---|
+| sequence_generation | 20.8 (Jaccard) | 43.32 (F1, 指标不同) | 跑中 | TBD |
+| sequence_ordering | 56.2 | 52.64 | 跑中 | TBD |
+| step_prediction | 1.3 | 2.14 | 跑中 | TBD |
+| video_verification | 20.7 | 17.41 | 跑中 | TBD |
+| **avg** | **24.6** | **28.88** | TBD | TBD |
+
+⚠️ L2 +note 跑中（GPU 3，从 v2 L1 自动链上）。**video_verification 是历史上 v2 最强信号点（Mac 上 +13.2pp）**，本次 32-frame H200 数据是第一次重测，重要观察点。
+
+### L3 (Scientific Reasoning, 32 frames — first ever full-frame run)
+
+| Task | Paper (×think) | H200 C1 | H200 +note | Δ (+note − C1) |
+|---|---|---|---|---|
+| experimental_conclusion | 25.2 | 跑中 | TBD | TBD |
+| scientific_discovery | 21.4 | 跑中 | TBD | TBD |
+| **avg** | **23.3** | TBD | TBD | TBD |
+
+⚠️ L3 baseline 跑中（GPU 2），+note 待启动。**Mac 上 L3 因 4090 24GB 显存被强制 patched 到 8 frames（信息丢失大），这次 H200 用全 32 frames 是首次正确数据**。
+
+### 运行时长（H200 上）
+
+| Step | Wall clock | 备注 |
+|---|---|---|
+| Env setup + smoke test | 5 min | |
+| L1 baseline (4 task, 4035 samples) | ~1h 56min | GPU 0 |
+| L1 +note (4 task, 4035 samples) | ~2h | GPU 3，跟 L2/L3 baseline 并行 |
+| L2 baseline (4 task, 2985 samples) | ~? | GPU 0 (just finished) |
+| L2 +note | running | GPU 3 |
+| L3 baseline (2 task, 32 frames) | running | GPU 2 (~2-3h) |
+| 推理速度 | ~0.1-0.3 s/sample warm | |
 
 ### 后续 Phase
-Phase 0 success 后，决定是否启动 Phase 1：扩展到论文 Table 2 其它开源模型（InternVL3-8B / Intern-S1-mini / MiMo-VL-7B / Keye-VL ×2 / GLM-4.1V-9B / Kimi-VL-A3B-Thinking 等 9 个 ≤9B 模型）。详见 [docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md](docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md)。
+
+Phase 0 (Qwen2.5-VL-7B 单模型完整复现 + v2 全 task) 跑完后，决定是否启动 Phase 1：扩展到论文 Table 2 其它开源模型（InternVL3-8B / Intern-S1-mini / MiMo-VL-7B / Keye-VL ×2 / GLM-4.1V-9B / Kimi-VL-A3B-Thinking 等 ≤9B 模型）。详见 [docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md](docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md)。

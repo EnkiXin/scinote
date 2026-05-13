@@ -1,0 +1,5920 @@
+{
+  "task": "sequence_ordering",
+  "accuracy": 52.64,
+  "n_valid": 739,
+  "n_error": 0,
+  "results": [
+    {
+      "id": "58301_clip6_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.41
+    },
+    {
+      "id": "58301_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "55685_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.48
+    },
+    {
+      "id": "55685_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.49
+    },
+    {
+      "id": "62417_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "62417_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "62279_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "62279_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.33
+    },
+    {
+      "id": "65412_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "65412_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "62623_clip10_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.54
+    },
+    {
+      "id": "62623_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.42
+    },
+    {
+      "id": "53010_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "53010_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "67016_clip9_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.33
+    },
+    {
+      "id": "67016_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.37
+    },
+    {
+      "id": "53789_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "53789_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "52653_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "52653_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58882_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "58882_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "67076_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.33
+    },
+    {
+      "id": "67076_clip6_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.37
+    },
+    {
+      "id": "54615_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54615_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.29
+    },
+    {
+      "id": "51846_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.33
+    },
+    {
+      "id": "51846_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "50969_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "50969_clip2_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "200904_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "200904_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.38
+    },
+    {
+      "id": "56423_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "56423_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.33
+    },
+    {
+      "id": "58283_clip2_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.65
+    },
+    {
+      "id": "58283_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "53260_clip9_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "53260_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "52874_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.33
+    },
+    {
+      "id": "52874_clip9_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "59358_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "59358_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "50191_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "50191_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "3227_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.28
+    },
+    {
+      "id": "3227_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.27
+    },
+    {
+      "id": "3874_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "3874_clip9_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "56248_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "56248_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "57613_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57613_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "60500_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "60500_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "63039_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "63039_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.45
+    },
+    {
+      "id": "60828_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "60828_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "58332_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "58332_clip9_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "200093_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "200093_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "4159_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "4159_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "56243_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "56243_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "57137_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "57137_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "61054_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.68
+    },
+    {
+      "id": "61054_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "2177_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "2177_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58323_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "58323_clip9_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "52557_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "52557_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "4104_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.33
+    },
+    {
+      "id": "4104_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "55531_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "55531_clip9_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "4308_clip6_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.32
+    },
+    {
+      "id": "4308_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.37
+    },
+    {
+      "id": "58674_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.36
+    },
+    {
+      "id": "58674_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "62559_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "62559_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "58644_clip11_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.31
+    },
+    {
+      "id": "58644_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.38
+    },
+    {
+      "id": "56268_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "56268_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.49
+    },
+    {
+      "id": "55594_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "55594_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "58083_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "58083_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "3187_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "3187_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "57979_clip8_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "57979_clip9_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "60961_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "60961_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "52732_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "52732_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "58474_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "58474_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "56857_clip8_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.27
+    },
+    {
+      "id": "56857_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "62458_clip6_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.53
+    },
+    {
+      "id": "62458_clip9_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "62107_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "62107_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "63543_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "63543_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "50327_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "50327_clip9_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "56997_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "56997_clip10_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "55649_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "55649_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "2137_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "2137_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.38
+    },
+    {
+      "id": "55504_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.32
+    },
+    {
+      "id": "55504_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "62432_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "62432_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57573_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57573_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "61805_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "61805_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54899_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54899_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "57629_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "57629_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "61760_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "61760_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "62309_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "62309_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "59156_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.32
+    },
+    {
+      "id": "59156_clip9_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.37
+    },
+    {
+      "id": "200229_clip9_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.42
+    },
+    {
+      "id": "200229_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "52542_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "52542_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54413_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "54413_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "61453_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "61453_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57346_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "57346_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "53672_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "53672_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.37
+    },
+    {
+      "id": "55307_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "55307_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "60550_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.37
+    },
+    {
+      "id": "60550_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "56859_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "56859_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "62964_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.38
+    },
+    {
+      "id": "62964_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "52325_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "52325_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "63779_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "63779_clip2_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.45
+    },
+    {
+      "id": "56676_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "56676_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "52090_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.42
+    },
+    {
+      "id": "52090_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "58334_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "58334_clip9_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.29
+    },
+    {
+      "id": "53618_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "53618_clip8_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.56
+    },
+    {
+      "id": "59965_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.41
+    },
+    {
+      "id": "59965_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "50867_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "50867_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "56094_clip12_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "56094_clip14_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "57909_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "57909_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "50389_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "50389_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "54147_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54147_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "61993_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "61993_clip10_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.35
+    },
+    {
+      "id": "60982_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "60982_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57293_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "57293_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.42
+    },
+    {
+      "id": "51161_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.49
+    },
+    {
+      "id": "51161_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "61800_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "61800_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "58314_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "58314_clip9_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.34
+    },
+    {
+      "id": "58359_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "58359_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.35
+    },
+    {
+      "id": "61184_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "61184_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "53411_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.26
+    },
+    {
+      "id": "53411_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "61391_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.49
+    },
+    {
+      "id": "61391_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "54934_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54934_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "60273_clip10_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.37
+    },
+    {
+      "id": "60273_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.68
+    },
+    {
+      "id": "61243_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "61243_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "54144_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "54144_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57561_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.55
+    },
+    {
+      "id": "57561_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "2693_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "2693_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.36
+    },
+    {
+      "id": "55459_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.46
+    },
+    {
+      "id": "55459_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "64400_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "64400_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "54171_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54171_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.36
+    },
+    {
+      "id": "64923_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.42
+    },
+    {
+      "id": "64923_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "59338_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.31
+    },
+    {
+      "id": "59338_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "64759_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "64759_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "59119_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "59119_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "55614_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "55614_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "50849_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "50849_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "64072_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.41
+    },
+    {
+      "id": "64072_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.56
+    },
+    {
+      "id": "54863_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54863_clip9_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "52859_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "52859_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "60461_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "60461_clip12_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.32
+    },
+    {
+      "id": "65848_clip2_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "65848_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "57789_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57789_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58927_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "58927_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "56418_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "56418_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "4142_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "4142_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "58022_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "58022_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.29
+    },
+    {
+      "id": "57928_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57928_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "56327_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "56327_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "62182_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "62182_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "61876_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "61876_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.49
+    },
+    {
+      "id": "63855_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "63855_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "63892_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "63892_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.33
+    },
+    {
+      "id": "63934_clip2_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "63934_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "52750_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.33
+    },
+    {
+      "id": "52750_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.28
+    },
+    {
+      "id": "54752_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.28
+    },
+    {
+      "id": "54752_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "61770_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.34
+    },
+    {
+      "id": "61770_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "64041_clip9_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.38
+    },
+    {
+      "id": "64041_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.37
+    },
+    {
+      "id": "4422_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "4422_clip8_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "55500_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "55500_clip2_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.41
+    },
+    {
+      "id": "54818_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54818_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.35
+    },
+    {
+      "id": "50484_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "50484_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "57774_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "57774_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "61173_clip2_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.41
+    },
+    {
+      "id": "61173_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.33
+    },
+    {
+      "id": "59396_clip9_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "59396_clip8_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.49
+    },
+    {
+      "id": "57598_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "57598_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.54
+    },
+    {
+      "id": "58174_clip9_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.41
+    },
+    {
+      "id": "58174_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "57265_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57265_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "64216_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "64216_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.47
+    },
+    {
+      "id": "54971_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54971_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "52742_clip9_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "52742_clip10_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "57021_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57021_clip9_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "59700_clip10_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "59700_clip9_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "3888_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "3888_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "59739_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.36
+    },
+    {
+      "id": "59739_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "3608_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "3608_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "1842_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.38
+    },
+    {
+      "id": "1842_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "57737_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.29
+    },
+    {
+      "id": "57737_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "62650_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "62650_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "58052_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "58052_clip6_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "61666_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "61666_clip2_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "55301_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "55301_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "57541_clip10_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "57541_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "57914_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.6
+    },
+    {
+      "id": "57914_clip10_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "61383_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "61383_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "61013_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.57
+    },
+    {
+      "id": "61013_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "3642_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "3642_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "52299_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "52299_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "55979_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "55979_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "201062_clip9_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "201062_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "2757_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "2757_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.35
+    },
+    {
+      "id": "65086_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "65086_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "67235_clip8_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "67235_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.37
+    },
+    {
+      "id": "52614_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "52614_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "61743_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "61743_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "60488_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "60488_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "64175_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.32
+    },
+    {
+      "id": "64175_clip6_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "61798_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.42
+    },
+    {
+      "id": "61798_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "54614_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54614_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.31
+    },
+    {
+      "id": "63129_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.49
+    },
+    {
+      "id": "63129_clip6_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.46
+    },
+    {
+      "id": "57332_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57332_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "51357_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "51357_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58223_clip11_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "58223_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "52818_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "52818_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "55718_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "55718_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.49
+    },
+    {
+      "id": "61930_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "61930_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.34
+    },
+    {
+      "id": "55835_clip8_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "55835_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "3039_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "3039_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.61
+    },
+    {
+      "id": "52225_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "52225_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "55532_clip6_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "55532_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "56338_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "56338_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "63501_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.24
+    },
+    {
+      "id": "63501_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "58267_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "58267_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.58
+    },
+    {
+      "id": "55964_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "55964_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.32
+    },
+    {
+      "id": "3250_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "3250_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "55463_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "55463_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "57988_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.61
+    },
+    {
+      "id": "57988_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.45
+    },
+    {
+      "id": "57379_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "57379_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "58577_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.37
+    },
+    {
+      "id": "58577_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "63020_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "63020_clip9_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.37
+    },
+    {
+      "id": "61037_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "61037_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "50946_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "50946_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "60692_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.33
+    },
+    {
+      "id": "60692_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.59
+    },
+    {
+      "id": "3953_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "3953_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "57489_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.49
+    },
+    {
+      "id": "57489_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "57518_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57518_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "52456_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "52456_clip10_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "63838_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "63838_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "56651_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "56651_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "62649_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "62649_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "53931_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "53931_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "62671_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "62671_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "64484_clip9_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "64484_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "56074_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "56074_clip10_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "56779_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "56779_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "60711_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "60711_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "1942_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "1942_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "61411_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "61411_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "53876_clip9_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "53876_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "60960_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "60960_clip9_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "50658_clip11_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "50658_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "61854_clip9_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "61854_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.37
+    },
+    {
+      "id": "51513_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "51513_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "51079_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "51079_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "57660_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "57660_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.54
+    },
+    {
+      "id": "57908_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "57908_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "55858_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "55858_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.38
+    },
+    {
+      "id": "59243_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "59243_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "64560_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "64560_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.5
+    },
+    {
+      "id": "3563_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "3563_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "56639_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "56639_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58081_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "58081_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "50459_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "50459_clip9_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "53248_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "53248_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "201832_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "201832_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.31
+    },
+    {
+      "id": "61062_clip2_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.41
+    },
+    {
+      "id": "61062_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "58892_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "58892_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "57313_clip2_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.41
+    },
+    {
+      "id": "57313_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "59992_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.54
+    },
+    {
+      "id": "59992_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "54972_clip6_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.41
+    },
+    {
+      "id": "54972_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "63101_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "63101_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "59555_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.6
+    },
+    {
+      "id": "59555_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "55934_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "55934_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "57329_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "57329_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.54
+    },
+    {
+      "id": "4415_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "4415_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.38
+    },
+    {
+      "id": "57759_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "57759_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.32
+    },
+    {
+      "id": "50648_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "50648_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "50593_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.35
+    },
+    {
+      "id": "50593_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.35
+    },
+    {
+      "id": "55968_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "55968_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "63694_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "63694_clip9_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "53009_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "53009_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "61124_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "61124_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.36
+    },
+    {
+      "id": "58818_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.68
+    },
+    {
+      "id": "58818_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57499_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "57499_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "63013_clip10_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.3
+    },
+    {
+      "id": "63013_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.32
+    },
+    {
+      "id": "61330_clip10_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.69
+    },
+    {
+      "id": "61330_clip2_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58484_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58484_clip8_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57982_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "57982_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "51250_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "51250_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.33
+    },
+    {
+      "id": "61954_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "61954_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "50527_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "50527_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "55080_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "55080_clip1_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.63
+    },
+    {
+      "id": "57343_clip10_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57343_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.34
+    },
+    {
+      "id": "56679_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.37
+    },
+    {
+      "id": "56679_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.51
+    },
+    {
+      "id": "56627_clip9_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "56627_clip10_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "53156_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "53156_clip2_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.67
+    },
+    {
+      "id": "58971_clip9_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.34
+    },
+    {
+      "id": "58971_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "51747_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.38
+    },
+    {
+      "id": "51747_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "3847_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "3847_clip9_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58580_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "58580_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "58184_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.33
+    },
+    {
+      "id": "58184_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "59271_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "59271_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "59155_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "59155_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "50210_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "50210_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "63422_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "63422_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "62771_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "62771_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "51974_clip9_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.68
+    },
+    {
+      "id": "51974_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.31
+    },
+    {
+      "id": "64889_clip6_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.36
+    },
+    {
+      "id": "64889_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "62853_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "62853_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "52098_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "52098_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "2702_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "2702_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "59474_clip9_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "59474_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.36
+    },
+    {
+      "id": "56778_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "56778_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "58296_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "58296_clip9_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "57309_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "57309_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "53021_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "53021_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "57131_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "57131_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "3564_clip10_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "3564_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "51044_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "51044_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.35
+    },
+    {
+      "id": "61231_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "61231_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.42
+    },
+    {
+      "id": "56266_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "56266_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "2465_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "2465_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "53367_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.32
+    },
+    {
+      "id": "53367_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "54661_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "54661_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "53980_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "53980_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "59447_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.7
+    },
+    {
+      "id": "59447_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.36
+    },
+    {
+      "id": "59541_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.37
+    },
+    {
+      "id": "59541_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "62157_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "62157_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "61625_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "61625_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "58727_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "58727_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "52601_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "52601_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.33
+    },
+    {
+      "id": "60469_clip9_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.43
+    },
+    {
+      "id": "60469_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "4295_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "4295_clip9_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "59616_clip8_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.51
+    },
+    {
+      "id": "59616_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "59027_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "59027_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "56013_clip9_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.32
+    },
+    {
+      "id": "56013_clip6_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "56494_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "56494_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "61691_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "61691_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "62864_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.31
+    },
+    {
+      "id": "62864_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.44
+    },
+    {
+      "id": "55689_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.37
+    },
+    {
+      "id": "55689_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "63997_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "63997_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "63245_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "63245_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.34
+    },
+    {
+      "id": "58164_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.46
+    },
+    {
+      "id": "58164_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "56888_clip12_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "56888_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.36
+    },
+    {
+      "id": "54611_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.56
+    },
+    {
+      "id": "54611_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "56655_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.38
+    },
+    {
+      "id": "56655_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "50332_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.35
+    },
+    {
+      "id": "50332_clip6_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "201866_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "201866_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.44
+    },
+    {
+      "id": "50196_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "50196_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "59764_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.42
+    },
+    {
+      "id": "59764_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "2618_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.38
+    },
+    {
+      "id": "2618_clip8_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "57240_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "57240_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "64146_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "64146_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "56195_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.49
+    },
+    {
+      "id": "56195_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "56437_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.42
+    },
+    {
+      "id": "56437_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "4154_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.41
+    },
+    {
+      "id": "4154_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "58458_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "58458_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "2464_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "2464_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.49
+    },
+    {
+      "id": "58916_clip8_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.42
+    },
+    {
+      "id": "58916_clip9_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "200206_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.45
+    },
+    {
+      "id": "200206_clip7_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "51551_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.37
+    },
+    {
+      "id": "51551_clip8_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "63662_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "63662_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "57407_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.43
+    },
+    {
+      "id": "57407_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.39
+    },
+    {
+      "id": "54786_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.4
+    },
+    {
+      "id": "54786_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "57847_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.39
+    },
+    {
+      "id": "57847_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.44
+    },
+    {
+      "id": "3255_clip4_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.39
+    },
+    {
+      "id": "3255_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.4
+    },
+    {
+      "id": "50371_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.4
+    },
+    {
+      "id": "50371_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.41
+    },
+    {
+      "id": "61180_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.43
+    },
+    {
+      "id": "61180_clip3_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.32
+    },
+    {
+      "id": "61449_clip6_sequence_ordering",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.46
+    },
+    {
+      "id": "61449_clip8_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "56825_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "56825_clip8_sequence_ordering",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.48
+    },
+    {
+      "id": "50600_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.41
+    },
+    {
+      "id": "50600_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.38
+    },
+    {
+      "id": "57385_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "57385_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.41
+    },
+    {
+      "id": "58743_clip5_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.52
+    },
+    {
+      "id": "58743_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.35
+    },
+    {
+      "id": "58104_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.46
+    },
+    {
+      "id": "58104_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.49
+    },
+    {
+      "id": "65126_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "65126_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.83
+    },
+    {
+      "id": "64798_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "64798_clip2_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.61
+    },
+    {
+      "id": "56819_clip7_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.44
+    },
+    {
+      "id": "56819_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.26
+    },
+    {
+      "id": "63296_clip11_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.45
+    },
+    {
+      "id": "63296_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.79
+    },
+    {
+      "id": "57075_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.48
+    },
+    {
+      "id": "57075_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.45
+    },
+    {
+      "id": "51388_clip7_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.49
+    },
+    {
+      "id": "51388_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.75
+    },
+    {
+      "id": "59449_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.97
+    },
+    {
+      "id": "58099_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.58
+    },
+    {
+      "id": "57016_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.62
+    },
+    {
+      "id": "55098_clip14_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.42
+    },
+    {
+      "id": "59270_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.51
+    },
+    {
+      "id": "2355_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.63
+    },
+    {
+      "id": "2958_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.46
+    },
+    {
+      "id": "54839_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.41
+    },
+    {
+      "id": "201777_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.56
+    },
+    {
+      "id": "53800_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.93
+    },
+    {
+      "id": "54664_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.95
+    },
+    {
+      "id": "4022_clip4_sequence_ordering",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.61
+    },
+    {
+      "id": "62754_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 1.14
+    },
+    {
+      "id": "54030_clip5_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.56
+    },
+    {
+      "id": "62088_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 1.02
+    },
+    {
+      "id": "56127_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.67
+    },
+    {
+      "id": "56611_clip8_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.85
+    },
+    {
+      "id": "3521_clip6_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.59
+    },
+    {
+      "id": "57531_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.59
+    },
+    {
+      "id": "60259_clip5_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.8
+    },
+    {
+      "id": "60599_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.57
+    },
+    {
+      "id": "50107_clip2_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.55
+    },
+    {
+      "id": "60744_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.56
+    },
+    {
+      "id": "59728_clip2_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.6
+    },
+    {
+      "id": "51084_clip8_sequence_ordering",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.67
+    },
+    {
+      "id": "58290_clip5_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.63
+    },
+    {
+      "id": "56488_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 1.19
+    },
+    {
+      "id": "54189_clip3_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.65
+    },
+    {
+      "id": "3691_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "60245_clip3_sequence_ordering",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.47
+    },
+    {
+      "id": "62876_clip1_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.54
+    },
+    {
+      "id": "64314_clip3_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.85
+    },
+    {
+      "id": "62533_clip4_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.38
+    },
+    {
+      "id": "57543_clip10_sequence_ordering",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 1.38
+    },
+    {
+      "id": "60241_clip1_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.98
+    },
+    {
+      "id": "52214_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.53
+    },
+    {
+      "id": "58438_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 1.18
+    },
+    {
+      "id": "3164_clip4_sequence_ordering",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.62
+    },
+    {
+      "id": "58239_clip7_sequence_ordering",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.65
+    },
+    {
+      "id": "52411_clip1_sequence_ordering",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 1.14
+    },
+    {
+      "id": "64100_clip6_sequence_ordering",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 1.22
+    }
+  ]
+}

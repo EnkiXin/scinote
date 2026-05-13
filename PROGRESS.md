@@ -198,3 +198,37 @@ max_pixels = 360 * 420  # 别压更低，会触发 min_pixels 错误
 | C3 L1 | ✅ 完成 |
 | Two-stage v2 L1+L2 | ✅ 8/10 完成（有 OOM 噪声） |
 | Two-stage v2 L3 | 🔄 进行中 (8 帧 patched) |
+
+---
+
+## H200 Phase 0 — Qwen2.5-VL-7B Pipeline Sanity (2026-05-13)
+
+**机器**：UNT `ci-l-2x6nxb4`（8× H200 143GB），仅占 GPU 0
+**Env**：`expvid` conda env，Python 3.11，torch 2.6.0+cu124，transformers 4.57.6
+**目标**：在新机器上端到端跑通 evaluate.py，对账 Mac/featurize 4090 上的现有 7B 数据
+
+### L1（4 task，全量）— ✅ 复现 Mac 数据
+
+| Task | H200 (32 frames) | Mac/featurize (32 frames) | Δ | n_valid | errors |
+|---|---|---|---|---|---|
+| materials | 34.00% | 34.28% | -0.3pp ✅ | 1266 | 0 |
+| tools | 36.30% | 35.66% | +0.6pp ✅ | 1130 | 0 |
+| operation | 64.60% | 64.43% | +0.2pp ✅ | 938 | 0 |
+| quantity | 47.20% | 48.78% | -1.6pp ⚠️ | 701 | 0 |
+| **avg** | **45.52%** | **45.79%** | **-0.27pp** ✅ | **4035** | **0** |
+
+**结论**：L1 复现成功。整体平均偏差 0.27pp，单 task 最大偏差 -1.6pp（quantity），仍在 ±2pp 合理范围内（采样 + 推理随机性可解释）。H200 上 0 errors（Mac 上有 OOM 噪声）说明 143GB VRAM 完全充裕。
+
+### 运行时长
+
+| Step | Wall clock |
+|---|---|
+| Env setup + smoke test | 5 min |
+| L1 full (4 task, 4035 samples) | ~1h 56min |
+| 推理速度 | ~0.1-0.3s/sample after warmup |
+
+### L2 / L3
+🔄 跑中 (GPU 0, `--resume`)。
+
+### 后续 Phase
+Phase 0 success 后，决定是否启动 Phase 1：扩展到论文 Table 2 其它开源模型（InternVL3-8B / Intern-S1-mini / MiMo-VL-7B / Keye-VL ×2 / GLM-4.1V-9B / Kimi-VL-A3B-Thinking 等 9 个 ≤9B 模型）。详见 [docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md](docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md)。

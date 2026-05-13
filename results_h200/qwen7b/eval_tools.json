@@ -1,0 +1,9048 @@
+{
+  "task": "tools",
+  "accuracy": 36.28,
+  "n_valid": 1130,
+  "n_error": 0,
+  "results": [
+    {
+      "id": "55531_clip_60_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55531_clip_38_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55531_clip_52_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "63013_clip_25_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "63013_clip_33_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "63013_clip_25_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "2958_clip_15_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "2958_clip_24_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.49
+    },
+    {
+      "id": "2958_clip_17_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "63662_clip_28_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "63662_clip_4_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "63662_clip_31_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "55979_clip_13_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "55979_clip_14_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "55979_clip_14_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "3039_clip_3_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "3039_clip_27_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "3039_clip_33_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57131_clip_41_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "57131_clip_29_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "57131_clip_26_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "59992_clip_19_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "59992_clip_25_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59992_clip_31_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58743_clip_26_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.19
+    },
+    {
+      "id": "58743_clip_8_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "58743_clip_22_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58184_clip_23_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58184_clip_22_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58184_clip_30_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "56248_clip_15_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.21
+    },
+    {
+      "id": "56248_clip_13_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "56248_clip_25_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55685_clip_38_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55685_clip_31_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.25
+    },
+    {
+      "id": "55685_clip_23_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "2693_clip_11_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "2693_clip_17_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.1
+    },
+    {
+      "id": "2693_clip_19_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.17
+    },
+    {
+      "id": "63501_clip_20_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "63501_clip_18_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "63501_clip_16_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "63892_clip_16_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "63892_clip_13_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.27
+    },
+    {
+      "id": "63892_clip_19_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "59396_clip_70_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "59396_clip_9_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.24
+    },
+    {
+      "id": "59396_clip_29_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "60500_clip_26_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.24
+    },
+    {
+      "id": "60500_clip_15_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "60500_clip_23_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "55532_clip_24_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55532_clip_33_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "55532_clip_34_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.24
+    },
+    {
+      "id": "56676_clip_5_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "56676_clip_20_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.26
+    },
+    {
+      "id": "56676_clip_18_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "3521_clip_20_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "3521_clip_35_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "3521_clip_48_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.19
+    },
+    {
+      "id": "61930_clip_28_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "61930_clip_55_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "61930_clip_8_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "50371_clip_32_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50371_clip_11_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "50371_clip_34_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "51974_clip_20_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "51974_clip_25_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "51974_clip_15_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.29
+    },
+    {
+      "id": "3642_clip_21_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "3642_clip_32_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "3642_clip_31_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "56327_clip_5_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "56327_clip_29_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "56327_clip_9_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "61449_clip_11_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "61449_clip_25_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.24
+    },
+    {
+      "id": "61449_clip_14_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "62432_clip_36_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "62432_clip_36_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "62432_clip_32_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "59474_clip_29_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "59474_clip_55_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "59474_clip_12_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "52653_clip_21_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "52653_clip_34_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "52653_clip_39_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "53800_clip_15_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "53800_clip_23_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "53800_clip_38_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "57518_clip_18_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "57518_clip_26_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "57518_clip_15_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "2177_clip_47_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "2177_clip_16_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "2177_clip_34_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "3564_clip_6_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "3564_clip_19_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "3564_clip_55_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "52411_clip_15_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "52411_clip_56_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "52411_clip_31_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "56639_clip_12_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.19
+    },
+    {
+      "id": "56639_clip_4_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "56639_clip_27_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "2702_clip_25_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "2702_clip_20_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "2702_clip_37_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58083_clip_26_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.24
+    },
+    {
+      "id": "58083_clip_3_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.22
+    },
+    {
+      "id": "58083_clip_33_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "200904_clip_14_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "200904_clip_25_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "200904_clip_13_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "50459_clip_50_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "50459_clip_48_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "50459_clip_15_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "58882_clip_50_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "58882_clip_18_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58882_clip_26_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "60259_clip_45_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "60259_clip_19_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "60259_clip_14_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "56679_clip_6_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56679_clip_18_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.25
+    },
+    {
+      "id": "56679_clip_17_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "57561_clip_20_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.22
+    },
+    {
+      "id": "57561_clip_52_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "57561_clip_32_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.24
+    },
+    {
+      "id": "57541_clip_33_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57541_clip_12_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "57541_clip_27_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "56195_clip_41_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "56195_clip_20_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.19
+    },
+    {
+      "id": "56195_clip_13_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "61184_clip_18_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "61184_clip_22_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "61184_clip_20_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "63934_clip_13_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "63934_clip_12_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "63934_clip_14_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.31
+    },
+    {
+      "id": "50327_clip_40_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "50327_clip_13_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "50327_clip_37_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "55964_clip_5_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "55964_clip_10_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "55964_clip_33_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "57847_clip_32_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "57847_clip_32_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "57847_clip_13_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "62623_clip_15_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "62623_clip_17_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "62623_clip_10_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "53876_clip_35_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "53876_clip_18_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "53876_clip_23_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "61330_clip_25_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "61330_clip_24_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "61330_clip_28_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "62650_clip_25_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "62650_clip_51_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.19
+    },
+    {
+      "id": "62650_clip_25_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "53010_clip_18_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "53010_clip_38_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "53010_clip_18_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "59338_clip_25_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "59338_clip_14_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "59338_clip_10_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.22
+    },
+    {
+      "id": "61993_clip_9_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61993_clip_25_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "61993_clip_13_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "57075_clip_22_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "57075_clip_54_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "57075_clip_41_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "54899_clip_21_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.21
+    },
+    {
+      "id": "54899_clip_15_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "54899_clip_41_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "4308_clip_23_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "4308_clip_32_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "4308_clip_39_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.22
+    },
+    {
+      "id": "59358_clip_33_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "59358_clip_35_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "59358_clip_34_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "54972_clip_34_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "54972_clip_46_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "54972_clip_12_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.17
+    },
+    {
+      "id": "61691_clip_15_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "61691_clip_38_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "61691_clip_46_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "64889_clip_23_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "64889_clip_33_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "64889_clip_28_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "60550_clip_11_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.22
+    },
+    {
+      "id": "60550_clip_9_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.24
+    },
+    {
+      "id": "60550_clip_21_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "60711_clip_29_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "60711_clip_14_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "60711_clip_13_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.25
+    },
+    {
+      "id": "58334_clip_28_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58334_clip_18_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "58334_clip_25_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "61854_clip_16_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61854_clip_17_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.24
+    },
+    {
+      "id": "61854_clip_19_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "54839_clip_18_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "54839_clip_23_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "54839_clip_26_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56094_clip_44_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56094_clip_24_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56094_clip_35_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "55718_clip_11_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55718_clip_14_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "55718_clip_32_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "54147_clip_18_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "54147_clip_18_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.21
+    },
+    {
+      "id": "54147_clip_23_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "55835_clip_6_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "55835_clip_20_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "55835_clip_25_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "1942_clip_65_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "1942_clip_19_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "1942_clip_70_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "64314_clip_25_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "64314_clip_5_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "64314_clip_15_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "4142_clip_27_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.25
+    },
+    {
+      "id": "4142_clip_30_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "4142_clip_30_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "52214_clip_23_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "52214_clip_28_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.43
+    },
+    {
+      "id": "52214_clip_24_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.21
+    },
+    {
+      "id": "54030_clip_31_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.21
+    },
+    {
+      "id": "54030_clip_13_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "54030_clip_26_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.1
+    },
+    {
+      "id": "51551_clip_13_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "51551_clip_30_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.23
+    },
+    {
+      "id": "51551_clip_27_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "62559_clip_19_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "62559_clip_9_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "62559_clip_18_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "50658_clip_18_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "50658_clip_26_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "50658_clip_26_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "2137_clip_41_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "2137_clip_25_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "2137_clip_11_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.17
+    },
+    {
+      "id": "55463_clip_4_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "55463_clip_42_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.22
+    },
+    {
+      "id": "55463_clip_14_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "58267_clip_9_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58267_clip_39_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "58267_clip_22_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.22
+    },
+    {
+      "id": "201866_clip_10_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "201866_clip_9_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "201866_clip_33_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "51250_clip_40_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "51250_clip_34_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "51250_clip_29_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "52456_clip_19_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "52456_clip_47_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.19
+    },
+    {
+      "id": "52456_clip_12_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "4022_clip_12_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "4022_clip_48_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "4022_clip_49_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.22
+    },
+    {
+      "id": "53789_clip_27_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "53789_clip_5_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.34
+    },
+    {
+      "id": "53789_clip_7_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "50191_clip_23_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "50191_clip_30_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50191_clip_27_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.1
+    },
+    {
+      "id": "3250_clip_32_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.19
+    },
+    {
+      "id": "3250_clip_17_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "3250_clip_39_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "200206_clip_12_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "200206_clip_7_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "200206_clip_15_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "54611_clip_49_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.19
+    },
+    {
+      "id": "54611_clip_16_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.1
+    },
+    {
+      "id": "54611_clip_45_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "62182_clip_35_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "62182_clip_5_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "62182_clip_15_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "57598_clip_30_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.25
+    },
+    {
+      "id": "57598_clip_35_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57598_clip_17_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "65086_clip_10_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "65086_clip_19_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "65086_clip_12_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "54144_clip_45_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.19
+    },
+    {
+      "id": "54144_clip_7_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "54144_clip_17_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "67076_clip_11_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "67076_clip_30_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "67076_clip_47_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "52750_clip_28_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.28
+    },
+    {
+      "id": "52750_clip_24_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.45
+    },
+    {
+      "id": "52750_clip_8_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "51079_clip_19_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "51079_clip_50_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "51079_clip_31_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "67016_clip_24_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.19
+    },
+    {
+      "id": "67016_clip_42_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "67016_clip_22_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59155_clip_29_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "59155_clip_12_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59155_clip_20_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.24
+    },
+    {
+      "id": "50107_clip_17_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50107_clip_14_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.21
+    },
+    {
+      "id": "50107_clip_16_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "58359_clip_11_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58359_clip_22_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.31
+    },
+    {
+      "id": "58359_clip_12_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "52299_clip_11_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "52299_clip_4_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "52299_clip_35_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "4422_clip_9_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "4422_clip_19_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "4422_clip_19_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "58644_clip_9_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58644_clip_23_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58644_clip_30_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "62458_clip_15_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "62458_clip_17_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "62458_clip_12_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "63779_clip_39_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "63779_clip_31_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "63779_clip_38_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "59728_clip_30_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59728_clip_33_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "59728_clip_8_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61760_clip_19_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "61760_clip_33_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "61760_clip_5_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "56494_clip_32_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "56494_clip_14_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "56494_clip_4_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "51044_clip_16_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "51044_clip_40_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "51044_clip_30_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.19
+    },
+    {
+      "id": "60599_clip_9_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.3
+    },
+    {
+      "id": "60599_clip_26_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "60599_clip_7_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "57499_clip_13_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "57499_clip_26_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "57499_clip_22_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.19
+    },
+    {
+      "id": "58296_clip_34_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58296_clip_20_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58296_clip_33_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "61037_clip_29_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "61037_clip_35_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61037_clip_19_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "60982_clip_42_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "60982_clip_23_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "60982_clip_18_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "51357_clip_25_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "51357_clip_35_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "51357_clip_51_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "50648_clip_10_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "50648_clip_33_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "50648_clip_56_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "61805_clip_20_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "61805_clip_19_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "61805_clip_10_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "61798_clip_7_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.29
+    },
+    {
+      "id": "61798_clip_27_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "61798_clip_7_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.29
+    },
+    {
+      "id": "58927_clip_7_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "58927_clip_29_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58927_clip_10_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "58104_clip_20_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "58104_clip_3_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.24
+    },
+    {
+      "id": "58104_clip_23_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58323_clip_28_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58323_clip_13_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58323_clip_11_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "61391_clip_39_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "61391_clip_25_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "61391_clip_48_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.21
+    },
+    {
+      "id": "57774_clip_55_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "57774_clip_49_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "57774_clip_53_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "57914_clip_32_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "57914_clip_31_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57914_clip_18_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "201832_clip_21_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "201832_clip_19_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "201832_clip_11_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "59700_clip_38_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59700_clip_37_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "59700_clip_29_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "62964_clip_30_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "62964_clip_18_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "62964_clip_6_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "51084_clip_17_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "51084_clip_45_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "51084_clip_37_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "63997_clip_41_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "63997_clip_26_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "63997_clip_23_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57979_clip_25_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.19
+    },
+    {
+      "id": "57979_clip_36_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.21
+    },
+    {
+      "id": "57979_clip_40_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "3691_clip_53_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "3691_clip_30_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "3691_clip_41_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "63422_clip_26_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "63422_clip_15_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "63422_clip_17_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58283_clip_33_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58283_clip_26_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58283_clip_10_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "64100_clip_27_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "64100_clip_36_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "64100_clip_34_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "59555_clip_23_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.21
+    },
+    {
+      "id": "59555_clip_30_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "59555_clip_8_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.19
+    },
+    {
+      "id": "57016_clip_39_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "57016_clip_12_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "57016_clip_43_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "59243_clip_30_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "59243_clip_8_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "59243_clip_22_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "50600_clip_17_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50600_clip_11_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "50600_clip_31_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.4
+    },
+    {
+      "id": "60469_clip_37_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "60469_clip_7_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "60469_clip_15_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "62864_clip_27_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "62864_clip_22_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "62864_clip_9_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.24
+    },
+    {
+      "id": "57543_clip_31_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.19
+    },
+    {
+      "id": "57543_clip_29_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.24
+    },
+    {
+      "id": "57543_clip_30_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "50527_clip_52_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "50527_clip_9_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50527_clip_23_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "52098_clip_60_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "52098_clip_49_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "52098_clip_60_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "53618_clip_33_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.1
+    },
+    {
+      "id": "53618_clip_35_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.21
+    },
+    {
+      "id": "53618_clip_14_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "64072_clip_18_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "64072_clip_23_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "64072_clip_21_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "54752_clip_20_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "54752_clip_23_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "54752_clip_17_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "57759_clip_31_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57759_clip_29_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57759_clip_8_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.19
+    },
+    {
+      "id": "52742_clip_52_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.32
+    },
+    {
+      "id": "52742_clip_42_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "52742_clip_11_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "58458_clip_32_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58458_clip_26_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58458_clip_28_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "1842_clip_22_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "1842_clip_5_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "1842_clip_21_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58332_clip_9_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58332_clip_18_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58332_clip_37_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.24
+    },
+    {
+      "id": "52859_clip_13_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "52859_clip_17_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.27
+    },
+    {
+      "id": "52859_clip_10_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "64923_clip_25_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "64923_clip_24_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "64923_clip_26_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "59541_clip_4_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.21
+    },
+    {
+      "id": "59541_clip_15_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "59541_clip_23_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.19
+    },
+    {
+      "id": "56779_clip_7_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "56779_clip_29_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "56779_clip_17_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "52557_clip_15_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "52557_clip_38_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "52557_clip_31_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "51388_clip_38_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.24
+    },
+    {
+      "id": "51388_clip_27_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "51388_clip_16_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.21
+    },
+    {
+      "id": "57573_clip_25_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.24
+    },
+    {
+      "id": "57573_clip_13_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "57573_clip_18_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.22
+    },
+    {
+      "id": "62107_clip_20_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.19
+    },
+    {
+      "id": "62107_clip_12_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "62107_clip_19_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "61954_clip_33_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "61954_clip_12_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.25
+    },
+    {
+      "id": "61954_clip_23_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "56266_clip_14_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "56266_clip_29_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56266_clip_13_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "61800_clip_18_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "61800_clip_14_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "61800_clip_16_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.19
+    },
+    {
+      "id": "58727_clip_37_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58727_clip_35_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58727_clip_30_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "57240_clip_6_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "57240_clip_51_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "57240_clip_7_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "52225_clip_26_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "52225_clip_20_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "52225_clip_20_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.19
+    },
+    {
+      "id": "2757_clip_45_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "2757_clip_18_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "2757_clip_14_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58916_clip_36_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58916_clip_25_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58916_clip_38_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58290_clip_26_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58290_clip_11_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "58290_clip_4_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.25
+    },
+    {
+      "id": "50196_clip_10_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.1
+    },
+    {
+      "id": "50196_clip_27_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "50196_clip_25_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "56338_clip_15_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "56338_clip_22_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "56338_clip_11_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "56268_clip_10_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "56268_clip_11_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.1
+    },
+    {
+      "id": "56268_clip_22_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "62876_clip_9_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "62876_clip_9_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "62876_clip_35_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "61173_clip_28_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.19
+    },
+    {
+      "id": "61173_clip_11_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "61173_clip_24_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "57332_clip_29_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "57332_clip_5_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "57332_clip_35_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "57629_clip_21_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "57629_clip_14_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "57629_clip_36_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "62309_clip_17_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "62309_clip_27_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.26
+    },
+    {
+      "id": "62309_clip_17_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "63855_clip_23_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "63855_clip_12_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "63855_clip_19_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.21
+    },
+    {
+      "id": "54971_clip_13_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "54971_clip_14_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.17
+    },
+    {
+      "id": "54971_clip_14_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58892_clip_29_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58892_clip_15_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58892_clip_25_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "67235_clip_10_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "67235_clip_24_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.24
+    },
+    {
+      "id": "67235_clip_27_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58674_clip_37_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58674_clip_32_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58674_clip_22_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "51161_clip_16_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "51161_clip_12_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "51161_clip_20_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "50969_clip_15_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "50969_clip_16_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "50969_clip_29_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "58580_clip_36_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58580_clip_29_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.19
+    },
+    {
+      "id": "58580_clip_8_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "60273_clip_37_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "60273_clip_20_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "60273_clip_28_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "62157_clip_16_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "62157_clip_24_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "62157_clip_29_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "56778_clip_22_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "56778_clip_39_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "56778_clip_26_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "58164_clip_5_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58164_clip_29_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58164_clip_39_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "61625_clip_15_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "61625_clip_6_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "61625_clip_16_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "54661_clip_41_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "54661_clip_31_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "54661_clip_16_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "50484_clip_24_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "50484_clip_13_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50484_clip_27_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.24
+    },
+    {
+      "id": "58314_clip_16_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58314_clip_14_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.19
+    },
+    {
+      "id": "58314_clip_21_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58081_clip_15_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.24
+    },
+    {
+      "id": "58081_clip_11_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "58081_clip_7_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.23
+    },
+    {
+      "id": "55098_clip_11_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "55098_clip_39_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.19
+    },
+    {
+      "id": "55098_clip_11_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.17
+    },
+    {
+      "id": "58174_clip_25_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "58174_clip_12_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58174_clip_10_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59449_clip_16_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "59449_clip_27_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "59449_clip_24_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.24
+    },
+    {
+      "id": "58474_clip_25_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.24
+    },
+    {
+      "id": "58474_clip_38_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58474_clip_5_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "65412_clip_20_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "65412_clip_13_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "65412_clip_21_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "62088_clip_8_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "62088_clip_30_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.19
+    },
+    {
+      "id": "62088_clip_27_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "61243_clip_6_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "61243_clip_28_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.31
+    },
+    {
+      "id": "61243_clip_8_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "62417_clip_10_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.27
+    },
+    {
+      "id": "62417_clip_39_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "62417_clip_25_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.25
+    },
+    {
+      "id": "54664_clip_26_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "54664_clip_19_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.31
+    },
+    {
+      "id": "54664_clip_25_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55301_clip_20_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55301_clip_18_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.23
+    },
+    {
+      "id": "55301_clip_34_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56627_clip_41_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "56627_clip_30_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "56627_clip_41_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.19
+    },
+    {
+      "id": "57660_clip_10_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "57660_clip_10_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "57660_clip_6_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "56857_clip_14_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.21
+    },
+    {
+      "id": "56857_clip_26_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56857_clip_28_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "57021_clip_45_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "57021_clip_22_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "57021_clip_26_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "63296_clip_46_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "63296_clip_13_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "63296_clip_24_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "50593_clip_14_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "50593_clip_25_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "50593_clip_57_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "56437_clip_25_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56437_clip_14_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56437_clip_39_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "57407_clip_51_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "57407_clip_31_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "57407_clip_8_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "2465_clip_44_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "2465_clip_21_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "2465_clip_48_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "60692_clip_10_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "60692_clip_6_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.29
+    },
+    {
+      "id": "60692_clip_7_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "54615_clip_31_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "54615_clip_18_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "54615_clip_31_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56611_clip_22_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "56611_clip_4_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "56611_clip_11_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "200229_clip_5_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "200229_clip_25_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "200229_clip_7_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "55500_clip_26_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "55500_clip_27_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "55500_clip_37_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "57385_clip_16_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "57385_clip_10_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "57385_clip_2_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.31
+    },
+    {
+      "id": "60828_clip_23_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "60828_clip_29_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "60828_clip_22_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "59739_clip_18_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "59739_clip_11_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "59739_clip_17_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "55459_clip_19_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55459_clip_23_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55459_clip_19_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "52614_clip_22_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "52614_clip_9_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "52614_clip_30_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "61124_clip_5_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61124_clip_12_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "61124_clip_18_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "201062_clip_17_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "201062_clip_4_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "201062_clip_5_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.22
+    },
+    {
+      "id": "55968_clip_14_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "55968_clip_51_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "55968_clip_27_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "53980_clip_20_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "53980_clip_15_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "53980_clip_14_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "3953_clip_15_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.3
+    },
+    {
+      "id": "3953_clip_14_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.39
+    },
+    {
+      "id": "3953_clip_13_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.21
+    },
+    {
+      "id": "61411_clip_24_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "61411_clip_3_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "61411_clip_29_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "64146_clip_35_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "64146_clip_18_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "64146_clip_29_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.25
+    },
+    {
+      "id": "54614_clip_73_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "54614_clip_59_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "54614_clip_43_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "3255_clip_20_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "3255_clip_34_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "3255_clip_41_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56418_clip_15_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "56418_clip_36_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "56418_clip_43_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "57909_clip_15_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.24
+    },
+    {
+      "id": "57909_clip_24_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "57909_clip_21_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.48
+    },
+    {
+      "id": "53672_clip_29_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "53672_clip_11_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "53672_clip_8_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "60461_clip_22_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "60461_clip_11_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "60461_clip_13_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "58438_clip_21_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58438_clip_24_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "58438_clip_22_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57489_clip_28_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "57489_clip_21_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "57489_clip_40_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "55504_clip_25_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55504_clip_30_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "55504_clip_27_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "57988_clip_12_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57988_clip_30_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.26
+    },
+    {
+      "id": "57988_clip_6_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "53367_clip_14_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "53367_clip_41_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "53367_clip_11_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "51513_clip_36_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "51513_clip_28_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "51513_clip_15_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "58818_clip_6_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58818_clip_46_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58818_clip_16_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "3847_clip_32_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "3847_clip_50_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "3847_clip_22_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "59271_clip_9_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59271_clip_45_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "59271_clip_12_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "62649_clip_32_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.22
+    },
+    {
+      "id": "62649_clip_27_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "62649_clip_5_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "61062_clip_25_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "61062_clip_30_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61062_clip_26_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "3164_clip_19_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "3164_clip_39_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "3164_clip_31_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "59616_clip_5_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59616_clip_25_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59616_clip_32_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.21
+    },
+    {
+      "id": "53260_clip_8_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "53260_clip_18_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "53260_clip_8_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "59764_clip_5_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59764_clip_18_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59764_clip_30_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58099_clip_13_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.3
+    },
+    {
+      "id": "58099_clip_23_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "58099_clip_39_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "63020_clip_10_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "63020_clip_6_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.23
+    },
+    {
+      "id": "63020_clip_14_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57928_clip_29_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "57928_clip_24_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "57928_clip_26_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "54863_clip_27_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "54863_clip_26_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "54863_clip_11_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.38
+    },
+    {
+      "id": "59156_clip_13_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.23
+    },
+    {
+      "id": "59156_clip_32_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.24
+    },
+    {
+      "id": "59156_clip_13_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "62279_clip_14_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "62279_clip_11_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "62279_clip_17_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.27
+    },
+    {
+      "id": "60488_clip_13_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "60488_clip_24_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "60488_clip_7_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "65848_clip_20_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "65848_clip_40_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "65848_clip_41_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "63838_clip_28_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "63838_clip_48_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "63838_clip_41_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "56825_clip_19_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "56825_clip_23_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "56825_clip_14_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "58577_clip_20_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58577_clip_18_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58577_clip_7_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.22
+    },
+    {
+      "id": "58971_clip_13_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58971_clip_53_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58971_clip_41_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "55649_clip_15_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "55649_clip_47_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55649_clip_32_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "55689_clip_10_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "55689_clip_39_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "55689_clip_23_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "54171_clip_14_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "54171_clip_40_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "54171_clip_24_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "58052_clip_25_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58052_clip_24_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58052_clip_5_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "56655_clip_15_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.27
+    },
+    {
+      "id": "56655_clip_22_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "56655_clip_20_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.31
+    },
+    {
+      "id": "61013_clip_37_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61013_clip_13_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61013_clip_10_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "58301_clip_30_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "58301_clip_9_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "58301_clip_16_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "3874_clip_38_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "3874_clip_25_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.25
+    },
+    {
+      "id": "3874_clip_38_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "57531_clip_32_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "57531_clip_55_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57531_clip_12_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "56819_clip_28_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "56819_clip_18_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "56819_clip_28_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "58239_clip_26_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58239_clip_30_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58239_clip_32_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "3608_clip_17_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "3608_clip_2_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.21
+    },
+    {
+      "id": "3608_clip_46_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "63543_clip_18_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "63543_clip_12_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.19
+    },
+    {
+      "id": "63543_clip_28_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "64560_clip_7_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "64560_clip_17_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "64560_clip_30_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "53931_clip_24_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "53931_clip_20_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "53931_clip_25_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55594_clip_6_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.25
+    },
+    {
+      "id": "55594_clip_18_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55594_clip_33_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "60961_clip_58_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "60961_clip_27_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "60961_clip_49_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "63245_clip_8_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "63245_clip_20_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "63245_clip_19_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "52874_clip_46_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "52874_clip_52_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "52874_clip_33_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "64798_clip_35_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.24
+    },
+    {
+      "id": "64798_clip_34_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "64798_clip_25_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "52325_clip_27_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.26
+    },
+    {
+      "id": "52325_clip_29_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "52325_clip_15_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.25
+    },
+    {
+      "id": "59447_clip_10_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "59447_clip_18_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "59447_clip_16_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "62533_clip_34_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "62533_clip_17_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.29
+    },
+    {
+      "id": "62533_clip_5_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "64484_clip_32_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.24
+    },
+    {
+      "id": "64484_clip_16_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "64484_clip_22_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "57379_clip_37_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "57379_clip_32_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57379_clip_25_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57329_clip_9_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "57329_clip_21_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.27
+    },
+    {
+      "id": "57329_clip_22_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "57313_clip_32_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.1
+    },
+    {
+      "id": "57313_clip_14_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "57313_clip_6_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.25
+    },
+    {
+      "id": "59119_clip_23_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "59119_clip_11_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "59119_clip_12_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "55614_clip_22_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "55614_clip_38_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "55614_clip_46_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "57137_clip_9_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "57137_clip_14_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "57137_clip_22_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50867_clip_37_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50867_clip_33_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50867_clip_21_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "64400_clip_13_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "64400_clip_11_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.29
+    },
+    {
+      "id": "64400_clip_13_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "63101_clip_52_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "63101_clip_35_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "63101_clip_48_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57265_clip_11_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.21
+    },
+    {
+      "id": "57265_clip_20_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57265_clip_8_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "4415_clip_45_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "4415_clip_41_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "4415_clip_11_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "51747_clip_43_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.1
+    },
+    {
+      "id": "51747_clip_13_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "51747_clip_18_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "53411_clip_34_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "53411_clip_27_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "53411_clip_22_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "2464_clip_21_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "2464_clip_45_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.23
+    },
+    {
+      "id": "2464_clip_21_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "54818_clip_20_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "54818_clip_21_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "54818_clip_34_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "57293_clip_10_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "57293_clip_5_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57293_clip_36_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "61666_clip_20_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61666_clip_8_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61666_clip_14_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.19
+    },
+    {
+      "id": "55858_clip_18_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "55858_clip_4_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.22
+    },
+    {
+      "id": "55858_clip_35_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "52818_clip_32_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "52818_clip_25_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.16
+    },
+    {
+      "id": "52818_clip_24_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "60744_clip_25_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "60744_clip_22_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "60744_clip_23_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "2355_clip_29_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "2355_clip_19_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "2355_clip_28_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.23
+    },
+    {
+      "id": "54786_clip_6_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "54786_clip_38_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "54786_clip_13_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "57343_clip_36_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.21
+    },
+    {
+      "id": "57343_clip_6_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "57343_clip_17_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "50210_clip_24_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "50210_clip_6_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50210_clip_27_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.26
+    },
+    {
+      "id": "50389_clip_14_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50389_clip_17_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "50389_clip_33_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "61743_clip_22_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "61743_clip_17_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61743_clip_18_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "201777_clip_39_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "201777_clip_37_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "201777_clip_33_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "57613_clip_5_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "57613_clip_36_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57613_clip_23_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "3187_clip_32_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "3187_clip_16_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.21
+    },
+    {
+      "id": "3187_clip_35_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "56013_clip_10_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "56013_clip_29_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "56013_clip_42_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "55934_clip_6_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "55934_clip_28_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "55934_clip_30_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "54189_clip_37_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "54189_clip_36_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "54189_clip_40_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "55080_clip_10_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "55080_clip_25_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "55080_clip_16_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "58022_clip_33_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58022_clip_8_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58022_clip_18_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "63694_clip_25_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "63694_clip_25_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "63694_clip_35_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "57309_clip_8_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "57309_clip_11_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "57309_clip_22_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.23
+    },
+    {
+      "id": "57908_clip_36_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57908_clip_3_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "57908_clip_39_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.22
+    },
+    {
+      "id": "4159_clip_16_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "4159_clip_38_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "4159_clip_37_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.1
+    },
+    {
+      "id": "61383_clip_20_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.27
+    },
+    {
+      "id": "61383_clip_3_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "61383_clip_28_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "3227_clip_29_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.09
+    },
+    {
+      "id": "3227_clip_31_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.1
+    },
+    {
+      "id": "3227_clip_45_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "57346_clip_29_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "57346_clip_32_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57346_clip_27_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "50946_clip_20_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50946_clip_20_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50946_clip_26_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "52601_clip_55_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "52601_clip_15_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.1
+    },
+    {
+      "id": "52601_clip_58_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "50849_clip_31_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "50849_clip_20_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "50849_clip_3_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "64041_clip_6_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "64041_clip_26_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "64041_clip_36_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "58484_clip_29_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "58484_clip_29_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "58484_clip_30_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "54934_clip_19_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "54934_clip_8_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "54934_clip_17_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "4154_clip_19_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "4154_clip_28_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "4154_clip_25_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.21
+    },
+    {
+      "id": "56888_clip_11_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56888_clip_42_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "56888_clip_47_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "62671_clip_11_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "62671_clip_19_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "62671_clip_35_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "63129_clip_22_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "63129_clip_6_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "63129_clip_17_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.23
+    },
+    {
+      "id": "53248_clip_31_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "53248_clip_16_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "53248_clip_21_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "56488_clip_31_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56488_clip_25_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "56488_clip_41_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61453_clip_3_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "61453_clip_3_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.22
+    },
+    {
+      "id": "61453_clip_11_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "57982_clip_28_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57982_clip_29_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "57982_clip_39_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "55307_clip_7_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "55307_clip_4_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "55307_clip_11_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "58223_clip_22_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "58223_clip_33_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "58223_clip_27_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.11
+    },
+    {
+      "id": "54413_clip_14_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.1
+    },
+    {
+      "id": "54413_clip_11_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "54413_clip_10_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "61180_clip_18_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.19
+    },
+    {
+      "id": "61180_clip_8_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "61180_clip_17_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "61876_clip_29_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.19
+    },
+    {
+      "id": "61876_clip_9_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.15
+    },
+    {
+      "id": "61876_clip_31_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "4104_clip_8_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "4104_clip_9_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.1
+    },
+    {
+      "id": "53156_clip_15_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "53156_clip_12_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.2
+    },
+    {
+      "id": "56243_clip_42_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.2
+    },
+    {
+      "id": "56243_clip_7_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "53009_clip_18_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "53009_clip_16_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.14
+    },
+    {
+      "id": "2618_clip_21_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.12
+    },
+    {
+      "id": "2618_clip_21_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "56074_clip_49_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "56074_clip_45_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "64759_clip_29_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "64759_clip_16_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "64216_clip_57_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.18
+    },
+    {
+      "id": "64216_clip_29_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.19
+    },
+    {
+      "id": "3563_clip_11_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "3563_clip_18_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "3888_clip_25_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.34
+    },
+    {
+      "id": "3888_clip_17_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.35
+    },
+    {
+      "id": "56127_clip_15_tools",
+      "pred": "B",
+      "gold": "C",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.2
+    },
+    {
+      "id": "56127_clip_16_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.14
+    },
+    {
+      "id": "62754_clip_22_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "62754_clip_16_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "59965_clip_18_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.19
+    },
+    {
+      "id": "59965_clip_19_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "64175_clip_9_tools",
+      "pred": "A",
+      "gold": "B",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.27
+    },
+    {
+      "id": "64175_clip_11_tools",
+      "pred": "C",
+      "gold": "A",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "57737_clip_18_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.22
+    },
+    {
+      "id": "57737_clip_10_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59270_clip_5_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "59270_clip_14_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.13
+    },
+    {
+      "id": "56859_clip_18_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.16
+    },
+    {
+      "id": "56859_clip_19_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.12
+    },
+    {
+      "id": "200093_clip_31_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "200093_clip_1_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.38
+    },
+    {
+      "id": "56997_clip_12_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.23
+    },
+    {
+      "id": "56997_clip_32_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.22
+    },
+    {
+      "id": "53021_clip_15_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "53021_clip_8_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "51846_clip_17_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.14
+    },
+    {
+      "id": "51846_clip_20_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.17
+    },
+    {
+      "id": "56423_clip_24_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.16
+    },
+    {
+      "id": "56423_clip_19_tools",
+      "pred": "A",
+      "gold": "C",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "61770_clip_30_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.13
+    },
+    {
+      "id": "61770_clip_18_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.29
+    },
+    {
+      "id": "57789_clip_22_tools",
+      "pred": "C",
+      "gold": "B",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "57789_clip_22_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.11
+    },
+    {
+      "id": "60241_clip_10_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.11
+    },
+    {
+      "id": "60241_clip_28_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "56651_clip_40_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.21
+    },
+    {
+      "id": "56651_clip_10_tools",
+      "pred": "A",
+      "gold": "D",
+      "score": 0.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "52732_clip_26_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "52732_clip_33_tools",
+      "pred": "B",
+      "gold": "B",
+      "score": 1.0,
+      "response": "B",
+      "elapsed": 0.24
+    },
+    {
+      "id": "52542_clip_25_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.12
+    },
+    {
+      "id": "52542_clip_15_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.16
+    },
+    {
+      "id": "61054_clip_18_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.18
+    },
+    {
+      "id": "61054_clip_13_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "62853_clip_27_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "62853_clip_24_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.13
+    },
+    {
+      "id": "50332_clip_12_tools",
+      "pred": "D",
+      "gold": "A",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.17
+    },
+    {
+      "id": "50332_clip_24_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.12
+    },
+    {
+      "id": "61231_clip_6_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.18
+    },
+    {
+      "id": "61231_clip_28_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.15
+    },
+    {
+      "id": "52090_clip_6_tools",
+      "pred": "D",
+      "gold": "D",
+      "score": 1.0,
+      "response": "D",
+      "elapsed": 0.46
+    },
+    {
+      "id": "52090_clip_27_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "65126_clip_40_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "65126_clip_27_tools",
+      "pred": "C",
+      "gold": "D",
+      "score": 0.0,
+      "response": "C",
+      "elapsed": 0.15
+    },
+    {
+      "id": "59027_clip_23_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.13
+    },
+    {
+      "id": "59027_clip_4_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.2
+    },
+    {
+      "id": "60960_clip_19_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.11
+    },
+    {
+      "id": "60960_clip_38_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.23
+    },
+    {
+      "id": "4295_clip_35_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.14
+    },
+    {
+      "id": "4295_clip_18_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.24
+    },
+    {
+      "id": "63039_clip_11_tools",
+      "pred": "D",
+      "gold": "C",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.21
+    },
+    {
+      "id": "63039_clip_6_tools",
+      "pred": "B",
+      "gold": "D",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.17
+    },
+    {
+      "id": "60245_clip_28_tools",
+      "pred": "A",
+      "gold": "A",
+      "score": 1.0,
+      "response": "A",
+      "elapsed": 0.18
+    },
+    {
+      "id": "60245_clip_10_tools",
+      "pred": "B",
+      "gold": "A",
+      "score": 0.0,
+      "response": "B",
+      "elapsed": 0.15
+    },
+    {
+      "id": "62771_clip_5_tools",
+      "pred": "C",
+      "gold": "C",
+      "score": 1.0,
+      "response": "C",
+      "elapsed": 0.24
+    },
+    {
+      "id": "62771_clip_18_tools",
+      "pred": "D",
+      "gold": "B",
+      "score": 0.0,
+      "response": "D",
+      "elapsed": 0.2
+    }
+  ]
+}

@@ -41,6 +41,9 @@ results/*.pkl
 results_*/    # eval result dirs (videos may have large pickles)
 !results_twostage_v2/eval_*.json
 !results/eval_*.json
+!results_h200/
+!results_h200/**
+results_h200/**/*.log
 
 # Smoke test logs
 smoke_test*.log

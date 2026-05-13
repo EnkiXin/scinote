@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code state
+.claude/
+
+# Data & cached downloads (too large for git)
+data/
+*.pkl
+*.npz
+*.zip
+*.tar.gz
+*.parquet
+
+# Logs
+*.log
+nohup.out
+
+# HuggingFace cache
+~/.cache/
+
+# ASR cache (large)
+asr_cache.json
+
+# Results — keep small JSON summaries, exclude bulky output
+results/*.pkl
+results_*/    # eval result dirs (videos may have large pickles)
+!results_twostage_v2/eval_*.json
+!results/eval_*.json
+
+# Smoke test logs
+smoke_test*.log
+
+# Video files (never commit raw videos)
+*.mp4
+*.avi
+*.mov

@@ -1,0 +1,759 @@
+[
+  {
+    "task": "materials",
+    "task_type": "mc",
+    "direct_accuracy": 40.0,
+    "direct_n": 5,
+    "direct_results": [
+      {
+        "id": "55531_clip_12_materials",
+        "gold": "B",
+        "direct_notes": null,
+        "direct_pred": "D",
+        "direct_raw": "D",
+        "direct_score": 0.0,
+        "direct_time": 14.7,
+        "cot_notes": null,
+        "cot_pred": "D",
+        "cot_raw": "In the video, a person wearing blue gloves is handling a white, powdery substance that appears to be contained within a small, crumpled piece of paper or cloth. The substance is being placed on the gr",
+        "cot_score": 0.0,
+        "cot_time": 21.1,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [
+              "tissue sample"
+            ],
+            "materials": [],
+            "quantities": [],
+            "tools": [
+              "gloves"
+            ],
+            "actions": [
+              {
+                "actor": "person",
+                "action": "handle",
+                "target": "tissue sample"
+              }
+            ],
+            "observations": [
+              "tissue sample is being held by gloved hands"
+            ],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "D",
+        "note_raw": "D",
+        "note_score": 0.0,
+        "note_time": 26.9
+      },
+      {
+        "id": "55531_clip_28_materials",
+        "gold": "C",
+        "direct_notes": null,
+        "direct_pred": "B",
+        "direct_raw": "B",
+        "direct_score": 0.0,
+        "direct_time": 7.1,
+        "cot_notes": null,
+        "cot_pred": "A",
+        "cot_raw": "In the video, a funnel is being used, which suggests that some form of liquid or powder is being transferred. The background shows laboratory equipment, including a flask with a purple cap and a large",
+        "cot_score": 0.0,
+        "cot_time": 16.9,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [],
+            "materials": [
+              "unknown"
+            ],
+            "quantities": [],
+            "tools": [
+              "funnel"
+            ],
+            "actions": [
+              {
+                "actor": "unknown",
+                "action": "position",
+                "target": "funnel"
+              }
+            ],
+            "observations": [],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "B",
+        "note_raw": "B",
+        "note_score": 0.0,
+        "note_time": 24.7
+      },
+      {
+        "id": "55531_clip_61_materials",
+        "gold": "B",
+        "direct_notes": null,
+        "direct_pred": "D",
+        "direct_raw": "D",
+        "direct_score": 0.0,
+        "direct_time": 7.9,
+        "cot_notes": null,
+        "cot_pred": "A",
+        "cot_raw": "In the video, a person wearing blue gloves is using tweezers to handle small, round objects on a petri dish. These objects appear to be small and uniform in shape and size, which suggests they could b",
+        "cot_score": 0.0,
+        "cot_time": 23.2,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [
+              "cells"
+            ],
+            "materials": [],
+            "quantities": [],
+            "tools": [
+              "forceps"
+            ],
+            "actions": [
+              {
+                "actor": "gloved hand",
+                "action": "manipulate",
+                "target": "cells"
+              }
+            ],
+            "observations": [
+              "cells being moved with forceps"
+            ],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "D",
+        "note_raw": "D",
+        "note_score": 0.0,
+        "note_time": 24.6
+      },
+      {
+        "id": "55531_clip_41_materials",
+        "gold": "B",
+        "direct_notes": null,
+        "direct_pred": "B",
+        "direct_raw": "B",
+        "direct_score": 1.0,
+        "direct_time": 8.0,
+        "cot_notes": null,
+        "cot_pred": "A",
+        "cot_raw": "In the video, a hand wearing a blue glove is seen holding a test tube filled with a white liquid. The text \"Wait for 5 min\" appears on the screen, indicating a step in a procedure. The background show",
+        "cot_score": 0.0,
+        "cot_time": 28.7,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [
+              "test tube"
+            ],
+            "materials": [],
+            "quantities": [
+              {
+                "value": 1,
+                "unit": "tube",
+                "what": "test tube"
+              }
+            ],
+            "tools": [
+              "glove"
+            ],
+            "actions": [
+              {
+                "actor": "glove",
+                "action": "hold",
+                "target": "test tube"
+              },
+              {
+                "actor": "glove",
+                "action": "place",
+                "target": "test tube"
+              }
+            ],
+            "observations": [
+              "text overlay: 'Wait for 5 min'"
+            ],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "C",
+        "note_raw": "C",
+        "note_score": 0.0,
+        "note_time": 42.6
+      },
+      {
+        "id": "63013_clip_29_materials",
+        "gold": "B",
+        "direct_notes": null,
+        "direct_pred": "B",
+        "direct_raw": "B",
+        "direct_score": 1.0,
+        "direct_time": 32.5,
+        "cot_notes": null,
+        "cot_pred": "B",
+        "cot_raw": "In the video, a scientist is seen handling small test tubes and placing them into a centrifuge. The text overlay indicates that the centrifuge will spin at 200 x g for 3 minutes. This suggests that th",
+        "cot_score": 1.0,
+        "cot_time": 124.3,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [
+              "cells"
+            ],
+            "materials": [],
+            "quantities": [
+              {
+                "value": 1000,
+                "unit": "μL",
+                "what": "solution"
+              }
+            ],
+            "tools": [
+              "pipette",
+              "centrifuge"
+            ],
+            "actions": [
+              {
+                "actor": "researcher",
+                "action": "pipette",
+                "target": "sample"
+              },
+              {
+                "actor": "researcher",
+                "action": "close",
+                "target": "centrifuge lid"
+              }
+            ],
+            "observations": [
+              "sample placed into centrifuge tube",
+              "centrifuge lid closed"
+            ],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "B",
+        "note_raw": "B",
+        "note_score": 1.0,
+        "note_time": 108.5
+      }
+    ],
+    "cot_accuracy": 20.0,
+    "cot_n": 5,
+    "cot_results": [
+      {
+        "id": "55531_clip_12_materials",
+        "gold": "B",
+        "direct_notes": null,
+        "direct_pred": "D",
+        "direct_raw": "D",
+        "direct_score": 0.0,
+        "direct_time": 14.7,
+        "cot_notes": null,
+        "cot_pred": "D",
+        "cot_raw": "In the video, a person wearing blue gloves is handling a white, powdery substance that appears to be contained within a small, crumpled piece of paper or cloth. The substance is being placed on the gr",
+        "cot_score": 0.0,
+        "cot_time": 21.1,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [
+              "tissue sample"
+            ],
+            "materials": [],
+            "quantities": [],
+            "tools": [
+              "gloves"
+            ],
+            "actions": [
+              {
+                "actor": "person",
+                "action": "handle",
+                "target": "tissue sample"
+              }
+            ],
+            "observations": [
+              "tissue sample is being held by gloved hands"
+            ],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "D",
+        "note_raw": "D",
+        "note_score": 0.0,
+        "note_time": 26.9
+      },
+      {
+        "id": "55531_clip_28_materials",
+        "gold": "C",
+        "direct_notes": null,
+        "direct_pred": "B",
+        "direct_raw": "B",
+        "direct_score": 0.0,
+        "direct_time": 7.1,
+        "cot_notes": null,
+        "cot_pred": "A",
+        "cot_raw": "In the video, a funnel is being used, which suggests that some form of liquid or powder is being transferred. The background shows laboratory equipment, including a flask with a purple cap and a large",
+        "cot_score": 0.0,
+        "cot_time": 16.9,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [],
+            "materials": [
+              "unknown"
+            ],
+            "quantities": [],
+            "tools": [
+              "funnel"
+            ],
+            "actions": [
+              {
+                "actor": "unknown",
+                "action": "position",
+                "target": "funnel"
+              }
+            ],
+            "observations": [],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "B",
+        "note_raw": "B",
+        "note_score": 0.0,
+        "note_time": 24.7
+      },
+      {
+        "id": "55531_clip_61_materials",
+        "gold": "B",
+        "direct_notes": null,
+        "direct_pred": "D",
+        "direct_raw": "D",
+        "direct_score": 0.0,
+        "direct_time": 7.9,
+        "cot_notes": null,
+        "cot_pred": "A",
+        "cot_raw": "In the video, a person wearing blue gloves is using tweezers to handle small, round objects on a petri dish. These objects appear to be small and uniform in shape and size, which suggests they could b",
+        "cot_score": 0.0,
+        "cot_time": 23.2,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [
+              "cells"
+            ],
+            "materials": [],
+            "quantities": [],
+            "tools": [
+              "forceps"
+            ],
+            "actions": [
+              {
+                "actor": "gloved hand",
+                "action": "manipulate",
+                "target": "cells"
+              }
+            ],
+            "observations": [
+              "cells being moved with forceps"
+            ],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "D",
+        "note_raw": "D",
+        "note_score": 0.0,
+        "note_time": 24.6
+      },
+      {
+        "id": "55531_clip_41_materials",
+        "gold": "B",
+        "direct_notes": null,
+        "direct_pred": "B",
+        "direct_raw": "B",
+        "direct_score": 1.0,
+        "direct_time": 8.0,
+        "cot_notes": null,
+        "cot_pred": "A",
+        "cot_raw": "In the video, a hand wearing a blue glove is seen holding a test tube filled with a white liquid. The text \"Wait for 5 min\" appears on the screen, indicating a step in a procedure. The background show",
+        "cot_score": 0.0,
+        "cot_time": 28.7,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [
+              "test tube"
+            ],
+            "materials": [],
+            "quantities": [
+              {
+                "value": 1,
+                "unit": "tube",
+                "what": "test tube"
+              }
+            ],
+            "tools": [
+              "glove"
+            ],
+            "actions": [
+              {
+                "actor": "glove",
+                "action": "hold",
+                "target": "test tube"
+              },
+              {
+                "actor": "glove",
+                "action": "place",
+                "target": "test tube"
+              }
+            ],
+            "observations": [
+              "text overlay: 'Wait for 5 min'"
+            ],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "C",
+        "note_raw": "C",
+        "note_score": 0.0,
+        "note_time": 42.6
+      },
+      {
+        "id": "63013_clip_29_materials",
+        "gold": "B",
+        "direct_notes": null,
+        "direct_pred": "B",
+        "direct_raw": "B",
+        "direct_score": 1.0,
+        "direct_time": 32.5,
+        "cot_notes": null,
+        "cot_pred": "B",
+        "cot_raw": "In the video, a scientist is seen handling small test tubes and placing them into a centrifuge. The text overlay indicates that the centrifuge will spin at 200 x g for 3 minutes. This suggests that th",
+        "cot_score": 1.0,
+        "cot_time": 124.3,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [
+              "cells"
+            ],
+            "materials": [],
+            "quantities": [
+              {
+                "value": 1000,
+                "unit": "μL",
+                "what": "solution"
+              }
+            ],
+            "tools": [
+              "pipette",
+              "centrifuge"
+            ],
+            "actions": [
+              {
+                "actor": "researcher",
+                "action": "pipette",
+                "target": "sample"
+              },
+              {
+                "actor": "researcher",
+                "action": "close",
+                "target": "centrifuge lid"
+              }
+            ],
+            "observations": [
+              "sample placed into centrifuge tube",
+              "centrifuge lid closed"
+            ],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "B",
+        "note_raw": "B",
+        "note_score": 1.0,
+        "note_time": 108.5
+      }
+    ],
+    "note_accuracy": 20.0,
+    "note_n": 5,
+    "note_results": [
+      {
+        "id": "55531_clip_12_materials",
+        "gold": "B",
+        "direct_notes": null,
+        "direct_pred": "D",
+        "direct_raw": "D",
+        "direct_score": 0.0,
+        "direct_time": 14.7,
+        "cot_notes": null,
+        "cot_pred": "D",
+        "cot_raw": "In the video, a person wearing blue gloves is handling a white, powdery substance that appears to be contained within a small, crumpled piece of paper or cloth. The substance is being placed on the gr",
+        "cot_score": 0.0,
+        "cot_time": 21.1,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [
+              "tissue sample"
+            ],
+            "materials": [],
+            "quantities": [],
+            "tools": [
+              "gloves"
+            ],
+            "actions": [
+              {
+                "actor": "person",
+                "action": "handle",
+                "target": "tissue sample"
+              }
+            ],
+            "observations": [
+              "tissue sample is being held by gloved hands"
+            ],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "D",
+        "note_raw": "D",
+        "note_score": 0.0,
+        "note_time": 26.9
+      },
+      {
+        "id": "55531_clip_28_materials",
+        "gold": "C",
+        "direct_notes": null,
+        "direct_pred": "B",
+        "direct_raw": "B",
+        "direct_score": 0.0,
+        "direct_time": 7.1,
+        "cot_notes": null,
+        "cot_pred": "A",
+        "cot_raw": "In the video, a funnel is being used, which suggests that some form of liquid or powder is being transferred. The background shows laboratory equipment, including a flask with a purple cap and a large",
+        "cot_score": 0.0,
+        "cot_time": 16.9,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [],
+            "materials": [
+              "unknown"
+            ],
+            "quantities": [],
+            "tools": [
+              "funnel"
+            ],
+            "actions": [
+              {
+                "actor": "unknown",
+                "action": "position",
+                "target": "funnel"
+              }
+            ],
+            "observations": [],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "B",
+        "note_raw": "B",
+        "note_score": 0.0,
+        "note_time": 24.7
+      },
+      {
+        "id": "55531_clip_61_materials",
+        "gold": "B",
+        "direct_notes": null,
+        "direct_pred": "D",
+        "direct_raw": "D",
+        "direct_score": 0.0,
+        "direct_time": 7.9,
+        "cot_notes": null,
+        "cot_pred": "A",
+        "cot_raw": "In the video, a person wearing blue gloves is using tweezers to handle small, round objects on a petri dish. These objects appear to be small and uniform in shape and size, which suggests they could b",
+        "cot_score": 0.0,
+        "cot_time": 23.2,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [
+              "cells"
+            ],
+            "materials": [],
+            "quantities": [],
+            "tools": [
+              "forceps"
+            ],
+            "actions": [
+              {
+                "actor": "gloved hand",
+                "action": "manipulate",
+                "target": "cells"
+              }
+            ],
+            "observations": [
+              "cells being moved with forceps"
+            ],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "D",
+        "note_raw": "D",
+        "note_score": 0.0,
+        "note_time": 24.6
+      },
+      {
+        "id": "55531_clip_41_materials",
+        "gold": "B",
+        "direct_notes": null,
+        "direct_pred": "B",
+        "direct_raw": "B",
+        "direct_score": 1.0,
+        "direct_time": 8.0,
+        "cot_notes": null,
+        "cot_pred": "A",
+        "cot_raw": "In the video, a hand wearing a blue glove is seen holding a test tube filled with a white liquid. The text \"Wait for 5 min\" appears on the screen, indicating a step in a procedure. The background show",
+        "cot_score": 0.0,
+        "cot_time": 28.7,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [
+              "test tube"
+            ],
+            "materials": [],
+            "quantities": [
+              {
+                "value": 1,
+                "unit": "tube",
+                "what": "test tube"
+              }
+            ],
+            "tools": [
+              "glove"
+            ],
+            "actions": [
+              {
+                "actor": "glove",
+                "action": "hold",
+                "target": "test tube"
+              },
+              {
+                "actor": "glove",
+                "action": "place",
+                "target": "test tube"
+              }
+            ],
+            "observations": [
+              "text overlay: 'Wait for 5 min'"
+            ],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "C",
+        "note_raw": "C",
+        "note_score": 0.0,
+        "note_time": 42.6
+      },
+      {
+        "id": "63013_clip_29_materials",
+        "gold": "B",
+        "direct_notes": null,
+        "direct_pred": "B",
+        "direct_raw": "B",
+        "direct_score": 1.0,
+        "direct_time": 32.5,
+        "cot_notes": null,
+        "cot_pred": "B",
+        "cot_raw": "In the video, a scientist is seen handling small test tubes and placing them into a centrifuge. The text overlay indicates that the centrifuge will spin at 200 x g for 3 minutes. This suggests that th",
+        "cot_score": 1.0,
+        "cot_time": 124.3,
+        "note_notes": [
+          {
+            "timestamp_range": [
+              0,
+              5
+            ],
+            "subjects": [
+              "cells"
+            ],
+            "materials": [],
+            "quantities": [
+              {
+                "value": 1000,
+                "unit": "μL",
+                "what": "solution"
+              }
+            ],
+            "tools": [
+              "pipette",
+              "centrifuge"
+            ],
+            "actions": [
+              {
+                "actor": "researcher",
+                "action": "pipette",
+                "target": "sample"
+              },
+              {
+                "actor": "researcher",
+                "action": "close",
+                "target": "centrifuge lid"
+              }
+            ],
+            "observations": [
+              "sample placed into centrifuge tube",
+              "centrifuge lid closed"
+            ],
+            "uncertainties": []
+          }
+        ],
+        "note_pred": "B",
+        "note_raw": "B",
+        "note_score": 1.0,
+        "note_time": 108.5
+      }
+    ]
+  }
+]

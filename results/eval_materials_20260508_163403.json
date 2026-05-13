@@ -1,0 +1,90 @@
+[
+  {
+    "task": "materials",
+    "accuracy": 0.0,
+    "n_valid": 0,
+    "n_error": 20,
+    "results": [
+      {
+        "id": "55531_clip_12_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "55531_clip_28_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "55531_clip_61_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "55531_clip_41_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "63013_clip_29_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "63013_clip_23_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "63013_clip_7_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "63013_clip_15_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "2958_clip_27_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "2958_clip_20_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "2958_clip_17_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "2958_clip_29_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "63662_clip_35_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "63662_clip_5_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "63662_clip_9_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "63662_clip_36_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "55979_clip_31_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "55979_clip_30_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "55979_clip_35_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      },
+      {
+        "id": "55979_clip_28_materials",
+        "error": "module 'torchvision.io' has no attribute 'read_video'"
+      }
+    ]
+  }
+]

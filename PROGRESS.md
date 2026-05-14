@@ -26,7 +26,7 @@ All methods share the **same answer prompt template** (the same `Question / Opti
 | **Video** | video only | Standard ExpVid baseline (= paper's video-only setup) |
 | **Note** | note only (no video) | Is the note a lossless encoding of the video? (Design X) |
 | **Video + Note** | video + note | Does the note help as augmentation? (Design Y) |
-| **Video + RandomNote** | video + note from a **different video, same task** | Control: isolate note **content** vs note **format scaffold** |
+| **Video + RandomNote** | video + note from a **different video, same task** | Control: isolate note **content** vs note **format scaffold**. **Run on L1 only** — L1 evidence was clear and we did not extend to L2/L3 |
 | **Video + ASR** | video + ASR transcript | Upper bound (ASR ≈ the labels the ExpVid annotators used) |
 
 **The "Note" methods always use task-aware Stage 1 prompts** by default (10 task-specific note prompts in [NOTE_PROMPTS](evaluate_twostage_v2.py)). Phase 3 (pending) will add **generic** and **minimal** Stage 1 prompt variants for ablation.
@@ -148,6 +148,10 @@ Before the unified prompt was implemented, the `Note` method used a different St
 **Reading**: Prompt phrasing effect is non-trivial (±1 to ±4 pp). The unified prompt is more honest for cross-condition comparison since every method uses the **same** answer template.
 
 ---
+
+## 📌 Decision log
+
+- **2026-05-14**: Stopped Video+RandomNote on L2/L3 (decision: L1 data is conclusive — random_note ≈ real_note on L1 average, the paper-defending control finding is established; extending the same control to L2/L3 adds compute time without paper value). Watchdog (`/tmp/kill_c3_watchdog.sh`) auto-kills any future C3 spawn. L2/L3 RandomNote column will remain `—`.
 
 ## 🚀 In-flight (Phase 2 unified sweep)
 

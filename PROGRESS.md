@@ -52,9 +52,11 @@ All methods share the **same answer prompt template** (the same `Question / Opti
 
 H200 Qwen2.5-VL-7B Video-only baseline matches paper Table 2 closely — pipeline correctly reproduced on this hardware.
 
-### 2. ASR leakage is huge on L1
+### 2. ASR leakage is huge on L1, BUT zero on L2
 
-On every L1 task, `Video + ASR` is **+44 to +56 pp** over `Video`. The ExpVid annotation pipeline extracts entity labels from ASR; adding ASR to the prompt nearly solves L1. **This is a property of the benchmark, not a contribution of our method.**
+On every L1 task, `Video + ASR` is **+44 to +56 pp** over `Video`. The ExpVid annotation pipeline extracts entity labels from ASR; adding ASR to the prompt nearly solves L1 (`avg 91.1%` vs `45.5%`). **This is a property of the benchmark.**
+
+**Counter-finding on L2**: `Video+ASR` ≈ `Video` (e.g. video_verification: 17.4 = 17.4 exactly; sequence_ordering 53.6 vs 52.6 = +1.0pp; sequence_generation 43.4 vs 43.3 = +0.1pp; step_prediction even slightly worse). **L2 procedural tasks are NOT ASR-leaked.** ASR helps with named entities (L1), not with "which step was missed" or "what's the order" (L2 reasoning).
 
 ### 3. Two-stage notes ≠ free improvement on L1 perception tasks
 
@@ -92,17 +94,17 @@ Where note **hurts**: when it focuses on tools/containers while the question ask
 
 | Level | Task | n | Paper | Video | Note | Video+Note | Video+RandomNote | Video+ASR |
 |---|---|---|---|---|---|---|---|---|
-| L1 | materials                  | 1266 | 33.9 | 34.0 | 31.7 | **36.7** | 35.0 | 90.2 |
-| L1 | tools                      | 1130 | 32.0 | 36.3 | 31.2 | 35.2 | 34.5 | 80.6 |
+| L1 | materials                  | 1266 | 33.9 | 34.0 | 31.7 | **36.6** | 35.0 | 90.2 |
+| L1 | tools                      | 1130 | 32.0 | 36.3 | 31.1 | 35.2 | 34.5 | 80.6 |
 | L1 | operation                  | 938  | 62.4 | 64.6 | 51.0 | 57.2 | **61.1** ⚠ | 97.0 |
 | L1 | quantity                   | 701  | 49.0 | 47.2 | 34.1 | 40.8 | **42.2** ⚠ | 96.7 |
 | L1 | **avg (4 tasks)**          | 4035 | **42.6** | **45.5** | **37.0** | **42.5** | **42.6** | **91.1** |
-| L2 | sequence_generation        | 750  | 20.8 (J) | 43.3 (F1) | 35.0 | 39.4 (77%) | — | 43.4 |
-| L2 | sequence_ordering          | 739  | 56.2 | 52.6 | 50.3 | — | — | 53.6 |
-| L2 | step_prediction            | 748  | 1.3 | 2.1 | 2.1 | — | — | 0.9 |
-| L2 | video_verification         | 748  | 20.7 | 17.4 | 17.9 (64%) | — | — | 17.4 |
-| L3 | experimental_conclusion    | 390  | 25.2 | 21.3 | 19.2 (66%) | — | — | 23.8 (51%) |
-| L3 | scientific_discovery       | 390  | 21.4 | 20.0 | 14.8 (10%) | — | — | — |
+| L2 | sequence_generation        | 750  | 20.8 (J) | 43.3 (F1) | 35.0 | 39.2 | — *(skipped)* | 43.4 |
+| L2 | sequence_ordering          | 739  | 56.2 | 52.6 | 50.3 | **55.5** ✅ | — *(skipped)* | 53.6 |
+| L2 | step_prediction            | 748  | 1.3 | 2.1 | 2.1 | 1.7 (72%) | — *(skipped)* | 0.9 |
+| L2 | video_verification         | 748  | 20.7 | 17.4 | 16.4 | — | — *(skipped)* | 17.4 |
+| L3 | experimental_conclusion    | 390  | 25.2 | 21.3 | 18.4 (92%) | 21.8 (10%) | — *(skipped)* | 23.6 (61%) |
+| L3 | scientific_discovery       | 390  | 21.4 | 20.0 | 16.5 (35%) | 17.1 (10%) | — *(skipped)* | — *(skipped)* |
 
 `✓`-mark removed for brevity — cells without `(XX%)` and not `—` are fully complete. Paper column uses Accuracy except `(J)`=Jaccard (paper convention; ours is F1, marked).
 
@@ -151,7 +153,9 @@ Before the unified prompt was implemented, the `Note` method used a different St
 
 ## 📌 Decision log
 
-- **2026-05-14**: Stopped Video+RandomNote on L2/L3 (decision: L1 data is conclusive — random_note ≈ real_note on L1 average, the paper-defending control finding is established; extending the same control to L2/L3 adds compute time without paper value). Watchdog (`/tmp/kill_c3_watchdog.sh`) auto-kills any future C3 spawn. L2/L3 RandomNote column will remain `—`.
+- **2026-05-14 morning**: Stopped Video+RandomNote (C3) on L2/L3. L1 data is conclusive — random_note ≈ real_note on L1 average. Extending the same control to L2/L3 adds compute time without paper value. **L2/L3 RandomNote column stays `—`.**
+- **2026-05-14 later**: Stopped Video+ASR (C4) collection (L1 + L2 fully done; L3 partial as of stop). L1 ASR-leakage finding is overwhelming and well-established; L2 V+ASR ≈ Video (especially video_verification = 17.4 vs 17.4 zero delta — ASR can't tell you what was NOT done). Extending C4 to full L3 doesn't add new finding. **L3 V+ASR may stay partial.**
+- Both C3 and C4 are now treated as "data sufficient, stop collecting". Going forward, focus is on completing **Note** and **Video+Note** across L2 (remaining: V+Note step_pred / video_verify) and L3 (remaining: Note both tasks, V+Note both tasks).
 
 ## 🚀 In-flight (Phase 2 unified sweep)
 

@@ -88,33 +88,45 @@ Where note **hurts**: when it focuses on tools/containers while the question ask
 
 ## 📊 Main Results — H200 Qwen2.5-VL-7B, unified prompt across all methods
 
-| Level | Task | n | Paper (Table 2) | Video | Note | Video+Note | Video+RandomNote | Video+ASR |
+**L1 fully done (all 4 tasks × 5 methods).** L2 ~70-100% per cell. L3 in flight.
+
+| Level | Task | n | Paper | Video | Note | Video+Note | Video+RandomNote | Video+ASR |
 |---|---|---|---|---|---|---|---|---|
-| L1 | materials                  | 1266 | 33.9 | 34.0 | 31.7 ✓ | **36.7** ✓ | 35.0 ✓ | 90.2 ✓ |
-| L1 | tools                      | 1130 | 32.0 | 36.3 | 31.2 ✓ | 35.2 ✓ | 34.5 ✓ | 80.6 ✓ |
-| L1 | operation                  | 938  | 62.4 | 64.6 | 51.0 ✓ | 57.2 ✓ | **62.2** (77%) ⚠ | 97.0 ✓ |
-| L1 | quantity                   | 701  | 49.0 | 47.2 | 34.1 ✓ | 40.8 ✓ | — | 96.7 ✓ |
-| L1 | **avg (4 tasks)**          | 4035 | **42.6** | **45.5** | **32.0** | **42.5** | (partial) | **91.1** |
-| L2 | sequence_generation        | 750  | 20.8 (Jaccard, paper) | 43.3 (F1) | 35.0 ✓ | 56.3 (5%) | — | 43.4 ✓ |
-| L2 | sequence_ordering          | 739  | 56.2 | 52.6 | 50.3 ✓ | — | — | 53.6 ✓ |
-| L2 | step_prediction            | 748  | 1.3 | 2.1 | 2.2 (91%) | — | — | 0.9 ✓ |
-| L2 | video_verification         | 748  | 20.7 | 17.4 | — | — | — | 20.0 (5%) |
-| L3 | experimental_conclusion    | 390  | 25.2 | 21.3 | 20.3 (56%) | — | — | 24.7 (41%) |
-| L3 | scientific_discovery       | 390  | 21.4 | 20.0 | — | — | — | — |
+| L1 | materials                  | 1266 | 33.9 | 34.0 | 31.7 | **36.7** | 35.0 | 90.2 |
+| L1 | tools                      | 1130 | 32.0 | 36.3 | 31.2 | 35.2 | 34.5 | 80.6 |
+| L1 | operation                  | 938  | 62.4 | 64.6 | 51.0 | 57.2 | **61.1** ⚠ | 97.0 |
+| L1 | quantity                   | 701  | 49.0 | 47.2 | 34.1 | 40.8 | **42.2** ⚠ | 96.7 |
+| L1 | **avg (4 tasks)**          | 4035 | **42.6** | **45.5** | **37.0** | **42.5** | **42.6** | **91.1** |
+| L2 | sequence_generation        | 750  | 20.8 (J) | 43.3 (F1) | 35.0 | 39.4 (77%) | — | 43.4 |
+| L2 | sequence_ordering          | 739  | 56.2 | 52.6 | 50.3 | — | — | 53.6 |
+| L2 | step_prediction            | 748  | 1.3 | 2.1 | 2.1 | — | — | 0.9 |
+| L2 | video_verification         | 748  | 20.7 | 17.4 | 17.9 (64%) | — | — | 17.4 |
+| L3 | experimental_conclusion    | 390  | 25.2 | 21.3 | 19.2 (66%) | — | — | 23.8 (51%) |
+| L3 | scientific_discovery       | 390  | 21.4 | 20.0 | 14.8 (10%) | — | — | — |
 
-Numbers without ✓ / % are partial — see status markers above. L2/L3 unified sweep still running.
+`✓`-mark removed for brevity — cells without `(XX%)` and not `—` are fully complete. Paper column uses Accuracy except `(J)`=Jaccard (paper convention; ours is F1, marked).
 
-### Key deltas (where data is complete)
+### Key deltas — L1 fully complete
 
-| Comparison | L1 materials | L1 tools | L1 operation |
-|---|---|---|---|
-| Note − Video | -2.3 | -5.1 | -13.6 |
-| (Video+Note) − Video | **+2.7 ✅** | -1.1 | -7.4 |
-| (Video+RandomNote) − Video | +1.0 | -1.8 | -2.4 |
-| **(Video+Note) − (Video+RandomNote)** | **+1.7** | +0.7 | **-5.0 ⚠️** |
-| (Video+ASR) − Video | +56.2 | +44.3 | +32.4 |
+| Comparison | materials | tools | operation | quantity | L1 avg |
+|---|---|---|---|---|---|
+| Note − Video | -2.3 | -5.1 | -13.6 | -13.1 | **-8.5** |
+| (Video+Note) − Video | **+2.7 ✅** | -1.1 | -7.4 | -6.4 | -3.1 |
+| (Video+RandomNote) − Video | +1.0 | -1.8 | -3.5 | -5.0 | -2.3 |
+| **(Video+Note) − (Video+RandomNote)** | **+1.7** | +0.7 | **-3.9 ⚠️** | **-1.4 ⚠️** | **-0.7** |
+| (Video+ASR) − Video | +56.2 | +44.3 | +32.4 | +49.5 | +45.6 |
 
-The bottom row (Video+Note − Video+RandomNote) is the key paper-defending control: **on materials/tools the real note adds a small genuine signal, but on operation the random note is actually better** — suggests note-content effect is task-dependent and on some tasks may be dominated by prompt-engineering effect.
+### ⚠️ Major paper-defending finding (L1 fully confirmed at full n)
+
+The Video+Note − Video+RandomNote row is the "does note content matter beyond prompt-scaffold?" control. **L1 averaged, the answer is essentially NO** (Δ = -0.7pp):
+- ✅ materials: Real note wins (+1.7) — note's specific labels disambiguate
+- ≈ tools: Real ≈ random (+0.7)
+- ❌ operation: **Random note wins (+3.9)** — note content actively hurts vs the same scaffold with random text
+- ❌ quantity: **Random note wins (+1.4)** — same pattern
+
+**Implication**: the small improvement of `Video+Note` over `Video` (+2.7 on materials, slightly worse elsewhere) is NOT mainly driven by the note's specific content. The prompt-scaffold effect (having structured text next to the video) explains most of it. This is exactly the audit-question paper reviewers will ask, and the data here directly addresses it.
+
+This finding **motivates the next-stage counterfactual SFT for note-taking**: instead of relying on generic task-aware prompting (which carries little signal once the scaffold effect is controlled), train the model to generate notes that have **causally important content** for the specific question.
 
 ---
 

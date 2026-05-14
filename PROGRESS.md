@@ -319,3 +319,31 @@ max_pixels = 360 * 420  # 别压更低，会触发 min_pixels 错误
 #### Phase 1（论文其它开源模型扩展）— **deferred**
 
 详见 [docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md](docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md)。在 Phase 2+3 跑完且 paper 故事 clear 后再决定是否需要 InternVL3-8B / Intern-S1-mini / MiMo-VL-7B 等扩展数据。
+
+---
+
+## Phase 2 in-flight snapshot (2026-05-13 22:26 CDT)
+
+[evaluate_unified.py](evaluate_unified.py) 5-condition sweep 正在 3 GPU 并行跑。
+
+**GPU 调度**：
+- GPU 0: `C1 → C2 → C3 → C4 on all_level1`（chain）
+- GPU 1: 同 on `all_level2`
+- GPU 2: 同 on `all_level3`
+- GPU 3: v2 L3 旧 prompt（Phase 0 收尾）
+
+**当前最早信号**：
+
+| GPU | Condition × Task | n_so_far / n_total | Partial Acc |
+|---|---|---|---|
+| 0 | C1 × materials | 20 / 1266 | 35.0% (太小，仅作进展) |
+| 1 | C1 × sequence_generation | 6 / 750 | F1 mixed (输出超长) |
+| 2 | C1 × experimental_conclusion | 1 / 390 | (50s/sample，L3 长视频) |
+| 3 | v2 L3 旧 prompt × experimental_conclusion | 5 / 390 | (旧 prompt 继续) |
+
+**Stage 1 notes cached so far**: 54 个（across L2/L3 tasks，逐步累积）
+
+**ETA**：L3 chain 是 bottleneck（~17h，long videos × full 32 frames × 4 conditions chain）。L1 chain ~8-10h，L2 chain ~10h。**全部 Phase 2 跑完估 ~17h wall clock**（按 L3 算）。
+
+下次完整 push：第一个 condition × level 全完时（最早可能是 GPU 2 L3 上 C1 跑完 ~6h 后）。
+

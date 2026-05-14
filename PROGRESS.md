@@ -2,7 +2,57 @@
 
 更新时间：2026-05-13  
 模型：Qwen2.5-VL-7B-Instruct  
-硬件：RTX 4090 48GB (C1) + RTX 4090 24GB (C3) on featurize.cn
+硬件：UNT H200 server (8× H200 143 GB)，前期 Mac/featurize 上跑过 4090 24/48GB
+
+---
+
+## 📖 Notation & Conditions — 读表前先看这里
+
+### Task Levels (ExpVid 论文设计)
+
+| Code | Level Name | 内容 | 视频长度 |
+|---|---|---|---|
+| **L1** | Fine-grained Perception | materials / tools / operation / quantity (4 tasks) | ~8s clips |
+| **L2** | Procedural Understanding | sequence_generation / sequence_ordering / step_prediction / video_verification (4 tasks) | ~48s stages |
+| **L3** | Scientific Reasoning | experimental_conclusion / scientific_discovery (2 tasks) | ~8 min full videos |
+
+### Condition Labels — ⚠️ 文档内有**两套**含义，按 section 区分
+
+#### 旧标签 (Mac/featurize 时代用的，原 ExpVid 论文 evaluation 约定)
+| Code | 输入 | 用途 |
+|---|---|---|
+| **C1** (old) | video only | 论文标准 baseline |
+| **C2** (old) | ASR only (无视频) | 量化 ASR 泄漏上限 |
+| **C3** (old) | video + ASR | 论文未公开 condition，用来对照 |
+
+#### 新标签 (H200 unified 5-condition 设计, 2026-05-13+, [evaluate_unified.py](evaluate_unified.py))
+| Code | 输入 | 设计意图 |
+|---|---|---|
+| **C0** (new) | video only | baseline (≡ old C1) |
+| **C1** (new) | note only, no video (Design X) | 笔记是否 lossless 编码视频 |
+| **C2** (new) | video + note (Design Y) | 笔记是否 useful augmentation |
+| **C3** (new) | video + random_note (其他 video 的同 task note) | 隔离笔记**内容** vs **format scaffold** |
+| **C4** (new) | video + ASR | 上限参考 (≡ old C3) |
+
+**为什么 label 重复**：旧 ExpVid 论文 sectioning 用 C1/C2/C3 表示输入 modality；后来 Two-stage notes 工作进来需要表达更多 condition，沿用 C0-C4 编号但语义重合到 "C1/C2/C3" 容易混淆。本文档 **每张表都标明用的是哪套**：
+- `H200 C1` (在 3-col 表里) = 旧标签里的 video-only baseline ≡ 新标签 C0
+- `H200 +note` (在 3-col 表里) = Two-stage v2 with task-aware prompt（≡ 新标签 C1 但用旧 prompt 措辞）
+- 新 5-col 表用 `unified C0/C1/C2/C3/C4`（统一 prompt 模板）
+
+### Note Variants (Phase 3 待跑)
+
+| Variant | Stage 1 prompt | 用途 |
+|---|---|---|
+| **v_taskaware** (现有) | 10 个 task-specific prompts | 当前默认 |
+| **v_generic** | 一套通用 prompt | 不 task-aware baseline |
+| **v_minimal** | 短 prompt (~100 tok) | 笔记简短化是否够 |
+
+### 评测指标
+
+| Metric | 用法 |
+|---|---|
+| **Accuracy** (MC) | L1 全 task + L2 sequence_ordering/step_prediction/video_verification + L3 (per-blank) |
+| **F1** (token overlap) | L2 sequence_generation + L3 fitb (我们用 token-overlap F1; 论文用 Phi-3-mini LLM judge) |
 
 ---
 
@@ -324,6 +374,11 @@ max_pixels = 360 * 420  # 别压更低，会触发 min_pixels 错误
 
 ## Phase 2 in-flight snapshot (2026-05-13 22:26 CDT)
 
+> 📖 **Reading**：这一节用 [**新** 5-condition labels](#condition-labels--️-文档内有两套含义按-section-区分)。
+> 这里 "C1" = note only (no video, Design X)，**不是**旧 section 里的 "C1 = video-only"。
+>
+> 简化记忆：**C0** baseline, **C1** note-only, **C2** video+note, **C3** video+random_note (control), **C4** video+ASR.
+
 [evaluate_unified.py](evaluate_unified.py) 5-condition sweep 正在 3 GPU 并行跑。
 
 **GPU 调度**：
@@ -332,18 +387,18 @@ max_pixels = 360 * 420  # 别压更低，会触发 min_pixels 错误
 - GPU 2: 同 on `all_level3`
 - GPU 3: v2 L3 旧 prompt（Phase 0 收尾）
 
-**当前最早信号**：
+**最新 partial 信号**（数据 still growing，仅看方向不看绝对值）：
 
-| GPU | Condition × Task | n_so_far / n_total | Partial Acc |
-|---|---|---|---|
-| 0 | C1 × materials | 20 / 1266 | 35.0% (太小，仅作进展) |
-| 1 | C1 × sequence_generation | 6 / 750 | F1 mixed (输出超长) |
-| 2 | C1 × experimental_conclusion | 1 / 390 | (50s/sample，L3 长视频) |
-| 3 | v2 L3 旧 prompt × experimental_conclusion | 5 / 390 | (旧 prompt 继续) |
+| GPU | Condition × Task | n_so_far / n_total | Partial Acc | vs C0 (baseline) | 解读 |
+|---|---|---|---|---|---|
+| 0 | C1 × L1 materials | 980 / 1266 (**77%**) | **31.43%** | C0=34.00 → **-2.6pp** | ❌ note 替代 video 在 perception 上 lose（符合"L1 需要高保真视觉"假设）|
+| 1 | C1 × L2 sequence_generation | 480 / 750 (**64%**) | 34.86% (F1) | C0=43.32 → -8.5pp | ❌ F1 metric 上 note 限制输出长度 |
+| 2 | C1 × L3 experimental_conclusion | 60 / 390 (**15%**) | **23.44%** | C0=21.28 → **+2.2pp** ✅ | 🟢 **L3 note-only 微胜！**初步支持"L3 reasoning 受益于 note structuring"假设 (n 小，等更多数据) |
+| 3 | v2 旧 prompt × L3 experimental_conclusion | running | TBD | TBD | (Phase 0 收尾) |
 
-**Stage 1 notes cached so far**: 54 个（across L2/L3 tasks，逐步累积）
+**Stage 1 notes cached so far**: **1,477** 个 (~19% of ~7800 total)
 
-**ETA**：L3 chain 是 bottleneck（~17h，long videos × full 32 frames × 4 conditions chain）。L1 chain ~8-10h，L2 chain ~10h。**全部 Phase 2 跑完估 ~17h wall clock**（按 L3 算）。
+**ETA**：L3 chain 是 bottleneck（130s/sample × 390 samples × 2 L3 tasks × 4 conditions ≈ ~28h，C2/C3/C4 cache hit 后会快 ~5x）。L1 chain ~6h（已 77%），L2 chain ~8h。**全部 Phase 2 跑完估 ~17-24h wall clock**。
 
 下次完整 push：第一个 condition × level 全完时（最早可能是 GPU 2 L3 上 C1 跑完 ~6h 后）。
 

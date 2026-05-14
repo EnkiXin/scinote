@@ -1,0 +1,5038 @@
+{
+  "task": "experimental_conclusion",
+  "accuracy": 21.28,
+  "n_valid": 390,
+  "n_error": 0,
+  "results": [
+    {
+      "id": "3691_experimental_conclusion",
+      "pred": "collagen matrix | explant | scaffold | fasciculation patterns",
+      "gold": [
+        "dissociated or 2D explant cultures",
+        "collagen matrix assay",
+        "three-dimensional substrate",
+        "relatively stable protein gradients"
+      ],
+      "score": 0.0,
+      "response": "collagen matrix | explant | scaffold | fasciculation patterns",
+      "elapsed": 1.87
+    },
+    {
+      "id": "57543_experimental_conclusion",
+      "pred": "NG2 | NG2+ | 80% | 3DIV",
+      "gold": [
+        "immunomagnetic isolation",
+        "primary oligodendrocyte cultures",
+        "80%",
+        "4 hours"
+      ],
+      "score": 0.25,
+      "response": "NG2 | NG2+ | 80% | 3DIV",
+      "elapsed": 1.39
+    },
+    {
+      "id": "4154_experimental_conclusion",
+      "pred": "24 hours | Alexa Fluor 647 | antibodies | 90%",
+      "gold": [
+        "48 hours",
+        "Atto-550 NHS",
+        "anti-hnRNP A1 antibodies",
+        "50%"
+      ],
+      "score": 0.25,
+      "response": "24 hours | Alexa Fluor 647 | antibodies | 90%",
+      "elapsed": 1.39
+    },
+    {
+      "id": "50107_experimental_conclusion",
+      "pred": "dnc; performance index; WT",
+      "gold": [
+        "dunce",
+        "performance index",
+        "Canton-S wild-type"
+      ],
+      "score": 0.0,
+      "response": "dnc; performance index; WT",
+      "elapsed": 0.83
+    },
+    {
+      "id": "2958_experimental_conclusion",
+      "pred": "25% ethanol, 1 day | 50% ethanol, 3 days | Microfil | Histological analysis",
+      "gold": [
+        "vascular casting",
+        "abnormal cerebral vascular structure",
+        "micro-CT",
+        "brightfield microscopy"
+      ],
+      "score": 0.0,
+      "response": "25% ethanol, 1 day | 50% ethanol, 3 days | Microfil | Histological analysis",
+      "elapsed": 1.3
+    },
+    {
+      "id": "3564_experimental_conclusion",
+      "pred": "60 minutes | 120 mmHg | 280 mmHg | retrograde",
+      "gold": [
+        "5-8 minutes",
+        "80 mm Hg",
+        "130 mm Hg",
+        "physiological pressure"
+      ],
+      "score": 0.125,
+      "response": "60 minutes | 120 mmHg | 280 mmHg | retrograde",
+      "elapsed": 1.22
+    },
+    {
+      "id": "53980_experimental_conclusion",
+      "pred": "39 days | rover | path lengths | sitter",
+      "gold": [
+        "three consecutive test days",
+        "rover",
+        "path-lengths",
+        "sitter"
+      ],
+      "score": 0.5833333333333333,
+      "response": "39 days | rover | path lengths | sitter",
+      "elapsed": 1.0
+    },
+    {
+      "id": "4022_experimental_conclusion",
+      "pred": "lipid reagent | stable endothelial phenotype | primary human umbilical vein endothelial cells | mature monolayer",
+      "gold": [
+        "polyoma middle T oncogene",
+        "growth advantage",
+        "endothelial cells",
+        "homogeneous endothelial monolayer"
+      ],
+      "score": 0.225,
+      "response": "lipid reagent | stable endothelial phenotype | primary human umbilical vein endothelial cells | mature monolayer",
+      "elapsed": 1.35
+    },
+    {
+      "id": "51084_experimental_conclusion",
+      "pred": "1200 | uncoated | 800 | coated",
+      "gold": [
+        "400 µm",
+        "conducting polymer-coated",
+        "1,200 µm",
+        "uncoated"
+      ],
+      "score": 0.0,
+      "response": "1200 | uncoated | 800 | coated",
+      "elapsed": 0.96
+    },
+    {
+      "id": "56651_experimental_conclusion",
+      "pred": "50 µg/kg | lethality | neuropathic pain | hyperalgesia |",
+      "gold": [
+        "50 µg/kg",
+        "thermal hypoalgesia",
+        "mechanical allodynia",
+        "ATF-3"
+      ],
+      "score": 0.25,
+      "response": "50 µg/kg | lethality | neuropathic pain | hyperalgesia |",
+      "elapsed": 0.97
+    },
+    {
+      "id": "52742_experimental_conclusion",
+      "pred": "100 | hours | images | minute",
+      "gold": [
+        "30",
+        "24 hours",
+        "40 frames in 20 seconds",
+        "30 minutes"
+      ],
+      "score": 0.16666666666666666,
+      "response": "100 | hours | images | minute",
+      "elapsed": 0.79
+    },
+    {
+      "id": "64175_experimental_conclusion",
+      "pred": "10 days | neuronal morphology | βIII-tubulin | Synaptophysin",
+      "gold": [
+        "21 days",
+        "action potentials",
+        "NeuN",
+        "Synaptophysin"
+      ],
+      "score": 0.375,
+      "response": "10 days | neuronal morphology | βIII-tubulin | Synaptophysin",
+      "elapsed": 1.13
+    },
+    {
+      "id": "61411_experimental_conclusion",
+      "pred": "decreased|distal peak|non-transfected cells|transfected cells",
+      "gold": [
+        "wider",
+        "lower peak",
+        "non-transfected",
+        "wild-type ankyrin-G"
+      ],
+      "score": 0.29166666666666663,
+      "response": "decreased|distal peak|non-transfected cells|transfected cells",
+      "elapsed": 0.98
+    },
+    {
+      "id": "57346_experimental_conclusion",
+      "pred": "endothelial integrity | tight junctions | transporters | OATP1B1",
+      "gold": [
+        "pericyte attachment",
+        "red blood cells",
+        "P-glycoprotein",
+        "C219"
+      ],
+      "score": 0.0,
+      "response": "endothelial integrity | tight junctions | transporters | OATP1B1",
+      "elapsed": 1.16
+    },
+    {
+      "id": "201832_experimental_conclusion",
+      "pred": "ECD; Intercal Epileptiform Discharges; lateral inferior dipole; MRI",
+      "gold": [
+        "EMSI",
+        "ictal onset",
+        "temporal lobe",
+        "iEEG ESI"
+      ],
+      "score": 0.0,
+      "response": "ECD; Intercal Epileptiform Discharges; lateral inferior dipole; MRI",
+      "elapsed": 0.85
+    },
+    {
+      "id": "4142_experimental_conclusion",
+      "pred": "venipuncture | cannulation | non-invasive | concentration",
+      "gold": [
+        "tail or saphenous vein puncture",
+        "in vivo microdialysis",
+        "minimally disruptive",
+        "time course"
+      ],
+      "score": 0.0,
+      "response": "venipuncture | cannulation | non-invasive | concentration",
+      "elapsed": 0.7
+    },
+    {
+      "id": "56676_experimental_conclusion",
+      "pred": "autoantibodies | 50% | green | red",
+      "gold": [
+        "anti-NMDA receptor autoantibodies",
+        "30%",
+        "NR1-GFP",
+        "IgG-Alexa 594"
+      ],
+      "score": 0.125,
+      "response": "autoantibodies | 50% | green | red",
+      "elapsed": 0.74
+    },
+    {
+      "id": "61062_experimental_conclusion",
+      "pred": "1 mM | 100 µM | 2-fold | FSW",
+      "gold": [
+        "glutamine",
+        "1 mM",
+        "18-fold",
+        "filtered seawater control"
+      ],
+      "score": 0.0,
+      "response": "1 mM | 100 µM | 2-fold | FSW",
+      "elapsed": 0.83
+    },
+    {
+      "id": "57332_experimental_conclusion",
+      "pred": "simulated bedded packs | dynamic flux chamber method | commercial barns | static flux chamber method",
+      "gold": [
+        "simulated bedded packs",
+        "dynamic flux-chamber method",
+        "commercial facilities",
+        "acid-trap methods"
+      ],
+      "score": 0.5178571428571429,
+      "response": "simulated bedded packs | dynamic flux chamber method | commercial barns | static flux chamber method",
+      "elapsed": 0.85
+    },
+    {
+      "id": "63694_experimental_conclusion",
+      "pred": "85% | 79% | 67% | insecticide 2",
+      "gold": [
+        "94%",
+        "89%",
+        "37%",
+        "insecticide 2"
+      ],
+      "score": 0.25,
+      "response": "85% | 79% | 67% | insecticide 2",
+      "elapsed": 0.87
+    },
+    {
+      "id": "64400_experimental_conclusion",
+      "pred": "PFOS|PFOA|phloem|medium",
+      "gold": [
+        "PFOA",
+        "PFOS",
+        "phloem",
+        "unspiked solution"
+      ],
+      "score": 0.25,
+      "response": "PFOS|PFOA|phloem|medium",
+      "elapsed": 0.72
+    },
+    {
+      "id": "52601_experimental_conclusion",
+      "pred": "CSF | 100 uM | PMEA | 200 ms",
+      "gold": [
+        "4-AP",
+        "100 μM",
+        "PMEA",
+        "100 milliseconds"
+      ],
+      "score": 0.375,
+      "response": "CSF | 100 uM | PMEA | 200 ms",
+      "elapsed": 0.8
+    },
+    {
+      "id": "57613_experimental_conclusion",
+      "pred": "160°C | 24 h | Acidic IL | C5 sugars",
+      "gold": [
+        "160°C",
+        "1 h",
+        "acidic ionic liquid",
+        "C5 sugars"
+      ],
+      "score": 0.725,
+      "response": "160°C | 24 h | Acidic IL | C5 sugars",
+      "elapsed": 1.13
+    },
+    {
+      "id": "55979_experimental_conclusion",
+      "pred": "nanopore | soil | 125,000+ | 5.38 kb",
+      "gold": [
+        "nanopore",
+        "soil",
+        "125,000",
+        "5,000"
+      ],
+      "score": 0.5,
+      "response": "nanopore | soil | 125,000+ | 5.38 kb",
+      "elapsed": 1.05
+    },
+    {
+      "id": "59447_experimental_conclusion",
+      "pred": "north-south | 12:00 | overestimate | underestimate",
+      "gold": [
+        "north-south",
+        "12:30",
+        "underestimate",
+        "overestimate"
+      ],
+      "score": 0.25,
+      "response": "north-south | 12:00 | overestimate | underestimate",
+      "elapsed": 0.75
+    },
+    {
+      "id": "53411_experimental_conclusion",
+      "pred": "V. DNase Treatment | Clostridia | 7.4 | 63.2 |",
+      "gold": [
+        "targeted lysis",
+        "endospore-forming Firmicutes",
+        "8–19%",
+        "90.6% and 83.9%"
+      ],
+      "score": 0.0,
+      "response": "V. DNase Treatment | Clostridia | 7.4 | 63.2 |",
+      "elapsed": 0.88
+    },
+    {
+      "id": "58164_experimental_conclusion",
+      "pred": "protein content | protein content and digestible carbohydrates | variety",
+      "gold": [
+        "soluble protein",
+        "digestible carbohydrates",
+        "corn variety"
+      ],
+      "score": 0.5793650793650794,
+      "response": "protein content | protein content and digestible carbohydrates | variety",
+      "elapsed": 0.73
+    },
+    {
+      "id": "59728_experimental_conclusion",
+      "pred": "DMAPAAQ+FeOOH | 90% | 10 | Na2SO4",
+      "gold": [
+        "DMAPAAQ+FeOOH",
+        "87.6%",
+        "8",
+        "sodium chloride"
+      ],
+      "score": 0.25,
+      "response": "DMAPAAQ+FeOOH | 90% | 10 | Na2SO4",
+      "elapsed": 0.94
+    },
+    {
+      "id": "58916_experimental_conclusion",
+      "pred": "insert | filter | 40 nm | 0.05",
+      "gold": [
+        "37 mm filter",
+        "cell culture insert",
+        "800 nm",
+        "< 0.05"
+      ],
+      "score": 0.29166666666666663,
+      "response": "insert | filter | 40 nm | 0.05",
+      "elapsed": 0.78
+    },
+    {
+      "id": "63101_experimental_conclusion",
+      "pred": "Exiguobacterium | aquatic habitats | naphthalene | liquid medium",
+      "gold": [
+        "four",
+        "Dadri wetland water samples",
+        "styrene",
+        "LCFBM"
+      ],
+      "score": 0.0,
+      "response": "Exiguobacterium | aquatic habitats | naphthalene | liquid medium",
+      "elapsed": 0.89
+    },
+    {
+      "id": "59119_experimental_conclusion",
+      "pred": "A. tumefaciens | A. rhizogenes | exodermis | lateral root cap",
+      "gold": [
+        "A. tumefaciens",
+        "A. rhizogenes",
+        "lateral root emergence",
+        "wounded areas"
+      ],
+      "score": 0.5,
+      "response": "A. tumefaciens | A. rhizogenes | exodermis | lateral root cap",
+      "elapsed": 0.83
+    },
+    {
+      "id": "52411_experimental_conclusion",
+      "pred": "protocol | cell | 90%",
+      "gold": [
+        "CAM xenograft",
+        "chick embryo",
+        "93%"
+      ],
+      "score": 0.0,
+      "response": "protocol | cell | 90%",
+      "elapsed": 0.61
+    },
+    {
+      "id": "52557_experimental_conclusion",
+      "pred": "Poplar | cottonseed | poplar | defatted",
+      "gold": [
+        "maple wood",
+        "cottonseed",
+        "cottonseed protein isolate",
+        "soy"
+      ],
+      "score": 0.25,
+      "response": "Poplar | cottonseed | poplar | defatted",
+      "elapsed": 0.69
+    },
+    {
+      "id": "56074_experimental_conclusion",
+      "pred": "zeta potential | ultrasonication | 1 hour | 2 hours",
+      "gold": [
+        "polydispersity",
+        "ultrasonic bath sonication",
+        "60 minutes",
+        "30 minutes"
+      ],
+      "score": 0.0,
+      "response": "zeta potential | ultrasonication | 1 hour | 2 hours",
+      "elapsed": 1.06
+    },
+    {
+      "id": "59338_experimental_conclusion",
+      "pred": "CMNs | Manganese | Plant interactions",
+      "gold": [
+        "common mycorrhizal networks",
+        "15N",
+        "nitrogen transfer"
+      ],
+      "score": 0.0,
+      "response": "CMNs | Manganese | Plant interactions",
+      "elapsed": 0.93
+    },
+    {
+      "id": "57541_experimental_conclusion",
+      "pred": "PEG-CAT | MDA Formation | Base Perfusate | P<0.05",
+      "gold": [
+        "PEG-catalase",
+        "ALT",
+        "base perfusate",
+        "150, 180, 210, and 240 minutes"
+      ],
+      "score": 0.25,
+      "response": "PEG-CAT | MDA Formation | Base Perfusate | P<0.05",
+      "elapsed": 0.89
+    },
+    {
+      "id": "63934_experimental_conclusion",
+      "pred": "10 | MAR | 0.5",
+      "gold": [
+        "eight",
+        "Multiple Antibiotic Resistance (MAR)",
+        "0.2"
+      ],
+      "score": 0.0,
+      "response": "10 | MAR | 0.5",
+      "elapsed": 0.68
+    },
+    {
+      "id": "58290_experimental_conclusion",
+      "pred": "Deporixin | decrease | 20% | 10 μM",
+      "gold": [
+        "E-4031",
+        "deceleration",
+        "65–70%",
+        "10 micromolar"
+      ],
+      "score": 0.125,
+      "response": "Deporixin | decrease | 20% | 10 μM",
+      "elapsed": 0.84
+    },
+    {
+      "id": "65848_experimental_conclusion",
+      "pred": "fluorescence microscopy | fluorescent signals | control group | no fluorescence",
+      "gold": [
+        "intraoperative OCT",
+        "hESC-derived photoreceptor progenitors",
+        "media-injected controls",
+        "cell-free fluid"
+      ],
+      "score": 0.0,
+      "response": "fluorescence microscopy | fluorescent signals | control group | no fluorescence",
+      "elapsed": 0.77
+    },
+    {
+      "id": "201866_experimental_conclusion",
+      "pred": "PolyHb; oxygenation; lungs; RBC",
+      "gold": [
+        "RBC-based perfusate",
+        "pulmonary vascular resistance",
+        "first hour",
+        "PolyhHb and control perfusates"
+      ],
+      "score": 0.0,
+      "response": "PolyHb; oxygenation; lungs; RBC",
+      "elapsed": 0.72
+    },
+    {
+      "id": "58323_experimental_conclusion",
+      "pred": "rottenone | 10 μM | 6 hours | AMPKα activity",
+      "gold": [
+        "rotenone",
+        "10 µM",
+        "5 hours",
+        "nascent protein synthesis"
+      ],
+      "score": 0.25,
+      "response": "rottenone | 10 μM | 6 hours | AMPKα activity",
+      "elapsed": 1.0
+    },
+    {
+      "id": "64314_experimental_conclusion",
+      "pred": "Superior Mesenteric Artery; 1 hour; duodenum, jejunum, ileum; loss of villi.",
+      "gold": [
+        "superior mesenteric artery (SMA)",
+        "45 min ischemia + 90 min reperfusion",
+        "duodenum, jejunum, and ileum",
+        "villus blunting/distortion"
+      ],
+      "score": 0.06666666666666667,
+      "response": "Superior Mesenteric Artery; 1 hour; duodenum, jejunum, ileum; loss of villi.",
+      "elapsed": 1.27
+    },
+    {
+      "id": "50210_experimental_conclusion",
+      "pred": "75U/30min | 200U/2h | 60 | 200U/2h",
+      "gold": [
+        "200 U/ml collagenase",
+        "2 hours",
+        "39.33 ± 22.05",
+        "75 U/ml for 30 minutes"
+      ],
+      "score": 0.0,
+      "response": "75U/30min | 200U/2h | 60 | 200U/2h",
+      "elapsed": 1.05
+    },
+    {
+      "id": "3888_experimental_conclusion",
+      "pred": "Talin1 shRNA | OVC433 | larger | time",
+      "gold": [
+        "OVCA433",
+        "talin-1",
+        "smaller",
+        "8 hours"
+      ],
+      "score": 0.0,
+      "response": "Talin1 shRNA | OVC433 | larger | time",
+      "elapsed": 1.15
+    },
+    {
+      "id": "3847_experimental_conclusion",
+      "pred": "345 | 400 | 19 | 2200",
+      "gold": [
+        "158",
+        "558",
+        "1.2",
+        "2,200"
+      ],
+      "score": 0.0,
+      "response": "345 | 400 | 19 | 2200",
+      "elapsed": 0.83
+    },
+    {
+      "id": "4422_experimental_conclusion",
+      "pred": "chondrocytes | 10 mm | patellar | 8 weeks",
+      "gold": [
+        "autologous chondrocyte-seeded collagen matrices",
+        "3.6 mm",
+        "trochlear",
+        "12 weeks"
+      ],
+      "score": 0.25,
+      "response": "chondrocytes | 10 mm | patellar | 8 weeks",
+      "elapsed": 0.79
+    },
+    {
+      "id": "3039_experimental_conclusion",
+      "pred": "focal ischemia | C57BL/6J | 10% | 24 hours",
+      "gold": [
+        "permanent distal MCA ligation",
+        "C57BL/6",
+        "23 mm³",
+        "24 hours"
+      ],
+      "score": 0.25,
+      "response": "focal ischemia | C57BL/6J | 10% | 24 hours",
+      "elapsed": 0.89
+    },
+    {
+      "id": "51079_experimental_conclusion",
+      "pred": "ibotenic acid; VLPO; longer emergence times; Medial Septum",
+      "gold": [
+        "ibotenic acid",
+        "VLPO",
+        "prolonged hypnosis",
+        "medial septum"
+      ],
+      "score": 0.05,
+      "response": "ibotenic acid; VLPO; longer emergence times; Medial Septum",
+      "elapsed": 0.81
+    },
+    {
+      "id": "1942_experimental_conclusion",
+      "pred": "highly metastatic cancer cell | tail vein | nude mice | parental cells",
+      "gold": [
+        "lung metastases",
+        "tail vein",
+        "immunodeficient mice",
+        "parental cancer cell line"
+      ],
+      "score": 0.4583333333333333,
+      "response": "highly metastatic cancer cell | tail vein | nude mice | parental cells",
+      "elapsed": 0.77
+    },
+    {
+      "id": "2464_experimental_conclusion",
+      "pred": "left anterior descending artery | 30 minutes | 2 hours | Evans blue",
+      "gold": [
+        "LAD",
+        "30 minutes",
+        "4 hours",
+        "Evans blue/TTC"
+      ],
+      "score": 0.5,
+      "response": "left anterior descending artery | 30 minutes | 2 hours | Evans blue",
+      "elapsed": 0.78
+    },
+    {
+      "id": "54839_experimental_conclusion",
+      "pred": "myointimal hyperplasia | 14 | 28 | luminal obliteration",
+      "gold": [
+        "myointimal hyperplasia",
+        "7",
+        "28",
+        "luminal obliteration"
+      ],
+      "score": 0.75,
+      "response": "myointimal hyperplasia | 14 | 28 | luminal obliteration",
+      "elapsed": 0.86
+    },
+    {
+      "id": "50327_experimental_conclusion",
+      "pred": "hES | cysts | rUGSM | normal |",
+      "gold": [
+        "human ES cells",
+        "teratomas",
+        "urogenital sinus mesenchyme (UGSM)",
+        "PSA-positive"
+      ],
+      "score": 0.0,
+      "response": "hES | cysts | rUGSM | normal |",
+      "elapsed": 0.7
+    },
+    {
+      "id": "56679_experimental_conclusion",
+      "pred": "d20 | cartilage | d28 | bone",
+      "gold": [
+        "day 10",
+        "cartilage",
+        "day 14",
+        "bony bridging"
+      ],
+      "score": 0.25,
+      "response": "d20 | cartilage | d28 | bone",
+      "elapsed": 0.71
+    },
+    {
+      "id": "57531_experimental_conclusion",
+      "pred": "INS-1E | 20 mM | 100 ng/mL | 30 ng/mL",
+      "gold": [
+        "INS-1E",
+        "20 mM",
+        "100 ng/mL",
+        "15 ng/mL"
+      ],
+      "score": 0.875,
+      "response": "INS-1E | 20 mM | 100 ng/mL | 30 ng/mL",
+      "elapsed": 0.99
+    },
+    {
+      "id": "200904_experimental_conclusion",
+      "pred": "ITP1 M pool food | deposits | ROS | mean area of deposits",
+      "gold": [
+        "Psidium guajava extract",
+        "fecal deposits",
+        "total deposit area",
+        "IOD"
+      ],
+      "score": 0.16666666666666666,
+      "response": "ITP1 M pool food | deposits | ROS | mean area of deposits",
+      "elapsed": 0.8
+    },
+    {
+      "id": "63543_experimental_conclusion",
+      "pred": "P0 | polygonal | P4 | fibroblast-like",
+      "gold": [
+        "P0–P1",
+        "pigmentation",
+        "passage 4",
+        "spindle-like"
+      ],
+      "score": 0.0,
+      "response": "P0 | polygonal | P4 | fibroblast-like",
+      "elapsed": 0.82
+    },
+    {
+      "id": "62559_experimental_conclusion",
+      "pred": "40% | plasmid | 21% | protein",
+      "gold": [
+        "40%",
+        "Fab protein",
+        "21%",
+        "GFP plasmid"
+      ],
+      "score": 0.5,
+      "response": "40% | plasmid | 21% | protein",
+      "elapsed": 0.78
+    },
+    {
+      "id": "62432_experimental_conclusion",
+      "pred": "RhB marked | unmarked | experimental replicates | preferential mating success",
+      "gold": [
+        "outcross males",
+        "inbred males",
+        "all three replicates",
+        "reduced mating fitness from inbreeding"
+      ],
+      "score": 0.1625,
+      "response": "RhB marked | unmarked | experimental replicates | preferential mating success",
+      "elapsed": 0.81
+    },
+    {
+      "id": "201062_experimental_conclusion",
+      "pred": "genotoxic stress | ssDNA foci formation | S phase | accumulation",
+      "gold": [
+        "hydrogen peroxide",
+        "ssDNA foci",
+        "G1 phase",
+        "outside S phase"
+      ],
+      "score": 0.325,
+      "response": "genotoxic stress | ssDNA foci formation | S phase | accumulation",
+      "elapsed": 0.78
+    },
+    {
+      "id": "56997_experimental_conclusion",
+      "pred": "90% | 100% | ZO-1 | gap junctions",
+      "gold": [
+        "90-95%",
+        "100%",
+        "ZO-1",
+        "RPE65"
+      ],
+      "score": 0.5,
+      "response": "90% | 100% | ZO-1 | gap junctions",
+      "elapsed": 0.83
+    },
+    {
+      "id": "59156_experimental_conclusion",
+      "pred": "membrane contrast | thin | membranes | cytoplasm",
+      "gold": [
+        "membrane contrast",
+        "FIB-SEM",
+        "mouse nervus tibialis",
+        "C. elegans"
+      ],
+      "score": 0.25,
+      "response": "membrane contrast | thin | membranes | cytoplasm",
+      "elapsed": 0.72
+    },
+    {
+      "id": "54899_experimental_conclusion",
+      "pred": "VDAC1-IP3R1 | spots | GRP75-IP3R1 | CypD",
+      "gold": [
+        "in situ proximity ligation assay",
+        "red puncta",
+        "VDAC1–IP3R1",
+        "dual-recognition"
+      ],
+      "score": 0.0,
+      "response": "VDAC1-IP3R1 | spots | GRP75-IP3R1 | CypD",
+      "elapsed": 0.95
+    },
+    {
+      "id": "63020_experimental_conclusion",
+      "pred": "75 | protein | saliva | water",
+      "gold": [
+        "220 kDa",
+        "vitellogenin",
+        "salivary glands",
+        "non-feeding plants"
+      ],
+      "score": 0.0,
+      "response": "75 | protein | saliva | water",
+      "elapsed": 0.68
+    },
+    {
+      "id": "63013_experimental_conclusion",
+      "pred": "UV/Vis | 1:1 | absorbance | fluorescence",
+      "gold": [
+        "Protein G-ssDNA bioconjugation",
+        "1:1 molar ratio",
+        "UV/Vis spectral fitting",
+        "native PAGE"
+      ],
+      "score": 0.125,
+      "response": "UV/Vis | 1:1 | absorbance | fluorescence",
+      "elapsed": 0.79
+    },
+    {
+      "id": "58239_experimental_conclusion",
+      "pred": "2000 | OTUs | Clutch",
+      "gold": [
+        "2000",
+        "OTUs",
+        "tick microbiome"
+      ],
+      "score": 0.6666666666666666,
+      "response": "2000 | OTUs | Clutch",
+      "elapsed": 0.83
+    },
+    {
+      "id": "57914_experimental_conclusion",
+      "pred": "exI-1 | GFP | nuclei | DAPI",
+      "gold": [
+        "35°C for 2–5 h",
+        "EXL-1:GFP",
+        "nuclei",
+        "DAPI"
+      ],
+      "score": 0.5,
+      "response": "exI-1 | GFP | nuclei | DAPI",
+      "elapsed": 0.98
+    },
+    {
+      "id": "50371_experimental_conclusion",
+      "pred": "embryos | different stages | developmental studies | genetic analysis",
+      "gold": [
+        "30",
+        "less than 1 hour",
+        "cytological applications",
+        "less than 3 hours"
+      ],
+      "score": 0.0,
+      "response": "embryos | different stages | developmental studies | genetic analysis",
+      "elapsed": 0.69
+    },
+    {
+      "id": "57629_experimental_conclusion",
+      "pred": "isolation | 24 h | spreading | GFAP and S100",
+      "gold": [
+        "non-enzymatic",
+        "24 hours",
+        "long processes",
+        "GFAP, S100B, and p75NTR"
+      ],
+      "score": 0.19642857142857145,
+      "response": "isolation | 24 h | spreading | GFAP and S100",
+      "elapsed": 0.89
+    },
+    {
+      "id": "58099_experimental_conclusion",
+      "pred": "CCCP; 10 μM; significant; BFA",
+      "gold": [
+        "CCCP",
+        "10 micromolar for 6 hours",
+        ">10-fold",
+        "bafilomycin A"
+      ],
+      "score": 0.0,
+      "response": "CCCP; 10 μM; significant; BFA",
+      "elapsed": 0.8
+    },
+    {
+      "id": "3250_experimental_conclusion",
+      "pred": "data | samples | 0.8X SSC | successful hybridization",
+      "gold": [
+        "Pearson correlation coefficient",
+        "technical replicates",
+        "0.99",
+        "excellent reproducibility"
+      ],
+      "score": 0.0,
+      "response": "data | samples | 0.8X SSC | successful hybridization",
+      "elapsed": 0.73
+    },
+    {
+      "id": "57385_experimental_conclusion",
+      "pred": "dsTub|midgut|80%|95%",
+      "gold": [
+        "liposome-encapsulated dsRNA",
+        "tubulin",
+        "40%",
+        "60%"
+      ],
+      "score": 0.0,
+      "response": "dsTub|midgut|80%|95%",
+      "elapsed": 0.8
+    },
+    {
+      "id": "53618_experimental_conclusion",
+      "pred": "mKate2 | chloramphenicol | complete | ampicillin",
+      "gold": [
+        "CAT",
+        "chloramphenicol",
+        "99%",
+        "ampicillin"
+      ],
+      "score": 0.5,
+      "response": "mKate2 | chloramphenicol | complete | ampicillin",
+      "elapsed": 0.73
+    },
+    {
+      "id": "58081_experimental_conclusion",
+      "pred": "92.8% | BMDM | 91.4% | BMDC",
+      "gold": [
+        "62%",
+        "PSTPIP2-EGFP",
+        "53%",
+        "OPAL1-EGFP"
+      ],
+      "score": 0.0,
+      "response": "92.8% | BMDM | 91.4% | BMDC",
+      "elapsed": 0.93
+    },
+    {
+      "id": "50191_experimental_conclusion",
+      "pred": "rosiglitazone | Ucp1 | cAMP | Western blot",
+      "gold": [
+        "rosiglitazone",
+        "UCP1",
+        "forskolin",
+        "Western blot"
+      ],
+      "score": 0.75,
+      "response": "rosiglitazone | Ucp1 | cAMP | Western blot",
+      "elapsed": 0.81
+    },
+    {
+      "id": "52542_experimental_conclusion",
+      "pred": "voltage | calcium | faster | longer",
+      "gold": [
+        "voltage",
+        "calcium transient",
+        "faster",
+        "longer"
+      ],
+      "score": 0.9166666666666666,
+      "response": "voltage | calcium | faster | longer",
+      "elapsed": 0.61
+    },
+    {
+      "id": "51357_experimental_conclusion",
+      "pred": "Ouabain | ET-1 | Akt activation | 3H-leucine",
+      "gold": [
+        "ouabain",
+        "endothelin-1 (ET1)",
+        "AKT phosphorylation",
+        "tritiated leucine"
+      ],
+      "score": 0.375,
+      "response": "Ouabain | ET-1 | Akt activation | 3H-leucine",
+      "elapsed": 0.94
+    },
+    {
+      "id": "61854_experimental_conclusion",
+      "pred": "lung; immunostaining; native structure; collagen IV",
+      "gold": [
+        "mouse cardiopulmonary complex",
+        "H&E staining",
+        "absence of nuclei",
+        "insoluble ECM structure"
+      ],
+      "score": 0.0,
+      "response": "lung; immunostaining; native structure; collagen IV",
+      "elapsed": 0.72
+    },
+    {
+      "id": "50484_experimental_conclusion",
+      "pred": "DFCP1-positive omegasomes | 6' | 10' | lysosome",
+      "gold": [
+        "DFCP1-positive omegasomes",
+        "1.5 min",
+        "10 min",
+        "lysosomes"
+      ],
+      "score": 0.25,
+      "response": "DFCP1-positive omegasomes | 6' | 10' | lysosome",
+      "elapsed": 1.02
+    },
+    {
+      "id": "50648_experimental_conclusion",
+      "pred": "microscope | 10 | 300-500 | high accuracy",
+      "gold": [
+        "STA-PUT velocity sedimentation",
+        "22",
+        "1×10^8",
+        "fairly high purity"
+      ],
+      "score": 0.1,
+      "response": "microscope | 10 | 300-500 | high accuracy",
+      "elapsed": 0.8
+    },
+    {
+      "id": "50867_experimental_conclusion",
+      "pred": "with | time | 10 minutes | Western blot",
+      "gold": [
+        "linearly",
+        "0–7.5 minutes",
+        "37°C",
+        "biotinylation–GSH stripping assay"
+      ],
+      "score": 0.0,
+      "response": "with | time | 10 minutes | Western blot",
+      "elapsed": 0.67
+    },
+    {
+      "id": "58359_experimental_conclusion",
+      "pred": "cells | collagen | 24 hours | 10%",
+      "gold": [
+        "HeLa spheroids",
+        "bioactive flavonoid",
+        "24 hours",
+        "10 μM"
+      ],
+      "score": 0.25,
+      "response": "cells | collagen | 24 hours | 10%",
+      "elapsed": 0.76
+    },
+    {
+      "id": "56819_experimental_conclusion",
+      "pred": "modified Blumgart | complication | 6 hours | 100 ml",
+      "gold": [
+        "modified Blumgart",
+        "pancreatic leak",
+        "6 hours",
+        "150 mL"
+      ],
+      "score": 0.625,
+      "response": "modified Blumgart | complication | 6 hours | 100 ml",
+      "elapsed": 0.81
+    },
+    {
+      "id": "61449_experimental_conclusion",
+      "pred": "100 bp | 200 bp | adapter sequences | 50 nt",
+      "gold": [
+        "166 bp",
+        "291 bp",
+        "adapters/indexes",
+        "125 bp"
+      ],
+      "score": 0.25,
+      "response": "100 bp | 200 bp | adapter sequences | 50 nt",
+      "elapsed": 0.87
+    },
+    {
+      "id": "63422_experimental_conclusion",
+      "pred": "Hypericin | 635 nm | 24 hours | extensive vascular damage characterized by hemorrhage inside the silicone ring |",
+      "gold": [
+        "hypericin",
+        "405 nm",
+        "3 h",
+        "reduced vessel density"
+      ],
+      "score": 0.375,
+      "response": "Hypericin | 635 nm | 24 hours | extensive vascular damage characterized by hemorrhage inside the silicone ring |",
+      "elapsed": 1.05
+    },
+    {
+      "id": "64484_experimental_conclusion",
+      "pred": "Fluorescence scanner readout | 0.0017 ng | TMB readout",
+      "gold": [
+        "fluorescence microscopy",
+        "0.1 ng",
+        "fluorescence scanner"
+      ],
+      "score": 0.3,
+      "response": "Fluorescence scanner readout | 0.0017 ng | TMB readout",
+      "elapsed": 0.94
+    },
+    {
+      "id": "57016_experimental_conclusion",
+      "pred": "mouse | H3K4me3 | H3K27me3 | IgG",
+      "gold": [
+        "murine brain tumor neurospheres",
+        "Gapdh",
+        "H3K4me3",
+        "H3K27me3"
+      ],
+      "score": 0.0,
+      "response": "mouse | H3K4me3 | H3K27me3 | IgG",
+      "elapsed": 0.84
+    },
+    {
+      "id": "200229_experimental_conclusion",
+      "pred": "80% | 125 ng/mL | Atezolizumab | 90%",
+      "gold": [
+        "48–74%",
+        "1,000 µg/mL",
+        "atezolizumab",
+        "92%"
+      ],
+      "score": 0.25,
+      "response": "80% | 125 ng/mL | Atezolizumab | 90%",
+      "elapsed": 1.09
+    },
+    {
+      "id": "56857_experimental_conclusion",
+      "pred": "NCAM | tumor | invasion | wild-type",
+      "gold": [
+        "NCAM",
+        "Panc02-H7",
+        "invasion length and area",
+        "wild-type mice"
+      ],
+      "score": 0.5166666666666666,
+      "response": "NCAM | tumor | invasion | wild-type",
+      "elapsed": 0.57
+    },
+    {
+      "id": "60469_experimental_conclusion",
+      "pred": "high | 10 ul | 100% | GFP",
+      "gold": [
+        "90–100%",
+        "250 μL",
+        "30,000 single tumor cells",
+        "GFP"
+      ],
+      "score": 0.25,
+      "response": "high | 10 ul | 100% | GFP",
+      "elapsed": 0.79
+    },
+    {
+      "id": "57265_experimental_conclusion",
+      "pred": "150 | significant tumor regression | 70% | 75",
+      "gold": [
+        "150",
+        "complete regression",
+        "50%",
+        "75"
+      ],
+      "score": 0.6,
+      "response": "150 | significant tumor regression | 70% | 75",
+      "elapsed": 0.82
+    },
+    {
+      "id": "61173_experimental_conclusion",
+      "pred": "tumor fragment | mouse | solid | 10 days",
+      "gold": [
+        "orthotopic",
+        "mammary fat pad",
+        "PDX/GEMM",
+        "2–8 weeks"
+      ],
+      "score": 0.0,
+      "response": "tumor fragment | mouse | solid | 10 days",
+      "elapsed": 0.75
+    },
+    {
+      "id": "62623_experimental_conclusion",
+      "pred": "microscopic scoring method | significantly | PBS | 0.25",
+      "gold": [
+        "γ-H2AX",
+        "linearly",
+        "0 Gy",
+        "0.124"
+      ],
+      "score": 0.0,
+      "response": "microscopic scoring method | significantly | PBS | 0.25",
+      "elapsed": 0.8
+    },
+    {
+      "id": "56418_experimental_conclusion",
+      "pred": "G1 | S | G2/M",
+      "gold": [
+        "G1",
+        "S",
+        "G2/M"
+      ],
+      "score": 1.0,
+      "response": "G1 | S | G2/M",
+      "elapsed": 1.0
+    },
+    {
+      "id": "61805_experimental_conclusion",
+      "pred": "Manual counting | all plates | three counters | Image analysis",
+      "gold": [
+        "Fiji ImageJ",
+        "three images",
+        "three independent counters",
+        "manual counting"
+      ],
+      "score": 0.2,
+      "response": "Manual counting | all plates | three counters | Image analysis",
+      "elapsed": 0.75
+    },
+    {
+      "id": "59358_experimental_conclusion",
+      "pred": "100 MBq | intravenously | uptake | kidneys",
+      "gold": [
+        "100 MBq",
+        "45 minutes",
+        "image noise",
+        "liver"
+      ],
+      "score": 0.25,
+      "response": "100 MBq | intravenously | uptake | kidneys",
+      "elapsed": 0.8
+    },
+    {
+      "id": "56248_experimental_conclusion",
+      "pred": "TIP60 | HUVEC | single-cell migration | siControl",
+      "gold": [
+        "TIP60",
+        "breast epithelial cells",
+        "single-cell migration",
+        "siControl"
+      ],
+      "score": 0.75,
+      "response": "TIP60 | HUVEC | single-cell migration | siControl",
+      "elapsed": 0.75
+    },
+    {
+      "id": "64216_experimental_conclusion",
+      "pred": "Lectin | MRI | HER2 | Brain",
+      "gold": [
+        "external carotid artery ligation",
+        "common carotid artery injection",
+        "lectin",
+        "brain delivery"
+      ],
+      "score": 0.16666666666666666,
+      "response": "Lectin | MRI | HER2 | Brain",
+      "elapsed": 0.7
+    },
+    {
+      "id": "64146_experimental_conclusion",
+      "pred": "PAF | mesenchymal morphology | vimentin | GM130",
+      "gold": [
+        "PAF",
+        "EMT",
+        "alpha6-integrin",
+        "Vimentin"
+      ],
+      "score": 0.25,
+      "response": "PAF | mesenchymal morphology | vimentin | GM130",
+      "elapsed": 0.98
+    },
+    {
+      "id": "63855_experimental_conclusion",
+      "pred": "adenoviral | organoids | adenovirus | GFP-positive",
+      "gold": [
+        "ex vivo",
+        "urothelial",
+        "Ad5CMVCre",
+        "nearly 100% GFP-positive"
+      ],
+      "score": 0.125,
+      "response": "adenoviral | organoids | adenovirus | GFP-positive",
+      "elapsed": 0.76
+    },
+    {
+      "id": "57329_experimental_conclusion",
+      "pred": "B16 cells | Oil Red O | 20% | tumor suppression",
+      "gold": [
+        "B16F10 melanoma cells",
+        "Oil Red O",
+        "quantitative PCR",
+        "de-differentiation"
+      ],
+      "score": 0.35,
+      "response": "B16 cells | Oil Red O | 20% | tumor suppression",
+      "elapsed": 0.82
+    },
+    {
+      "id": "63039_experimental_conclusion",
+      "pred": "TH330 | 258.9 nM | TH107 | >1400 nM",
+      "gold": [
+        "TH107",
+        "56 nM",
+        "TH116",
+        "> 1 µM"
+      ],
+      "score": 0.125,
+      "response": "TH330 | 258.9 nM | TH107 | >1400 nM",
+      "elapsed": 1.04
+    },
+    {
+      "id": "63245_experimental_conclusion",
+      "pred": "Centrifugation | Robotic Solid Phase Extraction | 8000 x g | RT | 36-DMSO | d6-DMSO",
+      "gold": [
+        "solid phase extraction (SPE)",
+        "1H NMR J-RES",
+        "3.25 vs 3.02 ppm",
+        "2.76 vs 2.74 ppm"
+      ],
+      "score": 0.0,
+      "response": "Centrifugation | Robotic Solid Phase Extraction | 8000 x g | RT | 36-DMSO | d6-DMSO",
+      "elapsed": 1.17
+    },
+    {
+      "id": "55459_experimental_conclusion",
+      "pred": "embryo|MDA-MB-231|MCF7/4A Ras",
+      "gold": [
+        "duct of Cuvier",
+        "MDA-MB-231",
+        "MCF10A-Ras"
+      ],
+      "score": 0.3333333333333333,
+      "response": "embryo|MDA-MB-231|MCF7/4A Ras",
+      "elapsed": 0.83
+    },
+    {
+      "id": "64889_experimental_conclusion",
+      "pred": "cell lines | 12 | 30 | cell counter",
+      "gold": [
+        "patient-derived breast tumor organoid lines",
+        "2",
+        "5",
+        "luminescent cell viability assay"
+      ],
+      "score": 0.15476190476190477,
+      "response": "cell lines | 12 | 30 | cell counter",
+      "elapsed": 0.79
+    },
+    {
+      "id": "58484_experimental_conclusion",
+      "pred": "Sodium Acetate | lubricant | PbO2 deposition on positive electrodes | 30%",
+      "gold": [
+        "sodium acetate",
+        "electrolyte additive",
+        "soluble lead flow battery",
+        "50%"
+      ],
+      "score": 0.25,
+      "response": "Sodium Acetate | lubricant | PbO2 deposition on positive electrodes | 30%",
+      "elapsed": 0.93
+    },
+    {
+      "id": "61770_experimental_conclusion",
+      "pred": "emulsion-based|Zn dendrites|aqueous-based Zn sponge|1000 mAh/g",
+      "gold": [
+        "zinc sponge electrodes",
+        "dendrites",
+        "SEM",
+        "328 mAh per gram of Zn"
+      ],
+      "score": 0.16666666666666666,
+      "response": "emulsion-based|Zn dendrites|aqueous-based Zn sponge|1000 mAh/g",
+      "elapsed": 0.97
+    },
+    {
+      "id": "58438_experimental_conclusion",
+      "pred": "pH 3.0 | 3.0 | 2 hours | 100 Pa*s",
+      "gold": [
+        "boron carbide",
+        "2.8",
+        "20 minutes",
+        "1.0 Pa·s"
+      ],
+      "score": 0.0,
+      "response": "pH 3.0 | 3.0 | 2 hours | 100 Pa*s",
+      "elapsed": 0.95
+    },
+    {
+      "id": "59271_experimental_conclusion",
+      "pred": "2 weeks | 3D | bone matrix | protein marker",
+      "gold": [
+        "14 days",
+        "decellularized bone extracellular matrix",
+        "periosteum and endosteum",
+        "bone matrix glycoprotein"
+      ],
+      "score": 0.0,
+      "response": "2 weeks | 3D | bone matrix | protein marker",
+      "elapsed": 0.75
+    },
+    {
+      "id": "64072_experimental_conclusion",
+      "pred": "90% | AFP | surface | unchanged",
+      "gold": [
+        "100-fold",
+        "antifreeze glycoproteins",
+        "ice surface",
+        "constant"
+      ],
+      "score": 0.16666666666666666,
+      "response": "90% | AFP | surface | unchanged",
+      "elapsed": 0.68
+    },
+    {
+      "id": "56611_experimental_conclusion",
+      "pred": "the organic compound | reversible electrochemical process | E | Fc",
+      "gold": [
+        "cyclic voltammetry",
+        "reversible oxidation",
+        "0.7 V",
+        "ferrocene"
+      ],
+      "score": 0.1,
+      "response": "the organic compound | reversible electrochemical process | E | Fc",
+      "elapsed": 0.76
+    },
+    {
+      "id": "65412_experimental_conclusion",
+      "pred": "180°C | 30 | 4 |",
+      "gold": [
+        "120°C",
+        "13 to 30",
+        "3 to 5"
+      ],
+      "score": 0.16666666666666666,
+      "response": "180°C | 30 | 4 |",
+      "elapsed": 0.75
+    },
+    {
+      "id": "57343_experimental_conclusion",
+      "pred": "MPLEx | 2087 | 369 | 502",
+      "gold": [
+        "MPLEx",
+        "3,376",
+        "105",
+        "102"
+      ],
+      "score": 0.25,
+      "response": "MPLEx | 2087 | 369 | 502",
+      "elapsed": 0.88
+    },
+    {
+      "id": "57908_experimental_conclusion",
+      "pred": "HPLC | MS | 5%",
+      "gold": [
+        "HPLC",
+        "MALDI",
+        "±1 Da"
+      ],
+      "score": 0.3333333333333333,
+      "response": "HPLC | MS | 5%",
+      "elapsed": 0.68
+    },
+    {
+      "id": "58458_experimental_conclusion",
+      "pred": "0.08 mg/mL | 0.60 mg/mL | 10 nm | 50 nm |",
+      "gold": [
+        "0.4 mg/mL",
+        "0.6 mg/mL",
+        "24 nm",
+        "28 nm"
+      ],
+      "score": 0.5,
+      "response": "0.08 mg/mL | 0.60 mg/mL | 10 nm | 50 nm |",
+      "elapsed": 1.23
+    },
+    {
+      "id": "52090_experimental_conclusion",
+      "pred": "Hybrid | EGFR | HER2 | incubation",
+      "gold": [
+        "antibody-conjugated",
+        "EGFR",
+        "HER2",
+        "dark-field imaging"
+      ],
+      "score": 0.5,
+      "response": "Hybrid | EGFR | HER2 | incubation",
+      "elapsed": 0.68
+    },
+    {
+      "id": "53789_experimental_conclusion",
+      "pred": "Rhodium | Nitration | regioselectivity",
+      "gold": [
+        "Togni reagent II",
+        "trifluoromethoxylation",
+        "ortho-over-para"
+      ],
+      "score": 0.0,
+      "response": "Rhodium | Nitration | regioselectivity",
+      "elapsed": 0.57
+    },
+    {
+      "id": "54147_experimental_conclusion",
+      "pred": "ethanol | hydrophilic | hydrophobic | film",
+      "gold": [
+        "gliadin–cyanoacrylate",
+        "hydrophobic",
+        "hydrophilic",
+        "continuous water film"
+      ],
+      "score": 0.125,
+      "response": "ethanol | hydrophilic | hydrophobic | film",
+      "elapsed": 0.62
+    },
+    {
+      "id": "59155_experimental_conclusion",
+      "pred": "C3 | C5 | 81% | 94%",
+      "gold": [
+        "bifunctional squaramide",
+        "C5",
+        "highest yield",
+        "excellent stereoselectivity"
+      ],
+      "score": 0.25,
+      "response": "C3 | C5 | 81% | 94%",
+      "elapsed": 1.09
+    },
+    {
+      "id": "50969_experimental_conclusion",
+      "pred": "binding | apo-protein | 1.3 ± 0.3 ms | 9.2 ± 0.4 kcal/mol",
+      "gold": [
+        "Ca2+",
+        "C-terminal domain",
+        "1.3 ± 0.3 ms",
+        "9.2 ± 0.4 kcal/mol"
+      ],
+      "score": 0.5,
+      "response": "binding | apo-protein | 1.3 ± 0.3 ms | 9.2 ± 0.4 kcal/mol",
+      "elapsed": 1.09
+    },
+    {
+      "id": "57789_experimental_conclusion",
+      "pred": "calcium ions | 100 μm | protrusions | calcium ion gradients",
+      "gold": [
+        "5 mM CaCl2",
+        "3 µm",
+        "membrane tubular protrusions",
+        "calcium source"
+      ],
+      "score": 0.225,
+      "response": "calcium ions | 100 μm | protrusions | calcium ion gradients",
+      "elapsed": 0.84
+    },
+    {
+      "id": "50946_experimental_conclusion",
+      "pred": "Diphenylalanine|Boc-protected diphenylalanine|1:3|nanotubes",
+      "gold": [
+        "diphenylalanine",
+        "Boc-protected diphenylalanine",
+        "5:3",
+        "biomolecular necklaces"
+      ],
+      "score": 0.5,
+      "response": "Diphenylalanine|Boc-protected diphenylalanine|1:3|nanotubes",
+      "elapsed": 1.17
+    },
+    {
+      "id": "61760_experimental_conclusion",
+      "pred": "CESI|Capillary electrophoresis|protein|sample",
+      "gold": [
+        "proteomic",
+        "CESI-MS",
+        "unique protein corona",
+        "nanomaterial"
+      ],
+      "score": 0.125,
+      "response": "CESI|Capillary electrophoresis|protein|sample",
+      "elapsed": 0.73
+    },
+    {
+      "id": "58052_experimental_conclusion",
+      "pred": "hdcat-HKUST | fdcat-HKUST | contact angle | XPS",
+      "gold": [
+        "hdcat-HKUST",
+        "fdcat-HKUST",
+        "hydrophobicity",
+        "contact-angle measurements"
+      ],
+      "score": 0.5,
+      "response": "hdcat-HKUST | fdcat-HKUST | contact angle | XPS",
+      "elapsed": 0.98
+    },
+    {
+      "id": "58882_experimental_conclusion",
+      "pred": "10 mM | 6 mL | 900 μg/mL",
+      "gold": [
+        "10 mM",
+        "5 μL",
+        "30 mg/mL"
+      ],
+      "score": 0.3333333333333333,
+      "response": "10 mM | 6 mL | 900 μg/mL",
+      "elapsed": 1.14
+    },
+    {
+      "id": "54611_experimental_conclusion",
+      "pred": "low|low|high|overloading",
+      "gold": [
+        "acetic acid",
+        "0.05 mg/mL",
+        "0.07–0.10 mg/mL",
+        "sample overloading"
+      ],
+      "score": 0.16666666666666666,
+      "response": "low|low|high|overloading",
+      "elapsed": 0.86
+    },
+    {
+      "id": "60500_experimental_conclusion",
+      "pred": "organic structure-directing agent | BEA | 25 | 35",
+      "gold": [
+        "organic structure-directing agent",
+        "BEA",
+        "7.7",
+        "22.1"
+      ],
+      "score": 0.5,
+      "response": "organic structure-directing agent | BEA | 25 | 35",
+      "elapsed": 1.15
+    },
+    {
+      "id": "60550_experimental_conclusion",
+      "pred": "neural precursor | centrosomes | increased | 2-3 |",
+      "gold": [
+        "PEG-mediated",
+        "heterokaryons",
+        "doubled",
+        "at least four"
+      ],
+      "score": 0.0,
+      "response": "neural precursor | centrosomes | increased | 2-3 |",
+      "elapsed": 1.11
+    },
+    {
+      "id": "61625_experimental_conclusion",
+      "pred": "5 days | 90 | metaphase II | degenerated |",
+      "gold": [
+        "5 days",
+        "59",
+        "GV2/GV3",
+        "GV-arrested"
+      ],
+      "score": 0.25,
+      "response": "5 days | 90 | metaphase II | degenerated |",
+      "elapsed": 1.0
+    },
+    {
+      "id": "61666_experimental_conclusion",
+      "pred": "LZ, P, D, RS | 80.4 ± 10.6%, 90.6 ± 4.88%, 87.6 ± 6.51%, 90.1 ± 7.22 | DCV, DAPI, SYCP3, H2AX",
+      "gold": [
+        "leptotene/zygotene, pachytene, and diplotene",
+        "80-90%",
+        "SYCP3 and Gamma H2AX",
+        "round spermatids"
+      ],
+      "score": 0.0625,
+      "response": "LZ, P, D, RS | 80.4 ± 10.6%, 90.6 ± 4.88%, 87.6 ± 6.51%, 90.1 ± 7.22 | DCV, DAPI, SYCP3, H2AX",
+      "elapsed": 2.34
+    },
+    {
+      "id": "200206_experimental_conclusion",
+      "pred": "anteroposterior | cortex | actin | CRY2-Rho1DN",
+      "gold": [
+        "anterior-posterior",
+        "plasma membrane",
+        "Sqh-mCherry",
+        "Rho1"
+      ],
+      "score": 0.0,
+      "response": "anteroposterior | cortex | actin | CRY2-Rho1DN",
+      "elapsed": 1.16
+    },
+    {
+      "id": "59700_experimental_conclusion",
+      "pred": "GAL| methylated| digestion| wild-type",
+      "gold": [
+        "galactose",
+        "methylated",
+        "DNAzyme cleavage",
+        "wild-type"
+      ],
+      "score": 0.5,
+      "response": "GAL| methylated| digestion| wild-type",
+      "elapsed": 1.02
+    },
+    {
+      "id": "63779_experimental_conclusion",
+      "pred": "D5-DAB and DAB; AEG; Microcystis aeruginosa; BMAA",
+      "gold": [
+        "BMAA, 2,4-DAB, AEG",
+        "free fraction",
+        "Merismopedia sp.",
+        "bound fraction"
+      ],
+      "score": 0.0,
+      "response": "D5-DAB and DAB; AEG; Microcystis aeruginosa; BMAA",
+      "elapsed": 1.34
+    },
+    {
+      "id": "57759_experimental_conclusion",
+      "pred": "sucrose shock; heat shock; 2 hour; variability",
+      "gold": [
+        "cell cutting",
+        "sucrose treatment",
+        "hour-long",
+        "temporal heterogeneity"
+      ],
+      "score": 0.0,
+      "response": "sucrose shock; heat shock; 2 hour; variability",
+      "elapsed": 1.02
+    },
+    {
+      "id": "57847_experimental_conclusion",
+      "pred": "KO | lactate | pyruvate | ethanol",
+      "gold": [
+        "dLDH",
+        "lactate",
+        "pyruvate",
+        "L-2-hydroxyglutarate"
+      ],
+      "score": 0.5,
+      "response": "KO | lactate | pyruvate | ethanol",
+      "elapsed": 0.9
+    },
+    {
+      "id": "52614_experimental_conclusion",
+      "pred": "Thrombin | immature | mature | EdU",
+      "gold": [
+        "RANKL",
+        "CD80low",
+        "CD80high",
+        "EdU"
+      ],
+      "score": 0.25,
+      "response": "Thrombin | immature | mature | EdU",
+      "elapsed": 1.18
+    },
+    {
+      "id": "59965_experimental_conclusion",
+      "pred": "hiPSCs | E-Cadherin | central core",
+      "gold": [
+        "agarose microwell method",
+        "hepatocyte-like cells",
+        "mesenchymal core"
+      ],
+      "score": 0.16666666666666666,
+      "response": "hiPSCs | E-Cadherin | central core",
+      "elapsed": 0.92
+    },
+    {
+      "id": "60961_experimental_conclusion",
+      "pred": "cytoplasm | organelles | spermatocytes | testes",
+      "gold": [
+        "endoplasmic reticulum",
+        "microtubules",
+        "spermatocytes",
+        "Drosophila testes"
+      ],
+      "score": 0.41666666666666663,
+      "response": "cytoplasm | organelles | spermatocytes | testes",
+      "elapsed": 0.68
+    },
+    {
+      "id": "52214_experimental_conclusion",
+      "pred": "DM+IDE1 | ActA | DM | 5 min",
+      "gold": [
+        "nicotinamide",
+        "Activin A or IDE-1",
+        "spontaneous differentiation",
+        "8–12 weeks"
+      ],
+      "score": 0.0,
+      "response": "DM+IDE1 | ActA | DM | 5 min",
+      "elapsed": 0.99
+    },
+    {
+      "id": "52732_experimental_conclusion",
+      "pred": "neurospheres | exponentially | Ki67 | Nestin",
+      "gold": [
+        "neurospheres",
+        "free-floating",
+        "Ki67-positive",
+        "nestin"
+      ],
+      "score": 0.5,
+      "response": "neurospheres | exponentially | Ki67 | Nestin",
+      "elapsed": 0.72
+    },
+    {
+      "id": "61800_experimental_conclusion",
+      "pred": "VII-VIII | II-IV | VIII-IX | BSA",
+      "gold": [
+        "7-8",
+        "9-10",
+        "spermiation",
+        "condensed elongating spermatids"
+      ],
+      "score": 0.0,
+      "response": "VII-VIII | II-IV | VIII-IX | BSA",
+      "elapsed": 0.89
+    },
+    {
+      "id": "54934_experimental_conclusion",
+      "pred": "SOX9 | 24 hours | 100g | 24 hours",
+      "gold": [
+        "SOX9 mRNA",
+        "24 hours",
+        "2,400×g",
+        "15 minutes"
+      ],
+      "score": 0.41666666666666663,
+      "response": "SOX9 | 24 hours | 100g | 24 hours",
+      "elapsed": 1.1
+    },
+    {
+      "id": "56779_experimental_conclusion",
+      "pred": "antibody | muscle | mesoderm | Drosophila",
+      "gold": [
+        "Fasciclin III",
+        "pupal stalk cells",
+        "swarm cells",
+        "Drosophila pupal ovaries"
+      ],
+      "score": 0.125,
+      "response": "antibody | muscle | mesoderm | Drosophila",
+      "elapsed": 0.99
+    },
+    {
+      "id": "57573_experimental_conclusion",
+      "pred": "cytotoxicity | PDMS | SSA | 10%",
+      "gold": [
+        "LDH",
+        "PDMS",
+        "SSA",
+        "5%"
+      ],
+      "score": 0.5,
+      "response": "cytotoxicity | PDMS | SSA | 10%",
+      "elapsed": 1.09
+    },
+    {
+      "id": "56888_experimental_conclusion",
+      "pred": "hiPSCs | neurons | astrocytes | hESC",
+      "gold": [
+        "3D culture",
+        "neural rosettes",
+        "ventricular zone",
+        "2D monolayers"
+      ],
+      "score": 0.0,
+      "response": "hiPSCs | neurons | astrocytes | hESC",
+      "elapsed": 1.06
+    },
+    {
+      "id": "61243_experimental_conclusion",
+      "pred": "protein|ALG-1|AIN-1",
+      "gold": [
+        "ALG-1:AIN-1",
+        "HRPK-1",
+        "microRNA-induced silencing complex"
+      ],
+      "score": 0.0,
+      "response": "protein|ALG-1|AIN-1",
+      "elapsed": 0.77
+    },
+    {
+      "id": "62157_experimental_conclusion",
+      "pred": "H2O2 | 10 min | 20 min | membrane potential",
+      "gold": [
+        "2 μM hydrogen peroxide",
+        "10 minutes",
+        "20 minutes",
+        "membrane potential"
+      ],
+      "score": 0.5,
+      "response": "H2O2 | 10 min | 20 min | membrane potential",
+      "elapsed": 1.19
+    },
+    {
+      "id": "59541_experimental_conclusion",
+      "pred": "glw | glw+/glw- | 100%",
+      "gold": [
+        "GLWamide",
+        "heterozygous A × heterozygous C",
+        "2:3:2:1"
+      ],
+      "score": 0.0,
+      "response": "glw | glw+/glw- | 100%",
+      "elapsed": 1.06
+    },
+    {
+      "id": "57309_experimental_conclusion",
+      "pred": "pericytes | endothelial cells | promote | angiogenesis",
+      "gold": [
+        "pericytes",
+        "endothelial cells",
+        "complements",
+        "sprouting"
+      ],
+      "score": 0.5,
+      "response": "pericytes | endothelial cells | promote | angiogenesis",
+      "elapsed": 1.02
+    },
+    {
+      "id": "201777_experimental_conclusion",
+      "pred": "24 h; femurs; 100%; RNA quality",
+      "gold": [
+        "EDTA",
+        "24 h",
+        "50%",
+        "RNA integrity"
+      ],
+      "score": 0.0,
+      "response": "24 h; femurs; 100%; RNA quality",
+      "elapsed": 1.41
+    },
+    {
+      "id": "60744_experimental_conclusion",
+      "pred": "ABC | transgenic | livers | non-transgenic",
+      "gold": [
+        "6 days post-fertilization",
+        "transgenic",
+        "liver area",
+        "non-transgenic siblings"
+      ],
+      "score": 0.41666666666666663,
+      "response": "ABC | transgenic | livers | non-transgenic",
+      "elapsed": 0.84
+    },
+    {
+      "id": "55594_experimental_conclusion",
+      "pred": "surgical ablation | eyesight | 24 hours | 7 days",
+      "gold": [
+        "double eye ablation",
+        "photophobic light-avoidance",
+        "24 hours",
+        "seven days"
+      ],
+      "score": 0.475,
+      "response": "surgical ablation | eyesight | 24 hours | 7 days",
+      "elapsed": 1.01
+    },
+    {
+      "id": "55504_experimental_conclusion",
+      "pred": "T188D; T188E; MBP; ERK2",
+      "gold": [
+        "T188D",
+        "T188E",
+        "Nup153",
+        "PDX1"
+      ],
+      "score": 0.0,
+      "response": "T188D; T188E; MBP; ERK2",
+      "elapsed": 1.18
+    },
+    {
+      "id": "53931_experimental_conclusion",
+      "pred": "Integrin beta-1 | Sca-1 | Integrin alpha-6 | 500",
+      "gold": [
+        "CD34+ Sca-1-",
+        "Sca-1+ CD34-",
+        "alpha6 beta1",
+        "1.5–5 x 10^5"
+      ],
+      "score": 0.0,
+      "response": "Integrin beta-1 | Sca-1 | Integrin alpha-6 | 500",
+      "elapsed": 1.21
+    },
+    {
+      "id": "56627_experimental_conclusion",
+      "pred": "mitochondria | 95 | intact | oxygen consumption",
+      "gold": [
+        "Arabidopsis",
+        "90",
+        "outer membrane",
+        "oxygen consumption"
+      ],
+      "score": 0.25,
+      "response": "mitochondria | 95 | intact | oxygen consumption",
+      "elapsed": 0.79
+    },
+    {
+      "id": "57979_experimental_conclusion",
+      "pred": "TCA | 20% ACN | UPLC-MS/MS | 1 hour",
+      "gold": [
+        "PNGase H+",
+        "2-AB",
+        "UPLC",
+        "two working days"
+      ],
+      "score": 0.0,
+      "response": "TCA | 20% ACN | UPLC-MS/MS | 1 hour",
+      "elapsed": 1.35
+    },
+    {
+      "id": "60241_experimental_conclusion",
+      "pred": "microscopy | stigma | ovary | compatibility",
+      "gold": [
+        "fluorescence microscopy",
+        "style",
+        "base of the style",
+        "self-incompatibility"
+      ],
+      "score": 0.16666666666666666,
+      "response": "microscopy | stigma | ovary | compatibility",
+      "elapsed": 0.99
+    },
+    {
+      "id": "54971_experimental_conclusion",
+      "pred": "GFP | Mff | significant | protease",
+      "gold": [
+        "Mff",
+        "cardiolipin",
+        "2.6-fold",
+        "GTPase"
+      ],
+      "score": 0.0,
+      "response": "GFP | Mff | significant | protease",
+      "elapsed": 0.92
+    },
+    {
+      "id": "53248_experimental_conclusion",
+      "pred": "100 nm | Triton X-100 | gold | 25 nm",
+      "gold": [
+        "1 µm",
+        "Triton X-100",
+        "nMST",
+        "100–150 nm"
+      ],
+      "score": 0.375,
+      "response": "100 nm | Triton X-100 | gold | 25 nm",
+      "elapsed": 0.94
+    },
+    {
+      "id": "65126_experimental_conclusion",
+      "pred": "0.5 mg/ml | UV-Vis spectroscopy | BSA | AFM",
+      "gold": [
+        "1.42 mg/mL",
+        "Coomassie-stained SDS-PAGE",
+        "BSA",
+        "spectrophotometric measurements"
+      ],
+      "score": 0.375,
+      "response": "0.5 mg/ml | UV-Vis spectroscopy | BSA | AFM",
+      "elapsed": 0.96
+    },
+    {
+      "id": "56013_experimental_conclusion",
+      "pred": "6 | Dbp | 10kb | gel electrophoresis",
+      "gold": [
+        "10",
+        "focused sonication",
+        "500 base pairs",
+        "agarose gel analysis"
+      ],
+      "score": 0.1,
+      "response": "6 | Dbp | 10kb | gel electrophoresis",
+      "elapsed": 0.91
+    },
+    {
+      "id": "55858_experimental_conclusion",
+      "pred": "6.0 | Ni-C | 8.0 | Ni-L",
+      "gold": [
+        "low",
+        "Ni-C",
+        "high",
+        "Ni-L"
+      ],
+      "score": 0.5,
+      "response": "6.0 | Ni-C | 8.0 | Ni-L",
+      "elapsed": 1.01
+    },
+    {
+      "id": "58892_experimental_conclusion",
+      "pred": "Furin | And-4 | mutA-S | mutS/I",
+      "gold": [
+        "Furin",
+        "HKU205",
+        "A→S",
+        "S→I"
+      ],
+      "score": 0.25,
+      "response": "Furin | And-4 | mutA-S | mutS/I",
+      "elapsed": 1.1
+    },
+    {
+      "id": "62754_experimental_conclusion",
+      "pred": "spherical|uniformly dispersed|50 nm|0.236 nm",
+      "gold": [
+        "polyhedral",
+        "uniformly distributed",
+        "14 nm",
+        "0.117 nm"
+      ],
+      "score": 0.375,
+      "response": "spherical|uniformly dispersed|50 nm|0.236 nm",
+      "elapsed": 1.07
+    },
+    {
+      "id": "54863_experimental_conclusion",
+      "pred": "DNA | less efficiently | SOX-2 | protein A",
+      "gold": [
+        "SOX-2",
+        "much less efficiently",
+        "SOX-2",
+        "LIM-4"
+      ],
+      "score": 0.45,
+      "response": "DNA | less efficiently | SOX-2 | protein A",
+      "elapsed": 0.98
+    },
+    {
+      "id": "65086_experimental_conclusion",
+      "pred": "LDH | 10% | day 2 | 5%",
+      "gold": [
+        "adenylate kinase",
+        "7%",
+        "day 17",
+        "below 5%"
+      ],
+      "score": 0.29166666666666663,
+      "response": "LDH | 10% | day 2 | 5%",
+      "elapsed": 0.89
+    },
+    {
+      "id": "56778_experimental_conclusion",
+      "pred": "MALDI-TOF mass spectrometry | submicron | MZ 1085.379 | white matter",
+      "gold": [
+        "MALDI-MSI",
+        "50 μm",
+        "m/z 1085",
+        "white matter"
+      ],
+      "score": 0.25,
+      "response": "MALDI-TOF mass spectrometry | submicron | MZ 1085.379 | white matter",
+      "elapsed": 1.16
+    },
+    {
+      "id": "60461_experimental_conclusion",
+      "pred": "K | S | Zn | nucleus",
+      "gold": [
+        "sulfur",
+        "potassium",
+        "zinc",
+        "nucleus"
+      ],
+      "score": 0.25,
+      "response": "K | S | Zn | nucleus",
+      "elapsed": 0.86
+    },
+    {
+      "id": "57293_experimental_conclusion",
+      "pred": "Sphingomyelin | 1/x | linearity | 1",
+      "gold": [
+        "sphingomyelin",
+        "1/x^2",
+        "curve fitting",
+        "1 or 1/x"
+      ],
+      "score": 0.375,
+      "response": "Sphingomyelin | 1/x | linearity | 1",
+      "elapsed": 0.95
+    },
+    {
+      "id": "58743_experimental_conclusion",
+      "pred": "99.5% EtOH | Staphylococcus aureus | 10 | 20 |",
+      "gold": [
+        "ethanol",
+        "Staphylococcus aureus",
+        "10–20 µg/mL",
+        "20 µg/mL"
+      ],
+      "score": 0.41666666666666663,
+      "response": "99.5% EtOH | Staphylococcus aureus | 10 | 20 |",
+      "elapsed": 1.34
+    },
+    {
+      "id": "55835_experimental_conclusion",
+      "pred": "AD | protein aggregates | P2 | EEA1",
+      "gold": [
+        "AD",
+        "phospho-Tau",
+        "sarkosyl-insoluble (P2)",
+        "EEA1"
+      ],
+      "score": 0.5,
+      "response": "AD | protein aggregates | P2 | EEA1",
+      "elapsed": 1.25
+    },
+    {
+      "id": "58223_experimental_conclusion",
+      "pred": "H. sapiens | p27 | Oligo (dT) | ASO",
+      "gold": [
+        "HEK293",
+        "HuR",
+        "p27 mRNA",
+        "antisense oligonucleotides"
+      ],
+      "score": 0.0,
+      "response": "H. sapiens | p27 | Oligo (dT) | ASO",
+      "elapsed": 1.45
+    },
+    {
+      "id": "59992_experimental_conclusion",
+      "pred": "silica gel chromatography | dolabradiene | 15,16-epoxydolabanol | 98% purity",
+      "gold": [
+        "silica column chromatography",
+        "diterpenoids",
+        "oxindole",
+        "three dolabralexin compounds"
+      ],
+      "score": 0.16666666666666666,
+      "response": "silica gel chromatography | dolabradiene | 15,16-epoxydolabanol | 98% purity",
+      "elapsed": 1.36
+    },
+    {
+      "id": "60599_experimental_conclusion",
+      "pred": "10^7 | 10^8 | 100%",
+      "gold": [
+        "7.7×10^2",
+        "1×10^4",
+        "100%"
+      ],
+      "score": 0.3333333333333333,
+      "response": "10^7 | 10^8 | 100%",
+      "elapsed": 0.97
+    },
+    {
+      "id": "55532_experimental_conclusion",
+      "pred": "incubation | 3 days | visible growth | increased turbidity",
+      "gold": [
+        "48 h",
+        "37 °C",
+        "gas bubbles",
+        "color changes"
+      ],
+      "score": 0.0,
+      "response": "incubation | 3 days | visible growth | increased turbidity",
+      "elapsed": 0.86
+    },
+    {
+      "id": "51161_experimental_conclusion",
+      "pred": "assay | C1inh | antibody | lysis",
+      "gold": [
+        "hemolytic assay",
+        "anti-C5",
+        "AIHA patient serum",
+        "RBC lysis"
+      ],
+      "score": 0.3333333333333333,
+      "response": "assay | C1inh | antibody | lysis",
+      "elapsed": 0.93
+    },
+    {
+      "id": "63296_experimental_conclusion",
+      "pred": "loading vessels with stock cell culture | 370 | MG | reduced",
+      "gold": [
+        "72-hour",
+        "simulated microgravity",
+        "NK-92",
+        "approximately equal"
+      ],
+      "score": 0.0,
+      "response": "loading vessels with stock cell culture | 370 | MG | reduced",
+      "elapsed": 1.27
+    },
+    {
+      "id": "60692_experimental_conclusion",
+      "pred": "0.15 mM | Ponceau S | normal glucose | permeability",
+      "gold": [
+        "glyoxal",
+        "E. coli",
+        "lower chamber",
+        "bacterial traversal"
+      ],
+      "score": 0.0,
+      "response": "0.15 mM | Ponceau S | normal glucose | permeability",
+      "elapsed": 1.13
+    },
+    {
+      "id": "64041_experimental_conclusion",
+      "pred": "24 hours | porcine | 10^3 | bacteria",
+      "gold": [
+        "48 hours",
+        "ovine",
+        "100-fold",
+        "Staphylococcus aureus"
+      ],
+      "score": 0.125,
+      "response": "24 hours | porcine | 10^3 | bacteria",
+      "elapsed": 1.04
+    },
+    {
+      "id": "59270_experimental_conclusion",
+      "pred": "E. coli | hemolysis mRNA | B. vulgaris | 24 hours |",
+      "gold": [
+        "Galleria mellonella larvae",
+        "16S rDNA copy numbers",
+        "Bacteroides vulgatus and Escherichia coli",
+        "24 hours"
+      ],
+      "score": 0.25,
+      "response": "E. coli | hemolysis mRNA | B. vulgaris | 24 hours |",
+      "elapsed": 1.2
+    },
+    {
+      "id": "59555_experimental_conclusion",
+      "pred": "one bacterial cell per GV | 70% | GVs | 28%",
+      "gold": [
+        "single-cell encapsulation",
+        "10%",
+        "giant vesicles",
+        "50%"
+      ],
+      "score": 0.0,
+      "response": "one bacterial cell per GV | 70% | GVs | 28%",
+      "elapsed": 1.17
+    },
+    {
+      "id": "55301_experimental_conclusion",
+      "pred": "W | L | W | plasmodesmal localization",
+      "gold": [
+        "fourth",
+        "Valine",
+        "Alanine",
+        "plasmodesmata targeting"
+      ],
+      "score": 0.0,
+      "response": "W | L | W | plasmodesmal localization",
+      "elapsed": 0.94
+    },
+    {
+      "id": "51747_experimental_conclusion",
+      "pred": "jove | bacterial strain | 15 minutes |",
+      "gold": [
+        "latex agglutination serotyping",
+        "pneumococcal isolate",
+        "10 minutes"
+      ],
+      "score": 0.16666666666666666,
+      "response": "jove | bacterial strain | 15 minutes |",
+      "elapsed": 0.82
+    },
+    {
+      "id": "53672_experimental_conclusion",
+      "pred": "10 | mL | 10^5 | 10^8",
+      "gold": [
+        "2.6",
+        "2.5 µL",
+        "2.6",
+        "260,000"
+      ],
+      "score": 0.0,
+      "response": "10 | mL | 10^5 | 10^8",
+      "elapsed": 0.74
+    },
+    {
+      "id": "58818_experimental_conclusion",
+      "pred": "200 nmol | rich medium | nutrient-limited medium",
+      "gold": [
+        "192 nmol",
+        "MOPS minimal medium",
+        "LB"
+      ],
+      "score": 0.3,
+      "response": "200 nmol | rich medium | nutrient-limited medium",
+      "elapsed": 1.18
+    },
+    {
+      "id": "50332_experimental_conclusion",
+      "pred": "Dil-oxLDL | 24 hours | 89% | 70%",
+      "gold": [
+        "oxidized LDL",
+        "24 hours",
+        "80%",
+        "70%"
+      ],
+      "score": 0.5,
+      "response": "Dil-oxLDL | 24 hours | 89% | 70%",
+      "elapsed": 0.98
+    },
+    {
+      "id": "54171_experimental_conclusion",
+      "pred": "CRISPR/Cas9 | the N1L gene | transduction | 20%",
+      "gold": [
+        "CRISPR-Cas9",
+        "N1L",
+        "homologous recombination",
+        "more than 100-fold"
+      ],
+      "score": 0.125,
+      "response": "CRISPR/Cas9 | the N1L gene | transduction | 20%",
+      "elapsed": 1.16
+    },
+    {
+      "id": "4295_experimental_conclusion",
+      "pred": "1000 | WT X. nematophila | 50 hours | attenuated X. nematophila",
+      "gold": [
+        "50 CFU",
+        "wild-type",
+        "30 hours",
+        "attenuated mutant"
+      ],
+      "score": 0.225,
+      "response": "1000 | WT X. nematophila | 50 hours | attenuated X. nematophila",
+      "elapsed": 1.8
+    },
+    {
+      "id": "2137_experimental_conclusion",
+      "pred": "Luciferase | S2-DRSC Drosophila | Vaccinia Virus | treated group",
+      "gold": [
+        "RNAi",
+        "Rab5",
+        "vaccinia virus",
+        "immunofluorescence assay"
+      ],
+      "score": 0.25,
+      "response": "Luciferase | S2-DRSC Drosophila | Vaccinia Virus | treated group",
+      "elapsed": 1.23
+    },
+    {
+      "id": "61180_experimental_conclusion",
+      "pred": "classifier | cell images | improved accuracy | a different method",
+      "gold": [
+        "trainable Weka Segmentation workflow",
+        "glomerular extracellular DNA",
+        "no significant differences",
+        "multiple users"
+      ],
+      "score": 0.0,
+      "response": "classifier | cell images | improved accuracy | a different method",
+      "elapsed": 0.86
+    },
+    {
+      "id": "54615_experimental_conclusion",
+      "pred": "IL-15 | IL-18 | IFN-gamma | MIP-1beta",
+      "gold": [
+        "K562 tumor cells",
+        "IL-2 and IL-15",
+        "IFN-γ",
+        "MIP-1β"
+      ],
+      "score": 0.0,
+      "response": "IL-15 | IL-18 | IFN-gamma | MIP-1beta",
+      "elapsed": 1.23
+    },
+    {
+      "id": "2757_experimental_conclusion",
+      "pred": "10^6 | 3 days | 2 weeks | 2 x 10^8",
+      "gold": [
+        "more than 10^6",
+        "2–3 day",
+        "over two weeks",
+        "10^7"
+      ],
+      "score": 0.225,
+      "response": "10^6 | 3 days | 2 weeks | 2 x 10^8",
+      "elapsed": 1.11
+    },
+    {
+      "id": "2693_experimental_conclusion",
+      "pred": "S. aureus | FnbA and FnBp | pRM9 | pFnBA4",
+      "gold": [
+        "Staphylococcus aureus",
+        "fibronectin-binding proteins",
+        "full-length FnBPA",
+        "fibronectin-binding domain"
+      ],
+      "score": 0.125,
+      "response": "S. aureus | FnbA and FnBp | pRM9 | pFnBA4",
+      "elapsed": 0.8
+    },
+    {
+      "id": "56825_experimental_conclusion",
+      "pred": "Esc(1-21)-Ic | Ctrl | 1 μM | 24 hours",
+      "gold": [
+        "esculentin 1-21-1c",
+        "esculentin 1-21",
+        "1 µM",
+        "10 µM"
+      ],
+      "score": 0.125,
+      "response": "Esc(1-21)-Ic | Ctrl | 1 μM | 24 hours",
+      "elapsed": 1.09
+    },
+    {
+      "id": "56655_experimental_conclusion",
+      "pred": "activation | CD8+ T cells | C1-GFP | RFP-Tub",
+      "gold": [
+        "UV photoactivation",
+        "photoactivatable pMHC",
+        "DAG",
+        "centrosome reorientation"
+      ],
+      "score": 0.0,
+      "response": "activation | CD8+ T cells | C1-GFP | RFP-Tub",
+      "elapsed": 0.97
+    },
+    {
+      "id": "50389_experimental_conclusion",
+      "pred": "CD4+ T cells; NOD.SCID mice; 100%; 10",
+      "gold": [
+        "BDC2.5 CD4+ T cells",
+        "NOD.SCID mice",
+        "100%",
+        "11"
+      ],
+      "score": 0.09090909090909091,
+      "response": "CD4+ T cells; NOD.SCID mice; 100%; 10",
+      "elapsed": 1.0
+    },
+    {
+      "id": "63662_experimental_conclusion",
+      "pred": "Aa23 | Aa23-T | 30 | 1",
+      "gold": [
+        "Aa23",
+        "Aa23-T",
+        "2.4",
+        "undetectable"
+      ],
+      "score": 0.5,
+      "response": "Aa23 | Aa23-T | 30 | 1",
+      "elapsed": 1.38
+    },
+    {
+      "id": "50196_experimental_conclusion",
+      "pred": "2 hours | 90% | 3 | 10",
+      "gold": [
+        "6 hours",
+        "82%",
+        "3.4",
+        "16"
+      ],
+      "score": 0.125,
+      "response": "2 hours | 90% | 3 | 10",
+      "elapsed": 1.13
+    },
+    {
+      "id": "62107_experimental_conclusion",
+      "pred": "WT G2A | 13-TDYA | 15-HOYA | 17-OYYA",
+      "gold": [
+        "HEK-293T",
+        "alkynyl stearate",
+        "alkynyl palmitate",
+        "alkynyl myristate"
+      ],
+      "score": 0.0,
+      "response": "WT G2A | 13-TDYA | 15-HOYA | 17-OYYA",
+      "elapsed": 1.54
+    },
+    {
+      "id": "3563_experimental_conclusion",
+      "pred": "72.1% | 96.6% | 34% | MHC-II",
+      "gold": [
+        "1.5%",
+        "16.5%",
+        "70%",
+        "flow cytometric sorting"
+      ],
+      "score": 0.0,
+      "response": "72.1% | 96.6% | 34% | MHC-II",
+      "elapsed": 0.97
+    },
+    {
+      "id": "58577_experimental_conclusion",
+      "pred": "Resistant | 0.17 | Susceptible | 0.53",
+      "gold": [
+        "resistant",
+        "10",
+        "susceptible",
+        "30"
+      ],
+      "score": 0.5,
+      "response": "Resistant | 0.17 | Susceptible | 0.53",
+      "elapsed": 1.6
+    },
+    {
+      "id": "58083_experimental_conclusion",
+      "pred": "LPS | 100 µg/mL | PMA | 90 min",
+      "gold": [
+        "PMA",
+        "100 nM",
+        "LPS",
+        "180 min"
+      ],
+      "score": 0.25,
+      "response": "LPS | 100 µg/mL | PMA | 90 min",
+      "elapsed": 1.19
+    },
+    {
+      "id": "58971_experimental_conclusion",
+      "pred": "Doxorubicin | Doxorubicin | 10% | 1%",
+      "gold": [
+        "iPS-derived cardiomyocytes",
+        "doxorubicin",
+        "about 24%",
+        "<10%"
+      ],
+      "score": 0.25,
+      "response": "Doxorubicin | Doxorubicin | 10% | 1%",
+      "elapsed": 1.23
+    },
+    {
+      "id": "59449_experimental_conclusion",
+      "pred": "Mecp2 | 50% | GSK650394 | LDN193189",
+      "gold": [
+        "Mecp2-GFP",
+        "30%",
+        "drug",
+        "vehicle"
+      ],
+      "score": 0.0,
+      "response": "Mecp2 | 50% | GSK650394 | LDN193189",
+      "elapsed": 1.04
+    },
+    {
+      "id": "57499_experimental_conclusion",
+      "pred": "rpt4-1 | small | YES-Ade | clr4Δ",
+      "gold": [
+        "rpt4-1",
+        "white",
+        "YES without adenine",
+        "clr4-delta"
+      ],
+      "score": 0.25,
+      "response": "rpt4-1 | small | YES-Ade | clr4Δ",
+      "elapsed": 0.88
+    },
+    {
+      "id": "54972_experimental_conclusion",
+      "pred": "plant | RLuc-TNOS | 12 hours | transfection",
+      "gold": [
+        "Arabidopsis thaliana",
+        "Renilla luciferase",
+        "100,000 RLU per mg",
+        "12 hours"
+      ],
+      "score": 0.0,
+      "response": "plant | RLuc-TNOS | 12 hours | transfection",
+      "elapsed": 1.03
+    },
+    {
+      "id": "57379_experimental_conclusion",
+      "pred": "Neat1 | Malat1 | GH4C1 | pituitary | Malat1 | Neat1 | pituitary | GH4C1",
+      "gold": [
+        "Neat1",
+        "Malat1",
+        "GH4C1",
+        "mouse pituitary"
+      ],
+      "score": 0.9166666666666666,
+      "response": "Neat1 | Malat1 | GH4C1 | pituitary | Malat1 | Neat1 | pituitary | GH4C1",
+      "elapsed": 1.4
+    },
+    {
+      "id": "54752_experimental_conclusion",
+      "pred": "swarming | spreading | sliding",
+      "gold": [
+        "founder cell density",
+        "minor or no segregation",
+        "clear sectoring"
+      ],
+      "score": 0.0,
+      "response": "swarming | spreading | sliding",
+      "elapsed": 0.58
+    },
+    {
+      "id": "200093_experimental_conclusion",
+      "pred": "gel electrophoresis|3C|87%|10",
+      "gold": [
+        "qPCR",
+        "3C",
+        "88%",
+        "seven"
+      ],
+      "score": 0.25,
+      "response": "gel electrophoresis|3C|87%|10",
+      "elapsed": 0.91
+    },
+    {
+      "id": "61383_experimental_conclusion",
+      "pred": "miRNA-3070-3p; miRNA-6401; miRNA-7219-5p",
+      "gold": [
+        "miR-3070-3p",
+        "miR-7218-5p",
+        "miR-7219-5p"
+      ],
+      "score": 0.0,
+      "response": "miRNA-3070-3p; miRNA-6401; miRNA-7219-5p",
+      "elapsed": 1.53
+    },
+    {
+      "id": "58474_experimental_conclusion",
+      "pred": "100,000 | 91.1% | P1 | dot",
+      "gold": [
+        "100,000",
+        "29.9%",
+        "L3",
+        "P1"
+      ],
+      "score": 0.25,
+      "response": "100,000 | 91.1% | P1 | dot",
+      "elapsed": 0.99
+    },
+    {
+      "id": "60960_experimental_conclusion",
+      "pred": "enhanced | increased | expression | activity",
+      "gold": [
+        "decreased",
+        "increased",
+        "downregulation",
+        "upregulation"
+      ],
+      "score": 0.25,
+      "response": "enhanced | increased | expression | activity",
+      "elapsed": 0.75
+    },
+    {
+      "id": "61231_experimental_conclusion",
+      "pred": "80 | IP | 0 | 0",
+      "gold": [
+        "80",
+        "immunoprecipitation",
+        "2",
+        "1"
+      ],
+      "score": 0.25,
+      "response": "80 | IP | 0 | 0",
+      "elapsed": 0.82
+    },
+    {
+      "id": "61453_experimental_conclusion",
+      "pred": "differences | 5 million | 6 | 2 to 8 million",
+      "gold": [
+        "no significant differences",
+        "2.4 million",
+        "12.2",
+        "94,500 to 9,290,000"
+      ],
+      "score": 0.32142857142857145,
+      "response": "differences | 5 million | 6 | 2 to 8 million",
+      "elapsed": 1.2
+    },
+    {
+      "id": "60828_experimental_conclusion",
+      "pred": "A. rhizogenes | gene | rutin content | CHS",
+      "gold": [
+        "A. rhizogenes",
+        "light-induced transcription factor",
+        "rutin and quercetin",
+        "flavonoid-pathway gene expression"
+      ],
+      "score": 0.35,
+      "response": "A. rhizogenes | gene | rutin content | CHS",
+      "elapsed": 0.9
+    },
+    {
+      "id": "60488_experimental_conclusion",
+      "pred": "protein | galactose | pSup3 | pSup1",
+      "gold": [
+        "CT229",
+        "galactose",
+        "pSup1 and pSup2",
+        "pSup3"
+      ],
+      "score": 0.25,
+      "response": "protein | galactose | pSup3 | pSup1",
+      "elapsed": 1.0
+    },
+    {
+      "id": "57518_experimental_conclusion",
+      "pred": "10 | 10 | 8 | G93A",
+      "gold": [
+        "mCherry-positive",
+        "10",
+        "1",
+        "mCherry-negative"
+      ],
+      "score": 0.25,
+      "response": "10 | 10 | 8 | G93A",
+      "elapsed": 0.87
+    },
+    {
+      "id": "58022_experimental_conclusion",
+      "pred": "the experiment | C/Rel2 | 24 hours | stimulus",
+      "gold": [
+        "mouse splenocytes",
+        "Dbp",
+        "3 hours",
+        "PAMPs"
+      ],
+      "score": 0.125,
+      "response": "the experiment | C/Rel2 | 24 hours | stimulus",
+      "elapsed": 1.16
+    },
+    {
+      "id": "61124_experimental_conclusion",
+      "pred": "ChIP-exo | more precise | transcription factors | chromatin",
+      "gold": [
+        "ChIP-exo",
+        "higher mapping resolution",
+        "Islet-1",
+        "mouse motor neurons"
+      ],
+      "score": 0.25,
+      "response": "ChIP-exo | more precise | transcription factors | chromatin",
+      "elapsed": 1.04
+    },
+    {
+      "id": "57021_experimental_conclusion",
+      "pred": "endogenous TERT | mitotic | DMSO | nocodazole",
+      "gold": [
+        "34-nt",
+        "20-30 nt",
+        "nocodazole-treated",
+        "DMSO"
+      ],
+      "score": 0.0,
+      "response": "endogenous TERT | mitotic | DMSO | nocodazole",
+      "elapsed": 1.33
+    },
+    {
+      "id": "57774_experimental_conclusion",
+      "pred": "vegetative growth | 12 | 95% | 0",
+      "gold": [
+        "meiotic prophase",
+        "21",
+        "100%",
+        "5"
+      ],
+      "score": 0.0,
+      "response": "vegetative growth | 12 | 95% | 0",
+      "elapsed": 1.0
+    },
+    {
+      "id": "57737_experimental_conclusion",
+      "pred": "LPS-induced septic lung injury | cell viability | ZO-1 | PBS",
+      "gold": [
+        "LPS-treated mice",
+        "pro-inflammatory mediator expression",
+        "ZO-1",
+        "PBS-treated"
+      ],
+      "score": 0.25,
+      "response": "LPS-induced septic lung injury | cell viability | ZO-1 | PBS",
+      "elapsed": 1.29
+    },
+    {
+      "id": "62671_experimental_conclusion",
+      "pred": "Ctrl | Oxidized thiols | SDS-PAGE | TMT-10plex mass reporters",
+      "gold": [
+        "RAW 264.7",
+        "thiol oxidation",
+        "SDS-PAGE and western blot",
+        "LC-MS/MS reporter ions"
+      ],
+      "score": 0.1,
+      "response": "Ctrl | Oxidized thiols | SDS-PAGE | TMT-10plex mass reporters",
+      "elapsed": 1.18
+    },
+    {
+      "id": "4159_experimental_conclusion",
+      "pred": "flow | invasion | tumor cells | flow",
+      "gold": [
+        "interstitial fluid flow",
+        "invasion",
+        "MDA‑MB‑435S metastatic melanoma cells",
+        "24 hours"
+      ],
+      "score": 0.4583333333333333,
+      "response": "flow | invasion | tumor cells | flow",
+      "elapsed": 0.72
+    },
+    {
+      "id": "3227_experimental_conclusion",
+      "pred": "high-resolution|the specimen|dark|light",
+      "gold": [
+        "high-contrast",
+        "single macromolecules",
+        "white features",
+        "dark, featureless"
+      ],
+      "score": 0.0,
+      "response": "high-resolution|the specimen|dark|light",
+      "elapsed": 1.06
+    },
+    {
+      "id": "61691_experimental_conclusion",
+      "pred": "7% | 25 TU/cell AdV-GFP | Hepatocytes | 5 TU/cell AdV-GFP",
+      "gold": [
+        "50%",
+        "25 TU/cell",
+        "murine hepatocytes",
+        "5 TU/cell"
+      ],
+      "score": 0.5666666666666667,
+      "response": "7% | 25 TU/cell AdV-GFP | Hepatocytes | 5 TU/cell AdV-GFP",
+      "elapsed": 1.4
+    },
+    {
+      "id": "56423_experimental_conclusion",
+      "pred": "inhibited | COL3A1 | more stable",
+      "gold": [
+        "contact-inhibited (quiescent)",
+        "Collagen 3A1",
+        "more stable and decays more slowly"
+      ],
+      "score": 0.1904761904761905,
+      "response": "inhibited | COL3A1 | more stable",
+      "elapsed": 1.09
+    },
+    {
+      "id": "57598_experimental_conclusion",
+      "pred": "Bacillus subtilis | 9,398 | high uniformity | 10x",
+      "gold": [
+        "SiC-seq",
+        "Bacillus subtilis",
+        "no observable dropout regions",
+        "5.55×"
+      ],
+      "score": 0.0,
+      "response": "Bacillus subtilis | 9,398 | high uniformity | 10x",
+      "elapsed": 1.18
+    },
+    {
+      "id": "57561_experimental_conclusion",
+      "pred": "primer | PCR | Figure 3 | 16S rRNA",
+      "gold": [
+        "13 base pair",
+        "chloroplast",
+        "Lactuca sativa",
+        "chloroplast 16S ribosomal RNA"
+      ],
+      "score": 0.08333333333333333,
+      "response": "primer | PCR | Figure 3 | 16S rRNA",
+      "elapsed": 0.91
+    },
+    {
+      "id": "56859_experimental_conclusion",
+      "pred": "fluorescence | dense | cluster of insulin-secreting cells | network of blood vessels",
+      "gold": [
+        "light sheet",
+        "VIP-positive",
+        "duct",
+        "ganglion"
+      ],
+      "score": 0.0,
+      "response": "fluorescence | dense | cluster of insulin-secreting cells | network of blood vessels",
+      "elapsed": 1.12
+    },
+    {
+      "id": "52325_experimental_conclusion",
+      "pred": "CS | decrease | CBF | air exposed",
+      "gold": [
+        "whole cigarette smoke",
+        "decrease",
+        "ciliary beating frequency",
+        "air exposure"
+      ],
+      "score": 0.375,
+      "response": "CS | decrease | CBF | air exposed",
+      "elapsed": 0.87
+    },
+    {
+      "id": "59764_experimental_conclusion",
+      "pred": "2 minutes | ICG | SS | 4 seconds",
+      "gold": [
+        "0.5 s",
+        "ICG",
+        "sagittal sinus",
+        "860 nm"
+      ],
+      "score": 0.25,
+      "response": "2 minutes | ICG | SS | 4 seconds",
+      "elapsed": 0.99
+    },
+    {
+      "id": "59474_experimental_conclusion",
+      "pred": "10% | 24 h | nuclear area fluctuations | 2%",
+      "gold": [
+        "10%",
+        "chemical differentiation",
+        "nuclear fluctuation amplitude",
+        "24 h"
+      ],
+      "score": 0.3333333333333333,
+      "response": "10% | 24 h | nuclear area fluctuations | 2%",
+      "elapsed": 0.92
+    },
+    {
+      "id": "2177_experimental_conclusion",
+      "pred": "Day 0 | dense core | network of fibers | few cells",
+      "gold": [
+        "seven days",
+        "uniform, high distribution of live cells",
+        "necrotic core",
+        "thin rim of viable cells"
+      ],
+      "score": 0.07142857142857144,
+      "response": "Day 0 | dense core | network of fibers | few cells",
+      "elapsed": 0.74
+    },
+    {
+      "id": "3608_experimental_conclusion",
+      "pred": "3D | hESC | OCT4-positive cells | 28 days",
+      "gold": [
+        "3D alginate encapsulation",
+        "human embryonic stem cells",
+        "TH-positive dopaminergic neurons",
+        "21 days"
+      ],
+      "score": 0.25,
+      "response": "3D | hESC | OCT4-positive cells | 28 days",
+      "elapsed": 1.12
+    },
+    {
+      "id": "57982_experimental_conclusion",
+      "pred": "SPT20 | mRNA levels | 1000 | 2-fold",
+      "gold": [
+        "SPT20",
+        "newly synthesized mRNA",
+        "4,000",
+        "two-fold"
+      ],
+      "score": 0.35,
+      "response": "SPT20 | mRNA levels | 1000 | 2-fold",
+      "elapsed": 1.22
+    },
+    {
+      "id": "61184_experimental_conclusion",
+      "pred": "bond pressing temperature | shear strength | bond pressing time | isothermal strength development rate",
+      "gold": [
+        "bonding temperature",
+        "lap-shear bond strength",
+        "shorter press times",
+        "strength-development rate"
+      ],
+      "score": 0.2833333333333333,
+      "response": "bond pressing temperature | shear strength | bond pressing time | isothermal strength development rate",
+      "elapsed": 0.98
+    },
+    {
+      "id": "56488_experimental_conclusion",
+      "pred": "crack bridging | fiber bridging | plastic deformation | microcracking",
+      "gold": [
+        "crack deflection",
+        "crack bridging",
+        "fiber bridging",
+        "chipping"
+      ],
+      "score": 0.25,
+      "response": "crack bridging | fiber bridging | plastic deformation | microcracking",
+      "elapsed": 1.04
+    },
+    {
+      "id": "62649_experimental_conclusion",
+      "pred": "Open Globe Injury|Intraocular Pressure (IOP)|Dermabond Adhesive|the effectiveness of the treatment",
+      "gold": [
+        "open globe injury",
+        "intraocular pressure",
+        "Dermabond adhesive",
+        "effective sealing"
+      ],
+      "score": 0.7,
+      "response": "Open Globe Injury|Intraocular Pressure (IOP)|Dermabond Adhesive|the effectiveness of the treatment",
+      "elapsed": 1.21
+    },
+    {
+      "id": "53156_experimental_conclusion",
+      "pred": "Cellular | 95% | 92% | fluorescent microscopy",
+      "gold": [
+        "hADSC",
+        "98%",
+        "95%",
+        "live/dead confocal staining"
+      ],
+      "score": 0.0,
+      "response": "Cellular | 95% | 92% | fluorescent microscopy",
+      "elapsed": 0.98
+    },
+    {
+      "id": "51044_experimental_conclusion",
+      "pred": "pipette | filter paper | successful | failure",
+      "gold": [
+        "6% gelatin",
+        "metal lattice",
+        "intact, untorn",
+        "small, tattered patches"
+      ],
+      "score": 0.0,
+      "response": "pipette | filter paper | successful | failure",
+      "elapsed": 0.69
+    },
+    {
+      "id": "67076_experimental_conclusion",
+      "pred": "small | well-defined | spaced | irregularly shaped",
+      "gold": [
+        "discrete",
+        "symmetrical",
+        "sparsely distributed",
+        "asymmetrical"
+      ],
+      "score": 0.0,
+      "response": "small | well-defined | spaced | irregularly shaped",
+      "elapsed": 1.12
+    },
+    {
+      "id": "64798_experimental_conclusion",
+      "pred": "soil | purity | A260/280 | 1.95 |",
+      "gold": [
+        "isolated cannabis trichomes",
+        "RNA integrity",
+        "RIN",
+        "9.4–10"
+      ],
+      "score": 0.0,
+      "response": "soil | purity | A260/280 | 1.95 |",
+      "elapsed": 0.82
+    },
+    {
+      "id": "61993_experimental_conclusion",
+      "pred": "BTS1-ERG20 | 5-fold | 4-fold",
+      "gold": [
+        "BTS1/ERG20",
+        "35-fold",
+        "16.5-fold"
+      ],
+      "score": 0.0,
+      "response": "BTS1-ERG20 | 5-fold | 4-fold",
+      "elapsed": 0.83
+    },
+    {
+      "id": "50658_experimental_conclusion",
+      "pred": "isolation | lumen | periphery | integrity",
+      "gold": [
+        "decellularization",
+        "SMA",
+        "capillary tree",
+        "patency"
+      ],
+      "score": 0.0,
+      "response": "isolation | lumen | periphery | integrity",
+      "elapsed": 0.56
+    },
+    {
+      "id": "62279_experimental_conclusion",
+      "pred": "the flow field | outside | low shear stress",
+      "gold": [
+        "physiological flow",
+        "outside",
+        "high wall shear stress"
+      ],
+      "score": 0.6571428571428571,
+      "response": "the flow field | outside | low shear stress",
+      "elapsed": 0.9
+    },
+    {
+      "id": "4415_experimental_conclusion",
+      "pred": "cells | microelectrode array | 20-30 μm | 100 V | 50 ms",
+      "gold": [
+        "HeLa cells",
+        "100 µm electrodes",
+        "3–9 V",
+        "1–10 ms"
+      ],
+      "score": 0.16666666666666666,
+      "response": "cells | microelectrode array | 20-30 μm | 100 V | 50 ms",
+      "elapsed": 1.04
+    },
+    {
+      "id": "52750_experimental_conclusion",
+      "pred": "Miniature Tissue Culture System | heart valves | 10 days | TUNEL-positive",
+      "gold": [
+        "MTCS",
+        "aortic and mitral valves",
+        "3 days",
+        "TUNEL-positive"
+      ],
+      "score": 0.4583333333333333,
+      "response": "Miniature Tissue Culture System | heart valves | 10 days | TUNEL-positive",
+      "elapsed": 0.97
+    },
+    {
+      "id": "3953_experimental_conclusion",
+      "pred": "PEGylated Fibrin | Collagen | CD31 | 7 days",
+      "gold": [
+        "collagen",
+        "PEG-fibrin",
+        "von Willebrand factor",
+        "11 days"
+      ],
+      "score": 0.125,
+      "response": "PEGylated Fibrin | Collagen | CD31 | 7 days",
+      "elapsed": 0.83
+    },
+    {
+      "id": "58314_experimental_conclusion",
+      "pred": "kECM | Collagen IV | native ECM | laminin",
+      "gold": [
+        "Collagen I",
+        "CD31",
+        "kidney ECM-containing gels",
+        "VWF"
+      ],
+      "score": 0.0,
+      "response": "kECM | Collagen IV | native ECM | laminin",
+      "elapsed": 0.78
+    },
+    {
+      "id": "54664_experimental_conclusion",
+      "pred": "sustained | IGF-1 | microspheres | β-cell proliferation",
+      "gold": [
+        "three-day",
+        "CTGF",
+        "PLGA microspheres",
+        "beta-cell proliferation"
+      ],
+      "score": 0.29166666666666663,
+      "response": "sustained | IGF-1 | microspheres | β-cell proliferation",
+      "elapsed": 0.79
+    },
+    {
+      "id": "56243_experimental_conclusion",
+      "pred": "blood flow | perfusion | epicenter",
+      "gold": [
+        "spinal cord blood flow",
+        "oxygen saturation",
+        "injury epicenter"
+      ],
+      "score": 0.4444444444444444,
+      "response": "blood flow | perfusion | epicenter",
+      "elapsed": 0.7
+    },
+    {
+      "id": "52653_experimental_conclusion",
+      "pred": "injection | brain | open field test | swimming test",
+      "gold": [
+        "lentiviral injection",
+        "dentate gyrus",
+        "open field",
+        "forced swim immobility"
+      ],
+      "score": 0.3666666666666667,
+      "response": "injection | brain | open field test | swimming test",
+      "elapsed": 0.81
+    },
+    {
+      "id": "50849_experimental_conclusion",
+      "pred": "No Stress Control | CPAW | Salivary Cortisol AUCi | HPA Axis",
+      "gold": [
+        "no-stress control",
+        "cold pressor arm wrap",
+        "salivary cortisol",
+        "HPA axis"
+      ],
+      "score": 0.55,
+      "response": "No Stress Control | CPAW | Salivary Cortisol AUCi | HPA Axis",
+      "elapsed": 0.86
+    },
+    {
+      "id": "67235_experimental_conclusion",
+      "pred": "Quantitative Backscattered Electron Imaging | data | 0.98 | ex vivo model",
+      "gold": [
+        "qBEI",
+        "calcium content",
+        "0.99",
+        "explant model"
+      ],
+      "score": 0.1,
+      "response": "Quantitative Backscattered Electron Imaging | data | 0.98 | ex vivo model",
+      "elapsed": 0.94
+    },
+    {
+      "id": "51846_experimental_conclusion",
+      "pred": "10% | 20% | 35% | IL-15 transgenic",
+      "gold": [
+        "~10%",
+        "20%",
+        ">60%",
+        "IL-15 transgenic"
+      ],
+      "score": 0.5,
+      "response": "10% | 20% | 35% | IL-15 transgenic",
+      "elapsed": 0.77
+    },
+    {
+      "id": "59243_experimental_conclusion",
+      "pred": "0.5 mM AMPH | 2 min | 80% | 100%",
+      "gold": [
+        "amphetamine",
+        "0.5 mM",
+        "2 minutes",
+        "66%"
+      ],
+      "score": 0.0,
+      "response": "0.5 mM AMPH | 2 min | 80% | 100%",
+      "elapsed": 0.97
+    },
+    {
+      "id": "57489_experimental_conclusion",
+      "pred": "Chosen; Forced; metacognitive responding; metacognition",
+      "gold": [
+        "chosen trials",
+        "forced trials",
+        "decline option",
+        "metacognitive responding"
+      ],
+      "score": 0.0,
+      "response": "Chosen; Forced; metacognitive responding; metacognition",
+      "elapsed": 0.83
+    },
+    {
+      "id": "50600_experimental_conclusion",
+      "pred": "AAV-Cre | ACC | Cav1.2 | AAV-GFP",
+      "gold": [
+        "rAAV-Cre-GFP",
+        "nucleus accumbens",
+        "Cav1.2",
+        "rAAV-GFP"
+      ],
+      "score": 0.25,
+      "response": "AAV-Cre | ACC | Cav1.2 | AAV-GFP",
+      "elapsed": 0.7
+    },
+    {
+      "id": "61743_experimental_conclusion",
+      "pred": "0.5 | 0.1 | osmotic pump | sleep",
+      "gold": [
+        "0.35",
+        "0.35",
+        "mini osmotic pump",
+        "quiet waking"
+      ],
+      "score": 0.2,
+      "response": "0.5 | 0.1 | osmotic pump | sleep",
+      "elapsed": 1.24
+    },
+    {
+      "id": "63997_experimental_conclusion",
+      "pred": "urokinase-type plasminogen activator | Hargreaves test | Cold probe test | Light/Dark Anxiety Test",
+      "gold": [
+        "urokinase",
+        "von Frey",
+        "Hargreaves",
+        "cold plate"
+      ],
+      "score": 0.0,
+      "response": "urokinase-type plasminogen activator | Hargreaves test | Cold probe test | Light/Dark Anxiety Test",
+      "elapsed": 1.08
+    },
+    {
+      "id": "53009_experimental_conclusion",
+      "pred": "BTBR; genetically homozygous for the gene Y; lower breakpoint; C57BL/6J",
+      "gold": [
+        "BTBR",
+        "group-housed",
+        "lower breakpoint",
+        "C57BL/6 (B6)"
+      ],
+      "score": 0.0,
+      "response": "BTBR; genetically homozygous for the gene Y; lower breakpoint; C57BL/6J",
+      "elapsed": 1.0
+    },
+    {
+      "id": "52874_experimental_conclusion",
+      "pred": "enriched environment | 3 months | B16F10 cells | 2 weeks",
+      "gold": [
+        "enriched environment",
+        "5 weeks",
+        "B16 melanoma",
+        "17 days"
+      ],
+      "score": 0.25,
+      "response": "enriched environment | 3 months | B16F10 cells | 2 weeks",
+      "elapsed": 0.87
+    },
+    {
+      "id": "53876_experimental_conclusion",
+      "pred": "fluorescence; spectra; 700 nm; enhancement",
+      "gold": [
+        "reflection",
+        "scattering",
+        "650 nm",
+        "narrower linewidth"
+      ],
+      "score": 0.0,
+      "response": "fluorescence; spectra; 700 nm; enhancement",
+      "elapsed": 0.76
+    },
+    {
+      "id": "57909_experimental_conclusion",
+      "pred": "3D bioprinting | 45 days | propidium iodide | FABP4",
+      "gold": [
+        "SWAT",
+        "7.5–8 weeks",
+        "propidium iodide",
+        "Oil Red O"
+      ],
+      "score": 0.25,
+      "response": "3D bioprinting | 45 days | propidium iodide | FABP4",
+      "elapsed": 0.96
+    },
+    {
+      "id": "58296_experimental_conclusion",
+      "pred": "PDMS | hydrophilic | background signal | adherent |",
+      "gold": [
+        "MY-133-V-2000",
+        "refractive-index-matched",
+        "imaging artifacts near microchannel walls",
+        "MCF-7"
+      ],
+      "score": 0.0,
+      "response": "PDMS | hydrophilic | background signal | adherent |",
+      "elapsed": 0.98
+    },
+    {
+      "id": "62771_experimental_conclusion",
+      "pred": "sucrose|yeast extract|FD&C Blue #1|both sexes",
+      "gold": [
+        "4% sucrose",
+        "1% yeast extract",
+        "15% ethanol",
+        "both male and female flies"
+      ],
+      "score": 0.43809523809523815,
+      "response": "sucrose|yeast extract|FD&C Blue #1|both sexes",
+      "elapsed": 0.89
+    },
+    {
+      "id": "55968_experimental_conclusion",
+      "pred": "metallic | 500 | 180 | optical",
+      "gold": [
+        "Ag/TiO2",
+        "410",
+        "160-180",
+        "far"
+      ],
+      "score": 0.0,
+      "response": "metallic | 500 | 180 | optical",
+      "elapsed": 0.74
+    },
+    {
+      "id": "50459_experimental_conclusion",
+      "pred": "400 microns wide | 200 microns",
+      "gold": [
+        "completely hollow",
+        "50 microns"
+      ],
+      "score": 0.25,
+      "response": "400 microns wide | 200 microns",
+      "elapsed": 0.73
+    },
+    {
+      "id": "56266_experimental_conclusion",
+      "pred": "an electric field | chiral | temperature | humidity",
+      "gold": [
+        "continuous light",
+        "splay-aligned",
+        "film dimensions",
+        "light intensity"
+      ],
+      "score": 0.0,
+      "response": "an electric field | chiral | temperature | humidity",
+      "elapsed": 0.76
+    },
+    {
+      "id": "62458_experimental_conclusion",
+      "pred": "Encoding Trial | 1 hour | 24 hours | Context Habituation",
+      "gold": [
+        "three 5-min trials",
+        "1 h",
+        "24 h",
+        "single 20-min trial"
+      ],
+      "score": 0.25,
+      "response": "Encoding Trial | 1 hour | 24 hours | Context Habituation",
+      "elapsed": 0.82
+    },
+    {
+      "id": "58174_experimental_conclusion",
+      "pred": "deionized | refractive index | 10 cm | 25 microns",
+      "gold": [
+        "freely suspended",
+        "fluorescent dye",
+        "1 mm",
+        "40 micrometers"
+      ],
+      "score": 0.0,
+      "response": "deionized | refractive index | 10 cm | 25 microns",
+      "elapsed": 1.33
+    },
+    {
+      "id": "60711_experimental_conclusion",
+      "pred": "Control | Pre-strain | hydrogen concentration | hydrogen absorption",
+      "gold": [
+        "pre-strain in humid air",
+        "friction in water",
+        "hydrogen release rates",
+        "calculated hydrogen concentrations"
+      ],
+      "score": 0.2,
+      "response": "Control | Pre-strain | hydrogen concentration | hydrogen absorption",
+      "elapsed": 0.73
+    },
+    {
+      "id": "61013_experimental_conclusion",
+      "pred": "frequency | 96.5844 MHz | 100 MHz | 22°",
+      "gold": [
+        "laser Doppler vibrometer",
+        "96.5844 MHz",
+        "100 MHz",
+        "2.06"
+      ],
+      "score": 0.5,
+      "response": "frequency | 96.5844 MHz | 100 MHz | 22°",
+      "elapsed": 0.96
+    },
+    {
+      "id": "55934_experimental_conclusion",
+      "pred": "2200 | 300 | 1500 | core-shell",
+      "gold": [
+        "2,200",
+        "300",
+        "1,500",
+        "smooth surface morphology"
+      ],
+      "score": 0.25,
+      "response": "2200 | 300 | 1500 | core-shell",
+      "elapsed": 0.84
+    },
+    {
+      "id": "60245_experimental_conclusion",
+      "pred": "smooth surface | the aggregate surface | lower detectable porosity | a certain distance",
+      "gold": [
+        "ITZ",
+        "smooth aggregate surfaces",
+        "lower porosity",
+        "nearly every distance"
+      ],
+      "score": 0.36666666666666664,
+      "response": "smooth surface | the aggregate surface | lower detectable porosity | a certain distance",
+      "elapsed": 0.87
+    },
+    {
+      "id": "55307_experimental_conclusion",
+      "pred": "XRD | CuBr | AgI | PbI2",
+      "gold": [
+        "X-ray diffraction",
+        "NaI",
+        "CuBr",
+        "PbI2"
+      ],
+      "score": 0.25,
+      "response": "XRD | CuBr | AgI | PbI2",
+      "elapsed": 0.72
+    },
+    {
+      "id": "50593_experimental_conclusion",
+      "pred": "3000 ohm; 5 mAh; nano; 20 mAh",
+      "gold": [
+        "3,000 ohm",
+        "1,000 ohm",
+        "nanoscopic VB2",
+        "4,060 Ah kg^-1"
+      ],
+      "score": 0.0,
+      "response": "3000 ohm; 5 mAh; nano; 20 mAh",
+      "elapsed": 0.85
+    },
+    {
+      "id": "52818_experimental_conclusion",
+      "pred": "CNTs | 10% | thermopower",
+      "gold": [
+        "MWCNT",
+        "10 times",
+        "one-dimensional"
+      ],
+      "score": 0.0,
+      "response": "CNTs | 10% | thermopower",
+      "elapsed": 0.67
+    },
+    {
+      "id": "61876_experimental_conclusion",
+      "pred": "neurons | ΔFF | Walk | Groom",
+      "gold": [
+        "brain regions",
+        "calcium activity",
+        "walking",
+        "grooming"
+      ],
+      "score": 0.0,
+      "response": "neurons | ΔFF | Walk | Groom",
+      "elapsed": 0.75
+    },
+    {
+      "id": "2618_experimental_conclusion",
+      "pred": "10 | autologous blood injection | 90% | 0%",
+      "gold": [
+        "50",
+        "autologous blood ICH procedure",
+        "80%",
+        "0%"
+      ],
+      "score": 0.3928571428571429,
+      "response": "10 | autologous blood injection | 90% | 0%",
+      "elapsed": 0.8
+    },
+    {
+      "id": "62650_experimental_conclusion",
+      "pred": "red fluorescence | lateral ventricle | mRuby | no red fluorescence",
+      "gold": [
+        "EGFP",
+        "middle-lower cortical layers",
+        "P28",
+        "no EGFP expression"
+      ],
+      "score": 0.08333333333333333,
+      "response": "red fluorescence | lateral ventricle | mRuby | no red fluorescence",
+      "elapsed": 0.82
+    },
+    {
+      "id": "52299_experimental_conclusion",
+      "pred": "immunohistochemical | cAMP response element binding protein (CREB) | nucleus | dissociated cultures",
+      "gold": [
+        "en face",
+        "Kirrel2",
+        "olfactory cilia",
+        "cryosections"
+      ],
+      "score": 0.0,
+      "response": "immunohistochemical | cAMP response element binding protein (CREB) | nucleus | dissociated cultures",
+      "elapsed": 1.06
+    },
+    {
+      "id": "62876_experimental_conclusion",
+      "pred": "-2.5 | PeFAH | RT | RT",
+      "gold": [
+        "-0.82",
+        "perifornical area of the anterior hypothalamus",
+        "reticular nucleus",
+        "paraventricular nucleus"
+      ],
+      "score": 0.0,
+      "response": "-2.5 | PeFAH | RT | RT",
+      "elapsed": 0.75
+    },
+    {
+      "id": "61330_experimental_conclusion",
+      "pred": "7 | 14 | 21 | seconds",
+      "gold": [
+        "7",
+        "14",
+        "21",
+        "greater than one minute"
+      ],
+      "score": 0.75,
+      "response": "7 | 14 | 21 | seconds",
+      "elapsed": 0.73
+    },
+    {
+      "id": "61798_experimental_conclusion",
+      "pred": "Garlic | spores | contact | vapor-phase",
+      "gold": [
+        "Carbendazim",
+        "Trichoderma SBT10-2018",
+        "contact assays",
+        "vapor-phase"
+      ],
+      "score": 0.41666666666666663,
+      "response": "Garlic | spores | contact | vapor-phase",
+      "elapsed": 0.86
+    },
+    {
+      "id": "54614_experimental_conclusion",
+      "pred": "highest | labile C | potential carbon turnover",
+      "gold": [
+        "soybean",
+        "highest",
+        "labile organic carbon (LOC)"
+      ],
+      "score": 0.09523809523809525,
+      "response": "highest | labile C | potential carbon turnover",
+      "elapsed": 0.65
+    },
+    {
+      "id": "58332_experimental_conclusion",
+      "pred": "ellipsoidal; expansion; spherical; 0.1 mg",
+      "gold": [
+        "prolate ellipsoidal",
+        "T cell proliferation",
+        "spherical",
+        "0.01 mg"
+      ],
+      "score": 0.0,
+      "response": "ellipsoidal; expansion; spherical; 0.1 mg",
+      "elapsed": 0.78
+    },
+    {
+      "id": "57240_experimental_conclusion",
+      "pred": "700 bp | 500 bp | 400 bp | internal amplification",
+      "gold": [
+        "500 bp",
+        "700 bp",
+        "400 bp",
+        "Candidatus Liberibacter spp."
+      ],
+      "score": 0.5,
+      "response": "700 bp | 500 bp | 400 bp | internal amplification",
+      "elapsed": 1.04
+    },
+    {
+      "id": "63838_experimental_conclusion",
+      "pred": "Metallic nerve cuff | 12 weeks | right sciatic | 50%",
+      "gold": [
+        "ex vivo",
+        "6 hours",
+        "right",
+        "3 mV"
+      ],
+      "score": 0.16666666666666666,
+      "response": "Metallic nerve cuff | 12 weeks | right sciatic | 50%",
+      "elapsed": 0.91
+    },
+    {
+      "id": "64560_experimental_conclusion",
+      "pred": "normal | negative results | cytoplasmic | intracytoplasmic",
+      "gold": [
+        "TSE-negative",
+        "non-specific immunolabeling",
+        "fine linear threads in the neuropil",
+        "diffuse cytoplasmic labeling of neurons"
+      ],
+      "score": 0.0,
+      "response": "normal | negative results | cytoplasmic | intracytoplasmic",
+      "elapsed": 0.82
+    },
+    {
+      "id": "62964_experimental_conclusion",
+      "pred": "24 hours | IL-1β + IFNγ | LPS | FBS",
+      "gold": [
+        "6 h",
+        "IL-1β + IFN-γ",
+        "24 h",
+        "LPS"
+      ],
+      "score": 0.16666666666666666,
+      "response": "24 hours | IL-1β + IFNγ | LPS | FBS",
+      "elapsed": 0.88
+    },
+    {
+      "id": "62088_experimental_conclusion",
+      "pred": "Cstf1; Gapdh; Rpl10; Sx2",
+      "gold": [
+        "Gapdh",
+        "sox2",
+        "rpl7",
+        "rpl35"
+      ],
+      "score": 0.0,
+      "response": "Cstf1; Gapdh; Rpl10; Sx2",
+      "elapsed": 0.86
+    },
+    {
+      "id": "67016_experimental_conclusion",
+      "pred": "Day 18 | morphological changes | CRX | CD68",
+      "gold": [
+        "day 30",
+        "GFP autofluorescence",
+        "CRX",
+        "IBA1"
+      ],
+      "score": 0.375,
+      "response": "Day 18 | morphological changes | CRX | CD68",
+      "elapsed": 0.83
+    },
+    {
+      "id": "55614_experimental_conclusion",
+      "pred": "XPS spectra | ultrasonic ozonolysis | functionalization | dispersion of carbon nanotubes",
+      "gold": [
+        "XPS",
+        "USO",
+        "oxygen",
+        "oxidation"
+      ],
+      "score": 0.16666666666666666,
+      "response": "XPS spectra | ultrasonic ozonolysis | functionalization | dispersion of carbon nanotubes",
+      "elapsed": 0.86
+    },
+    {
+      "id": "57928_experimental_conclusion",
+      "pred": "3107 | 257 | 284 | 78.2",
+      "gold": [
+        "3,624",
+        "3,120",
+        "504",
+        "83"
+      ],
+      "score": 0.0,
+      "response": "3107 | 257 | 284 | 78.2",
+      "elapsed": 0.93
+    },
+    {
+      "id": "57988_experimental_conclusion",
+      "pred": "eGFP-NEFH mutant | visible under confocal microscopy | the images of eGFP-NEFH mutant neurons",
+      "gold": [
+        "mutant EGFP-NEFH",
+        "LC-3B-positive",
+        "confocal imaging"
+      ],
+      "score": 0.3333333333333333,
+      "response": "eGFP-NEFH mutant | visible under confocal microscopy | the images of eGFP-NEFH mutant neurons",
+      "elapsed": 1.03
+    },
+    {
+      "id": "58927_experimental_conclusion",
+      "pred": "Fanny Viret | hF1 | hF2 | hF4",
+      "gold": [
+        "CSDF",
+        "1",
+        "3",
+        "2"
+      ],
+      "score": 0.0,
+      "response": "Fanny Viret | hF1 | hF2 | hF4",
+      "elapsed": 0.86
+    },
+    {
+      "id": "55685_experimental_conclusion",
+      "pred": "29°C | OH radicals | organic mass concentration signal | 1 hour",
+      "gold": [
+        "490 ppb",
+        "UV-generated OH",
+        "organic PM mass",
+        "4 hours"
+      ],
+      "score": 0.2678571428571429,
+      "response": "29°C | OH radicals | organic mass concentration signal | 1 hour",
+      "elapsed": 0.77
+    },
+    {
+      "id": "55531_experimental_conclusion",
+      "pred": "Sea | 9 | 8 | 2.5",
+      "gold": [
+        "Greece",
+        "8",
+        "lindane",
+        "5.33"
+      ],
+      "score": 0.0,
+      "response": "Sea | 9 | 8 | 2.5",
+      "elapsed": 0.73
+    },
+    {
+      "id": "58674_experimental_conclusion",
+      "pred": "Rhizobacteria | soybean | root length | treatment patches",
+      "gold": [
+        "six",
+        "maize",
+        "root length density",
+        "15N-labeled nutrient treatment patches"
+      ],
+      "score": 0.3666666666666667,
+      "response": "Rhizobacteria | soybean | root length | treatment patches",
+      "elapsed": 0.81
+    },
+    {
+      "id": "3874_experimental_conclusion",
+      "pred": "RNU6B | 25 | miR-18a | 30",
+      "gold": [
+        "U6",
+        "20",
+        "miR-98",
+        "25"
+      ],
+      "score": 0.0,
+      "response": "RNU6B | 25 | miR-18a | 30",
+      "elapsed": 0.98
+    },
+    {
+      "id": "51513_experimental_conclusion",
+      "pred": "enzymatic digestion | longer | more | mechanical dissociation",
+      "gold": [
+        "trypsin",
+        "longer",
+        "earlier",
+        "scraping"
+      ],
+      "score": 0.25,
+      "response": "enzymatic digestion | longer | more | mechanical dissociation",
+      "elapsed": 0.71
+    },
+    {
+      "id": "56437_experimental_conclusion",
+      "pred": "Etoposide | 24 h | 500 µm | 700 µm",
+      "gold": [
+        "etoposide",
+        "750 μM",
+        "0.86 mm",
+        "1.04 mm"
+      ],
+      "score": 0.25,
+      "response": "Etoposide | 24 h | 500 µm | 700 µm",
+      "elapsed": 0.95
+    },
+    {
+      "id": "54189_experimental_conclusion",
+      "pred": "3.52 | 1.34 | 1.38 | 20%",
+      "gold": [
+        "acid-catalyzed esterification",
+        "biodiesel",
+        "FAME",
+        ">90%"
+      ],
+      "score": 0.0,
+      "response": "3.52 | 1.34 | 1.38 | 20%",
+      "elapsed": 0.93
+    },
+    {
+      "id": "50527_experimental_conclusion",
+      "pred": "47 | Anther-to-Stigma | heat treatment of 48°C for 3 minutes | Panicle-to-Panicle",
+      "gold": [
+        "Setaria viridis",
+        "anther-to-stigma",
+        "forceps",
+        "panicle-to-panicle"
+      ],
+      "score": 0.5,
+      "response": "47 | Anther-to-Stigma | heat treatment of 48°C for 3 minutes | Panicle-to-Panicle",
+      "elapsed": 1.15
+    },
+    {
+      "id": "63892_experimental_conclusion",
+      "pred": "blood perfusion | ventral | 20% | recovery",
+      "gold": [
+        "Laser Doppler",
+        "ipsilateral",
+        "20%",
+        "gradual recovery"
+      ],
+      "score": 0.41666666666666663,
+      "response": "blood perfusion | ventral | 20% | recovery",
+      "elapsed": 0.78
+    },
+    {
+      "id": "3255_experimental_conclusion",
+      "pred": "1.5 | 70 | 20 | 10 |",
+      "gold": [
+        "0.4",
+        "63",
+        "16",
+        "8"
+      ],
+      "score": 0.0,
+      "response": "1.5 | 70 | 20 | 10 |",
+      "elapsed": 0.87
+    },
+    {
+      "id": "64759_experimental_conclusion",
+      "pred": "DOC | Light | Heavy | no treatment effect |",
+      "gold": [
+        "mineral-associated organic matter",
+        "highest-density",
+        "intermediate-density",
+        "no significant effect"
+      ],
+      "score": 0.16666666666666666,
+      "response": "DOC | Light | Heavy | no treatment effect |",
+      "elapsed": 0.7
+    },
+    {
+      "id": "59616_experimental_conclusion",
+      "pred": "50.7 | 49.3 | 46.3 | 53.7",
+      "gold": [
+        "50",
+        "46",
+        "32",
+        "53"
+      ],
+      "score": 0.0,
+      "response": "50.7 | 49.3 | 46.3 | 53.7",
+      "elapsed": 1.08
+    },
+    {
+      "id": "59396_experimental_conclusion",
+      "pred": "4.75/5 | 3.8/5 | 2 hours | $100",
+      "gold": [
+        "4.75/5",
+        "3.45/5",
+        "15 minutes",
+        "10 euros"
+      ],
+      "score": 0.25,
+      "response": "4.75/5 | 3.8/5 | 2 hours | $100",
+      "elapsed": 1.45
+    },
+    {
+      "id": "54786_experimental_conclusion",
+      "pred": "vena cava; vena porta; aorta; CD31",
+      "gold": [
+        "aorta",
+        "vena cava",
+        "vena porta",
+        "CD31"
+      ],
+      "score": 0.0,
+      "response": "vena cava; vena porta; aorta; CD31",
+      "elapsed": 1.07
+    },
+    {
+      "id": "51551_experimental_conclusion",
+      "pred": "R256H | 0.7 | 1.8 | TIRFM",
+      "gold": [
+        "R256H",
+        "0.88 ± 0.30",
+        "1.60 ± 0.42",
+        "TIRF microscopy"
+      ],
+      "score": 0.25,
+      "response": "R256H | 0.7 | 1.8 | TIRFM",
+      "elapsed": 0.89
+    },
+    {
+      "id": "63129_experimental_conclusion",
+      "pred": "sodium taurocholate; biliopancreatic duct; 0.13; 1",
+      "gold": [
+        "5% sodium taurocholate",
+        "biliopancreatic duct",
+        "72.7%",
+        "100%"
+      ],
+      "score": 0.05555555555555555,
+      "response": "sodium taurocholate; biliopancreatic duct; 0.13; 1",
+      "elapsed": 1.08
+    },
+    {
+      "id": "54818_experimental_conclusion",
+      "pred": "2 weeks | abdominal aorta constriction | cardiac fibrosis | HW/BW ratio",
+      "gold": [
+        "10 weeks",
+        "abdominal aortic constriction",
+        "cardiac fibrosis",
+        "picrosirius red–positive area"
+      ],
+      "score": 0.5416666666666666,
+      "response": "2 weeks | abdominal aorta constriction | cardiac fibrosis | HW/BW ratio",
+      "elapsed": 1.15
+    },
+    {
+      "id": "2465_experimental_conclusion",
+      "pred": "Hitachi F-7000 Fluorescence Spectrophotometer; PicoGreen Dye; 1.0 - 100 ng/mL; 0.99993",
+      "gold": [
+        "Hitachi F-7000 microplate reader",
+        "PicoGreen",
+        "1-100 ng/mL",
+        "0.99993"
+      ],
+      "score": 0.06666666666666667,
+      "response": "Hitachi F-7000 Fluorescence Spectrophotometer; PicoGreen Dye; 1.0 - 100 ng/mL; 0.99993",
+      "elapsed": 1.33
+    },
+    {
+      "id": "51974_experimental_conclusion",
+      "pred": "heating | 10 minutes | 250 degrees Celsius",
+      "gold": [
+        "rapid thermal annealing",
+        "950°C",
+        "10 minutes"
+      ],
+      "score": 0.0,
+      "response": "heating | 10 minutes | 250 degrees Celsius",
+      "elapsed": 0.75
+    },
+    {
+      "id": "58104_experimental_conclusion",
+      "pred": "animal | 42.5 minutes | 60 minutes | improved",
+      "gold": [
+        "porcine",
+        "50 minutes",
+        "decreased",
+        "repeated"
+      ],
+      "score": 0.125,
+      "response": "animal | 42.5 minutes | 60 minutes | improved",
+      "elapsed": 1.06
+    },
+    {
+      "id": "1842_experimental_conclusion",
+      "pred": "electrophoresis | proteins | 12 | a range of molecular weights",
+      "gold": [
+        "GELFREE 8100",
+        "bovine liver homogenate",
+        "12",
+        "3.5–150 kDa"
+      ],
+      "score": 0.25,
+      "response": "electrophoresis | proteins | 12 | a range of molecular weights",
+      "elapsed": 0.78
+    },
+    {
+      "id": "56639_experimental_conclusion",
+      "pred": "reduction; OT; Atosiban; SR 49059",
+      "gold": [
+        "concentration-dependent inhibition",
+        "vasopressin",
+        "oxytocin",
+        "SR49059"
+      ],
+      "score": 0.0,
+      "response": "reduction; OT; Atosiban; SR 49059",
+      "elapsed": 0.81
+    },
+    {
+      "id": "56338_experimental_conclusion",
+      "pred": "6 | 24 | 25 | 5 |",
+      "gold": [
+        "6",
+        "72",
+        "25",
+        "5"
+      ],
+      "score": 0.75,
+      "response": "6 | 24 | 25 | 5 |",
+      "elapsed": 0.74
+    },
+    {
+      "id": "58644_experimental_conclusion",
+      "pred": "TopPC | 90000 | 32000 | E.coli",
+      "gold": [
+        "CZE-MS/MS",
+        "500",
+        "190",
+        "E. coli proteome"
+      ],
+      "score": 0.0,
+      "response": "TopPC | 90000 | 32000 | E.coli",
+      "elapsed": 0.82
+    },
+    {
+      "id": "56327_experimental_conclusion",
+      "pred": "DU145 and 22Rv1 | Docetaxel | 100 nM | 72 hours",
+      "gold": [
+        "DU145 and 22Rv1",
+        "Docetaxel",
+        "5 nM",
+        "72 hours"
+      ],
+      "score": 0.875,
+      "response": "DU145 and 22Rv1 | Docetaxel | 100 nM | 72 hours",
+      "elapsed": 1.2
+    },
+    {
+      "id": "55080_experimental_conclusion",
+      "pred": "renal cells | renal cancer | 10-12 weeks | lungs",
+      "gold": [
+        "0.1 mL",
+        "Renca cells",
+        "2×10^6 cells/mL",
+        "lungs"
+      ],
+      "score": 0.25,
+      "response": "renal cells | renal cancer | 10-12 weeks | lungs",
+      "elapsed": 0.78
+    },
+    {
+      "id": "3187_experimental_conclusion",
+      "pred": "HeLa cells | GFP | 80% | transfection efficiency",
+      "gold": [
+        "HUVEC",
+        "GFP–actin",
+        "over 50%",
+        "transfection/expression efficiency"
+      ],
+      "score": 0.125,
+      "response": "HeLa cells | GFP | 80% | transfection efficiency",
+      "elapsed": 0.78
+    },
+    {
+      "id": "58301_experimental_conclusion",
+      "pred": "electrochemical deposition | glassy carbon | polycrystalline nickel | hydrogen",
+      "gold": [
+        "ENACT",
+        "AAO",
+        "PAN",
+        "H2/propane"
+      ],
+      "score": 0.0,
+      "response": "electrochemical deposition | glassy carbon | polycrystalline nickel | hydrogen",
+      "elapsed": 0.88
+    },
+    {
+      "id": "60982_experimental_conclusion",
+      "pred": "PLA | OMA-1::GFP | PLA | positive",
+      "gold": [
+        "PLA",
+        "OMA-1::GFP",
+        "late pachytene-to-oocyte region",
+        "in situ"
+      ],
+      "score": 0.5,
+      "response": "PLA | OMA-1::GFP | PLA | positive",
+      "elapsed": 0.8
+    },
+    {
+      "id": "57660_experimental_conclusion",
+      "pred": "Recrystallized | 5.77 | 4.13 | 1.23",
+      "gold": [
+        "methanol recrystallization",
+        "3.9×",
+        "3.3×",
+        "4.7×"
+      ],
+      "score": 0.0,
+      "response": "Recrystallized | 5.77 | 4.13 | 1.23",
+      "elapsed": 1.02
+    },
+    {
+      "id": "56127_experimental_conclusion",
+      "pred": "aerosol-assisted chemical vapor deposition; conventional CVD; nanorods; 30 mm diameter and 10 mm height",
+      "gold": [
+        "aerosol-assisted chemical vapor deposition",
+        "catalyst seeds",
+        "quasi-aligned hexagonal ZnO rods",
+        "1,600 nm length and 380 nm diameter"
+      ],
+      "score": 0.08823529411764705,
+      "response": "aerosol-assisted chemical vapor deposition; conventional CVD; nanorods; 30 mm diameter and 10 mm height",
+      "elapsed": 1.03
+    },
+    {
+      "id": "62182_experimental_conclusion",
+      "pred": "SD-NHKC | α6hi/ERhi | 22.4% |",
+      "gold": [
+        "spheroid replating assay",
+        "integrin α6high",
+        "EGFRlow",
+        "25%"
+      ],
+      "score": 0.0,
+      "response": "SD-NHKC | α6hi/ERhi | 22.4% |",
+      "elapsed": 1.12
+    },
+    {
+      "id": "60273_experimental_conclusion",
+      "pred": "U251 | U0126 | dose-dependent | actin stress fibers",
+      "gold": [
+        "KNS42",
+        "MI-192",
+        "concentration-dependent",
+        "sheet-like protrusions with single-cell spikes"
+      ],
+      "score": 0.0,
+      "response": "U251 | U0126 | dose-dependent | actin stress fibers",
+      "elapsed": 0.87
+    },
+    {
+      "id": "57313_experimental_conclusion",
+      "pred": "200 | 510 | 300 | 480",
+      "gold": [
+        "500",
+        "521",
+        "200",
+        "212"
+      ],
+      "score": 0.0,
+      "response": "200 | 510 | 300 | 480",
+      "elapsed": 0.85
+    },
+    {
+      "id": "61054_experimental_conclusion",
+      "pred": "wild-type | MeCP2 | 10^-1 | 10^3 |",
+      "gold": [
+        "ECLIA",
+        "recombinant human MeCP2",
+        "1 ng/mL",
+        "1800 ng/mL"
+      ],
+      "score": 0.125,
+      "response": "wild-type | MeCP2 | 10^-1 | 10^3 |",
+      "elapsed": 0.89
+    },
+    {
+      "id": "59739_experimental_conclusion",
+      "pred": "[(DPEPhos)(bcp)CuPF6] (10 mol%) | Blue LEDs strips | 72% | 3 days",
+      "gold": [
+        "[(DPEPhos)(bcp)Cu]PF6",
+        "420 nm",
+        "72%",
+        "3 days"
+      ],
+      "score": 0.5,
+      "response": "[(DPEPhos)(bcp)CuPF6] (10 mol%) | Blue LEDs strips | 72% | 3 days",
+      "elapsed": 1.14
+    },
+    {
+      "id": "64100_experimental_conclusion",
+      "pred": "whole mount | membrane fragments | epithelial | vibratome",
+      "gold": [
+        "vibratome",
+        "cytonemes",
+        "neural tube",
+        "cryostat"
+      ],
+      "score": 0.0,
+      "response": "whole mount | membrane fragments | epithelial | vibratome",
+      "elapsed": 0.75
+    },
+    {
+      "id": "61954_experimental_conclusion",
+      "pred": "NAPP1 | lateral drift | aPKCAS4 | control",
+      "gold": [
+        "NAPP1",
+        "contraction",
+        "aPKC analog-sensitive",
+        "controls"
+      ],
+      "score": 0.25,
+      "response": "NAPP1 | lateral drift | aPKCAS4 | control",
+      "elapsed": 0.8
+    },
+    {
+      "id": "58580_experimental_conclusion",
+      "pred": "EU | RNase A | 0.1% | In-gel fluorescence Cy5",
+      "gold": [
+        "HeLa",
+        "CARIC",
+        "0.05–0.1%",
+        "silver staining"
+      ],
+      "score": 0.0,
+      "response": "EU | RNase A | 0.1% | In-gel fluorescence Cy5",
+      "elapsed": 0.89
+    },
+    {
+      "id": "58727_experimental_conclusion",
+      "pred": "macrophage medium | conserved | cell types | 37°C",
+      "gold": [
+        "label-free proteomics",
+        "over-expressed",
+        "macrophage polarization states",
+        "3% oxygen"
+      ],
+      "score": 0.0,
+      "response": "macrophage medium | conserved | cell types | 37°C",
+      "elapsed": 0.78
+    },
+    {
+      "id": "57075_experimental_conclusion",
+      "pred": "Si-Cu NP | 15 wt% | 70% | Si-Cu",
+      "gold": [
+        "silica–Cu nanoparticle aerogel",
+        "400 nm",
+        "agglomeration",
+        "25–55 nm"
+      ],
+      "score": 0.0,
+      "response": "Si-Cu NP | 15 wt% | 70% | Si-Cu",
+      "elapsed": 0.92
+    },
+    {
+      "id": "64923_experimental_conclusion",
+      "pred": "PCBP2 | RBM41 | HNRNPH3",
+      "gold": [
+        "HNRNPH3",
+        "PCBP2",
+        "RBM41"
+      ],
+      "score": 0.0,
+      "response": "PCBP2 | RBM41 | HNRNPH3",
+      "elapsed": 0.79
+    },
+    {
+      "id": "62853_experimental_conclusion",
+      "pred": "ScoI | Mitochondria | Matrix | Lane 3",
+      "gold": [
+        "Prx1",
+        "intermembrane space",
+        "matrix",
+        "swelling/proteinase K assay"
+      ],
+      "score": 0.25,
+      "response": "ScoI | Mitochondria | Matrix | Lane 3",
+      "elapsed": 0.78
+    },
+    {
+      "id": "58334_experimental_conclusion",
+      "pred": "αβδε | αβδε | p18 | Coomassie blue staining",
+      "gold": [
+        "T. brucei",
+        "first dominant, largely symmetric peak",
+        "dihydrolipoyl dehydrogenase",
+        "mass spectrometry"
+      ],
+      "score": 0.0,
+      "response": "αβδε | αβδε | p18 | Coomassie blue staining",
+      "elapsed": 0.95
+    },
+    {
+      "id": "55463_experimental_conclusion",
+      "pred": "agarose gel electrophoresis | between 500 bp and 10 kb | below 500 bp",
+      "gold": [
+        "PFGE",
+        "greater than 48.5 kbp",
+        "between 20 and 48.5 kbp"
+      ],
+      "score": 0.0,
+      "response": "agarose gel electrophoresis | between 500 bp and 10 kb | below 500 bp",
+      "elapsed": 1.03
+    },
+    {
+      "id": "3642_experimental_conclusion",
+      "pred": "Indoxyl-S | p-Cresol-S | TMAO | 20",
+      "gold": [
+        "indoxyl sulfate",
+        "phenylacetylglycine",
+        "p-cresol sulfate",
+        "20"
+      ],
+      "score": 0.25,
+      "response": "Indoxyl-S | p-Cresol-S | TMAO | 20",
+      "elapsed": 0.93
+    },
+    {
+      "id": "63501_experimental_conclusion",
+      "pred": "Abo1|ATP|Abo1|ATP",
+      "gold": [
+        "Abo1",
+        "ATP",
+        "ADP",
+        "ATP hydrolysis"
+      ],
+      "score": 0.6666666666666666,
+      "response": "Abo1|ATP|Abo1|ATP",
+      "elapsed": 0.81
+    },
+    {
+      "id": "58283_experimental_conclusion",
+      "pred": "TDR | PRK3 | TDR | PRK3",
+      "gold": [
+        "TDR",
+        "PRK3",
+        "gp67",
+        "hemolin"
+      ],
+      "score": 0.5,
+      "response": "TDR | PRK3 | TDR | PRK3",
+      "elapsed": 0.79
+    },
+    {
+      "id": "2355_experimental_conclusion",
+      "pred": "mosquito|target gene|LNA-ON|GFP",
+      "gold": [
+        "Anopheles gambiae SUA5B",
+        "BFP plasmid",
+        "BFP-specific locked nucleic acid oligonucleotides",
+        "GFP-positive cells"
+      ],
+      "score": 0.0,
+      "response": "mosquito|target gene|LNA-ON|GFP",
+      "elapsed": 0.74
+    },
+    {
+      "id": "54144_experimental_conclusion",
+      "pred": "CMY-BII | 53°C | Ratio (530nm/480nm) | maltose",
+      "gold": [
+        "CMY FRET biosensors",
+        "50–55°C",
+        "YFP/CFP emission ratio",
+        "1 mM maltose"
+      ],
+      "score": 0.225,
+      "response": "CMY-BII | 53°C | Ratio (530nm/480nm) | maltose",
+      "elapsed": 1.04
+    },
+    {
+      "id": "62533_experimental_conclusion",
+      "pred": "unbranded UV filter | slightly darker | glass petri dish | brighter",
+      "gold": [
+        "UV/clear filter",
+        "clear, sharp",
+        "Petri dish glass lid",
+        "poor, partially blurred"
+      ],
+      "score": 0.3142857142857143,
+      "response": "unbranded UV filter | slightly darker | glass petri dish | brighter",
+      "elapsed": 0.81
+    },
+    {
+      "id": "62864_experimental_conclusion",
+      "pred": "0.31 | -0.31 | 3.98 | 10.01",
+      "gold": [
+        "0.25",
+        "0.31",
+        "pH 4",
+        "pH 10"
+      ],
+      "score": 0.0,
+      "response": "0.31 | -0.31 | 3.98 | 10.01",
+      "elapsed": 1.02
+    },
+    {
+      "id": "61930_experimental_conclusion",
+      "pred": "microinjection | Drosophila | 10% | PCR analysis",
+      "gold": [
+        "CRISPR embryo microinjection",
+        "Harpegnathos saltator",
+        "approximately 40%",
+        "PCR, cloning, and sequencing"
+      ],
+      "score": 0.125,
+      "response": "microinjection | Drosophila | 10% | PCR analysis",
+      "elapsed": 0.99
+    },
+    {
+      "id": "58267_experimental_conclusion",
+      "pred": "kanR | protein levels | kanR | wild-type",
+      "gold": [
+        "tamA",
+        "trimeric autotransporter adhesin biogenesis",
+        "YadA",
+        "EibD"
+      ],
+      "score": 0.0,
+      "response": "kanR | protein levels | kanR | wild-type",
+      "elapsed": 0.78
+    },
+    {
+      "id": "55689_experimental_conclusion",
+      "pred": "TGF-β | SMAD2 | c-KIT Ligand | HepG2",
+      "gold": [
+        "TGF-β1",
+        "SMAD2",
+        "SCF (c-KIT ligand)",
+        "HepG2 and Hep3B"
+      ],
+      "score": 0.375,
+      "response": "TGF-β | SMAD2 | c-KIT Ligand | HepG2",
+      "elapsed": 0.84
+    },
+    {
+      "id": "56195_experimental_conclusion",
+      "pred": "mutant | PAM sequence | mutant | small indels",
+      "gold": [
+        "16",
+        "precise intended nucleotide exchange",
+        "15",
+        "deletions ranging from 1 to 19 bases"
+      ],
+      "score": 0.0,
+      "response": "mutant | PAM sequence | mutant | small indels",
+      "elapsed": 0.76
+    },
+    {
+      "id": "3521_experimental_conclusion",
+      "pred": "cells | 96 hrs | hypoxic signal | 100% O2",
+      "gold": [
+        "MIN6",
+        "44 hours",
+        "ubiquitous fluorescent hypoxia signal",
+        "2% O2"
+      ],
+      "score": 0.20833333333333331,
+      "response": "cells | 96 hrs | hypoxic signal | 100% O2",
+      "elapsed": 0.83
+    },
+    {
+      "id": "58184_experimental_conclusion",
+      "pred": "UCMS; sucrose preference; UCMS; escitalopram",
+      "gold": [
+        "UCMS",
+        "sucrose preference",
+        "escitalopram",
+        "NHT"
+      ],
+      "score": 0.0,
+      "response": "UCMS; sucrose preference; UCMS; escitalopram",
+      "elapsed": 0.81
+    },
+    {
+      "id": "51388_experimental_conclusion",
+      "pred": "perlecan | dermis | collagen",
+      "gold": [
+        "Tenascin C",
+        "tumor stroma",
+        "fibrillar collagens"
+      ],
+      "score": 0.0,
+      "response": "perlecan | dermis | collagen",
+      "elapsed": 0.63
+    },
+    {
+      "id": "61037_experimental_conclusion",
+      "pred": "MMC | 10% | collagen | normal medium",
+      "gold": [
+        "Ficoll",
+        "9%",
+        "type I collagen",
+        "PVP-based MMC"
+      ],
+      "score": 0.125,
+      "response": "MMC | 10% | collagen | normal medium",
+      "elapsed": 0.76
+    },
+    {
+      "id": "52225_experimental_conclusion",
+      "pred": "standard cages; faster; enriched; 3-5",
+      "gold": [
+        "enriched environments",
+        "significantly faster",
+        "standard-housed",
+        "2-4"
+      ],
+      "score": 0.0,
+      "response": "standard cages; faster; enriched; 3-5",
+      "elapsed": 0.96
+    },
+    {
+      "id": "61391_experimental_conclusion",
+      "pred": "affected | 8.24 | 1.19 | t-test",
+      "gold": [
+        "ipsilesional",
+        "8.24",
+        "1.19",
+        "two-tailed t-test"
+      ],
+      "score": 0.6666666666666666,
+      "response": "affected | 8.24 | 1.19 | t-test",
+      "elapsed": 1.24
+    },
+    {
+      "id": "53010_experimental_conclusion",
+      "pred": "learning | initial phase | refinement",
+      "gold": [
+        "within-session",
+        "first training session",
+        "between-session consolidation"
+      ],
+      "score": 0.0,
+      "response": "learning | initial phase | refinement",
+      "elapsed": 0.59
+    },
+    {
+      "id": "56094_experimental_conclusion",
+      "pred": "microarray | 12 | Neu5Gc | Neu5Ac",
+      "gold": [
+        "sialoglycan microarray",
+        "12",
+        "Anti-Neu5Gc IgG",
+        "Neu5Ac"
+      ],
+      "score": 0.6666666666666666,
+      "response": "microarray | 12 | Neu5Gc | Neu5Ac",
+      "elapsed": 0.92
+    },
+    {
+      "id": "62417_experimental_conclusion",
+      "pred": "Pmw gRNAs | Pmw gene | 28% | 24",
+      "gold": [
+        "three-guide mix",
+        "white gene",
+        "30%",
+        "23"
+      ],
+      "score": 0.125,
+      "response": "Pmw gRNAs | Pmw gene | 28% | 24",
+      "elapsed": 0.93
+    },
+    {
+      "id": "57137_experimental_conclusion",
+      "pred": "cohabitation | depressed rats | depressive | sucrose preference",
+      "gold": [
+        "five weeks",
+        "CUS-depressed rats",
+        "depressive-like",
+        "sucrose preference"
+      ],
+      "score": 0.375,
+      "response": "cohabitation | depressed rats | depressive | sucrose preference",
+      "elapsed": 0.75
+    },
+    {
+      "id": "52859_experimental_conclusion",
+      "pred": "Phase 2; AAV-cre; conditioned response; conditioned response",
+      "gold": [
+        "preconditioning",
+        "CNO",
+        "sensory preconditioning effect",
+        "light–food association"
+      ],
+      "score": 0.0,
+      "response": "Phase 2; AAV-cre; conditioned response; conditioned response",
+      "elapsed": 1.0
+    },
+    {
+      "id": "55718_experimental_conclusion",
+      "pred": "Bay 60-7550 | 0.1 mg/kg | 24 hours | dose-dependent",
+      "gold": [
+        "PDE2 inhibitors",
+        "Bay 60-7550 and ND7001",
+        "30 minutes before training",
+        "dose-dependent"
+      ],
+      "score": 0.25,
+      "response": "Bay 60-7550 | 0.1 mg/kg | 24 hours | dose-dependent",
+      "elapsed": 0.96
+    },
+    {
+      "id": "60259_experimental_conclusion",
+      "pred": "bolus only; infusion only; bolus/infusion; 80",
+      "gold": [
+        "bolus-only",
+        "infusion-only",
+        "hybrid bolus+infusion",
+        "40 minutes"
+      ],
+      "score": 0.0,
+      "response": "bolus only; infusion only; bolus/infusion; 80",
+      "elapsed": 0.83
+    },
+    {
+      "id": "53800_experimental_conclusion",
+      "pred": "analgesics | morphine | ketamine",
+      "gold": [
+        "S-ketamine",
+        "10 mg",
+        "fentanyl",
+        "3 micrograms/kg"
+      ],
+      "score": 0.0,
+      "response": "analgesics | morphine | ketamine",
+      "elapsed": 0.67
+    },
+    {
+      "id": "3164_experimental_conclusion",
+      "pred": "air | cells | water",
+      "gold": [
+        "deionized water",
+        "very small, high-aspect-ratio features",
+        "in air"
+      ],
+      "score": 0.0,
+      "response": "air | cells | water",
+      "elapsed": 0.57
+    },
+    {
+      "id": "55098_experimental_conclusion",
+      "pred": "94.50% | 818 | 92.56% | computer",
+      "gold": [
+        "five days",
+        "1,000",
+        "95%",
+        "SD card"
+      ],
+      "score": 0.0,
+      "response": "94.50% | 818 | 92.56% | computer",
+      "elapsed": 0.9
+    },
+    {
+      "id": "59027_experimental_conclusion",
+      "pred": "hindlimb|wild-type|12 weeks",
+      "gold": [
+        "fore- and hindlimb",
+        "wild-type littermates",
+        "8 weeks"
+      ],
+      "score": 0.5555555555555555,
+      "response": "hindlimb|wild-type|12 weeks",
+      "elapsed": 0.76
+    },
+    {
+      "id": "55964_experimental_conclusion",
+      "pred": "positive correlation|egg size|clutch size|gobies",
+      "gold": [
+        "positive correlation",
+        "female fecundity",
+        "female body size",
+        "Trimma marinae"
+      ],
+      "score": 0.35,
+      "response": "positive correlation|egg size|clutch size|gobies",
+      "elapsed": 0.65
+    },
+    {
+      "id": "53367_experimental_conclusion",
+      "pred": "60 min | sham | transcranial direct current stimulation | random noise stimulation",
+      "gold": [
+        "three days",
+        "sham",
+        "tDCS",
+        "tRNS"
+      ],
+      "score": 0.25,
+      "response": "60 min | sham | transcranial direct current stimulation | random noise stimulation",
+      "elapsed": 0.74
+    },
+    {
+      "id": "52456_experimental_conclusion",
+      "pred": "ethanol | surface | plateau force | plateau length",
+      "gold": [
+        "ethanol",
+        "hydrophobic SAM",
+        "plateau force",
+        "plateau length"
+      ],
+      "score": 0.75,
+      "response": "ethanol | surface | plateau force | plateau length",
+      "elapsed": 0.7
+    },
+    {
+      "id": "57131_experimental_conclusion",
+      "pred": "btl-GAL4 | larval death | failure to burrow into food | normal",
+      "gold": [
+        "btl-Gal4",
+        "complete absence of tunneling",
+        "failure to burrow",
+        "indistinguishable from controls"
+      ],
+      "score": 0.4375,
+      "response": "btl-GAL4 | larval death | failure to burrow into food | normal",
+      "elapsed": 0.87
+    },
+    {
+      "id": "52098_experimental_conclusion",
+      "pred": "10% | 0.05 mD | no flow | 100 kPa",
+      "gold": [
+        "8%",
+        "0.66 Darcy",
+        "no outlet pressure",
+        "690 kPa"
+      ],
+      "score": 0.225,
+      "response": "10% | 0.05 mD | no flow | 100 kPa",
+      "elapsed": 0.91
+    },
+    {
+      "id": "54030_experimental_conclusion",
+      "pred": "190 V | 200 s | 10 V | stable emission",
+      "gold": [
+        "5 nA",
+        "1 hour",
+        "lower voltage",
+        "reduced effective tip radius"
+      ],
+      "score": 0.0,
+      "response": "190 V | 200 s | 10 V | stable emission",
+      "elapsed": 0.87
+    },
+    {
+      "id": "56494_experimental_conclusion",
+      "pred": "WS2/MoS2 | on-current | mobility",
+      "gold": [
+        "WS2/MoS2",
+        "drain current",
+        "field-effect mobility"
+      ],
+      "score": 0.5555555555555555,
+      "response": "WS2/MoS2 | on-current | mobility",
+      "elapsed": 0.7
+    },
+    {
+      "id": "4104_experimental_conclusion",
+      "pred": "Crimped | 3.2V and 4.4V | 150 mAh/g | 160 mAh/g",
+      "gold": [
+        "LiCoO2–Li",
+        "3.0–4.3 V",
+        "155 mAh/g",
+        "140 mAh/g"
+      ],
+      "score": 0.25,
+      "response": "Crimped | 3.2V and 4.4V | 150 mAh/g | 160 mAh/g",
+      "elapsed": 1.0
+    },
+    {
+      "id": "54413_experimental_conclusion",
+      "pred": "LCM | Langmuir | TPD | H-ZSM-5",
+      "gold": [
+        "langatate crystal microbalance",
+        "single-site Langmuir",
+        "Van’t Hoff",
+        "MFI"
+      ],
+      "score": 0.16666666666666666,
+      "response": "LCM | Langmuir | TPD | H-ZSM-5",
+      "elapsed": 0.68
+    },
+    {
+      "id": "56268_experimental_conclusion",
+      "pred": "0.5mm, 1.0mm, 1.5mm, 2.0mm | 0.5mm, 1.0mm, 1.5mm, 2.0mm | 0.5mm, 1.0mm, 1.5mm, 2.0mm | 0.5mm, 1.0mm, 1.5mm, 2.0mm",
+      "gold": [
+        "0.5 mm",
+        "near-surface chloride maximum",
+        "2 mm",
+        "chloride diffusion coefficients"
+      ],
+      "score": 0.0,
+      "response": "0.5mm, 1.0mm, 1.5mm, 2.0mm | 0.5mm, 1.0mm, 1.5mm, 2.0mm | 0.5mm, 1.0mm, 1.5mm, 2.0mm | 0.5mm, 1.0mm, 1.5mm, 2.0mm",
+      "elapsed": 3.36
+    },
+    {
+      "id": "62309_experimental_conclusion",
+      "pred": "3.5 | 0.7 | 0.69 | 0.66",
+      "gold": [
+        "0.6",
+        "0.01",
+        "0.7",
+        "0.65"
+      ],
+      "score": 0.0,
+      "response": "3.5 | 0.7 | 0.69 | 0.66",
+      "elapsed": 1.19
+    },
+    {
+      "id": "54661_experimental_conclusion",
+      "pred": "I2O5 | I2O5 | effective",
+      "gold": [
+        "I4O9",
+        "I2O5",
+        "reactive"
+      ],
+      "score": 0.3333333333333333,
+      "response": "I2O5 | I2O5 | effective",
+      "elapsed": 0.7
+    },
+    {
+      "id": "57407_experimental_conclusion",
+      "pred": "0.8 s | a ring | 0.5 mm dia. steel | 1.2 mm dia.",
+      "gold": [
+        "1.2 s",
+        "free convection",
+        "2 mm",
+        "0.5 mm"
+      ],
+      "score": 0.30833333333333335,
+      "response": "0.8 s | a ring | 0.5 mm dia. steel | 1.2 mm dia.",
+      "elapsed": 1.04
+    },
+    {
+      "id": "53021_experimental_conclusion",
+      "pred": "X-ray radiography | lithium dendrites | separator | high current density",
+      "gold": [
+        "Hard X-ray microtomography",
+        "lithium dendrites",
+        "polymer electrolyte",
+        "±0.175 mA/cm² at 90 °C"
+      ],
+      "score": 0.35,
+      "response": "X-ray radiography | lithium dendrites | separator | high current density",
+      "elapsed": 0.77
+    },
+    {
+      "id": "55649_experimental_conclusion",
+      "pred": "hair-derived carbon fibers | electrochemical | glucose | CNTs",
+      "gold": [
+        "hair-derived carbon fibers",
+        "cyclic voltammetry",
+        "dopamine and ascorbic acid",
+        "carbon nanotube-modified electrodes"
+      ],
+      "score": 0.25,
+      "response": "hair-derived carbon fibers | electrochemical | glucose | CNTs",
+      "elapsed": 0.86
+    },
+    {
+      "id": "51250_experimental_conclusion",
+      "pred": "50 ns | Hydrogen Alpha | 0.3 nm | 10^19 cm^-3",
+      "gold": [
+        "42 ns",
+        "H-alpha",
+        "1.2 nm",
+        "0.32×10^25 m^-3"
+      ],
+      "score": 0.25,
+      "response": "50 ns | Hydrogen Alpha | 0.3 nm | 10^19 cm^-3",
+      "elapsed": 0.96
+    },
+    {
+      "id": "55500_experimental_conclusion",
+      "pred": "0:1 | 4.5:1 | 95% | 97%",
+      "gold": [
+        "0:1",
+        "4.5:1",
+        "4 wt%",
+        "64 wt%"
+      ],
+      "score": 0.5,
+      "response": "0:1 | 4.5:1 | 95% | 97%",
+      "elapsed": 0.88
+    },
+    {
+      "id": "4308_experimental_conclusion",
+      "pred": "acrylamide solution | temperature | time | gelation",
+      "gold": [
+        "PSNE",
+        "time",
+        "energy",
+        "protein denaturation"
+      ],
+      "score": 0.0,
+      "response": "acrylamide solution | temperature | time | gelation",
+      "elapsed": 0.73
+    },
+    {
+      "id": "53260_experimental_conclusion",
+      "pred": "350°C | Ti/TiN | low resistance | electrical conductivity",
+      "gold": [
+        "350°C",
+        "Co",
+        "linear I-V characteristics",
+        "4-point-probe tests"
+      ],
+      "score": 0.25,
+      "response": "350°C | Ti/TiN | low resistance | electrical conductivity",
+      "elapsed": 0.77
+    },
+    {
+      "id": "2702_experimental_conclusion",
+      "pred": "Intratracheal Instillation; CD11c+; GFP-BA spores",
+      "gold": [
+        "intratracheal instillation",
+        "CD45+ CD11c+",
+        "Bacillus anthracis spores"
+      ],
+      "score": 0.09523809523809525,
+      "response": "Intratracheal Instillation; CD11c+; GFP-BA spores",
+      "elapsed": 0.89
+    }
+  ]
+}

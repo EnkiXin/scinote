@@ -232,25 +232,32 @@ max_pixels = 360 * 420  # 别压更低，会触发 min_pixels 错误
 
 ### L2 (Procedural Understanding, 32 frames)
 
-| Task | Paper (×think) | H200 C1 | H200 +note | Δ (+note − C1) |
+| Task | Paper (×think) | H200 C1 | H200 +note (旧 prompt) | Δ (+note − C1) |
 |---|---|---|---|---|
-| sequence_generation | 20.8 (Jaccard) | 43.32 (F1, 指标不同) | 跑中 | TBD |
-| sequence_ordering | 56.2 | 52.64 | 跑中 | TBD |
-| step_prediction | 1.3 | 2.14 | 跑中 | TBD |
-| video_verification | 20.7 | 17.41 | 跑中 | TBD |
-| **avg** | **24.6** | **28.88** | TBD | TBD |
+| sequence_generation | 20.8 (Jaccard) | 43.32 (F1) | 31.92 | -11.4 ❌ |
+| sequence_ordering | 56.2 | 52.64 | 53.18 | +0.5 ≈ |
+| step_prediction | 1.3 | 2.14 | 4.82 | +2.7 ✅ |
+| **video_verification** | 20.7 | 17.41 | **19.79** | **+2.4 ✅** |
+| **avg** | **24.6** | **28.88** | **27.43** | -1.5 |
 
-⚠️ L2 +note 跑中（GPU 3，从 v2 L1 自动链上）。**video_verification 是历史上 v2 最强信号点（Mac 上 +13.2pp）**，本次 32-frame H200 数据是第一次重测，重要观察点。
+**L2 解读**：
+- ⚠️ **video_verification +2.4pp** — 远不如 Mac 上 +13.2pp 那么戏剧。Mac 那个数字是 n=239（OOM 后剩下的），本次 H200 用全 748 样本，所以 **Mac 那个 +13pp finding 在 full data 上 shrunken 到 +2.4pp**。**诚实更新**：还为正方向但 magnitude 小很多
+- ✅ step_prediction +2.7pp — 唯一另一个正方向 task（小模型 ceiling ~5%，难再涨）
+- ❌ sequence_generation -11.4pp — F1 评测下 note 反而 hurt（note 限制了 model 输出步号的丰富度）
 
 ### L3 (Scientific Reasoning, 32 frames — first ever full-frame run)
 
-| Task | Paper (×think) | H200 C1 | H200 +note | Δ (+note − C1) |
+| Task | Paper (×think) | H200 C1 | H200 +note (旧 prompt) | Δ (+note − C1) |
 |---|---|---|---|---|
-| experimental_conclusion | 25.2 | 跑中 | TBD | TBD |
-| scientific_discovery | 21.4 | 跑中 | TBD | TBD |
-| **avg** | **23.3** | TBD | TBD | TBD |
+| experimental_conclusion | 25.2 | 21.28 | 跑中 | TBD |
+| scientific_discovery | 21.4 | 20.00 | 跑中 | TBD |
+| **avg** | **23.3** | **20.64** | TBD | TBD |
 
-⚠️ L3 baseline 跑中（GPU 2），+note 待启动。**Mac 上 L3 因 4090 24GB 显存被强制 patched 到 8 frames（信息丢失大），这次 H200 用全 32 frames 是首次正确数据**。
+**L3 baseline 观察**：
+- ⚠️ 比 paper 低 ~2.7pp。可能因为 F1-style scoring 跟 paper Phi-3-mini judge 评测协议不一致（paper 用 LLM judge per-blank accuracy, 我们用 token-overlap F1）
+- 第一次 full-frame L3 数据，Mac 上的 L3 都是 8-frame patched
+
+⚠️ L3 +note 旧 prompt 跑中（GPU 3，从 v2 L2 自动链上）。**这是关键 finding 的 missing piece**：按用户假设 "L3 reasoning 任务最应该受益于 note structuring"，等数据。
 
 ### 运行时长（H200 上）
 
@@ -264,6 +271,51 @@ max_pixels = 360 * 420  # 别压更低，会触发 min_pixels 错误
 | L3 baseline (2 task, 32 frames) | running | GPU 2 (~2-3h) |
 | 推理速度 | ~0.1-0.3 s/sample warm | |
 
-### 后续 Phase
+### 后续 Phase 规划（确认于 2026-05-13）
 
-Phase 0 (Qwen2.5-VL-7B 单模型完整复现 + v2 全 task) 跑完后，决定是否启动 Phase 1：扩展到论文 Table 2 其它开源模型（InternVL3-8B / Intern-S1-mini / MiMo-VL-7B / Keye-VL ×2 / GLM-4.1V-9B / Kimi-VL-A3B-Thinking 等 ≤9B 模型）。详见 [docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md](docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md)。
+#### Phase 2 — Unified 5-Condition Sweep（统一 prompt，[evaluate_unified.py](evaluate_unified.py)）
+
+目标：用**严格 prompt-isolated** 的 5 条件做完整 modality ablation。**所有 condition 共享同一 answer prompt 模板，只改 context block**（这是 Phase 0 的"旧 prompt v2"做不到的）。
+
+| Condition | 输入 | 含义 |
+|---|---|---|
+| **C0** | video | baseline |
+| **C1** | note only (no video, Design X) | 笔记是否 lossless 编码视频 |
+| **C2** | video + note (Design Y) | 笔记是否 useful augmentation |
+| **C3** | video + random_note (其他 video 的 same-task note) | 隔离 note **内容** vs note **format** scaffold |
+| **C4** | video + ASR | 上限参考点 |
+
+**Note generation**：默认 task-aware（reuse evaluate_twostage_v2.py NOTE_PROMPTS）+ 全 10 task + 缓存 across C1/C2/C3。
+
+**预期 wall clock**：3-4 GPU 并行 ~8h。
+
+**Key analyses** (per task type):
+- `C1 vs C0`: 笔记能否替代视频？(L1 预期 < 0, L2/L3 预期 ≈ 0 或 > 0)
+- `C2 vs C0`: 笔记是否增益视频？(L1 预期 ≈ 0, L2/L3 预期 > 0)
+- `C2 vs C3`: 笔记内容真的有用，还是只是 prompt scaffold？
+- `C4 vs C2`: 笔记跟 ASR 上限差距多大？
+
+#### Phase 3 — Note Variant Ablation（多种笔记类型）
+
+目标：回答 **"什么样的笔记 work？"** — 对 C1 / C2 跑 3 种 note generation：
+
+| Variant | Stage 1 prompt | 假说 |
+|---|---|---|
+| **v_taskaware** (现有 v2 NOTE_PROMPTS) | 10 个 task-specific prompts | task-aware 是否真有帮助 |
+| **v_generic** | 一套通用 "Write down visible: objects, actions, materials, quantities, tools" | 不 task-aware baseline |
+| **v_minimal** | "Briefly list 3 most important elements" (~100 tok) | 短笔记是否够 |
+
+**矩阵**：3 variants × (C1+C2) × 10 task = **60 task-runs**。
+
+**预期 wall clock**：3-4 GPU 并行 ~10-12h。
+
+#### 优先级 + decision gates
+
+- **Phase 0 旧 prompt 全完**：拿到完整 L1+L2+L3 3-col 表（旧 prompt 数据，作为 Phase 2 unified 数据的对照）
+- **Phase 2 完**：验证 user hypothesis "L1 needs perception, L2/L3 needs representation"
+- **Phase 3 完**：finding "task-conditional prompting 重要性"
+- **Rank-GRPO Difficulty 1 / 2 baseline 复现**：所有 ExpVid 实验完后再启动（用户决定）
+
+#### Phase 1（论文其它开源模型扩展）— **deferred**
+
+详见 [docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md](docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md)。在 Phase 2+3 跑完且 paper 故事 clear 后再决定是否需要 InternVL3-8B / Intern-S1-mini / MiMo-VL-7B 等扩展数据。

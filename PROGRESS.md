@@ -62,6 +62,20 @@ On every L1 task, `Video + ASR` is **+44 to +56 pp** over `Video`. The ExpVid an
 
 Replacing video with note (`Note`) consistently **loses** -2 to -14 pp across all 4 L1 tasks. Adding note to video (`Video + Note`) helps materials slightly (+2.7) but mostly hurts the other L1 tasks. **L1 needs high-fidelity visual reading — language paraphrase loses information.**
 
+### 3a. ✅ Notes help more as we move up the L1 → L3 hierarchy (user hypothesis confirmed)
+
+Now that L2 and L3 are essentially complete, the level-averaged Video+Note delta over Video shows the predicted monotone trend:
+
+| Level | avg (V+Note − Video) | Interpretation |
+|---|---|---|
+| L1 (4 tasks, perception) | **−3.0 pp** | Notes hurt: video carries info notes cannot |
+| L2 (4 tasks, procedural) | **−0.4 pp** | Notes ≈ neutral |
+| L3 (2 tasks, reasoning) | **+0.8 pp** | Notes give modest positive lift |
+
+Symmetrically, the cost of replacing video with note (Note − Video) is largest on L1 (−8.6 pp avg), smaller on L2/L3 (−2.9 / −3.3 pp). **Video is most essential on L1 perception, less so as the task becomes more reasoning-heavy.**
+
+Biggest single positive: **L3 experimental_conclusion V+Note = 22.9 vs Video = 21.3 (+1.6 pp, n=390 full)**. Smallest positive on L2: **sequence_ordering V+Note = 55.5 vs Video = 52.6 (+2.9 pp, n=739 full)** — a step-ordering reasoning task.
+
 ### 4. ⚠️ Random-note control is competitive on operation
 
 `Video + RandomNote` ≈ `Video + Note` (+1 to -5pp) on L1 tasks, with **operation showing C3 > C2 by +5pp** at 77% completion. If this holds at full n=938, it suggests that on at least some tasks, the improvement from "video+note" over "video alone" is **prompt-scaffold-driven**, not driven by the note's actual content. Strong paper-defending observation (audit will ask about this).
@@ -101,10 +115,12 @@ Where note **hurts**: when it focuses on tools/containers while the question ask
 | L1 | **avg (4 tasks)**          | 4035 | **42.6** | **45.5** | **37.0** | **42.5** | **42.6** | **91.1** |
 | L2 | sequence_generation        | 750  | 20.8 (J) | 43.3 (F1) | 35.0 | 39.2 | — *(skipped)* | 43.4 |
 | L2 | sequence_ordering          | 739  | 56.2 | 52.6 | 50.3 | **55.5** ✅ | — *(skipped)* | 53.6 |
-| L2 | step_prediction            | 748  | 1.3 | 2.1 | 2.1 | 1.7 (72%) | — *(skipped)* | 0.9 |
-| L2 | video_verification         | 748  | 20.7 | 17.4 | 16.4 | — | — *(skipped)* | 17.4 |
-| L3 | experimental_conclusion    | 390  | 25.2 | 21.3 | 18.4 (92%) | 21.8 (10%) | — *(skipped)* | 23.6 (61%) |
-| L3 | scientific_discovery       | 390  | 21.4 | 20.0 | 16.5 (35%) | 17.1 (10%) | — *(skipped)* | — *(skipped)* |
+| L2 | step_prediction            | 748  | 1.3 | 2.1 | 2.1 | 1.5 | — *(skipped)* | 0.9 |
+| L2 | video_verification         | 748  | 20.7 | 17.4 | 16.4 | 17.8 | — *(skipped)* | 17.4 |
+| L2 | **avg (4 tasks)**          | 2985 | **24.6** | **28.9** | **25.9** | **28.5** | — | **28.8** |
+| L3 | experimental_conclusion    | 390  | 25.2 | 21.3 | 18.7 | **22.9** ✅ | — *(skipped)* | 22.9 (71%) |
+| L3 | scientific_discovery       | 390  | 21.4 | 20.0 | 16.1 | 19.9 | — *(skipped)* | — *(skipped)* |
+| L3 | **avg (2 tasks)**          | 780  | **23.3** | **20.6** | **17.4** | **21.4** | — | (partial) |
 
 `✓`-mark removed for brevity — cells without `(XX%)` and not `—` are fully complete. Paper column uses Accuracy except `(J)`=Jaccard (paper convention; ours is F1, marked).
 

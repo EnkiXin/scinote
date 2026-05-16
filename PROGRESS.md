@@ -136,6 +136,45 @@ The Stage-1 note generator was upgraded from Qwen2.5-VL-7B to **Qwen2.5-VL-72B-I
 
 **Cost**: 72B inference is ~5× slower per video than 7B (137 GB weights, TP=4). Stage 1 took ~3 h wall-clock for 7,739 unique videos (vLLM batched, prefetched). One-shot — once cached, downstream Stage 2 just reuses the cache. Implementation: [`generate_notes_qwen72b.py`](generate_notes_qwen72b.py), [`run_stage2_4gpu.sh`](run_stage2_4gpu.sh), [`compare_noters.py`](compare_noters.py).
 
+### 7. 🔍 Item-level: when 72B notes RESCUE vs BREAK answers
+
+Strict (0/1) flip analysis on the joined per-item data ([`analysis_72b/qa_notes_<task>.csv`](analysis_72b/), [`analysis_72b/FINDINGS.md`](analysis_72b/FINDINGS.md)):
+
+| Task | rescue (V✗ → V+72B✓) | break (V✓ → V+72B✗) | net |
+|---|---:|---:|---:|
+| materials               | **150** |  85 | **+65** ✅ |
+| video_verification      |  71 |  46 | **+25** ✅ |
+| sequence_ordering       |  78 |  56 | +22 |
+| tools                   | 109 |  98 | +11 |
+| sequence_generation     |  20 |  25 | −5 |
+| step_prediction         |  10 |  11 | −1 |
+| operation               |  54 | **106** | **−52** ❌ |
+| quantity                |  47 |  **95** | **−48** ❌ |
+
+(L3 fitb tasks use partial-credit scores so see almost no 0/1 flips; the L3 net +1.37 pp in Finding 6 comes from partial-credit improvements.)
+
+Three rescue patterns (notes help):
+- **H-1** Note prints the action verb the answer model couldn't extract (operation rescues — "lift the wafer", "place rotor into centrifuge").
+- **H-2** Note's structured object/label tag disambiguates visually-close options (materials — "MULTI-THERM" / "Benchmax" anchors a chemistry option).
+- **H-3** Enumerative note matches set-level questions ("what was NOT done" — drives video_verification's +3.34 pp Δ over Video).
+
+Three break patterns (notes hurt):
+- **B-1** Note describes a *different* aspect than the question targets (operation — note says "unscrews lid", question asks about "grinding").
+- **B-2** Note misidentifies the salient entity ("rats" written into the note when the video shows mice).
+- **B-3** Generic listing dilutes specific cues (quantity — note just says "water", losing "deionized" vs "distilled" specificity).
+
+**Why operation / quantity hurt most**: their options are visually very close (aspirate vs dispense; mice vs rats; deionized vs distilled water), and the note schema is **lossy on direction-of-flow / species-level / chemical-grade specificity**. The note's JSON shape happily writes "pipette liquid into tube" without distinguishing the direction the question hinges on.
+
+**Implication**: the answer model **over-trusts the note** — when the note's stated content conflicts with the video, it tends to follow the note. This motivates either (a) a counterfactual SFT pass that teaches the model to verify notes against the video, or (b) a confidence-gate on note inclusion.
+
+### 8. 🚧 SciVideoBench transfer experiment (in flight)
+
+Apply the same Stage-1-note + Stage-2-answer design to [SciVideoBench](https://arxiv.org/abs/2510.08559) (Deng et al. ICCV-W 2025), but as a **self-noting** setup: Qwen2.5-VL-**3B**-Instruct writes both the note (Stage 1) and the answer (Stage 2). Tests whether the *act* of structuring observations helps — independent of any bigger-noter effect. Paper baseline for the 3B model: **18.10 %** overall (1,000 MCQ with A–J options, 241 long-form scientific videos avg 482 s). Code, scripts, and partial results live in [`scivideobench_exp/`](scivideobench_exp/).
+
+**Status** (in flight, will refresh at completion):
+- C0 (Video only): partial 240/1000 → 22.50 % at last save
+- C2 (Self-note): Stage-1 notes cached 17/241 unique videos; Stage-2 starts when C0 finishes
+
 ---
 
 ## 📊 Main Results — H200 Qwen2.5-VL-7B, unified prompt across all methods
@@ -210,17 +249,14 @@ Before the unified prompt was implemented, the `Note` method used a different St
 - Both C3 and C4 are now treated as "data sufficient, stop collecting". Going forward, focus is on completing **Note** and **Video+Note** across L2 (remaining: V+Note step_pred / video_verify) and L3 (remaining: Note both tasks, V+Note both tasks).
 - **2026-05-16**: Added **Qwen2.5-VL-72B noter** Stage-1 generation (vLLM TP=4). 7,739 unique videos cached at [`results_h200_unified_q72/notes_cache/`](results_h200_unified_q72/notes_cache). Stage-2 (C2) eval finished 9/10 tasks on 4 GPUs in parallel ([`run_stage2_4gpu.sh`](run_stage2_4gpu.sh)); scientific_discovery still in flight (will refresh). 72B-notes show small but consistent improvement over 7B-notes on perception-heavy tasks (see Finding 6).
 
-## 🚀 In-flight (Phase 2 unified sweep)
+## 🚀 In-flight (2026-05-16)
 
-4 GPUs running since 2026-05-13 night:
+Phase 2 unified sweep on ExpVid is **DONE** (see Findings [3a](#3a--notes-help-more-as-we-move-up-the-l1--l3-hierarchy-user-hypothesis-confirmed), [6](#6--stage-1-noter-7b--72b-only-the-upgrade-itself-helps-absolute-v72bnote--video), [7](#7--item-level-when-72b-notes-rescue-vs-break-answers)). Phase 2.5 (72B noter) also done. Currently in flight:
 
-- GPU 0: main chain Note → Video+Note → Video+RandomNote → Video+ASR on **L1** tasks + parallel Note on scientific_discovery
-- GPU 1: main chain on **L2** tasks + parallel C4 on L2 (done)
-- GPU 2: main chain on **L3** tasks + parallel Video+ASR on L3
-- GPU 3: Phase 0 V2-legacy L3 (finishing) + parallel Video+Note on L2 sequence_generation
-
-Notes cache: 4,126 / ~7,800 (~53%)  
-**ETA full Phase 2**: ~10-12h remaining (L3 long videos are the bottleneck — ~50-130s per sample for Stage 1 note generation).
+- **SciVideoBench transfer experiment** (Finding 8) on the same H200 box.
+  - GPU 0/3/4/6/7: C0 (Video only) 5-chunk parallel split, ~240 / 1000 items
+  - GPU 1: Stage-1 self-note pre-cache for 241 unique videos, ~17 cached
+  - C2 (Stage-2 with cached self-notes) launches when C0 finishes (~3 h)
 
 ---
 
@@ -238,16 +274,38 @@ For each of `Note` and `Video+Note`, run **3 Stage 1 prompt variants** over all 
 
 Goal: answer "is task-aware Stage 1 prompting essential, or does a generic / short note do as well?" Requires adding `--note_variant` flag to [evaluate_unified.py](evaluate_unified.py) (low effort).
 
-### Rank-GRPO Difficulty 1 — baseline reproduction (~2h, pending)
+### Rank-GRPO Difficulty 1 — baseline reproduction ✅ DONE (2026-05-15)
 
-After Phase 2/3 done. Repo + processed datasets + checkpoints already downloaded into `xin_ai/Rank-GRPO/`. Steps:
-1. Unzip 2 checkpoint zips (~15 GB)
-2. Run `evaluate/eval_grpo_test.py` on Llama-3.2-3B + Rank-GRPO RL checkpoint
-3. Expected: R@10 = **0.1756** (paper Table 1)
+Reproduced [Rank-GRPO](https://github.com/yaochenzhu/Rank-GRPO) (Zhu et al. ICLR 2026) Table 1 on the Llama-3.2-3B-Instruct + GRPO RL checkpoint:
 
-### Rank-GRPO Difficulty 2 — counterfactual selector on Rank-GRPO output (~half-day, pending)
+| Metric | Paper | Reproduced | Δ |
+|---|---:|---:|---:|
+| R@10 | 0.1756 | **0.1755** | −0.0001 |
+| R@5, R@15, R@20 | — | matched within ±0.0001 across all K | — |
 
-After D1. Apply the trained path selector (from [counterfactualrec/checkpoints/path_selector/final/](https://github.com/EnkiXin/counterfactualrec/tree/main/checkpoints)) on Rank-GRPO's Llama-3B output. See if it lifts R@10 ≥ +0.005.
+Critical bug fixed during reproduction: the catalog pickle's year field had to be `int` (not `str`) to match the metric function's tuple comparison — a `str` year gave **all-zero metrics** silently. Fixed catalog committed to [`Rank-GRPO/processed_datasets/gt_catalog.pkl`](https://github.com/yaochenzhu/Rank-GRPO).
+
+### Rank-GRPO Difficulty 2 — path injection / reranker ✅ DONE (2026-05-15, negative result)
+
+Applied a Movie-KG path-augmentation pipeline on top of Rank-GRPO's top-20 candidates (using the existing `MovieKG` class from [counterfactualrec](https://github.com/EnkiXin/counterfactualrec)). Three iterations, all negative:
+
+| Variant | R@10 vs baseline (0.1755) | Notes |
+|---|---:|---|
+| Naive path block (top-3 paths per rec, all 20 candidates) | **0.1074** | −0.068, 58% relative drop on the 6,970 items with non-empty `seen_titles` |
+| XGBoost LambdaRank reranked paths (top-2 per rec) | 0.1045 | Effectively identical to naive — the issue is the *presence* of the path block, not the path *quality* |
+| XGBoost trained: 797K paths from 9.4K train items, NDCG@10=0.615 (best iter=0; signal saturates immediately) | — | Even an optimised ranker can't fix the prompt-distraction problem |
+
+**Failure-mode diagnosis** (stratified by whether `seen_titles` is non-empty):
+- Items WITHOUT `seen_titles` (n=4002, no path block injected): R@10 base 0.1623 → +KG 0.1620, Δ = **−0.0003** (essentially identical — pipeline is deterministic at temperature=0).
+- Items WITH `seen_titles` (n=6970, path block injected): R@10 base 0.1830 → +KG 0.0761, Δ = **−0.107** (massive 58 % relative drop).
+
+So the path block actively hurts when it's present. Reading the worst cases:
+- User watched 3 anime films → GT is Aronofsky's *Requiem for a Dream* / *Black Swan*. Baseline correctly recommended Aronofsky's filmography (other psychological thrillers). +KG output went 100 % anime because the paths emphasised genre / actor overlap with the seen anime, dragging the model away from the conversational signal (the user was *asking for thought-provoking thrillers like Nolan*).
+- Mirror best case: user watched *The Raid 1/2* → GT *The Swordsman*. Baseline missed it; +KG output caught it via the martial-arts entity bridge.
+
+**Implication**: paths *do* carry signal — they help in some cases and hurt in others. But just dumping them into the prompt doesn't work for a post-GRPO model that was trained to recommend from conversation alone. The path-augmentation needs to be either (a) folded back into training (KG-aware GRPO fine-tune) or (b) used as a score-fusion reranker on the 20 candidates (without LLM rerun) — score-fusion sweep is pending (R@20 can only improve if we generate >20 candidates upstream, which we do not).
+
+Code: [`Rank-GRPO/evaluate/eval_grpo_test_kgpath.py`](https://github.com/yaochenzhu/Rank-GRPO), `Rank-GRPO/path_reranker/{build_training_data,train_xgb}.py`.
 
 ### Phase 1 — Multi-model extension (deferred)
 

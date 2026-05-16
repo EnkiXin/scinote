@@ -1,0 +1,11 @@
+task,n_total,n_72B_evaluated,acc_video,acc_V+7B-note,acc_V+72B-note
+materials,1266,1266,34.04,36.65,39.02
+tools,1130,1130,36.28,35.22,37.08
+operation,938,938,64.61,57.25,59.06
+quantity,701,701,47.22,40.8,40.37
+sequence_generation,750,750,43.32,39.19,39.14
+sequence_ordering,739,739,52.64,55.48,55.62
+step_prediction,748,748,2.14,1.47,2.01
+video_verification,748,748,17.38,17.78,20.72
+experimental_conclusion,390,390,21.28,22.85,23.44
+scientific_discovery,390,180,20.0,19.95,20.15

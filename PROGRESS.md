@@ -117,11 +117,11 @@ The Stage-1 note generator was upgraded from Qwen2.5-VL-7B to **Qwen2.5-VL-72B-I
 | L2 | step_prediction          | 748  | 2.14 | 1.47 | 2.01 | −0.13 | +0.54 |
 | L2 | video_verification       | 748  | 17.38 | 17.78 | **20.72** | **+3.34 ✅** | +2.94 |
 | L3 | experimental_conclusion  | 390  | 21.28 | 22.85 | **23.44** | +2.16 ✅ | +0.59 |
-| L3 | scientific_discovery     | 390  | 20.00 | 19.95 | 19.95 *(41% partial)* | −0.05 | +0.00 |
-| — | **macro avg (10 tasks)** | —    | **33.89** | 32.66 | **33.64** | **−0.25** | **+0.98** |
+| L3 | scientific_discovery     | 390  | 20.00 | 19.95 | **20.31** *(62% partial)* | +0.31 | +0.36 |
+| — | **macro avg (10 tasks)** | —    | **33.89** | 32.66 | **33.68** | **−0.21** | **+1.01** |
 | L1 | avg (4 tasks)            | 4035 | **45.54** | 42.48 | 43.88 | −1.66 | +1.40 |
 | L2 | avg (4 tasks)            | 2985 | 28.87 | 28.48 | **29.37** | **+0.50** | +0.89 |
-| L3 | avg (2 tasks)            | 780  | 20.64 | 21.40 | **21.70** | **+1.05** | +0.30 |
+| L3 | avg (2 tasks)            | 780  | 20.64 | 21.40 | **21.88** | **+1.23** | +0.48 |
 
 **Reading (this is the important part)**:
 

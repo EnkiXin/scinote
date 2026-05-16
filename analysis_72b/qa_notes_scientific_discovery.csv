@@ -8301,7 +8301,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-53672_scientific_discovery,videos/level_3/53672_.mp4,"This study achieved validation compliant with ____ for a qRT‑PCR targeting _____, establishing a defined _____ along with linearity and LOQ, and confirming the whole analytical method (including extraction) via an _____ to enable standardized, sensitive, and specific quantification in equine respiratory fluids.",,"[""AFNOR NF U47-600"", ""equid herpesvirus-2"", ""LOD 95% PCR"", ""accuracy profile""]",ISO 17025 | EHV-2 | limit of detection | inter-laboratory study,ISO/IEC 17025 | EHV-2 | limit of quantification | internal control,,0.0,0.0,,"```json
+53672_scientific_discovery,videos/level_3/53672_.mp4,"This study achieved validation compliant with ____ for a qRT‑PCR targeting _____, establishing a defined _____ along with linearity and LOQ, and confirming the whole analytical method (including extraction) via an _____ to enable standardized, sensitive, and specific quantification in equine respiratory fluids.",,"[""AFNOR NF U47-600"", ""equid herpesvirus-2"", ""LOD 95% PCR"", ""accuracy profile""]",ISO 17025 | EHV-2 | limit of detection | inter-laboratory study,ISO/IEC 17025 | EHV-2 | limit of quantification | internal control,ISO 17025 | EHV2 | limit of detection | independent trial,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves the extraction of nucleic acids from various samples to determine the limit of detection for a specific viral load using quantitative PCR (qPCR). The process includes sample preparation, qPCR analysis, and data interpretation."",
   ""novel_techniques_shown"": [""Use of qPCR for viral load quantification"", ""Standard curve method for determining limit of detection""],
@@ -8349,7 +8349,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-51747_scientific_discovery,videos/level_3/51747_.mp4,"The main conclusion is that an in-house method enables capsular serotyping of ______ using ______ and a sequential ______ workflow, providing rapid, ______ testing suitable for high-throughput and resource-limited laboratories.",,"[""Streptococcus pneumoniae"", ""latex agglutination"", ""pool→group/type→factor"", ""microscope-free""]",Streptococcus pneumoniae | Pneumococcal Antigens | dilution | cost-effective,bacteria | reagents | incubation | accurate,,0.25,0.0,,"```json
+51747_scientific_discovery,videos/level_3/51747_.mp4,"The main conclusion is that an in-house method enables capsular serotyping of ______ using ______ and a sequential ______ workflow, providing rapid, ______ testing suitable for high-throughput and resource-limited laboratories.",,"[""Streptococcus pneumoniae"", ""latex agglutination"", ""pool→group/type→factor"", ""microscope-free""]",Streptococcus pneumoniae | Pneumococcal Antigens | dilution | cost-effective,bacteria | reagents | incubation | accurate,Streptococcus pneumoniae | multi-well plate | reaction | accurate,0.25,0.0,0.25,"```json
 {
   ""experiment_overview"": ""The experiment appears to involve bacterial culture analysis, possibly focusing on serotyping or identifying specific bacterial strains using a combination of agar plates and reagents."",
   ""novel_techniques_shown"": [""Use of agar plates for culturing bacteria"", ""Application of reagents to identify bacterial types""],
@@ -8391,7 +8391,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-59555_scientific_discovery,videos/level_3/59555_.mp4,"The study’s key advance was a culture system that enables real-time monitoring of bacterial growth with minimal volumes by cultivating cells at the ______ level inside ______ prepared by the ______, then immobilizing them on a supported bilayer via ______.",,"[""single-cell"", ""giant vesicles"", ""droplet transfer method"", ""biotin-PEG-DSPE/neutravidin""]",nanoscale | vesicles | researchers | electrostatic interactions,microscopic | vesicles | researcher | chemical crosslinking,,0.16666666666666666,0.16666666666666666,,"```json
+59555_scientific_discovery,videos/level_3/59555_.mp4,"The study’s key advance was a culture system that enables real-time monitoring of bacterial growth with minimal volumes by cultivating cells at the ______ level inside ______ prepared by the ______, then immobilizing them on a supported bilayer via ______.",,"[""single-cell"", ""giant vesicles"", ""droplet transfer method"", ""biotin-PEG-DSPE/neutravidin""]",nanoscale | vesicles | researchers | electrostatic interactions,microscopic | vesicles | researcher | chemical crosslinking,nanoscale | giant vesicles | researchers | electrostatic interactions,0.16666666666666666,0.16666666666666666,0.25,"```json
 {
   ""experiment_overview"": ""The experiment involves the immobilization of bacterial cells within vesicles and their subsequent microscopic observation to study bacterial growth."",
   ""novel_techniques_shown"": [""Immobilization of bacterial cells within vesicles for long-term observation"", ""Microscopic imaging of bacterial growth over time""],
@@ -8420,7 +8420,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ""anything_unusual_or_notable"": [""The use of giant vesicles as a novel method for bacterial immobilization and growth observation""]
 }
 ```"
-4295_scientific_discovery,videos/level_3/4295_.mp4,The study establishes a quantitative in vivo virulence assay that injects precisely enumerated _____ into _____ larvae and measures _____ to distinguish pathogenicity between wild-type and attenuated strains of _____.,,"[""CFU"", ""fourth-instar Manduca sexta"", ""time-to-death"", ""Xenorhabdus nematophila""]",insect eggs | dead/stunted | survival rates | X. nematophila,PBS | insect | survival rates | X. nematophila,,0.125,0.125,,"```json
+4295_scientific_discovery,videos/level_3/4295_.mp4,The study establishes a quantitative in vivo virulence assay that injects precisely enumerated _____ into _____ larvae and measures _____ to distinguish pathogenicity between wild-type and attenuated strains of _____.,,"[""CFU"", ""fourth-instar Manduca sexta"", ""time-to-death"", ""Xenorhabdus nematophila""]",insect eggs | dead/stunted | survival rates | X. nematophila,PBS | insect | survival rates | X. nematophila,bacteria | dead/stunted | survival rates | X. nematophila,0.125,0.125,0.125,"```json
 {
   ""experiment_overview"": ""The experiment involves studying the survival rates of two strains of X. nematophila (wild-type and attenuated) over time after being injected into insect larvae. The larvae are reared under specific conditions and their survival is monitored."",
   ""novel_techniques_shown"": [""Injection of PBS into insect larvae to study the effect of X. nematophila strains"", ""Monitoring survival rates over time""],
@@ -8462,7 +8462,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-2137_scientific_discovery,videos/level_3/2137_.mp4,"This study establishes a high-throughput RNAi screening platform in _____ cells that integrates _____ gene knockdown, challenge with _____, immunofluorescent detection of beta-galactosidase, and automated image analysis to quantify infection, enabling discovery of host factors such as _____-dependent endocytosis in viral entry.",,"[""Drosophila S2-DRSC"", ""384-well"", ""vaccinia virus"", ""Rab5""]",S2-DRSC Drosophila | RNA interference | Vaccinia virus | clathrin,Drosophila S2-DRSC | RNA interference | Vaccinia virus | clathrin,,0.5,0.5,,"```json
+2137_scientific_discovery,videos/level_3/2137_.mp4,"This study establishes a high-throughput RNAi screening platform in _____ cells that integrates _____ gene knockdown, challenge with _____, immunofluorescent detection of beta-galactosidase, and automated image analysis to quantify infection, enabling discovery of host factors such as _____-dependent endocytosis in viral entry.",,"[""Drosophila S2-DRSC"", ""384-well"", ""vaccinia virus"", ""Rab5""]",S2-DRSC Drosophila | RNA interference | Vaccinia virus | clathrin,Drosophila S2-DRSC | RNA interference | Vaccinia virus | clathrin,Drosophila S2-DRSC | RNA interference | Vaccinia virus | clathrin,0.5,0.5,0.5,"```json
 {
   ""experiment_overview"": ""The experiment involves culturing cells, infecting them with a virus, and then staining to visualize the presence of the virus within the cells."",
   ""novel_techniques_shown"": [""Fluorescent staining for visualization of viral infection"", ""Use of secondary antibodies for detection""],
@@ -8506,7 +8506,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-50332_scientific_discovery,videos/level_3/50332_.mp4,"The study established an in vitro human monocyte-to-macrophage differentiation and polarization platform that uses ____ for initial separation, ____ to obtain CD14+ monocytes, and ____-based culture to drive differentiation; macrophage heterogeneity is verified by ____ of M1 versus M2 markers and supported by functional oxLDL uptake assays.",,"[""density gradient centrifugation"", ""negative bead isolation"", ""M-CSF"", ""qPCR""]",negative bead isolation | magnetic sorting | cytokine | flow cytometry,negative bead isolation | centrifugation | M-CSF | flow cytometry,,0.0,0.25,,"```json
+50332_scientific_discovery,videos/level_3/50332_.mp4,"The study established an in vitro human monocyte-to-macrophage differentiation and polarization platform that uses ____ for initial separation, ____ to obtain CD14+ monocytes, and ____-based culture to drive differentiation; macrophage heterogeneity is verified by ____ of M1 versus M2 markers and supported by functional oxLDL uptake assays.",,"[""density gradient centrifugation"", ""negative bead isolation"", ""M-CSF"", ""qPCR""]",negative bead isolation | magnetic sorting | cytokine | flow cytometry,negative bead isolation | centrifugation | M-CSF | flow cytometry,negative bead isolation | magnetic cell separation | M-CSF | flow cytometry,0.0,0.25,0.25,"```json
 {
   ""experiment_overview"": ""The experiment aims to study the heterogeneity of human macrophage differentiation and polarization using an in vitro model."",
   ""novel_techniques_shown"": [""Negative bead isolation technique""],
@@ -8557,7 +8557,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-54615_scientific_discovery,videos/level_3/54615_.mp4,The study’s optimized flow cytometry assay enables sensitive NK cell functional monitoring from small sample volumes by simultaneously assessing degranulation (____) and intracellular ____ and ____ within defined NK cell subsets after stimulation with ____.,,"[""CD107a"", ""interferon gamma"", ""MIP-1β"", ""K562 plus IL-2/IL-15""]",CD107a | cytokines | chemokines | IL-2,CD107a | cytokines | chemokines | stimulatory ligands,,0.25,0.25,,"```json
+54615_scientific_discovery,videos/level_3/54615_.mp4,The study’s optimized flow cytometry assay enables sensitive NK cell functional monitoring from small sample volumes by simultaneously assessing degranulation (____) and intracellular ____ and ____ within defined NK cell subsets after stimulation with ____.,,"[""CD107a"", ""interferon gamma"", ""MIP-1β"", ""K562 plus IL-2/IL-15""]",CD107a | cytokines | chemokines | IL-2,CD107a | cytokines | chemokines | stimulatory ligands,CD107a | cytokines | chemokines | stimulatory ligands,0.25,0.25,0.25,"```json
 {
   ""experiment_overview"": ""The experiment involves isolating Natural Killer (NK) cells from blood samples, followed by surface and intracellular staining to analyze their phenotype and function."",
   ""novel_techniques_shown"": [""Use of a cell separator for NK cell isolation"", ""Surface and intracellular staining techniques""],
@@ -8611,7 +8611,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-61180_scientific_discovery,videos/level_3/61180_.mp4,"Fill in the blanks: This work established a workflow using the ImageJ plugin ______ for in situ semi-quantification of ______ in ______, yielding an objective, reproducible surrogate marker of pathological glomerular injury that is readily transferable to detecting ______ across autoimmune diseases.",,"[""Trainable Weka Segmentation"", ""extracellular DNA"", ""FFPE kidney glomeruli"", ""NETs and extracellular myeloperoxidase""]",Weka | extracellular DNA (ecDNA) | glomeruli | renal pathology,WekaClassifier | cellular components | glomeruli | disease activity,,0.45,0.125,,"```json
+61180_scientific_discovery,videos/level_3/61180_.mp4,"Fill in the blanks: This work established a workflow using the ImageJ plugin ______ for in situ semi-quantification of ______ in ______, yielding an objective, reproducible surrogate marker of pathological glomerular injury that is readily transferable to detecting ______ across autoimmune diseases.",,"[""Trainable Weka Segmentation"", ""extracellular DNA"", ""FFPE kidney glomeruli"", ""NETs and extracellular myeloperoxidase""]",Weka | extracellular DNA (ecDNA) | glomeruli | renal pathology,WekaClassifier | cellular components | glomeruli | disease activity,WekaClassifier | extracellular DNA | glomeruli | neutrophil extracellular traps,0.45,0.125,0.44642857142857145,"```json
 {
   ""experiment_overview"": ""The experiment involves analyzing cellular structures using advanced microscopy techniques and image analysis software to identify and classify specific cellular components such as nuclei, NETs (neutrophil extracellular traps), and ecMPO (extracellular myeloperoxidase)."",
   ""novel_techniques_shown"": [""Advanced microscopy for cellular imaging"", ""Image analysis software for classification and quantification of cellular components""],
@@ -8643,7 +8643,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-2693_scientific_discovery,videos/level_3/2693_.mp4,"Based on a gentamicin protection assay in human endothelial cells, Staphylococcus aureus invasion required _______, and heterologous expression of this protein in ______ was sufficient to confer ______ without increasing ______.",,"[""fibronectin-binding protein A (FnBPA)"", ""Lactococcus lactis"", ""intracellular entry"", ""adhesion""]",Fnb | Lactococcus lactis | S. aureus invasion | bacterial growth,Fnb | Lactococcus lactis | resistance to gentamicin | bacterial growth,,0.25,0.25,,"```json
+2693_scientific_discovery,videos/level_3/2693_.mp4,"Based on a gentamicin protection assay in human endothelial cells, Staphylococcus aureus invasion required _______, and heterologous expression of this protein in ______ was sufficient to confer ______ without increasing ______.",,"[""fibronectin-binding protein A (FnBPA)"", ""Lactococcus lactis"", ""intracellular entry"", ""adhesion""]",Fnb | Lactococcus lactis | S. aureus invasion | bacterial growth,Fnb | Lactococcus lactis | resistance to gentamicin | bacterial growth,Fibronectin | Lactococcus lactis | S. aureus invasion | Bacterial attachment,0.25,0.25,0.25,"```json
 {
   ""experiment_overview"": ""The experiment involves studying bacterial attachment and internalization using different strains of bacteria (S. aureus and L. lactis) and analyzing their effects on cell cultures."",
   ""novel_techniques_shown"": [""Use of a 24-well tissue culture tray for culturing cells, dilution series to assess bacterial attachment, and quantification of bacteria attached/normalized per well""],
@@ -8687,7 +8687,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-58818_scientific_discovery,videos/level_3/58818_.mp4,"This study introduces a rapid, sensitive, low-cost workflow for quantifying bacterial inorganic polyphosphate that combines a ____ with ____ digestion and colorimetric phosphate detection using ____ measured at ____ nm; the method supports normalization to total protein and reveals genotype- and condition-dependent polyP accumulation.",,"[""GITC lysis–silica membrane spin column extraction"", ""ScPPX"", ""ascorbic acid"", ""882""]",Vortex mixer | sonication | a spectrophotometer | 690,Vortex Genie 2 | Protein | a spectrophotometer | 690,,0.0,0.0,,"```json
+58818_scientific_discovery,videos/level_3/58818_.mp4,"This study introduces a rapid, sensitive, low-cost workflow for quantifying bacterial inorganic polyphosphate that combines a ____ with ____ digestion and colorimetric phosphate detection using ____ measured at ____ nm; the method supports normalization to total protein and reveals genotype- and condition-dependent polyP accumulation.",,"[""GITC lysis–silica membrane spin column extraction"", ""ScPPX"", ""ascorbic acid"", ""882""]",Vortex mixer | sonication | a spectrophotometer | 690,Vortex Genie 2 | Protein | a spectrophotometer | 690,Vortex-Genie 2 | enzymatic | a spectrophotometer | 690,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves measuring the protein content in cell lysates from different bacterial strains under nutrient-limited conditions to study polyphosphate (polyP) levels."",
   ""novel_techniques_shown"": [""Use of a Vortex Genie 2 for sample preparation"", ""Quantitative analysis of polyP levels using a spectrophotometer""],
@@ -8734,7 +8734,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-50389_scientific_discovery,videos/level_3/50389_.mp4,"Fill in the blanks: The study shows that adoptive transfer of small numbers of ______ into ______ leads to rapid, reproducible ______, establishing an accelerated, standardized model for studying pathogenesis and testing therapies.",,"[""naive BDC2.5 CD4+ T cells"", ""NOD.SCID mice"", ""type 1 diabetes""]",Diabetogenic CD4+ T cells; NOD.SCID recipients; Type 1 Diabetes,diabetogenic CD4+ T cells | NOD.SCID recipients | Type 1 Diabetes,,0.09523809523809523,0.7222222222222222,,"```json
+50389_scientific_discovery,videos/level_3/50389_.mp4,"Fill in the blanks: The study shows that adoptive transfer of small numbers of ______ into ______ leads to rapid, reproducible ______, establishing an accelerated, standardized model for studying pathogenesis and testing therapies.",,"[""naive BDC2.5 CD4+ T cells"", ""NOD.SCID mice"", ""type 1 diabetes""]",Diabetogenic CD4+ T cells; NOD.SCID recipients; Type 1 Diabetes,diabetogenic CD4+ T cells | NOD.SCID recipients | Type 1 Diabetes,diabetogenic CD4+ T cells | NOD.SCID recipients | Type 1 Diabetes,0.09523809523809523,0.7222222222222222,0.7222222222222222,"```json
 {
   ""experiment_overview"": ""The experiment aims to induce accelerated Type 1 Diabetes (T1D) in mice by adoptively transferring diabetogenic CD4+ T cells."",
   ""novel_techniques_shown"": [""Adoptive transfer of diabetogenic CD4+ T cells"", ""Isolation of T cells from spleen and lymph nodes of BDC2.5 mice""],
@@ -8773,7 +8773,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ""anything_unusual_or_notable"": [
     ""The use of a specific mouse strain (BDC2.5) known for its susceptibility to Type 1 Diabetes."",
     ""The precise isolation of T cells with specific markers (CD"
-50196_scientific_discovery,videos/level_3/50196_.mp4,"The key innovation in this study was using ____ together with ____ labeling of Candida albicans and ____ staining of macrophage acidic compartments to achieve stage-specific, real-time analysis of phagocytosis, providing greater resolution than ____.",,"[""live-cell video microscopy"", ""pH-sensitive FITC"", ""LysoTracker Red"", ""static immunocytochemistry""]",flow cytometry | fluorescent | LysoTracker | conventional microscopy |,software | fluorescent | LysoTracker | conventional microscopy,,0.16666666666666666,0.16666666666666666,,"```json
+50196_scientific_discovery,videos/level_3/50196_.mp4,"The key innovation in this study was using ____ together with ____ labeling of Candida albicans and ____ staining of macrophage acidic compartments to achieve stage-specific, real-time analysis of phagocytosis, providing greater resolution than ____.",,"[""live-cell video microscopy"", ""pH-sensitive FITC"", ""LysoTracker Red"", ""static immunocytochemistry""]",flow cytometry | fluorescent | LysoTracker | conventional microscopy |,software | fluorescent | LysoTracker | conventional microscopy,computerized microscope | fluorescent | LysoTracker | conventional methods,0.16666666666666666,0.16666666666666666,0.16666666666666666,"```json
 {
   ""experiment_overview"": ""The experiment involves the preparation and analysis of J774.1 mouse macrophage cell line to study their engulfment of C. albicans."",
   ""novel_techniques_shown"": [""Use of a microscope for cellular observation"", ""Quantitative analysis of engulfed cells using software""],
@@ -8818,7 +8818,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-62107_scientific_discovery,videos/level_3/62107_.mp4,"According to the study, combining ______ of alkynyl fatty acids with delivery as ______ in delipidated media markedly increased cellular incorporation and reduced toxicity, thereby enhancing detection by click chemistry of ______, with the strongest effect observed for ______.",,"[""saponification"", ""fatty acid-free BSA conjugates"", ""S-acylated proteins"", ""alkynyl stearate""]",13-TDYA | 15-HOYA | 17-OHYA | A647,delivery as saponified | the strongest effect observed for 13-TDYA,,0.0,0.0,,"```json
+62107_scientific_discovery,videos/level_3/62107_.mp4,"According to the study, combining ______ of alkynyl fatty acids with delivery as ______ in delipidated media markedly increased cellular incorporation and reduced toxicity, thereby enhancing detection by click chemistry of ______, with the strongest effect observed for ______.",,"[""saponification"", ""fatty acid-free BSA conjugates"", ""S-acylated proteins"", ""alkynyl stearate""]",13-TDYA | 15-HOYA | 17-OHYA | A647,delivery as saponified | the strongest effect observed for 13-TDYA,alkynyl fatty acids | saponified | A647 | 13-TDYA,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment appears to involve the analysis of protein expression levels using Western blotting techniques. The samples are likely from cells treated with different fatty acids (13-TDYA, 15-HOYA, and 17-OHYA) and possibly saponified or not, as indicated by the presence of 'Saponified' and 'WT' labels. The goal seems to be to compare the expression levels of specific proteins (A647 and GAPDH) under these conditions."",
   ""novel_techniques_shown"": [""Western blotting technique for protein analysis""],
@@ -8866,7 +8866,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-2757_scientific_discovery,videos/level_3/2757_.mp4,"This study shows that, after ______ of adult rat liver and establishing mixed primary cultures, using ______ plus selective adhesion on ______ enables repeated isolation of functional liver macrophages that are positive for ______ in sufficient number and purity without specialized equipment.",,"[""collagenase perfusion"", ""reciprocal shaking"", ""non-tissue culture grade plastic dishes"", ""CD68/ED1 and CD172A/OX41""]",10 min | 37°C 5% CO2 | 40 min | CD68 (ED1) |,3 days | 0.48-0.56 mm thread | glass slides | CD68,,0.0,0.0,,"```json
+2757_scientific_discovery,videos/level_3/2757_.mp4,"This study shows that, after ______ of adult rat liver and establishing mixed primary cultures, using ______ plus selective adhesion on ______ enables repeated isolation of functional liver macrophages that are positive for ______ in sufficient number and purity without specialized equipment.",,"[""collagenase perfusion"", ""reciprocal shaking"", ""non-tissue culture grade plastic dishes"", ""CD68/ED1 and CD172A/OX41""]",10 min | 37°C 5% CO2 | 40 min | CD68 (ED1) |,3 days | 0.48-0.56 mm thread | glass slides | CD68,40 min | 0.48-0.56 mm thread | plastic dishes | CD68 (ED1),0.0,0.0,0.14285714285714288,"```json
 {
   ""experiment_overview"": ""The experiment involves the isolation and culture of macrophages, a type of white blood cell, for research purposes."",
   ""novel_techniques_shown"": [""Selective isolation of macrophages using specific markers (CD68 and CD172a).""],
@@ -8905,7 +8905,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-56825_scientific_discovery,videos/level_3/56825_.mp4,"In this work, the key advance is a standardized in vitro wound-healing assay that enables rapid, reproducible quantification of cell migration and mechanistic testing. It achieves this by using ______ to create a ______ pseudo-wound and a web-based automated image-analysis platform, ______, thereby allowing interrogation of ______-dependent responses.",,"[""silicone culture inserts"", ""500 μm"", ""Wimasis"", ""epidermal growth factor receptor""]",a scratch | time-lapse | Wimasis | EGFR,antimicrobial peptides | confluent monolayer | Wimasis | EGFR,,0.25,0.25,,"```json
+56825_scientific_discovery,videos/level_3/56825_.mp4,"In this work, the key advance is a standardized in vitro wound-healing assay that enables rapid, reproducible quantification of cell migration and mechanistic testing. It achieves this by using ______ to create a ______ pseudo-wound and a web-based automated image-analysis platform, ______, thereby allowing interrogation of ______-dependent responses.",,"[""silicone culture inserts"", ""500 μm"", ""Wimasis"", ""epidermal growth factor receptor""]",a scratch | time-lapse | Wimasis | EGFR,antimicrobial peptides | confluent monolayer | Wimasis | EGFR,antimicrobial peptides | defined | Wimasis | EGFR,0.25,0.25,0.25,"```json
 {
   ""experiment_overview"": ""The experiment evaluates cell migration using an in vitro wound healing assay to assess the impact of antimicrobial peptides on bronchial cells."",
   ""novel_techniques_shown"": [""In vitro wound healing assay"", ""Image analysis for quantifying cell migration""],
@@ -8952,7 +8952,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-63662_scientific_discovery,videos/level_3/63662_.mp4,"The study established a validated multi-assay workflow: PCR/qPCR of the Wolbachia ____ gene normalized to ____ combined with Western blot and indirect immunofluorescence, which confirmed intracellular infection in ____ but not in ____.",,"[""wsp"", ""RPS6"", ""Aa23"", ""Aa23-T""]",surface protein (WSP) | RPS6 | Aa23-T | Aa23,surface protein (WSP) | ribosomal protein S6 (RPS6) | Aa23 | Aa23-T,,0.25,0.5,,"```json
+63662_scientific_discovery,videos/level_3/63662_.mp4,"The study established a validated multi-assay workflow: PCR/qPCR of the Wolbachia ____ gene normalized to ____ combined with Western blot and indirect immunofluorescence, which confirmed intracellular infection in ____ but not in ____.",,"[""wsp"", ""RPS6"", ""Aa23"", ""Aa23-T""]",surface protein (WSP) | RPS6 | Aa23-T | Aa23,surface protein (WSP) | ribosomal protein S6 (RPS6) | Aa23 | Aa23-T,surface protein | RPS6 | Aa23 | Aa23-T,0.25,0.5,0.75,"```json
 {
   ""experiment_overview"": ""The experiment involves cell culture and DNA extraction, focusing on Wolbachia surface protein (WSP) and ribosomal protein S6 (RPS6) analysis. It includes PCR amplification, antibody dilution, and Western blotting to detect Wolbachia infection."",
   ""novel_techniques_shown"": [""Western blotting for protein detection"", ""PCR for DNA amplification""],
@@ -9003,7 +9003,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ],
   ""anything_unusual_or_notable"": [
     ""The use of specific cell lines (Aa23 and Aa23-T) for studying Wol"
-56655_scientific_discovery,videos/level_3/56655_.mp4,"By using photoactivatable ______ to precisely fix the timing and location of TCR activation, the researchers showed that localized signaling rapidly induces accumulation of ______, which precedes ______ to the activated region, explaining polarized T cell responses.",,"[""peptide–MHC"", ""DAG"", ""centrosome reorientation""]",Agonist | Actin | TCR,agonist | C1-GFP | RFP-Tub,,0.0,0.0,,"```json
+56655_scientific_discovery,videos/level_3/56655_.mp4,"By using photoactivatable ______ to precisely fix the timing and location of TCR activation, the researchers showed that localized signaling rapidly induces accumulation of ______, which precedes ______ to the activated region, explaining polarized T cell responses.",,"[""peptide–MHC"", ""DAG"", ""centrosome reorientation""]",Agonist | Actin | TCR,agonist | C1-GFP | RFP-Tub,agonist | C1-GFP | RFP-Tub,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment focuses on the spatial and temporal control of T cell activation using a photoactivatable agonist."",
   ""novel_techniques_shown"": [""Photoactivation of a specific region within a cell to study T cell activation dynamics""],
@@ -9059,7 +9059,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-57379_scientific_discovery,videos/level_3/57379_.mp4,"By integrating ____ and ____ principles with bioinformatics modeling of lncRNA ____ to design specific oligonucleotide probes for RNA pull-down, the study efficiently captured RNA partners, including reciprocal ____ interactions, enabling comprehensive interactome mapping in cells and tissues.",,"[""ChIRP"", ""CHART"", ""secondary structure"", ""Neat1–Malat1""]",crosslinking|sonication|targets|binding,"crosslinking | sonication | Neat1, Malat1 | binding",,0.0,0.0,,"```json
+57379_scientific_discovery,videos/level_3/57379_.mp4,"By integrating ____ and ____ principles with bioinformatics modeling of lncRNA ____ to design specific oligonucleotide probes for RNA pull-down, the study efficiently captured RNA partners, including reciprocal ____ interactions, enabling comprehensive interactome mapping in cells and tissues.",,"[""ChIRP"", ""CHART"", ""secondary structure"", ""Neat1–Malat1""]",crosslinking|sonication|targets|binding,"crosslinking | sonication | Neat1, Malat1 | binding",crosslinking | sonication | enrichment | binding,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves culturing cells, crosslinking them, lysing, and sonication to prepare for RNA pull-down analysis. The goal is to identify targets of IncRNAs, Neat1, and Malat1."",
   ""novel_techniques_shown"": [""RNA pull-down technique""],
@@ -9108,7 +9108,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-3563_scientific_discovery,videos/level_3/3563_.mp4,"To obtain highly purified mouse lung conventional dendritic cells, the study used a two-step approach: first ______, then flow cytometric sorting based on ______, which yielded ______ purity and eliminated contamination from ______ that made CD11c-only selection inadequate.",,"[""CD11c magnetic enrichment"", ""MHC Class II"", "">96%"", ""CD11c+ MHC Class II low macrophages""]",magnetic bead isolation | CD11c and MHC-II expression | 96.6% | macrophages,magnetic bead isolation | CD11c and MHC-II expression | 96.6% | macrophages,,0.15476190476190477,0.15476190476190477,,"```json
+3563_scientific_discovery,videos/level_3/3563_.mp4,"To obtain highly purified mouse lung conventional dendritic cells, the study used a two-step approach: first ______, then flow cytometric sorting based on ______, which yielded ______ purity and eliminated contamination from ______ that made CD11c-only selection inadequate.",,"[""CD11c magnetic enrichment"", ""MHC Class II"", "">96%"", ""CD11c+ MHC Class II low macrophages""]",magnetic bead isolation | CD11c and MHC-II expression | 96.6% | macrophages,magnetic bead isolation | CD11c and MHC-II expression | 96.6% | macrophages,magnetic bead isolation | CD11c and MHC-II markers | 96.6% | macrophages,0.15476190476190477,0.15476190476190477,0.15476190476190477,"```json
 {
   ""experiment_overview"": ""The experiment involves isolating and purifying dendritic cells (DCs) from mouse lungs using magnetic bead isolation and flow cytometry. The goal is to obtain a highly purified population of conventional DCs (cDCs) for further analysis."",
   ""novel_techniques_shown"": [""Magnetic bead isolation"", ""Flow cytometric cell sorting""],
@@ -9155,7 +9155,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-58083_scientific_discovery,videos/level_3/58083_.mp4,"This study established a microscopy assay that dynamically visualizes and quantitatively identifies canine NETosis by co-localizing ____ with ____ and ____, enabling specific, blinded assessment of NET formation kinetics under ____ stimulation.",,"[""cell-free DNA"", ""myeloperoxidase"", ""citrullinated histone H3"", ""LPS and PMA""]",MPO | citH3 | DNA | PMA or LPS,citH3 | MPO | DNA | various,,0.16666666666666666,0.0,,"```json
+58083_scientific_discovery,videos/level_3/58083_.mp4,"This study established a microscopy assay that dynamically visualizes and quantitatively identifies canine NETosis by co-localizing ____ with ____ and ____, enabling specific, blinded assessment of NET formation kinetics under ____ stimulation.",,"[""cell-free DNA"", ""myeloperoxidase"", ""citrullinated histone H3"", ""LPS and PMA""]",MPO | citH3 | DNA | PMA or LPS,citH3 | MPO | DNA | various,citH3 | MPO | DNA | various,0.16666666666666666,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment appears to be focused on studying canine neutrophils, possibly investigating their response to different stimuli such as PMA (Phorbol-12-myristate-13-acetate), LPS (lipopolysaccharide), and DPBS (Dulbecco's Phosphate-Buffered Saline). The study likely involves isolating blood cells, culturing them, and then analyzing their behavior under various conditions using microscopy and possibly flow cytometry."",
   ""novel_techniques_shown"": [""Isolation of PBMCs (Peripheral Blood Mononuclear Cells) from canine blood, culturing techniques, and imaging of cells under different stimuli using microscopy""],
@@ -9196,7 +9196,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-58577_scientific_discovery,videos/level_3/58577_.mp4,"The study presents a simple, rapid protocol for screening resistance to _____ that stains roots with _____, quantifies infection by counting attached females under a _____ as number per gram of root, and allows plant recovery via vegetative propagation, thereby accelerating _____ in upland cotton.",,"[""Rotylenchulus reniformis"", ""red food coloring"", ""stereomicroscope"", ""marker-assisted breeding""]",Reniform Nematode|Glycyrrhizic acid|microscope|breeding,Reniform Nematode | a dye | microscope | breeding cycles,,0.16666666666666666,0.125,,"```json
+58577_scientific_discovery,videos/level_3/58577_.mp4,"The study presents a simple, rapid protocol for screening resistance to _____ that stains roots with _____, quantifies infection by counting attached females under a _____ as number per gram of root, and allows plant recovery via vegetative propagation, thereby accelerating _____ in upland cotton.",,"[""Rotylenchulus reniformis"", ""red food coloring"", ""stereomicroscope"", ""marker-assisted breeding""]",Reniform Nematode|Glycyrrhizic acid|microscope|breeding,Reniform Nematode | a dye | microscope | breeding cycles,nematodes | a dye | microscope | breeding cycles,0.16666666666666666,0.125,0.125,"```json
 {
   ""experiment_overview"": ""The experiment involves studying the response of different plant genotypes to Reniform Nematode infection, focusing on their susceptibility or resistance."",
   ""novel_techniques_shown"": [""Germination of seeds before planting"", ""Adjusting watering systems based on plant growth"", ""Microscopy for detailed analysis""],
@@ -9245,7 +9245,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-58971_scientific_discovery,videos/level_3/58971_.mp4,"By showing that the ____ and quantification of ____ foci detect elevated DNA damage caused by ____ or ____ in iPS cells and iPS-derived cardiomyocytes, the study establishes a simple pre-transplant quality-control approach for cardiac cell therapy.",,"[""alkaline comet assay"", ""gamma-H2AX"", ""prolonged culture"", ""doxorubicin""]",DNA damage | DDR | Doxorubicin | Cardiotoxicity,microscopy | DDR | Doxo | DNA damage,,0.0,0.0,,"```json
+58971_scientific_discovery,videos/level_3/58971_.mp4,"By showing that the ____ and quantification of ____ foci detect elevated DNA damage caused by ____ or ____ in iPS cells and iPS-derived cardiomyocytes, the study establishes a simple pre-transplant quality-control approach for cardiac cell therapy.",,"[""alkaline comet assay"", ""gamma-H2AX"", ""prolonged culture"", ""doxorubicin""]",DNA damage | DDR | Doxorubicin | Cardiotoxicity,microscopy | DDR | Doxo | DNA damage,imaging | DDR | Doxo | Alkaline |,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment appears to be focused on analyzing the effects of DNA damage on induced pluripotent stem cells (iPS) using a combination of laboratory techniques and computational analysis."",
   ""novel_techniques_shown"": [""Use of induced pluripotent stem cells (iPS), advanced microscopy for cell imaging, and computational analysis for data interpretation""],
@@ -9290,7 +9290,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-59449_scientific_discovery,videos/level_3/59449_.mp4,"This in vivo study showed that pharmacological inhibition of ______ reactivated ______ from the inactive X chromosome in ______, and established a ______ as a quantitative platform.",,"[""X chromosome inactivation factors"", ""Mecp2-GFP"", ""MAP2-positive cortical neurons"", ""non-random XCI mouse model""]",MECP2 | Xi-MECP2 | males | novel,MECP2 | Xi-Mecp2 | Xist-Mecp2 transgenic mice | quantitative platform,,0.0,0.0,,"```json
+59449_scientific_discovery,videos/level_3/59449_.mp4,"This in vivo study showed that pharmacological inhibition of ______ reactivated ______ from the inactive X chromosome in ______, and established a ______ as a quantitative platform.",,"[""X chromosome inactivation factors"", ""Mecp2-GFP"", ""MAP2-positive cortical neurons"", ""non-random XCI mouse model""]",MECP2 | Xi-MECP2 | males | novel,MECP2 | Xi-Mecp2 | Xist-Mecp2 transgenic mice | quantitative platform,HDAC1 | Xi-Mecp2 | Mecp2-GFP/Y mice | quantitative platform,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves the study of Xist-Mecp2 transgenic mice, focusing on the validation of pharmacological reactivation of the methylated X chromosome (Xi) in these mice. The process includes euthanasia using CO2 asphyxiation, dissection to expose internal organs, cryo-sectioning for tissue analysis, and the use of antibodies to target specific proteins for validation."",
   ""novel_techniques_shown"": [""Cryo-sectioning technique for detailed tissue analysis"", ""Use of antibodies to validate pharmacological reactivation""],
@@ -9335,7 +9335,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-61383_scientific_discovery,videos/level_3/61383_.mp4,"The study concluded that a simple, high-accuracy and sensitivity ____ protocol enables microRNA profiling in mouse kidney using a ____ renal interstitial fibrosis model, validated by detecting increased ____ and decreased ____.",,"[""qRT-PCR"", ""unilateral ureteral obstruction (UUO)"", ""miRNA-3070-3p"", ""miRNA-7218-5p/miRNA-7219-5p""]",protocol | UUO | miRNA-3070-3p | miRNA-6401,protocol | UUO | miRNA-3070-3p | miRNA-6401,,0.25,0.25,,"```json
+61383_scientific_discovery,videos/level_3/61383_.mp4,"The study concluded that a simple, high-accuracy and sensitivity ____ protocol enables microRNA profiling in mouse kidney using a ____ renal interstitial fibrosis model, validated by detecting increased ____ and decreased ____.",,"[""qRT-PCR"", ""unilateral ureteral obstruction (UUO)"", ""miRNA-3070-3p"", ""miRNA-7218-5p/miRNA-7219-5p""]",protocol | UUO | miRNA-3070-3p | miRNA-6401,protocol | UUO | miRNA-3070-3p | miRNA-6401,protocol | UUO | miRNA-3070-3p | miRNA-6401,0.25,0.25,0.25,"```json
 {
   ""experiment_overview"": ""The experiment involves collecting kidney samples from rats to analyze miRNA expression levels under different conditions (sham and UUO). The collected samples are processed using laboratory techniques including centrifugation and RNA isolation."",
   ""novel_techniques_shown"": [""miRNA expression analysis"", ""RNA isolation""],
@@ -9385,7 +9385,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-54972_scientific_discovery,videos/level_3/54972_.mp4,"This work introduces a platform that employs ____ transfection and forms characterized ____ to cross plant cellular and organellar barriers, achieving ____ of reporters in intact ____ leaves.",,"[""syringe-assisted"", ""peptide–plasmid DNA complexes"", ""nuclear-targeted gene expression"", ""Arabidopsis thaliana""]",peptide-based | nanoscale | delivery | plant,microinjection | at optimized N/P ratios | efficient transfection | A. thaliana,,0.0,0.125,,"```json
+54972_scientific_discovery,videos/level_3/54972_.mp4,"This work introduces a platform that employs ____ transfection and forms characterized ____ to cross plant cellular and organellar barriers, achieving ____ of reporters in intact ____ leaves.",,"[""syringe-assisted"", ""peptide–plasmid DNA complexes"", ""nuclear-targeted gene expression"", ""Arabidopsis thaliana""]",peptide-based | nanoscale | delivery | plant,microinjection | at optimized N/P ratios | efficient transfection | A. thaliana,peptide-based | at N/P 0.5 | efficient delivery | A. thaliana,0.0,0.125,0.125,"```json
 {
   ""experiment_overview"": ""The experiment involves the characterization and evaluation of various peptide-based formulations for their ability to transfect plant leaves. The focus is on optimizing the formulation (KH)_9-BP100/P35S-RLuc-TNOS at an N/P ratio of 0.5 for efficient transfection efficiency."",
   ""novel_techniques_shown"": [""Infiltration of Plant Leaves"", ""Optimization of Peptide-Based Formulations""],
@@ -9426,7 +9426,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-61231_scientific_discovery,videos/level_3/61231_.mp4,"MeRIP is introduced as a transcriptome-wide approach to enrich and map a specific RNA modification by using an ________, validated with ________ and IP-enriched ________, and enabling downstream discovery of sequence motifs and identification of ________ across organisms.",,"[""anti-m5C antibody"", ""methylated and non-methylated spike-ins"", ""peak calling"", ""m5C-binding proteins""]",antibody | sequencing | RNA | modifications,magnetic bead column | sequencing | RNA | methylated regions,,0.16666666666666666,0.0,,"```json
+61231_scientific_discovery,videos/level_3/61231_.mp4,"MeRIP is introduced as a transcriptome-wide approach to enrich and map a specific RNA modification by using an ________, validated with ________ and IP-enriched ________, and enabling downstream discovery of sequence motifs and identification of ________ across organisms.",,"[""anti-m5C antibody"", ""methylated and non-methylated spike-ins"", ""peak calling"", ""m5C-binding proteins""]",antibody | sequencing | RNA | modifications,magnetic bead column | sequencing | RNA | methylated regions,antibody | bioanalyzer | RNA | binding sites,0.16666666666666666,0.0,0.16666666666666666,"```json
 {
   ""experiment_overview"": ""The video demonstrates the process of RNA preparation, focusing on the isolation and purification of RNA from a sample, likely for further analysis such as methylation studies."",
   ""novel_techniques_shown"": [""Use of magnetic beads for RNA purification"", ""Quantification of RNA using a spectrophotometer""],
@@ -9470,7 +9470,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-54752_scientific_discovery,videos/level_3/54752_.mp4,"Using fluorescence microscopy of GFP/RFP-labelled Bacillus subtilis, the experiment showed that population-level motility mode dictates spatial assortment: _____ yields highly mixed populations, whereas _____ produces sectoring; additionally, founder _____ at initiation controls biofilm segregation.",,"[""swarming"", ""sliding"", ""cell density""]",sliding | swarming | dilution,swarming | sliding | dilution,,0.0,0.6666666666666666,,"```json
+54752_scientific_discovery,videos/level_3/54752_.mp4,"Using fluorescence microscopy of GFP/RFP-labelled Bacillus subtilis, the experiment showed that population-level motility mode dictates spatial assortment: _____ yields highly mixed populations, whereas _____ produces sectoring; additionally, founder _____ at initiation controls biofilm segregation.",,"[""swarming"", ""sliding"", ""cell density""]",sliding | swarming | dilution,swarming | sliding | dilution,sliding | swarming | dilution,0.0,0.6666666666666666,0.0,"```json
 {
   ""experiment_overview"": ""The experiment focuses on monitoring spatial segregation in surface colonizing microbial populations using fluorescently labeled strains for colony imaging."",
   ""novel_techniques_shown"": [""Fluorescent labeling of microbial strains"", ""Time-lapse imaging using microscopy""],
@@ -9512,7 +9512,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-57499_scientific_discovery,videos/level_3/57499_.mp4,"In the mutagenesis screen and colony-color assay, mutations in the 19S proteasome subunit ____ caused destabilization of ____ in ____, as evidenced by ____ on YES plates lacking adenine.",,"[""Rpt4"", ""heterochromatin"", ""Schizosaccharomyces pombe"", ""white colonies""]",rpt4 | ade6+ | fission yeast | red colonies,rpl4 | ade6 protein | ade6+ yeast | blue colonies,,0.375,0.125,,"```json
+57499_scientific_discovery,videos/level_3/57499_.mp4,"In the mutagenesis screen and colony-color assay, mutations in the 19S proteasome subunit ____ caused destabilization of ____ in ____, as evidenced by ____ on YES plates lacking adenine.",,"[""Rpt4"", ""heterochromatin"", ""Schizosaccharomyces pombe"", ""white colonies""]",rpt4 | ade6+ | fission yeast | red colonies,rpl4 | ade6 protein | ade6+ yeast | blue colonies,rpt4 | ade6 protein | PMG-Ade plates | blue colonies,0.375,0.125,0.375,"```json
 {
   ""experiment_overview"": ""The experiment involves random mutagenesis of the rpl4+ gene using error-prone PCR followed by transformation of fission yeast via electroporation to study the effects of these mutations."",
   ""novel_techniques_shown"": [""Error-prone PCR for random mutagenesis"", ""Electroporation for transformation""],
@@ -9563,7 +9563,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ""anything_unusual_or_notable"": [
     ""The use of error-prone PCR to introduce mutations in a specific gene, which is a targeted approach to study gene function"",
     ""The analysis of yeast colonies on different media to assess the effects of mutations on gene expression and"
-200093_scientific_discovery,videos/level_3/200093_.mp4,"This experiment validates an undergraduate-adapted ____ workflow—featuring crosslinking, ____ chromatin digestion, chromatin ligation, and ____-based digestion-efficiency QC—that yields high-quality libraries from ____ nuclei, enabling reliable detection of long-range chromatin contacts.",,"[""3C"", ""DpnII"", ""qPCR"", ""C. elegans""]",CRISPR-Cas9 | formaldehyde | qPCR | intact,PCR | formaldehyde | qPCR | isolated,,0.25,0.25,,"```json
+200093_scientific_discovery,videos/level_3/200093_.mp4,"This experiment validates an undergraduate-adapted ____ workflow—featuring crosslinking, ____ chromatin digestion, chromatin ligation, and ____-based digestion-efficiency QC—that yields high-quality libraries from ____ nuclei, enabling reliable detection of long-range chromatin contacts.",,"[""3C"", ""DpnII"", ""qPCR"", ""C. elegans""]",CRISPR-Cas9 | formaldehyde | qPCR | intact,PCR | formaldehyde | qPCR | isolated,next-generation sequencing | enzymatic | qPCR | isolated,0.25,0.25,0.25,"```json
 {
   ""experiment_overview"": ""The experiment involves sample preparation and incubation for a biochemical analysis, likely involving digestion efficiency measurement."",
   ""novel_techniques_shown"": [""Use of a pipette for precise liquid transfer"", ""Incubation at specific temperatures and times"", ""Swirling to mix samples after reagent addition""],
@@ -9605,7 +9605,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-58474_scientific_discovery,videos/level_3/58474_.mp4,The study concludes that combining enzymatic dissociation using ____ with fluorescence-activated cell sorting based on dual ____ labeling—validated by confocal microscopy—enables efficient purification of low-abundance ____ from the ____ for downstream analyses.,,"[""papain + proteolytic enzyme blend"", ""DsRed/GFP"", ""L3 neurons"", ""Drosophila optic lobe""]",collagenase | fluorochrome | neurons | tissue,pipette | fluorescent | cells | tissue,,0.16666666666666666,0.0,,"```json
+58474_scientific_discovery,videos/level_3/58474_.mp4,The study concludes that combining enzymatic dissociation using ____ with fluorescence-activated cell sorting based on dual ____ labeling—validated by confocal microscopy—enables efficient purification of low-abundance ____ from the ____ for downstream analyses.,,"[""papain + proteolytic enzyme blend"", ""DsRed/GFP"", ""L3 neurons"", ""Drosophila optic lobe""]",collagenase | fluorochrome | neurons | tissue,pipette | fluorescent | cells | tissue,collagenase | fluorochrome | cells | tissue,0.16666666666666666,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves handling and analyzing biological samples, likely for cellular or molecular biology research."",
   ""novel_techniques_shown"": [""Use of a pipette to transfer liquid from a vial into test tubes, possibly for sample preparation or analysis."", ""Use of a centrifuge to separate components within the test tubes."", ""Visualization of cellular structures using fluorescence microscopy, highlighting specific cell parts like L3 cell bodies and axon terminals.""],
@@ -9640,7 +9640,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-60960_scientific_discovery,videos/level_3/60960_.mp4,"In embryoid body differentiation, applying _____ revealed that enhancer–promoter chromatin contacts are dynamically rewired—_____ at the Pou5f1 promoter and _____ at the T promoter—demonstrating a direct link between cis-regulatory contact frequency and _____.",,"[""quantitative 4C"", ""decreasing"", ""increasing"", ""lineage-specific transcriptional regulation""]",DNase I footprinting | increased | decreased | gene expression,Mbol enzyme | increased | decreased | gene expression,,0.0,0.0,,"```json
+60960_scientific_discovery,videos/level_3/60960_.mp4,"In embryoid body differentiation, applying _____ revealed that enhancer–promoter chromatin contacts are dynamically rewired—_____ at the Pou5f1 promoter and _____ at the T promoter—demonstrating a direct link between cis-regulatory contact frequency and _____.",,"[""quantitative 4C"", ""decreasing"", ""increasing"", ""lineage-specific transcriptional regulation""]",DNase I footprinting | increased | decreased | gene expression,Mbol enzyme | increased | decreased | gene expression,100 U Mbol | increased | decreased | gene expression,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves cell lysis, DNA shearing, and size selection to analyze genomic regulation during differentiation processes."",
   ""novel_techniques_shown"": [""Cell lysis using Mbol enzyme"", ""DNA shearing and size selection"", ""Nested PCR""],
@@ -9688,7 +9688,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-61453_scientific_discovery,videos/level_3/61453_.mp4,"The study concludes that a ____ standardizes minimal-manipulation growth and harvesting of ____ and quantitatively validates population distribution using ____ and ____ , enabling reproducible, comparable multi-omics analyses across strains.",,"[""large-scale culture plate method"", ""mixed-stage C. elegans populations"", ""large particle flow cytometry"", ""Time of Flight (TOF) gating""]",standardized protocol | C.elegans | high-throughput imaging | quantitative analysis,standardized protocol | C. elegans strains | automated sample handling | TOF analysis,,0.0,0.14285714285714288,,"```json
+61453_scientific_discovery,videos/level_3/61453_.mp4,"The study concludes that a ____ standardizes minimal-manipulation growth and harvesting of ____ and quantitatively validates population distribution using ____ and ____ , enabling reproducible, comparable multi-omics analyses across strains.",,"[""large-scale culture plate method"", ""mixed-stage C. elegans populations"", ""large particle flow cytometry"", ""Time of Flight (TOF) gating""]",standardized protocol | C.elegans | high-throughput imaging | quantitative analysis,standardized protocol | C. elegans strains | automated sample handling | TOF analysis,robotic arm | C. elegans | automated dispensing | data analysis,0.0,0.14285714285714288,0.16666666666666666,"```json
 {
   ""experiment_overview"": ""The experiment involves the harvesting and processing of samples for population size estimation using C. elegans strains."",
   ""novel_techniques_shown"": [""Automated sample handling"", ""Population size estimation through TOF analysis""],
@@ -9738,7 +9738,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-60488_scientific_discovery,videos/level_3/60488_.mp4,This study demonstrates that __________—by inducing __________ in yeast with bacterial effectors such as __________ and rescuing growth with genomic suppressors—can reveal the __________ targeted when binding partners are unknown.,,"[""yeast toxicity and suppressor screens"", ""galactose-dependent growth defects"", ""Chlamydia trachomatis CT229"", ""host biological pathways""]",yeast suppressor screens | toxicity | APM1 | protein-protein interactions,genetic transformation | toxicity | pSup1 | protein-protein interactions,,0.18749999999999997,0.0,,"```json
+60488_scientific_discovery,videos/level_3/60488_.mp4,This study demonstrates that __________—by inducing __________ in yeast with bacterial effectors such as __________ and rescuing growth with genomic suppressors—can reveal the __________ targeted when binding partners are unknown.,,"[""yeast toxicity and suppressor screens"", ""galactose-dependent growth defects"", ""Chlamydia trachomatis CT229"", ""host biological pathways""]",yeast suppressor screens | toxicity | APM1 | protein-protein interactions,genetic transformation | toxicity | pSup1 | protein-protein interactions,genetic suppression | toxicity | APM1 | protein-protein interactions,0.18749999999999997,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves transforming toxic yeast using a yeast genomic library to identify suppressor strains that can rescue toxicity."",
   ""novel_techniques_shown"": [""Transformation of yeast with a genomic library"", ""Screening for suppressor strains by plating colonies on galactose agar""],
@@ -9799,7 +9799,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ""anything_unusual_or_notable"": [
     ""The use of multiple media types (glucose and galactose) to differentiate yeast growth and toxicity"",
     ""The systematic approach to isolate and confirm"
-57518_scientific_discovery,videos/level_3/57518_.mp4,"The study concludes that a rapid genome editing pipeline in C. elegans uses _____ together with _____ and enrichment via _____ to precisely create endogenous point mutations, validated by installing the _____ variant, enabling analysis of disease-associated alleles without overexpression artifacts.",,"[""CRISPR/Cas9 ribonucleoproteins"", ""ssODN HDR templates"", ""mCherry"", ""sod-1 G93A""]",CRISPR/Cas9 Ribonucleoproteins | ssODN HDR Template | PCR | mCherry,CRISPR/Cas9|ssODN HDR Template|homology-directed repair|mCherry,,0.41666666666666663,0.3333333333333333,,"```json
+57518_scientific_discovery,videos/level_3/57518_.mp4,"The study concludes that a rapid genome editing pipeline in C. elegans uses _____ together with _____ and enrichment via _____ to precisely create endogenous point mutations, validated by installing the _____ variant, enabling analysis of disease-associated alleles without overexpression artifacts.",,"[""CRISPR/Cas9 ribonucleoproteins"", ""ssODN HDR templates"", ""mCherry"", ""sod-1 G93A""]",CRISPR/Cas9 Ribonucleoproteins | ssODN HDR Template | PCR | mCherry,CRISPR/Cas9|ssODN HDR Template|homology-directed repair|mCherry,CRISPR/Cas9 | guide RNAs | sequencing | mCherry,0.41666666666666663,0.3333333333333333,0.16666666666666666,"```json
 {
   ""experiment_overview"": ""The experiment demonstrates a rapid and facile pipeline for generating genomic point mutants in C. elegans using CRISPR/Cas9 ribonucleoproteins."",
   ""novel_techniques_shown"": [""CRISPR/Cas9 system for targeted mutagenesis"", ""ssODN HDR Template for homology-directed repair""],
@@ -9851,7 +9851,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-57774_scientific_discovery,videos/level_3/57774_.mp4,The optimized smFISH method in budding yeast used _____-supplemented digestion/hybridization and dual probe sets—the unique 5′ probe (____) and the common-region probe (____)—to achieve isoform-resolved single-cell RNA quantification and to validate _____-specific expression of the NDC80 long undecoded transcript isoform.,,"[""VRC"", ""CF590"", ""Q670"", ""meiosis""]",zymolyase | NDC80ORF | NDC80luti | meiotic prophase,zymolyase | NDC80ORF | NDC80luti | NDC80ORF,,0.0,0.0,,"```json
+57774_scientific_discovery,videos/level_3/57774_.mp4,The optimized smFISH method in budding yeast used _____-supplemented digestion/hybridization and dual probe sets—the unique 5′ probe (____) and the common-region probe (____)—to achieve isoform-resolved single-cell RNA quantification and to validate _____-specific expression of the NDC80 long undecoded transcript isoform.,,"[""VRC"", ""CF590"", ""Q670"", ""meiosis""]",zymolyase | NDC80ORF | NDC80luti | meiotic prophase,zymolyase | NDC80ORF | NDC80luti | NDC80ORF,zymolyase | NDC80ORF | NDC80luti | NDC80ORF,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves using single molecule fluorescence in situ hybridization (smFISH) to analyze the expression of NDC80 transcripts during vegetative growth and meiosis in budding yeast."",
   ""novel_techniques_shown"": [""smFISH technique for transcript analysis"", ""quantitative analysis of NDC80 transcripts per cell""],
@@ -9902,7 +9902,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-58022_scientific_discovery,videos/level_3/58022_.mp4,"In ex vivo PAMP challenges of mouse splenocytes, LPS and ODN1826 significantly increased expression of _____; only LPS decreased _____; all PAMPs reduced _____; whereas _____ remained unchanged.",,"[""Per2"", ""Rev-erb alpha"", ""Dbp"", ""Clock""]",C/Rel2 | Dbp | mRNA level of β-actin | mRNA level of β-actin,C/EBP2 | Dbp | mRNA level of C/EBP2 | Dbp,,0.0,0.0,,"```json
+58022_scientific_discovery,videos/level_3/58022_.mp4,"In ex vivo PAMP challenges of mouse splenocytes, LPS and ODN1826 significantly increased expression of _____; only LPS decreased _____; all PAMPs reduced _____; whereas _____ remained unchanged.",,"[""Per2"", ""Rev-erb alpha"", ""Dbp"", ""Clock""]",C/Rel2 | Dbp | mRNA level of β-actin | mRNA level of β-actin,C/EBP2 | Dbp | mRNA level of C/EBP2 | Dbp,C/Relk2 | Dbp | mRNA level of β-actin | Control,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment appears to involve culturing cells in RPMI medium supplemented with fetal bovine serum (FBS) and various stimuli such as LPS, ODN1826, and heat-killed Listeria monocytogenes (HKLM). The goal seems to be to measure changes in mRNA levels of specific genes like C/EBP2 and Dbp in response to these stimuli."",
   ""novel_techniques_shown"": [""Use of a microcentrifuge tube for cell culture, automated pipetting, and possibly qPCR analysis for gene expression measurement""],
@@ -9961,7 +9961,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-60828_scientific_discovery,videos/level_3/60828_.mp4,"Fill in the blanks: For the first time in ______, an easy and inexpensive ______-mediated hairy root induction protocol was established to accelerate functional genomics and metabolic engineering, and its effectiveness was demonstrated by elevated flavonoid pathway gene expression and increased biosynthesis of ______ and ______ after overexpressing a light-induced transcription factor.",,"[""tartary buckwheat"", ""Agrobacterium rhizogenes"", ""rutin"", ""quercetin""]",China | Agrobacterium | rutin | flavonoids,plants | Agrobacterium | rutin | flavonoids,,0.41666666666666663,0.41666666666666663,,"```json
+60828_scientific_discovery,videos/level_3/60828_.mp4,"Fill in the blanks: For the first time in ______, an easy and inexpensive ______-mediated hairy root induction protocol was established to accelerate functional genomics and metabolic engineering, and its effectiveness was demonstrated by elevated flavonoid pathway gene expression and increased biosynthesis of ______ and ______ after overexpressing a light-induced transcription factor.",,"[""tartary buckwheat"", ""Agrobacterium rhizogenes"", ""rutin"", ""quercetin""]",China | Agrobacterium | rutin | flavonoids,plants | Agrobacterium | rutin | flavonoids,plants | Agrobacterium rhizogenes | flavonoids | rutin,0.41666666666666663,0.41666666666666663,0.25,"```json
 {
   ""experiment_overview"": ""The experiment involves the transformation of A. rhizogenes into a plant cell culture medium supplemented with sucrose and agar, followed by the analysis of rutin content in different lines of transformed cells."",
   ""novel_techniques_shown"": [""A. rhizogenes transformation preparation"", ""MS medium supplemented with sucrose and agar""],
@@ -10006,7 +10006,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-61124_scientific_discovery,videos/level_3/61124_.mp4,"According to the study, ChIP-exo improves protein–DNA mapping by digesting ChIP DNA with ____ in the ____ direction up to protein–DNA crosslink sites, yielding higher mapping resolution and reduced background than ____, and resolving clustered binding patterns for the transcription factor ____.",,"[""lambda exonuclease"", ""5' to 3'"", ""ChIP-seq"", ""Islet-1""]",lambda exonuclease | 5' to 3' | ChIP-seq | Isl1,lambda exonuclease | 5' to 3' | ChIP-seq | Isl1,,0.75,0.75,,"```json
+61124_scientific_discovery,videos/level_3/61124_.mp4,"According to the study, ChIP-exo improves protein–DNA mapping by digesting ChIP DNA with ____ in the ____ direction up to protein–DNA crosslink sites, yielding higher mapping resolution and reduced background than ____, and resolving clustered binding patterns for the transcription factor ____.",,"[""lambda exonuclease"", ""5' to 3'"", ""ChIP-seq"", ""Islet-1""]",lambda exonuclease | 5' to 3' | ChIP-seq | Isl1,lambda exonuclease | 5' to 3' | ChIP-seq | Isl1,lambda exonuclease | 5' to 3' | ChIP-seq | Isl1,0.75,0.75,0.75,"```json
 {
   ""experiment_overview"": ""The experiment appears to be focused on chromatin immunoprecipitation (ChIP) followed by library preparation for sequencing. This involves isolating specific DNA fragments associated with proteins of interest, which are then amplified and sequenced to study gene regulation."",
   ""novel_techniques_shown"": [""Chromatin Immunoprecipitation (ChIP)"", ""Enzymatic Reactions on Beads""],
@@ -10063,7 +10063,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-4159_scientific_discovery,videos/level_3/4159_.mp4,"This study directly validated, using a ______, that ______ acts as a ______ that significantly enhances ______ compared to static conditions.",,"[""3D collagen/Matrigel transwell model"", ""interstitial fluid flow"", ""mechanobiological cue"", ""tumor cell invasion""]",three-dimensional cell culture model | interstitial fluid flow | mechanical force | tumor cell invasion,flow chamber | interstitial fluid flow | stimulant | tumor cell invasion,,0.5625,0.5,,"```json
+4159_scientific_discovery,videos/level_3/4159_.mp4,"This study directly validated, using a ______, that ______ acts as a ______ that significantly enhances ______ compared to static conditions.",,"[""3D collagen/Matrigel transwell model"", ""interstitial fluid flow"", ""mechanobiological cue"", ""tumor cell invasion""]",three-dimensional cell culture model | interstitial fluid flow | mechanical force | tumor cell invasion,flow chamber | interstitial fluid flow | stimulant | tumor cell invasion,three-dimensional cell culture model | interstitial fluid flow | stimulant | tumor cell invasion,0.5625,0.5,0.5625,"```json
 {
   ""experiment_overview"": ""The experiment investigates the effects of interstitial fluid flow on tumor cell invasion using a three-dimensional cell culture model."",
   ""novel_techniques_shown"": [""Three-dimensional cell culture model"", ""Flow chamber setup for measuring interstitial fluid flow""],
@@ -10108,7 +10108,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-56423_scientific_discovery,videos/level_3/56423_.mp4,"The study used a transcriptional shut-off assay with ____ and spike-in controls to quantify mRNA ____ in proliferating versus contact-inhibited fibroblasts, showing that quiescence stabilizes ____ and establishing ____ as a key mechanism of quiescence-specific gene regulation.",,"[""Actinomycin D"", ""half-lives"", ""Collagen 3A1"", ""mRNA stability""]",phenol-guanidine isothiocyanate solution lysate | abundance | gene expression | transcriptional repression,phenol-guanidine isothiocyanate solution lysate | abundance | gene expression | transcriptional repression,,0.0,0.0,,"```json
+56423_scientific_discovery,videos/level_3/56423_.mp4,"The study used a transcriptional shut-off assay with ____ and spike-in controls to quantify mRNA ____ in proliferating versus contact-inhibited fibroblasts, showing that quiescence stabilizes ____ and establishing ____ as a key mechanism of quiescence-specific gene regulation.",,"[""Actinomycin D"", ""half-lives"", ""Collagen 3A1"", ""mRNA stability""]",phenol-guanidine isothiocyanate solution lysate | abundance | gene expression | transcriptional repression,phenol-guanidine isothiocyanate solution lysate | abundance | gene expression | transcriptional repression,ActD | abundance | gene expression | transcriptional repression,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves isolating total RNA from a lysate using phenol-guanidine isothiocyanate solution, followed by analysis of transcript abundance over time."",
   ""novel_techniques_shown"": [""Isolation of total RNA using phenol-guanidine isothiocyanate solution"", ""Analysis of transcript abundance over time""],
@@ -10163,7 +10163,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-61691_scientific_discovery,videos/level_3/61691_.mp4,"The study introduces an optimized AdEasy-based adenovirus production workflow that captures particles from both _____ and _____ using _____ followed by a one-step _____, thereby reducing time and cost while yielding high-titer virus.",,"[""cell lysate"", ""culture medium"", ""ammonium sulfate precipitation"", ""CsCl discontinuous gradient ultracentrifugation""]",virus-producing cells; culture medium; ultracentrifugation; purification,virus-producing cells | culture medium | precipitation | purification,,0.0,0.375,,"```json
+61691_scientific_discovery,videos/level_3/61691_.mp4,"The study introduces an optimized AdEasy-based adenovirus production workflow that captures particles from both _____ and _____ using _____ followed by a one-step _____, thereby reducing time and cost while yielding high-titer virus.",,"[""cell lysate"", ""culture medium"", ""ammonium sulfate precipitation"", ""CsCl discontinuous gradient ultracentrifugation""]",virus-producing cells; culture medium; ultracentrifugation; purification,virus-producing cells | culture medium | precipitation | purification,virus-producing cells | culture medium | ultracentrifugation | purification,0.0,0.375,0.25,"```json
 {
   ""experiment_overview"": ""The experiment demonstrates the production of adenoviral particles using the AdEasy system, focusing on the recombination, packaging, amplification, purification, and titration stages."",
   ""novel_techniques_shown"": [""Precipitation of adenovirus by ultracentrifugation"", ""Ultracentrifuge tubes for virus purification""],
@@ -10225,7 +10225,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
     ""Centrifuge (9600 x g for 12 min at 22°C)"",
     ""Ultracentrifuge"",
     """
-62671_scientific_discovery,videos/level_3/62671_.mp4,"This experiment establishes a capture-based workflow that uses a ____ resin combined with ____ isobaric labeling and ____ analysis to enable multiplexed, site-specific stoichiometric quantification of oxidized ____ residues across the proteome.",,"[""thiol-affinity resin"", ""TMT isobaric labeling"", ""LC-MS/MS"", ""cystine""]",PropSep | TMT-10plex | LC-MS/MS | cysteine,PropSep | TMT-10plex | Mass spectrometry | Cys,,0.25,0.0,,"```json
+62671_scientific_discovery,videos/level_3/62671_.mp4,"This experiment establishes a capture-based workflow that uses a ____ resin combined with ____ isobaric labeling and ____ analysis to enable multiplexed, site-specific stoichiometric quantification of oxidized ____ residues across the proteome.",,"[""thiol-affinity resin"", ""TMT isobaric labeling"", ""LC-MS/MS"", ""cystine""]",PropSep | TMT-10plex | LC-MS/MS | cysteine,PropSep | TMT-10plex | Mass spectrometry | Cys,PropSep | TMT-10plex | Mass Spectrometry | Thiol,0.25,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves processing and analyzing biological samples to study their protein oxidation states using mass spectrometry techniques."",
   ""novel_techniques_shown"": [""Vacuum manifold setup for sample preparation"", ""SDS-PAGE (Sodium dodecyl sulfate polyacrylamide gel electrophoresis) for protein separation"", ""TMT-10plex mass reporters for quantifying protein oxidation""],
@@ -10277,7 +10277,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-57737_scientific_discovery,videos/level_3/57737_.mp4,"The study concludes that ______ mediates alveolar cross talk in LPS-induced septic lung injury; bronchoalveolar lavage exosomes deliver pro-inflammatory ______ to epithelial cells, increasing pro-inflammatory mediator expression and reducing ______, suggesting that targeting these exosomal signals could be a therapeutic strategy for ______.",,"[""exosome shuttling"", ""micro-RNA"", ""zonula occludens-1"", ""ALI/ARDS""]",exosomal miRNAs | miRNAs | tight junction protein expression | sepsis,exosomes | miRNAs | tight junction integrity | septic lung injury,,0.0,0.0,,"```json
+57737_scientific_discovery,videos/level_3/57737_.mp4,"The study concludes that ______ mediates alveolar cross talk in LPS-induced septic lung injury; bronchoalveolar lavage exosomes deliver pro-inflammatory ______ to epithelial cells, increasing pro-inflammatory mediator expression and reducing ______, suggesting that targeting these exosomal signals could be a therapeutic strategy for ______.",,"[""exosome shuttling"", ""micro-RNA"", ""zonula occludens-1"", ""ALI/ARDS""]",exosomal miRNAs | miRNAs | tight junction protein expression | sepsis,exosomes | miRNAs | tight junction integrity | septic lung injury,exosomes | miRNAs | tight junction integrity | septic lung injury,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment investigates bronchoalveolar lavage exosomes in lipopolysaccharide-induced septic lung injury."",
   ""novel_techniques_shown"": [""Isolation and purification of exosomes"", ""Validation of exosome recipient uptake and interaction""],
@@ -10318,7 +10318,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ],
   ""anything_unusual_or_notable"": [
     ""The use of fluorescent labeling (PKH) to visualize exosome uptake and interaction with recipient"
-57021_scientific_discovery,videos/level_3/57021_.mp4,"The study established an ______ assay to sensitively detect endogenous RdRP activity of ______, revealing that in HeLa cells, during the ______, RdRP products are about ______ in length.",,"[""IP-RdRP"", ""human TERT"", ""mitotic phase"", ""20–30 nucleotides""]",IP-RdRP|TERT|mitotic phase|20 nt,IP-RdRP|TERT|mitotic phase|20 nt,,0.6666666666666666,0.6666666666666666,,"```json
+57021_scientific_discovery,videos/level_3/57021_.mp4,"The study established an ______ assay to sensitively detect endogenous RdRP activity of ______, revealing that in HeLa cells, during the ______, RdRP products are about ______ in length.",,"[""IP-RdRP"", ""human TERT"", ""mitotic phase"", ""20–30 nucleotides""]",IP-RdRP|TERT|mitotic phase|20 nt,IP-RdRP|TERT|mitotic phase|20 nt,IP-RdRP|TERT|mitotic phase|20 nt,0.6666666666666666,0.6666666666666666,0.6666666666666666,"```json
 {
   ""experiment_overview"": ""The experiment involves preparing and using a lysate buffer for an IP-RdRP assay to study immunoprecipitation and RNA polymerase activity in HeLa cells, specifically focusing on endogenous TERT (telomerase reverse transcriptase) under mitotic conditions."",
   ""novel_techniques_shown"": [""Use of a Mini Wave vortex mixer for sample preparation"", ""RNase treatment step to remove contaminating RNases from the sample""],
@@ -10370,7 +10370,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-3227_scientific_discovery,videos/level_3/3227_.mp4,"An accessible, end-to-end negative-stain EM workflow—combining carbon-coated grid preparation with ____ treatment of the grids, staining with ____, and carbon-thickness calibration using a ____—reproducibly yields ____ and supports routine protein assessment and downstream 3D reconstruction.",,"[""glow discharge"", ""uranyl formate"", ""greased glass slide"", ""high-contrast single-particle TEM images""]","negative-stain EM workflow—combining carbon-coated grid preparation with negative-stain treatment of the grids, staining with uranyl acetate, and carbon-thickness calibration using a ferritin standard—reproducibly yields high-quality images and supports routine protein assessment and downstream 3D reconstruction.",drying | uranyl acetate | ferritin | high-quality images,,0.0,0.20833333333333331,,"```json
+3227_scientific_discovery,videos/level_3/3227_.mp4,"An accessible, end-to-end negative-stain EM workflow—combining carbon-coated grid preparation with ____ treatment of the grids, staining with ____, and carbon-thickness calibration using a ____—reproducibly yields ____ and supports routine protein assessment and downstream 3D reconstruction.",,"[""glow discharge"", ""uranyl formate"", ""greased glass slide"", ""high-contrast single-particle TEM images""]","negative-stain EM workflow—combining carbon-coated grid preparation with negative-stain treatment of the grids, staining with uranyl acetate, and carbon-thickness calibration using a ferritin standard—reproducibly yields high-quality images and supports routine protein assessment and downstream 3D reconstruction.",drying | uranyl acetate | ferritin | high-quality images,liquid sample | uranyl acetate | thickness gauge | high-quality images,0.0,0.20833333333333331,0.20833333333333331,"```json
 {
   ""experiment_overview"": ""The experiment involves preparing carbon-coated electron microscopy grids for negative staining to visualize particles such as ferritin."",
   ""novel_techniques_shown"": [""Negative staining technique"", ""Use of carbon-coated grids""],
@@ -10412,7 +10412,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-57561_scientific_discovery,videos/level_3/57561_.mp4,"The experiment establishes a standardized 16S rRNA amplicon sequencing pipeline that combines _____ separation of soil, rhizosphere, and root endosphere, implementing _____ to suppress host chloroplast and mitochondrial 16S, and using _____ prior to equimolar pooling, thereby minimizing methodological bias and enabling robust, compartment-resolved tests of biotic and abiotic drivers of root microbiome structure.",,"[""reproducible"", ""PNA clamping"", ""dual-index barcoding""]",next-generation sequencing | PCR-based depletion | normalization,sterile technique | liquid nitrogen | DNA amplification,,0.0,0.0,,"```json
+57561_scientific_discovery,videos/level_3/57561_.mp4,"The experiment establishes a standardized 16S rRNA amplicon sequencing pipeline that combines _____ separation of soil, rhizosphere, and root endosphere, implementing _____ to suppress host chloroplast and mitochondrial 16S, and using _____ prior to equimolar pooling, thereby minimizing methodological bias and enabling robust, compartment-resolved tests of biotic and abiotic drivers of root microbiome structure.",,"[""reproducible"", ""PNA clamping"", ""dual-index barcoding""]",next-generation sequencing | PCR-based depletion | normalization,sterile technique | liquid nitrogen | DNA amplification,field sampling | liquid nitrogen | PCR amplification,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment focuses on extracting bacterial community data from soil, rhizosphere, and root endosphere to explore the root microbiome."",
   ""novel_techniques_shown"": [""Sterile technique throughout protocol"", ""Use appropriate personal protective equipment with liquid N2""],
@@ -10467,7 +10467,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-59764_scientific_discovery,videos/level_3/59764_.mp4,"The study demonstrates that a ____ desktop photoacoustic tomography system using eight ____ enables noninvasive, high-speed (____) imaging of rat cortical vasculature and real-time tracking of ____ wash-in and wash-out through intact skin and skull.",,"[""pulsed laser diode-based"", ""acoustic reflector-based single-element ultrasound transducers"", ""0.5 s"", ""indocyanine green (ICG)""]",PLD-PAT | photodiodes | PA | ICG,jove | channels | 120 Hz | ICG,,0.0,0.0,,"```json
+59764_scientific_discovery,videos/level_3/59764_.mp4,"The study demonstrates that a ____ desktop photoacoustic tomography system using eight ____ enables noninvasive, high-speed (____) imaging of rat cortical vasculature and real-time tracking of ____ wash-in and wash-out through intact skin and skull.",,"[""pulsed laser diode-based"", ""acoustic reflector-based single-element ultrasound transducers"", ""0.5 s"", ""indocyanine green (ICG)""]",PLD-PAT | photodiodes | PA | ICG,jove | channels | 120 Hz | ICG,jove | detectors | 120 Hz | ICG,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves non-invasive in vivo pharmacokinetics using PLD-PAT (Photoacoustic Tomography) imaging to study ICG (Indocyanine Green) kinetics in rats under anesthesia."",
   ""novel_techniques_shown"": [""Non-invasive PLD-PAT imaging for in vivo pharmacokinetics"", ""Use of ICG as a contrast agent for imaging""],
@@ -10519,7 +10519,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-57598_scientific_discovery,videos/level_3/57598_.mp4,"In SiC-seq, droplet microfluidics are used to encapsulate single cells in ___, perform in-droplet ___, and electrically merge each genome with a unique ___ via a ___ and PCR, enabling ultrahigh-throughput single-cell genome sequencing with uniform coverage while preserving genomic heterogeneity.",,"[""agarose microgels"", ""tagmentation"", ""barcode"", ""double merger device""]",agarose microgels | amplification | barcode | electroporation,droplets | amplification | barcode | nanoelectrode,,0.5,0.25,,"```json
+57598_scientific_discovery,videos/level_3/57598_.mp4,"In SiC-seq, droplet microfluidics are used to encapsulate single cells in ___, perform in-droplet ___, and electrically merge each genome with a unique ___ via a ___ and PCR, enabling ultrahigh-throughput single-cell genome sequencing with uniform coverage while preserving genomic heterogeneity.",,"[""agarose microgels"", ""tagmentation"", ""barcode"", ""double merger device""]",agarose microgels | amplification | barcode | electroporation,droplets | amplification | barcode | nanoelectrode,agarose microgels | amplification | barcode | droplet,0.5,0.25,0.5,"```json
 {
   ""experiment_overview"": ""The experiment involves preparing and analyzing single-cell genomes using ultrahigh throughput sequencing techniques."",
   ""novel_techniques_shown"": [""Ultrahigh throughput sequencing"", ""Breaking agarose microgels""],
@@ -10567,7 +10567,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-52325_scientific_discovery,videos/level_3/52325_.mp4,"According to the study, organotypic 3D bronchial and nasal tissue models cultured at the ______, when repeatedly exposed to ______ and profiled by microarray with a ______ assessment of backbone nodes, reproduced in vivo smoking impacts by showing reduced ______, supporting their use as a human-relevant alternative to animal testing.",,"[""air-liquid interface"", ""whole cigarette smoke"", ""network-based systems biology"", ""ciliary beating frequency""]",37°C | filtered air | pairwise comparison | CBF,"37°C, 5% CO2, and 90% humidity | cigarette smoke (CS) | network-based | CBF",,0.0,0.29166666666666663,,"```json
+52325_scientific_discovery,videos/level_3/52325_.mp4,"According to the study, organotypic 3D bronchial and nasal tissue models cultured at the ______, when repeatedly exposed to ______ and profiled by microarray with a ______ assessment of backbone nodes, reproduced in vivo smoking impacts by showing reduced ______, supporting their use as a human-relevant alternative to animal testing.",,"[""air-liquid interface"", ""whole cigarette smoke"", ""network-based systems biology"", ""ciliary beating frequency""]",37°C | filtered air | pairwise comparison | CBF,"37°C, 5% CO2, and 90% humidity | cigarette smoke (CS) | network-based | CBF","37°C, 5% CO2, and 90% humidity | filtered air | network-based | CBF",0.0,0.29166666666666663,0.125,"```json
 {
   ""experiment_overview"": ""The experiment involves culturing human nasal tissue to study its response to environmental factors such as cigarette smoke (CS) exposure. The process includes measuring ciliary beating frequency (CBF), transepithelial electrical resistance (TEER), and gene expression profiles to understand the metabolic network changes in smokers versus non-smokers."",
   ""novel_techniques_shown"": [""Measurement of Ciliary Beating & Transepithelial Electrical Resistance (TEER)"", ""RNA extraction using the MagNA Lyser system"", ""Network-based analysis of gene expression profiles""],
@@ -10617,7 +10617,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-59474_scientific_discovery,videos/level_3/59474_.mp4,"In this study, applying ______ to ______ during ______ led to an accelerated decrease in ______, establishing it as a mechanotransduction readout linking external tensile strain to differentiation dynamics.",,"[""uniaxial 10% tensile strain"", ""oligodendrocyte progenitor cells"", ""chemically induced differentiation"", ""nuclear area fluctuations""]",Chemical Induction | Cells | 24 hours | Nuclear Projected Area Fluctuations,Chemical Induction | Cells | 10% Traction Alone | Standard Deviation of Nuclear Projected Area (%),,0.3392857142857143,0.225,,"```json
+59474_scientific_discovery,videos/level_3/59474_.mp4,"In this study, applying ______ to ______ during ______ led to an accelerated decrease in ______, establishing it as a mechanotransduction readout linking external tensile strain to differentiation dynamics.",,"[""uniaxial 10% tensile strain"", ""oligodendrocyte progenitor cells"", ""chemically induced differentiation"", ""nuclear area fluctuations""]",Chemical Induction | Cells | 24 hours | Nuclear Projected Area Fluctuations,Chemical Induction | Cells | 10% Traction Alone | Standard Deviation of Nuclear Projected Area (%),transfection mix | cell cultures | chemical induction | nuclear fluctuations,0.3392857142857143,0.225,0.2,"```json
 {
   ""experiment_overview"": ""The experiment involves culturing cells and analyzing their nuclear fluctuations under different conditions."",
   ""novel_techniques_shown"": [""Use of CellLight H2B-GFP BacMam2 transfection mix for cell culture"", ""Automated microscopy setup for continuous monitoring of cell nuclei""],
@@ -10661,7 +10661,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-56488_scientific_discovery,videos/level_3/56488_.mp4,"This study’s key methodological innovation is that ________, analyzed via ________ and relying solely on ________, enables rigorous, reproducible quantification of cortical bone fracture resistance at the mesoscale while directly identifying toughening micro-mechanisms such as ________.",,"[""microscopic scratch testing"", ""non-linear fracture mechanics"", ""force-depth measurements"", ""crack deflection and bridging""]",a novel indentation technique | a custom-built indentation machine | a finite element model | crack bridging |,the use of a Branson sonicator bath for sample preparation | a scratch test | Hanks Balanced Saline Solution (HBSS) | crack bridging,,0.16666666666666666,0.16666666666666666,,"```json
+56488_scientific_discovery,videos/level_3/56488_.mp4,"This study’s key methodological innovation is that ________, analyzed via ________ and relying solely on ________, enables rigorous, reproducible quantification of cortical bone fracture resistance at the mesoscale while directly identifying toughening micro-mechanisms such as ________.",,"[""microscopic scratch testing"", ""non-linear fracture mechanics"", ""force-depth measurements"", ""crack deflection and bridging""]",a novel indentation technique | a custom-built indentation machine | a finite element model | crack bridging |,the use of a Branson sonicator bath for sample preparation | a scratch test | Hanks Balanced Saline Solution (HBSS) | crack bridging,the use of a machine with precise control over force application and scratch geometry settings | a machine with precise control over force application and scratch geometry settings | a machine with precise control over force application and scratch geometry settings | crack bridging,0.16666666666666666,0.16666666666666666,0.19444444444444442,"```json
 {
   ""experiment_overview"": ""The experiment involves thawing a sample, preparing it for analysis, and conducting a mechanical test to assess material properties."",
   ""novel_techniques_shown"": [""Thawing the sample at room temperature for 2 hours"", ""Using Hanks Balanced Saline Solution (HBSS) for preparation"", ""Performing a scratch test to measure material properties""],
@@ -10702,7 +10702,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-61184_scientific_discovery,videos/level_3/61184_.mp4,"The methodological innovation reported is that the _____ enables the only in‑process measurement of _____ during cure to quantify strength development and heat resistance, thereby _____ and distinguishing _____ in wood adhesive bonds.",,"[""Automated Bonding Evaluation System"", ""shear bond strength"", ""predicting press time"", ""thermal softening from thermal degradation""]",methodology | shear strength | improving accuracy | variations,machine | shear strength | automating | surface characteristics,,0.2,0.2,,"```json
+61184_scientific_discovery,videos/level_3/61184_.mp4,"The methodological innovation reported is that the _____ enables the only in‑process measurement of _____ during cure to quantify strength development and heat resistance, thereby _____ and distinguishing _____ in wood adhesive bonds.",,"[""Automated Bonding Evaluation System"", ""shear bond strength"", ""predicting press time"", ""thermal softening from thermal degradation""]",methodology | shear strength | improving accuracy | variations,machine | shear strength | automating | surface characteristics,bonding machine | shear strength | providing real-time data | different types of wood,0.2,0.2,0.2833333333333333,"```json
 {
   ""experiment_overview"": ""The experiment appears to be focused on the bonding process between materials, possibly wood or similar substrates, under controlled conditions. It involves measuring the strength of the bond as a function of temperature and time, and analyzing the surface characteristics of failed bonds."",
   ""novel_techniques_shown"": [""The use of a specialized machine for bonding specimens, automated data collection, and detailed analysis of bond strength and surface characteristics""],
@@ -10734,7 +10734,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-56859_scientific_discovery,videos/level_3/56859_.mp4,"An optimized ____-based passive optical-clearing protocol for the ____ renders tissue transparent while preserving antigenicity, enabling high-resolution 3D visualization of the ______—including ______—to directly facilitate interrogation of islet innervation relevant to diabetes.",,"[""PACT"", ""human pancreas"", ""neuro-insular network"", ""VIP+ nerve fibers""]",hydrogel | pancreas | cellular architecture | insulin and glucagon,hydrogel | pancreas | tissue architecture | islet innervation,,0.16666666666666666,0.16666666666666666,,"```json
+56859_scientific_discovery,videos/level_3/56859_.mp4,"An optimized ____-based passive optical-clearing protocol for the ____ renders tissue transparent while preserving antigenicity, enabling high-resolution 3D visualization of the ______—including ______—to directly facilitate interrogation of islet innervation relevant to diabetes.",,"[""PACT"", ""human pancreas"", ""neuro-insular network"", ""VIP+ nerve fibers""]",hydrogel | pancreas | cellular architecture | insulin and glucagon,hydrogel | pancreas | tissue architecture | islet innervation,hydrogel | pancreas | tissue | islets,0.16666666666666666,0.16666666666666666,0.16666666666666666,"```json
 {
   ""experiment_overview"": ""The experiment involves the fixation and embedding of pancreas tissue for subsequent imaging analysis using immunofluorescence staining techniques."",
   ""novel_techniques_shown"": [""Hydrogel embedding technique for tissue preservation"", ""Immunofluorescence staining for cellular localization""],
@@ -10783,7 +10783,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-3608_scientific_discovery,videos/level_3/3608_.mp4,"The study concludes that a 3D ______ microcapsule platform combining ______ treatment and co-culture with ______ enables high-density propagation of human embryonic stem cells and more efficient dopaminergic neuronal differentiation than 2D systems, as shown by upregulation of ______.",,"[""alginate"", ""ROCK inhibitor"", ""PA6"", ""tyrosine hydroxylase (TH)""]",Alginate | ROCK inhibitor | hFF-CM | OCT4,alginate|ROCK inhibitor|hFF-CM|OCT4,,0.5,0.5,,"```json
+3608_scientific_discovery,videos/level_3/3608_.mp4,"The study concludes that a 3D ______ microcapsule platform combining ______ treatment and co-culture with ______ enables high-density propagation of human embryonic stem cells and more efficient dopaminergic neuronal differentiation than 2D systems, as shown by upregulation of ______.",,"[""alginate"", ""ROCK inhibitor"", ""PA6"", ""tyrosine hydroxylase (TH)""]",Alginate | ROCK inhibitor | hFF-CM | OCT4,alginate|ROCK inhibitor|hFF-CM|OCT4,alginate | ROCK inhibitor | hFF-CM | OCT4,0.5,0.5,0.5,"```json
 {
   ""experiment_overview"": ""The experiment involves preparing and encapsulating human embryonic stem cells (hESC) using alginate, followed by culturing them under specific conditions to study their proliferation and expression levels."",
   ""novel_techniques_shown"": [""Alginate encapsulation"", ""Culturing hESC in SR media with ROCK inhibitor"", ""BrdU staining for cell proliferation analysis"", ""TUNEL assay for apoptosis detection""],
@@ -10844,7 +10844,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-57982_scientific_discovery,videos/level_3/57982_.mp4,"Using ______ to quantify newly synthesized mRNA as a direct proxy for ______, the study finds that the ______ in budding yeast promotes transcription genome-wide; widespread decreases in mRNA synthesis are buffered at steady state by compensatory reductions in ______.",,"[""4-thiouracil pulse labeling"", ""RNA polymerase II activity"", ""SAGA complex"", ""mRNA degradation""]",RNA polymerase II activity | RNA polymerase II activity | spt20Δ | mRNA synthesis,qPCR | RNA Polymerase II activity | spt20Δ | translation,,0.375,0.25,,"```json
+57982_scientific_discovery,videos/level_3/57982_.mp4,"Using ______ to quantify newly synthesized mRNA as a direct proxy for ______, the study finds that the ______ in budding yeast promotes transcription genome-wide; widespread decreases in mRNA synthesis are buffered at steady state by compensatory reductions in ______.",,"[""4-thiouracil pulse labeling"", ""RNA polymerase II activity"", ""SAGA complex"", ""mRNA degradation""]",RNA polymerase II activity | RNA polymerase II activity | spt20Δ | mRNA synthesis,qPCR | RNA Polymerase II activity | spt20Δ | translation,magnetic bead system | RNA Polymerase II activity | deletion of spt20Δ | translation rates,0.375,0.25,0.25,"```json
 {
   ""experiment_overview"": ""The experiment appears to involve the quantification of newly synthesized mRNA as a proxy for RNA polymerase II activity in yeast strains exposed to rapamycin. The study likely aims to investigate the effects of specific gene deletions (e.g., spt20Δ, bre1Δ) on mRNA synthesis under rapamycin treatment."",
   ""novel_techniques_shown"": [""Use of qPCR to quantify mRNA levels"", ""Normalization of mRNA expression to S. pombe""],
@@ -10890,7 +10890,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-67076_scientific_discovery,videos/level_3/67076_.mp4,"The main methodological conclusion is that a __________ assay was used to assemble and activate the __________ via the origin-based pathway on __________ DNA, and to visualize its ATP-dependent long-range motion using __________, overcoming single-molecule concentration/aggregation limits.",,"[""hybrid ensemble–single-molecule"", ""CMG"", ""doubly functionalized"", ""dual-beam optical tweezers–confocal microscopy""]",Hybrid Ensemble | CMG Complex | Single-stranded | Fluorescence Microscopy |,hybrid ensemble and single-molecule|CMG complexes|Mcm10|ATP|live imaging,,0.37499999999999994,0.25,,"```json
+67076_scientific_discovery,videos/level_3/67076_.mp4,"The main methodological conclusion is that a __________ assay was used to assemble and activate the __________ via the origin-based pathway on __________ DNA, and to visualize its ATP-dependent long-range motion using __________, overcoming single-molecule concentration/aggregation limits.",,"[""hybrid ensemble–single-molecule"", ""CMG"", ""doubly functionalized"", ""dual-beam optical tweezers–confocal microscopy""]",Hybrid Ensemble | CMG Complex | Single-stranded | Fluorescence Microscopy |,hybrid ensemble and single-molecule|CMG complexes|Mcm10|ATP|live imaging,hybrid ensemble and single-molecule|CMG|fully reconstituted|computer-assisted analysis,0.37499999999999994,0.25,0.3333333333333333,"```json
 {
   ""experiment_overview"": ""The experiment involves imaging the motion of fully reconstituted CMG (Cdc6-Mcm10-Gemin6) complexes using a hybrid ensemble and single-molecule assay. This technique allows for detailed observation of the movement of these complexes under specific conditions."",
   ""novel_techniques_shown"": [""Hybrid ensemble and single-molecule assay to image the motion of fully reconstituted CMG complexes""],
@@ -10947,7 +10947,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-62649_scientific_discovery,videos/level_3/62649_.mp4,"The methodological innovation shown was a _____ open globe injury platform that, by combining a _____, continuous monitoring of _____, and _____, enabled animal-sparing quantification of injury progression and therapeutic efficacy over at least 72 hours.",,"[""anterior segment organ culture (ASOC)"", ""pneumatic-powered puncture device"", ""intraocular pressure (IOP)"", ""OCT imaging""]",ASOC | pressure transducer | intraocular pressure (IOP) | histology,specialized | Dermabond adhesive | intraocular pressure (IOP) | incubation at 37°C with 5% CO2,,0.25,0.25,,"```json
+62649_scientific_discovery,videos/level_3/62649_.mp4,"The methodological innovation shown was a _____ open globe injury platform that, by combining a _____, continuous monitoring of _____, and _____, enabled animal-sparing quantification of injury progression and therapeutic efficacy over at least 72 hours.",,"[""anterior segment organ culture (ASOC)"", ""pneumatic-powered puncture device"", ""intraocular pressure (IOP)"", ""OCT imaging""]",ASOC | pressure transducer | intraocular pressure (IOP) | histology,specialized | Dermabond adhesive | intraocular pressure (IOP) | incubation at 37°C with 5% CO2,precise mechanical device | pressure monitoring equipment | intraocular pressure (IOP) | adhesives,0.25,0.25,0.25,"```json
 {
   ""experiment_overview"": ""The experiment appears to be focused on the effects of open globe injury on intraocular pressure (IOP) over time, possibly investigating the use of different adhesives to manage IOP post-injury."",
   ""novel_techniques_shown"": [""Use of a specialized setup for measuring IOP, including a device that likely simulates eye pressure changes over time."", ""Comparison of IOP levels before and after injury using cross-sectional and top-down projection views."", ""Incorporation of an adhesive (Dermabond) to potentially stabilize IOP levels post-injury.""],
@@ -10989,7 +10989,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-62279_scientific_discovery,videos/level_3/62279_.mp4,"The study introduces a human-replicated, 3D perfusion model of the ____ that is lined with ____ and reproduces physiological hemodynamics, including ____ and ____, to quantify particle deposition and adhesion under flow.",,"[""carotid artery bifurcation"", ""endothelial cells"", ""recirculation"", ""wall shear stress""]",intestine | endothelial cells | shear stress | pulsatile flow,lung | endothelial cells | shear stress | pulsatile flow,,0.25,0.25,,"```json
+62279_scientific_discovery,videos/level_3/62279_.mp4,"The study introduces a human-replicated, 3D perfusion model of the ____ that is lined with ____ and reproduces physiological hemodynamics, including ____ and ____, to quantify particle deposition and adhesion under flow.",,"[""carotid artery bifurcation"", ""endothelial cells"", ""recirculation"", ""wall shear stress""]",intestine | endothelial cells | shear stress | pulsatile flow,lung | endothelial cells | shear stress | pulsatile flow,lung | endothelial cells | shear stress | pulsatile flow,0.25,0.25,0.25,"```json
 {
   ""experiment_overview"": ""The experiment involves culturing cells in a controlled environment to observe their behavior under specific conditions."",
   ""novel_techniques_shown"": [""Use of a CO2 incubator for maintaining cell culture at optimal temperature and pH"", ""Monitoring of gas exchange using a gas monitoring system"", ""Immunofluorescence staining to visualize cellular structures and proteins""],
@@ -11039,7 +11039,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-51044_scientific_discovery,videos/level_3/51044_.mp4,"This experiment shows that using _____-based cell sheet engineering, combined with a _____-assisted transfer onto a _____, preserves _____ to produce organized, multicellular implantable patches that avoid tearing and disorganization seen with conventional hydrogel embedding.",,"[""pNIPAAM"", ""gelatin/metal lattice"", ""fibrous matrix hydrogel scaffold"", ""lateral cell borders""]",pNIPAAM | FBS | substrate | cell viability,FBS | pNIPAAM | substrate | cell viability,,0.35,0.1,,"```json
+51044_scientific_discovery,videos/level_3/51044_.mp4,"This experiment shows that using _____-based cell sheet engineering, combined with a _____-assisted transfer onto a _____, preserves _____ to produce organized, multicellular implantable patches that avoid tearing and disorganization seen with conventional hydrogel embedding.",,"[""pNIPAAM"", ""gelatin/metal lattice"", ""fibrous matrix hydrogel scaffold"", ""lateral cell borders""]",pNIPAAM | FBS | substrate | cell viability,FBS | pNIPAAM | substrate | cell viability,pNIPAAM | FBS | substrate | cell viability,0.35,0.1,0.35,"```json
 {
   ""experiment_overview"": ""The experiment involves preparing and analyzing a sample solution containing pNIPAAM (Poly(N-isopropylacrylamide)) and fetal bovine serum (FBS) for potential applications in cell culture or biotechnology research."",
   ""novel_techniques_shown"": [""Use of a digital balance for precise weighing of materials"", ""Incorporation of FBS into the solution for cell culture purposes""],
@@ -11079,7 +11079,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-2177_scientific_discovery,videos/level_3/2177_.mp4,"The methodological innovation described is a modular tissue engineering approach that fabricates ____-coated ____ small enough to avoid oxygen-diffusion constraints, and allows assembly and study in ____ and in vivo to promote ____.",,"[""endothelial cell–coated"", ""collagen gel modules"", ""microfluidic chambers"", ""rapid vascularization""]",polyethylene glycol | scaffolds | vitro | vascularization,nanoporous | scaffolds | vitro | vascularization,,0.16666666666666666,0.16666666666666666,,"```json
+2177_scientific_discovery,videos/level_3/2177_.mp4,"The methodological innovation described is a modular tissue engineering approach that fabricates ____-coated ____ small enough to avoid oxygen-diffusion constraints, and allows assembly and study in ____ and in vivo to promote ____.",,"[""endothelial cell–coated"", ""collagen gel modules"", ""microfluidic chambers"", ""rapid vascularization""]",polyethylene glycol | scaffolds | vitro | vascularization,nanoporous | scaffolds | vitro | vascularization,bioactive scaffolds | cells | vitro | tissue regeneration,0.16666666666666666,0.16666666666666666,0.0,"```json
 {
   ""experiment_overview"": ""The experiment appears to involve culturing and observing the growth of small modules over time, possibly related to tissue engineering or cell culture research."",
   ""novel_techniques_shown"": [""Use of an automatic tube cutter for precision cutting of tubes"", ""Incubation at 37°C for 60 minutes"", ""Observation of module growth over days (Day 0, Day 3, Day 7)""],
@@ -11115,7 +11115,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-50658_scientific_discovery,videos/level_3/50658_.mp4,"According to the experiment, perfusion-decellularization of rat small intestine through the [blank] with luminal cannulation and sequential perfusion using deionized water, [blank], and [blank] yields a natural acellular matrix that preserves the [blank] and hierarchical vascular network, enabling a 3D scaffold that can be seeded and reconnected to the host blood supply.",,"[""superior mesenteric artery (SMA)"", ""sodium deoxycholate"", ""DNase I"", ""villus-crypt architecture""]",luminal cannulation | PBS/AA | DNase I | architecture,luminal cannulation | PBS/AA | DNase I | extracellular matrix,,0.41666666666666663,0.25,,"```json
+50658_scientific_discovery,videos/level_3/50658_.mp4,"According to the experiment, perfusion-decellularization of rat small intestine through the [blank] with luminal cannulation and sequential perfusion using deionized water, [blank], and [blank] yields a natural acellular matrix that preserves the [blank] and hierarchical vascular network, enabling a 3D scaffold that can be seeded and reconnected to the host blood supply.",,"[""superior mesenteric artery (SMA)"", ""sodium deoxycholate"", ""DNase I"", ""villus-crypt architecture""]",luminal cannulation | PBS/AA | DNase I | architecture,luminal cannulation | PBS/AA | DNase I | extracellular matrix,perfusion system | DNase I | PBS/AA | extracellular matrix,0.41666666666666663,0.25,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves isolating rat intestine for further analysis, likely for research purposes such as studying tissue structure or function."",
   ""novel_techniques_shown"": [""Use of PBS/AA solution for rinsing, incubation with DNase I at room temperature for 3 hours, and deionized water flow rate control for 24 hours at 4°C""],
@@ -11163,7 +11163,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-61993_scientific_discovery,videos/level_3/61993_.mp4,"The study demonstrates that a hierarchical _____ cloning workflow using _____ dropout-based visual screening efficiently assembles and validates multi-gene plasmids for both _____ and _____ in yeast, enabling rapid combinatorial pathway engineering.",,"[""Yeast MoClo Golden Gate"", ""sfGFP/mRFP1"", ""replicative expression"", ""CRISPR-assisted genomic integration""]",cloning | auxotrophic | β-carotene | lycopene,cloning | antibiotic | β-carotene | lycopene,,0.0,0.0,,"```json
+61993_scientific_discovery,videos/level_3/61993_.mp4,"The study demonstrates that a hierarchical _____ cloning workflow using _____ dropout-based visual screening efficiently assembles and validates multi-gene plasmids for both _____ and _____ in yeast, enabling rapid combinatorial pathway engineering.",,"[""Yeast MoClo Golden Gate"", ""sfGFP/mRFP1"", ""replicative expression"", ""CRISPR-assisted genomic integration""]",cloning | auxotrophic | β-carotene | lycopene,cloning | antibiotic | β-carotene | lycopene,cloning | red | β-carotene | lycopene,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves assembling plasmids into 'cassette' plasmids to study the production of carotenoids (β-carotene and lycopene) in genetically modified organisms."",
   ""novel_techniques_shown"": [""Use of multi-gene plasmids for simultaneous expression of multiple genes related to carotenoid biosynthesis"", ""Selection of transformed cells using specific antibiotics""],
@@ -11218,7 +11218,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-53156_scientific_discovery,videos/level_3/53156_.mp4,The experiment validated that computer software-controlled ______ of human adipose tissue stromal cells in ______ enables precise placement in complex 3D geometries while maintaining ______ and enhancing ______.,,"[""extrusion-based 3D bioprinting"", ""oxidized RGD-conjugated alginate bioink"", ""high viability"", ""cell spreading and proliferation""]",dispenser | alginate bioink | cell viability | tissue regeneration,bioprinter | RGD-conjugated Alginate Bioink | cell viability | cell adhesion,,0.29166666666666663,0.4226190476190476,,"```json
+53156_scientific_discovery,videos/level_3/53156_.mp4,The experiment validated that computer software-controlled ______ of human adipose tissue stromal cells in ______ enables precise placement in complex 3D geometries while maintaining ______ and enhancing ______.,,"[""extrusion-based 3D bioprinting"", ""oxidized RGD-conjugated alginate bioink"", ""high viability"", ""cell spreading and proliferation""]",dispenser | alginate bioink | cell viability | tissue regeneration,bioprinter | RGD-conjugated Alginate Bioink | cell viability | cell adhesion,dispensing | RGD-conjugated alginate bioink | cell viability | cell adhesion,0.29166666666666663,0.4226190476190476,0.4226190476190476,"```json
 {
   ""experiment_overview"": ""The experiment investigates the viability of bioprinted cellular constructs using a three dispenser Cartesian printer to prepare human adipose tissue stromal cells (hADSC)."",
   ""novel_techniques_shown"": [""Use of a three dispenser Cartesian printer for bioprinting"", ""RGD-conjugated Alginate Bioink for cell encapsulation""],
@@ -11260,7 +11260,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-52750_scientific_discovery,videos/level_3/52750_.mp4,"The experiment shows that the ____ provides a perfused ex vivo culture that maintains valve viability (____) and native ECM organization at ____ while remaining responsive to environmental changes, with ____ causing leaflet thickening.",,"[""Miniature Tissue Culture System (MTCS)"", ""TUNEL-negative"", ""1% serum"", ""10% serum""]",MTCS | morphology | 10% serum | 1% serum,MTCS | morphology | 10% serum | 1% serum,,0.25,0.25,,"```json
+52750_scientific_discovery,videos/level_3/52750_.mp4,"The experiment shows that the ____ provides a perfused ex vivo culture that maintains valve viability (____) and native ECM organization at ____ while remaining responsive to environmental changes, with ____ causing leaflet thickening.",,"[""Miniature Tissue Culture System (MTCS)"", ""TUNEL-negative"", ""1% serum"", ""10% serum""]",MTCS | morphology | 10% serum | 1% serum,MTCS | morphology | 10% serum | 1% serum,MTCS | H&E | 10% serum | 1% serum,0.25,0.25,0.25,"```json
 {
   ""experiment_overview"": ""The experiment involves culturing heart valves under different serum conditions to observe morphological changes."",
   ""novel_techniques_shown"": [""Miniature Tissue Culture System (MTCS) Assembly"", ""In situ culture of heart valves""],
@@ -11306,7 +11306,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-3953_scientific_discovery,videos/level_3/3953_.mp4,"Complete the conclusion: In a bilayered hydrogel system that enabled matrix-dependent, bidirectional migration from a single adipose-derived stem cell source, the _____ layer preserved stemness indicated by _____, whereas the _____ layer induced tube-like vascular structures positive for _____.",,"[""collagen"", ""Stro-1"", ""PEG-fibrin"", ""von Willebrand factor""]",Collagen | presence of undifferentiated cells | PEGylated Fibrin | CD31,Collagen | absence of differentiation markers | PEGylated Fibrin | VEGF,,0.25,0.25,,"```json
+3953_scientific_discovery,videos/level_3/3953_.mp4,"Complete the conclusion: In a bilayered hydrogel system that enabled matrix-dependent, bidirectional migration from a single adipose-derived stem cell source, the _____ layer preserved stemness indicated by _____, whereas the _____ layer induced tube-like vascular structures positive for _____.",,"[""collagen"", ""Stro-1"", ""PEG-fibrin"", ""von Willebrand factor""]",Collagen | presence of undifferentiated cells | PEGylated Fibrin | CD31,Collagen | absence of differentiation markers | PEGylated Fibrin | VEGF,PEGylated Fibrin | absence of differentiation markers | Collagen | VEGF,0.25,0.25,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves engineering a bilayered hydrogel to control ASC (Adipose-derived Stem Cells) differentiation using collagen and PEGylated Fibrin."",
   ""novel_techniques_shown"": [""Inverted gel preparation technique"", ""Cell embedding in collagen gels""],
@@ -11358,7 +11358,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-4415_scientific_discovery,videos/level_3/4415_.mp4,"This experiment demonstrates a _____-guided microscale _____ approach that achieves high-efficiency, site-specific transfection of adherent cells with _____, with single-cell/cluster spatial control, while enabling simultaneous _____ and scalable high-throughput assays.",,"[""microelectrode array"", ""electroporation"", ""siRNA"", ""quantitative electrophysiology""]",electrode | transfection | DNA/siRNA | phenotype detection,electrode | transfection | DNA/siRNA | electrophysiological monitoring,,0.0,0.0,,"```json
+4415_scientific_discovery,videos/level_3/4415_.mp4,"This experiment demonstrates a _____-guided microscale _____ approach that achieves high-efficiency, site-specific transfection of adherent cells with _____, with single-cell/cluster spatial control, while enabling simultaneous _____ and scalable high-throughput assays.",,"[""microelectrode array"", ""electroporation"", ""siRNA"", ""quantitative electrophysiology""]",electrode | transfection | DNA/siRNA | phenotype detection,electrode | transfection | DNA/siRNA | electrophysiological monitoring,electrode | transfection | DNA/siRNA | phenotype detection,0.0,0.0,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves preparing a microelectrode array (MEA) for phenotype detection by cell seeding and analyzing the cells using fluorescent microscopy."",
   ""novel_techniques_shown"": [""Use of microelectrode arrays for phenotype detection"", ""Cell seeding technique""],
@@ -11402,7 +11402,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-64798_scientific_discovery,videos/level_3/64798_.mp4,"The main conclusion is that a rapid, high-throughput, non-aqueous protocol using _____ and a microsieving workflow to isolate and enrich _____ from Cannabis sativa while preserving _____ and yielding _____, enables robust transcriptomic and proteomic analyses.",,"[""liquid nitrogen–dry ice"", ""glandular capitate stalked and sessile trichomes"", ""trichome head morphology"", ""high RNA integrity (RIN)""]",ethanol | cannabinoids | RNA integrity | high-quality samples,microsieving | cannabinoids | cellular integrity | high-quality data,,0.0,0.0,,"```json
+64798_scientific_discovery,videos/level_3/64798_.mp4,"The main conclusion is that a rapid, high-throughput, non-aqueous protocol using _____ and a microsieving workflow to isolate and enrich _____ from Cannabis sativa while preserving _____ and yielding _____, enables robust transcriptomic and proteomic analyses.",,"[""liquid nitrogen–dry ice"", ""glandular capitate stalked and sessile trichomes"", ""trichome head morphology"", ""high RNA integrity (RIN)""]",ethanol | cannabinoids | RNA integrity | high-quality samples,microsieving | cannabinoids | cellular integrity | high-quality data,dry ice | cannabinoids | cellular integrity | high-quality RNA,0.0,0.0,0.18333333333333335,"```json
 {
   ""experiment_overview"": ""The experiment involves preparing and analyzing soil samples to determine their particle size distribution using a micro-sieving technique."",
   ""novel_techniques_shown"": [""Micro-sieving technique for soil analysis""],
@@ -11444,7 +11444,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-54664_scientific_discovery,videos/level_3/54664_.mp4,"This study concludes that biodegradable ____ enable ____ of compounds to ____; when loaded with ____ they increased Ki67/insulin-positive beta-cell proliferation without loss of protein functionality, establishing a controlled platform for screening and potential cotransplantation applications.",,"[""PLGA microspheres"", ""sustained local delivery"", ""cultured intact pancreatic islets"", ""recombinant human connective tissue growth factor""]",Poly(lactic-co-glycolic Acid) Microspheres | sustained administration | release | mitogens,poly(lactic-co-glycolic acid) microspheres | sustained delivery | mouse islets | β-cell mitogens,,0.2,0.38333333333333336,,"```json
+54664_scientific_discovery,videos/level_3/54664_.mp4,"This study concludes that biodegradable ____ enable ____ of compounds to ____; when loaded with ____ they increased Ki67/insulin-positive beta-cell proliferation without loss of protein functionality, establishing a controlled platform for screening and potential cotransplantation applications.",,"[""PLGA microspheres"", ""sustained local delivery"", ""cultured intact pancreatic islets"", ""recombinant human connective tissue growth factor""]",Poly(lactic-co-glycolic Acid) Microspheres | sustained administration | release | mitogens,poly(lactic-co-glycolic acid) microspheres | sustained delivery | mouse islets | β-cell mitogens,Poly(lactic-co-glycolic Acid) | Sustained release | Islets | β-cell mitogens,0.2,0.38333333333333336,0.2,"```json
 {
   ""experiment_overview"": ""The experiment involves the sustained administration of β-cell mitogens to intact mouse islets ex vivo using biodegradable poly(lactic-co-glycolic acid) microspheres."",
   ""novel_techniques_shown"": [""Use of biodegradable poly(lactic-co-glycolic acid) microspheres for sustained delivery of mitogens to mouse islets""],
@@ -11496,7 +11496,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-52653_scientific_discovery,videos/level_3/52653_.mp4,"In this study, stereotactic injection of a ______ into the ______ to modulate a single gene produced an anxiety phenotype in the ______ but did not change immobility in the ______, demonstrating region- and behavior-specific genetic control of mouse behavior.",,"[""lentivirus"", ""dentate gyrus"", ""Open Field Test"", ""Forced Swim Test""]",molecule | brain | knockout mice | wild-type mice,solution | brain | RBM8a knockdown mice | maze,,0.0,0.0,,"```json
+52653_scientific_discovery,videos/level_3/52653_.mp4,"In this study, stereotactic injection of a ______ into the ______ to modulate a single gene produced an anxiety phenotype in the ______ but did not change immobility in the ______, demonstrating region- and behavior-specific genetic control of mouse behavior.",,"[""lentivirus"", ""dentate gyrus"", ""Open Field Test"", ""Forced Swim Test""]",molecule | brain | knockout mice | wild-type mice,solution | brain | RBM8a knockdown mice | maze,substance|brain|RBM8a knockdown mice|forced swim test,0.0,0.0,0.25,"```json
 {
   ""experiment_overview"": ""The experiment involves applying a stereotactic injection technique to study genetic effects on animal behaviors, specifically focusing on the RBM8a gene knockdown."",
   ""novel_techniques_shown"": [""Stereotactic injection technique"", ""Behavioral testing using a maze""],
@@ -11548,7 +11548,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-58314_scientific_discovery,videos/level_3/58314_.mp4,"By decellularizing human ______ ECM to create a hydrogel that retains basal lamina components—Collagen-IV ______ and the glomerular ______ isoforms, plus laminins—the researchers produced a material that modulated HKMEC ______ and supports kidney microphysiological studies.",,"[""kidney cortex"", ""A1/A2"", ""A3/A5"", ""CD31 distribution""]",kidney | subdomains | nephrin | growth,kidney | subdomains | basement membrane proteins | growth,,0.16666666666666666,0.16666666666666666,,"```json
+58314_scientific_discovery,videos/level_3/58314_.mp4,"By decellularizing human ______ ECM to create a hydrogel that retains basal lamina components—Collagen-IV ______ and the glomerular ______ isoforms, plus laminins—the researchers produced a material that modulated HKMEC ______ and supports kidney microphysiological studies.",,"[""kidney cortex"", ""A1/A2"", ""A3/A5"", ""CD31 distribution""]",kidney | subdomains | nephrin | growth,kidney | subdomains | basement membrane proteins | growth,kidney|subdomains|Nephron|growth,0.16666666666666666,0.16666666666666666,0.16666666666666666,"```json
 {
   ""experiment_overview"": ""The experiment involves the decellularization of tissue, followed by rinsing and culturing to study cell growth and protein composition."",
   ""novel_techniques_shown"": [""Decellularization process"", ""Rinsing with different solutions"", ""Cell culture techniques""],
@@ -11596,7 +11596,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-50849_scientific_discovery,videos/level_3/50849_.mp4,"According to the study, a ______ cold presser arm wrap was validated as an ______ acute stressor in MRI settings, reliably engaging the ______, as evidenced by elevations in ______ compared with a no-stress control.",,"[""water-free"", ""MRI-compatible"", ""hypothalamic pituitary adrenal axis and sympathetic nervous system"", ""salivary cortisol and skin conductance""]",CPAW | reliable | amygdala | cortisol,novel | reliable | amygdala | cortisol,,0.08333333333333334,0.08333333333333334,,"```json
+50849_scientific_discovery,videos/level_3/50849_.mp4,"According to the study, a ______ cold presser arm wrap was validated as an ______ acute stressor in MRI settings, reliably engaging the ______, as evidenced by elevations in ______ compared with a no-stress control.",,"[""water-free"", ""MRI-compatible"", ""hypothalamic pituitary adrenal axis and sympathetic nervous system"", ""salivary cortisol and skin conductance""]",CPAW | reliable | amygdala | cortisol,novel | reliable | amygdala | cortisol,validated | acute | amygdala | cortisol,0.08333333333333334,0.08333333333333334,0.08333333333333334,"```json
 {
   ""experiment_overview"": ""The experiment appears to be investigating the effects of a cold pressor arm wrap (CPAW) on stress levels, as indicated by cortisol levels and skin conductance levels (SCL). Participants are being measured under different conditions: a no-stress control condition and a CPAW condition."",
   ""novel_techniques_shown"": [""The use of a CPAW to induce stress, which is a novel method for measuring stress responses in controlled environments.""],
@@ -11636,7 +11636,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-51846_scientific_discovery,videos/level_3/51846_.mp4,"This study concluded that a voluntary _____ treadmill protocol for mice, which eliminates the _____ to reduce stress confounds, still sensitively detects biologically meaningful differences in _____ associated with the muscle-derived cytokine _____.",,"[""run-to-exhaustion"", ""shock grid"", ""exercise endurance"", ""IL-15""]",running|forced exercise|exercise endurance|IL-15,running | need for forced exercise | exercise endurance | IL-15,,0.5,0.5,,"```json
+51846_scientific_discovery,videos/level_3/51846_.mp4,"This study concluded that a voluntary _____ treadmill protocol for mice, which eliminates the _____ to reduce stress confounds, still sensitively detects biologically meaningful differences in _____ associated with the muscle-derived cytokine _____.",,"[""run-to-exhaustion"", ""shock grid"", ""exercise endurance"", ""IL-15""]",running|forced exercise|exercise endurance|IL-15,running | need for forced exercise | exercise endurance | IL-15,running | need for forced exercise | exercise endurance | IL-15,0.5,0.5,0.5,"```json
 {
   ""experiment_overview"": ""The experiment investigates the relationship between the expression of cytokine IL-15 in C57BL/6 mice and their exercise endurance."",
   ""novel_techniques_shown"": [""Use of genetically modified mice (IL-15 TG) and knockout mice (IL-15 KO) to study the effect of IL-15 expression on exercise endurance.""],
@@ -11675,7 +11675,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-56243_scientific_discovery,videos/level_3/56243_.mp4,"This protocol integrates ____ with ____ to provide standardized, noninvasive mapping of spinal cord microcirculation, demonstrating SCI-induced reductions in blood flow and ____ that are maximal at the ____.",,"[""laser Doppler perfusion imaging"", ""laser Doppler perfusion monitoring"", ""oxygen saturation"", ""injury epicenter""]",Laser Doppler Imaging; Monitoring; alterations; epicenter,Laser Doppler Imaging | surgical exposure | increases in blood flow | epicenter,,0.1,0.38095238095238093,,"```json
+56243_scientific_discovery,videos/level_3/56243_.mp4,"This protocol integrates ____ with ____ to provide standardized, noninvasive mapping of spinal cord microcirculation, demonstrating SCI-induced reductions in blood flow and ____ that are maximal at the ____.",,"[""laser Doppler perfusion imaging"", ""laser Doppler perfusion monitoring"", ""oxygen saturation"", ""injury epicenter""]",Laser Doppler Imaging; Monitoring; alterations; epicenter,Laser Doppler Imaging | surgical exposure | increases in blood flow | epicenter,Laser Doppler Imaging | Monitoring | increases | epicenter,0.1,0.38095238095238093,0.4809523809523809,"```json
 {
   ""experiment_overview"": ""The experiment involves using Laser Doppler Imaging (LDI) to analyze spinal cord microcirculation in rats, aiming to assess the effects of a specific treatment or condition."",
   ""novel_techniques_shown"": [""Laser Doppler Imaging for monitoring blood flow dynamics in real-time"", ""Detailed setup for surgical access to the spinal cord""],
@@ -11718,7 +11718,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-61743_scientific_discovery,videos/level_3/61743_.mp4,"The study established ____ and ____ rat models of motor tic expression via focal delivery of ____, producing stereotypic kinematic signatures and transient LFP spikes across the ____ pathway, enabling causal investigation of tic mechanisms and long-term modulation.",,"[""acute"", ""chronic"", ""bicuculline"", ""cortico-basal ganglia""]",chronic | acute | dopamine | cortico-striato-thalamo-cortical,chronic | acute | dopamine | cortico-basal,,0.0,0.16666666666666666,,"```json
+61743_scientific_discovery,videos/level_3/61743_.mp4,"The study established ____ and ____ rat models of motor tic expression via focal delivery of ____, producing stereotypic kinematic signatures and transient LFP spikes across the ____ pathway, enabling causal investigation of tic mechanisms and long-term modulation.",,"[""acute"", ""chronic"", ""bicuculline"", ""cortico-basal ganglia""]",chronic | acute | dopamine | cortico-striato-thalamo-cortical,chronic | acute | dopamine | cortico-basal,chronic | acute | dopamine | cortico-striatal,0.0,0.16666666666666666,0.0,"```json
 {
   ""experiment_overview"": ""The experiment involves the implantation of an osmotic pump into a rat to study chronic effects, likely related to pharmacology or neuroscience."",
   ""novel_techniques_shown"": [""Implantation of an osmotic pump into a rat using surgical techniques"", ""Use of an accelerometer and gyroscope to monitor the rat's movement post-surgery""],
@@ -11766,7 +11766,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-62458_scientific_discovery,videos/level_3/62458_.mp4,"According to the study’s main finding, the Object Location Task can be repeated in _____ using a _____ design, enabling dissociation of _____ across _____.",,"[""four distinct contexts"", ""counterbalanced design"", ""strong versus weak encoding"", ""1-hour and 24-hour delays""]",Session X + 1 | within-subjects | object location memory | different contexts,different contexts | within-subjects | object location memory | different contexts,,0.0,0.1,,"```json
+62458_scientific_discovery,videos/level_3/62458_.mp4,"According to the study’s main finding, the Object Location Task can be repeated in _____ using a _____ design, enabling dissociation of _____ across _____.",,"[""four distinct contexts"", ""counterbalanced design"", ""strong versus weak encoding"", ""1-hour and 24-hour delays""]",Session X + 1 | within-subjects | object location memory | different contexts,different contexts | within-subjects | object location memory | different contexts,different contexts | within-subjects | object location memory | different contexts,0.0,0.1,0.1,"```json
 {
   ""experiment_overview"": ""The experiment appears to be focused on assessing habituation and memory retention in mice using a novel object recognition test. The setup involves exposing mice to different environments and objects over time to observe their behavior and cognitive responses."",
   ""novel_techniques_shown"": [""Use of a novel object recognition test to assess memory retention"", ""Computerized tracking software for behavioral analysis""],
@@ -11809,7 +11809,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-59243_scientific_discovery,videos/level_3/59243_.mp4,"The study concludes that _____ is validated as a rapid, quantifiable assay of dopamine signaling in _____, reporting excess extracellular dopamine produced by _____ or by dysfunction of the dopamine transporter (_____), thereby enabling efficient genetic and pharmacological interrogation of the dopaminergic synapse.",,"[""Swimming-Induced Paralysis (SWIP)"", ""C. elegans"", ""amphetamine"", ""DAT-1""]",SWIP | C. elegans | amphetamine | DAT,SWIP | C. elegans | amphetamine | DAT,,0.5,0.5,,"```json
+59243_scientific_discovery,videos/level_3/59243_.mp4,"The study concludes that _____ is validated as a rapid, quantifiable assay of dopamine signaling in _____, reporting excess extracellular dopamine produced by _____ or by dysfunction of the dopamine transporter (_____), thereby enabling efficient genetic and pharmacological interrogation of the dopaminergic synapse.",,"[""Swimming-Induced Paralysis (SWIP)"", ""C. elegans"", ""amphetamine"", ""DAT-1""]",SWIP | C. elegans | amphetamine | DAT,SWIP | C. elegans | amphetamine | DAT,SWIP | C. elegans | amphetamine | DAT,0.5,0.5,0.5,"```json
 {
   ""experiment_overview"": ""The experiment appears to be focused on studying the effects of amphetamine (AMPH) on the swimming and paralyzing behavior of nematodes (C. elegans). The study involves measuring the percentage of nematodes that exhibit specific behaviors over time in the presence and absence of AMPH."",
   ""novel_techniques_shown"": [""Automated SWIP analysis setup details""],
@@ -11856,7 +11856,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-50600_scientific_discovery,videos/level_3/50600_.mp4,"The study demonstrates that temporally and region-specific gene ablation enabling analysis across acquisition, extinction, and reinstatement in cocaine place preference was achieved by stereotaxic microinjection of ____ into the ____ of ____ mice, with successful knockout validated for ____.",,"[""rAAV-Cre"", ""nucleus accumbens"", ""floxed"", ""CaV1.2""]",AAV-Cre | nucleus accumbens core | C57BL/6J | Cav1.2 mRNA,AAV-Cre | ACC | C57BL/6J | Cav1.2 mRNA,,0.3666666666666667,0.16666666666666666,,"```json
+50600_scientific_discovery,videos/level_3/50600_.mp4,"The study demonstrates that temporally and region-specific gene ablation enabling analysis across acquisition, extinction, and reinstatement in cocaine place preference was achieved by stereotaxic microinjection of ____ into the ____ of ____ mice, with successful knockout validated for ____.",,"[""rAAV-Cre"", ""nucleus accumbens"", ""floxed"", ""CaV1.2""]",AAV-Cre | nucleus accumbens core | C57BL/6J | Cav1.2 mRNA,AAV-Cre | ACC | C57BL/6J | Cav1.2 mRNA,AAV-Cre | specific brain regions | C57BL/6J | Cav1.2 mRNA,0.3666666666666667,0.16666666666666666,0.16666666666666666,"```json
 {
   ""experiment_overview"": ""The experiment appears to be focused on studying conditioned place preference (CPP) related to cocaine use in mice, involving acquisition, extinction, and reinstatement phases. It also seems to involve genetic manipulation using AAV vectors to study the role of Cav1.2 mRNA in cocaine-induced behaviors."",
   ""novel_techniques_shown"": [""Use of AAV vectors for gene delivery"", ""Conditioned Place Preference testing protocol""],
@@ -11897,7 +11897,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-57489_scientific_discovery,videos/level_3/57489_.mp4,"The study’s central advance was a prospective, ______ that incorporated a ______, operationalizing metacognitive responding in rats by requiring a ______ and predicting higher accuracy on chosen than ______ trials.",,"[""odor-based delayed match-to-sample (DMTS) paradigm"", ""decline-test option"", ""metamemory choice"", ""forced""]",delayed match-to-sample task | odor-based delayed match-to-sample test | choice of sample | forced,forced-choice trial | odor-based delayed match-to-sample test | choice of odor | forced,,0.475,0.35,,"```json
+57489_scientific_discovery,videos/level_3/57489_.mp4,"The study’s central advance was a prospective, ______ that incorporated a ______, operationalizing metacognitive responding in rats by requiring a ______ and predicting higher accuracy on chosen than ______ trials.",,"[""odor-based delayed match-to-sample (DMTS) paradigm"", ""decline-test option"", ""metamemory choice"", ""forced""]",delayed match-to-sample task | odor-based delayed match-to-sample test | choice of sample | forced,forced-choice trial | odor-based delayed match-to-sample test | choice of odor | forced,delayed match-to-sample task | decline option | choice behavior | forced,0.475,0.35,0.625,"```json
 {
   ""experiment_overview"": ""The experiment aims to test metacognitive responding in rats using an odor-based delayed match-to-sample (MTS) test."",
   ""novel_techniques_shown"": [""Use of odor-based stimuli for MTS testing"", ""Incorporation of forced-choice trials to assess metacognition""],
@@ -11943,7 +11943,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-53009_scientific_discovery,videos/level_3/53009_.mp4,"The key advance presented is an operant paradigm that quantifies social motivation by using a ____ schedule to compute a ____ and a social-versus-food ____ , providing an effort-based measure that distinguishes genotypes such as ____.",,"[""progressive ratio schedule"", ""breakpoint"", ""reward comparison"", ""BTBR vs C57BL/6J""]",fixed ratio | breakpoint | preference | WT | HET,fixed-ratio|breakpoint|choice|WT|HET,,0.35,0.25,,"```json
+53009_scientific_discovery,videos/level_3/53009_.mp4,"The key advance presented is an operant paradigm that quantifies social motivation by using a ____ schedule to compute a ____ and a social-versus-food ____ , providing an effort-based measure that distinguishes genotypes such as ____.",,"[""progressive ratio schedule"", ""breakpoint"", ""reward comparison"", ""BTBR vs C57BL/6J""]",fixed ratio | breakpoint | preference | WT | HET,fixed-ratio|breakpoint|choice|WT|HET,fixed-ratio|breakpoint|choice|WT|HET,0.35,0.25,0.25,"```json
 {
   ""experiment_overview"": ""The experiment appears to be focused on measuring the mean number of food and social rewards per 60-minute session for different genetic groups (C57BL/6J (GH) and BTBR (GH)). It also includes a comparison of the breakpoint (final 10 days of testing) between WT and HET groups under the influence of Gene Y."",
   ""novel_techniques_shown"": [""Automated testing setup with a computer interface for data collection and analysis""],
@@ -11987,7 +11987,7 @@ id,video_path,question,options,gold,pred_video,pred_7B_note,pred_72B_note,score_
   ]
 }
 ```"
-63997_scientific_discovery,videos/level_3/63997_.mp4,"This study establishes a rapid, reproducible mouse model by administering ______ into the ______, leading to long-lasting ______ verified by increased ______.",,"[""urokinase"", ""interspinous ligament"", ""chronic back pain"", ""mechanical and thermal hypersensitivity""]",urokinase-type plasminogen activator | footpad | back pain | mechanical thresholds,urokinase-type plasminogen activator (uPA) | back | back pain | mechanical allodynia,,0.2833333333333333,0.2833333333333333,,"```json
+63997_scientific_discovery,videos/level_3/63997_.mp4,"This study establishes a rapid, reproducible mouse model by administering ______ into the ______, leading to long-lasting ______ verified by increased ______.",,"[""urokinase"", ""interspinous ligament"", ""chronic back pain"", ""mechanical and thermal hypersensitivity""]",urokinase-type plasminogen activator | footpad | back pain | mechanical thresholds,urokinase-type plasminogen activator (uPA) | back | back pain | mechanical allodynia,urokinase-type plasminogen activator | back | pain | grooming,0.2833333333333333,0.2833333333333333,0.125,"```json
 {
   ""experiment_overview"": ""The experiment involves inducing back pain in mice using urokinase-type plasminogen activator (uPA) to study pain behavior and response."",
   ""novel_techniques_shown"": [""Use of uPA for inducing back pain"", ""Behavioral assays to evaluate pain response""],

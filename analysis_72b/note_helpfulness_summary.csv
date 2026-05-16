@@ -1,0 +1,11 @@
+task,n_eval,rescue,break,both_right,both_wrong,net,rescue_rate,break_rate
+materials,1266,150,85,344,687,65,11.85,6.71
+tools,1130,109,98,308,615,11,9.65,8.67
+operation,938,54,106,500,278,-52,5.76,11.30
+quantity,701,47,95,236,323,-48,6.70,13.55
+sequence_generation,750,20,25,21,684,-5,2.67,3.33
+sequence_ordering,739,78,56,333,272,22,10.55,7.58
+step_prediction,748,10,11,5,722,-1,1.34,1.47
+video_verification,748,71,46,84,547,25,9.49,6.15
+experimental_conclusion,390,1,0,1,388,1,0.26,0.00
+scientific_discovery,390,0,0,0,390,0,0.00,0.00

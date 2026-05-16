@@ -1,5 +1,5 @@
-"""Compare 7B-notes vs 72B-notes Stage 2 (C2) per task."""
-import json, os, sys
+"""3-way comparison: Video-only / Video+7B-note / Video+72B-note per task."""
+import json, os
 
 ORDER = [
     ("L1", "materials"), ("L1", "tools"), ("L1", "operation"), ("L1", "quantity"),
@@ -8,41 +8,50 @@ ORDER = [
     ("L3", "experimental_conclusion"), ("L3", "scientific_discovery"),
 ]
 
-def load(d, task):
-    f = os.path.join(d, "c2", f"eval_{task}.json")
+# (label, path-template)  — None path means look it up as "{dir}/eval_{task}.json"
+SOURCES = [
+    ("video",     "results_h200/qwen7b/eval_{task}.json"),
+    ("7B-note",   "results_h200_unified/c2/eval_{task}.json"),
+    ("72B-note",  "results_h200_unified_q72/c2/eval_{task}.json"),
+]
+
+
+def load(template, task):
+    f = template.format(task=task)
     if not os.path.exists(f):
         return None
     return json.load(open(f))
 
-base_dir = "results_h200_unified"
-q72_dir = "results_h200_unified_q72"
 
-rows = []
-print(f"{'Level':<6}{'Task':<28}{'7B-notes':>12}{'72B-notes':>12}{'Δ':>10}")
-print("-" * 68)
-tot_b, tot_q, n_tot = 0, 0, 0
-for level, task in ORDER:
-    b = load(base_dir, task)
-    q = load(q72_dir, task)
-    if not b or not q:
-        print(f"{level:<6}{task:<28}{'N/A':>12}{'N/A':>12}{'':>10}")
-        continue
-    db, dq = b['accuracy'], q['accuracy']
-    delta = dq - db
-    rows.append((level, task, db, dq, delta, b['n_valid']))
-    print(f"{level:<6}{task:<28}{db:>10.2f}% {dq:>10.2f}% {delta:>+9.2f}")
-    tot_b += db * b['n_valid']; tot_q += dq * q['n_valid']; n_tot += b['n_valid']
+def main():
+    rows = []
+    print(f"{'Level':<4}{'Task':<26}{'video':>9}{'+7B note':>10}{'+72B note':>11}"
+          f"{'Δ72-vid':>10}{'Δ72-7B':>10}")
+    print("-" * 80)
+    for level, task in ORDER:
+        cells = [load(t, task) for _, t in SOURCES]
+        if any(c is None for c in cells):
+            avail = ", ".join(lbl for (lbl, _), c in zip(SOURCES, cells) if c)
+            print(f"{level:<4}{task:<26}  (incomplete: have {avail})")
+            continue
+        v, n7, n72 = (c["accuracy"] for c in cells)
+        rows.append((level, task, v, n7, n72, cells[0]["n_valid"]))
+        print(f"{level:<4}{task:<26}{v:>8.2f}%{n7:>9.2f}%{n72:>10.2f}%"
+              f"{n72-v:>+9.2f}{n72-n7:>+9.2f}")
+    print("-" * 80)
+    if rows:
+        for lvl in ("L1", "L2", "L3", None):
+            rs = rows if lvl is None else [r for r in rows if r[0] == lvl]
+            if not rs:
+                continue
+            v_ = sum(r[2] for r in rs) / len(rs)
+            n7_ = sum(r[3] for r in rs) / len(rs)
+            n72_ = sum(r[4] for r in rs) / len(rs)
+            tag = "macro" if lvl is None else lvl
+            label = "avg (all)" if lvl is None else f"avg ({lvl})"
+            print(f"{tag:<4}{label:<26}{v_:>8.2f}%{n7_:>9.2f}%{n72_:>10.2f}%"
+                  f"{n72_-v_:>+9.2f}{n72_-n7_:>+9.2f}")
 
-print("-" * 68)
-if rows:
-    avg_b = sum(r[2] for r in rows) / len(rows)
-    avg_q = sum(r[3] for r in rows) / len(rows)
-    print(f"{'macro':<6}{'avg':<28}{avg_b:>10.2f}% {avg_q:>10.2f}% {avg_q-avg_b:>+9.2f}")
 
-    # Per-level
-    for lvl in ("L1", "L2", "L3"):
-        lr = [r for r in rows if r[0] == lvl]
-        if lr:
-            ab = sum(r[2] for r in lr) / len(lr)
-            aq = sum(r[3] for r in lr) / len(lr)
-            print(f"{lvl:<6}{'avg':<28}{ab:>10.2f}% {aq:>10.2f}% {aq-ab:>+9.2f}")
+if __name__ == "__main__":
+    main()

@@ -100,30 +100,41 @@ Where note **hurts**: when it focuses on tools/containers while the question ask
 
 → **Implication**: task-aware Stage 1 prompt is still too generic; need to train the model to focus on the question's actual referent (motivation for counterfactual SFT for note-taking).
 
-### 6. ✨ Stage 1 noter 7B → 72B: small but consistent gain across all 10 tasks
+### 6. ✨ Stage 1 noter 7B → 72B: only the upgrade itself helps; absolute V+72BNote ≈ Video
 
-The Stage-1 note generator was upgraded from Qwen2.5-VL-7B to **Qwen2.5-VL-72B-Instruct** (vLLM TP=4, 32 frames per video, 360×420 max_pixels, same `NOTE_PROMPTS` task-aware templates). Stage 2 answer model unchanged (7B). Cache lives at [`results_h200_unified_q72/`](results_h200_unified_q72/). 72B notes are visibly higher fidelity (e.g. "microtube with blue cap in centrifuge rotor" vs 7B's "test tube; jove"). Re-running C2 (Video+Note) on the cached 72B notes:
+The Stage-1 note generator was upgraded from Qwen2.5-VL-7B to **Qwen2.5-VL-72B-Instruct** (vLLM TP=4, 32 frames per video, 360×420 max_pixels, same `NOTE_PROMPTS` task-aware templates). Stage 2 answer model unchanged (7B). Cache lives at [`results_h200_unified_q72/`](results_h200_unified_q72/). 72B notes are visibly higher fidelity (e.g. "microtube with blue cap in centrifuge rotor" vs 7B's "test tube; jove").
 
-| Level | Task | n | 7B notes | **72B notes** | Δ |
-|---|---|---|---:|---:|---:|
-| L1 | materials                 | 1266 | 36.65 | **39.02** | +2.37 ✅ |
-| L1 | tools                     | 1130 | 35.22 | **37.08** | +1.86 ✅ |
-| L1 | operation                 | 938  | 57.25 | **59.06** | +1.81 ✅ |
-| L1 | quantity                  | 701  | 40.80 | 40.37 | −0.43 |
-| L2 | sequence_generation       | 750  | 39.19 | 39.14 | −0.05 |
-| L2 | sequence_ordering         | 739  | 55.48 | **55.62** | +0.14 |
-| L2 | step_prediction           | 748  | 1.47 | 2.01 | +0.54 |
-| L2 | video_verification        | 748  | 17.78 | **20.72** | +2.94 ✅ |
-| L3 | experimental_conclusion   | 390  | 22.85 | **23.44** | +0.59 |
-| L3 | scientific_discovery      | 390  | 19.95 | 20.50 *(partial 36%)* | +0.55 |
-| — | **macro avg (10 tasks)**  | —    | **32.66** | **33.70** | **+1.03** |
-| L1 | avg (4 tasks)             | 4035 | 42.48 | 43.88 | +1.40 |
-| L2 | avg (4 tasks)             | 2985 | 28.48 | 29.37 | +0.89 |
-| L3 | avg (2 tasks)             | 780  | 21.40 | 21.97 | +0.57 |
+**Three-way comparison** (Video / Video+7B-note / Video+72B-note):
 
-**Reading**: bigger noter → bigger gain on **visual perception-dominated tasks** (L1 materials/tools/operation, L2 video_verification: all +1.8 to +2.9 pp). On tasks where the bottleneck is not perception (quantity, sequence_generation), the noter upgrade is neutral. **Direction is uniformly non-negative**: 9 / 10 deltas ≥ 0, max drop is only −0.43 pp on quantity. This says the 7B note was leaving real perceptual signal on the table.
+| Level | Task | n | Video | Video + **7B-note** | Video + **72B-note** | Δ (72B−Video) | Δ (72B−7B) |
+|---|---|---|---:|---:|---:|---:|---:|
+| L1 | materials                | 1266 | 34.04 | 36.65 | **39.02** | **+4.98 ✅** | +2.37 |
+| L1 | tools                    | 1130 | 36.28 | 35.22 | 37.08 | +0.80 | +1.86 |
+| L1 | operation                | 938  | **64.61** | 57.25 | 59.06 | −5.55 ❌ | +1.81 |
+| L1 | quantity                 | 701  | **47.22** | 40.80 | 40.37 | −6.85 ❌ | −0.43 |
+| L2 | sequence_generation      | 750  | **43.32** (F1) | 39.19 | 39.14 | −4.18 | −0.05 |
+| L2 | sequence_ordering        | 739  | 52.64 | 55.48 | **55.62** | +2.98 ✅ | +0.14 |
+| L2 | step_prediction          | 748  | 2.14 | 1.47 | 2.01 | −0.13 | +0.54 |
+| L2 | video_verification       | 748  | 17.38 | 17.78 | **20.72** | **+3.34 ✅** | +2.94 |
+| L3 | experimental_conclusion  | 390  | 21.28 | 22.85 | **23.44** | +2.16 ✅ | +0.59 |
+| L3 | scientific_discovery     | 390  | 20.00 | 19.95 | 19.95 *(41% partial)* | −0.05 | +0.00 |
+| — | **macro avg (10 tasks)** | —    | **33.89** | 32.66 | **33.64** | **−0.25** | **+0.98** |
+| L1 | avg (4 tasks)            | 4035 | **45.54** | 42.48 | 43.88 | −1.66 | +1.40 |
+| L2 | avg (4 tasks)            | 2985 | 28.87 | 28.48 | **29.37** | **+0.50** | +0.89 |
+| L3 | avg (2 tasks)            | 780  | 20.64 | 21.40 | **21.70** | **+1.05** | +0.30 |
 
-**Cost**: 72B inference is ~5× slower per video than 7B (137 GB weights, TP=4). Stage 1 took ~3 h wall-clock for 7,739 unique videos (vLLM batched, prefetched). One-shot — once cached, downstream Stage 2 just reuses the cache. Implementation: [`generate_notes_qwen72b.py`](generate_notes_qwen72b.py).
+**Reading (this is the important part)**:
+
+1. **vs Video-only baseline (Δ 72B − Video, the natural question)**: macro avg is **only −0.25 pp** — i.e. even with the best-possible noter we have, **adding 72B notes to a 7B answer model does *not* beat plain Video on average**. The L1 → L3 monotone trend from Finding 3a still holds: L1 **−1.66 pp** (notes still hurt perception even at 72B quality), L2 **+0.50 pp**, L3 **+1.05 pp**. The note-augmentation paradigm pays off only when the task needs more than what one model can read off the pixels (L2/L3).
+
+2. **vs 7B-note baseline (Δ 72B − 7B)**: macro **+0.98 pp**, **9/10 deltas non-negative**, biggest gains on perception-heavy tasks (materials +2.37, tools +1.86, operation +1.81, video_verification +2.94). **Upgrading the noter recovers most of what the 7B noter was leaving on the table** — but the recovered margin is small relative to the original perception loss (e.g. operation: Video 64.6 → V+7BNote 57.2 = −7.4 lost; 72B brings it back to 59.1, still −5.5 short of Video).
+
+3. **Per-task highlights**:
+   - **video_verification +3.3 over Video** is the strongest single positive — this L2 task asks "what was NOT done in the video", and the structured 72B note (which describes what *was* done) is a useful complement to the video.
+   - **materials +5.0 over Video** is the other large win — 72B's specific labels (e.g. "microtube with blue cap") disambiguate options where Video alone struggles with text on labels.
+   - **operation / quantity still lose ~6 pp vs Video** — these tasks need direct visual reading the note paraphrase still degrades.
+
+**Cost**: 72B inference is ~5× slower per video than 7B (137 GB weights, TP=4). Stage 1 took ~3 h wall-clock for 7,739 unique videos (vLLM batched, prefetched). One-shot — once cached, downstream Stage 2 just reuses the cache. Implementation: [`generate_notes_qwen72b.py`](generate_notes_qwen72b.py), [`run_stage2_4gpu.sh`](run_stage2_4gpu.sh), [`compare_noters.py`](compare_noters.py).
 
 ---
 

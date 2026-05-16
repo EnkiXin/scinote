@@ -71,31 +71,54 @@ Output ONLY this JSON:
 Same `NOTE_SYSTEM` as the main ExpVid script
 (["grounded in visible evidence", do NOT speculate, output ONLY valid JSON]).
 
-## Current state — **in progress**
+## Current state (2026-05-16)
 
 | Stage | Status |
 |---|---|
 | Dataset (1,000 questions + 241 videos) | ✅ downloaded from `groundmore/scivideobench` HF repo (videos zip 21 GB) |
-| **C0 (Video only)** — 5-GPU split | 🚧 **240 / 1,000 evaluated** at last save, partial acc **22.50 %** |
-| **C2 Stage 1** — Qwen-3B self-notes | 🚧 ~17 / 241 unique videos cached |
-| **C2 Stage 2** | ⏳ launches after C0 finishes (~3 h) |
+| **C0 (Video only)** — 5-GPU split | ✅ **DONE** (n=1000) |
+| **C2 Stage 1** — Qwen-3B self-notes | 🚧 ~192 / 241 unique videos cached |
+| **C2 Stage 2** — Qwen-3B answer w/ own notes | 🚧 5-chunk parallel just launched |
 
-Partial C0 chunk accuracies:
-```
-chunk0  n=40   25.00%
-chunk1  n=60   16.67%
-chunk2  n=60   26.67%
-chunk3  n=40   20.00%
-chunk4  n=40   25.00%
-merged  n=240  22.50%
-```
+### C0 — Qwen2.5-VL-3B video-only baseline ✅
 
-Paper baseline: 18.10 %. Our partial estimate (22.50 %, n=240) is on the same
-order of magnitude as the paper, but the chunks are still too small to call
-a reproduction. Will update as more chunks save.
+Merged across the 5 chunks ([`merge_chunks.py`](merge_chunks.py)):
 
-This README will be replaced with full results once both conditions are done
-across all 1,000 items.
+| Slice | Acc | n | Paper |
+|---|---:|---:|---:|
+| **Overall** | **18.60 %** | 1000 | 18.10 % (+0.50 pp) ✅ |
+| Conceptual Reasoning | 23.24 % | 370 | 19.19 % |
+| Hypothetical Reasoning | 20.00 % | 385 | 18.96 % |
+| Quantitative Reasoning | 9.39 % | 245 | 15.10 % |
+| Medicine | 28.81 % | 118 | — |
+| Physics | 23.08 % | 39 | — |
+| Engineering | 21.05 % | 247 | — |
+| Biochemistry | 18.82 % | 85 | — |
+| Chemistry | 16.06 % | 193 | — |
+| Biology | 14.72 % | 231 | — |
+| Bioengineering | 11.49 % | 87 | — |
+
+**Reproduction successful** — overall 18.60 % matches the paper's reported
+18.10 % within 0.5 pp. Conceptual and Hypothetical reasoning are above
+paper numbers (+4 pp / +1 pp); Quantitative reasoning is below (−5.7 pp),
+which is consistent with the paper's description of Quantitative being the
+hardest split.
+
+> Caveat: `(video_id, question_id)` is **not unique** in the source JSONL —
+> 285 / 1000 rows share an id pair with another row but have different
+> question text and gold answer. The chunked split (by global JSONL index
+> mod num_chunks) gives disjoint sets, so the merged total is 1000 distinct
+> questions even when 285 of them share an id pair with another in the set.
+> The merge script no longer dedupes on the id pair (would have wrongly
+> collapsed to 676).
+
+### C2 — Self-note condition 🚧
+
+Stage 1 (Qwen-3B writes one note per unique video) is ~80 % cached. C2
+chunks are running concurrently; for any item whose note isn't yet cached,
+the chunk computes it inline and saves it. Expected wall-clock ~5 h.
+
+Final C2 numbers + C0-vs-C2 deltas will be added when complete.
 
 ## Dataset access
 

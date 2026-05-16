@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58099/clip_13.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"incubator\"],\n  \"distinguishing_features\": [\"pipette has blue handle\", \"incubator has digital display\"],\n  \"labels_or_models\": [\"REXVO\"],\n  \"operating_state\": [\"pipette is in active use\", \"incubator is closed\"]\n}\n```"}

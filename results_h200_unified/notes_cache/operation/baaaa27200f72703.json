@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56639/clip_5.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"rotate knob to adjust pressure\"\n  ],\n  \"objects_manipulated\": [\n    \"pressure regulator\"\n  ],\n  \"tool_object_interaction\": [\n    \"the hand uses the knob to rotate and adjust the pressure on the pressure regulator.\"\n  ]\n}\n```"}

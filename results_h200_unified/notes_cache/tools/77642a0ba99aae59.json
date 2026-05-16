@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56679/clip_18.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"MRI machine (BioSpec 117/16USR)\"],\n  \"distinguishing_features\": [\"large cylindrical shape\", \"control panel with buttons and display\", \"cable connections\"],\n  \"labels_or_models\": [\"BioSpec 117/16USR\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

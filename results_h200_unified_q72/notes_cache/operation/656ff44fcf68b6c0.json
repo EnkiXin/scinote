@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56094/clip_52.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"place microtube rack into centrifuge\"],\n  \"objects_manipulated\": [\"microtube rack\", \"centrifuge\"],\n  \"tool_object_interaction\": [\"microtube rack is positioned into the centrifuge chamber\"]\n}\n```"}

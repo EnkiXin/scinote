@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64072/clip_29.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"injects solution into a microfluidic channel\"\n  ],\n  \"objects_manipulated\": [\n    \"microfluidic device\",\n    \"solution\"\n  ],\n  \"tool_object_interaction\": [\n    \"micropipette tip is inserted into the microfluidic channel\"\n  ]\n}\n```"}

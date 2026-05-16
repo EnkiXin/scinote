@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59243/clip_8.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"refrigerator\"],\n  \"distinguishing_features\": [\"large, white, with multiple shelves\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"open, with a person retrieving items\"]\n}"}

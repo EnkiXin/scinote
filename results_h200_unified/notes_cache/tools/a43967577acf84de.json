@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55934/clip_6.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent liquid reservoir\", \"white handle\"],\n  \"labels_or_models\": [\"For details on conjugated polymers, see text protocol\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

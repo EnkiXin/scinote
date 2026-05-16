@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58644/clip_30.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"holds a ruler against the monitor screen\"\n  ],\n  \"objects_manipulated\": [\n    \"ruler\",\n    \"monitor screen\"\n  ],\n  \"tool_object_interaction\": [\n    \"ruler is placed vertically against the monitor screen\"\n  ]\n}\n```"}

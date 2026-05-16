@@ -1,0 +1,1 @@
+{"video_id": "videos/level_2/video_verification/50389/clip_4_removed_step_2.mp4", "task": "video_verification", "note": "```json\n{\n  \"steps_actually_shown\": [\n    \"Transfer liquid from a pipette to a test tube\"\n  ],\n  \"missing_or_skipped\": \"No other steps were shown.\",\n  \"key_objects_handled\": [\n    \"pipette\",\n    \"test tubes\"\n  ]\n}\n```"}

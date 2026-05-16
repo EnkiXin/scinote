@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58174/clip_63.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"41\", \"3.2\", \"1.6\", \"46\", \"1064\"],\n  \"counts\": {\n    \"micrometers\": 4,\n    \"millimeters\": 1\n  },\n  \"measurements_observed\": [\n    \"41 \u00b5m\",\n    \"3.2 \u00b5m\",\n    \"1.6 \u00b5m\",\n    \"46 \u00b5m\",\n    \"1064 mm\"\n  ]\n}\n```"}

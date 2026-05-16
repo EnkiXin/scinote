@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57499/clip_22.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"MicroPulser\"],\n  \"distinguishing_features\": [\"digital display showing 'PL5'\", \"buttons labeled 'Settings', 'Measurements', 'Pulse'\"],\n  \"labels_or_models\": [\"MicroPulser\", \"200kV, 1 pulse\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

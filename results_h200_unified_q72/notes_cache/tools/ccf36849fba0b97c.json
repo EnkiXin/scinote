@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61770/clip_30.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"gas cylinder valve\", \"hose\"],\n  \"distinguishing_features\": [\"metallic valve with a handle\", \"flexible hose connected to the valve\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"valve is being adjusted\", \"hose is connected and appears to be in use\"]\n}"}

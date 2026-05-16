@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61037/clip_35.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"weighing scale\", \"petri dish\"],\n  \"distinguishing_features\": [\"digital display\", \"black tray\", \"transparent plastic cover\"],\n  \"labels_or_models\": [\"ZUOL\", \"Lab Companion\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62432/clip_37.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"immerse container in ice bath\"],\n  \"objects_manipulated\": [\"container labeled '7-10 REACTION'\"],\n  \"tool_object_interaction\": [\"container is placed into ice bath for cooling\"]\n}\n```"}

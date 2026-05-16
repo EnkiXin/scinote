@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59447/clip_33.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"connect sensor to data logger\"\n  ],\n  \"objects_manipulated\": [\n    \"sensor\",\n    \"data logger\"\n  ],\n  \"tool_object_interaction\": [\n    \"sensor is plugged into data logger\"\n  ]\n}\n```"}

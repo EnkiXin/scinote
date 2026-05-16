@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/4295/clip_12.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"place gelatin sheet on aluminum foil\"],\n  \"objects_manipulated\": [\"gelatin sheet\", \"aluminum foil\"],\n  \"tool_object_interaction\": [\"glove hand places gelatin sheet onto aluminum foil\"]\n}\n```"}

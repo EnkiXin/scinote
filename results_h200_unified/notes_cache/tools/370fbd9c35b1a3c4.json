@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54971/clip_14.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"test tube\"],\n  \"distinguishing_features\": [\"transparent body\", \"metallic tip\", \"white label with 'R.A.' written on it\"],\n  \"labels_or_models\": [\"R.A.\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52225/clip_26.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"place green tray into cage\", \"remove red ball from cage\"],\n  \"objects_manipulated\": [\"green tray\", \"red ball\"],\n  \"tool_object_interaction\": [\"green tray is placed inside the cage\", \"red ball is removed from the cage\"]\n}\n```"}

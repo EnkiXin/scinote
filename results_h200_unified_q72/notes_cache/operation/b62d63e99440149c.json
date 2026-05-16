@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57982/clip_54.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"insert sample tray into the instrument\"],\n  \"objects_manipulated\": [\"sample tray\", \"instrument\"],\n  \"tool_object_interaction\": [\"hand in green glove places the sample tray into the designated slot of the instrument\"]\n}\n```"}

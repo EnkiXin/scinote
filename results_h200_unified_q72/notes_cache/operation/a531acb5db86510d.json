@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64072/clip_11.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"rotate the chamber door handle\"\n  ],\n  \"objects_manipulated\": [\n    \"chamber door handle of the plasma cleaner\"\n  ],\n  \"tool_object_interaction\": [\n    \"hand interacts with the chamber door handle by rotating it\"\n  ]\n}\n```"}

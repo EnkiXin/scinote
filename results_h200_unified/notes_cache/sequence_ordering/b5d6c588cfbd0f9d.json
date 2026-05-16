@@ -1,0 +1,1 @@
+{"video_id": "videos/level_2/video_segments/56778/clip_2.mp4", "task": "sequence_ordering", "note": "```json\n{\n  \"observed_steps_in_order\": [\n    \"Submerge the slides 2x for 2 min\"\n  ],\n  \"first_step\": \"Submerge the slides 2x for 2 min\",\n  \"last_step\": \"Submerge the slides 2x for 2 min\",\n  \"key_transitions\": []\n}\n```"}

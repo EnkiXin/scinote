@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/2757/clip_45.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"oven\"],\n  \"distinguishing_features\": [\"transparent plastic tube for pipette\", \"digital display for oven\"],\n  \"labels_or_models\": [\"37\u00b0C\", \"5% CO2\"],\n  \"operating_state\": [\"active use for pipette\", \"active use for oven\"]\n}\n```"}

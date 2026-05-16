@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53789/clip_31.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"place flask into magnetic stirrer\"\n  ],\n  \"objects_manipulated\": [\n    \"flask\",\n    \"magnetic stirrer\"\n  ],\n  \"tool_object_interaction\": [\n    \"flask is placed inside the magnetic stirrer for mixing.\"\n  ]\n}\n```"}

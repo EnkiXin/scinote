@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57928/clip_26.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"crimping tool\"],\n  \"distinguishing_features\": [\"metal jaws for crimping\", \"wires being inserted\"],\n  \"labels_or_models\": [\"ODYSSEY Extreme BATTERY\", \"35-PC1400\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

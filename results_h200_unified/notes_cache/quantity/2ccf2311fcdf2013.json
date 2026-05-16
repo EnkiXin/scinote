@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56195/clip_11.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"5\", \"125\", \"16\", \"16\"],\n  \"counts\": [\"16 squares per grid\"],\n  \"measurements_observed\": [\"5 min\", \"125 x g\", \"16 \u00b0C\"]\n}\n```"}

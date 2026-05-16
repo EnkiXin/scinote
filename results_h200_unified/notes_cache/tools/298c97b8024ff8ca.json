@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/2465/clip_48.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"spectrophotometer\"],\n  \"distinguishing_features\": [\"black tray with multiple wells\", \"digital display screen\", \"keyboard and mouse\"],\n  \"labels_or_models\": [\"Jove\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

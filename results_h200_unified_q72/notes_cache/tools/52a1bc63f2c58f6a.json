@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58334/clip_28.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\", \"centrifuge\"],\n  \"distinguishing_features\": [\"pipette with blue plunger and tip\", \"centrifuge with open lid and visible rotor\"],\n  \"labels_or_models\": [\"Eppendorf\"],\n  \"operating_state\": [\"pipette in active use\", \"centrifuge off with lid open\"]\n}"}

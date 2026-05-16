@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60550/clip_14.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"20\", \"40\", \"60\", \"80\", \"100\"],\n  \"counts\": [\"1 test tube\", \"1 foam block\", \"1 bottle of red liquid\", \"1 syringe\"],\n  \"measurements_observed\": [\"Volume of liquid in test tube: 20 mL\"]\n}\n```"}

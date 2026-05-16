@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50332/clip_26.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"open the incubator door\"],\n  \"objects_manipulated\": [\"incubator door\"],\n  \"tool_object_interaction\": [\"the hand opens the door by pulling it outward\"]\n}\n```"}

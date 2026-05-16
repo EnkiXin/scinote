@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57265/clip_11.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"syringe\"],\n  \"distinguishing_features\": [\"plastic barrel\", \"metal needle\"],\n  \"labels_or_models\": [\"Maintain needle at site for 10 s to allow basement membrane matrix solidification\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

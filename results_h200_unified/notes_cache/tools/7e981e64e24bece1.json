@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57531/clip_12.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"white body with orange nozzle\", \"brand name 'HANNA' visible\"],\n  \"labels_or_models\": [\"HANNA-VAC\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

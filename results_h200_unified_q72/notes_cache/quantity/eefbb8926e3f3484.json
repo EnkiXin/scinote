@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57909/clip_25.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"37\", \"OFF\", \"LOW\", \"HIGH\"],\n  \"counts\": [\"2 petri dishes\", \"3 test tubes\", \"1 pipette\", \"1 beaker\"],\n  \"measurements_observed\": [\"Temperature setting on the Dri-Bath: 37\u00b0C\"]\n}\n```"}

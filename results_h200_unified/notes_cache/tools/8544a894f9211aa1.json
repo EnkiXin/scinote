@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62771/clip_18.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent body\", \"blue liquid reservoir\"],\n  \"labels_or_models\": [\"4% sucrose\\n1% yeast extract\\n40 \u03bcg/mL of FD&C Blue #1\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

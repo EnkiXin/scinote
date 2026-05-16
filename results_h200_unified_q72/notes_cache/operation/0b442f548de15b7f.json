@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59616/clip_27.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"manipulate suture thread with forceps\"\n  ],\n  \"objects_manipulated\": [\n    \"suture thread\",\n    \"tissue\"\n  ],\n  \"tool_object_interaction\": [\n    \"forceps grasp and guide suture thread through tissue\"\n  ]\n}\n```"}

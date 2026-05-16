@@ -1,0 +1,1 @@
+{"video_id": "videos/level_2/video_verification/58323/clip_3_removed_step_5.mp4", "task": "video_verification", "note": "{\n  \"steps_actually_shown\": [\"Place a tissue sample in a petri dish\", \"Add a pink liquid to the petri dish\"],\n  \"missing_or_skipped\": \"No obvious gap or skipped step\",\n  \"key_objects_handled\": [\"petri dish\", \"tissue sample\", \"pipette\"]\n}"}

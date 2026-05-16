@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56268/clip_45.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"1.0\", \"2\"],\n  \"counts\": {\n    \"beakers\": 3,\n    \"bottles\": 1,\n    \"pipettes\": 1\n  },\n  \"measurements_observed\": {\n    \"volume_of_solution_in_beaker_1\": \"1.0 mL\",\n    \"volume_of_solution_in_beaker_2\": \"2 mL\"\n  }\n}\n```"}

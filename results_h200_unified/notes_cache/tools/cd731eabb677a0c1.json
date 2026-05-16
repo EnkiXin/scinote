@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58359/clip_22.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"transparent protective cover\", \"multiple lenses\", \"adjustable stage\"],\n  \"labels_or_models\": [\"Olympus BX51\"],\n  \"operating_state\": [\"in use\"]\n}\n```"}

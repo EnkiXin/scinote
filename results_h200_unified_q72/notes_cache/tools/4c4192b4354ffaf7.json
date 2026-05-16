@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52557/clip_38.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"large, metallic, with a door and control panel\"],\n  \"labels_or_models\": [\"PLATEN 2\", \"CAUTION\"],\n  \"operating_state\": [\"off\"]\n}\n```"}

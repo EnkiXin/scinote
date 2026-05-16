@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56627/clip_30.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"white body\", \"green liquid inside\"],\n  \"labels_or_models\": [\"AVISO - DAY - CHROMATOGRAPHY\", \"JET SETY - 18G\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

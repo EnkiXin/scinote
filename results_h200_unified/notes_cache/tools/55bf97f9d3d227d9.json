@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58882/clip_26.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"analytical balance\"],\n  \"distinguishing_features\": [\"digital display\", \"brand logo 'sartorius'\", \"platform for placing objects\"],\n  \"labels_or_models\": [\"sartorius\", \"+13.8630\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

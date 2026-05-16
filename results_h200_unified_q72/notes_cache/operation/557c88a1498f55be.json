@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56266/clip_37.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"emit light from a laser onto a surface\"\n  ],\n  \"objects_manipulated\": [\n    \"laser\",\n    \"surface\"\n  ],\n  \"tool_object_interaction\": [\n    \"laser directs a beam of light onto a specific area of the surface\"\n  ]\n}\n```"}

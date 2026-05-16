@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62876/clip_35.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"microscope slide scanner\"],\n  \"distinguishing_features\": [\"black rectangular device with slots for slides\", \"connected to a computer\"],\n  \"labels_or_models\": [\"Slide Scanner\"],\n  \"operating_state\": [\"in active use\"]\n}"}

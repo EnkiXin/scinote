@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56327/clip_30.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"annotate well B2\"\n  ],\n  \"objects_manipulated\": [\n    \"marker\",\n    \"petri dish\"\n  ],\n  \"tool_object_interaction\": [\n    \"The marker is used to write on the petri dish.\"\n  ]\n}\n```"}

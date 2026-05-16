@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54752/clip_23.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"digital scale\", \"petri dishes\"],\n  \"distinguishing_features\": [\"digital display\", \"flat glass surface\", \"white gloves worn by operator\"],\n  \"labels_or_models\": [\"HANNA\", \"75\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}\n```"}

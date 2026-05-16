@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55614/clip_46.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"hang the anode in the oven with clamps\"\n  ],\n  \"objects_manipulated\": [\n    \"anode\",\n    \"clamps\"\n  ],\n  \"tool_object_interaction\": [\n    \"clamps are used to secure the anode to the oven rack\"\n  ]\n}\n```"}

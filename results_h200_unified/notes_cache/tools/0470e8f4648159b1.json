@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/4142/clip_30.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"metallic cage\"],\n  \"distinguishing_features\": [\"transparent plastic cover\", \"metal bars\", \"cable connections\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

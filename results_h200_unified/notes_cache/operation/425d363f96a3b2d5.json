@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61037/clip_25.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"unwrap aluminum foil\"],\n  \"objects_manipulated\": [\"aluminum foil\"],\n  \"tool_object_interaction\": [\"gloved hands use scissors to cut and remove aluminum foil\"]\n}\n```"}

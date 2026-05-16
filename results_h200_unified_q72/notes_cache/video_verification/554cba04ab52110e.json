@@ -1,0 +1,1 @@
+{"video_id": "videos/level_2/video_verification/52601/clip_7_removed_step_1.mp4", "task": "video_verification", "note": "{\n  \"steps_actually_shown\": [\"Pouring a liquid from a beaker into a multi-well plate\"],\n  \"missing_or_skipped\": \"No obvious gap or skipped step in the provided clip\",\n  \"key_objects_handled\": [\"beaker\", \"multi-well plate\"]\n}"}

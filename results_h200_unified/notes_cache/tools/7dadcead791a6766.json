@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61124/clip_12.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"VWR RHEE shaker\"],\n  \"distinguishing_features\": [\"white color\", \"digital display\", \"red knob for control\"],\n  \"labels_or_models\": [\"VWR\", \"RHEE\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

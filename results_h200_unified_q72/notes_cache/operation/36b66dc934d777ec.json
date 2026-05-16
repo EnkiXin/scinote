@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62864/clip_22.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"manipulate the object with tweezers\"],\n  \"objects_manipulated\": [\"a small, dark, irregularly shaped object with a metallic wire attached\"],\n  \"tool_object_interaction\": [\"tweezers grasp and adjust the metallic wire attached to the object\"]\n}\n```"}

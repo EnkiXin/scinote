@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61691/clip_46.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Centrifuge\"],\n  \"distinguishing_features\": [\"Digital display showing speed, time, temperature\", \"Buttons for setting parameters\"],\n  \"labels_or_models\": [\"Optima L-1XP\", \"21000 x g\", \"18 h\", \"4\u00b0C\"],\n  \"operating_state\": [\"On\"]\n}\n```"}

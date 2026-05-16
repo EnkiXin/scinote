@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55689/clip_23.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Thermo Scientific Micro 21R centrifuge\"],\n  \"distinguishing_features\": [\"digital display\", \"control buttons\", \"lid\"],\n  \"labels_or_models\": [\"Thermo\", \"Micro 21R\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

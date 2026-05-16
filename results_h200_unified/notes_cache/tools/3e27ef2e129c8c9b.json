@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56437/clip_25.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"digital display\", \"magnification scale\"],\n  \"labels_or_models\": [\"Image microscope.jpg (50%)\", \"1280x720 pixels, 300 DPI, 1.9 MB\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

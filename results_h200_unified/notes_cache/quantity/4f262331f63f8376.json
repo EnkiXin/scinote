@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60500/clip_11.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"20\", \"15\"],\n  \"counts\": [\"1 oven\", \"1 person\", \"3 containers inside the oven\"],\n  \"measurements_observed\": [\"20\u00b0C temperature displayed on the oven's digital panel\"]\n}\n```"}

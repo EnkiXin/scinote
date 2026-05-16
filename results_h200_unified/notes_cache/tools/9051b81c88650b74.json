@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58022/clip_18.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent body\", \"white handle\"],\n  \"labels_or_models\": [\"Control\", \"Culture Medium\", \"LPS Challenge\", \"HKL M Challenge\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

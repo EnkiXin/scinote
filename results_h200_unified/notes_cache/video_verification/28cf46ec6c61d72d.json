@@ -1,0 +1,1 @@
+{"video_id": "videos/level_2/video_verification/56639/clip_1_removed_step_4.mp4", "task": "video_verification", "note": "```json\n{\n  \"steps_actually_shown\": [\n    \"Pre-set tissue bath system reservoir to 45 \u00b0C\"\n  ],\n  \"missing_or_skipped\": \"No other steps were shown.\",\n  \"key_objects_handled\": [\n    \"tissue bath system reservoir\"\n  ]\n}\n```"}

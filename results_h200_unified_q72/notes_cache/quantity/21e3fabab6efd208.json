@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54144/clip_21.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"1.0\", \"0.5\"],\n  \"counts\": [\"1 conical flask\", \"1 syringe\", \"1 green cap\", \"1 blue cap\", \"1 person\", \"1 oven\"],\n  \"measurements_observed\": [\"1.0 mL of liquid in the syringe\"]\n}\n```"}

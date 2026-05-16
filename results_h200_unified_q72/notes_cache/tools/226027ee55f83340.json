@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3691/clip_41.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"incubator\"],\n  \"distinguishing_features\": [\"large, box-like structure with a glass door and metal shelves inside\"],\n  \"labels_or_models\": [\"37 \u00b0C\", \"5% CO\u2082\", \"30 min\", \"innova\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}\n```"}

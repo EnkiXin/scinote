@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63694/clip_34.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"25\", \"2\", \"71\", \"5\"],\n  \"counts\": [\"3 yellow trays\", \"1 spray bottle\", \"1 person\"],\n  \"measurements_observed\": [\"25 \u00b1 2 \u00b0C\", \"71 \u00b1 5% relative humidity\"]\n}\n```"}

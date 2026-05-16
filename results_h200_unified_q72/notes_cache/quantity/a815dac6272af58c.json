@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51974/clip_15.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"3,000\", \"30\", \"1.5\", \"3000 rpm\", \"30 sec\", \"1.5 \u03bcm\"],\n  \"counts\": [\"1 wafer\", \"1 syringe\", \"1 wafer spinner\", \"1 hotplate\"],\n  \"measurements_observed\": [\"3,000 rpm for 30 seconds\", \"1.5 \u03bcm thick\"]\n}\n```"}

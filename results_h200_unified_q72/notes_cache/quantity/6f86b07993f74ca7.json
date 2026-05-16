@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51044/clip_11.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"060\"],\n  \"counts\": [\"1 magnetic stirrer\", \"1 glass beaker\", \"1 bottle with a red cap\", \"1 bottle with an orange cap\", \"1 pipette\"],\n  \"measurements_observed\": [\"Temperature: 60\u00b0C\"]\n}\n```"}

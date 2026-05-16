@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53800/clip_10.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"10\", \"20\", \"30\", \"40\", \"50\", \"60\", \"70\", \"80\", \"90\", \"100\"],\n  \"counts\": [\"1\"],\n  \"measurements_observed\": [\"10 cm\", \"20 cm\", \"30 cm\", \"40 cm\", \"50 cm\", \"60 cm\", \"70 cm\", \"80 cm\", \"90 cm\", \"100 cm\"]\n}\n```"}

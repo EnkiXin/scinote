@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55964/clip_44.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"remove small object from water bath\"],\n  \"objects_manipulated\": [\"small object, water bath\"],\n  \"tool_object_interaction\": [\"hand gently lifts object out of water\"]\n}\n```"}

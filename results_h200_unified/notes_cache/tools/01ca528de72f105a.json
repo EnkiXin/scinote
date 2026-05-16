@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60469/clip_15.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"ultrasonic cleaner\"],\n  \"distinguishing_features\": [\"stainless steel tank\", \"green plastic basket\", \"lid with handle\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

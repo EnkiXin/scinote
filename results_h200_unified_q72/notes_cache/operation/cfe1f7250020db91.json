@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56418/clip_17.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"wipes the metal rod with a tissue\"\n  ],\n  \"objects_manipulated\": [\n    \"metal rod\",\n    \"tissue\"\n  ],\n  \"tool_object_interaction\": [\n    \"the tissue is used to clean the surface of the metal rod\"\n  ]\n}\n```"}

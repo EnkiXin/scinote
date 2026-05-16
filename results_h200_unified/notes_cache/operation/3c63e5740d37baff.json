@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61854/clip_18.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"sutures are being tied\"],\n  \"objects_manipulated\": [\"tissue\", \"sutures\"],\n  \"tool_object_interaction\": [\"forceps are used to hold the tissue while sutures are tied\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64041/clip_46.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"mark the lid of a petri dish with a marker\"\n  ],\n  \"objects_manipulated\": [\n    \"petri dish lid\",\n    \"marker\"\n  ],\n  \"tool_object_interaction\": [\n    \"marker is used to write on the petri dish lid\"\n  ]\n}\n```"}

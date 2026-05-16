@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59270/clip_14.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"mortar and pestle\"],\n  \"distinguishing_features\": [\"white mortar\", \"white pestle\", \"blue gloves worn by operator\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

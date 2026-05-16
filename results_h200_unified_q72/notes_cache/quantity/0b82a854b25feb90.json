@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3563/clip_17.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"200\", \"100\", \"50\", \"25\"],\n  \"counts\": [\"3 test tubes\", \"1 petri dish\", \"1 pipette\", \"1 red tray\", \"1 box of Fisher Scientific Digital Water Bath\"],\n  \"measurements_observed\": [\"200 mL on the pipette\"]\n}\n```"}

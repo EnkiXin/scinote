@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61798/clip_7.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"4800\", \"925\", \"5mm\"],\n  \"counts\": [\"1 pipette\", \"1 petri dish\", \"1 bottle\", \"1 agar plug\"],\n  \"measurements_observed\": [\"4800 spores/cm\u00b2/plate\", \"925 spores/5mm/diameter-agar plug\"]\n}\n```"}

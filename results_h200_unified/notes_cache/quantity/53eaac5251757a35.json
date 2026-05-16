@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56778/clip_17.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"5\", \"10\", \"15\", \"20\", \"25\", \"30\"],\n  \"counts\": {\n    \"dials\": 1,\n    \"labels\": 7\n  },\n  \"measurements_observed\": [\"5 minutes\", \"10 minutes\", \"15 minutes\", \"20 minutes\", \"25 minutes\", \"30 minutes\"]\n}\n```"}

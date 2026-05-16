@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63020/clip_25.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"connects a tube to a water source\"\n  ],\n  \"objects_manipulated\": [\n    \"tube\",\n    \"water source\"\n  ],\n  \"tool_object_interaction\": [\n    \"the tube is inserted into a water source, likely for a water bath or cooling system\"\n  ]\n}\n```"}

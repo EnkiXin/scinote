@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58577/clip_20.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"gloves\"],\n  \"distinguishing_features\": [\"blue gloves worn by person handling plants\"],\n  \"labels_or_models\": [\"513\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

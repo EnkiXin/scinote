@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52859/clip_10.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"microtube\"],\n  \"distinguishing_features\": [\"pipette with a yellow tip\", \"microtube with a yellow label\"],\n  \"labels_or_models\": [\"10% BLEACH\"],\n  \"operating_state\": [\"pipette in active use\", \"microtube being handled\"]\n}\n```"}

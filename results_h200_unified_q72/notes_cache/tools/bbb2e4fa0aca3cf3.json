@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56327/clip_29.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"computer\", \"microscope\"],\n  \"distinguishing_features\": [\"black keyboard and mouse\", \"microscope with a silver and black body\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"computer is on\", \"microscope appears off\"]\n}\n```"}

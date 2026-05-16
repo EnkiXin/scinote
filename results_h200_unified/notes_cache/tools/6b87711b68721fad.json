@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50371/clip_32.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"binocular eyepieces\", \"fine focus knob\", \"stage with sample holder\"],\n  \"labels_or_models\": [\"OLYMPUS\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

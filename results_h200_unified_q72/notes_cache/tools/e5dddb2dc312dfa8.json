@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54030/clip_26.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"beaker\"],\n  \"distinguishing_features\": [\"pipette with a red plunger\", \"beaker with measurement markings\"],\n  \"labels_or_models\": [\"PYREX\", \"400 mL\"],\n  \"operating_state\": [\"pipette in active use\", \"beaker stationary\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56013/clip_21.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"press button to start centrifuge\"\n  ],\n  \"objects_manipulated\": [\n    \"centrifuge control panel\"\n  ],\n  \"tool_object_interaction\": [\n    \"finger presses button on centrifuge control panel\"\n  ]\n}\n```"}

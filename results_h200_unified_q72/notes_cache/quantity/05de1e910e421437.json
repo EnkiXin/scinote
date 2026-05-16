@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52090/clip_44.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"8\", \"0\", \"3250\", \"20\"],\n  \"counts\": [\"1 centrifuge\", \"1 purple rack\", \"1 gloved hand\", \"1 label\"],\n  \"measurements_observed\": [\"3250 RPM (centrifuge speed)\", \"20 minutes (time setting)\"]\n}\n```"}

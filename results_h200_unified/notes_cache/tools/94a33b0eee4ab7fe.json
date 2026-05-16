@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55979/clip_13.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"MaxQ Microcentrifuge\"],\n  \"distinguishing_features\": [\"black color\", \"yellow label\", \"digital display\"],\n  \"labels_or_models\": [\"MaxQ\", \"Microcentrifuge\"],\n  \"operating_state\": [\"off\"]\n}\n```"}

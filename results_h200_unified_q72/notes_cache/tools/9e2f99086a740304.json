@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/4295/clip_35.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent pipette with a fine tip\", \"pipette is being held by a gloved hand\"],\n  \"labels_or_models\": [\"Ethanol\"],\n  \"operating_state\": [\"in active use\"]\n}"}

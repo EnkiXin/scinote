@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58916/clip_58.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"connect tubing to valve\"],\n  \"objects_manipulated\": [\"tubing\", \"valve\"],\n  \"tool_object_interaction\": [\"the hand wearing a purple glove connects the tubing to the valve\"]\n}\n```"}

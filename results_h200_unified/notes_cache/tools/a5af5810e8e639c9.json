@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56268/clip_10.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"funnel\"],\n  \"distinguishing_features\": [\"white color\", \"yellow band around the top\"],\n  \"labels_or_models\": [\"JMS\", \"JMS\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3691/clip_53.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"forceps\"],\n  \"distinguishing_features\": [\"metallic, curved tongs\"],\n  \"labels_or_models\": [\"mdPA striatal explant\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

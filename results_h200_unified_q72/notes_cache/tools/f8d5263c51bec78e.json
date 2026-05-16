@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/200229/clip_25.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"microplate\"],\n  \"distinguishing_features\": [\"rectangular shape with multiple wells\"],\n  \"labels_or_models\": [\"Luminex\"],\n  \"operating_state\": [\"not in active use\"]\n}"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64400/clip_11.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"white body with a blue plunger, connected to a flexible tube\"],\n  \"labels_or_models\": [\"Eppendorf\"],\n  \"operating_state\": [\"in active use\"]\n}"}

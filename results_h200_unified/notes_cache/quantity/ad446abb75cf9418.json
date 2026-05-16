@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62853/clip_29.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"10\", \"200\", \"2\", \"mg\", \"mL\"],\n  \"counts\": {\n    \"test tubes\": \"8\",\n    \"pipette tips\": \"1\"\n  },\n  \"measurements_observed\": {\n    \"volume\": \"200 \u03bcL\",\n    \"protein amount\": \"~ 2 mg protein\"\n  }\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59739/clip_17.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\", \"Erlenmeyer flask\"],\n  \"distinguishing_features\": [\"pipette with blue plunger and tip\", \"Erlenmeyer flask with yellow liquid\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"pipette in active use\", \"Erlenmeyer flask stationary\"]\n}"}

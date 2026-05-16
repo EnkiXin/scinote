@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53980/clip_14.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\", \"pipette\"],\n  \"distinguishing_features\": [\"microscope with a blue stage plate\", \"pipette with a yellow tip\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"microscope is off\", \"pipette is in active use\"]\n}\n```"}

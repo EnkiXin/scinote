@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59119/clip_12.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"forceps\", \"petri dish\"],\n  \"distinguishing_features\": [\"forceps with a metallic, shiny surface\", \"petri dishes with transparent lids and bases\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"forceps in active use\", \"petri dishes in active use\"]\n}"}

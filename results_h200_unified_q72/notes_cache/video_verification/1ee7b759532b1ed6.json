@@ -1,0 +1,1 @@
+{"video_id": "videos/level_2/video_verification/51974/clip_10_removed_step_1.mp4", "task": "video_verification", "note": "{\n  \"steps_actually_shown\": [\"viewing a sample under a microscope\"],\n  \"missing_or_skipped\": \"no sample preparation or adjustment of microscope settings is shown\",\n  \"key_objects_handled\": [\"microscope\"]\n}"}

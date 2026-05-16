@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58290/clip_11.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"incubator\"],\n  \"distinguishing_features\": [\"temperature control dial\", \"digital display\", \"auto-start switch\", \"control switch\"],\n  \"labels_or_models\": [\"auto-start\", \"control\"],\n  \"operating_state\": [\"open\", \"not in active use\"]\n}"}

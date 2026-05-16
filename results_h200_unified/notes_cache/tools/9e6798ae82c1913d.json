@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55504/clip_25.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"lab bench\", \"glassware\"],\n  \"distinguishing_features\": [\"transparent glass container\", \"white paper sheet\"],\n  \"labels_or_models\": [\"CelloTape\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58184/clip_30.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"balance scale\", \"cage\"],\n  \"distinguishing_features\": [\"digital display\", \"metallic cage bars\", \"wooden bedding\"],\n  \"labels_or_models\": [\"Water\", \"Sucrose\", \"TRAVELER\"],\n  \"operating_state\": [\"on\", \"inactive\"]\n}\n```"}

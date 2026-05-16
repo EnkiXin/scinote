@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51357/clip_51.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"petri dish\"],\n  \"distinguishing_features\": [\"transparent glass\", \"red ring around the edge\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"in use\"]\n}\n```"}

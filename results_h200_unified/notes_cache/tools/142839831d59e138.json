@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59156/clip_32.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent liquid reservoir\", \"dropper tip\"],\n  \"labels_or_models\": [\"BioWave Pro\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

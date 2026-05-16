@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56266/clip_29.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"heating plate\"],\n  \"distinguishing_features\": [\"blue base with digital display\", \"covered with aluminum foil\"],\n  \"labels_or_models\": [\"IK\", \"110\", \"90\", \"5 \u00b0C/min\"],\n  \"operating_state\": [\"on\", \"temperature being adjusted\"]\n}"}

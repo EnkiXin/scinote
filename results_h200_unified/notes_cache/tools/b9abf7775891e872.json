@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57131/clip_41.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"petri dish\"],\n  \"distinguishing_features\": [\"transparent plastic material\", \"blue gloves worn by operator\"],\n  \"labels_or_models\": [\"BRITA\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

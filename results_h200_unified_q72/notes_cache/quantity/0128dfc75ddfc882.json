@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51846/clip_22.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"1\", \"5\", \"0\"],\n  \"counts\": [\"1 treadmill belt\", \"1 power button\", \"1 run button\", \"1 stop button\", \"3 speed buttons\"],\n  \"measurements_observed\": [\"1.50 meters/minute\"]\n}\n```"}

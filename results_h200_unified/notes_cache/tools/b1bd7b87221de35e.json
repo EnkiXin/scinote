@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58458/clip_26.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Centrifuge\"],\n  \"distinguishing_features\": [\"Circular opening for sample tubes\", \"Digital display panel with buttons\"],\n  \"labels_or_models\": [\"Eppendorf\", \"Centrifuge\"],\n  \"operating_state\": [\"On\"]\n}\n```"}

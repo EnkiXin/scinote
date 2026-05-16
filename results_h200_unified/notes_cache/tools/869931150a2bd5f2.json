@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63422/clip_17.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"electronic device with a display\"],\n  \"distinguishing_features\": [\"red light\", \"digital display showing '003'\"],\n  \"labels_or_models\": [\"003\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

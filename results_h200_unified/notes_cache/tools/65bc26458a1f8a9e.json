@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56437/clip_14.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"hot plate\"],\n  \"distinguishing_features\": [\"white color\", \"digital display\", \"knobs for control\"],\n  \"labels_or_models\": [\"Hot Plate\", \"IKA\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

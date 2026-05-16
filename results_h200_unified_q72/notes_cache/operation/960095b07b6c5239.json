@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58892/clip_23.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"place the tube into the ice\"\n  ],\n  \"objects_manipulated\": [\n    \"tube with a yellow cap labeled 'PBS Buffer'\"\n  ],\n  \"tool_object_interaction\": [\n    \"hand holding the tube and placing it into the ice\"\n  ]\n}\n```"}

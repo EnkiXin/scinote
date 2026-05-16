@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57343/clip_6.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"test tube rack\"],\n  \"distinguishing_features\": [\"transparent plastic body\", \"white cap\", \"blue base\"],\n  \"labels_or_models\": [\"SOIL IMPLEX\", \"NANOPURE WATER\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

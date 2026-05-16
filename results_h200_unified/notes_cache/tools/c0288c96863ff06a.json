@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58239/clip_32.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"thermal cycler\"],\n  \"distinguishing_features\": [\"digital display\", \"numerical keypad\", \"sample tray slots\"],\n  \"labels_or_models\": [\"MRS HOWELL\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

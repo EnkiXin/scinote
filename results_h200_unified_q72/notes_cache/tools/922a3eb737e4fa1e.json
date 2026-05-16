@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/200904/clip_13.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"test tube\"],\n  \"distinguishing_features\": [\"transparent plastic with a white cap\", \"contains a suspension with visible particulate matter\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"held in hand, not in active use\"]\n}"}

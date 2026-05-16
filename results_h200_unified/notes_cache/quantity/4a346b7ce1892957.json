@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/65412/clip_10.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"18\", \"MQ\", \"cm\"],\n  \"counts\": {\n    \"bottles\": 2,\n    \"test tubes\": 1,\n    \"pipettes\": 1,\n    \"lab coats\": 1,\n    \"gloves\": 1\n  },\n  \"measurements_observed\": [\"Ultrapure water resistivity: >18 MQ-cm\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57573/clip_10.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"inject liquid into container\"],\n  \"objects_manipulated\": [\"syringe\", \"container labeled PDMS 404\"],\n  \"tool_object_interaction\": [\"syringe is inserted into container to inject liquid\"]\n}\n```"}

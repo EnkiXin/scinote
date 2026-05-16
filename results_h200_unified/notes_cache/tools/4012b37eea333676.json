@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57928/clip_24.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"DVR system\"],\n  \"distinguishing_features\": [\"red color\", \"black cables connected\"],\n  \"labels_or_models\": [\"DVR system\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57075/clip_32.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"record weight\"],\n  \"objects_manipulated\": [\"beaker labeled 'Precort Solution'\"],\n  \"tool_object_interaction\": [\"digital scale displays weight reading\"]\n}\n```"}

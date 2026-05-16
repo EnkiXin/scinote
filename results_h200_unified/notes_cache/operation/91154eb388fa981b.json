@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62864/clip_31.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"soldering a component\"],\n  \"objects_manipulated\": [\"electronic component\", \"soldering iron\"],\n  \"tool_object_interaction\": [\"the soldering iron is used to apply heat and solder to the electronic component\"]\n}\n```"}

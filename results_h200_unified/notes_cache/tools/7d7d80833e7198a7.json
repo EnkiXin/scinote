@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56418/clip_15.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Omega Microflex LS pump\"],\n  \"distinguishing_features\": [\"white body\", \"blue accents\", \"digital display\", \"serial number 0869-L2037\"],\n  \"labels_or_models\": [\"Microflex LS\", \"Omega\", \"0869-L2037\"],\n  \"operating_state\": [\"off\"]\n}\n```"}

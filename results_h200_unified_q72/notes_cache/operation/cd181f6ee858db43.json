@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50849/clip_3.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"press thermometer probe onto surface\"\n  ],\n  \"objects_manipulated\": [\n    \"thermometer probe\",\n    \"black textured surface\"\n  ],\n  \"tool_object_interaction\": [\n    \"thermometer probe makes contact with black textured surface\"\n  ]\n}\n```"}

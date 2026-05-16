@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50527/clip_9.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"tray\", \"bucket\"],\n  \"distinguishing_features\": [\"black plastic tray with multiple compartments\", \"white plastic bucket\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"in active use\", \"in active use\"]\n}"}

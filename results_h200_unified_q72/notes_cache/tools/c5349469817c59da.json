@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58674/clip_22.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"digital scale\"],\n  \"distinguishing_features\": [\"white and blue digital scale with a flat weighing platform\"],\n  \"labels_or_models\": [\"-0.02\"],\n  \"operating_state\": [\"on, displaying a reading\"]\n}\n```"}

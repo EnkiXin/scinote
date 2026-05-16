@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54413/clip_11.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"connects tubing to a metal apparatus\"\n  ],\n  \"objects_manipulated\": [\n    \"tubing\",\n    \"metal apparatus\"\n  ],\n  \"tool_object_interaction\": [\n    \"tubing is inserted into a port on the metal apparatus\"\n  ]\n}\n```"}

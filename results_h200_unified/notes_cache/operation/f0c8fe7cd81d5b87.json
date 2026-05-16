@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3564/clip_31.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"suture the incision\"],\n  \"objects_manipulated\": [\"surgical thread\", \"needle\", \"incision site\"],\n  \"tool_object_interaction\": [\"needle is inserted through surgical thread to secure the incision\"]\n}\n```"}

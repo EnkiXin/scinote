@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57774/clip_53.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"aluminum foil tray\", \"plastic container\"],\n  \"distinguishing_features\": [\"foil covering\", \"green plastic container\"],\n  \"labels_or_models\": [\"8\"],\n  \"operating_state\": [\"in use for storage\"]\n}\n```"}

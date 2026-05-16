@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62458/clip_15.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"gloved hand\"],\n  \"distinguishing_features\": [\"transparent plastic containers with green clips\", \"white gloves worn by person\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"active handling\"]\n}\n```"}

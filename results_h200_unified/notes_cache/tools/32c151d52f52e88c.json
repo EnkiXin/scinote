@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/201777/clip_37.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Leica RM2125S microtome\"],\n  \"distinguishing_features\": [\"digital display\", \"control panel with buttons\", \"sample stage\", \"knife holder\"],\n  \"labels_or_models\": [\"LEICA RM2125S\", \"CONTROL\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57021/clip_11.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"rotate the circular component\"\n  ],\n  \"objects_manipulated\": [\n    \"circular component with teeth\"\n  ],\n  \"tool_object_interaction\": [\n    \"the circular component is rotated within a transparent enclosure\"\n  ]\n}\n```"}

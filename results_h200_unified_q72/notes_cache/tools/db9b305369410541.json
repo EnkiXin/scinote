@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52859/clip_13.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"clamp stand\"],\n  \"distinguishing_features\": [\"pipette with a yellow tip\", \"clamp stand with adjustable arms\"],\n  \"labels_or_models\": [\"10% BLEACH\"],\n  \"operating_state\": [\"pipette in active use\", \"clamp stand stationary\"]\n}\n```"}

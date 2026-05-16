@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57240/clip_7.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"gloves\", \"lab bench\"],\n  \"distinguishing_features\": [\"black gloves with white text\", \"white lab bench\"],\n  \"labels_or_models\": [\"jove\", \"BioSafe\"],\n  \"operating_state\": [\"gloves are being worn\", \"lab bench is stationary\"]\n}\n```"}

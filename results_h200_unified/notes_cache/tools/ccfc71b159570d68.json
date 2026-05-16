@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58314/clip_16.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"beaker\"],\n  \"distinguishing_features\": [\"transparent glass\", \"blue hexagonal label\", \"volume markings\"],\n  \"labels_or_models\": [\"400 mL\", \"VISTA\u2122\", \"No. 70000\"],\n  \"operating_state\": [\"in use\"]\n}\n```"}

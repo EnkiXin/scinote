@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62876/clip_9.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"forceps\", \"syringe\"],\n  \"distinguishing_features\": [\"forceps have curved tips\", \"syringe has a needle attached\"],\n  \"labels_or_models\": [\"Young mice: 18 G needle\\nAged mice: 21 G needle\", \"jove\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56266/clip_14.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"hotplate\"],\n  \"distinguishing_features\": [\"blue base with digital display\", \"covered with aluminum foil\"],\n  \"labels_or_models\": [\"IKA C-MAG HP 7\"],\n  \"operating_state\": [\"on\", \"display shows 110\"]\n}\n```"}

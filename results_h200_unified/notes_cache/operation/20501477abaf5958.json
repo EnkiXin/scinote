@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57789/clip_24.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"pipette liquid onto a petri dish\"],\n  \"objects_manipulated\": [\"petri dish\", \"pipette\"],\n  \"tool_object_interaction\": [\"pipette\u5438\u53d6\u6db2\u4f53\u5e76\u6ef4\u5165\u57f9\u517b\u76bf\u4e2d\"]\n}\n```"}

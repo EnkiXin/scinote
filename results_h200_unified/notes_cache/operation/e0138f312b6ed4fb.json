@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59271/clip_19.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"handle a piece of tissue paper\"\n  ],\n  \"objects_manipulated\": [\n    \"tissue paper\",\n    \"blue cap\"\n  ],\n  \"tool_object_interaction\": [\n    \"gloved hand holds tissue paper\",\n    \"gloved hand places blue cap on surface\"\n  ]\n}\n```"}

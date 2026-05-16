@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55307/clip_11.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"diener vacuum oven\"],\n  \"distinguishing_features\": [\"vacuum chamber\", \"control panel with buttons and knobs\", \"temperature gauge\"],\n  \"labels_or_models\": [\"diener\", \"EASYVAC 100\"],\n  \"operating_state\": [\"off\"]\n}\n```"}

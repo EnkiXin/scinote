@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57979/clip_40.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"HPLC system\", \"computer\"],\n  \"distinguishing_features\": [\"stacked HPLC units with connected tubing\", \"computer monitor displaying data\"],\n  \"labels_or_models\": [\"Agilent\", \"Fisher Scientific\"],\n  \"operating_state\": [\"on\", \"active use\"]\n}\n```"}

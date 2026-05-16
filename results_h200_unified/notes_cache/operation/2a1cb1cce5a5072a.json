@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62279/clip_8.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"spray liquid onto plastic slide\"],\n  \"objects_manipulated\": [\"plastic slide\", \"spray bottle\"],\n  \"tool_object_interaction\": [\"spray bottle nozzle directed at plastic slide surface\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/2355/clip_28.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent body\", \"plastic bulb\"],\n  \"labels_or_models\": [\"Samedia Complex Bliz/10 A.R.\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

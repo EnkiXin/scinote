@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57629/clip_17.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"insert a cotton swab into a wooden stick\"\n  ],\n  \"objects_manipulated\": [\n    \"cotton swab\",\n    \"wooden stick\"\n  ],\n  \"tool_object_interaction\": [\n    \"the cotton swab is inserted into the hollow end of the wooden stick\"\n  ]\n}\n```"}

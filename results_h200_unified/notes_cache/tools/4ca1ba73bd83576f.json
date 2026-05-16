@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62533/clip_34.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Nikon camera\"],\n  \"distinguishing_features\": [\"Nikon logo\", \"zoom control\", \"mode dial\"],\n  \"labels_or_models\": [\"Nikon\", \"COOLPIX P310\", \"NIKKOR\"],\n  \"operating_state\": [\"camera is being adjusted\"]\n}\n```"}

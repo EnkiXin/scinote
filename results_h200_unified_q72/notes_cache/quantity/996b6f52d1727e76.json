@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57016/clip_42.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [],\n  \"counts\": [\n    \"8 test tubes\",\n    \"1 pipette\",\n    \"1 beaker\",\n    \"1 ice bucket\",\n    \"1 centrifuge rotor\"\n  ],\n  \"measurements_observed\": [\n    \"Volume of liquid in beaker: 100 mL\"\n  ]\n}\n```"}

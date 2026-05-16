@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61124/clip_5.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\", \"test tube rack\"],\n  \"distinguishing_features\": [\"pipette with a clear body and a white plunger\", \"test tube rack with multiple compartments\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"pipette in active use\", \"test tube rack not in use\"]\n}"}

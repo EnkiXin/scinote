@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50484/clip_30.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"100x 1.4 NA\", \"488\", \"15 nm\", \"20 %\"],\n  \"counts\": [\"2 objectives\", \"1 polychromator interface\"],\n  \"measurements_observed\": [\"Wavelength: 488 nm\", \"Bandwidth: 15 nm\", \"Intensity: 20 %\"]\n}\n```"}

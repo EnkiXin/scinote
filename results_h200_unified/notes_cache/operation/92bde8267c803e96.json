@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55649/clip_24.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"insert wafer into machine\", \"adjust machine settings\"],\n  \"objects_manipulated\": [\"wafer\", \"machine\"],\n  \"tool_object_interaction\": [\"wafer inserted into machine slot\", \"machine settings adjusted by hand\"]\n}\n```"}

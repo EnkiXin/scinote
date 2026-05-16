@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57847/clip_32.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"hand-held, used for transferring liquid\"],\n  \"labels_or_models\": [\"Hamilton\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

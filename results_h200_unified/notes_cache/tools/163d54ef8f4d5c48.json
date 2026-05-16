@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55689/clip_10.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent body\", \"red markings for volume measurement\"],\n  \"labels_or_models\": [\"Hercz T R25-13\", \"Sara T R25-13\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

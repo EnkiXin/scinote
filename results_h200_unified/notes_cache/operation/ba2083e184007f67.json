@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3608/clip_16.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"pipette 2.778 mL from test tube into graduated cylinder\"],\n  \"objects_manipulated\": [\"test tube\", \"graduated cylinder\"],\n  \"tool_object_interaction\": [\"pipette\u5438\u53d62.778 mL\u6db2\u4f53\u81f3\u91cf\u7b52\u4e2d\"]\n}\n```"}

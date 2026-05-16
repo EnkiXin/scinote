@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60259/clip_11.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"100\", \"20\"],\n  \"counts\": [\"2 syringes\", \"1 container with a radioactive symbol\", \"1 container labeled 'NaCl'\"],\n  \"measurements_observed\": [\"100 mL on the syringe\"]\n}\n```"}

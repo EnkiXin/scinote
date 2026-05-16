@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54614/clip_73.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"beaker\", \"glassware\"],\n  \"distinguishing_features\": [\"transparent glass\", \"rubber bulb for pipette\", \"graduated scale on beaker\"],\n  \"labels_or_models\": [\"jove\", \"100 ml\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

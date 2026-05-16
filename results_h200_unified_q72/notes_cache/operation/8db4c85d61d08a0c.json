@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55614/clip_15.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"attach hose to gas cylinder valve\"],\n  \"objects_manipulated\": [\"hose\", \"gas cylinder valve\"],\n  \"tool_object_interaction\": [\"hose is connected to the valve on the gas cylinder\"]\n}\n```"}

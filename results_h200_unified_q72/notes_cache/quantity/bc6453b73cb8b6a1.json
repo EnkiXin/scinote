@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55685/clip_23.mp4", "task": "quantity", "note": "{\n  \"numbers_visible\": [\"25.0\", \"25.0\", \"25\"],\n  \"counts\": [\"2 temperature displays\", \"1 humidity display\", \"2 power switches\"],\n  \"measurements_observed\": [\"25.0 degrees Celsius (temperature)\", \"25.0 degrees Celsius (set point)\", \"25% relative humidity\"]\n}"}

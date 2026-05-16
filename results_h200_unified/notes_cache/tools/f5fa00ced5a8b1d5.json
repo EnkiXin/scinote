@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/4022/clip_48.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"white color\", \"multiple circular slots for tubes\", \"blue lid\"],\n  \"labels_or_models\": [\"NALGENE\", \"No. 5100-0001\"],\n  \"operating_state\": [\"inactive\"]\n}\n```"}

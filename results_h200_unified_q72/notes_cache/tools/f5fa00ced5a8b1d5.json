@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/4022/clip_48.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"white rotor with multiple sample wells\", \"blue lid being placed on top\"],\n  \"labels_or_models\": [\"No. 5100-0001\", \"NALGENE\"],\n  \"operating_state\": [\"not in active use, lid being placed\"]\n}\n```"}

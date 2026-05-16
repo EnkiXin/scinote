@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59764/clip_5.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"vacuum pump\"],\n  \"distinguishing_features\": [\"metallic body with vented sides, multiple ports for connections\"],\n  \"labels_or_models\": [\"Vacuum Pump\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

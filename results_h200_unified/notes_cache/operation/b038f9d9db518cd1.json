@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60960/clip_17.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"pipette 100uL from PBS bottle into petri dish\"],\n  \"objects_manipulated\": [\"PBS bottle\", \"petri dish\"],\n  \"tool_object_interaction\": [\"pipette\u5438\u53d6100\u5fae\u5347PBS\u6eb6\u6db2\u5e76\u6ce8\u5165\u57f9\u517b\u76bf\u4e2d\"]\n}\n```"}

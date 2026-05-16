@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63296/clip_35.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"squeezing syringe to expel liquid\"],\n  \"objects_manipulated\": [\"syringe\", \"test tube\"],\n  \"tool_object_interaction\": [\"syringe needle inserted into test tube opening\"]\n}\n```"}

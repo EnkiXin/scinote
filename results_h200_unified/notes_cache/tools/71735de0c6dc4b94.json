@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/2355/clip_19.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"black handle\", \"red measuring scale\"],\n  \"labels_or_models\": [\"S2 media Complex\", \"8/12/10 A.R.\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

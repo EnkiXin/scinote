@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53800/clip_23.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"power supply\"],\n  \"distinguishing_features\": [\"black color\", \"red power button\", \"white label with 'MAX' text\", \"cable connected to the back\"],\n  \"labels_or_models\": [\"MAX\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

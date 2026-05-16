@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64923/clip_11.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"hold a syringe containing a dark liquid\"\n  ],\n  \"objects_manipulated\": [\n    \"a syringe with a label\"\n  ],\n  \"tool_object_interaction\": [\n    \"gloved hand gripping the syringe\"\n  ]\n}\n```"}

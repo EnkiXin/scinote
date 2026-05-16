@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58882/clip_26.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"place bottle on scale\", \"press button to confirm weight\"],\n  \"objects_manipulated\": [\"bottle\", \"scale\"],\n  \"tool_object_interaction\": [\"bottle placed on weighing pan\", \"button pressed on scale display\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54413/clip_19.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"adjusts a valve on the apparatus\"],\n  \"objects_manipulated\": [\"valve on the apparatus\"],\n  \"tool_object_interaction\": [\"hand adjusts the valve, likely to control flow or pressure\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59739/clip_17.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"balloon\"],\n  \"distinguishing_features\": [\n    \"pipette has a blue grip\",\n    \"balloon is orange and inflated\"\n  ],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"pipette is in active use\", \"balloon is being inflated\"]\n}\n```"}

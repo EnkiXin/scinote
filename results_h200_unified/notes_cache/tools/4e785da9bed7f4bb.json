@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56266/clip_14.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"hot plate magnetic stirrer\"],\n  \"distinguishing_features\": [\"blue body\", \"digital display showing '110'\", \"temperature control knob\"],\n  \"labels_or_models\": [\"IKA C-MAG HP T\", \"110\u00b0C\", \"10 min\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

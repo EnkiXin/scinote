@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55307/clip_13.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"place glass slide into heating block\"],\n  \"objects_manipulated\": [\"glass slide\", \"heating block\"],\n  \"tool_object_interaction\": [\"the glass slide is placed on the heating block using forceps\"]\n}\n```"}

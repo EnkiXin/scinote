@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54661/clip_31.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"analytical balance\"],\n  \"distinguishing_features\": [\"digital display\", \"lighted weighing pan\", \"brand logo visible\"],\n  \"labels_or_models\": [\"Kimtech\", \"Ohaus\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

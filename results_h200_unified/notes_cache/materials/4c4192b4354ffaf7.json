@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52557/clip_38.mp4", "task": "materials", "note": "```json\n{\n  \"materials_visible\": [],\n  \"labels_seen\": [\n    \"PLATEN 2\",\n    \"CAUTION\"\n  ],\n  \"container_descriptions\": [\n    {\n      \"shape\": \"rectangular\",\n      \"color\": \"silver\",\n      \"size\": \"large\"\n    }\n  ],\n  \"substance_appearance\": []\n}\n```"}

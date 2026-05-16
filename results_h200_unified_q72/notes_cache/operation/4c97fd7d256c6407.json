@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52874/clip_12.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"wipes a purple container with a white cloth\"\n  ],\n  \"objects_manipulated\": [\n    \"purple container\",\n    \"white cloth\"\n  ],\n  \"tool_object_interaction\": [\n    \"white cloth is used to wipe the surface of the purple container\"\n  ]\n}\n```"}

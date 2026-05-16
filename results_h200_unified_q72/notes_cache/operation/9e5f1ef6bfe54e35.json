@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61391/clip_15.mp4", "task": "operation", "note": "{\n  \"actions_performed\": [\"marks skin with marker\"],\n  \"objects_manipulated\": [\"skin\", \"marker\"],\n  \"tool_object_interaction\": [\"marker tip contacts skin\"]\n}"}

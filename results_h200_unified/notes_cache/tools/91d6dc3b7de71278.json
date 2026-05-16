@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55614/clip_22.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Oxygen Scavenger\"],\n  \"distinguishing_features\": [\"digital display\", \"fan\", \"cable connections\"],\n  \"labels_or_models\": [\"Oxygen Scavenger\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

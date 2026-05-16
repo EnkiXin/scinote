@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59358/clip_33.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"syringe\", \"tourniquet\"],\n  \"distinguishing_features\": [\"transparent barrel\", \"plastic needle\", \"white bandage\", \"green tourniquet\"],\n  \"labels_or_models\": [\"Becton Dickinson\", \"Jove\"],\n  \"operating_state\": [\"active use\", \"applied\"]\n}\n```"}

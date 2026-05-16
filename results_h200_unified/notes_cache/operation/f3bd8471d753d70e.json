@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62458/clip_29.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"place cone-shaped object at specified location\"],\n  \"objects_manipulated\": [\"cone-shaped object\"],\n  \"tool_object_interaction\": [\"the person uses gloved hands to place the cone-shaped object at two corners within 10 cm from each wall\"]\n}\n```"}

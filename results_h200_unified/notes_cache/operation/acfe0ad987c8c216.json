@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64314/clip_15.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"suction fluid from tissue\"],\n  \"objects_manipulated\": [\"tissue\", \"fluid\"],\n  \"tool_object_interaction\": [\"suction tube is inserted into tissue to remove fluid\"]\n}\n```"}

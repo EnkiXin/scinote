@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55685/clip_37.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"adjust the peristaltic pump settings\"\n  ],\n  \"objects_manipulated\": [\n    \"peristaltic pump control panel\"\n  ],\n  \"tool_object_interaction\": [\n    \"hand presses buttons on the control panel\"\n  ]\n}\n```"}

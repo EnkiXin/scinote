@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56655/clip_11.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"100\", \"\u00b5g/mL\", \"blocking buffer\"],\n  \"counts\": {\n    \"test tubes\": \"2\",\n    \"pipettes\": \"3\",\n    \"boxes\": \"1\",\n    \"containers\": \"4\"\n  },\n  \"measurements_observed\": [\"100 \u00b5g/mL streptavidin in blocking buffer\"]\n}\n```"}

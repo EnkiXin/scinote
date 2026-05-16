@@ -1,0 +1,1 @@
+{"video_id": "videos/level_2/video_verification/65126/clip_8_removed_step_2.mp4", "task": "video_verification", "note": "```json\n{\n  \"steps_actually_shown\": [\n    \"Adjusting settings on the machine's touchscreen interface\"\n  ],\n  \"missing_or_skipped\": \"No other steps were shown.\",\n  \"key_objects_handled\": [\n    \"Touchscreen interface\"\n  ]\n}\n```"}

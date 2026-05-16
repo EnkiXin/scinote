@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60550/clip_21.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"incubator\"],\n  \"distinguishing_features\": [\"stainless steel interior\", \"adjustable shelves\", \"transparent door\"],\n  \"labels_or_models\": [\"CAUTION label\"],\n  \"operating_state\": [\"open\", \"not in use\"]\n}"}

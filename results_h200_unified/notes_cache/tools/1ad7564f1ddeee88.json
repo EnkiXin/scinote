@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58104/clip_23.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"scalpel\", \"forceps\", \"surgical scissors\"],\n  \"distinguishing_features\": [\"sharp edges for cutting\", \"metallic handles for gripping\", \"blades for precision cutting\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_2/video_verification/58104/clip_3_removed_step_5.mp4", "task": "video_verification", "note": "{\n  \"steps_actually_shown\": [\"incision along marked lines\", \"retraction of skin flaps\"],\n  \"missing_or_skipped\": \"cauterization of blood vessels\",\n  \"key_objects_handled\": [\"scalpel\", \"retractors\"]\n}"}

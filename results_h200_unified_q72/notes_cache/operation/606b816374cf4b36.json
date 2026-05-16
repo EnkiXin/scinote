@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60828/clip_27.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"place leaf samples into petri dish\"\n  ],\n  \"objects_manipulated\": [\n    \"leaf samples\",\n    \"petri dish\"\n  ],\n  \"tool_object_interaction\": [\n    \"forceps hold and place leaf samples into petri dish\"\n  ]\n}\n```"}

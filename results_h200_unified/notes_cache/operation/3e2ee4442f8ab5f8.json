@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53367/clip_35.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"connect wires to device\"],\n  \"objects_manipulated\": [\"electrode box\", \"wires\"],\n  \"tool_object_interaction\": [\"inserting wires into ports on the electrode box\"]\n}\n```"}

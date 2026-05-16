@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59555/clip_18.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"place microtube into blue microtube rack\"\n  ],\n  \"objects_manipulated\": [\n    \"microtube\",\n    \"blue microtube rack\"\n  ],\n  \"tool_object_interaction\": [\n    \"microtube is inserted into a well of the blue microtube rack\"\n  ]\n}\n```"}

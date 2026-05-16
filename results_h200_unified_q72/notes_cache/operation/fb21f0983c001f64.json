@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50600/clip_12.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"inject viral particles into a pipette tip\"\n  ],\n  \"objects_manipulated\": [\n    \"pipette tip\",\n    \"viral particles\"\n  ],\n  \"tool_object_interaction\": [\n    \"pipette tip is filled with viral particles\"\n  ]\n}\n```"}

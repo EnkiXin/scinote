@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63997/clip_23.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"PLASTIMET-TEST LX SMITH\"],\n  \"distinguishing_features\": [\"transparent casing\", \"blue light underneath\", \"circular base\"],\n  \"labels_or_models\": [\"PLASTIMET-TEST LX SMITH\", \"Jove\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

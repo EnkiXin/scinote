@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52874/clip_20.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"place the driftwood into the substrate\"\n  ],\n  \"objects_manipulated\": [\n    \"driftwood\",\n    \"substrate\"\n  ],\n  \"tool_object_interaction\": [\n    \"hands wearing purple gloves position the driftwood\"\n  ]\n}\n```"}

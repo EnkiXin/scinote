@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55301/clip_7.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"gently lift seedling\",\n    \"place seedling into soil\"\n  ],\n  \"objects_manipulated\": [\n    \"seedlings\",\n    \"soil\"\n  ],\n  \"tool_object_interaction\": [\n    \"hands wearing gloves interact with seedlings and soil\"\n  ]\n}\n```"}

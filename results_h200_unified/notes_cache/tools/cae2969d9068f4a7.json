@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56639/clip_4.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"tissue bath system\"],\n  \"distinguishing_features\": [\"black base\", \"rotating mechanism\", \"multiple tubes connected\"],\n  \"labels_or_models\": [\"Pre-set tissue bath system reservoir to 45 \u00b0C\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

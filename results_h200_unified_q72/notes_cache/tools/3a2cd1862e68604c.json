@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57379/clip_25.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\", \"centrifuge\"],\n  \"distinguishing_features\": [\"pipette with blue plunger and white body\", \"centrifuge with blue casing and black control knobs\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"pipette in active use\", \"centrifuge off\"]\n}"}

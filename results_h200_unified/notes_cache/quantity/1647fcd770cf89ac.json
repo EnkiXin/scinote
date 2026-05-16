@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/1842/clip_58.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"8\", \"200\", \"12\"],\n  \"counts\": {\n    \"protein samples\": \"8\",\n    \"fractions per sample\": \"12\"\n  },\n  \"measurements_observed\": {\n    \"protein amount per sample\": \"200 \u03bcg\"\n  }\n}\n```"}

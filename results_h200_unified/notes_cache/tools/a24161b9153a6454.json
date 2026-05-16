@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60273/clip_37.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"white body\", \"black stage\", \"objective lenses\", \"eyepieces\"],\n  \"labels_or_models\": [\"Leica DMi500\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

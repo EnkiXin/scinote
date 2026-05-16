@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3564/clip_31.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"incise the skin along the midline of the animal's abdomen\"\n  ],\n  \"objects_manipulated\": [\n    \"animal's skin\",\n    \"scalpel\"\n  ],\n  \"tool_object_interaction\": [\n    \"scalpel makes a precise cut through the skin\"\n  ]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/1842/clip_21.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent pipette tip\", \"purple-gloved hand holding pipette\"],\n  \"labels_or_models\": [\"GELFREE 8100 RUNNING BUFFER\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

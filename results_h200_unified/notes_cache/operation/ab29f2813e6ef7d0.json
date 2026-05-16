@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56488/clip_27.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"spray liquid onto rotating platform\"],\n  \"objects_manipulated\": [\"sprayer\", \"rotating platform with sample\"],\n  \"tool_object_interaction\": [\"sprayer nozzle directed at rotating platform, releasing liquid onto surface\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56094/clip_52.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"place microplate into centrifuge\"],\n  \"objects_manipulated\": [\"microplate\", \"centrifuge\"],\n  \"tool_object_interaction\": [\"glove holds microplate steady while placing it into centrifuge\"]\n}\n```"}

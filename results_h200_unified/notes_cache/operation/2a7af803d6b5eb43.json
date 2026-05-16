@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3039/clip_35.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"suture the wound\"],\n  \"objects_manipulated\": [\"wound area\"],\n  \"tool_object_interaction\": [\"needle and thread are used to stitch the tissue together\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/200904/clip_2.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"100.0\", \"19:58\"],\n  \"counts\": [\"2 thermometers\", \"1 magnetic stirrer\", \"1 beaker\"],\n  \"measurements_observed\": [\"100.0 degrees Celsius temperature\", \"19 minutes and 58 seconds time\"]\n}\n```"}

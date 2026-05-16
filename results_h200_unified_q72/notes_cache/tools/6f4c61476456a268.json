@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57329/clip_22.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"microplate\"],\n  \"distinguishing_features\": [\"transparent plastic with multiple wells\", \"handwritten labels on the lid\"],\n  \"labels_or_models\": [\"THP-1 cells\", \"100% cells\"],\n  \"operating_state\": [\"not in active use, placed on a perforated surface\"]\n}"}

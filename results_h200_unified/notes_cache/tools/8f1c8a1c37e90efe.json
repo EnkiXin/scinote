@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61391/clip_39.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"ultrasound machine\", \"electrodes\"],\n  \"distinguishing_features\": [\"blue cylindrical head\", \"white cables connected to the machine\"],\n  \"labels_or_models\": [\"ULTRASOUND MACHINE\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

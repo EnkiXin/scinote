@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62559/clip_19.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"transparent lid with a handle\", \"circular base with multiple slots\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"lid is being removed, suggesting it is not currently spinning\"]\n}"}

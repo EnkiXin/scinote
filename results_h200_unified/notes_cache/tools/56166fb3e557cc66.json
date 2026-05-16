@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55649/clip_47.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"oven\"],\n  \"distinguishing_features\": [\"digital display\", \"temperature control knobs\", \"door with viewing window\"],\n  \"labels_or_models\": [\"DIGITROL\", \"076-201007 Jovemar\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

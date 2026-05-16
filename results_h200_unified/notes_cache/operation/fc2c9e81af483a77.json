@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57928/clip_20.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"adjust panel position\"\n  ],\n  \"objects_manipulated\": [\n    \"solar panels\"\n  ],\n  \"tool_object_interaction\": [\n    \"man adjusts the angle of the solar panels to optimize sunlight exposure.\"\n  ]\n}\n```"}

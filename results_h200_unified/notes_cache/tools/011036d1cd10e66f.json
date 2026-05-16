@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50969/clip_15.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"laser alignment system\", \"micrometer\"],\n  \"distinguishing_features\": [\"rotating wheel with laser pointer\", \"adjustable screw mechanism\"],\n  \"labels_or_models\": [\"Ealing Optics\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}\n```"}

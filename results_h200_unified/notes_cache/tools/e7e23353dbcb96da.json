@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62853/clip_24.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Centrifuge 5415 R\"],\n  \"distinguishing_features\": [\"digital display\", \"blue gloves worn by operator\", \"orange-topped tubes on ice\"],\n  \"labels_or_models\": [\"Centrifuge 5415 R\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

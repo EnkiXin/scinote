@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56494/clip_14.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"vacuum pump\", \"sample introduction system\"],\n  \"distinguishing_features\": [\"metallic body with transparent tube\", \"hose connected to vacuum pump\", \"white box with vented side\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"active use\"]\n}\n```"}

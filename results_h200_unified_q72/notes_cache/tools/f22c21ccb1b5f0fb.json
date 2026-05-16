@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52411/clip_15.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"The pipette has a long, thin tip designed for precise liquid transfer.\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"The pipette is in active use, with a tip attached and being used to inject into an egg.\"]\n}"}

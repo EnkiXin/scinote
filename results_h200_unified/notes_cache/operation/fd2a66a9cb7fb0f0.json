@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/201832/clip_9.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"adjust goggles on child's face\"],\n  \"objects_manipulated\": [\"goggles\", \"child's face\"],\n  \"tool_object_interaction\": [\"goggles are being positioned to fit securely over the child's eyes\"]\n}\n```"}

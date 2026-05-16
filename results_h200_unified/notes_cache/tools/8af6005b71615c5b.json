@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64759/clip_16.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"white body\", \"open lid\", \"rotor with purple and yellow components\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"off\"]\n}\n```"}

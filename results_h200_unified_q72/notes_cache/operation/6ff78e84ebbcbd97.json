@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52098/clip_27.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"adjust the pressure gauge on the gas cylinder\"\n  ],\n  \"objects_manipulated\": [\n    \"pressure gauge\",\n    \"gas cylinder\"\n  ],\n  \"tool_object_interaction\": [\n    \"hand adjusts the pressure gauge knob\"\n  ]\n}\n```"}

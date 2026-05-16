@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59764/clip_21.mp4", "task": "materials", "note": "```json\n{\n  \"materials_visible\": [\"syringe\", \"rat\"],\n  \"labels_seen\": [\"10\", \"20\", \"30\", \"40\", \"50\"],\n  \"container_descriptions\": [\"syringe with a clear, graduated cylinder body and a white plunger\"],\n  \"substance_appearance\": [\"clear liquid in the syringe\"]\n}\n```"}

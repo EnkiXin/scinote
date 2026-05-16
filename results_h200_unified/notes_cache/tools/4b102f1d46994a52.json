@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58083/clip_3.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"syringe\", \"test tube rack\"],\n  \"distinguishing_features\": [\"syringe with blood sample\", \"green test tube rack\"],\n  \"labels_or_models\": [\"Biohazard\", \"jove\"],\n  \"operating_state\": [\"active use\", \"inactive\"]\n}\n```"}

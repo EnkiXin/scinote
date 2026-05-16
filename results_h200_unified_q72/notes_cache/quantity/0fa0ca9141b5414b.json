@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/1942/clip_13.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"0.014\", \"0.2\", \"1\", \"7.2\"],\n  \"counts\": [\"1 bottle\", \"1 pipette\", \"1 test tube rack\", \"1 test tube\"],\n  \"measurements_observed\": [\"0.014 g/l of phenol red\", \"0.2 g/l of EDTA-Na in 1 x PBS, pH 7.2\"]\n}\n```"}

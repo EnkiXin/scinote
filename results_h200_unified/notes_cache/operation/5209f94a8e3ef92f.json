@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61037/clip_29.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"pipette 100uL from well A1\"],\n  \"objects_manipulated\": [\"pipette\", \"test tube rack\", \"test tubes\"],\n  \"tool_object_interaction\": [\"pipette\u5438\u53d6100\u5fae\u5347\u6db2\u4f53\u5230\u8bd5\u7ba1\u4e2d\"]\n}\n```"}

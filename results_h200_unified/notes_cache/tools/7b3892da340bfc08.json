@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53248/clip_31.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"blue and white color scheme\", \"digital display showing '3,000 x g'\"],\n  \"labels_or_models\": [\"C5\", \"LW Scientific\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

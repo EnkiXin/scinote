@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58927/clip_45.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"pour liquid from bottle into beaker\"],\n  \"objects_manipulated\": [\"bottle\", \"beaker\"],\n  \"tool_object_interaction\": [\"bottle held by hand, liquid transferred to beaker placed on scale\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64146/clip_35.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"illuminated sample stage\", \"digital display showing NA = 1.4\"],\n  \"labels_or_models\": [\"NA = 1.4\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

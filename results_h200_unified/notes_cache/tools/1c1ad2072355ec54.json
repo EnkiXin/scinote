@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64400/clip_11.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"white body\", \"blue tip\", \"brand name 'Eppendorf' visible\"],\n  \"labels_or_models\": [\"Natural Solution\", \"NAD+\", \"PpA Stock Solution\", \"A\", \"B\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

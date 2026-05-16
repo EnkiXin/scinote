@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/65848/clip_57.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"administer eye drops to mouse\"],\n  \"objects_manipulated\": [\"mouse's eye\", \"Tobrex eye drops\"],\n  \"tool_object_interaction\": [\"Tobrex eye drops are applied to the mouse's eye using a dropper\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50527/clip_55.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"sort seeds using tweezers\"],\n  \"objects_manipulated\": [\"seeds\"],\n  \"tool_object_interaction\": [\"tweezers pick up individual seeds from the paper\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/200229/clip_25.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microplate reader\"],\n  \"distinguishing_features\": [\"white microplate with multiple wells\", \"black base with 'Luminex' logo\"],\n  \"labels_or_models\": [\"Luminex\"],\n  \"operating_state\": [\"off\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56819/clip_28.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"scissors\", \"forceps\"],\n  \"distinguishing_features\": [\"sharp blades\", \"metallic texture\", \"gripping mechanism\"],\n  \"labels_or_models\": [\"Transsection Bile duct\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

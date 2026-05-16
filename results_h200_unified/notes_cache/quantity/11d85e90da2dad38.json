@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/2757/clip_13.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"0.5\", \"10\", \"4.2\", \"7.2\", \"7.5\", \"50\"],\n  \"counts\": [\"1\", \"1\", \"1\", \"1\", \"1\", \"1\"],\n  \"measurements_observed\": [\"0.5 mM EGTA\", \"10 mM HEPES\", \"4.2 mM NaHCO3\", \"pH 7.2\", \"pH 7.5\", \"50 ug/mL\"]\n}\n```"}

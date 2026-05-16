@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57914/clip_18.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"refrigerator\"],\n  \"distinguishing_features\": [\"large, white, with a black handle\"],\n  \"labels_or_models\": [\"Fisher Scientific\"],\n  \"operating_state\": [\"on\"]\n}"}

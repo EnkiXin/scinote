@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50371/clip_31.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"place slide under microscope\"\n  ],\n  \"objects_manipulated\": [\n    \"slide\",\n    \"microscope\"\n  ],\n  \"tool_object_interaction\": [\n    \"slide is positioned under the microscope's objective lens for observation\"\n  ]\n}\n```"}

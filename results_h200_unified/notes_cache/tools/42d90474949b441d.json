@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50648/clip_10.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"beaker\"],\n  \"distinguishing_features\": [\"transparent body\", \"graduated markings\", \"metal clamp\"],\n  \"labels_or_models\": [\"DUREX CANADA\", \"1000 ML\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

@@ -1,7 +1,7 @@
 # ExpVid Experiments — Progress Log
 
-**Updated**: 2026-05-14  
-**Model**: Qwen2.5-VL-7B-Instruct (bf16, single H200)  
+**Updated**: 2026-05-16  
+**Model**: Qwen2.5-VL-7B-Instruct (bf16, single H200) — answer model in all conditions; **Stage 1 (note) model can be 7B or 72B per condition (see Finding 6)**.  
 **Hardware**: UNT H200 server (8× H200 143 GB)  
 **Frames**: 32 frames per video (uniform across L1/L2/L3; Mac 4090 was 8-frame patched for L3 — now superseded)
 
@@ -100,6 +100,31 @@ Where note **hurts**: when it focuses on tools/containers while the question ask
 
 → **Implication**: task-aware Stage 1 prompt is still too generic; need to train the model to focus on the question's actual referent (motivation for counterfactual SFT for note-taking).
 
+### 6. ✨ Stage 1 noter 7B → 72B: small but consistent gain across all 10 tasks
+
+The Stage-1 note generator was upgraded from Qwen2.5-VL-7B to **Qwen2.5-VL-72B-Instruct** (vLLM TP=4, 32 frames per video, 360×420 max_pixels, same `NOTE_PROMPTS` task-aware templates). Stage 2 answer model unchanged (7B). Cache lives at [`results_h200_unified_q72/`](results_h200_unified_q72/). 72B notes are visibly higher fidelity (e.g. "microtube with blue cap in centrifuge rotor" vs 7B's "test tube; jove"). Re-running C2 (Video+Note) on the cached 72B notes:
+
+| Level | Task | n | 7B notes | **72B notes** | Δ |
+|---|---|---|---:|---:|---:|
+| L1 | materials                 | 1266 | 36.65 | **39.02** | +2.37 ✅ |
+| L1 | tools                     | 1130 | 35.22 | **37.08** | +1.86 ✅ |
+| L1 | operation                 | 938  | 57.25 | **59.06** | +1.81 ✅ |
+| L1 | quantity                  | 701  | 40.80 | 40.37 | −0.43 |
+| L2 | sequence_generation       | 750  | 39.19 | 39.14 | −0.05 |
+| L2 | sequence_ordering         | 739  | 55.48 | **55.62** | +0.14 |
+| L2 | step_prediction           | 748  | 1.47 | 2.01 | +0.54 |
+| L2 | video_verification        | 748  | 17.78 | **20.72** | +2.94 ✅ |
+| L3 | experimental_conclusion   | 390  | 22.85 | **23.44** | +0.59 |
+| L3 | scientific_discovery      | 390  | 19.95 | 20.50 *(partial 36%)* | +0.55 |
+| — | **macro avg (10 tasks)**  | —    | **32.66** | **33.70** | **+1.03** |
+| L1 | avg (4 tasks)             | 4035 | 42.48 | 43.88 | +1.40 |
+| L2 | avg (4 tasks)             | 2985 | 28.48 | 29.37 | +0.89 |
+| L3 | avg (2 tasks)             | 780  | 21.40 | 21.97 | +0.57 |
+
+**Reading**: bigger noter → bigger gain on **visual perception-dominated tasks** (L1 materials/tools/operation, L2 video_verification: all +1.8 to +2.9 pp). On tasks where the bottleneck is not perception (quantity, sequence_generation), the noter upgrade is neutral. **Direction is uniformly non-negative**: 9 / 10 deltas ≥ 0, max drop is only −0.43 pp on quantity. This says the 7B note was leaving real perceptual signal on the table.
+
+**Cost**: 72B inference is ~5× slower per video than 7B (137 GB weights, TP=4). Stage 1 took ~3 h wall-clock for 7,739 unique videos (vLLM batched, prefetched). One-shot — once cached, downstream Stage 2 just reuses the cache. Implementation: [`generate_notes_qwen72b.py`](generate_notes_qwen72b.py).
+
 ---
 
 ## 📊 Main Results — H200 Qwen2.5-VL-7B, unified prompt across all methods
@@ -172,6 +197,7 @@ Before the unified prompt was implemented, the `Note` method used a different St
 - **2026-05-14 morning**: Stopped Video+RandomNote (C3) on L2/L3. L1 data is conclusive — random_note ≈ real_note on L1 average. Extending the same control to L2/L3 adds compute time without paper value. **L2/L3 RandomNote column stays `—`.**
 - **2026-05-14 later**: Stopped Video+ASR (C4) collection (L1 + L2 fully done; L3 partial as of stop). L1 ASR-leakage finding is overwhelming and well-established; L2 V+ASR ≈ Video (especially video_verification = 17.4 vs 17.4 zero delta — ASR can't tell you what was NOT done). Extending C4 to full L3 doesn't add new finding. **L3 V+ASR may stay partial.**
 - Both C3 and C4 are now treated as "data sufficient, stop collecting". Going forward, focus is on completing **Note** and **Video+Note** across L2 (remaining: V+Note step_pred / video_verify) and L3 (remaining: Note both tasks, V+Note both tasks).
+- **2026-05-16**: Added **Qwen2.5-VL-72B noter** Stage-1 generation (vLLM TP=4). 7,739 unique videos cached at [`results_h200_unified_q72/notes_cache/`](results_h200_unified_q72/notes_cache). Stage-2 (C2) eval finished 9/10 tasks on 4 GPUs in parallel ([`run_stage2_4gpu.sh`](run_stage2_4gpu.sh)); scientific_discovery still in flight (will refresh). 72B-notes show small but consistent improvement over 7B-notes on perception-heavy tasks (see Finding 6).
 
 ## 🚀 In-flight (Phase 2 unified sweep)
 

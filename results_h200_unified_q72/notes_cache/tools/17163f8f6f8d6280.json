@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53367/clip_41.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"bottle\", \"scrubbing pad\"],\n  \"distinguishing_features\": [\"green bottle with a pump dispenser\", \"red scrubbing pad with a textured surface\"],\n  \"labels_or_models\": [\"Sensodyne\"],\n  \"operating_state\": [\"in active use\", \"in active use\"]\n}\n```"}

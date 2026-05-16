@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55964/clip_6.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"cut foam cube\",\n    \"inspect foam cube\"\n  ],\n  \"objects_manipulated\": [\n    \"foam cube\"\n  ],\n  \"tool_object_interaction\": [\n    \"knife cuts foam cube\",\n    \"hand holds foam cube steady\"\n  ]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59027/clip_4.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"forceps\", \"smartphone\"],\n  \"distinguishing_features\": [\"forceps with black handle\", \"smartphone with a black case\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"forceps in active use\", \"smartphone off or in standby\"]\n}"}

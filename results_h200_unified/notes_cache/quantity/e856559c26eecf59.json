@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58818/clip_18.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"5\", \"7.5\", \"50\", \"5\", \"50\", \"0\"],\n  \"counts\": [\"1\", \"1\", \"1\", \"1\", \"1\", \"1\"],\n  \"measurements_observed\": [\"5 mM pH 7.5 Tris-HCl\", \"50 mM NaCl\", \"5 mM EDTA\", \"50% ethanol\"]\n}\n```"}

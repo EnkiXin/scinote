@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/200904/clip_25.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\", \"microscope\"],\n  \"distinguishing_features\": [\"pipette with a black handle and white plunger\", \"microscope with a white body and black base\"],\n  \"labels_or_models\": [\"Stemi 305\"],\n  \"operating_state\": [\"pipette in active use\", \"microscope off\"]\n}"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56494/clip_6.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"40.0\", \"-5.0\", \"E-2\", \"1\", \"2\", \"SP1\", \"SP2\"],\n  \"counts\": {\n    \"gauges\": 1,\n    \"buttons\": 6,\n    \"labels\": 3\n  },\n  \"measurements_observed\": [\"flow rate (SCCM)\", \"pressure (Torr)\"]\n}\n```"}

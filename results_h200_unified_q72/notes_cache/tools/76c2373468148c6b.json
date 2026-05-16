@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/1842/clip_5.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"black and gray color scheme\", \"digital display and control panel\"],\n  \"labels_or_models\": [\"Centrifuge 5415D\"],\n  \"operating_state\": [\"off\"]\n}\n```"}

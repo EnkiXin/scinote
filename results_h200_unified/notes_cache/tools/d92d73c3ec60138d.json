@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51044/clip_16.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Mettler Toledo analytical balance\"],\n  \"distinguishing_features\": [\"digital display\", \"weighing pan\", \"brand logo\"],\n  \"labels_or_models\": [\"Mettler Toledo\", \"PB421-61ATC\", \"jove\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

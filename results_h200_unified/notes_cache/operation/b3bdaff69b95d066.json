@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54972/clip_46.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"slide the slide gently across the surface\"],\n  \"objects_manipulated\": [\"microscope slide with green sample\"],\n  \"tool_object_interaction\": [\"gloved hand holding microscope slide\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61770/clip_30.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"vacuum pump\"],\n  \"distinguishing_features\": [\"white foam insulation\", \"metallic clamp\", \"flexible hose connection\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

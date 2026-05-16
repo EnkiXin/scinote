@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58301/clip_19.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"place a circular sample onto a slide\"\n  ],\n  \"objects_manipulated\": [\n    \"circular sample\",\n    \"slide\"\n  ],\n  \"tool_object_interaction\": [\n    \"forceps holding the circular sample and placing it on the slide\"\n  ]\n}\n```"}

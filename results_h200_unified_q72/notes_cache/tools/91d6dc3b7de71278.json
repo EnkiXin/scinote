@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55614/clip_22.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"large digital display\", \"multiple control knobs\", \"cooling fans on the side\"],\n  \"labels_or_models\": [\"Omega Solutions\"],\n  \"operating_state\": [\"on\", \"being interacted with\"]\n}\n```"}

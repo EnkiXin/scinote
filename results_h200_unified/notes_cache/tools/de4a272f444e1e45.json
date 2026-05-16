@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55685/clip_31.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"spectroscopic classifier\"],\n  \"distinguishing_features\": [\"digital display\", \"knob for adjustment\", \"cables connected to other equipment\"],\n  \"labels_or_models\": [\"Spectroscopic Classifier\", \"TDS\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

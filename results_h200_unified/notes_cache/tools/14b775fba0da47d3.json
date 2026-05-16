@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62417/clip_39.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"transparent cylindrical structure with bubbles, thin wire attached to the specimen\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

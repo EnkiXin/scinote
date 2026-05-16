@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56857/clip_8.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"12\", \"10^6\", \"80\"],\n  \"counts\": [\"1 flask\", \"1 bottle\", \"1 syringe\"],\n  \"measurements_observed\": [\"~12 x 10^6 cells per flask at 80% confluency\"]\n}\n```"}

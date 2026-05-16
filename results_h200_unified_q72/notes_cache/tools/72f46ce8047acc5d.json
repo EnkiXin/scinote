@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57385/clip_10.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"black and gray color scheme\", \"digital display showing '00:00'\", \"rotor lid being handled\"],\n  \"labels_or_models\": [\"JOVE\"],\n  \"operating_state\": [\"off\", \"lid being opened\"]\n}"}

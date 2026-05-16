@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61391/clip_48.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"electrode machine\", \"laptop\"],\n  \"distinguishing_features\": [\"electrodes attached to the patient's arm\", \"wires connected to the machine\", \"laptop on a stool\"],\n  \"labels_or_models\": [\"HP\"],\n  \"operating_state\": [\"on\", \"active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56488/clip_31.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"crosshairs\", \"grid lines\", \"magnified view of tissue sample\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"in use\"]\n}\n```"}

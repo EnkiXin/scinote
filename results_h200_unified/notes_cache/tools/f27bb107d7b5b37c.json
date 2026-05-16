@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56437/clip_39.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"microscopic view of organisms\", \"text overlay indicating 'Etoposide' and 'Control'\"],\n  \"labels_or_models\": [\"Etoposide\", \"Control\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

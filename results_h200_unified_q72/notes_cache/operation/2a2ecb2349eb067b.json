@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53367/clip_24.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"part hair with fingers\",\n    \"touch scalp with fingers\"\n  ],\n  \"objects_manipulated\": [\n    \"hair\",\n    \"scalp\"\n  ],\n  \"tool_object_interaction\": [\n    \"fingers separate hair strands\",\n    \"fingers press against scalp\"\n  ]\n}\n```"}

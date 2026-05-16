@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58283/clip_33.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"refrigerator\"],\n  \"distinguishing_features\": [\"digital temperature display\", \"temperature control knobs\", \"glassware storage\"],\n  \"labels_or_models\": [\"VWR\", \"27\u00b0C\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

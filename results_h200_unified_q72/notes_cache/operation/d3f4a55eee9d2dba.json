@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62157/clip_14.mp4", "task": "operation", "note": "{\n  \"actions_performed\": [\"put on gloves\"],\n  \"objects_manipulated\": [\"gloves\"],\n  \"tool_object_interaction\": [\"hands interact with gloves to put them on\"]\n}"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3521/clip_48.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"binocular eyepieces\", \"objective lenses\", \"fine focus knob\"],\n  \"labels_or_models\": [\"HRE TRIMER\", \"DsRED\", \"HIF-1 alpha\", \"HIF-1 beta\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

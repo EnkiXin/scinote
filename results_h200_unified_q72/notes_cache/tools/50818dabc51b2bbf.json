@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55649/clip_32.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"large circular chamber\", \"timer with numerical markings\"],\n  \"labels_or_models\": [\"10\", \"15\", \"20\", \"25\"],\n  \"operating_state\": [\"in active use\"]\n}"}

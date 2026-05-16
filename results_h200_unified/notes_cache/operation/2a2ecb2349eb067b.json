@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53367/clip_24.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"pinch scalp\", \"insert needle into scalp\"],\n  \"objects_manipulated\": [\"scalp\", \"needle\"],\n  \"tool_object_interaction\": [\"pinching and holding scalp with fingers, inserting needle into scalp with needle\"]\n}\n```"}

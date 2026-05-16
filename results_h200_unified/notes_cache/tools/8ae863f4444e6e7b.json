@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57982/clip_39.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"green gloves worn by operator\", \"plastic tip attached to pipette\"],\n  \"labels_or_models\": [\"Keraform Vessel\", \"Bio Ultrafiltration\", \"Nanosep\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

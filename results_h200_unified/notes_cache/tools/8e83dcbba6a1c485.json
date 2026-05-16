@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58674/clip_37.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"beaker\", \"funnel\"],\n  \"distinguishing_features\": [\"transparent material\", \"white frame\", \"brown paper bag\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64560/clip_17.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pressure cooker\"],\n  \"distinguishing_features\": [\"digital display showing '3000' Pascal\", \"red indicator light illuminated\", \"multiple handles for lifting\"],\n  \"labels_or_models\": [\"Pascal\", \"LAMMETER\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

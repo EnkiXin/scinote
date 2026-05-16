@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63422/clip_26.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope slide\", \"cover slip\"],\n  \"distinguishing_features\": [\"flat glass surface\", \"transparent material\"],\n  \"labels_or_models\": [\"Microscopy Science Jove\"],\n  \"operating_state\": [\"in use\"]\n}\n```"}

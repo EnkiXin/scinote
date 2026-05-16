@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59358/clip_35.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"MRI scanner\"],\n  \"distinguishing_features\": [\"circular opening\", \"white exterior\", \"control panel\"],\n  \"labels_or_models\": [\"PHILIPS\"],\n  \"operating_state\": [\"active\"]\n}\n```"}

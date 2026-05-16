@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51084/clip_37.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"oscilloscope\", \"digital multimeter\"],\n  \"distinguishing_features\": [\"waveform display\", \"digital readout\", \"button panel\"],\n  \"labels_or_models\": [\"Dell\", \"+00 19956\", \"jove\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}\n```"}

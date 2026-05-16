@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57908/clip_39.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"mass spectrometer\"],\n  \"distinguishing_features\": [\"chromatogram\", \"mass spectrum\"],\n  \"labels_or_models\": [\"Calculated Mr: 781.46\", \"Observed Mr: 781.46\", \"jove\"],\n  \"operating_state\": [\"active\"]\n}\n```"}

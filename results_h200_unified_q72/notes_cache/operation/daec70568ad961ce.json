@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55835/clip_34.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"rotate the dial on the EC570-90 power supply\"\n  ],\n  \"objects_manipulated\": [\n    \"dial on the EC570-90 power supply\"\n  ],\n  \"tool_object_interaction\": [\n    \"hand in blue glove interacts with the dial, turning it clockwise\"\n  ]\n}\n```"}

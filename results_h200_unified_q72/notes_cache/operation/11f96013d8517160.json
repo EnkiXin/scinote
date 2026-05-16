@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50527/clip_19.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"cut the plant spikelet with scissors\"],\n  \"objects_manipulated\": [\"plant spikelet\"],\n  \"tool_object_interaction\": [\"scissors cutting through the plant spikelet\"]\n}\n```"}

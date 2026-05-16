@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50191/clip_30.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\", \"test tube\"],\n  \"distinguishing_features\": [\"pipette with pink liquid being dispensed\", \"test tube with measurement markings\"],\n  \"labels_or_models\": [\"45 ml\", \"40 ml\"],\n  \"operating_state\": [\"pipette in active use\", \"test tube stationary\"]\n}"}

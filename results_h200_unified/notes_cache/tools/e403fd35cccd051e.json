@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59728/clip_30.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"oven\"],\n  \"distinguishing_features\": [\"digital display\", \"knobs for temperature control\", \"oven racks\"],\n  \"labels_or_models\": [\"CYTOA\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61800/clip_16.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"focus microscope to view cells\"],\n  \"objects_manipulated\": [\"microscope slide with cells\"],\n  \"tool_object_interaction\": [\"microscope objective lens is brought into contact with the slide\"]\n}\n```"}

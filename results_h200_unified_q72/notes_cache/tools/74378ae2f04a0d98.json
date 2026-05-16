@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61800/clip_14.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"microscope\", \"pipette\"],\n  \"distinguishing_features\": [\"microscope with multiple objective lenses\", \"pipette with a yellow and black handle\"],\n  \"labels_or_models\": [\"OLYMPUS\"],\n  \"operating_state\": [\"microscope in active use\", \"pipette in active use\"]\n}"}

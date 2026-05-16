@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64216/clip_57.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"forceps\", \"suture needle\"],\n  \"distinguishing_features\": [\"forceps have a serrated tip\", \"suture needle is curved with a thread attached\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"forceps are in active use\", \"suture needle is in active use\"]\n}"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59739/clip_18.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\", \"balloon\"],\n  \"distinguishing_features\": [\"pipette with a clear glass body and a rubber bulb\", \"orange balloon attached to a glass tube\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"pipette is in active use\", \"balloon is inflated\"]\n}"}

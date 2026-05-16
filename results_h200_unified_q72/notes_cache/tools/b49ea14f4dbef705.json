@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50196/clip_10.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"refrigerator\"],\n  \"distinguishing_features\": [\"white refrigerator with a yellow warning label\"],\n  \"labels_or_models\": [\"Applikon\"],\n  \"operating_state\": [\"open\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/200904/clip_2.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"100.0\", \"135.8\", \"10 min\"],\n  \"counts\": {\n    \"thermometers\": 2,\n    \"digital displays\": 2,\n    \"text labels\": 1\n  },\n  \"measurements_observed\": {\n    \"temperature\": \"100.0\u00b0C\",\n    \"time\": \"10 minutes\"\n  }\n}\n```"}

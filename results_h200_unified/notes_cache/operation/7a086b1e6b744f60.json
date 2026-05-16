@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53800/clip_44.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"point at the device\",\n    \"touch the device\"\n  ],\n  \"objects_manipulated\": [\n    \"device\"\n  ],\n  \"tool_object_interaction\": [\n    \"The hand points to specific parts of the device, indicating features or areas of interest.\"\n  ]\n}\n```"}

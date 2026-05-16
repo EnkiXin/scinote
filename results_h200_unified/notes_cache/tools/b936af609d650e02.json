@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58052/clip_5.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pressure gauge\"],\n  \"distinguishing_features\": [\"circular dial, needle pointer, scale markings\", \"hose connected to the gauge\"],\n  \"labels_or_models\": [\"MANUAL\", \"CLOSED\", \"REFILL\", \"ANTISAMARIA\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

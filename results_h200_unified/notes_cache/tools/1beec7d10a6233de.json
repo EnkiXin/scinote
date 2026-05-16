@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55835/clip_6.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"tweezers\"],\n  \"distinguishing_features\": [\"metallic, pointed ends, blue-gloved hand holding\"],\n  \"labels_or_models\": [\"Fine Forceps\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

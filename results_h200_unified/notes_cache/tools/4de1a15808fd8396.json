@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58052/clip_24.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"sonicator\"],\n  \"distinguishing_features\": [\"white body\", \"blue control panel\", \"black knob\", \"water chamber\"],\n  \"labels_or_models\": [\"1510\", \"SONICATOR\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

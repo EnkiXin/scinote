@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53367/clip_11.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"magstim device\"],\n  \"distinguishing_features\": [\"digital display\", \"buttons\", \"cable connection\"],\n  \"labels_or_models\": [\"magstim\", \"med\", \"200\", \"jove\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

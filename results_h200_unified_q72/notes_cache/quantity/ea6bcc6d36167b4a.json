@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3039/clip_70.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [],\n  \"counts\": [\n    \"8 brain slices are visible in the grid layout\",\n    \"1 brain slice is shown in a separate box labeled 'Posterior'\"\n  ],\n  \"measurements_observed\": []\n}\n```"}

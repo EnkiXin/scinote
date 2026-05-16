@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54839/clip_23.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"scalpel\", \"forceps\"],\n  \"distinguishing_features\": [\"scalpel with a sharp, metallic blade\", \"forceps with a curved tip\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"scalpel in active use\", \"forceps in active use\"]\n}"}

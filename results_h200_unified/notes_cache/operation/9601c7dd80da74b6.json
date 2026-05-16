@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57265/clip_8.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"adjusting the plunger of the syringe\"],\n  \"objects_manipulated\": [\"syringe filled with red liquid\"],\n  \"tool_object_interaction\": [\"gloved hand holding the syringe steady while adjusting the plunger\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55964/clip_19.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"100\", \"0.5\", \"0.6\", \"0.7\", \"0.8\", \"0.9\", \"1.0\"],\n  \"counts\": [\"1 syringe\", \"1 glass container\", \"1 yellow substance\"],\n  \"measurements_observed\": [\"0.5 mL of yellow substance injected\"]\n}\n```"}

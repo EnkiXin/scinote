@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50969/clip_16.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"oscilloscope\"],\n  \"distinguishing_features\": [\"digital display with waveform, multiple control knobs, input/output ports\"],\n  \"labels_or_models\": [\"LeCroy WaveSurfer 43Xs\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55594/clip_32.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"Gently press the needle against the sample\"],\n  \"objects_manipulated\": [\"sample\"],\n  \"tool_object_interaction\": [\"The needle is in contact with the sample surface, likely for extraction or injection purposes.\"]\n}\n```"}

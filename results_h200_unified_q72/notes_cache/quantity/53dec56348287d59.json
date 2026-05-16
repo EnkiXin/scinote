@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55649/clip_12.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"90\", \"100\", \"110\"],\n  \"counts\": [\"1 device\"],\n  \"measurements_observed\": [\"Temperature range from 90 to 110 (units not specified)\"]\n}\n```"}

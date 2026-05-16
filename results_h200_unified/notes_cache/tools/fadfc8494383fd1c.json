@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54786/clip_38.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"microscope slides\", \"black dots indicating sample locations\", \"scale bars for measurement\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"in use\"]\n}\n```"}

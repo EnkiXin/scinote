@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53980/clip_41.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"draw a line with a marker\"],\n  \"objects_manipulated\": [\"marker\", \"agar plate\"],\n  \"tool_object_interaction\": [\"the marker is used to draw a line on the agar surface\"]\n}\n```"}

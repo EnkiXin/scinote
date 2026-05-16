@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55858/clip_4.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"hot plate\"],\n  \"distinguishing_features\": [\"pipette with blue tip\", \"hot plate with red light indicating power\"],\n  \"labels_or_models\": [\"Ultra\", \"Hot Plate\"],\n  \"operating_state\": [\"pipette is in active use\", \"hot plate is on\"]\n}\n```"}

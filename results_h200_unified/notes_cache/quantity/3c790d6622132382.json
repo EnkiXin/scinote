@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57518/clip_32.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"Refer to Table 4\", \"10\u00b0C\"],\n  \"counts\": [\"1 pipette\", \"1 yellow microplate\", \"1 red microplate\", \"1 incubator\", \"1 digital display showing 10\u00b0C\"],\n  \"measurements_observed\": [\"temperature: 10\u00b0C\"]\n}\n```"}

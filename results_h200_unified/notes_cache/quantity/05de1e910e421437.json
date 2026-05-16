@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52090/clip_44.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"80\", \"3250\", \"24\"],\n  \"counts\": {\n    \"test tubes\": \"12\",\n    \"gloves\": \"1\"\n  },\n  \"measurements_observed\": {\n    \"speed\": \"3250 rpm\",\n    \"time\": \"24 minutes\"\n  }\n}\n```"}

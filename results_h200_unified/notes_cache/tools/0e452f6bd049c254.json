@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55307/clip_4.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"petri dish\", \"tape dispenser\"],\n  \"distinguishing_features\": [\"clear plastic petri dish\", \"black tape dispenser with white tape roll\"],\n  \"labels_or_models\": [\"Fisherbrand\", \"jove\"],\n  \"operating_state\": [\"active use\", \"active use\"]\n}\n```"}

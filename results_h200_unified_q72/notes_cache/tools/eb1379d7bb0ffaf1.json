@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50849/clip_20.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"thermometer\"],\n  \"distinguishing_features\": [\"handheld digital thermometer with a probe\"],\n  \"labels_or_models\": [\"Thermometer\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

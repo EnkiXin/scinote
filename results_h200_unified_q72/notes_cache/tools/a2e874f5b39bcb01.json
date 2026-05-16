@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62309/clip_17.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"incubator\"],\n  \"distinguishing_features\": [\"multi-shelf interior\", \"glass door with metal frame\", \"label on petri dish\"],\n  \"labels_or_models\": [\"AEM\"],\n  \"operating_state\": [\"open\", \"petri dish being placed inside\"]\n}"}

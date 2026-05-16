@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58081/clip_7.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"petri dish\"],\n  \"distinguishing_features\": [\"transparent plastic body\", \"rubber bulb for suction\", \"flat circular base with petri dishes\"],\n  \"labels_or_models\": [\"200 mL\", \"jove\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

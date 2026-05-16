@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53009/clip_24.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"wipes the surface of the biosafety cabinet\"\n  ],\n  \"objects_manipulated\": [\n    \"brown paper towel\"\n  ],\n  \"tool_object_interaction\": [\n    \"paper towel is used to wipe the interior surface of the biosafety cabinet\"\n  ]\n}\n```"}

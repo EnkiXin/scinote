@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63694/clip_34.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"25\", \"2\", \"71\", \"5\"],\n  \"counts\": [\"3 trays of green peas\", \"1 bottle of liquid\", \"1 clear plastic container\"],\n  \"measurements_observed\": [\"Incubation temperature: 25 \u00b1 2 \u00b0C\", \"Relative humidity: 71% \u00b1 5%\"]\n}\n```"}

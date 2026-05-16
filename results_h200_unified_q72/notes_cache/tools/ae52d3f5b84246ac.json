@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61800/clip_16.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"objective lens labeled 'PH 2'\", \"microscope slide with a cover slip\"],\n  \"labels_or_models\": [\"PH 2\", \"See text for cell staging information\"],\n  \"operating_state\": [\"in active use\"]\n}"}

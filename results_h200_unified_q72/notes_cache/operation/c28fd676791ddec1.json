@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54839/clip_19.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"rotate the isoflurane vaporizer dial\"\n  ],\n  \"objects_manipulated\": [\n    \"isoflurane vaporizer dial\"\n  ],\n  \"tool_object_interaction\": [\n    \"gloved hand interacts with the vaporizer dial, turning it\"\n  ]\n}\n```"}

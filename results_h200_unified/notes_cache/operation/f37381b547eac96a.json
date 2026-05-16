@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56611/clip_11.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"heat the wire with a blowtorch\"],\n  \"objects_manipulated\": [\"wire\"],\n  \"tool_object_interaction\": [\"the blowtorch flame is directed at the wire to heat it\"]\n}\n```"}

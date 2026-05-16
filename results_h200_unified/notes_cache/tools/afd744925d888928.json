@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/2757/clip_18.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"scalpel\", \"forceps\"],\n  \"distinguishing_features\": [\"sharp edge for cutting\", \"metallic grip for holding\"],\n  \"labels_or_models\": [\"Recommended thread diameter: 0.48-0.56 mm\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

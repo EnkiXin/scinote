@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56437/clip_29.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"click on 'Segmented Line' option in menu\"],\n  \"objects_manipulated\": [\"menu options\"],\n  \"tool_object_interaction\": [\"cursor clicks on 'Segmented Line' to select it\"]\n}\n```"}

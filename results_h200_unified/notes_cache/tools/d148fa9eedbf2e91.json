@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57598/clip_35.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"white body, black base, digital display\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

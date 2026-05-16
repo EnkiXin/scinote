@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54030/clip_13.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"test meter\", \"pipette\"],\n  \"distinguishing_features\": [\"yellow and black color scheme\", \"digital display\", \"red and black probes\"],\n  \"labels_or_models\": [\"THIS PANEL\"],\n  \"operating_state\": [\"active use\", \"active use\"]\n}\n```"}

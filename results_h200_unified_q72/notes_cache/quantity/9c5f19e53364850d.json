@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/4142/clip_36.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [],\n  \"counts\": [\n    \"1 computer monitor\",\n    \"1 computer tower\",\n    \"1 keyboard\",\n    \"1 mouse\",\n    \"1 large scientific instrument\",\n    \"4 pressure gauges\",\n    \"1 wall-mounted device\"\n  ],\n  \"measurements_observed\": []\n}\n```"}

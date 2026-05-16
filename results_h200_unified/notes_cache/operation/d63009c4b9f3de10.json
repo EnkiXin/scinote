@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57928/clip_14.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"screw the terminal block\"\n  ],\n  \"objects_manipulated\": [\n    \"terminal block\",\n    \"wires\"\n  ],\n  \"tool_object_interaction\": [\n    \"screwdriver is used to tighten the screws on the terminal block\"\n  ]\n}\n```"}

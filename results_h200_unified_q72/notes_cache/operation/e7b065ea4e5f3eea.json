@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57518/clip_29.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"press buttons on the thermocycler\"\n  ],\n  \"objects_manipulated\": [\n    \"thermocycler control panel\"\n  ],\n  \"tool_object_interaction\": [\n    \"fingers interact with the buttons and touchscreen of the thermocycler\"\n  ]\n}\n```"}

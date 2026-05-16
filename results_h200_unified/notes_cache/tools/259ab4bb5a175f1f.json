@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57075/clip_54.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"digital multimeter\"],\n  \"distinguishing_features\": [\"plastic handle\", \"digital display\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"active use\", \"active use\"]\n}\n```"}

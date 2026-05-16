@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50648/clip_56.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"test tube\"],\n  \"distinguishing_features\": [\n    \"transparent plastic body\",\n    \"graduated markings for volume measurement\"\n  ],\n  \"labels_or_models\": [\n    \"VWR\"\n  ],\n  \"operating_state\": [\n    \"active use\"\n  ]\n}\n```"}

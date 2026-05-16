@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51974/clip_25.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"computer\"],\n  \"distinguishing_features\": [\"laptop with a visible keyboard and screen displaying a CAD software\"],\n  \"labels_or_models\": [\"lenovo\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3187/clip_25.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"swab the inside of a small container\"],\n  \"objects_manipulated\": [\"small transparent container\", \"cotton swab\"],\n  \"tool_object_interaction\": [\"cotton swab is inserted and rotated inside the container\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57518/clip_29.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"press buttons on the machine\"],\n  \"objects_manipulated\": [\"machine controls\"],\n  \"tool_object_interaction\": [\"the person uses their fingers to interact with the machine's touch screen interface\"]\n}\n```"}

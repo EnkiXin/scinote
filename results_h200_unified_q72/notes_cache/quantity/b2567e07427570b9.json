@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3164/clip_26.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"25\", \"1\", \"10\"],\n  \"counts\": [\"1 person\", \"1 plasma treatment machine\", \"1 coverslip\"],\n  \"measurements_observed\": [\"25 mm no. 1 coverslip\", \"Plasma treatment 10 min\"]\n}\n```"}

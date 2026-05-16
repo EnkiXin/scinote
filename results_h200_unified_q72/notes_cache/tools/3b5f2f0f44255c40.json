@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56627/clip_30.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"test tube\"],\n  \"distinguishing_features\": [\"transparent glass tube with a greenish liquid inside\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"in active use, being held and possibly shaken\"]\n}\n```"}

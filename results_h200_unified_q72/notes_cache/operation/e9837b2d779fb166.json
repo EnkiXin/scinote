@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56488/clip_39.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"swab the surface of the sample\"],\n  \"objects_manipulated\": [\"cotton swab\", \"sample on the stage\"],\n  \"tool_object_interaction\": [\"cotton swab contacts the sample surface\"]\n}\n```"}

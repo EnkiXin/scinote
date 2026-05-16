@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50600/clip_31.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"micrometer caliper\", \"digital timer\"],\n  \"distinguishing_features\": [\"adjustable screw mechanism\", \"digital display showing time\"],\n  \"labels_or_models\": [\"Digital Timer\", \"jove\"],\n  \"operating_state\": [\"active use\", \"active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61743/clip_22.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\", \"microscope\"],\n  \"distinguishing_features\": [\"pipette with a red plunger and a fine tip\", \"microscope with a stage and objective lenses\"],\n  \"labels_or_models\": [\"C220\"],\n  \"operating_state\": [\"pipette in active use\", \"microscope not in use\"]\n}"}

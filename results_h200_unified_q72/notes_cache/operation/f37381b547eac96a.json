@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56611/clip_11.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"anneal the glass tube\"],\n  \"objects_manipulated\": [\"glass tube\", \"microtorch\"],\n  \"tool_object_interaction\": [\"microtorch heats the glass tube\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/201832/clip_21.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"MRI machine\"],\n  \"distinguishing_features\": [\"large cylindrical shape\", \"control panel with buttons and lights\", \"patient bed inside the cylinder\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61993/clip_9.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"handheld with adjustable volume control\", \"yellow and white color scheme\"],\n  \"labels_or_models\": [\"Pipette.com\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

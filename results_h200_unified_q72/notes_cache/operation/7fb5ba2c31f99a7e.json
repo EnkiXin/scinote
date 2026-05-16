@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50459/clip_45.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"pour liquid from a red container into a black reservoir\"],\n  \"objects_manipulated\": [\"red container with white interior\", \"black reservoir\"],\n  \"tool_object_interaction\": [\"red container is tilted to pour liquid into the black reservoir\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62279/clip_14.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"blue gloves worn by the user\", \"sterile environment inside the fume hood\"],\n  \"labels_or_models\": [\"Human Umbilical Vein Endothelial Cell (HUVEC) Seeding\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

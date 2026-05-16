@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63694/clip_40.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"spray solution onto green berries\"],\n  \"objects_manipulated\": [\"green berries\", \"spray bottle\"],\n  \"tool_object_interaction\": [\"spray bottle nozzle directed at berries, releasing liquid\"]\n}\n```"}

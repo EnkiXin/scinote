@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57928/clip_29.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"battery terminal connector\"],\n  \"distinguishing_features\": [\"black cable with yellow connector\"],\n  \"labels_or_models\": [\"Xtreme\", \"33-PC1200\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

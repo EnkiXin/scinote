@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60259/clip_31.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"adjusting the IV line\"\n  ],\n  \"objects_manipulated\": [\n    \"IV line\",\n    \"patient's arm\"\n  ],\n  \"tool_object_interaction\": [\n    \"The gloved hand is seen adjusting the IV line, ensuring it is properly positioned.\"\n  ]\n}\n```"}

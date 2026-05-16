@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62182/clip_35.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Cytometer Plus 3000\"],\n  \"distinguishing_features\": [\"touchscreen display\", \"white casing\", \"brand logo visible\"],\n  \"labels_or_models\": [\"Cytometer Plus 3000\", \"Mettler Toledo\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

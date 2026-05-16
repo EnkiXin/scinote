@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63855/clip_40.mp4", "task": "materials", "note": "```json\n{\n  \"materials_visible\": [\"biohazardous material\"],\n  \"labels_seen\": [\"BIOHAZARD\", \"CLOSE GENTLY\"],\n  \"container_descriptions\": [\"red biohazard container with multiple compartments\"],\n  \"substance_appearance\": [\"red liquid in a vial\"]\n}\n```"}

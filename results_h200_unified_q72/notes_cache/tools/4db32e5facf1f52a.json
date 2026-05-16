@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53618/clip_14.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"beaker\"],\n  \"distinguishing_features\": [\"clear glass with measurement markings\", \"handle for easy pouring\"],\n  \"labels_or_models\": [\"Fisherbrand\", \"1000ml\", \"FB33116\", \"Boro 3.3\"],\n  \"operating_state\": [\"in active use, containing liquid\"]\n}\n```"}

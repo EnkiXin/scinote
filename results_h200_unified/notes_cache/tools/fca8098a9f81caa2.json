@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55463/clip_42.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"digital display showing speed and time settings\", \"rotor being inserted into the centrifuge chamber\"],\n  \"labels_or_models\": [\"Jov\u00e9\", \"5417R\"],\n  \"operating_state\": [\"on, actively in use\"]\n}\n```"}

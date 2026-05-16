@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57313/clip_19.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"insert wooden stick into yellow liquid in syringe\"],\n  \"objects_manipulated\": [\"wooden stick\", \"yellow liquid in syringe\"],\n  \"tool_object_interaction\": [\"wooden stick is inserted into the syringe filled with yellow liquid\"]\n}\n```"}

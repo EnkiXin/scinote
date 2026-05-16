@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57137/clip_14.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"laptop\"],\n  \"distinguishing_features\": [\"black keyboard\", \"silver HP logo\", \"displaying a spreadsheet application\"],\n  \"labels_or_models\": [\"hp\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}"}

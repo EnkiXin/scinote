@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50969/clip_16.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Agilent 428x Waveform Generator\"],\n  \"distinguishing_features\": [\"digital display\", \"multiple knobs for adjustments\", \"buttons for operation\"],\n  \"labels_or_models\": [\"Agilent 428x\", \"Waveform Generator\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

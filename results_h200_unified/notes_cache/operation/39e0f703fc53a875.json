@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64560/clip_17.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"place pipette into pressure cooker\"],\n  \"objects_manipulated\": [\"pipette\", \"pressure cooker\"],\n  \"tool_object_interaction\": [\"pipette inserted into pressure cooker for sterilization\"]\n}\n```"}

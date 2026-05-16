@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55301/clip_34.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"objective lenses\", \"illuminator\", \"stage\", \"fine focus knob\"],\n  \"labels_or_models\": [\"PlanApo\", \"20x\", \"10x\", \"40x\", \"100x\", \"jove\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

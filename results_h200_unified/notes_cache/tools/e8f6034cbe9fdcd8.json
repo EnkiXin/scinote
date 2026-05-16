@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3039/clip_3.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"syringe\"],\n  \"distinguishing_features\": [\"plunger, needle, cap\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"injection process\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58727/clip_35.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"cryostat\"],\n  \"distinguishing_features\": [\"transparent chamber\", \"white exterior\", \"temperature control system\"],\n  \"labels_or_models\": [\"-\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

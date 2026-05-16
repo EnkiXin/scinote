@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57541/clip_41.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"separate tissue with forceps\"],\n  \"objects_manipulated\": [\"tissue\"],\n  \"tool_object_interaction\": [\"forceps are used to gently pull apart the tissue\"]\n}\n```"}

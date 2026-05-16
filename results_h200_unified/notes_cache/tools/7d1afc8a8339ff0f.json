@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63694/clip_35.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\", \"forceps\"],\n  \"distinguishing_features\": [\"microscope with adjustable focus knobs\", \"forceps with black handles\"],\n  \"labels_or_models\": [\"Leica\", \"Leica\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}\n```"}

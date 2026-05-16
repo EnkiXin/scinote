@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56857/clip_26.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent body\", \"adjustable volume markings\"],\n  \"labels_or_models\": [\"~50,000 cells, or 3 \u00b5L of PBS as a control\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63039/clip_6.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent plastic body\", \"rubber bulb at one end\"],\n  \"labels_or_models\": [\"BME2-Reduced growth factor basement membrane extract\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50867/clip_11.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"place well plate into ice bath\"\n  ],\n  \"objects_manipulated\": [\n    \"well plate\",\n    \"ice bath\"\n  ],\n  \"tool_object_interaction\": [\n    \"the well plate is placed into the ice bath to cool the samples.\"\n  ]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51250/clip_34.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"oscilloscope\", \"function generator\"],\n  \"distinguishing_features\": [\"digital display\", \"multiple knobs and buttons\", \"cables connected to other devices\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

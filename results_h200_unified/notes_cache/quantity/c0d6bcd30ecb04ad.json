@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50867/clip_15.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"3x\"],\n  \"counts\": {\n    \"test tubes\": 6,\n    \"pipette tips\": 1,\n    \"lab trays\": 2\n  },\n  \"measurements_observed\": []\n}\n```"}

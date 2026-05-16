@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51747/clip_43.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"digital timer\"],\n  \"distinguishing_features\": [\"digital display showing time\", \"buttons for setting and starting the timer\"],\n  \"labels_or_models\": [\"10:00\", \"KSC\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

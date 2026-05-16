@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55685/clip_55.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"display changes to '100' on screen\"],\n  \"objects_manipulated\": [\"digital display\"],\n  \"tool_object_interaction\": [\"the digital display shows numerical values\"]\n}\n```"}

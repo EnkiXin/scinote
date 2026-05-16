@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64798/clip_34.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"gloves\", \"weighing scale\"],\n  \"distinguishing_features\": [\"orange gloves with black fingertips\", \"digital weighing scale with a white surface\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"gloves are being worn\", \"weighing scale is in active use\"]\n}"}

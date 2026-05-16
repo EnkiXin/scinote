@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56423/clip_46.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"remove the microplate from the thermal cycler\"\n  ],\n  \"objects_manipulated\": [\n    \"microplate\"\n  ],\n  \"tool_object_interaction\": [\n    \"hand grasps the microplate and lifts it out of the thermal cycler\"\n  ]\n}\n```"}

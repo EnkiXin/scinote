@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/201832/clip_16.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"blows air onto the subject's head\"\n  ],\n  \"objects_manipulated\": [\n    \"subject's head with electrodes\"\n  ],\n  \"tool_object_interaction\": [\n    \"blower directs airflow towards the subject's head\"\n  ]\n}\n```"}

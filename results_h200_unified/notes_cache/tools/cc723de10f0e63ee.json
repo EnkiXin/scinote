@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/201777/clip_39.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Leica RM2245 microtome\"],\n  \"distinguishing_features\": [\"digital display\", \"numerical keypad\", \"motorized stage\", \"glass slide holder\"],\n  \"labels_or_models\": [\"LEICA RM2245\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57385/clip_46.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"gently place insect on droplet\"],\n  \"objects_manipulated\": [\"insect\", \"droplet\"],\n  \"tool_object_interaction\": [\"gloved hand holding insect carefully places it on top of droplet\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52098/clip_27.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"adjust pressure gauge\"],\n  \"objects_manipulated\": [\"pressure gauge\"],\n  \"tool_object_interaction\": [\"turning the adjustment knob on the pressure gauge\"]\n}\n```"}

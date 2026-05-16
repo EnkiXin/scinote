@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/4295/clip_18.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"petri dish\", \"gloves\"],\n  \"distinguishing_features\": [\"flat circular base\", \"transparent lid\", \"rubber stopper\", \"purple gloves\"],\n  \"labels_or_models\": [\"Insect diet\", \"Stopper\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61625/clip_15.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"stir petri dish content with pipette tip\"],\n  \"objects_manipulated\": [\"petri dish containing red liquid, pipette tip\"],\n  \"tool_object_interaction\": [\"pipette tip is used to stir the contents of the petri dish\"]\n}\n```"}

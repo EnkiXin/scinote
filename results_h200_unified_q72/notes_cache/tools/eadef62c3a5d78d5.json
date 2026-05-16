@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/67016/clip_42.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\", \"petri dish\"],\n  \"distinguishing_features\": [\"pipette with a blue plunger\", \"petri dish with a clear lid and base\"],\n  \"labels_or_models\": [\"CORNING\"],\n  \"operating_state\": [\"pipette in active use\", \"petri dish being handled\"]\n}"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58223/clip_45.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"400\", \"Thriller\", \"120\"],\n  \"counts\": {\n    \"test tubes\": 1,\n    \"pipette tips\": 1,\n    \"test tube rack slots\": 12,\n    \"centrifuge rotor holes\": 24\n  },\n  \"measurements_observed\": []\n}\n```"}

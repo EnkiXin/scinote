@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54818/clip_14.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"incise the skin\"],\n  \"objects_manipulated\": [\"skin\"],\n  \"tool_object_interaction\": [\"scalpel makes a cut into the skin\"]\n}\n```"}

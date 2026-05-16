@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52601/clip_57.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"adjusts the microscope stage\"\n  ],\n  \"objects_manipulated\": [\n    \"microscope stage knobs\"\n  ],\n  \"tool_object_interaction\": [\n    \"hand rotates the knobs to move the stage\"\n  ]\n}\n```"}

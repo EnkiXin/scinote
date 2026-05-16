@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/2137/clip_43.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"15\", \"3\", \"10\"],\n  \"counts\": [\"15 \u03bcl of secondary antibody and nuclear stain per well\"],\n  \"measurements_observed\": [\"15 \u03bcl fluorescently labeled secondary antibody + nuclear stain / well\", \"10 min / wash\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62754/clip_22.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent body\", \"metallic tip\"],\n  \"labels_or_models\": [\"PH 12\", \"PH 11\", \"PH 10\", \"PH 9\", \"PH 8\", \"PH 7\", \"PH 6\", \"PH 5\"],\n  \"operating_state\": [\"inactive\"]\n}\n```"}

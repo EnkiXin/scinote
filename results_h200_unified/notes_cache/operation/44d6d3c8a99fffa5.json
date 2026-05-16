@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57131/clip_31.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"adjust microscope focus\"],\n  \"objects_manipulated\": [\"microscope stage\"],\n  \"tool_object_interaction\": [\"fine-tuning of the sample position for better observation\"]\n}\n```"}

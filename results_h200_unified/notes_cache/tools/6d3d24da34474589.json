@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53156/clip_15.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"oven\", \"thermostatic water bath\"],\n  \"distinguishing_features\": [\"digital display\", \"temperature control knobs\", \"branding\"],\n  \"labels_or_models\": [\"polystat\", \"Thermostatic Water Bath\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

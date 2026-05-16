@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57928/clip_29.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"test lead\"],\n  \"distinguishing_features\": [\"black insulated wire\", \"yellow connector\"],\n  \"labels_or_models\": [\"Xtreme\", \"38-PC1200\", \"38-PC1450\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

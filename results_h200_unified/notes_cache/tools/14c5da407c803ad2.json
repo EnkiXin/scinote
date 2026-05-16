@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62671/clip_19.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"test tube rack\"],\n  \"distinguishing_features\": [\"blue color\", \"white color\", \"transparent plastic\"],\n  \"labels_or_models\": [\"Eppendorf\", \"Cytotech\"],\n  \"operating_state\": [\"active use\", \"inactive\"]\n}\n```"}

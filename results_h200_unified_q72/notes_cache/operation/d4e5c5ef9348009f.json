@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50600/clip_17.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"position mouse near the apparatus\"\n  ],\n  \"objects_manipulated\": [\n    \"mouse\",\n    \"apparatus\"\n  ],\n  \"tool_object_interaction\": [\n    \"mouse interacts with the apparatus by approaching and possibly engaging with it\"\n  ]\n}\n```"}

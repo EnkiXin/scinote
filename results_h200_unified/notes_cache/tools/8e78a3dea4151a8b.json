@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/2702/clip_20.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"surgical scissors\", \"syringe\"],\n  \"distinguishing_features\": [\"sharp blades for cutting\", \"plunger for injecting liquid\"],\n  \"labels_or_models\": [\"U.S.A.\", \"60814\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

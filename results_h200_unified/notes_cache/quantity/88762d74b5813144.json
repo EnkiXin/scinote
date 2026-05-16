@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51079/clip_23.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"200\", \"ml/min\", \"per chamber\", \"+\", \"agent analyzer\"],\n  \"counts\": {\n    \"gauge_readings\": 1,\n    \"text_labels\": 5\n  },\n  \"measurements_observed\": [\"200 ml/min per chamber\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62754/clip_16.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"magnetic stirrer\", \"refrigerator\"],\n  \"distinguishing_features\": [\"magnetic stir bar\", \"stirring plate\", \"glove worn by person\"],\n  \"labels_or_models\": [\"Skyworth\", \"after 5 min\"],\n  \"operating_state\": [\"on\", \"closed\"]\n}\n```"}

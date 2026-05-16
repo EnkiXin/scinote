@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52325/clip_29.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"test tube rack\"],\n  \"distinguishing_features\": [\"purple gloves worn by the operator\", \"transparent test tubes in the rack\", \"red liquid in some test tubes\"],\n  \"labels_or_models\": [\"Jove\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

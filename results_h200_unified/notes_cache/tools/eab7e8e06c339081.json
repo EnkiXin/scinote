@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64072/clip_18.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent plastic syringe connector\", \"black gloves worn by operator\"],\n  \"labels_or_models\": [\"Pull off the plastic syringe connector to remove it\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

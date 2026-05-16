@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63838/clip_48.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"multimeter\", \"soldering iron\"],\n  \"distinguishing_features\": [\"digital display\", \"red and black probes\", \"heat-resistant handle\"],\n  \"labels_or_models\": [\"Multimeter\", \"Soldering Iron\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}\n```"}

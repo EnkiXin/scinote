@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55504/clip_27.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"large rectangular shape with a hinged lid\", \"digital display and control buttons\"],\n  \"labels_or_models\": [\"MODEL 5415D\", \"OFF\", \"5000 RPM\"],\n  \"operating_state\": [\"off\"]\n}\n```"}

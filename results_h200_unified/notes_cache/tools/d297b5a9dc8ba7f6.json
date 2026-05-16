@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55504/clip_30.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"vacuum chamber\"],\n  \"distinguishing_features\": [\"closed lid\", \"digital display showing 'OFF'\", \"green tape securing the lid\"],\n  \"labels_or_models\": [\"Model 300 Cell Chamber\", \"jove\"],\n  \"operating_state\": [\"off\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60960/clip_38.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"rotor with multiple sample slots\", \"digital display and control buttons\"],\n  \"labels_or_models\": [\"X\"],\n  \"operating_state\": [\"open, with a sample being placed inside\"]\n}"}

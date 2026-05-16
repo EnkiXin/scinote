@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63013/clip_20.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"100\"],\n  \"counts\": {\n    \"syringes\": 1,\n    \"screws\": 4,\n    \"metallic components\": 2,\n    \"glass slides\": 2\n  },\n  \"measurements_observed\": [\"Streptavidin: 100 \u03bcg/mL\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55532/clip_18.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"spray solution onto filter paper\"],\n  \"objects_manipulated\": [\"filter paper\", \"spray bottle\"],\n  \"tool_object_interaction\": [\"spray bottle nozzle directed at filter paper\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57332/clip_20.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"mixing dry plant material\"],\n  \"objects_manipulated\": [\"dry plant material\"],\n  \"tool_object_interaction\": [\"gloved hand stirring the material\"]\n}\n```"}

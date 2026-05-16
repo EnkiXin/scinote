@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61013/clip_10.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"lift the wafer from the surface\",\n    \"hold the wafer with tweezers\"\n  ],\n  \"objects_manipulated\": [\n    \"wafer\",\n    \"tweezers\"\n  ],\n  \"tool_object_interaction\": [\n    \"tweezers grasp the edge of the wafer\"\n  ]\n}\n```"}

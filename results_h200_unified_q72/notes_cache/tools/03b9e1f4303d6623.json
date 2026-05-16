@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62088/clip_27.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"centrifuge\"],\n  \"distinguishing_features\": [\"large, white, box-like structure with a transparent lid\", \"visible rotor chamber\"],\n  \"labels_or_models\": [\"eppendorf\"],\n  \"operating_state\": [\"lid is open, suggesting it is not currently spinning\"]\n}"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56437/clip_29.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"click on 'Straight Line' tool in the toolbar\"\n  ],\n  \"objects_manipulated\": [\n    \"Straight Line tool\"\n  ],\n  \"tool_object_interaction\": [\n    \"cursor selects the Straight Line tool from the dropdown menu\"\n  ]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60982/clip_18.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"fine-tipped nozzle for precise liquid transfer\", \"transparent plastic body for visibility\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

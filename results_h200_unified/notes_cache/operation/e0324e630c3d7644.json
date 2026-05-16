@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55614/clip_46.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"hang anode with clamps\"],\n  \"objects_manipulated\": [\"anode\", \"clamps\"],\n  \"tool_object_interaction\": [\"anode is attached to clamps using clamps\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54972/clip_34.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"binocular eyepieces\", \"objective lenses\", \"stage for sample placement\", \"fine adjustment knobs\"],\n  \"labels_or_models\": [\"ZEISS\", \"LSM T-PMT\"],\n  \"operating_state\": [\"in active use\"]\n}"}

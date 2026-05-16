@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52742/clip_56.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"connect cable to device\"],\n  \"objects_manipulated\": [\"cable\", \"device\"],\n  \"tool_object_interaction\": [\"cable is plugged into a port on the device\"]\n}\n```"}

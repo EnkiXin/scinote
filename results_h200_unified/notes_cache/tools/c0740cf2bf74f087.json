@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3255/clip_34.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent plastic tip\", \"grip for holding\"],\n  \"labels_or_models\": [\"1:500 sheep anti-mouse Cy3\\n1:400 goat anti-rat Alexa Fluor 488\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

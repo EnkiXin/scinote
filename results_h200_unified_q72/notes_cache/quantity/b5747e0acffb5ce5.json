@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56655/clip_11.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"100\", \"500\"],\n  \"counts\": [\"1 beaker\", \"1 pipette\", \"1 test tube rack\", \"1 test tube\", \"1 box of Fisher Scientific product\"],\n  \"measurements_observed\": [\"100 \u00b5g/mL streptavidin in blocking buffer\", \"500 mL (beaker capacity)\"]\n}\n```"}

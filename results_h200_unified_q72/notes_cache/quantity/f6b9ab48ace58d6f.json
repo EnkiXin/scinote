@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/4104/clip_18.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"2-8\", \"0, 5, 10, 15, 20, 25, 30\"],\n  \"counts\": [\"2 ovens\", \"1 pressure gauge\", \"1 hand wearing a glove\", \"1 red valve\"],\n  \"measurements_observed\": [\"2-8 hours\", \"0 to 30 in Hg (vacuum gauge)\"]\n}\n```"}

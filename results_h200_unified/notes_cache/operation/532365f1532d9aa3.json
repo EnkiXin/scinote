@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60711/clip_35.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"slide the metal frame horizontally\"],\n  \"objects_manipulated\": [\"metal frame with multiple holes\"],\n  \"tool_object_interaction\": [\"the person uses their gloved hands to slide the metal frame horizontally along a track\"]\n}\n```"}

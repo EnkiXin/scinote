@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55649/clip_14.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"002\", \"002\", \"00:30.0\", \"1000\", \"340\", \"004\"],\n  \"counts\": [\"1 Laurell device\", \"1 hand\"],\n  \"measurements_observed\": [\"30.0 seconds\", \"1000 RPM\", \"340 ACL\"]\n}\n```"}

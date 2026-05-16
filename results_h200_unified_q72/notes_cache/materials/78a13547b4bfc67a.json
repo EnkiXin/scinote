@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/1942/clip_70.mp4", "task": "materials", "note": "```json\n{\n  \"materials_visible\": [\"cancer cells\"],\n  \"labels_seen\": [\"after 4 days\", \"cancer cells\"],\n  \"container_descriptions\": [\"circular container with a flat bottom, transparent\"],\n  \"substance_appearance\": [\"red, spherical, solid\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61760/clip_22.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"close the centrifuge lid\"\n  ],\n  \"objects_manipulated\": [\n    \"centrifuge lid\",\n    \"centrifuge\"\n  ],\n  \"tool_object_interaction\": [\n    \"the hand presses down on the lid to secure it in place\"\n  ]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57137/clip_14.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"laptop\"],\n  \"distinguishing_features\": [\"HP brand logo\", \"Excel spreadsheet displayed\"],\n  \"labels_or_models\": [\"HP\", \"jove\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

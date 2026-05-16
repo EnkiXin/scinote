@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3164/clip_31.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent pipette with a fine tip for precise liquid transfer\"],\n  \"labels_or_models\": [\"10 mM hexadecanethiol in absolute ethanol\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

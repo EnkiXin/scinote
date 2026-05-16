@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59396/clip_67.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"fold fabric\"],\n  \"objects_manipulated\": [\"fabric\"],\n  \"tool_object_interaction\": [\"hands fold fabric\"]\n}\n```"}

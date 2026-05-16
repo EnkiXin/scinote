@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50593/clip_57.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"screwdriver\"],\n  \"distinguishing_features\": [\"metallic handle\", \"red tip\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58644/clip_30.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"measure depth using ruler\"],\n  \"objects_manipulated\": [\"ruler\", \"monitor display\"],\n  \"tool_object_interaction\": [\"ruler placed vertically against monitor display to measure depth\"]\n}\n```"}

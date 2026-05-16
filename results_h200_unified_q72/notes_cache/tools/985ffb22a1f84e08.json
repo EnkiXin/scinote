@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51079/clip_19.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent body with a white label\", \"blue-gloved hands holding the pipette\"],\n  \"labels_or_models\": [\"Sarstedt\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

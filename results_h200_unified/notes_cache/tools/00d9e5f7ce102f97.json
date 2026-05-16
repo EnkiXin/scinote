@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59728/clip_33.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"HPLC system\"],\n  \"distinguishing_features\": [\"open front panel\", \"internal tubing and components visible\", \"digital display\"],\n  \"labels_or_models\": [\"See text for HPLC conditions\"],\n  \"operating_state\": [\"in use\"]\n}\n```"}

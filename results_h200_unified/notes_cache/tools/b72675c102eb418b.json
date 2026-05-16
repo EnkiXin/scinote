@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52750/clip_8.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"plastic tube attached to the pipette tip\", \"grip handle for the pipette\"],\n  \"labels_or_models\": [\"Unifrac\", \"MicroGene\", \"00-461\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

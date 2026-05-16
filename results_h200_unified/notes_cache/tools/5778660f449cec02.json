@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52874/clip_52.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"metal scoop\"],\n  \"distinguishing_features\": [\"shiny metallic surface\", \"used for scooping\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

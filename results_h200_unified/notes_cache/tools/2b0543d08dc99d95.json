@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50527/clip_52.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"forceps\", \"plastic tube\"],\n  \"distinguishing_features\": [\"metallic forceps with black handles\", \"transparent plastic tube\"],\n  \"labels_or_models\": [\"Kimberly-Clark\", \"Sterile Nitrile Gloves\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

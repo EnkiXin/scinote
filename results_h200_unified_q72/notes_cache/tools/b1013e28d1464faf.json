@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57789/clip_22.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"vacuum chamber\"],\n  \"distinguishing_features\": [\"transparent cylindrical container with a lid\", \"connected to a vacuum system\"],\n  \"labels_or_models\": [\"<100 kPa vacuum\"],\n  \"operating_state\": [\"in active use\"]\n}"}

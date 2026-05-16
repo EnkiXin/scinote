@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52411/clip_27.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"grind the surface of a sphere\"],\n  \"objects_manipulated\": [\"a white sphere\"],\n  \"tool_object_interaction\": [\"a Dremel tool with a grinding disc is used to grind the sphere's surface\"]\n}\n```"}

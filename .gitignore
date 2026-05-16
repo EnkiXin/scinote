@@ -43,7 +43,16 @@ results_*/    # eval result dirs (videos may have large pickles)
 !results/eval_*.json
 !results_h200/
 !results_h200/**
+!results_h200_unified/
+!results_h200_unified/**
+!results_h200_unified_q72/
+!results_h200_unified_q72/**
 results_h200/**/*.log
+# Smoke dirs (test only)
+results_h200/qwen7b_smoke/
+results_h200/qwen7b_twostage_v2/
+results_smoke_q7/
+results_h200_unified_smoke/
 
 # Smoke test logs
 smoke_test*.log

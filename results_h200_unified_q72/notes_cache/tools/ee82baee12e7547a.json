@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54971/clip_13.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"water bath\"],\n  \"distinguishing_features\": [\"rectangular metal container with a blue rack inside, water running into the container\"],\n  \"labels_or_models\": [\"CLEAN MODEL\"],\n  \"operating_state\": [\"on, water is actively being added\"]\n}\n```"}

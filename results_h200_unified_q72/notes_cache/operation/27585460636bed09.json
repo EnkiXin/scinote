@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54189/clip_25.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"tilt the flask\"\n  ],\n  \"objects_manipulated\": [\n    \"flask with a dark liquid\"\n  ],\n  \"tool_object_interaction\": [\n    \"the flask is held by a gloved hand and tilted to observe the liquid\"\n  ]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3691/clip_41.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"incubator\"],\n  \"distinguishing_features\": [\"digital display\", \"temperature control\", \"CO2 concentration control\", \"timer\"],\n  \"labels_or_models\": [\"37 \u00b0C\", \"5% CO\u2082\", \"30 min\", \"Innova 48i CO2\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

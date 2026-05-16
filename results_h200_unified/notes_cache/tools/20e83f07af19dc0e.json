@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61383/clip_20.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"centrifuge\"],\n  \"distinguishing_features\": [\"pipette with a clear plastic tube\", \"white centrifuge with a circular opening and a lid\"],\n  \"labels_or_models\": [\"jove\", \"PCR Flex\"],\n  \"operating_state\": [\"active use\", \"off\"]\n}\n```"}

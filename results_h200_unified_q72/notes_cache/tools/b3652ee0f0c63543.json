@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53876/clip_23.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\", \"beaker\"],\n  \"distinguishing_features\": [\"pipette with a green and white body\", \"beaker with a clear glass body\"],\n  \"labels_or_models\": [\"2-20 uL\"],\n  \"operating_state\": [\"pipette is in active use\", \"beaker is stationary\"]\n}"}

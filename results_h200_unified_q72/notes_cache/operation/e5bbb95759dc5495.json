@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56779/clip_15.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"write on test tube with marker\"\n  ],\n  \"objects_manipulated\": [\n    \"test tube\",\n    \"marker\"\n  ],\n  \"tool_object_interaction\": [\n    \"marker tip contacts test tube surface\"\n  ]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64100/clip_36.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microtome\"],\n  \"distinguishing_features\": [\"rotary knife\", \"glass slide\", \"light source underneath\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

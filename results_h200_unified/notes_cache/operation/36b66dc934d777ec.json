@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62864/clip_22.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"manipulate object with forceps\"],\n  \"objects_manipulated\": [\"black object with wire attached\"],\n  \"tool_object_interaction\": [\"forceps are used to grip and adjust the position of the black object\"]\n}\n```"}

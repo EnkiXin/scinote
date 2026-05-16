@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56094/clip_35.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"lab shaker\"],\n  \"distinguishing_features\": [\"transparent container with lid, blue gloves holding the container\"],\n  \"labels_or_models\": [\"PBS-OVA blocking buffer\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

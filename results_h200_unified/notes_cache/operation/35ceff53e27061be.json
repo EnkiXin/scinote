@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62771/clip_46.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"remove lid from microplate\", \"place lid on table\"],\n  \"objects_manipulated\": [\"microplate\", \"microplate lid\"],\n  \"tool_object_interaction\": [\"gloved hand uses forceps to lift lid off microplate\"]\n}\n```"}

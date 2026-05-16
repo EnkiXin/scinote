@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61800/clip_18.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"scalpel\", \"beaker\"],\n  \"distinguishing_features\": [\"scalpel with a metallic blade and a handle\", \"beaker with a rectangular shape and a handle\"],\n  \"labels_or_models\": [\"90% EtOH\"],\n  \"operating_state\": [\"scalpel in active use\", \"beaker stationary\"]\n}"}

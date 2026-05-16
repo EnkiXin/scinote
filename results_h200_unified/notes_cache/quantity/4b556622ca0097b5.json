@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3521/clip_14.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"2:00\", \"15\", \"100\", \"1000\"],\n  \"counts\": [\"1 microwave\", \"1 digital timer\", \"1 bottle\", \"1 scale\", \"1 glove\"],\n  \"measurements_observed\": [\"time (2:00)\", \"temperature (15\u00b0C)\", \"volume (100 mL)\", \"volume (1000 mL)\"]\n}\n```"}

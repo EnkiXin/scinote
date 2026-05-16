@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55685/clip_31.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"electrolytic classifier\"],\n  \"distinguishing_features\": [\"beige rectangular device with a digital display and a large black knob\"],\n  \"labels_or_models\": [\"ELECTROLYTIC CLASSIFIER\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}\n```"}

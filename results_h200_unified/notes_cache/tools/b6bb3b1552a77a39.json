@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61876/clip_9.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"white plastic tip\", \"dropping liquid into\u69fd (slot)\"],\n  \"labels_or_models\": [\"Grease outside of slot will prevent glue sticking\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

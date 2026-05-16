@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56268/clip_22.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"glove box\"],\n  \"distinguishing_features\": [\"transparent walls\", \"metal grid base\", \"dimensions displayed\"],\n  \"labels_or_models\": [\"Box dimensions: 50 cm x 30 cm x 20 cm\"],\n  \"operating_state\": [\"in use for sample exposure\"]\n}\n```"}

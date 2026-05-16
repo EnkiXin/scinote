@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57385/clip_16.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"fine-tipped nozzle\", \"transparent liquid reservoir\"],\n  \"labels_or_models\": [\"WILD HEERBRUGG\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

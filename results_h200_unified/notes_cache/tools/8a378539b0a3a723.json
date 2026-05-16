@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55500/clip_27.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"oven\"],\n  \"distinguishing_features\": [\"digital display\", \"temperature control buttons\", \"red warning light\"],\n  \"labels_or_models\": [\"E-07\", \"25\", \"See text for heating schedule\", \"jove\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

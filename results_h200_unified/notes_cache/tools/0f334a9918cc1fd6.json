@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57343/clip_36.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent plastic body\", \"graduated markings for volume measurement\"],\n  \"labels_or_models\": [\"Sigma-Aldrich\", \"PROTEIN SPERNATANT\", \"10 mL\", \"5 mL\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

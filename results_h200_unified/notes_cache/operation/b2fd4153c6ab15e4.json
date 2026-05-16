@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57543/clip_32.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"remove pipette tip from strainer\"\n  ],\n  \"objects_manipulated\": [\n    \"pipette tip\",\n    \"strainer\"\n  ],\n  \"tool_object_interaction\": [\n    \"pipette tip is lifted off the strainer\"\n  ]\n}\n```"}

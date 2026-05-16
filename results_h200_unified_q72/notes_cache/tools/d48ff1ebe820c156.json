@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53021/clip_8.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"glovebox\"],\n  \"distinguishing_features\": [\"large transparent chamber with gloves for manipulating materials inside\", \"connected to external tubing and filtration systems\"],\n  \"labels_or_models\": [\"BRAUN\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

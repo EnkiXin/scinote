@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/201832/clip_11.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"scalp electrode cap\"],\n  \"distinguishing_features\": [\"multiple electrodes attached to the scalp\", \"electrode wires connected to a device\"],\n  \"labels_or_models\": [\"Electrode Cap\", \"Electrode Wire\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

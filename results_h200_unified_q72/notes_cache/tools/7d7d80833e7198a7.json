@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56418/clip_15.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"Masterflex L/S peristaltic pump\"],\n  \"distinguishing_features\": [\"white and blue color scheme\", \"digital display\", \"control buttons\", \"attached tubing\"],\n  \"labels_or_models\": [\"Masterflex L/S\", \"120V-60Hz\"],\n  \"operating_state\": [\"off\"]\n}\n```"}

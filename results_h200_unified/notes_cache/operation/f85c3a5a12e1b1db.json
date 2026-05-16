@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54147/clip_9.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"pour liquid from bottle into funnel\"],\n  \"objects_manipulated\": [\"bottle\", \"funnel\", \"filter paper\"],\n  \"tool_object_interaction\": [\"liquid flows from bottle through filter paper into funnel\"]\n}\n```"}

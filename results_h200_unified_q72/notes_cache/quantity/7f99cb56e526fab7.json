@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/2702/clip_45.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"5\", \"ml\"],\n  \"counts\": [\"2 Falcon tubes\", \"1 bottle of red liquid\", \"1 small bottle with a black cap\", \"1 blue tube rack\", \"1 pipette\"],\n  \"measurements_observed\": [\"5 ml red blood cell lysis buffer\"]\n}\n```"}

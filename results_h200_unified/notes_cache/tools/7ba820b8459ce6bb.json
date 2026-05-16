@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54147/clip_23.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"centrifuge\"],\n  \"distinguishing_features\": [\"transparent plastic pipette tip\", \"blue base with digital display\"],\n  \"labels_or_models\": [\"3.2 g H\u2082O\\n6.8 g EtOH\", \"jove\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}\n```"}

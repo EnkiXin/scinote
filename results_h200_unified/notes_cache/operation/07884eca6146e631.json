@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54144/clip_25.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"press button on sonicator\"],\n  \"objects_manipulated\": [\"sonicator\"],\n  \"tool_object_interaction\": [\"finger presses button on sonicator control panel\"]\n}\n```"}

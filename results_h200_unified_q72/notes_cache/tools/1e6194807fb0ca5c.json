@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62107/clip_20.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"blue handle\", \"yellow label\", \"attached pipette tip\"],\n  \"labels_or_models\": [\"VWR\"],\n  \"operating_state\": [\"in active use\"]\n}"}

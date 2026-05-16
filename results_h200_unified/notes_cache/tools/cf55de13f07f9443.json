@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50658/clip_18.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"scalpel\"],\n  \"distinguishing_features\": [\"transparent plastic body\", \"metallic blade\"],\n  \"labels_or_models\": [\"PLAN 10x\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

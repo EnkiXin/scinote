@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53009/clip_19.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"insert mouse into cage\"],\n  \"objects_manipulated\": [\"mouse\", \"cage\"],\n  \"tool_object_interaction\": [\"hand wearing glove places mouse inside metal cage\"]\n}\n```"}

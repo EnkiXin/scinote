@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58052/clip_25.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"oven\"],\n  \"distinguishing_features\": [\"large, boxy structure with a door and control panel\"],\n  \"labels_or_models\": [\"CARBOLITE GERO\", \"PN Oven\"],\n  \"operating_state\": [\"in active use\"]\n}"}

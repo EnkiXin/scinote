@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56248/clip_20.mp4", "task": "materials", "note": "```json\n{\n  \"materials_visible\": [\"microscope slide\"],\n  \"labels_seen\": [\"4X, 10X, or 20X magnification\"],\n  \"container_descriptions\": [\"transparent plastic multi-well plate\"],\n  \"substance_appearance\": [\"no visible substance in the multi-well plate\"]\n}\n```"}

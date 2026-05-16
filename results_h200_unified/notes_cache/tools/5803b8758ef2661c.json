@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/61449/clip_25.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"IKA MS 3 Vortexer\"],\n  \"distinguishing_features\": [\"blue color\", \"black circular base\", \"speed control knob\"],\n  \"labels_or_models\": [\"IKA MS 3 Vortexer\", \"200 rpm\", \"1400 rpm\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

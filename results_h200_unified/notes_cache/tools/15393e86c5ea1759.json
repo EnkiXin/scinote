@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63013/clip_25.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"syringe\"],\n  \"distinguishing_features\": [\"26 G needle\", \"5/8 Inch Length\", \"transparent barrel\", \"metallic tip\"],\n  \"labels_or_models\": [\"Needle: 26 G\\n5/8 Inch Length\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

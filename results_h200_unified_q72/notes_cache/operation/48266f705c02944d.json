@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58332/clip_22.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"cut edges of a transparent sheet with scissors\"\n  ],\n  \"objects_manipulated\": [\n    \"transparent sheet\",\n    \"scissors\"\n  ],\n  \"tool_object_interaction\": [\n    \"scissors are used to cut the edges of the transparent sheet\"\n  ]\n}\n```"}

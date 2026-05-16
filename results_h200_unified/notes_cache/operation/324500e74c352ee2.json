@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58301/clip_5.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"align ruler with copper strip\", \"mark measurement on copper strip\"],\n  \"objects_manipulated\": [\"ruler\", \"copper strip\"],\n  \"tool_object_interaction\": [\"ruler is used to measure and mark the copper strip\"]\n}\n```"}

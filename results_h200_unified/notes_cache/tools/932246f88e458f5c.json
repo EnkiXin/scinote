@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63129/clip_6.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microcentrifuge tube\"],\n  \"distinguishing_features\": [\"transparent material\", \"cylindrical shape\", \"small size\", \"sealing cap\"],\n  \"labels_or_models\": [\"\u7a7a\u5fc3\"],\n  \"operating_state\": [\"at rest\"]\n}\n```"}

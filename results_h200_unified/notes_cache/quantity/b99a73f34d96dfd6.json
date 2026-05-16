@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53980/clip_10.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"58\", \"25\", \"6\", \"10\", \"1\", \"39\", \"8\"],\n  \"counts\": [\"10\"],\n  \"measurements_observed\": [\"58 x 25 cm\", \"6 mm thick\", \"10 circular wells\", \"1 mm deep\", \"10 cm diameter\", \"39 x 8 cm\", \"6 mm thick\"]\n}\n```"}

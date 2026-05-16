@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64923/clip_40.mp4", "task": "materials", "note": "```json\n{\n  \"materials_visible\": [],\n  \"labels_seen\": [\n    \"Predicted binding propensity\",\n    \"HNRNPH3\",\n    \"PCBP2\",\n    \"RBM41\",\n    \"+RNA\",\n    \"-RNA\"\n  ],\n  \"container_descriptions\": [],\n  \"substance_appearance\": []\n}\n```"}

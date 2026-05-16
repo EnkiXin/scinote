@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/62417/clip_24.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"position pipette near egg\"],\n  \"objects_manipulated\": [\"egg\", \"pipette\"],\n  \"tool_object_interaction\": [\"pipette is positioned close to the egg for precise handling\"]\n}\n```"}

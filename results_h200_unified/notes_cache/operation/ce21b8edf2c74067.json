@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54786/clip_30.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"retrieve container from freezer\"],\n  \"objects_manipulated\": [\"container\"],\n  \"tool_object_interaction\": [\"glove box for protection\"]\n}\n```"}

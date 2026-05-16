@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64560/clip_17.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"open the pressure cooker lid\"\n  ],\n  \"objects_manipulated\": [\n    \"pressure cooker lid\"\n  ],\n  \"tool_object_interaction\": [\n    \"hand interacts with the pressure cooker lid to open it\"\n  ]\n}\n```"}

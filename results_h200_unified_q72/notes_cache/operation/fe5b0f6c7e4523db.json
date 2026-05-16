@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51079/clip_21.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"adjust the temperature control dial on the water bath\"],\n  \"objects_manipulated\": [\"temperature control dial\", \"water bath\"],\n  \"tool_object_interaction\": [\"gloved hand rotates the temperature control dial\"]\n}\n```"}

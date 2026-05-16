@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56655/clip_20.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"objective lens\", \"eyepiece\", \"fine focus knob\", \"coarse focus knob\"],\n  \"labels_or_models\": [\"Nikon Eclipse Ti\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

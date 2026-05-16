@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58458/clip_32.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\", \"tweezers\"],\n  \"distinguishing_features\": [\"pipette with a fine tip\", \"tweezers with a pointed tip\"],\n  \"labels_or_models\": [\"XONE\", \"Tweezers\"],\n  \"operating_state\": [\"pipette in active use\", \"tweezers stationary\"]\n}"}

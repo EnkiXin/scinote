@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52411/clip_56.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"transparent body\", \"metallic tip\", \"blue protective cover\"],\n  \"labels_or_models\": [\"Pipet 20 - 40 Times to Dissociate Cells\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

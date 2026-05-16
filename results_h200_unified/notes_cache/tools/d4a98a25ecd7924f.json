@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52859/clip_17.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"shaver\"],\n  \"distinguishing_features\": [\"purple handle\", \"white blade\", \"brand name 'Epic' visible\"],\n  \"labels_or_models\": [\"Epic\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

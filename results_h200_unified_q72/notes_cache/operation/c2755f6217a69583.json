@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52411/clip_27.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"drill into the egg\"],\n  \"objects_manipulated\": [\"egg\", \"Dremel tool\"],\n  \"tool_object_interaction\": [\"Dremel tool drills into the surface of the egg\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58334/clip_10.mp4", "task": "materials", "note": "```json\n{\n  \"materials_visible\": [\"microplate\"],\n  \"labels_seen\": [\"TECAN\"],\n  \"container_descriptions\": [\"rectangular microplate with multiple wells, transparent with a blue lid\"],\n  \"substance_appearance\": [\"contents not visible, wells appear empty\"]\n}\n```"}

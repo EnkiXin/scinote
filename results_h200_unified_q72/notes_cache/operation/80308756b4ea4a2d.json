@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55098/clip_38.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"connect the red and black wires to the connector\"\n  ],\n  \"objects_manipulated\": [\n    \"red and black wires\",\n    \"connector\"\n  ],\n  \"tool_object_interaction\": [\n    \"hands hold the wires and connector to join them\"\n  ]\n}\n```"}

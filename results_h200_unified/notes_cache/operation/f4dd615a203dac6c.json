@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64100/clip_19.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"place a tray on a magnetic stirrer\"],\n  \"objects_manipulated\": [\"tray with multiple wells\"],\n  \"tool_object_interaction\": [\"the tray is placed on the magnetic stirrer to mix its contents\"]\n}\n```"}

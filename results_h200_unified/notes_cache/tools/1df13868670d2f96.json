@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59992/clip_19.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"beaker\"],\n  \"distinguishing_features\": [\"pipette has a metallic tip\", \"beaker is conical shape\"],\n  \"labels_or_models\": [\"New Brunswick Scientific\", \"Beckman\"],\n  \"operating_state\": [\"pipette is in use\", \"beaker is stationary\"]\n}\n```"}

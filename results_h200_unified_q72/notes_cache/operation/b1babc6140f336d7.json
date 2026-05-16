@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53010/clip_14.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"weigh the cork samples\"\n  ],\n  \"objects_manipulated\": [\n    \"cork samples\",\n    \"digital scale\"\n  ],\n  \"tool_object_interaction\": [\n    \"cork samples are placed in a metal bowl on the digital scale\"\n  ]\n}\n```"}

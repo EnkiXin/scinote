@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/63543/clip_25.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"manipulate the lens and iris with forceps\"\n  ],\n  \"objects_manipulated\": [\n    \"lens\",\n    \"iris\"\n  ],\n  \"tool_object_interaction\": [\n    \"forceps grasp and adjust the lens\",\n    \"forceps position and hold the iris\"\n  ]\n}\n```"}

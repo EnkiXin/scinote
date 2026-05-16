@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64072/clip_11.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"rotate knob\"],\n  \"objects_manipulated\": [\"knob on plasma cleaner\"],\n  \"tool_object_interaction\": [\"the hand turns the knob to adjust settings on the plasma cleaner\"]\n}\n```"}

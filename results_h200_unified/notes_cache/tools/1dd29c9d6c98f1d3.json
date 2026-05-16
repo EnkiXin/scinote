@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52818/clip_25.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"multimeter\", \"test leads\", \"digital multimeter\"],\n  \"distinguishing_features\": [\"yellow casing\", \"black display screen\", \"red and black test leads\"],\n  \"labels_or_models\": [\"FLUKE\", \"17B\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}\n```"}

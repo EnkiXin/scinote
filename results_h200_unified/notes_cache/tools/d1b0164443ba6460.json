@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53800/clip_15.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"electrode device\", \"digital display device\"],\n  \"distinguishing_features\": [\"wires connected to electrodes\", \"digital screen displaying '0.00'\"],\n  \"labels_or_models\": [\"DigiMed 2000\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

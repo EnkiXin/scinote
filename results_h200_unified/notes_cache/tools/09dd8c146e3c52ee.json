@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52557/clip_15.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"blender\"],\n  \"distinguishing_features\": [\"metallic finish\", \"handle for pouring\", \"base for stability\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"in use\"]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3608/clip_2.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [],\n  \"distinguishing_features\": [\n    \"Petri dish with multiple colonies\",\n    \"Funnel with liquid\",\n    \"Blue outline indicating a container\"\n  ],\n  \"labels_or_models\": [],\n  \"operating_state\": []\n}\n```"}

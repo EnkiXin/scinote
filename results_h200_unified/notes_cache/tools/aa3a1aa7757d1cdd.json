@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/4308/clip_39.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\", \"computer\"],\n  \"distinguishing_features\": [\"transparent glass slide\", \"digital display screen\", \"keyboard\"],\n  \"labels_or_models\": [\"Time lapse: 11x\"],\n  \"operating_state\": [\"active use\", \"active use\"]\n}\n```"}

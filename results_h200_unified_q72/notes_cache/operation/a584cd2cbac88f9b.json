@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58916/clip_11.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"connect a tube to a valve\"\n  ],\n  \"objects_manipulated\": [\n    \"a tube\",\n    \"a valve\"\n  ],\n  \"tool_object_interaction\": [\n    \"the tube is inserted into the valve\"\n  ]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57847/clip_13.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"blue color\", \"perforated design\", \"white tip\"],\n  \"labels_or_models\": [\"WARNING\", \"WEAR SAFETY GLASSES\", \"PROTECTIVE SHOES\", \"APPROXIMATELY 1000 LPM\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

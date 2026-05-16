@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59474/clip_29.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"incubator\"],\n  \"distinguishing_features\": [\"large, box-like structure with a glass door and internal shelving\"],\n  \"labels_or_models\": [\"Thermo\", \"HERACELL 150i\"],\n  \"operating_state\": [\"open, with a person placing or retrieving items\"]\n}"}

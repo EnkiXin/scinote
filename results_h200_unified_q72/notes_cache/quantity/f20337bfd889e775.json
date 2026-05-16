@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/52456/clip_16.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"1:50\", \"1:100\", \"3\"],\n  \"counts\": [\"2 jugs\", \"1 bottle\", \"1 petri dish\", \"1 syringe\", \"1 person\"],\n  \"measurements_observed\": [\"APTES:dry acetone 1:50 - 1:100 (v/v)\"]\n}\n```"}

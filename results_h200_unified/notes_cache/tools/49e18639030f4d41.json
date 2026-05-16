@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53156/clip_12.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"test tube rack\"],\n  \"distinguishing_features\": [\"transparent liquid reservoir\", \"plastic test tubes\", \"yellow color\"],\n  \"labels_or_models\": [\"jove\"],\n  \"operating_state\": [\"active use\"]\n}\n```"}

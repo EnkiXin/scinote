@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51079/clip_16.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"hold a coiled wire\",\n    \"manipulate the wire with gloved hands\"\n  ],\n  \"objects_manipulated\": [\n    \"coiled wire\",\n    \"gloved hands\"\n  ],\n  \"tool_object_interaction\": [\n    \"gloved hands grip and adjust the coiled wire\"\n  ]\n}\n```"}

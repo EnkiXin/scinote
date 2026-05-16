@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/4422/clip_8.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"apply cautery to rabbit's skin\"\n  ],\n  \"objects_manipulated\": [\n    \"rabbit\",\n    \"cautery device\"\n  ],\n  \"tool_object_interaction\": [\n    \"the cautery device is pressed against the rabbit's skin to apply heat for hemostasis.\"\n  ]\n}\n```"}

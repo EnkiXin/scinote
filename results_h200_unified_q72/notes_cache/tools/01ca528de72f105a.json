@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60469/clip_15.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"water bath\"],\n  \"distinguishing_features\": [\"metallic lid with a handle\", \"green rack inside for holding tubes\"],\n  \"labels_or_models\": [\"JOVE\"],\n  \"operating_state\": [\"lid is being opened\", \"green rack is being placed inside\"]\n}"}

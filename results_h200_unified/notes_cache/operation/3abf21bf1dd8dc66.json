@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58174/clip_54.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"connect a cable to the high voltage output\"],\n  \"objects_manipulated\": [\"high voltage power supply\", \"cable\"],\n  \"tool_object_interaction\": [\"inserting the cable into the high voltage output socket\"]\n}\n```"}

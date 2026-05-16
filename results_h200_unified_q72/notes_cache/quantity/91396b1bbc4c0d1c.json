@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/4142/clip_41.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\n    \"50 mL\"\n  ],\n  \"counts\": [\n    \"1 beaker\",\n    \"1 conical flask\",\n    \"1 test tube\",\n    \"1 pipette\",\n    \"1 blue test tube rack\"\n  ],\n  \"measurements_observed\": [\n    \"50 mL of liquid in the conical flask\"\n  ]\n}\n```"}

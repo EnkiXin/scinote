@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57629/clip_17.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"rotate wooden stick with cotton tip\"],\n  \"objects_manipulated\": [\"wooden stick with cotton tip\"],\n  \"tool_object_interaction\": [\"gloved hands hold and rotate the wooden stick\"]\n}\n```"}

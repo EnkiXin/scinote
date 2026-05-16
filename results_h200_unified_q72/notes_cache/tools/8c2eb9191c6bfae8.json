@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/4415/clip_41.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\", \"petri dish\"],\n  \"distinguishing_features\": [\"pipette with a clear tip and a red plunger\", \"petri dish with a small, circular object inside\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"pipette in active use\", \"petri dish stationary\"]\n}"}

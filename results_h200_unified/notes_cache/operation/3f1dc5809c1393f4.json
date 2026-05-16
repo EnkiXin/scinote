@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/3039/clip_30.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\n    \"inject substance into the tissue\"\n  ],\n  \"objects_manipulated\": [\n    \"tissue\",\n    \"substance\"\n  ],\n  \"tool_object_interaction\": [\n    \"a syringe is used to inject the substance into the tissue\"\n  ]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/51357/clip_44.mp4", "task": "quantity", "note": "```json\n{\n  \"numbers_visible\": [\"100\", \"400\", \"900\", \"100\", \"400\", \"900\"],\n  \"counts\": [\"3 concentrations of CaCl2\"],\n  \"measurements_observed\": [\"100 \u03bcM CaCl2\", \"400 \u03bcM CaCl2\", \"900 \u03bcM CaCl2\"]\n}\n```"}

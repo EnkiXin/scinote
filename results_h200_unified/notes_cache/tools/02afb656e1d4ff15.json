@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/50371/clip_34.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"pipette\", \"microscope\"],\n  \"distinguishing_features\": [\"pipette has a black handle\", \"microscope has an Olympus label\"],\n  \"labels_or_models\": [\"Olympus\"],\n  \"operating_state\": [\"pipette is in active use\", \"microscope is in active use\"]\n}\n```"}

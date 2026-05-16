@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/55459/clip_19.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"microscope\", \"micropipette\"],\n  \"distinguishing_features\": [\"microscope with adjustable lenses\", \"micropipette with fine tip\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"microscope in use\", \"micropipette in use\"]\n}"}

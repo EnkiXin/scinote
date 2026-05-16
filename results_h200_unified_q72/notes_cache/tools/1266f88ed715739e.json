@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/57988/clip_30.mp4", "task": "tools", "note": "{\n  \"tools_in_use\": [\"pipette\"],\n  \"distinguishing_features\": [\"white pipette with a pink plunger\", \"pipette is being used to transfer liquid into a test tube\"],\n  \"labels_or_models\": [\"no readable text on the pipette\"],\n  \"operating_state\": [\"pipette is in active use\"]\n}"}

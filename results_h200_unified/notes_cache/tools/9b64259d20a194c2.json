@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/58301/clip_30.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"vacuum chamber\"],\n  \"distinguishing_features\": [\"glass window\", \"metallic components\", \"hoses connected to valves\"],\n  \"labels_or_models\": [],\n  \"operating_state\": [\"active\"]\n}\n```"}

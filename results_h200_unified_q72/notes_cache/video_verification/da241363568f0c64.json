@@ -1,0 +1,1 @@
+{"video_id": "videos/level_2/video_verification/55594/clip_6_removed_step_1.mp4", "task": "video_verification", "note": "{\n  \"steps_actually_shown\": [\"Insert a needle into the optic cup\"],\n  \"missing_or_skipped\": \"Wiping the needle if needed\",\n  \"key_objects_handled\": [\"needle\", \"optic cup\"]\n}"}

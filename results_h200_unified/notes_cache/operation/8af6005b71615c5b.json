@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/64759/clip_16.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"place tube into centrifuge\"],\n  \"objects_manipulated\": [\"tube\", \"centrifuge\"],\n  \"tool_object_interaction\": [\"tube inserted into centrifuge rotor\"]\n}\n```"}

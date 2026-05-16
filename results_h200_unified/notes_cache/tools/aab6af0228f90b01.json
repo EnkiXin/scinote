@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/54972/clip_34.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"binocular eyepieces\", \"objective lenses\", \"fine focus knob\", \"coarse focus knob\"],\n  \"labels_or_models\": [\"LSM T-PMT\", \"ZEISS\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

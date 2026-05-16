@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/53009/clip_24.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"place paper towel on surface\", \"fold paper towel\"],\n  \"objects_manipulated\": [\"paper towel\"],\n  \"tool_object_interaction\": [\"gloved hands fold paper towel\"]\n}\n```"}

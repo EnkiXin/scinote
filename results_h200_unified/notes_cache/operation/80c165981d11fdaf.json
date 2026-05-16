@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/60711/clip_14.mp4", "task": "operation", "note": "```json\n{\n  \"actions_performed\": [\"place test piece on stir bar\"],\n  \"objects_manipulated\": [\"test piece\", \"stir bar\"],\n  \"tool_object_interaction\": [\"use adhesive to attach test piece to stir bar\"]\n}\n```"}

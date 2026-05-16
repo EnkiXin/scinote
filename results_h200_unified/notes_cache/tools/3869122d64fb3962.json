@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59474/clip_29.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"refrigerator\"],\n  \"distinguishing_features\": [\"digital display\", \"thermostat controls\", \"temperature gauge\"],\n  \"labels_or_models\": [\"Thermo\", \"HERAULT\"],\n  \"operating_state\": [\"on\"]\n}\n```"}

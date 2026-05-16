@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/59271/clip_12.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"test tube\", \"magnetic stirrer\"],\n  \"distinguishing_features\": [\"transparent test tube with blue cap\", \"blue magnetic stirrer with pink container\"],\n  \"labels_or_models\": [\"0.5 N HCl\", \"jove\"],\n  \"operating_state\": [\"on\", \"in active use\"]\n}\n```"}

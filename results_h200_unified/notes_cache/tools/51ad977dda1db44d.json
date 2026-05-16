@@ -1,0 +1,1 @@
+{"video_id": "videos/level_1/56338/clip_15.mp4", "task": "tools", "note": "```json\n{\n  \"tools_in_use\": [\"microscope\"],\n  \"distinguishing_features\": [\"objective lens\", \"eyepiece\", \"stage\", \"fine focus knob\"],\n  \"labels_or_models\": [\"Leica DM2000\"],\n  \"operating_state\": [\"in active use\"]\n}\n```"}

@@ -1,6 +1,6 @@
 # ExpVid Experiments — Progress Log
 
-**Updated**: 2026-05-16  
+**Updated**: 2026-05-17  
 **Model**: Qwen2.5-VL-7B-Instruct (bf16, single H200) — answer model in all conditions; **Stage 1 (note) model can be 7B or 72B per condition (see Finding 6)**.  
 **Hardware**: UNT H200 server (8× H200 143 GB)  
 **Frames**: 32 frames per video (uniform across L1/L2/L3; Mac 4090 was 8-frame patched for L3 — now superseded)
@@ -167,7 +167,10 @@ Three break patterns (notes hurt):
 
 **Implication**: the answer model **over-trusts the note** — when the note's stated content conflicts with the video, it tends to follow the note. This motivates either (a) a counterfactual SFT pass that teaches the model to verify notes against the video, or (b) a confidence-gate on note inclusion.
 
-### 9. 🚀 Oracle-note experiment: massive lift on SciVideoBench when notes have answer-guided focus (in flight)
+### 9. ✅ Oracle-note experiment: huge +30 pp lift, BUT does NOT transfer to a trained noter (= mostly answer-conditioning leak)
+
+> **TL;DR**: A Qwen2.5-VL-72B noter that sees the gold answer at note-time gives the small Qwen-3B answer model a **+30 pp** lift on SciVideoBench (18.60 % → 48.60 %). The strictest leak test — training a Qwen-7B LoRA noter to imitate those oracle notes WITHOUT ever showing it the answer, then deploying it on SciVideoBench — gets **18.30 %**, essentially identical to the C0 video-only baseline. **The +30 pp lift is mostly answer-conditioning leak.** Detail in §9a (leak audit) and §9b (transfer test).
+
 
 To test whether the note-augmentation idea has a **ceiling** much higher than what self-notes achieve, we run an **oracle-note** experiment: a stronger model (**Qwen2.5-VL-72B-Instruct**) writes the Stage-1 note while seeing the video, the question, and the **gold answer**, under strict constraints:
 
@@ -217,7 +220,7 @@ This says: the information needed for these reasoning questions IS visible in th
 
 > Caveat: SciVideoBench source data has 324 / 1000 rows sharing `(video_id, question_id)` with another row (different questions, same id pair); the cache key collides for those, so ~16 % of items may load a note generated for the *other* question. Documented; result still very strong macro effect.
 
-ExpVid Phase B (remaining 5 chunks) + SciVideoBench last 400 items still in flight — next push will refresh with full numbers.
+Whether the +30 pp lift is "real" (the noter genuinely highlighted the right visible evidence) or "leak" (answer-shaped emphasis snuck into the note) is exactly what §9a + §9b address. **Conclusion: mostly leak.**
 
 #### 9b. 🚨 Trained-noter transfer test: oracle effect is mostly leak, NOT learnable
 
@@ -383,7 +386,8 @@ Before the unified prompt was implemented, the `Note` method used a different St
 - **2026-05-16**: Added **Qwen2.5-VL-72B noter** Stage-1 generation (vLLM TP=4). 7,739 unique videos cached at [`results_h200_unified_q72/notes_cache/`](results_h200_unified_q72/notes_cache). Stage-2 (C2) eval finished 9/10 tasks on 4 GPUs in parallel ([`run_stage2_4gpu.sh`](run_stage2_4gpu.sh)); scientific_discovery still in flight (will refresh). 72B-notes show small but consistent improvement over 7B-notes on perception-heavy tasks (see Finding 6).
 - **2026-05-16**: ExpVid SD finished (n=390, acc 20.58 %); finalized Finding 6 + Finding 7 (rescue/break analysis) and pushed [analysis_72b/FINDINGS.md](analysis_72b/FINDINGS.md).
 - **2026-05-17**: SciVideoBench transfer experiment **DONE**. C0 reproduces paper baseline within +0.50 pp; C2 self-noting adds +0.80 pp (Conceptual +1.90). See [Finding 8](#8--scivideobench-transfer-experiment-self-noting-works-080-pp-on-a-3b-model) and [scivideobench_exp/README.md](scivideobench_exp/README.md).
-- **2026-05-17**: Oracle-note experiment launched (Finding 9). 72B oracle Stage-1 generation done for both benchmarks; Stage-2 eval in flight. Partial SciVideoBench result n=500: **+35 pp** over C0.
+- **2026-05-17**: Oracle-note experiment DONE (Finding 9, full n=1000 SciVideoBench): V+72B-oracle = 48.60 % (+30 pp over C0).
+- **2026-05-17**: Trained-noter transfer test DONE (Finding 9b): trained Qwen-7B LoRA noter on ExpVid oracles → deploy on SciVideoBench = 18.30 % ≈ C0 baseline. **The +30 pp oracle lift does NOT transfer** — i.e. it was mostly answer-conditioning leak, not learnable signal.
 
 ## 🚀 In-flight (2026-05-17)
 

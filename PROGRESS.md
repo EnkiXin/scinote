@@ -257,15 +257,13 @@ Before the unified prompt was implemented, the `Note` method used a different St
 - **2026-05-14 later**: Stopped Video+ASR (C4) collection (L1 + L2 fully done; L3 partial as of stop). L1 ASR-leakage finding is overwhelming and well-established; L2 V+ASR ≈ Video (especially video_verification = 17.4 vs 17.4 zero delta — ASR can't tell you what was NOT done). Extending C4 to full L3 doesn't add new finding. **L3 V+ASR may stay partial.**
 - Both C3 and C4 are now treated as "data sufficient, stop collecting". Going forward, focus is on completing **Note** and **Video+Note** across L2 (remaining: V+Note step_pred / video_verify) and L3 (remaining: Note both tasks, V+Note both tasks).
 - **2026-05-16**: Added **Qwen2.5-VL-72B noter** Stage-1 generation (vLLM TP=4). 7,739 unique videos cached at [`results_h200_unified_q72/notes_cache/`](results_h200_unified_q72/notes_cache). Stage-2 (C2) eval finished 9/10 tasks on 4 GPUs in parallel ([`run_stage2_4gpu.sh`](run_stage2_4gpu.sh)); scientific_discovery still in flight (will refresh). 72B-notes show small but consistent improvement over 7B-notes on perception-heavy tasks (see Finding 6).
+- **2026-05-16**: ExpVid SD finished (n=390, acc 20.58 %); finalized Finding 6 + Finding 7 (rescue/break analysis) and pushed [analysis_72b/FINDINGS.md](analysis_72b/FINDINGS.md).
+- **2026-05-16/17**: Rank-GRPO **D1** baseline reproduction R@10 = 0.1755 (paper 0.1756) ✅; **D2** KG-path injection + XGBoost reranker — all negative (R@10 drops −0.07), documented in [Plan ahead → Rank-GRPO Difficulty 2](#rank-grpo-difficulty-2--path-injection--reranker--done-2026-05-15-negative-result).
+- **2026-05-17**: SciVideoBench transfer experiment **DONE**. C0 reproduces paper baseline within +0.50 pp; C2 self-noting adds +0.80 pp (Conceptual +1.90). See [Finding 8](#8--scivideobench-transfer-experiment-self-noting-works-080-pp-on-a-3b-model) and [scivideobench_exp/README.md](scivideobench_exp/README.md).
 
-## 🚀 In-flight (2026-05-16)
+## 🚀 In-flight (2026-05-17)
 
-Phase 2 unified sweep on ExpVid is **DONE** (see Findings [3a](#3a--notes-help-more-as-we-move-up-the-l1--l3-hierarchy-user-hypothesis-confirmed), [6](#6--stage-1-noter-7b--72b-only-the-upgrade-itself-helps-absolute-v72bnote--video), [7](#7--item-level-when-72b-notes-rescue-vs-break-answers)). Phase 2.5 (72B noter) also done. Currently in flight:
-
-- **SciVideoBench transfer experiment** (Finding 8) on the same H200 box.
-  - GPU 0/3/4/6/7: C0 (Video only) 5-chunk parallel split, ~240 / 1000 items
-  - GPU 1: Stage-1 self-note pre-cache for 241 unique videos, ~17 cached
-  - C2 (Stage-2 with cached self-notes) launches when C0 finishes (~3 h)
+**Nothing running.** All experiments listed in this PROGRESS.md are complete and pushed to GitHub. The most recent commit is the SciVideoBench C2 final result.
 
 ---
 

@@ -179,22 +179,45 @@ The Stage-2 answer model is then the **same small model** as in our prior runs (
 
 **Code**: [`scivideobench_exp/generate_oracle_notes.py`](scivideobench_exp/generate_oracle_notes.py), [`scivideobench_exp/evaluate_oracle.py`](scivideobench_exp/evaluate_oracle.py), [`generate_oracle_notes_expvid.py`](generate_oracle_notes_expvid.py), [`evaluate_oracle_expvid.py`](evaluate_oracle_expvid.py).
 
-**Partial results (SciVideoBench, n=500/1000)**:
+**SciVideoBench results (n=600 / 1000 partial)**:
 
 | Condition | Overall | Conceptual | Hypothetical | Quantitative |
 |---|---:|---:|---:|---:|
 | C0 — Video only (Qwen-3B, full)             | 18.60 | 23.24 | 20.00 | 9.39 |
 | C2 — Self-note (Qwen-3B, full)              | 19.40 | 25.14 | 20.52 | 8.98 |
-| **C-oracle — V + 72B-oracle-note (Qwen-3B, partial 500)** | **53.60** ✨ | **54.86** | 50.00 | — pending |
-| Δ (oracle − C0) | **+35.00** | **+31.62** | **+30.00** | — |
+| **C-oracle — V + 72B-oracle (Qwen-3B, n=600 partial)** | **53.83** ✨ | **54.86** | **52.17** | pending |
+| **Δ (C-oracle − C0)** | **+35.23** | **+31.62** | **+32.17** | — |
+| **Δ (C-oracle − C2)** | **+34.43** | **+29.72** | **+31.65** | — |
 
-By discipline (partial): Chemistry 63.73 % / Medicine 61.67 % / Physics 65.22 % / Engineering 51.16 % / Biology 48.11 % / Biochemistry 43.59 % / Bioengineering 41.46 %.
+SciVideoBench by discipline (n=600 partial):
 
-**Reading**: with a 72B noter that knows what to highlight, the *same* 3B answer model jumps from 18.60 → 53.60 % — a **+35 pp** absolute lift (~2.9× of paper random baseline). The note schema (`key_evidence`, `context_observations`, `salient_objects_or_text`) is identical to the self-note schema; only the conditioning on the gold answer differs. This says the information needed for these reasoning questions IS visible in the video, but the unconditioned self-note misses what to focus on. If the oracle holds at full n=1000 and on ExpVid, those oracle notes become high-quality SFT labels for a future noter-training run.
+| Discipline | C-oracle | n |
+|---|---:|---:|
+| Physics      | 67.86 % | 28  |
+| Medicine     | 65.71 % | 70  |
+| Chemistry    | 62.96 % | 108 |
+| Engineering  | 50.56 % | 178 |
+| Biology      | 48.70 % | 115 |
+| Biochemistry | 47.83 % | 46  |
+| Bioengineering | 40.00 % | 55  |
 
-> Caveat: source data has 324 / 1000 rows sharing `(video_id, question_id)` with another row (different questions, same id pair); the cache key collides for those, so ~16 % of items may use a note generated for the *other* question. Documented; partial result still shows the macro effect.
+**ExpVid L2 results so far** (Qwen-7B answer, partial — Phase B chunks 2-6/7 fire after SciVideoBench eval finishes):
 
-ExpVid oracle eval is running concurrently — final 3-way comparison (C0 / C2 / C-oracle) on both benchmarks will refresh this section when complete.
+| Task | C0 (Video) | C2 (V+72B note) | **C-oracle (V+72B oracle)** | Δ (oracle−C0) |
+|---|---:|---:|---:|---:|
+| sequence_generation (F1)  | 43.32 | 39.14 | **76.00** *(n=215)* | **+32.7** ✅ |
+| sequence_ordering         | 52.64 | 55.62 | **65.71** *(n=140)* | **+13.1** ✅ |
+
+**Reading**: with a 72B noter that knows what to highlight, the *same* small answer model jumps massively:
+
+- **SciVideoBench**: 18.60 → 53.83 % (**+35 pp**). Reasoning-heavy MCQ benchmark; biggest single absolute jump we have measured anywhere.
+- **ExpVid L2 reasoning** (partial): sequence_generation **+32.7 pp**, sequence_ordering **+13.1 pp**. The note schema (`key_evidence`, `context_observations`, `salient_objects_or_text` for SciVideoBench; `observed_steps_with_evidence` etc. for ExpVid) is the SAME shape as the self-note schema — only the answer-conditioning differs.
+
+This says: the information needed for these reasoning questions IS visible in the video, but the unconditioned self-note misses what to focus on. If the oracle effect holds at full n on both benchmarks, those oracle notes become high-quality SFT labels for a future noter-training run.
+
+> Caveat: SciVideoBench source data has 324 / 1000 rows sharing `(video_id, question_id)` with another row (different questions, same id pair); the cache key collides for those, so ~16 % of items may load a note generated for the *other* question. Documented; result still very strong macro effect.
+
+ExpVid Phase B (remaining 5 chunks) + SciVideoBench last 400 items still in flight — next push will refresh with full numbers.
 
 ---
 

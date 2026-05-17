@@ -219,6 +219,42 @@ This says: the information needed for these reasoning questions IS visible in th
 
 ExpVid Phase B (remaining 5 chunks) + SciVideoBench last 400 items still in flight — next push will refresh with full numbers.
 
+#### 9b. 🚨 Trained-noter transfer test: oracle effect is mostly leak, NOT learnable
+
+The strictest leak standard: train a noter to imitate the oracle notes, **never giving it the answer**, then evaluate on a held-out benchmark. If the trained noter reproduces the oracle's +30 pp lift, the oracle notes encoded *learnable* "what evidence is relevant" patterns; if it cannot, the oracle notes carried answer-shaped emphasis that's unlearnable.
+
+**Setup**:
+- **Training data**: 3690 ExpVid L2+L3 oracle notes (72B-generated, answer-aware).
+- **Training input**: video self-note text (Stage-1 7B/72B note, no answer) + question + options.
+- **Training target**: corresponding 72B oracle note (the answer-aware one).
+- **Trained model**: Qwen2.5-7B-Instruct + LoRA on attention layers (~80 M trainable / 7.6 B = 1.05 %). 2 epochs, LR 5e-6, NaN-guard callback. Single-GPU H200, ~12 min.
+- **Inference on SciVideoBench**: trained noter reads (3B-self-note + question + options) — never sees the answer — and writes a "trained-noter note".
+- **Final scoring**: Qwen2.5-VL-3B answers `(video + trained-noter-note + question + options)`. Same answer model as C0/C2/C-oracle so the comparison is apples-to-apples.
+
+**Result (full n=1000 SciVideoBench)**:
+
+| Condition | n | Overall | Conceptual | Hypothetical | Quantitative |
+|---|---:|---:|---:|---:|---:|
+| C0 — Video only (Qwen-3B)               | 1000 | 18.60 | 23.24 | 20.00 |  9.39 |
+| C2 — Self-note (Qwen-3B)                | 1000 | 19.40 | 25.14 | 20.52 |  8.98 |
+| **C-trained-noter — V + LoRA-noter note (Qwen-3B)** | **1000** | **18.30** | 19.16 | 21.04 | 12.65 |
+| C-oracle — V + 72B-oracle note (Qwen-3B) | 1000 | **48.60** | 54.86 | 50.13 | 36.73 |
+
+**Δ trained-noter − C0**: **−0.30 pp** (essentially baseline — no improvement).  
+**Δ trained-noter − C2**: **−1.10 pp** (slightly worse than the unconditioned self-note).  
+**Δ trained-noter − C-oracle**: **−30.30 pp** (the oracle's lift completely fails to transfer).
+
+**Interpretation**: this is the cleanest test we can run, and it strongly says **the oracle's +30 pp gain is mostly leak**. The 72B noter, when given the gold answer, encodes answer-shaped emphasis into the note in ways that survive every static filter (no letter leak, low verbatim leak) but cannot be reproduced by a model trained only on the noter's output without ever seeing the answer. The trained noter learns the *structure* and *style* of oracle notes but not the *answer-aware focus pattern*, because that focus pattern requires answer access at inference and is therefore unlearnable.
+
+**Implication for the design**: oracle notes are **not** a usable SFT target for training noters as-is. To make them learnable we'd need either (a) a smarter "describe everything thoroughly" Step 1 that achieves the gain without answer conditioning (still pending experiment), (b) RL-style reward signal that conditions the noter on answer correctness, or (c) a different training objective (e.g., contrastive).
+
+**Caveats**:
+- Trained noter is text-only — reads pre-extracted 3B self-note rather than the SciVideoBench video directly. A direct-video LoRA noter is the natural follow-up (we attempted Qwen2.5-VL-7B multimodal SFT but hit a vision-tower shape bug in 5 attempts and ran out of time-budget for that arm).
+- Single-epoch / small LoRA budget — there's some room for more aggressive training to attempt to extract more signal, but the −30 pp gap to oracle is large enough that more tuning is unlikely to close it.
+- Training corpus is ExpVid (a different scientific-video benchmark) — domain shift to SciVideoBench could partially explain the lack of transfer, though both benchmarks are scientific-experiment videos.
+
+Result is documented and the experiment is complete; code in [`train_notetaker_textonly.py`](train_notetaker_textonly.py) and [`generate_notes_with_trained_textonly.py`](generate_notes_with_trained_textonly.py).
+
 #### 9a. 🚨 Leakage analysis: does the oracle note actually carry the answer?
 
 The +30 pp lift from C-oracle is large enough that it raises a real concern: do the

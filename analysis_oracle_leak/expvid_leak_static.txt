@@ -1,0 +1,8 @@
+sequence_generation       n= 750  letter=  0 (0.00%)  verbatim=  0 (0.00%)  high_para=  0 (0.00%)  mean_para=0.0%
+sequence_ordering         n= 739  letter= 17 (2.30%)  verbatim=  0 (0.00%)  high_para=  0 (0.00%)  mean_para=41.7%
+step_prediction           n= 748  letter=  0 (0.00%)  verbatim= 14 (1.87%)  high_para=  0 (0.00%)  mean_para=0.0%
+video_verification        n= 748  letter= 11 (1.47%)  verbatim=305 (40.78%)  high_para=  0 (0.00%)  mean_para=0.0%
+experimental_conclusion   n= 390  letter=  0 (0.00%)  verbatim=  0 (0.00%)  high_para=244 (62.56%)  mean_para=66.6%
+scientific_discovery      n= 390  letter=  0 (0.00%)  verbatim=  0 (0.00%)  high_para=250 (64.10%)  mean_para=63.7%
+
+OVERALL  n=3765  letter=0.74%  verbatim=8.47%  high_para=13.12%

@@ -179,27 +179,27 @@ The Stage-2 answer model is then the **same small model** as in our prior runs (
 
 **Code**: [`scivideobench_exp/generate_oracle_notes.py`](scivideobench_exp/generate_oracle_notes.py), [`scivideobench_exp/evaluate_oracle.py`](scivideobench_exp/evaluate_oracle.py), [`generate_oracle_notes_expvid.py`](generate_oracle_notes_expvid.py), [`evaluate_oracle_expvid.py`](evaluate_oracle_expvid.py).
 
-**SciVideoBench results (n=600 / 1000 partial)**:
+**SciVideoBench results — FINAL (n=1000)** ✅:
 
 | Condition | Overall | Conceptual | Hypothetical | Quantitative |
 |---|---:|---:|---:|---:|
-| C0 — Video only (Qwen-3B, full)             | 18.60 | 23.24 | 20.00 | 9.39 |
-| C2 — Self-note (Qwen-3B, full)              | 19.40 | 25.14 | 20.52 | 8.98 |
-| **C-oracle — V + 72B-oracle (Qwen-3B, n=600 partial)** | **53.83** ✨ | **54.86** | **52.17** | pending |
-| **Δ (C-oracle − C0)** | **+35.23** | **+31.62** | **+32.17** | — |
-| **Δ (C-oracle − C2)** | **+34.43** | **+29.72** | **+31.65** | — |
+| C0 — Video only (Qwen-3B)             | 18.60 | 23.24 | 20.00 | 9.39 |
+| C2 — Self-note (Qwen-3B)              | 19.40 | 25.14 | 20.52 | 8.98 |
+| **C-oracle — V + 72B-oracle (Qwen-3B)** | **48.60** ✨ | **54.86** | **50.13** | **36.73** |
+| **Δ (C-oracle − C0)** | **+30.00** ✅ | **+31.62** | **+30.13** | **+27.34** |
+| **Δ (C-oracle − C2)** | **+29.20** | **+29.72** | **+29.61** | **+27.75** |
 
-SciVideoBench by discipline (n=600 partial):
+SciVideoBench by discipline (full n=1000):
 
-| Discipline | C-oracle | n |
+| Discipline | n | C-oracle |
 |---|---:|---:|
-| Physics      | 67.86 % | 28  |
-| Medicine     | 65.71 % | 70  |
-| Chemistry    | 62.96 % | 108 |
-| Engineering  | 50.56 % | 178 |
-| Biology      | 48.70 % | 115 |
-| Biochemistry | 47.83 % | 46  |
-| Bioengineering | 40.00 % | 55  |
+| Physics      | 39  | 61.54 % |
+| Medicine     | 118 | 59.32 % |
+| Chemistry    | 193 | 54.92 % |
+| Biochemistry | 85  | 49.41 % |
+| Engineering  | 247 | 49.39 % |
+| Biology      | 231 | 38.96 % |
+| Bioengineering | 87 | 36.78 % |
 
 **ExpVid L2 results so far** (Qwen-7B answer, partial — Phase B chunks 2-6/7 fire after SciVideoBench eval finishes):
 

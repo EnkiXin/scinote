@@ -167,6 +167,37 @@ Three break patterns (notes hurt):
 
 **Implication**: the answer model **over-trusts the note** — when the note's stated content conflicts with the video, it tends to follow the note. This motivates either (a) a counterfactual SFT pass that teaches the model to verify notes against the video, or (b) a confidence-gate on note inclusion.
 
+### 9. 🚀 Oracle-note experiment: massive lift on SciVideoBench when notes have answer-guided focus (in flight)
+
+To test whether the note-augmentation idea has a **ceiling** much higher than what self-notes achieve, we run an **oracle-note** experiment: a stronger model (**Qwen2.5-VL-72B-Instruct**) writes the Stage-1 note while seeing the video, the question, and the **gold answer**, under strict constraints:
+
+- describe **only** what is visible in the video,
+- do NOT mention the answer letter (A/B/C/...),
+- do NOT copy any option text verbatim.
+
+The Stage-2 answer model is then the **same small model** as in our prior runs (Qwen-3B for SciVideoBench, Qwen-7B for ExpVid). Crucially, the answer model never sees the gold answer — it only sees video + question + options + the oracle note. If notes can really reach a high ceiling, this is what it looks like. If the answer is then trainable, we have a **label generator** for a future noter-training run.
+
+**Code**: [`scivideobench_exp/generate_oracle_notes.py`](scivideobench_exp/generate_oracle_notes.py), [`scivideobench_exp/evaluate_oracle.py`](scivideobench_exp/evaluate_oracle.py), [`generate_oracle_notes_expvid.py`](generate_oracle_notes_expvid.py), [`evaluate_oracle_expvid.py`](evaluate_oracle_expvid.py).
+
+**Partial results (SciVideoBench, n=500/1000)**:
+
+| Condition | Overall | Conceptual | Hypothetical | Quantitative |
+|---|---:|---:|---:|---:|
+| C0 — Video only (Qwen-3B, full)             | 18.60 | 23.24 | 20.00 | 9.39 |
+| C2 — Self-note (Qwen-3B, full)              | 19.40 | 25.14 | 20.52 | 8.98 |
+| **C-oracle — V + 72B-oracle-note (Qwen-3B, partial 500)** | **53.60** ✨ | **54.86** | 50.00 | — pending |
+| Δ (oracle − C0) | **+35.00** | **+31.62** | **+30.00** | — |
+
+By discipline (partial): Chemistry 63.73 % / Medicine 61.67 % / Physics 65.22 % / Engineering 51.16 % / Biology 48.11 % / Biochemistry 43.59 % / Bioengineering 41.46 %.
+
+**Reading**: with a 72B noter that knows what to highlight, the *same* 3B answer model jumps from 18.60 → 53.60 % — a **+35 pp** absolute lift (~2.9× of paper random baseline). The note schema (`key_evidence`, `context_observations`, `salient_objects_or_text`) is identical to the self-note schema; only the conditioning on the gold answer differs. This says the information needed for these reasoning questions IS visible in the video, but the unconditioned self-note misses what to focus on. If the oracle holds at full n=1000 and on ExpVid, those oracle notes become high-quality SFT labels for a future noter-training run.
+
+> Caveat: source data has 324 / 1000 rows sharing `(video_id, question_id)` with another row (different questions, same id pair); the cache key collides for those, so ~16 % of items may use a note generated for the *other* question. Documented; partial result still shows the macro effect.
+
+ExpVid oracle eval is running concurrently — final 3-way comparison (C0 / C2 / C-oracle) on both benchmarks will refresh this section when complete.
+
+---
+
 ### 8. ✅ SciVideoBench transfer experiment: self-noting works (+0.80 pp on a 3B model)
 
 Apply the same Stage-1-note + Stage-2-answer design to [SciVideoBench](https://arxiv.org/abs/2510.08559) (Deng et al. ICCV-W 2025, Best Paper Benchmark Track), as a **self-noting** setup: Qwen2.5-VL-**3B**-Instruct writes both the note (Stage 1) and the answer (Stage 2) — no bigger noter model. Paper baseline for the 3B model: **18.10 %** overall (1,000 MCQ with options A–J, 241 long-form JoVE videos averaging 482 s, paper says "random = 10 %"). Code, scripts, results and READMEs in [`scivideobench_exp/`](scivideobench_exp/).

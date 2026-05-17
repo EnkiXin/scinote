@@ -69,6 +69,8 @@ LEVEL_TASKS = {
     "all_level1": ["materials", "tools", "operation", "quantity"],
     "all_level2": ["sequence_generation", "sequence_ordering", "step_prediction", "video_verification"],
     "all_level3": ["experimental_conclusion", "scientific_discovery"],
+    "all_level2_3": ["sequence_generation", "sequence_ordering", "step_prediction", "video_verification",
+                       "experimental_conclusion", "scientific_discovery"],
     "all":        ["materials", "tools", "operation", "quantity",
                    "sequence_generation", "sequence_ordering", "step_prediction", "video_verification",
                    "experimental_conclusion", "scientific_discovery"],

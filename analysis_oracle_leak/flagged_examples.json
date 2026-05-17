@@ -1,0 +1,1067 @@
+[
+  {
+    "reason": "distinctive 1/1",
+    "item": {
+      "video_id": "56019",
+      "question_id": "4",
+      "question": "What is the purpose of the operation shown at 01:40 in the fabrication process?",
+      "options": {
+        "A": "Annealing the substrate for crystallization",
+        "B": "Scratching the surface to improve mechanical bonding",
+        "C": "Curing the photoresist layer",
+        "D": "Patterning the substrate via ultrasonic waves",
+        "E": "Aligning the substrate before spin-coating",
+        "F": "Depositing a thin metal layer on substrate",
+        "G": "Removing excess photoresist after exposure",
+        "H": "Cleaning substrate surface",
+        "I": "Heating the substrate to activate adhesion",
+        "J": "Drying the substrate to remove residual solvent"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 669.461333,
+      "answer": "H",
+      "discipline": "Engineering",
+      "subject": "Materials Science",
+      "category": "Physics"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A person is seen using a tool to clean a surface, likely a substrate, with a liquid. The liquid appears to be rinsing off the surface, suggesting a cleaning step. If this operation fails, the surface might retain impurities or residues.\",\n    \"The substrate is then placed into a machine, possibly for further processing. If the surface is not clean, it could affect subsequent steps.\"\n  ],\n  \"context_observations\": [\n    \"The video shows a sequence of steps involving the handling of a substrate, including cleaning and placement into a machine.\",\n    \"The environment appears to be a laboratory setting with various equipment and chemicals.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"A beaker labeled 'DI WATER' is visible, indicating the use of deionized water in the process.\",\n    \"A machine with a digital display showing '000' is present, possibly for monitoring or controlling the process.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "cleaning"
+    ],
+    "hits": [
+      "cleaning"
+    ]
+  },
+  {
+    "reason": "distinctive 3/5",
+    "item": {
+      "video_id": "62061",
+      "question_id": "4",
+      "question": "What is the purpose of adjusting the instrumental component at 2:58?",
+      "options": {
+        "A": "Activate sample injection valve",
+        "B": "Maintain constant elevated temperature for LC column",
+        "C": "Align optical components for detector",
+        "D": "Adjust flow rate of mobile phase",
+        "E": "Stabilize pH of mobile phase",
+        "F": "Set pressure limits for pump system",
+        "G": "Control gradient elution profile",
+        "H": "Regulate solvent reservoir level",
+        "I": "Balance electronic baseline noise",
+        "J": "Calibrate detector sensitivity"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 445.098667,
+      "answer": "B",
+      "discipline": "Biology",
+      "subject": "Biochemistry",
+      "category": "Biology"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A table is visible showing a column labeled 'Temperature' with a constant value of 40 degrees Celsius, suggesting the importance of maintaining a steady temperature for the column.\"\n  ],\n  \"context_observations\": [\n    \"The video shows a person adjusting a component on a machine, likely related to the column temperature control.\",\n    \"The machine has various dials and settings, indicating it is used for precise control of experimental conditions.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The text 'Column type: SeQuant ZIC-pHILIC 5um polymer 150 x 2.1 mm' is visible, providing details about the column used.\",\n    \"The text 'Temperature' is visible in the table, with a constant value of 40 degrees Celsius.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "column",
+      "constant",
+      "elevated",
+      "maintain",
+      "temperature"
+    ],
+    "hits": [
+      "column",
+      "constant",
+      "temperature"
+    ]
+  },
+  {
+    "reason": "distinctive 3/5",
+    "item": {
+      "video_id": "61216",
+      "question_id": "3",
+      "question": "What is the consequence of skipping the membrane inspection against a backlight at 04:35?",
+      "options": {
+        "A": "Missed identification of inadequate adhesive bonding",
+        "B": "High risk of non-functional, short-circuited actuator",
+        "C": "Possibility of delayed actuator response time",
+        "D": "Higher likelihood of dust contamination on electrodes",
+        "E": "Potential for reduced surface area affecting capacitance",
+        "F": "Incorrect assembly alignment leading to mechanical stress",
+        "G": "Greater chance of incomplete electrical connections",
+        "H": "Increased chance of mechanical fractures during operation",
+        "I": "Failure to detect uneven membrane thickness",
+        "J": "Risk of fluid leakage through unnoticed membrane defects"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 881.749333,
+      "answer": "B",
+      "discipline": "Engineering",
+      "subject": "Materials Science",
+      "category": "Physics"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A graph is shown comparing the response of a functional device to a faulty one, indicating a significant difference in performance.\",\n    \"The faulty device's response is depicted as a flat line, suggesting it does not function as expected.\"\n  ],\n  \"context_observations\": [\n    \"A hand is seen holding a small, circular component, possibly the membrane, against a light source for inspection.\",\n    \"The video includes a step labeled '4. CUTTING AND SANDING FINAL STEPS TO FIT IT READY', indicating preparation of the device.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The text 'response from a faulty (e.g. short-circuited) actuator' is visible on the graph.\",\n    \"A digital scale displays a reading of '21.2 mg', likely related to the component's weight.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "circuited",
+      "functional",
+      "high",
+      "non",
+      "short"
+    ],
+    "hits": [
+      "circuited",
+      "functional",
+      "short"
+    ]
+  },
+  {
+    "reason": "distinctive 2/3",
+    "item": {
+      "video_id": "67780",
+      "question_id": "1",
+      "question": "What is the primary purpose of the operation shown between 04:40 and 04:51?",
+      "options": {
+        "A": "Increase chamber pressure for fiber expansion",
+        "B": "Activate UV light for polymer curing",
+        "C": "Purge residual oxygen from the chamber",
+        "D": "Cool the chamber to condense HCl",
+        "E": "Introduce inert nitrogen gas",
+        "F": "Remove moisture from the chamber",
+        "G": "Vacuum dry the PVA nanofiber mat",
+        "H": "Circulate air to distribute heat evenly",
+        "I": "Create controlled HCl vapor atmosphere",
+        "J": "Flush chamber with water vapor"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 608.170667,
+      "answer": "I",
+      "discipline": "Bioengineering",
+      "subject": "Bioengineering",
+      "category": "Biology"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\"A container with a liquid is shown, and a vapor is visibly released into the chamber, suggesting the creation of a specific atmosphere.\"],\n  \"context_observations\": [\"The chamber is sealed, indicating a controlled environment is being maintained.\"],\n  \"salient_objects_or_text\": [\"The text 'Humidity: 40 - 50% (Beginning) 25 - 30% (End)' is visible, indicating changes in environmental conditions.\"]\n}\n```",
+    "distinctive_gold": [
+      "atmosphere",
+      "controlled",
+      "create"
+    ],
+    "hits": [
+      "atmosphere",
+      "controlled"
+    ]
+  },
+  {
+    "reason": "distinctive 3/4",
+    "item": {
+      "video_id": "59909",
+      "question_id": "3",
+      "question": "What is the likely consequence of omitting the process shown between 03:19 and 03:27?",
+      "options": {
+        "A": "Over-selenization causing film brittleness",
+        "B": "Reduced adhesion of CIGS film to substrate",
+        "C": "Excessive grain growth leading to mechanical instability",
+        "D": "Premature crystallization during deposition stage",
+        "E": "Incomplete reaction and poor electronic quality of CIGS film",
+        "F": "Incomplete selenium incorporation resulting in metallic impurities",
+        "G": "Excessive film thickness causing light absorption loss",
+        "H": "Retention of unreacted elemental selenium on the surface",
+        "I": "Loss of stoichiometry due to selenium evaporation at low temperature",
+        "J": "Formation of unwanted secondary phases due to cooling too quickly"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 541.248,
+      "answer": "E",
+      "discipline": "Engineering",
+      "subject": "Materials Science",
+      "category": "Physics"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"The video shows a person in a lab coat and gloves handling a beaker with a clear liquid, which is likely a precursor solution. This step appears to be crucial for preparing a material that is subsequently used in the deposition process. The omission of this step would likely result in an incomplete reaction, affecting the quality of the final film.\",\n    \"A close-up of a beaker with a clear liquid is shown, indicating the preparation of a solution. This solution is likely essential for the deposition process, and its absence would lead to an incomplete reaction, impacting the electronic properties of the film.\"\n  ],\n  \"context_observations\": [\n    \"The video includes a sequence where a person is seen working with various chemicals and equipment in a laboratory setting, suggesting a step-by-step process in material preparation and deposition.\",\n    \"There are scenes of a person using a laptop with a graph displayed, which might be related to monitoring the deposition process. The graph shows a curve that could represent the current density versus voltage, indicating the importance of the deposition process for the film's electronic properties.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"A beaker with a clear liquid is visible, which is likely a precursor solution for the deposition process.\",\n    \"A laptop screen displays a graph with a curve, possibly representing current density versus voltage, which is relevant to the deposition process.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "electronic",
+      "poor",
+      "quality",
+      "reaction"
+    ],
+    "hits": [
+      "electronic",
+      "quality",
+      "reaction"
+    ]
+  },
+  {
+    "reason": "distinctive 4/4",
+    "item": {
+      "video_id": "65238",
+      "question_id": "1",
+      "question": "What is the primary purpose of the manual annotation shown at 04:55-05:20?",
+      "options": {
+        "A": "Automated lesion detection",
+        "B": "Counting the number of vessel bifurcations",
+        "C": "Measurement of vessel diameter",
+        "D": "Precise spatial alignment of images",
+        "E": "Generation of 3D image reconstruction",
+        "F": "Calibration of image brightness",
+        "G": "Identification of lesion severity",
+        "H": "Marking the location for biopsy",
+        "I": "Correction of image color balance",
+        "J": "Enhancement of image contrast"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 103.744,
+      "answer": "D",
+      "discipline": "Medicine",
+      "subject": "Ophthalmology",
+      "category": "Medicine"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\"The video shows a person adjusting the alignment of an eye examination device, ensuring the subject's eye is properly positioned. This suggests that precise spatial alignment is crucial for accurate image acquisition.\"],\n  \"context_observations\": [\"The scene includes a monitor displaying an eye image, indicating the importance of correct positioning for capturing clear and accurate images.\"],\n  \"salient_objects_or_text\": [\"The eye examination device has a label 'Spectralis', and the monitor shows a grayscale image of an eye with various measurement parameters.\"]\n}\n```",
+    "distinctive_gold": [
+      "alignment",
+      "images",
+      "precise",
+      "spatial"
+    ],
+    "hits": [
+      "alignment",
+      "images",
+      "precise",
+      "spatial"
+    ]
+  },
+  {
+    "reason": "letter",
+    "item": {
+      "video_id": "65965",
+      "question_id": "3",
+      "question": "What principle of fluid dynamics explains the behavior shown at 02:35?",
+      "options": {
+        "A": "Laminar flow",
+        "B": "Capillary action",
+        "C": "Convective diffusion",
+        "D": "Turbulent mixing",
+        "E": "Inertial focusing",
+        "F": "Surface tension gradient",
+        "G": "Hydrostatic equilibrium",
+        "H": "Bernoulli's principle",
+        "I": "Pressure-driven vortex",
+        "J": "Viscous drag separation"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 237.674667,
+      "answer": "A",
+      "discipline": "Engineering",
+      "subject": "Microfluidics",
+      "category": "Physics"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\"The video shows a clear, smooth flow of liquid through a narrow channel, indicating a steady and orderly movement without visible turbulence or mixing. This type of flow is characteristic of a specific fluid behavior where layers of fluid move in parallel with minimal disruption.\"],\n  \"context_observations\": [\"The liquid is being observed in a controlled laboratory setting, with a focus on the movement through a microchannel. The environment suggests a study of fluid dynamics at a small scale.\"],\n  \"salient_objects_or_text\": [\"A beaker with a clear liquid, a microchannel device, and the text 'Microembossing: A Convenient Process for Fabricating Microchannels on Nanocellulose Paper-Based Microfluidics'\"]\n}\n```",
+    "hits": [
+      "A",
+      "A"
+    ]
+  },
+  {
+    "reason": "distinctive 2/2",
+    "item": {
+      "video_id": "65965",
+      "question_id": "2",
+      "question": "What is the critical function of the vacuum filtration step at 01:42?",
+      "options": {
+        "A": "Mixing nanofibrillated cellulose uniformly",
+        "B": "Drying the nanopaper completely",
+        "C": "Changing the chemical composition of the gel",
+        "D": "Removing impurities from the cellulose suspension",
+        "E": "Cooling the cellulose suspension rapidly",
+        "F": "Heating the substrate to activate embossing",
+        "G": "Forming a flat nanopaper gel substrate",
+        "H": "Creating air bubbles inside the gel",
+        "I": "Adding crosslinker to strengthen the gel",
+        "J": "Separating cellulose fibers by size"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 237.674667,
+      "answer": "G",
+      "discipline": "Engineering",
+      "subject": "Microfluidics",
+      "category": "Physics"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A person wearing blue gloves is seen using a vacuum filtration setup. The setup includes a funnel placed on top of a filter paper, which is held in a filtration apparatus. The liquid being filtered appears to be a suspension, and the filter paper is visibly wet as the liquid passes through it. The filtration process is crucial for forming a uniform and flat layer of material on the filter paper.\"\n  ],\n  \"context_observations\": [\n    \"The video shows a laboratory environment with various equipment and tools. The person handling the filtration process is wearing a white lab coat and blue gloves, indicating a controlled and sterile environment. The vacuum filtration setup is part of a larger process involving the preparation of a material, likely for further use in an experiment.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The vacuum filtration apparatus, the funnel, the filter paper, the liquid suspension, and the person's blue gloves and white lab coat.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "flat",
+      "forming"
+    ],
+    "hits": [
+      "flat",
+      "forming"
+    ]
+  },
+  {
+    "reason": "distinctive 2/3",
+    "item": {
+      "video_id": "51057",
+      "question_id": "5",
+      "question": "What is the purpose of the 15-25 second rest period after each trial, as described at 04:50?",
+      "options": {
+        "A": "Habituation to the environment",
+        "B": "Preventing overexertion of the bee",
+        "C": "Cooling of the equipment",
+        "D": "Minimizing stress responses",
+        "E": "Memory consolidation period",
+        "F": "Preparation for the next trial",
+        "G": "Muscle relaxation phase",
+        "H": "Physical recovery of the bee",
+        "I": "Observer note-taking time",
+        "J": "Cleaning of the experimental area"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 631.594667,
+      "answer": "E",
+      "discipline": "Biology",
+      "subject": "Neuroscience",
+      "category": "Biology"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"The video shows a bee being repeatedly exposed to a stimulus, followed by a rest period. The bee's behavior is recorded after each trial, suggesting a learning process is being observed. If the rest period is not observed, the bee's response in subsequent trials appears less consistent, indicating a potential issue with learning or memory.\"\n  ],\n  \"context_observations\": [\n    \"The bee is placed in a transparent chamber with a tube for delivering stimuli. The experimenter manipulates the setup between trials, possibly to ensure the bee is ready for the next exposure. The video includes a graph showing the bee's response over multiple trials, highlighting the importance of consistent intervals.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"A bar graph showing 'Percent Response' for different trials, with labels like 'OCT 1', 'OCT 2', 'MCH 1', and 'MCH 2'. The text 'V. Testing and Recording Responses' is visible, indicating the focus on the bee's reaction to stimuli.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "consolidation",
+      "memory",
+      "period"
+    ],
+    "hits": [
+      "memory",
+      "period"
+    ]
+  },
+  {
+    "reason": "distinctive 2/3",
+    "item": {
+      "video_id": "3638",
+      "question_id": "3",
+      "question": "Which type of movement should be excluded from the mobility score as shown at 4:32?",
+      "options": {
+        "A": "Free floating",
+        "B": "Body rolling",
+        "C": "Head shaking",
+        "D": "Submersion dives",
+        "E": "Rapid swimming bursts",
+        "F": "Vigorous kicking",
+        "G": "Small balancing movements",
+        "H": "Slow circling",
+        "I": "Tail flicks",
+        "J": "Limb twitching"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 379.818667,
+      "answer": "G",
+      "discipline": "Biology",
+      "subject": "Neuroscience",
+      "category": "Biology"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"The video shows a mouse in a container with water, and the text on the screen indicates that only movements necessary to balance the body and keep the head above the water are excluded from the mobility score.\",\n    \"The mouse is seen making small adjustments to maintain its position, which are labeled as immobile drifting.\"\n  ],\n  \"context_observations\": [\n    \"The video includes a scene where a person is observing the mouse's behavior on a computer screen, which displays a timer and a graph.\",\n    \"The setup includes multiple containers with mice, each labeled with a number.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The text 'Immobile Drifting' is visible on the screen.\",\n    \"The timer on the computer screen reads '00:00:01:05'.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "balancing",
+      "movements",
+      "small"
+    ],
+    "hits": [
+      "movements",
+      "small"
+    ]
+  },
+  {
+    "reason": "distinctive 3/4",
+    "item": {
+      "video_id": "65519",
+      "question_id": "1",
+      "question": "What is the main purpose of the procedure performed on the solvent blank dataset (1:51-2:48)?",
+      "options": {
+        "A": "Calculate baseline noise level",
+        "B": "Estimate sample fluorescence contribution",
+        "C": "Generate chirp correction file",
+        "D": "Calibrate laser intensity fluctuations",
+        "E": "Correct photodetector nonlinearities",
+        "F": "Fit solvent thermal relaxation dynamics",
+        "G": "Subtract solvent absorption background",
+        "H": "Measure solvent scattering effects",
+        "I": "Normalize time-zero amplitude",
+        "J": "Determine instrument response function"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 255.445333,
+      "answer": "C",
+      "discipline": "Chemistry",
+      "subject": "Physical Chemistry",
+      "category": "Chemistry"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A file named 'chirp_correction_file' is visible in the file directory, indicating the creation of a correction file.\",\n    \"The software interface shows a section labeled 'Chirp correction' with a graph and numerical data, suggesting the application of a correction process.\"\n  ],\n  \"context_observations\": [\n    \"The video displays a software interface with various tabs and options related to data analysis and correction.\",\n    \"There are multiple graphs and data points visible, indicating a complex data processing procedure.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The file directory shows a list of files including 'chirp_correction_file'.\",\n    \"The software interface includes a 'Chirp correction' section with a graph and numerical data.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "chirp",
+      "correction",
+      "file",
+      "generate"
+    ],
+    "hits": [
+      "chirp",
+      "correction",
+      "file"
+    ]
+  },
+  {
+    "reason": "distinctive 3/3",
+    "item": {
+      "video_id": "65519",
+      "question_id": "4",
+      "question": "What is a potential negative effect of averaging too many spectra during background correction (1:15-1:29)?",
+      "options": {
+        "A": "Loss of initial excited-state signal",
+        "B": "Incorrect time-zero alignment of spectra",
+        "C": "Introduction of systematic wavelength shifts",
+        "D": "Suppression of ground-state absorption features",
+        "E": "Increased noise from transient fluctuations",
+        "F": "Overestimation of signal amplitude at t > 0",
+        "G": "Amplification of instrumental artifacts",
+        "H": "Smearing of spectral features over time",
+        "I": "Distortion of baseline due to detector drift",
+        "J": "Inclusion of positive-time dynamics in background"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 255.445333,
+      "answer": "A",
+      "discipline": "Chemistry",
+      "subject": "Physical Chemistry",
+      "category": "Chemistry"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"The video shows a graph with a peak at time zero, which is crucial for observing the initial signal. If too many spectra are averaged, this peak might diminish or disappear, indicating a loss of the initial excited-state signal.\"\n  ],\n  \"context_observations\": [\n    \"The software interface displays various parameters like wavelength, time, and intensity, which are used to analyze the transient absorption spectra.\",\n    \"The video includes a timeline with data points at different time intervals, showing how the signal evolves over time.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The graph with a distinct peak at time zero.\",\n    \"The software interface with options like 'Fit', 'Save', and 'File'.\",\n    \"The text 'Representative Results' is visible on the screen.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "excited",
+      "initial",
+      "loss"
+    ],
+    "hits": [
+      "excited",
+      "initial",
+      "loss"
+    ]
+  },
+  {
+    "reason": "distinctive 2/2",
+    "item": {
+      "video_id": "56776",
+      "question_id": "4",
+      "question": "What biophysical principle is demonstrated by the operation shown at 3:32 during the whole-cell patch formation?",
+      "options": {
+        "A": "Current-clamp recording to measure action potentials",
+        "B": "Establishing a hyperpolarization block of sodium channels",
+        "C": "Setting resting membrane potential to zero",
+        "D": "Using membrane capacitance compensation",
+        "E": "Generating an action potential threshold",
+        "F": "Adjusting membrane resistance by seal formation",
+        "G": "Creating an ionic gradient by altering extracellular potassium",
+        "H": "Holding potential setting in voltage-clamp mode",
+        "I": "Applying a command voltage to inactivate calcium channels",
+        "J": "Establishing a driving force for chloride ions"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 635.242667,
+      "answer": "H",
+      "discipline": "Biology",
+      "subject": "Neuroscience",
+      "category": "Biology"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A computer screen displays a graphical interface with a section labeled 'Voltage Clamp' indicating a specific mode of operation.\",\n    \"The interface shows settings for 'Holding Potential' and 'Command Voltage', suggesting adjustments for electrical measurements.\",\n    \"A waveform graph is visible, likely representing voltage changes over time, consistent with voltage-clamp recordings.\"\n  ],\n  \"context_observations\": [\n    \"The video shows a researcher manipulating a pipette near a brain slice, indicating a patch-clamp setup.\",\n    \"The computer screen includes various controls and parameters related to electrophysiological measurements.\",\n    \"The setup involves a microscope and other laboratory equipment typical for cellular recordings.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"Voltage Clamp\",\n    \"Holding Potential\",\n    \"Command Voltage\",\n    \"Waveform graph\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "holding",
+      "mode"
+    ],
+    "hits": [
+      "holding",
+      "mode"
+    ]
+  },
+  {
+    "reason": "letter",
+    "item": {
+      "video_id": "61799",
+      "question_id": "2",
+      "question": "What key bioinformatic principle underlies the data processing workflow shown from 04:11 to 05:05?",
+      "options": {
+        "A": "Recursive feature extraction and alignment",
+        "B": "Use of a single reference run without reanalysis",
+        "C": "Simple averaging of peak intensities across runs",
+        "D": "Retention time correction without mass recalibration",
+        "E": "Pairwise comparison without master feature list",
+        "F": "Time-based binning without mass correction",
+        "G": "Independent peak picking for each run",
+        "H": "Normalization by total ion current only",
+        "I": "Manual integration of all chromatograms",
+        "J": "Elimination of low abundance features prior to alignment"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 549.418667,
+      "answer": "A",
+      "discipline": "Biochemistry",
+      "subject": "Biochemistry",
+      "category": "Biology"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\"The video shows a person handling a large beaker with a clear liquid, which is likely the sodium phosphate buffer. The beaker is filled to a level that suggests a substantial volume, consistent with the preparation of a buffer for multiple washes.\"],\n  \"context_observations\": [\"The scene includes a laboratory setting with various equipment and containers, indicating a procedure involving multiple steps and materials.\"],\n  \"salient_objects_or_text\": [\"A beaker with a clear liquid, a digital display showing a timer, and a text overlay mentioning 'Sodium Dodecyl Sulfate'\"]\n}\n```",
+    "hits": [
+      "A"
+    ]
+  },
+  {
+    "reason": "letter",
+    "item": {
+      "video_id": "61799",
+      "question_id": "5",
+      "question": "What enzymatic principle is illustrated by the operation shown at 02:53?",
+      "options": {
+        "A": "Substrate-specific hydrolysis",
+        "B": "Non-specific proteolytic cleavage",
+        "C": "pH-induced denaturation",
+        "D": "Phosphorylation-triggered degradation",
+        "E": "ATP-dependent enzymatic cleavage",
+        "F": "Crosslink disruption by lysozyme",
+        "G": "Allosteric enzyme activation",
+        "H": "Metal ion-catalyzed hydrolysis",
+        "I": "Endonucleolytic strand scission",
+        "J": "Random oxidative cleavage"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 549.418667,
+      "answer": "A",
+      "discipline": "Biochemistry",
+      "subject": "Biochemistry",
+      "category": "Biology"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\"A text overlay mentions a specific percentage of a substance used in a process, which is a numerical value that could be associated with a concentration.\"],\n  \"context_observations\": [\"The video shows a laboratory setting with various equipment and a person handling a flask, suggesting a scientific experiment involving chemical solutions.\"],\n  \"salient_objects_or_text\": [\"The text 'SDS: Sodium Dodecyl Sulfate' is visible, indicating the substance being used in the experiment.\"]\n}\n```",
+    "hits": [
+      "A"
+    ]
+  },
+  {
+    "reason": "distinctive 4/4",
+    "item": {
+      "video_id": "61799",
+      "question_id": "1",
+      "question": "What is the purpose of the chemical reaction initiated at 03:28?",
+      "options": {
+        "A": "Promote cross-linking of muropeptides",
+        "B": "Enhance enzyme activity in sample",
+        "C": "Remove impurities from the sample",
+        "D": "Neutralize pH of the solution",
+        "E": "Facilitate separation of amino acid residues",
+        "F": "Simplify muropeptide chromatography profile",
+        "G": "Trigger color change for visual identification",
+        "H": "Stabilize protein tertiary structure",
+        "I": "Increase fluorescence intensity for detection",
+        "J": "Induce fragmentation of muropeptides"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 549.418667,
+      "answer": "F",
+      "discipline": "Biochemistry",
+      "subject": "Biochemistry",
+      "category": "Biology"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"The video shows a chromatogram with multiple peaks, indicating a complex mixture of compounds. If the reaction fails, the profile would likely remain complex without simplification.\",\n    \"The chromatogram is displayed with various peaks, suggesting the presence of multiple components. A failed reaction would not simplify this profile.\"\n  ],\n  \"context_observations\": [\n    \"The video includes a scene of a person operating a machine, possibly related to the chromatography process.\",\n    \"A computer screen displays a chromatogram with peaks, which are analyzed for the presence of specific compounds.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The text 'Muropeptide Annotation: Spectral Features' is visible on the screen.\",\n    \"The chromatogram shows peaks labeled with different colors and numerical values.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "chromatography",
+      "muropeptide",
+      "profile",
+      "simplify"
+    ],
+    "hits": [
+      "chromatography",
+      "muropeptide",
+      "profile",
+      "simplify"
+    ]
+  },
+  {
+    "reason": "distinctive 2/3",
+    "item": {
+      "video_id": "67445",
+      "question_id": "1",
+      "question": "What fundamental biochemical principle is demonstrated by the graph developing between 4:58 and 5:10?",
+      "options": {
+        "A": "Fluorescence resonance energy transfer",
+        "B": "Sedimentation-based separation of macromolecules",
+        "C": "Thermal denaturation profile of RNA",
+        "D": "Electrophoretic mobility of charged particles",
+        "E": "Diffusion rate of macromolecules in solution",
+        "F": "Hydrodynamic radius measurement by dynamic light scattering",
+        "G": "Osmotic pressure changes in sucrose gradients",
+        "H": "Absorption spectrum shift due to protein folding",
+        "I": "Thermodynamic equilibrium of protein-ligand binding",
+        "J": "Enzyme kinetics of ribosomal activity"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 518.656,
+      "answer": "B",
+      "discipline": "Biology",
+      "subject": "Molecular Biology",
+      "category": "Biology"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"The graph shows peaks at different sucrose concentrations, indicating separation of components based on their movement through a gradient.\",\n    \"The peaks are labeled as 'Control', 'Heat stress', and 'Recovery', suggesting a process that separates substances under varying conditions.\"\n  ],\n  \"context_observations\": [\n    \"A person is seen handling a centrifuge, which is used for separating substances based on density.\",\n    \"The video includes text about 'Sucrose Gradient Preparation', which is a method for separating macromolecules.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The centrifuge is visible with a digital display showing settings.\",\n    \"The text 'Sucrose Gradient Preparation' is shown on screen.\",\n    \"The graph displays 'Absorbance' on the y-axis and 'Sucrose concentration (%)' on the x-axis.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "based",
+      "sedimentation",
+      "separation"
+    ],
+    "hits": [
+      "based",
+      "separation"
+    ]
+  },
+  {
+    "reason": "distinctive 1/1",
+    "item": {
+      "video_id": "67445",
+      "question_id": "5",
+      "question": "Why must the wash with pre-chilled DEPC-treated water be performed as shown at 6:18?",
+      "options": {
+        "A": "To activate DEPC in the solution",
+        "B": "To maintain RNA at room temperature",
+        "C": "To facilitate RNA pellet dissolution",
+        "D": "To speed up the washing process",
+        "E": "To ensure complete removal of salts",
+        "F": "To denature contaminating proteins",
+        "G": "To allow visual confirmation of pellet integrity",
+        "H": "To enhance RNA binding to the tube",
+        "I": "To prevent bacterial contamination",
+        "J": "To prevent RNA pellet loss"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 518.656,
+      "answer": "J",
+      "discipline": "Biology",
+      "subject": "Molecular Biology",
+      "category": "Biology"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\"The video shows a person carefully handling a tube containing a small, visible pellet. This suggests the importance of maintaining the pellet during the wash process. If the wash with pre-chilled DEPC-treated water fails, the pellet might not be retained, leading to its loss.\"],\n  \"context_observations\": [\"The person is seen using a pipette to transfer liquids, indicating a delicate process where the pellet's integrity is crucial. The environment is a laboratory setting with various equipment, emphasizing the precision required in the procedure.\"],\n  \"salient_objects_or_text\": [\"The text 'Sucrose Gradient Preparation' is visible, indicating the context of the experiment. The person is wearing gloves and a lab coat, highlighting the sterile conditions necessary for the procedure.\"]\n}\n```",
+    "distinctive_gold": [
+      "loss"
+    ],
+    "hits": [
+      "loss"
+    ]
+  },
+  {
+    "reason": "distinctive 4/4",
+    "item": {
+      "video_id": "62433",
+      "question_id": "3",
+      "question": "What does the phenomenon illustrated at 4:30 imply about the mechanical behavior and effective size of the tested material?",
+      "options": {
+        "A": "High-angle grain boundary fracture reducing ductility",
+        "B": "Multiple slip planes indicate grain interaction effects",
+        "C": "Dislocation pile-up at grain boundaries induces cracking",
+        "D": "Twinned deformation within a single large grain",
+        "E": "Polycrystalline brittle fracture across multiple grains",
+        "F": "Single crystal ductile failure with gauge volume smaller than grain size",
+        "G": "Amorphous phase yielding due to nanocrystalline structure",
+        "H": "Grain boundary sliding dominates failure mechanism",
+        "I": "Microvoid coalescence causing intergranular fracture",
+        "J": "Gauge volume larger than grain leading to mixed-mode failure"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 337.642667,
+      "answer": "F",
+      "discipline": "Physics",
+      "subject": "Mechanical Engineering",
+      "category": "Physics"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"The video shows a close-up of a single crystal structure under a microscope, indicating a uniform grain size.\",\n    \"The displacement curve displayed on the screen shows a smooth, continuous deformation, suggesting ductile behavior.\",\n    \"The gauge volume, as indicated by the scale on the displacement graph, appears smaller than the visible grain size.\"\n  ],\n  \"context_observations\": [\n    \"The video includes a segment where a sample is being analyzed under a scanning electron microscope, revealing a single crystal structure.\",\n    \"The displacement graph shows a gradual increase in force with displacement, typical of ductile materials.\",\n    \"The sample preparation process is shown, emphasizing the careful handling of a single crystal specimen.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The text 'Results: Analysis of the Prepared Steel Surface' is visible on the screen.\",\n    \"A displacement graph with labeled points and a scale is shown.\",\n    \"The microscope image displays a single crystal structure.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "crystal",
+      "ductile",
+      "size",
+      "smaller"
+    ],
+    "hits": [
+      "crystal",
+      "ductile",
+      "size",
+      "smaller"
+    ]
+  },
+  {
+    "reason": "distinctive 2/3",
+    "item": {
+      "video_id": "67548",
+      "question_id": "3",
+      "question": "What is the role of the reagent added at 2:02, and why is this step critical for the outcome observed at 2:02?",
+      "options": {
+        "A": "Neutralizes RNA polymerase activity",
+        "B": "Removes residual nucleotides from the mixture",
+        "C": "Enhances the transcription efficiency",
+        "D": "Inhibits the activity of ligase enzymes",
+        "E": "Binds to mRNA to prevent degradation",
+        "F": "Degrades plasmid DNA template",
+        "G": "Promotes proper folding of synthesized mRNA",
+        "H": "Degrades contaminating RNA molecules",
+        "I": "Precipitates proteins from the solution",
+        "J": "Buffers the reaction toward optimal pH"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 596.458667,
+      "answer": "F",
+      "discipline": "Medicine",
+      "subject": "Immunology",
+      "category": "Medicine"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A person is seen adding a liquid from a pipette into a small container, which likely contains a DNA template. This action suggests the preparation of a mixture for a molecular biology process.\",\n    \"The liquid is carefully dispensed, indicating the importance of precise application to ensure the correct reaction occurs.\"\n  ],\n  \"context_observations\": [\n    \"The video shows a laboratory setting with various equipment and tools, such as pipettes, containers, and a centrifuge, which are commonly used in molecular biology experiments.\",\n    \"The person handling the materials is wearing gloves, emphasizing the need for a sterile environment.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"A centrifuge with a visible label indicating it is used for processing samples.\",\n    \"A pipette with a visible measurement scale, used for precise liquid transfer.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "dna",
+      "plasmid",
+      "template"
+    ],
+    "hits": [
+      "dna",
+      "template"
+    ]
+  },
+  {
+    "reason": "letter",
+    "item": {
+      "video_id": "52712",
+      "question_id": "2",
+      "question": "What biochemical principle underlies the immobilization strategy shown at 06:17 that differs from the approach in Design 1?",
+      "options": {
+        "A": "Affinity binding of histidine tags to nickel",
+        "B": "Hydrogen bonding with surface silanol groups",
+        "C": "Physical adsorption due to surface roughness",
+        "D": "Electrostatic interaction between charged amino acids",
+        "E": "Chelation of cysteine residues to gold nanoparticles",
+        "F": "Covalent linking via lysine residues",
+        "G": "Hydrophobic interaction with a polymer coating",
+        "H": "Ionic bridging by calcium ions",
+        "I": "Disulfide bond formation with surface thiols",
+        "J": "Van der Waals forces with the substrate surface"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 704.981333,
+      "answer": "A",
+      "discipline": "Bioengineering",
+      "subject": "Bioengineering",
+      "category": "Biology"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A diagram shows a purple structure interacting with a green surface, suggesting a specific type of binding interaction.\",\n    \"The purple structure appears to have a distinct shape that aligns with a complementary feature on the green surface, indicating a targeted binding mechanism.\"\n  ],\n  \"context_observations\": [\n    \"The video includes a sequence of diagrams illustrating different binding strategies, each with unique structural interactions.\",\n    \"The scene transitions between various diagrams, highlighting different biochemical interactions.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The text 'Design 2' is visible, indicating a specific approach being discussed.\",\n    \"The purple and green colors are used to differentiate components in the diagrams.\"\n  ]\n}\n```",
+    "hits": [
+      "A"
+    ]
+  },
+  {
+    "reason": "distinctive 3/5",
+    "item": {
+      "video_id": "52712",
+      "question_id": "1",
+      "question": "What is the purpose of applying and baking a polymer layer between 02:35 and 03:00?",
+      "options": {
+        "A": "Act as a protective coating against environmental contamination",
+        "B": "Modify surface hydrophobicity for spin coating",
+        "C": "Prevent moisture absorption by the substrate",
+        "D": "Reduce thermal stress during baking",
+        "E": "Promote cross-linking of the polymer resist",
+        "F": "Enhance the substrate's optical transparency",
+        "G": "Increase surface roughness for better patterning",
+        "H": "Serve as a masking layer for selective etching",
+        "I": "Improve adhesion of the resist layer to the substrate",
+        "J": "Prevent charge build-up during electron beam lithography"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 704.981333,
+      "answer": "J",
+      "discipline": "Bioengineering",
+      "subject": "Bioengineering",
+      "category": "Biology"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A person is seen operating a machine with a digital display, likely for electron beam lithography. The machine appears to be in a controlled environment, suggesting a process requiring precision. The video shows a close-up of a sample being processed, indicating a step involving electron beam exposure.\"\n  ],\n  \"context_observations\": [\n    \"The video includes scenes of a laboratory setting with various equipment and chemicals, emphasizing a scientific procedure. There are shots of a person handling materials and tools, suggesting a step-by-step process in material preparation and processing.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The text 'EBL resist' is visible, indicating the use of a specific type of resist material. The video also shows a digital timer and other laboratory instruments, highlighting the technical nature of the process.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "beam",
+      "build",
+      "charge",
+      "electron",
+      "lithography"
+    ],
+    "hits": [
+      "beam",
+      "electron",
+      "lithography"
+    ]
+  },
+  {
+    "reason": "distinctive 1/1",
+    "item": {
+      "video_id": "52285",
+      "question_id": "3",
+      "question": "What is the purpose of the chemical treatment on the samples shown between 08:29 and 08:50?",
+      "options": {
+        "A": "Neutralize the polymer brushes",
+        "B": "Increase polymer brush thickness",
+        "C": "Remove unreacted monomers",
+        "D": "Cross-link the polymer chains",
+        "E": "Promote polymer chain folding",
+        "F": "Enhance surface hydrophilicity",
+        "G": "Remove polymerization catalyst",
+        "H": "Change polymer brush color",
+        "I": "Initiate polymerization",
+        "J": "Stabilize the polymer structure"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 837.504,
+      "answer": "G",
+      "discipline": "Engineering",
+      "subject": "Materials Science",
+      "category": "Physics"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A person is seen handling a bottle labeled 'Monolayer Solution', suggesting a step involving chemical treatment.\",\n    \"The video shows a person using a pipette to transfer a liquid into a container, indicating the addition of a substance, possibly a catalyst, to the samples.\"\n  ],\n  \"context_observations\": [\n    \"The video includes a scene where a person is working in a laboratory environment, handling various chemicals and equipment.\",\n    \"There is a brief shot of a person using a computer, possibly analyzing data related to the experiment.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"Monolayer Solution\",\n    \"PNIPAM (N-isopropylacrylamide)\",\n    \"0.1 M EDTA\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "catalyst"
+    ],
+    "hits": [
+      "catalyst"
+    ]
+  },
+  {
+    "reason": "distinctive 2/2",
+    "item": {
+      "video_id": "65386",
+      "question_id": "2",
+      "question": "Why is the retro-orbital route preferred over tail vein injection in this animal model, based on the information from 0:25 to 0:46?",
+      "options": {
+        "A": "Better absorption due to arterial access",
+        "B": "Ease of visualizing veins externally",
+        "C": "Faster distribution of injected substance",
+        "D": "Anatomical accessibility of veins",
+        "E": "Reduced stress to the animal",
+        "F": "Lower risk of infection",
+        "G": "Less tissue damage at injection site",
+        "H": "Reduced need for anesthesia",
+        "I": "Improved drug stability in circulation",
+        "J": "Higher accuracy in injection volume"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 278.997333,
+      "answer": "D",
+      "discipline": "Medicine",
+      "subject": "Pharmacology",
+      "category": "Medicine"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"The video shows a close-up of a syringe being inserted into a specific area near the eye, highlighting the ease of accessing the veins in this region.\",\n    \"The visual labels point to various anatomical structures, indicating the proximity and accessibility of the veins for injection.\"\n  ],\n  \"context_observations\": [\n    \"The setup includes a detailed view of the injection site, emphasizing the anatomical features that make the retro-orbital route feasible.\",\n    \"The video demonstrates the injection process, showing the precision required for this method.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The text 'Retro-orbital Injection' is visible, along with labels for 'Medial canthus', 'Retro-orbital sinus', 'Superficial temporal vein', and 'Facial vein'.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "accessibility",
+      "anatomical"
+    ],
+    "hits": [
+      "accessibility",
+      "anatomical"
+    ]
+  },
+  {
+    "reason": "letter",
+    "item": {
+      "video_id": "65887",
+      "question_id": "2",
+      "question": "What biological advantage does the cell line demonstrated at 1:50 offer for this experiment?",
+      "options": {
+        "A": "Provides biosafety via ecotropic retrovirus production",
+        "B": "Enhances viral infection efficiency in human cells",
+        "C": "Enables secretion of cytokines to stimulate immune response",
+        "D": "Facilitates direct transfection of human cell lines",
+        "E": "Produces a pantropic retrovirus for broad host range",
+        "F": "Allows replication-defective virus production for safety",
+        "G": "Generates a fluorescent marker protein for tracking",
+        "H": "Produces lentiviral particles to infect dividing and nondividing cells",
+        "I": "Increases viral titer by overexpressing reverse transcriptase",
+        "J": "Produces amphotropic virus to infect multiple species"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 382.186667,
+      "answer": "A",
+      "discipline": "Medicine",
+      "subject": "Immunology",
+      "category": "Medicine"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A person is seen handling a tube labeled 'VIRUS' in a controlled environment, suggesting the production of a specific type of virus.\",\n    \"The video shows a focus on murine cells, indicating the experiment involves mouse cells rather than human cells.\"\n  ],\n  \"context_observations\": [\n    \"The video includes scenes of laboratory equipment and procedures, such as pipetting and cell culture handling, which are typical in genetic engineering experiments.\",\n    \"The text 'Expression Plasmids' is visible, indicating the use of genetic material for virus production.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"A tube labeled 'VIRUS' is visible.\",\n    \"The text 'Expression Plasmids' is shown on the screen.\"\n  ]\n}\n```",
+    "hits": [
+      "A",
+      "A"
+    ]
+  },
+  {
+    "reason": "distinctive 3/4",
+    "item": {
+      "video_id": "67825",
+      "question_id": "4",
+      "question": "What physico-chemical principle explains the phenomenon illustrated at the timestamp showing inter-fiber bridging at high FeCl\u2083 concentrations?",
+      "options": {
+        "A": "Chemical cross-linking from FeCl\u2083 catalytic action",
+        "B": "Magnetic alignment of fibers due to Fe ions",
+        "C": "Polymer chain entanglement during vapor phase",
+        "D": "Hydrogen bonding enhanced by FeCl\u2083 hydration",
+        "E": "Heat-induced fiber melting and fusion",
+        "F": "Capillary condensation trapping water bridges",
+        "G": "Van der Waals forces increasing at high salt concentration",
+        "H": "Electrostatic attraction between charged fibers",
+        "I": "FeCl\u2083-induced fiber swelling creating physical links",
+        "J": "Salt crystallization and bridge formation during drying"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 508.245333,
+      "answer": "J",
+      "discipline": "Chemistry",
+      "subject": "Materials Chemistry",
+      "category": "Chemistry"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"The video shows a person handling a solution with a high concentration of FeCl\u2083, which is then used in a process involving fiber samples. The fibers appear to form bridges or connections, suggesting a physical interaction between the fibers and the salt solution.\",\n    \"The drying process is depicted, where the fibers are exposed to a drying environment, leading to the formation of visible bridges between the fibers, indicating a possible role of salt crystallization in this phenomenon.\"\n  ],\n  \"context_observations\": [\n    \"The video includes a scene with a person wearing gloves and a lab coat, manipulating a solution and fibers in a laboratory setting.\",\n    \"Graphs are shown with data points indicating weight gain over time, which may correlate with the concentration of FeCl\u2083 and the drying process.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"A pressure gauge and a cylinder labeled 'BAC VFD-01' are visible, indicating the use of a controlled environment for the experiment.\",\n    \"The text 'Deposition of Iron Chloride and Vapor Phase Deposition of Poly(3,4-Ethylenedioxythiophene) (PEDOT) on PAN Coupons' is displayed, providing context for the experiment.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "bridge",
+      "crystallization",
+      "drying",
+      "formation"
+    ],
+    "hits": [
+      "crystallization",
+      "drying",
+      "formation"
+    ]
+  },
+  {
+    "reason": "distinctive 3/4",
+    "item": {
+      "video_id": "56432",
+      "question_id": "1",
+      "question": "What is the main purpose of the process shown between 5:01 and 5:25?",
+      "options": {
+        "A": "Apply a dye to color the anodized layer",
+        "B": "Smooth out the aluminum surface irregularities",
+        "C": "Cool down the aluminum after anodization",
+        "D": "Introduce impurities to enhance pore formation",
+        "E": "Deposit a protective oxide layer on aluminum surface",
+        "F": "Hydrate the oxide layer to improve durability",
+        "G": "Seal the anodized pores with a chemical solution",
+        "H": "Increase the thickness of the initial oxide layer",
+        "I": "Polish the aluminum to a mirror finish",
+        "J": "Remove the initial less-ordered layer and texture aluminum"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 627.52,
+      "answer": "J",
+      "discipline": "Engineering",
+      "subject": "Materials Science",
+      "category": "Physics"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"The video shows a close-up of a polished aluminum surface with a smooth, reflective finish, indicating the completion of a polishing process.\",\n    \"A diagram illustrates the preparation of a substrate, highlighting the removal of a less-ordered layer to achieve a uniform texture.\"\n  ],\n  \"context_observations\": [\n    \"The polished aluminum is handled with care, suggesting its importance in the experiment.\",\n    \"The video includes a sequence of steps for preparing the aluminum substrate, emphasizing the need for a smooth surface.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The polished aluminum surface is visibly smooth and reflective.\",\n    \"A diagram shows the removal of a layer from the aluminum substrate.\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "less",
+      "ordered",
+      "remove",
+      "texture"
+    ],
+    "hits": [
+      "less",
+      "ordered",
+      "texture"
+    ]
+  },
+  {
+    "reason": "distinctive 4/5",
+    "item": {
+      "video_id": "58500",
+      "question_id": "1",
+      "question": "What is the purpose of the UV flood exposure at 8:05 in the graphene oxide patterning process?",
+      "options": {
+        "A": "To define pattern edges through secondary masking",
+        "B": "To increase adhesion between photoresist and substrate",
+        "C": "To activate the substrate surface for GO binding",
+        "D": "To harden photoresist for etching resistance",
+        "E": "To cure graphene oxide film prior to development",
+        "F": "To crosslink graphene oxide for pattern stability",
+        "G": "To align the patterning mask before final exposure",
+        "H": "To make photoresist soluble for removal in lift-off",
+        "I": "To create a protective oxide layer on graphene oxide",
+        "J": "To remove residual solvent from photoresist"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 892.394667,
+      "answer": "H",
+      "discipline": "Engineering",
+      "subject": "Materials Science",
+      "category": "Physics"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"The video shows a step in the process where a material is exposed to UV light. This exposure is followed by a lift-off process where certain areas are removed, suggesting that the UV exposure is crucial for making parts of the material soluble for removal.\"\n  ],\n  \"context_observations\": [\n    \"The video includes a sequence of steps for preparing graphene oxide membranes, with UV exposure being a key step before the lift-off process.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"UV exposure\",\n    \"lift-off process\",\n    \"graphene oxide patterning process\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "lift",
+      "make",
+      "off",
+      "removal",
+      "soluble"
+    ],
+    "hits": [
+      "lift",
+      "off",
+      "removal",
+      "soluble"
+    ]
+  },
+  {
+    "reason": "letter",
+    "item": {
+      "video_id": "58356",
+      "question_id": "5",
+      "question": "What is the main goal of the analysis method introduced at 2:28?",
+      "options": {
+        "A": "Verify removal of template and residue",
+        "B": "Determine crystal structure of the sample",
+        "C": "Analyze surface roughness of the etched sample",
+        "D": "Check for presence of carbon contamination",
+        "E": "Measure thickness of the deposited layer",
+        "F": "Detect presence of residual water molecules",
+        "G": "Evaluate uniformity of the AAO pore size",
+        "H": "Confirm oxidation state of aluminum",
+        "I": "Quantify concentration of sodium ions only",
+        "J": "Identify possible organic contaminants"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 374.4,
+      "answer": "A",
+      "discipline": "Chemistry",
+      "subject": "Materials Chemistry",
+      "category": "Chemistry"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A close-up of a sample is shown with a label indicating 'OTS = OctadecylTrichloroSilane', suggesting a surface treatment process.\",\n    \"The video displays a clean glovebox after use, indicating a step where materials are handled in a controlled environment.\",\n    \"A diagram illustrates the change in surface morphology before and after etching, showing a smoothed layer and micro-patterns.\"\n  ],\n  \"context_observations\": [\n    \"The video includes a scene with a person in a lab coat, indicating a scientific experiment setting.\",\n    \"There are various lab equipment and tools visible, such as a hotplate and a UV crosslinker, which are used in the process.\",\n    \"The video shows a graph with peaks labeled with elements like Na, Si, Pt, indicating elemental analysis.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"OTS = OctadecylTrichloroSilane\",\n    \"Clean glovebox after use\",\n    \"CA: 133.6\u00b0\",\n    \"Spectrum 2\"\n  ]\n}\n```",
+    "hits": [
+      "A",
+      "A"
+    ]
+  },
+  {
+    "reason": "distinctive 2/2",
+    "item": {
+      "video_id": "66969",
+      "question_id": "5",
+      "question": "What is the purpose of the 7-minute rest period shown at 04:28 to 04:35?",
+      "options": {
+        "A": "To let inhibitors present in the reaction degrade",
+        "B": "To cool the plate to room temperature",
+        "C": "To ensure complete mixing of reagents",
+        "D": "To allow the enzymatic reaction to stabilize",
+        "E": "To give time for the plate reader to calibrate",
+        "F": "To allow the cells to recover from handling stress",
+        "G": "To allow temperature equilibration in the reader",
+        "H": "To let the luminescence signal decay before measurement",
+        "I": "To let the substrate fully diffuse into the wells",
+        "J": "To wait for the reaction to consume all substrates"
+      },
+      "question_type": "Conceptual Reasoning",
+      "video_duration": 201.152,
+      "answer": "D",
+      "discipline": "Medicine",
+      "subject": "Oncology",
+      "category": "Medicine"
+    },
+    "note": "```json\n{\n  \"key_evidence\": [\n    \"A person is seen placing a plate into a plate reader, suggesting a step involving enzymatic activity measurement.\",\n    \"The video shows a timer or a waiting period, indicating a rest phase is necessary for a process to stabilize.\"\n  ],\n  \"context_observations\": [\n    \"The plate reader is used after the rest period, implying the rest is crucial for the subsequent measurement.\",\n    \"The person handles the plate carefully, suggesting the importance of proper conditions for the reaction.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"Plate reader with a digital display\",\n    \"Timer showing a 7-minute interval\",\n    \"Text indicating 'Detection of Luminescence'\"\n  ]\n}\n```",
+    "distinctive_gold": [
+      "enzymatic",
+      "stabilize"
+    ],
+    "hits": [
+      "enzymatic",
+      "stabilize"
+    ]
+  }
+]

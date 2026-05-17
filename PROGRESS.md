@@ -219,6 +219,40 @@ This says: the information needed for these reasoning questions IS visible in th
 
 ExpVid Phase B (remaining 5 chunks) + SciVideoBench last 400 items still in flight — next push will refresh with full numbers.
 
+#### 9a. 🚨 Leakage analysis: does the oracle note actually carry the answer?
+
+The +30 pp lift from C-oracle is large enough that it raises a real concern: do the
+oracle notes (which were generated with the gold answer in scope) **leak the
+answer**? If yes, they cannot be used directly as SFT labels — a trained noter
+will never see the answer at inference and won't be able to reproduce the leaky
+emphasis.
+
+Three layers of checks were run on the SciVideoBench oracle cache (n=1000):
+
+**Static lexical checks** ([`scivideobench/check_oracle_leak.py`](scivideobench_exp/check_oracle_leak.py)):
+
+| Check | Hits / 1000 | Comment |
+|---|---:|---|
+| Standalone gold letter (after excluding `A` because it collides with the article "a") | 2 (0.2 %) | both `C` inside `°C` units, not the answer |
+| Verbatim option-text substring of gold | 71 (7.1 %) | real but localised |
+| ≥50 % of gold's *distinctive words* appearing in note | 129 (12.9 %) | real paraphrase-level leak |
+| Mean coverage of gold's distinctive words | 19.97 % | gold's words appear *less* than the best competitor's average (22.21 %) — so the note isn't *systematically* tilted toward the gold |
+
+**Behavioural check — note-only accuracy** (no video, just `note + question + options` fed to Qwen-3B; first 200 Conceptual items as sample):
+
+| Note source | n | note-only acc |
+|---|---:|---:|
+| Qwen-3B *self-note* (no answer-conditioning)            | 200 | **23.00 %** |
+| Qwen-72B *oracle* note (answer-conditioned)             | 200 | **52.50 %** |
+
+C0 Conceptual baseline is **23.24 %** — so the 3B self-note alone is essentially worth nothing beyond random reading of the options. The 72B oracle alone gets to **52.50 %**.
+
+**But this comparison is confounded**: it conflates (a) the answer-conditioning leak with (b) the fact that 72B is a much stronger describer than 3B. To isolate the leak rigorously you need a *same-model* control — a 72B self-note (without answer-conditioning) note-only test. That's the next experiment.
+
+A stricter standard than note-only testing: **train a small noter to imitate the oracle notes, with the noter never seeing the answer, then evaluate at inference**. If the trained noter can replicate the oracle's lift, the oracle notes encoded *learnable* "what evidence is relevant" patterns; if it cannot, the oracle notes carried answer-shaped emphasis that's unlearnable. This is the cross-benchmark transfer experiment planned next — train on ExpVid L2+L3 oracle notes, evaluate on SciVideoBench.
+
+**Provisional take**: with current evidence (3B self-note ≈ C0 in no-video mode, 72B oracle = 52.5 % in no-video mode), it's plausible but **not yet proven** that the +30 pp oracle lift is mostly leak. The training experiment will settle this.
+
 ---
 
 ### 8. ✅ SciVideoBench transfer experiment: self-noting works (+0.80 pp on a 3B model)

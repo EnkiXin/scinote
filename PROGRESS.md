@@ -289,8 +289,8 @@ Before the unified prompt was implemented, the `Note` method used a different St
 - Both C3 and C4 are now treated as "data sufficient, stop collecting". Going forward, focus is on completing **Note** and **Video+Note** across L2 (remaining: V+Note step_pred / video_verify) and L3 (remaining: Note both tasks, V+Note both tasks).
 - **2026-05-16**: Added **Qwen2.5-VL-72B noter** Stage-1 generation (vLLM TP=4). 7,739 unique videos cached at [`results_h200_unified_q72/notes_cache/`](results_h200_unified_q72/notes_cache). Stage-2 (C2) eval finished 9/10 tasks on 4 GPUs in parallel ([`run_stage2_4gpu.sh`](run_stage2_4gpu.sh)); scientific_discovery still in flight (will refresh). 72B-notes show small but consistent improvement over 7B-notes on perception-heavy tasks (see Finding 6).
 - **2026-05-16**: ExpVid SD finished (n=390, acc 20.58 %); finalized Finding 6 + Finding 7 (rescue/break analysis) and pushed [analysis_72b/FINDINGS.md](analysis_72b/FINDINGS.md).
-- **2026-05-16/17**: Rank-GRPO **D1** baseline reproduction R@10 = 0.1755 (paper 0.1756) ✅; **D2** KG-path injection + XGBoost reranker — all negative (R@10 drops −0.07), documented in [Plan ahead → Rank-GRPO Difficulty 2](#rank-grpo-difficulty-2--path-injection--reranker--done-2026-05-15-negative-result).
 - **2026-05-17**: SciVideoBench transfer experiment **DONE**. C0 reproduces paper baseline within +0.50 pp; C2 self-noting adds +0.80 pp (Conceptual +1.90). See [Finding 8](#8--scivideobench-transfer-experiment-self-noting-works-080-pp-on-a-3b-model) and [scivideobench_exp/README.md](scivideobench_exp/README.md).
+- **2026-05-17**: Oracle-note experiment launched (Finding 9). 72B oracle Stage-1 generation done for both benchmarks; Stage-2 eval in flight. Partial SciVideoBench result n=500: **+35 pp** over C0.
 
 ## 🚀 In-flight (2026-05-17)
 
@@ -312,39 +312,6 @@ For each of `Note` and `Video+Note`, run **3 Stage 1 prompt variants** over all 
 
 Goal: answer "is task-aware Stage 1 prompting essential, or does a generic / short note do as well?" Requires adding `--note_variant` flag to [evaluate_unified.py](evaluate_unified.py) (low effort).
 
-### Rank-GRPO Difficulty 1 — baseline reproduction ✅ DONE (2026-05-15)
-
-Reproduced [Rank-GRPO](https://github.com/yaochenzhu/Rank-GRPO) (Zhu et al. ICLR 2026) Table 1 on the Llama-3.2-3B-Instruct + GRPO RL checkpoint:
-
-| Metric | Paper | Reproduced | Δ |
-|---|---:|---:|---:|
-| R@10 | 0.1756 | **0.1755** | −0.0001 |
-| R@5, R@15, R@20 | — | matched within ±0.0001 across all K | — |
-
-Critical bug fixed during reproduction: the catalog pickle's year field had to be `int` (not `str`) to match the metric function's tuple comparison — a `str` year gave **all-zero metrics** silently. Fixed catalog committed to [`Rank-GRPO/processed_datasets/gt_catalog.pkl`](https://github.com/yaochenzhu/Rank-GRPO).
-
-### Rank-GRPO Difficulty 2 — path injection / reranker ✅ DONE (2026-05-15, negative result)
-
-Applied a Movie-KG path-augmentation pipeline on top of Rank-GRPO's top-20 candidates (using the existing `MovieKG` class from [counterfactualrec](https://github.com/EnkiXin/counterfactualrec)). Three iterations, all negative:
-
-| Variant | R@10 vs baseline (0.1755) | Notes |
-|---|---:|---|
-| Naive path block (top-3 paths per rec, all 20 candidates) | **0.1074** | −0.068, 58% relative drop on the 6,970 items with non-empty `seen_titles` |
-| XGBoost LambdaRank reranked paths (top-2 per rec) | 0.1045 | Effectively identical to naive — the issue is the *presence* of the path block, not the path *quality* |
-| XGBoost trained: 797K paths from 9.4K train items, NDCG@10=0.615 (best iter=0; signal saturates immediately) | — | Even an optimised ranker can't fix the prompt-distraction problem |
-
-**Failure-mode diagnosis** (stratified by whether `seen_titles` is non-empty):
-- Items WITHOUT `seen_titles` (n=4002, no path block injected): R@10 base 0.1623 → +KG 0.1620, Δ = **−0.0003** (essentially identical — pipeline is deterministic at temperature=0).
-- Items WITH `seen_titles` (n=6970, path block injected): R@10 base 0.1830 → +KG 0.0761, Δ = **−0.107** (massive 58 % relative drop).
-
-So the path block actively hurts when it's present. Reading the worst cases:
-- User watched 3 anime films → GT is Aronofsky's *Requiem for a Dream* / *Black Swan*. Baseline correctly recommended Aronofsky's filmography (other psychological thrillers). +KG output went 100 % anime because the paths emphasised genre / actor overlap with the seen anime, dragging the model away from the conversational signal (the user was *asking for thought-provoking thrillers like Nolan*).
-- Mirror best case: user watched *The Raid 1/2* → GT *The Swordsman*. Baseline missed it; +KG output caught it via the martial-arts entity bridge.
-
-**Implication**: paths *do* carry signal — they help in some cases and hurt in others. But just dumping them into the prompt doesn't work for a post-GRPO model that was trained to recommend from conversation alone. The path-augmentation needs to be either (a) folded back into training (KG-aware GRPO fine-tune) or (b) used as a score-fusion reranker on the 20 candidates (without LLM rerun) — score-fusion sweep is pending (R@20 can only improve if we generate >20 candidates upstream, which we do not).
-
-Code: [`Rank-GRPO/evaluate/eval_grpo_test_kgpath.py`](https://github.com/yaochenzhu/Rank-GRPO), `Rank-GRPO/path_reranker/{build_training_data,train_xgb}.py`.
-
 ### Phase 1 — Multi-model extension (deferred)
 
 Spec at [docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md](docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md). After Phase 2+3 paper story is clear, decide whether to also test other open-source models (InternVL3-8B / Intern-S1-mini / MiMo-VL / Keye-VL / GLM-4.1V / Kimi-VL-A3B-Thinking).
@@ -353,6 +320,5 @@ Spec at [docs/superpowers/specs/2026-05-13-qwen7b-h200-sanity-design.md](docs/su
 
 ## 🔗 Related repos
 
-- [counterfactualrec](https://github.com/EnkiXin/counterfactualrec) — CRAG-style counterfactual SFT for path selection. Phase A/B/C complete; R@10 +0.0005 (below +0.005 gate, Phase D not started). 8-step methodology skeleton transfers to ExpVid note-SFT (planned).
-- [Rank-GRPO](https://github.com/yaochenzhu/Rank-GRPO) (Zhu et al. ICLR 2026) — relevant upstream paper; data + checkpoints downloaded.
 - [ExpVid](https://github.com/OpenGVLab/ExpVid) (Xu et al. ICLR 2026, [arXiv:2510.11606](https://arxiv.org/abs/2510.11606)) — original benchmark. See [README_ExpVid_Paper.md](README_ExpVid_Paper.md).
+- [SciVideoBench](https://scivideobench.github.io/) (Deng et al. ICCV-W 2025 KnowledgeMR, [arXiv:2510.08559](https://arxiv.org/abs/2510.08559)) — second benchmark used in Finding 8 + 9.

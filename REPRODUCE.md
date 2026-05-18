@@ -83,22 +83,26 @@ nvidia-smi  # 查看显存
 
 ---
 
-## 7. 结果汇总（Qwen2.5-VL-7B，2026-05-11）
+## 7. C0 video-only 结果（Qwen2.5-VL-7B，H200，统一 32 帧，2026-05-16）
 
-| Task | Accuracy | 论文 QwenVL2.5-78B |
-|------|----------|-------------------|
-| materials | 34.28% | — |
-| tools | 35.66% | — |
-| operation | 64.43% | — |
-| quantity | 48.78% | — |
-| **L1 平均** | **~45.8%** | **43.9%** |
-| sequence_generation | 🔄 进行中 | — |
-| sequence_ordering | ⏳ | — |
-| step_prediction | ⏳ | — |
-| video_verification | ⏳ | — |
-| **L2 平均** | **⏳** | **35.9%** |
-| experimental_conclusion | ⏳ | — |
-| scientific_discovery | ⏳ | — |
-| **L3 平均** | **⏳** | **30.6%** |
+最终全量数据来自 [PROGRESS.md](PROGRESS.md) 的 ExpVid headline 表。Paper 列是 ExpVid 论文中 **QwenVL2.5-7B**（不是 78B）的对应数字，做复现对照用。
 
-持续更新见 [PROGRESS.md](PROGRESS.md)。
+| Task | n | Ours (Video) | Paper 7B |
+|------|---:|---:|---:|
+| L1 materials                | 1266 | 34.04 | 33.9 |
+| L1 tools                    | 1130 | 36.28 | 32.0 |
+| L1 operation                | 938  | 64.61 | 62.4 |
+| L1 quantity                 | 701  | 47.22 | 49.0 |
+| **L1 avg**                  | 4035 | **45.54** | **42.6** (+2.9) |
+| L2 sequence_generation (F1) | 750  | 43.32 | 20.8 (Jaccard) |
+| L2 sequence_ordering        | 739  | 52.64 | 56.2 |
+| L2 step_prediction          | 748  |  2.14 |  1.3 |
+| L2 video_verification       | 748  | 17.38 | 20.7 |
+| **L2 avg**                  | 2985 | **28.87** | **24.6** (+4.3) |
+| L3 experimental_conclusion  | 390  | 21.28 | 25.2 |
+| L3 scientific_discovery     | 390  | 20.00 | 21.4 |
+| **L3 avg**                  | 780  | **20.64** | **23.3** (−2.7) |
+
+**复现结论**：与论文 Qwen2.5-VL-7B 数字在 +3 pp 以内（L1/L2 略高、L3 略低）。L2 sequence_generation 指标不同（我们用 F1，论文用 Jaccard），数值不可直接比。
+
+Notes & oracle 条件的全部数据见 [PROGRESS.md](PROGRESS.md)。

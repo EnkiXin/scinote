@@ -1,0 +1,202 @@
+{
+  "scivideobench": {
+    "C0": {
+      "n": 218,
+      "acc": 20.64,
+      "by_subgroup": {
+        "Conceptual Reasoning": {
+          "acc": 22.83,
+          "n": 92
+        },
+        "Hypothetical Reasoning": {
+          "acc": 23.26,
+          "n": 86
+        },
+        "Quantitative Reasoning": {
+          "acc": 10.0,
+          "n": 40
+        }
+      }
+    },
+    "C-3B-self-note": {
+      "n": 218,
+      "acc": 24.77,
+      "by_subgroup": {
+        "Conceptual Reasoning": {
+          "acc": 27.17,
+          "n": 92
+        },
+        "Hypothetical Reasoning": {
+          "acc": 29.07,
+          "n": 86
+        },
+        "Quantitative Reasoning": {
+          "acc": 10.0,
+          "n": 40
+        }
+      }
+    },
+    "C-72B-oracle": {
+      "n": 218,
+      "acc": 52.29,
+      "by_subgroup": {
+        "Conceptual Reasoning": {
+          "acc": 56.52,
+          "n": 92
+        },
+        "Hypothetical Reasoning": {
+          "acc": 55.81,
+          "n": 86
+        },
+        "Quantitative Reasoning": {
+          "acc": 35.0,
+          "n": 40
+        }
+      }
+    },
+    "C-trained-vl-noter-v1": {
+      "n": 218,
+      "acc": 21.56,
+      "by_subgroup": {
+        "Conceptual Reasoning": {
+          "acc": 23.91,
+          "n": 92
+        },
+        "Hypothetical Reasoning": {
+          "acc": 24.42,
+          "n": 86
+        },
+        "Quantitative Reasoning": {
+          "acc": 10.0,
+          "n": 40
+        }
+      }
+    }
+  },
+  "expvid": {
+    "C0": {
+      "n": 745,
+      "acc": 25.94,
+      "by_subgroup": {
+        "sequence_generation": {
+          "acc": 44.85,
+          "n": 161
+        },
+        "sequence_ordering": {
+          "acc": 48.0,
+          "n": 150
+        },
+        "step_prediction": {
+          "acc": 3.45,
+          "n": 145
+        },
+        "video_verification": {
+          "acc": 11.84,
+          "n": 152
+        },
+        "experimental_conclusion": {
+          "acc": 20.0,
+          "n": 76
+        },
+        "scientific_discovery": {
+          "acc": 17.81,
+          "n": 61
+        }
+      }
+    },
+    "C-7B-self-note": {
+      "n": 745,
+      "acc": 26.14,
+      "by_subgroup": {
+        "sequence_generation": {
+          "acc": 40.34,
+          "n": 161
+        },
+        "sequence_ordering": {
+          "acc": 56.67,
+          "n": 150
+        },
+        "step_prediction": {
+          "acc": 0.69,
+          "n": 145
+        },
+        "video_verification": {
+          "acc": 11.84,
+          "n": 152
+        },
+        "experimental_conclusion": {
+          "acc": 18.5,
+          "n": 76
+        },
+        "scientific_discovery": {
+          "acc": 19.18,
+          "n": 61
+        }
+      }
+    },
+    "C-72B-self-note": {
+      "n": 745,
+      "acc": 27.65,
+      "by_subgroup": {
+        "sequence_generation": {
+          "acc": 39.63,
+          "n": 161
+        },
+        "sequence_ordering": {
+          "acc": 56.67,
+          "n": 150
+        },
+        "step_prediction": {
+          "acc": 3.45,
+          "n": 145
+        },
+        "video_verification": {
+          "acc": 16.45,
+          "n": 152
+        },
+        "experimental_conclusion": {
+          "acc": 20.39,
+          "n": 76
+        },
+        "scientific_discovery": {
+          "acc": 19.18,
+          "n": 61
+        }
+      }
+    },
+    "C-72B-oracle": {
+      "n": 745,
+      "acc": 49.31,
+      "by_subgroup": {
+        "sequence_generation": {
+          "acc": 75.63,
+          "n": 161
+        },
+        "sequence_ordering": {
+          "acc": 61.33,
+          "n": 150
+        },
+        "step_prediction": {
+          "acc": 7.59,
+          "n": 145
+        },
+        "video_verification": {
+          "acc": 51.97,
+          "n": 152
+        },
+        "experimental_conclusion": {
+          "acc": 42.22,
+          "n": 76
+        },
+        "scientific_discovery": {
+          "acc": 51.59,
+          "n": 61
+        }
+      }
+    }
+  },
+  "v2_noter_notes": {
+    "have": 0,
+    "missing": 963
+  }
+}

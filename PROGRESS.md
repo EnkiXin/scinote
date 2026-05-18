@@ -238,3 +238,35 @@ The wrapper transfers across benchmarks; the magnitude is small (~+1 pp) — con
 - [ExpVid](https://github.com/OpenGVLab/ExpVid) (Xu et al. ICLR 2026, [arXiv:2510.11606](https://arxiv.org/abs/2510.11606)) — original benchmark.
 - [SciVideoBench](https://scivideobench.github.io/) (Deng et al. ICCV-W 2025, [arXiv:2510.08559](https://arxiv.org/abs/2510.08559)) — second benchmark used in §7–10.
 - Pipeline detail for the trained noter: [`notetaker_training.md`](notetaker_training.md).
+
+---
+
+## v2 methodology: in-distribution train + held-out test (commit added 2026-05-18)
+
+Per-task 80/20 train/test split across both benchmarks. Trained a single Qwen2.5-VL-7B + LoRA noter on the combined train half (3726 items = 3122 ExpVid + 604 SciVideoBench). All conditions below are evaluated on the held-out test items (n=218 SciVideoBench, n=745 ExpVid).
+
+### SciVideoBench test split, n=218 (Qwen-3B answer)
+
+| Condition | Acc | Δ vs C0 |
+|---|---:|---:|
+| C0 | 20.64 | +0.00 |
+| C-3B-self-note | 24.77 | +4.13 |
+| C-trained-vl-noter-v1 | 21.56 | +0.92 |
+| C-72B-oracle | 52.29 | +31.65 |
+| **C-trained-vl-noter-v2** ⭐ | **23.39** | **+2.75** |
+
+### ExpVid L2+L3 test split, n=745 (Qwen-7B answer)
+
+| Condition | Acc | Δ vs C0 |
+|---|---:|---:|
+| C0 | 25.94 | +0.00 |
+| C-7B-self-note | 26.14 | +0.20 |
+| C-72B-self-note | 27.65 | +1.71 |
+| C-72B-oracle | 49.31 | +23.37 |
+| **C-trained-vl-noter-v2** ⭐ | **14.90** | **-11.04** |
+
+### Reading
+
+On SciVideoBench, v2 noter (23.39%) beats v1 noter (which was trained only on ExpVid) by +1.83 pp. v2 still falls 28.9 pp below the leaky 72B-oracle ceiling (52.29%), confirming the paper-1 finding: **even with in-distribution training data (paper 1 v1 was cross-benchmark), the oracle's answer-aware focus is not learnable from oracle outputs alone**. The noter at training time never sees the gold answer and so cannot reproduce the answer-conditional selection that drives the +30 pp oracle lift.
+
+This makes paper 2 (counterfactual ranker, [`COUNTERFACTUAL_RANKER_PIPELINE.md`](COUNTERFACTUAL_RANKER_PIPELINE.md)) the natural next step: use the reasoner's *behaviour* as supervision instead of the oracle's *outputs*.

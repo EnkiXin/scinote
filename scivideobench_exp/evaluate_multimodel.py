@@ -138,7 +138,7 @@ def main():
     ap.add_argument("--resume", action="store_true")
     ap.add_argument("--chunk_id", type=int, default=0)
     ap.add_argument("--num_chunks", type=int, default=1)
-    ap.add_argument("--gpu_memory_utilization", type=float, default=0.85)
+    ap.add_argument("--gpu_memory_utilization", type=float, default=0.55)
     ap.add_argument("--tensor_parallel_size", type=int, default=None,
                      help="Override TP; defaults to MODEL_REGISTRY entry.")
     args = ap.parse_args()

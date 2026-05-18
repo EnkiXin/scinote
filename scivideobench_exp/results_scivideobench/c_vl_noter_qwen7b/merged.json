@@ -1,0 +1,49 @@
+{
+  "tag": "c_vl_noter_qwen7b",
+  "accuracy": 21.3,
+  "n_valid": 1000,
+  "by_question_type": {
+    "Conceptual Reasoning": {
+      "acc": 25.41,
+      "n": 370
+    },
+    "Hypothetical Reasoning": {
+      "acc": 23.38,
+      "n": 385
+    },
+    "Quantitative Reasoning": {
+      "acc": 11.84,
+      "n": 245
+    }
+  },
+  "by_discipline": {
+    "Chemistry": {
+      "acc": 21.24,
+      "n": 193
+    },
+    "Medicine": {
+      "acc": 19.49,
+      "n": 118
+    },
+    "Biology": {
+      "acc": 21.21,
+      "n": 231
+    },
+    "Biochemistry": {
+      "acc": 17.65,
+      "n": 85
+    },
+    "Bioengineering": {
+      "acc": 19.54,
+      "n": 87
+    },
+    "Engineering": {
+      "acc": 23.89,
+      "n": 247
+    },
+    "Physics": {
+      "acc": 23.08,
+      "n": 39
+    }
+  }
+}

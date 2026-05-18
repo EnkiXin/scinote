@@ -233,13 +233,8 @@ def main():
     ap.add_argument("--reasoner_device", default="cuda:1")
     args = ap.parse_args()
 
-    from ranker_pipeline.common.data_loader import (
-        load_scivideobench_samples, load_expvid_samples, L2_L3_TASKS,
-    )
-    if args.benchmark == "scivideobench":
-        samples = load_scivideobench_samples(limit=args.limit)
-    else:
-        samples = load_expvid_samples(L2_L3_TASKS, limit=args.limit)
+    from ranker_pipeline.common.data_loader import load_eval_samples_split
+    samples = load_eval_samples_split(args.benchmark, split="test", limit=args.limit)
 
     pipe = RankerPipeline(
         ranker_checkpoint=args.ranker_checkpoint,

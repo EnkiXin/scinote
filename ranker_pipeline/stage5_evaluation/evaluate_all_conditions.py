@@ -30,8 +30,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "ranker_pipeline"))
 
 from ranker_pipeline.common.data_loader import (  # noqa: E402
-    load_scivideobench_samples,
-    load_expvid_samples,
+    load_eval_samples_split,
     resolve_video_path,
     L2_L3_TASKS,
     Sample,
@@ -172,6 +171,9 @@ def main():
                      default=["C0", "C-temporal-all", "C-uniform-K2", "C-random-K2",
                               "C-ranker", "C-oracle-ranker"])
     ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--split", default="test", choices=["train", "test", "all"],
+                     help="Which half of the deterministic 80/20 split to evaluate on. "
+                          "Default 'test' (the held-out items not used for Stage 2 labelling).")
     ap.add_argument("--ranker_device", default="cuda:0")
     ap.add_argument("--reasoner_device", default="cuda:1")
     args = ap.parse_args()
@@ -189,18 +191,8 @@ def main():
     final_summary: dict[str, dict] = {}
 
     for bench in args.benchmarks:
-        if bench == "scivideobench":
-            samples = load_scivideobench_samples(limit=args.limit)
-        elif bench == "expvid_l3":
-            samples = load_expvid_samples(["experimental_conclusion", "scientific_discovery"],
-                                            limit=args.limit)
-        elif bench == "expvid_l2":
-            samples = load_expvid_samples([t for t in L2_L3_TASKS
-                                            if t not in ("experimental_conclusion", "scientific_discovery")],
-                                            limit=args.limit)
-        else:
-            raise ValueError(f"unknown benchmark: {bench}")
-        print(f"\n=== {bench}: {len(samples)} samples ===", flush=True)
+        samples = load_eval_samples_split(bench, split=args.split, limit=args.limit)
+        print(f"\n=== {bench} ({args.split} split): {len(samples)} samples ===", flush=True)
         bench_dir = RESULTS_DIR / bench
         bench_dir.mkdir(parents=True, exist_ok=True)
 

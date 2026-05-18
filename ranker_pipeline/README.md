@@ -8,6 +8,26 @@ Scaffold for the segment-level counterfactual ranker described in
 Code-complete scaffold. **Nothing has been run on GPU yet** — pilot in 10-sample
 mode first, then scale.
 
+## Train/test split (per-task 80/20, deterministic)
+
+Paper 2 does **within-benchmark** training and evaluation — we do not claim
+cross-benchmark transfer. For every sample we compute a deterministic bucket:
+
+```
+bucket = first-8-hex of md5("ranker_pipeline_v1|<task>|<sample_id>") -> [0, 1)
+split  = "train" if bucket < 0.80 else "test"
+```
+
+The seed and task name are part of the hash so the split is:
+- stable across machines and reruns,
+- 80/20 within every task (each task contributes both train and test items),
+- never overlapping between Stage 2 (labels training items) and Stage 5
+  (evaluates held-out test items).
+
+`common.data_loader.filter_by_split(samples, split)` does the filtering;
+`load_all_training_samples_split("train")` and
+`load_eval_samples_split(benchmark, split="test")` are the canonical entry points.
+
 ## Directory layout
 
 ```

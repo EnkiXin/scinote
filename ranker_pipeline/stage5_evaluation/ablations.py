@@ -17,7 +17,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "ranker_pipeline"))
 
 from ranker_pipeline.common.data_loader import (  # noqa: E402
-    load_scivideobench_samples, load_expvid_samples, resolve_video_path, L2_L3_TASKS,
+    load_eval_samples_split, resolve_video_path, L2_L3_TASKS,
 )
 from ranker_pipeline.stage4_inference.pipeline_inference import (  # noqa: E402
     RankerPipeline, load_temporal_notes,
@@ -93,18 +93,13 @@ def main():
     ap.add_argument("--ranker_checkpoint", required=True)
     ap.add_argument("--benchmark", default="scivideobench")
     ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--split", default="test", choices=["train", "test", "all"])
     ap.add_argument("--ablation", required=True, choices=["K_sweep", "threshold_sweep"])
     ap.add_argument("--ranker_device", default="cuda:0")
     ap.add_argument("--reasoner_device", default="cuda:1")
     args = ap.parse_args()
 
-    if args.benchmark == "scivideobench":
-        samples = load_scivideobench_samples(limit=args.limit)
-    elif args.benchmark == "expvid_l3":
-        samples = load_expvid_samples(["experimental_conclusion", "scientific_discovery"],
-                                        limit=args.limit)
-    else:
-        samples = load_expvid_samples(L2_L3_TASKS, limit=args.limit)
+    samples = load_eval_samples_split(args.benchmark, split=args.split, limit=args.limit)
 
     pipe = RankerPipeline(
         ranker_checkpoint=args.ranker_checkpoint,

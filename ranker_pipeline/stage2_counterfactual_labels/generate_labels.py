@@ -17,7 +17,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "ranker_pipeline"))
 
 from ranker_pipeline.common.data_loader import (  # noqa: E402
-    load_all_training_samples,
+    load_all_training_samples_split,
     resolve_video_path,
     Sample,
 )
@@ -56,7 +56,9 @@ def already_done(out_path: Path) -> set[str]:
 
 
 def select_samples(args) -> list[Sample]:
-    samples = load_all_training_samples(limit=args.limit)
+    # Per-task deterministic 80/20 split: labels are only produced for the
+    # training half — the test half is held out for Stage 5 evaluation.
+    samples = load_all_training_samples_split(split=args.split, limit=args.limit)
     if args.benchmarks:
         samples = [s for s in samples if s.benchmark in args.benchmarks]
     # Only keep MC samples (subset eval semantics are well-defined for MC)
@@ -73,6 +75,9 @@ def main():
     ap.add_argument("--device", default="cuda")
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--benchmarks", nargs="+", default=["expvid", "scivideobench"])
+    ap.add_argument("--split", default="train", choices=["train", "test", "all"],
+                     help="Which side of the deterministic 80/20 split to label. "
+                          "Default 'train' for SFT label gen.")
     ap.add_argument("--out", default=str(OUT_PATH))
     ap.add_argument("--chunk_id", type=int, default=0)
     ap.add_argument("--num_chunks", type=int, default=1)

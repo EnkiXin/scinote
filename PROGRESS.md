@@ -46,6 +46,50 @@ All methods share the **same answer prompt template** (the same `Question / Opti
 
 ---
 
+## 🏁 Paper 1 — Final Conclusion
+
+> **Visual notes do not unlock scientific video reasoning at the small-model scale.** Self-notes barely help (+1 pp). Answer-conditioned oracle notes give a dramatic +30 pp lift on SciVideoBench (18.6 → 48.6 %) — but the lift is **mostly answer-conditioning leak that cannot be distilled into a student noter**, even with proper multimodal SFT. A separate paradigm shift to "note-as-frame-selector" also fails (all 5 ideas ≈ uniform baseline). The natural conclusion is that the next move is not a better note prompt but a different supervisory signal — see [`COUNTERFACTUAL_RANKER_PIPELINE.md`](COUNTERFACTUAL_RANKER_PIPELINE.md) (paper 2).
+
+### What we tried and what it gave us
+
+| Experiment | Method | Best result | Verdict |
+|---|---|---|---|
+| Baseline reproduction | Qwen2.5-VL-7B / 3B w/o note | ExpVid 47.8 % macro, SciVideoBench 18.6 % | ✅ matches paper |
+| ASR augmentation | + ASR text in prompt | L1 **+44 to +56 pp**, L2/L3 ≈ 0 | L1 is largely ASR-readable; not a vision result |
+| 7B self-note (Stage-1 / Stage-2) | + 7B note | L1 −5 pp, L3 marginal | Notes **hurt** L1 perception |
+| **72B self-note** | + 72B note | ExpVid macro ≈ 7B-note; SciVideoBench **+0.8 pp** | Smarter Stage 1 noter ≈ no benefit at fixed answer model |
+| Stage 2 upgrade (3B → 7B answer) | better answerer + 72B note | Up only because of answer-model upgrade | Note quality plateau, not Stage 2 plateau |
+| Hierarchy probe (L1 → L3) | identical method, by level | Note delta grows L1 < L2 < L3 | Confirms: notes help reasoning, not perception |
+| Random-note control (L1) | shuffled notes | Within noise of real notes | L1 doesn't really use the note |
+| **Oracle note (72B + gold answer)** | + answer-aware 72B note | SciVideoBench **48.60 %  (+30.00 pp)**; ExpVid seq-gen **+32.7 pp** | The signal exists — but is it real or leak? |
+| Leak audit (static + behavioural) | letter / verbatim / paraphrase / note-only | 7 % verbatim, 13 % paraphrase, note-only acc 52.5 % | **Most of the lift is answer-shaped emphasis** |
+| **Trained noter — multimodal** | Qwen2.5-VL-7B + LoRA SFT on oracle notes | SciVideoBench **20.50 %  (+2.0 pp)** | Oracle lift **does not transfer** — unlearnable |
+| Trained noter — text-only | Qwen2.5-7B LoRA rewriting self-notes | SciVideoBench 18.30 % (≈ baseline) | Confirms the negative finding |
+| Frame-selection paradigm | 5 selectors (Uniform / CLIP / Entity / Adaptive / Trajectory) | All ≈ 17–19 % (Uniform 19.23 %) | Note-as-frame-selector ≈ uniform sampling |
+
+### Headline numbers (SciVideoBench, Qwen-3B answer model, n = 1000)
+
+| Condition | Acc |
+|---|---:|
+| Paper Qwen-3B baseline (C0) | 18.50 % |
+| C-3B-self-note (note in prompt, no training) | 23.30 % |
+| C-trained-noter-text (text-only LoRA — wrong design) | 18.30 % |
+| **C-trained-vl-noter** (multimodal LoRA — proper design) | **20.50 %** |
+| C-oracle (72B + gold answer in noter) — ceiling, leaky | 48.60 % |
+| Best frame-selector (CLIP K=8) | 19.40 % |
+| Uniform K=8 control | 19.23 % |
+
+### Why the negative finding still matters
+
+The oracle ceiling (+30 pp) shows the *visual evidence* needed for these reasoning questions **is** in the video — small models simply fail to *focus on* it. But the gap from oracle is not bridged by:
+
+1. **Better generative notes** — the oracle's answer-aware focus is what the note carries, and that focus is exactly what a noter trained without answer access cannot reconstruct.
+2. **Better frame selection** — all selectors land within ±1 pp of uniform; the bottleneck is not which frames you show but how the model knows what to ask about them.
+
+The supervision signal that *is* available, and is the basis for paper 2, is **the reasoner's own behaviour**: which segments are necessary for the reasoner to answer correctly? This converts the unlearnable "answer-aware focus" problem into a learnable "segment relevance ranking" problem driven by counterfactual ablation labels — see [`COUNTERFACTUAL_RANKER_PIPELINE.md`](COUNTERFACTUAL_RANKER_PIPELINE.md) and the [`ranker_pipeline/`](ranker_pipeline/) scaffold.
+
+---
+
 ## 🔑 Headline Findings
 
 ### 1. C0 baseline reproduces paper Table 2 (~+3pp)

@@ -111,7 +111,23 @@ So the +30 pp signal isn't a SciVideoBench artefact — it shows up wherever you
 | **C-trained-vl-noter** ⭐ (paper 1's headline trained noter) | **20.50** (**+1.90**) | 24.32 (+1.08) | 22.34 (+2.34) | 11.84 (+2.45) |
 | **C-72B-oracle** — answer-aware (ceiling, leaky) | **48.60** (**+30.00**) | 54.86 (+31.62) | 50.13 (+30.13) | 36.73 (+27.34) |
 
-By discipline (n = 1000, C0 → C-72B-oracle): Physics **+44 pp**, Medicine **+44 pp**, Chemistry **+38 pp**, Biochemistry **+33 pp**, Engineering **+30 pp**, Biology **+25 pp**, Bioengineering **+22 pp**. Every discipline shows a 20-45 pp ceiling under the oracle, none of which the multimodal trained noter recovers.
+### SciVideoBench — by discipline (Qwen-3B answer, n ≈ 1000 per condition)
+
+| Discipline | n | C0 | C-3B-self-note | C-trained-noter-text | **C-trained-vl-noter** | **C-72B-oracle** | Δ (vl−C0) | Δ (oracle−C0) |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Physics        | 39  | 21.95 | 20.51 | 17.95 | 15.38 | **61.54** | −6.57 | **+39.59** ✅ |
+| Medicine       | 118 | 29.37 | 24.58 | 21.19 | 22.03 | **59.32** | −7.34 | **+29.95** ✅ |
+| Chemistry      | 193 | 15.69 | 21.76 | 19.17 | **21.76** | **54.92** | **+6.07** ✅ | **+39.23** ✅ |
+| Biochemistry   | 85  | 19.57 | 14.12 | 16.47 | 18.82 | **49.41** | −0.75 | **+29.84** ✅ |
+| Engineering    | 247 | 20.30 | 22.67 | 19.84 | **23.89** | **49.39** | **+3.59** ✅ | **+29.09** ✅ |
+| Biology        | 231 | 15.26 | 15.58 | 15.58 | **19.05** | **38.96** | **+3.79** ✅ | **+23.70** ✅ |
+| Bioengineering | 87  | 10.31 | 12.64 | 17.24 | 13.79 | **36.78** | +3.48 | **+26.47** ✅ |
+|                |     |       |       |       |       |       |        |        |
+| **Overall**    | 1000 | 18.60 | 19.40 | 18.30 | **20.50** | **48.60** | **+1.90** | **+30.00** |
+
+**Read across the row**: every discipline reaches a 24-40 pp oracle ceiling, but the multimodal trained noter recovers only 0-6 pp of it (and *loses* ground on Physics, Medicine, and Biochemistry — both biology-adjacent disciplines and Physics, which were already the strongest C0 disciplines). The trained noter mostly helps on Biology / Engineering / Chemistry — disciplines where C0 was weakest. This is consistent with the read that the multimodal noter contributes *some* real visual signal, but the gap to oracle (28-44 pp depending on discipline) is the unrecoverable answer-conditioning leak.
+
+> C0 numbers per discipline above are computed from the deduped n=1000 cache. Discipline-level Δ should be read as effect-direction; the per-discipline n is small (especially Physics n=39, Bioengineering n=87) so individual Δs are within sampling noise.
 
 ### SciVideoBench — frame-selection paradigm (Qwen-3B answer, K = 8 of 32 candidate frames)
 

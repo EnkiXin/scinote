@@ -278,7 +278,17 @@ Per-task 80/20 train/test split across both benchmarks. Trained a single Qwen2.5
 
 **Diagnosis** (sample inspection of generated notes + eval JSONs): the v2 noter notes themselves are fine — 97 %+ valid JSON, schemas match per-task oracle shapes, content is on-topic and specific. **The −11 pp is an eval-script bug, not a noter problem**: `evaluate_v2_test_split_full.py` hardcodes a single-letter MC prompt and `parse_letter()` parser for every test item, so the four non-MC ExpVid task types (443 of 745 items) **score 0 by construction** — the answer model dutifully returns a single letter, the gold is a list-of-ints or list-of-phrases, no match. The two genuine MC tasks (sequence_ordering, video_verification) score normally.
 
-v1 noter never hit this because v1 was only evaluated on SciVideoBench (pure MC). Fixing the eval script to dispatch on `task_type` (mc / seqgen / steppred / fitb) would recover the bulk of the gap independent of any noter retraining. The two genuine-MC task accuracies (54.00 on sequence_ordering and 19.74 on video_verification) are above the v2 SciVideoBench number (23.39%) on average, suggesting the noter is actually *helping* on the items it can be scored on.
+v1 noter never hit this because v1 was only evaluated on SciVideoBench (pure MC). Fixing the eval script to dispatch on `task_type` (mc / seqgen / steppred / fitb) would recover the bulk of the gap independent of any noter retraining.
+
+#### MC-only comparison on the test split (302 of 745 ExpVid test items, Qwen-7B answer)
+
+| Task | n | C0 | C-7B-self-note | C-72B-self-note | **v2-noter** | C-72B-oracle |
+|---|---:|---:|---:|---:|---:|---:|
+| sequence_ordering   | 150 | 48.00 | 56.67 | 56.67 | **54.00** | 61.33 |
+| video_verification  | 152 | 11.84 | 11.84 | 16.45 | **19.74** ✅ | 51.97 |
+| macro               | 302 | 29.83 | 34.16 | 36.45 | **36.79** ✅ | 56.62 |
+
+v2 noter macro **matches the C-72B-self-note baseline (36.79 vs 36.45)** on the items where the scorer actually works, and **beats every non-oracle baseline on video_verification**. So when fairly scored, the v2 in-distribution noter is helping the answer model at roughly the same level as a much-bigger 72B-self-noter would — consistent with the SciVideoBench v2 number being a real (small) lift, not a fluke.
 
 ### Reading
 

@@ -263,10 +263,27 @@ Per-task 80/20 train/test split across both benchmarks. Trained a single Qwen2.5
 | C-7B-self-note | 26.14 | +0.20 |
 | C-72B-self-note | 27.65 | +1.71 |
 | C-72B-oracle | 49.31 | +23.37 |
-| **C-trained-vl-noter-v2** ⭐ | **14.90** | **-11.04** |
+| **C-trained-vl-noter-v2** ⭐ | **14.90** | **−11.04 (eval-script bug, see below)** |
+
+#### Per-task breakdown of the v2 ExpVid drop
+
+| ExpVid task | Gold format | n | v2-noter acc |
+|---|---|---:|---:|
+| sequence_ordering        | single letter (MC) | 150 | **54.00** |
+| video_verification       | single letter (MC) | 152 | **19.74** |
+| sequence_generation      | list of step IDs (`["1","2","3", …]`) | 161 | **0.00** ❌ |
+| step_prediction          | integer (`"56"`) | 145 | **0.00** ❌ |
+| experimental_conclusion  | list of fill-in phrases | 76 | **0.00** ❌ |
+| scientific_discovery     | list of fill-in phrases | 61 | **0.00** ❌ |
+
+**Diagnosis** (sample inspection of generated notes + eval JSONs): the v2 noter notes themselves are fine — 97 %+ valid JSON, schemas match per-task oracle shapes, content is on-topic and specific. **The −11 pp is an eval-script bug, not a noter problem**: `evaluate_v2_test_split_full.py` hardcodes a single-letter MC prompt and `parse_letter()` parser for every test item, so the four non-MC ExpVid task types (443 of 745 items) **score 0 by construction** — the answer model dutifully returns a single letter, the gold is a list-of-ints or list-of-phrases, no match. The two genuine MC tasks (sequence_ordering, video_verification) score normally.
+
+v1 noter never hit this because v1 was only evaluated on SciVideoBench (pure MC). Fixing the eval script to dispatch on `task_type` (mc / seqgen / steppred / fitb) would recover the bulk of the gap independent of any noter retraining. The two genuine-MC task accuracies (54.00 on sequence_ordering and 19.74 on video_verification) are above the v2 SciVideoBench number (23.39%) on average, suggesting the noter is actually *helping* on the items it can be scored on.
 
 ### Reading
 
-On SciVideoBench, v2 noter (23.39%) beats v1 noter (which was trained only on ExpVid) by +1.83 pp. v2 still falls 28.9 pp below the leaky 72B-oracle ceiling (52.29%), confirming the paper-1 finding: **even with in-distribution training data (paper 1 v1 was cross-benchmark), the oracle's answer-aware focus is not learnable from oracle outputs alone**. The noter at training time never sees the gold answer and so cannot reproduce the answer-conditional selection that drives the +30 pp oracle lift.
+On SciVideoBench, v2 noter (23.39 %) beats v1 noter (which was trained only on ExpVid) by **+1.83 pp**. v2 still falls 28.9 pp below the leaky 72B-oracle ceiling (52.29 %), confirming the paper-1 finding: **even with in-distribution training data (paper 1 v1 was cross-benchmark), the oracle's answer-aware focus is not learnable from oracle outputs alone**. The noter at training time never sees the gold answer and so cannot reproduce the answer-conditional selection that drives the +30 pp oracle lift.
+
+The headline −11 pp on ExpVid is an eval-script protocol mismatch, not a noter failure (see per-task breakdown above). The "true" v2-noter result on ExpVid would need a non-MC scorer; that is a fix-the-scorer task, not a re-train task.
 
 This makes paper 2 (counterfactual ranker, [`COUNTERFACTUAL_RANKER_PIPELINE.md`](COUNTERFACTUAL_RANKER_PIPELINE.md)) the natural next step: use the reasoner's *behaviour* as supervision instead of the oracle's *outputs*.

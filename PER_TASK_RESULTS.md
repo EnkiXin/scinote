@@ -67,21 +67,21 @@ L3 self-notes give a small positive lift (+1.4 pp macro). Oracle not run on L3 y
 
 Even the best self-note configuration ≈ video macro-averaged. Monotone L1 → L3 trend: notes hurt perception, help reasoning.
 
-### ExpVid v2 split (test only, n=745, Qwen-7B answer)
+### ExpVid v2 split (test only, n=745, Qwen-7B answer) — task-type-aware scorer
 
-Held-out test items from the per-task 80/20 split. v2 noter was retrained on the train half (which includes both ExpVid AND SciVideoBench train items).
+Held-out test items from the per-task 80/20 split. v2 noter was retrained on the train half (which includes both ExpVid AND SciVideoBench train items). All accuracies below use task-appropriate scoring: MC tasks use letter-match, seqgen/fitb use F1 token overlap, steppred uses exact integer match. (The earlier "−11 pp ExpVid drop" was a single-letter MC parser applied to non-MC items.)
 
-| Task | task_type | n | C0 | C-72B-self | **v2-noter** | C-72B-oracle |
-|---|---|---:|---:|---:|---:|---:|
-| sequence_ordering (MC)  | mc | 150 | 48.00 | 56.67 | **54.00** | 61.33 |
-| video_verification (MC) | mc | 152 | 11.84 | 16.45 | **19.74** ✅ | 51.97 |
-| sequence_generation     | seqgen   | 161 | — | — | (pending fixed scorer) | — |
-| step_prediction         | steppred | 145 | — | — | (pending fixed scorer) | — |
-| experimental_conclusion | fitb     | 76  | — | — | (pending fixed scorer) | — |
-| scientific_discovery    | fitb     | 61  | — | — | (pending fixed scorer) | — |
-| **MC-only macro**       |   | 302 | **29.83** | **36.45** | **36.79** ✅ | **56.62** |
+| Task | task_type | n | C0 | C-7B-self | C-72B-self | **v2-noter** | C-72B-oracle | Δ (v2 − C0) | Δ (v2 − 72B-self) |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| sequence_generation     | seqgen (F1)   | 161 | 44.85 | 40.34 | 39.63 | **35.40** | 75.63 | −9.45 | −4.23 |
+| sequence_ordering       | mc            | 150 | 48.00 | 56.67 | 56.67 | **53.33** | 61.33 | +5.33 | −3.34 |
+| step_prediction         | steppred      | 145 |  3.45 |  0.69 |  3.45 |  **2.07** |  7.59 | −1.38 | −1.38 |
+| video_verification      | mc            | 152 | 11.84 | 11.84 | 16.45 | **21.71** ✅ | 51.97 | **+9.87** ✅ | **+5.26** ✅ |
+| experimental_conclusion | fitb (F1)     |  76 | 20.00 | 18.50 | 20.39 | **17.07** | 42.22 | −2.93 | −3.32 |
+| scientific_discovery    | fitb (F1)     |  61 | 17.81 | 19.18 | 19.18 | **18.89** | 51.59 | +1.08 | −0.29 |
+| **overall macro**       |               | 745 | **25.94** | **26.14** | **27.65** | **26.51** | **49.31** | **+0.57** | **−1.14** |
 
-The v2 noter macro on the two genuine-MC ExpVid tasks **matches the much-bigger 72B-self-note** (36.79 vs 36.45) and **beats it on video_verification** (+3.29). The previous "−11 pp" headline was an eval-scorer bug (single-letter parser applied to non-MC items, forcing 443 / 745 to score 0). Re-running with task-type-aware scorer is in flight.
+**Reading**: v2 noter overall **26.51 %** sits between the two self-note baselines and is +0.57 pp over C0 — a modest, real lift consistent with the SciVideoBench v2 result (+2.75 over C0). It beats both C0 and C-72B-self on video_verification (+9.87, +5.26) but underperforms on sequence_generation (−9.45 vs C0). The 22 pp gap to oracle (49.31 vs 26.51) is the same unrecoverable answer-conditioning leak that defines paper 1's finding 9b.
 
 ---
 

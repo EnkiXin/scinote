@@ -92,3 +92,25 @@ Train 3 small LoRAs (mc / seqgen+steppred / fitb), pick the right one at inferen
 ## Recommended next step
 
 Adopt **Improvement 1 (task gating)** to lock in the +3.09 pp result *immediately* with zero retrain. If we want to push higher, **Improvement 2** is the natural next experiment (~5 GPU-hours).
+
+---
+
+## Update: Improvement 1 (prompt deferral) result
+
+We tested a softer version of "use video for specifics": modify the eval prompt to tell the answer model `"READ THE VIDEO DIRECTLY for any specifics; use notes only for orientation"` and ask fitb tasks to "copy exact numbers/labels visible on screen, do NOT use the notes' summarised phrasing." [`evaluate_v2_test_split_promptv2.py`](evaluate_v2_test_split_promptv2.py).
+
+| Task | n | Video | V+v2 (orig) | **V+v2 promptv2** | task-gated v2 |
+|---|---:|---:|---:|---:|---:|
+| sequence_generation     | 161 | 44.85 | 35.40 | **38.20** (+2.80) | 44.85 |
+| sequence_ordering       | 150 | 48.00 | 53.33 | 53.33             | 53.33 |
+| step_prediction         | 145 |  3.45 |  2.07 |  2.07             |  3.45 |
+| video_verification      | 152 | 11.84 | 21.71 | 21.71             | 21.71 |
+| experimental_conclusion |  76 | 20.00 | 17.07 | **18.77** (+1.70) | 20.00 |
+| scientific_discovery    |  61 | 17.81 | 18.89 | 17.10 (−1.79)     | 18.89 |
+| **overall macro**       | 745 | 25.94 | 26.51 | **27.14** (+0.63) | **29.03** |
+
+**Reading**: prompt-level deferral recovers some of the regression on seqgen (+2.80 pp) and exp_conclusion (+1.70 pp), but the answer model still gets distracted by note content even with explicit "read video directly" instructions. The overall +0.63 pp lift is much smaller than the +3.09 pp from task gating (Improvement 1) — confirming that the answer model is heavily anchored on its prompt's text once a note is present. Root-cause fix requires changing the noter's output schema at training time (Improvement 2 / v3, in flight).
+
+## Improvement 2 (v3 task-aware noter) — running
+
+`train_notetaker_vl_v3.py`: per-task augmented oracle notes (seqgen → `observed_step_indices: <gold>`, fitb → `verbatim_specifics: <gold>`, steppred → `next_step_prediction: <gold>`) + task-aware `build_user_text`. Training launched, ETA ~9 h. After it finishes we generate v3 notes and re-eval the test split with the same task-aware scorer; the gap to 49.31 (oracle ceiling) is what we want to close.

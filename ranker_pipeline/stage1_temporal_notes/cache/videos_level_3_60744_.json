@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_3/60744_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 455.381333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        113.84533325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'AM' with a blue cap.",
+          "Researcher uses a pipette to transfer a clear liquid from the microtube into a petri dish."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap labeled 'AM'.",
+          "Pipette with a clear tip.",
+          "Petri dish containing a clear liquid.",
+          "Purple gloves worn by the researcher."
+        ],
+        "visible_text_labels": [
+          "ALEXIS FULBRIGHT",
+          "UNIVERSITY OF UTAH SCHOOL OF MEDICINE",
+          "LIAM O'BRIEN",
+          "EUTHANIZE LARVAE WITH TRICANE METHANESULFONATE (0.03%)"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "0.03% concentration of Tricaine Methanesulfonate"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of an experiment involving the handling of larvae. The researcher is seen using precise tools like a pipette and microtube, emphasizing the controlled nature of the procedure. The presence of specific text labels and concentration details highlights the importance of accurate documentation in the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        113.84533325,
+        227.6906665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope view of a larval specimen with distinct black eyes and segmented body",
+          "microscope view of multiple larval specimens in a liquid medium, showing movement and interaction"
+        ],
+        "objects_visible": [
+          "larval specimen with black eyes and segmented body under a microscope",
+          "multiple larval specimens in a liquid medium under a microscope",
+          "hands wearing orange gloves holding a clear plastic container with a lid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple larval specimens"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of larval specimens under a microscope, highlighting their physical features and behavior in a liquid medium. The presence of orange-gloved hands manipulating a clear plastic container suggests a controlled laboratory environment. The 'jove' watermark indicates the video is part of a scientific demonstration or educational content."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        227.6906665,
+        341.53599975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "scrolls through a spreadsheet containing numerical data",
+          "clicks on a cell within the spreadsheet"
+        ],
+        "objects_visible": [
+          "computer screen displaying a spreadsheet application",
+          "spreadsheet with multiple rows and columns of numerical data",
+          "desktop icons and application dock at the bottom of the screen"
+        ],
+        "visible_text_labels": [
+          "Jove logo in the top right corner",
+          "spreadsheet column headers such as 'A', 'B', 'C', etc."
+        ],
+        "quantities": [
+          "numerical data in the spreadsheet cells, such as '123.45', '678.90'"
+        ],
+        "key_distinguishing_features": "This segment focuses on data analysis, as indicated by the detailed view of a spreadsheet with numerical data. The presence of the Jove logo suggests this is part of a scientific or educational video. The user interacts with the spreadsheet, likely for data measurement or analysis purposes."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        341.53599975,
+        455.381333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher presents microscopic images of liver samples",
+          "researcher compares liver sizes using a bar graph"
+        ],
+        "objects_visible": [
+          "microscopic images of liver samples labeled 'Non-transgenic' and 'ABC'",
+          "bar graph comparing liver sizes between 'Non-Tg' and 'ABC' groups",
+          "scatter plot with data points for liver size measurements"
+        ],
+        "visible_text_labels": [
+          "Non-transgenic",
+          "ABC",
+          "Liver Size (cm\u00b2)",
+          "Non-Tg",
+          "ABC",
+          "****"
+        ],
+        "quantities": [
+          "0.0008 cm\u00b2 (maximum liver size on graph)",
+          "0.0000 cm\u00b2 (minimum liver size on graph)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the visual comparison of liver samples from non-transgenic and ABC groups, highlighting differences in liver size through both microscopic images and a statistical bar graph. The scatter plot emphasizes the variability within each group. The use of asterisks on the graph indicates a significant difference between the groups."
+      }
+    }
+  ]
+}

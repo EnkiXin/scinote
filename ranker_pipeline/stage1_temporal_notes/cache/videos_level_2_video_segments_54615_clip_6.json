@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/54615/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 31.506,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.8765
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a yellow test tube rack on the table",
+          "researcher unwraps a foil-covered object"
+        ],
+        "objects_visible": [
+          "yellow test tube rack with multiple compartments",
+          "foil-wrapped object",
+          "yellow laboratory equipment with a dial and a power button",
+          "white-gloved hand",
+          "plastic container with red caps",
+          "white container labeled 'HEAD CELL'"
+        ],
+        "visible_text_labels": [
+          "HEAD CELL",
+          "oppendorf"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where a researcher is seen handling laboratory equipment and unwrapping a foil-covered object. The yellow test tube rack and the branded 'oppendorf' equipment are distinctive features of this segment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.8765,
+        15.753
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 1.5mL microtube into a centrifuge rotor",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "centrifuge with an open lid",
+          "black rotor with multiple slots",
+          "1.5mL microtube with a blue cap",
+          "researcher wearing white gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "UN-INDUCED"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a microtube into a centrifuge, highlighting the careful handling of laboratory equipment. The visible text 'UN-INDUCED' on the microtube suggests a specific experimental condition. The researcher's gloved hands emphasize the importance of sterility in the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.753,
+        23.6295
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and transfers a red liquid into a test tube",
+          "researcher carefully places the pipette tip into the test tube"
+        ],
+        "objects_visible": [
+          "yellow test tube rack with multiple holes",
+          "three labeled test tubes with blue and red caps",
+          "transparent pipette with a red liquid sample",
+          "white-gloved hand holding the pipette"
+        ],
+        "visible_text_labels": [
+          "SURFACE AB COCKTAIL",
+          "UNSTIMULATED 1",
+          "UNSTIMULATED 2",
+          "STIMULATED"
+        ],
+        "quantities": [
+          "three test tubes in the rack"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a red liquid into a test tube using a pipette. The test tubes are clearly labeled with different conditions, indicating a controlled experiment. The yellow test tube rack provides a bright contrast to the red liquid and white gloves."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.6295,
+        31.506
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a yellow microtube rack with labeled tubes into a refrigerator",
+          "researcher closes the refrigerator door"
+        ],
+        "objects_visible": [
+          "yellow microtube rack with tubes labeled 'UNSTIMULATED 1' and 'UNSTIMULATED 2'",
+          "refrigerator with a light inside illuminating various laboratory items",
+          "test tubes with blue caps arranged in a white rack",
+          "red and yellow containers inside the refrigerator"
+        ],
+        "visible_text_labels": [
+          "UNSTIMULATED 1",
+          "UNSTIMULATED 2",
+          "jove"
+        ],
+        "quantities": [
+          "multiple test tubes in a white rack"
+        ],
+        "key_distinguishing_features": "This segment shows the careful placement of a labeled microtube rack into a refrigerator, emphasizing the storage of samples. The refrigerator's interior is well-lit, revealing an organized arrangement of laboratory items. The focus on labeled tubes highlights the importance of sample identification in the experiment."
+      }
+    }
+  ]
+}

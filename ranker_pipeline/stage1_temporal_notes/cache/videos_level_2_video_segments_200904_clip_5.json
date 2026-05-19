@@ -1,0 +1,171 @@
+{
+  "video_id": "videos/level_2/video_segments/200904/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.506,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.8765
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a petri dish with a clear agar medium",
+          "researcher uses a pipette to add a small volume of liquid to the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a clear agar medium",
+          "pipette with a black handle",
+          "microscope in the background",
+          "researcher wearing blue gloves"
+        ],
+        "visible_text_labels": [
+          "Prepare at least 6 replicates for the test group"
+        ],
+        "quantities": [
+          "small volume of liquid added to the petri dish"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a petri dish for a test, emphasizing the careful addition of a liquid sample. The researcher's gloved hands and the presence of a microscope suggest a controlled laboratory environment. The text overlay provides specific instructions for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.8765,
+        19.753
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, dark, triangular object with tweezers",
+          "researcher places the triangular object onto a white sheet of paper"
+        ],
+        "objects_visible": [
+          "researcher wearing blue nitrile gloves",
+          "white sheet of paper on the lab bench",
+          "tweezers held by the researcher",
+          "small, dark, triangular object",
+          "blue-capped bottle with a clear liquid",
+          "microscope in the background",
+          "computer monitor displaying a software interface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small, dark, triangular object using tweezers. The white sheet of paper serves as a clean background for the object placement. The presence of laboratory equipment like a microscope and a computer monitor suggests a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.753,
+        29.6295
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "clicks the 'Scan' button in the software interface",
+          "progress bar appears indicating the scanning process is in progress"
+        ],
+        "objects_visible": [
+          "computer screen displaying 'Epson Scan 2' software interface",
+          "progress dialog box with a green progress bar",
+          "thumbnail preview of a scanned document"
+        ],
+        "visible_text_labels": [
+          "Epson Scan 2",
+          "Progress",
+          "Cancel",
+          "Ensure the cover is centrally placed"
+        ],
+        "quantities": [
+          "600 DPI resolution setting",
+          "48-bit Color image type"
+        ],
+        "key_distinguishing_features": "This segment shows the execution phase of a scanning process using Epson Scan 2 software. The progress bar indicates the scanning is actively taking place, and a thumbnail preview of the scanned document is visible. The instruction 'Ensure the cover is centrally placed' suggests attention to proper document positioning."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.6295,
+        39.506
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "uses software to draw a polygonal selection on a petri dish image",
+          "selects 'Fill' option from the 'Edit' menu in the software"
+        ],
+        "objects_visible": [
+          "petri dish with a transparent medium and scattered dark spots",
+          "polygonal selection tool overlay on the petri dish image",
+          "software interface with multiple petri dish images labeled 'BOTTOM01', 'BOTTOM02', 'TOP01', 'TOP02', 'TOP03', 'TOP04'"
+        ],
+        "visible_text_labels": [
+          "BOTTOM01",
+          "BOTTOM02",
+          "TOP01",
+          "TOP02",
+          "TOP03",
+          "TOP04",
+          "Edit",
+          "Fill",
+          "Draw",
+          "Selections"
+        ],
+        "quantities": [
+          "10 photos",
+          "1.00x",
+          "100.00 inches (1535x1535)",
+          "14 of 1,000"
+        ],
+        "key_distinguishing_features": "This segment shows a detailed measurement process using image analysis software, where a polygonal selection is being made on a petri dish image. The software interface displays multiple petri dish images, indicating a comparative analysis. The 'Fill' option is selected from the 'Edit' menu, suggesting a step in the analysis or annotation process."
+      }
+    }
+  ]
+}

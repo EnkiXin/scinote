@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/video_segments/61330/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 52.393,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.09825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A white, semi-transparent, C-shaped structure is shown against a dark background."
+        ],
+        "objects_visible": [
+          "A white, semi-transparent, C-shaped structure resembling a brain slice, specifically highlighting the Dentate Gyrus and Cornu Ammonis regions."
+        ],
+        "visible_text_labels": [
+          "DG: Dentate Gyrus",
+          "CA: Cornu Ammonis",
+          "Structural deficits will negatively impact viability"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a detailed view of a brain slice, emphasizing specific anatomical regions. The text labels provide context for the observed structure, highlighting its importance in scientific research. The dark background enhances the visibility of the white structure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.09825,
+        26.1965
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid into a multi-well plate",
+          "researcher holds a multi-well plate with transparent wells"
+        ],
+        "objects_visible": [
+          "researcher's hands wearing blue nitrile gloves",
+          "a multi-well plate with transparent wells containing a clear liquid",
+          "a pipette with a metallic tip"
+        ],
+        "visible_text_labels": [
+          "See text for all medium and solution preparation details"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a clear liquid into a multi-well plate, emphasizing the careful handling of laboratory equipment. The researcher's hands are gloved, ensuring sterility, and the multi-well plate is clearly visible, indicating a step in a controlled experiment. The text overlay suggests detailed instructions are provided elsewhere for medium and solution preparation."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        26.1965,
+        39.29475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a clear plastic petri dish with a blue cap into a metal tray",
+          "researcher arranges multiple petri dishes in a metal tray with a grid pattern"
+        ],
+        "objects_visible": [
+          "clear plastic petri dishes with blue caps",
+          "metal tray with a grid pattern",
+          "researcher's gloved hand wearing a blue nitrile glove"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple petri dishes (at least 4)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the careful placement and arrangement of petri dishes in a metal tray, likely for a controlled experiment setup. The blue caps on the petri dishes and the grid pattern of the tray are distinctive features. The researcher's gloved hand indicates a sterile handling process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        39.29475,
+        52.393
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a multi-well plate",
+          "researcher places a bottle labeled 'NBA' next to the multi-well plate"
+        ],
+        "objects_visible": [
+          "transparent multi-well plate with six compartments",
+          "pipette with a white tip",
+          "bottle with a blue cap containing pink liquid labeled 'NBA'",
+          "another bottle with a red cap containing orange liquid with a visible label"
+        ],
+        "visible_text_labels": [
+          "NBA",
+          "See text for all medium and solution preparation details"
+        ],
+        "quantities": [
+          "six compartments in the multi-well plate"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise dispensing of liquid into a multi-well plate, highlighting the use of a pipette and the presence of labeled bottles with distinct liquid colors. The text overlay provides a reference for medium and solution preparation details."
+      }
+    }
+  ]
+}

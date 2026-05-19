@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/video_segments/50459/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 41.025,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.25625
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a small, rectangular device with wires attached",
+          "researcher uses a tool to manipulate or adjust the device"
+        ],
+        "objects_visible": [
+          "small rectangular device with a wooden base and metal components",
+          "blue wires extending from the device",
+          "a tool resembling a small screwdriver or probe",
+          "a black surface with scattered debris"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the meticulous handling of a small, intricate device with wires, suggesting a delicate preparation step. The presence of the 'jove' label indicates a scientific or educational context. The black surface and scattered debris add to the experimental setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.25625,
+        20.5125
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "person uses tweezers to manipulate a small, transparent object with blue fibers",
+          "person holds a transparent object with blue fibers and adjusts it with tweezers"
+        ],
+        "objects_visible": [
+          "transparent object with blue fibers",
+          "tweezers",
+          "black surface"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of a transparent object with blue fibers using tweezers. The black surface provides a high-contrast background, emphasizing the object and the fine movements. The action suggests a delicate and controlled process, likely part of a scientific procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.5125,
+        30.768749999999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a large oven-like device",
+          "researcher places a black object into the oven"
+        ],
+        "objects_visible": [
+          "white oven with a grid of windows on the door",
+          "digital control panel with buttons and a display",
+          "researcher wearing a light blue lab coat",
+          "black object being placed into the oven"
+        ],
+        "visible_text_labels": [
+          "210\u00b0C",
+          "24 hr",
+          "TEMP. CONTROL",
+          "8.5",
+          "2.10"
+        ],
+        "quantities": [
+          "210\u00b0C",
+          "24 hours"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of placing an object into an oven set at 210\u00b0C for 24 hours. The digital control panel and the grid of windows on the oven door are distinctive features. The researcher's interaction with the oven highlights a controlled experimental step."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        30.768749999999997,
+        41.025
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a transparent plastic cuvette with a red cap",
+          "researcher uses a yellow pipette to add a clear liquid into the cuvette"
+        ],
+        "objects_visible": [
+          "transparent plastic cuvette with a red cap",
+          "yellow pipette",
+          "beaker with measurement markings"
+        ],
+        "visible_text_labels": [
+          "100 mL",
+          "25 mL"
+        ],
+        "quantities": [
+          "~25 mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise addition of a clear liquid into a cuvette using a pipette. The cuvette is held at an angle, and the beaker in the background has visible measurement markings. The researcher's hands are gloved, emphasizing a controlled laboratory environment."
+      }
+    }
+  ]
+}

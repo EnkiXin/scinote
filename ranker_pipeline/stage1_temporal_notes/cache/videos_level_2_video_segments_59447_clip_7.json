@@ -1,0 +1,145 @@
+{
+  "video_id": "videos/level_2/video_segments/59447/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 24.881,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.22025
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a can of compressed air and directs it towards a white tube with a black cable attached",
+          "researcher uses the compressed air to clean or clear the tube"
+        ],
+        "objects_visible": [
+          "can of compressed air with a white and orange label",
+          "white tube with a black cable and a small black component attached",
+          "researcher's hands wearing a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a researcher uses compressed air to clean a specific component. The white tube with a black cable is the central object being handled. The action is precise, indicating a careful preparation step in the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.22025,
+        12.4405
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a small, rectangular, beige-colored object with a black cable attached",
+          "researcher uses a white, cylindrical spray can to apply a substance onto the object"
+        ],
+        "objects_visible": [
+          "white cylindrical spray can with orange and black text",
+          "small beige rectangular object with a black cable",
+          "black cable with a connector"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation of a small, beige rectangular object by applying a substance from a spray can. The black cable attached to the object suggests it may be an electronic or sensor component. The action is precise, indicating a controlled application process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.4405,
+        18.66075
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher connects black cables to a metallic clamp stand",
+          "researcher adjusts the cables and clamps on the stand"
+        ],
+        "objects_visible": [
+          "black cables with connectors",
+          "metallic clamp stand with adjustable arms",
+          "researcher's hands wearing a black wristband"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the setup of a metallic clamp stand with black cables, indicating preparation for an experiment. The researcher's hands are actively adjusting the components, emphasizing the assembly process. The presence of the 'jove' logo suggests this is part of a scientific demonstration video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        18.66075,
+        24.881
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a black cable with both hands",
+          "researcher positions the cable over a cylindrical metallic object"
+        ],
+        "objects_visible": [
+          "black cable with exposed wires",
+          "cylindrical metallic object with a black base",
+          "researcher's hands wearing a white lab coat",
+          "black wristwatch on the researcher's left wrist"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a black cable, suggesting a step in an electrical or mechanical setup. The presence of a wristwatch and lab coat indicates a controlled laboratory environment. The metallic object appears to be a specialized tool or component for the experiment."
+      }
+    }
+  ]
+}

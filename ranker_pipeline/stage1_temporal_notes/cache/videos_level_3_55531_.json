@@ -1,0 +1,187 @@
+{
+  "video_id": "videos/level_3/55531_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 612.074667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        153.01866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand sifts through debris on a beach near the low tide line.",
+          "The hand picks up a small, white, transparent plastic pellet from the debris."
+        ],
+        "objects_visible": [
+          "A hand wearing a blue nitrile glove.",
+          "A small, white, transparent plastic pellet.",
+          "Debris including twigs, leaves, and other small particles on the beach."
+        ],
+        "visible_text_labels": [
+          "Extraction of organochlorine pesticides from plastic pellets and plastic type analysis",
+          "1. Plastic pellet sampling",
+          "Maryline Pflieger\u00b9, Petra Makori\u010d\u00b9, \u0160pela Koren\u00b2, Manca Kova\u010d Vir\u0161ek\u00b2",
+          "University of Nova Gorica\u00b9",
+          "Institute for Water of the Republic of Slovenia\u00b2",
+          "Low tide line",
+          "Bench",
+          "White / Transparent",
+          "Whitish / Yellowish",
+          "Yellow / Orange",
+          "Amber / Brown",
+          "Pigmented"
+        ],
+        "quantities": [
+          "A ruler with measurements from 0 to 10 cm is visible, indicating the size of the plastic pellets."
+        ],
+        "key_distinguishing_features": "This segment focuses on the initial collection of plastic pellets from a beach environment, highlighting the specific action of selecting a white, transparent pellet. The presence of text labels and a ruler emphasizes the scientific context and the categorization of the pellets based on color and transparency."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        153.01866675,
+        306.0373335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a small metal funnel to pour a white powdery substance into a cylindrical metal container",
+          "researcher places the funnel into a metal rack with multiple circular holes",
+          "researcher handles a clear glass beaker containing a clear liquid, possibly water, and a blue-capped bottle"
+        ],
+        "objects_visible": [
+          "metal funnel with a shiny surface",
+          "cylindrical metal container with a smooth surface and a small opening",
+          "metal rack with multiple circular holes",
+          "clear glass beaker with a handle",
+          "blue-capped bottle with a label",
+          "black bottle with a label",
+          "plastic test tube rack with multiple test tubes",
+          "test tubes with various colored caps and labels"
+        ],
+        "visible_text_labels": [
+          "3. Concentration and clean the extract"
+        ],
+        "quantities": [
+          "one metal funnel",
+          "one cylindrical metal container",
+          "one clear glass beaker",
+          "one blue-capped bottle",
+          "multiple test tubes in the rack"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a white powdery substance using a metal funnel, indicating a step in the preparation or processing of a sample. The presence of various bottles and test tubes suggests a multi-step experimental procedure. The text '3. Concentration and clean the extract' implies this is part of a larger sequence of steps in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        306.0373335,
+        459.05600025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Sample 1' with a blue cap",
+          "researcher uses a pipette to transfer a clear liquid from a beaker into a petri dish",
+          "researcher places a petri dish under a microscope for examination"
+        ],
+        "objects_visible": [
+          "a petri dish with a clear liquid sample",
+          "a microscope with a digital display showing magnification levels",
+          "a beaker containing a clear liquid",
+          "a pipette with a blue plunger",
+          "a white lab bench with various lab equipment"
+        ],
+        "visible_text_labels": [
+          "Sample 1",
+          "10x magnification"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "10x magnification"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a sample labeled 'Sample 1' and its examination under a microscope. The use of a pipette to transfer a clear liquid into a petri dish highlights the careful execution of the experiment. The digital display on the microscope indicates a 10x magnification, emphasizing the detailed observation phase."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        459.05600025,
+        612.074667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Displays chromatographic data with peaks and retention times for various compounds.",
+          "Presents a table with detailed results including compound names, retention times, calibration equations, R\u00b2 values, and recovery percentages."
+        ],
+        "objects_visible": [
+          "Chromatographic graph with multiple peaks labeled with retention times.",
+          "Table with columns for compounds, Tr (min), calibration curve equation, R\u00b2, and recovery (%) values.",
+          "Graph showing concentration of OCPs in plastic pellets with different plastic types.",
+          "Image of a molecular structure labeled as beta-HCH."
+        ],
+        "visible_text_labels": [
+          "P0992.SP POLYPROPYLENE BISH-TS2 PR74, DARK GRAY) ADVANCED COMPOSITES",
+          "Results - Spiked and real solutions",
+          "Concentration of OCPs in plastic pellets",
+          "beta-HCH",
+          "PE, PP, Ethylene Vinyl acetate, PS, Others"
+        ],
+        "quantities": [
+          "Retention times such as 9.25 min, 9.92 min, 10.45 min, etc.",
+          "Calibration curve equations like y = 1836x - 315, y = 2055x - 158, etc.",
+          "R\u00b2 values such as 0.9992, 0.9996, 0.9993, etc.",
+          "Recovery percentages like 99%, 96%, 78%, etc.",
+          "Concentrations in ng/g for various OCPs in plastic pellets."
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its detailed presentation of chromatographic data and concentration calculations for various organic compounds in plastic samples. The inclusion of a molecular structure image and a graph showing OCP concentrations in different plastic types adds a visual and quantitative depth to the analysis. The segment focuses on precise measurement and data interpretation."
+      }
+    }
+  ]
+}

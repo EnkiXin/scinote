@@ -1,0 +1,148 @@
+{
+  "video_id": "videos/level_2/step_prediction/54818/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 20.4414,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.11035
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments manipulate a suture thread within an open incision",
+          "thread is being carefully guided and adjusted"
+        ],
+        "objects_visible": [
+          "metallic surgical forceps with serrated edges",
+          "black suture thread",
+          "open incision revealing internal tissue and blood",
+          "green surgical drape with a circular pattern"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure with precise manipulation of a suture thread. The presence of blood and exposed tissue indicates an active surgical site. The green drape with a circular pattern provides a sterile background for the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.11035,
+        10.2207
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments manipulate a black suture thread within a small incision",
+          "a hand holding a syringe with a clear liquid appears and injects the liquid into the incision"
+        ],
+        "objects_visible": [
+          "black suture thread",
+          "metal surgical forceps",
+          "metal surgical needle holder",
+          "hand holding a syringe with a clear liquid",
+          "small incision with visible tissue and blood"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise surgical procedure with a focus on suturing and injection. The presence of the 'jove' logo suggests this is part of a scientific or educational video. The hand holding the syringe introduces a new element to the procedure, indicating a step involving fluid administration."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.2207,
+        15.331050000000001
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments manipulate tissue within an open incision",
+          "a gloved hand adjusts the position of the surgical tools"
+        ],
+        "objects_visible": [
+          "surgical forceps with black handles",
+          "a scalpel with a metallic blade",
+          "a gloved hand performing the procedure",
+          "a section of exposed tissue with visible blood vessels"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure with precise manipulation of tools within an open incision. The presence of blood and tissue highlights the invasive nature of the procedure. The gloved hand and surgical instruments are the focal points of the action."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        15.331050000000001,
+        20.4414
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments manipulate a small, exposed area of tissue",
+          "blood is visible as the instruments work within the tissue"
+        ],
+        "objects_visible": [
+          "metal surgical forceps with a serrated grip",
+          "a small, coiled black wire or suture material",
+          "a section of exposed tissue with visible blood"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure with precise manipulation of tissue using forceps. The presence of blood and a coiled wire suggests a delicate operation, likely involving vascular or neural structures. The 'jove' watermark indicates the video is part of a scientific or educational series."
+      }
+    }
+  ]
+}

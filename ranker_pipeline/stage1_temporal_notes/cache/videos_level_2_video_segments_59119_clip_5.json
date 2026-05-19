@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_segments/59119/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.021,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.50525
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses tweezers to manipulate small plant samples",
+          "researcher holds a petri dish with a transparent lid"
+        ],
+        "objects_visible": [
+          "tweezers with black handles",
+          "petri dish with a transparent lid",
+          "small plant samples in a glass container with liquid",
+          "white lab coat worn by the researcher",
+          "patterned wall with a geometric design"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of plant samples using tweezers, indicating a delicate and controlled process. The presence of a petri dish suggests a sterile environment for the experiment. The geometric pattern on the wall adds a distinctive visual element to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.50525,
+        21.0105
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "uses forceps to manipulate a small green leaf-like object",
+          "uses a paintbrush to adjust the position of the green object"
+        ],
+        "objects_visible": [
+          "transparent petri dish",
+          "metal forceps",
+          "paintbrush with a wooden handle",
+          "small green leaf-like object"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of a small green object using forceps and a paintbrush within a petri dish. The use of both tools highlights a delicate and controlled process. The presence of the 'jove' logo suggests this is part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.0105,
+        31.51575
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "places a small green leaf into a petri dish",
+          "repeats the action with another petri dish"
+        ],
+        "objects_visible": [
+          "transparent petri dishes",
+          "small green leaves",
+          "a hand performing the action"
+        ],
+        "visible_text_labels": [
+          "Repeat for \u226415 cv. D\u00e9sir\u00e9e or \u226425 ssp. andigena leaves"
+        ],
+        "quantities": [
+          "\u226415 cv. D\u00e9sir\u00e9e leaves",
+          "\u226425 ssp. andigena leaves"
+        ],
+        "key_distinguishing_features": "This segment shows the precise placement of leaves into petri dishes, highlighting the careful handling of plant material. The text overlay specifies the number of leaves for different potato varieties, emphasizing the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.51575,
+        42.021
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small volume of liquid into a petri dish",
+          "researcher places the petri dish containing green leaf samples on the work surface"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid containing green leaf samples submerged in a white liquid",
+          "pipette with a black handle and a white tip",
+          "a container with a white lid in the background",
+          "a white work surface with a patterned wall behind it"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "several small green leaf samples in the petri dish"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of leaf samples in a petri dish, highlighting the use of a pipette for liquid transfer. The white liquid in the petri dish contrasts with the green leaves, making the samples easily distinguishable. The 'jove' logo is visible, indicating the source of the video."
+      }
+    }
+  ]
+}

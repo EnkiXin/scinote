@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/video_segments/58239/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 31.463,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.86575
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher types on laptop keyboard",
+          "researcher views data on laptop screen"
+        ],
+        "objects_visible": [
+          "silver laptop with open spreadsheet",
+          "white lab coat",
+          "red chair",
+          "laboratory shelves with various equipment and supplies",
+          "plastic containers",
+          "pipette tips",
+          "labeled boxes"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is focused on analyzing data on a laptop, indicating a phase of observation or data processing. The laboratory setting is well-equipped, with shelves stocked with various supplies. The researcher's posture and concentration suggest a detailed review of the data."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.86575,
+        15.7315
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a well plate into a microtube"
+        ],
+        "objects_visible": [
+          "red microtube rack with several 1.5mL microtubes",
+          "blue 96-well plate with clear wells",
+          "white microtube rack with a pink lid",
+          "pipette with a black handle and a white tip",
+          "glass beaker with a clear liquid"
+        ],
+        "visible_text_labels": [
+          "20",
+          "jove"
+        ],
+        "quantities": [
+          "~200uL of liquid transferred"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of liquid transfer using a pipette, highlighting the use of a 96-well plate and microtube rack. The researcher's gloved hands ensure sterility during the process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.7315,
+        23.597250000000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a well plate into a microtube"
+        ],
+        "objects_visible": [
+          "red microtube rack with several 1.5mL microtubes",
+          "blue and white 96-well plate",
+          "pink-lidded box with pipette tips",
+          "transparent container labeled 'BYVIM'",
+          "researcher wearing purple gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "BYVIM",
+          "10"
+        ],
+        "quantities": [
+          "~10uL of liquid being transferred"
+        ],
+        "key_distinguishing_features": "The researcher is carefully pipetting a precise volume of liquid, demonstrating a focus on accuracy. The use of a well plate and microtube rack suggests a multi-step process in a controlled laboratory setting. The visible 'BYVIM' label on the container adds a specific context to the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.597250000000003,
+        31.463
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small, clear plastic container into a slot on the front of a large, beige analytical instrument",
+          "researcher closes the instrument's door and adjusts settings on the computer monitor"
+        ],
+        "objects_visible": [
+          "beige analytical instrument with a digital display and control panel",
+          "computer monitor displaying a software interface with graphs and data",
+          "black keyboard and mouse on a desk",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "jove logo in the top right corner of the video"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the interaction between the researcher and the analytical instrument, highlighting the precise placement of a sample container. The computer interface suggests data analysis or monitoring is underway. The researcher's attire and the equipment indicate a controlled laboratory environment."
+      }
+    }
+  ]
+}

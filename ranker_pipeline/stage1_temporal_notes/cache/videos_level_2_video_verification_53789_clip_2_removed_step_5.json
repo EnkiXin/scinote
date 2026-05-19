@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/video_verification/53789/clip_2_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.193583,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.79839575
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher pours ice cubes from a white container into a glass bowl on a magnetic stirrer",
+          "researcher places a small bottle with a pink cap on the magnetic stirrer"
+        ],
+        "objects_visible": [
+          "white container with ice cubes",
+          "glass bowl on a magnetic stirrer",
+          "small bottle with a pink cap",
+          "magnetic stirrer labeled 'OptiMag+'",
+          "purple gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "OptiMag+"
+        ],
+        "quantities": [
+          "390 (reading on the magnetic stirrer display)"
+        ],
+        "key_distinguishing_features": "The segment is distinctive for the careful preparation of a cold environment using ice cubes, and the use of a magnetic stirrer suggests a controlled mixing process. The presence of a small bottle with a pink cap indicates the addition of a specific reagent or solution."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.79839575,
+        23.5967915
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher places the microtube into a beaker filled with ice cubes"
+        ],
+        "objects_visible": [
+          "beaker containing ice cubes",
+          "1.5mL microtube with a blue cap",
+          "glass flask with a black liquid inside",
+          "laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a microtube is carefully placed into a beaker of ice, likely to maintain a low temperature. The presence of a black liquid in a flask and laboratory equipment in the background suggests a controlled experimental setup. The researcher's gloved hands emphasize the importance of safety and sterility."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.5967915,
+        35.39518725
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "hand in purple glove places a small white paper labeled 'S R' on a dark surface",
+          "hand in purple glove uses a thin tool to interact with the paper"
+        ],
+        "objects_visible": [
+          "small white paper labeled 'S R'",
+          "purple glove",
+          "thin tool",
+          "dark textured surface"
+        ],
+        "visible_text_labels": [
+          "S R"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise action involving a labeled paper and a tool, suggesting a step in a detailed observation or analysis process. The dark surface provides contrast, highlighting the white paper and the hand's movements."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.39518725,
+        47.193583
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher pours a clear liquid from a white container into a round-bottom flask",
+          "Researcher uses a green and white syringe to transfer liquid into a test tube"
+        ],
+        "objects_visible": [
+          "Round-bottom flask with a white liquid inside",
+          "White container with a clear liquid",
+          "Green and white syringe",
+          "Test tube with a clear liquid",
+          "Metal stand with clamps holding the flask and other apparatus",
+          "White plastic bottle with a blue cap",
+          "Black and silver vacuum pump"
+        ],
+        "visible_text_labels": [
+          "Wash with 20 ml of ethyl acetate 3x",
+          "jove"
+        ],
+        "quantities": [
+          "20 ml of ethyl acetate"
+        ],
+        "key_distinguishing_features": "This segment focuses on the transfer of ethyl acetate for washing purposes, highlighting the use of specific laboratory equipment like a syringe and a round-bottom flask. The text overlay specifies the volume and repetition of the washing process, emphasizing the procedural detail."
+      }
+    }
+  ]
+}

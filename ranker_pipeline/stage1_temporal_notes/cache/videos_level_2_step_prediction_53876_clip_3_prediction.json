@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/step_prediction/53876/clip_3_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.487767,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.37194175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe and injects a clear liquid into a glass flask"
+        ],
+        "objects_visible": [
+          "researcher's gloved hand holding a syringe",
+          "a glass flask with a green clamp attached",
+          "a metal stand holding the flask",
+          "a metal basin underneath the flask"
+        ],
+        "visible_text_labels": [
+          "See text for preparation of the HCl solution"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully injecting a liquid into a flask, suggesting a precise step in a chemical procedure. The presence of a clamp and stand indicates a controlled laboratory setup. The text overlay provides a reference for the preparation of the HCl solution."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.37194175,
+        16.7438835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a test tube",
+          "researcher places the test tube into a rack"
+        ],
+        "objects_visible": [
+          "pipette with a white body and blue plunger",
+          "test tube with a clear liquid",
+          "test tube rack with multiple compartments",
+          "chemical bottles in the background",
+          "black beaker with a clear liquid and a green clamp",
+          "metal stand holding the beaker"
+        ],
+        "visible_text_labels": [
+          "See text for preparation of the poly vinylpyrrolidone (PVP) solution",
+          "jove"
+        ],
+        "quantities": [
+          "~200uL of liquid dispensed by the pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a pipette to dispense a specific volume of liquid into a test tube. The background includes a beaker with a clear liquid, suggesting a multi-step experiment. The text overlay provides context for the preparation of a PVP solution."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.7438835,
+        25.11582525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'PVP Sol' with a blue cap",
+          "pipettes a clear liquid from the microtube into a beaker containing a dark liquid"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'PVP Sol' with a blue cap",
+          "beaker with dark liquid",
+          "pipette with a white body and black markings",
+          "researcher wearing blue gloves and a white lab coat",
+          "chemical bottles in the background",
+          "a blue storage box with compartments"
+        ],
+        "visible_text_labels": [
+          "PVP Sol",
+          "See text for preparation of the polyvinylpyrrolidone (PVP) solution"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a clear liquid from a labeled microtube into a beaker. The researcher's gloved hands and the specific labeling of the microtube highlight the controlled nature of the experiment. The background includes various laboratory items, emphasizing the setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.11582525,
+        33.487767
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube with a blue cap and a label that appears to be 'AgC2F3O2'.",
+          "Researcher uses a pipette to transfer a clear liquid from the microtube into a larger glass container."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap and a label",
+          "Pipette with a clear liquid",
+          "Glass container with a metal clamp",
+          "Blue-gloved hands of the researcher",
+          "White lab coat of the researcher",
+          "Blue microtube rack in the background",
+          "Orange-capped bottles on the lab bench"
+        ],
+        "visible_text_labels": [
+          "See text for preparation of the AgC2F3O2 solution"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a clear liquid from a labeled microtube into a larger container, emphasizing the preparation of a specific chemical solution. The researcher's gloved hands and the use of a pipette highlight the controlled and careful nature of the experiment."
+      }
+    }
+  ]
+}

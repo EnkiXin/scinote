@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/video_verification/54818/clip_8_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 25.127333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.28183325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a small tool to manipulate a small, reddish-brown object within a white, grid-like container"
+        ],
+        "objects_visible": [
+          "researcher's hands wearing blue nitrile gloves",
+          "white, grid-like container with a small reddish-brown object inside",
+          "small metallic tool used for manipulation",
+          "white paper or surface underneath the container"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on precise manipulation of a small object within a grid-like container, highlighting the use of a specialized tool. The blue nitrile gloves indicate a controlled, sterile environment. The 'jove' logo suggests this is part of a scientific or educational video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.28183325,
+        12.5636665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "viewing labeled glass containers"
+        ],
+        "objects_visible": [
+          "two transparent glass containers with pink labels",
+          "a dark surface on which the containers are placed"
+        ],
+        "visible_text_labels": [
+          "95%",
+          "Xylene"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on two glass containers, each labeled with a pink sticker. One container is labeled '95%' and the other 'Xylene', suggesting they contain different solutions or chemicals. The containers are placed on a dark surface, emphasizing their transparency and the labels."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.5636665,
+        18.845499750000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a white tissue sample into a labeled glass container filled with a clear liquid",
+          "researcher adjusts the tissue sample within the container using a tool"
+        ],
+        "objects_visible": [
+          "two glass containers with pink labels",
+          "a white tissue sample",
+          "a blue-gloved hand",
+          "a metal tool for manipulating the tissue"
+        ],
+        "visible_text_labels": [
+          "Xylene",
+          "95%"
+        ],
+        "quantities": [
+          "two containers"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of placing a tissue sample into a container labeled 'Xylene', indicating a step in a tissue processing procedure. The use of a metal tool for adjustment highlights the need for careful handling. The presence of another container labeled '95%' suggests a sequential process involving different solutions."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        18.845499750000002,
+        25.127333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "containers are filled with clear liquid solutions"
+        ],
+        "objects_visible": [
+          "four transparent containers with pink labels",
+          "black text overlay with instructions"
+        ],
+        "visible_text_labels": [
+          "95%, 75%, and 50%",
+          "3 min each"
+        ],
+        "quantities": [
+          "95%",
+          "75%",
+          "50%",
+          "3 min each"
+        ],
+        "key_distinguishing_features": "The segment shows four labeled containers with specific percentage solutions, indicating a step in a protocol involving timed exposure. The text overlay provides precise instructions for the duration and concentration of the solutions. The setup suggests a controlled experimental process."
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/video_verification/50191/clip_5_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 36.870167,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.21754175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher uses a pipette to transfer a pink liquid from a labeled bottle into the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "pipette with a pink liquid",
+          "bottle labeled 'gibco' with a white cap and a yellow label",
+          "yellow foam block with multiple holes",
+          "petri dish with a blue cap",
+          "plastic container with pipette tips"
+        ],
+        "visible_text_labels": [
+          "gibco",
+          "AminoMAX C(-)",
+          "100 mL",
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "100 mL"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer using a pipette, with a focus on the labeled bottle and microtube. The pink liquid and the specific labeling on the bottle are distinctive features. The yellow foam block with multiple holes is also a notable element in the setup."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.21754175,
+        18.4350835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a petri dish containing a pink liquid and a small black object into a biosafety cabinet"
+        ],
+        "objects_visible": [
+          "petri dish with pink liquid and a small black object",
+          "biosafety cabinet with various laboratory items",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The petri dish contains a pink liquid with a small black object, possibly a tool or a sample, which is distinct. The researcher is carefully handling the petri dish, indicating a controlled and precise action. The biosafety cabinet is equipped with various laboratory items, suggesting a sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.4350835,
+        27.65262525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish with a clear, transparent medium",
+          "researcher uses a pipette to add a small volume of liquid into the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a clear, transparent medium",
+          "pipette with a pink-colored liquid",
+          "yellow rack with multiple compartments",
+          "bottle labeled 'HyClone' with a white cap",
+          "another petri dish with a clear medium"
+        ],
+        "visible_text_labels": [
+          "HyClone",
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid added to the petri dish"
+        ],
+        "key_distinguishing_features": "This segment shows the precise addition of a liquid to a petri dish using a pipette, highlighting the careful handling of materials. The presence of a labeled 'HyClone' bottle and a yellow rack suggests a controlled laboratory environment. The focus is on the execution phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.65262525,
+        36.870167
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with pink-colored liquid",
+          "petri dish containing a clear medium",
+          "yellow container in the background",
+          "red container with a label",
+          "bottle labeled 'HyClone'"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "HyClone",
+          "Advanced DMEM/F12"
+        ],
+        "quantities": [
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a specific volume of DMEM medium into a petri dish, highlighting the controlled nature of the experiment. The pink color of the medium and the labeled containers emphasize the importance of accurate reagent identification. The background setup with various containers suggests a well-organized laboratory environment."
+      }
+    }
+  ]
+}

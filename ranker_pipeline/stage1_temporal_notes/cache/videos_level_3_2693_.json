@@ -1,0 +1,188 @@
+{
+  "video_id": "videos/level_3/2693_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 435.754667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        108.93866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Illustration of a pipette transferring liquid into a 24-well tissue culture tray",
+          "Illustration of a petri dish with a grid pattern and a pipette adding liquid",
+          "Illustration of a test tube with a red liquid being poured into a larger container"
+        ],
+        "objects_visible": [
+          "24-well tissue culture tray with labeled wells",
+          "Petri dish with a grid pattern",
+          "Test tubes containing red liquid",
+          "Pipette with a flexible tube",
+          "Bar graphs comparing bacterial attachment and internalization"
+        ],
+        "visible_text_labels": [
+          "24 well tissue culture tray",
+          "S. aureus",
+          "L. lactis",
+          "No bacteria attached",
+          "No bacteria attached/Internalized",
+          "WT",
+          "\u0394fnb",
+          "\u0394fnb pFnR0",
+          "\u0394fnb pFnBA4",
+          "-ve CTL",
+          "pRM9"
+        ],
+        "quantities": [
+          "24 wells in the tissue culture tray",
+          "Bar graph values ranging from 10^2 to 10^6 for bacterial counts"
+        ],
+        "key_distinguishing_features": "This segment features detailed illustrations of laboratory equipment and procedures, including a 24-well tissue culture tray and bar graphs comparing bacterial attachment and internalization. The visual focus is on the preparation phase of an experiment involving S. aureus and L. lactis."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        108.93866675,
+        217.8773335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish",
+          "researcher places petri dishes containing cell cultures into an incubator"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with a red plunger",
+          "petri dishes with cell cultures",
+          "incubator with a digital display",
+          "red plastic rack for petri dishes"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Incubate 37\u00b0C, 48 hrs or until confluency"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "~200uL of DMEM medium",
+          "37\u00b0C",
+          "48 hours"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of DMEM medium and the preparation of cell cultures for incubation. The use of a pipette to transfer a specific volume of medium is highlighted, along with the clear labeling of the microtube. The incubation conditions are explicitly stated, emphasizing the controlled environment required for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        217.8773335,
+        326.81600025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a well of a 24-well plate",
+          "researcher places the microtube back into a red tube rack"
+        ],
+        "objects_visible": [
+          "red tube rack holding multiple microtubes",
+          "24-well plate with clear wells containing pink liquid",
+          "pipette with a blue plunger and a white tip",
+          "microtube labeled 'DMEM' with a blue cap"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "200uL",
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of DMEM medium into a 24-well plate, highlighting the use of a pipette for accurate volume control. The pink color of the medium is distinctive, and the researcher's actions are methodical and deliberate."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        326.81600025,
+        435.754667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "presents bar graph data for S. aureus internalization",
+          "presents bar graph data for L. lactis attachment/internalization"
+        ],
+        "objects_visible": [
+          "bar graph showing S. aureus internalization data",
+          "bar graph showing L. lactis attachment/internalization data",
+          "female researcher in a lab coat"
+        ],
+        "visible_text_labels": [
+          "S. aureus",
+          "L. lactis",
+          "No. bacteria internalized",
+          "No. bacteria attached/internalized",
+          "WT",
+          "\u0394fnb",
+          "pFnR0",
+          "pFnBA4",
+          "\u0394fnb pRM9",
+          "-ve CTL",
+          "jove"
+        ],
+        "quantities": [
+          "150,000 bacteria internalized for WT S. aureus",
+          "10,000 bacteria attached/internalized for WT L. lactis"
+        ],
+        "key_distinguishing_features": "This segment focuses on the presentation of experimental data using bar graphs, highlighting differences in bacterial internalization and attachment. The researcher is seated, and the graphs are prominently displayed, emphasizing the comparative analysis of various bacterial strains and genetic modifications."
+      }
+    }
+  ]
+}

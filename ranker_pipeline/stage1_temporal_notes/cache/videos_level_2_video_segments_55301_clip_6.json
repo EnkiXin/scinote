@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_segments/55301/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.234,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.5585
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a syringe with a needle attached",
+          "researcher prepares to inject a plant leaf"
+        ],
+        "objects_visible": [
+          "purple-gloved hands",
+          "a syringe with a needle",
+          "a small potted plant with green leaves",
+          "a blue test tube rack with several test tubes containing a clear liquid",
+          "a pipette and other laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of an experiment involving plant injection. The researcher's hands are prominently featured, handling a syringe with precision. The background includes laboratory equipment, emphasizing a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.5585,
+        15.117
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher injects a leaf with a syringe",
+          "researcher holds a leaf steady with one hand"
+        ],
+        "objects_visible": [
+          "green leafy plant in a black pot",
+          "purple nitrile gloves",
+          "transparent syringe with measurement markings"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "~1 mL of liquid in the syringe"
+        ],
+        "key_distinguishing_features": "The researcher is carefully injecting a leaf, indicating a precise and controlled action. The use of purple gloves and a syringe suggests a sterile and scientific procedure. The leaf is held steady, ensuring accurate delivery of the substance."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.117,
+        22.6755
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher injects a liquid into a leaf using a syringe",
+          "researcher holds the leaf steady with a gloved hand"
+        ],
+        "objects_visible": [
+          "green leaf of a plant",
+          "black pot containing soil and plant",
+          "purple nitrile gloves",
+          "1 mL syringe with a needle"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "~0.5 mL of liquid in the syringe"
+        ],
+        "key_distinguishing_features": "The segment shows a precise injection technique into a leaf, highlighting the careful handling of the plant and the syringe. The researcher's gloved hands ensure sterility and control during the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.6755,
+        30.234
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher wearing purple gloves handles a small potted plant",
+          "researcher injects a syringe filled with a clear liquid into the soil of the plant"
+        ],
+        "objects_visible": [
+          "a small potted plant with green leaves and brown soil",
+          "a syringe with a clear liquid and measurement markings",
+          "purple gloves worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "the syringe contains approximately 1 mL of liquid"
+        ],
+        "key_distinguishing_features": "This segment shows a precise action of injecting a liquid into a plant's soil, highlighting the use of a syringe for controlled delivery. The researcher's gloves and the plant's small size are notable features."
+      }
+    }
+  ]
+}

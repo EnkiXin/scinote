@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/step_prediction/55080/clip_2_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 21.208833,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.30220825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a blue surgical drape over a surface",
+          "researcher adjusts the drape to cover the area"
+        ],
+        "objects_visible": [
+          "blue surgical drape",
+          "researcher wearing a white lab coat, gloves, a hairnet, and a face mask",
+          "animal (likely a mouse) on a surface"
+        ],
+        "visible_text_labels": [
+          "Needle prevents shear stress",
+          "Anesthesia: ketamine 87.5 mg/kg + xylazine 12.5 mg/kg i.p. Analgesia: bupivacaine hydrochloride 2.5 mg/mL, s.c."
+        ],
+        "quantities": [
+          "87.5 mg/kg",
+          "12.5 mg/kg",
+          "2.5 mg/mL"
+        ],
+        "key_distinguishing_features": "The researcher is preparing the surgical area by laying down a sterile drape. The text on the screen provides specific details about the anesthesia and analgesia dosages used in the procedure. The segment highlights the initial steps in a controlled laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.30220825,
+        10.6044165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a white mouse with gloved hands",
+          "researcher uses a pair of black scissors to trim the mouse's fur"
+        ],
+        "objects_visible": [
+          "white mouse with pink ears and tail",
+          "black scissors with a metallic blade",
+          "gloved hands of the researcher",
+          "blue surgical drape"
+        ],
+        "visible_text_labels": [
+          "Anesthesia: ketamine 87.5 mg/kg + xylazine 12.5 mg/kg i.p.",
+          "Analgesia: bupivacaine hydrochloride 2.5 mg/mL, s.c."
+        ],
+        "quantities": [
+          "87.5 mg/kg",
+          "12.5 mg/kg",
+          "2.5 mg/mL"
+        ],
+        "key_distinguishing_features": "The segment shows a white mouse being prepared for a procedure, with its fur being trimmed. The researcher's actions are precise, and the text on the screen provides specific details about the anesthesia and analgesia used. The blue surgical drape and gloved hands emphasize a sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.6044165,
+        15.906624749999999
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "gently holds a white mouse with gloved hands",
+          "uses a wooden stick to touch the mouse's whiskers"
+        ],
+        "objects_visible": [
+          "white mouse with red eyes",
+          "wooden stick",
+          "gloved hands",
+          "blue surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise interaction between the gloved hands and the mouse, using a wooden stick to stimulate the whiskers. The mouse is held gently, indicating a careful and controlled experiment. The blue surface provides a clean and contrasting background for the activity."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        15.906624749999999,
+        21.208833
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher applies a brownish-orange substance from a small container onto a mouse's incision site",
+          "researcher holds the mouse steady with gloved hands"
+        ],
+        "objects_visible": [
+          "white mouse with an open incision revealing internal tissue",
+          "researcher's gloved hands",
+          "small transparent container with a brownish-orange substance",
+          "blue surgical surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise application of a substance to a surgical site on a mouse, highlighting a step in a medical or experimental procedure. The researcher's careful handling of the mouse and the substance suggests a controlled and deliberate action. The presence of the 'jove' label indicates this is part of a scientific demonstration."
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/video_verification/59338/clip_9_removed_step_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 27.153333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.78833325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher gently holds a small plant with visible roots in their hands",
+          "researcher examines the plant's roots closely"
+        ],
+        "objects_visible": [
+          "small plant with thin, brown roots",
+          "researcher's hands with white lab coat sleeves",
+          "black plastic tray with grid pattern in the background",
+          "green container partially visible behind the tray"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the detailed examination of a small plant's roots, highlighting the researcher's careful handling. The background includes a black plastic tray and a green container, suggesting a laboratory setting. The absence of text labels emphasizes the visual inspection process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.78833325,
+        13.5766665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher rinses a petri dish under running water from a faucet",
+          "researcher places a small amount of a substance into a weighing pan on a digital scale"
+        ],
+        "objects_visible": [
+          "petri dish with a brownish substance inside",
+          "digital scale with a display reading '0.00000 g'",
+          "weighing pan on the digital scale",
+          "laboratory sink with a chrome faucet",
+          "laboratory countertop with various items"
+        ],
+        "visible_text_labels": [
+          "0.00000 g"
+        ],
+        "quantities": [
+          "0.00000 g"
+        ],
+        "key_distinguishing_features": "This segment shows the preparation phase where a petri dish is being rinsed and a substance is being weighed. The digital scale is prominently displayed with a precise reading of '0.00000 g', indicating the start of a precise measurement process. The researcher's actions are methodical, emphasizing the importance of cleanliness and accuracy in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.5766665,
+        20.36499975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a small container on a digital scale",
+          "researcher picks up a labeled bottle"
+        ],
+        "objects_visible": [
+          "digital scale with a reading of 0.23288 g",
+          "small container on the scale",
+          "labeled bottle with a purple label",
+          "white foam block with multiple cylindrical holes"
+        ],
+        "visible_text_labels": [
+          "METTLER TOLEDO",
+          "0.23288 g"
+        ],
+        "quantities": [
+          "0.23288 g"
+        ],
+        "key_distinguishing_features": "The segment focuses on precise measurement using a digital scale, with a clear display of the weight reading. The labeled bottle and foam block suggest preparation for a subsequent step in the experiment. The researcher's actions are deliberate and careful, emphasizing accuracy."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        20.36499975,
+        27.153333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher uses a small tool to place a sample into a container on a digital scale",
+          "researcher adjusts the sample in the container"
+        ],
+        "objects_visible": [
+          "digital scale with a reading of 2.48678 g",
+          "small cylindrical container with a brown sample inside",
+          "small tool held by the researcher",
+          "laboratory bench with a glass partition"
+        ],
+        "visible_text_labels": [
+          "2.48678 g",
+          "METTLER TOLEDO"
+        ],
+        "quantities": [
+          "2.48678 g"
+        ],
+        "key_distinguishing_features": "The segment focuses on precise measurement, as indicated by the digital scale's reading. The researcher's careful handling of the sample suggests a need for accuracy. The environment is a controlled laboratory setting, as evidenced by the glass partition and the specialized equipment."
+      }
+    }
+  ]
+}

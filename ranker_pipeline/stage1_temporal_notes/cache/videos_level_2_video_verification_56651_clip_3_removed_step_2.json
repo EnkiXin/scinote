@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_verification/56651/clip_3_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.9042,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.72605
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a clear cylindrical container on a perforated metal surface",
+          "researcher adjusts the position of the container"
+        ],
+        "objects_visible": [
+          "clear cylindrical container",
+          "perforated metal surface",
+          "researcher wearing a white lab coat and blue gloves",
+          "whiteboard with handwritten notes and dates"
+        ],
+        "visible_text_labels": [
+          "Test 1",
+          "Test 2",
+          "Test 3",
+          "Pre-Post-operation Days",
+          "10/7",
+          "10/8",
+          "10/9",
+          "10/10",
+          "10/11",
+          "10/12",
+          "10/13"
+        ],
+        "quantities": [
+          "5.8",
+          "9.13"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a clear cylindrical container is carefully placed on a perforated metal surface. The researcher's actions are deliberate, suggesting a controlled environment. The whiteboard in the background provides context with handwritten notes and dates, indicating a timeline for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.72605,
+        15.4521
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a transparent animal cage on a metal mesh platform",
+          "researcher adjusts the cage to ensure it is stable"
+        ],
+        "objects_visible": [
+          "transparent animal cage with a white mouse inside",
+          "metal mesh platform with a grid pattern",
+          "researcher wearing a white lab coat, blue gloves, and a face mask"
+        ],
+        "visible_text_labels": [
+          "Let the animal acclimate for \u2265 2 h"
+        ],
+        "quantities": [
+          "\u2265 2 h"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a white mouse is placed in a transparent cage for acclimation. The researcher ensures the cage is properly positioned on a metal mesh platform, emphasizing the importance of a controlled environment. The text overlay specifies the acclimation time requirement."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.4521,
+        23.17815
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a white mouse into a metal mesh cage",
+          "researcher uses a blue tool to interact with the mouse"
+        ],
+        "objects_visible": [
+          "white mouse with a visible tail",
+          "metal mesh cage with a grid pattern",
+          "blue tool held by the researcher",
+          "researcher wearing a white lab coat and protective mask"
+        ],
+        "visible_text_labels": [
+          "5-8s"
+        ],
+        "quantities": [
+          "5-8 seconds"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a white mouse into a metal mesh cage, highlighting the use of a blue tool for interaction. The visible text '5-8s' suggests a specific time frame for the action. The researcher's protective attire underscores the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.17815,
+        30.9042
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "mouse is observed through a metal mesh"
+        ],
+        "objects_visible": [
+          "mouse with visible pink ears and whiskers behind a metal mesh"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a mouse behind a metal mesh, likely for observation purposes. The close-up view highlights the mouse's ears and whiskers, emphasizing the experimental subject. There are no other objects or actions present in this segment."
+      }
+    }
+  ]
+}

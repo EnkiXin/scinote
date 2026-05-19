@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/54752/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.761,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.94025
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher opens the sample compartment of a UV-1600PC Spectrophotometer",
+          "researcher places a cuvette into the sample compartment"
+        ],
+        "objects_visible": [
+          "UV-1600PC Spectrophotometer with a digital display and keypad",
+          "a cuvette being handled with gloved hands",
+          "a blue cuvette holder"
+        ],
+        "visible_text_labels": [
+          "UV-1600PC Spectrophotometer",
+          "Photometry",
+          "0.342 Abs",
+          "600.0 nm"
+        ],
+        "quantities": [
+          "0.342 Abs",
+          "600.0 nm"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a cuvette into a spectrophotometer for absorbance measurement. The digital display shows specific readings, indicating the measurement phase of the experiment. The researcher's gloved hand ensures contamination-free handling of the cuvette."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.94025,
+        19.8805
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a white cap and transfers its contents using a pipette",
+          "pipettes a clear liquid from the microtube into a test tube held in a red rack"
+        ],
+        "objects_visible": [
+          "red test tube rack with multiple test tubes",
+          "yellow microtube rack with several microtubes",
+          "pipette with a clear tip",
+          "microtube with a white cap",
+          "test tube in the red rack",
+          "blue pipette tip box with green tips"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a liquid from a microtube to a test tube using a pipette. The use of color-coded racks (red and yellow) helps organize the tubes, and the researcher's gloved hands emphasize the sterile handling of materials."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.8805,
+        29.820750000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a small volume of liquid into a petri dish",
+          "uses a pipette to transfer liquid from a microtube"
+        ],
+        "objects_visible": [
+          "petri dish with a clear, gel-like medium",
+          "microtube held in a gloved hand",
+          "pipette with a fine tip"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid, likely in microliters"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid sample into a petri dish, highlighting the use of a pipette for accuracy. The gloved hand and petri dish suggest a sterile environment, emphasizing the importance of contamination prevention in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.820750000000004,
+        39.761
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a small volume of liquid into a petri dish containing a solid medium",
+          "places the petri dish on a surface inside a biosafety cabinet"
+        ],
+        "objects_visible": [
+          "petri dish with a solid medium and handwritten label",
+          "pipette with a fine tip",
+          "biosafety cabinet with a grid pattern on the back panel",
+          "yellow grid box with compartments"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid (likely in microliters)"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action into a petri dish, emphasizing aseptic technique within a biosafety cabinet. The handwritten label on the petri dish suggests a customized experimental setup. The presence of a yellow grid box in the background adds context to the laboratory environment."
+      }
+    }
+  ]
+}

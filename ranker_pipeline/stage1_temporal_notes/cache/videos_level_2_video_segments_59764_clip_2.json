@@ -1,0 +1,165 @@
+{
+  "video_id": "videos/level_2/video_segments/59764/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 29.921,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.48025
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "hand adjusts a knob on a white electronic device labeled 'VOLTCRAFT'",
+          "hand connects a yellow cable to a port on the device"
+        ],
+        "objects_visible": [
+          "white VOLTCRAFT electronic device with a digital display showing '0.00, 0.00'",
+          "yellow cable with a connector",
+          "RIGOL electronic device with a digital display and various buttons",
+          "gray cable connected to the RIGOL device"
+        ],
+        "visible_text_labels": [
+          "VOLTCRAFT",
+          "RIGOL",
+          "FILTER",
+          "AUX OUT"
+        ],
+        "quantities": [
+          "0.00, 0.00 (digital display reading on the VOLTCRAFT device)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of electronic equipment, specifically the VOLTCRAFT device, with a hand making adjustments and connections. The digital display and labeled ports are clearly visible, emphasizing the setup process. The presence of both VOLTCRAFT and RIGOL devices suggests a complex experimental setup involving multiple instruments."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.48025,
+        14.9605
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "hand adjusts a knob on the VOLTCRAFT power supply",
+          "hand connects a yellow and red probe to the power supply"
+        ],
+        "objects_visible": [
+          "white VOLTCRAFT power supply with digital display showing '0.00 0.00 0.0'",
+          "SIGOL DG1022 function generator with various buttons and a display",
+          "yellow and red probes connected to the power supply"
+        ],
+        "visible_text_labels": [
+          "VOLTCRAFT",
+          "SIGOL",
+          "DG1022"
+        ],
+        "quantities": [
+          "0.00 0.00 0.0 (digital display reading on power supply)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a power supply, highlighting the interaction with the device's controls and the connection of probes. The digital display and the specific model names on the equipment are clearly visible, emphasizing the technical setup. The hand's actions are deliberate, indicating a careful measurement process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.9605,
+        22.44075
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "hand adjusts a knob on the power supply unit",
+          "hand connects a yellow probe to a test point"
+        ],
+        "objects_visible": [
+          "white power supply unit with digital display showing '120.0 0.0'",
+          "gray power supply unit with digital display showing '120.0 0.0'",
+          "white power strip with multiple outlets",
+          "yellow probe connected to a test point"
+        ],
+        "visible_text_labels": [
+          "120.0 0.0",
+          "PRODIGY"
+        ],
+        "quantities": [
+          "120.0",
+          "0.0"
+        ],
+        "key_distinguishing_features": "This segment focuses on the adjustment and connection of electrical equipment, specifically power supply units. The digital displays on the units show precise voltage and current readings. The hand's interaction with the equipment highlights the setup process for an electrical measurement."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.44075,
+        29.921
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "hand adjusts knob on power supply unit"
+        ],
+        "objects_visible": [
+          "white power supply unit with digital display showing '120 0.0'",
+          "stacked power supply units with various knobs and ports",
+          "yellow and black cables connected to the units",
+          "white power strip with multiple outlets"
+        ],
+        "visible_text_labels": [
+          "120 0.0",
+          "0.00 0.00"
+        ],
+        "quantities": [
+          "120 (voltage reading)",
+          "0.0 (current reading)",
+          "0.00 (voltage reading on another unit)",
+          "0.00 (current reading on another unit)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the adjustment of a power supply unit, with a hand interacting with the controls. The digital displays provide precise readings of voltage and current. The setup includes multiple interconnected power supply units, indicating a complex electrical configuration."
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/61243/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 28.057,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.01425
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a tube into a container",
+          "researcher places a tube into a centrifuge"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat, gloves, and a face mask",
+          "pipette with a blue plunger",
+          "centrifuge labeled 'Centrifuge 5430 R'",
+          "tube with a blue cap",
+          "centrifuge control panel with digital display"
+        ],
+        "visible_text_labels": [
+          "Alternative: Use magnet to remove beads",
+          "20 min 19,000 x g 4\u00b0C"
+        ],
+        "quantities": [
+          "20 min",
+          "19,000 x g",
+          "4\u00b0C"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher performing precise liquid transfer using a pipette and then placing a tube into a centrifuge set to specific parameters. The centrifuge's digital display indicates a controlled environment for the experiment. The text overlay suggests an alternative method involving a magnet for bead removal."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.01425,
+        14.0285
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a microtube into a container filled with ice"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and green gloves",
+          "1.5mL microtube with a clear body and a white cap",
+          "pipette with a transparent tip",
+          "blue container filled with ice cubes",
+          "white tray in the background"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette, with the microtube and ice container being central to the scene. The researcher's gloved hand and the close-up view emphasize the careful handling of the materials. The ice-filled container suggests a need to maintain the temperature of the liquid being transferred."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.0285,
+        21.042749999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a microtube",
+          "researcher places the microtube back into a blue container filled with ice"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and green gloves",
+          "blue container filled with ice cubes",
+          "microtubes with green caps arranged in the ice",
+          "pipette with a white body and a yellow plunger",
+          "a white container labeled 'lysis buffer' in the background",
+          "various other lab equipment and containers in the background"
+        ],
+        "visible_text_labels": [
+          "lysis buffer"
+        ],
+        "quantities": [
+          "microtubes with green caps"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a pipette to dispense liquid into a microtube, emphasizing the importance of maintaining a cold environment for the samples. The presence of ice cubes in the blue container highlights the need for temperature control in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        21.042749999999998,
+        28.057
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into a labeled tube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled '1x lysis buffer'",
+          "pipette with a white tip",
+          "blue container filled with ice cubes"
+        ],
+        "visible_text_labels": [
+          "1x lysis buffer",
+          "Alternative: Flash freeze in LN2 for -80\u00b0C -storage",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of pipetting liquid into a labeled microtube placed in a bed of ice. The focus is on maintaining the temperature of the sample, as indicated by the surrounding ice and the text about flash freezing. The tube is clearly labeled, emphasizing the importance of proper sample identification."
+      }
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "video_id": "54674",
+  "benchmark": "scivideobench",
+  "duration_seconds": 433.514667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        108.37866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A man in a white lab coat and blue gloves opens a large cylindrical machine labeled 'Wash 3x'.",
+          "The man places a small, transparent container into the machine."
+        ],
+        "objects_visible": [
+          "A large cylindrical machine with a digital display and control buttons.",
+          "A small, transparent container with a white lid."
+        ],
+        "visible_text_labels": [
+          "Wash 3x",
+          "Bjorn Dieu",
+          "KU Leuven"
+        ],
+        "quantities": [
+          "One transparent container"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the use of a specialized washing machine in a laboratory setting, indicating a preparatory step in a scientific process. The presence of a digital display on the machine suggests automated control of the washing process. The individual's attire and the environment confirm a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        108.37866675,
+        216.7573335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Pir2' with a blue cap",
+          "researcher uses a pipette to transfer a clear liquid from the microtube into a labeled container",
+          "researcher places a white container labeled 'Ag exchange' on a metal surface",
+          "researcher pours a white powdery substance from a white bowl into a crucible",
+          "researcher places the crucible into a muffle furnace"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "pipette with clear liquid",
+          "white container labeled 'Ag exchange'",
+          "white bowl containing white powdery substance",
+          "crucible",
+          "muffle furnace"
+        ],
+        "visible_text_labels": [
+          "Pir2",
+          "Ag exchange"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "clear liquid transferred using pipette"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the precise handling of a microtube and the transfer of a clear liquid into a labeled container. The pouring of a white powdery substance into a crucible and its placement into a muffle furnace highlights a specific step in a thermal treatment process. The actions are methodical and indicate a controlled experimental procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        216.7573335,
+        325.13600025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and transfers liquid from a labeled bottle into a microtube",
+          "researcher places the microtube into a rack",
+          "researcher opens a large incubator and places a container inside",
+          "researcher sprays a surface with a disinfectant and wipes it with a tissue",
+          "researcher operates a digital pressure gauge, adjusting it to a specific reading"
+        ],
+        "objects_visible": [
+          "a white bottle labeled 'TALU-Ag/BEI Suspension'",
+          "a blue microtube rack",
+          "a large incubator with a glass door and control panel",
+          "a bottle of disinfectant spray",
+          "a digital pressure gauge with a yellow and black label"
+        ],
+        "visible_text_labels": [
+          "TALU-Ag/BEI Suspension",
+          "Repeat 4x",
+          "jove"
+        ],
+        "quantities": [
+          "0.11 (reading on the digital pressure gauge)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on precise laboratory procedures, including liquid transfer, incubation, and sterilization. The use of a digital pressure gauge adds a unique element, suggesting a step involving controlled pressure conditions. The repeated action indicated by 'Repeat 4x' emphasizes the importance of consistency in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        325.13600025,
+        433.514667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher gestures with hands while explaining data",
+          "Graphs and data visualizations are displayed on screen"
+        ],
+        "objects_visible": [
+          "Researcher wearing a light blue shirt",
+          "Graphs showing temperature vs. sample weight percentage",
+          "Fluorescence intensity graphs with various temperature labels",
+          "Three molecular structures with different colored centers (yellow, green, blue)"
+        ],
+        "visible_text_labels": [
+          "Temperature (\u00b0C)",
+          "Sample weight (%)",
+          "Normalized intensity (a.u.)",
+          "Wavelength (nm)",
+          "RT, 0\u00b0C, 20\u00b0C, 40\u00b0C, 60\u00b0C, 80\u00b0C, 100\u00b0C, 120\u00b0C, 140\u00b0C, 160\u00b0C, 180\u00b0C, 200\u00b0C, 220\u00b0C, 240\u00b0C, 260\u00b0C, 280\u00b0C, 300\u00b0C, 320\u00b0C, 340\u00b0C, 360\u00b0C, 380\u00b0C, 400\u00b0C, 420\u00b0C, 440\u00b0C"
+        ],
+        "quantities": [
+          "Temperature range from 0\u00b0C to 440\u00b0C",
+          "Sample weight percentage ranging from 0% to 100%",
+          "Normalized intensity values on the y-axis of the fluorescence graph"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where the researcher explains data visualizations. The graphs display temperature-dependent changes in sample weight and fluorescence intensity, with distinct molecular structures shown alongside. The segment highlights the relationship between temperature and material properties."
+      }
+    }
+  ]
+}

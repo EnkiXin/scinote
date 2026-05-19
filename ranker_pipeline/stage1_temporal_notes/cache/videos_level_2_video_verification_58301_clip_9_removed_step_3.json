@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/video_verification/58301/clip_9_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 23.833047,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.95826175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher presses buttons on a control panel of a scientific instrument"
+        ],
+        "objects_visible": [
+          "scientific instrument with a digital display and control buttons",
+          "researcher's hands wearing blue nitrile gloves",
+          "white lab coat",
+          "metallic laboratory equipment with tubes and wires"
+        ],
+        "visible_text_labels": [
+          "BROOKS",
+          "Power Supply and Temp Ctrl"
+        ],
+        "quantities": [
+          "digital display showing numerical values"
+        ],
+        "key_distinguishing_features": "The segment focuses on the interaction between the researcher and a complex scientific instrument, highlighting the precision required in operating such equipment. The researcher's gloved hands are actively engaged in adjusting settings, emphasizing the importance of sterility and accuracy in the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.95826175,
+        11.9165235
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher presses buttons on a digital control panel of a drying oven"
+        ],
+        "objects_visible": [
+          "drying oven with a digital display showing '56.01' and '01:30'",
+          "researcher's gloved hand interacting with the control panel",
+          "text label 'Precise Program-controlled Blasting Drying Oven'"
+        ],
+        "visible_text_labels": [
+          "Precise Program-controlled Blasting Drying Oven",
+          "56.01",
+          "01:30"
+        ],
+        "quantities": [
+          "56.01 (likely temperature in degrees Celsius)",
+          "01:30 (likely time in minutes and seconds)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise control of a drying oven, highlighting the digital display and the researcher's interaction with the control panel. The specific temperature and time settings are clearly visible, emphasizing the controlled nature of the experiment. The drying oven's label provides context for the equipment's function."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.9165235,
+        17.874785250000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [],
+        "objects_visible": [
+          "white microscope with black base",
+          "computer monitor displaying a software interface",
+          "green coiled cable",
+          "white lab coat partially visible on the left",
+          "white fume hood with green tape on the side"
+        ],
+        "visible_text_labels": [
+          "HIDEN",
+          "QGA Professional"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a laboratory setup with a microscope and a computer monitor. The software interface on the monitor suggests data analysis or observation is taking place. The presence of a fume hood and lab coat indicates a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.874785250000002,
+        23.833047
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The video transitions to a title slide displaying the results section of the experiment."
+        ],
+        "objects_visible": [
+          "White background with black text",
+          "Jove logo in the top right corner"
+        ],
+        "visible_text_labels": [
+          "VI. Results: Characterization of Ultrathin High-performance Metal-organic Framework Membranes"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment is distinct as it marks the transition to the results section of the experiment, focusing on the characterization of specific membranes. The slide is clean and text-based, emphasizing the scientific content without visual distractions."
+      }
+    }
+  ]
+}

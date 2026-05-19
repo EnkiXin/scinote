@@ -1,0 +1,167 @@
+{
+  "video_id": "54575",
+  "benchmark": "scivideobench",
+  "duration_seconds": 399.658667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        99.91466675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person wearing a black shirt and a microphone is speaking.",
+          "A person wearing a white shirt and glasses is listening attentively."
+        ],
+        "objects_visible": [
+          "A wooden wall with several framed certificates and awards.",
+          "A microphone clipped to the black shirt."
+        ],
+        "visible_text_labels": [
+          "A High Performance Impedance-based Platform for Evaporation Rate Detection",
+          "Wei-Lung Chou\u00b9, Pee-Yew Lee\u00b2, Cheng-You Chen\u00b2, Yu-Hsin Lin\u00b3, and Yung-Sheng Lin\u2074",
+          "\u00b9Department of Safety, Health, and Environmental Engineering, Hungkuang University",
+          "\u00b2Institute of Materials Engineering, National Taiwan Ocean University",
+          "\u00b3Instrument Technology Research Center, National Applied Research Laboratories",
+          "\u2074Department of Chemical Engineering, National United University"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment features a title slide introducing a scientific study on evaporation rate detection, followed by a scene with two individuals, one speaking and the other listening, in a setting with visible awards and certificates. The title slide provides detailed affiliations of the researchers involved."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        99.91466675,
+        199.8293335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand carefully places a petri dish containing a sample into a UV exposure chamber.",
+          "A researcher wearing a surgical mask and cap uses a pipette to transfer a liquid into a petri dish."
+        ],
+        "objects_visible": [
+          "A petri dish with a sample inside, placed under UV light.",
+          "A UV exposure chamber emitting purple light.",
+          "A pipette with a blue plunger and a clear tip.",
+          "A petri dish with a grid pattern on the bottom."
+        ],
+        "visible_text_labels": [
+          "See text protocol for details of photomask pattern and component specifications"
+        ],
+        "quantities": [
+          "The UV exposure chamber is set to a specific time, indicated by a digital display."
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of samples under UV light, emphasizing sterility and controlled conditions. The use of a grid-patterned petri dish suggests a methodical approach to sample placement. The text overlay indicates a detailed protocol for photomask patterns and component specifications."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        199.8293335,
+        299.74400025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher places a transparent multi-well plate on a green circuit board",
+          "Computer screen displays impedance measurement data for multiple cells"
+        ],
+        "objects_visible": [
+          "Transparent multi-well plate with rectangular wells",
+          "Green circuit board with multiple ports and connections",
+          "Computer screen showing a command-line interface",
+          "Two vials with red labels containing a clear liquid"
+        ],
+        "visible_text_labels": [
+          "freq: 1000, cell: 1, mag: 13.27 (nU), pha: -7.04 (degree)",
+          "freq: 1000, cell: 2, mag: 13.15 (nU), pha: -6.56 (degree)",
+          "freq: 1000, cell: 3, mag: 13.00 (nU), pha: -6.70 (degree)"
+        ],
+        "quantities": [
+          "1000 Hz frequency",
+          "13.27 nU magnitude for cell 1",
+          "13.15 nU magnitude for cell 2",
+          "13.00 nU magnitude for cell 3"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the precise measurement of impedance values for multiple cells using a specialized circuit board. The data is displayed in real-time on a computer screen, providing detailed readings for each cell. The presence of vials with labeled contents suggests the use of specific solutions in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        299.74400025,
+        399.658667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "presents a graph comparing evaporation rates of hyaluronic acid solutions using balance and impedance chip methods",
+          "a person speaks directly to the camera, likely summarizing the findings"
+        ],
+        "objects_visible": [
+          "graph with plotted data points and error bars",
+          "person wearing a black shirt",
+          "certificates and awards on a wooden shelf in the background"
+        ],
+        "visible_text_labels": [
+          "V. Conclusion",
+          "Relative evaporation rate to water",
+          "Hyaluronic acid concentration (%)",
+          "Balance",
+          "Impedance chip",
+          "jove"
+        ],
+        "quantities": [
+          "0 to 1.2% hyaluronic acid concentration",
+          "0 to 1.2 relative evaporation rate"
+        ],
+        "key_distinguishing_features": "This segment focuses on the conclusion of the experiment, presenting a graph that compares evaporation rates using two methods. The background includes certificates and awards, suggesting a professional or academic setting. The person speaking likely provides a summary or interpretation of the results."
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_3/58174_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 486.357333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        121.58933325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand holds a small, clear plastic container with multiple circular cutouts.",
+          "The hand carefully places the container onto a metal platform with various mechanical components."
+        ],
+        "objects_visible": [
+          "A clear plastic container with multiple circular cutouts.",
+          "A metal platform with mechanical components, including a cylindrical lens labeled 'M Plan 10X'.",
+          "A yellow cable running across the platform.",
+          "A gloved hand wearing a blue nitrile glove."
+        ],
+        "visible_text_labels": [
+          "M Plan 10X",
+          "See text protocol for details"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a clear plastic container with circular cutouts onto a metal platform, highlighting the preparation phase of an experiment. The presence of a labeled lens and a yellow cable suggests a setup involving optical or mechanical measurements. The text 'See text protocol for details' indicates that the video is part of a larger instructional protocol."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        121.58933325,
+        243.1786665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a thin, yellow fiber optic cable labeled '780 nm single-mode'.",
+          "Researcher carefully aligns the fiber optic cable with a precision machine component.",
+          "Machine displays 'Hydrogen flow: 140 mL/min' on its screen.",
+          "Researcher adjusts a knob on a device labeled 'BRL TEST' with a serial number '966.275.8376'."
+        ],
+        "objects_visible": [
+          "Thin, yellow fiber optic cable with a blue label.",
+          "Precision machine with a circular component and a red laser beam.",
+          "BRL TEST device with a digital display and control knobs.",
+          "Researcher's gloved hands manipulating the fiber optic cable."
+        ],
+        "visible_text_labels": [
+          "780 nm single-mode",
+          "Hydrogen flow: 140 mL/min",
+          "BRL TEST",
+          "966.275.8376"
+        ],
+        "quantities": [
+          "140 mL/min",
+          "780 nm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise alignment of a 780 nm single-mode fiber optic cable with a machine component, highlighting the importance of accurate setup in the experiment. The hydrogen flow rate of 140 mL/min is prominently displayed, indicating a controlled environment. The BRL TEST device with its specific serial number suggests a specialized piece of equipment used in the process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        243.1786665,
+        364.76799975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand adjusts a green and black connector on a metallic apparatus.",
+          "A hand wearing a blue glove manipulates a transparent tube connected to a device emitting a blue light.",
+          "A hand adjusts a dial on a high voltage power supply labeled 'BERTAN ASSOC ATES.INC MODEL 215'."
+        ],
+        "objects_visible": [
+          "A metallic apparatus with a green and black connector.",
+          "A transparent tube connected to a device emitting a blue light.",
+          "A high voltage power supply labeled 'BERTAN ASSOC ATES.INC MODEL 215'.",
+          "A hand wearing a blue glove."
+        ],
+        "visible_text_labels": [
+          "BERTAN ASSOC ATES.INC",
+          "MODEL 215",
+          "HIGH VOLTAGE POWER SUPPLY",
+          "0 TO 5000V",
+          "0 TO 5mA DC"
+        ],
+        "quantities": [
+          "0 TO 5000V",
+          "0 TO 5mA DC"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise adjustment of a high voltage power supply and the handling of a transparent tube connected to a light-emitting device. The presence of a blue-gloved hand indicates a controlled and careful manipulation of the equipment. The specific model and voltage range of the power supply are clearly visible, emphasizing the technical nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        364.76799975,
+        486.357333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher speaks directly to the camera"
+        ],
+        "objects_visible": [
+          "researcher wearing a white shirt",
+          "background with blurred text and window"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment is distinctive for its focus on the researcher speaking, with no visible experimental actions or objects. The background includes a blurred window and text, suggesting an indoor setting. The JOVE logo is visible in the corner, indicating the video's source."
+      }
+    }
+  ]
+}

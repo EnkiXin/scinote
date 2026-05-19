@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_segments/50191/clip_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 49.611,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.40275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1000 mL graduated cylinder and fills it with a clear liquid",
+          "researcher places the graduated cylinder on the lab bench"
+        ],
+        "objects_visible": [
+          "1000 mL graduated cylinder with clear liquid",
+          "white lab coat worn by the researcher",
+          "latex gloves on the researcher's hands",
+          "scissors on the lab bench",
+          "petri dishes on the lab bench",
+          "white lab bench surface"
+        ],
+        "visible_text_labels": [
+          "See text protocol for full details",
+          "jove"
+        ],
+        "quantities": [
+          "1000 mL graduated cylinder"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a researcher is seen handling a 1000 mL graduated cylinder. The presence of a text overlay suggests that the video is part of a detailed scientific protocol. The lab environment is clean and organized, with various lab tools visible on the bench."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.40275,
+        24.8055
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses scissors to carefully cut through the skin of a mouse",
+          "researcher gently pulls back the skin to expose underlying tissue"
+        ],
+        "objects_visible": [
+          "white mouse with exposed skin and underlying tissue",
+          "metal scissors with black handles",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "Brown adipose tissue, BAT"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise dissection of a mouse, highlighting the exposure of brown adipose tissue. The researcher's actions are meticulous, ensuring minimal damage to the tissue. The visible text label 'Brown adipose tissue, BAT' provides context for the tissue being studied."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        24.8055,
+        37.20825
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate small tissue samples on a white, textured surface",
+          "researcher pours a clear liquid from a petri dish into another petri dish containing tissue samples"
+        ],
+        "objects_visible": [
+          "forceps with metallic, shiny tips",
+          "petri dishes with clear plastic lids",
+          "small, pinkish tissue samples on a white, textured surface",
+          "clear liquid in a petri dish"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple tissue samples (exact count not specified)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of tissue samples using forceps, highlighting the delicate nature of the task. The pouring of a clear liquid suggests a rinsing or medium exchange step in the experiment. The white, textured surface provides a clean and contrasting background for the tissue samples."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        37.20825,
+        49.611
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "hand gently manipulates the exposed tissue area",
+          "hand adjusts the position of the tissue for better visibility"
+        ],
+        "objects_visible": [
+          "exposed white adipose tissue (WAT) with a translucent, gelatinous appearance",
+          "surrounding tissue with visible blood and connective structures",
+          "animal fur around the surgical site"
+        ],
+        "visible_text_labels": [
+          "White adipose tissue, WAT"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the detailed observation of white adipose tissue, with a hand carefully adjusting the tissue for examination. The surrounding area shows signs of surgical exposure, with visible blood and connective tissue. The label 'White adipose tissue, WAT' confirms the tissue type being observed."
+      }
+    }
+  ]
+}

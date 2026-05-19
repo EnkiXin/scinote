@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/step_prediction/2958/clip_7_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 20.474767,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.11869175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "hand reaches towards a test tube labeled '4% PFA'"
+        ],
+        "objects_visible": [
+          "transparent test tube with a white label reading '4% PFA'",
+          "orange cap of the test tube",
+          "blue textured background"
+        ],
+        "visible_text_labels": [
+          "4% PFA",
+          "Corning"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The test tube is clearly labeled with '4% PFA', indicating a specific chemical solution. The orange cap is distinct and contrasts with the transparent tube. The background has a blue, textured appearance, providing a clean and controlled environment for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.11869175,
+        10.2373835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a white refrigerator labeled 'REVCO'",
+          "researcher retrieves a small container from the refrigerator"
+        ],
+        "objects_visible": [
+          "white refrigerator with 'REVCO' label",
+          "researcher wearing a teal lab coat and hairnet",
+          "small container inside the refrigerator"
+        ],
+        "visible_text_labels": [
+          "REVCO"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where the researcher interacts with a refrigerator to retrieve a container. The refrigerator is clearly labeled 'REVCO', and the researcher is dressed in appropriate laboratory attire. The action is precise and deliberate, indicating a controlled environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.2373835,
+        15.35607525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "transfers a small, reddish-brown object using forceps into a petri dish containing a clear liquid"
+        ],
+        "objects_visible": [
+          "forceps holding a reddish-brown object",
+          "petri dish with clear liquid",
+          "test tube labeled '25% ethanol'"
+        ],
+        "visible_text_labels": [
+          "25% ethanol, 1 day",
+          "50% ethanol, 1 day"
+        ],
+        "quantities": [
+          "1 petri dish",
+          "1 test tube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the transfer of a small object using forceps, highlighting the careful handling of samples. The text labels indicate the use of ethanol solutions at specific concentrations and durations, suggesting a step in a fixation or preservation process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        15.35607525,
+        20.474767
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [],
+        "objects_visible": [
+          "15mL conical tube labeled '25% Ethanol' with a clear liquid inside",
+          "orange cap of the conical tube",
+          "text overlay listing ethanol concentrations and durations"
+        ],
+        "visible_text_labels": [
+          "25% ethanol, 1 day",
+          "50% ethanol, 1 day",
+          "75% ethanol, 1 day",
+          "95% ethanol, 2 days",
+          "100% ethanol, 2 days"
+        ],
+        "quantities": [
+          "25% ethanol",
+          "50% ethanol",
+          "75% ethanol",
+          "95% ethanol",
+          "100% ethanol"
+        ],
+        "key_distinguishing_features": "The segment focuses on a 15mL conical tube containing 25% ethanol, with a clear liquid visible inside. The text overlay provides a detailed schedule of ethanol concentrations and their respective durations. The orange cap of the tube is placed beside it, indicating the tube is open."
+      }
+    }
+  ]
+}

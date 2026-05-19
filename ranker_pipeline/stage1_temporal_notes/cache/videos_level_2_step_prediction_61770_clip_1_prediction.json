@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/step_prediction/61770/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.4684,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.8671
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a pipette and a small clear container",
+          "researcher appears to be preparing to transfer liquid"
+        ],
+        "objects_visible": [
+          "brown glass bottle with a red cap and a label",
+          "clear plastic container",
+          "pipette with a blue tip",
+          "various laboratory equipment and supplies on the counter"
+        ],
+        "visible_text_labels": [
+          "SERVA-ALDRICH",
+          "Hazard symbols on the bottle label"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, with the researcher handling a pipette and a small container, likely for liquid transfer. The presence of a labeled bottle with hazard symbols indicates the handling of potentially hazardous chemicals. The setting is a well-equipped laboratory with various supplies visible."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.8671,
+        23.7342
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a small glass beaker with a blue stirring rod",
+          "researcher uses a white tissue to wipe the rim of the beaker"
+        ],
+        "objects_visible": [
+          "a white bottle with a red cap labeled 'Chemical'",
+          "a box of blue nitrile gloves labeled 'L'",
+          "a small glass beaker with a blue stirring rod",
+          "a white tissue",
+          "a digital scale in the background"
+        ],
+        "visible_text_labels": [
+          "SDS: Sodium dodecyl sulphate",
+          "CMC: Carboxymethyl cellulose"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation of a chemical solution, with the researcher carefully handling a beaker and using a tissue to clean it. The presence of labeled chemicals and gloves indicates a controlled laboratory environment. The text labels provide specific chemical names, emphasizing the precision required in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.7342,
+        35.6013
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "stirs a white, cloudy solution in a beaker with a blue stir rod",
+          "transfers the stirred solution into a clear plastic container"
+        ],
+        "objects_visible": [
+          "beaker containing a white, cloudy solution",
+          "blue stir rod",
+          "clear plastic container",
+          "jar labeled 'Bio-Rad' with a white lid"
+        ],
+        "visible_text_labels": [
+          "Bio-Rad",
+          "Calcium Chloride"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the stirring and transfer of a white, cloudy solution, emphasizing the use of a blue stir rod and a clear plastic container. The presence of a labeled 'Bio-Rad' jar suggests the use of specific reagents in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.6013,
+        47.4684
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher holds a clear plastic beaker with a blue stirring rod",
+          "researcher operates a blue CoFramo device with a digital display and multiple buttons"
+        ],
+        "objects_visible": [
+          "blue CoFramo device with a digital display showing '0.000'",
+          "clear plastic beaker containing a white powdery substance",
+          "blue stirring rod",
+          "white container labeled 'BIO-FLORETIICS' with additional text and a barcode",
+          "white gloves on the researcher's hands",
+          "laboratory sink with various equipment and a blue spray bottle in the background"
+        ],
+        "visible_text_labels": [
+          "CoFramo",
+          "BIO-FLORETIICS",
+          "Calcium Carbonate (CaCO3)"
+        ],
+        "quantities": [
+          "digital display reading '0.000'"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of a substance using a CoFramo device, with the researcher's hands actively manipulating the equipment. The presence of a labeled container of Calcium Carbonate suggests a specific chemical analysis is being conducted. The laboratory setting is detailed, with various equipment and a sink visible in the background."
+      }
+    }
+  ]
+}

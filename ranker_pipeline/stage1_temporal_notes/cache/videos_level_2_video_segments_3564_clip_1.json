@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/3564/clip_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 50.645,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.66125
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand adjusts a purple valve on a clear plastic container.",
+          "A hand holds a syringe and injects liquid into a small glass container."
+        ],
+        "objects_visible": [
+          "A brown glass bottle with a white label and cap.",
+          "A clear plastic container with a purple valve and connected tubing.",
+          "A syringe with a clear barrel and plunger.",
+          "A small glass container with a clear liquid.",
+          "A white lab coat worn by the person performing the actions.",
+          "A white table with various laboratory tools and containers."
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "The syringe appears to hold approximately 10 mL of liquid."
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where a researcher is seen handling a syringe and a container with a purple valve. The setup suggests a controlled environment for a scientific procedure, with precise adjustments being made to the equipment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.66125,
+        25.3225
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A hand wearing a white glove adjusts a blue tube connected to a perfusion system."
+        ],
+        "objects_visible": [
+          "A blue perfusion tube with a purple connector and a metallic needle inserted into it.",
+          "A clear plastic perfusion system with multiple tubes and connectors.",
+          "A water bath with a temperature display and control knobs.",
+          "A hand wearing a white glove."
+        ],
+        "visible_text_labels": [
+          "Warm perfusion buffer to 37 \u00b0C in a water bath"
+        ],
+        "quantities": [
+          "37 \u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a perfusion buffer, highlighting the precise adjustment of a blue tube connected to a perfusion system. The text overlay specifies warming the buffer to 37 \u00b0C, emphasizing the controlled temperature requirement. The presence of a gloved hand indicates a sterile or controlled environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.3225,
+        37.98375
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe and injects a clear liquid into a petri dish containing a blue substance",
+          "researcher manipulates the syringe plunger to control the flow of liquid"
+        ],
+        "objects_visible": [
+          "petri dish with a blue substance inside",
+          "clear syringe with a needle",
+          "various surgical instruments including scissors and forceps",
+          "a bottle with a red label",
+          "a digital thermometer",
+          "a clear bottle with a blue liquid"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "the syringe appears to hold approximately 10 mL of liquid"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise injection of a clear liquid into a petri dish, highlighting the use of a syringe in a controlled laboratory setting. The presence of surgical instruments and a digital thermometer suggests a sterile and precise experimental environment. The blue substance in the petri dish contrasts with the clear liquid, making the injection process visually distinct."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        37.98375,
+        50.645
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a bottle containing a blue liquid",
+          "researcher pours the blue liquid into a clear glass container"
+        ],
+        "objects_visible": [
+          "researcher wearing white gloves and a white lab coat",
+          "a bottle with a blue cap containing a blue liquid",
+          "a clear glass container with a narrow neck",
+          "a blue tube connected to a larger apparatus",
+          "various laboratory tools and equipment on the table"
+        ],
+        "visible_text_labels": [
+          "4% paraformaldehyde, RT"
+        ],
+        "quantities": [
+          "4% paraformaldehyde"
+        ],
+        "key_distinguishing_features": "The segment focuses on the handling of a specific chemical, 4% paraformaldehyde, at room temperature. The researcher's precise actions in opening and pouring the liquid highlight the careful handling required in this step. The blue color of the liquid is a distinctive feature in this segment."
+      }
+    }
+  ]
+}

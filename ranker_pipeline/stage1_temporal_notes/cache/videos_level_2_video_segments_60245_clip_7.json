@@ -1,0 +1,186 @@
+{
+  "video_id": "videos/level_2/video_segments/60245/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 28.822,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.2055
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "computer screen displays microscopic image",
+          "software interface shows various controls and settings"
+        ],
+        "objects_visible": [
+          "NEC computer monitor",
+          "microscopic image of cellular structures",
+          "software interface with buttons and sliders"
+        ],
+        "visible_text_labels": [
+          "2D Microscope Control",
+          "MultiTile",
+          "Scale Factor",
+          "500 Pix"
+        ],
+        "quantities": [
+          "500 Pix"
+        ],
+        "key_distinguishing_features": "The segment focuses on a detailed microscopic image displayed on a computer screen, with a software interface that includes various controls and settings for image manipulation. The image appears to show cellular structures, and the interface includes a scale factor setting of 500 pixels. The monitor is an NEC brand, indicating a professional setup."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.2055,
+        14.411
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope software interface is being used to analyze images"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a microscope control software",
+          "black and white microscopic images of cellular structures",
+          "software interface with various control buttons and settings"
+        ],
+        "visible_text_labels": [
+          "NEC",
+          "Microscope Control",
+          "Live Display",
+          "16x",
+          "100x",
+          "1000x",
+          "jove"
+        ],
+        "quantities": [
+          "16x, 100x, 1000x magnification levels"
+        ],
+        "key_distinguishing_features": "The segment focuses on the observation phase, where detailed microscopic images are being analyzed using a software interface. The interface includes various magnification levels and control options, indicating a sophisticated setup for examining cellular structures. The presence of multiple magnification levels suggests a detailed examination of the sample."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.411,
+        21.6165
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "user interacts with image analysis software",
+          "user selects 'Filters' from the menu"
+        ],
+        "objects_visible": [
+          "computer screen displaying grayscale microscopic image",
+          "image analysis software interface",
+          "menu options including 'Filters'"
+        ],
+        "visible_text_labels": [
+          "TM3000-0187",
+          "HL",
+          "DS-2",
+          "x1.0k",
+          "100 um",
+          "Filters",
+          "Mean",
+          "Minimum",
+          "Maximum",
+          "Median",
+          "Variance",
+          "Gaussian 3D",
+          "Smooth",
+          "Find Edges",
+          "Enhance Contrast",
+          "FFT"
+        ],
+        "quantities": [
+          "100 um scale bar"
+        ],
+        "key_distinguishing_features": "This segment shows a user interacting with an image analysis software, specifically focusing on applying filters to a microscopic image. The grayscale image appears to be of a material sample, and the user is navigating through the 'Filters' menu. The scale bar indicates the image is at a 100 um scale."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        21.6165,
+        28.822
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "scrolls through grayscale microscopic image slices",
+          "selects 'Process' menu option in software"
+        ],
+        "objects_visible": [
+          "grayscale microscopic image of a porous material",
+          "software interface with menu options",
+          "file explorer window showing image files"
+        ],
+        "visible_text_labels": [
+          "original slice",
+          "Image 1 Processed",
+          "section 3.1",
+          "section 3.2",
+          "Process",
+          "Image",
+          "Plugins",
+          "Window",
+          "Help"
+        ],
+        "quantities": [
+          "slice 1 of 100",
+          "width 1024",
+          "height 1024",
+          "angle 0.000"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of a grayscale microscopic image, likely of a porous material, with the user interacting with image processing software. The user scrolls through image slices and accesses the 'Process' menu, indicating preparation for further analysis. The presence of multiple image files in the file explorer suggests a series of processed images."
+      }
+    }
+  ]
+}

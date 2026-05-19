@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_3/3564_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 533.674667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        133.41866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher holds a syringe and connects it to a tube.",
+          "The researcher adjusts the syringe and tube setup on a laboratory bench."
+        ],
+        "objects_visible": [
+          "A syringe with a blue plunger and a clear barrel.",
+          "A tube with a purple connector.",
+          "A laboratory bench with various equipment and tools."
+        ],
+        "visible_text_labels": [
+          "Whole Animal Perfusion Fixation for Rodents",
+          "Gregory Gage\u00b9, Daryl Kipke\u00b9, and William Shain\u00b2",
+          "\u00b9Biomedical Engineering, University of Michigan",
+          "\u00b2Department of Neurological Surgery, University of Washington"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of a scientific experiment involving whole animal perfusion fixation. The setup of the syringe and tube is highlighted, indicating the initial steps in the procedure. The video includes text labels introducing the researchers and their affiliations."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        133.41866675,
+        266.8373335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe and injects a substance into a mouse",
+          "researcher uses scissors to make an incision on the mouse's abdomen"
+        ],
+        "objects_visible": [
+          "a mouse lying on a surgical table",
+          "a syringe with a needle",
+          "a pair of scissors",
+          "a surgical drape under the mouse",
+          "a digital timer in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "5 mL syringe with a visible scale"
+        ],
+        "key_distinguishing_features": "This segment shows a surgical procedure on a mouse, with a focus on the injection and incision process. The use of a syringe and scissors is prominent, and the mouse is positioned on a surgical drape. The digital timer in the background suggests a time-sensitive experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        266.8373335,
+        400.25600025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe and injects a red liquid into a mouse's heart",
+          "researcher uses a digital timer to measure a time interval of 6:00:01"
+        ],
+        "objects_visible": [
+          "a syringe with a red liquid",
+          "a digital timer displaying 6:00:01",
+          "a mouse with its chest cavity exposed",
+          "a sphygmomanometer gauge with a reading of 120 mmHg"
+        ],
+        "visible_text_labels": [
+          "jove",
+          "CLOCK",
+          "START/STOP",
+          "mmHg",
+          "SPHYGMOMANOMETER"
+        ],
+        "quantities": [
+          "6:00:01 on the digital timer",
+          "120 mmHg on the sphygmomanometer gauge"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on a precise medical procedure involving a mouse, with detailed measurements of time and blood pressure. The use of a digital timer and a sphygmomanometer highlights the importance of accurate data collection in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        400.25600025,
+        533.674667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses scissors to make a precise incision along the midline of a dissected specimen",
+          "researcher carefully separates the dissected tissue with forceps"
+        ],
+        "objects_visible": [
+          "dissected specimen with visible internal structures",
+          "scissors with metallic blades and black handles",
+          "forceps with metallic tips and black handles",
+          "a cartoon illustration of a dissected specimen with labeled parts",
+          "hands wearing white gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise dissection of a specimen, highlighting the use of surgical tools like scissors and forceps. The inclusion of a cartoon illustration provides a visual guide for the dissection process. The hands of the researcher, wearing white gloves, emphasize the sterile and controlled environment of the experiment."
+      }
+    }
+  ]
+}

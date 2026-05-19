@@ -1,0 +1,145 @@
+{
+  "video_id": "videos/level_2/step_prediction/2464/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 48.502767,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.12569175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses scissors to carefully cut tissue on a small animal's back"
+        ],
+        "objects_visible": [
+          "small white animal with reddish fur around the incision site",
+          "metal scissors held by a gloved hand",
+          "blue surgical drape underneath the animal"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise surgical procedure being performed on a small animal, with a focus on the incision site. The researcher's gloved hand and the use of scissors highlight the careful handling of the tissue. The blue surgical drape provides a sterile environment for the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.12569175,
+        24.2513835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses surgical scissors to make an incision on the animal's skin",
+          "researcher uses forceps to hold the skin open"
+        ],
+        "objects_visible": [
+          "small animal with light-colored fur and reddish-brown fur around the incision site",
+          "metal surgical scissors with a serrated edge",
+          "metal forceps with a pointed tip",
+          "blue surgical drape underneath the animal"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise surgical procedure with the use of specialized tools. The animal's skin is being carefully incised and held open, revealing the underlying tissue. The focus is on the surgical technique and the tools used."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        24.2513835,
+        36.37707525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical scissors are used to make an incision",
+          "forceps hold the tissue open"
+        ],
+        "objects_visible": [
+          "surgical scissors with metallic blades",
+          "forceps with metallic tips",
+          "animal fur surrounding the surgical site",
+          "exposed tissue and blood at the incision site"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "This segment shows a surgical procedure in progress, with clear focus on the use of surgical instruments to make and hold open an incision. The presence of blood and exposed tissue indicates an invasive procedure. The surrounding fur suggests the subject is an animal."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        36.37707525,
+        48.502767
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A researcher uses a pipette to carefully inject a red liquid into a surgical incision on an animal.",
+          "Metallic surgical forceps are used to hold the incision open, exposing the internal tissue."
+        ],
+        "objects_visible": [
+          "A pipette with a fine tip dispensing a red liquid.",
+          "Metallic surgical forceps with a shiny, reflective surface.",
+          "A surgical incision on an animal with visible red tissue and surrounding fur."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The pipette appears to dispense a small volume of liquid, likely in the microliter range."
+        ],
+        "key_distinguishing_features": "The segment focuses on a precise surgical procedure involving the injection of a red liquid into an animal's incision. The use of forceps to maintain the incision's openness is notable. The red color of the liquid and the surrounding tissue contrasts sharply with the animal's fur."
+      }
+    }
+  ]
+}

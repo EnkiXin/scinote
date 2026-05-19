@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/63997/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 48.569,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.14225
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a red, U-shaped apparatus into a transparent container",
+          "researcher introduces two white mice into a metallic tray"
+        ],
+        "objects_visible": [
+          "red U-shaped apparatus with a central platform and side walls",
+          "transparent container holding the red apparatus",
+          "metallic tray with two white mice",
+          "gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "Animals with pain prefer closed safe areas",
+          "Count the number of grooming maneuvers using blinded observers"
+        ],
+        "quantities": [
+          "two white mice"
+        ],
+        "key_distinguishing_features": "This segment highlights the setup of an apparatus for animal behavior testing, specifically focusing on pain response. The red U-shaped apparatus is designed to provide a closed safe area, and the metallic tray is used to observe grooming behaviors in mice. The text on screen provides context for the experiment's objectives."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.14225,
+        24.2845
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "mice are observed grooming themselves",
+          "researcher wearing black gloves places an orange ball into the container"
+        ],
+        "objects_visible": [
+          "two white mice in a metallic container",
+          "metallic container with engraved text",
+          "orange ball",
+          "researcher's hands wearing black gloves"
+        ],
+        "visible_text_labels": [
+          "Count the number of grooming maneuvers using blinded observers",
+          "jove"
+        ],
+        "quantities": [
+          "two mice"
+        ],
+        "key_distinguishing_features": "This segment focuses on observing the grooming behavior of two mice in a metallic container. A researcher's gloved hand introduces an orange ball into the container, possibly as a stimulus. The container has engraved text, adding a specific detail to the setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        24.2845,
+        36.42675
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand reaches into the frame and removes a small orange cup from the container.",
+          "The hand then places the cup back into the container."
+        ],
+        "objects_visible": [
+          "A transparent container with a metallic base containing two white mice.",
+          "Three orange cups placed at intervals within the container.",
+          "A gloved hand interacting with the orange cups."
+        ],
+        "visible_text_labels": [
+          "The text 'VETTELLA' and '1000' is visible on the metallic base of the container."
+        ],
+        "quantities": [
+          "Two white mice are present in the container.",
+          "Three orange cups are placed within the container."
+        ],
+        "key_distinguishing_features": "This segment is distinctive because it shows a gloved hand interacting with the orange cups within the container, suggesting a controlled manipulation of the environment. The mice are actively moving, indicating a response to the changes in their environment. The metallic base of the container with visible text adds a specific context to the experimental setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        36.42675,
+        48.569
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "white mouse swims in water-filled tray",
+          "mouse interacts with floating objects"
+        ],
+        "objects_visible": [
+          "rectangular metal tray with water",
+          "white mouse with long tail",
+          "yellow rubber duck",
+          "orange plastic cup",
+          "red plastic cup",
+          "metal tray with engraved text"
+        ],
+        "visible_text_labels": [
+          "VETROTECHNIKA",
+          "CZECHOSLOVAKIA",
+          "10243"
+        ],
+        "quantities": [
+          "four floating objects in the tray"
+        ],
+        "key_distinguishing_features": "The mouse actively swims and interacts with the floating objects, demonstrating exploratory behavior. The engraved text on the tray provides a specific brand and origin detail. The setup appears to be part of a behavioral observation experiment."
+      }
+    }
+  ]
+}

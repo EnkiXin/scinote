@@ -1,0 +1,148 @@
+{
+  "video_id": "videos/level_2/video_segments/51747/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 25.771,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.44275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a petri dish containing a red agar medium",
+          "researcher uses a blue loop to streak the agar surface"
+        ],
+        "objects_visible": [
+          "petri dish with a red agar medium",
+          "blue loop tool",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of streaking a red agar medium with a blue loop, likely for bacterial culture. The researcher's gloved hand is visible, emphasizing aseptic technique. The 'jove' logo indicates the video's source."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.44275,
+        12.8855
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher spreads a red liquid across the surface of a petri dish using a blue swab"
+        ],
+        "objects_visible": [
+          "petri dish containing a red liquid medium",
+          "blue nitrile-gloved hand",
+          "blue swab",
+          "green and yellow containers in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a petri dish being manipulated with a swab, emphasizing the spreading of a red liquid. The researcher's gloved hand and the blue swab are prominent, indicating a sterile technique. The background includes laboratory containers, suggesting a controlled environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.8855,
+        19.32825
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher spreads a red liquid evenly across a petri dish using a blue loop",
+          "researcher places the petri dish into an incubator"
+        ],
+        "objects_visible": [
+          "petri dish containing red liquid",
+          "blue loop",
+          "incubator with a perforated interior",
+          "researcher's gloved hands",
+          "yellow and green containers in the background"
+        ],
+        "visible_text_labels": [
+          "DANGER"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise spreading technique using a blue loop, followed by the placement of the petri dish into an incubator. The background includes safety and storage containers, emphasizing a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.32825,
+        25.771
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher closes the incubator door with a gloved hand",
+          "researcher walks away from the incubator"
+        ],
+        "objects_visible": [
+          "incubator with a green handle and transparent door",
+          "petri dishes with visible colonies on the shelves inside the incubator",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple petri dishes on the shelves"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher closing an incubator after presumably placing or checking petri dishes. The incubator's transparent door allows a clear view of the petri dishes inside, which appear to contain colonies. The researcher's movement away from the incubator suggests the completion of a step in the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "video_id": "videos/level_2/video_segments/54611/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 55.367,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.84175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher places the microtube on the lab bench"
+        ],
+        "objects_visible": [
+          "black lab bench",
+          "five labeled glass vials with blue caps",
+          "blue test tube rack",
+          "white plastic container with a lid",
+          "white lab coat",
+          "protective eyewear"
+        ],
+        "visible_text_labels": [
+          "See text for more information on preparing standards",
+          "jove"
+        ],
+        "quantities": [
+          "five vials"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, with the researcher handling a microtube labeled 'DMEM'. The vials are neatly arranged on the bench, each with a blue cap and a label. The environment is a well-equipped laboratory with various scientific tools and containers visible."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.84175,
+        27.6835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap and labels it with a black marker",
+          "researcher places the labeled microtube on the lab bench"
+        ],
+        "objects_visible": [
+          "five labeled glass vials with blue caps and handwritten labels",
+          "a blue test tube rack",
+          "a plastic container with a lid",
+          "a white napkin or tissue"
+        ],
+        "visible_text_labels": [
+          "C10 hC",
+          "C10 hC",
+          "C10 hC",
+          "C10 hC"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase where a microtube is being labeled for use in the experiment. The presence of multiple labeled vials suggests a systematic approach to sample organization. The blue test tube rack and plastic container indicate a well-organized laboratory setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        27.6835,
+        41.52525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'A' with a clear liquid",
+          "researcher uses a pipette to transfer a small volume of liquid into the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'A' containing a clear liquid",
+          "pipette with a fine tip",
+          "beaker with a clear liquid and a plastic cover",
+          "blue storage box with a grid pattern",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "Use 18.2 M\u03a9 water",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "18.2 M\u03a9 water"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube labeled 'A', emphasizing the use of high-purity 18.2 M\u03a9 water. The researcher's actions are deliberate, showcasing the careful transfer of liquid using a pipette."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        41.52525,
+        55.367
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap and transfers its contents using a pipette",
+          "researcher places the microtube back into a blue storage rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "pipette with a blue plunger",
+          "blue storage rack for microtubes",
+          "black lab bench with various lab equipment",
+          "conical flasks with clear liquid",
+          "black rubber stopper",
+          "blue plastic test tube rack",
+          "bottle with a black cap and a label",
+          "white lab coat worn by the researcher",
+          "latex gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube and its contents, emphasizing the use of a pipette for transferring liquid. The blue storage rack and the researcher's careful movements highlight the organized and methodical nature of the experiment. The presence of various lab equipment in the background underscores the controlled laboratory environment."
+      }
+    }
+  ]
+}

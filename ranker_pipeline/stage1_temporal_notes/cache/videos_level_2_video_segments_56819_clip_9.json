@@ -1,0 +1,138 @@
+{
+  "video_id": "videos/level_2/video_segments/56819/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 17.055,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.26375
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A surgical instrument is being used to manipulate tissue within a body cavity.",
+          "A clear, flexible tube is being positioned near the tissue."
+        ],
+        "objects_visible": [
+          "A metallic surgical instrument with a sharp, pointed tip.",
+          "A clear, flexible tube labeled 'Drain 2'.",
+          "Tissue and organs within a body cavity, with visible blood and fluid."
+        ],
+        "visible_text_labels": [
+          "Drain 2"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up view of a surgical procedure, with a focus on the insertion and positioning of a drain tube. The presence of blood and fluid indicates an active surgical environment. The label 'Drain 2' on the tube is a key distinguishing feature."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.26375,
+        8.5275
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A surgical instrument is manipulating tissue within a surgical field.",
+          "A white tube labeled 'Drain 2' is being positioned near the tissue."
+        ],
+        "objects_visible": [
+          "Surgical instruments with metallic tips",
+          "Tissue with visible blood vessels and sutures",
+          "White tube labeled 'Drain 2'"
+        ],
+        "visible_text_labels": [
+          "Drain 2"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up view of a surgical procedure with a focus on tissue manipulation. The white tube labeled 'Drain 2' is a distinctive feature, indicating a specific step in the procedure. The presence of sutures and blood vessels highlights the delicate nature of the surgery."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        8.5275,
+        12.79125
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "camera focuses on a close-up view of internal tissue structures",
+          "tissue is manipulated with a surgical instrument"
+        ],
+        "objects_visible": [
+          "pinkish internal tissue with visible blood vessels",
+          "metallic surgical instrument with a curved tip"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a detailed view of internal tissue with a focus on vascular structures. A surgical instrument is used to manipulate the tissue, suggesting a surgical or medical procedure. The close-up view highlights the texture and color of the tissue."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        12.79125,
+        17.055
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A surgical instrument is used to manipulate and separate tissue layers",
+          "A liquid is being suctioned or applied to the tissue area"
+        ],
+        "objects_visible": [
+          "Tissue with visible blood vessels and connective structures",
+          "Metallic surgical instruments, including a suction tool"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up view of surgical manipulation, with clear focus on the tissue's texture and vascular patterns. The use of a suction tool suggests active management of fluids during the procedure. The tissue appears to be part of a larger organ or body cavity."
+      }
+    }
+  ]
+}

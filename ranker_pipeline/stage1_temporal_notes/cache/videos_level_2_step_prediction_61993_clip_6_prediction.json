@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/step_prediction/61993/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 13.401333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        3.35033325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a petri dish with a yellowish substance",
+          "researcher uses a pipette to interact with the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a yellowish substance",
+          "pipette with a white tip",
+          "blue gloves on the researcher's hands",
+          "blue container in the background",
+          "beaker with various laboratory tools",
+          "black lab bench"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully examining a petri dish, suggesting a focus on microbial or cellular observation. The use of a pipette indicates precise manipulation of the sample. The presence of the 'jove' logo suggests this is part of a scientific demonstration or educational video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        3.35033325,
+        6.7006665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish with a transparent lid",
+          "researcher uses a pipette to add a small volume of liquid to the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a transparent lid",
+          "pipette with a white handle and a yellow tip",
+          "blue-gloved hand",
+          "blue plastic rack in the background",
+          "metallic equipment with a blue cap"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid added to the petri dish"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of adding a liquid to a petri dish using a pipette. The blue-gloved hand and the transparent petri dish are prominent visual elements. The background includes laboratory equipment, emphasizing the controlled environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        6.7006665,
+        10.050999749999999
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher closes the incubator door",
+          "researcher places hand on the incubator door handle"
+        ],
+        "objects_visible": [
+          "white incubator with a red circle and 'C5' written on it",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "C5"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows the researcher interacting with an incubator, specifically closing it. The incubator has a distinct red circle with 'C5' written on it, indicating a specific labeling system. The researcher's gloved hand is seen gripping the door handle, emphasizing the careful handling typical in a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        10.050999749999999,
+        13.401333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a white freezer door with gloved hands",
+          "researcher retrieves a white petri dish from the freezer"
+        ],
+        "objects_visible": [
+          "white freezer with handwritten labels 'C5' and 'C5'",
+          "researcher wearing a white lab coat and blue gloves",
+          "white petri dish held by the researcher"
+        ],
+        "visible_text_labels": [
+          "C5",
+          "C5"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher interacting with a freezer, specifically opening it and retrieving a petri dish. The freezer door has handwritten labels, indicating a specific storage system. The researcher's actions are precise, suggesting a controlled environment typical of laboratory procedures."
+      }
+    }
+  ]
+}

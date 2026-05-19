@@ -1,0 +1,170 @@
+{
+  "video_id": "videos/level_3/2355_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 445.482667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        111.37066675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope images of cell cultures are displayed",
+          "fluorescence microscopy images are shown"
+        ],
+        "objects_visible": [
+          "microscope images of cells with varying morphology",
+          "fluorescence microscopy images with green and blue fluorescence",
+          "text labels indicating different days of observation"
+        ],
+        "visible_text_labels": [
+          "Day 0",
+          "Day 527",
+          "BFP",
+          "GFP",
+          "BFP and GFP"
+        ],
+        "quantities": [
+          "images from Day 0 and Day 527"
+        ],
+        "key_distinguishing_features": "This segment highlights the progression of cell cultures over time, with specific emphasis on fluorescence microscopy images showing BFP and GFP expression. The transition from Day 0 to Day 527 is clearly marked, indicating a long-term observation study."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        111.37066675,
+        222.7413335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'S2 media' with a blue cap",
+          "researcher uses a pipette to transfer liquid from a labeled bottle into a test tube",
+          "researcher places the microtube into a yellow rack",
+          "researcher operates a vortex mixer labeled 'VORTEX-GENIE 2'"
+        ],
+        "objects_visible": [
+          "yellow microtube rack with multiple slots",
+          "red microtube rack with multiple slots",
+          "labeled bottles containing yellow liquid",
+          "pipette with a red plunger",
+          "VORTEX-GENIE 2 vortex mixer with a blue casing",
+          "test tubes with blue caps"
+        ],
+        "visible_text_labels": [
+          "S2 media = Schneider's Drosophila medium 5% heat inactivated FCS 1% penicillin-streptomycin antibiotic media",
+          "VORTEX-GENIE 2 Scientific Industries"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "5% heat inactivated FCS"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of S2 media, highlighting the use of specific reagents and equipment like the VORTEX-GENIE 2. The detailed labeling of the media composition is prominently displayed, emphasizing the importance of precise medium preparation in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        222.7413335,
+        334.11200025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a well of a multi-well plate",
+          "researcher places the pipette tip into a labeled bottle containing a yellow liquid and draws up a specific volume"
+        ],
+        "objects_visible": [
+          "red test tube rack holding several tubes",
+          "clear multi-well plate with multiple compartments",
+          "pipette with a blue plunger",
+          "bottle labeled 'Sample 10' containing a yellow liquid",
+          "small white container with a screw cap"
+        ],
+        "visible_text_labels": [
+          "Sample 10",
+          "jove"
+        ],
+        "quantities": [
+          "volume of liquid being pipetted is not specified but appears to be a small amount"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of liquids using a pipette, emphasizing the careful transfer of a yellow liquid into a multi-well plate. The presence of a labeled bottle and a red test tube rack suggests an organized and methodical approach to the experiment. The 'jove' watermark indicates the video is likely part of a scientific tutorial or demonstration."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        334.11200025,
+        445.482667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher presents a series of fluorescent microscopy images showing cells expressing GFP and BFP.",
+          "Researcher displays flow cytometry data comparing GFP expression levels across different conditions."
+        ],
+        "objects_visible": [
+          "Fluorescent microscopy images with labeled channels (light, GFP, BFP, merge).",
+          "Flow cytometry graphs showing cell populations based on GFP and BFP expression.",
+          "Bar graph illustrating the percentage of GFP-expressing cells under various conditions."
+        ],
+        "visible_text_labels": [
+          "light, GFP, BFP, merge",
+          "FSC, PI, GFP",
+          "pBFP, pBFP + 1 \u00b5g ON, pBFP + 5 \u00b5g ON, pBFP + 10 \u00b5g ON",
+          "% of GFP expressing cells"
+        ],
+        "quantities": [
+          "1 \u00b5g ON, 5 \u00b5g ON, 10 \u00b5g ON",
+          "13.9% of cells expressing GFP in the pBFP + 10 \u00b5g ON condition"
+        ],
+        "key_distinguishing_features": "This segment focuses on the visual and quantitative analysis of gene expression using fluorescent proteins. The flow cytometry data provides a clear comparison of GFP expression levels across different experimental conditions. The researcher's presentation of both microscopy images and flow cytometry graphs highlights the effectiveness of the transfection and mutagenesis process."
+      }
+    }
+  ]
+}

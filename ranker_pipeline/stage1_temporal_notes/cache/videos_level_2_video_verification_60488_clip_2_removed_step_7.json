@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_verification/60488/clip_2_removed_step_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 43.178333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.79458325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "gloved hand uses a yellow toothpick to pick up a small colony from a petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a semi-transparent agar medium containing small, white colonies",
+          "yellow toothpick",
+          "gloved hand wearing a teal-colored glove"
+        ],
+        "visible_text_labels": [
+          "TOXICITY TESTING OF THE PROTEIN OF INTEREST"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the initial step of selecting a bacterial colony for further testing. The use of a toothpick for colony selection is a distinctive method, and the petri dish contains a clear medium with visible colonies. The text overlay indicates the context of toxicity testing."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.79458325,
+        21.5891665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a multi-channel pipette and inserts it into a 96-well plate",
+          "researcher carefully dispenses liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "green 96-well plate with multiple wells",
+          "petri dish with a clear lid",
+          "multi-channel pipette with blue tips",
+          "bottle of clear liquid with a blue label",
+          "centrifuge labeled 'CenTrifuge 5424'"
+        ],
+        "visible_text_labels": [
+          "CenTrifuge 5424",
+          "jove"
+        ],
+        "quantities": [
+          "96 wells in the plate"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of liquid from a multi-well plate to a petri dish using a multi-channel pipette. The presence of a centrifuge in the background suggests a laboratory setting. The researcher's actions are deliberate and careful, emphasizing the importance of accuracy in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.5891665,
+        32.38374975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a multi-channel pipette and inserts it into a 96-well plate",
+          "researcher carefully dispenses liquid into the wells of the 96-well plate"
+        ],
+        "objects_visible": [
+          "multi-channel pipette with blue and white body",
+          "96-well plate with clear wells and a white border",
+          "researcher's gloved hands in teal color",
+          "a container labeled 'Maxi Mix II' with a digital display and control buttons"
+        ],
+        "visible_text_labels": [
+          "Maxi Mix II",
+          "Eppendorf"
+        ],
+        "quantities": [
+          "96 wells in the plate"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise use of a multi-channel pipette to dispense liquid into a 96-well plate, highlighting the methodical and repetitive nature of the task. The presence of the 'Maxi Mix II' container suggests a step involving mixing or preparation of solutions. The teal gloves and clear visibility of the pipette and plate emphasize the controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.38374975,
+        43.178333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a refrigerator door with their right hand",
+          "researcher reaches into the refrigerator with their left hand, presumably to retrieve or place an item"
+        ],
+        "objects_visible": [
+          "a white refrigerator with a glass door",
+          "a researcher wearing a white lab coat and green gloves",
+          "a metal shelf with various laboratory supplies, including boxes and containers"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment is distinctive for showing a researcher interacting with a refrigerator, likely as part of a step in the experiment. The focus on the refrigerator and the researcher's actions suggests a critical step in sample storage or retrieval. The presence of laboratory supplies in the background adds context to the setting."
+      }
+    }
+  ]
+}

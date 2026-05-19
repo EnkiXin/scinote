@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/step_prediction/58301/clip_8_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.782,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.4455
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a metallic component with blue-gloved hands",
+          "researcher holds a cylindrical metal object with multiple ports and wires"
+        ],
+        "objects_visible": [
+          "metallic cylindrical component with multiple ports and wires",
+          "blue nitrile gloves",
+          "white lab coat",
+          "black surface with a textured pattern"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a metallic cylindrical component, likely part of a scientific apparatus. The researcher's blue gloves and white lab coat indicate a controlled laboratory environment. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.4455,
+        16.891
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a component inside a transparent chamber using gloved hands"
+        ],
+        "objects_visible": [
+          "transparent chamber with metallic components and coiled tubes",
+          "researcher's gloved hands",
+          "black fan visible in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a researcher is carefully manipulating a component within a complex apparatus. The transparent chamber allows a clear view of the metallic and coiled tube setup, emphasizing precision in handling. The presence of a fan in the background suggests a controlled environment for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.891,
+        25.336499999999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "presses buttons on a BROOKS mass flow controller"
+        ],
+        "objects_visible": [
+          "BROOKS mass flow controller with a digital display",
+          "blue-gloved hands interacting with the controller",
+          "four BROOKS flow control modules connected to the main unit"
+        ],
+        "visible_text_labels": [
+          "CHANNEL 2 - Instrument Configuration",
+          "PU Full Scale Range: 100.00 mL/min",
+          "SP Full Scale Range: 25.00 mL/min",
+          "SP Rate: 25.00 mL/min"
+        ],
+        "quantities": [
+          "100.00 mL/min",
+          "25.00 mL/min"
+        ],
+        "key_distinguishing_features": "The segment focuses on the detailed configuration of a BROOKS mass flow controller, highlighting specific flow rates and settings. The blue-gloved hands indicate a controlled and precise interaction with the device. The four connected flow control modules suggest a multi-channel setup for precise gas flow management."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.336499999999997,
+        33.782
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "LED lights on the devices change color from red to green"
+        ],
+        "objects_visible": [
+          "Brooks Instrument mass flow controllers with labels",
+          "wires connected to the devices",
+          "metallic components of the flow controllers"
+        ],
+        "visible_text_labels": [
+          "BROOKS",
+          "mass flow controller model numbers and specifications"
+        ],
+        "quantities": [
+          "four mass flow controllers in a row"
+        ],
+        "key_distinguishing_features": "The segment shows a row of mass flow controllers with changing LED colors, indicating a transition in their operational status. The labels on the devices provide specific model information, and the setup suggests a controlled environment for monitoring or adjusting flow rates. The focus is on the devices rather than any human interaction."
+      }
+    }
+  ]
+}

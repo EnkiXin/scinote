@@ -1,0 +1,147 @@
+{
+  "video_id": "videos/level_2/step_prediction/53411/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 23.262,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.8155
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher places the microtube into a red test tube rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "red test tube rack",
+          "blue-gloved hand",
+          "glass beaker on a metal stand",
+          "blue container in the background"
+        ],
+        "visible_text_labels": [],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small microtube, emphasizing the careful placement into a test tube rack. The blue gloves and the specific size of the microtube are notable details. The background includes laboratory equipment, suggesting a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.8155,
+        11.631
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A clear liquid is being added to a small glass container clamped to a stand"
+        ],
+        "objects_visible": [
+          "A blue clamp holding a small glass container with a clear liquid",
+          "A glass bottle with a metallic neck and a clamp attached",
+          "A metallic clamp securing the glass bottle"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The liquid in the glass container appears to be approximately 1 mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise addition of a clear liquid into a small glass container, which is securely held by a blue clamp. The metallic clamp and glass bottle add to the laboratory setup, emphasizing the controlled nature of the experiment. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.631,
+        17.4465
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [],
+        "objects_visible": [
+          "blue vacuum pump with a pressure gauge",
+          "glass flask connected to tubing",
+          "metal clamp holding a glass flask",
+          "small glass jar labeled 'Physio'",
+          "red plastic rack holding the jar",
+          "various laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "Physio",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on laboratory equipment setup, particularly a vacuum pump and glassware, indicating preparation for an experiment. The 'Physio' label on the jar suggests a physiological solution is involved. The background shows a typical laboratory environment with various tools and materials."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.4465,
+        23.262
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "hand in blue glove adjusts a knob on a blue Millipore vacuum pump"
+        ],
+        "objects_visible": [
+          "blue Millipore vacuum pump with a black circular component",
+          "hand wearing a blue nitrile glove",
+          "laboratory background with various equipment and glassware"
+        ],
+        "visible_text_labels": [
+          "Millipore"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a knob on a Millipore vacuum pump, highlighting the interaction between the gloved hand and the equipment. The background suggests a laboratory setting with other scientific apparatus visible, emphasizing the experimental context."
+      }
+    }
+  ]
+}

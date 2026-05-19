@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_2/video_segments/57265/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.527,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.88175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "hand adjusts a knob on the ECM 830 Electro Square Porator"
+        ],
+        "objects_visible": [
+          "ECM 830 Electro Square Porator device with a digital display",
+          "hand wearing a blue nitrile glove",
+          "cable connected to the device"
+        ],
+        "visible_text_labels": [
+          "WHITE LAB",
+          "ECM 830",
+          "SET PARAMETERS",
+          "MODE: HU",
+          "VOLTAGE: 0750V",
+          "P.LENGTH: 070us",
+          "Electro Square Porator\u2122",
+          "RTX",
+          "High Voltage Delivery",
+          "Smart Line"
+        ],
+        "quantities": [
+          "0750V",
+          "070us"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a researcher adjusts the settings on an ECM 830 device. The digital display shows specific voltage and pulse length parameters, indicating precise control over the electro-poration process. The hand's interaction with the device highlights the manual setup required for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.88175,
+        23.7635
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand presses a foot pedal connected to an ECM 830 device.",
+          "The ECM 830 device displays parameters including voltage and pulse length."
+        ],
+        "objects_visible": [
+          "A black and yellow shoe pressing a blue foot pedal.",
+          "A white ECM 830 device with a digital display and various control knobs.",
+          "A gloved hand holding a small, clear tube with a yellow cap."
+        ],
+        "visible_text_labels": [
+          "ECM 830",
+          "WHITE LAB",
+          "BTX",
+          "SET PARAMETERS",
+          "VOLTAGE 2750V",
+          "LENGTH 100us"
+        ],
+        "quantities": [
+          "2750V (voltage)",
+          "100us (pulse length)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the use of a foot pedal to activate the ECM 830 device, which is a specialized piece of laboratory equipment. The display of specific parameters like voltage and pulse length highlights the precision required in the experiment. The gloved hand and the small tube suggest a controlled and sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.7635,
+        35.645250000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts their glasses with their right hand",
+          "researcher gestures with their left hand while speaking"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat over a dark shirt",
+          "researcher with short black hair and glasses"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the researcher's upper body and facial expressions, with no visible scientific equipment or materials. The researcher's gestures and direct gaze suggest they are explaining or introducing a concept. The background is plain and uncluttered, emphasizing the speaker."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.645250000000004,
+        47.527
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "display shows completed pulsing parameters",
+          "text overlay provides care instructions"
+        ],
+        "objects_visible": [
+          "ECM 830 device with a digital display",
+          "text overlay with care details"
+        ],
+        "visible_text_labels": [
+          "PULSING COMPLETED",
+          "MODE = HV",
+          "VOLTAGE = 0756V",
+          "P. LENGTH = 0101us",
+          "See text for full post-IRE care details"
+        ],
+        "quantities": [
+          "0756V",
+          "0101us"
+        ],
+        "key_distinguishing_features": "The segment focuses on the digital display of the ECM 830 device, showing specific parameters after pulsing. A text overlay provides additional care instructions, emphasizing the post-IRE care phase. The display and text are the central elements, highlighting the completion of a technical procedure."
+      }
+    }
+  ]
+}

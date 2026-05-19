@@ -1,0 +1,147 @@
+{
+  "video_id": "videos/level_2/video_verification/56859/clip_9_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 24.5157,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.128925
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"preparation\",\n  \"actions_observed\": [\"A gloved hand adjusts a small, pink-colored object on a magnetic stirrer\"],\n  \"objects_visible\": [\"A magnetic stirrer with a black top and white base\", \"A small, pink-colored object on the stirrer\", \"A green microtube rack holding a clear microtube\", \"A green microtube box\", \"A pair of tweezers\", \"A scalpel\", \"A piece of white paper\", \"A bottle o"
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.128925,
+        12.25785
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a pink cap",
+          "researcher uses a pipette to transfer a clear liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a pink cap labeled 'DMEM'",
+          "pipette with a clear liquid",
+          "petri dish on a magnetic stirrer",
+          "bottle with an orange cap and a label",
+          "beaker with a pink label",
+          "green plastic rack with multiple holes"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer using a pipette from a labeled microtube into a petri dish. The researcher's gloved hands are visible, emphasizing a sterile technique. The presence of a magnetic stirrer and other lab equipment highlights a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.25785,
+        18.386775
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 1.5mL microtube with an orange cap on a magnetic stirrer",
+          "researcher adjusts the microtube on the magnetic stirrer"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with an orange cap",
+          "magnetic stirrer with a black surface and control knobs",
+          "beaker labeled '100 mL' containing a clear liquid",
+          "blue box labeled 'Thermo'",
+          "green test tube rack",
+          "bottle with a label and an orange cap"
+        ],
+        "visible_text_labels": [
+          "Thermo",
+          "100 mL"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a microtube on a magnetic stirrer, indicating a step in a controlled experiment. The presence of a labeled beaker and a Thermo box suggests a laboratory setting with specific equipment. The orange cap on the microtube is a distinctive feature."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        18.386775,
+        24.5157
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and inserts it into a microtube",
+          "researcher withdraws liquid from the microtube using the pipette"
+        ],
+        "objects_visible": [
+          "blue Thermo Scientific box labeled 'ART TIPS'",
+          "green microtube rack with multiple wells",
+          "microtube with a clear liquid",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "Thermo Scientific",
+          "ART TIPS"
+        ],
+        "quantities": [
+          "microtube with a clear liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of using a pipette to withdraw liquid from a microtube. The blue Thermo Scientific box and green microtube rack are distinctive elements in the setup. The researcher's gloved hands emphasize the sterile handling of laboratory materials."
+      }
+    }
+  ]
+}

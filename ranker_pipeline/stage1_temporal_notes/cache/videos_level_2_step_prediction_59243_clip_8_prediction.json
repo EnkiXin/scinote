@@ -1,0 +1,144 @@
+{
+  "video_id": "videos/level_2/step_prediction/59243/clip_8_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 16.037,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.00925
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher reads from a document on the desk",
+          "researcher types on the keyboard"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and purple gloves",
+          "microscope on the desk",
+          "two computer monitors, one displaying a document and the other blank",
+          "document with text and diagrams on the desk",
+          "black keyboard and mouse"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively engaged in data entry or analysis, as indicated by the use of the keyboard and the document on the desk. The presence of a microscope suggests a laboratory setting. The researcher's attire, including gloves, emphasizes a controlled and sterile environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.00925,
+        8.0185
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher views sample through a microscope"
+        ],
+        "objects_visible": [
+          "microscope with dual eyepieces",
+          "computer monitor displaying a software interface",
+          "laboratory bench with a keyboard and mouse",
+          "petri dish with multiple transparent droplets"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively observing a sample under a microscope, suggesting a detailed examination phase. The computer screen shows a software interface, likely for data analysis or recording. The petri dish with multiple droplets indicates a multi-sample setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        8.0185,
+        12.02775
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into a well of a multi-well plate"
+        ],
+        "objects_visible": [
+          "pipette with a fine tip",
+          "multi-well plate with transparent wells containing liquid droplets",
+          "black background under the plate"
+        ],
+        "visible_text_labels": [
+          "See text for full automated SWIP analysis setup details"
+        ],
+        "quantities": [
+          "multiple wells filled with liquid"
+        ],
+        "key_distinguishing_features": "The segment shows a pipette carefully dispensing liquid into a specific well of a multi-well plate. The liquid forms a distinct droplet in the well, indicating precision in the pipetting process. The text overlay provides a reference for further setup details."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        12.02775,
+        16.037
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is focused on a sample, revealing a small, coiled structure"
+        ],
+        "objects_visible": [
+          "a dark-field microscope view showing a coiled, worm-like organism"
+        ],
+        "visible_text_labels": [
+          "See text for full automated SWIP analysis setup details"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a microscopic view of a coiled organism, likely a nematode, under dark-field illumination. The image is highly magnified, emphasizing the organism's structure against a dark background. The text overlay suggests the video is part of a detailed scientific analysis setup."
+      }
+    }
+  ]
+}

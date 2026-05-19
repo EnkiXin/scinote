@@ -1,0 +1,171 @@
+{
+  "video_id": "67271",
+  "benchmark": "scivideobench",
+  "duration_seconds": 533.056,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        133.264
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A man in a checkered blazer and beige shirt stands in a well-lit indoor space, speaking directly to the camera.",
+          "The scene transitions to a laboratory setting where a researcher in a white lab coat and blue gloves is handling a small, clear plastic container."
+        ],
+        "objects_visible": [
+          "A checkered blazer and beige shirt worn by the man in the indoor space.",
+          "A white lab coat and blue gloves worn by the researcher in the laboratory.",
+          "A small, clear plastic container in the researcher's hand."
+        ],
+        "visible_text_labels": [
+          "Artificial Lung Device Priming for In Situ Fiber Bundle Surface Grafting",
+          "Romario Pusey, Sarah Majin, Amir Mokhammad, Betelihem Fret, Kebisha Basukala, Chika G Okwuogor, Keith Cook, Rei Ukita, William Grogan, David Skoog, Kagya Amoako",
+          "Department of Chemistry and Chemical & Biomedical Engineering, University of New Haven",
+          "Advanced Respiratory Technologies, LLC",
+          "Department of Biomedical Engineering, Carnegie Mellon University",
+          "Department of Cardiac Surgery, Vanderbilt University Medical Center",
+          "Auburn University"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment begins with a man speaking in an indoor space, likely introducing the topic. It then transitions to a laboratory setting where a researcher is preparing materials, highlighting the initial steps of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        133.264,
+        266.528
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a petri dish on a magnetic stirrer",
+          "researcher adjusts the speed dial on the magnetic stirrer",
+          "researcher uses a pipette to transfer a liquid into a petri dish",
+          "researcher places a labeled box into a refrigerator"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid",
+          "magnetic stirrer with a digital display and speed dial",
+          "pipette with a blue plunger",
+          "refrigerator with a warning label",
+          "labeled box with a blue and white label"
+        ],
+        "visible_text_labels": [
+          "REFRIGERATION",
+          "WARNING: FOR FLAMMABLE STORAGE",
+          "jove"
+        ],
+        "quantities": [
+          "digital display on the magnetic stirrer showing '100'",
+          "speed dial set to '5'"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the use of a magnetic stirrer in a laboratory setting, with precise adjustments being made to the equipment. The labeled box being placed in a refrigerator suggests a step involving temperature control. The presence of a 'jove' watermark indicates the video is likely part of a scientific tutorial or demonstration."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        266.528,
+        399.79200000000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses tweezers to place a small, transparent object into a multi-well plate",
+          "researcher uses a pipette to add a dark liquid into three wells of the multi-well plate"
+        ],
+        "objects_visible": [
+          "transparent multi-well plate with 12 wells",
+          "tweezers with a metallic tip",
+          "pipette with a yellow plunger",
+          "dark liquid in three wells of the multi-well plate"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "three wells filled with dark liquid"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a small object into a multi-well plate using tweezers, followed by the addition of a dark liquid into specific wells. The actions are methodical and highlight the careful handling of materials in a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        399.79200000000003,
+        533.056
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Pipettes a clear liquid from a labeled glass vial into a multi-well plate.",
+          "Places the multi-well plate into a spectrophotometer for analysis."
+        ],
+        "objects_visible": [
+          "A clear multi-well plate with several wells containing liquid samples.",
+          "A glass vial labeled '100 uM' with a handwritten note.",
+          "A spectrophotometer with a digital display and control buttons.",
+          "A bar graph displayed on the screen showing 'Platelet Adhesion: Subtract 680 nm from 490 nm'."
+        ],
+        "visible_text_labels": [
+          "Platelet Adhesion: Subtract 680 nm from 490 nm",
+          "Outer Bundle",
+          "Inner Bundle",
+          "Not significant",
+          "Coated PP-PDMS fibers exposed to PBS flow"
+        ],
+        "quantities": [
+          "100 uM",
+          "680 nm",
+          "490 nm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase, where precise liquid transfers are made into a multi-well plate, followed by analysis using a spectrophotometer. The bar graph displayed highlights the comparison of platelet adhesion between outer and inner bundles, emphasizing the significance of the data collected."
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_segments/59739/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 24.871,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.21775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours yellow liquid from a 1L round-bottom flask into a separatory funnel"
+        ],
+        "objects_visible": [
+          "1L round-bottom flask with yellow liquid",
+          "separatory funnel with yellow liquid",
+          "glass beaker containing yellow liquid",
+          "rubber stopper",
+          "laboratory setup with glassware and tubing"
+        ],
+        "visible_text_labels": [
+          "1L of diethyl ether"
+        ],
+        "quantities": [
+          "1L of diethyl ether"
+        ],
+        "key_distinguishing_features": "The segment shows a precise transfer of a yellow liquid, likely diethyl ether, from a 1L flask into a separatory funnel. The researcher's gloved hands are carefully handling the flask, ensuring a controlled pour. The setup includes various glassware and tubing, indicating a complex laboratory procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.21775,
+        12.4355
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours yellow liquid from a round-bottom flask into a glass beaker",
+          "researcher uses a metal rod to stir the contents in the beaker"
+        ],
+        "objects_visible": [
+          "round-bottom flask containing yellow liquid",
+          "glass beaker with yellow liquid",
+          "metal rod for stirring",
+          "white lab coat",
+          "blue nitrile gloves",
+          "white laboratory setup with pipes and clamps"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "yellow liquid being transferred from flask to beaker"
+        ],
+        "key_distinguishing_features": "The segment shows a precise transfer of yellow liquid from a flask to a beaker, followed by stirring. The researcher's hands are gloved, emphasizing safety. The setup includes laboratory-specific equipment like clamps and pipes."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.4355,
+        18.65325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small glass vial with a rubber stopper",
+          "researcher uses a pipette to add a clear liquid into the vial"
+        ],
+        "objects_visible": [
+          "small glass vial with a rubber stopper",
+          "pipette with an orange plunger",
+          "researcher's hands wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small vial, emphasizing the use of a pipette for adding liquid. The researcher's gloved hands are prominently featured, highlighting the importance of safety and sterility in the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        18.65325,
+        24.871
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a small container with a yellow substance onto a precision balance",
+          "researcher adjusts the container on the balance for accurate measurement"
+        ],
+        "objects_visible": [
+          "precision balance with a digital display",
+          "small container with a yellow substance",
+          "researcher wearing a white lab coat and safety goggles"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "digital reading on the balance display"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a small container with a yellow substance, ensuring it is properly placed on the precision balance for accurate measurement. The digital display on the balance is clearly visible, indicating the weight of the substance. The researcher's focus on the balance highlights the importance of precision in this step."
+      }
+    }
+  ]
+}

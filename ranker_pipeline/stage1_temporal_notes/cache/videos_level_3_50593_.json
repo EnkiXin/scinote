@@ -1,0 +1,188 @@
+{
+  "video_id": "videos/level_3/50593_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 544.277611,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        136.06940275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A 3D model of Vanadium atoms (black spheres) is shown alongside Boron atoms (orange spheres) and the resulting Vanadium Diboride compound.",
+          "A graph is displayed comparing voltage and efficiency for different methods, with lines labeled 'Nano vs. Macro', '3.5% coated', 'Dry Method', '1000 ohm', and '~5 mAh'.",
+          "A cross-sectional diagram of a battery is shown, with labeled parts including 'Anode Can', 'Cathode', 'Casing', 'Separator', 'Air Cathode', and 'Nickel Screen'.",
+          "A person wearing a white lab coat and glasses is seen speaking to the camera."
+        ],
+        "objects_visible": [
+          "3D models of Vanadium and Boron atoms, and Vanadium Diboride compound.",
+          "A graph with voltage and efficiency data.",
+          "A cross-sectional diagram of a battery with labeled components.",
+          "A person in a lab coat and glasses."
+        ],
+        "visible_text_labels": [
+          "Vanadium",
+          "Boron",
+          "Vanadium Diboride",
+          "Nano vs. Macro",
+          "3.5% coated",
+          "Dry Method",
+          "1000 ohm",
+          "~5 mAh",
+          "Anode Can",
+          "Cathode",
+          "Casing",
+          "Separator",
+          "Air Cathode",
+          "Nickel Screen",
+          "Jason Lau",
+          "The George Washington University"
+        ],
+        "quantities": [
+          "Voltage values ranging from 0.4 to 1.0 V",
+          "Efficiency values ranging from 0 to 100%",
+          "1000 ohm",
+          "~5 mAh"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, introducing the materials and methods used in the experiment. It includes detailed visual representations of chemical compounds, a performance graph, and a battery diagram, all of which are crucial for understanding the experimental setup. The presence of a researcher in a lab coat adds a human element to the scientific explanation."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        136.06940275,
+        272.1388055
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 1.5mL microtube labeled 'DMEM' with a blue cap into a centrifuge",
+          "researcher adjusts the centrifuge settings using a digital control panel",
+          "researcher uses a pipette to transfer a clear liquid from a beaker into a petri dish"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital display and control panel",
+          "1.5mL microtube with a blue cap labeled 'DMEM'",
+          "beaker containing a clear liquid",
+          "petri dish on a laboratory bench",
+          "pipette with a blue plunger"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "clear liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of a microtube labeled 'DMEM' and the use of a centrifuge, indicating a step in sample preparation. The researcher's actions are methodical, focusing on transferring liquids accurately. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        272.1388055,
+        408.20820825
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, cylindrical metallic object with a black circular component on one side",
+          "researcher uses a pipette to add a white substance to the black circular component of the metallic object",
+          "researcher places the metallic object on a white surface, revealing a second similar object nearby",
+          "researcher uses a tool to manipulate the metallic objects, possibly for assembly or testing"
+        ],
+        "objects_visible": [
+          "small, cylindrical metallic object with a black circular component",
+          "pipette with a white substance",
+          "white surface with two metallic objects",
+          "tool for manipulating the metallic objects"
+        ],
+        "visible_text_labels": [
+          "IV. Electrode Preparation, VB2-air Cell Assembly and Testing",
+          "Cells have dried for 30 min"
+        ],
+        "quantities": [
+          "30 min"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise assembly and preparation of VB2-air cells, highlighting the careful handling of small metallic components. The text labels indicate a specific drying time, emphasizing the importance of timing in the process. The actions involve meticulous manipulation of the components, suggesting a delicate and controlled procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        408.20820825,
+        544.277611
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher points to specific data points on a graph with a blue arrow",
+          "Researcher gestures towards the graph while explaining the data"
+        ],
+        "objects_visible": [
+          "Graph with multiple lines representing different fuel cell types",
+          "Blue arrow used to highlight specific data points on the graph",
+          "Researcher wearing a white lab coat"
+        ],
+        "visible_text_labels": [
+          "Nano vs. Macro 3.5% coated Dry Method 3000 ohm ~5 mAh",
+          "Timcal C65 Dry method 3000 ohm",
+          "ZrO2-VB2 composite Dry method 3000 ohm ~15 mAh ~20 mAh",
+          "I-FC166 (Macro), I-FC169 (Macro), I-FC170 (Macro), I-FC135 (Nano), I-FC136 (Nano)"
+        ],
+        "quantities": [
+          "3000 ohm",
+          "5 mAh",
+          "15 mAh",
+          "20 mAh"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed analysis of fuel cell performance data, with the researcher using a blue arrow to highlight specific points on the graph. The graph compares various fuel cell types under different conditions, emphasizing the differences in efficiency and voltage over time. The segment is distinctive for its emphasis on visual data interpretation."
+      }
+    }
+  ]
+}

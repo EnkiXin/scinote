@@ -1,0 +1,167 @@
+{
+  "video_id": "videos/level_3/62876_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 477.610667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        119.40266675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher administers anesthesia to a mouse using a 1.5mL syringe with a 21G needle",
+          "Mouse is placed on a white foam surface for immobilization"
+        ],
+        "objects_visible": [
+          "Mouse with dark fur and a white tail",
+          "1.5mL syringe with a 21G needle",
+          "White foam surface for mouse immobilization",
+          "Researcher wearing blue gloves"
+        ],
+        "visible_text_labels": [
+          "Anesthesia: Isoflurane",
+          "Young mice: 18 G needle",
+          "Aged mice: 21 G needle"
+        ],
+        "quantities": [
+          "1.5mL syringe",
+          "21G needle"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of an experiment involving mouse anesthesia. The use of a 21G needle for aged mice is highlighted, and the mouse is carefully immobilized on a white foam surface. The anesthesia process is clearly labeled and described on screen."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        119.40266675,
+        238.8053335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, white, rectangular cryosectioning block with a tissue sample embedded in it",
+          "researcher uses a scalpel to carefully trim the block, preparing it for sectioning",
+          "researcher places the trimmed block into a cryostat for sectioning"
+        ],
+        "objects_visible": [
+          "white cryosectioning block with embedded tissue sample",
+          "scalpel with a metallic blade and black handle",
+          "cryostat with a transparent viewing window and control knobs",
+          "gloved hands wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "Cryosectioning"
+        ],
+        "quantities": [
+          "small, white, rectangular block"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise preparation of a tissue sample for cryosectioning. The researcher's careful trimming of the block highlights the meticulous nature of the process. The use of a cryostat for sectioning indicates a step in histological analysis."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        238.8053335,
+        358.20800025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 6-well plate with a yellow substance in one well",
+          "researcher uses a pipette to transfer a clear liquid from a test tube into the well containing the yellow substance",
+          "researcher places a white rectangular object, possibly a slide or cover, over the well"
+        ],
+        "objects_visible": [
+          "6-well plate with a yellow substance in one well",
+          "pipette with a blue tip",
+          "test tube with a clear liquid",
+          "white rectangular object, possibly a slide or cover",
+          "petri dishes with white colonies on a dark background"
+        ],
+        "visible_text_labels": [
+          "3 x 10 min on a shaker",
+          "3% normal donkey serum diluted in PBT"
+        ],
+        "quantities": [
+          "6 wells in the plate",
+          "3 x 10 min time duration"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a 6-well plate, where a yellow substance is manipulated with a clear liquid using a pipette. The presence of petri dishes with white colonies suggests a microbiological or cell culture context. The text labels provide specific procedural details, emphasizing the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        358.20800025,
+        477.610667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher uses a computer to analyze fluorescent images of mouse brain sections.",
+          "Researcher points to specific areas on the computer screen displaying the fluorescent images."
+        ],
+        "objects_visible": [
+          "Computer screen displaying fluorescent images of mouse brain sections.",
+          "Researcher wearing a white lab coat and glasses."
+        ],
+        "visible_text_labels": [
+          "Results: Double Immunofluorescent Staining of Free-Floating Mouse Brain Sections",
+          "WFA",
+          "PeFAH",
+          "3V",
+          "CHUNMEI WANG",
+          "BAYLOR COLLEGE OF MEDICINE"
+        ],
+        "quantities": [
+          "The fluorescent images show distinct red and green staining patterns."
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation and analysis of fluorescent images of mouse brain sections, highlighting the double immunofluorescent staining results. The researcher is actively engaged in explaining the images, pointing out specific areas of interest. The segment includes text labels identifying the researcher and their affiliation."
+      }
+    }
+  ]
+}

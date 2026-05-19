@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_2/video_segments/57561/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.593,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.89825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a microtube",
+          "researcher places the microtube into a yellow microtube rack"
+        ],
+        "objects_visible": [
+          "purple container filled with ice and blue and red objects",
+          "yellow microtube rack",
+          "microtube with an orange cap",
+          "pipette",
+          "blue-gloved hand",
+          "white lab coat",
+          "plastic bags and containers on the workbench"
+        ],
+        "visible_text_labels": [
+          "See accompanying text protocol for formulas"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise action of liquid transfer using a pipette into a microtube, emphasizing the controlled environment with ice in the background. The yellow microtube rack is a distinctive feature, indicating organized sample handling. The text overlay suggests a protocol reference for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.89825,
+        23.7965
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a multichannel pipette to transfer liquid from a blue 96-well plate into a yellow 96-well plate",
+          "researcher places the multichannel pipette back into its holder"
+        ],
+        "objects_visible": [
+          "blue 96-well plate with multiple wells containing liquid",
+          "yellow 96-well plate with multiple wells",
+          "multichannel pipette with blue tips",
+          "pipette tip box with blue tips",
+          "white lab coat worn by the researcher",
+          "blue gloves on the researcher's hands",
+          "purple container in the background with various items",
+          "white plastic container with a red lid",
+          "clear plastic bag on the workbench"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "96 wells in each plate"
+        ],
+        "key_distinguishing_features": "The segment highlights the precise use of a multichannel pipette for transferring liquids between 96-well plates, emphasizing the efficiency and accuracy in handling multiple samples simultaneously. The researcher's methodical actions and the organized setup of laboratory equipment underscore a controlled and systematic approach to the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.7965,
+        35.69475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a blue 96-well plate and places it on the workbench",
+          "researcher uses a pipette to transfer liquid into a well of the 96-well plate",
+          "researcher places a small orange microtube labeled 'DMEM' with a blue cap on the workbench"
+        ],
+        "objects_visible": [
+          "blue 96-well plate with multiple wells",
+          "orange microtube labeled 'DMEM' with a blue cap",
+          "pipette with a blue tip",
+          "purple container with ice cubes",
+          "transparent plastic container with a white lid",
+          "white lab coat and blue gloves on the researcher"
+        ],
+        "visible_text_labels": [
+          "Include blank well(s) in each plate"
+        ],
+        "quantities": [
+          "96 wells in the blue plate"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of a 96-well plate and the transfer of liquid using a pipette. The inclusion of a labeled microtube and the instruction to include blank wells emphasizes the methodical nature of the experiment. The presence of ice in a container suggests the need to maintain a specific temperature for the samples."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.69475,
+        47.593
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a multichannel pipette to transfer liquid from a blue 96-well plate to a red 96-well plate",
+          "researcher places the multichannel pipette back on the pipette stand"
+        ],
+        "objects_visible": [
+          "blue 96-well plate with multiple wells containing liquid",
+          "red 96-well plate with multiple wells",
+          "multichannel pipette with blue tips",
+          "pipette stand",
+          "purple container with ice",
+          "orange 96-well plate",
+          "clear plastic beaker",
+          "plastic bag with a white label"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "96 wells in each plate"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise transfer of liquid using a multichannel pipette between two 96-well plates, emphasizing the methodical nature of the experiment. The presence of ice in the purple container suggests the need to maintain a specific temperature for the samples. The researcher's actions are deliberate and focused, indicating a critical step in the experimental process."
+      }
+    }
+  ]
+}

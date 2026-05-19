@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_3/50600_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 502.229333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        125.55733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher holds a 1.5mL microtube labeled 'Cocaine' with a green cap.",
+          "The researcher places the microtube on a white cloth alongside a syringe and a vial."
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'Cocaine' with a green cap",
+          "A syringe with a needle",
+          "A vial with a white label",
+          "A white cloth on a table"
+        ],
+        "visible_text_labels": [
+          "Cocaine",
+          "Procedures involving animal subjects have been approved by the Institutional Animal Care and Use Committee (IACUC) at Weill Cornell Medical College"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of materials for an experiment involving cocaine. The presence of the labeled microtube and the syringe suggests the setup for an injection procedure. The text on the screen indicates ethical approval for animal procedures."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        125.55733325,
+        251.1146665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small animal, likely a mouse, with gloved hands",
+          "researcher uses a precision tool to manipulate a small object near the animal's mouth"
+        ],
+        "objects_visible": [
+          "small animal with dark fur and a light-colored snout",
+          "metallic precision tool with a fine tip",
+          "gloved hands of the researcher",
+          "laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a delicate procedure involving a small animal, highlighting the precision required in handling the subject. The use of specialized tools and careful manipulation suggests a highly controlled experimental setup. The presence of the 'jove' logo indicates this is part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        251.1146665,
+        376.67199975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A syringe is inserted into the back of a mouse, likely for an injection.",
+          "The mouse is placed in a metal cage with a grid floor, possibly for observation or conditioning."
+        ],
+        "objects_visible": [
+          "A syringe with a blue plunger and a needle inserted into the mouse.",
+          "A mouse with a brown coat and a white tail, positioned in a metal cage.",
+          "A metal cage with a grid floor, designed for animal containment."
+        ],
+        "visible_text_labels": [
+          "IV. Conditioned Place Preference: Acquisition, Extinction and Reinstatement"
+        ],
+        "quantities": [
+          "The syringe appears to contain a small volume of liquid, though the exact quantity is not specified."
+        ],
+        "key_distinguishing_features": "This segment focuses on the administration of an injection to a mouse, followed by its placement in a specific cage, likely as part of a behavioral experiment. The text on the screen indicates the experiment involves conditioned place preference, suggesting a study on learning and behavior. The use of a grid floor in the cage is distinctive, possibly for monitoring the mouse's movement or for a specific experimental condition."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        376.67199975,
+        502.229333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The video transitions from a graph to a woman speaking in an office setting."
+        ],
+        "objects_visible": [
+          "A bar graph labeled 'Cav1.2 mRNA' with data points for 'AAV-GFP' and 'AAV-Cre' groups.",
+          "A woman with curly hair wearing a red top and a necklace.",
+          "A computer monitor in the background displaying a blue screen.",
+          "A bulletin board with various papers and notes."
+        ],
+        "visible_text_labels": [
+          "Cav1.2 mRNA",
+          "C57BL/6J",
+          "AAV-GFP",
+          "AAV-Cre",
+          "jove"
+        ],
+        "quantities": [
+          "The Cav1.2 mRNA levels are shown as percentages, with the highest value reaching approximately 150% for the AAV-GFP group."
+        ],
+        "key_distinguishing_features": "This segment transitions from a scientific graph to a woman speaking, likely explaining the data. The graph highlights mRNA levels in response to different treatments. The office setting suggests a discussion or presentation of the findings."
+      }
+    }
+  ]
+}

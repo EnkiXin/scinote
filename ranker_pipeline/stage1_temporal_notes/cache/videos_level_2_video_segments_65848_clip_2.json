@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/65848/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.171,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.04275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette with an orange plunger and a purple tip",
+          "researcher inserts the pipette tip into a small vial with a purple cap"
+        ],
+        "objects_visible": [
+          "yellow test tube rack with multiple holes",
+          "small vial with a purple cap",
+          "pipette with an orange plunger and a purple tip",
+          "white lab coat",
+          "blue gloves",
+          "transparent container labeled 'NEPTUNE'"
+        ],
+        "visible_text_labels": [
+          "NEPTUNE",
+          "appendix"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully handling a pipette, indicating a precise liquid transfer process. The yellow test tube rack and the labeled 'NEPTUNE' container suggest a well-organized laboratory setup. The focus is on the interaction between the pipette and the vial, highlighting the precision required in this step."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.04275,
+        16.0855
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with an orange cap",
+          "researcher uses a pipette to transfer liquid from the microtube into a test tube"
+        ],
+        "objects_visible": [
+          "yellow test tube rack with multiple holes",
+          "microtube with an orange cap",
+          "pipette with a white body and blue plunger",
+          "test tube with a clear liquid",
+          "transparent container labeled 'APPENDIX'",
+          "white pipette tip box labeled '10ul'"
+        ],
+        "visible_text_labels": [
+          "APPENDIX",
+          "10ul"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "10ul pipette tips"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of liquid using a pipette, highlighting the careful handling of small volumes. The use of a yellow test tube rack and the specific labeling of the pipette tips add to the detailed setup of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.0855,
+        24.12825
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with an orange cap",
+          "researcher uses a pipette to transfer liquid into the microtube"
+        ],
+        "objects_visible": [
+          "yellow test tube rack with multiple holes",
+          "1.5mL microtube with an orange cap",
+          "pipette with a blue plunger",
+          "transparent container labeled 'APPENDIX'",
+          "red microtube with a purple cap"
+        ],
+        "visible_text_labels": [
+          "APPENDIX",
+          "10\u03bcL"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "10\u03bcL pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube and the use of a pipette for liquid transfer. The yellow test tube rack and the labeled 'APPENDIX' container are distinctive elements in the setup. The researcher's gloved hands emphasize the sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.12825,
+        32.171
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher operates a yellow EVE automatic cell counter by pressing the screen",
+          "researcher places a sample slide on the counter"
+        ],
+        "objects_visible": [
+          "yellow EVE automatic cell counter with a digital screen",
+          "sample slide with a small drop of liquid",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "EVE",
+          "Automatic cell counter"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the use of a specialized yellow EVE automatic cell counter, highlighting the interaction between the researcher and the device. The researcher's actions are precise, indicating a step in the process of cell counting. The digital screen of the counter is a prominent feature in this segment."
+      }
+    }
+  ]
+}

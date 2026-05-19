@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/video_segments/61453/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.859,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.96475
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and transfers liquid into a test tube",
+          "researcher places the test tube into a rack"
+        ],
+        "objects_visible": [
+          "pipette with a blue plunger",
+          "1.5mL microtube with a white cap",
+          "test tube rack with multiple slots",
+          "glass disposal container with a green lid",
+          "red test tube rack"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a pipette to transfer liquid, indicating a precise step in the experiment. The presence of a glass disposal container suggests the handling of potentially hazardous materials. The red test tube rack adds a distinct visual element to the workspace."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.96475,
+        23.9295
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher adjusts the microscope stage with gloved hands",
+          "researcher looks through the microscope eyepiece while adjusting the focus knobs"
+        ],
+        "objects_visible": [
+          "white Leica microscope with black and white knobs",
+          "petri dish containing a small, rectangular sample on a glass slide",
+          "pink test tube rack with multiple tubes",
+          "glass beaker with a metal clamp",
+          "Bunsen burner with a blue flame",
+          "red and white plaid shirt worn by the researcher",
+          "blue nitrile gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "Leica"
+        ],
+        "quantities": [
+          "one petri dish",
+          "multiple test tubes in the rack"
+        ],
+        "key_distinguishing_features": "The segment focuses on the researcher's interaction with the microscope, highlighting precise adjustments and close observation. The presence of a Bunsen burner and glass beaker suggests a laboratory setting with multiple experimental components. The researcher's attire and gloves emphasize safety and sterility."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.9295,
+        35.89425
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a clear liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "pipette with a fine tip",
+          "petri dish containing a clear liquid",
+          "microscope objective lens labeled '0.63x'"
+        ],
+        "visible_text_labels": [
+          "See text for all solution preparation details",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting a clear liquid into a petri dish, with a close-up view of the pipette tip and the petri dish. The presence of a microscope objective lens suggests the experiment involves microscopic observation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.89425,
+        47.859
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope objective lens is focused on a petri dish containing a clear liquid"
+        ],
+        "objects_visible": [
+          "microscope objective lens labeled 'PLANAR 0.63x'",
+          "petri dish with a clear liquid and a small droplet being added",
+          "glass slide partially submerged in the petri dish"
+        ],
+        "visible_text_labels": [
+          "PLANAR 0.63x",
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up view of a microscope objective lens as it observes a petri dish. A droplet is being added to the liquid in the dish, suggesting a precise addition of a sample or reagent. The petri dish contains a clear liquid, and a glass slide is partially submerged, indicating a controlled experimental setup."
+      }
+    }
+  ]
+}

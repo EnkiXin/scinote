@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/step_prediction/52325/clip_3_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.862,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.7155
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a 96-well plate into a metal tray",
+          "researcher adjusts the position of the 96-well plate within the tray"
+        ],
+        "objects_visible": [
+          "96-well plate with black wells and a white frame",
+          "metal tray with a grid design",
+          "researcher wearing a white lab coat and purple gloves",
+          "laboratory equipment in the background including a large white machine and a blue device"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "96 wells on the plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful placement of a 96-well plate into a metal tray, highlighting the precision required in laboratory setup. The researcher's attire and the surrounding equipment emphasize a controlled laboratory environment. The 'jove' logo is prominently displayed, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.7155,
+        19.431
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher operates a control panel on a large machine",
+          "researcher adjusts settings on the machine"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and purple gloves",
+          "control panel with buttons and a digital display",
+          "large cylindrical machine with a transparent lid and internal components",
+          "text overlay on the screen"
+        ],
+        "visible_text_labels": [
+          "See Health Canada Intense regime for parameters",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a researcher interacting with a complex machine, likely for a specific scientific process. The machine's internal components are visible through a transparent lid, and the researcher's actions suggest precise adjustments are being made. The text overlay provides a reference to Health Canada's guidelines, indicating a regulated procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.431,
+        29.146500000000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "machine components rotate and interact within a controlled environment"
+        ],
+        "objects_visible": [
+          "transparent cylindrical chamber with a rotating platform",
+          "metallic rods and tubes connected to the chamber",
+          "motor and mechanical parts driving the rotation"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple metallic rods and tubes"
+        ],
+        "key_distinguishing_features": "The segment showcases a rotating platform within a transparent cylindrical chamber, likely part of a scientific apparatus. The mechanical components, including rods and tubes, are actively engaged, suggesting a dynamic process. The setup is enclosed, emphasizing a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.146500000000003,
+        38.862
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe and injects a liquid into a cylindrical container",
+          "researcher places a syringe into a multi-well plate containing pink liquid"
+        ],
+        "objects_visible": [
+          "a cylindrical container with a beige substance inside",
+          "a multi-well plate with 24 wells, 12 containing pink liquid",
+          "a syringe with a white plunger and a red cap",
+          "a researcher wearing a white lab coat and purple gloves"
+        ],
+        "visible_text_labels": [
+          "VITROCELL",
+          "jove"
+        ],
+        "quantities": [
+          "24 wells in the multi-well plate",
+          "12 wells containing pink liquid"
+        ],
+        "key_distinguishing_features": "This segment shows a researcher actively injecting a substance into a container and a multi-well plate, indicating a step in a biological or chemical process. The presence of pink liquid in the wells suggests a specific reagent or medium is being used. The VITROCELL label indicates the use of specialized equipment for in vitro studies."
+      }
+    }
+  ]
+}

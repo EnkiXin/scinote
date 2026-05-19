@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/video_verification/52874/clip_11_removed_step_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 37.184042,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.2960105
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "hand wearing blue nitrile glove lifts a blue plastic scoop",
+          "scoop is used to transfer a granular substrate into a container"
+        ],
+        "objects_visible": [
+          "blue nitrile glove",
+          "blue plastic scoop",
+          "granular substrate composed of small, light brown and white particles",
+          "white container receiving the substrate"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring a granular substrate using a blue plastic scoop. The hand is protected by a blue nitrile glove, emphasizing a controlled and hygienic environment. The substrate appears to be a mixture of small, uniform particles, likely used for a specific scientific purpose."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.2960105,
+        18.592021
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wearing blue gloves and a white lab coat is washing a transparent plastic container with a yellow sponge under running water from a faucet",
+          "researcher places the washed container on a beige countertop among other laboratory items"
+        ],
+        "objects_visible": [
+          "transparent plastic container with a grid-like structure",
+          "yellow sponge",
+          "beige countertop with various laboratory items including a red funnel, blue and clear plastic tubes, and a black object",
+          "metal faucet with a flexible hose"
+        ],
+        "visible_text_labels": [
+          "Bi-weekly",
+          "Monthly",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the cleaning process of a laboratory container, emphasizing the frequency of cleaning with 'Bi-weekly' and 'Monthly' labels. The researcher's meticulous handling of the container highlights the importance of cleanliness in laboratory procedures."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.592021,
+        27.888031499999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand pours a granular substance from a clear plastic container into a larger container filled with similar material.",
+          "The granular substance is spread out evenly within the larger container."
+        ],
+        "objects_visible": [
+          "A clear plastic container with a granular substance",
+          "A larger container filled with a similar granular substance",
+          "A gloved hand wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "Monthly",
+          "jove"
+        ],
+        "quantities": [
+          "The granular substance appears to be poured in a substantial amount, but the exact quantity is not specified."
+        ],
+        "key_distinguishing_features": "The segment focuses on the action of transferring and spreading a granular substance, likely for a monthly maintenance or experimental setup. The text 'Monthly' suggests a recurring activity. The granular texture and the method of pouring are distinctive features of this segment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.888031499999997,
+        37.184042
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a transparent container filled with a granular substance",
+          "researcher pours the granular substance into a white trash bin"
+        ],
+        "objects_visible": [
+          "transparent container with granular substance",
+          "white trash bin",
+          "researcher wearing a white lab coat and blue gloves",
+          "office environment with chairs and desks in the background"
+        ],
+        "visible_text_labels": [
+          "Once every 3 months",
+          "jove"
+        ],
+        "quantities": [
+          "granular substance in a container"
+        ],
+        "key_distinguishing_features": "The segment shows a specific action of discarding a granular substance, likely part of a routine maintenance or disposal process. The text 'Once every 3 months' indicates a scheduled activity. The environment suggests a laboratory or research setting."
+      }
+    }
+  ]
+}

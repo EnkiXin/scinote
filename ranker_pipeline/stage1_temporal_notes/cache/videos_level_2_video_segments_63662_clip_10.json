@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/video_segments/63662/clip_10.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 29.761,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.44025
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a well plate into a small glass vial"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat, gloves, and a face mask",
+          "pipette with a blue plunger",
+          "well plate with multiple wells containing liquids",
+          "small glass vial held by the researcher",
+          "various laboratory equipment and containers in the background"
+        ],
+        "visible_text_labels": [
+          "Anti-mouse antibody: 1:2000 dilution in PBS"
+        ],
+        "quantities": [
+          "1:2000 dilution"
+        ],
+        "key_distinguishing_features": "The researcher is carefully pipetting a specific dilution of an anti-mouse antibody into a vial, indicating a precise step in the experiment. The text overlay specifies the dilution ratio, emphasizing the importance of accurate measurements. The background shows a typical laboratory setup with various equipment and containers."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.44025,
+        14.8805
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a large white refrigerator with a digital display",
+          "researcher reaches inside the refrigerator, possibly retrieving or placing an item"
+        ],
+        "objects_visible": [
+          "large white refrigerator with a digital display and various stickers",
+          "researcher wearing a white lab coat, blue gloves, and a blue face mask",
+          "stack of papers and a blue folder on top of the refrigerator"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the interaction with a large refrigerator, which is a central action in this part of the video. The researcher's attire and the presence of laboratory items on the refrigerator suggest a controlled laboratory environment. The digital display on the refrigerator indicates it is likely used for precise temperature control."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.8805,
+        22.32075
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a large, beige laboratory incubator with a digital display and control panel",
+          "researcher places a transparent container with a blue lid into the incubator"
+        ],
+        "objects_visible": [
+          "beige laboratory incubator with a digital display and control panel",
+          "transparent container with a blue lid",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "DAPI: 4',6-diamidino-2-phenylindole"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the action of placing a container into an incubator, highlighting the controlled environment necessary for the experiment. The digital display on the incubator suggests precise temperature or other parameter control. The researcher's careful handling of the container underscores the importance of maintaining sterility and proper conditions."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.32075,
+        29.761
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher uses a microscope to examine a sample",
+          "researcher operates a computer, likely analyzing data or controlling the microscope"
+        ],
+        "objects_visible": [
+          "black and white microscope with multiple lenses and a stage",
+          "computer monitor displaying a software interface",
+          "researcher wearing a white lab coat and glasses",
+          "orange test tube rack with several test tubes",
+          "various laboratory equipment and containers on the table"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively engaged in observing a sample under a microscope, indicating a phase of detailed examination. The presence of a computer interface suggests data analysis or control of the microscope. The laboratory setting is well-equipped, with various tools and containers visible, emphasizing a professional research environment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "video_id": "videos/level_2/video_verification/62650/clip_9_removed_step_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.484967,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.62124175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher uses a computer mouse to interact with a digital image of a brain slice"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a brain slice with fluorescent markers",
+          "computer keyboard",
+          "computer mouse",
+          "researcher's hand holding the mouse"
+        ],
+        "visible_text_labels": [
+          "jove",
+          "File",
+          "Edit",
+          "View",
+          "Image",
+          "Analyze",
+          "Plugins",
+          "Help",
+          "Gaussian Blur...",
+          "Median...",
+          "Find Edges",
+          "Enhance Contrast",
+          "3D Viewer"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the digital analysis of a brain slice, with the researcher using software tools to enhance and analyze the image. The fluorescent markers in the brain slice are distinctly visible, indicating specific regions of interest. The interface suggests the use of advanced image processing techniques."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.62124175,
+        15.2424835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "scrolls through a menu in the software interface",
+          "clicks on an option to adjust image settings"
+        ],
+        "objects_visible": [
+          "fluorescent microscopic image with red and green spots",
+          "software interface with multiple tabs and options",
+          "three smaller images showing different views of the sample"
+        ],
+        "visible_text_labels": [
+          "Enhance Local Contrast (CLAHE)",
+          "Channel 1",
+          "Channel 2",
+          "Merge"
+        ],
+        "quantities": [
+          "multiple options in the dropdown menu",
+          "three smaller images"
+        ],
+        "key_distinguishing_features": "This segment shows a detailed interaction with a software interface for image analysis, focusing on enhancing and viewing a fluorescent microscopic image. The user is actively adjusting settings, likely to improve the clarity and contrast of the image. The presence of multiple channels and merged views suggests a complex analysis process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.2424835,
+        22.86372525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "multiple image windows are displayed, showing different views of a brain slice with fluorescent markers",
+          "the user interacts with the software, adjusting the view and possibly analyzing the data"
+        ],
+        "objects_visible": [
+          "a computer screen with multiple image windows showing a brain slice with green and red fluorescent markers",
+          "a toolbar with various options and settings for image analysis"
+        ],
+        "visible_text_labels": [
+          "Channel 1",
+          "Channel 2",
+          "Merge",
+          "C57BL/6J Brain 10x 100um Z-stack 100um Step 100um.tif"
+        ],
+        "quantities": [
+          "10x magnification",
+          "100um Z-stack",
+          "100um step"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the detailed observation of a brain slice with fluorescent markers, highlighting the use of advanced imaging software. The user is actively manipulating the images, suggesting an analysis phase. The presence of multiple channels and a merged view indicates a complex imaging setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.86372525,
+        30.484967
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "zooms in on the fluorescent image",
+          "adjusts the contrast and brightness of the image"
+        ],
+        "objects_visible": [
+          "fluorescent microscopic image of a brain slice with red and green fluorescence",
+          "software interface with multiple toolbars and menus",
+          "image adjustment sliders and options"
+        ],
+        "visible_text_labels": [
+          "ImageJ",
+          "Adjust",
+          "Brightness/Contrast...",
+          "Gamma...",
+          "Threshold..."
+        ],
+        "quantities": [
+          "red and green fluorescence intensity levels"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed observation of a fluorescent brain slice image, with adjustments being made to enhance the visibility of specific features. The software interface is actively used to manipulate the image's contrast and brightness. The red and green fluorescence patterns are prominently displayed, indicating the presence of specific markers or proteins."
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "video_id": "videos/level_3/63129_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 430.101333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        107.52533325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand holds a micro-syringe labeled '200'.",
+          "A gloved hand picks up a blade holder from a tray."
+        ],
+        "objects_visible": [
+          "Micro-syringe with a label '200'.",
+          "Blade holder with a metallic edge.",
+          "Sterile drapes with a grid pattern.",
+          "Needle holder with a curved tip.",
+          "Vascular clamps with a metallic finish.",
+          "Scissors with a sharp and blunt end.",
+          "Forceps with a pointed tip.",
+          "Hemostatic clip with a spring mechanism."
+        ],
+        "visible_text_labels": [
+          "Micro-Syringe",
+          "Blade holder",
+          "Sterile drapes",
+          "Needle holder",
+          "Vascular clamps",
+          "Scissor",
+          "Forceps",
+          "Hemostatic clip",
+          "All Experiments Involving Animals Were Approved by the Animal Ethics Committee of Soochow University."
+        ],
+        "quantities": [
+          "One micro-syringe labeled '200'.",
+          "One blade holder."
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase of an experiment, focusing on the detailed setup of surgical instruments. The presence of a labeled micro-syringe and a blade holder indicates the precision required for the procedure. The text on the screen emphasizes ethical approval for animal experiments."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        107.52533325,
+        215.0506665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments are used to manipulate tissue within a surgical site",
+          "a gloved hand holds a red, transparent suction device to clear the surgical field"
+        ],
+        "objects_visible": [
+          "surgical instruments with metallic, reflective surfaces",
+          "a red, transparent suction device with a flexible tube",
+          "a surgical site with visible tissue and sutures",
+          "a gloved hand with a green surgical glove"
+        ],
+        "visible_text_labels": [
+          "repeat for 3 cycles"
+        ],
+        "quantities": [
+          "3 cycles"
+        ],
+        "key_distinguishing_features": "This segment focuses on the active manipulation of tissue within a surgical site, highlighting the use of specialized surgical instruments and a suction device. The presence of the text 'repeat for 3 cycles' suggests a repetitive procedure is being performed. The green surgical glove and the red suction device are distinctive elements in the scene."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        215.0506665,
+        322.57599975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Sample A' with a green cap",
+          "pipettes approximately 200uL of a clear liquid from the microtube into a petri dish",
+          "researcher places the microtube back on the laboratory bench",
+          "researcher picks up a second microtube labeled 'Sample B' with a blue cap",
+          "pipettes approximately 150uL of a yellow liquid from the second microtube into the same petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with green cap labeled 'Sample A'",
+          "1.5mL microtube with blue cap labeled 'Sample B'",
+          "petri dish containing a clear and yellow liquid",
+          "pipette with a blue plunger",
+          "laboratory bench with various equipment and containers"
+        ],
+        "visible_text_labels": [
+          "Sample A",
+          "Sample B"
+        ],
+        "quantities": [
+          "200uL",
+          "150uL"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the precise pipetting of two different samples into a petri dish, highlighting the careful handling of small volumes. The use of color-coded microtubes and the clear labeling of samples ensure accurate identification and tracking. The focus on the petri dish as the mixing point suggests a step in a multi-component experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        322.57599975,
+        430.101333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "Displaying histological images of pancreatic tissue at different magnifications",
+          "Presenting graphs comparing enzyme levels and pancreatic morphology between control and SAP groups"
+        ],
+        "objects_visible": [
+          "Histological slides of pancreatic tissue at 100X, 200X, and 400X magnification",
+          "Graphs showing ALT, AST, and amylase levels",
+          "Graphs comparing pancreas morphology between control and SAP groups"
+        ],
+        "visible_text_labels": [
+          "Part 7 Conclusion",
+          "Control",
+          "SAP",
+          "Inflammatory cells infiltration",
+          "Hemorrhage",
+          "Acinar cell necrosis",
+          "ALT (U/L)",
+          "AST (U/L)",
+          "Amylase (U/L)"
+        ],
+        "quantities": [
+          "100X, 200X, 400X magnification levels",
+          "ALT, AST, and amylase enzyme levels in U/L"
+        ],
+        "key_distinguishing_features": "This segment focuses on the conclusion of the study, presenting detailed histological evidence and enzyme level comparisons between control and SAP groups. The visual emphasis is on the pathological changes in pancreatic tissue and the biochemical markers of acute pancreatitis. The text highlights the suitability of the TC-induced SAP model for studying severe acute pancreatitis in mice."
+      }
+    }
+  ]
+}

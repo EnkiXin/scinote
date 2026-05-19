@@ -1,0 +1,145 @@
+{
+  "video_id": "videos/level_2/video_verification/59616/clip_10_removed_step_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 22.732267,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.68306675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments manipulate a suture needle and thread",
+          "needle is guided through tissue"
+        ],
+        "objects_visible": [
+          "metallic surgical forceps with fine tips",
+          "suture needle with attached white thread",
+          "exposed tissue with visible blood vessels and sutures"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of precise surgical suturing, with metallic forceps holding a needle and thread. The tissue appears to be part of a larger surgical procedure, with multiple sutures already in place. The 'jove' logo indicates this is part of a scientific or educational video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.68306675,
+        11.3661335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments manipulate a suture needle through tissue",
+          "forceps hold the tissue steady"
+        ],
+        "objects_visible": [
+          "metallic surgical forceps with serrated edges",
+          "suture needle with attached white thread",
+          "pink tissue with visible black sutures",
+          "white foam-like material surrounding the surgical area"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of precise surgical suturing, with the needle and thread being carefully guided through the tissue. The surrounding white foam-like material suggests a controlled environment, possibly for animal surgery. The black sutures already in place indicate an ongoing procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.3661335,
+        17.04920025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A surgical instrument is carefully manipulating a small, white, spherical object near a tissue structure.",
+          "The instrument appears to be adjusting or positioning the object with precision."
+        ],
+        "objects_visible": [
+          "A white, spherical object resembling a cotton ball or similar material.",
+          "A pinkish tissue structure with visible blood vessels.",
+          "A metallic surgical instrument with a fine tip."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a delicate surgical procedure involving a small white object near a tissue structure. The precision of the instrument's movements suggests a high level of care and accuracy. The presence of the 'jove' logo indicates this is part of a scientific or educational video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.04920025,
+        22.732267
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A white, cotton-like material is being gently pressed against a pale, bulbous structure.",
+          "The structure appears to be manipulated with a tool, possibly a forceps, to adjust its position."
+        ],
+        "objects_visible": [
+          "A pale, bulbous structure with a smooth, translucent surface.",
+          "A white, cotton-like material, possibly gauze or a similar absorbent material.",
+          "A dark, reddish background, likely representing surrounding tissue or fluid."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the interaction between a white, cotton-like material and a pale, bulbous structure, suggesting a delicate procedure. The presence of the 'jove' logo indicates this is part of a scientific or educational video. The reddish background adds contrast, highlighting the pale structure and white material."
+      }
+    }
+  ]
+}

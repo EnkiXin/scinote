@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/video_verification/4422/clip_5_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 31.223047,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.80576175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [],
+        "objects_visible": [
+          "cells under a microscope with a network-like structure"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The video shows a static view of cells under a microscope, with no visible actions or changes. The cells form a network-like pattern with interconnected structures. The 'jove' logo is visible in the top right corner."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.80576175,
+        15.6115235
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher uses a pipette to transfer liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "red microtube rack holding several tubes",
+          "petri dish with a clear lid partially open",
+          "bottle of CHROMEDT solution with a blue cap",
+          "pipette with a white and red handle",
+          "yellow-capped bottle on the counter"
+        ],
+        "visible_text_labels": [
+          "CHROMEDT"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The researcher is actively transferring a liquid using a pipette, indicating a precise step in the experiment. The presence of the petri dish and microtube suggests a cell culture or similar biological procedure. The organized setup with labeled bottles and tubes highlights a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.6115235,
+        23.41728525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes ~200uL of pink-colored liquid into a petri dish",
+          "places the petri dish on a laboratory surface"
+        ],
+        "objects_visible": [
+          "petri dish with a pink liquid sample",
+          "pipette with a visible liquid column",
+          "red test tube rack with blue-capped tubes",
+          "bottles labeled 'Hepes/EDTA' and 'Sodium Chloride'"
+        ],
+        "visible_text_labels": [
+          "Hepes/EDTA",
+          "Sodium Chloride"
+        ],
+        "quantities": [
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a pink liquid into a petri dish, highlighting the use of a pipette for accurate measurement. The surrounding laboratory setup, including labeled bottles and a test tube rack, emphasizes a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.41728525,
+        31.223047
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "pipettes a pink-colored liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "red microtube rack",
+          "1.5mL microtube with blue cap",
+          "petri dish with pink liquid",
+          "pipette with pink liquid",
+          "two bottles labeled 'BIOCHROM' and 'Trypsin-EDTA'"
+        ],
+        "visible_text_labels": [
+          "Split at 1:3 ratio at 80% confluency or every 5th day",
+          "BIOCHROM",
+          "Trypsin-EDTA"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "pink-colored liquid"
+        ],
+        "key_distinguishing_features": "This segment shows the precise transfer of a pink liquid from a microtube to a petri dish, emphasizing the controlled handling of cell culture media. The text overlay provides specific instructions for cell culture splitting, highlighting the importance of timing and confluency. The presence of labeled bottles and a pipette underscores the meticulous nature of the experiment."
+      }
+    }
+  ]
+}

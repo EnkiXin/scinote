@@ -1,0 +1,189 @@
+{
+  "video_id": "videos/level_3/62182_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 602.858667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        150.71466675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into petri dish",
+          "researcher places petri dish into incubator set at 37\u00b0C, 5% CO2, and 95% humidity"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "pipette with black handle and white tip",
+          "petri dish containing pink-colored medium",
+          "incubator with digital display showing temperature and gas settings",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "37\u00b0C",
+          "5% CO2",
+          "95% Humidity"
+        ],
+        "quantities": [
+          "1.5mL",
+          "200uL",
+          "37\u00b0C",
+          "5%",
+          "95%"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube and the accurate pipetting of a specific volume of medium into a petri dish. The incubator settings are clearly displayed, emphasizing the controlled environment required for the experiment. The researcher's actions are methodical and deliberate, highlighting the importance of accuracy in this phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        150.71466675,
+        301.4293335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish",
+          "researcher places the microtube back into a blue microtube rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'DMEM' with a blue cap",
+          "blue microtube rack",
+          "petri dish containing pink-colored DMEM medium",
+          "pipette with a white tip",
+          "orange microtube rack in the background"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "1.5mL"
+        ],
+        "quantities": [
+          "200uL",
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a DMEM medium, emphasizing the use of a pipette to transfer a specific volume of liquid. The presence of color-coded microtube racks and the labeled microtube highlight the organized and methodical nature of the experiment. The pink color of the DMEM medium is a distinctive visual cue."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        301.4293335,
+        452.14400025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish",
+          "researcher places a labeled sample into a flow cytometer",
+          "researcher adds ice cubes to a blue bucket containing a beaker"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pink-colored DMEM medium",
+          "petri dish",
+          "flow cytometer with a sample tray",
+          "blue bucket with ice cubes and a beaker",
+          "orange rack with multiple compartments"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "SD-NHKC",
+          "EGFP-PE",
+          "ITGA6-FITC"
+        ],
+        "quantities": [
+          "200uL",
+          "9.91%",
+          "6.18%",
+          "22.4%"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its detailed focus on the precise handling of DMEM medium and the use of a flow cytometer for sample analysis. The addition of ice cubes to a bucket suggests a step to maintain sample temperature. The flow cytometry data overlay provides specific percentage values for different cell populations."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        452.14400025,
+        602.858667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher examines a petri dish containing a culture of cells under a microscope.",
+          "Microscope images are displayed on a screen, showing various stages of cell growth and morphology."
+        ],
+        "objects_visible": [
+          "Petri dish with a culture of cells",
+          "Microscope with a stage and objective lenses",
+          "Screen displaying microscopic images of cells",
+          "Graphs and charts showing cell growth data",
+          "Fluorescently labeled cells under a microscope"
+        ],
+        "visible_text_labels": [
+          "DAPI",
+          "K14",
+          "P63",
+          "Merged",
+          "Non-spheroid forming NHKc",
+          "Spheroid-forming NHKc",
+          "SD-NHKc",
+          "ITGAP-FITC"
+        ],
+        "quantities": [
+          "24 h, 48 h, 96 h (time intervals for cell growth)",
+          "2.5, 5-10, \u226520 (number of cells seeded in multiples of 10^3)",
+          "80%, 100% (percentages of cell populations)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of cell cultures under a microscope, with detailed images and data analysis. The use of fluorescent markers and the comparison between non-spheroid and spheroid-forming cells are distinctive features. The segment also includes quantitative data on cell growth and seeding numbers."
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "video_id": "videos/level_2/video_verification/52653/clip_6_removed_step_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 48.038792,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.009698
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "person wearing blue gloves places a white rectangular container on a surface"
+        ],
+        "objects_visible": [
+          "white rectangular container with a smooth interior and exterior",
+          "blue gloves on a person's hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where a white rectangular container is being handled. The person's blue gloves indicate a controlled environment, likely for a scientific experiment. The container appears clean and ready for use."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.009698,
+        24.019396
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a white rectangular container on a surface",
+          "researcher interacts with a computer, likely setting up or monitoring an experiment"
+        ],
+        "objects_visible": [
+          "white rectangular container",
+          "researcher wearing a white lab coat and blue gloves",
+          "computer monitor displaying a software interface with multiple windows",
+          "computer keyboard"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher preparing a container, likely for an experiment, while also interacting with a computer. The focus is on the initial setup phase, with no specific measurements or observations being made yet. The presence of the 'jove' logo suggests this is part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        24.019396,
+        36.029094
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher places a small rodent into a white, enclosed space",
+          "rodent explores the upper corner of the enclosure"
+        ],
+        "objects_visible": [
+          "small rodent with dark fur",
+          "white, smooth-walled enclosure",
+          "researcher's hand wearing a blue nitrile glove"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The rodent is actively exploring the upper corner of the enclosure, indicating a behavioral observation phase. The researcher's hand is only briefly visible, suggesting minimal interference. The 'jove' logo is prominently displayed in the upper right corner."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        36.029094,
+        48.038792
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand presses the 'MIN' button on a digital timer, setting it to 4 minutes and 59 seconds.",
+          "A person in a lab coat and blue gloves uses a spray bottle to clean the interior of a white container."
+        ],
+        "objects_visible": [
+          "A white digital timer with blue buttons labeled 'MIN', 'SEC', and 'START/STOP'.",
+          "A white container with an orange stripe on the side.",
+          "A spray bottle held by a person wearing blue gloves."
+        ],
+        "visible_text_labels": [
+          "AdipoGen",
+          "www.adipogen.com",
+          "04:59"
+        ],
+        "quantities": [
+          "4 minutes and 59 seconds"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise timing setup using a digital timer and the cleaning of a container, indicating preparation for a controlled experiment. The presence of a branded timer suggests a specific protocol or standard in the experiment. The cleaning action highlights the importance of maintaining a sterile environment."
+      }
+    }
+  ]
+}

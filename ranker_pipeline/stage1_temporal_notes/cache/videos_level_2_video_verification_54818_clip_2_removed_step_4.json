@@ -1,0 +1,146 @@
+{
+  "video_id": "videos/level_2/video_verification/54818/clip_2_removed_step_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.093667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.52341675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts the position of a small white mouse on a green surgical drape",
+          "researcher gently holds the mouse with gloved hands"
+        ],
+        "objects_visible": [
+          "small white mouse with pink ears and tail",
+          "green surgical drape on a red surface",
+          "blue nitrile gloves on the researcher's hands",
+          "white lab coat sleeve"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a small white mouse, emphasizing the preparation phase of an experiment. The researcher's gloved hands and the green surgical drape suggest a sterile environment. The mouse is the central object, being positioned for a procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.52341675,
+        13.0468335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wearing blue gloves wipes the shaved area of a rat's abdomen with a white cloth",
+          "researcher adjusts the rat's position on the green surgical table"
+        ],
+        "objects_visible": [
+          "white rat with a shaved and exposed pink abdominal area",
+          "green surgical table",
+          "white cloth used for wiping",
+          "researcher's blue gloves"
+        ],
+        "visible_text_labels": [
+          "Maintain a sterile field throughout procedure",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of a surgical procedure, emphasizing the maintenance of a sterile field. The researcher's actions are deliberate, ensuring the rat's abdomen is clean and properly positioned for the next steps. The text overlay reinforces the importance of sterility."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.0468335,
+        19.57025025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "applies a brownish-orange substance onto a heart-shaped patch using a small brush"
+        ],
+        "objects_visible": [
+          "heart-shaped patch with a metallic border and a light purple center",
+          "small brush held by a gloved hand",
+          "green background surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise application of a substance onto a heart-shaped patch, highlighting the careful and controlled movement of the brush. The metallic border of the patch and the contrast with the green background make the action visually distinct."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.57025025,
+        26.093667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "applies a red substance to a small, exposed area of tissue using a cotton swab",
+          "holds a syringe with a white substance, possibly a contrast agent or medication"
+        ],
+        "objects_visible": [
+          "a gloved hand manipulating a cotton swab",
+          "a syringe with a white substance",
+          "a small, oval-shaped exposed area of tissue surrounded by a sutured border"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise application of a red substance to a specific area of tissue, likely for staining or marking purposes. The use of a cotton swab for application and the presence of a syringe suggest a controlled and deliberate experimental procedure. The tissue is clearly exposed and bordered by sutures, indicating a surgical or experimental context."
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_3/50459_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 511.914667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        127.97866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A hand wearing a blue glove holds a 1.5mL microtube labeled 'DMEM' with a blue cap.",
+          "The hand carefully opens the microtube and uses a pipette to transfer a small volume of liquid into a petri dish."
+        ],
+        "objects_visible": [
+          "A 1.5mL microtube with a blue cap labeled 'DMEM'.",
+          "A petri dish containing a clear or slightly colored medium.",
+          "A pipette with a blue plunger."
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "Approximately 200uL of liquid transferred"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube containing DMEM medium, emphasizing the careful transfer of a small volume of liquid into a petri dish. The use of a blue-gloved hand and a pipette highlights the controlled and sterile nature of the preparation process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        127.97866675,
+        255.9573335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a clear liquid from a 1000 mL Pyrex beaker into a water bath",
+          "researcher places a blue cylindrical object with a black top into a mechanical press",
+          "researcher adjusts the press to compress the blue cylindrical object"
+        ],
+        "objects_visible": [
+          "1000 mL Pyrex beaker with clear liquid",
+          "blue cylindrical object with a black top",
+          "mechanical press with a digital display",
+          "water bath with a clear glass container inside"
+        ],
+        "visible_text_labels": [
+          "1000 mL",
+          "PYREX",
+          "1005"
+        ],
+        "quantities": [
+          "1000 mL",
+          "1005 (digital reading on the press)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a blue cylindrical object within a mechanical press, indicating a step in fabricating a microvascular gas exchange unit. The use of a water bath and a Pyrex beaker suggests temperature control is crucial. The digital display on the press highlights the importance of precise measurements in the process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        255.9573335,
+        383.93600025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher applies a yellow glue gun to a transparent plastic component",
+          "researcher pours a liquid from a red cup into a mold containing a PDMS mixture",
+          "researcher uses tweezers to manipulate a small, transparent, triangular piece of material"
+        ],
+        "objects_visible": [
+          "yellow glue gun with a black nozzle",
+          "red plastic cup with a white cap",
+          "transparent plastic mold with a PDMS mixture",
+          "tweezers with black tips",
+          "small, transparent, triangular piece of material with holes"
+        ],
+        "visible_text_labels": [
+          "Polydimethylsiloxane - PDMS"
+        ],
+        "quantities": [
+          "no specific quantities are visible in this segment"
+        ],
+        "key_distinguishing_features": "This segment focuses on the application of a glue gun and the pouring of a PDMS mixture, highlighting the assembly and preparation of a transparent mold. The use of tweezers to handle a small, delicate piece of material adds precision to the execution phase. The text 'Polydimethylsiloxane - PDMS' indicates the material being used."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        383.93600025,
+        511.914667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher opens oven door",
+          "researcher removes cured resin sample"
+        ],
+        "objects_visible": [
+          "oven with digital display showing '85\u00b0C'",
+          "cured resin sample with microvascular structure",
+          "graphical representation of microvascular structure"
+        ],
+        "visible_text_labels": [
+          "Cure at 85\u00b0C for 30 min",
+          "IV. Results: Fabrication of Microvascular Structure in a Resin",
+          "4 mm",
+          "1 cm",
+          "200 \u03bcm"
+        ],
+        "quantities": [
+          "85\u00b0C",
+          "30 min",
+          "4 mm",
+          "1 cm",
+          "200 \u03bcm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of the cured resin sample with a microvascular structure, highlighting the precision of the fabricated channels. The graphical representation provides a detailed scale and structure of the microvascular network. The curing process at a specific temperature and time is emphasized."
+      }
+    }
+  ]
+}

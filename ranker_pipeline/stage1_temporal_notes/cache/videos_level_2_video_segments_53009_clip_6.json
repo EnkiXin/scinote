@@ -1,0 +1,145 @@
+{
+  "video_id": "videos/level_2/video_segments/53009/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.505,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.87625
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "camera pans across laboratory setup",
+          "briefly focuses on a blue container and a hanging blue bag"
+        ],
+        "objects_visible": [
+          "laboratory equipment with a metallic frame and a control panel",
+          "blue plastic container with a lid",
+          "blue bag hanging from a hook",
+          "glass shelves with various items"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment highlights a laboratory environment with a focus on storage and equipment. The blue container and bag are prominently featured, suggesting their importance in the setup. The camera movement provides a brief overview of the workspace."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.87625,
+        19.7525
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a black rectangular object with a white label",
+          "researcher places the black object into a metal rack"
+        ],
+        "objects_visible": [
+          "black rectangular object with a white label",
+          "metal rack with a grid pattern",
+          "researcher's gloved hand",
+          "laboratory equipment with wires and a motor"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful placement of a labeled black object into a metal rack, suggesting a preparatory step in a scientific procedure. The researcher's gloved hand indicates a controlled and sterile environment. The presence of laboratory equipment with visible wiring and a motor highlights the technical nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.7525,
+        29.628750000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand reaches into the frame and interacts with the machine"
+        ],
+        "objects_visible": [
+          "A metal machine with a grid-like structure and a cylindrical component",
+          "A gloved hand wearing a blue nitrile glove"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up of a machine, likely part of a scientific apparatus, with a gloved hand entering the frame to manipulate or adjust the machine. The 'jove' logo is visible in the upper right corner, indicating the source of the video. The interaction suggests a precise, controlled action typical in laboratory settings."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.628750000000004,
+        39.505
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher places a gloved hand into a metal cage containing a mouse",
+          "mouse is observed moving within the cage"
+        ],
+        "objects_visible": [
+          "metal cage with a grid floor and walls",
+          "mouse with dark fur",
+          "gloved hand wearing a blue nitrile glove",
+          "metallic equipment surrounding the cage"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a mouse within a metal cage, with a gloved hand interacting with the cage. The mouse is actively moving, and the surrounding equipment suggests a controlled laboratory environment. The 'jove' logo is visible, indicating the source of the video."
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "video_id": "videos/level_2/step_prediction/59156/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 17.505133,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.37628325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a clear liquid",
+          "researcher uses tweezers to manipulate a small object"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a clear liquid",
+          "tweezers",
+          "small, transparent glass container"
+        ],
+        "visible_text_labels": [
+          "Perform all of the following steps at room temperature"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher handling a microtube and a small object with tweezers, emphasizing the need to perform subsequent steps at room temperature. The focus is on precise manipulation of small laboratory items."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.37628325,
+        8.7525665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher uses tweezers to place a small black object into a clear glass container"
+        ],
+        "objects_visible": [
+          "clear glass container with a square shape and a central depression",
+          "tweezers with black handles",
+          "small black object being placed in the container",
+          "blue-gloved hand holding the tweezers"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a small black object into a clear glass container using tweezers. The blue-gloved hand and the clear container with a central depression are distinctive features. The action is deliberate and careful, suggesting a preparatory step in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        8.7525665,
+        13.12884975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pair of tweezers to manipulate a small object within a transparent square container"
+        ],
+        "objects_visible": [
+          "transparent square container with a small central well",
+          "two gloved hands holding tweezers",
+          "small object being manipulated within the container"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on precise manipulation of a small object within a transparent container using tweezers. The hands are gloved, indicating a controlled laboratory environment. The container's design suggests it is used for delicate scientific procedures."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        13.12884975,
+        17.505133
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses fine-tipped forceps to manipulate a small, transparent object within a petri dish",
+          "researcher holds a second pair of forceps to stabilize the object"
+        ],
+        "objects_visible": [
+          "petri dish containing a clear, gel-like substance",
+          "two pairs of fine-tipped forceps",
+          "researcher's hands wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on precise manipulation of a small object within a petri dish using two pairs of forceps. The researcher's hands are gloved, emphasizing a sterile environment. The petri dish contains a clear, gel-like substance, suggesting a biological or chemical experiment."
+      }
+    }
+  ]
+}

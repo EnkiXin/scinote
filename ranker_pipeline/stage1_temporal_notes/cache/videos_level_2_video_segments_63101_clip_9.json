@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/video_segments/63101/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 79.461,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        19.86525
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a multi-well plate",
+          "researcher places the multi-well plate on a rack"
+        ],
+        "objects_visible": [
+          "pipette with a blue plunger and a white tip",
+          "multi-well plate with multiple compartments containing different colored liquids",
+          "purple test tube rack with labeled test tubes",
+          "transparent plastic container with a green label reading 'BIO-RAD'"
+        ],
+        "visible_text_labels": [
+          "BIO-RAD",
+          "TEACHING LAB"
+        ],
+        "quantities": [
+          "multiple compartments in the multi-well plate"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of a pipette to dispense liquids into a multi-well plate, emphasizing the preparation phase of the experiment. The presence of a labeled 'BIO-RAD' container suggests the use of specific laboratory equipment. The 'TEACHING LAB' text indicates an educational or instructional setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        19.86525,
+        39.7305
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "person types on laptop keyboard",
+          "person uses touchpad to navigate"
+        ],
+        "objects_visible": [
+          "gold-colored laptop with black keyboard",
+          "person wearing a white lab coat",
+          "petri dishes with bacterial colonies"
+        ],
+        "visible_text_labels": [
+          "Results: Isolation and Characterization of Hydrocarbon Degrading Bacteria from Aquatic Habitats"
+        ],
+        "quantities": [
+          "multiple petri dishes"
+        ],
+        "key_distinguishing_features": "The segment focuses on a person interacting with a laptop, likely analyzing data related to bacterial isolation. The screen displays a document with detailed results. The transition to petri dishes with bacterial colonies highlights the experimental outcomes."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        39.7305,
+        59.595749999999995
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Graph displays absorbance measurements over time for different strains"
+        ],
+        "objects_visible": [
+          "Line graph with three distinct lines representing control, Strain 'P', and Strain 'Q'"
+        ],
+        "visible_text_labels": [
+          "Absorbance (600 nm)",
+          "Time (in days)",
+          "Control",
+          "Strain 'P'",
+          "Strain 'Q'"
+        ],
+        "quantities": [
+          "Absorbance values ranging from 0 to 0.6",
+          "Time range from 5 to 40 days"
+        ],
+        "key_distinguishing_features": "The graph clearly shows a significant increase in absorbance for Strain 'P' and Strain 'Q' compared to the control over time. The absorbance values for Strain 'P' and 'Q' converge towards the end of the 40-day period. The control line remains relatively flat throughout the observation period."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        59.595749999999995,
+        79.461
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Displaying a gel electrophoresis image with DNA bands"
+        ],
+        "objects_visible": [
+          "Gel electrophoresis image with labeled lanes and DNA bands"
+        ],
+        "visible_text_labels": [
+          "M",
+          "1",
+          "2",
+          "3",
+          "4",
+          "6 kb",
+          "3 kb",
+          "1 kb",
+          "Sample 1 cell lysate",
+          "Negative Control"
+        ],
+        "quantities": [
+          "6 kb",
+          "3 kb",
+          "1 kb"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of a gel electrophoresis result, showing distinct DNA bands at specific kilobase markers. The lanes are clearly labeled, and the presence of a molecular weight marker (M) helps in size estimation. The segment highlights the comparison between the sample and negative control lanes."
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "video_id": "2609",
+  "benchmark": "scivideobench",
+  "duration_seconds": 607.872,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        151.968
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "mouse balances on a rotating horizontal bar",
+          "researcher adjusts the speed of the rotarod machine"
+        ],
+        "objects_visible": [
+          "mouse with a white and brown coat",
+          "rotating horizontal bar labeled '30 cm'",
+          "rotarod machine with a digital display and control knobs",
+          "researcher wearing a white lab coat"
+        ],
+        "visible_text_labels": [
+          "Horizontal Bar",
+          "II. Rotarod",
+          "30 cm"
+        ],
+        "quantities": [
+          "30 cm (length of the horizontal bar)"
+        ],
+        "key_distinguishing_features": "This segment focuses on a mouse performing a balance test on a rotating bar, with the researcher actively adjusting the machine settings. The setup is clearly labeled and quantified, emphasizing the controlled nature of the experiment. The mouse's movement and the machine's operation are central to the visual narrative."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        151.968,
+        303.936
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "mouse is placed on a rotating rod apparatus",
+          "mouse attempts to balance on the rotating rod",
+          "mouse is placed on a horizontal wire between two poles",
+          "mouse hangs upside down from the wire"
+        ],
+        "objects_visible": [
+          "rotating rod apparatus with a mouse balancing on it",
+          "horizontal wire setup with two poles",
+          "mouse with dark fur",
+          "gloved hand placing the mouse on the wire"
+        ],
+        "visible_text_labels": [
+          "If mouse falls before 5 sec, restart trial",
+          "4 + 12",
+          "Do not record if mouse falls due to poor experimenter placement"
+        ],
+        "quantities": [
+          "5 seconds",
+          "4 + 12"
+        ],
+        "key_distinguishing_features": "This segment focuses on the execution phase of a motor coordination test, specifically using a rotating rod and a wire balance test. The mouse's ability to balance is observed under different conditions, with specific instructions for handling trial restarts and experimenter errors. The presence of text instructions on the screen provides clear guidelines for the experimenters."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        303.936,
+        455.904
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Gloved hands position a rat on a horizontal bar apparatus.",
+          "The rat is observed balancing and moving along the bar."
+        ],
+        "objects_visible": [
+          "A rat with a white and black coat.",
+          "A horizontal bar apparatus with measurements labeled on the bars.",
+          "Gloved hands manipulating the rat and the apparatus."
+        ],
+        "visible_text_labels": [
+          "Nose tip one head's length from the end is ideal",
+          "If error during orientation, assign max score",
+          "Maximum score: 120 sec"
+        ],
+        "quantities": [
+          "35 mm, 28 mm, 22 mm, 15 mm, 9 mm (measurements on the horizontal bars)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the execution phase of a behavioral test, where a rat is placed on a horizontal bar apparatus. The specific measurements on the bars and the instructions on the screen highlight the precision required for the experiment. The rat's movement and balance are central to the observed actions."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        455.904,
+        607.872
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A white mouse is observed balancing on a horizontal metal rod.",
+          "The mouse is carefully navigating the rod, demonstrating motor skills."
+        ],
+        "objects_visible": [
+          "A white mouse with a visible pink tail and ears.",
+          "A horizontal metal rod with a black surface, suspended between two supports.",
+          "A white background with a grid pattern, possibly a lab environment."
+        ],
+        "visible_text_labels": [
+          "Replace if mouse falls in < 5 sec",
+          "1 m"
+        ],
+        "quantities": [
+          "5 seconds",
+          "1 meter"
+        ],
+        "key_distinguishing_features": "This segment focuses on the motor skills of a white mouse as it attempts to balance on a metal rod. The observation is time-sensitive, with a specific criterion for replacing the mouse if it falls within 5 seconds. The setup includes a clearly marked 1-meter rod, emphasizing the scale of the experiment."
+      }
+    }
+  ]
+}

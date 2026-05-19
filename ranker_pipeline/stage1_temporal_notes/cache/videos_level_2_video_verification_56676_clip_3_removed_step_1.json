@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/video_verification/56676/clip_3_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 25.392033,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.34800825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a multi-channel pipette and dispenses liquid into a 96-well plate",
+          "researcher carefully places the pipette tips into a green tip box"
+        ],
+        "objects_visible": [
+          "96-well plate with clear wells",
+          "multi-channel pipette with pink liquid in the tips",
+          "green pipette tip box",
+          "red 96-well plate in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "96 wells in the plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of dispensing liquid into a 96-well plate using a multi-channel pipette. The pink liquid and the green tip box are distinctive elements in this scene. The researcher's hands are gloved, emphasizing the controlled environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.34800825,
+        12.6960165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a refrigerator door with their right hand",
+          "researcher reaches into the refrigerator with their left hand, wearing a white glove"
+        ],
+        "objects_visible": [
+          "white refrigerator with a green interior",
+          "researcher wearing a white lab coat and white gloves",
+          "black chair partially visible behind the refrigerator",
+          "yellow spray bottle on top of the refrigerator"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where the researcher is accessing the refrigerator, likely to retrieve an item. The white lab coat and gloves indicate a controlled laboratory environment. The refrigerator's green interior and the yellow spray bottle on top are distinctive features of the setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.6960165,
+        19.044024750000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher adjusts the microscope stage",
+          "researcher looks through the microscope eyepieces"
+        ],
+        "objects_visible": [
+          "white lab coat",
+          "microscope with black and white components",
+          "petri dish on the microscope stage",
+          "purple pen on the table",
+          "white gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively engaged in adjusting the microscope, indicating a precise setup for observation. The presence of a petri dish on the stage suggests the examination of a sample. The 'jove' logo is prominently displayed, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.044024750000002,
+        25.392033
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher adjusts the focus knob on the microscope",
+          "researcher looks through the eyepiece of the microscope"
+        ],
+        "objects_visible": [
+          "microscope with a stage and objective lenses",
+          "researcher wearing a white lab coat",
+          "petri dish on the microscope stage",
+          "blue pen on the table"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively using the microscope, adjusting its focus to observe a sample. The petri dish on the stage suggests the sample is being examined under magnification. The presence of a blue pen indicates a workspace setup for note-taking or documentation."
+      }
+    }
+  ]
+}

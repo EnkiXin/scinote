@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/video_segments/64041/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.711,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.42775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours yellow liquid from a bottle into a container with a rabbit head"
+        ],
+        "objects_visible": [
+          "rabbit head with visible ear tags and a yellow liquid being poured onto it",
+          "transparent plastic container holding the rabbit head",
+          "researcher wearing blue gloves and a green lab coat",
+          "various laboratory items in the background including a pink spray bottle, a white spray bottle, and a pink soap dispenser"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "yellow liquid being poured, but specific volume not quantified"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher actively pouring a yellow liquid onto a rabbit head inside a transparent container, which is a distinctive action in a laboratory setting. The presence of the rabbit head with ear tags and the specific yellow liquid suggests a specialized experiment. The background laboratory items add context to the controlled environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.42775,
+        16.8555
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand pours a yellow liquid from a bottle into a container holding an animal head.",
+          "The gloved hand then uses a blue dropper to apply a clear liquid onto the animal head."
+        ],
+        "objects_visible": [
+          "A clear plastic container with a yellow liquid inside.",
+          "An animal head with visible ears and a yellow tag on one ear.",
+          "A blue-gloved hand holding a yellow bottle and a blue dropper.",
+          "A white background with a metal vent."
+        ],
+        "visible_text_labels": [
+          "joVe"
+        ],
+        "quantities": [
+          "The yellow liquid is poured in a moderate amount, filling part of the container."
+        ],
+        "key_distinguishing_features": "The segment is distinctive due to the careful application of liquids to an animal head in a controlled environment. The use of a gloved hand and specific tools highlights a scientific procedure. The presence of the 'joVe' logo suggests this is part of a documented experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.8555,
+        25.28325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a scalpel to make incisions on the head of a preserved animal specimen",
+          "researcher holds the specimen steady with gloved hands"
+        ],
+        "objects_visible": [
+          "a preserved animal specimen with large ears and a yellow tag on one ear",
+          "a scalpel with a metallic blade and black handle",
+          "a clear plastic container holding the specimen",
+          "blue nitrile gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one preserved animal specimen",
+          "one scalpel"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise dissection of a preserved animal specimen, highlighting the use of a scalpel for making incisions. The specimen is securely held in a clear plastic container, and the researcher's hands are protected by blue nitrile gloves. The yellow tag on the specimen's ear is a distinctive feature."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.28325,
+        33.711
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'PBS' with blue cap",
+          "pipettes ~200uL of clear PBS solution into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'PBS'",
+          "pink microtube rack with multiple slots",
+          "clear petri dish on the workbench",
+          "blue-lidded glass jar labeled 'STERILE PBS'",
+          "blue pipette tip"
+        ],
+        "visible_text_labels": [
+          "PBS",
+          "STERILE PBS"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "~200uL of PBS solution"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of PBS solution using a pipette. The use of a labeled microtube and a petri dish highlights the controlled nature of the experiment. The sterile PBS jar indicates the importance of maintaining aseptic conditions."
+      }
+    }
+  ]
+}

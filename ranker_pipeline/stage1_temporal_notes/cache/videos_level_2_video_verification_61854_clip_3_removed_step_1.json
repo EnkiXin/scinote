@@ -1,0 +1,146 @@
+{
+  "video_id": "videos/level_2/video_verification/61854/clip_3_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.7,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Surgical instruments manipulate and dissect tissue within a surgical field.",
+          "A small, yellow-handled tool is used to apply or remove material from the tissue."
+        ],
+        "objects_visible": [
+          "Metal surgical forceps with a curved tip.",
+          "A yellow-handled surgical tool.",
+          "Exposed internal tissues with visible blood vessels and connective structures.",
+          "A magnified inset showing a close-up of the surgical area."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a detailed surgical procedure with precise manipulation of tissues using specialized tools. The magnified inset provides a closer view of the surgical site, highlighting the intricate nature of the work. The presence of the yellow-handled tool suggests a specific function in the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.675,
+        21.35
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Two surgical instruments are manipulating tissue within a surgical field.",
+          "The instruments appear to be carefully separating or adjusting tissue layers."
+        ],
+        "objects_visible": [
+          "A circular viewfinder showing a close-up of a surgical site with pink and red tissue.",
+          "Two metallic surgical instruments with curved tips."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment is distinctive for its close-up view of a surgical procedure, highlighting the precision of the instruments as they interact with the tissue. The circular viewfinder emphasizes the detailed nature of the work being performed. The presence of the 'jove' logo suggests this is part of a scientific or educational video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.35,
+        32.025000000000006
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A researcher uses a yellow-handled surgical tool to manipulate tissue within an open surgical site.",
+          "A metallic surgical instrument is used to carefully separate and adjust the tissue layers."
+        ],
+        "objects_visible": [
+          "A yellow-handled surgical tool with a metallic tip.",
+          "A metallic surgical instrument with a curved tip.",
+          "Exposed tissue with visible blood vessels and connective tissue.",
+          "A white surgical drape surrounding the surgical site."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of tissue using specialized surgical tools. The presence of a magnified inset view highlights the detailed work being performed. The surgical site is well-lit, emphasizing the intricate nature of the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.025000000000006,
+        42.7
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A researcher uses a pair of forceps to manipulate tissue within an open surgical site.",
+          "A yellow-tipped cannula is held steady, likely for irrigation or suction."
+        ],
+        "objects_visible": [
+          "A surgical site with exposed tissue and blood vessels.",
+          "A pair of metallic forceps with a curved tip.",
+          "A yellow-tipped cannula inserted into the surgical area.",
+          "A white gauze pad partially covering the surgical site."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure with precise tissue manipulation using forceps. The presence of a yellow-tipped cannula suggests fluid management during the procedure. The inset magnified view provides a detailed look at the tissue interaction."
+      }
+    }
+  ]
+}

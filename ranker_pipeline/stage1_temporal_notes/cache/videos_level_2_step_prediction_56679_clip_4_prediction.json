@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/step_prediction/56679/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.326933,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.83173325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a small, rectangular wooden box on the lab bench",
+          "researcher adjusts a transparent, plastic device with red and white components"
+        ],
+        "objects_visible": [
+          "researcher wearing a light green lab coat and blue gloves",
+          "a transparent plastic device with red and white components, possibly a custom experimental setup",
+          "a small, rectangular wooden box",
+          "a blue container with a yellow caution label",
+          "a white wall with a door and a poster featuring a cartoon mouse"
+        ],
+        "visible_text_labels": [
+          "CAUTION",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where the researcher is setting up a custom experimental device. The presence of a wooden box and a transparent plastic device with red and white components suggests a specialized setup. The environment is a laboratory with visible safety and branding elements."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.83173325,
+        19.6634665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a small animal, likely a mouse, secured in a white restraint device",
+          "researcher uses a pipette to inject a clear liquid into the animal's tail vein"
+        ],
+        "objects_visible": [
+          "white animal restraint device with a red valve",
+          "blue-gloved hands of the researcher",
+          "pipette with a clear liquid",
+          "small animal, likely a mouse, with a dark tail",
+          "blue container with a yellow caution label",
+          "metallic medical equipment in the background"
+        ],
+        "visible_text_labels": [
+          "CAUTION: BIOHAZARD"
+        ],
+        "quantities": [
+          "small volume of clear liquid being injected"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise injection of a liquid into a restrained animal, highlighting the careful handling and medical equipment used. The blue-gloved hands and the specific setup indicate a controlled laboratory environment. The caution label on the container underscores the biohazardous nature of the materials involved."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.6634665,
+        29.495199749999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small animal into the MRI machine",
+          "researcher adjusts the animal's position on the MRI table"
+        ],
+        "objects_visible": [
+          "MRI machine labeled 'BioSpec 117/16USR'",
+          "researcher wearing a white lab coat and blue gloves",
+          "MRI table with a small animal on it",
+          "various cables and equipment connected to the MRI machine"
+        ],
+        "visible_text_labels": [
+          "BioSpec 117/16USR",
+          "See text for acquisition parameter details"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment shows a researcher carefully positioning a small animal into an MRI machine, indicating a precise and controlled experimental setup. The MRI machine is prominently labeled, and the researcher's actions suggest a focus on ensuring the animal is correctly aligned for imaging. The text overlay provides a reference for acquisition parameters, emphasizing the technical nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.495199749999998,
+        39.326933
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "woman interacts with computer using keyboard and mouse"
+        ],
+        "objects_visible": [
+          "white Apple iMac computer with a large screen",
+          "white keyboard and mouse",
+          "woman with long dark hair wearing a black top",
+          "computer screen displaying a software interface with a window open"
+        ],
+        "visible_text_labels": [
+          "See text for acquisition parameter details",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a woman observing and interacting with a computer, likely analyzing data. The computer screen shows a software interface, suggesting data processing or monitoring. The environment appears to be a laboratory or research setting."
+      }
+    }
+  ]
+}

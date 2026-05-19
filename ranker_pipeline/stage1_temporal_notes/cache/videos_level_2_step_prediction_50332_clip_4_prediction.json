@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_2/step_prediction/50332/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 23.302,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.8255
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a test tube",
+          "researcher holds a 1.5mL microtube with a white cap"
+        ],
+        "objects_visible": [
+          "pipette with a white body and black markings",
+          "1.5mL microtube with a white cap",
+          "bottle with a white cap and a label",
+          "red and blue test tube racks",
+          "yellow container with a lid"
+        ],
+        "visible_text_labels": [
+          "Cocktail 10 min 4\u00b0C"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer using a pipette into a microtube, with a focus on maintaining a controlled environment as indicated by the text 'Cocktail 10 min 4\u00b0C'. The presence of multiple laboratory tools and containers suggests a complex experimental setup."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.8255,
+        11.651
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube with a white cap",
+          "researcher uses a pipette to transfer liquid into the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a white cap",
+          "pipette with a white tip",
+          "plastic bottle with a white cap",
+          "red tube rack",
+          "yellow container",
+          "metal laboratory bench"
+        ],
+        "visible_text_labels": [
+          "Cocktail 10 min 4\u00b0C",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "10 min",
+          "4\u00b0C"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer process using a pipette into a microtube, emphasizing the controlled environment indicated by the text 'Cocktail 10 min 4\u00b0C'. The presence of a red tube rack and a yellow container adds to the laboratory setting's organization."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.651,
+        17.4765
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a clear liquid and a red cap",
+          "researcher places the microtube into a black cylindrical holder"
+        ],
+        "objects_visible": [
+          "black cylindrical holder with a textured surface",
+          "1.5mL microtube with a clear liquid and a red cap",
+          "researcher's gloved hand",
+          "a black box with a green label in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a microtube into a specialized holder, indicating a step in a controlled scientific procedure. The gloved hand and the specific design of the holder emphasize the importance of sterility and accuracy. The background includes a black box with a green label, suggesting a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.4765,
+        23.302
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a test tube",
+          "researcher places the test tube back into the blue test tube rack"
+        ],
+        "objects_visible": [
+          "blue test tube rack with multiple test tubes",
+          "pipette with a white body and yellow plunger",
+          "purple container with a hexagonal shape",
+          "red cap on the work surface",
+          "bottle with a white label and a clear liquid inside"
+        ],
+        "visible_text_labels": [
+          "JOVE logo in the top right corner"
+        ],
+        "quantities": [
+          "test tube rack holds 8 test tubes"
+        ],
+        "key_distinguishing_features": "The researcher is actively using a pipette to transfer liquid, indicating a precise step in the experiment. The presence of the blue test tube rack and the organized setup suggests a methodical approach. The JOVE logo indicates this is a professional scientific demonstration."
+      }
+    }
+  ]
+}

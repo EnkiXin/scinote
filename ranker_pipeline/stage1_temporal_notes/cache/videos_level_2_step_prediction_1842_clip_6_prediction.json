@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/step_prediction/1842/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 20.212404,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.053101
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher picks up a multi-channel pipette",
+          "researcher inserts pipette tips into the multi-channel pipette"
+        ],
+        "objects_visible": [
+          "multi-channel pipette with a white handle",
+          "pipette tip box with purple lid",
+          "white microplate with 96 wells",
+          "plastic containers for storing laboratory materials",
+          "bottle labeled 'PURE ETOH'"
+        ],
+        "visible_text_labels": [
+          "PURE ETOH"
+        ],
+        "quantities": [
+          "96 wells on the microplate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where the researcher is setting up a multi-channel pipette for a potential liquid transfer task. The presence of a microplate with 96 wells suggests a high-throughput experiment. The researcher's actions are precise, indicating a controlled and methodical approach."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.053101,
+        10.106202
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "multi-channel pipette is used to transfer liquid into a 96-well plate"
+        ],
+        "objects_visible": [
+          "multi-channel pipette with 'Eppendorf' branding",
+          "96-well plate with clear wells",
+          "white pipette tip rack",
+          "purple container in the background"
+        ],
+        "visible_text_labels": [
+          "Eppendorf"
+        ],
+        "quantities": [
+          "96 wells in the plate"
+        ],
+        "key_distinguishing_features": "The multi-channel pipette is precisely aligned with the 96-well plate, indicating a high-throughput process. The Eppendorf branding on the pipette is clearly visible, emphasizing the equipment's make. The scene is set in a laboratory environment, as suggested by the presence of other lab equipment in the background."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.106202,
+        15.159303
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "multi-channel pipette is used to transfer liquid into a 96-well plate"
+        ],
+        "objects_visible": [
+          "multi-channel pipette with multiple tips",
+          "96-well plate with clear wells",
+          "white plastic container with compartments",
+          "bottle labeled 'GELFREE 8100 RUNNING BUFFER pH 8.3'"
+        ],
+        "visible_text_labels": [
+          "GELFREE 8100 RUNNING BUFFER pH 8.3",
+          "Product #42201",
+          "jove"
+        ],
+        "quantities": [
+          "96 wells in the plate",
+          "multiple tips on the pipette"
+        ],
+        "key_distinguishing_features": "The segment shows a multi-channel pipette in action, transferring liquid into a 96-well plate, which is a common step in high-throughput experiments. The presence of the 'GELFREE 8100 RUNNING BUFFER' bottle suggests a specific application in protein or nucleic acid analysis."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        15.159303,
+        20.212404
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "multi-channel pipette dispenses liquid into a 96-well plate"
+        ],
+        "objects_visible": [
+          "multi-channel pipette with clear tips",
+          "96-well plate with black lid",
+          "GELFREE 8100 bottle with white cap",
+          "labeled machine with 'Eppendorf' branding"
+        ],
+        "visible_text_labels": [
+          "Eppendorf",
+          "GELFREE 8100"
+        ],
+        "quantities": [
+          "96 wells in the plate"
+        ],
+        "key_distinguishing_features": "The multi-channel pipette is actively dispensing liquid into a 96-well plate, indicating a high-throughput process. The presence of the GELFREE 8100 bottle suggests the use of a specific reagent in the experiment. The Eppendorf branding on the pipette highlights the equipment's manufacturer."
+      }
+    }
+  ]
+}

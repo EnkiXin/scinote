@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/step_prediction/60599/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 138.9598,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        34.73995
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A researcher injects a mouse with a syringe containing a clear liquid.",
+          "The mouse is restrained on a blue surface, wrapped in clear plastic, and appears to be anesthetized."
+        ],
+        "objects_visible": [
+          "A syringe with a clear liquid, marked with volume measurements up to 50 units.",
+          "A mouse with black fur, wrapped in clear plastic, lying on a blue surface.",
+          "Purple-gloved hands holding the syringe and performing the injection."
+        ],
+        "visible_text_labels": [
+          "P. aeruginosa INOCULATION",
+          "SEE TEXT FOR PAO1:LUX PREPARATION DETAILS"
+        ],
+        "quantities": [
+          "The syringe is filled with approximately 20 units of liquid."
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise administration of an injection to a restrained mouse, highlighting the careful handling and the specific context of P. aeruginosa inoculation. The use of clear plastic wrapping on the mouse is distinctive, likely for containment or hygiene purposes."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        34.73995,
+        69.4799
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher injects a small animal, likely a mouse, with a syringe",
+          "mouse is placed in a transparent container with bedding material"
+        ],
+        "objects_visible": [
+          "mouse with visible fur and body features",
+          "purple-gloved hands holding a syringe",
+          "transparent container with bedding and a small blue object",
+          "petri dishes with a yellowish medium and colonies of microorganisms"
+        ],
+        "visible_text_labels": [
+          "IN VIVO INFECTED WOUND IMAGING"
+        ],
+        "quantities": [
+          "one mouse",
+          "two petri dishes"
+        ],
+        "key_distinguishing_features": "This segment distinctly shows the injection of a mouse, followed by its placement in a controlled environment, likely for observation. The petri dishes with visible colonies suggest a focus on infection or microbial growth. The text 'IN VIVO INFECTED WOUND IMAGING' indicates the experimental context."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        69.4799,
+        104.21985000000001
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher places a mouse in a specialized imaging chamber",
+          "computer screen displays real-time thermal imaging data of the mouse"
+        ],
+        "objects_visible": [
+          "a mouse in a transparent imaging chamber",
+          "a computer monitor showing thermal imaging software",
+          "a software interface with various tools and settings for spectral imaging"
+        ],
+        "visible_text_labels": [
+          "spectral instruments imaging",
+          "Color Range Minimum",
+          "Color Range Maximum",
+          "Color Range Threshold"
+        ],
+        "quantities": [
+          "4.0e7 (value on the color scale in the software)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where a mouse is being thermally imaged. The software interface is prominently displayed, showing detailed settings and real-time data. The thermal imaging highlights specific areas of the mouse, likely for research purposes."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        104.21985000000001,
+        138.9598
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a mouse with forceps and positions it on a surface",
+          "researcher uses a pipette to transfer a liquid from a microtube into a well plate"
+        ],
+        "objects_visible": [
+          "mouse with a visible ear tag",
+          "forceps with a metallic finish",
+          "pipette labeled 'Eppendorf' with a digital display",
+          "yellow microtube rack",
+          "microtube with a blue cap",
+          "well plate with multiple wells"
+        ],
+        "visible_text_labels": [
+          "EUTHANASIA: CO2 INHALATION + CERVICAL DISLOCATION",
+          "Eppendorf"
+        ],
+        "quantities": [
+          "volume of liquid transferred is not specified but appears to be a small amount"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of a mouse and the precise transfer of a liquid sample, likely for experimental purposes. The use of forceps and a pipette highlights the careful and controlled nature of the procedures. The text on the screen indicates a specific euthanasia method, adding context to the experiment's endpoint."
+      }
+    }
+  ]
+}

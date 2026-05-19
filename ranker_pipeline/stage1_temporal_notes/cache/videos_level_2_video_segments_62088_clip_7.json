@@ -1,0 +1,165 @@
+{
+  "video_id": "videos/level_2/video_segments/62088/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 40.766,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.1915
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Chase' with a blue cap",
+          "researcher uses a pipette to transfer liquid from the microtube into a yellow container"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "yellow container with multiple compartments",
+          "pipette with blue plunger",
+          "black clamp stand holding the microtube"
+        ],
+        "visible_text_labels": [
+          "Chase"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube labeled 'Chase', emphasizing the careful transfer of liquid using a pipette. The yellow container with multiple compartments suggests an organized approach to sample management. The black clamp stand ensures stability during the liquid transfer process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.1915,
+        20.383
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a transparent pipette with a blue liquid sample",
+          "researcher carefully dispenses the blue liquid into a yellow rectangular container"
+        ],
+        "objects_visible": [
+          "yellow rectangular container with a clear lid",
+          "transparent pipette with blue liquid",
+          "laptop with a visible screen and keyboard",
+          "black and white scale with a blue display",
+          "black foam block with a yellow band",
+          "white lab coat and blue gloves on the researcher"
+        ],
+        "visible_text_labels": [
+          "Jove logo in the top right corner"
+        ],
+        "quantities": [
+          "blue liquid sample in the pipette (volume not specified)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a blue liquid sample using a pipette, emphasizing the careful dispensing into a yellow container. The presence of a laptop and a scale suggests a controlled and measured experimental setup. The researcher's attire and the lab environment highlight a professional scientific setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.383,
+        30.5745
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher adjusts settings on the ECONO UV MONITOR",
+          "researcher views data on a laptop screen"
+        ],
+        "objects_visible": [
+          "ECONO UV MONITOR with a display showing absorbance range and settings",
+          "laptop with a graph and data points on the screen",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "ECONO UV MONITOR",
+          "ABSORBANCE",
+          "RANGE (AUFS)",
+          "YANG LAB HS2208",
+          "Logger On",
+          "TIMEBASE"
+        ],
+        "quantities": [
+          "Absorbance values: 0.00, 0.05, 0.10, 0.20, 0.50, 1.00, 2.00"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where the researcher interacts with a UV monitor and a laptop displaying real-time data. The monitor's settings and the laptop's graph are prominently featured, highlighting the monitoring of absorbance levels. The researcher's gloved hands indicate a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        30.5745,
+        40.766
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'Chase' with blue cap",
+          "researcher inserts microtube into a clamp on a mechanical setup"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "mechanical clamp with yellow and black components",
+          "laptop screen displaying a graph and data"
+        ],
+        "visible_text_labels": [
+          "Chase",
+          "Time Span Left: 00d 02:00:48:000",
+          "Logger on",
+          "TIMEBASE 2.00s"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "2.00s timebase"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a labeled microtube, emphasizing the importance of accurate sample management. The mechanical clamp setup suggests a controlled environment for the experiment. The laptop screen provides real-time data monitoring, indicating an ongoing measurement process."
+      }
+    }
+  ]
+}

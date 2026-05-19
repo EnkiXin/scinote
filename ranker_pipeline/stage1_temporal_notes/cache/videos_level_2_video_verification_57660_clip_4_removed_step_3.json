@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_2/video_verification/57660/clip_4_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.735033,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.93375825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher uses computer mouse to interact with software on desktop computer"
+        ],
+        "objects_visible": [
+          "desktop computer with monitor displaying software interface",
+          "computer keyboard and mouse",
+          "researcher wearing a white lab coat and glasses",
+          "laptop with a transparent keyboard cover",
+          "complex machine with metallic components and wires"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a researcher interacting with a computer, likely analyzing or controlling an experiment. The presence of a complex machine with visible wires and components suggests a high-tech laboratory setting. The researcher's attire and the equipment indicate a scientific or engineering context."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.93375825,
+        17.8675165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "computer screen displays a software interface with a file directory open",
+          "cursor moves to select a file named '2019-01-22_14-30-00'"
+        ],
+        "objects_visible": [
+          "computer screen showing a file explorer window",
+          "software interface with a grid of small images on the left side",
+          "file directory listing various files with timestamps"
+        ],
+        "visible_text_labels": [
+          "2019-01-22_14-30-00",
+          "File name",
+          "Type",
+          "Size",
+          "Date modified"
+        ],
+        "quantities": [
+          "file size of 1.2 MB for the selected file"
+        ],
+        "key_distinguishing_features": "This segment focuses on a computer screen displaying a file selection process within a scientific software interface. The file directory is open, and a specific file is highlighted, suggesting preparation for data analysis or experiment review. The presence of a grid of small images indicates the software may be used for image processing or analysis."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.8675165,
+        26.80127475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays a microscopic image",
+          "user interacts with a dialog box for image processing"
+        ],
+        "objects_visible": [
+          "microscopic image of a spherical object with a textured surface",
+          "software dialog box titled 'Process All of Stack'"
+        ],
+        "visible_text_labels": [
+          "Process All of Stack",
+          "Start Slice",
+          "End Slice",
+          "Cancel",
+          "OK"
+        ],
+        "quantities": [
+          "Start Slice: 1",
+          "End Slice: 100"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where a microscopic image is being analyzed using software. The user interacts with a dialog box to process a stack of images, indicating a detailed analysis of the spherical object. The interface includes specific parameters for image processing, such as slice numbers."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.80127475,
+        35.735033
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "software interface displays a graph with peaks",
+          "a dialog box appears and disappears on the screen"
+        ],
+        "objects_visible": [
+          "computer screen showing a scientific software interface",
+          "graph with multiple peaks on a grid background",
+          "a small dialog box with text and buttons"
+        ],
+        "visible_text_labels": [
+          "Cleverscan Program 1.2.1.1.0.0.0.0",
+          "Save",
+          "Cancel"
+        ],
+        "quantities": [
+          "multiple peaks on the graph, indicating measurements"
+        ],
+        "key_distinguishing_features": "This segment is distinctive due to the appearance of a graph with multiple peaks, suggesting data measurement or analysis. The dialog box that appears and disappears indicates an interaction with the software, possibly saving or confirming an action. The grid background of the graph provides a structured view for precise data interpretation."
+      }
+    }
+  ]
+}

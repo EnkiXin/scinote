@@ -1,0 +1,146 @@
+{
+  "video_id": "videos/level_2/step_prediction/56825/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 22.5435,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.635875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a petri dish into a CO2 incubator"
+        ],
+        "objects_visible": [
+          "CO2 incubator with digital display",
+          "petri dish with blue cap",
+          "gloved hand of a researcher"
+        ],
+        "visible_text_labels": [
+          "1. CELL PREPARATION",
+          "Temp (CO2): 37.0",
+          "CO2 (CO2): 5.0"
+        ],
+        "quantities": [
+          "37.0 (temperature in \u00b0C)",
+          "5.0 (CO2 concentration in %)"
+        ],
+        "key_distinguishing_features": "The segment shows a CO2 incubator with a digital display indicating specific temperature and CO2 levels. The researcher's gloved hand is seen placing a petri dish into the incubator, emphasizing the controlled environment for cell preparation. The text '1. CELL PREPARATION' is prominently displayed, indicating the initial phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.635875,
+        11.27175
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a petri dish with a blue cap under a microscope",
+          "researcher adjusts the petri dish on the microscope stage"
+        ],
+        "objects_visible": [
+          "petri dish with a blue cap",
+          "microscope with a white stand and black components",
+          "laptop displaying a microscopic image of cellular structures"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher's gloved hand manipulating a petri dish under a microscope, with a corresponding live image of cellular structures displayed on a laptop screen. The petri dish has a distinct blue cap, and the microscope setup is clearly visible. The laptop screen provides a detailed view of the sample being observed."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.27175,
+        16.907625000000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a petri dish with a red-colored medium under a microscope",
+          "researcher adjusts the petri dish on the microscope stage"
+        ],
+        "objects_visible": [
+          "petri dish with a red medium",
+          "microscope with a white stand and black components",
+          "laptop displaying a microscopic image of cellular structures",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the observation phase where the researcher is carefully positioning a petri dish under the microscope. The laptop screen shows a detailed image of cellular structures, indicating the analysis of the sample. The red medium in the petri dish suggests a specific staining or culturing process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        16.907625000000003,
+        22.5435
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a clear plastic container with a blue cap",
+          "researcher uses a pipette to transfer liquid from the container into a petri dish"
+        ],
+        "objects_visible": [
+          "clear plastic container with a blue cap",
+          "pipette with a light blue handle",
+          "petri dish on the lab bench",
+          "glass bottle in the background",
+          "metal rack with blue and black components",
+          "white lab bench with a metallic edge"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette. The clear plastic container with a blue cap is a key object, and the researcher's gloved hands are actively engaged in the process. The background includes a glass bottle and a metal rack, adding context to the laboratory setting."
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "video_id": "videos/level_2/video_verification/60599/clip_4_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 232.473,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        58.11825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand injects a syringe containing a clear liquid into a mouse's abdomen.",
+          "The mouse is restrained on a flat surface with a wooden stick placed over its body."
+        ],
+        "objects_visible": [
+          "A syringe with a clear liquid, marked with measurement lines.",
+          "A mouse lying on its back on a flat surface.",
+          "A wooden stick placed over the mouse's body.",
+          "A gloved hand holding the syringe."
+        ],
+        "visible_text_labels": [
+          "P. aeruginosa INOCULATION",
+          "SEE TEXT FOR PAO1:LUX PREPARATION DETAILS"
+        ],
+        "quantities": [
+          "The syringe is marked with measurement lines, but the exact volume is not specified."
+        ],
+        "key_distinguishing_features": "This segment shows a precise injection procedure into a mouse, highlighting the use of a syringe and a wooden stick for restraint. The text labels indicate the procedure involves P. aeruginosa inoculation, suggesting a specific scientific experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        58.11825,
+        116.2365
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a mouse with gloved hands, positioning it for a procedure.",
+          "Researcher uses a tool to perform cervical dislocation on the mouse."
+        ],
+        "objects_visible": [
+          "Mouse with a visible tail and fur",
+          "Purple nitrile gloves on the researcher's hands",
+          "Metal tool used for cervical dislocation",
+          "White surface where the mouse is placed"
+        ],
+        "visible_text_labels": [
+          "EUTHANASIA: CO2 INHALATION + CERVICAL DISLOCATION"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the euthanasia procedure of a mouse, specifically highlighting the use of cervical dislocation. The researcher's actions are precise and deliberate, ensuring the procedure is carried out efficiently. The text label on the screen provides context for the method being used."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        116.2365,
+        174.35475000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher holds a petri dish containing a culture medium with visible colonies.",
+          "Researcher uses a magnifying glass to closely inspect the colonies in the petri dish."
+        ],
+        "objects_visible": [
+          "Petri dish with a clear agar medium and multiple small, white colonies.",
+          "Magnifying glass held by the researcher.",
+          "Graph displaying bacterial burden over days post-infection."
+        ],
+        "visible_text_labels": [
+          "RESULTS: REPRESENTATIVE P. aeruginosa WOUND INFECTION DETECTION",
+          "Bacterial burden (CFU/wound)",
+          "Days post-infection",
+          "r\u00b2 = 0.72"
+        ],
+        "quantities": [
+          "Bacterial burden ranging from 10^3 to 10^7 CFU/wound",
+          "Days post-infection: 3, 5, 7"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of bacterial colonies in a petri dish, likely as part of an infection study. The use of a magnifying glass highlights the detailed examination of the colonies. The accompanying graph provides quantitative data on bacterial burden over time, emphasizing the progression of infection."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        174.35475000000002,
+        232.473
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "Graphs are displayed showing weight change and infection rate data",
+          "Text appears on screen listing credits for the video"
+        ],
+        "objects_visible": [
+          "Graph with weight change data for PBS and PAO1",
+          "Graph showing infection rate as a function of dose",
+          "Text overlay with names and roles of contributors"
+        ],
+        "visible_text_labels": [
+          "Weight change (% of original)",
+          "Infection rate (% of wounds inoculated)",
+          "Days post-infection",
+          "Dose",
+          "PBS",
+          "PAO1",
+          "p<0.05",
+          "r\u00b2=0.6313",
+          "r\u00b2=0.8313",
+          "50",
+          "100",
+          "JOHANNA SWEERE",
+          "CHRISTIAAN DE VRIES",
+          "STANFORD UNIVERSITY",
+          "BRIDGET COLVIN",
+          "NASTASHA DROBNICA",
+          "KEITH SCHREIBER",
+          "COLBY PETERSON",
+          "MORGAN MEHRING",
+          "BALAJIKARTHICK SUBRAMANIAN",
+          "JORDAN STABILE",
+          "ALEX SMITH"
+        ],
+        "quantities": [
+          "50% infection rate",
+          "100% infection rate",
+          "r\u00b2=0.6313",
+          "r\u00b2=0.8313"
+        ],
+        "key_distinguishing_features": "This segment focuses on the conclusion of the experiment, presenting graphical data on weight change and infection rates. The credits for the video are also displayed, acknowledging the contributions of various individuals. The graphs highlight significant statistical differences and trends observed in the study."
+      }
+    }
+  ]
+}

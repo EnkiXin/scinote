@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/step_prediction/61013/clip_8_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.022,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.5055
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "uses tweezers to manipulate a small, circular object in a petri dish",
+          "submerges the object into a dark liquid within the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish containing a dark liquid",
+          "small, circular object with a grid-like pattern",
+          "tweezers held by a hand wearing a green glove",
+          "yellow-labeled container with handwritten text"
+        ],
+        "visible_text_labels": [
+          "Au etchant",
+          "Never allow fluid to evaporate from the wafer surface"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise handling of a small, grid-patterned object using tweezers, emphasizing careful submersion into a dark liquid. The handwritten label 'Au etchant' suggests a specific chemical process. The cautionary text highlights the importance of maintaining fluid levels."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.5055,
+        17.011
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a petri dish with a grid pattern",
+          "researcher uses a pipette to add a small volume of liquid to the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a grid pattern",
+          "pipette with a fine tip",
+          "green gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a petri dish with a grid, likely for cell counting or similar applications. The use of a pipette suggests the addition of a controlled volume of liquid, emphasizing accuracy in the experiment. The green gloves highlight the sterile conditions necessary for the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.011,
+        25.5165
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person wearing a gray and white striped shirt is speaking directly to the camera."
+        ],
+        "objects_visible": [
+          "A microscope with a camera attachment on a laboratory bench",
+          "A computer monitor in the background",
+          "A sign on the wall that says 'KEEP THIS AREA CLEAN'"
+        ],
+        "visible_text_labels": [
+          "JIYANG MEI",
+          "UCSD",
+          "KEEP THIS AREA CLEAN"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment features a person speaking in a laboratory setting, with a focus on the individual rather than any specific action. The background includes laboratory equipment, emphasizing a scientific environment. The text labels provide context about the speaker's affiliation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.5165,
+        34.022
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "places a grid-patterned object into a petri dish containing a yellowish medium",
+          "pipettes a small volume of liquid into the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a yellowish medium",
+          "grid-patterned object",
+          "pipette with a white tip",
+          "gloved hand",
+          "yellow-labeled paper with handwritten text"
+        ],
+        "visible_text_labels": [
+          "Cr etchant",
+          "JOVE"
+        ],
+        "quantities": [
+          "small volume of liquid (likely microliters)"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of placing a grid-patterned object into a petri dish, followed by the addition of a liquid using a pipette. The yellow lighting and the handwritten label 'Cr etchant' suggest a specialized laboratory environment. The focus is on the interaction between the grid object and the petri dish medium."
+      }
+    }
+  ]
+}

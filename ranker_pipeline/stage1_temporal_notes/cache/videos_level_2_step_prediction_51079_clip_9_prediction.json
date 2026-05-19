@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/step_prediction/51079/clip_9_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 43.5645,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.891125
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "scientist observes mice in transparent enclosures",
+          "scientist handles a petri dish"
+        ],
+        "objects_visible": [
+          "transparent enclosures with mice",
+          "petri dish with a lid",
+          "scientist wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "VII. Time to Emergence Testing"
+        ],
+        "quantities": [
+          "multiple mice in enclosures"
+        ],
+        "key_distinguishing_features": "The segment focuses on observing mice in transparent enclosures, with a scientist handling a petri dish, suggesting a controlled environment for animal behavior testing. The text 'VII. Time to Emergence Testing' indicates a specific phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.891125,
+        21.78225
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts the dial on the isoflurane vaporizer",
+          "researcher adjusts the dial on the halothane vaporizer"
+        ],
+        "objects_visible": [
+          "isoflurane vaporizer labeled 'ISOFLURANE VAPOR 19.1'",
+          "halothane vaporizer labeled 'HALOTHANE VAPOR 19.1'",
+          "transparent induction chamber with a mouse inside",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "Induction ED\u2089\u2089 for wild-type C57BL/6J mice",
+          "ISOFLURANE VAPOR 19.1",
+          "HALOTHANE VAPOR 19.1"
+        ],
+        "quantities": [
+          "ED\u2089\u2089 dose for induction"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of anesthetic vaporizers for inducing anesthesia in wild-type C57BL/6J mice. The researcher's precise adjustments to the vaporizers highlight the importance of accurate anesthetic dosing. The transparent induction chamber allows for clear observation of the mouse during the process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.78225,
+        32.673375
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a clear plastic tube containing a mouse with visible red markings",
+          "researcher manipulates the tube, ensuring the mouse is properly positioned"
+        ],
+        "objects_visible": [
+          "clear plastic tubes with mice inside",
+          "white tubing connected to the tubes",
+          "blue-gloved hand of the researcher",
+          "metal clamps securing the tubes"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple tubes, at least 5 visible"
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful handling of mice within transparent tubes, highlighting the precision required in positioning the animals. The presence of multiple tubes and the researcher's gloved hand emphasizes a controlled experimental setup. The red markings on the mice are a distinctive feature, likely for identification purposes."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.673375,
+        43.5645
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "mice are confined in transparent cylindrical tubes",
+          "tubes are connected to external apparatus via tubes"
+        ],
+        "objects_visible": [
+          "transparent cylindrical tubes containing mice",
+          "white tubes connected to the cylindrical tubes",
+          "metallic clamps securing the tubes",
+          "mice with visible fur and tails"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple mice in tubes",
+          "several tubes connected in a row"
+        ],
+        "key_distinguishing_features": "This segment shows mice confined in transparent tubes, likely for observation or experimentation. The setup includes multiple tubes connected to an external apparatus, suggesting a controlled environment. The mice are visibly active within the confined space."
+      }
+    }
+  ]
+}

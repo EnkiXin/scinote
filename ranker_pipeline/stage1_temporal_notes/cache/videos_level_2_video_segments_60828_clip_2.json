@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_2/video_segments/60828/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 48.081,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.02025
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a clear glass beaker and pours a clear liquid into a petri dish containing dark seeds",
+          "researcher uses a Bunsen burner to heat a metal container"
+        ],
+        "objects_visible": [
+          "clear glass beaker with a red label",
+          "petri dish with dark seeds",
+          "Bunsen burner with a blue flame",
+          "metal container on the Bunsen burner",
+          "various laboratory glassware and containers in the background"
+        ],
+        "visible_text_labels": [
+          "TARTARY BUCKWHEAT (TB) SEED PREPARATION",
+          "JOVE"
+        ],
+        "quantities": [
+          "clear liquid being poured from the beaker into the petri dish"
+        ],
+        "key_distinguishing_features": "The segment focuses on the initial preparation of Tartary buckwheat seeds, highlighting the use of a Bunsen burner and the pouring of a liquid into a petri dish. The setting is a laboratory environment with various scientific equipment visible."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.02025,
+        24.0405
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a Bunsen burner to sterilize a glass rod",
+          "researcher places the sterilized glass rod into a petri dish containing agar"
+        ],
+        "objects_visible": [
+          "Bunsen burner with a blue flame",
+          "glass rod being sterilized",
+          "petri dish with white agar medium and small brown particles",
+          "beaker with a clear liquid",
+          "flame-resistant gloves on the researcher's hands",
+          "laboratory bench with various glassware and equipment"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small brown particles in the petri dish"
+        ],
+        "key_distinguishing_features": "The segment highlights the sterilization process of a glass rod using a Bunsen burner, emphasizing aseptic technique. The researcher's hands are gloved, indicating a controlled laboratory environment. The petri dish with agar and particles suggests a microbiological experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        24.0405,
+        36.06075
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours clear liquid from a plastic bottle into a conical flask",
+          "researcher transfers the liquid from the conical flask into a glass jar using a funnel"
+        ],
+        "objects_visible": [
+          "plastic bottle with a blue cap",
+          "conical flask with measurement markings",
+          "glass jar with a red label",
+          "funnel with a clear glass body",
+          "metal surface of a laboratory bench",
+          "Bunsen burner with an orange flame"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "volume markings on the conical flask (e.g., 25, 50, 75, 100 mL)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the transfer of a clear liquid from a plastic bottle to a glass jar via a conical flask and funnel. The researcher's hands are gloved, emphasizing safety, and the presence of a Bunsen burner suggests a controlled laboratory environment. The red label on the glass jar indicates it may contain a specific substance or sample."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        36.06075,
+        48.081
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours liquid from a 1000 mL beaker into a conical flask",
+          "researcher places the conical flask on the lab bench"
+        ],
+        "objects_visible": [
+          "1000 mL beaker with a red label",
+          "conical flask with a narrow neck",
+          "petri dish containing small, yellowish objects",
+          "Bunsen burner with a blue flame",
+          "metallic lab bench surface"
+        ],
+        "visible_text_labels": [
+          "TB SEEDLING AND EXPLANT PREPARATION"
+        ],
+        "quantities": [
+          "1000 mL beaker"
+        ],
+        "key_distinguishing_features": "This segment shows the transfer of liquid from a large beaker to a conical flask, indicating a step in preparing a solution. The presence of a Bunsen burner suggests a sterile environment is being maintained. The petri dish with small objects hints at a biological experiment involving seedlings or explants."
+      }
+    }
+  ]
+}

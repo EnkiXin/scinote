@@ -1,0 +1,173 @@
+{
+  "video_id": "videos/level_2/video_segments/2465/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 58.325,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.58125
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a pipette and a microtube",
+          "researcher prepares to dispense liquid from the pipette"
+        ],
+        "objects_visible": [
+          "white pipette with a white plunger",
+          "red microtube rack with multiple wells",
+          "yellow microtube rack with multiple wells",
+          "green microtube rack with multiple wells",
+          "small white bottle labeled 'TE buffer'",
+          "small white bottle labeled 'COMPONENT B'",
+          "small white bottle labeled 'COMPONENT A'",
+          "white lab coat",
+          "purple gloves",
+          "black lab bench"
+        ],
+        "visible_text_labels": [
+          "50 \u03bcL 200X PicoGreen Reagent in 9.95 mL TE buffer",
+          "TE buffer",
+          "COMPONENT B",
+          "COMPONENT A"
+        ],
+        "quantities": [
+          "50 \u03bcL",
+          "200X",
+          "9.95 mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a solution using a pipette and microtube racks. The researcher is handling precise volumes of reagents, as indicated by the text overlay specifying the exact quantities. The use of color-coded racks and labeled bottles highlights the organized and methodical nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.58125,
+        29.1625
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes \u03bb dsDNA in TE buffer into a microtube"
+        ],
+        "objects_visible": [
+          "green microtube rack with multiple microtubes",
+          "white pipette",
+          "orange and blue microtube racks",
+          "white microtube with a white cap",
+          "black lab bench"
+        ],
+        "visible_text_labels": [
+          "\u03bb dsDNA in TE buffer 1.0 - 100 ng / mL",
+          "jove"
+        ],
+        "quantities": [
+          "1.0 - 100 ng / mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise pipetting of \u03bb dsDNA in TE buffer into a microtube, with a clear view of the concentration range. The green microtube rack and the white pipette are central to the action, emphasizing the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        29.1625,
+        43.743750000000006
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Pipettes 150 \u03bcL of a test sample into a designated well of a black microplate.",
+          "Holds a pipette with a blue plunger and a clear tip."
+        ],
+        "objects_visible": [
+          "A black microplate with multiple wells, placed on a white surface.",
+          "A green pipette tip box with a pipette tip inserted.",
+          "A red pipette tip box in the background.",
+          "A yellow microtube rack with microtubes."
+        ],
+        "visible_text_labels": [
+          "150 \u03bcL test sample / designated well"
+        ],
+        "quantities": [
+          "150 \u03bcL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise pipetting of a test sample into a designated well, emphasizing the volume of 150 \u03bcL. The use of a black microplate and the presence of multiple pipette tip boxes highlight the organized setup for the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        43.743750000000006,
+        58.325
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a multichannel pipette to dispense 150 \u03bcL of PicoGreen solution into each well of a black 96-well plate",
+          "researcher places the multichannel pipette back on the lab bench"
+        ],
+        "objects_visible": [
+          "multichannel pipette with white body and multiple pipette tips",
+          "black 96-well plate with multiple wells",
+          "yellow and white pipette tip boxes",
+          "computer monitor displaying a software interface",
+          "computer keyboard and mouse",
+          "purple-gloved hands of the researcher",
+          "white lab coat worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "150 \u03bcL PicoGreen solution / well",
+          "Incubate 2 - 5 min"
+        ],
+        "quantities": [
+          "150 \u03bcL",
+          "2 - 5 min"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise dispensing of a specific volume of PicoGreen solution into a multi-well plate, highlighting the use of a multichannel pipette for efficiency. The text overlay provides clear instructions for the volume and subsequent incubation time, emphasizing the controlled nature of the experiment."
+      }
+    }
+  ]
+}

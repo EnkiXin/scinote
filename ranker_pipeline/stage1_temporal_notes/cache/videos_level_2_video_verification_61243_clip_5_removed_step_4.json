@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/video_verification/61243/clip_5_removed_step_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 21.242533,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.31063325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "pipettes liquid into a microtube"
+        ],
+        "objects_visible": [
+          "blue container filled with ice cubes",
+          "microtube with a green cap",
+          "pipette with a white tip"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple microtubes in a rack"
+        ],
+        "key_distinguishing_features": "The segment shows a pipette transferring liquid into a microtube placed in a blue container filled with ice cubes. The ice cubes are clearly visible, and the microtube has a green cap. The 'jove' logo is visible in the top right corner."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.31063325,
+        10.6212665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and inserts it into a microtube",
+          "researcher withdraws liquid from the microtube using the pipette"
+        ],
+        "objects_visible": [
+          "blue container filled with ice cubes",
+          "microtube with a green cap",
+          "pipette with a white body and black markings",
+          "several other microtubes with green caps in the background",
+          "a white container labeled 'T1'"
+        ],
+        "visible_text_labels": [
+          "T1"
+        ],
+        "quantities": [
+          "green caps on microtubes"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of using a pipette to extract liquid from a microtube, with the microtube and pipette being the central objects. The ice-filled blue container suggests a need to keep samples cold. The green caps on the microtubes are a distinctive feature."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.6212665,
+        15.931899750000001
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into a small vial held in the left hand",
+          "holds vial with left hand while manipulating pipette with right hand"
+        ],
+        "objects_visible": [
+          "blue container filled with ice cubes",
+          "green-gloved hands",
+          "pipette with a white body and black markings",
+          "small vial with a clear liquid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "pipette volume not specified"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette into a vial, with the vial being held over a container of ice. The green gloves and the ice bath suggest a controlled, cold environment for the experiment. The 'jove' logo indicates the video is likely part of a scientific tutorial or demonstration."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        15.931899750000001,
+        21.242533
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "rotating centrifuge with red sample holders"
+        ],
+        "objects_visible": [
+          "white centrifuge with red sample holders",
+          "yellow and white containers in the background",
+          "blue and green-capped tubes on a rack"
+        ],
+        "visible_text_labels": [
+          "DNA gel loading dye",
+          "DNA Ladder 100 bp"
+        ],
+        "quantities": [
+          "4 red sample holders"
+        ],
+        "key_distinguishing_features": "The centrifuge is actively rotating, indicating the execution phase of the experiment. The red sample holders are distinct and securely attached to the centrifuge. The background includes laboratory equipment and reagents, suggesting a controlled lab environment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "video_id": "videos/level_2/step_prediction/2465/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 29.341958,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.3354895
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A cursor clicks on the 'MPR' icon within the software interface.",
+          "The MPR Setup Window opens, displaying a grid layout for sample placement."
+        ],
+        "objects_visible": [
+          "A computer screen displaying a spectroscopy software interface.",
+          "A magnified view of the 'MPR' icon within the software.",
+          "The MPR Setup Window with a grid layout for sample placement."
+        ],
+        "visible_text_labels": [
+          "MPR Setup Window",
+          "Plan",
+          "Well Identification",
+          "Load MPR Method",
+          "Save As",
+          "Data Save",
+          "Exchange Position",
+          "Install Position",
+          "Move",
+          "Position",
+          "Standard Set",
+          "Sample Set",
+          "Reset",
+          "Map"
+        ],
+        "quantities": [
+          "12 wells in the grid layout"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the transition from the main spectroscopy software interface to the MPR Setup Window, highlighting the preparation phase for sample placement. The grid layout in the MPR Setup Window is a key feature, indicating the organization of samples for analysis. The cursor interaction with the 'MPR' icon is a specific action that initiates this transition."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.3354895,
+        14.670979
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "cursor selects and highlights a rectangular area on a grid labeled 'Plate' within a software interface",
+          "cursor moves to adjust the highlighted area, indicating a selection process"
+        ],
+        "objects_visible": [
+          "software interface with a grid labeled 'Plate' containing rows A to E and columns 1 to 12",
+          "highlighted rectangular area on the grid",
+          "various buttons and input fields within the software interface"
+        ],
+        "visible_text_labels": [
+          "Plate",
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "Load NMR Method",
+          "Save",
+          "Save As...",
+          "Data Save",
+          "Exchange Position",
+          "Initial Position",
+          "Move",
+          "Position",
+          "Standard Set",
+          "Sample Set",
+          "Reset",
+          "Map"
+        ],
+        "quantities": [
+          "highlighted area spans from row C, column 1 to row E, column 2"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase within a software interface, specifically highlighting a rectangular area on a grid. The cursor's movement and selection process are central to this segment, indicating a setup or configuration action. The grid's labeling and the highlighted area provide specific details about the selection."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.670979,
+        22.0064685
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "cursor selects a well in the grid labeled '2' on the software interface",
+          "cursor clicks on the 'Standard Set' button"
+        ],
+        "objects_visible": [
+          "software interface with a grid layout for well selection",
+          "cursor icon",
+          "button labeled 'Standard Set'"
+        ],
+        "visible_text_labels": [
+          "Standard Set",
+          "Load MPR Method",
+          "Save",
+          "Save As",
+          "Data Save",
+          "Exchange Position",
+          "Install Position",
+          "Move",
+          "Position",
+          "map",
+          "Performance",
+          "Dx",
+          "Dy",
+          "Dz",
+          "D\u03b8",
+          "Vx",
+          "Vy",
+          "Vz",
+          "V\u03b8",
+          "Shutter",
+          "Open",
+          "Close",
+          "Lamp",
+          "On",
+          "Off",
+          "Radius",
+          "Height"
+        ],
+        "quantities": [
+          "2 (well number selected)",
+          "480.00 (value for Dx)",
+          "480.00 (value for Dy)",
+          "5.5 (value for Dz)",
+          "0.00 (value for D\u03b8)",
+          "0.00 (value for Vx)",
+          "0.00 (value for Vy)",
+          "0.00 (value for Vz)",
+          "0.00 (value for V\u03b8)"
+        ],
+        "key_distinguishing_features": "This segment shows the preparation phase where a specific well is selected on a software interface, likely for a microplate reader setup. The 'Standard Set' button is clicked, indicating a predefined configuration is being applied. The detailed numerical values for performance parameters suggest precise control over the experimental setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.0064685,
+        29.341958
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A cursor selects a well in a virtual 96-well plate layout.",
+          "The cursor highlights a specific well, indicating a selection process."
+        ],
+        "objects_visible": [
+          "A computer interface showing a 96-well plate layout with a green-highlighted well.",
+          "A sidebar with numerical parameters and settings.",
+          "A toolbar with various icons for file operations and settings."
+        ],
+        "visible_text_labels": [
+          "Plate",
+          "Well",
+          "Standard Set",
+          "Sample Set",
+          "Reset",
+          "Load NMR Method",
+          "Save",
+          "Save As",
+          "Data Save",
+          "Exchange Position",
+          "Install Position",
+          "Move",
+          "Position",
+          "Open",
+          "Close",
+          "Shutter",
+          "Lamp",
+          "Filter",
+          "Open",
+          "Close"
+        ],
+        "quantities": [
+          "Well 1 is highlighted in green.",
+          "The well selection is in column 1, row 2."
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of an experiment, specifically the selection of a well in a virtual 96-well plate layout. The green highlight on a specific well indicates a targeted action, likely for sample preparation or analysis. The interface includes detailed settings and parameters, suggesting a precise and controlled experimental setup."
+      }
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/step_prediction/60692/clip_2_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 16.582,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.1455
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a yellow test tube rack on a perforated metal surface",
+          "researcher holds a test tube labeled 'PBS' with a blue cap"
+        ],
+        "objects_visible": [
+          "yellow test tube rack with multiple holes",
+          "test tube labeled 'PBS' with a blue cap",
+          "perforated metal surface",
+          "transparent plastic container with compartments"
+        ],
+        "visible_text_labels": [
+          "PBS"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where a yellow test tube rack is prominently placed on a perforated metal surface. The researcher's gloved hand is seen handling a test tube labeled 'PBS', indicating the start of a procedure involving this solution."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.1455,
+        8.291
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a multi-well plate",
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap"
+        ],
+        "objects_visible": [
+          "yellow test tube rack with multiple slots",
+          "transparent multi-well plate with liquid in some wells",
+          "metal perforated work surface",
+          "blue-gloved hands",
+          "white lab coat"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action into a multi-well plate, with a focus on the DMEM-labeled microtube. The yellow test tube rack and perforated metal surface provide a distinctive laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        8.291,
+        12.4365
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a well of a multi-well plate"
+        ],
+        "objects_visible": [
+          "yellow test tube rack with labeled tubes",
+          "transparent multi-well plate with clear liquid in some wells",
+          "blue-gloved hand",
+          "pipette with a visible liquid stream"
+        ],
+        "visible_text_labels": [
+          "1000 uL",
+          "DMEM"
+        ],
+        "quantities": [
+          "~200uL of liquid being dispensed"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer using a pipette into a multi-well plate, highlighting the careful handling of small volumes. The blue-gloved hand and the labeled test tubes in the background emphasize a controlled laboratory environment. The focus on the pipette action suggests a step in a protocol requiring accuracy."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        12.4365,
+        16.582
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes 0.5 mL of pink-colored liquid into the upper chamber of a transwell insert"
+        ],
+        "objects_visible": [
+          "transparent transwell insert with upper and lower chambers",
+          "pipette with a pink liquid",
+          "metallic perforated surface underneath the transwell insert"
+        ],
+        "visible_text_labels": [
+          "0.5 mL in upper",
+          "1.5 mL in lower"
+        ],
+        "quantities": [
+          "0.5 mL",
+          "1.5 mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise addition of 0.5 mL of a pink liquid into the upper chamber of a transwell insert. The metallic perforated surface provides a distinct background, emphasizing the laboratory setting. The text labels clearly indicate the volume requirements for the upper and lower chambers."
+      }
+    }
+  ]
+}

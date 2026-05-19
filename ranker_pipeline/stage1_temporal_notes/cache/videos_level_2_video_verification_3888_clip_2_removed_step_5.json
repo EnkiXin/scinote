@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/video_verification/3888/clip_2_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.008767,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.50219175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher in a white lab coat and green gloves handles a petri dish",
+          "researcher places the petri dish on a metal surface"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid and red liquid inside",
+          "metal laboratory bench with various equipment and containers",
+          "red chair partially visible in the background"
+        ],
+        "visible_text_labels": [
+          "10% Base Medium = 50:50 mixture of 199 and MCDB105 + 10% inactivated FBS + 1% pen-strep"
+        ],
+        "quantities": [
+          "10% Base Medium",
+          "50:50 mixture",
+          "10% inactivated FBS",
+          "1% pen-strep"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a petri dish containing a specific base medium mixture. The researcher's actions are deliberate and precise, emphasizing the controlled environment of the laboratory. The text overlay provides a detailed recipe for the medium, highlighting the importance of the components."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.50219175,
+        21.0043835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher pours a clear liquid from a large beaker into a petri dish",
+          "researcher places a pipette tip into a bottle labeled 'PBS, 1X'"
+        ],
+        "objects_visible": [
+          "clear petri dish with a grid pattern",
+          "large beaker containing a clear liquid",
+          "pipette tip",
+          "bottle labeled 'PBS, 1X'"
+        ],
+        "visible_text_labels": [
+          "PBS, 1X (Phosphate-Buffered Saline) without calcium & magnesium STERILE Cat. No. 21-040-CV"
+        ],
+        "quantities": [
+          "1X concentration of PBS"
+        ],
+        "key_distinguishing_features": "This segment shows the preparation of a petri dish with a clear liquid, likely a buffer solution, and the handling of a PBS bottle. The focus is on the initial setup of the experiment, with specific attention to the sterile conditions and the use of a labeled PBS solution."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.0043835,
+        31.506575249999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a petri dish on a magnetic stirrer",
+          "researcher adjusts the speed of the magnetic stirrer using a dial"
+        ],
+        "objects_visible": [
+          "petri dish with a clear liquid",
+          "magnetic stirrer with a rotating bar",
+          "dial on the magnetic stirrer for speed adjustment",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "speed dial setting on the magnetic stirrer"
+        ],
+        "key_distinguishing_features": "This segment focuses on the use of a magnetic stirrer, highlighting the precise adjustment of the stirrer's speed. The petri dish with a clear liquid is central to the action, indicating a step in a liquid mixing or culturing process. The researcher's gloved hand is actively engaged in the adjustment, emphasizing the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.506575249999997,
+        42.008767
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "microtube is held up against a background of red liquid"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with handwritten label",
+          "red liquid in a container",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "The microtube is clearly labeled 'DMEM', indicating the contents. The background red liquid contrasts sharply with the transparent microtube, emphasizing the focus on the sample. The gloved hand suggests a sterile handling process."
+      }
+    }
+  ]
+}

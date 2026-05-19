@@ -1,0 +1,188 @@
+{
+  "video_id": "videos/level_2/video_segments/58099/clip_10.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.568,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.642
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "scrolls through a flow cytometry analysis software interface",
+          "selects and highlights a specific population of cells on the scatter plot"
+        ],
+        "objects_visible": [
+          "scatter plot with red dots representing cell populations",
+          "software interface with various analysis options",
+          "table displaying population statistics"
+        ],
+        "visible_text_labels": [
+          "Tube: Helia parkinlimber-1",
+          "Population: All Events",
+          "Statistics: Mean, %Parent, %Total",
+          "Parameters: PE-CF594-A, FITC-A"
+        ],
+        "quantities": [
+          "4,689 total events",
+          "98.4% of parent population",
+          "98.6% of total population"
+        ],
+        "key_distinguishing_features": "This segment focuses on analyzing cell populations using flow cytometry data. The scatter plot highlights a specific population of cells, and the software interface provides detailed statistics. The user interacts with the interface to select and analyze the highlighted cell population."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.642,
+        13.284
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "cursor highlights a specific data point on the graph"
+        ],
+        "objects_visible": [
+          "scatter plot with data points in red and black",
+          "graph axes labeled 'PE-Cy5.5-A' and 'PE-Cy5.5-H'",
+          "legend with population labels such as 'All Events', 'PBS', '405', '488', 'low', 'high'",
+          "table displaying event counts and percentages"
+        ],
+        "visible_text_labels": [
+          "Tubes: Heria portion microtube-3",
+          "Population: All Events, PBS, 405, 488, low, high",
+          "4.686 total events",
+          "95.7% for 488 population"
+        ],
+        "quantities": [
+          "4.686 total events",
+          "95.7% for 488 population",
+          "100.0% for PBS population",
+          "4.2% for high population"
+        ],
+        "key_distinguishing_features": "This segment focuses on a detailed observation of a scatter plot with specific data points being highlighted. The graph and accompanying table provide precise event counts and percentages for different populations, emphasizing the 'high' population with a distinct 4.2% value. The cursor interaction suggests an analysis or explanation of the data."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.284,
+        19.926000000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "cursor hovers over 'Stopping Time (Sec)' field",
+          "cursor clicks on 'Stopping Time (Sec)' field"
+        ],
+        "objects_visible": [
+          "computer screen displaying software interface",
+          "acquisition dashboard with various controls and readouts",
+          "text box for 'Stopping Time (Sec)'"
+        ],
+        "visible_text_labels": [
+          "Acquisition Dashboard",
+          "Active Tube/Well",
+          "Threshold Rate",
+          "Stopping Gate Events",
+          "Elapsed Time",
+          "Stopping Time (Sec)",
+          "Record Data",
+          "Restart"
+        ],
+        "quantities": [
+          "00:00:26 (elapsed time)",
+          "0 evt (events recorded)",
+          "10000 evt (events to record)",
+          "10000 evt (events to display)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the software interface used for data acquisition, specifically highlighting the 'Stopping Time (Sec)' field. The cursor interaction suggests an adjustment or observation of the stopping time parameter. The dashboard provides real-time data on events and acquisition status."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.926000000000002,
+        26.568
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Clicks on the 'Acquire Data' button",
+          "Clicks on the 'Record Data' button"
+        ],
+        "objects_visible": [
+          "Computer screen displaying an acquisition dashboard",
+          "Highlighted 'Acquire Data' and 'Record Data' buttons",
+          "Dropdown menu for 'Events To Record'"
+        ],
+        "visible_text_labels": [
+          "Acquisition Dashboard",
+          "Active Tube/Well",
+          "Threshold Rate",
+          "Stopping Gate Events",
+          "Elapsed Time",
+          "Acquire Data",
+          "Record Data",
+          "Restart",
+          "Events To Record",
+          "Events To Display",
+          "Stopping Time (sec)"
+        ],
+        "quantities": [
+          "0 evts",
+          "0 evt",
+          "00:00:26",
+          "00:00:02",
+          "10000 evt",
+          "32 evt"
+        ],
+        "key_distinguishing_features": "This segment shows the initiation of data acquisition and recording in a scientific experiment. The elapsed time resets from 26 seconds to 2 seconds, indicating a restart or new acquisition phase. The 'Acquire Data' and 'Record Data' buttons are interacted with, suggesting the start of a new data collection process."
+      }
+    }
+  ]
+}

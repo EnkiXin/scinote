@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/video_segments/54934/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.762,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.4405
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish with a clear lid",
+          "researcher uses a pipette to transfer liquid from a test tube into the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid",
+          "test tube with a green cap labeled 'DMEM-LG'",
+          "pipette with a blue plunger",
+          "orange test tube rack",
+          "purple container in the background"
+        ],
+        "visible_text_labels": [
+          "DMEM-LG",
+          "Dulbecco's Modified Eagle's Medium-low glucose (DMEM-LG) supplemented with 10% fetal bovine serum (FBS) and 1% penicillin/streptomycin (P/S)"
+        ],
+        "quantities": [
+          "10% fetal bovine serum (FBS)",
+          "1% penicillin/streptomycin (P/S)"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer using a pipette, highlighting the preparation of a specific cell culture medium. The focus is on the DMEM-LG medium supplemented with FBS and antibiotics, indicating a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.4405,
+        16.881
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM + FBS + P/S' with blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into microtube"
+        ],
+        "objects_visible": [
+          "orange test tube rack with multiple labeled microtubes",
+          "purple pipette with clear tip",
+          "microtube labeled 'PBS'",
+          "microtube labeled 'DMEM + FBS + P/S'"
+        ],
+        "visible_text_labels": [
+          "DMEM + FBS + P/S",
+          "PBS",
+          "Dulbecco's Modified Eagle's Medium-low glucose (DMEM-LG) supplemented with 10% fetal bovine serum (FBS) and 1% penicillin/streptomycin (P/S)"
+        ],
+        "quantities": [
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a pink-colored medium into a microtube using a pipette. The microtubes are clearly labeled, and the action is part of a medium preparation process. The orange test tube rack organizes the tubes, emphasizing a systematic approach."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.881,
+        25.3215
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and a microtube",
+          "researcher inserts pipette tip into microtube"
+        ],
+        "objects_visible": [
+          "pipette with a clear body and black plunger",
+          "microtube with a clear body and a white cap",
+          "purple microtube rack",
+          "red test tube rack",
+          "yellow and black pipette"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a pipette and microtube, emphasizing the careful insertion of the pipette tip. The presence of multiple laboratory tools like the purple and red racks adds context to the laboratory setting. The researcher's gloved hands highlight the importance of sterility in the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.3215,
+        33.762
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes blue liquid into a well of a multi-well plate"
+        ],
+        "objects_visible": [
+          "hand wearing a white glove",
+          "pipette with a white body and blue plunger",
+          "transparent multi-well plate with blue liquid being dispensed into a well",
+          "purple container in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of blue liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of dispensing a small volume of blue liquid into a well of a multi-well plate. The hand's steady grip on the pipette and the clear visibility of the liquid being added highlight the careful execution of the task. The background includes a purple container, adding context to the laboratory setting."
+      }
+    }
+  ]
+}

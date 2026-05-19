@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/video_segments/60259/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.251,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.56275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "woman in striped shirt signs a document",
+          "woman in brown jacket observes and interacts with the document"
+        ],
+        "objects_visible": [
+          "white table with documents and a phone",
+          "office chair",
+          "computer monitor",
+          "door with a sign",
+          "pen"
+        ],
+        "visible_text_labels": [
+          "PARTICIPANT SHOULD FAST FOR 6 HOURS",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment shows a participant signing a document, likely a consent form, under the supervision of another individual. The setting appears to be a clinical or research environment, indicated by the sign on the door and the professional setup. The text on the screen emphasizes fasting instructions for the participant."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.56275,
+        21.1255
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A man in a blue shirt and glasses is holding a clipboard and pen, appearing to take notes or ask questions.",
+          "A woman in a striped sweater is seated on a medical chair, engaging in conversation with the man."
+        ],
+        "objects_visible": [
+          "A digital clock on the wall showing the time as 11:56:49",
+          "A medical chair with blue cushions",
+          "A clipboard with papers and a pen",
+          "A white table with a clipboard and some papers on it",
+          "A wall-mounted storage unit with drawers"
+        ],
+        "visible_text_labels": [
+          "11:56:49",
+          "jove"
+        ],
+        "quantities": [
+          "11:56:49"
+        ],
+        "key_distinguishing_features": "The segment captures a clinical setting where a conversation is taking place between a medical professional and a patient. The digital clock provides a precise timestamp, and the medical chair with blue cushions suggests a patient examination area. The clipboard and pen indicate that the professional is likely documenting or discussing medical information."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.1255,
+        31.688249999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher wearing blue gloves inserts a needle into the patient's arm.",
+          "Researcher holds a syringe and a small vial, collecting blood from the patient."
+        ],
+        "objects_visible": [
+          "Patient's arm with a tourniquet applied above the elbow.",
+          "Blue gloves worn by the researcher.",
+          "Syringe and a small vial used for collecting blood.",
+          "Blue armrests of the patient's chair."
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise action of blood collection, highlighting the use of medical gloves and the careful insertion of a needle. The patient's arm is clearly visible with a tourniquet, emphasizing the clinical setting. The researcher's hands are the central focus, demonstrating the execution phase of the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.688249999999996,
+        42.251
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a syringe and draws blood from a patient's arm.",
+          "Researcher carefully fills a labeled blood collection tube with the drawn blood."
+        ],
+        "objects_visible": [
+          "A syringe with a needle attached, held by a gloved hand.",
+          "A blood collection tube with a green cap labeled 'BASELINE'.",
+          "A patient's arm with a tourniquet applied above the elbow."
+        ],
+        "visible_text_labels": [
+          "BASELINE",
+          "TEST BLOOD SUGAR LEVEL AND OTHER BLOOD MEASURES WITH BASELINE SAMPLE"
+        ],
+        "quantities": [
+          "The tube appears to be partially filled with blood, though the exact volume is not specified."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise action of drawing a baseline blood sample, emphasizing the importance of accurate collection for subsequent testing. The labeled tube and the text overlay highlight the purpose of the sample for blood sugar and other measurements."
+      }
+    }
+  ]
+}

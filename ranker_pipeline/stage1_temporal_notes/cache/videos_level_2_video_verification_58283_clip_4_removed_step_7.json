@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/video_verification/58283/clip_4_removed_step_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 88.513333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        22.12833325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a transparent container with a lid",
+          "researcher places the container on a metal surface",
+          "researcher picks up a bottle with a blue cap and a white label"
+        ],
+        "objects_visible": [
+          "transparent container with a lid",
+          "metal surface with a black wire rack",
+          "bottle with a blue cap and a white label",
+          "black wire rack with various laboratory items",
+          "petri dishes with a yellowish substance",
+          "plastic bags containing laboratory supplies"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one transparent container",
+          "one bottle with a blue cap"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase where the researcher is handling a transparent container and a labeled bottle, indicating the setup for an experiment. The presence of a petri dish with a yellowish substance suggests the experiment involves biological or chemical materials. The organized laboratory setup with a black wire rack and various supplies emphasizes a controlled environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        22.12833325,
+        44.2566665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher uses a pipette to transfer liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "pipette with a blue plunger",
+          "petri dish containing a clear liquid",
+          "black wire rack with various laboratory items",
+          "aluminum foil-covered container",
+          "plastic container with a blue label"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a small microtube and using a pipette to transfer liquid, indicating precision in the experiment. The presence of a petri dish suggests a biological or chemical process is being conducted. The environment is a controlled laboratory setup with various equipment visible."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        44.2566665,
+        66.38499975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a small container",
+          "researcher places the pipette on a metal rack after dispensing the liquid"
+        ],
+        "objects_visible": [
+          "pipette with a blue plunger and a yellow tip",
+          "small container with a white lid and a label",
+          "metal rack with multiple compartments",
+          "bottles with blue and white caps",
+          "transparent container with a label and a white lid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "pipette tip size appears to be set for a specific volume, though exact volume is not visible"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a pipette and the dispensing of liquid into a small container, emphasizing the careful and methodical nature of the task. The presence of a metal rack and various labeled containers suggests an organized laboratory setting. The researcher's gloved hands highlight the importance of maintaining a sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        66.38499975,
+        88.513333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 96-well plate with a blue cap and places it on the workbench",
+          "researcher uses a pipette to transfer a clear liquid from a container into a well of the 96-well plate"
+        ],
+        "objects_visible": [
+          "96-well plate with a blue cap",
+          "pipette with a clear liquid",
+          "container with a clear liquid",
+          "black wire rack holding various laboratory items",
+          "petri dish with a clear lid"
+        ],
+        "visible_text_labels": [
+          "jove logo in the top right corner"
+        ],
+        "quantities": [
+          "96-well plate"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a clear liquid into a 96-well plate, highlighting the careful handling of laboratory equipment. The presence of a black wire rack and a petri dish suggests a well-organized workspace. The researcher's actions are methodical, emphasizing the importance of accuracy in the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/step_prediction/57928/clip_5_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.592867,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.64821675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "person connects wires to battery terminals",
+          "person adjusts connections on a DVR system"
+        ],
+        "objects_visible": [
+          "red batteries with visible terminals and labels",
+          "blue plastic container",
+          "DVR system with wires and connections",
+          "person wearing a green shirt and yellow safety vest"
+        ],
+        "visible_text_labels": [
+          "DVR system",
+          "Extreme",
+          "Optima"
+        ],
+        "quantities": [
+          "four batteries",
+          "multiple wires"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a power system involving batteries and a DVR setup. The person is actively connecting wires to the batteries, indicating a setup or maintenance process. The blue container and safety vest suggest an outdoor or field setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.64821675,
+        19.2964335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher connects a yellow cable to a battery terminal",
+          "researcher adjusts the cable connection on the battery"
+        ],
+        "objects_visible": [
+          "red batteries labeled 'Optima Extreme' with black and yellow terminals",
+          "a control panel with multiple ports and wires",
+          "a blue wall serving as the background"
+        ],
+        "visible_text_labels": [
+          "Optima Extreme",
+          "PC1400"
+        ],
+        "quantities": [
+          "two batteries visible in the frame"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase where cables are being connected to batteries. The researcher's hands are actively engaged in ensuring a secure connection. The setup includes a control panel with multiple ports, indicating a complex electrical system."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.2964335,
+        28.94465025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person in a high-visibility vest adjusts a green rope connected to a series of solar panels.",
+          "The person appears to be securing or organizing the rope, ensuring it is properly positioned."
+        ],
+        "objects_visible": [
+          "Three solar panels mounted on metal stands, each with visible wiring and connections.",
+          "A blue plastic container on the left side of the frame.",
+          "A sandy beach environment with sparse vegetation in the background."
+        ],
+        "visible_text_labels": [
+          "The word 'five' is visible in the top right corner of the screen."
+        ],
+        "quantities": [
+          "Three solar panels are present in the scene."
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of an experiment involving solar panels on a beach. The person's actions with the green rope suggest an effort to stabilize or organize the setup. The sandy environment and the presence of solar panels indicate an outdoor, possibly renewable energy-related experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        28.94465025,
+        38.592867
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "person organizes and connects various colored wires to a device",
+          "person adjusts the wires to ensure proper connections"
+        ],
+        "objects_visible": [
+          "white metal frame structure",
+          "colorful wires (red, green, black, and pink)",
+          "white rope tied to the frame",
+          "yellow safety vest worn by the person",
+          "sand and vegetation in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the meticulous preparation of a wired system, with the person carefully handling and connecting multiple colored wires. The outdoor setting with sand and vegetation adds a distinctive environmental context to the activity. The presence of a safety vest indicates adherence to safety protocols."
+      }
+    }
+  ]
+}

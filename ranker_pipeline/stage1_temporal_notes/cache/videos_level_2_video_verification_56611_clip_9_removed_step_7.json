@@ -1,0 +1,176 @@
+{
+  "video_id": "videos/level_2/video_verification/56611/clip_9_removed_step_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.243047,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.31076175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher uses a computer mouse to interact with software",
+          "researcher views data on a computer screen"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a software interface",
+          "black keyboard",
+          "black computer mouse",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "jove",
+          "Experiment",
+          "Parameters Settings",
+          "Model: Single Site",
+          "E Range: 0V to 10V",
+          "Bandwidth: 100Hz"
+        ],
+        "quantities": [
+          "10V",
+          "100Hz"
+        ],
+        "key_distinguishing_features": "The segment focuses on a researcher interacting with a computer, specifically using a mouse to navigate a software interface. The screen displays detailed parameters and settings, indicating a data analysis or experimental setup phase. The researcher's attire and gloves suggest a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.31076175,
+        16.6215235
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Graph updates in real-time as parameters are adjusted",
+          "Cursor hovers over specific data points on the graph"
+        ],
+        "objects_visible": [
+          "Software interface with 'Parameters Settings' panel",
+          "Graph plotting impedance (Z) against frequency",
+          "Text box with example voltage range"
+        ],
+        "visible_text_labels": [
+          "Example: For 0.7 V, use 0.6 V to 0.8 V",
+          "E Range: 0.0V / 0.0V",
+          "Bandwidth: 200 Hz"
+        ],
+        "quantities": [
+          "0.7 V",
+          "0.6 V to 0.8 V",
+          "200 Hz"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase where a graph updates in real-time as voltage parameters are adjusted. The interface includes a detailed 'Parameters Settings' panel, and a specific example is provided for voltage range adjustment. The graph plots impedance against frequency, highlighting the dynamic nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.6215235,
+        24.93228525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Graph updates in real-time as data is collected",
+          "Cursor hovers over graph, possibly for data point inspection"
+        ],
+        "objects_visible": [
+          "Graph plotting impedance (Z) against frequency",
+          "Parameter settings panel with adjustable experiment parameters",
+          "Software interface with multiple tabs and settings"
+        ],
+        "visible_text_labels": [
+          "Z' (\u03a9)",
+          "Z'' (\u03a9)",
+          "Frequency (Hz)",
+          "Parameters Settings",
+          "1. SPEIS",
+          "E Range: 10V / 10V",
+          "Bandwidth: 1000 Hz"
+        ],
+        "quantities": [
+          "Frequency range from 100 Hz to 100 kHz",
+          "Impedance values ranging from -0.0005 to 0.0005 \u03a9"
+        ],
+        "key_distinguishing_features": "This segment shows a real-time impedance spectroscopy graph updating as data is collected. The graph plots both real and imaginary components of impedance against frequency. The parameter settings panel is visible, indicating adjustable experimental conditions."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.93228525,
+        33.243047
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Graph updates in real-time as data is collected",
+          "Cursor hovers over the graph, possibly for analysis"
+        ],
+        "objects_visible": [
+          "Software interface with multiple tabs and settings",
+          "Graph plotting impedance (Z) against frequency",
+          "Parameter settings for SP-150-128 device"
+        ],
+        "visible_text_labels": [
+          "Turn to SOV between techniques",
+          "Model: Single Step",
+          "E Range: 0V/10V",
+          "Bandwidth: 1000 Hz",
+          "Frequency: 1000 Hz"
+        ],
+        "quantities": [
+          "Frequency range from 0.01 Hz to 100,000 Hz",
+          "1000 points between each frequency",
+          "2.5 kHz sine wave amplitude"
+        ],
+        "key_distinguishing_features": "This segment shows a real-time graph updating as impedance data is collected, with detailed parameter settings visible for the SP-150-128 device. The graph plots impedance against frequency, highlighting the dynamic nature of the experiment. The interface includes advanced settings for precise control over the experiment parameters."
+      }
+    }
+  ]
+}

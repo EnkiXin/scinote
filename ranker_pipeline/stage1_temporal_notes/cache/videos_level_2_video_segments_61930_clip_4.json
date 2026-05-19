@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_segments/61930/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 51.795,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.94875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts knobs on a blue and beige machine labeled 'MODEL P-2000'",
+          "researcher opens a black rectangular component of the machine"
+        ],
+        "objects_visible": [
+          "blue-gloved hands of a researcher",
+          "a blue and beige machine with a digital display and multiple knobs",
+          "a black rectangular component labeled 'CAUTION'",
+          "a white lab coat with a pink stripe"
+        ],
+        "visible_text_labels": [
+          "Preparation of Quartz Glass Microinjection Needles and Microinjector",
+          "MODEL P-2000",
+          "CAUTION"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase involving a specialized machine for creating microinjection needles. The researcher's precise adjustments and the machine's detailed labeling highlight the technical nature of the task. The presence of safety labels like 'CAUTION' underscores the importance of careful handling."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.94875,
+        25.8975
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand reaches towards the control panel of a large machine labeled 'MODEL P-2000'."
+        ],
+        "objects_visible": [
+          "A large machine with a control panel labeled 'MODEL P-2000' with a digital display and keypad.",
+          "A gloved hand interacting with the machine.",
+          "Small rectangular objects, possibly slides or sample holders, on the table next to the machine."
+        ],
+        "visible_text_labels": [
+          "MODEL P-2000",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the interaction with a specific machine model, highlighting the preparation phase. The presence of a gloved hand suggests a sterile environment, and the machine's control panel is a central feature. The small rectangular objects on the table suggest sample preparation activities."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.8975,
+        38.84625
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand reaches into the open compartment of a large machine labeled 'MODEL P-2000'.",
+          "The hand appears to be manipulating or retrieving an object inside the machine."
+        ],
+        "objects_visible": [
+          "A large machine labeled 'MODEL P-2000' with a digital display and keypad.",
+          "A gloved hand interacting with the machine's internal compartment.",
+          "Small rectangular objects (possibly slides or samples) on the table next to the machine."
+        ],
+        "visible_text_labels": [
+          "MODEL P-2000",
+          "SCHOTT"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the interaction with a specialized machine, highlighting the precise action of a gloved hand reaching into the machine's compartment. The machine's label and digital display are clearly visible, emphasizing its role in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        38.84625,
+        51.795
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a black rectangular object into the sample holder of the microtome",
+          "researcher adjusts the sample holder using the control panel of the microtome"
+        ],
+        "objects_visible": [
+          "microtome labeled 'MODEL P-2000' with a digital display and control panel",
+          "black rectangular object being placed into the microtome",
+          "blue-gloved hand of the researcher",
+          "small rectangular slides on the table next to the microtome"
+        ],
+        "visible_text_labels": [
+          "MODEL P-2000",
+          "jove"
+        ],
+        "quantities": [
+          "no specific quantities are visible in this segment"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a sample into a microtome, highlighting the careful handling and adjustment of the equipment. The digital display and control panel of the microtome are prominently featured, emphasizing the technical nature of the task. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "video_id": "60167",
+  "benchmark": "scivideobench",
+  "duration_seconds": 419.861333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        104.96533325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person in a blue protective suit walks through a laboratory space.",
+          "A scientist in a white lab coat stands in front of a whiteboard with chemical structures drawn on it."
+        ],
+        "objects_visible": [
+          "A whiteboard with various chemical structures and notes.",
+          "A laboratory environment with desks, chairs, and equipment in the background.",
+          "A digital display showing temperature and other readings."
+        ],
+        "visible_text_labels": [
+          "BGI",
+          "jove"
+        ],
+        "quantities": [
+          "Temperature readings on the digital display: 23.0\u00b0C and 21.0\u00b0C."
+        ],
+        "key_distinguishing_features": "This segment highlights the initial setup and preparation phase in a laboratory setting, with a focus on the scientist's attire and the detailed chemical structures on the whiteboard. The presence of temperature readings on the digital display suggests controlled environmental conditions for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        104.96533325,
+        209.9306665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher operates a large, cylindrical machine with a digital display and control panel, inserting a small, transparent container into the machine's chamber.",
+          "Researcher monitors a computer screen displaying a complex flowchart with various colored nodes and numerical values, indicating a process or experiment in progress."
+        ],
+        "objects_visible": [
+          "A large cylindrical machine with a digital display, control panel, and a chamber where a transparent container is inserted.",
+          "A computer screen showing a detailed flowchart with nodes labeled with numbers and text, such as 'TMG', 'TMA', and 'N2'.",
+          "A transparent container with a purple substance inside, being handled by the researcher."
+        ],
+        "visible_text_labels": [
+          "Ambient gas: N2 unless otherwise indicated",
+          "TMG",
+          "TMA",
+          "N2"
+        ],
+        "quantities": [
+          "1130.0",
+          "130.0",
+          "500.0",
+          "331.0"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the operation of a specialized machine and the monitoring of a digital flowchart, suggesting a controlled experiment. The presence of specific numerical values and labeled nodes on the screen indicates a detailed and precise process. The transparent container with a purple substance is a key element being handled in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        209.9306665,
+        314.89599975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher in a blue protective suit and gloves places a petri dish containing a sample into a yellow centrifuge",
+          "researcher adjusts the centrifuge settings using a control panel"
+        ],
+        "objects_visible": [
+          "yellow centrifuge with a digital display and control buttons",
+          "petri dish with a transparent lid containing a sample",
+          "researcher wearing a blue protective suit and gloves"
+        ],
+        "visible_text_labels": [
+          "centrifuge control panel with labels such as 'speed' and 'time'"
+        ],
+        "quantities": [
+          "petri dish with a sample of unspecified volume"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a petri dish by a researcher in a controlled environment, emphasizing the use of a yellow centrifuge. The protective attire of the researcher highlights the sterile conditions required for the experiment. The centrifuge's digital display and control panel are prominently featured, indicating the importance of precise settings in the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        314.89599975,
+        419.861333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher in a blue protective suit and glasses is writing on a piece of paper with a black marker.",
+          "Another researcher in a white protective suit is operating a laser machine labeled 'Delphi Laser'."
+        ],
+        "objects_visible": [
+          "A piece of paper with handwritten text 'BDE' on it.",
+          "A laser machine with a digital display and various control buttons.",
+          "A computer monitor displaying graphs and data."
+        ],
+        "visible_text_labels": [
+          "Delphi Laser",
+          "BDE",
+          "Without Ge",
+          "With Ge",
+          "Raman Shift (cm^-1)"
+        ],
+        "quantities": [
+          "Raman Shift values ranging from -1000 to 1000 cm^-1."
+        ],
+        "key_distinguishing_features": "This segment highlights the observation phase where researchers are analyzing data and operating specialized equipment. The presence of both handwritten notes and digital data suggests a detailed recording process. The laser machine and Raman Shift data indicate a focus on material analysis."
+      }
+    }
+  ]
+}

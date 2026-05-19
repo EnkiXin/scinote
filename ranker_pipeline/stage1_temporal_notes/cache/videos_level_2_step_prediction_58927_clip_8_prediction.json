@@ -1,0 +1,143 @@
+{
+  "video_id": "videos/level_2/step_prediction/58927/clip_8_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 50.862,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.7155
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube labeled 'C. albicans' with a green cap",
+          "researcher pours a clear liquid from a 500mL bottle labeled 'Sodium Phosphate Buffer pH 7.4' into the conical tube"
+        ],
+        "objects_visible": [
+          "500mL bottle with handwritten label and light green liquid",
+          "15mL conical tube with handwritten label and a green cap",
+          "blue test tube rack",
+          "researcher wearing a white lab coat and bright green gloves"
+        ],
+        "visible_text_labels": [
+          "Sodium Phosphate Buffer pH 7.4",
+          "C. albicans"
+        ],
+        "quantities": [
+          "500mL bottle",
+          "15mL conical tube"
+        ],
+        "key_distinguishing_features": "The segment shows a precise transfer of buffer solution into a conical tube containing a labeled sample. The use of a large bottle and a conical tube suggests preparation for a larger-scale experiment. The handwritten labels provide specific context for the substances being used."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.7155,
+        25.431
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"execution\",\n  \"actions_observed\": [\n    \"researcher holds a small glass vial with a dark liquid\",\n    \"researcher pours the dark liquid from the vial into a larger glass jar labeled 'KAS 1'\"\n  ],\n  \"objects_visible\": [\n    \"green nitrile gloves on the researcher's hands\",\n    \"a small glass vial containing a dark liquid\",\n    \"a larger glass jar labeled 'KAS 1' with a blue cap\",\n    "
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.431,
+        38.1465
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a jar labeled 'KAJ 1' with a dark substance inside",
+          "researcher gestures towards the jar while speaking"
+        ],
+        "objects_visible": [
+          "jar with handwritten label 'KAJ 1' containing a dark substance",
+          "other labeled jars in the background",
+          "researcher wearing a colorful scarf and a dark sweater"
+        ],
+        "visible_text_labels": [
+          "KAJ 1",
+          "Site multimedia et interactif",
+          "wp.unil.ch/swisssoil"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the researcher presenting a jar labeled 'KAJ 1' with a dark substance, likely for observation or explanation. The background includes other labeled jars, suggesting a laboratory or research setting. The researcher's attire and gestures indicate an explanatory phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        38.1465,
+        50.862
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 500mL glass beaker labeled '22.03.2022 K12' with a dark brown liquid inside",
+          "researcher uses a white pipette to transfer a clear liquid from a 1000mL graduated cylinder into the beaker"
+        ],
+        "objects_visible": [
+          "500mL glass beaker with handwritten label",
+          "1000mL graduated cylinder with clear liquid",
+          "white pipette with a flexible tube",
+          "blue cap of the beaker lying on the lab bench",
+          "other laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "22.03.2022 K12"
+        ],
+        "quantities": [
+          "500mL beaker",
+          "1000mL graduated cylinder"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a clear liquid into a beaker containing a dark brown solution. The handwritten label on the beaker provides a specific date and code, indicating a controlled experiment. The use of a pipette highlights the need for accuracy in the liquid transfer process."
+      }
+    }
+  ]
+}

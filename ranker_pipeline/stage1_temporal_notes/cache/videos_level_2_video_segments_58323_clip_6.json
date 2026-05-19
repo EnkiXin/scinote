@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/video_segments/58323/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.573,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.89325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube containing a red liquid",
+          "researcher uses a pipette to transfer liquid from the conical tube into a smaller tube"
+        ],
+        "objects_visible": [
+          "15mL conical tube with red liquid",
+          "pipette with a pink plunger",
+          "smaller tube with a clear cap",
+          "ice-filled blue container",
+          "stacked plastic storage boxes",
+          "beaker on the lab bench"
+        ],
+        "visible_text_labels": [
+          "1 min 800 x g 4 \u00b0C"
+        ],
+        "quantities": [
+          "15mL conical tube",
+          "red liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a red liquid using a pipette, with a clear emphasis on maintaining a sterile environment. The presence of ice in a blue container suggests the need to keep samples at a low temperature. The text overlay indicates specific centrifugation conditions."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.89325,
+        19.7865
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes ~200uL of pink-colored liquid from a 15mL conical tube into a multi-well plate"
+        ],
+        "objects_visible": [
+          "15mL conical tube with pink liquid",
+          "pipette with a pink liquid column",
+          "multi-well plate with clear wells",
+          "gloved hand holding the conical tube",
+          "laboratory background with various containers"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "~200uL of liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a pink liquid using a pipette, highlighting the careful handling of the conical tube. The background laboratory setting with various containers adds context to the experimental environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.7865,
+        29.67975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes ~200uL of pink-colored liquid into a well of a multi-well plate"
+        ],
+        "objects_visible": [
+          "transparent multi-well plate with six wells, some containing pink liquid",
+          "researcher's gloved hand holding the pipette",
+          "pipette with a red tip",
+          "red biohazard sharps container labeled 'FBS AA PR'",
+          "purple-capped tubes in a rack"
+        ],
+        "visible_text_labels": [
+          "FBS AA PR",
+          "Low S & S"
+        ],
+        "quantities": [
+          "~200uL of liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise pipetting of a pink liquid into a multi-well plate, highlighting the careful handling of biohazardous materials. The red biohazard sharps container and the labeled tubes indicate a controlled laboratory environment. The pink color of the liquid suggests it may be a specific medium or solution used in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.67975,
+        39.573
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a large incubator with a gloved hand",
+          "researcher reaches into the incubator to retrieve or place an object"
+        ],
+        "objects_visible": [
+          "large white incubator with a glass door",
+          "red biohazard bag next to the incubator",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the interaction with a large incubator, a critical piece of laboratory equipment. The researcher's gloved hand is the only part of them visible, emphasizing the sterile handling of materials. The red biohazard bag suggests the handling of potentially hazardous materials."
+      }
+    }
+  ]
+}

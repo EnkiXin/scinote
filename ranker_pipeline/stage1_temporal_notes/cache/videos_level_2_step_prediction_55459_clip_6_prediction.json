@@ -1,0 +1,140 @@
+{
+  "video_id": "videos/level_2/step_prediction/55459/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.514133,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.62853325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is focused on a small, transparent organism"
+        ],
+        "objects_visible": [
+          "a small, transparent organism with a dark, spherical structure at one end, possibly an eye or a similar feature",
+          "a thin, elongated structure, possibly a needle or probe, positioned near the organism"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The organism appears to be under microscopic observation, with a clear focus on its structure and the nearby probe. The dark spherical feature stands out against the translucent body of the organism. The 'jove' label suggests this is part of a scientific demonstration or educational content."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.62853325,
+        13.2570665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is used to observe a specimen at a 45-degree angle"
+        ],
+        "objects_visible": [
+          "a transparent, elongated specimen with a bulbous end under a microscope",
+          "a diagram of a microscope with a needle inserted at a 45-degree angle"
+        ],
+        "visible_text_labels": [
+          "45\u00b0"
+        ],
+        "quantities": [
+          "45 degrees"
+        ],
+        "key_distinguishing_features": "The specimen appears to be a single-celled organism with a distinct shape, and the diagram emphasizes the precise angle of observation. The setup suggests a detailed examination of the specimen's morphology."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.2570665,
+        19.88559975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A fine needle is inserted into a small, translucent structure, possibly a cell or embryo, with a rounded body and a tail-like extension."
+        ],
+        "objects_visible": [
+          "A small, translucent structure with a rounded body and a tail-like extension, possibly a cell or embryo.",
+          "A thin, metallic needle inserted into the structure."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise interaction between a needle and a small biological structure, highlighting the delicate nature of the procedure. The translucent quality of the structure and the careful positioning of the needle are distinctive features of this segment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.88559975,
+        26.514133
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "microinjection needle is inserted into a cell",
+          "needle is retracted after injection"
+        ],
+        "objects_visible": [
+          "microinjection needle",
+          "cell under a microscope",
+          "microscope stage"
+        ],
+        "visible_text_labels": [
+          "One can make several consecutive injections"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise microinjection process where a needle is carefully inserted into a cell. The text overlay suggests the possibility of making multiple injections in sequence. The focus is on the needle and the cell, highlighting the technical skill required for this procedure."
+      }
+    }
+  ]
+}

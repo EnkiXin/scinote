@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_2/video_segments/51250/clip_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 48.986,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.2465
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a component on a large, beige machine labeled 'Spectrometer'",
+          "researcher interacts with a control panel on the machine"
+        ],
+        "objects_visible": [
+          "beige spectrometer with a cylindrical component",
+          "black shelving unit with various electronic devices",
+          "white cylindrical duct connected to the spectrometer",
+          "researcher wearing a light blue shirt and beige pants"
+        ],
+        "visible_text_labels": [
+          "Spectrometer",
+          "CCD or intensified linear diode array with OMA",
+          "Pulse Generator",
+          "Oscilloscope",
+          "Photo-diode",
+          "Nd:YAG",
+          "Delay Generator",
+          "Sync Box",
+          "Wave Generator"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase involving a spectrometer, with the researcher making adjustments to the machine. The setup includes a detailed diagram overlaying the video, highlighting various components and their connections. The environment is a laboratory with a clean, organized setup."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.2465,
+        24.493
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a component on a Nd:YAG laser setup using a tool",
+          "researcher connects a blue cable to a device on the optical table"
+        ],
+        "objects_visible": [
+          "Nd:YAG laser with a green light indicator",
+          "optical table with various mounted components",
+          "blue cable being connected to a device",
+          "tool used for adjusting the laser component",
+          "gas cylinders in the background"
+        ],
+        "visible_text_labels": [
+          "Nd:YAG",
+          "Photo-diode",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise adjustment of a Nd:YAG laser setup, highlighting the researcher's interaction with the equipment. The presence of a green light indicator on the laser and the connection of a blue cable suggest active engagement with the laser system. The background includes gas cylinders, indicating a laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        24.493,
+        36.7395
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher adjusts a white PVC pipe labeled '1/2\" PVC SCHED 40 ASTM D-1785' with a metal clamp.",
+          "Researcher points to a diagram on the screen showing the Nd:YAG laser setup."
+        ],
+        "objects_visible": [
+          "White PVC pipe labeled '1/2\" PVC SCHED 40 ASTM D-1785'.",
+          "Metal clamp securing the PVC pipe.",
+          "Nd:YAG laser setup diagram on the screen.",
+          "Photo-diode labeled in the diagram.",
+          "Researcher's hand wearing a blue checkered shirt."
+        ],
+        "visible_text_labels": [
+          "Nd:YAG",
+          "Photo-diode",
+          "1/2\" PVC SCHED 40 ASTM D-1785"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the adjustment of a PVC pipe in a laser setup, with a detailed diagram explaining the Nd:YAG laser components. The researcher's hand is actively involved in manipulating the setup, emphasizing the execution phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        36.7395,
+        48.986
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a component on a large optical table"
+        ],
+        "objects_visible": [
+          "optical table with various equipment",
+          "researcher wearing a blue lab coat",
+          "computer monitor displaying a diagram of the experimental setup"
+        ],
+        "visible_text_labels": [
+          "Nd:YAG",
+          "Delay Generator",
+          "Photo-diode",
+          "Oscilloscope",
+          "Sync Box",
+          "Wave Generator",
+          "Pulse Generator",
+          "Spectrometer",
+          "CCD or intensified linear diode array with OMA"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the researcher actively manipulating equipment on the optical table, likely fine-tuning the setup for the experiment. The diagram on the computer screen provides a detailed schematic of the interconnected components, emphasizing the complexity of the setup. The researcher's actions suggest a hands-on phase of the experiment, preparing for data collection."
+      }
+    }
+  ]
+}

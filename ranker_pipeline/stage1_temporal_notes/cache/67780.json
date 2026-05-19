@@ -1,0 +1,175 @@
+{
+  "video_id": "67780",
+  "benchmark": "scivideobench",
+  "duration_seconds": 608.170667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        152.04266675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "Pipettes approximately 200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "Pink-colored DMEM medium",
+          "Petri dish",
+          "Pipette with a blue tip",
+          "Laboratory bench with various reagents and equipment"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Establishing a Three-Dimensional Coculture Module of Epithelial Cells Using Nanofibrous Membranes",
+          "Thi Xuan Thuy Tran, Hue Vy An Tran, In-Jeong Lee, Jong-Young Kwak"
+        ],
+        "quantities": [
+          "1.5mL",
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment highlights the initial preparation steps in a laboratory setting, focusing on the precise handling of DMEM medium. The researcher's actions are methodical, emphasizing the importance of accurate measurements. The presence of specific text labels and quantities underscores the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        152.04266675,
+        304.0853335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts control panel on a large machine with a digital display",
+          "researcher holds a small, clear glass container with a red cap and a label",
+          "researcher uses a pipette to transfer a liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "large machine with a digital display showing humidity levels",
+          "small, clear glass container with a red cap and a label",
+          "petri dish with a grid pattern",
+          "pipette with a blue plunger",
+          "bottle with a red cap and a label",
+          "brush with a red handle"
+        ],
+        "visible_text_labels": [
+          "Humidity: 40 - 50% (Beginning) 25 - 30% (End) Check the flow regularly",
+          "Capture scanning electron microscope images"
+        ],
+        "quantities": [
+          "40 - 50% humidity (beginning)",
+          "25 - 30% humidity (end)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the execution phase of an experiment involving precise humidity control and the use of a pipette to transfer liquids. The presence of a petri dish with a grid pattern suggests a methodical approach to sample handling. The digital display on the machine highlights the importance of maintaining specific environmental conditions."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        304.0853335,
+        456.12800025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a transparent membrane onto a microscope slide",
+          "researcher uses a pipette to add a clear liquid to a petri dish",
+          "researcher places a petri dish on a hot plate"
+        ],
+        "objects_visible": [
+          "microscope slide with a transparent membrane",
+          "pipette with a blue tip",
+          "petri dish containing a clear liquid",
+          "hot plate with a black surface",
+          "green and yellow test tube racks",
+          "1.5mL microtube with a white cap",
+          "box labeled 'KIMTECH SCIENCE'"
+        ],
+        "visible_text_labels": [
+          "After air drying for 20 min, the membranes naturally stick to the slide",
+          "Allow the bubbles to rise and disappear for 10 min",
+          "Let the slide warm to 100 \u00b0C"
+        ],
+        "quantities": [
+          "20 min",
+          "10 min",
+          "100 \u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of membranes and liquids, emphasizing the timing and temperature control necessary for the experiment. The use of a hot plate and specific instructions for drying and warming highlight the critical steps in the procedure. The presence of detailed text labels provides clear guidance for the viewer."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        456.12800025,
+        608.170667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a multi-channel pipette and dispenses liquid into a 96-well plate",
+          "researcher places a petri dish containing a clear liquid on the lab bench"
+        ],
+        "objects_visible": [
+          "multi-channel pipette with blue and white color scheme",
+          "96-well plate with clear wells",
+          "petri dish with a clear liquid",
+          "green test tube rack with labeled tubes",
+          "purple container with a lid",
+          "laboratory gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "MLE-12 lung epithelial"
+        ],
+        "quantities": [
+          "96 wells in the plate"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a multi-channel pipette to dispense liquid into a 96-well plate, indicating a high-throughput experiment. The presence of labeled test tubes and a petri dish suggests preparation for cell culture or biochemical assays. The text 'MLE-12 lung epithelial' highlights the specific cell type being used in the experiment."
+      }
+    }
+  ]
+}

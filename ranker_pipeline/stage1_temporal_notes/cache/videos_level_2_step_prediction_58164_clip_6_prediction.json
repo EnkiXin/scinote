@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/step_prediction/58164/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 18.914875,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.72871875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "hand wearing blue glove places a clear glass vial into an orange test tube rack"
+        ],
+        "objects_visible": [
+          "three clear glass vials with white labels and black handwritten numbers",
+          "orange test tube rack",
+          "hand wearing a blue glove"
+        ],
+        "visible_text_labels": [
+          "See text for tube specification",
+          "No. 99447"
+        ],
+        "quantities": [
+          "three vials"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a gloved hand places a vial into a rack. The vials are clearly labeled with handwritten numbers, and the text on the screen directs viewers to consult the text for tube specifications."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.72871875,
+        9.4574375
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A pipette is used to transfer a clear liquid into a test tube labeled 'C1'."
+        ],
+        "objects_visible": [
+          "Three clear glass test tubes in an orange test tube rack, labeled 'C1', 'C2', and 'No. 99447'."
+        ],
+        "visible_text_labels": [
+          "C1",
+          "C2",
+          "No. 99447",
+          "See text for tube specification"
+        ],
+        "quantities": [
+          "The liquid transferred appears to be a small volume, likely in microliters, though the exact volume is not specified."
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a liquid into a labeled test tube, emphasizing the methodical nature of the experiment. The orange test tube rack and the clear labeling of the tubes are distinctive features of this setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.4574375,
+        14.18615625
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a third clear glass vial labeled 'C3' into the orange test tube rack"
+        ],
+        "objects_visible": [
+          "three clear glass vials labeled 'C1', 'C2', and 'C3' in an orange test tube rack",
+          "a 250 mL Pyrex beaker with an orange label reading '0.1 M H2SO4'"
+        ],
+        "visible_text_labels": [
+          "C1",
+          "C2",
+          "C3",
+          "0.1 M H2SO4",
+          "250 mL",
+          "PYREX"
+        ],
+        "quantities": [
+          "three vials",
+          "250 mL"
+        ],
+        "key_distinguishing_features": "This segment shows the addition of a third vial to the test tube rack, indicating a progression in the setup of the experiment. The beaker with a specific chemical solution is also introduced, suggesting preparation for a chemical reaction or analysis. The precise labeling of vials and the beaker highlights the organized nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        14.18615625,
+        18.914875
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'C2' with black cap",
+          "pipettes liquid from beaker into microtube"
+        ],
+        "objects_visible": [
+          "250 mL PYREX beaker labeled '0.1 M H2SO4'",
+          "orange test tube rack with labeled microtubes 'C1', 'C2', 'C3'",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "0.1 M H2SO4",
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "quantities": [
+          "250 mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of liquid from a labeled beaker into a microtube, emphasizing the careful handling of chemicals. The orange test tube rack with clearly labeled tubes adds a structured and organized element to the experiment. The researcher's gloved hand underscores the importance of safety in the procedure."
+      }
+    }
+  ]
+}

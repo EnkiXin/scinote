@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/video_segments/54614/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 22.988,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.747
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a mesh sieve into a wooden tray"
+        ],
+        "objects_visible": [
+          "wooden tray with a metal mesh sieve",
+          "researcher wearing white gloves and a lab coat",
+          "laboratory sink with a faucet"
+        ],
+        "visible_text_labels": [
+          "6.4 mm x 6.4 mm mesh sieve"
+        ],
+        "quantities": [
+          "6.4 mm x 6.4 mm"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a mesh sieve with specific dimensions into a wooden tray, indicating a preparatory step in a scientific procedure. The researcher's gloved hands and lab attire emphasize the controlled environment. The text overlay specifies the exact size of the mesh sieve, highlighting the importance of this detail."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.747,
+        11.494
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher uses a spoon to transfer brown granular material from a wooden sieve into a labeled glass jar",
+          "researcher places the jar on a digital scale"
+        ],
+        "objects_visible": [
+          "wooden sieve with a metal mesh",
+          "digital scale with a white surface and blue display",
+          "glass jar with a blue label reading 'S177'",
+          "spoon with a metallic handle",
+          "beaker containing brown granular material",
+          "notebook with an orange pen"
+        ],
+        "visible_text_labels": [
+          "S177",
+          "jove"
+        ],
+        "quantities": [
+          "digital scale reading (not specified in the image)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of a brown granular substance, highlighting the use of a digital scale and a labeled jar. The wooden sieve and spoon suggest a methodical approach to transferring and measuring the material. The presence of a beaker and notebook indicates a controlled laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.494,
+        17.241
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a spoon to transfer brown granular material from a plastic bag into a labeled beaker",
+          "researcher places the beaker on a digital scale"
+        ],
+        "objects_visible": [
+          "beaker labeled 'Soy10' containing brown granular material",
+          "digital scale displaying a reading",
+          "plastic bag containing brown granular material",
+          "another beaker labeled 'Soy10' already filled with material"
+        ],
+        "visible_text_labels": [
+          "Soy10",
+          "jove"
+        ],
+        "quantities": [
+          "50.00g displayed on the digital scale"
+        ],
+        "key_distinguishing_features": "This segment shows the precise transfer of a measured quantity of brown granular material into a labeled beaker, emphasizing the importance of accurate measurement in the experiment. The use of a digital scale ensures the exact weight is recorded, highlighting the methodical approach to the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.241,
+        22.988
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher seals a 500mL beaker labeled 'Sample 1' with a transparent plastic wrap",
+          "researcher picks up the sealed beaker and places it on the table"
+        ],
+        "objects_visible": [
+          "three 500mL beakers with brown granular contents",
+          "transparent plastic wrap",
+          "blue tape with handwritten labels"
+        ],
+        "visible_text_labels": [
+          "Sample 1",
+          "Sample 2",
+          "Sample 3"
+        ],
+        "quantities": [
+          "500mL beakers"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of samples by sealing beakers with plastic wrap. The researcher's hands are gloved, emphasizing a sterile environment. The beakers are clearly labeled, indicating a systematic approach to sample management."
+      }
+    }
+  ]
+}

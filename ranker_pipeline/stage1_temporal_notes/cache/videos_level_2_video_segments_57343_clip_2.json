@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_2/video_segments/57343/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 24.671,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.16775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'SOIL MPLEX' with a white cap",
+          "researcher uses a pipette to transfer liquid into the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'SOIL MPLEX'",
+          "pipette with a blue plunger",
+          "blue ice bucket containing ice cubes",
+          "Kimberly-Clark KC300 STRONG NAPKINS box",
+          "plastic beaker with a yellow warning label",
+          "brown bottle with a screw cap"
+        ],
+        "visible_text_labels": [
+          "SOIL MPLEX",
+          "Kimberly-Clark KC300 STRONG NAPKINS",
+          "Pipet tips are to be sufficient"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube labeled 'SOIL MPLEX', emphasizing the careful transfer of liquid using a pipette. The presence of ice cubes in a blue bucket suggests the need to maintain a cold environment for the sample. The researcher's gloved hands highlight the importance of sterility in the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.16775,
+        12.3355
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 15mL conical tube labeled 'SOIL PLEX' with a clear liquid",
+          "researcher pours liquid from a brown bottle into the conical tube"
+        ],
+        "objects_visible": [
+          "15mL conical tube labeled 'SOIL PLEX'",
+          "brown bottle with a wide opening",
+          "white gloves on the researcher's hands",
+          "plastic beaker with a yellow label",
+          "Kimberly-Clark box labeled 'Sterile'"
+        ],
+        "visible_text_labels": [
+          "SOIL PLEX",
+          "Refer to text protocol for details",
+          "jove"
+        ],
+        "quantities": [
+          "15mL conical tube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pouring a liquid from a brown bottle into a labeled conical tube. The researcher's gloved hands are prominently featured, emphasizing the sterile handling of the sample. The background includes laboratory items like a beaker and a box, setting the scene in a controlled lab environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.3355,
+        18.50325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube containing a dark brown liquid",
+          "researcher places the conical tube on a blue vortex mixer"
+        ],
+        "objects_visible": [
+          "blue vortex mixer labeled 'Vortex Genie 2'",
+          "15mL conical tube with a white cap",
+          "black base of the vortex mixer",
+          "scissors and other lab tools in a holder",
+          "a bottle of blue liquid with a white cap"
+        ],
+        "visible_text_labels": [
+          "Vortex Genie 2"
+        ],
+        "quantities": [
+          "15mL conical tube"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a conical tube with a dark brown liquid, indicating a step in a process that requires mixing. The vortex mixer is a key tool in this segment, suggesting the liquid needs to be agitated. The presence of other lab tools and a bottle of blue liquid in the background adds context to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        18.50325,
+        24.671
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher holds a 50mL conical tube labeled 'SOIL SAMPLE' with a white cap",
+          "researcher places the conical tube on a blue magnetic stirrer"
+        ],
+        "objects_visible": [
+          "50mL conical tube with a white cap",
+          "blue magnetic stirrer with a black stir bar",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "SOIL SAMPLE"
+        ],
+        "quantities": [
+          "50mL"
+        ],
+        "key_distinguishing_features": "The conical tube is clearly labeled 'SOIL SAMPLE', indicating the contents. The blue magnetic stirrer is a key piece of equipment in this segment. The researcher's gloved hand suggests a controlled laboratory environment."
+      }
+    }
+  ]
+}

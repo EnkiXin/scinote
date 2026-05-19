@@ -1,0 +1,166 @@
+{
+  "video_id": "videos/level_2/video_segments/56676/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.117,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.52925
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a blue pipette and inserts it into a red pipette tip box",
+          "researcher picks up a pipette tip and attaches it to the pipette"
+        ],
+        "objects_visible": [
+          "blue pipette with a digital display",
+          "red pipette tip box containing multiple pipette tips",
+          "transparent multi-well plate with a grid of wells",
+          "stack of white and blue containers in the background",
+          "metallic biosafety cabinet with a perforated surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one pipette tip picked up"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of attaching a pipette tip to a pipette, highlighting the preparation for liquid transfer. The red pipette tip box and the multi-well plate are central to the scene, indicating a laboratory setting. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.52925,
+        21.0585
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube with blue cap containing NR1-GFP plasmid",
+          "researcher uses a pipette to add 20 \u00b5L of medium to a well in a multi-well plate"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "pipette with a blue plunger",
+          "green multi-well plate",
+          "red pipette tip rack",
+          "stack of labeled boxes in the background",
+          "transparent container with a white lid"
+        ],
+        "visible_text_labels": [
+          "100 ng NR1-GFP plasmid + 20 \u00b5L medium per well",
+          "jove"
+        ],
+        "quantities": [
+          "100 ng",
+          "20 \u00b5L"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a specific volume of medium to a well containing a plasmid. The use of a pipette and the labeled text on the screen provide clear instructions for the procedure. The setup includes a variety of laboratory equipment, emphasizing a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.0585,
+        31.58775
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube with blue cap",
+          "pipettes 0.8 \u00b5L of transfection reagent into the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "pipette with pink tip",
+          "green and red microtube racks",
+          "stack of labeled containers in the background",
+          "metallic laboratory bench"
+        ],
+        "visible_text_labels": [
+          "0.8 \u00b5L transfection reagent + 20 \u00b5L medium per well",
+          "jove"
+        ],
+        "quantities": [
+          "0.8 \u00b5L",
+          "20 \u00b5L"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a transfection reagent into a microtube, highlighting the careful measurement of 0.8 \u00b5L. The use of a pipette with a pink tip and the presence of labeled containers in the background emphasize the controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.58775,
+        42.117
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher uses a pipette to transfer 0.8 \u00b5L of transfection reagent into a well"
+        ],
+        "objects_visible": [
+          "green test tube rack holding several microtubes",
+          "red pipette tip rack with multiple tips",
+          "stacked white containers in the background",
+          "metal wire test tube holder",
+          "transparent container with a pink lid"
+        ],
+        "visible_text_labels": [
+          "0.8 \u00b5L transfection reagent + 20 \u00b5L medium per well"
+        ],
+        "quantities": [
+          "0.8 \u00b5L",
+          "20 \u00b5L"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a transfection reagent using a pipette. The researcher's gloved hands and the organized laboratory setup emphasize the controlled nature of the experiment. The text overlay provides specific volume measurements for the reagent and medium."
+      }
+    }
+  ]
+}

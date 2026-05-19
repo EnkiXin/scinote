@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_2/video_segments/53411/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 60.245,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        15.06125
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "illustration of biomass separation into endospores and cells"
+        ],
+        "objects_visible": [
+          "three cylindrical containers with biomass, endospores, and cells",
+          "red arrows indicating separation process"
+        ],
+        "visible_text_labels": [
+          "Biomass with cells and endospores",
+          "Endospores",
+          "Cells"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment visually explains the separation of biomass into endospores and cells using a diagram. The use of distinct containers and arrows highlights the process of separation. The illustration is simple yet informative, focusing on the conceptual division of components."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        15.06125,
+        30.1225
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to place a small, white, irregularly shaped object into a petri dish",
+          "researcher holds a pipette and dispenses a clear liquid into the petri dish containing the object"
+        ],
+        "objects_visible": [
+          "petri dish with a small, white, irregularly shaped object inside",
+          "forceps held by gloved hands",
+          "pipette with a white tip",
+          "red and blue laboratory racks in the background",
+          "several labeled bottles with blue caps"
+        ],
+        "visible_text_labels": [
+          "1x TE buffer",
+          "6% SDS"
+        ],
+        "quantities": [
+          "small, white, irregularly shaped object",
+          "clear liquid dispensed from the pipette"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a small object into a petri dish using forceps, followed by the addition of a clear liquid using a pipette. The background includes laboratory racks and labeled bottles, indicating a controlled laboratory environment. The actions are performed with gloved hands, emphasizing the sterile and careful nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        30.1225,
+        45.183749999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a red microtube rack on a blue shaker labeled 'IKA KS 4000 i control'",
+          "researcher adjusts the settings on the shaker, setting the speed to 1000 RPM and the time to 60 minutes"
+        ],
+        "objects_visible": [
+          "blue shaker with digital display and control buttons",
+          "red microtube rack with multiple wells",
+          "microtube with a white label inside the rack",
+          "blue-gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "IKA KS 4000 i control",
+          "1000 RPM",
+          "60 min"
+        ],
+        "quantities": [
+          "1000 RPM",
+          "60 minutes"
+        ],
+        "key_distinguishing_features": "This segment focuses on the setup of a shaker for a specific duration and speed, highlighting the precise control over experimental conditions. The red microtube rack and the labeled microtube suggest careful sample management. The digital display on the shaker provides clear, quantifiable settings for the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        45.183749999999996,
+        60.245
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher places the microtube on a blue IKA KS 4000 i control shaker"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "blue IKA KS 4000 i control shaker",
+          "red rack in the background",
+          "blue-gloved hand"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "IKA KS 4000 i control"
+        ],
+        "quantities": [
+          "1.5mL",
+          "10:00 (time on the shaker display)",
+          "60 (speed on the shaker display)",
+          "37.0 (temperature on the shaker display)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube containing DMEM medium, emphasizing the controlled environment provided by the IKA KS 4000 i control shaker. The detailed display of time, speed, and temperature settings highlights the importance of maintaining specific conditions for the experiment."
+      }
+    }
+  ]
+}

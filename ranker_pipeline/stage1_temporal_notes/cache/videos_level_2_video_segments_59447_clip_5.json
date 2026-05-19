@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/59447/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 69.861,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        17.46525
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "marks a ruler with a marker",
+          "positions a ruler on a flat surface"
+        ],
+        "objects_visible": [
+          "a clear ruler with measurement markings",
+          "a black marker",
+          "a white flat surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "length markings on the ruler"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise preparation of a ruler for measurement, highlighting the use of a marker to make specific marks. The ruler is placed on a clean, white surface, ensuring clarity and accuracy. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        17.46525,
+        34.9305
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a soldering iron to heat a thin wire",
+          "researcher carefully places the wire along a marked strip of material"
+        ],
+        "objects_visible": [
+          "soldering iron with a black handle",
+          "spool of thin wire with a yellow label",
+          "strip of material with brown markings",
+          "white work surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one spool of wire"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise application of heat to a wire using a soldering iron, highlighting the careful alignment of the wire along a marked strip. The presence of a spool of wire with a yellow label adds a distinctive visual element. The white work surface provides a clean, uncluttered background for the activity."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        34.9305,
+        52.39575000000001
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher uses a digital multimeter to measure electrical resistance",
+          "researcher adjusts the multimeter settings"
+        ],
+        "objects_visible": [
+          "digital multimeter with a blue and black casing",
+          "red and black test leads connected to the multimeter",
+          "a long, thin strip of material on the table"
+        ],
+        "visible_text_labels": [
+          "RS-12",
+          "OFF",
+          "COM",
+          "V \u03a9 mA",
+          "28.7",
+          "\u03a9"
+        ],
+        "quantities": [
+          "28.7 ohms"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of electrical resistance using a digital multimeter. The multimeter's display clearly shows a reading of 28.7 ohms, indicating a specific measurement phase. The setup includes test leads connected to a long strip, suggesting an experiment involving material conductivity."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        52.39575000000001,
+        69.861
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a soldering iron to heat a small component on a circuit board",
+          "researcher holds a pair of tweezers to position a small wire or component on the circuit board"
+        ],
+        "objects_visible": [
+          "soldering iron with a black handle and a metallic tip",
+          "circuit board with visible copper traces and small components",
+          "tweezers with metallic tips",
+          "yellow sponge on a black base, likely for cleaning the soldering iron tip",
+          "black power cord connected to the soldering iron"
+        ],
+        "visible_text_labels": [
+          "iOwe logo in the top right corner"
+        ],
+        "quantities": [
+          "one circuit board",
+          "one soldering iron",
+          "one pair of tweezers"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise soldering of a small component onto a circuit board, highlighting the use of a soldering iron and tweezers. The researcher's hands are the main focus, demonstrating careful manipulation of the tools. The presence of a cleaning sponge for the soldering iron tip indicates attention to maintaining the tool's functionality."
+      }
+    }
+  ]
+}

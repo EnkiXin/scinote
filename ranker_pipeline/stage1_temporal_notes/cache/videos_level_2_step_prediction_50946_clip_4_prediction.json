@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/step_prediction/50946/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 16.262,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.0655
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses a clear liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "researcher's gloved hand holding a pipette",
+          "petri dish with a labeled white circular object inside",
+          "clear liquid being dispensed from the pipette"
+        ],
+        "visible_text_labels": [
+          "5.3 in soy eth"
+        ],
+        "quantities": [
+          "clear liquid being dispensed, but no specific volume is indicated"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of liquid dispensing into a petri dish, with a focus on the labeled object inside the dish. The gloved hand and pipette indicate a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.0655,
+        8.131
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a clear liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "pipette with a white handle and transparent tip",
+          "petri dish with a clear, circular base and a white label",
+          "a dark, textured surface underneath the petri dish"
+        ],
+        "visible_text_labels": [
+          "5:3 in 20% ext"
+        ],
+        "quantities": [
+          "clear liquid being dispensed, volume not specified"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of liquid being pipetted into a petri dish, with a focus on the labeled petri dish. The dark background contrasts with the transparent petri dish and the white label, making the action stand out."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        8.131,
+        12.1965
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a test tube into a centrifuge"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital display and control knobs",
+          "test tube with a red cap",
+          "researcher's gloved hand",
+          "electrical outlet on the wall"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one test tube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of placing a test tube into a centrifuge, highlighting the controlled environment of a laboratory. The digital display and control knobs on the centrifuge suggest a high level of precision in the experiment. The researcher's gloved hand emphasizes the importance of maintaining a sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        12.1965,
+        16.262
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small object into a cylindrical chamber of a machine",
+          "researcher closes the lid of the cylindrical chamber"
+        ],
+        "objects_visible": [
+          "cylindrical chamber with a transparent lid on a machine",
+          "machine with multiple dials, buttons, and gauges",
+          "researcher wearing a white lab coat and yellow gloves"
+        ],
+        "visible_text_labels": [
+          "SECURITY",
+          "FLAMMABLE LIQUIDS"
+        ],
+        "quantities": [
+          "one small object placed into the chamber"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of an object into a specialized machine, highlighting the controlled environment and safety measures indicated by the visible labels. The researcher's actions are deliberate, emphasizing the importance of the task."
+      }
+    }
+  ]
+}

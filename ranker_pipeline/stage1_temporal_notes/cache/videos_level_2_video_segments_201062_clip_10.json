@@ -1,0 +1,171 @@
+{
+  "video_id": "videos/level_2/video_segments/201062/clip_10.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 31.79,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.9475
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "analyzing cellular structures on a computer screen"
+        ],
+        "objects_visible": [
+          "computer screen displaying grayscale microscopic image of cells",
+          "software interface with 'Analyze Particles' dialog box",
+          "desktop icons and background"
+        ],
+        "visible_text_labels": [
+          "Analyze Particles",
+          "Size (microns2): 10-Infinity",
+          "Circularity: 0.00-1.00",
+          "Show: Nothing",
+          "Display results",
+          "Clear results",
+          "Exclude on edges",
+          "Summarize",
+          "Overlay",
+          "Composite ROIs",
+          "Add to Manager",
+          "Help",
+          "Cancel",
+          "OK"
+        ],
+        "quantities": [
+          "10-Infinity (size range in microns squared)",
+          "0.00-1.00 (circularity range)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the analysis of cellular structures using image processing software. The grayscale image highlights the cells, and the 'Analyze Particles' dialog box is prominently displayed, indicating specific parameters for analysis. The desktop background and icons suggest a typical computer workstation setup."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.9475,
+        15.895
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "user selects 'Find Maxima...' from the 'Analyze' menu",
+          "user opens the 'Find Maxima...' dialog box"
+        ],
+        "objects_visible": [
+          "computer screen displaying a grayscale microscopic image",
+          "menu bar with 'Analyze' option",
+          "dialog box titled 'Find Maxima...'"
+        ],
+        "visible_text_labels": [
+          "Find Maxima...",
+          "Prominence > 600.00",
+          "Strict",
+          "Exclude edge maxima",
+          "Light background",
+          "Output type: Single Points",
+          "Preview point selection",
+          "Help",
+          "Cancel",
+          "OK"
+        ],
+        "quantities": [
+          "600.00 (Prominence value)"
+        ],
+        "key_distinguishing_features": "This segment shows the user interacting with image analysis software, specifically focusing on the 'Find Maxima...' function. The grayscale microscopic image in the background suggests the analysis of cellular or biological structures. The dialog box settings indicate a precise adjustment for identifying maxima in the image."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.895,
+        23.8425
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "User interacts with ROI Manager to select 'Labels' option",
+          "Data table with measurements is displayed"
+        ],
+        "objects_visible": [
+          "ROI Manager window with numbered ROIs",
+          "Data table showing columns: Area, Mean, Min, Max, IntDen, RawIntDen",
+          "ImageJ software interface"
+        ],
+        "visible_text_labels": [
+          "ROI Manager",
+          "Labels",
+          "Area",
+          "Mean",
+          "Min",
+          "Max",
+          "IntDen",
+          "RawIntDen",
+          "Results"
+        ],
+        "quantities": [
+          "88.701 (Area)",
+          "0.209 (Mean)",
+          "255 (Max)",
+          "18.540 (IntDen)",
+          "3570 (RawIntDen)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase, where the user selects the 'Labels' option in the ROI Manager, leading to the display of a detailed data table. The table contains precise numerical values for various parameters like Area, Mean, and IntDen, indicating a quantitative analysis of the ROIs. The interface suggests the use of ImageJ software for image analysis."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.8425,
+        31.79
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"measurement\",\n  \"actions_observed\": [\"scrolling through a list of numerical data in a table\", \"selecting options from a dropdown menu in the ROI Manager\"],\n  \"objects_visible\": [\"table with columns labeled 'Area', 'Mean', 'Min', 'Max', 'intDen', 'RawIntDen'\", \"ROI Manager window with a list of ROIs and a dropdown menu\"],\n  \"visible_text_labels\": [\"Area\", \"Mean\", \"Min\", \"Max\", \"intDen"
+      }
+    }
+  ]
+}

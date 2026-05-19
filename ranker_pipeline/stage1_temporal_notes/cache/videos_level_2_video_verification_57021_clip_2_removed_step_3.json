@@ -1,0 +1,165 @@
+{
+  "video_id": "videos/level_2/video_verification/57021/clip_2_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.056133,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.76403325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens the lid of a centrifuge",
+          "researcher places a small white object into the centrifuge chamber"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital display and control buttons",
+          "small white object being placed into the centrifuge",
+          "green plastic container with white foam inserts",
+          "test tubes with blue caps"
+        ],
+        "visible_text_labels": [
+          "Thermo",
+          "CAUTION",
+          "20.4",
+          "15",
+          "4"
+        ],
+        "quantities": [
+          "20.4 (likely speed setting on the centrifuge)",
+          "15 (possibly time setting in minutes)",
+          "4 (possibly temperature setting in degrees Celsius)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of an experiment involving a centrifuge. The researcher is carefully placing a small object into the centrifuge, indicating a precise step in the process. The digital display on the centrifuge shows specific settings, suggesting controlled experimental conditions."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.76403325,
+        17.5280665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a test tube",
+          "researcher places the test tube into a green rack"
+        ],
+        "objects_visible": [
+          "pipette with a digital display showing '0.1' and '1.5'",
+          "green test tube rack with multiple holes",
+          "test tubes with blue caps",
+          "white gloves on the researcher's hands",
+          "laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "Thermo",
+          "0.1",
+          "1.5",
+          "jove"
+        ],
+        "quantities": [
+          "0.1",
+          "1.5"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting liquid into a test tube, with a clear view of the digital display on the pipette. The green test tube rack and the researcher's gloved hands are prominent, emphasizing the controlled laboratory environment. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.5280665,
+        26.292099750000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid into a test tube",
+          "researcher places the test tube into a blue rack within a green container filled with ice"
+        ],
+        "objects_visible": [
+          "green container filled with ice",
+          "blue test tube rack",
+          "test tubes with blue caps",
+          "pipette with a transparent tip",
+          "white gloves on the researcher's hands",
+          "metal wire rack in the background",
+          "red and white pipette tip box"
+        ],
+        "visible_text_labels": [
+          "See text for Protein A-agarose bead preparation"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of test tubes and the use of a pipette, emphasizing the controlled environment with ice. The text overlay provides a specific reference for the preparation of Protein A-agarose beads, indicating a specialized procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.292099750000002,
+        35.056133
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 96-well plate into a centrifuge",
+          "centrifuge starts spinning"
+        ],
+        "objects_visible": [
+          "96-well plate with blue wells",
+          "centrifuge with a transparent door",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "See text for Protein A-agarose bead preparation"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the centrifugation process, highlighting the transition from manual handling to automated operation. The centrifuge's transparent door allows a clear view of the spinning rotor, emphasizing the dynamic action. The researcher's hands are seen carefully placing the plate, ensuring proper alignment."
+      }
+    }
+  ]
+}

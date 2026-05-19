@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_verification/56266/clip_5_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 21.341016,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.335254
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "hand adjusts the temperature control knob on the hotplate"
+        ],
+        "objects_visible": [
+          "blue IKA C-MAG HP 7 hotplate with a digital display",
+          "aluminum foil covering the hotplate surface",
+          "black clamp holding a small object above the hotplate",
+          "white device with an LED label and a circular control knob"
+        ],
+        "visible_text_labels": [
+          "IKA C-MAG HP 7",
+          "Hotplate for curing",
+          "LED"
+        ],
+        "quantities": [
+          "140 (temperature reading on the digital display)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a hotplate's temperature, with a digital display showing a reading of 140. The hotplate is covered with aluminum foil, and a black clamp is positioned above it, suggesting a controlled heating setup. The hand's interaction with the temperature control knob is the central action."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.335254,
+        10.670508
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a small rectangular object with a metallic edge",
+          "researcher uses a thin, transparent strip to interact with the object"
+        ],
+        "objects_visible": [
+          "hands wearing white latex gloves",
+          "a small rectangular object with a metallic edge",
+          "a thin, transparent strip",
+          "a white sheet of paper underneath the object"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small, metallic-edged object using a transparent strip, suggesting a delicate preparation step. The white gloves and clean background emphasize a controlled laboratory environment. The 'jove' logo indicates the video is likely part of a scientific tutorial."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.670508,
+        16.005762
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a razor blade to cut a small rectangular piece of material",
+          "researcher holds the cut piece with tweezers"
+        ],
+        "objects_visible": [
+          "razor blade with a metallic handle",
+          "small rectangular piece of material",
+          "tweezers with metallic tips",
+          "latex gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise cutting of a small material piece using a razor blade, followed by handling the cut piece with tweezers. The researcher's hands are gloved, emphasizing a controlled and sterile environment. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        16.005762,
+        21.341016
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small glass tube with a film attached",
+          "researcher uses a metal tool to manipulate the film"
+        ],
+        "objects_visible": [
+          "beaker labeled 'Hot water' containing clear liquid",
+          "small glass tube with a film attached",
+          "metal tool held by the researcher",
+          "gloved hands of the researcher"
+        ],
+        "visible_text_labels": [
+          "Hot water",
+          "Hot water facilitates film removal"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the process of film removal using hot water, as indicated by the text on screen. The researcher's hands are carefully manipulating the film with a tool, suggesting precision in the task. The beaker labeled 'Hot water' is a key element in this step of the experiment."
+      }
+    }
+  ]
+}

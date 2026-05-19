@@ -1,0 +1,172 @@
+{
+  "video_id": "videos/level_2/video_verification/56243/clip_3_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 73.771333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        18.44283325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a small, rectangular device on a black mat",
+          "researcher operates a laptop connected to the device"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat, blue cap, and safety goggles",
+          "black mat with a small, rectangular device placed on it",
+          "laptop displaying a software interface for a laser Doppler line scanner",
+          "safety goggles placed on the table",
+          "laboratory environment with a window and equipment in the background"
+        ],
+        "visible_text_labels": [
+          "See Table of Materials for the details of the laser Doppler scanner used in this study",
+          "moorLDLS laser Doppler line scanner",
+          "Research Version V2.2 Copyright 2006-2011 Moor Instruments Ltd"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of an experiment involving a laser Doppler line scanner. The researcher is seen setting up the device and using a laptop to operate it, indicating the initial steps in the experimental process. The environment is a well-equipped laboratory with safety measures in place."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        18.44283325,
+        36.8856665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "clicks on the 'Image Scan' tab in the software interface",
+          "adjusts settings under 'Image Post Processing' and 'Scan Size and Display Options'"
+        ],
+        "objects_visible": [
+          "computer screen displaying 'moorLDLS Line Scanner Setup' software",
+          "cursor moving and clicking on the interface"
+        ],
+        "visible_text_labels": [
+          "Image Scan",
+          "Normalisation",
+          "Image Post Processing",
+          "Scan Size and Display Options",
+          "Background Threshold",
+          "Auto BK Set",
+          "BK (AU)",
+          "High Resolution",
+          "Rotate 180 Deg"
+        ],
+        "quantities": [
+          "256 scan lines",
+          "86 x 86 area in cm x cm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed configuration of an image scanning setup within a specialized software. The user interacts with various settings, emphasizing adjustments for high-resolution scanning and background thresholding. The interface is methodically navigated to optimize the scan parameters."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        36.8856665,
+        55.32849975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher adjusts the position of a mouse on a black platform under a laser scanning device",
+          "researcher uses a laptop to monitor and control the laser scanning process"
+        ],
+        "objects_visible": [
+          "a mouse with a red laser spot on its back",
+          "a laptop displaying a software interface for laser scanning",
+          "a white laser scanning device positioned above the mouse",
+          "a black platform holding the mouse",
+          "a stack of white boxes labeled 'DMEM' in the background",
+          "a pair of sunglasses resting on a white surface"
+        ],
+        "visible_text_labels": [
+          "Live Video Image",
+          "Distance Measurement and Video Image Size",
+          "Auto Distance",
+          "Auto Video Size"
+        ],
+        "quantities": [
+          "120 (value in the 'Line Position' field on the software interface)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the precise setup of a mouse under a laser scanning device, with real-time monitoring on a laptop. The presence of DMEM boxes suggests a laboratory environment. The red laser spot on the mouse indicates the active scanning process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        55.32849975,
+        73.771333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts the position of a mouse on a blue foam pad",
+          "researcher uses a laser device to scan the mouse's abdomen"
+        ],
+        "objects_visible": [
+          "a white mouse with a shaved abdomen",
+          "a blue foam pad with a rectangular cutout",
+          "a laser scanning device labeled 'moorDLS'",
+          "a pair of green safety glasses on a stand",
+          "a white lab coat worn by the researcher",
+          "white gloves worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "moorDLS"
+        ],
+        "quantities": [
+          "one mouse",
+          "one blue foam pad"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the precise positioning of the mouse on the foam pad for laser scanning. The researcher's careful handling of the mouse and the use of specialized equipment highlight the controlled nature of the experiment. The presence of safety glasses indicates the use of potentially hazardous laser technology."
+      }
+    }
+  ]
+}

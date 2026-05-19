@@ -1,0 +1,165 @@
+{
+  "video_id": "videos/level_2/step_prediction/54615/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.280567,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.57014175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'UNSTAINED' with a red cap",
+          "researcher places the microtube into a white 96-well plate"
+        ],
+        "objects_visible": [
+          "yellow microtube rack",
+          "white 96-well plate",
+          "microtube labeled 'UNSTAINED' with a red cap",
+          "aluminum foil covering",
+          "yellow vortex mixer",
+          "blue box with red caps"
+        ],
+        "visible_text_labels": [
+          "UNSTAINED",
+          "oppendorf"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where a microtube is carefully handled and placed into a 96-well plate. The use of aluminum foil suggests a need for protection or temperature control. The yellow vortex mixer and labeled microtube highlight the precision and organization in the experiment setup."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.57014175,
+        13.1402835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a test tube into a centrifuge rotor",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "centrifuge with a white exterior and a black rotor",
+          "test tube with a clear liquid",
+          "white lab coat worn by the researcher",
+          "gloved hands of the researcher"
+        ],
+        "visible_text_labels": [
+          "OPEN 000 displayed on the centrifuge control panel"
+        ],
+        "quantities": [
+          "one test tube placed into the centrifuge"
+        ],
+        "key_distinguishing_features": "This segment shows a precise action of placing a test tube into a centrifuge, highlighting the careful handling of laboratory equipment. The centrifuge's control panel is visible, indicating the preparation for a centrifugation process. The researcher's gloved hands emphasize the importance of maintaining a sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.1402835,
+        19.71042525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'UNSTIMULATED 2' with blue cap",
+          "researcher places microtube into a clear plastic rack"
+        ],
+        "objects_visible": [
+          "clear plastic microtube rack with multiple compartments",
+          "three microtubes labeled 'UNSTIMULATED 1', 'UNSTIMULATED 2', and 'UNSTIMULATED 3' with blue caps",
+          "yellow test tube rack labeled 'SURFACE ABC COCKTAIL'"
+        ],
+        "visible_text_labels": [
+          "UNSTIMULATED 1",
+          "UNSTIMULATED 2",
+          "UNSTIMULATED 3",
+          "SURFACE ABC COCKTAIL"
+        ],
+        "quantities": [
+          "three microtubes"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of microtubes labeled 'UNSTIMULATED', indicating a specific experimental condition. The researcher's actions are precise, emphasizing the careful placement of tubes into a rack, likely for organization and subsequent processing."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.71042525,
+        26.280567
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses a red liquid into a test tube labeled 'STIMULATED 1'",
+          "researcher places the pipette tip into a waste container"
+        ],
+        "objects_visible": [
+          "yellow test tube rack with multiple labeled test tubes",
+          "pipette with a red liquid",
+          "test tubes labeled 'STIMULATED 1', 'UNSTIMULATED 1', and 'UNSTIMULATED 2'",
+          "white-gloved hand performing the action",
+          "white ice bucket in the background"
+        ],
+        "visible_text_labels": [
+          "STIMULATED 1",
+          "UNSTIMULATED 1",
+          "UNSTIMULATED 2",
+          "SURFACE AB COCKTAIL"
+        ],
+        "quantities": [
+          "red liquid being dispensed into the test tube"
+        ],
+        "key_distinguishing_features": "This segment shows the precise transfer of a red liquid into a labeled test tube, indicating a step in a controlled experiment. The use of a pipette and the presence of multiple labeled tubes suggest a methodical approach to sample preparation. The background ice bucket implies the need for temperature control."
+      }
+    }
+  ]
+}

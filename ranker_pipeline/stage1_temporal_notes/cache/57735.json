@@ -1,0 +1,172 @@
+{
+  "video_id": "57735",
+  "benchmark": "scivideobench",
+  "duration_seconds": 642.005333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        160.50133325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a transparent petri dish containing a dark, irregularly shaped object",
+          "researcher uses a pipette to add a small volume of liquid to the petri dish"
+        ],
+        "objects_visible": [
+          "transparent petri dish with a dark, irregularly shaped object inside",
+          "pipette with a blue plunger and a clear tip",
+          "blue-gloved hands manipulating the petri dish and pipette",
+          "a box labeled 'KIMTECH' in the background"
+        ],
+        "visible_text_labels": [
+          "KIMTECH"
+        ],
+        "quantities": [
+          "small volume of liquid added to the petri dish"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where a dark, irregularly shaped object is placed in a petri dish, and a small volume of liquid is added using a pipette. The presence of blue-gloved hands and the KIMTECH box in the background highlights a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        160.50133325,
+        321.0026665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a white hexagonal container with a small black circular object inside.",
+          "Researcher uses a wooden stick to manipulate the black circular object within the container."
+        ],
+        "objects_visible": [
+          "White hexagonal container with a small black circular object inside.",
+          "Wooden stick used for manipulation.",
+          "Gloved hands wearing blue nitrile gloves."
+        ],
+        "visible_text_labels": [
+          "Separator diameter: 1.905 cm (5/8 in)",
+          "Allow epoxy to dry for at least 1 hour."
+        ],
+        "quantities": [
+          "1.905 cm (5/8 in) diameter of the separator",
+          "At least 1 hour for epoxy drying time"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a separator with a specific diameter, emphasizing the careful handling and manipulation of a small component. The text overlay provides precise instructions for drying time, indicating a meticulous process. The use of a wooden stick for manipulation suggests a need for precision and care in handling the materials."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        321.0026665,
+        481.50399974999993
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a blue liquid into a small, white, hexagonal container labeled 'ZC'.",
+          "researcher places the container with the blue liquid into a larger, transparent, rectangular device with multiple compartments and labels."
+        ],
+        "objects_visible": [
+          "a white hexagonal container labeled 'ZC' containing a blue liquid",
+          "a transparent rectangular device with compartments and labels such as 'ZC', 'ZA', and 'REFERENCE ELECTRODE'",
+          "a pipette with a black tip",
+          "a digital scale displaying a reading of 0.0000 grams",
+          "a hand wearing a white glove"
+        ],
+        "visible_text_labels": [
+          "V. Construction of Working Cell",
+          "ZC",
+          "ZA",
+          "REFERENCE ELECTRODE",
+          "Power+",
+          "Sensor+",
+          "Electrochemical Testing Machine"
+        ],
+        "quantities": [
+          "0.0000 grams displayed on the digital scale"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling and placement of a blue liquid into a labeled container, which is then integrated into a larger electrochemical testing setup. The use of a digital scale and the detailed labeling of components highlight the meticulous nature of the experiment. The visual transition from manual liquid transfer to the setup of an electrochemical testing machine underscores the progression from preparation to execution."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        481.50399974999993,
+        642.005333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher discusses data shown on the screen",
+          "researcher gestures towards the graph"
+        ],
+        "objects_visible": [
+          "computer screen displaying a graph with multiple lines",
+          "researcher wearing a dark jacket and a checkered shirt"
+        ],
+        "visible_text_labels": [
+          "LiCoO2",
+          "Graphite",
+          "Two-electrode cell",
+          "Three-electrode cell",
+          "Cathode",
+          "Anode",
+          "Cell Voltage, Cathode Potential [V]",
+          "Anode Potential [V]",
+          "Time [h]"
+        ],
+        "quantities": [
+          "4.5 V (maximum cell voltage)",
+          "3.0 V (minimum cell voltage)",
+          "12 h (maximum time on the x-axis)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of a detailed graph comparing cell voltages and potentials over time for different electrode configurations. The researcher is actively explaining the data, using hand gestures to emphasize specific parts of the graph. The graph includes multiple lines representing various components like LiCoO2, Graphite, and electrode types."
+      }
+    }
+  ]
+}

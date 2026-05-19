@@ -1,0 +1,208 @@
+{
+  "video_id": "videos/level_2/video_verification/65126/clip_8_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 23.803047,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.95076175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher operates a large FEI machine with a touchscreen interface",
+          "researcher uses a tool to manipulate a sample inside the machine"
+        ],
+        "objects_visible": [
+          "FEI machine with a digital display and control panel",
+          "white lab bench with various lab equipment and supplies",
+          "researcher wearing a striped shirt and gloves"
+        ],
+        "visible_text_labels": [
+          "FEI",
+          "Start",
+          "Stop",
+          "Reverse",
+          "Sample"
+        ],
+        "quantities": [
+          "22.2",
+          "26.0",
+          "70.0",
+          "00:00"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher actively using a sophisticated FEI machine, likely for sample preparation or analysis. The digital display on the machine shows specific numerical values and control options, indicating a precise and controlled process. The researcher's focused interaction with the machine highlights the technical nature of the task."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.95076175,
+        11.9015235
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "hand in a yellow glove uses a stylus to interact with a digital display"
+        ],
+        "objects_visible": [
+          "digital display showing temperature, humidity, and miscellaneous controls",
+          "yellow glove",
+          "stylus"
+        ],
+        "visible_text_labels": [
+          "Temperature (C)",
+          "Humidity (%)",
+          "Miscellaneous",
+          "Start",
+          "Stop",
+          "Place New Grid",
+          "Start Process",
+          "Reset BlotPapers 0/16",
+          "Exit",
+          "LIGHT IS ON",
+          "CONSOLE",
+          "OPTIONS"
+        ],
+        "quantities": [
+          "22.3\u00b0C",
+          "87.0%",
+          "75.0%",
+          "00:00"
+        ],
+        "key_distinguishing_features": "The segment focuses on adjusting humidity settings on a digital control panel, with a hand using a stylus to interact with the screen. The display shows precise measurements for temperature and humidity, indicating a controlled environment setup. The presence of a 'LIGHT IS ON' indicator suggests the system is actively monitoring and adjusting conditions."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.9015235,
+        17.85228525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A hand uses a stylus to interact with a touchscreen interface",
+          "The stylus selects and modifies parameters on the screen"
+        ],
+        "objects_visible": [
+          "A touchscreen display showing a control interface for a scientific process",
+          "A hand holding a stylus"
+        ],
+        "visible_text_labels": [
+          "Processes",
+          "Blottotal",
+          "Blottime",
+          "Draintime",
+          "Process Parameters",
+          "Blot Time(s)",
+          "Blot Force",
+          "Blot Total",
+          "Skip Application",
+          "Miscellaneous",
+          "Controls",
+          "Place New Grid",
+          "Start Process",
+          "Reset Blotpapers 0/16",
+          "Exit",
+          "OPTIONS",
+          "LIGHT IS ON"
+        ],
+        "quantities": [
+          "1.0",
+          "0",
+          "1",
+          "0.0",
+          "0.0",
+          "0.0"
+        ],
+        "key_distinguishing_features": "This segment focuses on the fine-tuning of process parameters on a digital interface, highlighting the use of a stylus for precise adjustments. The screen displays various controls and settings, indicating a complex scientific procedure. The 'LIGHT IS ON' status suggests the system is active and ready for operation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.85228525,
+        23.803047
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "hand wearing a beige glove interacts with a touchscreen interface using a stylus",
+          "stylus is used to select and adjust parameters on the screen"
+        ],
+        "objects_visible": [
+          "beige glove",
+          "black stylus",
+          "touchscreen interface displaying various settings and controls"
+        ],
+        "visible_text_labels": [
+          "Processes",
+          "Blottotal",
+          "Blotforce",
+          "Blottime",
+          "DrainTime",
+          "Miscellaneous",
+          "Controls",
+          "Place New Grid",
+          "Start Process",
+          "Reset Blotpapers 0/16",
+          "Exit",
+          "LIGHT IS ON"
+        ],
+        "quantities": [
+          "1",
+          "10",
+          "0",
+          "1",
+          "4.5",
+          "0/16"
+        ],
+        "key_distinguishing_features": "This segment shows a detailed interaction with a digital control interface, highlighting the adjustment of specific parameters for a scientific process. The use of a stylus and a gloved hand emphasizes precision and sterility. The screen displays a variety of settings, indicating a complex and controlled experimental setup."
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/step_prediction/64560/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.059,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.51475
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a transparent plastic container with labeled compartments",
+          "researcher uses blue-gloved hands to manipulate a small object within the container"
+        ],
+        "objects_visible": [
+          "transparent plastic container with labeled compartments",
+          "researcher wearing a white lab coat with an orange logo",
+          "blue gloves",
+          "metal shelving with binders and containers",
+          "petri dishes with labels"
+        ],
+        "visible_text_labels": [
+          "Cage 1",
+          "Cage 2",
+          "SHANDONG"
+        ],
+        "quantities": [
+          "multiple compartments in the container"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a transparent container with labeled compartments, suggesting a methodical preparation process. The environment is a well-organized laboratory with visible shelving and labeled items. The focus is on precise handling of small objects within the container."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.51475,
+        19.0295
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a small object within a labeled container"
+        ],
+        "objects_visible": [
+          "blue-gloved hand holding forceps",
+          "metallic container labeled 'Xilol 2'",
+          "small, dark objects being manipulated by forceps",
+          "labeled boxes in the background"
+        ],
+        "visible_text_labels": [
+          "Xilol 2",
+          "ABS1"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise use of forceps to handle small objects within a labeled container, emphasizing the careful manipulation required in the experiment. The blue-gloved hand and the metallic container labeled 'Xilol 2' are prominent visual elements. The background includes additional labeled boxes, suggesting an organized laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.0295,
+        28.544249999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher carefully lifts a metal grid from a labeled container labeled 'ABS1' using forceps",
+          "researcher places the metal grid into a different container labeled 'ABS2'"
+        ],
+        "objects_visible": [
+          "metal grid with a series of small, evenly spaced holes",
+          "forceps held by gloved hands",
+          "containers labeled 'ABS1' and 'ABS2'",
+          "a white lab coat and blue gloves on the researcher"
+        ],
+        "visible_text_labels": [
+          "ABS1",
+          "ABS2",
+          "90%"
+        ],
+        "quantities": [
+          "one metal grid",
+          "two containers"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a metal grid using forceps, emphasizing the careful transfer between labeled containers. The containers are clearly marked, and the researcher's gloved hands highlight the sterile conditions of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        28.544249999999998,
+        38.059
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to carefully place a small, grid-like object into a labeled metal container",
+          "researcher transfers a transparent plastic container with a barcode label from one location to another"
+        ],
+        "objects_visible": [
+          "metal containers with handwritten labels such as '90%' and '100%'",
+          "transparent plastic container with a barcode label",
+          "forceps held by a gloved hand",
+          "grid-like object being placed into the metal container"
+        ],
+        "visible_text_labels": [
+          "90%",
+          "100%",
+          "barcode label on the transparent plastic container"
+        ],
+        "quantities": [
+          "handwritten percentages on the metal containers indicating '90%' and '100%'"
+        ],
+        "key_distinguishing_features": "The segment highlights the precise placement of a grid-like object into a labeled metal container using forceps, emphasizing careful handling. The presence of a barcode-labeled transparent plastic container suggests a step involving sample tracking or storage. The handwritten percentages on the containers indicate varying conditions or concentrations."
+      }
+    }
+  ]
+}

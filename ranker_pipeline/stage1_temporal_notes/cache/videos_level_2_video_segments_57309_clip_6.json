@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_2/video_segments/57309/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.09,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.7725
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "sets timer on smartphone for 3 minutes",
+          "starts the timer"
+        ],
+        "objects_visible": [
+          "smartphone with a coral-colored case",
+          "timer application on the phone screen",
+          "laboratory environment with blurred background"
+        ],
+        "visible_text_labels": [
+          "02:58",
+          "Timer",
+          "When Timer Ends",
+          "Cancel",
+          "Pause",
+          "Start"
+        ],
+        "quantities": [
+          "3 minutes",
+          "2 minutes 58 seconds"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise setup of a 3-minute timer on a smartphone, indicating preparation for a time-sensitive task. The close-up shot of the phone highlights the countdown, emphasizing the importance of timing in the experiment. The laboratory setting is subtly visible in the background, suggesting a controlled environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.7725,
+        17.545
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'Coated Beads' with a clear cap",
+          "researcher places the microtube back into the purple test tube rack"
+        ],
+        "objects_visible": [
+          "purple test tube rack with three labeled microtubes",
+          "microtube labeled 'Waste'",
+          "microtube labeled 'Coated Beads'",
+          "microtube labeled 'DMEM Media'",
+          "researcher's gloved hand",
+          "metallic laboratory background"
+        ],
+        "visible_text_labels": [
+          "Waste",
+          "Coated Beads",
+          "DMEM Media"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, specifically handling a microtube labeled 'Coated Beads'. The researcher's actions are precise, indicating a careful and controlled environment. The purple test tube rack serves as a central element, organizing the labeled microtubes."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.545,
+        26.317500000000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a smartphone displaying a timer counting down from 59 seconds",
+          "researcher places a test tube into a purple test tube rack"
+        ],
+        "objects_visible": [
+          "smartphone with a pink case",
+          "purple test tube rack",
+          "test tubes with labels",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "00:58",
+          "When Timer Ends",
+          "Cancel",
+          "Pause",
+          "Radar"
+        ],
+        "quantities": [
+          "58 seconds",
+          "1 minute"
+        ],
+        "key_distinguishing_features": "The segment focuses on a precise timing operation, as indicated by the countdown timer on the smartphone. The researcher's action of placing a test tube into the rack suggests a step in a procedural sequence. The use of a timer highlights the importance of timing in this experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.317500000000003,
+        35.09
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'Canna Beans' with clear cap",
+          "researcher places microtube back into purple microtube rack"
+        ],
+        "objects_visible": [
+          "purple microtube rack with multiple slots",
+          "1.5mL microtubes labeled 'Canna Beans' and 'waste'",
+          "white container labeled 'waste'",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "Canna Beans",
+          "waste"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the handling of microtubes labeled 'Canna Beans', emphasizing the researcher's careful placement and retrieval of the tubes. The purple microtube rack serves as a central element, organizing the tubes for easy access."
+      }
+    }
+  ]
+}

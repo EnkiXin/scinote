@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/59449/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 45.929,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.48225
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled '6 PP2A in PBS' with a clear cap",
+          "researcher uses forceps to transfer a small, light brown object from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with handwritten label",
+          "petri dish containing a clear liquid and a small, light brown object",
+          "forceps held by gloved hand",
+          "purple nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "6 PP2A in PBS"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a small object from a labeled microtube into a petri dish using forceps. The handwritten label on the microtube provides specific context for the experiment. The use of forceps highlights the need for careful handling of the sample."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.48225,
+        22.9645
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube with a clear liquid and a blue cap",
+          "researcher uses a pipette to transfer a small volume of liquid from the conical tube into a test tube"
+        ],
+        "objects_visible": [
+          "blue test tube rack holding multiple tubes with blue caps",
+          "pipette with a white tip",
+          "15mL conical tube with a blue cap",
+          "test tube with a clear liquid",
+          "orange test tube rack in the background",
+          "various laboratory equipment and syringes on the table"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "15mL conical tube",
+          "small volume of liquid transferred"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of liquid using a pipette, highlighting the careful handling of laboratory materials. The blue test tube rack and the presence of multiple tubes suggest a systematic approach to the experiment. The researcher's gloved hands emphasize the importance of sterility and safety."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.9645,
+        34.44675
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a scalpel to carefully cut into a small, pale, fleshy object held by forceps.",
+          "The object is placed into a clear plastic container with a grid-like structure."
+        ],
+        "objects_visible": [
+          "A scalpel with a metallic blade and black handle.",
+          "A pair of metallic forceps holding a pale, fleshy object.",
+          "A clear plastic container with a grid-like structure.",
+          "A gloved hand wearing a blue nitrile glove."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "One pale, fleshy object being cut and placed into the container."
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise cutting of a small, pale object using a scalpel and forceps, followed by its placement into a structured container. The use of a blue-gloved hand and the grid-like container suggests a controlled and methodical approach to the procedure. The 'jove' logo indicates the video is likely part of a scientific or educational series."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        34.44675,
+        45.929
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A pipette is used to dispense a clear liquid into a transparent container holding a snail.",
+          "The container is sealed and placed in a petri dish containing a clear liquid, likely for observation."
+        ],
+        "objects_visible": [
+          "A transparent plastic container with a snail inside.",
+          "A pipette dispensing a clear liquid.",
+          "A petri dish with a clear liquid and a small transparent container floating in it."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The liquid dispensed appears to be a small volume, possibly a few milliliters."
+        ],
+        "key_distinguishing_features": "This segment shows the precise handling of a snail in a controlled environment, emphasizing the use of a pipette for liquid dispensing. The transition from the container to the petri dish suggests a step in the experimental procedure. The presence of the 'jove' logo indicates this is part of a scientific demonstration video."
+      }
+    }
+  ]
+}

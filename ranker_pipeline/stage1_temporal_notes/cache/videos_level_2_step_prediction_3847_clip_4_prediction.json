@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/step_prediction/3847/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 50.8718,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.71795
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a metallic component on a blue surface",
+          "researcher uses gloved hands to manipulate a small, cylindrical object"
+        ],
+        "objects_visible": [
+          "metallic cylindrical object with a textured top",
+          "blue surface with a white tissue or cloth",
+          "transparent tubing with a yellow connector",
+          "gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of a metallic cylindrical object, likely part of a medical or scientific apparatus. The gloved hands suggest a sterile environment, and the presence of tubing indicates a connection to a fluid or gas system. The blue surface and white tissue provide a clean, controlled workspace."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.71795,
+        25.4359
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher attaches a small, clear plastic tube to a metallic instrument with a central hub",
+          "researcher adjusts the position of the metallic instrument on a white cloth"
+        ],
+        "objects_visible": [
+          "metallic instrument with a central hub and multiple ports",
+          "small, clear plastic tube with a yellow connector",
+          "white cloth underneath the metallic instrument",
+          "medical gloves on the researcher's hands",
+          "medical tools and equipment in the background, including a motorized device and a metal bowl"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise assembly of a medical device, highlighting the careful handling of a small, clear plastic tube being connected to a metallic instrument. The setting is a sterile, medical environment, indicated by the gloves and the presence of medical tools. The video emphasizes the preparation phase of a procedure involving corneal tissue."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.4359,
+        38.15385
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a medical device with a 15-degree clockwise turn",
+          "researcher holds a metallic medical device with a black and yellow component"
+        ],
+        "objects_visible": [
+          "medical device with a black and yellow component",
+          "white gloves on the researcher's hands",
+          "blue surgical drape underneath the device",
+          "white tubing connected to the device",
+          "metallic bowl in the upper right corner",
+          "small container with a red substance in the upper left corner",
+          "additional medical tools in the background"
+        ],
+        "visible_text_labels": [
+          "15 degree clockwise turn"
+        ],
+        "quantities": [
+          "15 degree"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a medical device with a specific 15-degree clockwise turn, highlighting the importance of accuracy in the procedure. The presence of various medical tools and a sterile environment underscores the clinical nature of the activity."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        38.15385,
+        50.8718
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a metallic component with a 15-degree clockwise turn",
+          "researcher secures the component onto a larger cylindrical device"
+        ],
+        "objects_visible": [
+          "metallic cylindrical device with a textured surface",
+          "white-gloved hands manipulating the device",
+          "various medical or laboratory tools in the background, including tubes and a metallic bowl"
+        ],
+        "visible_text_labels": [
+          "15 degree clockwise turn"
+        ],
+        "quantities": [
+          "15-degree rotation"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise adjustment of a metallic component, emphasizing the 15-degree clockwise turn. The hands are gloved, indicating a sterile environment, and the background suggests a medical or laboratory setting. The close-up view highlights the intricate nature of the task."
+      }
+    }
+  ]
+}

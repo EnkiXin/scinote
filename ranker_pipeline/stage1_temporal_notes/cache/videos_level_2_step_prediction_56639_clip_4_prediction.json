@@ -1,0 +1,174 @@
+{
+  "video_id": "videos/level_2/step_prediction/56639/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 53.182,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.2955
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a well plate",
+          "researcher uses a tool to manipulate a small object near a transducer"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and blue gloves",
+          "pipette with a yellow tip",
+          "well plate with multiple compartments",
+          "transducer labeled 'FORTY' with a metallic rod",
+          "small object being manipulated near the transducer"
+        ],
+        "visible_text_labels": [
+          "Transducer measures tissue contraction",
+          "FORTY"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a pipette and the interaction with a transducer, highlighting the measurement of tissue contraction. The well plate and the transducer are central to the activity, indicating a controlled experimental setup."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.2955,
+        26.591
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A gloved hand uses tweezers to manipulate a small object near a sensor.",
+          "A person in a lab coat interacts with a computer, adjusting settings on a software interface."
+        ],
+        "objects_visible": [
+          "A black sensor labeled 'WPI' with a metallic rod extending from it.",
+          "A computer monitor displaying a software interface with a graph and settings options.",
+          "A lab bench with various equipment, including a printer and bottles."
+        ],
+        "visible_text_labels": [
+          "WPI",
+          "Set Scale Dialog",
+          "Max = 10.000",
+          "Min = 3.188775"
+        ],
+        "quantities": [
+          "Max value of 10.000",
+          "Min value of 3.188775"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise adjustment of a sensor's scale settings on a computer interface, indicating a focus on calibration. The presence of a gloved hand using tweezers suggests delicate handling of a small component. The detailed view of the software interface underscores the technical nature of the observation phase."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        26.591,
+        39.8865
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "clicks 'OK' on the 'Set Scale Dialog' window",
+          "adjusts a pipette or similar tool connected to a microfluidic setup"
+        ],
+        "objects_visible": [
+          "computer screen displaying a data acquisition software interface",
+          "microfluidic device with a pipette inserted",
+          "transparent microfluidic channels on a white textured surface"
+        ],
+        "visible_text_labels": [
+          "Set Scale Dialog",
+          "Max = 10",
+          "Min = -10",
+          "OK",
+          "Cancel",
+          "Raw Ch 1 Record",
+          "Autoscale",
+          "add function",
+          "T2-T1 = 300.00 ms",
+          "V2-V1 = 0.002 mV"
+        ],
+        "quantities": [
+          "300.00 ms",
+          "0.002 mV",
+          "10",
+          "-10"
+        ],
+        "key_distinguishing_features": "This segment shows a transition from software setup to hands-on manipulation of a microfluidic device. The researcher's gloved hand is actively adjusting a tool within the microfluidic setup, indicating the start of an experimental procedure. The software interface displays real-time measurements, suggesting data collection is underway."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        39.8865,
+        53.182
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses a liquid into a small container on a lab apparatus",
+          "researcher adjusts the position of the pipette and re-stretches a component as necessary"
+        ],
+        "objects_visible": [
+          "pipette with a clear tip",
+          "small container with a white cap on a lab apparatus",
+          "computer monitor displaying a list of files or data",
+          "black electronic devices on a shelf",
+          "bottles and containers on the lab bench",
+          "text overlay indicating '0.2 g = approximately 2 mN'"
+        ],
+        "visible_text_labels": [
+          "0.2 g = approximately 2 mN",
+          "Re-position and re-stretch as necessary"
+        ],
+        "quantities": [
+          "0.2 g",
+          "2 mN"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a pipette and the adjustment of a lab apparatus, emphasizing the importance of accurate measurements. The text overlay provides a conversion between grams and millinewtons, highlighting the quantitative aspect of the experiment. The researcher's actions are deliberate, indicating a step requiring careful execution."
+      }
+    }
+  ]
+}

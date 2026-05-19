@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/video_verification/55689/clip_2_removed_step_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.346792,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.586698
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish labeled 'Herc2 T' with a blue-gloved hand",
+          "researcher uses a pipette to transfer a liquid into the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with handwritten label 'Herc2 T'",
+          "pipette with a blue tip",
+          "another petri dish labeled 'Sara C' on the table",
+          "red biohazard container with ice packs and a bottle",
+          "laboratory bench with various items"
+        ],
+        "visible_text_labels": [
+          "Herc2 T",
+          "Sara C",
+          "jove"
+        ],
+        "quantities": [
+          "handwritten date '25-17' on the petri dish"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a petri dish labeled 'Herc2 T' and the transfer of a liquid using a pipette. The presence of a second petri dish labeled 'Sara C' suggests a comparative or parallel experiment. The red biohazard container indicates the handling of potentially hazardous materials."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.586698,
+        15.173396
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher uses a pipette to transfer a small volume of liquid from the microtube"
+        ],
+        "objects_visible": [
+          "red container filled with ice cubes",
+          "1.5mL microtube with a blue cap",
+          "pipette with a white tip",
+          "petri dish on the lab bench"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Pipette tip size marking"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "small volume of liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube containing DMEM medium, emphasizing the use of ice for temperature control. The researcher's actions are deliberate, showcasing the careful transfer of liquid using a pipette."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.173396,
+        22.760094000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places gloved hand on the lid of a Thermo Scientific device",
+          "researcher adjusts the lid of the device"
+        ],
+        "objects_visible": [
+          "Thermo Scientific device with a digital display",
+          "blue-gloved hand",
+          "white lab coat"
+        ],
+        "visible_text_labels": [
+          "LID OPEN",
+          "9 9 600",
+          "10:00"
+        ],
+        "quantities": [
+          "9 9 600",
+          "10:00"
+        ],
+        "key_distinguishing_features": "The segment focuses on the interaction with a Thermo Scientific device, specifically the lid being adjusted. The digital display shows specific numerical values and a time, indicating a controlled environment. The blue-gloved hand is a key feature, emphasizing the sterile handling typical in laboratory settings."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.760094000000002,
+        30.346792
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'PBS 1X' with a blue cap",
+          "researcher places the microtube into a red bucket filled with ice cubes"
+        ],
+        "objects_visible": [
+          "red bucket filled with ice cubes",
+          "1.5mL microtube labeled 'PBS 1X' with a blue cap",
+          "another microtube with a blue cap next to the 'PBS 1X' tube",
+          "a clear plastic bottle with a white cap and a label"
+        ],
+        "visible_text_labels": [
+          "PBS 1X",
+          "ICE"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment highlights the careful handling of a microtube labeled 'PBS 1X' and its placement into a bucket of ice, emphasizing the need for temperature control. The presence of multiple labeled tubes and a labeled bottle suggests a well-organized experimental setup."
+      }
+    }
+  ]
+}

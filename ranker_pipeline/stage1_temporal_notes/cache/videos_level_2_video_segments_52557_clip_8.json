@@ -1,0 +1,148 @@
+{
+  "video_id": "videos/level_2/video_segments/52557/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 37.955,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.48875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher monitors data on a computer screen"
+        ],
+        "objects_visible": [
+          "laptop with a visible graph and data table",
+          "laboratory equipment with buttons and a display",
+          "researcher wearing a white lab coat"
+        ],
+        "visible_text_labels": [
+          "Gripping pressure: 7 MPa",
+          "Crosshead speed: 1 mm/min",
+          "Zwick"
+        ],
+        "quantities": [
+          "7 MPa",
+          "1 mm/min"
+        ],
+        "key_distinguishing_features": "The segment focuses on the observation phase of an experiment, with a researcher closely monitoring a computer screen displaying real-time data. The equipment and software indicate a controlled mechanical test, with specific parameters like gripping pressure and crosshead speed clearly displayed. The setting is a well-equipped laboratory with various pieces of scientific apparatus in the background."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.48875,
+        18.9775
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a cylindrical metal component on a testing machine",
+          "researcher uses a tool to secure a wooden sample within the machine"
+        ],
+        "objects_visible": [
+          "testing machine with a metallic frame and adjustable components",
+          "wooden sample with a rectangular shape",
+          "tool with a metallic handle and a pointed end",
+          "researcher's hands wearing white gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a testing machine, highlighting the careful placement of a wooden sample. The use of a specialized tool for securing the sample is a key feature, emphasizing the meticulous setup process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.9775,
+        28.46625
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "gloved hand adjusts a sample holder on a testing machine",
+          "machine applies force to a rectangular sample"
+        ],
+        "objects_visible": [
+          "rectangular sample labeled 'T-MC-7-1000'",
+          "testing machine with a vertical actuator",
+          "gloved hand"
+        ],
+        "visible_text_labels": [
+          "T-MC-7-1000"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a mechanical testing setup where a sample is being subjected to force. The sample is clearly labeled, and the machine's actuator is in motion, indicating an active measurement phase. The gloved hand ensures precise positioning of the sample."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        28.46625,
+        37.955
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "A piece of wood is being tested for shear strength using a mechanical testing machine."
+        ],
+        "objects_visible": [
+          "A rectangular piece of wood with handwritten markings",
+          "Metallic clamps holding the wood",
+          "A mechanical testing machine"
+        ],
+        "visible_text_labels": [
+          "'Test-7-MS-7-100' written on the wood"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a mechanical testing setup where a piece of wood is clamped and subjected to shear force. The handwritten label on the wood suggests a specific test condition or sample identification. The machine appears to be in the process of applying force, likely to measure the shear strength of the adhesive used."
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "video_id": "videos/level_2/step_prediction/60961/clip_7_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 36.323933,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.08098325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a small pipette with a yellow plunger",
+          "researcher carefully dispenses liquid into a multi-well plate"
+        ],
+        "objects_visible": [
+          "multi-well plate with six wells, each containing a small amount of liquid",
+          "microscope with a bright light source",
+          "researcher's gloved hands wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "six wells in the multi-well plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a multi-well plate under a microscope, emphasizing the careful dispensing of liquid into each well. The bright light from the microscope highlights the clarity and cleanliness of the setup. The researcher's gloved hands ensure a sterile environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.08098325,
+        18.1619665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a small volume of liquid onto a microscope slide"
+        ],
+        "objects_visible": [
+          "microscope slide with a rectangular depression",
+          "pipette tip dispensing a clear liquid",
+          "a hand holding the pipette"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid, likely microliters"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of dispensing a small volume of liquid onto a microscope slide, highlighting the use of a pipette for accuracy. The rectangular depression on the slide is designed to hold the liquid for microscopic examination. The 'jove' logo indicates the video is part of a scientific demonstration."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.1619665,
+        27.242949749999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a small volume of liquid onto a rectangular glass slide",
+          "positions the glass slide on a circular metal platform"
+        ],
+        "objects_visible": [
+          "pipette with a fine tip",
+          "rectangular glass slide with a small droplet of liquid",
+          "circular metal platform with a rectangular cutout"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small droplet of liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise application of a liquid sample onto a glass slide, highlighting the careful handling and positioning of the slide on a metal platform. The droplet's size and the pipette's fine tip suggest a controlled and delicate procedure. The 'jove' logo indicates the video's source or affiliation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.242949749999998,
+        36.323933
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "places a small, transparent cover slip onto a microscope slide containing a droplet of liquid",
+          "gently presses the cover slip to spread the liquid"
+        ],
+        "objects_visible": [
+          "a microscope slide with a grid pattern",
+          "a small, transparent cover slip",
+          "a droplet of liquid on the slide",
+          "fingers manipulating the cover slip"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a cover slip onto a microscope slide, ensuring the liquid sample is evenly spread. The grid pattern on the slide suggests it is used for accurate measurements or observations. The action is performed with care to avoid disturbing the sample."
+      }
+    }
+  ]
+}

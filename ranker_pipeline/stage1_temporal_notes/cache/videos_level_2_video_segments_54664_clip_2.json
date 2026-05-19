@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/54664/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.092,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.523
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a yellow liquid from a small vial into a larger glass bottle"
+        ],
+        "objects_visible": [
+          "researcher's gloved hands",
+          "yellow pipette with a black tip",
+          "small vial containing yellow liquid",
+          "larger glass bottle with a white cap",
+          "blue textured surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small amount of yellow liquid"
+        ],
+        "key_distinguishing_features": "The segment shows a precise transfer of a yellow liquid using a pipette, highlighting the careful handling of the vials and the liquid. The blue textured surface provides a clean and controlled environment for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.523,
+        13.046
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a clear glass vial with a metal rod inserted",
+          "researcher tilts the vial to mix the contents"
+        ],
+        "objects_visible": [
+          "clear glass vial containing a yellow liquid",
+          "metal rod with a black circular top marked with an 'X'",
+          "yellow container with blue-capped vials",
+          "green box labeled 'Fibroblast Growth Factor'"
+        ],
+        "visible_text_labels": [
+          "Fibroblast Growth Factor",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a vial being manipulated with a metal rod, likely for mixing. The yellow liquid inside the vial is clearly visible, and the researcher's gloved hands are actively engaged in the process. The background includes a green box and a yellow container with additional vials, suggesting a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.046,
+        19.569
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube with a yellow liquid",
+          "researcher uses a pipette to transfer the yellow liquid into a smaller tube"
+        ],
+        "objects_visible": [
+          "15mL conical tube with yellow liquid",
+          "smaller tube with a white label",
+          "yellow test tube rack",
+          "blue-capped tubes in a yellow rack",
+          "pipette with a black plunger"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "yellow liquid being transferred"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a yellow liquid from a larger conical tube to a smaller tube using a pipette. The yellow liquid is visually distinct, and the action is performed with careful control. The presence of a yellow test tube rack and blue-capped tubes in the background adds context to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.569,
+        26.092
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube labeled 'PVA' with a blue cap",
+          "researcher pours a yellow liquid from a pipette into the conical tube"
+        ],
+        "objects_visible": [
+          "yellow liquid being poured",
+          "15mL conical tube labeled 'PVA'",
+          "blue cap of the conical tube",
+          "yellow test tube rack",
+          "various laboratory equipment and reagent bottles in the background"
+        ],
+        "visible_text_labels": [
+          "PVA = aqueous poly(vinyl alcohol)",
+          "jove"
+        ],
+        "quantities": [
+          "yellow liquid being added to the conical tube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise addition of a yellow liquid into a labeled conical tube, emphasizing the use of PVA in the experiment. The background includes laboratory tools and reagents, indicating a controlled experimental environment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_3/56825_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 535.765333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        133.94133325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person is seated in front of a bookshelf, speaking directly to the camera.",
+          "A hand wearing a white glove is shown holding a pipette, dispensing a liquid into a well plate."
+        ],
+        "objects_visible": [
+          "A bookshelf filled with various books, including a visible 'BIOLOGY' textbook.",
+          "A laptop displaying a microscopic image of a cell culture.",
+          "A pipette and a well plate in a laboratory setting."
+        ],
+        "visible_text_labels": [
+          "A novel in vitro wound healing assay to evaluate cell migration",
+          "Floriana Cappiello, Bruno Casciaro, and Maria Luisa Mangoni",
+          "Department of Biochemical Sciences, Sapienza University of Rome"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment introduces the topic of a novel in vitro wound healing assay, with a focus on the researchers and their initial setup. The combination of a speaking individual and laboratory equipment highlights the preparatory phase of the experiment. The visible text provides context about the research and its academic affiliation."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        133.94133325,
+        267.8826665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A hand presses the 'H' button on a digital timer set to 0:10:00.",
+          "A pipette is used to transfer a clear liquid into a multi-well plate."
+        ],
+        "objects_visible": [
+          "A digital timer with buttons labeled 'H', 'M', 'S', 'C', and 'START/STOP'.",
+          "A pipette with a yellow plunger and a transparent tip.",
+          "A multi-well plate with several compartments."
+        ],
+        "visible_text_labels": [
+          "H, M, S, C, START/STOP, MEMORY"
+        ],
+        "quantities": [
+          "0:10:00 on the digital timer."
+        ],
+        "key_distinguishing_features": "This segment highlights the precise timing and liquid handling in a laboratory setting. The focus on the digital timer and pipette emphasizes the importance of accurate measurements and timing in the experiment. The multi-well plate suggests a methodical approach to sample processing."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        267.8826665,
+        401.82399975000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher uses a pipette to transfer a pink-colored liquid into a multi-well plate containing cells.",
+          "Researcher places the multi-well plate into an incubator."
+        ],
+        "objects_visible": [
+          "Multi-well plate with 12 wells, each containing a pink liquid and cells.",
+          "Pipette with a blue plunger and a clear pipette tip.",
+          "Incubator with a digital display showing temperature and CO2 levels."
+        ],
+        "visible_text_labels": [
+          "Temperature: 36.9\u00b0C",
+          "CO2: 4.8%"
+        ],
+        "quantities": [
+          "36.9\u00b0C",
+          "4.8%"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a multi-well plate with cells and the use of an incubator to maintain specific environmental conditions. The pink liquid in the wells suggests a specific medium or reagent used in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        401.82399975000004,
+        535.765333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Sample 1' with a clear cap",
+          "pipettes ~100uL of a yellow-colored liquid from the microtube into a well of a 24-well plate"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a clear cap",
+          "24-well plate with multiple wells",
+          "pipette with a blue tip",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "Sample 1",
+          "24-well plate"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "~100uL of liquid"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a specific sample into a multi-well plate, highlighting the controlled and methodical nature of the experiment. The use of a labeled microtube and a pipette ensures accurate volume measurement and sample identification."
+      }
+    }
+  ]
+}

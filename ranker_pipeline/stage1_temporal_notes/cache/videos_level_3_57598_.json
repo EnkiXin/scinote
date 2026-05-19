@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_3/57598_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 600.597333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        150.14933325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with a black handle and a white tip",
+          "petri dish containing a pink-colored medium",
+          "red test tube rack holding several tubes",
+          "computer screen displaying green fluorescent spots"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL",
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a medium for cell culture, highlighting the precise handling of a DMEM solution. The use of a pipette and the specific volume measurement (~200uL) are critical details. The background includes a computer screen with fluorescent spots, suggesting a related analysis or experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        150.14933325,
+        300.2986665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish",
+          "researcher places a petri dish containing agarose microgels under a microscope",
+          "microscope is adjusted to focus on the agarose microgels"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "petri dish containing agarose microgels",
+          "microscope with adjustable focus knobs",
+          "pipette with pink-colored DMEM medium"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "600 uL/h: HFE 2% w/w PFPE-PEG, 200 uL/h: PCR mix"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "200uL of DMEM medium",
+          "600 uL/h flow rate for HFE 2% w/w PFPE-PEG",
+          "200 uL/h flow rate for PCR mix"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of DMEM medium and the preparation of agarose microgels for observation under a microscope. The specific flow rates for HFE and PCR mix highlight the controlled conditions of the experiment. The researcher's actions are methodical, emphasizing the importance of accurate measurements and careful manipulation of materials."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        300.2986665,
+        450.44799975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a multi-channel pipette and carefully dispenses liquid into a 96-well plate",
+          "researcher places a 96-well plate into a precision machine for processing"
+        ],
+        "objects_visible": [
+          "multi-channel pipette with a digital display showing '0.00'",
+          "96-well plate with clear wells",
+          "precision machine with a digital display reading '02:00'",
+          "researcher's gloved hands wearing purple nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "0.00 (on the pipette display)",
+          "02:00 (on the machine display)",
+          "Sensigrip NITRILE EXAMINATION POWDER-FREE (on the glove box)"
+        ],
+        "quantities": [
+          "0.00 (pipette volume setting)",
+          "02:00 (time setting on the machine)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a 96-well plate using a multi-channel pipette, emphasizing the importance of accurate liquid dispensing. The digital displays on both the pipette and the machine highlight the controlled and timed nature of the experiment. The use of nitrile gloves underscores the need for contamination-free procedures."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        450.44799975,
+        600.597333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher holds a pipette and carefully dispenses liquid into a microtube.",
+          "Researcher places the microtube into a rack containing other tubes."
+        ],
+        "objects_visible": [
+          "Microtube with a blue cap and a label that appears handwritten.",
+          "Pipette with a white tip and a digital display showing volume.",
+          "Microtube rack with multiple compartments, some containing tubes."
+        ],
+        "visible_text_labels": [
+          "VII. Results: Ultrahigh Throughput Sequencing of Single-cell Genomes",
+          "Bacillus subtilis"
+        ],
+        "quantities": [
+          "9,388 nucleotides",
+          "0.0Mb to 3.5Mb (genome size markers)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of microtubes and the display of sequencing results for Bacillus subtilis, highlighting the precision of the pipetting process and the detailed genomic data visualization."
+      }
+    }
+  ]
+}

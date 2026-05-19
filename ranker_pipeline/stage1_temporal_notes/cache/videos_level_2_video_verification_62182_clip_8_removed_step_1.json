@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_verification/62182/clip_8_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 43.496333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.87408325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher inserts a USB drive into a slot on a machine labeled 'Caliper Auto 2000'"
+        ],
+        "objects_visible": [
+          "Caliper Auto 2000 machine with a touchscreen interface",
+          "USB drive with a red and green label",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "Caliper Auto 2000",
+          "Caliper",
+          "Auto 2000"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a USB drive is being inserted into a specialized machine. The machine's touchscreen interface is prominently displayed, suggesting data transfer or setup for an experiment. The researcher's gloved hand indicates adherence to laboratory safety protocols."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.87408325,
+        21.7481665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a microtube into a test tube",
+          "researcher places the microtube back into the orange microtube rack"
+        ],
+        "objects_visible": [
+          "pipette with a white plunger and black tip",
+          "microtube with a white cap held in the researcher's left hand",
+          "orange microtube rack with multiple slots",
+          "green and blue microtube racks in the background",
+          "beaker with measurement markings up to 1000 mL",
+          "transparent plastic container with a black vented lid"
+        ],
+        "visible_text_labels": [
+          "1000 mL, 900 mL, 800 mL, 700 mL, 600 mL, 500 mL, 400 mL, 300 mL, 200 mL, 100 mL (on the beaker)"
+        ],
+        "quantities": [
+          "volume markings on the beaker indicating 1000 mL capacity"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette, with a clear view of the microtube and its placement in the orange rack. The background includes multiple microtube racks and a beaker, emphasizing a laboratory setting. The researcher's gloved hands are actively engaged in the task."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.7481665,
+        32.62224975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and inserts it into a well of a blue 96-well plate",
+          "researcher withdraws the pipette and places it into a red test tube rack"
+        ],
+        "objects_visible": [
+          "blue 96-well plate with clear wells",
+          "red test tube rack with multiple slots",
+          "1000 mL beaker with measurement markings",
+          "blue container filled with ice cubes",
+          "transparent plastic container with a green lid labeled 'JR'"
+        ],
+        "visible_text_labels": [
+          "JR"
+        ],
+        "quantities": [
+          "1000 mL beaker capacity"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of a pipette for transferring liquids between a 96-well plate and a test tube rack. The presence of ice cubes in a blue container suggests the need to maintain samples at a low temperature. The transparent container labeled 'JR' indicates a specific sample or reagent being used in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.62224975,
+        43.496333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a microtube",
+          "researcher places the microtube into a green 96-well plate"
+        ],
+        "objects_visible": [
+          "blue bucket filled with ice cubes",
+          "red microtube rack",
+          "green 96-well plate",
+          "pipette with a white tip",
+          "1.5mL microtube with a blue cap",
+          "beaker with measurement markings",
+          "transparent container with a label 'JR'"
+        ],
+        "visible_text_labels": [
+          "JR"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment highlights the precise handling of a microtube and its placement into a 96-well plate, emphasizing the controlled environment with ice for temperature-sensitive samples. The researcher's gloved hands and the use of a pipette underscore the sterile and meticulous nature of the experiment."
+      }
+    }
+  ]
+}

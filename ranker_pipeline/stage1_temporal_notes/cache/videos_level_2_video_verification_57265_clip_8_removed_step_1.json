@@ -1,0 +1,147 @@
+{
+  "video_id": "videos/level_2/video_verification/57265/clip_8_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.0555,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.513875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments manipulate tissue on mouse's head",
+          "tumor is being removed or examined"
+        ],
+        "objects_visible": [
+          "mouse with exposed head and tumor area",
+          "metal surgical forceps",
+          "metal surgical scissors"
+        ],
+        "visible_text_labels": [
+          "See text for tumor location/mouse 2nd surgery details",
+          "See text for full post-IRE care details"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a surgical procedure involving a mouse, with clear visibility of the tumor area on the head. The use of precise surgical instruments highlights the delicate nature of the operation. The text overlay provides context for the procedure and care instructions."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.513875,
+        17.02775
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments are manipulating tissue within an incision site",
+          "hands in white gloves are holding the tissue open"
+        ],
+        "objects_visible": [
+          "black surgical forceps with curved tips",
+          "exposed tissue and blood within an incision on a dark-furred animal",
+          "white-gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure, with forceps being used to manipulate tissue within an incision. The presence of blood and exposed tissue indicates an active surgical process. The gloved hands suggest a sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.02775,
+        25.541625000000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "black surgical forceps manipulate tissue within an open surgical site",
+          "forceps retract and adjust tissue layers"
+        ],
+        "objects_visible": [
+          "black surgical forceps with curved tips",
+          "exposed tissue with visible blood and muscle layers",
+          "white surgical gloves holding the forceps",
+          "animal fur surrounding the surgical site"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure with precise manipulation of tissue using forceps. The presence of blood and exposed muscle layers indicates an invasive procedure. The surgical site is surrounded by dark fur, suggesting the subject is an animal."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.541625000000003,
+        34.0555
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to hold a small rodent's head steady",
+          "researcher inserts a thin, metallic rod into the rodent's skull through a surgical incision"
+        ],
+        "objects_visible": [
+          "small rodent with dark fur and a visible surgical incision on its head",
+          "metallic forceps with blue handles",
+          "thin metallic rod with a pointed tip",
+          "white surgical cloth with blood stains"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise surgical procedure involving a rodent, with a focus on the insertion of a metallic rod into the skull. The use of forceps to stabilize the rodent's head is a critical detail. The presence of blood on the surgical cloth indicates an invasive procedure."
+      }
+    }
+  ]
+}

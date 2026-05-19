@@ -1,0 +1,147 @@
+{
+  "video_id": "videos/level_2/video_segments/59616/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.774,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.1935
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical tool manipulates black suture thread",
+          "thread is being pulled through tissue"
+        ],
+        "objects_visible": [
+          "black suture thread with visible knots",
+          "metal surgical tool with a pointed tip",
+          "pinkish tissue with visible blood vessels"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure where a black suture thread is being carefully manipulated through tissue. The presence of the 'jove' logo suggests this is part of a scientific or educational video. The focus is on the precise action of threading and pulling the suture."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.1935,
+        16.387
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical scissors are used to cut a black suture thread",
+          "suture thread is being manipulated with forceps"
+        ],
+        "objects_visible": [
+          "black suture thread",
+          "metal surgical scissors",
+          "metal forceps",
+          "white tissue with visible blood vessels",
+          "pinkish tissue with a sutured area"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up surgical procedure where black suture threads are being cut and adjusted. The presence of surgical instruments like scissors and forceps highlights the precision required. The tissue appears to be part of a larger surgical site with visible sutures and blood vessels."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.387,
+        24.5805
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "microsurgical forceps manipulate a small black suture thread",
+          "microsurgical needle is used to pierce tissue"
+        ],
+        "objects_visible": [
+          "microsurgical forceps with fine tips",
+          "microsurgical needle with a black thread attached",
+          "pinkish tissue with visible sutures",
+          "transparent surgical drape"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on precise microsurgical techniques, highlighting the use of fine forceps and a needle for suturing. The close-up view emphasizes the delicate nature of the procedure. The presence of the 'jove' logo suggests this is part of a scientific or educational video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.5805,
+        32.774
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "uses forceps to manipulate a small, transparent object with embedded wires",
+          "applies a tool, possibly a scalpel, to the object for precise cutting or adjustment"
+        ],
+        "objects_visible": [
+          "forceps with metallic, shiny tips",
+          "a small, transparent object with embedded wires and a red component",
+          "a scalpel or similar cutting tool"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a delicate surgical or experimental procedure involving a transparent object with embedded wires. The use of forceps and a cutting tool suggests precision work, likely in a biological or medical context. The presence of the 'jove' label indicates this is part of a scientific video series."
+      }
+    }
+  ]
+}

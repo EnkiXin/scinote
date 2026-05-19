@@ -1,0 +1,166 @@
+{
+  "video_id": "videos/level_2/video_segments/54863/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 51.606,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.9015
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid into a microtube"
+        ],
+        "objects_visible": [
+          "blue microtube rack with multiple wells",
+          "red microtube rack with multiple wells",
+          "yellow microtube rack with multiple wells",
+          "pipette with a clear tip",
+          "microtube with a clear cap",
+          "blue microtube with a clear cap"
+        ],
+        "visible_text_labels": [
+          "See text for quantities",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher carefully pipetting liquid into a microtube, with multiple racks of microtubes in various colors visible in the background. The text overlay suggests that specific quantities are detailed in the accompanying text. The focus is on the precise handling of the microtube and pipette."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.9015,
+        25.803
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a clear cap",
+          "researcher points to a blue microtube rack containing labeled tubes"
+        ],
+        "objects_visible": [
+          "red microtube rack with multiple compartments",
+          "blue microtube rack with labeled tubes",
+          "yellow microtube rack in the background",
+          "text overlay on the screen"
+        ],
+        "visible_text_labels": [
+          "See text for quantities",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, with the researcher handling a microtube and pointing to a labeled tube in a blue rack. The text overlay suggests that specific quantities are detailed in the accompanying text. The presence of multiple colored racks indicates an organized setup for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.803,
+        38.7045
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher operates a thermal cycler by pressing buttons on the touchscreen interface",
+          "researcher places a black PCR plate into the thermal cycler"
+        ],
+        "objects_visible": [
+          "thermal cycler with a touchscreen interface",
+          "black PCR plate with multiple wells",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "BIO-RAD",
+          "jove",
+          "Start",
+          "Stop",
+          "Pause",
+          "Cycle",
+          "Temp"
+        ],
+        "quantities": [
+          "40 cycles",
+          "95\u00b0C for 30 seconds",
+          "60\u00b0C for 30 seconds",
+          "72\u00b0C for 30 seconds"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise operation of a thermal cycler, highlighting the setup of PCR cycles. The researcher's actions are deliberate, ensuring the PCR plate is correctly placed and the cycler is programmed for specific temperature and time parameters. The thermal cycler's interface is prominently displayed, showing detailed cycle settings."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        38.7045,
+        51.606
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a red 96-well plate labeled 'CHU4461' with a green cap",
+          "researcher uses a multichannel pipette to transfer liquid from a yellow 96-well plate into the red 96-well plate"
+        ],
+        "objects_visible": [
+          "red 96-well plate with a green cap",
+          "yellow 96-well plate",
+          "multichannel pipette with blue tips",
+          "laptop displaying a software interface with a grid layout",
+          "laboratory equipment including a C1000 Touch Thermal Cycler"
+        ],
+        "visible_text_labels": [
+          "CHU4461",
+          "C1000 Touch Thermal Cycler",
+          "JOVE"
+        ],
+        "quantities": [
+          "96 wells in each plate"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise transfer of liquid using a multichannel pipette between two 96-well plates, emphasizing the methodical nature of the experiment. The presence of a thermal cycler and a laptop interface suggests a controlled and automated process. The researcher's gloved hands and the labeled plates indicate a focus on sterility and organization."
+      }
+    }
+  ]
+}

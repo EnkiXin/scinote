@@ -1,0 +1,145 @@
+{
+  "video_id": "videos/level_2/video_verification/63892/clip_6_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 27.136,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.784
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "microscopic manipulation of a black wire with forceps",
+          "cutting the black wire with scissors"
+        ],
+        "objects_visible": [
+          "black wire",
+          "metal forceps",
+          "metal scissors",
+          "pink tissue-like background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up view under a microscope, focusing on precise manipulation of a black wire using surgical tools. The pink tissue-like background suggests a biological context. The presence of the 'jove' logo indicates this is part of a scientific video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.784,
+        13.568
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "microscopic manipulation of a black wire or filament using fine-tipped forceps",
+          "forceps adjust the position of the wire within a pink, tissue-like environment"
+        ],
+        "objects_visible": [
+          "fine-tipped metallic forceps",
+          "black wire or filament",
+          "pink tissue-like background with small white and yellow granules"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up view under a microscope, highlighting precise manipulation of a black wire within a biological tissue setting. The use of forceps suggests a delicate procedure, possibly for surgical or experimental purposes. The pink tissue background with granules adds context to the biological nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.568,
+        20.352
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A pair of tweezers is used to manipulate a small, transparent object within a tissue-like environment.",
+          "The tweezers carefully position the object near a black, flexible tube."
+        ],
+        "objects_visible": [
+          "A pair of metallic tweezers with fine tips.",
+          "A small, transparent, spherical object being manipulated by the tweezers.",
+          "A black, flexible tube running through the tissue-like environment.",
+          "A pinkish, tissue-like background with scattered white and black specks."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of a small, transparent object using tweezers within a complex tissue-like environment. The presence of a black flexible tube and the detailed texture of the background add context to the delicate procedure. The 'jove' logo indicates the source of the video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        20.352,
+        27.136
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is focused on a tissue sample with visible manipulation using fine tools"
+        ],
+        "objects_visible": [
+          "pink tissue with visible blood vessels",
+          "black and silver surgical tools",
+          "small white and black particles scattered on the tissue"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up view of a tissue sample under a microscope, with surgical tools being used to manipulate the tissue. The presence of blood vessels and scattered particles adds detail to the observation. The 'jove' logo is visible in the upper right corner."
+      }
+    }
+  ]
+}

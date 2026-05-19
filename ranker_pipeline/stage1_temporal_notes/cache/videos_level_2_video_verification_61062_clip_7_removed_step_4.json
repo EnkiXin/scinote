@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_verification/61062/clip_7_removed_step_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.798333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.94958325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses a red liquid into a small container",
+          "researcher carefully places a transparent, flexible sheet over a rectangular mold"
+        ],
+        "objects_visible": [
+          "red liquid in a pipette",
+          "transparent, flexible sheet",
+          "rectangular mold",
+          "blue gloves",
+          "white table",
+          "lake and ducks in the background"
+        ],
+        "visible_text_labels": [
+          "Caution: Avoid wrinkles"
+        ],
+        "quantities": [
+          "red liquid volume not specified"
+        ],
+        "key_distinguishing_features": "The researcher is performing a precise task involving a pipette and a mold, with a cautionary note about avoiding wrinkles in the sheet. The setting is outdoors by a lake, adding a unique environmental context to the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.94958325,
+        23.8991665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand places a transparent, rectangular plastic cage on the sandy ocean floor.",
+          "The cage is positioned over a specific area of the seabed, likely for an experiment."
+        ],
+        "objects_visible": [
+          "A transparent plastic cage with a grid-like structure on the bottom.",
+          "A sandy ocean floor with scattered rocks and marine debris.",
+          "A gloved hand wearing a light blue glove."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "One transparent plastic cage."
+        ],
+        "key_distinguishing_features": "The segment shows a precise placement of a transparent cage on the ocean floor, indicating a controlled experiment setup. The sandy seabed and scattered debris provide a natural marine environment for the experiment. The presence of a gloved hand suggests human intervention in the setup process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.8991665,
+        35.848749749999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a net to retrieve a fish from the water",
+          "researcher holds the net with a fish inside"
+        ],
+        "objects_visible": [
+          "a fish in a net",
+          "a gloved hand holding the net",
+          "a body of water",
+          "a boat railing"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a fish being carefully retrieved from the water using a net. The researcher's gloved hand is visible, emphasizing the controlled and precise nature of the action. The water and boat railing provide context for the aquatic environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.848749749999996,
+        47.798333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a transparent plastic container with a black lid",
+          "researcher submerges the container into the water"
+        ],
+        "objects_visible": [
+          "transparent plastic container with a black lid",
+          "water with visible ripples",
+          "researcher's hand wearing a blue latex glove"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the researcher's hand manipulating a transparent container in water, suggesting a step in a water sampling or aquatic experiment. The blue glove and the container's design are distinctive features. The 'jove' logo indicates the video's source or platform."
+      }
+    }
+  ]
+}

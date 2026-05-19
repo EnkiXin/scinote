@@ -1,0 +1,174 @@
+{
+  "video_id": "videos/level_3/63855_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 556.010667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        139.00266675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher places the microtube on a white lab bench",
+          "researcher dons blue nitrile gloves",
+          "researcher picks up a pipette and adjusts the volume dial",
+          "researcher pipettes ~200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "white lab bench",
+          "blue nitrile gloves",
+          "pipette with volume dial",
+          "petri dish containing pink-colored DMEM medium",
+          "red bowl with white powder",
+          "black scissors",
+          "white lab coat with 'KOWELL' logo"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "KOWELL"
+        ],
+        "quantities": [
+          "1.5mL",
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of an experiment, highlighting the precise handling of a DMEM medium. The researcher's actions are methodical, involving the use of a pipette to transfer a specific volume of liquid. The presence of a red bowl with white powder and a black scissors on the lab bench adds context to the experimental setup."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        139.00266675,
+        278.0053335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish with a clear liquid and places it on the lab bench",
+          "researcher uses a pipette to transfer a pink-colored liquid from a petri dish into another petri dish",
+          "researcher places a petri dish with a clear liquid into a blue plastic rack",
+          "researcher sprays a biohazard container with a disinfectant",
+          "researcher places a petri dish into a biosafety cabinet"
+        ],
+        "objects_visible": [
+          "petri dishes with clear and pink liquids",
+          "blue plastic rack for petri dishes",
+          "biohazard container with an orange biohazard symbol",
+          "disinfectant spray bottle",
+          "biosafety cabinet with glass front",
+          "pipette with a blue plunger"
+        ],
+        "visible_text_labels": [
+          "BIOHAZARD"
+        ],
+        "quantities": [
+          "pink-colored liquid transferred using a pipette (quantity not specified)"
+        ],
+        "key_distinguishing_features": "This segment highlights the careful handling of biohazardous materials and the use of a biosafety cabinet. The researcher's actions emphasize sterility and safety protocols. The pink-colored liquid and clear liquid in petri dishes suggest a specific experimental procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        278.0053335,
+        417.00800025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into petri dish",
+          "researcher places petri dish into incubator",
+          "researcher checks temperature reading on incubator display"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "pink-colored DMEM medium",
+          "petri dish",
+          "incubator with digital display",
+          "pipette with blue plunger"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "37\u00b0C"
+        ],
+        "quantities": [
+          "1.5mL",
+          "200uL",
+          "37\u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of DMEM medium, highlighting the use of a pipette for accurate volume transfer. The incubator's temperature is carefully monitored, emphasizing the controlled environment required for the experiment. The pink color of the DMEM medium is a distinctive visual feature."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        417.00800025,
+        556.010667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher examines a grid of microscopic images on a screen, focusing on cellular structures and staining patterns."
+        ],
+        "objects_visible": [
+          "Microscopic images of cells stained with various markers (HE, CK5/CK20, p63, CK8, Vimentin/DAPI).",
+          "A grid layout with labeled sections for different genetic markers (Trp53, Pten, Rb1).",
+          "Highlighted sections labeled 'Floxed' and 'Recombination'."
+        ],
+        "visible_text_labels": [
+          "Trp53, Pten, Rb1, HE, CK5/CK20, p63, CK8, Vimentin/DAPI, Floxed, Recombination, 100 \u00b5m, Tumor, Capsule, BF, GFP, RFP."
+        ],
+        "quantities": [
+          "100 \u00b5m scale bar in microscopic images."
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed observation of cellular structures and genetic markers, highlighting differences between 'Floxed' and 'Recombination' states. The use of multiple staining techniques and genetic markers provides a comprehensive view of cellular characteristics. The grid layout and scale bars ensure precise analysis of the microscopic images."
+      }
+    }
+  ]
+}

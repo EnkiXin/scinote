@@ -1,0 +1,146 @@
+{
+  "video_id": "videos/level_2/step_prediction/59616/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 20.374667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.09366675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher unfolds a large white surgical drape",
+          "researcher places the drape on a blue surgical table"
+        ],
+        "objects_visible": [
+          "researcher wearing blue surgical gown, gloves, and a mask",
+          "blue surgical table",
+          "white surgical drape",
+          "medical equipment in the background including a microscope"
+        ],
+        "visible_text_labels": [
+          "II. Donor Spleen Harvest",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of a surgical procedure, specifically the setup of a sterile field. The researcher's meticulous handling of the surgical drape emphasizes the importance of maintaining a sterile environment. The background medical equipment suggests a controlled laboratory or surgical setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.09366675,
+        10.1873335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "gloved hands manipulate a small rodent, likely a mouse, lying on its back on a white surface",
+          "one hand holds the mouse's head steady while the other uses a small tool to interact with the mouse's mouth"
+        ],
+        "objects_visible": [
+          "small rodent with dark fur and pink ears and tail",
+          "white surgical gloves",
+          "white surface or cloth under the rodent",
+          "small tool, possibly a probe or forceps, used near the mouse's mouth"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise interaction with a small rodent, emphasizing careful handling and a specific action near the mouse's mouth. The presence of surgical gloves and a clean white surface suggests a controlled, sterile environment. The tool used near the mouse's mouth is a key element of the procedure being performed."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.1873335,
+        15.281000249999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a mouse with gloved hands",
+          "researcher uses a precision tool to make an incision on the mouse's abdomen"
+        ],
+        "objects_visible": [
+          "mouse with dark fur and pink ears",
+          "precision surgical tool with a metallic tip",
+          "gloved hands of the researcher",
+          "white surgical drape"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise surgical procedure being performed on a mouse. The use of a specialized tool for making an incision is a key feature. The researcher's hands are gloved, emphasizing the sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        15.281000249999998,
+        20.374667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "mouse is positioned on a transparent platform",
+          "researcher observes the mouse from above"
+        ],
+        "objects_visible": [
+          "a mouse lying on its back on a transparent platform with black handles",
+          "white paper underneath the platform",
+          "blue surgical gown worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The mouse is the central focus, lying motionless on a transparent platform. The researcher's gloved hands are not visible, suggesting a moment of observation. The setup is clean and clinical, emphasizing the controlled environment."
+      }
+    }
+  ]
+}

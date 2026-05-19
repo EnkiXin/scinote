@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_segments/3164/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 53.495,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.37375
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a wafer into a heated machine",
+          "researcher closes the lid of the machine"
+        ],
+        "objects_visible": [
+          "researcher wearing a full protective suit and gloves",
+          "a heated machine with a digital display",
+          "a wafer being handled with a tool"
+        ],
+        "visible_text_labels": [
+          "110\u00b0C",
+          "2 min"
+        ],
+        "quantities": [
+          "110\u00b0C",
+          "2 min"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher in a cleanroom environment carefully placing a wafer into a heated machine set to 110\u00b0C for 2 minutes. The orange lighting and protective gear highlight the controlled and precise nature of the process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.37375,
+        26.7475
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts the microscope stage with gloved hands",
+          "researcher looks through the microscope eyepiece while making fine adjustments"
+        ],
+        "objects_visible": [
+          "microscope with a black and silver body, equipped with a stage and objective lenses",
+          "black control box with a green power indicator light and a dial",
+          "researcher wearing a yellow lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a microscope, highlighting the researcher's careful manipulation of the stage and the use of gloves for contamination prevention. The warm lighting and the presence of the control box add to the laboratory setting's ambiance."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        26.7475,
+        40.121249999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher adjusts the focus knobs on a microscope",
+          "researcher looks through the eyepieces of the microscope"
+        ],
+        "objects_visible": [
+          "black binocular microscope with adjustable focus knobs",
+          "researcher wearing a light-colored lab coat and gloves",
+          "orange-tinted lighting in the room"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the researcher's interaction with the microscope, emphasizing the precise adjustments being made. The orange lighting creates a distinct ambiance, highlighting the controlled environment. The researcher's attire and careful handling of the equipment underscore the meticulous nature of the observation process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        40.121249999999996,
+        53.495
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours semi-conductor grade deionized water from a bottle into a tray",
+          "researcher uses a pipette to transfer a liquid from a container labeled '400K developer' into the tray"
+        ],
+        "objects_visible": [
+          "a bottle with a red cap labeled 'semi-conductor grade deionized water'",
+          "a container labeled '400K developer' with a warning symbol",
+          "a transparent tray with a grid pattern",
+          "a pipette with a black tip",
+          "a perforated workbench surface"
+        ],
+        "visible_text_labels": [
+          "1:2 400K developer: semi-conductor grade deionized water",
+          "jove"
+        ],
+        "quantities": [
+          "1:2 ratio of 400K developer to semi-conductor grade deionized water"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the precise mixing of chemicals in a controlled environment, emphasizing the use of specialized deionized water. The perforated workbench and the specific ratio of chemicals highlight the meticulous nature of the experiment. The presence of a warning symbol on the 400K developer container underscores the importance of safety in the procedure."
+      }
+    }
+  ]
+}

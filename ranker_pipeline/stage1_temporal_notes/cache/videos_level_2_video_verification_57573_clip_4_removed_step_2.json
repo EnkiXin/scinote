@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_2/video_verification/57573/clip_4_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 43.164667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.79116675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a small metallic component with a cylindrical shape and a protruding rod",
+          "researcher uses a tool to manipulate or adjust the metallic component"
+        ],
+        "objects_visible": [
+          "metallic component with a cylindrical shape and a protruding rod",
+          "tool used for manipulation",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "See text for substrate surface cleaning/loading details",
+          "joVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation of a metallic component, likely for a scientific experiment. The researcher's gloved hand and the use of a tool suggest precision and care in handling. The text overlay indicates that detailed instructions for substrate surface cleaning/loading are provided elsewhere."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.79116675,
+        21.5823335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher speaks while wearing safety goggles and a lab coat"
+        ],
+        "objects_visible": [
+          "researcher in a white lab coat with a green shirt underneath",
+          "laboratory background with equipment and monitors",
+          "computer screen displaying grayscale microscopic images"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment features a researcher in a lab setting, speaking directly to the camera. The background includes laboratory equipment and a computer screen showing microscopic images, emphasizing a scientific observation phase. The researcher's attire and safety goggles highlight a professional laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.5823335,
+        32.37350025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "scientist views data on computer screen",
+          "scientist adjusts settings on computer"
+        ],
+        "objects_visible": [
+          "scientist wearing white lab coat and safety goggles",
+          "computer monitor displaying graphs and data",
+          "laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "hold time",
+          "preload stress",
+          "stress",
+          "displacement (\u00b5m)",
+          "time (s)",
+          "pull-off stress"
+        ],
+        "quantities": [
+          "-50 to 200 seconds on time axis",
+          "-10 to 10 on stress axis",
+          "-500 to 0 \u00b5m on displacement axis"
+        ],
+        "key_distinguishing_features": "The segment focuses on the observation phase where a scientist is analyzing data on a computer screen. The graphs displayed show specific parameters like stress and displacement over time, indicating a detailed examination of experimental results. The laboratory setting is evident with visible equipment and monitors in the background."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.37350025,
+        43.164667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays real-time data and video feed",
+          "user interacts with software controls"
+        ],
+        "objects_visible": [
+          "computer screen with multiple windows",
+          "graphical user interface with buttons and sliders",
+          "live video feed of a mechanical component",
+          "plots showing data trends"
+        ],
+        "visible_text_labels": [
+          "File name",
+          "Start",
+          "Stop",
+          "Download",
+          "C:\\Videos\\CUT-20042021-01-01-01.avi",
+          "Time (s)",
+          "Force (N)"
+        ],
+        "quantities": [
+          "20042021-01-01-01 (timestamp in file name)",
+          "0.000 (initial force reading in N)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on a software interface used for monitoring and controlling a mechanical process. The live video feed and real-time data plots provide a comprehensive view of the experiment's progress. The user's interaction with the software suggests active observation and control of the process."
+      }
+    }
+  ]
+}

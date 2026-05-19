@@ -1,0 +1,168 @@
+{
+  "video_id": "61056",
+  "benchmark": "scivideobench",
+  "duration_seconds": 400.0,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        100.0
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand carefully places a small, transparent microfabricated target into a precision holder.",
+          "A researcher in a lab coat and gloves adjusts the target holder within a larger, yellow, perforated platform."
+        ],
+        "objects_visible": [
+          "A transparent microfabricated target with intricate patterns.",
+          "A yellow, perforated platform with a central circular opening.",
+          "A gloved hand wearing a blue glove.",
+          "A researcher wearing a white lab coat and blue gloves."
+        ],
+        "visible_text_labels": [
+          "Automated Delivery of Microfabricated Targets for Intense Laser Irradiation Experiments",
+          "Yonatan Gershuni, Michal Elkind, Itamar Cohen, Aviad Tsabary, Deep Sarkar, Ishay Pomerantz",
+          "The School of Physics and Astronomy, Center for Light-Matter Interaction, Tel Aviv University",
+          "Target Fabrication",
+          "VOICE OF: YONATAN GERSHUNI TEL AVIV UNIVERSITY"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment highlights the meticulous preparation of microfabricated targets for laser experiments, emphasizing the precision required in handling these delicate components. The yellow perforated platform serves as a specialized tool for securing the targets, indicating a controlled and methodical approach to the experiment setup."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        100.0,
+        200.0
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small volume of liquid into a petri dish",
+          "researcher places a circular silicon wafer into a petri dish containing a liquid"
+        ],
+        "objects_visible": [
+          "petri dishes with clear lids",
+          "a pipette with a black tip",
+          "a circular silicon wafer with a grid pattern",
+          "a microscope with a stage and objective lenses",
+          "a gloved hand manipulating the silicon wafer"
+        ],
+        "visible_text_labels": [
+          "40 minutes / 50 \u00b5m of silicon"
+        ],
+        "quantities": [
+          "50 \u00b5m of silicon",
+          "40 minutes"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of a silicon wafer in a petri dish, emphasizing the controlled environment and the use of a pipette for liquid transfer. The yellow lighting and the presence of a microscope suggest a specialized laboratory setup for semiconductor or material science research."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        200.0,
+        300.0
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A researcher operates a complex machine with a computer interface, adjusting settings and monitoring the process.",
+          "The machine emits a focused beam of light, which is visualized as a thermal image on a screen."
+        ],
+        "objects_visible": [
+          "A computer monitor displaying a thermal image with a red and yellow center, indicating heat distribution.",
+          "A machine with a cylindrical component and a green square target positioned at its center.",
+          "A computer interface with various parameters and a graph labeled 'Online Positions Graph'."
+        ],
+        "visible_text_labels": [
+          "Irradiation Sequence and Automated Target Positioning",
+          "Stop Target Delivery",
+          "Online Positions Graph"
+        ],
+        "quantities": [
+          "The thermal image shows a central peak with a temperature gradient, though specific temperature values are not provided."
+        ],
+        "key_distinguishing_features": "This segment highlights the precise operation of a machine for irradiation, with a focus on automated target positioning. The thermal image and computer interface suggest a high level of control and monitoring during the process. The green square target is a key element in the machine's operation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        300.0,
+        400.0
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A hand wearing a blue glove adjusts a component on a complex machine setup.",
+          "The video transitions to display a graph with fluctuating data points over time."
+        ],
+        "objects_visible": [
+          "A hand wearing a blue glove",
+          "A complex machine setup with metallic components and wires",
+          "A graph with a black background and white grid lines",
+          "A line graph with blue and green data points",
+          "A horizontal red dashed line labeled 'Target at focus \u00b10.5\u00b5m'"
+        ],
+        "visible_text_labels": [
+          "Target Z-axis position",
+          "Time [s]",
+          "Z-axis [\u00b5m]",
+          "Target at focus \u00b10.5\u00b5m",
+          "Laser focus",
+          "Conclusion"
+        ],
+        "quantities": [
+          "Time [s] ranging from 0 to 14 seconds",
+          "Z-axis [\u00b5m] ranging from 0.8 to 2.2 micrometers"
+        ],
+        "key_distinguishing_features": "This segment distinctly shows a transition from a manual adjustment of a machine to a detailed observation of a graph tracking Z-axis position over time. The graph highlights precise measurements with a focus on maintaining a target within a \u00b10.5\u00b5m range. The concluding text suggests this is part of a final analysis or summary of the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_3/61805_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 511.509333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        127.87733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into petri dish"
+        ],
+        "objects_visible": [
+          "orange test tube rack with multiple slots",
+          "pipette with a blue plunger",
+          "petri dish with a clear lid",
+          "bottle of DMEM medium with a yellow label"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Procedures involving animals have been approved by the Institutional Care and Use Committee (IACUC) at Virginia Tech"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "~200uL of DMEM medium"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase of an experiment involving cell culture, with a focus on the precise handling of DMEM medium. The use of a pipette and labeled microtube underscores the importance of accurate measurements. The text on screen indicates ethical approval for animal procedures, suggesting a broader context of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        127.87733325,
+        255.7546665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'Sample 1' with blue cap",
+          "pipettes ~200uL of clear liquid from microtube into petri dish",
+          "researcher places petri dish under a microscope for observation"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "petri dish containing clear liquid",
+          "microscope with adjustable focus knobs",
+          "orange microtube rack holding multiple tubes",
+          "transparent beaker with blue liquid",
+          "transparent beaker with pink liquid"
+        ],
+        "visible_text_labels": [
+          "Sample 1",
+          "jove"
+        ],
+        "quantities": [
+          "200uL",
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube and the transfer of a specific volume of liquid into a petri dish. The use of a labeled microtube and the clear visibility of the liquid's transfer highlight the meticulous nature of the experiment. The presence of multiple beakers with distinct colored liquids suggests a multi-step process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        255.7546665,
+        383.63199975000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"analysis\",\n  \"actions_observed\": [\n    \"scrolls through a spreadsheet containing numerical data and graphs\",\n    \"clicks on a cell in the spreadsheet to highlight it\",\n    \"uses a software interface to adjust threshold settings for image analysis\",\n    \"views and manipulates a stack of circular images, likely representing microscopic samples\"\n  ],\n  \"objects_visible\": [\n    \"a comput"
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        383.63199975000003,
+        511.509333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Analyzes metastasis quantification data using manual counting in a spreadsheet application.",
+          "Displays a graph showing the percentage of metastatic burden across different lung plate IDs."
+        ],
+        "objects_visible": [
+          "Spreadsheet with columns labeled 'Metastasis Quantification using Manual Counting', 'Combined Image 21', 'Counter 1', 'Counter 2', 'Counter 3', and 'Lung Plate ID'.",
+          "Graph with axes labeled '% Metastatic Burden' and 'Lung Plate ID', showing data points and a trend line.",
+          "Petri dishes with visible colonies, labeled with percentages '79.9%' and '31.6%' indicating metastatic burden."
+        ],
+        "visible_text_labels": [
+          "Metastasis Quantification using Manual Counting",
+          "Combined Image 21",
+          "Counter 1",
+          "Counter 2",
+          "Counter 3",
+          "Lung Plate ID",
+          "79.9%",
+          "31.6%"
+        ],
+        "quantities": [
+          "79.9% metastatic burden in one petri dish",
+          "31.6% metastatic burden in another petri dish",
+          "Data points in the graph showing varying percentages of metastatic burden across different lung plate IDs."
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed analysis of metastasis quantification using manual counting, with specific emphasis on the percentage of metastatic burden in petri dishes. The data is presented both in a tabular format and as a graphical representation, highlighting the variability across different lung plate IDs. The visual comparison of petri dishes with distinct percentages underscores the differences in metastatic burden."
+      }
+    }
+  ]
+}

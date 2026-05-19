@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/video_verification/62853/clip_4_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 18.143333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.53583325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'PMSF 100mM' with orange cap",
+          "researcher uses pipette to transfer liquid from the microtube"
+        ],
+        "objects_visible": [
+          "microtube with orange cap labeled 'PMSF 100mM'",
+          "pipette with blue plunger",
+          "ice-filled container holding multiple microtubes",
+          "researcher's hand wearing blue nitrile glove"
+        ],
+        "visible_text_labels": [
+          "PMSF 100mM",
+          "CAUTION: Wear Gloves as PMSF is Highly Toxic"
+        ],
+        "quantities": [
+          "100mM"
+        ],
+        "key_distinguishing_features": "The segment highlights the handling of a highly toxic substance, PMSF, with a clear cautionary note. The researcher's gloved hand and the ice-filled container suggest a controlled and safe environment for handling the chemical. The focus is on the preparation phase, specifically the transfer of the PMSF solution."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.53583325,
+        9.0716665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with an orange cap",
+          "researcher uses a pipette to transfer liquid into the microtube"
+        ],
+        "objects_visible": [
+          "microtube with an orange cap",
+          "pipette with a blue plunger",
+          "ice-filled container holding multiple microtubes",
+          "plastic container with a white label"
+        ],
+        "visible_text_labels": [
+          "CAUTION: Wear Gloves as PMSF is Highly Toxic",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment highlights the careful handling of a toxic substance, PMSF, with a clear cautionary note. The researcher's gloved hand and precise pipetting action emphasize the importance of safety and accuracy in this step. The ice-filled container suggests the need to maintain a cold environment for the samples."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.0716665,
+        13.607499749999999
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid from a microtube into a container",
+          "holds a pipette with a blue-gloved hand"
+        ],
+        "objects_visible": [
+          "microtubes with orange caps labeled 'MEG' and 'DMEM'",
+          "pipette with a white body and orange plunger",
+          "container filled with ice"
+        ],
+        "visible_text_labels": [
+          "MEG",
+          "DMEM"
+        ],
+        "quantities": [
+          "~200uL of liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting a liquid from a labeled microtube into a container, emphasizing the careful handling of samples. The use of ice suggests the need to maintain a cold environment for the samples. The labels on the microtubes provide specific identification of the contents."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        13.607499749999999,
+        18.143333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid from a microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "blue-gloved hand holding a pipette",
+          "microtubes with orange caps labeled 'DMEM'",
+          "petri dish with a clear medium",
+          "ice bath containing the microtubes"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "~200uL of liquid"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action, with the researcher carefully transferring a small volume of liquid. The microtubes are kept in an ice bath, indicating the need for temperature control. The focus is on the handling of the pipette and the microtube."
+      }
+    }
+  ]
+}

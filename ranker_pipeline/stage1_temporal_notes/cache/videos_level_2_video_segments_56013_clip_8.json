@@ -1,0 +1,171 @@
+{
+  "video_id": "videos/level_2/video_segments/56013/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 61.036,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        15.259
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'RIPA' with blue cap",
+          "researcher holds a pipette and transfers liquid into a labeled microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'RIPA'",
+          "pipette with a clear tip",
+          "microtube labeled '#1' and '#2'"
+        ],
+        "visible_text_labels": [
+          "RIPA",
+          "#1",
+          "#2",
+          "High Salt",
+          "TE"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where labeled microtubes and a pipette are used for transferring liquids. The microtubes are clearly labeled with specific identifiers such as 'RIPA', '#1', and '#2'. The researcher's gloved hands are actively engaged in handling the tubes and pipette."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        15.259,
+        30.518
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a clear tube",
+          "researcher places a clear tube into a wooden heating block labeled 'Thermolyne Type 17600 Dri-Bath'"
+        ],
+        "objects_visible": [
+          "pipette with a white tip",
+          "clear tube with a white cap",
+          "wooden heating block with multiple slots for tubes",
+          "control panel with 'OFF', 'ON', and 'POWER CONTROL' buttons",
+          "temperature control dial on the heating block"
+        ],
+        "visible_text_labels": [
+          "See text for elution buffer",
+          "OFF",
+          "ON",
+          "POWER CONTROL",
+          "TEMPERATURE",
+          "Thermolyne Type 17600 Dri-Bath"
+        ],
+        "quantities": [
+          "temperature dial set to a specific value (not numerically specified)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a liquid sample using a pipette and its subsequent placement into a heating block. The heating block's control panel and temperature settings are prominently displayed, emphasizing the controlled environment required for the experiment. The text overlay suggests a specific buffer is used, directing viewers to additional details."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        30.518,
+        45.777
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens the lid of an Eppendorf centrifuge 5810 R",
+          "researcher removes a centrifuge tube from the centrifuge"
+        ],
+        "objects_visible": [
+          "Eppendorf centrifuge 5810 R with a digital display",
+          "centrifuge tube with a clear liquid inside",
+          "researcher's gloved hands wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "Eppendorf Centrifuge 5810 R"
+        ],
+        "quantities": [
+          "one centrifuge tube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise action of removing a centrifuge tube from an Eppendorf centrifuge. The digital display on the centrifuge is visible, indicating the machine's operational status. The researcher's gloved hands are carefully handling the tube, emphasizing the importance of sterility in the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        45.777,
+        61.036
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a test tube with a blue cap into a water bath labeled 'Thermolyne Type 17600 Dri-Bath'",
+          "researcher adjusts the temperature control dial on the water bath"
+        ],
+        "objects_visible": [
+          "test tube with a blue cap",
+          "water bath labeled 'Thermolyne Type 17600 Dri-Bath'",
+          "temperature control dial on the water bath",
+          "power control buttons labeled 'OFF', 'ON', and 'POWER CONTROL'"
+        ],
+        "visible_text_labels": [
+          "Thermolyne",
+          "Type 17600",
+          "Dri-Bath",
+          "OFF",
+          "ON",
+          "POWER CONTROL",
+          "TEMPERATURE"
+        ],
+        "quantities": [
+          "one test tube",
+          "one water bath"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a test tube into a water bath, highlighting the temperature control mechanism. The water bath's label and control panel are clearly visible, emphasizing the equipment's role in the experiment. The researcher's actions are deliberate, indicating a controlled step in the procedure."
+      }
+    }
+  ]
+}

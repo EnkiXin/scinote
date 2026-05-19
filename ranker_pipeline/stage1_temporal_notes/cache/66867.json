@@ -1,0 +1,164 @@
+{
+  "video_id": "66867",
+  "benchmark": "scivideobench",
+  "duration_seconds": 522.112,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        130.528
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand adjusts a component on a mechanical device, possibly a surgical or experimental apparatus."
+        ],
+        "objects_visible": [
+          "A gloved hand wearing a purple nitrile glove.",
+          "A metallic device with a cylindrical component, possibly part of an experimental setup."
+        ],
+        "visible_text_labels": [
+          "The DREAM Implant: A Lightweight, Modular, and Cost-Effective Implant System for Chronic Electrophysiology in Head-Fixed and Freely Behaving Mice",
+          "Tim Schr\u00f6der, Robert Taylor, Muad Abd El Hay, Abdelatif Nemri, Arthur Fran\u00e7a, Francesco Battaglia, Paul Tiesinga, Marieke L. Sch\u00f6lvinck, Martha N. Havenith",
+          "Donders Institute for Brain Cognition and Behaviour, Radboud University",
+          "3D Neuro B.V.",
+          "Zebi Medical, Ernst Str\u00fcngmann Institute for Neuroscience",
+          "These authors contributed equally",
+          "What are the current experimental challenges?",
+          "This research was conducted according to the institutional guidelines of the Max Planck Society and approved by the local government's ethical committee Beratende Ethikkommission nach \u00a715 Tierschutzgesetz, Regierungspr\u00e4sidium Darmstadt"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment introduces the DREAM Implant system, highlighting its modular and cost-effective design for electrophysiology in mice. The video transitions from a close-up of a gloved hand adjusting a device to a speaker addressing the camera, emphasizing the experimental challenges and ethical considerations."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        130.528,
+        261.056
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small metallic object with a screw mechanism",
+          "researcher adjusts the metallic object using a screwdriver",
+          "researcher places the metallic object onto a rod attached to a larger apparatus",
+          "researcher secures the metallic object to the rod with a clamp",
+          "researcher handles a mouse, positioning it on a surgical table with a blue strap",
+          "researcher uses a tool to make an incision on the mouse's head"
+        ],
+        "objects_visible": [
+          "metallic object with a screw mechanism",
+          "screwdriver with a black handle",
+          "rod with a clamp mechanism",
+          "surgical table with a blue strap",
+          "mouse with a shaved head area",
+          "surgical tools including a scalpel"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "one mouse",
+          "one metallic object"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its detailed focus on the preparation of a mouse for a surgical procedure, involving precise mechanical adjustments and careful handling of the animal. The use of a metallic object with a screw mechanism suggests a specialized setup for the experiment. The presence of the JOVE logo indicates a professional scientific video context."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        261.056,
+        391.58399999999995
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A probe is carefully inserted into a specific region of a brain, visible through a surgical opening.",
+          "The probe is held steady by a mechanical arm, ensuring precise placement."
+        ],
+        "objects_visible": [
+          "A mechanical arm with a probe attached, positioned over a brain.",
+          "A surgical opening revealing the brain's surface with visible blood vessels and tissue.",
+          "A petri dish containing a brain slice with a yellowish substance applied to it."
+        ],
+        "visible_text_labels": [
+          "Probe Implantation"
+        ],
+        "quantities": [
+          "The probe is inserted to a specific depth, though the exact measurement is not visible."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise insertion of a probe into a brain, highlighting the use of a mechanical arm for accuracy. The petri dish with a brain slice and applied substance suggests a related preparatory or follow-up step. The text 'Probe Implantation' confirms the nature of the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        391.58399999999995,
+        522.112
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A researcher carefully places a Faraday cage over a surgical site on an animal.",
+          "The researcher uses a screwdriver to secure the Faraday cage in place."
+        ],
+        "objects_visible": [
+          "A Faraday cage with a metallic structure and screws.",
+          "A screwdriver with a black handle and metallic tip.",
+          "Purple surgical gloves worn by the researcher.",
+          "A surgical site on an animal, partially covered with a blue surgical drape."
+        ],
+        "visible_text_labels": [
+          "Implantation of Faraday Cage"
+        ],
+        "quantities": [
+          "One Faraday cage is being implanted."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement and securing of a Faraday cage over a surgical site, highlighting the use of specialized tools like a screwdriver. The researcher's gloved hands and the blue surgical drape emphasize the sterile environment of the procedure."
+      }
+    }
+  ]
+}

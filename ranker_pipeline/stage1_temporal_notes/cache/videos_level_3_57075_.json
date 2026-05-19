@@ -1,0 +1,183 @@
+{
+  "video_id": "videos/level_3/57075_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 568.085333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        142.02133325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Brad Bruno holds a 1.5mL microtube labeled 'Precursor Solution' with a blue cap.",
+          "A gloved hand places a small, clear glass vial on a digital scale labeled 'waste'."
+        ],
+        "objects_visible": [
+          "A digital scale with a display reading '0.000g'.",
+          "A 1.5mL microtube with a blue cap labeled 'Precursor Solution'.",
+          "A clear glass vial placed on the digital scale.",
+          "A bottle labeled 'Acetone' with a warning symbol."
+        ],
+        "visible_text_labels": [
+          "Brad Bruno",
+          "Union College",
+          "Precursor Solution",
+          "Acetone",
+          "waste",
+          "5 - 10 mm Pieces"
+        ],
+        "quantities": [
+          "0.000g (scale reading)",
+          "5 - 10 mm (piece size)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, highlighting the precise handling of a labeled microtube and the accurate measurement of a small vial on a digital scale. The presence of a warning symbol on the acetone bottle emphasizes safety considerations in the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        142.02133325,
+        284.0426665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap.",
+          "Pipettes approximately 200uL of pink-colored DMEM medium into a petri dish."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "Pink-colored DMEM medium",
+          "Petri dish",
+          "Pipette with a visible plunger and tip"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "200uL"
+        ],
+        "quantities": [
+          "1.5mL",
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a DMEM medium, emphasizing the accurate measurement and transfer of a small volume. The use of a labeled microtube and a petri dish highlights the controlled environment typical in cell culture experiments."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        284.0426665,
+        426.06399975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher operates a control panel with buttons and a digital display showing 'PLEASE Stand by'.",
+          "Researcher interacts with a computer interface displaying a 'Space Velocity Calculator' and various test conditions."
+        ],
+        "objects_visible": [
+          "A control panel with red and blue buttons, a digital display, and a green light labeled 'Cut-Off Solenoids'.",
+          "A computer screen showing a graphical user interface with sections labeled 'Space Velocity Calculator', 'Test Conditions', and 'STOP PROGRAM'.",
+          "A cylindrical reactor with a metallic finish and a digital readout."
+        ],
+        "visible_text_labels": [
+          "PLEASE Stand by",
+          "Cut-Off Solenoids",
+          "STOP PROGRAM",
+          "Space Velocity Calculator",
+          "Test Conditions"
+        ],
+        "quantities": [
+          "Reactor Volume: 1000 mL",
+          "Total Flow Rate: 200.28 mL/min",
+          "Temperature: 25.00\u00b0C"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the operational phase of an experiment, with detailed interaction with both a physical control panel and a digital interface. The presence of specific numerical values and conditions on the computer screen highlights the precision required in the experiment. The 'PLEASE Stand by' message on the control panel suggests a preparatory or transitional state in the experiment's execution."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        426.06399975,
+        568.085333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The video displays a table with aerogel properties and a set of X-ray diffraction (XRD) patterns for different materials.",
+          "The video transitions to show two line graphs comparing NO and CO conversion percentages against temperature for various materials."
+        ],
+        "objects_visible": [
+          "A table with columns for Aerogel type, Density (g/mL), and Surface Area (m\u00b2/g).",
+          "XRD patterns for Al-Cu IMP, Si-Cu NP, and Si-Cu IMP.",
+          "Two line graphs with temperature on the x-axis and percent conversion on the y-axis."
+        ],
+        "visible_text_labels": [
+          "Aerogel",
+          "Density (g/mL)",
+          "Surface Area (m\u00b2/g)",
+          "Al-Cu IMP",
+          "Si-Cu NP (Cu+2 15 wt%)",
+          "Si-Cu IMP",
+          "Percent NO Conversion",
+          "Percent CO Conversion",
+          "Temperature (\u00b0C)",
+          "No O\u2082",
+          "O\u2082",
+          "Cu-Si Imp",
+          "Cu-Al Imp",
+          "Si-Cu NP"
+        ],
+        "quantities": [
+          "Density values: 0.11 g/mL, 0.09 - 0.11 g/mL, 0.08 - 0.10 g/mL.",
+          "Surface Area values: 780 \u00b1 50 m\u00b2/g, 390 - 430 m\u00b2/g, 200 - 500 m\u00b2/g.",
+          "Temperature range: 0 to 700 \u00b0C."
+        ],
+        "key_distinguishing_features": "This segment focuses on the presentation of data, including aerogel properties and XRD patterns, followed by graphical analysis of NO and CO conversion. The transition from tabular to graphical data highlights the relationship between material properties and performance under different conditions. The inclusion of both 'No O\u2082' and 'O\u2082' conditions in the graphs provides a comparative analysis of the materials' behavior."
+      }
+    }
+  ]
+}

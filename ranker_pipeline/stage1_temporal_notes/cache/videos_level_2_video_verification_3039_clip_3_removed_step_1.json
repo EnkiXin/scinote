@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_verification/3039/clip_3_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 44.044,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.011
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a mouse with gloved hands",
+          "researcher places the mouse on a white textured surface",
+          "researcher uses a yellow tape dispenser to secure the mouse's limbs"
+        ],
+        "objects_visible": [
+          "a dark-furred mouse",
+          "white textured surface",
+          "yellow tape dispenser",
+          "gloved hands",
+          "yellow tape strips"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a mouse being carefully positioned and secured for a procedure, with a focus on the use of yellow tape to immobilize the animal. The gloved hands indicate a controlled and sterile environment. The 'jove' logo suggests this is part of a scientific demonstration video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.011,
+        22.022
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Gloved hand uses a cotton swab to apply a solution to a mouse's skin.",
+          "Mouse is restrained on a white mesh surface with yellow tape."
+        ],
+        "objects_visible": [
+          "A small mouse with dark fur, lying on its side on a white mesh surface.",
+          "A gloved hand holding a cotton swab.",
+          "A bottle with a white cap, partially visible, likely containing the cleaning solution.",
+          "Yellow tape securing the mouse's limbs."
+        ],
+        "visible_text_labels": [
+          "Clean with Betadine solution and 70% Ethanol"
+        ],
+        "quantities": [
+          "70% Ethanol"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a mouse is being cleaned with a Betadine solution and 70% Ethanol. The use of a cotton swab and the specific cleaning solution are distinctive features. The mouse is securely restrained, indicating a controlled experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.022,
+        33.033
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small mouse on a blue, rectangular, non-slip surface",
+          "researcher gently holds the mouse with gloved hands, ensuring it remains still",
+          "researcher uses a small, pointed tool to manipulate the mouse's tail"
+        ],
+        "objects_visible": [
+          "a small mouse with dark fur and a visible tail",
+          "a blue, rectangular, non-slip surface",
+          "a white, textured cloth underneath the mouse",
+          "a yellow tape securing a tube to the surface",
+          "a transparent tube connected to a black, coiled hose"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one mouse",
+          "one blue surface",
+          "one white cloth"
+        ],
+        "key_distinguishing_features": "This segment focuses on the careful handling of a mouse during an experiment, with specific attention to the use of a blue non-slip surface and a pointed tool for tail manipulation. The setup includes a yellow tape and a transparent tube, indicating a controlled environment for the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        33.033,
+        44.044
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher wraps a yellow adhesive tape around a mouse's body",
+          "researcher uses scissors to cut the yellow adhesive tape"
+        ],
+        "objects_visible": [
+          "a mouse with dark fur lying on a white gauze pad",
+          "yellow adhesive tape",
+          "a pair of scissors with metallic blades and black handles",
+          "white gauze pad with a grid pattern",
+          "researcher's hands wearing white latex gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one mouse",
+          "one pair of scissors"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the careful handling of the mouse with adhesive tape, likely for immobilization during a procedure. The use of scissors to trim the tape highlights precision in the technique. The gauze pad provides a clean and controlled surface for the procedure."
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "video_id": "videos/level_3/3608_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 601.941333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        150.48533325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher is seen speaking in front of a bookshelf filled with scientific literature.",
+          "The video transitions to a title card that reads 'II. Preparation of 1.1% Alginate'."
+        ],
+        "objects_visible": [
+          "A bookshelf with various scientific books and journals.",
+          "A man in a light blue suit and striped tie.",
+          "A title card with text."
+        ],
+        "visible_text_labels": [
+          "II. Preparation of 1.1% Alginate"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment introduces the preparation phase of an experiment involving alginate. The setting is an academic or research environment, indicated by the bookshelf in the background. The title card clearly specifies the focus on preparing a 1.1% alginate solution."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        150.48533325,
+        300.9706665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts the speed dial on an orbital mixer labeled 'ORBITAL MIXER' to a specific setting",
+          "researcher places a 15mL conical tube containing a clear liquid into a centrifuge",
+          "researcher closes the centrifuge lid and starts the centrifugation process",
+          "researcher holds a 1.5mL microtube labeled 'hESC' with a blue cap and a pipette",
+          "researcher pipettes a clear liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "orbital mixer with a speed dial and a power button",
+          "centrifuge with a digital display and a warning label",
+          "15mL conical tube with a clear liquid",
+          "1.5mL microtube labeled 'hESC' with a blue cap",
+          "pipette with a blue plunger",
+          "petri dish on a laboratory bench"
+        ],
+        "visible_text_labels": [
+          "ORBITAL MIXER",
+          "POWER",
+          "IV. Encapsulation of hESC",
+          "95 x g for 5 min"
+        ],
+        "quantities": [
+          "95 x g for 5 min (centrifugation setting)",
+          "15mL conical tube",
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise execution of laboratory procedures, including adjusting an orbital mixer, centrifuging a sample, and pipetting a clear liquid from a microtube. The text 'IV. Encapsulation of hESC' suggests a specific step in a larger experimental protocol. The centrifugation setting of '95 x g for 5 min' is a critical parameter in the process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        300.9706665,
+        451.45599975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'FGF8a' with a blue cap",
+          "pipettes ~100uL of a clear solution from the microtube into a petri dish containing a red-colored medium",
+          "researcher places the microtube back into a yellow test tube rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'FGF8a'",
+          "yellow test tube rack",
+          "petri dish with red-colored medium",
+          "pipette with a blue tip"
+        ],
+        "visible_text_labels": [
+          "100 ng/ml SHH",
+          "100 ng/ml FGF8a"
+        ],
+        "quantities": [
+          "100 ng/ml",
+          "~100uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of FGF8a to a petri dish, highlighting the controlled volume and concentration. The use of a labeled microtube and a pipette ensures accuracy in the experiment. The red-colored medium in the petri dish contrasts with the clear solution, making the action visually distinct."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        451.45599975,
+        601.941333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "microscope displays fluorescent images of cells",
+          "graph illustrating cell proliferation over time is shown",
+          "microscope displays OCT4 expression in cells"
+        ],
+        "objects_visible": [
+          "fluorescent images of cells with purple and green staining",
+          "graph with data points and error bars",
+          "microscope image of cells with blue fluorescence"
+        ],
+        "visible_text_labels": [
+          "Cultured in SR media",
+          "-ROCK inhibitor",
+          "+ROCK inhibitor",
+          "hFF-CM, BrdU staining",
+          "hFF-CM, TUNEL assay",
+          "Day 1",
+          "Day 28",
+          "Cell proliferation of encapsulated hESC",
+          "% of BrdU-positive cells",
+          "Days",
+          "OCT4",
+          "3D",
+          "2D",
+          "VIII. Conclusion"
+        ],
+        "quantities": [
+          "200 \u00b5m scale bar",
+          "50 \u00b5m scale bar",
+          "percentage of BrdU-positive cells ranging from 0 to 100"
+        ],
+        "key_distinguishing_features": "This segment highlights the conclusion of the experiment, showing final results of cell proliferation and OCT4 expression. The fluorescent images and graph provide quantitative and qualitative data on the effects of ROCK inhibitor and hFF-CM on cell behavior. The segment transitions from detailed microscopic images to a summary graph, emphasizing the experimental outcomes."
+      }
+    }
+  ]
+}

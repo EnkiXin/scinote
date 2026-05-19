@@ -1,0 +1,170 @@
+{
+  "video_id": "videos/level_3/63422_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 462.058667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        115.51466675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A man in a light-colored shirt speaks while holding a white object, possibly a model or a piece of equipment.",
+          "A woman in a floral shirt is shown speaking, likely providing an introduction or explanation.",
+          "A woman in a white lab coat is seen handling a tray filled with quail eggs, carefully placing them into an incubator."
+        ],
+        "objects_visible": [
+          "A tray containing numerous quail eggs with speckled patterns.",
+          "A white incubator with a digital display and control panel.",
+          "A white lab coat worn by the woman handling the eggs.",
+          "A floral shirt worn by the woman speaking."
+        ],
+        "visible_text_labels": [
+          "BORIS BILCIK, IABG",
+          "MARIANA MACAJOVA, IABG",
+          "JOVE"
+        ],
+        "quantities": [
+          "The tray contains approximately 100 quail eggs."
+        ],
+        "key_distinguishing_features": "This segment highlights the initial setup of an experiment involving quail eggs, with a focus on the careful placement of the eggs into an incubator. The presence of multiple individuals, each providing context or performing tasks, suggests a collaborative scientific effort. The detailed view of the eggs and the incubator emphasizes the preparation phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        115.51466675,
+        231.0293335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses a clear liquid into a multi-well plate containing small, circular samples.",
+          "researcher uses a pipette to transfer a liquid from a vial into a petri dish containing a gel-like substance."
+        ],
+        "objects_visible": [
+          "multi-well plate with six circular samples, each containing a small, orange-colored object resembling a seed or embryo.",
+          "petri dish with a gel-like substance and a small, orange-colored object.",
+          "pipette with a blue plunger and a clear tip.",
+          "vial with a clear liquid and a blue cap."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "six circular samples in the multi-well plate",
+          "one petri dish with a gel-like substance"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling and transfer of liquids using a pipette, highlighting the careful manipulation of small, orange-colored samples in a multi-well plate and a petri dish. The presence of the 'jove' logo suggests this is part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        231.0293335,
+        346.54400025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to transfer small, dark objects from one petri dish to another",
+          "researcher places a petri dish containing a red liquid on a labeled sheet",
+          "researcher operates a device with a digital display, adjusting settings with a dial",
+          "researcher handles a cylindrical object with a white cap, possibly a vial or container"
+        ],
+        "objects_visible": [
+          "petri dishes with various contents, including a red liquid and small dark objects",
+          "forceps held by the researcher",
+          "a labeled sheet with text such as '96% EtOH' and 'Eosin 0.5%'",
+          "a device with a digital display and a dial",
+          "a cylindrical object with a white cap"
+        ],
+        "visible_text_labels": [
+          "96% EtOH",
+          "Eosin 0.5%",
+          "10% EtOH"
+        ],
+        "quantities": [
+          "96% EtOH",
+          "0.5% Eosin",
+          "10% EtOH"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the precise handling of petri dishes and the use of forceps to transfer small objects. The labeled sheet with specific chemical concentrations suggests a controlled experiment. The digital device and cylindrical object indicate the use of specialized equipment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        346.54400025,
+        462.058667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher uses a paintbrush to apply a substance onto a transparent petri dish containing a small embryo.",
+          "Researcher places the petri dish under a UV light for observation."
+        ],
+        "objects_visible": [
+          "A paintbrush with a wooden handle and fine bristles.",
+          "A transparent petri dish containing a small embryo.",
+          "A UV light source illuminating the petri dish.",
+          "A ruler marked with measurements in millimeters."
+        ],
+        "visible_text_labels": [
+          "5 min",
+          "10 mm",
+          "5 mm"
+        ],
+        "quantities": [
+          "5 minutes (time indicated on the ruler)",
+          "10 mm (measurement on the ruler)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its use of a paintbrush to apply a substance onto an embryo in a petri dish, followed by observation under UV light. The presence of a ruler with specific measurements adds a quantitative aspect to the observation. The video transitions to a graphical representation of results, highlighting the effectiveness of the ex ovo model for photodynamic diagnosis and therapy."
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/video_segments/3642/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 50.331,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.58275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher uses forceps to pick up a small, rectangular object",
+          "researcher places the object on a petri dish"
+        ],
+        "objects_visible": [
+          "forceps with a metallic, serrated grip",
+          "petri dish with a clear glass cover",
+          "small, rectangular object resembling a sample or slide",
+          "orange test tube rack",
+          "black lab mat",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small object using forceps, emphasizing careful preparation. The presence of a petri dish and a test tube rack suggests a laboratory setting. The gloved hands highlight the sterile conditions required for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.58275,
+        25.1655
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid into a small, transparent container",
+          "researcher closes the container with a small, clear cap"
+        ],
+        "objects_visible": [
+          "pipette with a white tip",
+          "small, transparent container with a hinged lid",
+          "orange test tube rack in the background",
+          "researcher's hands wearing purple gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "amount of liquid transferred is not specified"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small container, emphasizing the careful use of a pipette for liquid transfer. The orange test tube rack in the background adds a distinctive laboratory setting. The researcher's gloved hands highlight the importance of maintaining a sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.1655,
+        37.74825
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small volume of liquid from a microtube into a petri dish",
+          "researcher holds a white cylindrical object with a green cap, possibly a pipette tip box"
+        ],
+        "objects_visible": [
+          "petri dish with a clear glass cover",
+          "microtube with a green cap",
+          "pipette with a black handle",
+          "orange microtube rack in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid (exact volume not specified)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of liquid using a pipette, highlighting the careful handling of laboratory equipment. The presence of the petri dish and microtube suggests a controlled environment for a biological or chemical experiment. The orange microtube rack in the background adds a distinctive color contrast to the scene."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        37.74825,
+        50.331
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses tweezers to manipulate a small black cylindrical object",
+          "researcher lifts the black cylindrical object with tweezers and examines it closely"
+        ],
+        "objects_visible": [
+          "black cylindrical object with a small hole on top",
+          "tweezers held by a gloved hand",
+          "petri dish with clear liquid on a black surface",
+          "orange ribbon on a white cloth",
+          "orange microtube rack in the background"
+        ],
+        "visible_text_labels": [
+          "jove logo in the top right corner"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small black cylindrical object using tweezers, suggesting a delicate and controlled procedure. The presence of a petri dish and laboratory equipment indicates a scientific experiment setting. The orange ribbon and microtube rack add context to the laboratory environment."
+      }
+    }
+  ]
+}

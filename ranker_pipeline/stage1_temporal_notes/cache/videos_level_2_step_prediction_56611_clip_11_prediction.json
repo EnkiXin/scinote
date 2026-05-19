@@ -1,0 +1,202 @@
+{
+  "video_id": "videos/level_2/step_prediction/56611/clip_11_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 21.062,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.2655
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Adjusts R2 parameter value in the 'Circuit parameters, Constraints and results' table",
+          "Updates the equivalent circuit diagram and impedance spectra graph based on the new R2 value"
+        ],
+        "objects_visible": [
+          "Software interface with tabs labeled 'Fitting', 'Simulation', and 'U-element'",
+          "Equivalent circuit diagram with components R1, C1, and R2",
+          "Impedance spectra graph with red data points and a fitted curve",
+          "Table displaying circuit parameters, constraints, and results"
+        ],
+        "visible_text_labels": [
+          "Circuit parameters, Constraints and results",
+          "Equivalent circuit",
+          "Impedance spectra",
+          "Fitting and simulation settings",
+          "R1",
+          "C1",
+          "R2",
+          "Upper Limit",
+          "Lower Limit",
+          "Result/Init. Val.",
+          "Error (%)",
+          "Fix"
+        ],
+        "quantities": [
+          "R2 value changed from 10000 to 500",
+          "Result/Init. Val. for R2 updated to 9642.62",
+          "Error (%) for R2 updated to 16.588"
+        ],
+        "key_distinguishing_features": "This segment shows a dynamic adjustment of the R2 parameter in a circuit simulation, with immediate updates to the equivalent circuit diagram and impedance spectra graph. The error percentage for R2 is recalculated, reflecting the impact of the change. The software interface provides a comprehensive view of the fitting and simulation settings."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.2655,
+        10.531
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Cursor moves to select a parameter in the 'Circuit parameters, Constraints and results' table",
+          "Cursor hovers over the 'Equivalent circuit' diagram"
+        ],
+        "objects_visible": [
+          "Graph labeled 'Impedance spectra' with plotted data points",
+          "Table with parameters C1, R1, R2, and A0wt with upper and lower limits",
+          "Equivalent circuit diagram with components R1, C1, R2, and W1"
+        ],
+        "visible_text_labels": [
+          "Circuit parameters, Constraints and results",
+          "Equivalent circuit",
+          "Fitting and simulation settings",
+          "Impedance spectra",
+          "ReZ, Ohm",
+          "ImZ, Ohm"
+        ],
+        "quantities": [
+          "Upper limit of 1000000 for R1 and R2",
+          "Lower limit of 100 for R1 and 0 for R2",
+          "Error value of 7.16332 for R2"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of circuit parameters and their constraints within a simulation software. The cursor interaction with the table and circuit diagram suggests an analysis phase. The impedance spectra graph provides a visual representation of the data being analyzed."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.531,
+        15.796500000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Cursor moves to the 'Acorr' parameter field and inputs a value of '0'."
+        ],
+        "objects_visible": [
+          "Software interface with tabs labeled 'Fitting', 'Simulation', and 'U-element'.",
+          "Table with parameters C1, R1, R2, and Acorr with upper and lower limits.",
+          "Graph labeled 'Impedance spectra' with plotted data points and a fitted curve.",
+          "Equivalent circuit diagram with components R1, C1, R2, and VI."
+        ],
+        "visible_text_labels": [
+          "Circuit parameters, Constraints and results",
+          "Equivalent circuit",
+          "Fitting and simulation settings",
+          "Impedance spectra",
+          "ReZ, Ohm",
+          "ImZ, Ohm",
+          "Acorr",
+          "Upper Limit",
+          "Lower Limit",
+          "ResultsInVal.",
+          "Error (%)",
+          "Fix"
+        ],
+        "quantities": [
+          "Upper limit of 1000000 for R1 and R2.",
+          "Lower limit of 100 for R1 and R2.",
+          "Value of 0 entered for Acorr."
+        ],
+        "key_distinguishing_features": "This segment focuses on the input of a specific value (0) for the 'Acorr' parameter in a software interface, likely for calibration or correction purposes. The equivalent circuit and impedance spectra graph are prominently displayed, indicating an ongoing analysis of electrical properties. The detailed parameter table and fitting settings suggest a precise measurement phase."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        15.796500000000002,
+        21.062
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "The cursor hovers over the 'Edit Element' option in the equivalent circuit section.",
+          "The cursor selects the 'Clear Model' option in the equivalent circuit section."
+        ],
+        "objects_visible": [
+          "A software interface with tabs labeled 'Fitting', 'Simulation', and 'U-element'.",
+          "A graph titled 'Impedance spectra' with a red curve and scattered data points.",
+          "A table labeled 'Circuit parameters, Constraints and results' with parameters C1, R1, R2, and A0wt.",
+          "An equivalent circuit diagram with components R1, C1, R2, and V1."
+        ],
+        "visible_text_labels": [
+          "Equivalent circuit",
+          "Fitting and simulation settings",
+          "Circuit parameters, Constraints and results",
+          "Impedance spectra",
+          "Edit Element",
+          "Clear Model",
+          "Algorithm: NRM Simplex",
+          "Max. iterations: 10000",
+          "ReZ, Ohm",
+          "ImZ, Ohm"
+        ],
+        "quantities": [
+          "10000 (Max. iterations)",
+          "1E-6 (Upper Limit for C1)",
+          "1E-6 (Lower Limit for C1)",
+          "100 (Lower Limit for R1)",
+          "100000 (Upper Limit for R1)",
+          "100000 (Upper Limit for R2)",
+          "100 (Lower Limit for R2)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the software interface used for circuit parameter fitting and simulation. The user interacts with the equivalent circuit section, specifically selecting options to edit or clear the model. The impedance spectra graph and parameter table provide detailed numerical data for analysis."
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/56859/clip_11.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 50.348,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.587
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube labeled 'RPMI' with a white cap",
+          "researcher wipes the conical tube with a white cloth"
+        ],
+        "objects_visible": [
+          "15mL conical tube with a white cap",
+          "white cloth",
+          "green tube rack",
+          "white bottle with a red cap",
+          "orange cap",
+          "red container",
+          "black pen"
+        ],
+        "visible_text_labels": [
+          "RPMI"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully handling a 15mL conical tube, ensuring it is clean by wiping it with a cloth. The focus is on the preparation of the tube, likely for a subsequent step in the experiment. The green tube rack and other laboratory items in the background suggest a typical lab setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.587,
+        25.174
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 100 mL graduated cylinder with a blue liquid inside",
+          "researcher carefully pours the blue liquid from the graduated cylinder into a test tube labeled 'RMS'"
+        ],
+        "objects_visible": [
+          "100 mL graduated cylinder with blue liquid",
+          "test tube labeled 'RMS' in a teal test tube rack",
+          "various laboratory equipment and reagents on the counter",
+          "researcher wearing white gloves and a lab coat"
+        ],
+        "visible_text_labels": [
+          "RMS (on the test tube)"
+        ],
+        "quantities": [
+          "100 mL (capacity of the graduated cylinder)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a blue liquid from a graduated cylinder to a labeled test tube, emphasizing careful handling and measurement. The teal test tube rack and the 'RMS' label on the test tube are distinctive elements in this scene."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.174,
+        37.760999999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 50 mL conical tube containing a white, cloudy liquid",
+          "researcher uses a pipette to transfer a liquid from a bottle into a test tube"
+        ],
+        "objects_visible": [
+          "50 mL conical tube with white, cloudy liquid",
+          "pipette with a blue and white handle",
+          "test tube rack with multiple test tubes",
+          "bottle with a red cap and a label",
+          "various laboratory equipment and reagents on the bench"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "50 mL conical tube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the handling of a 50 mL conical tube with a white, cloudy liquid, indicating a step in a liquid transfer or mixing process. The researcher's precise use of a pipette highlights the importance of accurate measurements in the experiment. The presence of various reagents and equipment suggests a well-equipped laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        37.760999999999996,
+        50.348
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a green microtube rack into a small, white and blue incubator",
+          "researcher closes the incubator door and sets the temperature to 37\u00b0C"
+        ],
+        "objects_visible": [
+          "green microtube rack with multiple tubes",
+          "white and blue incubator with a digital display and control panel",
+          "wooden shelves stocked with various laboratory reagents and equipment",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "37\u00b0C on the incubator display"
+        ],
+        "quantities": [
+          "37\u00b0C temperature setting on the incubator"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a microtube rack into an incubator, highlighting the controlled environment necessary for the experiment. The digital display of 37\u00b0C emphasizes the specific temperature requirement. The organized laboratory setting with shelves of reagents underscores the systematic nature of the research."
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "video_id": "videos/level_3/52818_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 575.509333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        143.87733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "The video begins with a title slide introducing the research topic.",
+          "A 3D model of multi-walled carbon nanotubes (MWCNTs) is shown with a laser beam directed at them.",
+          "Graphs depicting voltage over time are displayed, showing voltage spikes."
+        ],
+        "objects_visible": [
+          "3D model of MWCNTs with a laser beam",
+          "Graphs with voltage readings over time",
+          "Title slide with authors and affiliations"
+        ],
+        "visible_text_labels": [
+          "Preparation and Evaluation of Hybrid Composites of Chemical Fuel and Multi-walled Carbon Nanotubes in the Study of Thermopower Waves",
+          "Hayoung Hwang*, Taehan Yeo*, Yonghwan Cho, Dongjoon Shin, and Wonjoon Choi",
+          "School of Mechanical Engineering, Korea University",
+          "*These authors contributed equally",
+          "II. Synthesis of VAMWCNTs, Hybrid Composite of Chemical Fuel and MWCNT Films"
+        ],
+        "quantities": [
+          "Voltage readings on the graphs, with values up to 0.04 V",
+          "Time scale on the graphs, ranging from 0.00 to 1.5 seconds"
+        ],
+        "key_distinguishing_features": "This segment introduces the research topic with a title slide and visualizes the initial setup involving MWCNTs and voltage measurements. The graphs highlight voltage spikes, indicating the beginning of experimental data collection. The 3D model and laser beam provide a visual representation of the materials and processes involved."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        143.87733325,
+        287.7546665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a pipette to transfer a small volume of liquid from a vial into a petri dish.",
+          "A researcher places a small, transparent container with a yellow lid on a table, revealing a grid of small wells inside."
+        ],
+        "objects_visible": [
+          "A pipette with a white body and blue plunger, held by a gloved hand.",
+          "A petri dish with a white base and a small droplet of liquid in the center.",
+          "A transparent container with a yellow lid, containing a grid of small wells.",
+          "A vial with a clear liquid inside, placed on a black surface.",
+          "A digital scale with a clear glass cover and a digital display showing a reading."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The digital scale displays a reading of 0.0000 grams."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid sample using a pipette, highlighting the careful handling of small volumes. The presence of a digital scale suggests the importance of accurate measurements in the experiment. The transparent container with a yellow lid and grid of wells indicates a methodical approach to sample organization."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        287.7546665,
+        431.63199975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher uses a pipette to transfer a small volume of liquid into a petri dish",
+          "Researcher places a transparent, rectangular sample holder on a heated stage",
+          "Researcher adjusts the position of the sample holder under a microscope",
+          "Researcher operates a computer, likely analyzing data or controlling the experiment setup"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'DMEM' with a blue cap",
+          "Petri dish containing a pink-colored medium",
+          "Transparent rectangular sample holder with a small, dark sample",
+          "Microscope with a heated stage",
+          "Computer monitor displaying experimental data and a live feed of the sample"
+        ],
+        "visible_text_labels": [
+          "Propagation velocity of thermopower wave =",
+          "L_h x n_o / n_i",
+          "L_h is total length of hybrid composite",
+          "n_i is number of recorded frames",
+          "n_o is recording frame rate 10 \u03bcm"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "10 \u03bcm recording frame rate",
+          "Pink-colored DMEM medium"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase of the experiment, where precise liquid handling and sample positioning are critical. The use of a heated stage and live microscope feed highlights the controlled environment necessary for accurate data collection. The visible text labels provide specific details about the calculation of the propagation velocity of the thermopower wave."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        431.63199975,
+        575.509333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Two individuals are seated and appear to be discussing or presenting information.",
+          "The video transitions between the individuals and scientific data visualizations."
+        ],
+        "objects_visible": [
+          "Two individuals wearing casual attire, one in a blue checkered shirt and the other in a striped sweater.",
+          "Graphs displaying voltage over time with specific data points.",
+          "A scale bar indicating 2 \u03bcm in a microscopic image sequence."
+        ],
+        "visible_text_labels": [
+          "0 ms, 4 ms, 8 ms, 12 ms, 16 ms, 20 ms (in the microscopic image sequence)",
+          "Voltage (V) and Time (s) on the graphs",
+          "2 \u03bcm (scale bar label)"
+        ],
+        "quantities": [
+          "Voltage values ranging from -0.04 V to 0.04 V in the graphs",
+          "Time intervals of 0 ms to 20 ms in the microscopic image sequence",
+          "2 \u03bcm scale bar"
+        ],
+        "key_distinguishing_features": "This segment alternates between individuals discussing and scientific visual data, including voltage-time graphs and a microscopic image sequence with precise time stamps. The focus is on detailed observation and analysis of the data presented. The individuals are engaged in explaining or interpreting the visualized scientific information."
+      }
+    }
+  ]
+}

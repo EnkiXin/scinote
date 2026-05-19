@@ -1,0 +1,165 @@
+{
+  "video_id": "videos/level_2/video_verification/57240/clip_2_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 41.880333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.47008325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a microtube",
+          "researcher places the microtube into a red microtube rack"
+        ],
+        "objects_visible": [
+          "blue-gloved hand",
+          "pipette with a white tip",
+          "red microtube rack",
+          "blue microtube rack",
+          "orange microtube rack",
+          "white foam box",
+          "yellow box labeled 'Protein G Sepharose 4 Fast Flow'",
+          "white paper towel",
+          "metal scissors"
+        ],
+        "visible_text_labels": [
+          "Protein G Sepharose 4 Fast Flow"
+        ],
+        "quantities": [
+          "1 microtube",
+          "1 pipette tip"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of liquid transfer using a pipette into a microtube, highlighting the careful handling of laboratory materials. The presence of multiple microtube racks in various colors suggests an organized workflow. The researcher's gloved hand emphasizes the importance of sterility in the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.47008325,
+        20.9401665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a small tube",
+          "researcher places a green cap on a centrifuge"
+        ],
+        "objects_visible": [
+          "pipette with a blue tip",
+          "small tube with a white cap",
+          "centrifuge with a green cap",
+          "red and blue microtube racks",
+          "yellow box labeled 'Wizard Genomic DNA Purification Kit'"
+        ],
+        "visible_text_labels": [
+          "Wizard Genomic DNA Purification Kit",
+          "CORNING"
+        ],
+        "quantities": [
+          "pipette tip size not specified"
+        ],
+        "key_distinguishing_features": "This segment shows precise handling of laboratory equipment, focusing on the use of a pipette and a centrifuge. The presence of specific DNA purification kit packaging highlights the genetic material processing context. The actions are methodical, indicating a step in a DNA extraction or purification protocol."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.9401665,
+        31.41024975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a test tube",
+          "researcher places the test tube into a red 24-well plate"
+        ],
+        "objects_visible": [
+          "red 24-well plate with multiple test tubes",
+          "pipette with a white tip",
+          "test tube with a clear liquid",
+          "blue-gloved hands of the researcher",
+          "white paper towel on the lab bench"
+        ],
+        "visible_text_labels": [
+          "See the Table of Materials for all the reagents"
+        ],
+        "quantities": [
+          "one test tube being filled with liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid into a test tube using a pipette. The red 24-well plate is prominently featured, indicating a multi-sample experiment setup. The text overlay suggests a reference to a materials list for the reagents used."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.41024975,
+        41.880333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a red test tube rack containing tubes into a general purpose incubator",
+          "researcher closes the incubator door"
+        ],
+        "objects_visible": [
+          "red test tube rack with multiple tubes",
+          "general purpose incubator with a transparent door",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "GENERAL PURPOSE INCUBATOR",
+          "See the Table of Materials for all the reagents"
+        ],
+        "quantities": [
+          "multiple tubes in the red test tube rack"
+        ],
+        "key_distinguishing_features": "This segment focuses on the placement of a test tube rack into an incubator, highlighting the controlled environment necessary for the experiment. The transparent door of the incubator allows for visual confirmation of the setup. The researcher's attire and careful handling emphasize the sterile and precise nature of the procedure."
+      }
+    }
+  ]
+}

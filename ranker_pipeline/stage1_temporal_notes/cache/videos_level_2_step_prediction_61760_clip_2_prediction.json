@@ -1,0 +1,148 @@
+{
+  "video_id": "videos/level_2/step_prediction/61760/clip_2_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.982,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.7455
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and a microtube",
+          "researcher carefully dispenses liquid from the pipette into the microtube"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and gloves",
+          "pipette with a blue plunger",
+          "microtube with a clear body and a blue cap",
+          "laboratory background with shelves and equipment"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "pipette volume appears to be set to approximately 200 \u03bcL"
+        ],
+        "key_distinguishing_features": "The researcher is focused on precise liquid handling, ensuring accuracy in the transfer of the sample. The close-up view highlights the careful manipulation of the pipette and microtube. The laboratory setting is clean and organized, emphasizing a controlled environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.7455,
+        15.491
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "hand holds a 1.5mL microtube with a clear cap",
+          "microtube is positioned near a blue test tube rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a clear cap",
+          "blue test tube rack with multiple slots",
+          "hand wearing a light-colored glove"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The microtube is being carefully handled, suggesting preparation for a precise experiment. The blue test tube rack provides a structured environment for organizing multiple samples. The focus on the microtube and the hand indicates a step requiring attention to detail."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.491,
+        23.2365
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a blue-capped 1.5mL microtube",
+          "researcher opens the microtube lid with their right hand"
+        ],
+        "objects_visible": [
+          "white lab coat worn by the researcher",
+          "protective eyewear with orange-tinted lenses",
+          "white centrifuge with a digital display and control buttons",
+          "various laboratory equipment and supplies on the counter"
+        ],
+        "visible_text_labels": [
+          "JOVE logo in the top right corner"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a small blue-capped microtube, indicating a precise step in the experiment. The centrifuge and other lab equipment in the background suggest a controlled laboratory environment. The researcher's focused posture and use of protective eyewear highlight the importance of safety in this segment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.2365,
+        30.982
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a clear, transparent microtube with a syringe attached",
+          "researcher manipulates the syringe to draw or inject liquid into the microtube"
+        ],
+        "objects_visible": [
+          "clear microtube with a syringe attached",
+          "researcher's gloved hands",
+          "dark background"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube and syringe, emphasizing the researcher's careful manipulation. The close-up view highlights the transparency of the microtube and the syringe's connection, suggesting a delicate procedure. The dark background contrasts with the clear objects, drawing attention to the action."
+      }
+    }
+  ]
+}

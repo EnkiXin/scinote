@@ -1,0 +1,171 @@
+{
+  "video_id": "videos/level_2/video_verification/58334/clip_10_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 5.72,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        1.43
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube with a green cap",
+          "researcher places microtube into a labeled box"
+        ],
+        "objects_visible": [
+          "white lab coat",
+          "blue gloves",
+          "box with colorful labels and text",
+          "pipette with purple handle",
+          "small green-capped microtube",
+          "white bottle with a label",
+          "transparent container with a blue lid",
+          "plastic box with compartments"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully handling a microtube, indicating a precise step in the preparation phase. The presence of a labeled box suggests organization and tracking of samples. The environment is a well-equipped laboratory with various scientific tools and containers."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        1.43,
+        2.86
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a purple pipette and a 1.5mL microtube with a green liquid",
+          "researcher appears to be preparing to transfer the liquid from the microtube"
+        ],
+        "objects_visible": [
+          "purple pipette with a pipette tip",
+          "1.5mL microtube with green liquid",
+          "white lab coat",
+          "blue gloves",
+          "open box labeled 'Hampton'",
+          "plastic container with pink wells",
+          "white bottle with a label",
+          "green spray bottle",
+          "blue and white containers",
+          "white container labeled 'SOLID WASTE'"
+        ],
+        "visible_text_labels": [
+          "Hampton",
+          "SOLID WASTE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively handling a pipette and a microtube, suggesting a precise liquid transfer step. The presence of various lab equipment and reagents indicates a controlled laboratory environment. The green liquid in the microtube is a distinctive feature of this segment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        2.86,
+        4.29
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a green liquid",
+          "researcher uses a pipette to transfer the green liquid from the microtube"
+        ],
+        "objects_visible": [
+          "purple pipette with a white tip",
+          "1.5mL microtube with green liquid",
+          "white box labeled 'Takara'",
+          "plastic container with pink wells",
+          "white bottle with a label",
+          "blue gloves",
+          "white lab coat"
+        ],
+        "visible_text_labels": [
+          "Takara",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The researcher is actively transferring a green liquid using a pipette, indicating a precise step in the experiment. The presence of the Takara box suggests the use of specific reagents or kits. The focus is on the handling of the microtube and the pipette."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        4.29,
+        5.72
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher places the microtube into a white foam container labeled 'SOLID WASTE'"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "white foam container labeled 'SOLID WASTE'",
+          "purple pipette with a white tip",
+          "box of 'gridded' slides with colorful packaging",
+          "transparent container with pink-colored wells",
+          "white bottle with a label and a green cap",
+          "white bottle with a label and a blue cap"
+        ],
+        "visible_text_labels": [
+          "SOLID WASTE",
+          "gridded"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "The researcher is disposing of a microtube into a labeled waste container, indicating a step in the protocol for waste management. The presence of various laboratory items like slides and bottles suggests a complex experimental setup. The action is precise and deliberate, emphasizing proper laboratory practices."
+      }
+    }
+  ]
+}

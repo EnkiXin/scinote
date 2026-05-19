@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_2/video_segments/59992/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.59,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.6475
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and inserts it into a well of a yellow 96-well plate",
+          "researcher withdraws the pipette from the well"
+        ],
+        "objects_visible": [
+          "yellow 96-well plate with clear wells",
+          "blue pipette tip box with multiple pipette tips",
+          "white plastic container with a green lid",
+          "white electronic device with a digital display showing '00:00:00'"
+        ],
+        "visible_text_labels": [
+          "SOC: SUPER OPTIMAL BROTH WITH CATABOLITE REPRESSION"
+        ],
+        "quantities": [
+          "96-well plate",
+          "multiple pipette tips"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting into a 96-well plate, highlighting the use of SOC medium. The presence of a digital timer suggests time-sensitive procedures. The researcher's gloved hand emphasizes a sterile environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.6475,
+        21.295
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a white container with a blue lid onto a digital balance scale",
+          "researcher closes the transparent blue lid of the balance scale"
+        ],
+        "objects_visible": [
+          "digital balance scale with a green platform and blue transparent lid",
+          "white container with a blue lid",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "JOVE logo in the top right corner"
+        ],
+        "quantities": [
+          "scale reading of 35.9 grams"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of a container using a digital balance scale, emphasizing the importance of accurate weight determination. The transparent blue lid of the scale is a distinctive feature, ensuring a controlled environment for the measurement. The researcher's careful handling of the container highlights the meticulous nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.295,
+        31.942500000000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid into a petri dish",
+          "researcher places the petri dish on the table and covers it with a lid"
+        ],
+        "objects_visible": [
+          "petri dish with a clear liquid",
+          "pipette with a blue plunger",
+          "yellow microtube rack",
+          "blue microtube rack",
+          "Bunsen burner with a blue flame",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "clear liquid transferred into the petri dish"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a clear liquid into a petri dish using a pipette, followed by the careful placement and covering of the dish. The presence of a Bunsen burner with a blue flame suggests a sterile environment. The researcher's gloved hand emphasizes the importance of maintaining aseptic conditions."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.942500000000003,
+        42.59
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a petri dish on a bottle labeled 'beads 5' with a blue cap",
+          "researcher opens a refrigerator and places a petri dish inside"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid",
+          "bottle labeled 'beads 5' with a blue cap",
+          "yellow 96-well plate",
+          "refrigerator with glass door and metal shelves",
+          "petri dishes on the refrigerator shelves"
+        ],
+        "visible_text_labels": [
+          "beads 5",
+          "jove"
+        ],
+        "quantities": [
+          "one petri dish",
+          "one bottle"
+        ],
+        "key_distinguishing_features": "This segment shows the handling of a petri dish and its placement on a labeled bottle, followed by the storage of the dish in a refrigerator. The focus is on the careful and precise actions of the researcher in a laboratory setting. The refrigerator's interior is visible, showing other petri dishes stored on the shelves."
+      }
+    }
+  ]
+}

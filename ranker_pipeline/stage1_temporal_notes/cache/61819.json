@@ -1,0 +1,173 @@
+{
+  "video_id": "61819",
+  "benchmark": "scivideobench",
+  "duration_seconds": 304.128,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        76.032
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a cylindrical object with a textured surface, possibly a sample holder or mold.",
+          "Researcher operates a laser cutting machine, adjusting settings on the control panel."
+        ],
+        "objects_visible": [
+          "A cylindrical object with a textured surface, possibly a sample holder or mold.",
+          "A laser cutting machine with a control panel and a cutting area.",
+          "A computer monitor displaying a software interface with a grid and a red laser beam."
+        ],
+        "visible_text_labels": [
+          "Making the X-Ray Transparent Boron-Epoxy Gasket",
+          "80% of laser power",
+          "Two passes",
+          "Cutting speed: 1.2 mm/s"
+        ],
+        "quantities": [
+          "80% of laser power",
+          "Two passes",
+          "Cutting speed: 1.2 mm/s"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a gasket using a laser cutting machine, with specific settings displayed on the screen. The researcher is seen handling a cylindrical object, likely part of the gasket assembly process. The software interface on the computer monitor provides detailed parameters for the cutting process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        76.032,
+        152.064
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A hand uses tweezers to carefully place a small, transparent object into a cylindrical metal component.",
+          "A computer screen displays a live feed of a laser cutting process, showing a material being cut with specified parameters."
+        ],
+        "objects_visible": [
+          "A pair of tweezers with a metallic finish.",
+          "A transparent, rectangular object being manipulated by the tweezers.",
+          "A cylindrical metal component with a hollow center, possibly part of a scientific apparatus.",
+          "A computer monitor showing a laser cutting process with a visible laser beam and material being cut.",
+          "A close-up view of a laser cutting machine in operation."
+        ],
+        "visible_text_labels": [
+          "30% laser power",
+          "One pass",
+          "Cutting speed: 0.4 mm/s",
+          "Video sped up 10x",
+          "Radial Diamond-Anvil Cell (rDAC) Experiment Loading"
+        ],
+        "quantities": [
+          "30% laser power",
+          "0.4 mm/s cutting speed",
+          "10x video speed"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of a small, transparent object using tweezers, likely for a scientific experiment setup. The laser cutting process is shown with specific parameters, emphasizing the technical precision required. The video is sped up 10x, indicating a time-lapse of the cutting process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        152.064,
+        228.096
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Computer screen displays an X-ray diffraction image with a central circular pattern and surrounding diffraction rings.",
+          "A complex machine with various components, wires, and tubes is shown, likely part of the X-ray diffraction setup."
+        ],
+        "objects_visible": [
+          "A computer monitor showing an X-ray diffraction pattern with a central circular feature and diffraction rings.",
+          "A machine with metallic components, wires, and tubes, possibly part of an X-ray diffraction apparatus."
+        ],
+        "visible_text_labels": [
+          "X-Ray Diffraction Study",
+          "jove"
+        ],
+        "quantities": [
+          "28 GPa, 12 GPa, 5 GPa, 0.1 GPa (stress values on the graph)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase of an X-ray diffraction study, with a detailed view of the diffraction pattern on a computer screen and the complex machinery used for the experiment. The presence of stress values on the graph indicates the analysis of yield stress and deformation in materials of varying grain sizes."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        228.096,
+        304.128
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "researcher points to specific areas on the TEM images",
+          "researcher gestures towards the computer screen"
+        ],
+        "objects_visible": [
+          "three TEM images showing microstructural features",
+          "computer monitor displaying TEM images",
+          "researcher's hand with a pen"
+        ],
+        "visible_text_labels": [
+          "Twin",
+          "Twin",
+          "Dislocations",
+          "5 nm",
+          "5 nm",
+          "100 nm",
+          "Conclusion"
+        ],
+        "quantities": [
+          "5 nm",
+          "5 nm",
+          "100 nm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the conclusion of the experiment, highlighting specific microstructural features such as twins and dislocations in TEM images. The researcher uses a pen to point out these features, emphasizing their significance. The images are labeled with precise scale bars for accurate interpretation."
+      }
+    }
+  ]
+}

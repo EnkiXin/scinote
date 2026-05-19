@@ -1,0 +1,173 @@
+{
+  "video_id": "videos/level_2/video_segments/61330/clip_10.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.765,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.94125
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses a small volume of liquid onto a microscope slide",
+          "researcher holds a 1.5mL microtube labeled 'PBS-TWEEN' with a blue cap"
+        ],
+        "objects_visible": [
+          "microscope slide with a black circular base",
+          "1.5mL microtube with a blue cap and label",
+          "pipette with a yellow tip",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "PBS-TWEEN",
+          "From this step on, protect from light. Fluorophores are light-sensitive."
+        ],
+        "quantities": [
+          "small volume of liquid dispensed from the pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a light-sensitive solution, as indicated by the on-screen text. The researcher's actions are deliberate, emphasizing the careful dispensing of liquid onto a microscope slide. The presence of a labeled microtube and the use of a pipette highlight the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.94125,
+        19.8825
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a yellow liquid from a test tube labeled 'PBS-TWEEN' into a glass slide with a labeled section"
+        ],
+        "objects_visible": [
+          "researcher wearing blue gloves and a white lab coat",
+          "pipette with a yellow tip",
+          "test tube labeled 'PBS-TWEEN' with a blue cap",
+          "glass slide with a labeled section",
+          "black petri dish holding the glass slide"
+        ],
+        "visible_text_labels": [
+          "PBS-TWEEN",
+          "NeuN 488 400x"
+        ],
+        "quantities": [
+          "yellow liquid being transferred, approximate volume not specified"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a yellow liquid from a labeled test tube into a specific section of a glass slide, emphasizing the careful handling of the pipette. The labeled section on the slide indicates a specific experimental context involving 'NeuN 488 400x'."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.8825,
+        29.82375
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a microscope slide with two wells containing samples labeled 'NeuN 4x8' and '7 DIV'.",
+          "researcher carefully places a cover slip over the samples on the microscope slide."
+        ],
+        "objects_visible": [
+          "microscope slide with two wells containing samples",
+          "cover slip being placed over the samples",
+          "black petri dish serving as a base for the slide",
+          "box of cover slips labeled 'Deckglass Microscope Cover Glasses' with specifications '100 St./Box, 24 x 60 mm'"
+        ],
+        "visible_text_labels": [
+          "NeuN 4x8",
+          "7 DIV",
+          "Deckglass Microscope Cover Glasses",
+          "100 St./Box",
+          "24 x 60 mm"
+        ],
+        "quantities": [
+          "100 St./Box of cover slips",
+          "24 x 60 mm dimensions of cover slips"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a microscope slide for viewing, with specific attention to the careful placement of a cover slip over labeled samples. The use of a black petri dish as a base enhances the visibility of the slide and its contents. The detailed labeling of the samples and cover slips underscores the precision required in this step."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.82375,
+        39.765
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Displaying fluorescent microscopy images of brain slices at 7 DIV"
+        ],
+        "objects_visible": [
+          "Fluorescent microscopy images of brain regions labeled A1, DG, A2, CA3, A3, and CA1",
+          "Highlighted areas A1a, A2a, and A3a with magnified views",
+          "Red and green fluorescent markers indicating PI and NeuN staining"
+        ],
+        "visible_text_labels": [
+          "7 DIV",
+          "PI, NeuN",
+          "Optional: Store slices at -20 \u00b0C until imaging",
+          "A1",
+          "DG",
+          "A2",
+          "CA3",
+          "A3",
+          "CA1",
+          "A1a",
+          "A2a",
+          "A3a"
+        ],
+        "quantities": [
+          "7 DIV",
+          "-20 \u00b0C"
+        ],
+        "key_distinguishing_features": "This segment specifically showcases fluorescently labeled brain slices at 7 days in vitro (DIV), with distinct regions and markers highlighted. The optional storage condition at -20 \u00b0C is noted, emphasizing the preservation of samples for future imaging. The magnified views (A1a, A2a, A3a) provide detailed insights into the PI and NeuN staining patterns."
+      }
+    }
+  ]
+}

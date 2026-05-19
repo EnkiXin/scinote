@@ -1,0 +1,171 @@
+{
+  "video_id": "videos/level_3/62649_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 446.528,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        111.632
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher uses forceps to manipulate a small, transparent object on a white cloth",
+          "researcher places a small, transparent object into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'DMEM' with a blue cap",
+          "forceps with black handles",
+          "petri dish with a clear lid",
+          "white cloth with various small tools and objects",
+          "microscope with a digital display showing '0.00'"
+        ],
+        "visible_text_labels": [
+          "Tissues were obtained from a commercial vendor: no live animals were used throughout this protocol. If live animals are used for the source of ocular tissue, seek approval by the local ethical or legal authority (IACUC or Ethics committee, etc.) before beginning."
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "digital display reading '0.00'"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where the researcher handles a microtube and uses forceps to manipulate a small object. The presence of a microscope and a petri dish suggests a controlled laboratory environment. The text overlay emphasizes ethical considerations for tissue sourcing."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        111.632,
+        223.264
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small volume of liquid from a petri dish into a microtube",
+          "researcher places a small, transparent, circular object with a central hole into a petri dish containing a yellowish substance"
+        ],
+        "objects_visible": [
+          "petri dish with a yellowish substance and a small, transparent, circular object with a central hole",
+          "microtube with a blue cap",
+          "pipette with a blue plunger",
+          "red and white plastic stand with multiple holes",
+          "red and yellow circular object on the stand",
+          "blue-gloved hands of the researcher"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid transferred using the pipette"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the precise handling of a small, transparent object with a central hole, which is carefully placed into a petri dish. The use of a pipette for transferring liquid highlights the meticulous nature of the experiment. The presence of a red and white plastic stand with multiple holes suggests a specialized setup for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        223.264,
+        334.896
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher adjusts a precision instrument with a dial and a digital display reading '3.00'.",
+          "Researcher uses a tool to manipulate a small, cylindrical component within a mechanical setup."
+        ],
+        "objects_visible": [
+          "A precision instrument with a digital display and a dial.",
+          "A small, cylindrical component with a metallic finish.",
+          "A mechanical setup with various colored wires (red, yellow, green, blue)."
+        ],
+        "visible_text_labels": [
+          "3.00"
+        ],
+        "quantities": [
+          "3.00 (reading on the digital display)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise adjustment of a mechanical component using a digital instrument. The presence of colored wires suggests an electrical or electronic aspect to the setup. The digital display reading '3.00' indicates a specific measurement or setting being achieved."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        334.896,
+        446.528
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Displays cross-sectional and top-down projection views of an eye at 0 and 72 hours post-open globe injury.",
+          "Presents a graph showing IOP (intraocular pressure) values over time post-ASOC setup."
+        ],
+        "objects_visible": [
+          "Cross-sectional and top-down projection images of an eye with labels indicating '0 hours' and '72 hours Post Open Globe Injury'.",
+          "Graph with axes labeled 'Time Post-ASOC Setup (Days)' and 'IOP (mmHg)'.",
+          "Graph with axes labeled 'Hours Post-OG Injury' and 'Average IOP relative to pre-injury baseline IOP at D3'."
+        ],
+        "visible_text_labels": [
+          "Cross-Sectional View",
+          "Top-Down Projection View",
+          "0 hours",
+          "72 hours",
+          "Post Open Globe Injury",
+          "OG Injured",
+          "Control",
+          "Untreated OG Injury (Medium)",
+          "Dermabond Adhesive",
+          "Acceptable IOP Range",
+          "Average IOP relative to pre-injury baseline IOP at D3",
+          "Hours Post-OG Injury"
+        ],
+        "quantities": [
+          "IOP values ranging from 0 to 30 mmHg on the graph.",
+          "Time intervals of 0, 24, 48, and 72 hours post-OG injury."
+        ],
+        "key_distinguishing_features": "This segment focuses on visualizing the effects of an open globe injury on eye structure and intraocular pressure over time. The use of both cross-sectional and top-down projection views provides a comprehensive understanding of the injury's impact. The inclusion of a graph tracking IOP values highlights the quantitative changes observed post-injury."
+      }
+    }
+  ]
+}

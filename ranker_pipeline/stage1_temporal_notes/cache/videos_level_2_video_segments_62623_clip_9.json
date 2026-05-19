@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_2/video_segments/62623/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.331,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.83275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displaying analysis parameters",
+          "user interacting with software settings"
+        ],
+        "objects_visible": [
+          "software window titled 'Metafer 4' with various analysis options",
+          "3D model of a grid structure in the bottom left corner",
+          "scatter plot with red and blue data points"
+        ],
+        "visible_text_labels": [
+          "Classifier",
+          "FOC 3.4-0.8-BR_391309",
+          "Grid Focus",
+          "Fine Focus",
+          "Capture",
+          "Log Proc.",
+          "Img Quality",
+          "Cell Selection",
+          "Call Proc.",
+          "Other",
+          "Spot Counting",
+          "Diagno 1",
+          "Histogram",
+          "Max. Spot Area (73/3000)",
+          "Min. Spot Contrast (3/3000)",
+          "Report Call if # Spots > 1"
+        ],
+        "quantities": [
+          "1.2 (value for CS)",
+          "42 (value for SS)",
+          "52 (value for Histogram)",
+          "73/3000 (Max. Spot Area)",
+          "3/3000 (Min. Spot Contrast)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its detailed software interface used for analyzing and configuring parameters for spot counting and image quality. The presence of a 3D grid model and a scatter plot suggests a focus on visualizing and analyzing data points. The specific numerical values and settings indicate a highly technical and precise analysis process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.83275,
+        19.6655
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "configuration",
+        "actions_observed": [
+          "user selects 'Manual' option in the 'Classifier' dropdown menu",
+          "user navigates through the 'Classifier' dropdown list"
+        ],
+        "objects_visible": [
+          "software interface with a 'Classifier' dropdown menu",
+          "data path text field showing 'Z:\\NEW Data Optics\\Dianan19 February 2021_V7 and HB'",
+          "list of data files with names like 'Dec_12_1_May_A'"
+        ],
+        "visible_text_labels": [
+          "Classifier",
+          "Data path",
+          "Search Speed",
+          "Search Report",
+          "On Search End",
+          "Continue",
+          "Abort",
+          "Reset",
+          "Stop"
+        ],
+        "quantities": [
+          "1000 (Max. Cycles)",
+          "1000 (Min. Cycles)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the configuration phase of a software interface, specifically highlighting the selection of a 'Manual' classifier option. The user interacts with a dropdown menu, indicating a setup process for data analysis. The interface displays a detailed list of data files and adjustable parameters for the search process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.6655,
+        29.498250000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"execution\",\n  \"actions_observed\": [\"User selects a specific row in the 'Classifier' column of the software interface\", \"User adjusts the 'Search Window Size' parameter for the selected classifier\"],\n  \"objects_visible\": [\"Software interface with a list of classifiers and their parameters\", \"Dropdown menu for 'Search Window Size'\"],\n  \"visible_text_labels\": [\"Classifier\", \"Search Wind"
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.498250000000002,
+        39.331
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "The user navigates through a software interface, likely adjusting settings for a data analysis process.",
+          "The user selects different options from dropdown menus and checkboxes within the software."
+        ],
+        "objects_visible": [
+          "A software interface with a list of files and settings.",
+          "A 3D model or graph in the background, partially visible."
+        ],
+        "visible_text_labels": [
+          "Data path: Z:\\UNW Data Optics\\Standard\\18 February 2021_N7 and HB",
+          "Search Speed: Lowest, Low, Medium, High, Highest",
+          "Search Report: None, Summary, Detailed",
+          "On Search End: Continue, Restart",
+          "Max. Cycles: 1000"
+        ],
+        "quantities": [
+          "1000 (Max. Cycles for each file listed)",
+          "5 (Number of files listed in the data path)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on software-based data processing, with the user actively configuring settings for a search or analysis task. The interface includes detailed options for search speed, report type, and cycle limits, indicating a complex and customizable process. The presence of a 3D model in the background suggests a connection to visual data representation."
+      }
+    }
+  ]
+}

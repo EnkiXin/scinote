@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_2/video_segments/65126/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 27.471,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.86775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a petri dish with a clear lid and a white substance inside",
+          "researcher uses a pipette to transfer liquid from a test tube into the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid and a white substance inside",
+          "pipette with a blue plunger",
+          "test tubes with red caps in a white rack",
+          "a red cap on the table",
+          "a metal container with a hose attached"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "three test tubes in the rack"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a petri dish is being handled and liquid is being transferred using a pipette. The presence of a white substance in the petri dish and the specific setup of test tubes in a rack are distinctive features. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.86775,
+        13.7355
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'Cells' with orange cap",
+          "researcher writes on the microtube with a black marker"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with orange cap",
+          "black marker",
+          "white gloved hand",
+          "white lab coat",
+          "white plastic tube rack with other tubes",
+          "blue glove in the background"
+        ],
+        "visible_text_labels": [
+          "Cells",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a microtube, specifically labeling it with a marker. The orange cap and the 'Cells' label are distinctive features. The presence of a white plastic tube rack with other tubes suggests an organized laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.7355,
+        20.60325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher uses the pipette to transfer liquid from the microtube into a test tube"
+        ],
+        "objects_visible": [
+          "pipette with a blue and yellow handle",
+          "1.5mL microtube labeled 'DMEM' with a blue cap",
+          "test tube with a red cap",
+          "test tube rack",
+          "blue container with a white lid"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of liquid using a pipette, highlighting the careful handling of the microtube labeled 'DMEM'. The presence of the test tube rack and the blue container suggests an organized laboratory setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        20.60325,
+        27.471
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 1.5mL microtube labeled 'CALS' into a yellow ice bucket",
+          "researcher adjusts the settings on a sonication machine"
+        ],
+        "objects_visible": [
+          "yellow ice bucket",
+          "sonication machine with a digital display",
+          "1.5mL microtube labeled 'CALS' with a blue cap",
+          "gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "Sonication: 15 s on 45 s off amp 30 four cycles",
+          "PROGRAM",
+          "Amplitude 30",
+          "Energy 0 J",
+          "Program Progress 0%"
+        ],
+        "quantities": [
+          "15 s on",
+          "45 s off",
+          "amp 30",
+          "four cycles",
+          "30 (amplitude setting)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a microtube for sonication, highlighting the specific settings being adjusted on the sonication machine. The use of ice to keep the sample cool is a distinctive feature. The detailed settings and cycle parameters are clearly displayed on the machine's screen."
+      }
+    }
+  ]
+}

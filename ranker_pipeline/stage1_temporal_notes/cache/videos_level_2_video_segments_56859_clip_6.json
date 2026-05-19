@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/56859/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 46.92,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.73
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a dark-colored waste bottle",
+          "researcher carefully places the pipette tip into the waste bottle"
+        ],
+        "objects_visible": [
+          "dark-colored waste bottle with a yellow label",
+          "pipette with a clear tip",
+          "yellow pipette tip rack",
+          "two clear bottles with orange caps",
+          "black cap on the counter"
+        ],
+        "visible_text_labels": [
+          "Be sure to dispose of the solution properly as chemical waste"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the proper disposal of a solution as chemical waste, emphasizing safety and protocol. The researcher's actions are deliberate and precise, ensuring the solution is correctly handled. The yellow label on the waste bottle and the text overlay highlight the importance of this step."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.73,
+        23.46
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Clearing buffer' with an orange cap",
+          "researcher uses a pipette to transfer a clear liquid from a glass bottle into the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with an orange cap",
+          "pipette with a clear liquid",
+          "glass bottle with a label reading 'Leftis 0.1M'",
+          "yellow test tube rack",
+          "brown bottle labeled 'HAZARDOUS WASTE' with a yellow label",
+          "black cap on the counter"
+        ],
+        "visible_text_labels": [
+          "Clearing buffer: 4% SDS at pH 8.5",
+          "HAZARDOUS WASTE",
+          "Leftis 0.1M"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "4% SDS at pH 8.5"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a clear liquid into a microtube labeled 'Clearing buffer'. The presence of a hazardous waste container and the specific pH and SDS concentration highlight the controlled and careful nature of the experiment. The use of a pipette for liquid transfer underscores the precision required in this step."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.46,
+        35.19
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a clear plastic tray with tubes into a Fisher Scientific incubator",
+          "researcher closes the incubator door"
+        ],
+        "objects_visible": [
+          "white Fisher Scientific incubator with a digital display showing '37.00'",
+          "clear plastic tray containing multiple tubes",
+          "yellow foam block with multiple holes",
+          "various bottles with orange caps in the background"
+        ],
+        "visible_text_labels": [
+          "Incubate for a total of 2 - 8 weeks",
+          "Fisher Scientific"
+        ],
+        "quantities": [
+          "37.00 (temperature displayed on the incubator)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the incubation process, highlighting the use of a Fisher Scientific incubator set to 37.00\u00b0C. The researcher carefully places a tray of tubes into the incubator, emphasizing the controlled environment required for the experiment. The text overlay specifies the incubation duration of 2 to 8 weeks, indicating a long-term process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.19,
+        46.92
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a transparent plastic tube with a white substance inside",
+          "researcher measures the length of the white substance using a ruler"
+        ],
+        "objects_visible": [
+          "transparent plastic tube with a white substance",
+          "blue and white ruler with centimeter markings",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "length measurement of the white substance"
+        ],
+        "key_distinguishing_features": "The segment focuses on the detailed observation of a white substance within a transparent tube, with a specific emphasis on measuring its length. The use of a ruler highlights the precision required in this step of the experiment. The white substance appears to be the subject of interest, possibly a biological sample."
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_verification/63662/clip_6_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 28.895533,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.22388325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a transparent electrophoresis tank with a green comb inserted",
+          "researcher uses a pipette to transfer liquid into a well of the gel"
+        ],
+        "objects_visible": [
+          "transparent electrophoresis tank with a green comb",
+          "black pipette with a blue plunger",
+          "black test tube rack with white tubes",
+          "white lab coat",
+          "blue nitrile gloves",
+          "white lab bench covered with a white cloth"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of loading a gel in an electrophoresis tank, highlighting the use of a green comb and a pipette. The researcher's hands are gloved, emphasizing a sterile environment. The setup suggests a DNA or protein separation experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.22388325,
+        14.4477665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'TBST' with a blue cap",
+          "researcher uses a pipette to transfer liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'TBST' with a blue cap",
+          "pipette with a blue plunger",
+          "petri dish containing a clear liquid",
+          "laboratory scale with a digital display",
+          "laboratory bench with various equipment and containers"
+        ],
+        "visible_text_labels": [
+          "TBST: 1 mL of Tween 20 in 1 L of TBS"
+        ],
+        "quantities": [
+          "1 mL of Tween 20",
+          "1 L of TBS"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a specific solution (TBST) using a pipette. The researcher's actions are methodical, emphasizing the importance of accurate measurements in the experiment. The visible text provides a clear recipe for the TBST solution, highlighting the controlled environment of the laboratory."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.4477665,
+        21.67164975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a small container into a test tube",
+          "researcher places the test tube into an orange test tube rack"
+        ],
+        "objects_visible": [
+          "black digital scale with a red display showing '0.0000'",
+          "transparent plastic container with a lid",
+          "white container with a perforated lid",
+          "orange test tube rack with multiple slots",
+          "test tubes with blue caps",
+          "pipette with a blue plunger"
+        ],
+        "visible_text_labels": [
+          "Antibody dilution ratio: 1:12000"
+        ],
+        "quantities": [
+          "1:12000"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise dilution of an antibody, as indicated by the text 'Antibody dilution ratio: 1:12000'. The researcher's actions are methodical, involving the use of a pipette and a test tube rack, emphasizing the importance of accurate measurements in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        21.67164975,
+        28.895533
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube labeled 'PBS' with a blue cap",
+          "researcher places the conical tube on a digital balance scale"
+        ],
+        "objects_visible": [
+          "digital balance scale with a black platform and red digital display",
+          "15mL conical tube with a blue cap labeled 'PBS'",
+          "orange microtube rack with multiple wells",
+          "plastic containers with lids on the lab bench",
+          "white container with a label and a screw cap"
+        ],
+        "visible_text_labels": [
+          "Antibody dilution ratio: 1:12000"
+        ],
+        "quantities": [
+          "15mL conical tube",
+          "1:12000 antibody dilution ratio"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a 15mL conical tube labeled 'PBS', emphasizing the importance of accurate measurements. The digital balance scale is prominently featured, indicating the need for precise weight or volume determination in the experiment."
+      }
+    }
+  ]
+}

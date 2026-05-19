@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_verification/54863/clip_5_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 19.652967,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.91324175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid from a brown microtube into a blue microtube rack"
+        ],
+        "objects_visible": [
+          "blue-gloved hand holding a pipette",
+          "brown microtube with a brown cap",
+          "blue microtube rack with multiple wells",
+          "red and yellow microtube racks in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one brown microtube",
+          "one blue microtube rack"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette. The blue-gloved hand and the distinct brown microtube are prominent features. The background includes organized red and yellow microtube racks, indicating a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.91324175,
+        9.8264835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid from a brown microtube into a blue microtube rack"
+        ],
+        "objects_visible": [
+          "blue microtube rack with multiple wells",
+          "brown microtube with a white cap",
+          "red and yellow microtube racks in the background",
+          "pipette with a white plunger"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one brown microtube",
+          "one blue microtube rack"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette. The blue microtube rack is prominently featured, and the researcher's gloved hand is actively engaged in the process. The background includes additional microtube racks, indicating a well-organized laboratory setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.8264835,
+        14.73972525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a refrigerator door",
+          "researcher places a yellow-labeled box inside the refrigerator"
+        ],
+        "objects_visible": [
+          "white refrigerator with a handle",
+          "yellow-labeled box",
+          "various containers and boxes inside the refrigerator"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the action of storing a yellow-labeled box in a refrigerator, indicating a step in sample or reagent preservation. The refrigerator's interior is visible, showing organized storage of various items. The researcher's gloved hand is seen performing the action."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        14.73972525,
+        19.652967
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher retrieves a white box from a freezer shelf",
+          "researcher places the box back into the freezer"
+        ],
+        "objects_visible": [
+          "white freezer with multiple shelves",
+          "various labeled boxes with colored labels",
+          "freezer door with racks containing test tubes and vials",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple boxes on freezer shelves"
+        ],
+        "key_distinguishing_features": "This segment shows a researcher interacting with a freezer, specifically retrieving and replacing a white box. The freezer is well-organized with labeled boxes and various containers, indicating a controlled laboratory environment. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    }
+  ]
+}

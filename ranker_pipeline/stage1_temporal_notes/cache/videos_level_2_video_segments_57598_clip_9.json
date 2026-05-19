@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/57598/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 57.104,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.276
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, transparent, rectangular device with multiple compartments",
+          "researcher uses a pipette to carefully add a liquid into the compartments of the device"
+        ],
+        "objects_visible": [
+          "transparent rectangular device with multiple compartments",
+          "pipette with a blue plunger",
+          "white lab bench with various equipment in the background",
+          "researcher's hands wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "multiple compartments (exact count not specified)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a multi-compartment device, likely for a microfluidic or cell culture experiment. The researcher's actions are meticulous, emphasizing the careful addition of liquid into the compartments. The JOVE logo indicates this is a scientific demonstration video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.276,
+        28.552
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to carefully place a small, rectangular, white object into a transparent, rectangular container with a grid pattern",
+          "researcher adjusts the position of the white object within the container using the forceps"
+        ],
+        "objects_visible": [
+          "forceps with a metallic, shiny surface held by a gloved hand",
+          "transparent rectangular container with a grid pattern and white tubing connected to it",
+          "small, rectangular, white object being placed into the container",
+          "white gloves worn by the researcher",
+          "laboratory equipment in the background, including a white mechanical arm with black and silver components"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one small, rectangular, white object"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a small object into a container using forceps, highlighting the careful and controlled nature of the action. The presence of the grid pattern in the container suggests a need for accurate positioning. The white gloves and laboratory setting emphasize a sterile and professional environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        28.552,
+        42.828
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a blue box labeled 'ZEISS' and carefully removes a component",
+          "researcher uses tweezers to manipulate a small, transparent object on a microscope stage"
+        ],
+        "objects_visible": [
+          "microscope with a white body and multiple lenses",
+          "blue box with 'ZEISS' branding",
+          "tweezers with a metallic finish",
+          "transparent object on the microscope stage",
+          "various laboratory equipment including syringes and cables"
+        ],
+        "visible_text_labels": [
+          "ZEISS"
+        ],
+        "quantities": [
+          "one blue box",
+          "one pair of tweezers"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the careful handling of a ZEISS-branded component, likely a part of the microscope setup. The use of tweezers to manipulate a small, transparent object on the microscope stage highlights precision in the experiment. The presence of various laboratory equipment in the background suggests a complex experimental setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        42.828,
+        57.104
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "A gloved hand holds a syringe connected to a thin, transparent tube.",
+          "The hand adjusts the syringe plunger, likely to control the flow of liquid through the tube."
+        ],
+        "objects_visible": [
+          "A syringe with a transparent barrel and a black plunger.",
+          "A thin, transparent tube connected to the syringe.",
+          "A red-tipped connector at the end of the tube.",
+          "A digital power supply unit with two display screens showing '0.00'."
+        ],
+        "visible_text_labels": [
+          "DC POWER SUPPLY HY3003D",
+          "0.00 (on both display screens)"
+        ],
+        "quantities": [
+          "0.00 (displayed on both screens of the power supply unit)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise control of liquid flow using a syringe and a thin tube, with a digital power supply unit in the background. The hand's interaction with the syringe suggests a delicate and controlled process. The '0.00' readings on the power supply unit indicate that it is not currently active or is set to zero."
+      }
+    }
+  ]
+}

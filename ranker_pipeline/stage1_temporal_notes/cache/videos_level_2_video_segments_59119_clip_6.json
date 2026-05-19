@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/video_segments/59119/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 56.171,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.04275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wraps a petri dish containing green plant samples with aluminum foil",
+          "researcher places the wrapped petri dish on a white surface"
+        ],
+        "objects_visible": [
+          "petri dish with green plant samples",
+          "aluminum foil",
+          "white surface",
+          "researcher's hand with red-painted nails"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple green plant samples in the petri dish"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of plant samples by wrapping them in aluminum foil, likely for storage or transport. The researcher's hand with red-painted nails is a distinctive visual element. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.04275,
+        28.0855
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a petri dish containing green leaf samples on a white surface",
+          "researcher transfers leaf samples from one petri dish to another using a tool"
+        ],
+        "objects_visible": [
+          "petri dishes with green leaf samples",
+          "a white surface as the workspace",
+          "a tool for transferring leaf samples"
+        ],
+        "visible_text_labels": [
+          "Transfer leaves to new medium every 7-10 days and change to tall Petri dishes when shoots reach lid"
+        ],
+        "quantities": [
+          "several green leaf samples in the petri dish"
+        ],
+        "key_distinguishing_features": "This segment shows the careful handling and transfer of leaf samples, emphasizing the procedural step of transferring leaves to a new medium. The text overlay provides specific instructions for the timing and conditions of the transfer. The focus is on the execution phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        28.0855,
+        42.12825
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses tweezers to manipulate small green plant samples within a petri dish",
+          "researcher transfers plant samples from one petri dish to another"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid and base containing small green plant samples",
+          "tweezers held by the researcher's hand",
+          "another petri dish lid placed upside down on the table"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the careful handling of plant samples using tweezers, emphasizing precision in transferring the samples between petri dishes. The green color of the plant samples contrasts with the clear petri dishes, making the samples easily distinguishable."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        42.12825,
+        56.171
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses tweezers to transfer small green plant samples from a petri dish into a glass jar",
+          "researcher seals the glass jar with a white cap"
+        ],
+        "objects_visible": [
+          "glass jar with handwritten markings '15/2' and '21/2' on its surface",
+          "petri dish containing small green plant samples",
+          "tweezers held by the researcher",
+          "white cap used to seal the jar"
+        ],
+        "visible_text_labels": [
+          "15/2",
+          "21/2"
+        ],
+        "quantities": [
+          "handwritten markings on the jar indicating '15/2' and '21/2'"
+        ],
+        "key_distinguishing_features": "This segment shows the precise transfer of plant samples into a labeled glass jar, highlighting the careful handling of biological specimens. The handwritten markings on the jar suggest a methodical approach to sample tracking. The use of tweezers ensures minimal contamination during the transfer process."
+      }
+    }
+  ]
+}

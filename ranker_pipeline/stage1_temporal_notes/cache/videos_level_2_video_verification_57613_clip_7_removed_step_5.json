@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_2/video_verification/57613/clip_7_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 19.430333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.85758325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand inserts a small metallic object into a designated slot on the reactor controller."
+        ],
+        "objects_visible": [
+          "A white Parr 4848 Reactor Controller with multiple digital displays and control buttons.",
+          "A hand wearing a purple nitrile glove holding a small metallic object."
+        ],
+        "visible_text_labels": [
+          "Parr 4848 REACTOR CONTROLLER",
+          "PRIMARY TEMPERATURE",
+          "PRESSURE PSI",
+          "TEMPERATURE",
+          "HIGH LIMIT",
+          "HIGH LIMIT RESET",
+          "AUTO",
+          "MANUAL"
+        ],
+        "quantities": [
+          "158 (Primary Temperature)",
+          "597 (Pressure in PSI)",
+          "245-400 (Temperature range)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of inserting a metallic object into a reactor controller, highlighting the interaction between the operator and the machine. The digital displays provide specific readings, emphasizing the controlled environment of the experiment. The purple glove indicates adherence to safety protocols."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.85758325,
+        9.7151665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a knob on the reactor controller",
+          "researcher holds a small, clear glass vial with a metal cap"
+        ],
+        "objects_visible": [
+          "Parr 4848 Reactor Controller with digital displays",
+          "purple nitrile gloves",
+          "laboratory environment with various equipment"
+        ],
+        "visible_text_labels": [
+          "Parr 4848 REACTOR CONTROLLER",
+          "PRIMARY TEMPERATURE",
+          "PRESSURE",
+          "TEMPERATURE",
+          "HIGH LIMIT",
+          "HIGH LIMIT RESET"
+        ],
+        "quantities": [
+          "158\u00b0C (PARM)",
+          "160\u00b0C (RPM)",
+          "182\u00b0C (PARM)",
+          "245\u00b0C (PARM)",
+          "400\u00b0C (RPM)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a reactor controller, highlighting the digital readouts of temperature and pressure. The researcher's gloved hand is actively engaged in manipulating the equipment, emphasizing the controlled nature of the experiment. The environment suggests a well-equipped laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.7151665,
+        14.57274975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a pressure gauge connected to a metal reactor vessel",
+          "researcher uses a tool to tighten or secure a component on the reactor"
+        ],
+        "objects_visible": [
+          "metal reactor vessel with a pressure gauge",
+          "yellow tool held by the researcher",
+          "laboratory equipment including a control panel and various tubes"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "pressure gauge reading (not clearly visible)"
+        ],
+        "key_distinguishing_features": "The researcher is actively manipulating a pressure gauge on a metal reactor, indicating a precise step in the experiment. The use of a yellow tool suggests a specific adjustment or securing process. The environment is a well-equipped laboratory with various instruments in the background."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        14.57274975,
+        19.430333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher observes data on computer screen",
+          "researcher uses mouse to interact with software"
+        ],
+        "objects_visible": [
+          "black computer monitor displaying a graph with peaks",
+          "black keyboard",
+          "black mouse",
+          "researcher wearing a white lab coat and glasses",
+          "beakers and laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively analyzing data on a computer screen, which displays a graph with multiple peaks. The setting is a laboratory, as indicated by the presence of lab equipment and the researcher's attire. The focus is on the interaction between the researcher and the computer for data observation."
+      }
+    }
+  ]
+}

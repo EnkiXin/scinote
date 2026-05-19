@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_3/63997_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 379.584,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        94.896
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a syringe and injects a solution into a mouse's back.",
+          "Mouse is anesthetized and positioned on a surgical table."
+        ],
+        "objects_visible": [
+          "A syringe with a needle attached, filled with a clear solution.",
+          "A mouse lying on a surgical table, anesthetized and restrained.",
+          "A surgical table with a black surface and a white foam pad."
+        ],
+        "visible_text_labels": [
+          "Urokinase-Type Plasminogen Activator-Induced Mouse Back Pain Model",
+          "Marena A. Montera, Aleyah E. Goins, Sascha R. A. Gles, Karin N. Westlund",
+          "Department of Anesthesiology & Critical Care Medicine, University of New Mexico Health Sciences Center",
+          "Model: 5 \u03bcL of 2 mg/mL urokinase-type plasminogen activator diluted in sterile water",
+          "Shams: 5 \u03bcL sterile saline",
+          "Anesthesia: 4% Isoflurane",
+          "If needed, shave the injection site for better visualization"
+        ],
+        "quantities": [
+          "5 \u03bcL of 2 mg/mL urokinase-type plasminogen activator",
+          "5 \u03bcL sterile saline",
+          "4% Isoflurane"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of a mouse back pain model, highlighting the precise injection of a specific solution into the mouse's back. The detailed text labels provide crucial information about the model, sham controls, and anesthesia used. The setup and positioning of the mouse on the surgical table are clearly visible, emphasizing the controlled environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        94.896,
+        189.792
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Mouse is placed in a transparent acrylic observation chamber.",
+          "A researcher applies filaments to the mouse's footpad at specified intervals."
+        ],
+        "objects_visible": [
+          "A white mouse inside a clear acrylic observation chamber.",
+          "A cylindrical platform labeled 'PLATINUM TEST LX MACHINE'.",
+          "A researcher's gloved hand holding filaments.",
+          "A data sheet with columns for 'Time in room', 'Weight', 'Test Start Time', 'Test End Time', and 'Von Frey'."
+        ],
+        "visible_text_labels": [
+          "Ensure there is no bleeding at the needle entry point",
+          "Apply each filament 5x at <1 s intervals perpendicular to the footpad",
+          "Behavioral Assays"
+        ],
+        "quantities": [
+          "5x application of filaments",
+          "<1 s intervals"
+        ],
+        "key_distinguishing_features": "This segment focuses on the behavioral assessment of a mouse, specifically using filaments to test its response. The setup includes a clear observation chamber and a detailed data sheet for recording precise measurements. The emphasis is on careful, controlled application of stimuli to the mouse's footpad."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        189.792,
+        284.688
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Mice are observed moving within a transparent rectangular container.",
+          "Mice interact with objects inside the container, including climbing and exploring."
+        ],
+        "objects_visible": [
+          "Transparent rectangular container with a black base.",
+          "Three white mice with visible tails.",
+          "Three small, orange, cylindrical objects placed inside the container.",
+          "A black rectangular object with text and symbols."
+        ],
+        "visible_text_labels": [
+          "Count the number of grooming maneuvers using blinded observers"
+        ],
+        "quantities": [
+          "Three mice",
+          "Three orange cylindrical objects"
+        ],
+        "key_distinguishing_features": "This segment focuses on the behavior of three mice within a controlled environment, specifically their interactions with objects and each other. The text overlay suggests that the observation is part of a behavioral study, emphasizing the counting of grooming maneuvers. The setup is designed to facilitate detailed observation of the mice's activities."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        284.688,
+        379.584
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher gently places a mouse into a cylindrical cardboard tube with multiple small holes",
+          "Mouse is observed moving within the tube, exploring its environment"
+        ],
+        "objects_visible": [
+          "Cardboard tube with multiple small holes, labeled 'mouse tube'",
+          "Clear plastic container with a lid, possibly for housing the mouse",
+          "Black-gloved hand of the researcher",
+          "White paper with printed text underneath the tube"
+        ],
+        "visible_text_labels": [
+          "mouse tube",
+          "jove"
+        ],
+        "quantities": [
+          "One mouse",
+          "One cylindrical cardboard tube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase where a mouse is placed in a specially designed cardboard tube. The researcher's actions are gentle and precise, ensuring the mouse's safety. The setup suggests a behavioral or sensory test environment."
+      }
+    }
+  ]
+}

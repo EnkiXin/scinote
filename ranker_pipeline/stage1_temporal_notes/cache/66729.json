@@ -1,0 +1,184 @@
+{
+  "video_id": "66729",
+  "benchmark": "scivideobench",
+  "duration_seconds": 316.629333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        79.15733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a sterile tissue culture hood",
+          "researcher dons blue nitrile gloves",
+          "researcher picks up a pipette and adjusts its volume",
+          "researcher transfers liquid from a test tube into a well plate"
+        ],
+        "objects_visible": [
+          "sterile tissue culture hood with a perforated metal surface",
+          "yellow test tube rack holding multiple test tubes with blue caps",
+          "pipette with a black plunger and white body",
+          "well plate with multiple compartments",
+          "bottle of red liquid with a white cap",
+          "blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "Enhancing CD8 T Cell Responses Through Re-stimulation with Cancer Cells and Evaluation of Tumor Reactivity",
+          "Demonstrators: Martina Musella, Nicoletta Manduca, and Ester Maccafero",
+          "jove"
+        ],
+        "quantities": [
+          "test tubes in a yellow rack",
+          "pipette volume adjustment"
+        ],
+        "key_distinguishing_features": "This segment highlights the initial preparation steps in a laboratory setting, focusing on the use of a sterile tissue culture hood and the handling of test tubes and pipettes. The presence of blue nitrile gloves and the sterile environment emphasize the importance of maintaining a contamination-free workspace. The video also includes text overlays introducing the research topic and the demonstrators."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        79.15733325,
+        158.3146665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a multi-channel pipette and dispenses liquid into a 96-well plate",
+          "researcher places the 96-well plate into a white polystyrene box",
+          "researcher uses a computer to analyze flow cytometry data displayed on the screen"
+        ],
+        "objects_visible": [
+          "multi-channel pipette with blue tips",
+          "96-well plate with a blue lid",
+          "white polystyrene box",
+          "computer monitor displaying flow cytometry graphs",
+          "keyboard and mouse on a desk",
+          "various laboratory reagents and tubes on the workbench"
+        ],
+        "visible_text_labels": [
+          "Antibody Used: Anti-mouse FITC-conjugated IFN-\u03b3 and anti-mouse PE-conjugated Grz-B",
+          "joVe logo in the top right corner"
+        ],
+        "quantities": [
+          "96 wells in the plate",
+          "data points in the flow cytometry graphs"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise use of a multi-channel pipette for liquid dispensing into a 96-well plate, followed by data analysis on a computer. The flow cytometry graphs on the screen indicate the analysis of specific antibodies used in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        158.3146665,
+        237.47199974999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into petri dish",
+          "researcher places microtube into yellow rack",
+          "researcher closes the lid of a white centrifuge"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "yellow microtube rack",
+          "white centrifuge with digital display",
+          "petri dish containing pink-colored medium",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Antibody Used: IgG isotype control or anti-mouse PE-conjugated CD45"
+        ],
+        "quantities": [
+          "1.5mL",
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of DMEM medium, highlighting the use of a pipette for accurate volume transfer. The researcher's actions are methodical, emphasizing the importance of maintaining a sterile environment. The inclusion of text labels provides specific details about the antibodies used in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        237.47199974999998,
+        316.629333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher views flow cytometry data on computer screen",
+          "researcher analyzes graphical data displayed on monitor"
+        ],
+        "objects_visible": [
+          "computer monitor displaying flow cytometry graphs",
+          "keyboard and mouse on desk",
+          "researcher wearing gloves and lab coat"
+        ],
+        "visible_text_labels": [
+          "CD4-FITC",
+          "CD8-PE",
+          "MCA205 alone",
+          "MCA205 + CD8",
+          "48 h",
+          "72 h",
+          "P < 0.0001",
+          "Cytokine Secretion (%)"
+        ],
+        "quantities": [
+          "66.2%",
+          "11.5%",
+          "67.3%",
+          "32.7%",
+          "48 h",
+          "72 h"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of flow cytometry data, with detailed graphs and statistical analysis displayed on the screen. The researcher is analyzing the effects of MCA205 alone and in combination with CD8 over time. The data includes percentages and statistical significance, indicating a thorough examination of cellular responses."
+      }
+    }
+  ]
+}

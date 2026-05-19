@@ -1,0 +1,175 @@
+{
+  "video_id": "videos/level_2/video_verification/67016/clip_12_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.562032,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.640508
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into petri dish",
+          "holds petri dish with gloved hands"
+        ],
+        "objects_visible": [
+          "petri dish with pink medium",
+          "pipette with clear tip",
+          "orange test tube rack",
+          "gloved hands",
+          "blue-capped tube"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise action of pipetting liquid into a petri dish containing a pink medium. The gloved hands and laboratory setup indicate a controlled environment. The orange test tube rack in the background adds a distinctive color contrast to the scene."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.640508,
+        13.281016
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a pink-colored liquid into a petri dish",
+          "researcher places the petri dish lid back on"
+        ],
+        "objects_visible": [
+          "petri dishes with a pink medium",
+          "a pipette with a metallic tip",
+          "a gloved hand",
+          "an orange rack in the background"
+        ],
+        "visible_text_labels": [
+          "Change the medium once a week"
+        ],
+        "quantities": [
+          "one petri dish being filled with liquid"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of transferring a pink medium into a petri dish, emphasizing the importance of regular medium changes. The gloved hand and pipette highlight the sterile conditions necessary for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.281016,
+        19.921523999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [],
+        "objects_visible": [
+          "microscopic images of cells in various stages of development",
+          "fluorescent green staining indicating EGFP expression"
+        ],
+        "visible_text_labels": [
+          "Representative Results",
+          "BF",
+          "EGFP",
+          "Merge",
+          "A1",
+          "A2",
+          "A3",
+          "B1",
+          "B2",
+          "B3",
+          "C1",
+          "C2",
+          "C3",
+          "MG",
+          "RO+MG Day 18",
+          "RO+MG Day 30"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment displays a grid of microscopic images showing cells at different stages of development, with a focus on EGFP expression. The images are labeled with specific conditions and time points, such as 'RO+MG Day 18' and 'RO+MG Day 30', indicating a time-series observation. The 'Merge' column combines bright-field and fluorescent images for a comprehensive view of the cells."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.921523999999998,
+        26.562032
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscopic imaging of cells under different conditions"
+        ],
+        "objects_visible": [
+          "cells in various stages of development",
+          "fluorescent green protein (EGFP) expression in cells",
+          "merged images showing both bright field and EGFP fluorescence"
+        ],
+        "visible_text_labels": [
+          "BF",
+          "EGFP",
+          "Merge",
+          "MG",
+          "RO+MG Day 18",
+          "RO+MG Day 30",
+          "A1",
+          "A2",
+          "A3",
+          "B1",
+          "B2",
+          "B3",
+          "C1",
+          "C2",
+          "C3"
+        ],
+        "quantities": [
+          "scale bars indicating size of cells"
+        ],
+        "key_distinguishing_features": "This segment highlights the progression of cell development over time, with a focus on EGFP expression. The C2 image is distinctly highlighted, suggesting a point of interest in the experiment. The merged images provide a comprehensive view of both structural and fluorescent characteristics of the cells."
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_segments/51846/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 41.15,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.2875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a small, rectangular object on a control panel"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and blue gloves",
+          "black control panel with various buttons and a red power indicator",
+          "treadmill-like apparatus with multiple lanes"
+        ],
+        "visible_text_labels": [
+          "POWER",
+          "TREADMILL BELT",
+          "SPEED",
+          "RUN",
+          "STOP",
+          "METERS/MINUTE"
+        ],
+        "quantities": [
+          "5.0 Meters/Minute"
+        ],
+        "key_distinguishing_features": "The researcher is interacting with a control panel that has specific settings for a treadmill-like apparatus. The panel includes a red power indicator and a speed setting of 5.0 meters per minute. The researcher's precise adjustments suggest preparation for an experiment involving the treadmill."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.2875,
+        20.575
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand presses the 'RUN' button on the treadmill control panel",
+          "A small animal, likely a rodent, begins running on the treadmill belt"
+        ],
+        "objects_visible": [
+          "A black treadmill control panel with labeled buttons and a digital display",
+          "A small rodent running on a treadmill belt",
+          "A gloved hand interacting with the control panel"
+        ],
+        "visible_text_labels": [
+          "POWER",
+          "RUN",
+          "STOP",
+          "TREADMILL BELT",
+          "SPEED",
+          "METERS/MINUTE",
+          "14.0"
+        ],
+        "quantities": [
+          "14.0 meters/minute"
+        ],
+        "key_distinguishing_features": "The segment captures the initiation of a treadmill test, with a specific speed setting of 14.0 meters per minute. The focus is on the control panel and the rodent's movement, highlighting the start of the experiment. The gloved hand indicates a controlled and sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.575,
+        30.862499999999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "mouse runs on a treadmill"
+        ],
+        "objects_visible": [
+          "black and white mouse",
+          "treadmill with a dark surface and metallic sides"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The mouse is actively running on the treadmill, demonstrating physical activity. The treadmill's design includes a dark running surface and metallic side rails, which are clearly visible. The 'jove' logo is present in the top right corner of the frame."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        30.862499999999997,
+        41.15
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "a small animal, likely a mouse, is seen moving within a confined space"
+        ],
+        "objects_visible": [
+          "a series of vertical, narrow compartments with a dark, textured floor and a translucent top"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a single compartment where a small animal is actively moving, suggesting a behavioral observation. The translucent top allows for clear visibility of the animal's actions. The 'jove' logo indicates the video is part of a scientific demonstration or experiment."
+      }
+    }
+  ]
+}

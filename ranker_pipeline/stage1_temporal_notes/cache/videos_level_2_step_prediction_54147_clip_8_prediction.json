@@ -1,0 +1,150 @@
+{
+  "video_id": "videos/level_2/step_prediction/54147/clip_8_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 25.479767,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.36994175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a rectangular metal tray with a reflective surface",
+          "researcher uses a brush to scrub the surface of the tray"
+        ],
+        "objects_visible": [
+          "rectangular metal tray with a reflective surface",
+          "brush with a wooden handle and bristles",
+          "black textured countertop",
+          "orange and silver faucet handles",
+          "bottle with a white label and red liquid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation of a metal tray, highlighting the meticulous cleaning process using a brush. The reflective surface of the tray and the researcher's gloved hands are prominent features. The background includes laboratory equipment and a bottle with a visible label."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.36994175,
+        12.7398835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "applies a white substance to a rectangular metal tray",
+          "spreads the white substance evenly across the tray's surface"
+        ],
+        "objects_visible": [
+          "rectangular metal tray with a reflective surface",
+          "white substance being applied",
+          "blue nitrile gloves worn by the person",
+          "dark textured background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the meticulous application of a white substance to a metal tray, emphasizing the preparation phase. The person's hands, clad in blue nitrile gloves, are the primary actors, and the reflective surface of the tray adds a distinctive visual element. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.7398835,
+        19.10982525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher rinses a rectangular metal tray under running water",
+          "researcher holds a long wooden-handled brush"
+        ],
+        "objects_visible": [
+          "rectangular metal tray with water dripping from it",
+          "long wooden-handled brush with bristles",
+          "black sink with a curved faucet and orange valve handles",
+          "various cleaning supplies including spray bottles and a cardboard box"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is meticulously rinsing a metal tray, suggesting a focus on cleanliness. The presence of a wooden-handled brush indicates a thorough cleaning process. The setup includes a variety of cleaning supplies, emphasizing a laboratory environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.10982525,
+        25.479767
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher sprays a white liquid from a spray bottle onto a rectangular metal tray",
+          "researcher holds the metal tray with one hand while spraying with the other"
+        ],
+        "objects_visible": [
+          "rectangular metal tray with a reflective surface",
+          "white spray bottle with a red nozzle",
+          "blue latex gloves on the researcher's hands",
+          "a mesh countertop with various items including a brush, a bottle with a red cap, and a white bottle with a pump dispenser",
+          "a yellow-handled tool leaning against the wall"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation of a metal tray by spraying it with a liquid, likely for cleaning or treatment purposes. The researcher's hands are gloved, emphasizing the controlled nature of the experiment. The mesh countertop and surrounding tools suggest a laboratory or workshop setting."
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/57561/clip_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.162,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.2905
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wipes a small plant root with a white cloth",
+          "researcher holds a small plant with visible roots"
+        ],
+        "objects_visible": [
+          "small plant with green leaves and exposed roots",
+          "white cloth used for cleaning",
+          "blue gloves worn by the researcher",
+          "shovel in the background",
+          "loose soil in the field"
+        ],
+        "visible_text_labels": [
+          "Use sterile technique throughout protocol"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully handling a small plant, emphasizing the use of sterile technique. The white cloth is used to clean the plant roots, indicating a focus on maintaining cleanliness. The outdoor setting with loose soil and a shovel suggests a field-based experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.2905,
+        16.581
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a small trowel to dig into the soil",
+          "researcher places a small wooden stick into the soil next to a plant"
+        ],
+        "objects_visible": [
+          "small trowel with a red handle",
+          "wooden stick with a pointed end",
+          "green plant with a single stem",
+          "soil with visible clumps and organic matter"
+        ],
+        "visible_text_labels": [
+          "See accompanying text protocol for detailed guidance"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively engaging with the soil and a plant, using tools for precise placement. The focus is on the hands and tools, emphasizing the careful handling of the plant and its environment. The text overlay suggests a detailed protocol is available for reference."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.581,
+        24.871499999999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher carefully places a small plant into a clear plastic bag",
+          "researcher seals the plastic bag containing the plant"
+        ],
+        "objects_visible": [
+          "clear plastic bag with a pink zipper",
+          "small green plant with a white base",
+          "blue nitrile gloves",
+          "white styrofoam container",
+          "soil in the background"
+        ],
+        "visible_text_labels": [
+          "See accompanying text protocol for detailed guidance",
+          "jove"
+        ],
+        "quantities": [
+          "one small plant",
+          "one clear plastic bag"
+        ],
+        "key_distinguishing_features": "The researcher is meticulously handling a small plant, ensuring it is properly sealed in a clear plastic bag. The use of blue nitrile gloves highlights the importance of maintaining a sterile environment. The presence of a white styrofoam container suggests the plant may be part of a larger collection or experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.871499999999997,
+        33.162
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher carefully places a small white container on the ground",
+          "researcher uses a tool to transfer a sample from the container into a clear plastic bag"
+        ],
+        "objects_visible": [
+          "small white container with a lid",
+          "clear plastic bag with a pink zipper",
+          "researcher wearing blue gloves and a gray jacket",
+          "green plant growing in the soil",
+          "black shoes with red accents"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one small white container",
+          "one clear plastic bag"
+        ],
+        "key_distinguishing_features": "The researcher is transferring a sample from a small white container into a clear plastic bag, indicating a precise and controlled action. The presence of a growing plant in the background suggests an outdoor or field-based experiment. The use of blue gloves highlights the importance of maintaining a sterile environment."
+      }
+    }
+  ]
+}

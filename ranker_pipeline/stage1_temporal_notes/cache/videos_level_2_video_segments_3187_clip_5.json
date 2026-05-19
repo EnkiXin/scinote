@@ -1,0 +1,147 @@
+{
+  "video_id": "videos/level_2/video_segments/3187/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.918,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.7295
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a knob on a piece of laboratory equipment",
+          "researcher places a small object on a microscope stage"
+        ],
+        "objects_visible": [
+          "laboratory equipment with knobs and dials",
+          "microscope with a stage and eyepieces",
+          "shelves with various lab apparatus and tools"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher interacting with laboratory equipment, specifically adjusting a knob and placing an object on a microscope. The environment is a well-equipped lab with visible shelves of tools and apparatus. The focus is on the preparation phase of an experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.7295,
+        15.459
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts the knobs on a microscope stage",
+          "researcher operates a control panel with a digital display"
+        ],
+        "objects_visible": [
+          "microscope with a black stage and eyepieces",
+          "control panel with a digital display and buttons",
+          "various laboratory equipment and cables in the background"
+        ],
+        "visible_text_labels": [
+          "LAMDA 20-100 on the control panel"
+        ],
+        "quantities": [
+          "digital display showing '000'"
+        ],
+        "key_distinguishing_features": "The researcher is actively manipulating the microscope and control panel, indicating a precise setup or adjustment phase. The digital display on the control panel suggests a quantifiable parameter being set. The environment is a typical laboratory setup with various equipment visible."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.459,
+        23.188499999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a component on a black laboratory instrument"
+        ],
+        "objects_visible": [
+          "black laboratory instrument with a flat surface and multiple white compartments",
+          "researcher's gloved hand manipulating the instrument"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the researcher's gloved hand making precise adjustments to a laboratory instrument. The instrument has a flat black surface with white compartments, suggesting it is used for sample handling or analysis. The 'jove' logo is visible in the top right corner, indicating the video's source."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.188499999999998,
+        30.918
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A green pipette tip is inserted into a small, transparent microfluidic device, dispensing a liquid.",
+          "The liquid spreads through the microchannels of the device."
+        ],
+        "objects_visible": [
+          "A transparent microfluidic device with visible microchannels.",
+          "A green pipette tip dispensing liquid.",
+          "Two blue connectors attached to the device.",
+          "A black circular platform holding the microfluidic device."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The liquid appears to be a small volume, likely in the microliter range, based on the size of the microchannels."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise dispensing of liquid into a microfluidic device, highlighting the intricate design of the microchannels. The green pipette tip and the transparent nature of the device allow for clear visualization of the liquid flow. The blue connectors suggest the device is part of a larger setup, possibly for fluid control or data collection."
+      }
+    }
+  ]
+}

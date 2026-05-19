@@ -1,0 +1,145 @@
+{
+  "video_id": "videos/level_2/video_verification/2464/clip_5_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 22.843933,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.71098325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical scissors are used to manipulate tissue",
+          "a gloved hand holds and adjusts the tissue"
+        ],
+        "objects_visible": [
+          "surgical scissors with metallic blades",
+          "gloved hand with a light skin tone",
+          "animal tissue with visible blood vessels and connective tissue",
+          "a bright surgical light illuminating the area"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure with precise manipulation of tissue using scissors. The bright surgical light highlights the intricate details of the tissue and the surgical tools. The gloved hand indicates a sterile environment for the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.71098325,
+        11.4219665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical scissors are used to manipulate tissue",
+          "a surgical procedure is being performed on an animal"
+        ],
+        "objects_visible": [
+          "surgical scissors with metallic blades",
+          "exposed red tissue and muscle of an animal",
+          "animal fur surrounding the surgical site"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure, with surgical scissors actively manipulating tissue. The bright light highlights the vivid red color of the exposed tissue, and the surrounding fur indicates the procedure is being performed on an animal. The 'jove' logo is visible in the top right corner."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.4219665,
+        17.13294975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical scissors are used to manipulate tissue within an open incision"
+        ],
+        "objects_visible": [
+          "surgical scissors with metallic blades",
+          "exposed red tissue and blood within an incision",
+          "animal fur surrounding the surgical site"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure, with scissors actively manipulating tissue. The bright lighting highlights the vivid red color of the exposed tissue and blood. The surrounding fur indicates the procedure is being performed on an animal."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.13294975,
+        22.843933
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments are used to manipulate a tissue site",
+          "a gloved hand adjusts the position of the surgical instruments"
+        ],
+        "objects_visible": [
+          "animal with light-colored fur and a visible surgical incision",
+          "metal surgical forceps with a serrated edge",
+          "metal surgical scissors with a pointed tip",
+          "gloved hand of a researcher"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure on an animal, with clear focus on the use of forceps and scissors to manipulate the tissue. The presence of a gloved hand indicates a sterile environment. The 'jove' logo suggests this is part of a scientific or educational video."
+      }
+    }
+  ]
+}

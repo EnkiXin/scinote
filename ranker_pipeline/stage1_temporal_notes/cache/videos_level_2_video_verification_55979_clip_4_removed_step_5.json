@@ -1,0 +1,175 @@
+{
+  "video_id": "videos/level_2/video_verification/55979/clip_4_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.602667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.65066675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a black MinION Flow Cell device",
+          "researcher carefully inserts a small cartridge into the Flow Cell"
+        ],
+        "objects_visible": [
+          "black MinION Flow Cell device with a grid of holes",
+          "small cartridge with a yellow label and black components",
+          "computer monitor displaying 'Johns Hopkins' logo",
+          "black keyboard and mouse",
+          "various laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "Johns Hopkins",
+          "MinION Flow Cell"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a MinION Flow Cell, a specialized device for DNA sequencing. The researcher's gloved hands indicate a sterile environment, emphasizing the importance of contamination prevention. The background laboratory setting suggests a professional research environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.65066675,
+        19.3013335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher connects a USB cable to a handheld device with a digital display",
+          "researcher plugs the other end of the USB cable into a computer's USB port"
+        ],
+        "objects_visible": [
+          "handheld device with a digital display and buttons",
+          "USB cable with a Type-A connector",
+          "computer with a visible USB port",
+          "computer mouse and keyboard on a desk",
+          "researcher wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "jove logo in the top right corner"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the setup of a handheld device by connecting it to a computer via a USB cable. The researcher's hands are gloved, emphasizing a controlled environment. The digital display on the device suggests it is a specialized piece of equipment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.3013335,
+        28.952000249999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "selects 'NC_Platform_QC.py' script from the dropdown menu",
+          "clicks the 'Execute' button to run the selected script"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a software interface",
+          "Dell computer brand logo",
+          "software window with various input fields and options"
+        ],
+        "visible_text_labels": [
+          "NC_Platform_QC.py",
+          "Choose Operation",
+          "Flow cell product code",
+          "Execute",
+          "Disk Space",
+          "C: (647,885Mb free)"
+        ],
+        "quantities": [
+          "647,885Mb free disk space"
+        ],
+        "key_distinguishing_features": "This segment focuses on the execution phase of a software operation, specifically selecting and running a quality control script named 'NC_Platform_QC.py'. The interface shows detailed options and disk space information, emphasizing the technical setup for the experiment. The action of clicking 'Execute' marks the initiation of the script's operation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        28.952000249999998,
+        38.602667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The video displays a static screen of a software interface, likely for monitoring and analyzing data from a nanopore sequencing experiment."
+        ],
+        "objects_visible": [
+          "A computer screen showing a graphical user interface with various data metrics and visualizations."
+        ],
+        "visible_text_labels": [
+          "Physical Input",
+          "Temperature",
+          "Voltage",
+          "Analysis Delay",
+          "Single pore",
+          "Possible multiple",
+          "Unavailable pore",
+          "Saturated",
+          "Out of range 1",
+          "Out of range 2",
+          "Zero",
+          "Threshold triggered"
+        ],
+        "quantities": [
+          "343 (Single pore)",
+          "12 (Possible multiple)",
+          "44 (Unavailable pore)",
+          "2 (Out of range 2)",
+          "106 (Saturated)",
+          "12 (Out of range 1)",
+          "5 (Zero)",
+          "0 (Unclassified)",
+          "0 (Out of range 2)",
+          "0 (Threshold triggered)"
+        ],
+        "key_distinguishing_features": "The segment is distinctive for its focus on real-time data analysis, with a detailed breakdown of pore status and event counts. The visual representation of data through color-coded bars provides a clear overview of the sequencing process's progress and efficiency."
+      }
+    }
+  ]
+}

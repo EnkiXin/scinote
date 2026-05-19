@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_2/step_prediction/64175/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 46.422,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.6055
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "researcher uses pipette to transfer liquid from microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "pipette with black and white handle",
+          "yellow and green test tube racks",
+          "petri dish with pink-colored medium"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Reprogramming of Astrocytes (7-Day Analysis)"
+        ],
+        "quantities": [
+          "~200uL of liquid transferred"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of an experiment involving astrocyte reprogramming. The researcher is seen handling a microtube labeled 'DMEM', indicating the use of a specific medium. The precise action of transferring liquid using a pipette highlights the careful handling required in this step."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.6055,
+        23.211
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 24-well cell culture plate with multiple wells containing a red liquid",
+          "researcher uses a pipette to transfer a small volume of liquid from a test tube into one of the wells"
+        ],
+        "objects_visible": [
+          "24-well cell culture plate with red liquid in some wells",
+          "yellow and green test tube racks",
+          "test tubes with blue caps",
+          "pipette with a red liquid inside"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "24 wells in the cell culture plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of liquid using a pipette into a specific well of a 24-well plate. The use of color-coded test tube racks and the presence of a red liquid in the pipette and wells are distinctive features. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.211,
+        34.8165
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a CO2 incubator and places a multi-well plate inside",
+          "researcher uses a pipette to transfer a liquid from a test tube into a multi-well plate"
+        ],
+        "objects_visible": [
+          "CO2 incubator with a glass door and a digital display",
+          "multi-well plate with clear wells containing a pinkish liquid",
+          "pipette with a white body and black plunger",
+          "test tubes in a yellow and green rack, some with blue caps and others with red caps",
+          "blue-gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "Use 5% CO2 if a 9% CO2 incubator is unavailable"
+        ],
+        "quantities": [
+          "5% CO2",
+          "9% CO2"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of a multi-well plate and the use of a CO2 incubator, emphasizing the importance of controlled CO2 levels. The researcher's actions are methodical, focusing on transferring liquids accurately with a pipette."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        34.8165,
+        46.422
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a well of a 96-well plate",
+          "researcher picks up a 1.5mL microtube with a blue cap from a green test tube rack"
+        ],
+        "objects_visible": [
+          "96-well plate with pink liquid in some wells",
+          "pipette with a white handle and transparent tip",
+          "green test tube rack with multiple holes",
+          "yellow test tube rack with a 1.5mL microtube and a test tube",
+          "microtube with a blue cap and a label",
+          "test tube with a blue cap and a label",
+          "blue-gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "joVE"
+        ],
+        "quantities": [
+          "96 wells in the plate",
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting liquid into a 96-well plate, highlighting the careful handling of laboratory equipment. The presence of both green and yellow test tube racks adds a visual distinction to the workspace. The researcher's gloved hand emphasizes the importance of maintaining a sterile environment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_2/video_segments/55858/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 48.455,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.11375
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "software interface displays changing values for voltage and current"
+        ],
+        "objects_visible": [
+          "computer screen showing a software interface for electrochemical measurements"
+        ],
+        "visible_text_labels": [
+          "Autolab display",
+          "Instrument description",
+          "PSTAT",
+          "ECD",
+          "current range",
+          "status",
+          "CELL",
+          "Apply"
+        ],
+        "quantities": [
+          "-0.8 V",
+          "-0.00 14 uA",
+          "100 uA",
+          "10 uA",
+          "1 uA"
+        ],
+        "key_distinguishing_features": "The segment focuses on a software interface used for electrochemical measurements, showing real-time updates of voltage and current values. The interface includes options for setting potential and current ranges, indicating a controlled measurement process. The changing values suggest active monitoring or adjustment during the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.11375,
+        24.2275
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "hand adjusts a knob on a peristaltic pump speed controller"
+        ],
+        "objects_visible": [
+          "peristaltic pump speed controller labeled 'QL-1000'",
+          "digital display showing '0.00' on the pump controller",
+          "various laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "PUMP SPEED REVERSER",
+          "QL-1000",
+          "0.00"
+        ],
+        "quantities": [
+          "0.00 (displayed on the pump controller)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a peristaltic pump speed controller, highlighting the digital display and the hand's interaction with the device. The background includes laboratory equipment, emphasizing a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        24.2275,
+        36.34125
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A hand adjusts the knob on a peristaltic pump speed controller labeled 'QL-1000'.",
+          "A clear glass vial with a red cap is shown, containing a liquid and connected to tubing."
+        ],
+        "objects_visible": [
+          "A peristaltic pump speed controller with a digital display showing '064'.",
+          "A clear glass vial with a red cap, containing a liquid and connected to orange tubing.",
+          "A metal clamp holding the vial in place."
+        ],
+        "visible_text_labels": [
+          "PUMP SPEED REVIEW",
+          "QL-1000",
+          "064"
+        ],
+        "quantities": [
+          "The digital display on the pump speed controller reads '064'."
+        ],
+        "key_distinguishing_features": "This segment focuses on the operation of a peristaltic pump, highlighting the adjustment of the pump speed and the setup involving a vial with liquid and tubing. The digital display reading '064' is a key feature, indicating the specific setting being used."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        36.34125,
+        48.455
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "scrolls through data on computer screen",
+          "zooms in on specific graph section"
+        ],
+        "objects_visible": [
+          "computer monitor displaying data analysis software",
+          "graph with multiple lines and data points",
+          "software interface with toolbars and options"
+        ],
+        "visible_text_labels": [
+          "jove",
+          "Data Analysis",
+          "Graph 1",
+          "Time (s)",
+          "Amplitude (mV)"
+        ],
+        "quantities": [
+          "time range from 0 to 1000 seconds",
+          "amplitude values ranging from -10 to 10 mV"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where detailed data analysis is being conducted. The graph on the screen shows fluctuating amplitude over time, indicating dynamic measurements. The user interacts with the software to closely examine specific data points."
+      }
+    }
+  ]
+}

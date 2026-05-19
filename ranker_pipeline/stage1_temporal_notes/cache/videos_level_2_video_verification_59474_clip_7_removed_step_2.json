@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_verification/59474/clip_7_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.740333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.93508325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a metal tool to manipulate a small, transparent container with a pink substance",
+          "researcher adjusts the position of the container on a metal stand"
+        ],
+        "objects_visible": [
+          "metal stand with a circular base and adjustable arms",
+          "small transparent container with a pink substance",
+          "purple nitrile gloves",
+          "white lab coat with red logo",
+          "red petri dish in the background",
+          "beakers with clear and blue liquids"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher's precise use of a metal tool to handle a small container highlights a delicate and controlled action. The presence of a pink substance in the container suggests a specific experimental material. The metal stand and the researcher's attire indicate a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.93508325,
+        17.8701665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a rectangular, white, semi-transparent strip",
+          "researcher carefully places the strip into a clear, circular petri dish containing a small, pinkish gel-like substance"
+        ],
+        "objects_visible": [
+          "petri dish with a pinkish gel-like substance",
+          "rectangular white strip with a semi-transparent appearance",
+          "metallic frame with adjustable screws",
+          "black lab bench with a grid pattern",
+          "red container labeled 'DMEM' in the background"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "one petri dish",
+          "one rectangular strip"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a semi-transparent strip into a petri dish, suggesting a step in preparing a sample for analysis. The presence of a metallic frame with screws indicates a controlled setup, likely for maintaining the strip's position. The background includes a red container labeled 'DMEM,' hinting at the use of a specific medium in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.8701665,
+        26.80524975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a petri dish with a sample into a sterilization chamber",
+          "researcher closes the sterilization chamber door"
+        ],
+        "objects_visible": [
+          "sterilization chamber with a transparent door",
+          "petri dish containing a sample",
+          "researcher wearing purple gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the sterilization process, highlighting the careful placement of a petri dish into a specialized chamber. The researcher's methodical actions emphasize the importance of maintaining a sterile environment. The transparent door of the sterilization chamber allows for a clear view of the interior setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.80524975,
+        35.740333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher points at a computer monitor displaying an image",
+          "researcher gestures towards a microscope setup"
+        ],
+        "objects_visible": [
+          "computer monitor with a visible image",
+          "microscope setup with various lenses and adjustment knobs",
+          "laboratory equipment including a digital device with a screen"
+        ],
+        "visible_text_labels": [
+          "IV. Imaging"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the imaging phase of the experiment, with the researcher interacting with a computer monitor and microscope setup. The text 'IV. Imaging' is prominently displayed, indicating the specific section of the experiment being discussed. The setup includes detailed laboratory equipment, emphasizing the technical nature of the imaging process."
+      }
+    }
+  ]
+}

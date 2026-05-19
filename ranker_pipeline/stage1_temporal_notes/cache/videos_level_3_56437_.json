@@ -1,0 +1,167 @@
+{
+  "video_id": "videos/level_3/56437_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 492.224,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        123.056
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher in a white lab coat and gloves handles a 250 mL Duran bottle with a blue cap, labeled 'NGM'.",
+          "The researcher uses a pipette to transfer a clear liquid from a labeled bottle into a petri dish."
+        ],
+        "objects_visible": [
+          "A 250 mL Duran bottle with a blue cap and a yellow warning label.",
+          "A petri dish with a clear liquid being added.",
+          "A pipette with a blue plunger."
+        ],
+        "visible_text_labels": [
+          "NGM",
+          "Duran 250 mL"
+        ],
+        "quantities": [
+          "250 mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase where a specific medium (NGM) is being handled and transferred into a petri dish. The use of a Duran bottle and the precise handling of the liquid highlight the controlled environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        123.056,
+        246.112
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a blue plastic tray containing 33 petri dishes",
+          "researcher places the tray on a metal shelf inside a refrigerator",
+          "researcher picks up a 500mL bottle with a blue cap labeled 'DMEM' and places it on a digital scale"
+        ],
+        "objects_visible": [
+          "blue plastic tray with 33 petri dishes",
+          "500mL bottle with blue cap labeled 'DMEM'",
+          "digital scale with a white platform",
+          "metal shelf inside a refrigerator",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "~33 dishes",
+          "DMEM"
+        ],
+        "quantities": [
+          "33 petri dishes",
+          "500mL bottle"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the preparation phase, where the researcher organizes and measures materials. The use of a blue tray with a specific count of petri dishes and the precise placement of a labeled DMEM bottle on a scale highlight the meticulous nature of the setup. The refrigerator setting suggests the need for temperature-controlled storage."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        246.112,
+        369.168
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher observes worms under a stereo microscope at 20X magnification",
+          "computer screen displays microscopic image of worms with measurement tools"
+        ],
+        "objects_visible": [
+          "stereo microscope with eyepieces and adjustment knobs",
+          "computer monitor showing a microscopic image with a scale bar and measurement tools",
+          "laboratory environment with a large incubator in the background"
+        ],
+        "visible_text_labels": [
+          "Observe worms at 20X under stereo microscope everyday",
+          "Scale: 0.220 pixels/\u03bcm"
+        ],
+        "quantities": [
+          "20X magnification",
+          "0.220 pixels/\u03bcm scale"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of worms under a stereo microscope, emphasizing the use of a 20X magnification. The computer screen provides a detailed view of the worms with precise measurement tools, highlighting the quantitative aspect of the observation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        369.168,
+        492.224
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Displays bar graphs comparing total number of eggs laid per worm under control and etoposide conditions at 24, 48, 72, and 96 hours.",
+          "Highlights significant differences with asterisks on the bar graphs."
+        ],
+        "objects_visible": [
+          "Bar graphs with error bars for control and etoposide conditions",
+          "Microscopic images of worms under control and etoposide conditions"
+        ],
+        "visible_text_labels": [
+          "Total number of eggs (laid per worm)",
+          "Control",
+          "Etoposide",
+          "24 h",
+          "48 h",
+          "72 h",
+          "96 h",
+          "1 mm"
+        ],
+        "quantities": [
+          "250 eggs (maximum on y-axis)",
+          "24, 48, 72, 96 hours (x-axis values)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of egg-laying behavior in worms under different conditions, using bar graphs to compare results. The inclusion of microscopic images provides a visual reference for the worm's condition. The use of asterisks indicates statistically significant differences between the control and etoposide groups."
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_2/video_segments/64175/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 59.211,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.80275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "pipette with black handle",
+          "petri dish with pink medium",
+          "yellow and green test tube racks"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Reprogramming of Astrocytes (7-Day Analysis)"
+        ],
+        "quantities": [
+          "~200uL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where precise handling of DMEM medium is observed. The use of a pipette to transfer a specific volume of medium into a petri dish is a key action. The presence of color-coded test tube racks adds to the organized laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.80275,
+        29.6055
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid from a test tube into a well of a multi-well plate",
+          "researcher places the multi-well plate into an incubator"
+        ],
+        "objects_visible": [
+          "yellow test tube rack holding multiple test tubes with clear liquid",
+          "green test tube rack with a single test tube labeled 'DMEM' with a blue cap",
+          "pipette with a red tip",
+          "multi-well plate with clear liquid in some wells",
+          "incubator with a glass door and a digital display"
+        ],
+        "visible_text_labels": [
+          "Use 5% CO2 if a 9% CO2 incubator is unavailable"
+        ],
+        "quantities": [
+          "multiple test tubes in the yellow rack",
+          "one test tube in the green rack"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise transfer of liquid using a pipette into a multi-well plate, followed by the placement of the plate into an incubator. The text on the screen provides specific instructions about CO2 concentration for the incubator, emphasizing the controlled environment required for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        29.6055,
+        44.408249999999995
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a multi-channel pipette and dispenses liquid into a 96-well plate",
+          "researcher carefully places the pipette tips into the wells of the plate"
+        ],
+        "objects_visible": [
+          "96-well plate with pink liquid in some wells",
+          "multi-channel pipette with white tips",
+          "yellow and green test tube racks holding various tubes",
+          "blue-gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "Use 5% CO2 if a 9% CO2 incubator is unavailable"
+        ],
+        "quantities": [
+          "96 wells in the plate",
+          "multiple pipette tips"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise dispensing of liquid into a 96-well plate using a multi-channel pipette, highlighting the methodical and repetitive nature of the task. The presence of the text label about CO2 incubator usage suggests a specific experimental condition. The organized setup with test tube racks and the researcher's careful handling of the pipette emphasize the controlled environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        44.408249999999995,
+        59.211
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid into a multi-well plate",
+          "researcher holds a multi-well plate containing pink-colored liquid in each well"
+        ],
+        "objects_visible": [
+          "pipette with a white handle and a blue plunger",
+          "transparent multi-well plate with 24 wells, each containing pink liquid",
+          "researcher wearing blue gloves",
+          "green and yellow test tube racks in the background",
+          "test tubes with blue caps in the yellow rack"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "24 wells in the multi-well plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of liquid into a multi-well plate, highlighting the use of a pipette and the pink-colored liquid in each well. The researcher's blue gloves and the organized setup with test tube racks in the background emphasize a controlled laboratory environment."
+      }
+    }
+  ]
+}

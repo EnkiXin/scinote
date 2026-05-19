@@ -1,0 +1,174 @@
+{
+  "video_id": "videos/level_3/57407_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 532.394667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        133.09866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher holds a small, transparent cylindrical container with a black cap, likely containing a sample.",
+          "The researcher uses a black marker to label a black rectangular object, possibly a sample holder or a part of the experimental setup."
+        ],
+        "objects_visible": [
+          "A small, transparent cylindrical container with a black cap.",
+          "A black rectangular object being labeled with a black marker.",
+          "A laboratory environment with shelves containing various equipment and supplies."
+        ],
+        "visible_text_labels": [
+          "II. Sample Preparation"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the initial preparation of samples, highlighting the labeling of a black rectangular object and the handling of a small transparent container. The setting is a well-equipped laboratory, indicating a controlled environment for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        133.09866675,
+        266.1973335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a transparent rectangular cuvette with dimensions 2.0 mm x 10.0 mm x 45.0 mm.",
+          "Researcher places a 0.5 mm diameter steel sphere into the cuvette."
+        ],
+        "objects_visible": [
+          "Transparent rectangular cuvette with precise dimensions.",
+          "0.5 mm diameter steel sphere.",
+          "Black mechanical setup with a hand adjusting a component."
+        ],
+        "visible_text_labels": [
+          "2.0 mm x 10.0 mm x 45.0 mm",
+          "0.5 mm dia, steel sphere",
+          "III. Near-IR (NIR) Imaging System Preparation"
+        ],
+        "quantities": [
+          "2.0 mm x 10.0 mm x 45.0 mm",
+          "0.5 mm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise preparation of a cuvette for a near-infrared imaging system, highlighting the exact dimensions and the inclusion of a small steel sphere. The mechanical setup suggests adjustments are being made for accurate positioning."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        266.1973335,
+        399.29600025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A hand adjusts a component on a complex optical setup, likely fine-tuning the alignment.",
+          "The computer screen displays a software interface with a live feed of a dark circular object, possibly a sample being analyzed.",
+          "The user interacts with the software, exporting a sequence of data as indicated by the 'Please wait. Exporting file...' message."
+        ],
+        "objects_visible": [
+          "A hand wearing a black sleeve, manipulating a knob on the optical setup.",
+          "A computer screen showing a software interface with various controls and a live feed.",
+          "A dark circular object displayed on the software's live feed, possibly a sample under observation."
+        ],
+        "visible_text_labels": [
+          "indigo",
+          "Please wait. Exporting file...",
+          "Set Display Range",
+          "Export Sequence",
+          "Export File Format: AVI"
+        ],
+        "quantities": [
+          "The software interface shows a frame rate of 10.00 fps."
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the observation phase, where a sample is being monitored through a software interface. The user's interaction with the software to export data suggests a transition from real-time observation to data analysis. The presence of a hand adjusting the optical setup highlights the precision required in this experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        399.29600025,
+        532.394667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "scientist adjusts camera position",
+          "scientist gestures towards experimental setup"
+        ],
+        "objects_visible": [
+          "scientist wearing a light blue patterned shirt",
+          "camera mounted on a tripod",
+          "laboratory environment with shelves and equipment in the background"
+        ],
+        "visible_text_labels": [
+          "Water",
+          "Maltose Syrup (50% power)",
+          "\u0394T (K)",
+          "r (mm)",
+          "\u0394T (K)",
+          "r (mm)",
+          "10%",
+          "30%",
+          "50%",
+          "70%",
+          "90%"
+        ],
+        "quantities": [
+          "0.4 s",
+          "0.8 s",
+          "1.2 s",
+          "1 mm",
+          "0.006 K",
+          "0.003 K",
+          "0.001 K"
+        ],
+        "key_distinguishing_features": "This segment features a scientist interacting with a camera setup, likely preparing for or adjusting the recording of experimental data. The background includes detailed scientific graphs and data visualizations related to temperature changes in water and maltose syrup, emphasizing the observational phase of the experiment. The scientist's gestures suggest an explanation or demonstration of the experimental setup."
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_segments/55968/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 40.753,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.18825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a black microscope component with gloved hands",
+          "researcher uses a tool to manipulate a small object near the microscope"
+        ],
+        "objects_visible": [
+          "black microscope with a digital display",
+          "purple nitrile gloves",
+          "white lab coat",
+          "black tool with a pointed tip",
+          "laboratory shelves with various equipment"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a microscope, highlighting the use of specialized tools and gloved hands. The environment is a well-equipped laboratory with visible shelves of equipment. The 'jove' logo is prominently displayed in the corner."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.18825,
+        20.3765
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wearing blue gloves adjusts a component on a microscope",
+          "researcher uses a tool to manipulate a small, circular object on the microscope stage"
+        ],
+        "objects_visible": [
+          "black Olympus microscope with a stage and objective lenses",
+          "small, circular object on the microscope stage",
+          "tool with a metallic handle used for precise adjustments"
+        ],
+        "visible_text_labels": [
+          "OLYMPUS"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise preparation of a microscope for use, highlighting the careful handling of components by a researcher in blue gloves. The Olympus brand is clearly visible, emphasizing the professional-grade equipment. The actions are deliberate and methodical, indicating a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.3765,
+        30.56475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a component on a microscope using a tool",
+          "researcher places a camera labeled 'ANDOR Zyla' onto the microscope"
+        ],
+        "objects_visible": [
+          "black Olympus microscope with a white light source",
+          "metallic camera labeled 'ANDOR Zyla' with ventilation slots",
+          "researcher's gloved hands wearing blue nitrile gloves",
+          "tool used for adjusting the microscope component"
+        ],
+        "visible_text_labels": [
+          "ANDOR Zyla",
+          "OLYMPUS"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise adjustment of a microscope and the attachment of a specialized camera, highlighting the technical setup for imaging. The ANDOR Zyla camera is a key feature, indicating high-resolution imaging capabilities. The researcher's careful handling of the equipment underscores the precision required in this step."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        30.56475,
+        40.753
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to dispense a small volume of liquid onto a microscope slide",
+          "researcher places a small, square, transparent cover slip onto the liquid using tweezers"
+        ],
+        "objects_visible": [
+          "a pipette with a fine tip",
+          "a microscope slide with a small drop of liquid",
+          "a transparent cover slip held by tweezers",
+          "a microscope objective lens labeled 'PlanApo 60x/1.40 Oil'",
+          "a black microscope stage with a circular metal holder"
+        ],
+        "visible_text_labels": [
+          "PlanApo 60x/1.40 Oil"
+        ],
+        "quantities": [
+          "a small volume of liquid, likely microliters, dispensed by the pipette"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a liquid sample on a microscope slide, followed by the careful application of a cover slip. The use of a high-magnification oil immersion objective lens suggests detailed microscopic examination. The actions are performed with precision, emphasizing the importance of sample preparation in microscopy."
+      }
+    }
+  ]
+}

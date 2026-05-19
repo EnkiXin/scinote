@@ -1,0 +1,184 @@
+{
+  "video_id": "videos/level_2/video_segments/63013/clip_14.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 13.492,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        3.373
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"observation\",\n  \"actions_observed\": [\"displaying microscopic image with green fluorescent spots\", \"showing software interface with multiple analysis options\"],\n  \"objects_visible\": [\"microscopic image with green fluorescent spots\", \"software interface with various analysis tools\", \"image processing window with grayscale images\"],\n  \"visible_text_labels\": [\"Magnification: 100 x\", \"Sta"
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        3.373,
+        6.746
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"preparation\",\n  \"actions_observed\": [\"user interacts with software interface\", \"user selects 'Image' menu and then 'Adjust' submenu\"],\n  \"objects_visible\": [\"computer screen displaying software interface\", \"menu options under 'Image' and 'Adjust'\"],\n  \"visible_text_labels\": [\"File\", \"Edit\", \"Process\", \"Analyze\", \"Plugins\", \"Window\", \"Help\", \"Image\", \"Adjust\", \"Brightness/Contrast\", \""
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        6.746,
+        10.119
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "clicks the 'OK' button in the Threshold Values dialog box"
+        ],
+        "objects_visible": [
+          "Threshold Values dialog box with adjustable sliders and options",
+          "ImageJ software interface with menu options"
+        ],
+        "visible_text_labels": [
+          "Threshold Values",
+          "Auto",
+          "Cancel",
+          "OK",
+          "File",
+          "Edit",
+          "Image",
+          "Process",
+          "Analyze",
+          "Plugins",
+          "Window",
+          "Help"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a user interacting with the Threshold Values dialog box in ImageJ, specifically clicking the 'OK' button. The interface is minimalistic, with a focus on the software's functionality. The black background emphasizes the software window."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        10.119,
+        13.492
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "user clicks on 'File' menu in software interface",
+          "user selects 'Save As' option from the dropdown menu"
+        ],
+        "objects_visible": [
+          "software interface with multiple windows",
+          "menu dropdown with file options"
+        ],
+        "visible_text_labels": [
+          "File",
+          "Edit",
+          "Image",
+          "Process",
+          "Analyze",
+          "Plugins",
+          "Window",
+          "Help",
+          "Save As",
+          "TIFF",
+          "JPEG",
+          "PNG",
+          "BMP",
+          "GIF",
+          "AVI",
+          "PDF",
+          "EPS",
+          "SVG",
+          "PSD",
+          "RAW",
+          "DICOM",
+          "CZI",
+          "LSM",
+          "OIB",
+          "OIF",
+          "OMETIFF",
+          "OMEZarr",
+          "Zarr",
+          "HDF5",
+          "MAT",
+          "XLS",
+          "XLSX",
+          "CSV",
+          "TXT",
+          "HTML",
+          "JSON",
+          "XML",
+          "PDF",
+          "EPS",
+          "SVG",
+          "PSD",
+          "RAW",
+          "DICOM",
+          "CZI",
+          "LSM",
+          "OIB",
+          "OIF",
+          "OMETIFF",
+          "OMEZarr",
+          "Zarr",
+          "HDF5",
+          "MAT",
+          "XLS",
+          "XLSX",
+          "CSV",
+          "TXT",
+          "HTML",
+          "JSON",
+          "XML"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment shows a user interacting with a software interface, specifically navigating the 'File' menu to select the 'Save As' option. The dropdown menu reveals a variety of file format options, indicating the software's capability to save data in multiple formats. The presence of multiple windows suggests a complex data processing or analysis task."
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/50389/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 28.926,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.2315
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a refrigerator door",
+          "researcher retrieves a clear plastic container with a red liquid inside"
+        ],
+        "objects_visible": [
+          "refrigerator with a metallic interior",
+          "clear plastic container with a red liquid",
+          "green and yellow test tube racks",
+          "test tubes with blue caps",
+          "white boxes with labels"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a researcher retrieves a container from a refrigerator. The refrigerator's interior and the organized laboratory setup with test tubes and racks are distinctive. The red liquid in the container suggests it may be a specific reagent or sample."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.2315,
+        14.463
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into a test tube",
+          "holds test tube with a gloved hand"
+        ],
+        "objects_visible": [
+          "green test tube rack with multiple holes",
+          "test tube with a clear liquid",
+          "pipette with a long, transparent tip",
+          "purple-gloved hand",
+          "blue-lidded container in the background",
+          "red container in the background"
+        ],
+        "visible_text_labels": [
+          "1-2 x 10^7 cells/ml"
+        ],
+        "quantities": [
+          "1-2 x 10^7 cells/ml"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting a specific volume of liquid into a test tube, with a clear emphasis on the concentration of cells. The green test tube rack and the purple-gloved hand are distinctive elements in this laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.463,
+        21.694499999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled with handwritten text",
+          "researcher uses a pipette to transfer liquid into the microtube"
+        ],
+        "objects_visible": [
+          "red test tube rack",
+          "microtube with handwritten label",
+          "pipette with blue plunger",
+          "yellow and green test tube racks in the background"
+        ],
+        "visible_text_labels": [
+          "handwritten text on the microtube label"
+        ],
+        "quantities": [
+          "1-2 x 10^7 cells/ml"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid sample into a labeled microtube, emphasizing the concentration of cells. The use of a pipette and the presence of multiple test tube racks highlight the organized and methodical nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        21.694499999999998,
+        28.926
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'CD4+ TCR V\u03b24+CD62L+ cells' with a blue cap",
+          "pipettes a clear liquid into the microtube"
+        ],
+        "objects_visible": [
+          "red test tube rack",
+          "blue-gloved hand",
+          "pipette with a blue tip",
+          "yellow and green test tube racks in the background",
+          "blue and purple containers"
+        ],
+        "visible_text_labels": [
+          "CD4+ TCR V\u03b24+CD62L+ cells"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a specific cell type, as indicated by the text label. The use of a pipette to add liquid to the microtube suggests a controlled addition of reagents or samples. The blue-gloved hand and the organized laboratory setup emphasize a sterile and methodical approach."
+      }
+    }
+  ]
+}

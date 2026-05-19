@@ -1,0 +1,176 @@
+{
+  "video_id": "videos/level_3/59119_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 511.317333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        127.82933325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person wearing a white lab coat and gloves places a red plastic rack into a biosafety cabinet.",
+          "The person uses a pipette to transfer a liquid from a test tube into a petri dish."
+        ],
+        "objects_visible": [
+          "A red plastic rack with multiple compartments.",
+          "A biosafety cabinet with a clear glass front.",
+          "A pipette with a blue plunger.",
+          "A petri dish containing a clear liquid.",
+          "A test tube with a blue cap."
+        ],
+        "visible_text_labels": [
+          "Subculture to lower OD600 to 0.3 with fresh medium as necessary",
+          "10 min 3,000 x g RT"
+        ],
+        "quantities": [
+          "OD600 to 0.3",
+          "10 min",
+          "3,000 x g"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase of a laboratory experiment, focusing on the use of a biosafety cabinet for sterile handling. The specific actions of placing a red rack and pipetting liquid into a petri dish are emphasized. The text labels provide context for the experimental conditions and procedures."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        127.82933325,
+        255.6586665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses tweezers to carefully position a small plant stem on a petri dish",
+          "researcher uses a scalpel to make precise incisions on the plant stem",
+          "researcher places cut plant segments into a petri dish containing a clear liquid"
+        ],
+        "objects_visible": [
+          "tweezers with a metallic finish",
+          "scalpel with a black handle",
+          "petri dish with a clear liquid and green plant segments",
+          "small plant stem with green leaves and a white base",
+          "laboratory gloves with a textured surface"
+        ],
+        "visible_text_labels": [
+          "400 \u00b5m"
+        ],
+        "quantities": [
+          "400 \u00b5m"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise cutting and placement of plant segments, highlighting the meticulous nature of the experiment. The use of a scalpel and tweezers for fine manipulation is distinctive. The scale bar indicating 400 \u00b5m provides a reference for the size of the plant segments being handled."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        255.6586665,
+        383.48799975000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Transfers leaves from one petri dish to another using forceps",
+          "Covers a petri dish with a lid",
+          "Places a petri dish containing plant shoots into a labeled glass jar",
+          "Wears blue gloves and handles a petri dish containing a single green leaf"
+        ],
+        "objects_visible": [
+          "Petri dishes with green leaves and shoots",
+          "Glass jar labeled '15/2' containing plant shoots",
+          "Forceps used for transferring leaves",
+          "Blue gloves worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "Transfer leaves to new medium every 7-10 days and change to tall Petri dishes when shoots reach lid",
+          "Return non-selected plants to cabinet"
+        ],
+        "quantities": [
+          "7-10 days for transferring leaves to new medium",
+          "Single green leaf in a petri dish"
+        ],
+        "key_distinguishing_features": "This segment focuses on the careful handling and transfer of plant material, emphasizing the use of forceps and petri dishes. The glass jar labeled '15/2' is distinctive, indicating a specific stage or condition in the experiment. The text instructions provide clear guidance on the timing and conditions for transferring plant shoots."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        383.48799975000003,
+        511.317333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher examines a petri dish containing a sample of transformed potato roots under a microscope.",
+          "Researcher adjusts the microscope's focus and magnification to capture detailed images of the root structures."
+        ],
+        "objects_visible": [
+          "Petri dish with a sample of potato roots",
+          "Microscope with adjustable focus and magnification knobs",
+          "Microscope slide with labeled sections of root tissue",
+          "Researcher wearing a lab coat and safety glasses"
+        ],
+        "visible_text_labels": [
+          "A. tumefaciens",
+          "A. rhizogenes",
+          "EN",
+          "EX",
+          "XL",
+          "LR",
+          "100 \u00b5m",
+          "50 \u00b5m",
+          "200 \u00b5m"
+        ],
+        "quantities": [
+          "100 \u00b5m scale bar in image A",
+          "50 \u00b5m scale bars in images B, C, and D",
+          "200 \u00b5m scale bars in images E and F"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed observation of transformed potato roots under a microscope, with specific attention to labeled sections such as EN, EX, XL, and LR. The use of scale bars in the images provides precise measurements for the observed structures. The segment highlights the differences between samples transformed by A. tumefaciens and A. rhizogenes."
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "video_id": "57635",
+  "benchmark": "scivideobench",
+  "duration_seconds": 680.853333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        170.21333325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person wearing blue gloves holds a clear beaker labeled '500 mL' and pours a clear liquid into a smaller beaker.",
+          "The person places the beaker into a microwave oven labeled 'Delonghi'.",
+          "The person uses a pipette to transfer a small volume of liquid from a labeled bottle into a test tube."
+        ],
+        "objects_visible": [
+          "A clear beaker labeled '500 mL'",
+          "A smaller beaker",
+          "A microwave oven labeled 'Delonghi'",
+          "A pipette",
+          "A test tube",
+          "A labeled bottle",
+          "A stopwatch displaying '0:05:00'"
+        ],
+        "visible_text_labels": [
+          "500 mL",
+          "Delonghi",
+          "STOPWATCH",
+          "0:05:00"
+        ],
+        "quantities": [
+          "500 mL",
+          "0:05:00"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the preparation phase of an experiment, involving precise liquid transfers and the use of a microwave oven. The presence of a labeled beaker and stopwatch indicates a controlled and timed process. The actions are methodical, suggesting a step-by-step scientific procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        170.21333325,
+        340.4266665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a tool to manipulate a small, rectangular object with a grid pattern.",
+          "A hand operates a control panel on a piece of equipment labeled 'THERMO' with a digital display showing 'Select Test, Start'.",
+          "A hand uses a brush to apply a substance onto a surface, possibly a sample or substrate."
+        ],
+        "objects_visible": [
+          "A gloved hand holding a tool with a grid pattern.",
+          "A control panel with buttons and a digital display labeled 'THERMO'.",
+          "A brush with a wooden handle and bristles.",
+          "A surface or substrate being brushed."
+        ],
+        "visible_text_labels": [
+          "THERMO",
+          "Select Test, Start",
+          "See text for details",
+          "See text for funnel dimensions"
+        ],
+        "quantities": [
+          "The digital display shows 'Select Test, Start', indicating a selection process."
+        ],
+        "key_distinguishing_features": "This segment highlights the precise manipulation of a small object with a grid pattern and the use of a brush to apply a substance, suggesting detailed and controlled experimental steps. The presence of a control panel with a digital display indicates the use of specialized equipment in the process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        340.4266665,
+        510.63999975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a metal lid of a precision balance",
+          "researcher places a small, rectangular, metallic block on the balance platform"
+        ],
+        "objects_visible": [
+          "metallic balance with a digital display showing '0.0000g'",
+          "small, rectangular, metallic block with a polished surface",
+          "researcher's hand wearing a blue nitrile glove"
+        ],
+        "visible_text_labels": [
+          "V. Freezing Delay Test"
+        ],
+        "quantities": [
+          "0.0000g displayed on the balance"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a metallic block on a balance, highlighting the importance of accurate weight measurement. The digital display of the balance is prominently shown, emphasizing the need for precision in the experiment. The researcher's gloved hand indicates adherence to laboratory safety protocols."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        510.63999975,
+        680.853333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher points to bar graphs comparing 'Number of bounces' for different coatings",
+          "Researcher gestures towards a graph showing 'Lateral Abrasion' and 'Particle Impact' data for various coatings"
+        ],
+        "objects_visible": [
+          "Bar graph with labels 'Fluoropolymer', 'FAS-17', and 'Ce-SA' under 'Coating'",
+          "Line graph with 'Sliding angle' and '% frozen droplets' plotted against 'Number of cycles'",
+          "Graph with 'RH ~95%' and 'T (^o C)' as variables for 'Sliding angle' and 'Adhesion Strength'"
+        ],
+        "visible_text_labels": [
+          "Number of bounces",
+          "Fluoropolymer",
+          "FAS-17",
+          "Ce-SA",
+          "Coating",
+          "Lateral Abrasion",
+          "Particle Impact",
+          "Sliding angle (^o)",
+          "% frozen droplets",
+          "RH ~95%",
+          "T (^o C)",
+          "Adhesion Strength"
+        ],
+        "quantities": [
+          "20 bounces for Fluoropolymer",
+          "15 bounces for Ce-SA",
+          "5 bounces for FAS-17",
+          "80% frozen droplets at 0 cycles for FAS-17"
+        ],
+        "key_distinguishing_features": "This segment focuses on the visual analysis of various coatings' performance metrics, such as bounces and abrasion resistance. The researcher uses hand gestures to highlight specific data points on the graphs. The segment is rich in graphical data, emphasizing the comparative effectiveness of different coatings under various conditions."
+      }
+    }
+  ]
+}

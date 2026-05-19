@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/58332/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.533,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.88325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a yellow cap",
+          "researcher uses a pipette to transfer liquid from the microtube into a well of an orange test tube rack"
+        ],
+        "objects_visible": [
+          "orange test tube rack with multiple wells",
+          "1.5mL microtube with a yellow cap",
+          "pipette with a white plunger"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette. The orange test tube rack and the yellow-capped microtube are distinctive elements. The 'jove' logo is visible in the top right corner, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.88325,
+        19.7665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a microtube",
+          "researcher places the microtube into an orange test tube rack"
+        ],
+        "objects_visible": [
+          "orange test tube rack with multiple wells",
+          "white-gloved hands",
+          "pipette with a white body and yellow plunger",
+          "microtube with a clear body and white cap"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one microtube",
+          "one pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette into a microtube. The orange test tube rack serves as a distinctive background, and the white gloves highlight the sterile handling of laboratory materials."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.7665,
+        29.64975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a clear container into a test tube",
+          "researcher places the test tube into an orange test tube rack"
+        ],
+        "objects_visible": [
+          "orange test tube rack with multiple holes",
+          "clear plastic container with a white cap",
+          "pipette with a white tip",
+          "white test tube with a white cap",
+          "blue and white pipette machine",
+          "white lab coat and gloves on the researcher"
+        ],
+        "visible_text_labels": [
+          "JOVE logo in the top right corner"
+        ],
+        "quantities": [
+          "one test tube",
+          "one pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette, highlighting the careful handling of laboratory equipment. The orange test tube rack and the clear container with a white cap are distinctive elements in this scene."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.64975,
+        39.533
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a blue plastic rack with multiple holes into a white laboratory shaker",
+          "researcher adjusts the shaker settings using a control panel with a digital display and buttons"
+        ],
+        "objects_visible": [
+          "white laboratory shaker with a digital display and control buttons",
+          "blue plastic rack with multiple holes designed to hold tubes",
+          "white gloves worn by the researcher",
+          "other similar shakers in the background",
+          "a blue container with a yellow label on the left side of the frame"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple holes in the blue rack"
+        ],
+        "key_distinguishing_features": "This segment focuses on the setup of a laboratory shaker with a blue rack, highlighting the precise placement and adjustment of the equipment. The researcher's actions are deliberate, ensuring the shaker is properly configured for the experiment. The presence of other shakers in the background suggests a well-equipped laboratory setting."
+      }
+    }
+  ]
+}

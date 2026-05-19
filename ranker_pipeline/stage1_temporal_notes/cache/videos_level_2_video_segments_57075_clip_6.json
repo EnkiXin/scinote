@@ -1,0 +1,146 @@
+{
+  "video_id": "videos/level_2/video_segments/57075/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.791,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.19775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher uses tongs to transfer blue crystalline substance into a multi-well metal mold"
+        ],
+        "objects_visible": [
+          "metal multi-well mold with four circular wells",
+          "blue crystalline substance in a glass container",
+          "tongs held by gloved hands",
+          "two bottles with warning labels in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "four wells filled with blue crystalline substance"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a blue crystalline substance into a metal mold using tongs, indicating a preparatory step in a scientific procedure. The presence of warning labels on the bottles suggests the handling of potentially hazardous materials. The 'jove' watermark indicates the video is likely from a scientific demonstration platform."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.19775,
+        16.3955
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a black rectangular object into a machine with a transparent door"
+        ],
+        "objects_visible": [
+          "black rectangular object with a textured surface",
+          "machine with a transparent door and metal frame",
+          "researcher's hand wearing a blue glove and a blue and black wristwatch"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a black object into a specialized machine, highlighting the careful handling by the researcher. The transparent door of the machine allows a clear view of the object being inserted, emphasizing the execution phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.3955,
+        24.593249999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher operates a control panel on a large blue machine",
+          "researcher adjusts a knob on the machine"
+        ],
+        "objects_visible": [
+          "blue machine with a control panel and digital display",
+          "researcher wearing a white lab coat and blue gloves",
+          "metallic structure with a transparent window"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "~5 h"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher interacting with a large blue machine, likely part of a scientific process. The machine has a digital display and control knobs, indicating precise adjustments. The transparent window and metallic structure suggest a controlled environment for the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.593249999999998,
+        32.791
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher places a square metallic mold containing four circular cavities filled with a dark, granular substance on a flat surface"
+        ],
+        "objects_visible": [
+          "square metallic mold with four circular cavities",
+          "dark granular substance in the cavities",
+          "flat black surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "four circular cavities"
+        ],
+        "key_distinguishing_features": "The mold is square-shaped with four distinct circular cavities, each containing a dark granular substance. The mold is placed on a flat, dark surface, emphasizing the contrast between the mold and the background. The granular substance appears uniformly distributed within each cavity."
+      }
+    }
+  ]
+}

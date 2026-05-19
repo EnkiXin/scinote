@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/step_prediction/60828/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.102,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.0255
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses a clear liquid into a petri dish containing a yellowish medium"
+        ],
+        "objects_visible": [
+          "petri dish with a yellowish medium",
+          "pipette with a clear liquid",
+          "white container with green labels",
+          "various laboratory tools including forceps, a Bunsen burner, and a petri dish lid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "clear liquid dispensed into the petri dish"
+        ],
+        "key_distinguishing_features": "The researcher is actively using a pipette to add a clear liquid to a petri dish, indicating a step in a biological or chemical procedure. The presence of a yellowish medium in the petri dish suggests a specific experimental setup. The white container with green labels likely holds additional materials or reagents for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.0255,
+        16.051
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a clear liquid into a petri dish containing a yellowish medium",
+          "creates a grid pattern on the surface of the medium using the pipette tip"
+        ],
+        "objects_visible": [
+          "petri dish with a yellowish medium",
+          "pipette with a fine tip",
+          "gloved hand holding the petri dish",
+          "metallic surface as the background"
+        ],
+        "visible_text_labels": [
+          "YEARS: YEAST MANNITOL MEDIUM (YEB) SUPPLEMENTED WITH AGAR, RIFAMPICIN, AND SPECTINOMYCIN"
+        ],
+        "quantities": [
+          "grid pattern with approximately 10 lines"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting technique to create a grid on a petri dish, likely for bacterial or yeast culture. The medium is a specific formulation, as indicated by the on-screen text. The focus is on the methodical application of the liquid to ensure even distribution."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.051,
+        24.076499999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small volume of liquid into a petri dish",
+          "researcher places a petri dish with a grid pattern on the table"
+        ],
+        "objects_visible": [
+          "petri dishes with a yellowish medium and grid lines",
+          "a pipette with a blue plunger",
+          "a Bunsen burner with a visible flame",
+          "a glass beaker with a yellow liquid",
+          "a metal surface as the workbench"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "small volume of liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "The segment shows the precise transfer of liquid into a petri dish, indicating a controlled experiment setup. The presence of a Bunsen burner suggests a sterile environment is being maintained. The grid pattern on the petri dish is likely used for counting or measuring colonies."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.076499999999996,
+        32.102
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a Bunsen burner to sterilize a metal tool",
+          "researcher holds a petri dish with a yellowish culture medium"
+        ],
+        "objects_visible": [
+          "Bunsen burner with a blue flame",
+          "metal tool being sterilized",
+          "petri dish with a yellowish culture medium",
+          "glass beaker with a clear liquid",
+          "various glass jars with plant samples in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "no specific quantities are visible"
+        ],
+        "key_distinguishing_features": "The segment highlights the sterilization process using a Bunsen burner, emphasizing aseptic technique. The researcher's gloved hands and the petri dish with a culture medium suggest a microbiological experiment. The background jars with plant samples indicate a broader research context."
+      }
+    }
+  ]
+}

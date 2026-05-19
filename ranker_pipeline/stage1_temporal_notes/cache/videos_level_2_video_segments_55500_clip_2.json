@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_2/video_segments/55500/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 45.734,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.4335
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a clear liquid from a graduated cylinder into a beaker containing a yellow liquid",
+          "researcher uses a pipette to add a small volume of a clear liquid into the beaker"
+        ],
+        "objects_visible": [
+          "beaker with yellow liquid and a blue label",
+          "graduated cylinder with clear liquid",
+          "pipette with a clear liquid",
+          "digital scale with a blue and white color scheme",
+          "bottle labeled 'Decon' in the background"
+        ],
+        "visible_text_labels": [
+          "Decon"
+        ],
+        "quantities": [
+          "volume of yellow liquid in the beaker",
+          "volume of clear liquid in the graduated cylinder"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer process, with a focus on the addition of a clear liquid to a yellow liquid in a beaker. The use of a digital scale suggests the importance of accurate measurements. The presence of a 'Decon' bottle indicates a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.4335,
+        22.867
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A hand wearing a black glove holds a clear plastic beaker containing a yellow liquid and pours it into a larger beaker with a yellow liquid.",
+          "The hand then places the empty beaker on the table."
+        ],
+        "objects_visible": [
+          "A clear plastic beaker with a yellow liquid",
+          "A larger beaker with a yellow liquid",
+          "A hand wearing a black glove",
+          "A white plastic container with a lid",
+          "A white plate with some residue on it",
+          "A white container with a blue label"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows the transfer of a yellow liquid from a smaller beaker to a larger one, highlighting the careful handling of the liquid. The presence of a white plastic container and a plate with residue suggests a step in a multi-part experiment. The 'jove' logo indicates the video is likely from a scientific demonstration platform."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.867,
+        34.3005
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours orange granular substance from a transparent container into a white bowl",
+          "researcher uses a long, thin tool to stir the contents in the bowl"
+        ],
+        "objects_visible": [
+          "white bowl with a 24 cm outside top diameter",
+          "transparent container with orange granular substance",
+          "long, thin tool used for stirring",
+          "black-gloved hands of the researcher",
+          "black countertop with visible wear and stains"
+        ],
+        "visible_text_labels": [
+          "24 cm outside top diameter",
+          "1 cm x 1 cm"
+        ],
+        "quantities": [
+          "24 cm outside top diameter of the bowl",
+          "1 cm x 1 cm dimensions of the granular substance"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer and mixing of an orange granular substance into a large white bowl, emphasizing the dimensions of the bowl and the granules. The use of a long, thin tool for stirring suggests a methodical approach to ensuring even distribution. The black-gloved hands and the worn countertop add a practical, laboratory setting to the scene."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        34.3005,
+        45.734
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher stirs orange granular substance in a white bowl with a metal rod",
+          "researcher pours a small amount of the orange substance into a clear plastic container"
+        ],
+        "objects_visible": [
+          "white bowl containing orange granular substance",
+          "metal rod used for stirring",
+          "clear plastic container",
+          "black-gloved hands of the researcher",
+          "black lab bench surface"
+        ],
+        "visible_text_labels": [
+          "1 cm x 1 cm",
+          "Gel is a xerogel if dried under ambient conditions"
+        ],
+        "quantities": [
+          "1 cm x 1 cm"
+        ],
+        "key_distinguishing_features": "The segment focuses on the observation of a gel substance, highlighting its transformation into a xerogel under specific drying conditions. The researcher's actions are deliberate, emphasizing the texture and consistency of the material. The text overlay provides critical information about the gel's properties."
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "video_id": "videos/level_3/60259_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 543.04,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        135.76
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person in a lab coat and gloves handles a syringe and a vial, preparing for an injection.",
+          "A researcher adjusts a large cylindrical device, possibly a medical imaging machine, with a warning label."
+        ],
+        "objects_visible": [
+          "A syringe with a blue plunger and a vial with a white label and a yellow warning sticker.",
+          "A large cylindrical device with a warning label and a digital display.",
+          "A computer screen displaying a brain scan image."
+        ],
+        "visible_text_labels": [
+          "SHARNA JAMADAR, MONASH UNIVERSITY",
+          "jove"
+        ],
+        "quantities": [
+          "The syringe appears to hold approximately 10 mL of liquid."
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase of a medical or scientific procedure, with a focus on handling medical equipment and imaging technology. The presence of a warning label on the cylindrical device suggests the handling of potentially hazardous materials. The brain scan image on the computer screen indicates a connection to neurological research or medical imaging."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        135.76,
+        271.52
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap.",
+          "Pipettes approximately 200uL of pink-colored DMEM medium into a petri dish."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "Pink-colored DMEM medium",
+          "Petri dish",
+          "Pipette with a blue tip"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL",
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a DMEM medium, highlighting the use of a labeled microtube and the specific volume of liquid being transferred. The pink color of the medium is a distinctive feature, indicating its composition or purpose in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        271.52,
+        407.28
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher places a test tube containing a yellowish liquid into a blue test tube rack.",
+          "Researcher spins the test tube in a centrifuge."
+        ],
+        "objects_visible": [
+          "Blue test tube rack with multiple circular holes.",
+          "Test tube containing a yellowish liquid.",
+          "Centrifuge with a spinning mechanism."
+        ],
+        "visible_text_labels": [
+          "SPINNING THE BLOOD",
+          "RESULTS: COMPARISON OF RESULTS BETWEEN BOLUS, INFUSION, AND HYBRID BOLUS/INFUSION"
+        ],
+        "quantities": [
+          "One test tube."
+        ],
+        "key_distinguishing_features": "This segment focuses on the centrifugation process of a test tube containing a yellowish liquid, emphasizing the preparation for further analysis. The blue test tube rack and the centrifuge are key elements, highlighting the procedural steps in the experiment. The text labels provide context for the purpose of the spinning process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        407.28,
+        543.04
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher discusses data while standing in front of multiple computer screens",
+          "researcher gestures towards the screens while explaining"
+        ],
+        "objects_visible": [
+          "computer monitors displaying brain imaging data",
+          "a model of a human skull",
+          "various medical equipment in the background"
+        ],
+        "visible_text_labels": [
+          "RICHARD MCINTYRE",
+          "MONASH UNIVERSITY",
+          "PET Signal Intensity",
+          "Task Block",
+          "FP1/2",
+          "hOC1",
+          "Bolus Only",
+          "Infusion Only",
+          "Bolus/Infusion"
+        ],
+        "quantities": [
+          "1/cov values ranging from 0 to 15",
+          "Task Block numbers from 1 to 5"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the researcher's explanation of PET signal intensity data, with multiple screens showing detailed brain imaging. The presence of a human skull model adds a visual aid to the discussion. The segment emphasizes the comparison between different methods (Bolus Only, Infusion Only, Bolus/Infusion) in a clinical or research setting."
+      }
+    }
+  ]
+}

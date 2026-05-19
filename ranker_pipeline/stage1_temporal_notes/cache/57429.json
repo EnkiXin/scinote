@@ -1,0 +1,172 @@
+{
+  "video_id": "57429",
+  "benchmark": "scivideobench",
+  "duration_seconds": 699.008,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        174.752
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person wearing blue nitrile gloves holds a small, clear plastic container with a white cap.",
+          "The person uses a pipette to transfer a clear liquid from a larger container into the small plastic container."
+        ],
+        "objects_visible": [
+          "A clear plastic container with a white cap, held by gloved hands.",
+          "A pipette with a blue plunger and a clear tip.",
+          "A larger container with a green label, partially visible in the background."
+        ],
+        "visible_text_labels": [
+          "The text 'love' is partially visible on a blue object in the background."
+        ],
+        "quantities": [
+          "The liquid transferred appears to be a small volume, likely in the microliter range."
+        ],
+        "key_distinguishing_features": "This segment focuses on the careful handling and transfer of a liquid sample using laboratory equipment. The use of nitrile gloves and a pipette highlights the precision and sterility required in the preparation phase. The presence of a green-labeled container suggests the use of a specific reagent or medium."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        174.752,
+        349.504
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a clear, rectangular microfluidic device into a plasma cleaner labeled 'HARRISON PLASMA CLEANER DC-002C'",
+          "researcher adjusts the settings on the plasma cleaner, pressing buttons and turning a dial",
+          "researcher removes the microfluidic device from the plasma cleaner and places it on a table",
+          "researcher connects a syringe pump to the microfluidic device using tubing"
+        ],
+        "objects_visible": [
+          "plasma cleaner with a digital display showing 'THU 30.3'",
+          "clear, rectangular microfluidic device with multiple channels",
+          "syringe pump with tubing",
+          "laboratory bench with various equipment and supplies"
+        ],
+        "visible_text_labels": [
+          "HARRISON PLASMA CLEANER DC-002C",
+          "THU 30.3"
+        ],
+        "quantities": [
+          "digital display reading 'THU 30.3'"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation and setup of a microfluidic device using a plasma cleaner, highlighting the specific actions and equipment involved. The digital display on the plasma cleaner provides a precise reading, emphasizing the controlled environment. The connection of the syringe pump to the device indicates the next steps in the experimental process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        349.504,
+        524.2560000000001
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish with a green tape and a small white object on it",
+          "researcher uses a pipette to transfer a clear liquid into a small container",
+          "researcher places a small transparent device with a wire on a metal surface"
+        ],
+        "objects_visible": [
+          "petri dish with green tape and a small white object",
+          "pipette with a clear liquid",
+          "small transparent device with a wire",
+          "metal surface with a grid pattern",
+          "red machine with a digital display and buttons"
+        ],
+        "visible_text_labels": [
+          "red machine labeled 'Oven'"
+        ],
+        "quantities": [
+          "digital display on the red machine shows '25.0'"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a petri dish and a small device, indicating a delicate experimental procedure. The use of a pipette for liquid transfer suggests the addition of a reagent or medium. The red machine with a digital display adds a layer of controlled environmental conditions to the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        524.2560000000001,
+        699.008
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher points to specific data points on a graph displayed on a screen",
+          "Researcher gestures towards different sections of the graph while explaining"
+        ],
+        "objects_visible": [
+          "Graph with multiple data points and lines plotted over time (min)",
+          "Researcher wearing a blue and white checkered shirt",
+          "Whiteboard or screen displaying the graph"
+        ],
+        "visible_text_labels": [
+          "d log<\u03c3\u00b2(t)>/d log<\u03c4> vs. \u03c4",
+          "time (min)",
+          "fluid exchange",
+          "sol",
+          "gel",
+          "water",
+          "gelation",
+          "agent",
+          "\u03b1",
+          "\u03b1_NG",
+          "n=0.77",
+          "n=0.77"
+        ],
+        "quantities": [
+          "Time range from 0 to 1400 minutes",
+          "Data points plotted on a logarithmic scale for d log<\u03c3\u00b2(t)>/d log<\u03c4>",
+          "Values of \u03b1 and \u03b1_NG ranging from 0 to 1"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed analysis of a graph showing the evolution of a system over time, with specific phases like 'fluid exchange,' 'sol,' 'gel,' and 'water' highlighted. The researcher's gestures and explanations emphasize the significance of these phases in the context of the experiment. The graph includes multiple data series and annotations that provide insights into the system's behavior."
+      }
+    }
+  ]
+}

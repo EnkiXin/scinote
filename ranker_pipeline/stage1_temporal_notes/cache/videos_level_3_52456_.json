@@ -1,0 +1,176 @@
+{
+  "video_id": "videos/level_3/52456_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 589.013333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        147.25333325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher in a lab coat and gloves handles a black tray with various compartments and labels.",
+          "The researcher places the tray on a clean bench and begins organizing or preparing the contents."
+        ],
+        "objects_visible": [
+          "A black tray with compartments labeled with text and symbols, including 'PEGylation' and 'AFM Tip'.",
+          "A clean bench with a glass cover and a yellow caution sign.",
+          "A researcher wearing a white lab coat and blue gloves."
+        ],
+        "visible_text_labels": [
+          "PEGylation",
+          "AFM Tip",
+          "Alpha-Bryonectin mobility in Lacte Blood"
+        ],
+        "quantities": [
+          "The tray has multiple compartments, but the exact count is not specified."
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where a researcher is seen handling a specialized tray with labeled compartments, likely for a specific experimental procedure. The clean bench and the researcher's attire emphasize the controlled and sterile environment necessary for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        147.25333325,
+        294.5066665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a test tube",
+          "researcher places a labeled microtube on a blue foam mat"
+        ],
+        "objects_visible": [
+          "pipette with a white handle and black tip",
+          "1.5mL microtube labeled 'G-NP PEG' with a white cap",
+          "red microtube rack",
+          "blue foam mat with a circular indentation",
+          "test tube labeled 'NaOH' with a yellow stand",
+          "100-250 \u03bcL of 1 M NaOH solution"
+        ],
+        "visible_text_labels": [
+          "G-NP PEG",
+          "NaOH",
+          "100 - 250 \u03bcL of 1 M NaOH",
+          "Final probe molecule concentration 1 mg/ml"
+        ],
+        "quantities": [
+          "100 - 250 \u03bcL",
+          "1 M NaOH",
+          "1 mg/ml"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling and measurement of chemical solutions, specifically involving the addition of a NaOH solution. The use of a pipette and labeled microtubes highlights the importance of accuracy in the experiment. The text overlay provides specific details about the concentration and volume of the solutions being used."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        294.5066665,
+        441.75999975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher pours clear liquid from a beaker into a petri dish labeled 'ethanol'",
+          "researcher places a petri dish labeled 'borate buffer' on the lab bench",
+          "researcher handles a bottle of 'Ultrapure Water' from BIOCHROM"
+        ],
+        "objects_visible": [
+          "petri dishes labeled 'ethanol' and 'borate buffer'",
+          "a bottle of 'Ultrapure Water' with a blue cap",
+          "a beaker containing a clear liquid",
+          "a lab bench with various items including a petri dish and a bottle"
+        ],
+        "visible_text_labels": [
+          "ethanol",
+          "borate buffer",
+          "Ultrapure Water",
+          "BIOCHROM"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the preparation of solutions, specifically ethanol and borate buffer, for an experiment. The researcher is seen handling and transferring liquids with precision. The presence of labeled petri dishes and a bottle of ultrapure water highlights the controlled and methodical nature of the preparation process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        441.75999975,
+        589.013333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Graphs are displayed showing force-distance relationships and plateau force distributions.",
+          "A researcher is seen speaking, likely explaining the data presented in the graphs."
+        ],
+        "objects_visible": [
+          "A bar graph showing plateau force distribution with different colors representing various solvents.",
+          "A line graph depicting force in pN versus distance in nm, with a sharp drop and plateau.",
+          "A scatter plot with error bars showing plateau length versus plateau force."
+        ],
+        "visible_text_labels": [
+          "force [pN]",
+          "distance [nm]",
+          "plateau force [pN]",
+          "plateau length [nm]",
+          "water",
+          "5% ethanol",
+          "10% ethanol",
+          "15% ethanol",
+          "30% ethanol"
+        ],
+        "quantities": [
+          "Force values ranging from -200 pN to 800 pN",
+          "Distance values from 0 nm to 400 nm",
+          "Plateau force values from 0 pN to 1600 pN",
+          "Plateau length values from 0 nm to 80 nm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed analysis of force-distance data, highlighting the effects of different solvent concentrations on plateau force and length. The visual presentation of data through multiple graphs emphasizes the quantitative nature of the research. The researcher's presence suggests an explanatory or interpretative role in the context of the data shown."
+      }
+    }
+  ]
+}

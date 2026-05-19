@@ -1,0 +1,173 @@
+{
+  "video_id": "51547",
+  "benchmark": "scivideobench",
+  "duration_seconds": 767.146667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        191.78666675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A title slide is displayed introducing the topic of photocatalytically active segmented Ag|ZnO and coaxial TiO2-Ag nanowires made by templated electrodeposition.",
+          "A schematic diagram of an electrochemical setup is shown, including a beaker with a solution, a power supply, and a multimeter."
+        ],
+        "objects_visible": [
+          "A title slide with text and authors' names.",
+          "A schematic diagram of an electrochemical cell setup with labeled components such as a beaker, power supply, and multimeter."
+        ],
+        "visible_text_labels": [
+          "Preparation and Use of Photocatalytically Active Segmented Ag|ZnO and Coaxial TiO2-Ag Nanowires Made by Templated Electrodeposition",
+          "A. Wouter Maijenburg, Eddy J.B. Rodijk, Michiel G. Maas, and Johan E. ten Elshof",
+          "MESA+ Institute for Nanotechnology, University of Twente",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment introduces the topic and setup for the preparation of nanowires, focusing on the electrochemical method. The schematic provides a clear visual of the experimental apparatus. The title slide sets the context for the scientific research being presented."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        191.78666675,
+        383.5733335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, clear glass vial containing a dark liquid",
+          "researcher uses a pipette to transfer a measured volume of a clear liquid into a beaker",
+          "researcher adjusts a digital display on a machine, setting parameters for an experiment"
+        ],
+        "objects_visible": [
+          "a small, clear glass vial with a dark liquid",
+          "a pipette with a blue plunger",
+          "a beaker containing a clear liquid",
+          "a digital display showing various settings and parameters"
+        ],
+        "visible_text_labels": [
+          "0.2 M AgNO\u2083 + 0.1 M H\u2083BO\u2083",
+          "pH 1.5",
+          "-1.0 V vs. Ag/AgCl",
+          "20 min",
+          "0.1 M ZnNO\u2083"
+        ],
+        "quantities": [
+          "0.2 M AgNO\u2083",
+          "0.1 M H\u2083BO\u2083",
+          "pH 1.5",
+          "-1.0 V vs. Ag/AgCl",
+          "20 min",
+          "0.1 M ZnNO\u2083"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise preparation and handling of chemical solutions, with specific concentrations and pH levels being carefully controlled. The use of a digital display to set experimental parameters highlights the importance of accurate measurements in the experiment. The visual emphasis on the chemical formulas and conditions suggests a detailed electrochemical or chemical reaction study."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        383.5733335,
+        575.36000025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Pipettes a clear liquid from a labeled 'milli-Q water' beaker into a small container.",
+          "Connects a device with multiple colored wires (blue, red, yellow) to a small electronic box labeled 'QUARTZ'."
+        ],
+        "objects_visible": [
+          "A beaker labeled 'milli-Q water' containing clear liquid.",
+          "A small electronic box with the label 'QUARTZ' and multiple colored wires connected to it.",
+          "A pipette with a clear liquid being dispensed."
+        ],
+        "visible_text_labels": [
+          "milli-Q water",
+          "QUARTZ"
+        ],
+        "quantities": [
+          "The beaker is marked with volume measurements, but the exact volume is not specified."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of water and the setup of an electronic device, suggesting a controlled experiment. The use of labeled 'milli-Q water' indicates a need for high purity in the experiment. The connection of the device with multiple wires suggests a complex measurement or data collection process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        575.36000025,
+        767.146667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Displays graphs comparing voltage measurements over time for Ag/ZnO nanowires and a reference sample",
+          "Presents SEM images of ZnO and Ag/ZnO nanowires"
+        ],
+        "objects_visible": [
+          "Graphs labeled 'a.' and 'b.' showing voltage vs. time",
+          "SEM images of ZnO and Ag/ZnO nanowires with scale bars",
+          "Text labels 'ZnO' and 'Ag' on SEM images"
+        ],
+        "visible_text_labels": [
+          "Ag/ZnO nanowires",
+          "Reference",
+          "Voltage measured by PID sensor (V)",
+          "Time (min)",
+          "ZnO",
+          "Ag",
+          "200 nm",
+          "500 nm"
+        ],
+        "quantities": [
+          "Voltage measurements up to 0.20 V",
+          "Time measurements up to 30 minutes",
+          "Scale bars of 200 nm and 500 nm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of voltage measurements from Ag/ZnO nanowires and a reference sample over time, accompanied by detailed SEM images of the nanowires. The graphs and images provide a clear comparison of the performance and structure of the materials. The scale bars in the SEM images offer precise size references for the nanowires."
+      }
+    }
+  ]
+}

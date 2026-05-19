@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/video_segments/52732/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 58.319,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.57975
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes a clear liquid from a bottle into the microtube using a pipette with a pink flexible tube"
+        ],
+        "objects_visible": [
+          "blue microtube rack with multiple slots",
+          "1.5mL microtube with a blue cap",
+          "pipette with a pink flexible tube",
+          "bottle with a red liquid and a white label",
+          "white-gloved hand",
+          "white container labeled 'WASTE'"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "WASTE"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring a clear liquid into a labeled microtube using a pipette. The blue microtube rack and the presence of a waste container highlight the controlled laboratory environment. The researcher's gloved hand emphasizes the importance of sterility in the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.57975,
+        29.1595
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher uses a pipette to transfer a pink-colored liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "blue microtube rack with multiple slots",
+          "petri dish with a clear lid",
+          "pipette with a pink liquid in the tip",
+          "microtube labeled 'DMEM' with a blue cap",
+          "laboratory centrifuge with a light blue lid",
+          "green and blue test tube racks",
+          "waste container labeled 'WASTE'"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "WASTE"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "pink-colored liquid (volume not specified)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a pink-colored liquid from a labeled microtube into a petri dish using a pipette. The presence of a centrifuge and various laboratory racks suggests a controlled laboratory environment. The waste container labeled 'WASTE' indicates proper disposal practices."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        29.1595,
+        43.73925
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a 1.5mL microtube containing a red liquid",
+          "researcher places the pipette tip into a waste container labeled 'WASTE'"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with red liquid in a pink test tube rack",
+          "pipette with a white handle and a transparent tip",
+          "blue test tube rack with empty slots",
+          "white waste container with a label",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "WASTE"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise action of transferring liquid using a pipette into a microtube. The use of a waste container for the pipette tip highlights proper laboratory waste management. The pink and blue test tube racks provide a clear visual distinction for organizing the tubes."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        43.73925,
+        58.319
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a large white refrigerator with a digital display and a green light",
+          "researcher reaches inside the refrigerator and retrieves a transparent plastic container with a black lid"
+        ],
+        "objects_visible": [
+          "large white refrigerator with a digital display and a green light",
+          "transparent plastic container with a black lid",
+          "researcher wearing a blue lab coat, white gloves, and safety goggles",
+          "blue and pink laboratory racks in the background",
+          "microscope and other laboratory equipment on the counter"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the retrieval of a specific container from a refrigerator, indicating a step in the experiment requiring temperature-controlled storage. The researcher's careful handling of the container suggests its importance. The presence of the 'jove' logo indicates this is a professionally produced scientific video."
+      }
+    }
+  ]
+}

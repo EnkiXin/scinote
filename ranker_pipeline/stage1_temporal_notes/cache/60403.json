@@ -1,0 +1,156 @@
+{
+  "video_id": "60403",
+  "benchmark": "scivideobench",
+  "duration_seconds": 482.005333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        120.50133325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A man in a patterned shirt and glasses is speaking directly to the camera.",
+          "A man in a red and black plaid shirt is seated at a desk, working on a computer."
+        ],
+        "objects_visible": [
+          "A computer screen displaying a CAD software interface with a design layout and various toolbars.",
+          "A desk with a computer monitor, keyboard, and mouse.",
+          "A man wearing a red and black plaid shirt.",
+          "A man wearing a patterned shirt and glasses."
+        ],
+        "visible_text_labels": [
+          "SANKARA ARUNACHALAM",
+          "KAUST",
+          "L-Edit",
+          "Design Editor",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment features two distinct scenes: one with a man speaking to the camera and another with a man working on a CAD design. The CAD software interface is prominently displayed, indicating a focus on design preparation. The text labels provide context about the individuals and the software being used."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        120.50133325,
+        241.0026665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"execution\",\n  \"actions_observed\": [\n    \"Researcher in a yellow lab coat and protective gear places a silicon wafer into a machine labeled 'EVG6200 UltraAlign'.\",\n    \"Researcher operates a machine with a digital display showing '000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        241.0026665,
+        361.50399975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher in a white lab coat and gloves operates a machine labeled 'ULTRA PLASMA', adjusting controls on the front panel.",
+          "Researcher places a wafer into a machine, likely for thermal oxide growth and etching, as indicated by the text on screen."
+        ],
+        "objects_visible": [
+          "A machine labeled 'ULTRA PLASMA' with a digital display and control knobs.",
+          "A wafer being handled by the researcher.",
+          "A machine with a warning label and a digital display showing process parameters."
+        ],
+        "visible_text_labels": [
+          "SEE TABLE 4 FOR PROCESS PARAMETERS",
+          "THERMAL OXIDE GROWTH AND ETCHING",
+          "ULTRA PLASMA"
+        ],
+        "quantities": [
+          "4 INCH (visible on a sign indicating wafer size)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the execution phase of a semiconductor fabrication process, specifically thermal oxide growth and etching. The researcher's actions are precise and deliberate, interacting with specialized equipment. The presence of a wafer and the 'ULTRA PLASMA' machine highlights the technical nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        361.50399975,
+        482.005333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope captures wetting behavior of liquids on microtextures",
+          "researcher explains results while standing in front of a screen"
+        ],
+        "objects_visible": [
+          "microscope image showing doubly reentrant cavities (DRCs) with trapped air",
+          "diagrams illustrating water and hexadecane behavior in DRCs and hybrid design",
+          "researcher wearing a patterned shirt"
+        ],
+        "visible_text_labels": [
+          "Doubly reentrant cavities (DRCs)",
+          "Water",
+          "Hexadecane",
+          "Hybrid design",
+          "1 mm",
+          "Frame: 251",
+          "Frame: 306",
+          "50 \u00b5m",
+          "Side wall",
+          "Doubly reentrant edge",
+          "Trapped air",
+          "Meniscus"
+        ],
+        "quantities": [
+          "1 mm",
+          "50 \u00b5m",
+          "Frame: 251",
+          "Frame: 306"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of wetting behaviors in gas-entrapping microtextures, with detailed diagrams and microscope images illustrating the interaction between water, hexadecane, and the microstructures. The researcher provides an explanation while standing in front of a screen displaying these visuals."
+      }
+    }
+  ]
+}

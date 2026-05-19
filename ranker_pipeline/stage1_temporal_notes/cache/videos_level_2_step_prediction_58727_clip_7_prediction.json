@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/step_prediction/58727/clip_7_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 20.302,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.0755
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "static display of a protein gel with labeled lanes"
+        ],
+        "objects_visible": [
+          "protein gel with distinct blue bands",
+          "labeled lanes indicating different protein samples"
+        ],
+        "visible_text_labels": [
+          "Protein standard",
+          "M(0)",
+          "M(IFN\u03b3+LPS)",
+          "M(IL4+IL13)",
+          "M(IC+LPS)",
+          "M(IL10+DXM)"
+        ],
+        "quantities": [
+          "multiple bands of varying intensities in the protein standard lane"
+        ],
+        "key_distinguishing_features": "The segment shows a static image of a protein gel with clearly labeled lanes, each representing a different sample condition. The protein standard lane contains multiple distinct bands, while the other lanes show varying intensities of a single blue band. The image is static, suggesting a moment of observation or analysis."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.0755,
+        10.151
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Displaying a protein gel with various samples and a protein standard"
+        ],
+        "objects_visible": [
+          "Protein gel with distinct blue-stained bands",
+          "Labeled lanes for different samples and a protein standard"
+        ],
+        "visible_text_labels": [
+          "Protein standard",
+          "M(0)",
+          "M(IFN\u03b3+LPS)",
+          "M(IL4+IL13)",
+          "M(IC+LPS)",
+          "M(IL10+DXM)"
+        ],
+        "quantities": [
+          "Multiple bands of varying intensities in the protein standard lane"
+        ],
+        "key_distinguishing_features": "The protein gel shows a clear comparison between the protein standard and various treated samples. The bands in the protein standard lane are well-defined and serve as a reference for the other samples. The samples exhibit different banding patterns, indicating variations in protein expression."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.151,
+        15.2265
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to place a small, rectangular, blue-colored gel into a clear glass slide with pre-defined wells"
+        ],
+        "objects_visible": [
+          "clear glass slide with multiple wells",
+          "blue-colored gel sample",
+          "forceps held by gloved hands",
+          "blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "Clean glass surface with 5% SDS solution, beforehand"
+        ],
+        "quantities": [
+          "5% SDS solution"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a blue gel sample into a glass slide, emphasizing the importance of a clean glass surface treated with a 5% SDS solution. The use of forceps highlights the delicate nature of the task."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        15.2265,
+        20.302
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a blue liquid into a glass slide with pre-defined wells",
+          "researcher carefully places the pipette tip into each well to ensure precise liquid placement"
+        ],
+        "objects_visible": [
+          "glass slide with multiple wells containing blue liquid",
+          "purple microtube rack in the background",
+          "researcher's hands wearing blue nitrile gloves",
+          "pipette with a fine tip"
+        ],
+        "visible_text_labels": [
+          "Clean glass surface with 5% SDS solution, beforehand"
+        ],
+        "quantities": [
+          "blue liquid in the wells",
+          "5% SDS solution"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a blue liquid into a glass slide's wells, emphasizing the importance of a clean glass surface treated with a 5% SDS solution. The researcher's hands are steady, ensuring accurate placement of the liquid into each well."
+      }
+    }
+  ]
+}

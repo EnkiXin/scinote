@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/video_segments/57629/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 51.414,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.8535
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe with a long needle",
+          "researcher uses a blue and white pipette to transfer liquid"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "black power adapter connected to the wall",
+          "white lab coat",
+          "blue nitrile gloves",
+          "black wristwatch"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "40 \u03bcm filter"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of laboratory equipment, specifically a syringe and a pipette. The researcher's actions are deliberate, indicating a step in a controlled experiment. The presence of a 40 \u03bcm filter suggests a filtration process is part of the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.8535,
+        25.707
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DPBS' with blue cap",
+          "pipettes liquid from a 15mL conical tube into a microtube containing ice"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DPBS'",
+          "15mL conical tube with blue cap",
+          "pipette with a 40 \u03bcm filter tip",
+          "black bowl filled with ice cubes",
+          "microtubes labeled 'Saline Control' and 'Gelatin Quench'"
+        ],
+        "visible_text_labels": [
+          "DPBS",
+          "Saline Control",
+          "Gelatin Quench",
+          "40 \u03bcm filter"
+        ],
+        "quantities": [
+          "40 \u03bcm filter"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of microtubes and the use of a 40 \u03bcm filter tip for pipetting. The ice bath suggests the need to maintain a cold environment for the samples. The labeled tubes indicate a controlled experiment with specific conditions."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.707,
+        38.560500000000005
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a blue-capped 1.5mL microtube into a black bucket",
+          "researcher picks up a transparent plastic container with a blue handle"
+        ],
+        "objects_visible": [
+          "black bucket containing various lab items",
+          "transparent plastic container with a blue handle",
+          "researcher wearing a white lab coat and blue gloves",
+          "open centrifuge lid revealing the interior chamber"
+        ],
+        "visible_text_labels": [
+          "JOVE logo in the top right corner"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the researcher's interaction with lab equipment, specifically placing a microtube into a bucket and handling a plastic container. The centrifuge is open, suggesting a step in the experiment involving sample preparation or storage. The researcher's attire and the presence of the JOVE logo indicate a professional laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        38.560500000000005,
+        51.414
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "vigorously vortexes a clear plastic tube containing a light brown suspension"
+        ],
+        "objects_visible": [
+          "clear plastic tube with a light brown suspension",
+          "blue-gloved hand holding the tube",
+          "white background"
+        ],
+        "visible_text_labels": [
+          "Resuspension volume depends on the number of wells and plates to be seeded"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the action of vortexing a suspension, emphasizing the importance of resuspension volume in relation to the number of wells and plates. The blue-gloved hand and the clear tube with the light brown suspension are the central elements in this scene."
+      }
+    }
+  ]
+}

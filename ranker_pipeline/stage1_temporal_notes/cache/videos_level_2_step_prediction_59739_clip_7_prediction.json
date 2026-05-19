@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/step_prediction/59739/clip_7_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.182,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.5455
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a glass tube with a yellow-orange liquid",
+          "researcher places the glass tube on a white lab bench"
+        ],
+        "objects_visible": [
+          "glass tube with yellow-orange liquid",
+          "white lab bench",
+          "red rubber tubing",
+          "metal clamps",
+          "glass beaker",
+          "plastic bottle with a white cap",
+          "white container with a digital display"
+        ],
+        "visible_text_labels": [
+          "Blue LEDs strips",
+          "Lamp"
+        ],
+        "quantities": [
+          "450 23",
+          "450 25"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher handling a glass tube with a distinct yellow-orange liquid, likely preparing for an experiment. The setup includes various lab equipment like clamps and tubing, indicating a preparatory phase. The digital displays on the equipment suggest precise control over experimental conditions."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.5455,
+        21.091
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube with a clear liquid and a blue cap.",
+          "Researcher places the microtube on the lab bench."
+        ],
+        "objects_visible": [
+          "A 1.5mL microtube with a blue cap containing a clear liquid.",
+          "A glass beaker with a clear liquid.",
+          "A glass flask with an orange liquid connected to a red hose.",
+          "A syringe with a green plunger inserted into the flask."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the handling of a microtube with a blue cap, which is placed on the lab bench. The presence of a flask with an orange liquid connected to a red hose is distinctive, suggesting a setup for a specific chemical process. The syringe with a green plunger indicates a precise liquid transfer or measurement is part of the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.091,
+        31.6365
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a clear glass column with a red stopcock and adjusts it with gloved hands.",
+          "Researcher connects a clear plastic tube to the top of the glass column."
+        ],
+        "objects_visible": [
+          "A clear glass column with a red stopcock and a white plastic cap.",
+          "A clear plastic tube with a curved section.",
+          "A red plastic rack with compartments, possibly for holding test tubes.",
+          "A white lab coat worn by the researcher.",
+          "A pair of blue latex gloves on the researcher's hands.",
+          "A white fume hood with a glass window."
+        ],
+        "visible_text_labels": [
+          "Eluent system petroleum ether/EtOAc: 90/10",
+          "jove"
+        ],
+        "quantities": [
+          "90/10 ratio of petroleum ether to EtOAc in the eluent system."
+        ],
+        "key_distinguishing_features": "The segment focuses on the setup of a chromatography column, highlighting the precise adjustment of the column's stopcock and the connection of tubing. The researcher's actions are deliberate, emphasizing the importance of proper setup in the experiment. The visible text indicates the specific eluent system composition used."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.6365,
+        42.182
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a cork stopper on a conical flask",
+          "researcher adjusts the position of the flask on the lab bench"
+        ],
+        "objects_visible": [
+          "conical flask with a cork stopper",
+          "red plastic test tube rack",
+          "glassware and laboratory equipment in the background",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "Eluent system petroleum ether/EtOAc: 90/10"
+        ],
+        "quantities": [
+          "90/10 ratio of petroleum ether to EtOAc"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a conical flask with a cork stopper, likely for a chromatography experiment. The researcher's actions are deliberate and precise, indicating a step in the execution phase. The visible text provides specific details about the eluent system composition."
+      }
+    }
+  ]
+}

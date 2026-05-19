@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_2/video_verification/56437/clip_1_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 40.039633,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.00990825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a 1.5mL microtube with a blue cap",
+          "researcher transfers the contents of the microtube into a clear glass beaker"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "clear glass beaker",
+          "white lab coat with red text 'KSI'",
+          "white gloves",
+          "various bottles and containers on the lab bench",
+          "blue plastic tray",
+          "whiteboard with Korean text and drawings"
+        ],
+        "visible_text_labels": [
+          "KSI (on the lab coat)",
+          "Korean text on the whiteboard"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a small microtube, indicating a precise preparation step. The presence of a whiteboard with Korean text suggests a specific lab environment. The focus is on the transfer of a small volume of liquid from the microtube to a beaker."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.00990825,
+        20.0198165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a clear liquid from a 250 mL Duran bottle into a 1000 mL Duran bottle",
+          "researcher holds a 250 mL Duran bottle with a blue cap and a yellow label reading 'Group 11'"
+        ],
+        "objects_visible": [
+          "250 mL Duran bottle with a blue cap and a yellow label",
+          "1000 mL Duran bottle with a blue cap",
+          "blue cap on the table",
+          "white gloves on the researcher's hands",
+          "white lab coat on the researcher",
+          "black lab bench"
+        ],
+        "visible_text_labels": [
+          "Group 11",
+          "Duran 250 mL"
+        ],
+        "quantities": [
+          "250 mL",
+          "1000 mL"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer between Duran bottles, emphasizing the use of labeled containers and the careful handling of laboratory glassware. The researcher's gloved hands and the organized lab setup highlight the controlled environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.0198165,
+        30.02972475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher places the microtube on a laboratory counter"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap labeled 'DMEM'",
+          "a clear glass bottle with a yellow label",
+          "a digital scale with a circular weighing platform",
+          "a blue and white box labeled 'VERSA'",
+          "a transparent plastic container with a blue lid",
+          "a white lab coat with red text on the sleeve"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "VERSA"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of a microtube labeled 'DMEM', indicating the preparation of a specific medium. The presence of a digital scale and other lab equipment suggests a precise experimental setup. The researcher's actions are deliberate, emphasizing the importance of accurate handling in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        30.02972475,
+        40.039633
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a metal autoclave lid with a handle",
+          "researcher places a small blue-capped container into a water bath"
+        ],
+        "objects_visible": [
+          "metal autoclave with a digital control panel and warning labels",
+          "water bath with a blue handle and a digital display",
+          "small blue-capped container",
+          "green-capped bottles on a shelf in the background",
+          "white lab coat and gloves worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "jove (logo in the top right corner)"
+        ],
+        "quantities": [
+          "one blue-capped container"
+        ],
+        "key_distinguishing_features": "This segment focuses on the use of an autoclave and a water bath, highlighting sterilization and temperature control processes. The researcher's actions are precise, indicating a step in preparing materials for an experiment. The presence of warning labels on the autoclave emphasizes safety protocols."
+      }
+    }
+  ]
+}

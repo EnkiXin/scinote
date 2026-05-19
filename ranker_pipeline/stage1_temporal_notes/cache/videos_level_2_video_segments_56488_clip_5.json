@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/56488/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 49.868,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.467
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher wearing purple gloves adjusts a component on a precision polishing machine.",
+          "Researcher uses a tool to secure a sample holder on the machine."
+        ],
+        "objects_visible": [
+          "Precision polishing machine with a rotating polishing pad.",
+          "Sample holder with a white circular sample attached.",
+          "A bottle with a blue cap and a label, possibly containing a polishing solution."
+        ],
+        "visible_text_labels": [
+          "Order: 3 \u00b5m, 1 \u00b5m, 0.25 \u00b5m",
+          "jove"
+        ],
+        "quantities": [
+          "3 \u00b5m, 1 \u00b5m, 0.25 \u00b5m"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of a precision polishing process, highlighting the specific order of polishing steps. The researcher's actions are meticulous, ensuring the sample is properly secured for the polishing procedure. The presence of the polishing machine and the labeled bottle suggests a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.467,
+        24.934
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher sprays a liquid from a white and blue spray bottle onto a rotating polishing wheel",
+          "researcher holds a small bottle with a green label and a white cap"
+        ],
+        "objects_visible": [
+          "white and blue spray bottle",
+          "small bottle with a green label and white cap",
+          "rotating polishing wheel with a metallic central component",
+          "text overlay with instructions"
+        ],
+        "visible_text_labels": [
+          "Order: 3 \u00b5m, 1 \u00b5m, 0.25 \u00b5m, 90 min each, RT",
+          "jove"
+        ],
+        "quantities": [
+          "3 \u00b5m",
+          "1 \u00b5m",
+          "0.25 \u00b5m",
+          "90 min each"
+        ],
+        "key_distinguishing_features": "The segment focuses on the application of a liquid to a polishing wheel, likely for a material processing step. The text overlay provides specific instructions for the polishing sequence. The presence of a spray bottle and a small labeled bottle suggests the use of specific chemicals in the process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        24.934,
+        37.401
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand sprays a liquid onto a rotating polishing wheel.",
+          "The polishing wheel is spinning rapidly, and the liquid is being applied to its surface."
+        ],
+        "objects_visible": [
+          "A white polishing wheel with a metallic central hub.",
+          "A hand wearing a purple glove holding a spray bottle.",
+          "A metallic polishing machine with a cylindrical structure."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the application of a liquid to a rapidly spinning polishing wheel, likely for a material processing or polishing procedure. The presence of the gloved hand and the spray bottle indicates a controlled application of the liquid. The polishing machine's design and the spinning wheel suggest a specialized industrial or laboratory process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        37.401,
+        49.868
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher applies a white substance from a tube into a central component of a machine",
+          "researcher uses a pipette to add a liquid into the same central component"
+        ],
+        "objects_visible": [
+          "a large machine with a digital display showing '300' and '00:00'",
+          "a tube with a white substance and a green cap",
+          "a pipette with a blue tip",
+          "a central component of the machine with a metallic and white surface"
+        ],
+        "visible_text_labels": [
+          "90 min",
+          "jove"
+        ],
+        "quantities": [
+          "90 min"
+        ],
+        "key_distinguishing_features": "The segment is distinctive for the precise application of substances into a machine's central component, indicating a step in a controlled scientific process. The presence of a digital display and the '90 min' label suggest a time-sensitive procedure. The researcher's actions are methodical, emphasizing the importance of accuracy in this phase."
+      }
+    }
+  ]
+}

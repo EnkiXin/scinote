@@ -1,0 +1,183 @@
+{
+  "video_id": "videos/level_2/step_prediction/54934/clip_7_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 45.833433,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.45835825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours liquid from a bottle into a beaker",
+          "researcher uses a pipette to transfer liquid into labeled glass containers"
+        ],
+        "objects_visible": [
+          "beaker with a clear liquid",
+          "four glass containers labeled with yellow stickers",
+          "pipette with a white body and black tip",
+          "bottle with a black cap",
+          "Thermo Scientific magnetic stirrer",
+          "green rack with a small container",
+          "plastic tray with purple and white containers"
+        ],
+        "visible_text_labels": [
+          "80% EtOH",
+          "95% EtOH",
+          "2 x 100% EtOH",
+          "5 min each",
+          "Thermo Scientific"
+        ],
+        "quantities": [
+          "5 min",
+          "80% EtOH",
+          "95% EtOH",
+          "2 x 100% EtOH"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher performing a step-by-step process involving multiple ethanol solutions, with specific concentrations and time intervals indicated. The use of a pipette for precise liquid transfer is a key action. The setup includes a magnetic stirrer and various labeled containers, emphasizing a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.45835825,
+        22.9167165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to transfer a tissue sample from a beaker labeled '100% XYLENE 1' to a container labeled 'Paraffin'",
+          "researcher repeats the transfer process twice more, as indicated by the on-screen text '15 min Repeat twice'"
+        ],
+        "objects_visible": [
+          "beaker labeled '100% XYLENE 1' containing a clear liquid",
+          "beaker labeled '100% XYLENE 2' containing a clear liquid",
+          "beaker labeled '95% EtOH' containing a clear liquid",
+          "beaker labeled '80% EtOH' containing a clear liquid",
+          "beaker labeled '100% EtOH' containing a clear liquid",
+          "forceps held by the researcher",
+          "container labeled 'Paraffin' wrapped in aluminum foil",
+          "thermo equipment in the background"
+        ],
+        "visible_text_labels": [
+          "100% XYLENE 1",
+          "100% XYLENE 2",
+          "95% EtOH",
+          "80% EtOH",
+          "100% EtOH",
+          "Paraffin",
+          "15 min Repeat twice",
+          "2 x 100% EtOH",
+          "5 min each"
+        ],
+        "quantities": [
+          "15 min Repeat twice",
+          "2 x 100% EtOH",
+          "5 min each"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of tissue samples using forceps from xylene solutions to a paraffin container, emphasizing the repetition of the process. The clear labeling of each beaker with specific ethanol and xylene concentrations highlights the methodical nature of the experiment. The use of forceps and the presence of a thermo equipment in the background suggest a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.9167165,
+        34.375074749999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a block of paraffin into a mold",
+          "researcher operates a microtome to slice the embedded sample"
+        ],
+        "objects_visible": [
+          "paraffin block labeled 'Paraffin' wrapped in aluminum foil",
+          "microtome with a black sample block and a sharp blade",
+          "metallic mold for embedding samples",
+          "beaker labeled 'C57BL/6J'"
+        ],
+        "visible_text_labels": [
+          "Paraffin",
+          "Then embed the fixed spheroid pellet in paraffin at 56 \u00b0C in a mold",
+          "jove"
+        ],
+        "quantities": [
+          "56 \u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the embedding of a spheroid pellet in paraffin at a specific temperature, followed by the use of a microtome to slice the embedded sample. The presence of the labeled paraffin block and the microtome highlights the precision required in this step of the process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        34.375074749999996,
+        45.833433
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to carefully place a small, transparent object into a water bath",
+          "researcher adjusts the position of the object in the water bath using the forceps"
+        ],
+        "objects_visible": [
+          "a metallic water bath with a rectangular opening",
+          "a white machine with a black heating plate and control knobs",
+          "a blue and white box containing small compartments",
+          "a white glove on the researcher's hand",
+          "a small, transparent object being manipulated with forceps"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "no specific quantities are visible in this segment"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a small, transparent object into a water bath using forceps, highlighting the careful handling required. The presence of a heating plate and other laboratory equipment suggests a controlled environment for the experiment. The researcher's gloved hand emphasizes the sterile conditions necessary for the procedure."
+      }
+    }
+  ]
+}

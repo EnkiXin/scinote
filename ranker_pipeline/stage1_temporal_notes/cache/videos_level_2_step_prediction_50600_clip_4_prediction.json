@@ -1,0 +1,148 @@
+{
+  "video_id": "videos/level_2/step_prediction/50600/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.822433,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.70560825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher injects a substance into a mouse's brain using a microinjection apparatus"
+        ],
+        "objects_visible": [
+          "black mouse with its head restrained in a stereotactic frame",
+          "microinjection needle held by a gloved hand",
+          "metallic stereotactic frame with adjustable knobs"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise surgical procedure where a needle is carefully inserted into the mouse's brain. The mouse is immobilized in a stereotactic frame, ensuring accuracy. The gloved hand holding the needle indicates a controlled and sterile environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.70560825,
+        17.4112165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher adjusts a precision instrument with gloved hands"
+        ],
+        "objects_visible": [
+          "metallic precision instrument with a graduated scale and a rotating dial",
+          "white latex gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "graduated scale markings on the instrument"
+        ],
+        "key_distinguishing_features": "The segment focuses on a close-up of a precision instrument being adjusted by gloved hands, emphasizing the fine control and accuracy required. The presence of the 'jove' logo suggests a scientific or educational context. The detailed view of the instrument's scale and dial highlights the meticulous nature of the task."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.4112165,
+        26.11682475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a metallic cylindrical device with a scale and a rotating dial",
+          "researcher places a small black object, possibly a mouse, on a white cloth under a mechanical apparatus"
+        ],
+        "objects_visible": [
+          "metallic cylindrical device with a scale and rotating dial",
+          "white cloth on a flat surface",
+          "small black object resembling a mouse",
+          "digital timer displaying '00:00:00'",
+          "complex mechanical apparatus with multiple components and a clamp"
+        ],
+        "visible_text_labels": [
+          "00:00:00 (on the digital timer)"
+        ],
+        "quantities": [
+          "00:00:00 (time displayed on the digital timer)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a mechanical device, likely for a controlled experiment involving a small animal. The presence of a digital timer suggests the timing of the experiment is critical. The setup includes a complex apparatus, indicating a highly controlled and technical procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.11682475,
+        34.822433
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "hand in white glove adjusts a metallic cylindrical component on a precision instrument"
+        ],
+        "objects_visible": [
+          "metallic cylindrical component with a scale marked from 0 to 10",
+          "precision instrument with a vertical column and a horizontal arm",
+          "hand wearing a white latex glove"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "scale marked from 0 to 10 on the metallic cylindrical component"
+        ],
+        "key_distinguishing_features": "The segment focuses on a close-up of a hand adjusting a precision component, emphasizing the fine control and measurement aspect. The metallic component with a visible scale suggests a high level of accuracy required in the experiment. The white glove indicates a sterile or controlled environment."
+      }
+    }
+  ]
+}

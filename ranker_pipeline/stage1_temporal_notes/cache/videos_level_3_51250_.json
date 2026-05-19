@@ -1,0 +1,183 @@
+{
+  "video_id": "videos/level_3/51250_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 580.245333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        145.06133325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A slide is shown with a graph labeled 'Laser breakdown frequency' and a fitted data plot.",
+          "A man is introduced as Alexander C. Woods from the University of Tennessee Space Institute."
+        ],
+        "objects_visible": [
+          "Graph with fitted data and calibrated data plots",
+          "Nelder Mead fitting program interface",
+          "Laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "Laser breakdown frequency",
+          "Fitted data",
+          "Calibrated data",
+          "Nelder Mead fitting program",
+          "Data collection at two different time-delays",
+          "Alexander C. Woods",
+          "University of Tennessee Space Institute"
+        ],
+        "quantities": [
+          "Relative intensity values on the graph",
+          "Wavelength values in nanometers"
+        ],
+        "key_distinguishing_features": "This segment introduces the experimental setup and data analysis tools, focusing on laser breakdown frequency. The presence of a fitted data graph and a calibration plot highlights the preparatory phase of the experiment. The introduction of Alexander C. Woods sets the context for the research being presented."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        145.06133325,
+        290.1226665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher adjusts a Nd:YAG laser setup, aligning components with precision.",
+          "Researcher uses a tool to fine-tune the position of a photodiode in the optical path."
+        ],
+        "objects_visible": [
+          "Nd:YAG laser labeled with a green power indicator light.",
+          "Photodiode mounted on an adjustable arm.",
+          "Optical table with various laser components and mirrors.",
+          "Spectrometer connected to the setup, with visible cables."
+        ],
+        "visible_text_labels": [
+          "Nd:YAG",
+          "Photodiode",
+          "Spectrometer"
+        ],
+        "quantities": [
+          "No specific quantities are visible in this segment."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise alignment of laser components, highlighting the researcher's careful adjustments. The Nd:YAG laser and photodiode are central to the setup, indicating a focus on optical measurements. The presence of a spectrometer suggests spectral analysis is part of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        290.1226665,
+        435.18399975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Researcher adjusts a knob on a device connected to a complex setup with cables and electronic components.",
+          "Researcher points to a graph on a screen displaying wavelength and relative intensity data."
+        ],
+        "objects_visible": [
+          "A complex experimental setup with various electronic components, cables, and a device with a knob.",
+          "A graph on a screen showing wavelength in nanometers and relative intensity with specific peaks.",
+          "A 3D plot labeled 'Hydrogen Alpha' with axes for wavelength, ratio, and diaphragm size."
+        ],
+        "visible_text_labels": [
+          "IV. Synchronization and Measurement",
+          "Wavelength (nm)",
+          "Relative Intensity",
+          "Hydrogen Alpha",
+          "CCD counts/normalization Ratios",
+          "delay = 42 ns"
+        ],
+        "quantities": [
+          "Wavelength values ranging from 625 to 640 nm",
+          "Relative intensity values up to 600,000",
+          "Diaphragm sizes from 0.1 to 5.0 mm",
+          "Delay of 42 ns"
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase, with detailed graphical data on hydrogen alpha wavelengths and intensity. The setup includes a complex electronic device, emphasizing the technical nature of the experiment. The researcher's interaction with the device and the displayed data highlights the precision required in this scientific process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        435.18399975,
+        580.245333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher holds a pair of safety goggles and speaks to the camera",
+          "Researcher gestures towards the camera while explaining"
+        ],
+        "objects_visible": [
+          "Safety goggles with orange-tinted lenses",
+          "Researcher wearing a checkered shirt",
+          "Laboratory equipment in the background, including a large machine with a digital display"
+        ],
+        "visible_text_labels": [
+          "Time delay 45 \u03bcsec",
+          "Gate width 5 \u03bcsec",
+          "Resolution 0.09 nm",
+          "Temperature 3,900 K",
+          "Hydrogen Alpha",
+          "TiO A' \u03a6' -> X' \u0394 for the \u0394v = 0 transition",
+          "CCD counts",
+          "Relative Intensity",
+          "Wavelength (nm)",
+          "Distance (mm)"
+        ],
+        "quantities": [
+          "45 \u03bcsec",
+          "5 \u03bcsec",
+          "0.09 nm",
+          "3,900 K",
+          "42 nm"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the researcher explaining while holding safety goggles, with detailed scientific data and graphs displayed on the screen. The background laboratory equipment adds context to the experimental setting."
+      }
+    }
+  ]
+}

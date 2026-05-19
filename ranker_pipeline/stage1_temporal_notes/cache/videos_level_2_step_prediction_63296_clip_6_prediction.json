@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/step_prediction/63296/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 44.482083,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.12052075
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube with blue cap",
+          "researcher unscrews blue cap of microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "yellow test tube rack",
+          "pink test tube rack",
+          "blue perforated tray",
+          "petri dish with clear liquid",
+          "blue gloves"
+        ],
+        "visible_text_labels": [
+          "FAK"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where the researcher is handling a microtube. The use of blue gloves and the presence of multiple test tube racks indicate a controlled laboratory environment. The microtube's blue cap is a distinctive feature in this segment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.12052075,
+        22.2410415
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "researcher unscrews the blue cap of the microtube"
+        ],
+        "objects_visible": [
+          "yellow test tube rack with empty slots",
+          "pink test tube rack with empty slots",
+          "blue-capped microtube labeled 'DMEM'",
+          "transparent plastic bottle with yellow cap",
+          "white paper towel on the lab bench"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where the researcher is handling a microtube labeled 'DMEM'. The use of color-coded racks (yellow and pink) and the specific action of unscrewing the cap highlight the meticulous nature of the experiment setup. The presence of a white paper towel suggests attention to cleanliness and organization."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.2410415,
+        33.361562250000006
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe with a needle attached",
+          "researcher carefully adjusts the plunger of the syringe"
+        ],
+        "objects_visible": [
+          "blue-gloved hands",
+          "a syringe with a needle",
+          "a clear liquid inside the syringe",
+          "a yellow-capped bottle in the background",
+          "a blue-capped bottle in the background",
+          "a white beaker in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "~1 mL of liquid in the syringe"
+        ],
+        "key_distinguishing_features": "The researcher's precise handling of the syringe suggests a delicate and controlled action. The background includes various laboratory items, indicating a typical lab setting. The focus is on the syringe and the liquid, emphasizing the importance of the liquid's volume and handling."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        33.361562250000006,
+        44.482083
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 10 mL syringe filled with a clear liquid",
+          "researcher carefully injects the liquid from the syringe into a petri dish containing a gel-like substance"
+        ],
+        "objects_visible": [
+          "10 mL syringe with a clear liquid",
+          "petri dish with a gel-like substance",
+          "yellow-capped bottles in the background",
+          "blue-capped container on the table",
+          "yellow tray with additional equipment"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "10 mL syringe"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring a liquid from a syringe into a petri dish, highlighting the careful handling of laboratory materials. The presence of the petri dish with a gel-like substance suggests a specific experimental setup. The researcher's gloved hands emphasize the sterile conditions required for the experiment."
+      }
+    }
+  ]
+}

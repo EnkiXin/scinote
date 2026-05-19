@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/video_verification/59155/clip_8_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 18.285,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.57125
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher uses tongs to transfer a white, solid substance from a labeled glass jar into a round-bottom flask"
+        ],
+        "objects_visible": [
+          "glass jar with a red-bordered label",
+          "round-bottom flask containing a dark liquid",
+          "ceramic or clay heating block",
+          "blue nitrile gloves",
+          "metal tongs"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise transfer of a solid substance using tongs, indicating a careful preparation step. The presence of a labeled jar and a dark liquid in the flask suggests a controlled chemical setup. The use of blue nitrile gloves emphasizes safety precautions."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.57125,
+        9.1425
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand pours a white liquid from a beaker into a funnel placed inside a round-bottom flask."
+        ],
+        "objects_visible": [
+          "A white funnel with a black rim",
+          "A round-bottom flask with a cork stopper",
+          "A cork stopper with a hole for the flask neck",
+          "A gloved hand holding a beaker",
+          "Metal pipes and clamps in the background",
+          "A black lab bench"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise transfer of a white liquid using a funnel into a flask, emphasizing careful laboratory technique. The presence of a cork stopper suggests the setup is for a specific reaction or storage. The background includes typical lab equipment, reinforcing the experimental context."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.1425,
+        13.713750000000001
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a clear glass funnel with a white filter paper inside",
+          "researcher pours a clear liquid from a beaker into the funnel"
+        ],
+        "objects_visible": [
+          "clear glass funnel with a white filter paper",
+          "beaker containing a clear liquid",
+          "round-bottom flask with a cork stopper",
+          "metal clamps and support stand",
+          "blue lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a liquid being poured through a filter paper in a funnel, indicating a filtration process. The setup includes a round-bottom flask and a cork stopper, suggesting a controlled laboratory environment. The researcher's attire and the use of clamps highlight a professional and precise experimental setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        13.713750000000001,
+        18.285
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts the stopcock of a separatory funnel",
+          "researcher monitors the flow of a brown liquid into a conical flask"
+        ],
+        "objects_visible": [
+          "separatory funnel with a clear glass body",
+          "conical flask with a brown liquid collecting at the bottom",
+          "red stopcock handle on the separatory funnel",
+          "blue-gloved hands of the researcher",
+          "copper-colored pipe framework in the background",
+          "a cork ring on the table"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "brown liquid in the conical flask, approximately 10-20 mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise control of liquid flow using a separatory funnel, highlighting the researcher's careful manipulation of the stopcock. The presence of a brown liquid and the copper pipe framework in the background add distinctive visual elements. The researcher's blue gloves and the cork ring on the table further characterize the laboratory setting."
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/57928/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 36.601,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.15025
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a black laptop into a blue plastic container",
+          "researcher adjusts the position of the laptop within the container"
+        ],
+        "objects_visible": [
+          "blue plastic container with a label 'DVR system'",
+          "black laptop with a visible screen and keyboard",
+          "red battery packs with labels and wires connected",
+          "DVR system labeled circuit board with wires",
+          "researcher wearing a yellow safety vest"
+        ],
+        "visible_text_labels": [
+          "DVR system",
+          "12V 7Ah"
+        ],
+        "quantities": [
+          "three red battery packs",
+          "one black laptop"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher carefully placing a laptop into a blue container labeled 'DVR system', which also contains multiple battery packs and a circuit board. The setup suggests preparation for a portable or field-based recording system."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.15025,
+        18.3005
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher connects a cable to a device labeled 'DVR system'",
+          "researcher handles a bundle of cables, including a yellow connector"
+        ],
+        "objects_visible": [
+          "blue storage box with a black lid",
+          "DVR system with multiple ports and cables",
+          "black mat on a wooden surface",
+          "roll of duct tape",
+          "cable with a yellow connector"
+        ],
+        "visible_text_labels": [
+          "DVR system"
+        ],
+        "quantities": [
+          "one yellow connector"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a DVR system, with the researcher carefully connecting cables. The blue storage box and black mat provide a clean workspace. The yellow connector stands out among the other cables."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.3005,
+        27.45075
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher connects a black device with multiple cables to a larger electronic setup",
+          "researcher adjusts the position of the black device on a wooden surface"
+        ],
+        "objects_visible": [
+          "black device with multiple ports and cables",
+          "wooden surface with a black mat",
+          "various cables including red, black, and yellow",
+          "a red and black electronic device labeled 'PC1600'"
+        ],
+        "visible_text_labels": [
+          "PC1600"
+        ],
+        "quantities": [
+          "multiple cables (at least 5)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase where a black device is being connected to a complex electronic setup. The researcher's hands are actively manipulating the device and cables, indicating a setup or calibration process. The presence of a labeled 'PC1600' device adds specificity to the equipment being used."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.45075,
+        36.601
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a black cable with a connector",
+          "researcher adjusts the cable connector with both hands"
+        ],
+        "objects_visible": [
+          "black cable with a connector",
+          "wooden table with various electronic equipment",
+          "black electronic device with multiple ports",
+          "red electronic device with a display and buttons"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a black cable, likely for connecting electronic devices. The researcher's hands are prominently featured as they manipulate the cable connector. The background includes a mix of electronic equipment, suggesting a technical setup."
+      }
+    }
+  ]
+}

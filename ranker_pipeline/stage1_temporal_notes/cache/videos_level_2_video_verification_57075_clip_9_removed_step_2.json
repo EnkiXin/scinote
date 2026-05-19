@@ -1,0 +1,181 @@
+{
+  "video_id": "videos/level_2/video_verification/57075/clip_9_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 20.22075,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.0551875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts control panel with buttons and digital displays",
+          "researcher manipulates a knob on a gas valve"
+        ],
+        "objects_visible": [
+          "control panel with three digital displays showing '888.8' and buttons labeled 'SET', 'POINT', 'ON/OFF'",
+          "gas valve with a yellow warning label and metallic pipes wrapped in foil",
+          "thermocouple or temperature sensor connected to the control panel"
+        ],
+        "visible_text_labels": [
+          "Ensure test section does not contact oven wall",
+          "ZONE 1 CONTROLLER",
+          "ZONE 2 CONTROLLER",
+          "ZONE 3 CONTROLLER",
+          "200 \u00b0C"
+        ],
+        "quantities": [
+          "200 \u00b0C"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where the researcher is setting up equipment for a temperature-controlled experiment. The control panel and gas valve are prominently featured, indicating precise control over experimental conditions. The text overlay provides a specific instruction to avoid contact between the test section and the oven wall."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.0551875,
+        10.110375
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a valve on a complex apparatus wrapped in aluminum foil"
+        ],
+        "objects_visible": [
+          "aluminum foil-wrapped pipes and valves",
+          "yellow tape with handwritten notes",
+          "black cables and wires",
+          "a researcher wearing a yellow glove and blue safety glasses"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the researcher's hand manipulating a valve on a foil-wrapped apparatus, suggesting a precise adjustment in a controlled environment. The presence of yellow tape with notes indicates specific instructions or measurements are being followed. The setup is intricate, with multiple pipes and wires, emphasizing a complex experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.110375,
+        15.1655625
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Temperature readings are being monitored on the graph.",
+          "The 'STOP PROGRAM' button is highlighted, indicating a potential action point."
+        ],
+        "objects_visible": [
+          "Graph displaying temperature over time with two lines (red and black).",
+          "Temperature control interface with 'Inlet Temp' and 'Outlet Temp' labels.",
+          "Heater temperature readouts showing '21.3784' and '21.1215' Celsius.",
+          "Highlighted 'CUT-OFF Solenoids' text with a red circle around it."
+        ],
+        "visible_text_labels": [
+          "Inlet Temp",
+          "Outlet Temp",
+          "Heater 1 Temp",
+          "Heater 2 Temp",
+          "STOP PROGRAM",
+          "CUT-OFF Solenoids",
+          "Not RECORDING",
+          "Space Velocity Calculator",
+          "Testbed Temperature: 138.601 \u00b0C"
+        ],
+        "quantities": [
+          "21.3784 \u00b0C (Heater 1 Temp)",
+          "21.1215 \u00b0C (Heater 2 Temp)",
+          "138.601 \u00b0C (Testbed Temperature)",
+          "400 (Time on the x-axis of the graph)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of temperature data, with a clear emphasis on the 'CUT-OFF Solenoids' label and the 'STOP PROGRAM' button, suggesting a critical monitoring phase. The temperature graph shows two distinct lines, indicating a comparison or dual measurement setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        15.1655625,
+        20.22075
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Temperature readings are being monitored on the graph.",
+          "The 'STOP PROGRAM' button is highlighted, indicating a potential action point."
+        ],
+        "objects_visible": [
+          "Graph displaying temperature over time with two lines (red and black).",
+          "Temperature control interface with 'Inlet Temp' and 'Outlet Temp' sliders.",
+          "Recording status indicator showing 'NOT RECORDING'.",
+          "Highlighted 'STOP PROGRAM' button in red."
+        ],
+        "visible_text_labels": [
+          "Temperature (Celsius)",
+          "Time",
+          "Inlet Temp",
+          "Outlet Temp",
+          "Recording",
+          "NOT RECORDING",
+          "STOP PROGRAM",
+          "CUT-OFF Solenoids",
+          "Heater 1 Temp",
+          "Heater 2 Temp",
+          "22.1833",
+          "22.1315"
+        ],
+        "quantities": [
+          "22.1833 (Heater 1 Temp)",
+          "22.1315 (Heater 2 Temp)",
+          "150 (maximum temperature on graph)",
+          "400 (maximum time on graph)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, with temperature data being actively monitored on a graph. The 'STOP PROGRAM' button is prominently highlighted, suggesting a potential action point. The recording status is clearly indicated as 'NOT RECORDING'."
+      }
+    }
+  ]
+}

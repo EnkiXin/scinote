@@ -1,0 +1,164 @@
+{
+  "video_id": "61422",
+  "benchmark": "scivideobench",
+  "duration_seconds": 460.352,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        115.088
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A man in a blue shirt and glasses stands in front of a whiteboard, speaking.",
+          "A man with red hair and glasses sits in front of a bookshelf filled with binders, speaking.",
+          "A person in a blue lab coat and gloves handles a small container, possibly a petri dish, on a lab bench."
+        ],
+        "objects_visible": [
+          "A whiteboard with a marker in the man's hand.",
+          "A bookshelf with multiple binders labeled with text.",
+          "A lab bench with various equipment and a petri dish."
+        ],
+        "visible_text_labels": [
+          "JOSEF SCHLATTMANN",
+          "LARS SCHILLER"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment features two individuals introducing or explaining a topic, with one person in a lab setting handling equipment. The presence of labeled binders and a whiteboard suggests an educational or instructional context. The transition to a lab scene indicates the start of a practical demonstration."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        115.088,
+        230.176
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a transparent plastic mold with a rectangular cavity",
+          "researcher uses a pipette to add a clear liquid into the mold's cavity",
+          "researcher places the filled mold into a microwave oven",
+          "researcher removes the mold from the microwave and handles it with gloved hands",
+          "researcher uses a tool to carefully remove a solidified object from the mold"
+        ],
+        "objects_visible": [
+          "transparent plastic mold with a rectangular cavity",
+          "pipette with a green plunger",
+          "microwave oven with a digital display",
+          "solidified orange object with a rectangular shape and ridges",
+          "blue surgical gloves"
+        ],
+        "visible_text_labels": [
+          "Ensure that the joining surface is not greasy"
+        ],
+        "quantities": [
+          "one transparent plastic mold",
+          "one solidified orange object"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the process of creating a solid object using a mold and a microwave. The researcher's careful handling of the mold and the solidified object highlights the precision required in this step. The text overlay provides a specific instruction related to the experiment's requirements."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        230.176,
+        345.264
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, transparent tube with a blue cap",
+          "researcher uses a pipette to transfer a small volume of liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "pipette with a pink plunger",
+          "petri dish containing a clear medium",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "Limb Joining"
+        ],
+        "quantities": [
+          "approximately 200uL of liquid"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a small volume of liquid using a pipette, highlighting the careful handling of laboratory materials. The researcher's gloved hands and the labeled 'Limb Joining' text suggest a specific experimental procedure. The petri dish and microtube are central to the action, emphasizing the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        345.264,
+        460.352
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "researcher gestures towards a graph and a set of images showing a stick figure on a checkerboard"
+        ],
+        "objects_visible": [
+          "graph with multiple lines and data points",
+          "checkerboard images with a stick figure in various positions",
+          "researcher wearing glasses and a suit"
+        ],
+        "visible_text_labels": [
+          "Conclusion",
+          "\u0394x / \u0394t (cm/s)",
+          "inclination angle \u03b2 (\u00b0)",
+          "re-calibrated p(\u03b1)",
+          "0 22 44 66 76 84 90"
+        ],
+        "quantities": [
+          "6 cm/s",
+          "0 cm/s",
+          "90\u00b0"
+        ],
+        "key_distinguishing_features": "This segment focuses on the conclusion of the experiment, with a researcher explaining results using a graph and visual aids. The graph shows changes in velocity over inclination angles, and the checkerboard images illustrate the stick figure's movement. The segment emphasizes the re-calibrated probability function p(\u03b1)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/video_verification/59541/clip_3_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 23.090433,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.77260825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid into a petri dish",
+          "researcher places the petri dish on a heated platform"
+        ],
+        "objects_visible": [
+          "petri dish with a clear liquid",
+          "pipette with a white tip",
+          "heated platform with a ribbed surface",
+          "other petri dishes and glassware on the table"
+        ],
+        "visible_text_labels": [
+          "pH 7.4",
+          "VWR"
+        ],
+        "quantities": [
+          "pH 7.4"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer into a petri dish, followed by its placement on a heated platform. The pH label 'pH 7.4' is prominently displayed, indicating the controlled environment for the experiment. The heated platform's ribbed surface is a distinctive feature of this setup."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.77260825,
+        11.5452165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a clear liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a clear liquid",
+          "pipette with a fine tip",
+          "black textured surface under the petri dish"
+        ],
+        "visible_text_labels": [
+          "pH 7.4"
+        ],
+        "quantities": [
+          "clear liquid volume not specified"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring a clear liquid into a petri dish using a pipette. The petri dish is placed on a black textured surface, and the liquid appears to be part of a controlled experiment. The text 'pH 7.4' suggests the liquid's specific pH level."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.5452165,
+        17.31782475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a clear liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a clear liquid being added",
+          "blue-gloved hand holding a pipette"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise action of adding a clear liquid to a petri dish using a pipette. The blue-gloved hand indicates a controlled and sterile environment. The petri dish is placed on a dark, textured surface, emphasizing the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.31782475,
+        23.090433
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a petri dish into a small, white incubator",
+          "researcher closes the incubator door"
+        ],
+        "objects_visible": [
+          "white incubator with a digital display labeled 'STANDARD'",
+          "petri dish with a clear, circular base",
+          "researcher's gloved hand wearing blue nitrile gloves",
+          "laboratory background with shelves containing various lab supplies"
+        ],
+        "visible_text_labels": [
+          "STANDARD",
+          "iQve"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a petri dish into a small incubator, highlighting the controlled environment for sample incubation. The digital display on the incubator suggests it is set for a specific temperature or condition. The background laboratory setting provides context for a scientific experiment."
+      }
+    }
+  ]
+}

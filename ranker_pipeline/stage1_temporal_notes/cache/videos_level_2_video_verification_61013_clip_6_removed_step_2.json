@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/video_verification/61013/clip_6_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 24.160333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.04008325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "gloved hand uses a pipette to add a red liquid to a circular, flat object inside a yellow container"
+        ],
+        "objects_visible": [
+          "yellow container labeled 'MODEL WS-650MZ-23NPP/IND'",
+          "gloved hand holding a pipette",
+          "circular, flat object inside the container",
+          "red liquid being dispensed"
+        ],
+        "visible_text_labels": [
+          "MODEL WS-650MZ-23NPP/IND",
+          "AZ1512"
+        ],
+        "quantities": [
+          "red liquid being added in a small volume, likely microliters"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of adding a red liquid to a flat object within a specialized yellow container, emphasizing the controlled environment. The container's label and the use of a pipette highlight the scientific nature of the task. The text 'AZ1512' suggests a specific experimental context or sample identifier."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.04008325,
+        12.0801665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "no specific actions observed"
+        ],
+        "objects_visible": [
+          "yellow cylindrical device with a red residue pattern inside",
+          "warning labels on the device",
+          "text indicating the model number"
+        ],
+        "visible_text_labels": [
+          "MODEL WS-650MZ-23NPP/IND",
+          "WARNING",
+          "CAUTION"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a yellow cylindrical device with a red residue pattern inside, suggesting a previous chemical reaction or process. The device has warning labels and a model number, indicating it is specialized equipment. The lack of visible actions suggests a moment of observation or pause in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.0801665,
+        18.12024975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "illuminating a petri dish with a yellow light"
+        ],
+        "objects_visible": [
+          "petri dish containing a white circular object, possibly a filter or membrane, with red liquid droplets around the edges",
+          "yellow light source illuminating the petri dish",
+          "circular container labeled 'MODEL WS-650MZ-23NPP/IND'"
+        ],
+        "visible_text_labels": [
+          "MODEL WS-650MZ-23NPP/IND",
+          "WARNING",
+          "CAUTION"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The petri dish is illuminated with a yellow light, highlighting the white circular object and red liquid droplets. The container's label indicates a specific model number, suggesting specialized equipment. The scene focuses on observing the petri dish under controlled lighting conditions."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        18.12024975,
+        24.160333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher places a white, circular object into a glowing yellow chamber"
+        ],
+        "objects_visible": [
+          "yellow glowing chamber labeled 'MODEL WS-650MZ-23NPP/IND'",
+          "white circular object with a small red dot on top"
+        ],
+        "visible_text_labels": [
+          "MODEL WS-650MZ-23NPP/IND",
+          "WARNING",
+          "CAUTION"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment is distinctive due to the glowing yellow chamber, which suggests a specialized environment for the object being placed inside. The white circular object with a red dot appears to be carefully handled, indicating its importance in the experiment."
+      }
+    }
+  ]
+}

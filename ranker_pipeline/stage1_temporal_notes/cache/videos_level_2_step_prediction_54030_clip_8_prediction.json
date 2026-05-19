@@ -1,0 +1,199 @@
+{
+  "video_id": "videos/level_2/step_prediction/54030/clip_8_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.5545,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.388625
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher adjusts settings on a Stanford Research Systems SR570 Low-Noise Current Preamplifier",
+          "researcher uses a computer to analyze data"
+        ],
+        "objects_visible": [
+          "Stanford Research Systems SR570 Low-Noise Current Preamplifier with digital display",
+          "computer with dual monitors showing graphs and data",
+          "Keithley 6485 Picoammeter with digital display"
+        ],
+        "visible_text_labels": [
+          "-1800 VOLTS",
+          "0016",
+          "0001",
+          "jove"
+        ],
+        "quantities": [
+          "-1800 VOLTS",
+          "0016",
+          "0001",
+          "0.09988"
+        ],
+        "key_distinguishing_features": "This segment highlights the use of specialized electronic equipment for precise measurements, with a focus on voltage and current readings. The presence of a dual-monitor computer setup suggests data analysis is a key component of the experiment. The researchers are actively engaged in adjusting and monitoring the equipment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.388625,
+        16.77725
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "hand adjusts the voltage setting on the Stanford Research Systems device"
+        ],
+        "objects_visible": [
+          "Stanford Research Systems Model PS350/5000V-25W high voltage power supply",
+          "Keithley 6485 picoammeter"
+        ],
+        "visible_text_labels": [
+          "-18.00 VOLTS",
+          "19.00",
+          "0.001",
+          "HIGH VOLTAGE ON",
+          "RESET AUTO",
+          "SELECT",
+          "ENTER",
+          "STO",
+          "RCL",
+          "0.000000 A"
+        ],
+        "quantities": [
+          "-18.00 VOLTS",
+          "19.00",
+          "0.001",
+          "0.000000 A"
+        ],
+        "key_distinguishing_features": "The segment focuses on precise voltage adjustments on a high-voltage power supply, with clear digital readouts. The hand's interaction with the device highlights the manual control aspect of the experiment. The presence of a picoammeter suggests current measurement is also part of the process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.77725,
+        25.165875
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher adjusts settings on a high voltage power supply"
+        ],
+        "objects_visible": [
+          "high voltage power supply labeled 'PS350/5000V-25W'",
+          "digital display showing '-2751 VOLTS'",
+          "control buttons and keypad on the power supply",
+          "researcher's hand interacting with the equipment"
+        ],
+        "visible_text_labels": [
+          "STANFORD RESEARCH SYSTEMS, INC.",
+          "PS350/5000V-25W",
+          "HIGH VOLTAGE ON",
+          "RESET",
+          "AUTO",
+          "MAN",
+          "VOLTS",
+          "LIMIT",
+          "SELECT",
+          "ENTER",
+          "STO",
+          "CLR",
+          "RCL"
+        ],
+        "quantities": [
+          "-2751 VOLTS",
+          "2750",
+          "0.00 mA"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a high voltage power supply, with clear digital readouts of voltage and current. The researcher's hand is actively engaged in manipulating the controls, emphasizing the measurement phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.165875,
+        33.5545
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher adjusts settings on a Keithley 6485 Picoammeter"
+        ],
+        "objects_visible": [
+          "Keithley 6485 Picoammeter with digital display",
+          "stacked laboratory equipment including a power supply and other measurement devices",
+          "researcher's hand interacting with the equipment"
+        ],
+        "visible_text_labels": [
+          "KEITHLEY",
+          "6485 PICOAMMETER",
+          "POWER",
+          "MENU",
+          "COMM",
+          "SAVE SETUP",
+          "STORE RECALL",
+          "LIMIT/AZERO",
+          "EXIT/ENTER",
+          "RANGE",
+          "AUTO",
+          "DIGITS",
+          "RATE",
+          "LOG",
+          "REL",
+          "ZCHK",
+          "ZCOR"
+        ],
+        "quantities": [
+          "-0.020680 nA",
+          "2750",
+          "00007"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a Keithley 6485 Picoammeter, highlighting the digital display showing a current reading of -0.020680 nA. The researcher's hand is actively engaged in manipulating the controls, emphasizing the measurement phase of the experiment."
+      }
+    }
+  ]
+}

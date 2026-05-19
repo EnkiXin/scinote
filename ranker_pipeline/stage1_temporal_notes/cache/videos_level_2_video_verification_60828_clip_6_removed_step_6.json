@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/video_verification/60828/clip_6_removed_step_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.341016,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.835254
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a petri dish with a green plant sample",
+          "researcher uses a pipette to transfer a liquid into the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish containing a green plant sample",
+          "pipette with a red plunger",
+          "various glass jars with plant samples in the background",
+          "labeled bottles and containers"
+        ],
+        "visible_text_labels": [
+          "INDUCTION AND SELECTIVE CULTURE AND TIB Hairy Root Subculture",
+          "MSSA: MSSA MEDIUM SUPPLEMENTED WITH CEFOTAXIME AND KANAMYCIN"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of a plant culture experiment, with the researcher handling a petri dish and a pipette. The background is filled with glass jars containing plant samples, indicating a controlled laboratory environment. The text labels provide specific information about the medium used in the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.835254,
+        17.670508
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher handles a petri dish containing plant samples",
+          "researcher adjusts the position of the petri dish on the workbench"
+        ],
+        "objects_visible": [
+          "petri dish with transparent lid",
+          "green plant samples with roots and leaves",
+          "rows of glass jars containing dried plant material",
+          "aluminum foil-covered workbench"
+        ],
+        "visible_text_labels": [
+          "Nb hairy root",
+          "L10",
+          "L11",
+          "L12"
+        ],
+        "quantities": [
+          "multiple plant samples in the petri dish",
+          "rows of glass jars"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of plant samples in a petri dish, with clear labels indicating specific sample types. The researcher's meticulous handling of the petri dish suggests a careful setup for an experiment. The background jars with dried plant material add context to the research environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.670508,
+        26.505762000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to transfer plant samples",
+          "researcher places plant samples into a petri dish"
+        ],
+        "objects_visible": [
+          "forceps with a metallic, shiny surface",
+          "petri dish containing a clear medium with plant samples",
+          "gloved hand manipulating the forceps"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple plant samples"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of plant samples using forceps, highlighting the careful handling of biological material. The petri dish contains a clear medium, suggesting a controlled environment for the plant samples. The gloved hand indicates a sterile technique is being employed."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.505762000000004,
+        35.341016
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small glass bottle with a white cap labeled 'MSSK'",
+          "researcher uses a flame from a Bunsen burner to sterilize the bottle's opening"
+        ],
+        "objects_visible": [
+          "small glass bottle with a white cap labeled 'MSSK'",
+          "Bunsen burner with a blue flame",
+          "glass beakers containing a yellowish liquid",
+          "labeled conical flasks with measurement markings",
+          "researcher wearing gloves and a lab coat"
+        ],
+        "visible_text_labels": [
+          "MSSK: MS MEDIUM SUPPLEMENTED WITH SUCROSE AND KANAMYCIN"
+        ],
+        "quantities": [
+          "volume markings on the conical flasks (e.g., 0, 20, 40, 60, 80, 100 mL)"
+        ],
+        "key_distinguishing_features": "The segment highlights the sterilization process of a medium bottle using a Bunsen burner, emphasizing aseptic technique. The MSSK medium is specifically labeled, indicating its composition and purpose. The presence of measurement markings on the flasks suggests precise volume control is necessary for the experiment."
+      }
+    }
+  ]
+}

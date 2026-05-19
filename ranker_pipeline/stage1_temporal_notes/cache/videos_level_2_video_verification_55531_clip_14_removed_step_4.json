@@ -1,0 +1,198 @@
+{
+  "video_id": "videos/level_2/video_verification/55531/clip_14_removed_step_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 28.168333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.04208325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Displaying chromatogram and calibration curve for concentration calculation"
+        ],
+        "objects_visible": [
+          "Chromatogram graph with peaks labeled",
+          "Calibration curve graph with plotted points",
+          "Text box with example calculation for \u03b3-HCH (Lindane)"
+        ],
+        "visible_text_labels": [
+          "RESULTS - Concentration calculation",
+          "Example of \u03b3-HCH (Lindane)",
+          "Calibration curve Gamma-HCH",
+          "m_pellet = 0.3251 g",
+          "R = 96 %",
+          "Tr = 9.92 \u00b1 0.01 min",
+          "A1 = Peak area = 3270 AU",
+          "A2 = A1 x (100/R) = 3406 AU"
+        ],
+        "quantities": [
+          "0.3251 g",
+          "96 %",
+          "9.92 \u00b1 0.01 min",
+          "3270 AU",
+          "3406 AU"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed results of a concentration calculation, specifically for \u03b3-HCH (Lindane). It includes a chromatogram with labeled peaks and a calibration curve, providing precise numerical data and calculations. The visual elements are designed to explain the process of determining concentration from peak areas and recovery rates."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.04208325,
+        14.0841665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Displays chromatogram data for \u03b3-HCH (Lindane)",
+          "Presents calibration curve for concentration calculation"
+        ],
+        "objects_visible": [
+          "Chromatogram graph with peaks labeled",
+          "Calibration curve graph with data points and regression line",
+          "Text box with calculation details"
+        ],
+        "visible_text_labels": [
+          "RESULTS - Concentration calculation",
+          "Example of \u03b3-HCH (Lindane)",
+          "Calibration curve Gamma-HCH",
+          "m_pellet = 0.3251 g",
+          "R = 96 %",
+          "Tr = 9.92 \u00b1 0.01 min",
+          "A1 = Peak area = 3270 AU",
+          "A2 = A1 x (100/R) = 3406 AU",
+          "C1 = (A - b) / a",
+          "[\u03b3-HCH]_extract = 1.73 ppb (in 1 mL)"
+        ],
+        "quantities": [
+          "0.3251 g",
+          "96 %",
+          "9.92 \u00b1 0.01 min",
+          "3270 AU",
+          "3406 AU",
+          "1.73 ppb"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed measurement and calculation of \u03b3-HCH concentration using chromatographic data. The calibration curve and peak area calculations are prominently displayed, emphasizing the quantitative analysis process. The specific values and formulas used for the calculations are clearly highlighted."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.0841665,
+        21.12624975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The video displays a static slide with detailed results and calculations for \u03b3-HCH (Lindane) concentration."
+        ],
+        "objects_visible": [
+          "A graph showing a chromatogram with peaks labeled for various compounds like 24-DDT, 44-DDT, and gamma-HCH.",
+          "A calibration curve graph plotting concentration (ppb) against peak area (AU).",
+          "A text box with specific calculations and values related to \u03b3-HCH concentration."
+        ],
+        "visible_text_labels": [
+          "RESULTS - Concentration calculation",
+          "Example of \u03b3-HCH (Lindane)",
+          "m_pellet = 0.3251 g",
+          "R = 96 %",
+          "Tr = 9.92 \u00b1 0.01 min",
+          "A1 = Peak area = 3270 AU",
+          "A2 = A1 x (100/R) = 3406 AU",
+          "C1 = (A - b) / a",
+          "[\u03b3-HCH]_extract = 1.73 ppb (in 1 mL)",
+          "C2 = C1 / m_pellet",
+          "[\u03b3-HCH]_pellet = 5.33 ng g^-1"
+        ],
+        "quantities": [
+          "0.3251 g (pellet mass)",
+          "96 % (recovery rate)",
+          "9.92 \u00b1 0.01 min (retention time)",
+          "3270 AU (peak area)",
+          "3406 AU (adjusted peak area)",
+          "1.73 ppb (extract concentration)",
+          "5.33 ng g^-1 (pellet concentration)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed results of \u03b3-HCH concentration calculation, including a chromatogram, calibration curve, and specific numerical values. The slide is static, emphasizing the data and calculations rather than any physical actions. The text and graphs provide a comprehensive view of the analytical process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        21.12624975,
+        28.168333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Displays a bar graph showing the concentration of OCPs in plastic pellets",
+          "Transitions to a table showing detailed sample data with concentrations"
+        ],
+        "objects_visible": [
+          "Bar graph with labeled OCPs and HCHs",
+          "Table with sample names, search best hit descriptions, and concentrations"
+        ],
+        "visible_text_labels": [
+          "RESULTS - Concentration calculation",
+          "Concentration of OCPs in plastic pellets",
+          "OCPs",
+          "HCHs",
+          "Concentrations (ng/g)",
+          "Sample Name",
+          "Search Best Hit Description",
+          "Concentrations (ng/g)"
+        ],
+        "quantities": [
+          "Concentrations ranging from 0 to 14 ng/g",
+          "Sample concentrations like 0.99027 ng/g for 24-DDT in Sample 1-1"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed measurement of OCPs and HCHs in plastic pellets, presenting both graphical and tabular data. The transition from a visual bar graph to a detailed data table highlights the specific concentrations of various compounds in different samples. The segment is distinctive for its emphasis on numerical and visual representation of results."
+      }
+    }
+  ]
+}

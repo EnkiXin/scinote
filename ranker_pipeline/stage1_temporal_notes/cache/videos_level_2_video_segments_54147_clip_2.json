@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/video_segments/54147/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 40.288,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.072
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a light-colored liquid from a small glass bottle into a funnel placed over a conical flask"
+        ],
+        "objects_visible": [
+          "researcher wearing blue gloves",
+          "small glass bottle with a narrow neck",
+          "funnel with a white filter paper inside",
+          "conical flask with measurement markings",
+          "beaker with a white liquid in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "volume markings on the conical flask"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pouring action with a focus on the funnel and filter paper setup, indicating a filtration process. The researcher's gloved hands ensure a sterile environment. The background includes a beaker with a white liquid, suggesting a multi-step experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.072,
+        20.144
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a glass funnel with a white, folded paper filter inside",
+          "researcher uses a pipette to add a clear liquid into the funnel"
+        ],
+        "objects_visible": [
+          "a glass funnel with a white paper filter",
+          "a pipette with a clear liquid",
+          "a conical flask with a white liquid",
+          "a glass beaker with a white liquid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "the pipette appears to be adding a small volume of liquid, possibly in the range of milliliters"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a liquid is being filtered through a paper filter in a funnel. The use of a pipette for precise liquid addition is notable. The presence of multiple glassware with white liquids suggests a multi-step process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.144,
+        30.215999999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a white circular filter paper onto a glass petri dish containing a white cloth and a small, light brown object",
+          "researcher covers the petri dish with a clear glass lid"
+        ],
+        "objects_visible": [
+          "glass petri dish with a white cloth and a small, light brown object inside",
+          "white circular filter paper",
+          "clear glass lid",
+          "glass funnel",
+          "blue-gloved hands",
+          "marble-like countertop"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful placement of a filter paper over a small object in a petri dish, followed by covering it with a lid. The presence of a glass funnel in the background suggests a setup for a filtration or related procedure. The blue-gloved hands indicate a controlled, sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        30.215999999999998,
+        40.288
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a light yellow powder from a white paper into a glass funnel",
+          "powder is transferred through the funnel into a labeled glass jar"
+        ],
+        "objects_visible": [
+          "glass funnel",
+          "glass jar labeled 'DEFATTED GLIACIN'",
+          "white paper containing powder",
+          "black lid of the jar",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "DEFATTED GLIACIN"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the transfer of a powder into a labeled jar using a funnel, emphasizing the careful handling of materials. The label on the jar provides specific context about the substance being used. The researcher's gloved hands highlight the importance of maintaining a sterile environment."
+      }
+    }
+  ]
+}

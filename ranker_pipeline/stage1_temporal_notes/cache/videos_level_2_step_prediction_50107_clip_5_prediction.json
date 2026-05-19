@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/step_prediction/50107/clip_5_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 14.022,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        3.5055
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'OCT' with a pink cap",
+          "researcher adjusts the microtube in a transparent holder"
+        ],
+        "objects_visible": [
+          "transparent microtube holder with a blue clamp",
+          "digital timer labeled 'West Bend' with a black display",
+          "black surface next to the timer",
+          "microtube labeled 'OCT' with a pink cap"
+        ],
+        "visible_text_labels": [
+          "OCT",
+          "West Bend"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a microtube labeled 'OCT', emphasizing the preparation phase. The researcher's gloved hands are prominently shown manipulating the tube within a transparent holder. The digital timer in the background suggests time-sensitive procedures."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        3.5055,
+        7.011
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "A digital thermometer is connected to a probe, which is in contact with a sample in a test tube."
+        ],
+        "objects_visible": [
+          "A digital thermometer labeled 'NewBrand' with a black probe connected to it.",
+          "A test tube labeled 'OCT OCT' with a white cap, held in a blue clamp.",
+          "A clear acrylic stand holding the test tube and a metal rod.",
+          "A black surface partially visible on the left side of the frame."
+        ],
+        "visible_text_labels": [
+          "OCT OCT",
+          "NewBrand"
+        ],
+        "quantities": [
+          "The digital thermometer displays a reading of 25.0\u00b0C."
+        ],
+        "key_distinguishing_features": "The segment focuses on a precise temperature measurement setup, with a digital thermometer connected to a probe in a test tube. The test tube is securely held in a blue clamp, and the setup is mounted on a clear acrylic stand. The thermometer reading is clearly visible, indicating a controlled measurement process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        7.011,
+        10.5165
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "temperature probe is connected to a digital thermometer"
+        ],
+        "objects_visible": [
+          "digital thermometer with a black probe",
+          "transparent acrylic stand holding a cylindrical object",
+          "cylindrical object labeled 'OCT OCT' with a white cap",
+          "black and white surface under the stand"
+        ],
+        "visible_text_labels": [
+          "OCT OCT",
+          "HeartBrand"
+        ],
+        "quantities": [
+          "digital thermometer reading"
+        ],
+        "key_distinguishing_features": "The segment focuses on a temperature measurement setup, with a digital thermometer connected to a probe. The cylindrical object labeled 'OCT OCT' is securely held in an acrylic stand, suggesting a controlled environment for the measurement. The setup is static, emphasizing the measurement phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        10.5165,
+        14.022
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a clamp holding a cylindrical apparatus",
+          "researcher uses a gloved hand to manipulate a component of the setup"
+        ],
+        "objects_visible": [
+          "transparent cylindrical apparatus with a clamp",
+          "digital thermometer labeled 'HeatBond'",
+          "purple-gloved hand",
+          "black base supporting the apparatus"
+        ],
+        "visible_text_labels": [
+          "HeatBond",
+          "OCT OCT"
+        ],
+        "quantities": [
+          "digital thermometer reading"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher's gloved hand making precise adjustments to a transparent cylindrical apparatus, likely part of a temperature-controlled experiment. The digital thermometer indicates the importance of temperature monitoring. The clamp and setup suggest a controlled environment for the experiment."
+      }
+    }
+  ]
+}

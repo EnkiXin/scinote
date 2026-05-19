@@ -1,0 +1,165 @@
+{
+  "video_id": "videos/level_2/video_verification/2177/clip_6_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 41.541967,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.38549175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a transparent petri dish with a grid pattern",
+          "researcher uses a pipette to transfer a red liquid into the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a grid pattern",
+          "pipette with a long, thin tip",
+          "blue test tube rack with test tubes",
+          "two bottles of red liquid with white caps and labels",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove",
+          "TECHNOLOGIES, INC.",
+          "ONE UNIVERSITY PL.",
+          "RENSSELAER, NY 12180-3590"
+        ],
+        "quantities": [
+          "red liquid being transferred into the petri dish"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer into a petri dish with a grid, likely for cell culture or analysis. The researcher's gloved hands and the labeled bottles indicate a controlled laboratory environment. The presence of the JOVE logo suggests this is a professional scientific demonstration."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.38549175,
+        20.7709835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "researcher places microtube into a blue microtube rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "blue microtube rack",
+          "researcher's gloved hand wearing purple nitrile gloves",
+          "petri dishes with red and blue lids in the background"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "37\u00b0C 5 min"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the handling of a microtube labeled 'DMEM', emphasizing the preparation for a specific incubation step at 37\u00b0C for 5 minutes. The blue microtube rack and the researcher's precise movements highlight the controlled environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.7709835,
+        31.15647525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher operates a centrifuge by adjusting a red knob",
+          "researcher places a container into a centrifuge"
+        ],
+        "objects_visible": [
+          "centrifuge with a red knob and digital display",
+          "researcher wearing purple gloves",
+          "laboratory environment with a fire extinguisher in the background"
+        ],
+        "visible_text_labels": [
+          "300 x g",
+          "5 min"
+        ],
+        "quantities": [
+          "300 x g",
+          "5 min"
+        ],
+        "key_distinguishing_features": "This segment focuses on the centrifugation process, with specific parameters of 300 x g for 5 minutes clearly displayed. The researcher's interaction with the centrifuge highlights the precision required in this step. The presence of a fire extinguisher in the background adds a safety element to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.15647525,
+        41.541967
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a test tube with a red liquid",
+          "researcher examines the test tube closely"
+        ],
+        "objects_visible": [
+          "test tube with a red liquid",
+          "blue plastic glove",
+          "blue test tube rack",
+          "white lab coat",
+          "metallic background with a vent"
+        ],
+        "visible_text_labels": [
+          "300 x g 5 min",
+          "jove"
+        ],
+        "quantities": [
+          "300 x g",
+          "5 min"
+        ],
+        "key_distinguishing_features": "The segment focuses on a close-up of a gloved hand holding a test tube with a red liquid, indicating a centrifugation step. The text '300 x g 5 min' suggests the conditions of the centrifugation process. The blue glove and test tube rack provide a clear laboratory setting."
+      }
+    }
+  ]
+}

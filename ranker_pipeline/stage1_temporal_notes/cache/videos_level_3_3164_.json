@@ -1,0 +1,179 @@
+{
+  "video_id": "videos/level_3/3164_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 516.074667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        129.01866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Sample A' with a green cap",
+          "researcher places the microtube into a centrifuge",
+          "researcher sets the centrifuge to 500 rpm for 5 seconds",
+          "researcher removes the microtube from the centrifuge and places it on a heating block set to 110\u00b0C for 2 minutes"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a green cap labeled 'Sample A'",
+          "centrifuge with a digital display",
+          "heating block with a temperature display",
+          "researcher wearing gloves and a lab coat"
+        ],
+        "visible_text_labels": [
+          "500 rpm to 1000 rpm",
+          "5 s",
+          "110\u00b0C",
+          "2 min"
+        ],
+        "quantities": [
+          "500 rpm",
+          "5 seconds",
+          "110\u00b0C",
+          "2 minutes"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of a scientific experiment, highlighting the precise steps of centrifuging and heating a microtube. The specific parameters for the centrifuge and heating block are clearly displayed, emphasizing the controlled conditions required for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        129.01866675,
+        258.0373335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish",
+          "researcher uses a pipette to transfer liquid from a labeled bottle into a petri dish",
+          "researcher places a petri dish under a microscope for observation"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with pink-colored liquid",
+          "petri dish containing DMEM medium",
+          "microscope with adjustable knobs and eyepiece",
+          "labeled bottle with a pump dispenser",
+          "researcher wearing gloves and a lab coat"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "2X ethanol rinse"
+        ],
+        "quantities": [
+          "1.5mL",
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a petri dish with DMEM medium, highlighting the precise volume measurement and the use of a labeled microtube. The researcher's actions are methodical, ensuring the correct medium is added for the experiment. The presence of a microscope suggests the next step involves observation."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        258.0373335,
+        387.05600025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled '1 mM glycol-terminated thiol in absolute ethanol' with a blue cap",
+          "pipettes ~200uL of a clear solution from the microtube into a petri dish",
+          "researcher places the petri dish in an incubator set at 37\u00b0C for 1 hour"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap and handwritten label",
+          "petri dish containing a clear solution",
+          "incubator with digital display showing 37\u00b0C",
+          "pipette with blue plunger"
+        ],
+        "visible_text_labels": [
+          "1 mM glycol-terminated thiol in absolute ethanol",
+          "37\u00b0C 1 hr"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "200uL of solution",
+          "37\u00b0C",
+          "1 hour"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a specific chemical solution, emphasizing the controlled environment of 37\u00b0C for 1 hour. The use of a labeled microtube and a pipette highlights the importance of accurate measurements in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        387.05600025,
+        516.074667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Microscope displays red and blue fluorescent images of various geometric shapes.",
+          "The video transitions between different labeled sections (A, B, C, D) showing distinct patterns of fluorescence."
+        ],
+        "objects_visible": [
+          "Red fluorescent circular, rectangular, and triangular shapes.",
+          "Blue fluorescent lines and dots scattered across the background.",
+          "White scale bars indicating measurement units."
+        ],
+        "visible_text_labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "Printing in air",
+          "Submerged printing"
+        ],
+        "quantities": [
+          "The scale bars suggest measurements, but specific values are not provided."
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of fluorescent patterns under a microscope, with distinct sections labeled A, B, C, and D. The transition between 'Printing in air' and 'Submerged printing' suggests a comparison of two different printing methods. The red and blue fluorescence highlights the geometric shapes and background details."
+      }
+    }
+  ]
+}

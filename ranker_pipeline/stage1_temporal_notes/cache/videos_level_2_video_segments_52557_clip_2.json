@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/52557/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.247,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.56175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher pours a brown powder from a plastic container into a small white dish on a digital scale",
+          "researcher uses a spatula to transfer the powder into the dish"
+        ],
+        "objects_visible": [
+          "digital scale with a reading of 05.988 grams",
+          "small white dish on the scale",
+          "plastic container with brown powder",
+          "spatula",
+          "beaker with a dark liquid"
+        ],
+        "visible_text_labels": [
+          "Water insoluble fraction after separation by centrifuge and freeze drying.",
+          "Sartorius",
+          "05.988"
+        ],
+        "quantities": [
+          "05.988 grams"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of a brown powder, likely a water-insoluble fraction, using a digital scale. The researcher's actions are deliberate, ensuring accurate transfer of the substance. The presence of a beaker with a dark liquid suggests a related step in the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.56175,
+        19.1235
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher pours a brown granular substance from a funnel into a beaker",
+          "researcher places the beaker on a digital scale"
+        ],
+        "objects_visible": [
+          "beaker with brown granular substance",
+          "digital scale with a display",
+          "funnel",
+          "gloved hand",
+          "beaker with clear liquid"
+        ],
+        "visible_text_labels": [
+          "GCP",
+          "jove"
+        ],
+        "quantities": [
+          "0.000g (scale reading)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of a brown granular substance using a digital scale. The beaker is labeled 'GCP', indicating a specific sample or experiment. The researcher's gloved hand ensures contamination-free handling."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.1235,
+        28.68525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a glass jar with a brownish liquid and a white plastic cover on a magnetic stirrer",
+          "researcher adjusts the speed of the magnetic stirrer to approximately 280 rpm"
+        ],
+        "objects_visible": [
+          "glass jar with a brownish liquid and a white plastic cover",
+          "magnetic stirrer with a digital display and control knobs",
+          "white lab coat worn by the researcher",
+          "gloved hands of the researcher",
+          "laboratory equipment in the background including a digital thermometer and other apparatus"
+        ],
+        "visible_text_labels": [
+          "Stirring done at about 280 rpm",
+          "jove"
+        ],
+        "quantities": [
+          "280 rpm"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise setup of a magnetic stirrer for a specific stirring speed, highlighting the importance of controlled conditions in the experiment. The researcher's careful adjustment of the equipment underscores the meticulous nature of the procedure. The brownish liquid in the jar suggests a specific chemical or biological mixture being prepared."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        28.68525,
+        38.247
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher moves around the laboratory workspace",
+          "researcher places a white rectangular object on a magnetic stirrer"
+        ],
+        "objects_visible": [
+          "magnetic stirrer with a white rectangular object on top",
+          "black laboratory countertop",
+          "digital scale on the left side",
+          "metal stand with clamps",
+          "various laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where the researcher is seen setting up equipment. The white rectangular object placed on the magnetic stirrer is a distinctive feature. The workspace is organized with various laboratory tools and equipment visible."
+      }
+    }
+  ]
+}

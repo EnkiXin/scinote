@@ -1,0 +1,166 @@
+{
+  "video_id": "videos/level_2/video_segments/51357/clip_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.247,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.56175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [],
+        "objects_visible": [],
+        "visible_text_labels": [
+          "Isolation and Culture of Adult Mouse Cardiomyocytes for Cell Signaling and in vitro Cardiac Hypertrophy",
+          "Daxiang Li\u00b9, Jian Wu\u00b9, Yan Bai\u00b9, Xiaochen Zhao\u00b2, and Lijun Liu\u00b9",
+          "\u00b9Department of Biochemistry and Cancer Biology, \u00b2Department of Physiology and Pharmacology, University of Toledo College of Medicine and Life Sciences"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment displays the title and author information for a scientific study, with no visible actions or objects. The text is the sole focus, providing context for the research topic and affiliations."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.56175,
+        17.1235
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A researcher uses a pipette to transfer a small volume of liquid into a petri dish",
+          "A gloved hand holds a syringe and carefully injects a substance into a mouse"
+        ],
+        "objects_visible": [
+          "A petri dish containing a clear liquid",
+          "A pipette with a pink liquid droplet",
+          "A syringe with a red substance",
+          "A mouse with an exposed surgical area"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "~200uL of pink-colored liquid",
+          "A small volume of red substance"
+        ],
+        "key_distinguishing_features": "This segment shows a detailed medical procedure involving a mouse, highlighting the precision of liquid transfer and injection. The presence of a petri dish and syringe suggests a controlled experimental setup. The 'jove' label indicates the video is likely from a scientific demonstration platform."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.1235,
+        25.68525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 10 mL syringe filled with a clear liquid",
+          "researcher carefully dispenses the liquid into a petri dish containing a pinkish medium"
+        ],
+        "objects_visible": [
+          "two petri dishes with a pinkish medium, one open and one closed",
+          "a 10 mL syringe with a clear liquid",
+          "a gloved hand manipulating the syringe and petri dishes"
+        ],
+        "visible_text_labels": [
+          "jpve"
+        ],
+        "quantities": [
+          "10 mL syringe"
+        ],
+        "key_distinguishing_features": "This segment shows the precise transfer of a clear liquid from a syringe into a petri dish, indicating a step in a controlled laboratory procedure. The pinkish medium in the petri dish suggests a specific experimental condition or culture medium. The gloved hand emphasizes the sterile handling of materials."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.68525,
+        34.247
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [],
+        "objects_visible": [
+          "Bar graph showing 3-H-leucine incorporation relative to control",
+          "Western blot image showing P-Akt and Akt protein levels",
+          "Text labels for different concentrations of ouabain and ET-1"
+        ],
+        "visible_text_labels": [
+          "3-H-leucine incorporation (relative to control, %)",
+          "con",
+          "oua 50nM",
+          "oua 500nM",
+          "oua 5\u03bcM",
+          "oua 50 \u03bcM",
+          "ET-1 100 nM",
+          "Ouabain",
+          "0",
+          "5 nM",
+          "50 nM",
+          "500 nM",
+          "5 \u03bcM",
+          "50 \u03bcM",
+          "P-Akt",
+          "Akt"
+        ],
+        "quantities": [
+          "50 nM",
+          "500 nM",
+          "5 \u03bcM",
+          "50 \u03bcM",
+          "100 nM",
+          "50%",
+          "100%",
+          "150%"
+        ],
+        "key_distinguishing_features": "This segment displays a static image of experimental results, including a bar graph and a Western blot. The bar graph shows the effect of different concentrations of ouabain and ET-1 on 3-H-leucine incorporation. The Western blot illustrates the levels of P-Akt and Akt proteins at various ouabain concentrations."
+      }
+    }
+  ]
+}

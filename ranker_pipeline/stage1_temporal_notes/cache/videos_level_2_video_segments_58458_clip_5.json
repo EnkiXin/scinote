@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/video_segments/58458/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 31.471,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.86775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'Ag[(NH3)2]OH' with blue cap",
+          "researcher unscrews the blue cap of the microtube"
+        ],
+        "objects_visible": [
+          "white microtube rack",
+          "red microtube rack",
+          "1.5mL microtube with blue cap",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "Ag[(NH3)2]OH",
+          "CORNING"
+        ],
+        "quantities": [
+          "0.40 mg/mL or 0.60 mg/mL Ag[(NH3)2]OH in 100 \u00b5L"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a specific chemical solution, with the researcher handling a microtube containing Ag[(NH3)2]OH. The precise concentration and volume are highlighted, indicating a controlled experimental setup. The use of color-coded racks and labeled tubes emphasizes organization in the lab environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.86775,
+        15.7355
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes 100 \u03bcL of Ag[(NH\u2083)\u2082]OH solution into a test tube"
+        ],
+        "objects_visible": [
+          "white test tube rack with a blue-capped tube labeled 'Ag[(NH\u2083)\u2082]OH'",
+          "pink test tube rack with clear test tubes",
+          "pipette dispensing liquid"
+        ],
+        "visible_text_labels": [
+          "For 0.40 mg/mL or 0.60 mg/mL Ag[(NH\u2083)\u2082]OH in 100 \u03bcL",
+          "jove"
+        ],
+        "quantities": [
+          "0.40 mg/mL",
+          "0.60 mg/mL",
+          "100 \u03bcL"
+        ],
+        "key_distinguishing_features": "The segment shows precise pipetting of a specific volume of a silver ammonia solution into a test tube. The use of color-coded racks and labeled tubes highlights the organized setup for the experiment. The focus is on the accurate measurement and transfer of the solution."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.7355,
+        23.60325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid from a test tube into a well of a red test tube rack",
+          "researcher places the test tube back into a white test tube rack"
+        ],
+        "objects_visible": [
+          "red test tube rack with multiple wells",
+          "white test tube rack with a single test tube",
+          "test tube with a blue cap labeled '0.40 mg/mL'",
+          "pipette with a yellow tip",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "0.40 mg/mL or 0.60 mg/mL Ag[(NH3)2]OH in 100 \u00b5L"
+        ],
+        "quantities": [
+          "100 \u00b5L"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a specific volume of solution using a pipette. The use of color-coded racks and labeled test tubes highlights the organized nature of the experiment. The researcher's gloved hand emphasizes the importance of maintaining a sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.60325,
+        31.471
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small object into the centrifuge chamber",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "white centrifuge with a digital display and control buttons",
+          "researcher wearing a white lab coat and blue gloves",
+          "another centrifuge in the background"
+        ],
+        "visible_text_labels": [
+          "BRANSON (on the ultrasonic cleaner in the background)"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise action of loading a small object into a centrifuge, highlighting the careful handling by the researcher. The presence of another centrifuge in the background suggests a well-equipped laboratory setting. The digital display on the centrifuge indicates a modern, controlled environment for the experiment."
+      }
+    }
+  ]
+}

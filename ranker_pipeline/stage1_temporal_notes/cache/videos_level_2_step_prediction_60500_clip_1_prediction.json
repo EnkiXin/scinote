@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/step_prediction/60500/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 40.31125,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.0778125
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a white rod and places it into a rectangular, transparent container with a fan-like structure inside",
+          "researcher adjusts the rod's position within the container"
+        ],
+        "objects_visible": [
+          "white rod with a smooth surface",
+          "rectangular transparent container with a fan-like structure inside",
+          "researcher wearing a white lab coat",
+          "metallic surface of the container"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a white rod into a specialized container, suggesting a preparatory step in an experiment. The fan-like structure inside the container is distinctive, indicating a specific function or purpose. The researcher's careful handling of the rod highlights the importance of this action."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.0778125,
+        20.155625
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 500mL beaker containing a white, granular substance",
+          "researcher tilts the beaker slightly, possibly to mix or inspect the contents"
+        ],
+        "objects_visible": [
+          "500mL beaker with white granular substance",
+          "white lab coat",
+          "various lab equipment including white containers and bottles on a table",
+          "a blue refrigerator or storage unit in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "500mL beaker"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, with the researcher handling a beaker containing a white granular substance. The setting is a laboratory environment with various equipment visible, emphasizing the experimental context. The researcher's actions suggest a careful inspection or mixing of the substance."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.155625,
+        30.2334375
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a small white container on a digital analytical balance",
+          "researcher adjusts the container on the balance for accurate weighing"
+        ],
+        "objects_visible": [
+          "digital analytical balance with a clear weighing chamber",
+          "small white container on the balance",
+          "plastic beaker with a white substance inside",
+          "various laboratory items on the counter including a box labeled '\u30d7\u30ed\u30a6\u30a7\u30a4'"
+        ],
+        "visible_text_labels": [
+          "\u30d7\u30ed\u30a6\u30a7\u30a4 (visible on a box)"
+        ],
+        "quantities": [
+          "the digital display on the balance shows a reading, though the exact value is not discernible"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise measurement of a substance using a digital analytical balance. The researcher's careful handling of the container highlights the importance of accuracy in this step. The surrounding laboratory items provide context for a typical lab environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        30.2334375,
+        40.31125
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a small white object on the analytical balance",
+          "researcher adjusts the balance with a tool"
+        ],
+        "objects_visible": [
+          "analytical balance with a digital display",
+          "small white object on the balance",
+          "transparent plastic container on the balance",
+          "beaker with white powder",
+          "various laboratory items on the table"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of a small white object using an analytical balance. The researcher's hand is visible making adjustments, emphasizing the careful nature of the measurement process. The surrounding laboratory items suggest a detailed experimental setup."
+      }
+    }
+  ]
+}

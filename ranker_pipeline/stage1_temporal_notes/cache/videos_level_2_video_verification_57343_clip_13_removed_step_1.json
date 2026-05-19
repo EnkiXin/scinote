@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/video_verification/57343/clip_13_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 48.62,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.155
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "tube is placed on a white paper towel"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a clear liquid inside",
+          "blue microtube rack",
+          "white paper towel",
+          "Kimberly-Clark box in the background",
+          "glass beaker with a yellow liquid"
+        ],
+        "visible_text_labels": [
+          "Glass Receptacle",
+          "400mL PYREX"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "400mL beaker"
+        ],
+        "key_distinguishing_features": "The microtube is positioned upright on a paper towel, suggesting a drying process. The background includes laboratory essentials like a beaker and a box, indicating a controlled lab environment. The text overlay provides specific instructions related to drying under a nitrogen stream."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.155,
+        24.31
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette with a white tip and dispenses liquid into a test tube",
+          "researcher places the test tube into a centrifuge"
+        ],
+        "objects_visible": [
+          "pipette with a white tip and a blue body",
+          "test tube with a clear liquid",
+          "centrifuge with a digital display showing '20'",
+          "test tube rack with multiple holes",
+          "pipette tips in various colors (green, pink, and blue)"
+        ],
+        "visible_text_labels": [
+          "VORTEXER",
+          "DO NOT TIGHTEN ARMS OR LID",
+          "20 (on the centrifuge display)"
+        ],
+        "quantities": [
+          "20 (centrifuge speed setting)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a pipette to dispense liquid into a test tube, followed by the placement of the tube into a centrifuge. The centrifuge's digital display is a key feature, indicating a specific speed setting. The presence of multiple pipette tips in different colors suggests a well-equipped laboratory setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        24.31,
+        36.464999999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a transparent syringe containing a dark liquid with visible bubbles",
+          "researcher places the syringe on a white surface"
+        ],
+        "objects_visible": [
+          "transparent syringe with dark liquid and bubbles",
+          "white surface with a yellow label",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up of a syringe containing a dark liquid with bubbles, suggesting a detailed observation phase. The researcher's gloved hand is visible, emphasizing the controlled environment. The presence of the 'jove' label indicates a professional or educational context."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        36.464999999999996,
+        48.62
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small, clear microtube into a designated hole of a white, perforated tray"
+        ],
+        "objects_visible": [
+          "white perforated tray with multiple circular holes",
+          "small, clear microtube with a white cap",
+          "white laboratory equipment with blue digital displays and control buttons"
+        ],
+        "visible_text_labels": [
+          "MAXIMIX Plus",
+          "Thermolyne"
+        ],
+        "quantities": [
+          "1.5 mL (as indicated on the microtube)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a microtube into a specific tray, likely for a controlled mixing or incubation process. The equipment's digital display and control buttons suggest programmable settings for the experiment. The microtube's small size and clear material are notable for handling small volumes of liquid."
+      }
+    }
+  ]
+}

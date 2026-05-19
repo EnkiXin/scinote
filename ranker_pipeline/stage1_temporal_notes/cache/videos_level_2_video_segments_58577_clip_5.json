@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/58577/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 54.417,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.60425
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places small yellow seedling pots into a black seedling tray",
+          "researcher holds a small white seedling and carefully places it into a pot filled with soil"
+        ],
+        "objects_visible": [
+          "black seedling tray with multiple circular compartments",
+          "small yellow seedling pots",
+          "white seedling with green leaves",
+          "bucket filled with dark soil",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [],
+        "quantities": [
+          "five yellow seedling pots already placed in the tray",
+          "one white seedling being handled"
+        ],
+        "key_distinguishing_features": "This segment focuses on the initial preparation of seedlings for planting, highlighting the careful handling of a single seedling and the organized placement of pots in a tray. The researcher's attire and gloves emphasize a controlled laboratory or greenhouse environment. The dark soil and yellow pots provide a stark contrast, making the actions visually clear."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.60425,
+        27.2085
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher carefully removes a small plant from a yellow cylindrical container",
+          "researcher places the plant into a larger white pot filled with soil"
+        ],
+        "objects_visible": [
+          "small plant with green leaves and a white label reading '513'",
+          "yellow cylindrical container with soil",
+          "white pot filled with dark soil",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "513"
+        ],
+        "quantities": [
+          "one small plant",
+          "one yellow cylindrical container",
+          "one white pot"
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful handling and transplanting of a small plant, emphasizing the precision required in the process. The yellow container and white label '513' are distinctive features that help identify the plant. The researcher's blue gloves and white lab coat highlight the controlled environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        27.2085,
+        40.81275
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher wearing blue gloves waters plants using a green hose",
+          "Researcher directs the hose into a clear plastic container holding the plants"
+        ],
+        "objects_visible": [
+          "Plants in small pots with yellow labels",
+          "Clear plastic container with multiple compartments",
+          "Green hose connected to a water source",
+          "Black plastic tray holding the plants",
+          "White wall in the background"
+        ],
+        "visible_text_labels": [
+          "Add additional water to plastic container as necessary to maintain soil moisture"
+        ],
+        "quantities": [
+          "Multiple plants in a tray",
+          "One clear plastic container"
+        ],
+        "key_distinguishing_features": "This segment focuses on the watering process of plants in a controlled environment. The researcher uses a hose to add water to a container, ensuring the plants receive adequate moisture. The text overlay provides specific instructions for maintaining soil moisture."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        40.81275,
+        54.417
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher carefully removes a small black pot containing a plant from a larger black tray filled with soil",
+          "researcher places the small black pot with the plant into a designated spot within the tray"
+        ],
+        "objects_visible": [
+          "black plastic tray filled with dark soil",
+          "small black pot containing a green plant with visible roots",
+          "researcher's hands wearing blue gloves",
+          "metal mesh surface in the background",
+          "other plants in the background with visible leaves and stems"
+        ],
+        "visible_text_labels": [
+          "label on the small black pot with handwritten text, possibly indicating plant type or experiment details"
+        ],
+        "quantities": [
+          "one small black pot with a plant",
+          "one larger black tray"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small potted plant, emphasizing the careful placement within a larger soil-filled tray. The researcher's gloved hands and the detailed view of the plant's roots highlight the meticulous nature of the task. The background elements, such as the metal mesh and other plants, suggest a controlled laboratory or greenhouse setting."
+      }
+    }
+  ]
+}

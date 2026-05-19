@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/video_verification/57598/clip_4_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 19.569,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.89225
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube with a clear liquid"
+        ],
+        "objects_visible": [
+          "purple nitrile gloves",
+          "15mL conical tube with measurement markings",
+          "green test tube rack",
+          "red test tube rack",
+          "labeled bottles in the background"
+        ],
+        "visible_text_labels": [
+          "30% Monotype 25 mL"
+        ],
+        "quantities": [
+          "15mL conical tube",
+          "25 mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on a close-up of a researcher's gloved hand holding a 15mL conical tube containing a clear liquid. The tube is labeled with a handwritten note indicating '30% Monotype 25 mL'. The background includes laboratory equipment and reagent bottles, emphasizing a controlled lab environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.89225,
+        9.7845
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled '3% Matrigel' with a clear cap",
+          "researcher uses a pipette to transfer liquid from the microtube"
+        ],
+        "objects_visible": [
+          "green test tube rack with labeled tubes",
+          "red test tube rack with labeled tubes",
+          "bottles with handwritten labels",
+          "pipette with a white tip",
+          "transparent microtube labeled '3% Matrigel'"
+        ],
+        "visible_text_labels": [
+          "3% Matrigel",
+          "Kally-say (60)",
+          "Kally-say (60)"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the handling of a microtube containing 3% Matrigel, a specific reagent used in cell culture. The researcher's gloved hand is prominently shown manipulating the tube and pipette, emphasizing the precision required. The background includes various labeled bottles and racks, indicating a well-organized laboratory setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.7845,
+        14.676749999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher uses a pipette to transfer liquid from the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "pipette with a white tip",
+          "green test tube rack",
+          "red test tube rack",
+          "plastic container with blue lid"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube labeled 'DMEM', emphasizing the careful transfer of liquid using a pipette. The blue cap and the specific label on the microtube are distinctive features. The presence of multiple racks and containers suggests a well-organized laboratory setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        14.676749999999998,
+        19.569
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube containing a cloudy white liquid"
+        ],
+        "objects_visible": [
+          "15mL conical tube with measurement markings",
+          "purple nitrile gloves",
+          "green and blue plastic containers in the background"
+        ],
+        "visible_text_labels": [
+          "joVE"
+        ],
+        "quantities": [
+          "cloudy white liquid occupying approximately 5mL in the tube"
+        ],
+        "key_distinguishing_features": "The focus is on the researcher's gloved hand holding a 15mL conical tube, emphasizing the cloudy white liquid inside. The background includes green and blue containers, suggesting a laboratory setting. The tube's measurement markings are clearly visible, indicating the liquid volume."
+      }
+    }
+  ]
+}

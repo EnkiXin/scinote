@@ -1,0 +1,142 @@
+{
+  "video_id": "videos/level_2/video_segments/60961/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 41.954,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.4885
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "displays labeled anatomical structures under a microscope"
+        ],
+        "objects_visible": [
+          "white anatomical structures labeled as 'Testes' and 'Fat Body'",
+          "separate white structures labeled as 'Cleaned Testes'"
+        ],
+        "visible_text_labels": [
+          "Testes",
+          "Fat Body",
+          "Cleaned Testes"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the microscopic observation of labeled anatomical structures, specifically testes and fat body, with a clear distinction between cleaned and uncleaned testes. The structures are highlighted with yellow arrows and labels for precise identification. The background is dark, emphasizing the white structures."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.4885,
+        20.977
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "microscope slide is being manipulated with a pair of tweezers",
+          "a small, transparent object is being carefully positioned on the slide"
+        ],
+        "objects_visible": [
+          "dark, textured surface of the microscope slide",
+          "fine, metallic tweezers with a pointed tip",
+          "a small, translucent, irregularly shaped object"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small, transparent object using tweezers on a dark microscope slide. The object appears to be biological in nature, possibly a sample for microscopic examination. The 'jove' logo indicates the video is likely part of a scientific tutorial or demonstration."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.977,
+        31.4655
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is used to observe a sample containing small, translucent organisms and particles"
+        ],
+        "objects_visible": [
+          "small, translucent organisms with visible internal structures",
+          "various particles and debris in the sample",
+          "microscope objective lens"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the observation of small, translucent organisms under a microscope, highlighting their internal structures and the surrounding particles. The presence of the 'jove' logo indicates the video is part of a scientific demonstration or educational content."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.4655,
+        41.954
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A fine tool is used to manipulate a translucent, gelatinous structure within a dark, liquid medium.",
+          "The tool carefully separates and adjusts the position of the structure, avoiding complete removal."
+        ],
+        "objects_visible": [
+          "A translucent, gelatinous structure resembling a fat body within a dark liquid environment.",
+          "A fine, pointed tool used for delicate manipulation."
+        ],
+        "visible_text_labels": [
+          "DO NOT ATTEMPT TO COMPLETELY REMOVE THE FAT BODY. THIS MAY DAMAGE OR RUPTURE THE TESTES."
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a fat body structure, emphasizing the risk of damaging the testes if the fat body is completely removed. The dark background and translucent nature of the fat body create a high-contrast visual for detailed observation."
+      }
+    }
+  ]
+}

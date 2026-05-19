@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/video_segments/65848/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 31.571,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.89275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "mouse is placed on a green surface",
+          "mouse is being administered anesthesia via a syringe"
+        ],
+        "objects_visible": [
+          "black mouse with pink ears and tail",
+          "syringe with a white plunger and orange label",
+          "green surface"
+        ],
+        "visible_text_labels": [
+          "Anesthesia: Ketamine (20 mg/kg), Xylazine (2 mg/kg)",
+          "Place the animal on a warm pad set at 38 \u00b0C",
+          "Demonstrator: Sai Bo Bo Tun"
+        ],
+        "quantities": [
+          "20 mg/kg",
+          "2 mg/kg",
+          "38 \u00b0C"
+        ],
+        "key_distinguishing_features": "The mouse is being prepared for a procedure with specific anesthesia dosages. The green surface provides a clean and controlled environment for the experiment. The text labels provide detailed instructions for the anesthesia and care of the animal."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.89275,
+        15.7855
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher applies a white substance from a labeled tube to the mouse's eye"
+        ],
+        "objects_visible": [
+          "black mouse with pink ears and nose",
+          "white-gloved hand holding a tube labeled 'ophthalmic 10 g'",
+          "green surface on which the mouse is placed"
+        ],
+        "visible_text_labels": [
+          "ophthalmic 10 g",
+          "11040",
+          "2024/06",
+          "2021/06"
+        ],
+        "quantities": [
+          "10 g"
+        ],
+        "key_distinguishing_features": "The mouse is calmly positioned on a green surface, and the researcher is carefully applying a substance to its eye. The tube is clearly labeled with specific details, indicating a precise application process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.7855,
+        23.678250000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher applies a substance from a tube to the eye of a mouse",
+          "mouse is held gently by the researcher"
+        ],
+        "objects_visible": [
+          "black mouse with a white patch on its face",
+          "white tube labeled 'ophthalmic 10 g'",
+          "green surgical drape"
+        ],
+        "visible_text_labels": [
+          "ophthalmic 10 g"
+        ],
+        "quantities": [
+          "10 g"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise application of an ophthalmic substance to the mouse's eye, highlighting the careful handling of the animal. The green surgical drape provides a sterile background, emphasizing the controlled environment. The tube's label clearly indicates its ophthalmic purpose and quantity."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.678250000000002,
+        31.571
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Surgeon adjusts the microscope's eyepieces and focus knobs.",
+          "Surgeon uses a surgical instrument to perform a procedure on the patient's eye."
+        ],
+        "objects_visible": [
+          "Surgeon wearing blue surgical gown, cap, and mask.",
+          "Microscope with multiple lenses and adjustment knobs.",
+          "Green surgical drape covering the patient.",
+          "Surgical instruments on the table."
+        ],
+        "visible_text_labels": [
+          "1-port trans-vitreal pars plana approach is used here"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise use of a 1-port trans-vitreal pars plana approach, highlighting the surgeon's interaction with the microscope and surgical tools. The text overlay provides specific information about the surgical technique being demonstrated."
+      }
+    }
+  ]
+}

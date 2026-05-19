@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/video_verification/57629/clip_3_removed_step_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 56.730333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.18258325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "places toothpicks into a shallow, transparent container filled with a white substance",
+          "manipulates toothpicks with tweezers"
+        ],
+        "objects_visible": [
+          "transparent container with a white substance",
+          "toothpicks",
+          "tweezers",
+          "blue-gloved hand",
+          "GE-labeled box in the background"
+        ],
+        "visible_text_labels": [
+          "GE"
+        ],
+        "quantities": [
+          "two toothpicks"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of toothpicks into a white substance using tweezers, indicating a controlled preparation step. The presence of a GE-labeled box suggests a laboratory setting. The use of blue gloves emphasizes a sterile or controlled environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.18258325,
+        28.3651665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a small, translucent, elongated object",
+          "researcher places the object into a 15mL conical tube labeled 'FALCON'"
+        ],
+        "objects_visible": [
+          "forceps with serrated edges",
+          "15mL conical tube with blue cap and 'FALCON' label",
+          "small, translucent, elongated object resembling a biological specimen",
+          "blue nitrile gloves on the researcher's hands",
+          "ice-filled container holding the conical tube"
+        ],
+        "visible_text_labels": [
+          "FALCON"
+        ],
+        "quantities": [
+          "15mL conical tube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small biological specimen using forceps, emphasizing the careful placement into a labeled conical tube. The use of ice to maintain a cold environment suggests the importance of temperature control in the experiment. The blue nitrile gloves highlight the sterile conditions required."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        28.3651665,
+        42.54774975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "uses a toothpick to manipulate a small object",
+          "transfers the object from a tube to a container"
+        ],
+        "objects_visible": [
+          "blue nitrile gloves",
+          "a small, clear plastic tube with a blue cap",
+          "a toothpick with a white tip",
+          "a container with a white, granular substance"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise use of a toothpick to handle a small object, likely for a delicate scientific procedure. The blue nitrile gloves and the granular substance in the container suggest a controlled laboratory environment. The 'jove' logo indicates the video is part of a scientific demonstration series."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        42.54774975,
+        56.730333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a wooden stick with a small white cotton ball attached to one end",
+          "researcher uses a toothpick to apply a small amount of a brownish substance onto the cotton ball"
+        ],
+        "objects_visible": [
+          "wooden stick with a cotton ball attached",
+          "toothpick",
+          "brownish substance",
+          "blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small amount of brownish substance"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise application of a brownish substance onto a cotton ball using a toothpick, highlighting a delicate and controlled action. The use of blue nitrile gloves indicates a sterile or controlled environment. The 'jove' logo suggests this is part of a scientific or educational video."
+      }
+    }
+  ]
+}

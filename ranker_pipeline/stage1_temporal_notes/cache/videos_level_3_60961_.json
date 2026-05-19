@@ -1,0 +1,170 @@
+{
+  "video_id": "videos/level_3/60961_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 485.290667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        121.32266675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person in a light blue shirt is seated and speaking, likely introducing the experiment.",
+          "A person in a white lab coat is seated and speaking, possibly explaining the experimental setup."
+        ],
+        "objects_visible": [
+          "A computer monitor displaying a blue screen with the text 'USU'.",
+          "A desk with various items including a tissue box and a mug.",
+          "A laboratory setting with shelves containing books and other materials."
+        ],
+        "visible_text_labels": [
+          "JEREMY SMYTH, USU",
+          "DARYA KARABASHEVA, USU",
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment features two individuals, one in a light blue shirt and another in a white lab coat, both seated and speaking. The setting alternates between a casual office environment and a laboratory, indicating the introduction and setup phases of the experiment. The presence of the 'USU' text on the monitor suggests an affiliation with Utah State University."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        121.32266675,
+        242.6453335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A scalpel is used to carefully manipulate a small, translucent structure within a petri dish.",
+          "A warning text appears on the screen cautioning against completely removing the fat body to avoid damaging or rupturing the testes."
+        ],
+        "objects_visible": [
+          "A scalpel with a metallic blade and black handle.",
+          "A petri dish containing a dark, gel-like substance with a small, translucent structure.",
+          "A metallic petri dish holder with a central circular indentation."
+        ],
+        "visible_text_labels": [
+          "DO NOT ATTEMPT TO COMPLETELY REMOVE THE FAT BODY. THIS MAY DAMAGE OR RUPTURE THE TESTES."
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on a delicate surgical procedure involving a scalpel and a petri dish. The warning text emphasizes the precision required to avoid damaging specific biological structures. The translucent structure within the petri dish is the focal point of the manipulation."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        242.6453335,
+        363.96800025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a petri dish containing a sample under a microscope",
+          "researcher adjusts the microscope's focus and stage to examine the sample",
+          "researcher uses a pipette to transfer a liquid from a vial into a petri dish",
+          "researcher places a petri dish into a temperature-controlled chamber"
+        ],
+        "objects_visible": [
+          "petri dish with a transparent cover",
+          "microscope with a stage and focus knobs",
+          "pipette with a blue tip",
+          "vial with a blue cap",
+          "temperature-controlled chamber with a digital display",
+          "tray with multiple petri dishes containing samples"
+        ],
+        "visible_text_labels": [
+          "FIXATION AND IMMUNOSTAINING",
+          "jove"
+        ],
+        "quantities": [
+          "one petri dish",
+          "one vial",
+          "one pipette",
+          "one temperature-controlled chamber"
+        ],
+        "key_distinguishing_features": "This segment focuses on the execution phase of a scientific experiment, specifically involving the use of a microscope and a temperature-controlled chamber. The researcher's actions are precise, indicating a controlled and methodical approach to handling the samples. The presence of the 'FIXATION AND IMMUNOSTAINING' label suggests a specific step in a biological or medical research protocol."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        363.96800025,
+        485.290667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Microscope slide is carefully positioned under the microscope for observation.",
+          "Researchers discuss the microscopic images of cells, pointing out specific stages of cell division."
+        ],
+        "objects_visible": [
+          "Microscope slide with a labeled diagram of cell stages including 'Spermatids', 'Elongating Sperm', 'Meiosis II', 'Meiosis I', 'Late Spermatocytes', 'Early Spermatocytes', and 'Spermatogonia'.",
+          "Microscope with a high magnification lens.",
+          "Two researchers in lab coats, one holding a pen and pointing at the microscope screen."
+        ],
+        "visible_text_labels": [
+          "Spermatids",
+          "Elongating Sperm",
+          "Meiosis II",
+          "Meiosis I",
+          "Late Spermatocytes",
+          "Early Spermatocytes",
+          "Spermatogonia",
+          "100 \u00b5m",
+          "Intact",
+          "Ruptured",
+          "DARYA KARABASHEVA",
+          "USU"
+        ],
+        "quantities": [
+          "100 \u00b5m scale bar on the microscopic image."
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed observation of cell stages under a microscope, with specific labels for each stage of spermatogenesis. The researchers actively engage in explaining the images, highlighting the educational and analytical nature of the segment."
+      }
+    }
+  ]
+}

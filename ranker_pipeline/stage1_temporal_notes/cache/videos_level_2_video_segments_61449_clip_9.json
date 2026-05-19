@@ -1,0 +1,143 @@
+{
+  "video_id": "videos/level_2/video_segments/61449/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.331,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.08275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"preparation\",\n  \"actions_observed\": [\"software interface is displayed for setting up a high sensitivity DNA array experiment\"],\n  \"objects_visible\": [\"computer screen showing a software interface with various tabs and input fields\", \"a 3D model of a DNA array device\"],\n  \"visible_text_labels\": [\"High Sensitivity DNA Array\", \"Array ID: DR13804052\", \"Product ID: DR13804052\", \"Array Ver"
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.08275,
+        16.1655
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"preparation\",\n  \"actions_observed\": [\"A dropdown menu is opened to select an assay type.\", \"The cursor hovers over the 'High Sensitivity DNA' option in the dropdown.\"],\n  \"objects_visible\": [\"A computer screen displaying a software interface for a DNA assay.\", \"A dropdown menu with various assay options.\", \"A chip image labeled 'High Sensitivity DNA'.\"],\n  \"visible_text_labels\": [\"Hi"
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.1655,
+        24.248250000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "The user selects a file path for the 'Start Chip Run' parameter.",
+          "The user scrolls through the 'Chip Summary' table."
+        ],
+        "objects_visible": [
+          "Software interface for a DNA assay with a 'Start Chip Run' dropdown menu.",
+          "A table labeled 'Chip Summary' with columns for 'Chip Summary', 'Sample Name', 'Sample Command', 'Sample Comment', 'Date', 'Digest', and 'Observation'."
+        ],
+        "visible_text_labels": [
+          "Start Chip Run",
+          "Chip Summary",
+          "Sample Name",
+          "Sample Command",
+          "Sample Comment",
+          "Date",
+          "Digest",
+          "Observation",
+          "Sample 1",
+          "Sample 2",
+          "Sample 3",
+          "Sample 4",
+          "Sample 5",
+          "Sample 6",
+          "Sample 7",
+          "Sample 8",
+          "Sample 9",
+          "Sample 10",
+          "Sample 11",
+          "Sample 12",
+          "Sample 13",
+          "Sample 14",
+          "Sample 15",
+          "Sample 16"
+        ],
+        "quantities": [
+          "16 samples listed in the 'Chip Summary' table."
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of a DNA assay, specifically setting up the chip run parameters. The user interacts with a software interface, selecting a file path and reviewing a table of sample information. The detailed 'Chip Summary' table is a distinctive feature, listing 16 samples with various parameters."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.248250000000002,
+        32.331
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small rectangular chip labeled 'alexred' with a barcode",
+          "researcher places the chip into a biohazard bag"
+        ],
+        "objects_visible": [
+          "small rectangular chip with a barcode and label 'alexred'",
+          "biohazard bag with a biohazard symbol and handwritten text",
+          "pipette tips in a pipette tip box labeled 'aleored'"
+        ],
+        "visible_text_labels": [
+          "See text for instrument cleaning details",
+          "aleored"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the handling of a labeled chip, emphasizing proper disposal into a biohazard bag. The presence of the biohazard symbol and handwritten text on the bag highlights the importance of safety protocols. The pipette tips in the background suggest a laboratory setting."
+      }
+    }
+  ]
+}

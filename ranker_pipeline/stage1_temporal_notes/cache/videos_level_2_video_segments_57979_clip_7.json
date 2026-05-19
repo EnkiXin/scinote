@@ -1,0 +1,167 @@
+{
+  "video_id": "videos/level_2/video_segments/57979/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 25.769,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.44225
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [],
+        "objects_visible": [
+          "white laboratory equipment with digital displays and tubing",
+          "computer monitor displaying a graph or data",
+          "stacked white boxes with green indicator lights",
+          "black pipettes hanging on a white pegboard",
+          "two clear bottles with blue caps connected to tubing",
+          "black keyboard and mouse on the desk"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "6.00 (displayed on a digital readout)"
+        ],
+        "key_distinguishing_features": "This segment showcases a laboratory setup with various pieces of equipment and a computer, indicating preparation for an experiment. The digital readout of 6.00 suggests a specific measurement or setting. The organized arrangement of pipettes and bottles highlights a methodical approach to the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.44225,
+        12.8845
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "display of RF-20A xs prominence fluorescence detector settings"
+        ],
+        "objects_visible": [
+          "RF-20A xs prominence fluorescence detector with digital display",
+          "control panel with buttons and indicators"
+        ],
+        "visible_text_labels": [
+          "RF-20A xs",
+          "prominence",
+          "FLUORESCENCE DETECTOR",
+          "EX330nm",
+          "EM420nm",
+          "Xe",
+          "-10.07",
+          "temp. cnt.",
+          "prog.run",
+          "remote",
+          "func",
+          "back",
+          "edit",
+          "CE",
+          "zero"
+        ],
+        "quantities": [
+          "330nm",
+          "420nm",
+          "-10.07"
+        ],
+        "key_distinguishing_features": "The segment focuses on the detailed settings of a fluorescence detector, highlighting specific excitation and emission wavelengths. The display shows precise numerical values, indicating a controlled measurement process. The presence of control buttons suggests interactive adjustments are possible."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.8845,
+        19.326749999999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher observes data on computer screen"
+        ],
+        "objects_visible": [
+          "computer monitor displaying software interface",
+          "researcher wearing a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jove",
+          "Graph View",
+          "data fields and parameters"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a researcher closely observing a computer screen, which displays a software interface likely used for data analysis. The screen shows a 'Graph View' with various data fields, indicating an ongoing observation phase. The researcher's attention is directed towards the screen, suggesting a detailed analysis or monitoring process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.326749999999997,
+        25.769
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "hand in blue glove adjusts control on a device"
+        ],
+        "objects_visible": [
+          "white device with a blue control panel",
+          "digital display showing '6.0' and '6.0'"
+        ],
+        "visible_text_labels": [
+          "\u6052\u6e29\u4eea\u5668",
+          "PV",
+          "SV",
+          "AT",
+          "CO"
+        ],
+        "quantities": [
+          "6.0",
+          "6.0"
+        ],
+        "key_distinguishing_features": "The segment focuses on a precise adjustment of a device's settings, with a hand in a blue glove interacting with the controls. The digital display clearly shows two readings of '6.0', indicating a specific measurement or calibration process. The device appears to be a temperature or environmental control unit, as suggested by the text '\u6052\u6e29\u4eea\u5668' (constant temperature instrument)."
+      }
+    }
+  ]
+}

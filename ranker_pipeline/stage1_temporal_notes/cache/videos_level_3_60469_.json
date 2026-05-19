@@ -1,0 +1,174 @@
+{
+  "video_id": "videos/level_3/60469_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 523.178667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        130.79466675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher uses a pipette to transfer a small volume of liquid from a container into a petri dish",
+          "researcher places a petri dish containing a sample into a vibration-free system"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with a blue plunger",
+          "petri dish containing a sample",
+          "vibration-free system with a clear glass door",
+          "blue plastic bowl filled with ice",
+          "white lab coat worn by the researcher",
+          "blue gloves worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Vibration Free System",
+          "0.5 - 1 mm\u00b3 PIECES",
+          "YUBIN KIM",
+          "POSTECH",
+          "JUHEE LEE",
+          "POSTECH"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "0.5 - 1 mm\u00b3 PIECES"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase of an experiment, focusing on the handling of DMEM medium and the use of a vibration-free system. The researcher's actions are precise, involving the transfer of small liquid volumes and the careful placement of samples. The presence of ice in a blue bowl suggests a need to maintain low temperatures during the process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        130.79466675,
+        261.5893335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with green cap",
+          "pipettes ~200uL of pink-colored DMEM medium into petri dish",
+          "researcher places pipette tip into a blue tip box"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with green cap labeled 'DMEM'",
+          "pipette with blue handle",
+          "petri dish containing pink-colored medium",
+          "blue tip box with pipette tips",
+          "test tube rack with multiple tubes"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL",
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of DMEM medium, highlighting the use of a pipette to transfer a specific volume of liquid. The presence of the 'jove' logo suggests this is part of a professional scientific demonstration. The actions are methodical, emphasizing the importance of accurate measurements in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        261.5893335,
+        392.38400025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe and injects a substance into a mouse's bladder",
+          "researcher uses forceps to manipulate the mouse's bladder during the injection"
+        ],
+        "objects_visible": [
+          "blue surgical gloves worn by the researcher",
+          "a mouse lying on a surgical table",
+          "a syringe with a clear liquid",
+          "forceps held by the researcher",
+          "a surgical drape (noted as omitted for demonstration purposes)"
+        ],
+        "visible_text_labels": [
+          "SURGICAL DRAPE HAS BEEN OMITTED FOR DEMONSTRATION PURPOSES"
+        ],
+        "quantities": [
+          "one mouse being operated on"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise injection of a substance into a mouse's bladder, highlighting the use of surgical tools and the omission of a surgical drape for clarity. The researcher's actions are deliberate and careful, emphasizing the execution phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        392.38400025,
+        523.178667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope displays bladder tumor organoids under bright field and GFP imaging",
+          "researcher presents images of orthotopic transplantation of tumor organoids with GFP"
+        ],
+        "objects_visible": [
+          "microscope images showing bladder tumor organoids",
+          "images of orthotopic transplantation with a ruler for scale and a tissue sample"
+        ],
+        "visible_text_labels": [
+          "Bladder tumor organoids (Day 6)",
+          "Bright field",
+          "GFP",
+          "Orthotopic transplantation of tumor organoids"
+        ],
+        "quantities": [
+          "Day 6 of organoid development",
+          "ruler indicating measurements in millimeters"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of bladder tumor organoids at Day 6, highlighting their development under bright field and GFP imaging. The inclusion of orthotopic transplantation images with a scale ruler provides a detailed view of the experimental outcomes. The segment emphasizes the visual analysis of the organoids' characteristics and their transplantation success."
+      }
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "video_id": "videos/level_3/53618_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 505.386667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        126.34666675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube with a clear cap, labeled 'Sample 1'.",
+          "Researcher uses a pipette to transfer a small volume of liquid from a petri dish into the microtube."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a clear cap",
+          "Petri dish containing a yellowish liquid",
+          "Pipette with a blue plunger",
+          "Laboratory bench with various equipment and reagents in the background"
+        ],
+        "visible_text_labels": [
+          "Vincent Libis",
+          "INSERM",
+          "Aude Bernheim",
+          "pR Promoter",
+          "GUIDE (24 bp)",
+          "Hfq-binding domain",
+          "T7/T3 Terminator",
+          "pAB.001",
+          "pBR322 ori"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "24 bp"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase of an experiment, focusing on the handling of a microtube and the transfer of a liquid sample. The presence of detailed text labels on the screen provides context about the genetic constructs involved. The actions are precise and methodical, emphasizing the careful handling of laboratory materials."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        126.34666675,
+        252.6933335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a Fisherbrand 1000mL beaker containing a clear liquid with a white substance at the bottom",
+          "researcher uses a pipette to transfer a small volume of liquid from a test tube labeled 'M1K01' into a petri dish containing a white medium",
+          "researcher places a test tube labeled 'M1K01' into a blue test tube rack"
+        ],
+        "objects_visible": [
+          "Fisherbrand 1000mL beaker with a white substance at the bottom",
+          "test tube labeled 'M1K01' with an orange cap",
+          "petri dish with a white medium",
+          "blue test tube rack",
+          "yellow microtube tray with multiple compartments"
+        ],
+        "visible_text_labels": [
+          "Fisherbrand 1000mL",
+          "M1K01",
+          "LB selective medium 37\u00b0C w/ shaking",
+          "III. Production and Harvest of M13-Packaged Phagemid Stocks"
+        ],
+        "quantities": [
+          "1000mL beaker",
+          "test tube labeled 'M1K01'"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of laboratory materials, including a beaker with a white substance and a test tube labeled 'M1K01'. The actions involve transferring liquids and organizing test tubes, highlighting the meticulous nature of the experiment. The text labels provide context for the selective medium and the production of phagemid stocks."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        252.6933335,
+        379.04000025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 1.5mL microtube labeled 'Sample A' with a blue cap into a centrifuge",
+          "researcher adjusts the centrifuge settings using a digital keypad"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital display and keypad",
+          "1.5mL microtube labeled 'Sample A' with a blue cap",
+          "researcher wearing purple gloves and a blue lab coat"
+        ],
+        "visible_text_labels": [
+          "37 \u00b0C w/ shaking"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "37 \u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube and the use of a centrifuge, emphasizing the controlled conditions of temperature and shaking. The digital display and keypad of the centrifuge highlight the importance of accurate settings in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        379.04000025,
+        505.386667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "The video displays a bar graph comparing survival fractions under different antibiotic conditions.",
+          "The video transitions to a slide with the text 'VI. Conclusion'."
+        ],
+        "objects_visible": [
+          "Bar graph with survival fraction data",
+          "Slide with the text 'VI. Conclusion'"
+        ],
+        "visible_text_labels": [
+          "Survival Fraction",
+          "Chloramphenicol Only",
+          "Ampicillin Only",
+          "Ampicillin + Chloramphenicol",
+          "8 \u00b5g/mL",
+          "16 \u00b5g/mL",
+          "25 \u00b5g/mL",
+          "VI. Conclusion"
+        ],
+        "quantities": [
+          "10^0",
+          "10^-1",
+          "10^-2",
+          "10^-3",
+          "8 \u00b5g/mL",
+          "16 \u00b5g/mL",
+          "25 \u00b5g/mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the conclusion of the experiment, presenting a bar graph that quantifies the survival fraction of cells under various antibiotic conditions. The transition to a slide labeled 'VI. Conclusion' indicates the end of the data presentation phase. The graph highlights the impact of different antibiotic concentrations and combinations on cell survival."
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "video_id": "videos/level_2/step_prediction/2355/clip_3_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 59.947533,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.98688325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a clear cap",
+          "researcher places the microtube into a purple microtube rack"
+        ],
+        "objects_visible": [
+          "purple microtube rack with multiple compartments",
+          "small white microtube labeled 'DMEM' with a blue cap",
+          "clear microtube with a clear cap",
+          "bottle of yellow liquid labeled 'S media Carboxylic Acid'",
+          "white container with a label and a yellow arrow"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "S media Carboxylic Acid",
+          "8/12/10 A.B."
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where the researcher is handling and organizing microtubes. The presence of a labeled DMEM microtube and a specific S media bottle suggests a controlled laboratory environment. The clear cap on the microtube being handled is a distinctive feature."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.98688325,
+        29.9737665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a test tube",
+          "researcher places the test tube back into a purple test tube rack"
+        ],
+        "objects_visible": [
+          "purple test tube rack with multiple test tubes",
+          "pipette with a black handle and a transparent tip",
+          "red pipette tip box with yellow tips",
+          "small white bottle labeled 'DNase, RNase & Pyrogen Free'",
+          "beaker containing a yellow liquid labeled '5A media, Glycerol 8/10 A. B.'"
+        ],
+        "visible_text_labels": [
+          "DNase, RNase & Pyrogen Free",
+          "5A media, Glycerol 8/10 A. B."
+        ],
+        "quantities": [
+          "test tube rack with 24 wells",
+          "pipette tips in a box of 96"
+        ],
+        "key_distinguishing_features": "The segment focuses on precise liquid handling using a pipette, with attention to the labeled reagents and media. The researcher's gloved hands ensure sterility, and the organized workspace highlights a methodical approach to the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        29.9737665,
+        44.96064975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'E. coli' with a green cap",
+          "researcher uses a pipette to transfer a small volume of liquid from the microtube into a test tube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a green cap labeled 'E. coli'",
+          "pipette with a white tip",
+          "test tube with a clear liquid",
+          "red and purple microtube racks",
+          "small white containers with labels",
+          "a bottle of yellow liquid labeled '50 media'"
+        ],
+        "visible_text_labels": [
+          "E. coli",
+          "50 media"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid sample from a labeled microtube into a test tube, highlighting the careful handling of biological samples. The presence of multiple labeled containers and the use of a pipette emphasize the controlled nature of the experiment. The green cap on the microtube and the 'E. coli' label are distinctive features."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        44.96064975,
+        59.947533
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 1.5mL microtube with a blue cap into a centrifuge rotor",
+          "researcher closes the centrifuge lid and starts the centrifuge",
+          "researcher places a 1.5mL microtube with a green cap into a vortex mixer"
+        ],
+        "objects_visible": [
+          "centrifuge with a rotor containing multiple slots for tubes",
+          "vortex mixer labeled 'VORTEX GENIE 2' with a speed dial",
+          "1.5mL microtube with a blue cap",
+          "1.5mL microtube with a green cap",
+          "test tube rack with multiple tubes",
+          "bottle labeled 'SA media Complete 8/12/10 1L' containing a yellowish liquid",
+          "pipette tip box"
+        ],
+        "visible_text_labels": [
+          "VORTEX GENIE 2",
+          "SA media Complete 8/12/10 1L",
+          "Incubate 5 min at RT"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "5 min"
+        ],
+        "key_distinguishing_features": "This segment highlights the use of a centrifuge and a vortex mixer, indicating a step involving sample preparation or mixing. The presence of specific media and labeled tubes suggests a controlled laboratory environment. The text 'Incubate 5 min at RT' provides a clear procedural instruction."
+      }
+    }
+  ]
+}

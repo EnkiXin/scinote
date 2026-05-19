@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_segments/56825/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 59.305,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.82625
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 12-well cell culture plate with multiple wells containing a purple liquid",
+          "researcher uses a pipette to transfer a red liquid from a conical flask into one of the wells"
+        ],
+        "objects_visible": [
+          "12-well cell culture plate with purple liquid in some wells",
+          "conical flask with red liquid",
+          "pipette with a black tip",
+          "gloved hands of the researcher"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise transfer of a red liquid into a well of a cell culture plate, indicating a step in a biological experiment. The use of a pipette and the presence of a conical flask suggest the handling of specific volumes of reagents. The purple liquid in the wells contrasts with the red liquid being added, highlighting the mixing process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.82625,
+        29.6525
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a pink liquid into a multi-well plate",
+          "researcher carefully places the pipette tip into each well, ensuring precise liquid delivery"
+        ],
+        "objects_visible": [
+          "a multi-well plate with 12 wells, each containing a small volume of pink liquid",
+          "a pipette with a blue plunger and a clear tip",
+          "a gloved hand holding the multi-well plate steady",
+          "a transparent lid for the multi-well plate placed nearby"
+        ],
+        "visible_text_labels": [],
+        "quantities": [
+          "12 wells in the multi-well plate",
+          "pink liquid transferred into each well"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a pink liquid into a multi-well plate, highlighting the careful and methodical approach of the researcher. The use of a pipette and the presence of a transparent lid suggest a controlled laboratory environment. The pink color of the liquid is a distinctive feature, possibly indicating a specific reagent or medium."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        29.6525,
+        44.47875
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher places the microtube into a well of a 24-well plate"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "24-well plate with clear wells",
+          "researcher's gloved hand",
+          "laboratory environment with a glass barrier"
+        ],
+        "visible_text_labels": [
+          "1.5mL"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a microtube into a well plate, highlighting the careful handling of small laboratory equipment. The blue cap on the microtube is a distinctive feature, and the researcher's gloved hand ensures sterility during the process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        44.47875,
+        59.305
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a multi-well plate",
+          "researcher places a petri dish containing a culture into an incubator"
+        ],
+        "objects_visible": [
+          "pipette with a blue plunger",
+          "transparent multi-well plate with several wells containing liquid",
+          "petri dish with a visible culture",
+          "incubator with a digital display and control panel"
+        ],
+        "visible_text_labels": [
+          "Temp (\u00b0C): 36.9",
+          "CO2 (%): 5.0"
+        ],
+        "quantities": [
+          "36.9\u00b0C temperature reading",
+          "5.0% CO2 concentration reading"
+        ],
+        "key_distinguishing_features": "This segment shows the precise handling of biological samples, with a focus on maintaining controlled conditions. The incubator's digital display highlights the specific environmental parameters required for the culture. The multi-well plate suggests a systematic approach to sample processing."
+      }
+    }
+  ]
+}

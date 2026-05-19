@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/video_verification/58438/clip_2_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 24.257567,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.06439175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a liquid into a labeled container on a balance",
+          "researcher places a labeled bottle on the counter"
+        ],
+        "objects_visible": [
+          "digital analytical balance with a clear glass enclosure",
+          "labeled container with the letter 'K' on the balance",
+          "pipette with a blue tip",
+          "labeled bottle with a red cap",
+          "researcher wearing purple gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "CAUTION label on the balance",
+          "K on the container",
+          "JOVE logo in the top right corner"
+        ],
+        "quantities": [
+          "-0.0008g displayed on the balance screen"
+        ],
+        "key_distinguishing_features": "The segment focuses on precise measurement using a digital analytical balance, with a clear view of the balance's display and the labeled container. The researcher's actions are deliberate, emphasizing the importance of accurate liquid transfer in the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.06439175,
+        12.1287835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a black lid on a centrifuge",
+          "researcher closes the centrifuge door"
+        ],
+        "objects_visible": [
+          "white centrifuge with a digital display",
+          "black centrifuge lid",
+          "researcher wearing purple gloves and a white lab coat",
+          "laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of securing the centrifuge lid, indicating a step in the experimental process. The researcher's careful handling of the equipment highlights the importance of safety and accuracy. The background laboratory setting provides context for the scientific activity."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.1287835,
+        18.193175250000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "3D printer extrudes material to form a mold"
+        ],
+        "objects_visible": [
+          "3D printer with a black and red extruder",
+          "red build plate",
+          "black and white filament"
+        ],
+        "visible_text_labels": [
+          "Prepare the mold design in CAD software"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a 3D printer in action, specifically focusing on the extrusion process of a mold design. The text overlay indicates the preparation of the mold design in CAD software, highlighting the digital-to-physical transition in the manufacturing process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        18.193175250000003,
+        24.257567
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "3D printer extrudes material to form a mold",
+          "printer head moves horizontally and vertically"
+        ],
+        "objects_visible": [
+          "3D printer with a black and white print head",
+          "red build plate with partially formed white mold structures",
+          "black rods and metal frame of the printer"
+        ],
+        "visible_text_labels": [
+          "Prepare the mold design in CAD software",
+          "joVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a 3D printer in action, specifically focusing on the formation of a mold. The printer head is actively extruding material, creating two distinct white structures on a red build plate. The text overlay indicates the use of CAD software for mold design preparation."
+      }
+    }
+  ]
+}

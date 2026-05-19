@@ -1,0 +1,148 @@
+{
+  "video_id": "videos/level_2/step_prediction/64314/clip_5_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 24.912533,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.22813325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instrument applies a clip to tissue",
+          "surgical tool manipulates tissue near blood vessels"
+        ],
+        "objects_visible": [
+          "surgical clip applicator with a gold-colored clip",
+          "metallic surgical forceps holding tissue",
+          "exposed internal organs and blood vessels"
+        ],
+        "visible_text_labels": [
+          "Clip should not occlude the superior mesenteric vein"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise surgical procedure involving the application of a clip to tissue, with a specific caution to avoid occluding the superior mesenteric vein. The tools and tissues are clearly visible, emphasizing the delicate nature of the task. The text overlay provides critical guidance for the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.22813325,
+        12.4562665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments manipulate tissue",
+          "clips are applied to blood vessels"
+        ],
+        "objects_visible": [
+          "surgical forceps with a yellow clip",
+          "superior mesenteric vein",
+          "surrounding tissue and organs"
+        ],
+        "visible_text_labels": [
+          "Clip should not occlude the superior mesenteric vein"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a delicate surgical procedure where a clip is being applied to a blood vessel, ensuring it does not occlude the superior mesenteric vein. The tissue and organs are clearly visible, and the surgical instruments are actively manipulating the area. The text overlay provides a critical instruction for the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.4562665,
+        18.68439975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a cotton swab to apply a liquid to the surgical site.",
+          "The surgical instruments remain in place, holding the tissue open."
+        ],
+        "objects_visible": [
+          "A black surgical retractor holding the tissue open",
+          "A cotton swab with a white tip",
+          "A small, golden surgical clip",
+          "Exposed internal tissues and organs"
+        ],
+        "visible_text_labels": [
+          "Add warm sterile saline periodically to the gauze"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise application of a liquid, likely saline, to the surgical site using a cotton swab. The presence of the text overlay provides specific instructions for maintaining the sterility of the procedure. The golden surgical clip and black retractor are distinctive features of the setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        18.68439975,
+        24.912533
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a pair of forceps to manipulate a gauze pad over exposed internal organs.",
+          "Warm sterile saline is periodically added to the gauze pad to maintain moisture."
+        ],
+        "objects_visible": [
+          "Exposed internal organs with visible loops of intestines.",
+          "A gloved hand holding forceps.",
+          "A gauze pad being applied to the organs.",
+          "A blue surgical drape surrounding the surgical site."
+        ],
+        "visible_text_labels": [
+          "Add warm sterile saline periodically to the gauze"
+        ],
+        "quantities": [
+          "Periodic application of saline, no specific volume mentioned."
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful handling of internal organs using a gauze pad, emphasizing the need for maintaining a sterile and moist environment. The text overlay provides specific instructions for the procedure, highlighting the importance of periodic saline application."
+      }
+    }
+  ]
+}

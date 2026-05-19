@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_verification/58892/clip_2_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.600067,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.65001675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "person is seated and looking at a computer screen"
+        ],
+        "objects_visible": [
+          "Apple iMac computer with a visible screen displaying a document or code",
+          "white keyboard",
+          "white mouse",
+          "external hard drive connected to the iMac",
+          "another computer screen partially visible in the background"
+        ],
+        "visible_text_labels": [
+          "jove (logo in the top right corner)"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a person observing a computer screen, likely analyzing data or code. The setup includes an Apple iMac with a document or code displayed, suggesting a computational or data analysis task. The presence of a second computer screen in the background indicates a multi-tasking or collaborative environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.65001675,
+        17.3000335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "person views computer screen displaying a document"
+        ],
+        "objects_visible": [
+          "person with short brown hair",
+          "white Apple iMac computer",
+          "white keyboard",
+          "white mouse",
+          "document on screen with text and tables"
+        ],
+        "visible_text_labels": [
+          "Cleavage site",
+          "AASRSRRSAA"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a person observing a computer screen, which displays a document with a specific sequence labeled 'AASRSRRSAA' and a 'Cleavage site' annotation. The setting is a typical office or lab environment with standard Apple computer peripherals."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.3000335,
+        25.950050250000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "The video displays a static diagram of a peptide sequence with labeled cleavage site and attached chemical groups."
+        ],
+        "objects_visible": [
+          "A diagram showing a peptide sequence 'AASRSRRSAA' with a cleavage site indicated by an arrow.",
+          "A red starburst symbol labeled 'Mca' on the left side of the peptide sequence.",
+          "A blue rectangular box labeled 'Dnp' on the right side of the peptide sequence."
+        ],
+        "visible_text_labels": [
+          "Cleavage site",
+          "Mca",
+          "Dnp",
+          "AASRSRRSAA"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on a static visual representation of a peptide with specific chemical modifications. The cleavage site is clearly marked, and the attached chemical groups (Mca and Dnp) are distinctly labeled. The diagram is designed to highlight the structure and functional sites of the peptide."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.950050250000004,
+        34.600067
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [],
+        "objects_visible": [
+          "diagram of Mca/Dnp FRET pair with intramolecular fluorescence quenching",
+          "red starburst symbol labeled 'Mca'",
+          "blue rectangular shape labeled 'Dnp'",
+          "sequence of amino acids 'AASRSRRSAA'"
+        ],
+        "visible_text_labels": [
+          "Mca/Dnp FRET pair",
+          "Intramolecular fluorescence quenching",
+          "Cleavage site",
+          "Mca",
+          "AASRSRRSAA",
+          "Dnp"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on a static diagram illustrating the Mca/Dnp FRET pair, highlighting the intramolecular fluorescence quenching mechanism. The cleavage site within the amino acid sequence is clearly marked, emphasizing the interaction between Mca and Dnp."
+      }
+    }
+  ]
+}

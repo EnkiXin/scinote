@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/video_segments/61453/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 73.242,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        18.3105
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a green cap",
+          "researcher places the microtube into a white test tube rack"
+        ],
+        "objects_visible": [
+          "a purple test tube rack with multiple empty slots",
+          "a white test tube rack with a single microtube",
+          "a green cap on the counter",
+          "a clear pipette with a white plunger",
+          "a cylindrical container labeled 'DMEM' in the background"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where a microtube labeled 'DMEM' is handled and placed into a test tube rack. The presence of a green cap and a purple test tube rack adds distinct visual elements. The researcher's actions are precise and deliberate, indicating a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        18.3105,
+        36.621
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a multi-well plate",
+          "researcher uses a pipette to transfer liquid from a test tube into a multi-well plate"
+        ],
+        "objects_visible": [
+          "transparent multi-well plate with multiple compartments",
+          "pipette with a white tip",
+          "yellow test tube rack with multiple test tubes",
+          "test tubes with white caps",
+          "green-capped test tube",
+          "white container labeled 'NUNC'"
+        ],
+        "visible_text_labels": [
+          "Determine worm numbers in <5 min",
+          "i.e., 1:10, 1:100, 1:1000"
+        ],
+        "quantities": [
+          "multiple compartments in the multi-well plate",
+          "test tubes in the yellow rack"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of liquid using a pipette into a multi-well plate, likely for a dilution series. The researcher's gloved hands and the organized laboratory setup emphasize a controlled experimental environment. The text on the screen provides context for the experiment, indicating a time-sensitive task related to worm numbers."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        36.621,
+        54.9315
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid from a multi-well plate to a glass slide",
+          "researcher places a cover slip on top of the liquid on the glass slide"
+        ],
+        "objects_visible": [
+          "researcher's hands wearing blue nitrile gloves",
+          "a multi-well plate with clear liquid in one of the wells",
+          "a glass slide",
+          "a cover slip",
+          "a pipette with a clear tip"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one multi-well plate",
+          "one glass slide",
+          "one cover slip"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid sample from a multi-well plate to a glass slide, highlighting the careful handling of laboratory materials. The use of a cover slip suggests preparation for microscopic examination. The presence of the 'jove' logo indicates the video is likely part of a scientific instructional series."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        54.9315,
+        73.242
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher uses a smartphone calculator to perform calculations",
+          "researcher inputs numbers on the smartphone calculator"
+        ],
+        "objects_visible": [
+          "smartphone with a calculator app open",
+          "blue-gloved hands interacting with the smartphone",
+          "a notebook with handwritten notes and a green sticky note",
+          "a clear plastic multi-well plate with liquid samples"
+        ],
+        "visible_text_labels": [
+          "173.33333 (displayed on the smartphone calculator)"
+        ],
+        "quantities": [
+          "173.33333 (result of the calculation)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on digital calculation, with the researcher using a smartphone for precise numerical computations. The presence of a notebook and multi-well plate suggests the calculations are part of a larger experimental process. The blue gloves highlight the sterile environment of the lab setting."
+      }
+    }
+  ]
+}

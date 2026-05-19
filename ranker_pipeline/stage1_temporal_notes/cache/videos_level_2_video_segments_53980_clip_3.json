@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/video_segments/53980/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.516,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.629
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a fine-tipped tool to manipulate a small object under a microscope",
+          "researcher holds a blue rectangular object with a transparent section under the microscope"
+        ],
+        "objects_visible": [
+          "white microscope with a black base",
+          "blue rectangular object with a transparent section",
+          "fine-tipped tool held by the researcher",
+          "researcher's hands wearing a white lab coat with purple cuffs"
+        ],
+        "visible_text_labels": [
+          "Age Flies for 4 - 6 days for Optimal Fecundity",
+          "jove"
+        ],
+        "quantities": [
+          "4 - 6 days"
+        ],
+        "key_distinguishing_features": "The segment focuses on a precise manipulation task under a microscope, highlighting the use of a specialized tool for handling small objects. The text overlay provides specific instructions related to the age of flies for optimal fecundity, indicating a controlled biological experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.629,
+        15.258
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher picks up a small white container with a yellow cap",
+          "researcher opens the container and handles its contents"
+        ],
+        "objects_visible": [
+          "small white container with a yellow cap",
+          "black lab bench",
+          "microscope",
+          "plastic conical flask",
+          "stack of small brown boxes containing tubes"
+        ],
+        "visible_text_labels": [
+          "Maintain Constant Rearing Conditions",
+          "Raise Parental Population in Same Conditions"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where the researcher is handling a small container, likely containing samples or reagents. The text overlay emphasizes the importance of maintaining consistent rearing conditions for the parental population. The lab environment is well-equipped, indicating a controlled experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.258,
+        22.887
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, clear container with a yellowish substance",
+          "researcher uses a wooden stick to transfer a sample from the container to a petri dish"
+        ],
+        "objects_visible": [
+          "small, clear container with a yellowish substance",
+          "petri dish with a blue border",
+          "wooden stick",
+          "white gloves",
+          "green tube connected to a device",
+          "conical flask with a white cap containing a yellowish liquid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully transferring a sample using a wooden stick, indicating a delicate and precise action. The presence of the petri dish with a blue border suggests a controlled environment for the sample. The green tube and conical flask in the background hint at a complex experimental setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.887,
+        30.516
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher picks up a white bottle from a black grid on the table",
+          "researcher walks out of the frame towards a door"
+        ],
+        "objects_visible": [
+          "white bottle with a white cap",
+          "black table with a grid pattern",
+          "stacked brown trays containing small compartments",
+          "microscope on the left side of the table",
+          "white lab coat worn by the researcher",
+          "white gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher handling a white bottle, which is a key action in the sequence. The environment is a laboratory setup with specific equipment like a microscope and trays. The researcher exits the frame, indicating a transition in the experiment's process."
+      }
+    }
+  ]
+}

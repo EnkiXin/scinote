@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/video_verification/63039/clip_1_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.998333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.49958325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a multi-well plate with six wells",
+          "researcher uses a pipette to transfer a clear liquid into the wells"
+        ],
+        "objects_visible": [
+          "multi-well plate with six wells, some containing a clear liquid",
+          "pipette with a yellow tip",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "BME2-Reduced growth factor basement membrane extract"
+        ],
+        "quantities": [
+          "six wells in the multi-well plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a clear liquid into a multi-well plate, highlighting the use of a pipette for accurate dispensing. The text label indicates the liquid is a specific type of basement membrane extract, emphasizing the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.49958325,
+        16.9991665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid into a multi-well plate",
+          "researcher holds a multi-well plate with one hand"
+        ],
+        "objects_visible": [
+          "pipette with a yellow handle",
+          "multi-well plate with clear wells",
+          "sterile hood with a perforated metal surface",
+          "a bottle labeled 'glucose' with a white cap"
+        ],
+        "visible_text_labels": [
+          "glucose"
+        ],
+        "quantities": [
+          "~200uL of liquid being transferred"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action into a multi-well plate, emphasizing the controlled environment of a sterile hood. The glucose bottle suggests the experiment involves metabolic studies. The researcher's gloved hands highlight the importance of sterility."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.9991665,
+        25.49874975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid into a multi-well plate",
+          "researcher holds a multi-well plate with clear wells"
+        ],
+        "objects_visible": [
+          "pipette with a blue plunger and white tip",
+          "multi-well plate with 12 clear wells",
+          "researcher's gloved hands",
+          "blue glove on the left hand",
+          "white lab coat",
+          "blue container with pipette tips"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "12 wells in the multi-well plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid into a multi-well plate using a pipette. The researcher's hands are gloved, emphasizing a sterile environment. The multi-well plate is clearly visible, with each well being filled methodically."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.49874975,
+        33.998333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher uses a digital thermometer to measure temperature inside an oven",
+          "researcher carefully places thermometer probe into the oven"
+        ],
+        "objects_visible": [
+          "digital thermometer with a probe",
+          "Panasonic oven with a digital display",
+          "researcher wearing a white lab coat, blue gloves, and a face mask"
+        ],
+        "visible_text_labels": [
+          "Panasonic",
+          "jove"
+        ],
+        "quantities": [
+          "temperature reading on the thermometer"
+        ],
+        "key_distinguishing_features": "The segment focuses on precise temperature measurement within an oven, highlighting the use of a digital thermometer. The researcher's careful handling of the thermometer probe emphasizes the importance of accurate readings. The Panasonic oven and the researcher's protective gear are prominent features."
+      }
+    }
+  ]
+}

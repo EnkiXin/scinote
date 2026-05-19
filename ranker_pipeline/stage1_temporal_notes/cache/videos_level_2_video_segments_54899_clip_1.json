@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_2/video_segments/54899/clip_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 21.394,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.3485
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes ~200uL of pink-colored liquid from a petri dish into a 1.5mL microtube labeled 'PBS'"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'PBS' with a blue cap",
+          "petri dish with pink-colored liquid",
+          "pipette with a blue plunger",
+          "blue tube rack holding a labeled tube",
+          "green petri dish rack"
+        ],
+        "visible_text_labels": [
+          "PBS",
+          "jove"
+        ],
+        "quantities": [
+          "~200uL"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action transferring a specific volume of pink liquid into a labeled microtube. The use of a blue-capped microtube and the presence of a petri dish with pink liquid are distinctive features. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.3485,
+        10.697
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid into a petri dish",
+          "researcher places the petri dish lid on the table"
+        ],
+        "objects_visible": [
+          "blue-gloved hands",
+          "pipette with a blue tip",
+          "petri dish with a clear liquid",
+          "petri dish lid",
+          "blue funnel stand",
+          "red liquid in a beaker",
+          "FALCON 50mL conical tube with a blue cap"
+        ],
+        "visible_text_labels": [
+          "FALCON",
+          "50mL"
+        ],
+        "quantities": [
+          "clear liquid in the petri dish",
+          "blue funnel stand"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer using a pipette into a petri dish, emphasizing the careful handling of laboratory materials. The blue-gloved hands and the blue funnel stand are distinctive elements in this scene. The presence of a FALCON 50mL conical tube suggests a well-equipped laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.697,
+        16.045499999999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid from a 15mL Falcon tube labeled 'Fetal Bovine Serum 10%' into a petri dish",
+          "places the Falcon tube on a blue funnel"
+        ],
+        "objects_visible": [
+          "15mL Falcon tube with a white cap labeled 'Fetal Bovine Serum 10%'",
+          "blue funnel",
+          "petri dish",
+          "pipette with a blue tip",
+          "red liquid in a petri dish in the background"
+        ],
+        "visible_text_labels": [
+          "Fetal Bovine Serum 10%",
+          "FALCON"
+        ],
+        "quantities": [
+          "15mL"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action from a labeled Falcon tube into a petri dish, emphasizing the use of a blue funnel for stability. The focus is on the handling of a specific serum solution in a controlled laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        16.045499999999997,
+        21.394
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a green tray with two small, clear containers on a balance scale"
+        ],
+        "objects_visible": [
+          "balance scale with a digital display",
+          "green tray with a white paper towel inside",
+          "two small, clear containers on the paper towel",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "two small containers"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a green tray with two small containers onto a balance scale, indicating a measurement phase. The use of a paper towel suggests an effort to prevent contamination or slipping. The digital display of the scale is not visible, but its presence implies a quantitative measurement is being taken."
+      }
+    }
+  ]
+}

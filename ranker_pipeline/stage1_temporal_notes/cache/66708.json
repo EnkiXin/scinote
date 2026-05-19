@@ -1,0 +1,174 @@
+{
+  "video_id": "66708",
+  "benchmark": "scivideobench",
+  "duration_seconds": 633.194667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        158.29866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher stands in front of a bookshelf filled with binders and files.",
+          "Researcher interacts with a computer screen displaying a complex automated radiosynthesis system interface."
+        ],
+        "objects_visible": [
+          "A bookshelf with binders of various colors (red, yellow, blue, etc.)",
+          "A computer screen showing a detailed schematic of a MultiSyn system with various tubes, valves, and containers.",
+          "A bottle labeled 'Vitamin B' on a shelf in the background."
+        ],
+        "visible_text_labels": [
+          "An Automated Radiosynthesis of [68Ga]Ga-FAPI-46 for Routine Clinical Use",
+          "MultiSyn",
+          "MS: iPHASE MultiSyn",
+          "What significant findings have you established in your field?"
+        ],
+        "quantities": [
+          "The computer screen displays various numerical values such as 'Synth Flagged: 0:13:51', 'Elapsed: 0:00:00', and 'Total: 0:00:00'."
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the preparation phase of a radiosynthesis process, highlighting the use of an automated MultiSyn system. The researcher's interaction with the system's interface suggests a detailed setup process. The background elements, such as the bookshelf and the Vitamin B bottle, add context to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        158.29866675,
+        316.5973335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a syringe labeled 'syringe C' with a green plunger",
+          "researcher fills the syringe with a clear liquid from a vial labeled 'System A'"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a red cap labeled 'System A'",
+          "syringe with a green plunger labeled 'syringe C'",
+          "yellow container with a white label",
+          "blue microtube rack",
+          "transparent test tube labeled 'Water'"
+        ],
+        "visible_text_labels": [
+          "syringe C",
+          "System A",
+          "Water",
+          "MAXIMUM RESEARCH"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "syringe with a green plunger"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a syringe with a specific liquid from a labeled vial, emphasizing the precise handling of laboratory equipment. The presence of a yellow container and a blue microtube rack adds context to the laboratory setting. The clear labeling of the syringe and vial ensures accurate identification of the substances being used."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        316.5973335,
+        474.89600025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand carefully places a blue-capped bottle labeled 'Hydrophilic, solid waste' into a setup with multiple tubes and connectors.",
+          "A researcher adjusts a complex apparatus with various tubes, valves, and a digital display showing parameters like 'Manifold 1', 'Manifold 2', and 'Manifold 3'.",
+          "The researcher uses a pipette to transfer a clear liquid from a beaker into a specific section of the apparatus."
+        ],
+        "objects_visible": [
+          "A blue-capped bottle labeled 'Hydrophilic, solid waste' with a warning symbol.",
+          "A complex apparatus with multiple tubes, valves, and a digital display.",
+          "A beaker containing a clear liquid.",
+          "A pipette with a fine tip."
+        ],
+        "visible_text_labels": [
+          "Hydrophilic, solid waste",
+          "Manifold 1",
+          "Manifold 2",
+          "Manifold 3"
+        ],
+        "quantities": [
+          "The digital display shows various numerical values such as '0.00', '0.00', and '0.00' for different manifolds."
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the precise handling of a hydrophilic solid waste bottle and the intricate adjustments made to a complex apparatus. The digital display provides specific numerical parameters, emphasizing the controlled nature of the experiment. The use of a pipette for transferring a clear liquid highlights the meticulous steps involved in the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        474.89600025,
+        633.194667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish",
+          "researcher places a labeled syringe into a metal container labeled 'RAPID'",
+          "disposes of a used syringe into a yellow biohazard waste bin labeled 'GA68 WASTE'"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap and 'DMEM' label",
+          "pink-colored DMEM medium",
+          "petri dish",
+          "labeled syringe",
+          "metal container labeled 'RAPID'",
+          "yellow biohazard waste bin labeled 'GA68 WASTE'"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "RAPID",
+          "GA68 WASTE"
+        ],
+        "quantities": [
+          "1.5mL",
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of DMEM medium, showcasing the careful measurement and transfer of liquids. The use of a labeled syringe and a specialized metal container highlights the controlled environment of the experiment. The disposal of waste into a biohazard bin underscores the safety protocols in place."
+      }
+    }
+  ]
+}

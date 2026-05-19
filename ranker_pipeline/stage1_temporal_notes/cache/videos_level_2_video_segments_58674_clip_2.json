@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/video_segments/58674/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 21.677,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.41925
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "person places a ruler on a black countertop",
+          "person picks up a small object from the countertop"
+        ],
+        "objects_visible": [
+          "black countertop with visible scratches",
+          "four open cardboard boxes with green and white labels",
+          "a ruler with white markings",
+          "small metallic objects scattered on the countertop"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "four open cardboard boxes"
+        ],
+        "key_distinguishing_features": "The segment shows a person preparing the workspace by placing a ruler and interacting with small objects on a black countertop. The presence of four open cardboard boxes with green and white labels is distinctive. The scattered metallic objects add to the detailed setup of the scene."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.41925,
+        10.8385
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "person holds a hand with small metallic screws and bolts",
+          "person uses a screwdriver to tighten a bolt into a white plastic frame"
+        ],
+        "objects_visible": [
+          "small metallic screws and bolts",
+          "a white plastic frame with a bolt hole",
+          "a screwdriver with a red handle",
+          "open cardboard boxes with labels"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "several small metallic screws and bolts"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase where small metallic components are being handled and assembled. The use of a screwdriver to secure a bolt into a plastic frame is a key action. The presence of labeled cardboard boxes suggests an organized setup for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.8385,
+        16.25775
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "person threads a nut onto a bolt protruding from a white frame",
+          "person uses a screwdriver to tighten the nut"
+        ],
+        "objects_visible": [
+          "white frame with bolts and nuts",
+          "wooden cabinet with a label and number '13'",
+          "screwdriver with a wooden handle",
+          "metal bolts and nuts scattered on the countertop"
+        ],
+        "visible_text_labels": [
+          "13",
+          "Jove"
+        ],
+        "quantities": [
+          "one bolt being tightened",
+          "one nut being threaded"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise assembly of a white frame using a bolt and nut, highlighting the manual tightening process. The setting is a laboratory environment, as indicated by the presence of a wooden cabinet with a numbered label and scattered bolts. The action is methodical and deliberate, emphasizing the preparation phase of an experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        16.25775,
+        21.677
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher uses a screwdriver to tighten a screw on a metal frame",
+          "researcher holds the frame steady with one hand while adjusting the screw with the other"
+        ],
+        "objects_visible": [
+          "metal frame with a mesh screen",
+          "screwdriver with a red handle",
+          "black countertop",
+          "wooden cabinet with a label '13'"
+        ],
+        "visible_text_labels": [
+          "13"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a metal frame, likely part of an experimental setup. The use of a screwdriver indicates a step requiring careful assembly or calibration. The environment suggests a laboratory setting with typical lab furniture and equipment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_segments/3642/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 27.591,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.89775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a component on a large cylindrical device",
+          "researcher uses a tool to interact with a specific part of the device"
+        ],
+        "objects_visible": [
+          "large white cylindrical device labeled 'Bruker 500 UltraShield'",
+          "black and silver components on the device",
+          "researcher wearing a white lab coat and blue gloves",
+          "ladder next to the device",
+          "window with blinds in the background"
+        ],
+        "visible_text_labels": [
+          "Bruker",
+          "500 UltraShield",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase involving a large Bruker 500 UltraShield device. The researcher is seen making precise adjustments to the device, indicating a setup or calibration process. The presence of a ladder suggests the need to reach higher parts of the equipment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.89775,
+        13.7955
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [],
+        "objects_visible": [
+          "large white cylindrical Bruker 500 UltraShield\u2122 NMR spectrometer with various tubes and cables attached",
+          "control panel with buttons and a coiled cable"
+        ],
+        "visible_text_labels": [
+          "Bruker",
+          "500",
+          "UltraShield\u2122",
+          "CE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a Bruker 500 UltraShield\u2122 NMR spectrometer, highlighting its large cylindrical design and attached components. The control panel and coiled cable are prominently visible, suggesting preparation for an experiment. No human interaction is observed in this segment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.7955,
+        20.69325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher uses mouse to interact with computer",
+          "researcher types on keyboard"
+        ],
+        "objects_visible": [
+          "black computer keyboard with green wrist rest",
+          "black computer mouse on blue mousepad",
+          "two computer monitors displaying software interfaces",
+          "researcher's hands wearing a silver ring on the left hand"
+        ],
+        "visible_text_labels": [
+          "jove logo in the top right corner",
+          "software interface with lists and data on the left monitor",
+          "software interface with a dialog box on the right monitor"
+        ],
+        "quantities": [
+          "two computer monitors"
+        ],
+        "key_distinguishing_features": "The segment focuses on the researcher's interaction with a dual-monitor computer setup, highlighting the use of both mouse and keyboard. The software interfaces suggest data analysis or experiment monitoring. The presence of the jove logo indicates a scientific or educational context."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        20.69325,
+        27.591
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher observes and analyzes data on a computer screen"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a graph with peaks",
+          "researcher's hair partially visible on the right side of the frame"
+        ],
+        "visible_text_labels": [
+          "jove",
+          "CAMS 500 ver 18.03.2009"
+        ],
+        "quantities": [
+          "graph with peaks at approximately 0.16, 0.20, and 0.24 on the x-axis"
+        ],
+        "key_distinguishing_features": "The segment focuses on the analysis of a graph with multiple peaks, suggesting data measurement or analysis. The researcher's presence is implied by the visible hair, indicating active observation. The 'jove' watermark suggests this is part of a scientific instructional video."
+      }
+    }
+  ]
+}

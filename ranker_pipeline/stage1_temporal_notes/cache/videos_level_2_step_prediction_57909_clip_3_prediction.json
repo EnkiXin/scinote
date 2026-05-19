@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/step_prediction/57909/clip_3_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 50.805067,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.70126675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is focused on a monolayer of cells"
+        ],
+        "objects_visible": [
+          "fibroblast-like cells with elongated, spindle-shaped morphology"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The video shows a close-up view of a cell culture under a microscope, highlighting the uniform distribution and morphology of the cells. The cells appear to be in a confluent state, covering the entire visible area. The 'jove' logo is visible in the top right corner, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.70126675,
+        25.4025335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Sample 1' with an orange cap",
+          "pipettes a clear liquid from the microtube into a test tube using a pipette with a white tip"
+        ],
+        "objects_visible": [
+          "microtube with an orange cap labeled 'Sample 1'",
+          "pipette with a white tip",
+          "test tube rack with multiple test tubes, some with red caps",
+          "test tube with a clear liquid being filled",
+          "blue container with a red cap in the background"
+        ],
+        "visible_text_labels": [
+          "Sample 1",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a clear liquid from a labeled microtube into a test tube using a pipette. The presence of a test tube rack with multiple tubes and the researcher's careful handling of the pipette highlight the methodical nature of the experiment. The 'jove' logo in the corner suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.4025335,
+        38.10380025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube labeled '1x HESS' with a red cap",
+          "researcher uses a pipette to transfer liquid from the conical tube into a 6-well plate",
+          "researcher places the conical tube back into a tube rack"
+        ],
+        "objects_visible": [
+          "15mL conical tube with a red cap and handwritten label '1x HESS'",
+          "pipette with a green plunger",
+          "6-well plate with pink caps",
+          "tube rack holding multiple conical tubes",
+          "gloved hands of the researcher"
+        ],
+        "visible_text_labels": [
+          "1x HESS",
+          "i.e. 2.5 mL/6-well plate 4.5 mL/6 cm dish"
+        ],
+        "quantities": [
+          "2.5 mL",
+          "4.5 mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of liquid from a labeled conical tube into a multi-well plate, emphasizing the volume requirements for different types of cell culture dishes. The handwritten label on the tube and the specific quantities mentioned highlight the importance of accurate measurements in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        38.10380025,
+        50.805067
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to carefully place a small, transparent, circular object into a test tube",
+          "researcher holds a test tube with a pink cap and a clear liquid inside"
+        ],
+        "objects_visible": [
+          "test tube rack with multiple test tubes, each with a pink cap",
+          "forceps held by a gloved hand",
+          "small, transparent, circular object being placed into a test tube"
+        ],
+        "visible_text_labels": [
+          "Gelatin solidifies in approximately 20 min"
+        ],
+        "quantities": [
+          "approximately 20 min"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a small, transparent object into a test tube using forceps, highlighting the delicate nature of the task. The pink-capped test tubes and the text indicating gelatin solidification time suggest a controlled laboratory environment. The use of forceps emphasizes the need for careful handling in this step of the experiment."
+      }
+    }
+  ]
+}

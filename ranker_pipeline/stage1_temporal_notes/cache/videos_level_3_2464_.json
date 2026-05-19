@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_3/2464_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 465.408,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        116.352
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher is shown holding a scalpel and making an incision along a red line marked on a rat's chest.",
+          "The researcher carefully separates the tissue layers using forceps."
+        ],
+        "objects_visible": [
+          "A white rat with a red line marked on its chest indicating the incision path.",
+          "A scalpel with a metallic blade and black handle.",
+          "Forceps with metallic tips used for tissue manipulation."
+        ],
+        "visible_text_labels": [
+          "Acute Myocardial Infarction in Rats",
+          "Yewen Wu, Xing Yin, Cori Wijaya, Ming-He Huang, and Bradley K. McConnell",
+          "Dept. of Internal Medicine, Division of Cardiology, University of Texas Medical Branch (UTMB)",
+          "Dept. of Pharmacological and Pharmaceutical Sciences, University of Houston, Texas Medical Center",
+          "Cori Wijaya, University of Houston"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment highlights the initial surgical preparation for inducing acute myocardial infarction in a rat model. The precise incision and tissue separation demonstrate the careful handling required for this procedure. The video also introduces the researchers and their affiliations, setting the context for the scientific study."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        116.352,
+        232.704
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher in sterile gown and gloves handles a small animal, likely a rodent, with a red covering over its body.",
+          "Researcher administers an injection to the animal using a syringe."
+        ],
+        "objects_visible": [
+          "Small animal with a red covering, possibly a mouse or rat.",
+          "Syringe held by the researcher.",
+          "Sterile operating surface covered with a white sheet.",
+          "Laboratory equipment and supplies in the background, including a sink, shelves with bottles, and a digital device displaying '218' and '80'."
+        ],
+        "visible_text_labels": [
+          "Operating surface should be maintained as sterile during the procedure",
+          "Buprenorphine (0.1-2.5 mg/kg SQ) is administered the day before surgery and pre-operatively"
+        ],
+        "quantities": [
+          "0.1-2.5 mg/kg SQ (dose of Buprenorphine)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of an animal surgery, emphasizing the importance of maintaining a sterile environment. The researcher is seen administering a pre-operative dose of Buprenorphine, highlighting the careful handling of the animal and the use of precise dosing. The background laboratory setup indicates a controlled and professional environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        232.704,
+        349.05600000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses surgical scissors to carefully cut through tissue",
+          "researcher manipulates surgical instruments to retract and expose the surgical site"
+        ],
+        "objects_visible": [
+          "animal with exposed surgical site showing internal tissues and blood",
+          "metal surgical scissors with long, sharp blades",
+          "metal surgical forceps with textured grips",
+          "sterile surgical drape covering the animal's body"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise surgical manipulation of an animal's internal tissues, highlighting the use of specialized surgical instruments. The exposed surgical site and the presence of blood indicate an invasive procedure. The sterile environment and the researcher's attire emphasize the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        349.05600000000004,
+        465.408
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Surgeon carefully manipulates surgical instruments within an open surgical site on a white animal.",
+          "Surgical tools are used to suture and manage tissue within the surgical field."
+        ],
+        "objects_visible": [
+          "Surgical instruments including forceps and scissors with metallic, reflective surfaces.",
+          "A white animal with exposed surgical site showing red tissue and sutures.",
+          "A bright surgical light illuminating the surgical area."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "Multiple sutures visible within the surgical site."
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed execution of a surgical procedure, highlighting the precision of the surgeon's movements and the use of specialized tools. The bright surgical lighting and the exposed tissue provide a clear view of the intricate work being performed. The presence of the 'jove' logo suggests this is part of a scientific or educational video."
+      }
+    }
+  ]
+}

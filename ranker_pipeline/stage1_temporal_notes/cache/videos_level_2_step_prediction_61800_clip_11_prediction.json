@@ -1,0 +1,145 @@
+{
+  "video_id": "videos/level_2/step_prediction/61800/clip_11_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 25.982,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.4955
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled '1XPBSX' with a clear cap",
+          "researcher uses a pipette to transfer liquid from the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled '1XPBSX'",
+          "pipette with a clear tip",
+          "white foam box containing ice",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "1XPBSX"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The microtube is clearly labeled '1XPBSX', indicating the solution's identity. The foam box with ice suggests the need to keep the solution cold. The researcher's gloved hand emphasizes a sterile environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.4955,
+        12.991
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "places a small, irregularly shaped sample on a microscope slide",
+          "covers the sample with a cover slip"
+        ],
+        "objects_visible": [
+          "microscope slide with a white rectangular label",
+          "irregularly shaped sample on the slide",
+          "cover slip",
+          "gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise preparation step where a sample is carefully placed on a microscope slide and covered. The white label on the slide suggests it is part of a labeled set. The gloved hand indicates a controlled, sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.991,
+        19.4865
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a clear liquid onto a microscope slide containing a sample"
+        ],
+        "objects_visible": [
+          "microscope slide with a white rectangular section and a transparent section containing a sample",
+          "pipette tip dispensing a clear liquid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "clear liquid being added in a controlled manner"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of adding a clear liquid to a sample on a microscope slide, highlighting the methodical nature of the experiment. The white rectangular section of the slide contrasts with the transparent area, emphasizing the sample's location. The pipette tip is clearly visible as it dispenses the liquid."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.4865,
+        25.982
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope slide is placed on a dark surface",
+          "a white cloth is moved across the top of the frame"
+        ],
+        "objects_visible": [
+          "transparent microscope slide with a rectangular white label on one end",
+          "a white cloth with a blue logo or design"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a microscope slide with visible scratches or patterns, suggesting prior use or preparation. The white cloth with a blue logo is partially visible, indicating a possible cleaning or handling action. The dark background enhances the visibility of the slide and cloth."
+      }
+    }
+  ]
+}

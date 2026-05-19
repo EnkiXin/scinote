@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_2/video_verification/54413/clip_3_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 29.462767,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.36569175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a black hose labeled 'VACUUM' connected to a metallic apparatus",
+          "researcher uses a tool to tighten a connection on the apparatus"
+        ],
+        "objects_visible": [
+          "black hose with a yellow 'VACUUM' label",
+          "metallic apparatus with various tubes and connectors",
+          "researcher's gloved hand",
+          "white lab coat"
+        ],
+        "visible_text_labels": [
+          "VACUUM"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, specifically the adjustment of a vacuum system. The researcher's gloved hand is prominently shown manipulating the equipment, emphasizing the precision required. The vacuum hose and its label are clearly visible, indicating the function of the apparatus."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.36569175,
+        14.7313835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher presses buttons on a Buchi control panel"
+        ],
+        "objects_visible": [
+          "Buchi control panel with digital display and keypad",
+          "researcher's gloved hand",
+          "aluminum foil-covered object",
+          "digital display showing 'OFF'"
+        ],
+        "visible_text_labels": [
+          "OFF",
+          "Set T1: 50.0\u00b0C",
+          "T-T1: 56.3\u00b0C",
+          "Power: 0%",
+          "Control: T-R",
+          "Buchi"
+        ],
+        "quantities": [
+          "50.0\u00b0C \u00b1 0.1\u00b0C",
+          "56.3\u00b0C"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise control of temperature settings on a Buchi control panel, highlighting the digital display and keypad interaction. The researcher's gloved hand is actively adjusting the settings, emphasizing the importance of accurate temperature control in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.7313835,
+        22.09707525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher monitors temperature on a digital control panel",
+          "researcher observes a computer screen displaying a graph and data"
+        ],
+        "objects_visible": [
+          "digital control panel with temperature reading",
+          "computer monitor showing a graph and data table",
+          "researcher wearing a white lab coat and yellow safety glasses"
+        ],
+        "visible_text_labels": [
+          "28.78 \u00b0C",
+          "50.00 \u00b0C",
+          "50 \u00b0C \u00b1 0.1 \u00b0C",
+          "jove"
+        ],
+        "quantities": [
+          "28.78 \u00b0C",
+          "50.00 \u00b0C",
+          "50 \u00b0C \u00b1 0.1 \u00b0C"
+        ],
+        "key_distinguishing_features": "The segment focuses on precise temperature control and monitoring, as indicated by the digital display and the researcher's attention to the computer screen. The graph on the screen suggests data analysis or real-time monitoring of an experiment. The researcher's attire and the equipment highlight a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.09707525,
+        29.462767
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Cursor moves to highlight specific data points on the graph",
+          "Cursor selects a range of data on the graph"
+        ],
+        "objects_visible": [
+          "Graph with blue and red lines showing frequency and amplitude data",
+          "Data table with numerical values and parameters",
+          "Cursor controlled by a user"
+        ],
+        "visible_text_labels": [
+          "See text protocol for variable definitions",
+          "Blank measurement (reference LC)",
+          "Resonance frequency of unloaded sample LCM",
+          "Difference in f_0"
+        ],
+        "quantities": [
+          "14.8935190 (Frequency value)",
+          "14.8931208 (Frequency value)",
+          "250.000 (FIT Time)",
+          "1.5 (FIT RMS)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of data points on a graph, with the cursor highlighting and selecting specific ranges. The text overlay suggests referring to a protocol for variable definitions, indicating a detailed analysis phase. The data table and graph provide precise numerical values and parameters for the experiment."
+      }
+    }
+  ]
+}

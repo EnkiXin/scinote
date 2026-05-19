@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/video_verification/63101/clip_8_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.781016,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.695254
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a blue microtube rack with multiple tubes",
+          "researcher uses a pipette to transfer liquid into a microtube"
+        ],
+        "objects_visible": [
+          "blue microtube rack with multiple microtubes",
+          "yellow pipette tip box",
+          "purple microtube rack",
+          "black tray filled with ice cubes",
+          "electrical equipment with red and green lights"
+        ],
+        "visible_text_labels": [
+          "See text for primer sequences and PCR mix composition",
+          "jove"
+        ],
+        "quantities": [
+          "multiple microtubes in the blue rack",
+          "multiple pipette tips in the yellow box"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling microtubes and using a pipette, indicating a precise preparation step. The presence of ice cubes suggests the need to maintain a cold environment for the samples. The text overlay provides specific instructions for primer sequences and PCR mix composition."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.695254,
+        19.390508
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap and a white label",
+          "researcher uses a pipette to transfer liquid from the microtube into a PCR tube on ice"
+        ],
+        "objects_visible": [
+          "black ice bucket containing PCR tubes",
+          "blue microtube rack",
+          "purple microtube rack",
+          "yellow pipette tip box",
+          "PCR thermocycler labeled 'Eppendorf Mastercycler'"
+        ],
+        "visible_text_labels": [
+          "See text for primer sequences and PCR mix composition",
+          "See text for PCR conditions"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "PCR tubes on ice"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of PCR tubes and reagents, emphasizing the importance of maintaining a cold environment. The researcher's actions are deliberate, showcasing the careful preparation of PCR mixtures. The presence of multiple racks and the PCR thermocycler highlights the organized setup for molecular biology experiments."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.390508,
+        29.085762000000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a well of a gel electrophoresis apparatus"
+        ],
+        "objects_visible": [
+          "researcher wearing blue gloves and a white lab coat",
+          "pipette with a yellow plunger",
+          "gel electrophoresis apparatus with a clear lid and labeled 'SNU/DLS/TEACHING LAB'",
+          "red and black electrodes in the gel tank",
+          "plastic container with blue caps",
+          "plastic bottle labeled 'ACARD'"
+        ],
+        "visible_text_labels": [
+          "SNU/DLS/TEACHING LAB",
+          "ACARD"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively using a pipette to add liquid to a gel electrophoresis setup, indicating a step in the execution phase of the experiment. The clear labeling of the gel apparatus and the presence of electrodes suggest a focus on precise sample placement for analysis. The scene is set in a teaching lab environment, as indicated by the visible text on the apparatus."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.085762000000003,
+        38.781016
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid into a well of a gel electrophoresis apparatus"
+        ],
+        "objects_visible": [
+          "researcher wearing blue nitrile gloves",
+          "pipette with a white and yellow body",
+          "transparent gel electrophoresis apparatus labeled 'SNU/DLS/TEACHING LAB'",
+          "red and green wells in the gel apparatus",
+          "red liquid in a small container"
+        ],
+        "visible_text_labels": [
+          "SNU/DLS/TEACHING LAB",
+          "Store the samples at 4 \u00b0C or freeze at -20\u00b0C"
+        ],
+        "quantities": [
+          "4 \u00b0C",
+          "-20\u00b0C"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid into a gel electrophoresis setup, highlighting the use of a pipette and the specific storage instructions for samples. The transparent apparatus and color-coded wells are distinctive features of this segment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/video_segments/54661/clip_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 31.596,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.899
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher dons a pair of white latex gloves",
+          "researcher opens a large white bottle with a black cap"
+        ],
+        "objects_visible": [
+          "large white bottle with a black cap and red label",
+          "white latex gloves",
+          "black lab coat",
+          "wooden cabinets with papers pinned to them",
+          "digital scale on the counter",
+          "boxes of laboratory supplies"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the initial preparation steps in a laboratory setting, emphasizing the donning of gloves and handling of a large reagent bottle. The presence of a digital scale and laboratory supplies indicates a controlled environment for precise experiments."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.899,
+        15.798
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a white ceramic mortar with a pestle",
+          "researcher uses pestle to grind or mix contents in the mortar"
+        ],
+        "objects_visible": [
+          "white ceramic mortar and pestle",
+          "a small white bottle with a red cap and label",
+          "black lab bench surface"
+        ],
+        "visible_text_labels": [
+          "See text protocol for more info"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where the researcher is actively grinding or mixing substances in a mortar. The use of a ceramic mortar and pestle is distinctive, suggesting a step involving the physical manipulation of materials. The black lab bench provides a stark contrast to the white mortar and bottle."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.798,
+        23.697
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a small white ceramic dish containing a white powdery substance",
+          "researcher tilts the dish to show the contents"
+        ],
+        "objects_visible": [
+          "small white ceramic dish with a white powdery substance",
+          "researcher's gloved hand",
+          "a white bottle with a red cap and label",
+          "a black countertop"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the handling of a small ceramic dish containing a white powdery substance, likely a chemical reagent. The researcher's gloved hand is prominently featured, emphasizing safety precautions. The background includes a white bottle with a red cap, suggesting the presence of additional chemicals or reagents."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.697,
+        31.596
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a stainless steel incubator with a gloved hand",
+          "researcher presses a button on the incubator's control panel"
+        ],
+        "objects_visible": [
+          "stainless steel incubator with a digital display and control buttons",
+          "researcher wearing a blue lab coat, gloves, and safety goggles",
+          "control panel with a digital screen and buttons"
+        ],
+        "visible_text_labels": [
+          "LAB-TEMP",
+          "Imperial V"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the interaction with a stainless steel incubator, highlighting the researcher's precise actions in opening the door and adjusting the controls. The presence of safety equipment like gloves and goggles emphasizes the controlled environment. The digital display and buttons on the incubator suggest a high level of precision in the experiment setup."
+      }
+    }
+  ]
+}

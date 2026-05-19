@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/52299/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.691,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.67275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "microscope view of a small, translucent object being manipulated with tweezers",
+          "gloved hands handling a petri dish and a piece of white material"
+        ],
+        "objects_visible": [
+          "microscope with a small, translucent object and tweezers",
+          "petri dish with a clear lid",
+          "white material with a grid pattern",
+          "gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment begins with a close-up view through a microscope, showing a small, translucent object being carefully manipulated with tweezers. The scene then shifts to a gloved hand handling a petri dish and a piece of white material with a grid pattern, suggesting a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.67275,
+        19.3455
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a small, transparent petri dish",
+          "researcher uses a pipette to add a small volume of liquid to the petri dish"
+        ],
+        "objects_visible": [
+          "transparent petri dish with a grid pattern",
+          "pipette with a green plunger",
+          "gloved hands manipulating the petri dish and pipette"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid added to the petri dish"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a petri dish and the addition of a liquid using a pipette, emphasizing the preparation phase of the experiment. The grid pattern on the petri dish suggests it is used for precise measurements or observations. The gloved hands highlight the sterile conditions required for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.3455,
+        29.018250000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'fixative' with a green cap",
+          "pipettes a clear liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with handwritten label 'fixative'",
+          "petri dish with a clear liquid being added",
+          "researcher's gloved hands",
+          "pipette with a yellow tip"
+        ],
+        "visible_text_labels": [
+          "fixative"
+        ],
+        "quantities": [
+          "clear liquid being pipetted, volume not specified"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise action of transferring a fixative solution from a labeled microtube into a petri dish. The handwritten label on the microtube and the use of a pipette highlight the controlled nature of the experiment. The clear liquid being added suggests a step in sample preparation or preservation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.018250000000002,
+        38.691
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "hand presses the 'START/STOP' button on the digital timer",
+          "timer counts down from 10:00 to 9:59"
+        ],
+        "objects_visible": [
+          "digital timer with buttons labeled 'H', 'M', 'S', 'C', 'START/STOP', 'CLEAR', and 'MEMORY'",
+          "white bottle with blue cap labeled 'DEST. WATER'",
+          "pipette tip box in the background"
+        ],
+        "visible_text_labels": [
+          "Roth",
+          "CLOCK",
+          "START/STOP",
+          "CLEAR",
+          "MEMORY",
+          "DEST. WATER"
+        ],
+        "quantities": [
+          "10:00",
+          "9:59"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise timing of an experiment, as indicated by the countdown on the digital timer. The hand's interaction with the timer suggests the initiation of a timed process. The presence of laboratory equipment like the water bottle and pipette tips indicates a controlled experimental environment."
+      }
+    }
+  ]
+}

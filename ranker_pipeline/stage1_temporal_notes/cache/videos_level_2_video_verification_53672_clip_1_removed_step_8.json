@@ -1,0 +1,166 @@
+{
+  "video_id": "videos/level_2/video_verification/53672/clip_1_removed_step_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 53.998985,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.49974625
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a test tube into a container",
+          "researcher holds a test tube with a label"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and gloves",
+          "pipette with a purple plunger",
+          "test tubes with purple caps",
+          "a container with a blue lid",
+          "a white bottle with a label",
+          "a test tube rack"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "test tubes with purple caps"
+        ],
+        "key_distinguishing_features": "The researcher is actively using a pipette to transfer liquid, indicating a precise step in the experiment. The presence of labeled test tubes and a test tube rack suggests an organized and methodical approach. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.49974625,
+        26.9994925
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a purple cap",
+          "researcher places the microtube into a green microtube rack"
+        ],
+        "objects_visible": [
+          "green microtube rack containing multiple microtubes",
+          "yellow microtube rack with labeled tubes",
+          "digital scale with a black display",
+          "purple-capped microtubes in a clear plastic box"
+        ],
+        "visible_text_labels": [
+          "jove (logo in the top right corner)"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where the researcher is organizing microtubes into a rack. The presence of multiple racks and labeled tubes suggests a systematic approach to sample management. The digital scale indicates that precise measurements are part of the experimental process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        26.9994925,
+        40.499238749999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a test tube",
+          "researcher places the test tube back into a green rack"
+        ],
+        "objects_visible": [
+          "pipette with a clear tip",
+          "test tubes in a green rack, some with blue caps and some with clear caps",
+          "yellow test tube rack with labeled tubes",
+          "gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "test tube labeled 'DMEM' with a blue cap",
+          "test tube labeled 'N3' with a clear cap"
+        ],
+        "quantities": [
+          "test tubes are 1.5mL microtubes"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of test tubes and the use of a pipette for liquid transfer. The researcher's gloved hand and the organized arrangement of test tubes in racks highlight the controlled environment of the experiment. The labels on the tubes, such as 'DMEM' and 'N3', suggest specific media or solutions being used."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        40.499238749999996,
+        53.998985
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a multi-channel pipette to transfer liquid into a row of clear microtubes",
+          "researcher places the microtube caps on a green rack"
+        ],
+        "objects_visible": [
+          "multi-channel pipette with yellow handles",
+          "clear microtubes with white caps",
+          "green microtube rack",
+          "digital timer with buttons labeled 'MIN', 'SEC', 'T1', 'T2', 'T3'",
+          "yellow tray holding microtubes"
+        ],
+        "visible_text_labels": [
+          "MIN",
+          "SEC",
+          "T1",
+          "T2",
+          "T3",
+          "jove"
+        ],
+        "quantities": [
+          "8 microtubes in a row",
+          "digital timer reading '0:00:00'"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise use of a multi-channel pipette for transferring liquids into microtubes, emphasizing the efficiency of handling multiple samples simultaneously. The presence of a digital timer suggests the importance of time tracking in the experiment. The green microtube rack and yellow tray provide a clear organizational setup for the samples."
+      }
+    }
+  ]
+}

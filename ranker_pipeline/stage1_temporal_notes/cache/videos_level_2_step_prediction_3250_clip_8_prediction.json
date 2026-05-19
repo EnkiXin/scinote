@@ -1,0 +1,170 @@
+{
+  "video_id": "videos/level_2/step_prediction/3250/clip_8_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.187467,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.29686675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "scrolls through a spreadsheet containing numerical data"
+        ],
+        "objects_visible": [
+          "computer screen displaying a Microsoft Excel spreadsheet",
+          "rows and columns filled with numerical data"
+        ],
+        "visible_text_labels": [
+          "Microsoft Excel",
+          "output_bound"
+        ],
+        "quantities": [
+          "numerous numerical values in the spreadsheet"
+        ],
+        "key_distinguishing_features": "The segment focuses on a computer screen showing a detailed Excel spreadsheet with extensive numerical data, suggesting data analysis or observation. The spreadsheet is organized in a structured format with labeled columns. The 'output_bound' label indicates a specific section of the data being highlighted."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.29686675,
+        16.5937335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a black rectangular object on the lab bench",
+          "researcher adjusts the black rectangular object with gloved hands"
+        ],
+        "objects_visible": [
+          "black rectangular object with a smooth surface",
+          "white lab coat worn by the researcher",
+          "white gloves on the researcher's hands",
+          "clear glass bottle with a label",
+          "white bottle with a label and a white cap",
+          "labeled bottles and containers on the lab bench",
+          "incubator or similar equipment in the background with a digital display"
+        ],
+        "visible_text_labels": [
+          "1mM NaOH",
+          "0.1X SSC",
+          "62\u00b0C",
+          "10-20 minutes"
+        ],
+        "quantities": [
+          "1mM",
+          "0.1X",
+          "62\u00b0C",
+          "10-20 minutes"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where the researcher is handling a black rectangular object, likely a part of the experimental setup. The text labels provide specific conditions for the experiment, such as temperature and time. The researcher's actions are deliberate and precise, indicating a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.5937335,
+        24.89060025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a transparent plastic tray into a black incubator",
+          "researcher closes the incubator door"
+        ],
+        "objects_visible": [
+          "black incubator with a digital display and control knobs",
+          "transparent plastic tray",
+          "white bottle labeled '10X SSC'",
+          "glass bottle with a white cap",
+          "black rectangular container on the countertop"
+        ],
+        "visible_text_labels": [
+          "1mM NaOH",
+          "0.1X SSC",
+          "62\u00b0 C",
+          "10-20 minutes"
+        ],
+        "quantities": [
+          "62\u00b0 C",
+          "10-20 minutes"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a transparent tray into an incubator, indicating a controlled environment for a specific duration and temperature. The visible text labels provide specific conditions for the experiment, emphasizing the importance of accurate parameters."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.89060025,
+        33.187467
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts the temperature control knob on a laboratory water bath",
+          "researcher places a black container into the water bath"
+        ],
+        "objects_visible": [
+          "white laboratory water bath with a black container inside",
+          "blue microtube rack holding tubes with blue caps",
+          "clear bottle labeled 'H2O' containing water",
+          "centrifuge with its lid open in the background"
+        ],
+        "visible_text_labels": [
+          "22\u00b0 C \u2264 60 min",
+          "DANGER"
+        ],
+        "quantities": [
+          "22\u00b0 C",
+          "\u2264 60 min"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a water bath's temperature control, indicating a controlled environment for an experiment. The presence of a labeled water bottle and microtube rack suggests preparation for a specific protocol. The centrifuge in the background adds context to a laboratory setting."
+      }
+    }
+  ]
+}

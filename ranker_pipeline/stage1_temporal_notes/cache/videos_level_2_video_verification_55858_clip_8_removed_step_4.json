@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_2/video_verification/55858/clip_8_removed_step_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 25.391016,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.347754
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wearing black gloves adjusts a component on a beige cylindrical device with blue connectors"
+        ],
+        "objects_visible": [
+          "beige cylindrical device with blue connectors and transparent tubing",
+          "black rectangular metal component with silver screws",
+          "green container with a red cross",
+          "black gloves worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a researcher is carefully adjusting a component on a cylindrical device. The presence of black gloves indicates a need for precision and contamination prevention. The green container with a red cross suggests a medical or laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.347754,
+        12.695508
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a black glove to handle a component within a transparent enclosure"
+        ],
+        "objects_visible": [
+          "transparent acrylic enclosure with visible condensation",
+          "black gloves worn by the researcher",
+          "circular device with multiple blue-tipped nozzles",
+          "green box with a red 'X' mark",
+          "coiled blue and transparent tubing"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher's gloved hand manipulating a component inside a transparent enclosure, suggesting a controlled environment. The presence of condensation on the enclosure indicates a possible temperature difference or humidification process. The green box with a red 'X' adds a distinctive visual element to the setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.695508,
+        19.043262
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "man interacts with computer using mouse",
+          "computer screen displays a graph with peaks"
+        ],
+        "objects_visible": [
+          "man with long hair and beard wearing a blue shirt",
+          "black computer mouse",
+          "black laptop",
+          "computer monitor",
+          "graphical software interface with multiple tabs and tools"
+        ],
+        "visible_text_labels": [
+          "jove",
+          "Graphical User Interface elements like 'File', 'Edit', 'View'"
+        ],
+        "quantities": [
+          "graph with two prominent peaks"
+        ],
+        "key_distinguishing_features": "The segment focuses on a man observing and interacting with a computer screen displaying a graph, likely analyzing data. The graph has distinct peaks, suggesting a measurement or analysis phase. The environment appears to be a laboratory setting with scientific equipment in the background."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.043262,
+        25.391016
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software highlights a specific section of the graph with a red rectangle",
+          "cursor moves to zoom in on a particular area of the graph"
+        ],
+        "objects_visible": [
+          "computer screen displaying a chromatography software interface",
+          "graph with a blue line representing data over time",
+          "red rectangle highlighting a section of the graph",
+          "table with numerical data and text labels"
+        ],
+        "visible_text_labels": [
+          "Time(min)",
+          "Area(%)",
+          "Height(%)",
+          "Time(min/%)",
+          "Area(%)",
+          "Height(%)",
+          "The Column is: 150 x 4.6 mm, 5 \u03bcm",
+          "The Mobile Phase is: 0.1% TFA in Water and 0.1% TFA in Acetonitrile",
+          "The Flow Rate is: 1.0 mL/min",
+          "The Injection Volume is: 20 \u03bcL",
+          "The Column Temperature is: 30\u00b0C",
+          "The Detector Wavelength is: 214 nm"
+        ],
+        "quantities": [
+          "150 x 4.6 mm, 5 \u03bcm (column dimensions)",
+          "1.0 mL/min (flow rate)",
+          "20 \u03bcL (injection volume)",
+          "30\u00b0C (column temperature)",
+          "214 nm (detector wavelength)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase of the experiment, where a specific section of the chromatography graph is highlighted and zoomed in for detailed analysis. The software interface provides comprehensive data and settings for the chromatography run, emphasizing the precision of the analysis."
+      }
+    }
+  ]
+}

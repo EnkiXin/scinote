@@ -1,0 +1,177 @@
+{
+  "video_id": "videos/level_3/56627_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 594.816,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        148.704
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Jennifer Selinski gestures with her hands while speaking.",
+          "A researcher holds a 1.5mL microtube labeled 'HepG2' with a blue cap.",
+          "A gloved hand places a clear glass beaker on a magnetic stirrer."
+        ],
+        "objects_visible": [
+          "Jennifer Selinski wearing a black cardigan over a pink top.",
+          "A 1.5mL microtube with a blue cap labeled 'HepG2'.",
+          "A clear glass beaker with a blue coiled wire inside.",
+          "A magnetic stirrer with a digital display showing '350'.",
+          "A blue box with a warning label and a white box with a barcode."
+        ],
+        "visible_text_labels": [
+          "Jennifer Selinski",
+          "La Trobe University",
+          "HepG2",
+          "350",
+          "minipuls 3"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "350 (likely RPM on the magnetic stirrer)"
+        ],
+        "key_distinguishing_features": "This segment features a researcher preparing materials for an experiment, including a labeled microtube and a magnetic stirrer. The setting is a laboratory environment with various equipment and supplies visible. Jennifer Selinski introduces the segment, indicating the start of a scientific demonstration."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        148.704,
+        297.408
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pestle and grinds green plant material in a mortar",
+          "researcher places a test tube containing green liquid into a centrifuge",
+          "researcher removes a test tube from the centrifuge and places it in a container with ice"
+        ],
+        "objects_visible": [
+          "blue pestle and black mortar with green plant material",
+          "centrifuge with a digital display and control panel",
+          "test tubes with green liquid",
+          "container filled with ice"
+        ],
+        "visible_text_labels": [
+          "See Table 1 for composition of buffers and gradient used for mitochondrial isolation",
+          "See the text protocol for centrifugation conditions"
+        ],
+        "quantities": [
+          "two test tubes with green liquid"
+        ],
+        "key_distinguishing_features": "This segment focuses on the mechanical processing of plant material and subsequent centrifugation, highlighting the use of specific equipment and conditions for mitochondrial isolation. The presence of ice suggests the need to maintain low temperatures during the procedure. The text overlays provide additional context for the experimental steps being performed."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        297.408,
+        446.112
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher operates a centrifuge by adjusting the speed dial to 65 rpm.",
+          "Researcher places a test tube containing a cloudy, yellowish band of mitochondria into the centrifuge chamber."
+        ],
+        "objects_visible": [
+          "A centrifuge with a digital display showing settings and a speed dial.",
+          "A test tube with a cloudy, yellowish band of mitochondria in a heavy solution.",
+          "A centrifuge chamber with a rotor and test tube slots."
+        ],
+        "visible_text_labels": [
+          "A cloudy, yellowish band of mitochondria should be visible in the bottom part of the tube with heavy solution",
+          "Ensure even mixing of the mitochondria and the colloidal density gradient before centrifugation for the formation of mitochondrial pellet",
+          "65 rpm 25 \u00b0C",
+          "IV. Oxygen Consumption Measurements"
+        ],
+        "quantities": [
+          "65 rpm",
+          "25 \u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise setup of a centrifuge for mitochondrial isolation, highlighting the importance of speed and temperature settings. The visual emphasis on the cloudy, yellowish band of mitochondria in the test tube underscores the specific goal of the centrifugation process. The text instructions provide clear guidance for ensuring the success of the mitochondrial pellet formation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        446.112,
+        594.816
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher holds a test tube containing a yellowish liquid with a clear separation into two distinct layers.",
+          "The video transitions to a diagram illustrating the separation of cellular components, with labels pointing to 'Thylakoids and other contaminants' and 'Mitochondria'.",
+          "A graph is shown depicting a line plot with labeled points for 'Buffer', 'Mitochondria', 'Ascorbate', 'Cytochrome c', and 'Titan X-100'."
+        ],
+        "objects_visible": [
+          "A test tube with a yellowish liquid showing two distinct layers.",
+          "A diagram with labeled arrows pointing to specific parts of the liquid layers.",
+          "A line graph with labeled points and a y-axis labeled '25 nmol O2' and an x-axis labeled '1 min'."
+        ],
+        "visible_text_labels": [
+          "Thylakoids and other contaminants",
+          "Mitochondria",
+          "Buffer",
+          "Mitochondria",
+          "Ascorbate",
+          "Cytochrome c",
+          "Titan X-100",
+          "25 nmol O2",
+          "1 min"
+        ],
+        "quantities": [
+          "25 nmol O2",
+          "1 min"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of cellular components in a test tube, highlighting the separation of thylakoids and mitochondria. The inclusion of a detailed diagram and a line graph provides a visual representation of the experimental data and the effects of various substances on oxygen levels."
+      }
+    }
+  ]
+}

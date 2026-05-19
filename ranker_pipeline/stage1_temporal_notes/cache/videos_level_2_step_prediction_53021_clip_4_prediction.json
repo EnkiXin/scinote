@@ -1,0 +1,185 @@
+{
+  "video_id": "videos/level_2/step_prediction/53021/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.3563,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.839075
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small object into a chamber within a large oven-like device",
+          "researcher closes the door of the oven-like device"
+        ],
+        "objects_visible": [
+          "large oven-like device with digital displays showing '3K' and '5K'",
+          "researcher wearing a blue lab coat, purple gloves, and safety glasses",
+          "small object being placed inside the oven-like device"
+        ],
+        "visible_text_labels": [
+          "oven hygrometer",
+          "3K",
+          "5K"
+        ],
+        "quantities": [
+          "3K",
+          "5K"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a small object and placing it inside a specialized oven-like device, which has digital displays indicating specific readings. The environment suggests a controlled laboratory setting with attention to safety and precision."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.839075,
+        17.67815
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "hand in purple glove presses buttons on control panel",
+          "hand in purple glove adjusts settings on digital display"
+        ],
+        "objects_visible": [
+          "control panel with digital display showing '9\u00b0C'",
+          "hand wearing purple nitrile glove",
+          "orange power button",
+          "green screen with text"
+        ],
+        "visible_text_labels": [
+          "9\u00b0C",
+          "oven #4",
+          "jove"
+        ],
+        "quantities": [
+          "9\u00b0C"
+        ],
+        "key_distinguishing_features": "The segment focuses on a hand adjusting a temperature control panel set to 9\u00b0C, indicating a precise temperature setting process. The presence of a purple nitrile glove suggests a controlled laboratory environment. The digital display and buttons highlight the technical nature of the task."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.67815,
+        26.517224999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher interacts with a computer using a mouse",
+          "researcher types on the keyboard"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a spreadsheet with a cycling program",
+          "computer keyboard",
+          "computer mouse",
+          "researcher wearing a blue lab coat and purple gloves"
+        ],
+        "visible_text_labels": [
+          "Description: KAH cycling program",
+          "Step",
+          "Type",
+          "Mode",
+          "Value",
+          "Limit",
+          "End Type",
+          "Op",
+          "Value",
+          "Goto",
+          "Report Type",
+          "Value",
+          "Opt",
+          "Advance Cycle",
+          "Charge",
+          "Current",
+          "Step Time",
+          "Loop Count",
+          "Loop2"
+        ],
+        "quantities": [
+          "0.00017",
+          "00:45:00",
+          "100"
+        ],
+        "key_distinguishing_features": "The segment focuses on the researcher's interaction with a computer, specifically adjusting parameters in a cycling program. The spreadsheet displayed on the screen contains detailed steps and values, indicating a precise experimental setup. The researcher's use of gloves suggests a controlled environment for the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.517224999999996,
+        35.3563
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Cursor selects the 'Step Time' field in row 13, column 9.",
+          "Cursor hovers over the 'Primary Control' dropdown menu."
+        ],
+        "objects_visible": [
+          "A software interface titled 'jKH cycling program' with a table layout.",
+          "A dropdown menu labeled 'Primary Control' with options like 'Mode', 'VALUE', 'Limit', etc."
+        ],
+        "visible_text_labels": [
+          "Step Time",
+          "Primary Control",
+          "Charge",
+          "Discharge",
+          "Advance Cycle",
+          "Loop2",
+          "Error: Value in step 13 (Column: 9, Row: 1) is not a valid for Step Time"
+        ],
+        "quantities": [
+          "0.00017 (value in the 'Value' column for Charge step)",
+          "0 (value in the 'Value' column for Discharge step)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the execution phase of a cycling program, where the user interacts with the software to adjust parameters. The dropdown menu for 'Primary Control' is a distinctive feature, indicating the user is selecting a control mode. The error message highlights an invalid input for the 'Step Time' field in step 13."
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/56639/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 46.311,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.57775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher injects a small, white, cylindrical object into a tissue sample using a syringe",
+          "researcher holds the tissue sample steady with a pipette tip"
+        ],
+        "objects_visible": [
+          "petri dish containing a clear liquid and a tissue sample",
+          "white cylindrical object being injected into the tissue",
+          "researcher's gloved hand holding the syringe",
+          "microscope stage with a petri dish on it"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise injection procedure into a tissue sample, highlighting the use of a syringe and a pipette tip for stability. The tissue sample appears to be in a petri dish with a clear liquid, likely a medium. The researcher's gloved hand is visible, emphasizing the sterile environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.57775,
+        23.1555
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A pipette is positioned above a petri dish containing a dark, irregularly shaped object.",
+          "The pipette appears to be dispensing a small volume of liquid onto the object."
+        ],
+        "objects_visible": [
+          "A petri dish with a transparent lid",
+          "A dark, irregularly shaped object inside the petri dish",
+          "A pipette with a fine tip",
+          "Three small white rectangular strips on the petri dish surface"
+        ],
+        "visible_text_labels": [
+          "Strip dimensions: 2 mm wide x 8 mm long x 1 mm thick",
+          "jove"
+        ],
+        "quantities": [
+          "2 mm wide",
+          "8 mm long",
+          "1 mm thick"
+        ],
+        "key_distinguishing_features": "The segment focuses on a petri dish with a dark object and small white strips, with precise dimensions provided for the strips. The pipette's action suggests a controlled addition of liquid to the object for observation."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.1555,
+        34.73325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to place small rectangular strips into a petri dish",
+          "researcher adjusts the position of the strips with forceps"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid",
+          "forceps held by gloved hands",
+          "small rectangular strips of material",
+          "black base of the petri dish holder"
+        ],
+        "visible_text_labels": [
+          "Strip dimensions: 2 mm wide x 8 mm long x 1 mm thick"
+        ],
+        "quantities": [
+          "2 mm wide",
+          "8 mm long",
+          "1 mm thick"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of small, dimensionally specified strips into a petri dish, highlighting the use of forceps for accurate positioning. The text overlay provides specific dimensions of the strips, emphasizing the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        34.73325,
+        46.311
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses fine-tipped forceps to manipulate a small, transparent object in a petri dish",
+          "pipette with a fine tip is positioned above the petri dish, likely for precise liquid addition or aspiration"
+        ],
+        "objects_visible": [
+          "petri dish containing a dark liquid medium",
+          "transparent microtube with a pink cap",
+          "fine-tipped forceps held by a gloved hand",
+          "pipette with a fine tip",
+          "small, transparent object being manipulated in the petri dish"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "no specific quantities are visible in this segment"
+        ],
+        "key_distinguishing_features": "This segment highlights the precision required in manipulating small objects within a petri dish, using fine-tipped forceps and a pipette. The presence of a dark liquid medium suggests a controlled environment for the experiment. The gloved hand and the 'jove' label indicate a professional laboratory setting."
+      }
+    }
+  ]
+}

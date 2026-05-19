@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/58971/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 37.452,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.363
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a multi-well plate",
+          "researcher points at a specific well in the multi-well plate"
+        ],
+        "objects_visible": [
+          "green pipette tip rack",
+          "blue-lidded container",
+          "transparent multi-well plate with pink liquid in some wells",
+          "pipette with a purple tip",
+          "blue-gloved hand",
+          "text label 'iPS = induced pluripotent stem cell'"
+        ],
+        "visible_text_labels": [
+          "iPS = induced pluripotent stem cell",
+          "jove"
+        ],
+        "quantities": [
+          "pink liquid in some wells of the multi-well plate"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of liquid dispensing into a multi-well plate, likely for cell culture. The presence of the text 'iPS = induced pluripotent stem cell' suggests the experiment involves stem cell research. The researcher's gloved hand and the sterile environment indicate a controlled laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.363,
+        18.726
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a multi-well plate",
+          "researcher manipulates the pipette to ensure precise liquid transfer"
+        ],
+        "objects_visible": [
+          "transparent multi-well plate with six compartments",
+          "pipette with a blue plunger and a clear tip",
+          "green pipette tip rack",
+          "blue container in the background",
+          "glass beaker with a red liquid",
+          "white bottle with a red label and a white cap"
+        ],
+        "visible_text_labels": [
+          "iPS = induced pluripotent stem cell",
+          "jove"
+        ],
+        "quantities": [
+          "pipette tip size appears to be 200uL based on the scale visible on the pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a pipette to transfer liquid into a multi-well plate, emphasizing the controlled environment of a laboratory setup. The presence of the 'iPS = induced pluripotent stem cell' label suggests the experiment involves stem cell research. The researcher's gloved hands highlight the importance of sterility in the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.726,
+        28.089
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher adjusts the microscope stage",
+          "researcher looks through the microscope eyepiece"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and blue gloves",
+          "microscope with a sample slide on the stage",
+          "various laboratory equipment and supplies on the counter"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively engaged in observing a sample under the microscope, indicating a phase of detailed examination. The presence of the JOVE logo suggests this is part of a scientific demonstration or educational video. The focus on the microscope and the researcher's interaction with it highlights the importance of visual analysis in this segment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        28.089,
+        37.452
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 1.5mL microtube labeled 'CMM' with a blue cap into a centrifuge",
+          "researcher closes the centrifuge lid and adjusts the settings"
+        ],
+        "objects_visible": [
+          "centrifuge with a white exterior and a visible control panel",
+          "1.5mL microtube labeled 'CMM' with a blue cap",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "CMM = RPMI medium supplemented with B-27"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the centrifugation process, highlighting the specific action of placing a labeled microtube into the centrifuge. The text label 'CMM = RPMI medium supplemented with B-27' provides context for the medium used. The researcher's precise handling of the microtube and centrifuge settings underscores the controlled nature of the experiment."
+      }
+    }
+  ]
+}

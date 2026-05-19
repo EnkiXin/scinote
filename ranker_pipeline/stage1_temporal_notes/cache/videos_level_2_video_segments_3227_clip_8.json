@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/video_segments/3227/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 22.164,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.541
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher operates a computer using a mouse and keyboard",
+          "researcher adjusts settings on a control panel"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a complex software interface",
+          "control panel with various buttons and a joystick",
+          "microscope with a large lens and adjustment knobs",
+          "researcher wearing glasses and a green shirt"
+        ],
+        "visible_text_labels": [
+          "jove",
+          "Nikon",
+          "TECHNOSCAN"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a researcher interacting with a computer and a control panel, likely for operating a microscope. The software interface on the monitor is detailed, suggesting advanced imaging or analysis. The presence of the 'jove' logo indicates this is a scientific demonstration video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.541,
+        11.082
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a precision tool to manipulate a small metallic component"
+        ],
+        "objects_visible": [
+          "metallic component with a protruding wire",
+          "precision tool with a black handle and metallic tip",
+          "petri dish with a grid and labeled sections"
+        ],
+        "visible_text_labels": [
+          "3D",
+          "Growth",
+          "Day",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "quantities": [
+          "small metallic component with a single protruding wire"
+        ],
+        "key_distinguishing_features": "The segment focuses on a precise manipulation task involving a small metallic component. The petri dish with a grid and labeled sections suggests a controlled experimental setup. The use of a precision tool highlights the need for accuracy in the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.082,
+        16.623
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "hand adjusts a knob on a circular component of a machine",
+          "hand rotates the circular component"
+        ],
+        "objects_visible": [
+          "white machine with a circular component labeled 'Image acquisition'",
+          "knob on the circular component",
+          "hand performing adjustments"
+        ],
+        "visible_text_labels": [
+          "Image acquisition",
+          "Model 771"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the manual adjustment of a machine's circular component, likely for calibration or setup. The label 'Image acquisition' suggests the machine is used for capturing images, possibly in a scientific context. The hand's interaction with the knob and circular component is precise and deliberate."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        16.623,
+        22.164
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "hand adjusts a circular component on a microscope stage",
+          "hand rotates a dial on the microscope stage"
+        ],
+        "objects_visible": [
+          "microscope stage with a circular opening",
+          "hand with a gold bracelet",
+          "dial with a red indicator light"
+        ],
+        "visible_text_labels": [
+          "Stage optimized for Single TIR",
+          "TIRAM"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the manual adjustment of a specialized microscope stage, highlighting the precision required in positioning. The presence of a label indicating 'Stage optimized for Single TIR' suggests the stage is tailored for a specific type of microscopy. The hand's interaction with the dial and circular component emphasizes the fine-tuning process."
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/step_prediction/57332/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.9639,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.740975
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a white box containing brass-colored tubes",
+          "researcher picks up a brass-colored tube from the box"
+        ],
+        "objects_visible": [
+          "white box with a lid",
+          "brass-colored tubes with a metallic finish",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "89 mm \u00d7 6.4 mm OD filled with Tenax TA sorbent"
+        ],
+        "quantities": [
+          "89 mm \u00d7 6.4 mm OD"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of specific brass-colored tubes, highlighting their dimensions and the sorbent material they contain. The researcher's actions are precise, indicating a careful handling process. The text overlay provides specific details about the tube's dimensions and contents."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.740975,
+        21.48195
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a brass fitting on a gas cylinder valve",
+          "researcher connects a flexible hose to the brass fitting"
+        ],
+        "objects_visible": [
+          "metallic gas cylinder with a black valve assembly",
+          "brass fitting with a threaded connection",
+          "flexible hose with a white outer layer",
+          "researcher's gloved hands",
+          "black plastic bucket labeled 'BRUTE'"
+        ],
+        "visible_text_labels": [
+          "BRUTE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise connection of a hose to a gas cylinder, highlighting the researcher's careful handling of the brass fitting. The presence of the 'BRUTE' bucket suggests a laboratory or industrial setting. The actions are methodical, indicating a preparatory step in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.48195,
+        32.222925000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher holds a digital flow meter connected to a gas cylinder",
+          "researcher adjusts the flow meter to measure gas flow"
+        ],
+        "objects_visible": [
+          "digital flow meter with a black casing and a digital display",
+          "metallic gas cylinder with a valve and connected tubing",
+          "white latex gloves on the researcher's hands",
+          "two large blue plastic containers labeled 'BRUTE' in the background"
+        ],
+        "visible_text_labels": [
+          "BRUTE",
+          "jove"
+        ],
+        "quantities": [
+          "5 min",
+          "0.375 L"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of gas flow using a digital flow meter, with a clear display of time and volume. The researcher's gloved hand is actively adjusting the flow meter, emphasizing the importance of accurate measurement in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.222925000000004,
+        42.9639
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher uses a tool to manipulate a small metallic component",
+          "researcher places the metallic component into a blue-lidded jar containing similar components"
+        ],
+        "objects_visible": [
+          "researcher's hands wearing black gloves",
+          "a blue-lidded jar filled with metallic components",
+          "a white box containing golden-colored objects",
+          "a black tool used for manipulating the metallic components",
+          "a white cloth on the workbench"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple metallic components in the jar"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of small metallic components, emphasizing the use of specialized tools for assembly or preparation. The presence of a blue-lidded jar and a white box with distinct contents highlights the organized nature of the workspace. The black gloves indicate a need for cleanliness or protection during the task."
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "video_id": "videos/level_2/step_prediction/59156/clip_9_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 18.406033,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.60150825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is focused on a small, transparent, diamond-shaped object with a black triangular section"
+        ],
+        "objects_visible": [
+          "transparent diamond-shaped object with a black triangular section",
+          "small, dark, elongated objects (possibly insects or particles) on the object's surface",
+          "blue and yellow objects partially visible on the left side of the frame"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "two small, dark, elongated objects"
+        ],
+        "key_distinguishing_features": "The segment focuses on a transparent, diamond-shaped object with a distinct black triangular section, which is being observed under a microscope. The presence of small, dark, elongated objects on the object's surface is notable. The blue and yellow objects on the left side add a contrasting color element to the scene."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.60150825,
+        9.2030165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "microscope is used to observe a small object on a glass slide",
+          "a pair of tweezers is used to manipulate a small object on the glass slide"
+        ],
+        "objects_visible": [
+          "microscope view with a glass slide containing a small, dark object",
+          "tweezers with a metallic tip",
+          "a small, dark object on the glass slide"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up view through a microscope, highlighting the precise manipulation of a small object on a glass slide using tweezers. The focus is on the interaction between the object and the slide, emphasizing the delicate nature of the task. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.2030165,
+        13.80452475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "uses fine-tipped forceps to manipulate a small, white, rectangular object within a petri dish"
+        ],
+        "objects_visible": [
+          "orange-rimmed petri dish with a transparent center",
+          "small white rectangular object with a black line across it",
+          "fine-tipped black forceps",
+          "gloved hand holding the forceps"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on precise manipulation of a small object within a petri dish using fine-tipped forceps. The orange rim of the petri dish and the transparent center provide a clear view of the object being handled. The gloved hand indicates a controlled and sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        13.80452475,
+        18.406033
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A metallic rod is being used to manipulate a silver-colored substance on a coin.",
+          "The substance is being spread or applied to the coin's surface."
+        ],
+        "objects_visible": [
+          "A shiny, silver-colored coin with a square cutout in the center.",
+          "A metallic rod with a pointed tip.",
+          "An orange container holding the coin."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The coin has a unique square cutout, and the metallic rod is being used to interact with a substance on the coin's surface. The orange container provides a contrasting background to the silver coin and metallic rod."
+      }
+    }
+  ]
+}

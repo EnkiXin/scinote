@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_segments/56266/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 65.223,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        16.30575
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wearing white gloves and orange wrist coverings places a transparent plastic tray on a white cloth",
+          "researcher adjusts the position of the tray on the cloth"
+        ],
+        "objects_visible": [
+          "transparent plastic tray with multiple compartments",
+          "white cloth with printed text and markings",
+          "researcher's white gloves and orange wrist coverings"
+        ],
+        "visible_text_labels": [
+          "Repeat 3x"
+        ],
+        "quantities": [
+          "3x"
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful placement of a transparent tray on a white cloth, emphasizing the preparation phase. The researcher's attire, including white gloves and orange wrist coverings, is distinctive. The text 'Repeat 3x' suggests a repetitive action is part of the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        16.30575,
+        32.6115
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a small glass vial labeled 'UVS 91' with a brown cap",
+          "researcher uses a small metal spatula to transfer a white powdery substance from the vial into a glass container"
+        ],
+        "objects_visible": [
+          "a small glass vial labeled 'UVS 91' with a brown cap",
+          "a glass container with a white powdery substance",
+          "a small metal spatula",
+          "a bottle labeled 'BIOPEARL' with a red cap"
+        ],
+        "visible_text_labels": [
+          "UVS 91",
+          "BIOPEARL"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a small vial and the transfer of a white powdery substance using a metal spatula. The presence of the 'UVS 91' label on the vial suggests a specific chemical or reagent is being prepared. The actions are meticulous, indicating a careful preparation phase in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        32.6115,
+        48.917249999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand uses a red marker to label a metallic surface with the words 'Planar' and 'Hemispheric'.",
+          "The labeled metallic surface is placed inside a clear plastic bag."
+        ],
+        "objects_visible": [
+          "A metallic surface with labeled sections 'Planar' and 'Hemispheric'.",
+          "A red marker held by a gloved hand.",
+          "A clear plastic bag containing the labeled metallic surface.",
+          "A gloved hand wearing a white glove and an orange sleeve."
+        ],
+        "visible_text_labels": [
+          "Planar",
+          "Hemispheric",
+          "Coated sides should face each other"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the preparation of a labeled metallic surface, emphasizing the correct orientation of 'Coated sides should face each other'. The use of a red marker and clear plastic bag highlights the careful handling of experimental materials."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        48.917249999999996,
+        65.223
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand carefully aligns and places a transparent, rectangular glass slide onto a larger glass substrate.",
+          "The hand adjusts the position of the smaller glass slide to ensure proper alignment with the markings on the larger substrate."
+        ],
+        "objects_visible": [
+          "A transparent glass substrate with printed markings and text.",
+          "A smaller transparent glass slide being placed on the larger substrate.",
+          "A gloved hand performing the alignment and placement."
+        ],
+        "visible_text_labels": [
+          "Coated sides should face each other",
+          "See text for LC mixture preparation"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise alignment of two glass slides, emphasizing the importance of proper orientation as indicated by the on-screen text. The actions are meticulous, suggesting a step requiring high accuracy in the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/video_segments/63101/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 40.011,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.00275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 500mL bottle with a blue cap and a label",
+          "researcher unscrews the blue cap of the bottle"
+        ],
+        "objects_visible": [
+          "500mL bottle with a blue cap and a label",
+          "blue plastic test tube rack",
+          "purple test tube rack",
+          "blue pipette tip box",
+          "white pipette stand with multiple pipettes",
+          "aluminum foil-covered container"
+        ],
+        "visible_text_labels": [
+          "Thermo"
+        ],
+        "quantities": [
+          "500mL"
+        ],
+        "key_distinguishing_features": "The researcher is preparing a bottle, likely containing a solution, by unscrewing its cap. The workspace is organized with various laboratory equipment and containers, emphasizing a methodical setup. The bottle's blue cap and label suggest it contains a specific reagent or medium."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.00275,
+        20.0055
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 500mL bottle of liquid with a label and a blue cap",
+          "researcher unscrews the blue cap of the 500mL bottle"
+        ],
+        "objects_visible": [
+          "500mL bottle with a blue cap and a label",
+          "purple microtube rack with multiple microtubes",
+          "blue pipette tip box with numerous pipette tips",
+          "white pipette stand with a pipette",
+          "blue test tube rack with test tubes and blue caps",
+          "transparent container with a grid pattern"
+        ],
+        "visible_text_labels": [
+          "Thermo (on the pipette stand)"
+        ],
+        "quantities": [
+          "500mL (volume of the bottle)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where the researcher is handling a 500mL bottle, likely containing a reagent or medium. The presence of various laboratory equipment like microtube racks and pipette tips indicates a setup for a detailed experiment. The researcher's action of unscrewing the bottle cap suggests the imminent use of the liquid."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.0055,
+        30.008250000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a test tube into a petri dish",
+          "researcher places the petri dish on the workbench"
+        ],
+        "objects_visible": [
+          "petri dish with a clear, gel-like medium",
+          "blue test tube rack holding multiple tubes",
+          "pipette with a blue plunger",
+          "purple and blue microtube racks",
+          "stack of petri dishes in the background"
+        ],
+        "visible_text_labels": [
+          "Thermo (on the pipette stand)"
+        ],
+        "quantities": [
+          "one petri dish being handled",
+          "one test tube being used for liquid transfer"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of liquid using a pipette, highlighting the careful handling of the petri dish. The presence of multiple microtube racks and petri dishes suggests a multi-step experiment setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        30.008250000000004,
+        40.011
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a petri dish into an incubator",
+          "researcher closes the incubator door"
+        ],
+        "objects_visible": [
+          "petri dish with a greenish-blue substance",
+          "incubator with a visible interior shelf",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the action of placing a petri dish into an incubator, highlighting the careful handling of the sample. The incubator's interior is visible, showing other equipment and containers already inside. The researcher's attire and precise movements emphasize a controlled laboratory environment."
+      }
+    }
+  ]
+}

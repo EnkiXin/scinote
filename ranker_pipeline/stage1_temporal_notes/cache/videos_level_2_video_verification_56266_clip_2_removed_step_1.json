@@ -1,0 +1,165 @@
+{
+  "video_id": "videos/level_2/video_verification/56266/clip_2_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 61.96,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        15.49
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand opens the door of a UV-ozone photoreactor labeled 'PR-100'.",
+          "A gloved hand places a small, transparent object inside the photoreactor."
+        ],
+        "objects_visible": [
+          "A UV-ozone photoreactor with a digital display and control panel.",
+          "A gloved hand wearing a red glove and a white lab coat.",
+          "A small, transparent object being placed inside the photoreactor."
+        ],
+        "visible_text_labels": [
+          "UV-OZONE PHOTOREACTOR",
+          "PR-100"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the preparation phase where a UV-ozone photoreactor is used. The specific action of placing a transparent object inside the reactor is highlighted, indicating a step in the preparation of coated plates. The use of a red glove and a white lab coat suggests a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        15.49,
+        30.98
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small, clear tube into the central chamber of a centrifuge",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "a white centrifuge with a digital display and control panel",
+          "a small, clear tube with a white cap",
+          "a gloved hand wearing a white glove and an orange sleeve",
+          "a motor unit connected to the centrifuge via a black cable"
+        ],
+        "visible_text_labels": [
+          "5 s at 17 x g, 11 x g/s",
+          "40 s at 420 x g, 17 x g/s"
+        ],
+        "quantities": [
+          "5 seconds at 17 x g, 11 x g/s",
+          "40 seconds at 420 x g, 17 x g/s"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise setup of a centrifuge for a specific protocol, highlighting the careful placement of a tube and the detailed centrifugation parameters. The digital display and control panel of the centrifuge are prominently featured, emphasizing the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        30.98,
+        46.47
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher holds a small black object with tweezers",
+          "researcher places the object on a foil-covered magnetic stirrer"
+        ],
+        "objects_visible": [
+          "blue magnetic stirrer labeled 'IKA C-MAG HP 7'",
+          "aluminum foil covering the stirrer plate",
+          "digital display showing '110'"
+        ],
+        "visible_text_labels": [
+          "110",
+          "Temp"
+        ],
+        "quantities": [
+          "110 \u00b0C",
+          "10 min"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a small object on a heated magnetic stirrer, with a clear digital display indicating a temperature of 110 \u00b0C. The use of tweezers suggests careful handling of the object, likely for a controlled experiment. The foil covering the stirrer plate is a distinctive feature, possibly for heat retention or protection."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        46.47,
+        61.96
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a glass beaker containing a clear liquid onto a hotplate covered with aluminum foil",
+          "researcher opens the door of a large oven and places a petri dish inside"
+        ],
+        "objects_visible": [
+          "blue IKA C-MAG HP 7 hotplate with a digital display showing '110'",
+          "aluminum foil covering the hotplate",
+          "glass beaker with a clear liquid",
+          "large oven with a digital display showing '180\u00b0C' and '1 h'",
+          "petri dish being placed inside the oven"
+        ],
+        "visible_text_labels": [
+          "110 \u00b0C",
+          "10 min",
+          "180 \u00b0C",
+          "1 h",
+          "IKA C-MAG HP 7"
+        ],
+        "quantities": [
+          "110 \u00b0C",
+          "10 min",
+          "180 \u00b0C",
+          "1 h"
+        ],
+        "key_distinguishing_features": "This segment highlights the use of specific temperature-controlled equipment, with precise temperature and time settings displayed. The researcher's actions involve both a hotplate and an oven, indicating a multi-step heating process. The use of aluminum foil on the hotplate is a distinctive feature for protecting the surface."
+      }
+    }
+  ]
+}

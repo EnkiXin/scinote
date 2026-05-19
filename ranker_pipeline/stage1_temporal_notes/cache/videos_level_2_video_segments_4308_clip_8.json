@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_segments/4308/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 22.159,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.53975
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A transparent tube is being rotated by a mechanical setup",
+          "A black circular component is spinning"
+        ],
+        "objects_visible": [
+          "A transparent tube with blue clamps",
+          "A black circular component with a metallic rim",
+          "A blue clamp holding the tube",
+          "A wooden surface in the background",
+          "A control panel with a red button and a black cable"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a mechanical setup involving a rotating transparent tube and a spinning black circular component. The blue clamps and the wooden background provide context for the experimental setup. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.53975,
+        11.0795
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "liquid is being dispensed into a clear, rectangular container"
+        ],
+        "objects_visible": [
+          "blue-handled clamp holding a tube",
+          "transparent rectangular container with liquid being filled",
+          "black circular component with a central hole",
+          "metallic clamp and tubing"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise liquid dispensing process into a transparent container, likely part of a controlled scientific setup. The blue-handled clamp and black circular component suggest a specialized apparatus. The 'jove' label indicates the video is from a scientific demonstration platform."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.0795,
+        16.61925
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "hand presses buttons on a digital frequency generator"
+        ],
+        "objects_visible": [
+          "Agilent 33250A Function/Arbitrary Waveform Generator",
+          "hand with no visible gloves"
+        ],
+        "visible_text_labels": [
+          "3,000,000.0Hz",
+          "Internal Trigger",
+          "Output On",
+          "Agilent 33250A"
+        ],
+        "quantities": [
+          "3,000,000.0Hz"
+        ],
+        "key_distinguishing_features": "The segment focuses on a digital frequency generator, specifically the Agilent 33250A model, with a hand adjusting settings to a precise frequency of 3,000,000.0Hz. The hand's interaction with the device highlights the measurement phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        16.61925,
+        22.159
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "connects a cable to the output port of the function generator"
+        ],
+        "objects_visible": [
+          "Agilent 33220A Function/Arbitrary Waveform Generator",
+          "cable with a BNC connector"
+        ],
+        "visible_text_labels": [
+          "Cycle Burst",
+          "External Trigger",
+          "Output Off",
+          "3,500,000.0MHz",
+          "Agilent"
+        ],
+        "quantities": [
+          "3,500,000.0MHz"
+        ],
+        "key_distinguishing_features": "The segment focuses on the Agilent 33220A function generator, highlighting the precise frequency setting of 3,500,000.0MHz. A cable is being connected to the output port, indicating the setup for signal transmission. The display and control panel are clearly visible, emphasizing the technical details of the equipment."
+      }
+    }
+  ]
+}

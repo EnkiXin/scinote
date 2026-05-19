@@ -1,0 +1,167 @@
+{
+  "video_id": "videos/level_2/video_segments/63101/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 43.731,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.93275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher places the microtube into a black container filled with ice"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "black container filled with ice",
+          "researcher wearing blue gloves and a white lab coat",
+          "yellow power strip in the background",
+          "various laboratory equipment and containers"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a microtube, emphasizing the use of ice for temperature control. The researcher's gloved hands and lab attire highlight the sterile and controlled environment. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.93275,
+        21.8655
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a centrifuge lid",
+          "researcher removes a centrifuge tube from the centrifuge"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital display and control buttons",
+          "centrifuge tube with a blue cap",
+          "researcher wearing blue gloves and a white lab coat",
+          "laboratory bench with various equipment and supplies"
+        ],
+        "visible_text_labels": [
+          "10 min",
+          "2,200 x g",
+          "4 \u00b0C"
+        ],
+        "quantities": [
+          "10 minutes",
+          "2,200 x g",
+          "4 \u00b0C"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a centrifuge tube after centrifugation, emphasizing the controlled conditions of 10 minutes at 2,200 x g and 4 \u00b0C. The researcher's careful removal of the tube highlights the importance of maintaining sample integrity. The visible text labels provide specific parameters for the centrifugation process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.8655,
+        32.79825
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher uses a pipette to transfer liquid from the microtube into a purple 8-well strip tube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "purple 8-well strip tube",
+          "pipette with a white tip",
+          "yellow and blue pipette tip boxes",
+          "black ice bucket",
+          "gray container with a white label"
+        ],
+        "visible_text_labels": [
+          "Store DNA at -20 \u00b0C"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "8-well strip tube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid sample using a pipette, highlighting the careful handling of the microtube and strip tube. The text 'Store DNA at -20 \u00b0C' suggests the importance of temperature control in the experiment. The presence of ice and labeled containers underscores the controlled environment necessary for the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.79825,
+        43.731
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher holds a tablet displaying a graph and numerical data",
+          "researcher adjusts a power supply unit set to 95 volts"
+        ],
+        "objects_visible": [
+          "tablet with a graph showing absorbance values",
+          "power supply unit with a digital display reading '95'",
+          "electrophoresis tank with electrodes and a gel",
+          "plastic bag labeled 'DISCARD'"
+        ],
+        "visible_text_labels": [
+          "95",
+          "DISCARD",
+          "Store DNA at -20 \u00b0C"
+        ],
+        "quantities": [
+          "95 volts",
+          "22.60 (value on the tablet graph)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase, with a researcher using a tablet to monitor absorbance data. The power supply unit is set to a specific voltage, indicating preparation for electrophoresis. The presence of a 'DISCARD' bag suggests waste management during the experiment."
+      }
+    }
+  ]
+}

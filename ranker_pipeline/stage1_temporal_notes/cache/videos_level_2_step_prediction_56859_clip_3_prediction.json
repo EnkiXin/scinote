@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/step_prediction/56859/clip_3_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 18.906533,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.72663325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'S' with orange cap"
+        ],
+        "objects_visible": [
+          "black bucket filled with ice cubes",
+          "glass flask partially submerged in ice",
+          "white digital scale",
+          "pipette with black handle",
+          "two 1.5mL microtubes in a blue rack"
+        ],
+        "visible_text_labels": [
+          "S",
+          "JOVE"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher handling a microtube labeled 'S' near a bucket of ice with a flask, indicating a preparation step in a cold environment. The JOVE logo is visible, suggesting this is part of a scientific protocol video. The focus is on maintaining a low temperature for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.72663325,
+        9.4532665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places 1.5mL microtube labeled 'K' with orange cap into ice bath",
+          "researcher holds another 1.5mL microtube labeled 'K' with orange cap"
+        ],
+        "objects_visible": [
+          "black ice bath container",
+          "1.5mL microtube labeled 'K' with orange cap",
+          "glass beaker partially submerged in ice",
+          "microtube rack holding microtube labeled 'K'",
+          "pipette with black handle"
+        ],
+        "visible_text_labels": [
+          "K"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful handling of microtubes labeled 'K' and their placement in an ice bath, emphasizing temperature control. The presence of a glass beaker in the ice bath suggests a controlled environment for the experiment. The microtube rack and pipette indicate a precise and methodical approach to the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.4532665,
+        14.17989975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to dispense a clear liquid into a bowl filled with ice"
+        ],
+        "objects_visible": [
+          "black bowl containing ice cubes",
+          "yellow and white magnetic stirrer",
+          "pipette with a white body and blue label",
+          "researcher wearing a white lab coat and gloves",
+          "shelf with various bottles and containers in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "clear liquid being dispensed from the pipette"
+        ],
+        "key_distinguishing_features": "The researcher is actively using a pipette to add a clear liquid to a bowl of ice, indicating a controlled cooling process. The presence of a magnetic stirrer suggests the need for mixing or temperature regulation. The background shows a typical laboratory setup with various reagents and equipment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        14.17989975,
+        18.906533
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a test tube into a container submerged in ice",
+          "researcher holds a test tube labeled 'DMEM' with a blue cap"
+        ],
+        "objects_visible": [
+          "black pot filled with ice cubes",
+          "yellow and black magnetic stirrer with a digital display",
+          "test tube labeled 'DMEM' with a blue cap",
+          "pipette with a white body and blue plunger",
+          "green test tube rack",
+          "black pen on the lab bench"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "test tube labeled 'DMEM'"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer process using a pipette, with the test tube labeled 'DMEM' indicating the specific medium being used. The ice bath setup suggests the need to maintain a low temperature for the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "video_id": "videos/level_3/57379_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 576.874667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        144.21866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A woman speaks directly to the camera, introducing the topic.",
+          "A man in a gray sweater speaks, likely explaining the next steps in the procedure."
+        ],
+        "objects_visible": [
+          "A wooden cabinet in the background behind the speakers.",
+          "A poster with graphs and text on the wall behind the speakers."
+        ],
+        "visible_text_labels": [
+          "Anne-Marie Fran\u00e7ois-Bellan",
+          "Aix-Marseille Universit\u00e9",
+          "II. Cultured Cell and Tissue Crosslinking, Lysis, and Sonication",
+          "Freshly prepare from 4% PFA stock solution"
+        ],
+        "quantities": [
+          "4% PFA stock solution"
+        ],
+        "key_distinguishing_features": "This segment introduces the topic and speakers, setting the stage for a detailed scientific procedure. The text on the screen provides specific information about the preparation of a PFA solution, indicating the start of a step-by-step process. The background elements, such as the wooden cabinet and poster, suggest an academic or laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        144.21866675,
+        288.4373335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'PFA' with a yellow cap",
+          "pipettes 1/10 volume of PFA into a petri dish containing a sample",
+          "researcher uses a pipette to transfer liquid from a labeled container into a test tube",
+          "researcher places a labeled aliquot of 20 \u03bcL of each sample into a storage container"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with yellow cap labeled 'PFA'",
+          "petri dish containing a sample",
+          "pipette with blue plunger",
+          "test tube labeled with sample information",
+          "storage container for aliquots",
+          "text protocol reference on screen"
+        ],
+        "visible_text_labels": [
+          "1/10 volume of PFA",
+          "Refer to text protocol for all buffers",
+          "Label aliquot of 20 \u03bcL of each sample as 'input'. Store at -20 C"
+        ],
+        "quantities": [
+          "1/10 volume of PFA",
+          "20 \u03bcL of each sample"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling and measurement of PFA solution, emphasizing the importance of accurate volume transfer. The use of labeled tubes and clear instructions for storage highlights the meticulous nature of the experiment. The visual text protocol reference ensures adherence to specific guidelines."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        288.4373335,
+        432.65600025000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'RNA' with a white cap and uses a pipette to transfer a clear liquid into a test tube rack.",
+          "Researcher places the microtube into a blue centrifuge labeled 'Eppendorf' and closes the lid.",
+          "Researcher operates the centrifuge by adjusting the speed dial and pressing the start button."
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'RNA' with a white cap",
+          "Blue centrifuge labeled 'Eppendorf' with a speed dial and start button",
+          "Test tube rack with multiple slots",
+          "Pipette with a clear tip"
+        ],
+        "visible_text_labels": [
+          "RNA",
+          "Eppendorf"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "Clear liquid transferred into test tube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of RNA samples, highlighting the use of a labeled microtube and a centrifuge for processing. The actions are methodical, emphasizing the importance of accurate liquid transfer and centrifugation in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        432.65600025000003,
+        576.874667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher gestures towards the bar graphs on the screen",
+          "researcher points to specific data points on the graph"
+        ],
+        "objects_visible": [
+          "bar graphs with data points and error bars",
+          "researcher wearing a light purple shirt",
+          "wooden cabinet in the background",
+          "green door partially visible"
+        ],
+        "visible_text_labels": [
+          "Neat1 RNA pull-down",
+          "GH4C1",
+          "Pituitary",
+          "NSO-rn",
+          "SO1-rn",
+          "SO2-rn",
+          "NSO-rm",
+          "SO3-rm",
+          "SO4-rm",
+          "SO1-mm",
+          "SO2-mm",
+          "Neat1 enrichment / input",
+          "Malat1 enrichment / input"
+        ],
+        "quantities": [
+          "Neat1 enrichment values ranging from 0 to 80",
+          "Malat1 enrichment values ranging from 0 to 0.4"
+        ],
+        "key_distinguishing_features": "This segment focuses on the presentation and discussion of RNA pull-down data, with the researcher actively engaging with the visual data on the screen. The bar graphs provide a clear comparison of Neat1 and Malat1 enrichment across different samples. The setting includes a casual office environment with a wooden cabinet and a green door in the background."
+      }
+    }
+  ]
+}

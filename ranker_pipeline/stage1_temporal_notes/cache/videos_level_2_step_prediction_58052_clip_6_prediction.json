@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_2/step_prediction/58052/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.262,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.5655
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'CHCl3 drug' with a blue cap",
+          "researcher uses a pipette to transfer a clear liquid from the microtube into a small beaker"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'CHCl3 drug'",
+          "small beaker containing a clear liquid",
+          "pipette with a transparent tip",
+          "aluminum foil covering the work surface",
+          "tray with multiple bottles having red caps in the background"
+        ],
+        "visible_text_labels": [
+          "CHCl3 drug"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a clear liquid from a labeled microtube into a beaker, emphasizing the use of a pipette for accuracy. The aluminum foil-covered work surface and the background tray with red-capped bottles add context to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.5655,
+        21.131
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a labeled vial",
+          "researcher carefully places the pipette tip into a vial labeled 'MeOH dry'"
+        ],
+        "objects_visible": [
+          "vials with handwritten labels such as 'MeOH dry' and 'CHCl3 dry'",
+          "a pipette with a purple plunger",
+          "a white tray containing bottles with red caps",
+          "a reflective surface showing the researchers working"
+        ],
+        "visible_text_labels": [
+          "MeOH dry",
+          "CHCl3 dry",
+          "Repeat 3x"
+        ],
+        "quantities": [
+          "the liquid volume being dispensed is not specified"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of vials and the use of a pipette for liquid transfer. The handwritten labels on the vials indicate specific chemical solutions, and the reflective surface adds a layer of depth to the scene. The 'Repeat 3x' text suggests a repetitive step in the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.131,
+        31.6965
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses a clear liquid into a labeled vial",
+          "vial labeled 'MeOH dry' is placed on aluminum foil"
+        ],
+        "objects_visible": [
+          "vial labeled 'MeOH dry'",
+          "pipette with a purple handle",
+          "aluminum foil on a lab bench",
+          "red-capped bottles in the background"
+        ],
+        "visible_text_labels": [
+          "MeOH dry",
+          "Non-reacted fdcat can be recovered from the methanol solution"
+        ],
+        "quantities": [
+          "clear liquid being dispensed, volume not specified"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a methanol solution, emphasizing the recovery of non-reacted fdcat. The use of aluminum foil as a surface for the vial is distinctive, likely for thermal or protective purposes. The background bottles suggest a well-equipped laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.6965,
+        42.262
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'MeOH' with a purple cap",
+          "researcher uses a pipette to transfer a clear liquid from the microtube into a small beaker"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with purple cap labeled 'MeOH'",
+          "small beaker with clear liquid",
+          "aluminum foil-covered surface",
+          "pipette with a clear tip",
+          "white tray with red-capped bottles in the background"
+        ],
+        "visible_text_labels": [
+          "MeOH"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a clear liquid from a labeled microtube into a beaker, emphasizing the use of a pipette for accuracy. The aluminum foil-covered surface suggests a controlled environment for the experiment. The presence of red-capped bottles in the background adds context to the laboratory setting."
+      }
+    }
+  ]
+}

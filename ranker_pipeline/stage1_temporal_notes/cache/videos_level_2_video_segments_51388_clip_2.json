@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_segments/51388/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 57.341,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.33525
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a syringe with a black plunger and a clear barrel",
+          "researcher uses a pair of scissors to trim the fur of a black mouse"
+        ],
+        "objects_visible": [
+          "a syringe with a black plunger and a clear barrel",
+          "a black mouse with a white ear and pink tail",
+          "a pair of scissors with black handles",
+          "a gloved hand holding the mouse"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "no specific quantities are visible"
+        ],
+        "key_distinguishing_features": "The segment shows a detailed preparation step involving a syringe and a mouse. The researcher is carefully trimming the mouse's fur, likely in preparation for an injection or other procedure. The presence of the 'jove' logo suggests this is a scientific demonstration video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.33525,
+        28.6705
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small rodent by the scruff of its neck with gloved hands",
+          "researcher positions the rodent on its back on a white surface"
+        ],
+        "objects_visible": [
+          "small rodent with dark fur and visible whiskers",
+          "blue nitrile gloves on the researcher's hands",
+          "white surface or cloth under the rodent"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a small rodent, emphasizing the researcher's use of blue nitrile gloves for safety. The rodent is positioned on its back, suggesting preparation for a procedure. The 'jove' logo indicates the video is part of a scientific demonstration."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        28.6705,
+        43.00575
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small animal, likely a mouse, by its tail with gloved hands",
+          "researcher uses a syringe to inject a substance into the mouse's tail vein"
+        ],
+        "objects_visible": [
+          "small animal, likely a mouse, with a dark fur coat",
+          "blue nitrile gloves worn by the researcher",
+          "syringe with a needle attached, held by the researcher",
+          "white surface or cloth on which the mouse is placed"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of injecting a substance into a mouse's tail vein, highlighting the careful handling of the animal and the use of a syringe. The blue nitrile gloves and the white surface provide a clean and controlled environment for the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        43.00575,
+        57.341
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher adjusts the focus knobs on a Leica MZ6 stereomicroscope",
+          "researcher uses a fine-tipped tool to manipulate a small object under the microscope"
+        ],
+        "objects_visible": [
+          "Leica MZ6 stereomicroscope with a digital display showing magnification levels",
+          "a small petri dish containing a transparent gel-like substance",
+          "researcher's gloved hands performing precise movements",
+          "various laboratory equipment in the background, including a blue-lidded container and a computer monitor"
+        ],
+        "visible_text_labels": [
+          "Leica MZ6",
+          "jove"
+        ],
+        "quantities": [
+          "magnification levels displayed on the digital screen of the microscope"
+        ],
+        "key_distinguishing_features": "This segment focuses on the use of a Leica MZ6 stereomicroscope for detailed observation, with the researcher's hands performing precise adjustments and manipulations. The digital display on the microscope provides real-time magnification levels, enhancing the precision of the work. The background laboratory setup indicates a controlled and professional environment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_3/3227_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 481.642667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        120.41066675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand holds a small, clear petri dish containing a dark, viscous liquid.",
+          "The hand tilts the petri dish, causing the liquid to spread across the bottom."
+        ],
+        "objects_visible": [
+          "A clear petri dish with a dark, viscous liquid inside.",
+          "A gloved hand wearing a blue nitrile glove."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation of a petri dish with a dark liquid, likely a component of a scientific experiment. The gloved hand indicates a sterile or controlled environment. The 'jove' logo suggests this is part of a scientific video tutorial."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        120.41066675,
+        240.8213335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to place a small, rectangular object into a clear glass beaker filled with water",
+          "researcher operates a control panel with a digital display showing '0' and adjusts settings on a device labeled 'DOW CORNING'"
+        ],
+        "objects_visible": [
+          "clear glass beaker containing water",
+          "small rectangular object being placed in the beaker",
+          "forceps held by the researcher",
+          "control panel with a digital display and various buttons",
+          "device labeled 'DOW CORNING' with a digital display showing '0'"
+        ],
+        "visible_text_labels": [
+          "DOW CORNING",
+          "0"
+        ],
+        "quantities": [
+          "digital display showing '0'"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a small object into a beaker of water using forceps, followed by the adjustment of a control panel. The digital display on the control panel is a key feature, showing a reading of '0'. The 'DOW CORNING' label on the device suggests a specific brand or type of equipment being used."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        240.8213335,
+        361.23200025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small volume of liquid into a petri dish",
+          "researcher carefully places a small, transparent object into the petri dish using forceps"
+        ],
+        "objects_visible": [
+          "petri dish with a white label reading 'SAMPLE 1'",
+          "pipette with a blue plunger",
+          "forceps with a metallic tip",
+          "small, transparent object resembling a microchip or sensor"
+        ],
+        "visible_text_labels": [
+          "SAMPLE 1",
+          "JOVE"
+        ],
+        "quantities": [
+          "small volume of liquid (estimated ~50uL)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a small, transparent object using forceps, indicating a delicate and controlled procedure. The presence of the 'SAMPLE 1' label on the petri dish suggests a systematic approach to sample management. The JOVE logo indicates the video is part of a scientific demonstration series."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        361.23200025,
+        481.642667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher points at a specific area on a microscopic image displayed on a computer screen",
+          "Researcher gestures towards the microscope while explaining the sample"
+        ],
+        "objects_visible": [
+          "Microscope with eyepieces and objective lenses",
+          "Computer monitor displaying a microscopic image with labeled sections",
+          "Researcher wearing glasses and a light blue shirt"
+        ],
+        "visible_text_labels": [
+          "Horse spleen ferritin",
+          "A",
+          "B"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the observation of a microscopic image of horse spleen ferritin, with the researcher actively pointing out specific features on the screen. The labeled sections 'A' and 'B' suggest a comparative analysis of the sample. The researcher's gestures and expressions indicate an explanatory or instructional context."
+      }
+    }
+  ]
+}

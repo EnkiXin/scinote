@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_2/video_segments/61854/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 57.151,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.28775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher operates a Leica 3060 S microtome",
+          "researcher places a slide into the microtome"
+        ],
+        "objects_visible": [
+          "Leica 3060 S microtome with a digital display and control panel",
+          "gloved hands of a researcher",
+          "slides with a label indicating storage temperature"
+        ],
+        "visible_text_labels": [
+          "LEICA 3060 S",
+          "Store slides at -80 \u00b0C"
+        ],
+        "quantities": [
+          "-80 \u00b0C"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise operation of a Leica 3060 S microtome, highlighting the digital interface and the specific storage temperature for the slides. The researcher's gloved hands are actively engaged in handling the equipment and slides."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.28775,
+        28.5755
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher picks up a 1.5mL microtube labeled 'PBS' with a black cap",
+          "researcher places the microtube on a white rectangular tray"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'PBS' with a black cap",
+          "white rectangular tray with grid lines",
+          "blue-labeled containers with text such as 'XYLENE', '99% ETOH', 'DE-HYDRATION SERIES', and 'PFA/PBS'",
+          "red plastic rack in the background"
+        ],
+        "visible_text_labels": [
+          "PBS",
+          "XYLENE",
+          "99% ETOH",
+          "DE-HYDRATION SERIES",
+          "PFA/PBS"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where a microtube labeled 'PBS' is handled and placed on a tray. The background contains various labeled containers, indicating a systematic setup for a multi-step process. The presence of a red plastic rack adds to the organized laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        28.5755,
+        42.86325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a metal rack to transfer slides from a container labeled 'HEMATOXYLIN' to a container labeled 'EOSIN'.",
+          "The slides are carefully placed into the 'EOSIN' container, ensuring they are submerged."
+        ],
+        "objects_visible": [
+          "A blue container labeled 'HEMATOXYLIN' with slides partially submerged in a dark liquid.",
+          "A blue container labeled 'EOSIN' with a clear liquid.",
+          "A blue container labeled 'WATER' with clear liquid.",
+          "A metal slide rack holding multiple glass slides.",
+          "A gloved hand performing the transfer."
+        ],
+        "visible_text_labels": [
+          "HEMATOXYLIN",
+          "EOSIN",
+          "WATER"
+        ],
+        "quantities": [
+          "Multiple glass slides are transferred, but the exact count is not specified."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of slides from one staining solution to another, highlighting the careful handling required in histological staining procedures. The use of labeled containers and a metal rack ensures accuracy and organization in the process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        42.86325,
+        57.151
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher uses a pipette to transfer a small, clear liquid sample from a labeled container into a rectangular white slide with black lines.",
+          "Researcher places the slide under a digital scanner labeled 'PATTERN SCAN'."
+        ],
+        "objects_visible": [
+          "A pipette with a fine tip",
+          "A rectangular white slide with black lines",
+          "A digital scanner labeled 'PATTERN SCAN'",
+          "A red plastic rack containing labeled containers",
+          "A metal tray with compartments labeled '90% ETOH', '100% ETOH', 'XYLENE', and 'DE-HYDRATION SERIES'",
+          "A white lab coat worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "90% ETOH",
+          "100% ETOH",
+          "XYLENE",
+          "DE-HYDRATION SERIES",
+          "PATTERN SCAN"
+        ],
+        "quantities": [
+          "The pipette appears to transfer a small volume, likely in microliters, though the exact volume is not specified."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid sample using a pipette and the subsequent placement of the sample on a slide for scanning. The labeled containers and the de-hydration series setup suggest a methodical process in sample preparation. The digital scanner indicates a step towards digital analysis of the sample."
+      }
+    }
+  ]
+}

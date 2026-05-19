@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/video_segments/63543/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.178,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.5445
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a small yellow tube with a blue cap",
+          "researcher uses a pair of tweezers to manipulate a small object"
+        ],
+        "objects_visible": [
+          "small yellow tube with a blue cap",
+          "tweezers",
+          "white cloth surface",
+          "pink object partially visible on the left"
+        ],
+        "visible_text_labels": [
+          "Enucleation",
+          "1. Ethically euthanize mouse according to IACUC standards",
+          "2. Place the mouse on a sterile underpad",
+          "3. Enucleate the eye by pressing the tip of the tweezers on the orbital area to induce proptosis and then using tweezers to pull eyes posterior to remove the eye (by gently pulling) and ensuring that the optical nerve is still intact."
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of an enucleation procedure, with the researcher handling a small yellow tube and tweezers. The text instructions on the screen provide detailed steps for the procedure, emphasizing ethical considerations and specific techniques."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.5445,
+        15.089
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, clear plastic petri dish containing a few small, yellowish objects",
+          "researcher uses a fine-tipped tool to manipulate the objects within the petri dish"
+        ],
+        "objects_visible": [
+          "researcher's hands wearing blue nitrile gloves",
+          "a clear plastic petri dish with a few small, yellowish objects inside",
+          "a fine-tipped tool held by the researcher",
+          "a white cloth or paper towel underneath the petri dish",
+          "a red plastic rack partially visible on the left side of the frame"
+        ],
+        "visible_text_labels": [],
+        "quantities": [
+          "a few small, yellowish objects in the petri dish"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of small objects within a petri dish, highlighting the researcher's use of a fine-tipped tool. The setting is clean and controlled, with a white cloth or paper towel serving as a sterile background. The presence of a red plastic rack suggests an organized laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.089,
+        22.6335
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses a liquid into a petri dish",
+          "researcher places the pipette back into its holder"
+        ],
+        "objects_visible": [
+          "petri dish with a clear liquid and a small amount of pink substance",
+          "pipette with a blue plunger and a transparent tip",
+          "blue test tube rack with empty slots",
+          "red-capped test tube containing a pink liquid",
+          "beaker with a clear liquid",
+          "orange pipette stand with multiple pipettes",
+          "stack of white petri dishes",
+          "container with white cotton swabs"
+        ],
+        "visible_text_labels": [],
+        "quantities": [
+          "approximately 200uL of liquid dispensed into the petri dish"
+        ],
+        "key_distinguishing_features": "The researcher is actively using a pipette to transfer a precise volume of liquid into a petri dish, indicating a controlled experimental step. The presence of various laboratory tools and reagents suggests a complex procedure. The pink liquid in the test tube and petri dish stands out as a key component of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.6335,
+        30.178
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses a pink liquid into a clear beaker",
+          "researcher's gloved hand stabilizes the beaker while the other hand operates the pipette"
+        ],
+        "objects_visible": [
+          "a clear beaker containing a small amount of pink liquid",
+          "a blue-gloved hand resting on the table",
+          "a blue test tube rack with empty slots",
+          "an orange pipette holder with multiple pipettes",
+          "a stack of plastic pipette tips",
+          "a petri dish with a white substance inside"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring a pink liquid using a pipette. The researcher's hands are clearly visible, emphasizing the careful handling of the liquid. The setup includes various laboratory tools, highlighting a controlled experimental environment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "video_id": "videos/level_2/step_prediction/55685/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 23.502792,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.875698
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "computer screen displays a file directory window"
+        ],
+        "objects_visible": [
+          "computer screen with a file explorer window open",
+          "file list with various file names and dates"
+        ],
+        "visible_text_labels": [
+          "IV. Instrument Measurement",
+          "New Instrument and Associated Data File",
+          "Look in: Summer 2014",
+          "File name: SAMPL_1.000"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a computer screen showing a file directory, likely for selecting or organizing measurement data. The text 'IV. Instrument Measurement' suggests this is part of a structured scientific process. The file names and dates indicate data collection over a period of time."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.875698,
+        11.751396
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"measurement\",\n  \"actions_observed\": [\"software interface displays data acquisition settings\", \"user interacts with software to configure measurement parameters\"],\n  \"objects_visible\": [\"computer screen showing a software interface with multiple windows\", \"graph window with axes labeled 'Particle Size' and 'dN/dlogDp (particles/ml)'\", \"table window with numerical data including column"
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.751396,
+        17.627094
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"observation\",\n  \"actions_observed\": [\"software interface displays data acquisition and analysis\", \"user interacts with software settings\"],\n  \"objects_visible\": [\"ToF-AMS DAQ software interface\", \"data tables with numerical values\", \"graph plotting area\", \"settings dialog box\"],\n  \"visible_text_labels\": [\"ToF-AMS DAQ\", \"Data Acquisition and Reduction\", \"Hardware Settings\", \"Schedulin"
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.627094,
+        23.502792
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The software interface remains static, displaying the ToF-AMS DAQ data acquisition and instrument control software.",
+          "No physical actions or changes in the software interface are observed during this segment."
+        ],
+        "objects_visible": [
+          "ToF-AMS DAQ software interface with various buttons and data fields.",
+          "A list of researchers and experiment details on the left side of the interface.",
+          "A table with TPS, TOF, Multiplier, and Sample columns on the right side of the interface."
+        ],
+        "visible_text_labels": [
+          "ToF-AMS DAQ",
+          "Data Acquisition and Instrument Control Software",
+          "3.0.3 (05-March-2009)",
+          "Researchers(s)",
+          "Experiment",
+          "Training",
+          "Acquire",
+          "P1OF",
+          "MS",
+          "BFSP",
+          "Calibrate",
+          "Servo",
+          "BFWise",
+          "Flow Rate (cm\u00b3/s): -0.37",
+          "Fil Emission (V): 0.94",
+          "Heater (1 C): 602",
+          "Chopper (Hz): 0.0"
+        ],
+        "quantities": [
+          "Flow Rate: -0.37 cm\u00b3/s",
+          "Fil Emission: 0.94 V",
+          "Heater Temperature: 602 \u00b0C",
+          "Chopper Frequency: 0.0 Hz"
+        ],
+        "key_distinguishing_features": "This segment is characterized by the static display of the ToF-AMS DAQ software interface, with no observable changes or actions taking place. The interface provides detailed information about the instrument's settings and operational parameters. The segment highlights the observation phase where the software is being monitored for data acquisition."
+      }
+    }
+  ]
+}

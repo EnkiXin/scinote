@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_segments/61037/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 27.751,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.93775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a pipette with a yellow and green tip",
+          "researcher inserts the pipette into a well of a 96-well plate"
+        ],
+        "objects_visible": [
+          "yellow pipette tip box",
+          "red-lidded 96-well plate",
+          "transparent plastic container",
+          "white ice box",
+          "pipette with a yellow and green tip"
+        ],
+        "visible_text_labels": [
+          "WESTERN BLOTTING"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of a Western blotting experiment, highlighting the precise action of inserting a pipette into a well. The presence of a 96-well plate and an ice box suggests a controlled environment for sample handling."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.93775,
+        13.8755
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a clear plastic multiwell plate with 96 wells",
+          "researcher places the multiwell plate on the work surface"
+        ],
+        "objects_visible": [
+          "a blue microtube rack with empty slots",
+          "a pink-lidded box containing pipette tips",
+          "a clear plastic multiwell plate with 96 wells",
+          "a pipette with a white body and a transparent tip"
+        ],
+        "visible_text_labels": [],
+        "quantities": [
+          "96 wells in the multiwell plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where the researcher is handling a multiwell plate, likely for sample distribution. The presence of a pipette and pipette tips suggests that liquid transfer is imminent. The blue microtube rack and pink-lidded box add to the organized setup of the workspace."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.8755,
+        20.81325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and inserts it into a well of a 96-well plate",
+          "researcher withdraws a liquid sample from the well"
+        ],
+        "objects_visible": [
+          "96-well plate with a clear lid",
+          "pipette with a white tip",
+          "researcher's gloved hands",
+          "various laboratory equipment in the background including a digital device with a red display"
+        ],
+        "visible_text_labels": [
+          "96-well plate labeled 'DMEM'"
+        ],
+        "quantities": [
+          "96 wells in the plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of liquid withdrawal from a specific well in a 96-well plate. The researcher's gloved hands and the pipette are central to the action, emphasizing the controlled and careful nature of the task. The background equipment adds context to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        20.81325,
+        27.751
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "monitors the progress of a gel electrophoresis process"
+        ],
+        "objects_visible": [
+          "gel electrophoresis apparatus with a clear gel matrix",
+          "DNA samples migrating through the gel",
+          "power supply unit connected to the apparatus"
+        ],
+        "visible_text_labels": [
+          "DNA samples",
+          "gel matrix"
+        ],
+        "quantities": [
+          "multiple DNA bands visible in the gel"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase of a gel electrophoresis experiment, where the migration of DNA samples through the gel is clearly visible. The gel matrix is transparent, allowing for a detailed view of the DNA bands as they separate. The power supply unit indicates the active state of the electrophoresis process."
+      }
+    }
+  ]
+}

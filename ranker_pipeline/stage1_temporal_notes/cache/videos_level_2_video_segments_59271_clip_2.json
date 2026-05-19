@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_segments/59271/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.051,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.51275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a large freezer door",
+          "researcher retrieves a blue-capped tube from the freezer"
+        ],
+        "objects_visible": [
+          "large white freezer with warning labels",
+          "blue-capped tube with handwritten label",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "Bones can be stored for months",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the retrieval of a specific tube from a freezer, emphasizing the storage of biological samples. The freezer's warning labels and the handwritten label on the tube highlight the controlled and precise nature of the experiment. The researcher's attire underscores the sterile environment required for the task."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.51275,
+        21.0255
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled '0.5N HCl' with blue cap",
+          "researcher unscrews the blue cap of the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "blue cap of the microtube",
+          "researcher's gloved hands",
+          "white lab coat",
+          "background laboratory equipment"
+        ],
+        "visible_text_labels": [
+          "0.5N HCl",
+          "The volume of HCl solution should be more than ten times as that of the bones"
+        ],
+        "quantities": [
+          "0.5N HCl"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a specific HCl solution, emphasizing the importance of its volume relative to the bones. The researcher's careful handling of the microtube highlights the precision required in this step. The visible text reinforces the need for a significant volume of HCl solution."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.0255,
+        31.53825
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a white powdery substance from a small white container into a brown glass bottle with a blue cap",
+          "researcher uses a white spray bottle to clean the surface of the blue tray"
+        ],
+        "objects_visible": [
+          "brown glass bottle with a blue cap",
+          "small white container with a white powdery substance",
+          "white spray bottle with a blue nozzle",
+          "blue tray with a grid pattern",
+          "pink plastic container with a blue cap",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small white container (volume not specified)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the addition of a white powdery substance to a brown glass bottle, likely a reagent or chemical. The researcher's actions are precise, indicating a controlled step in the experiment. The presence of a cleaning action suggests attention to maintaining a sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.53825,
+        42.051
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a pink plastic test tube rack on a blue tray",
+          "researcher adjusts the position of the test tube rack"
+        ],
+        "objects_visible": [
+          "pink plastic test tube rack with circular holes",
+          "blue tray with a grid pattern",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful placement of a pink test tube rack on a blue tray, emphasizing the organization of laboratory equipment. The absence of text labels or specific quantities suggests a preparatory step in the experiment. The gloved hand indicates adherence to laboratory safety protocols."
+      }
+    }
+  ]
+}

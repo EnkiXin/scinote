@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/57847/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 51.65,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.9125
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher places the microtube into a green microtube rack"
+        ],
+        "objects_visible": [
+          "green microtube rack with multiple compartments",
+          "1.5mL microtube with a blue cap",
+          "white lab coat",
+          "green gloves",
+          "metal tweezers",
+          "white paper with handwritten notes"
+        ],
+        "visible_text_labels": [
+          "Jove logo in the top right corner"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where the researcher is handling a microtube with a blue cap. The green microtube rack and the white paper with handwritten notes suggest an organized setup for the experiment. The presence of the Jove logo indicates the video is likely part of a scientific tutorial or demonstration."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.9125,
+        25.825
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher picks up a 1.5mL microtube with a clear body and a white cap",
+          "researcher places the microtube on a blue perforated cylinder"
+        ],
+        "objects_visible": [
+          "blue perforated cylinder with a label at the base",
+          "green microtube rack with multiple empty slots",
+          "researcher wearing a white lab coat and teal gloves"
+        ],
+        "visible_text_labels": [
+          "label on the blue cylinder with text that is not fully legible"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a microtube is handled and placed on a specific apparatus. The researcher's gloved hands and the precise placement of the tube highlight the careful handling required in the experiment. The blue perforated cylinder serves as a distinctive feature in this segment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.825,
+        38.7375
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a white cap and a blue label",
+          "researcher places the microtube into a blue mesh tube rack"
+        ],
+        "objects_visible": [
+          "blue mesh tube rack with multiple slots",
+          "1.5mL microtube with a white cap and a blue label",
+          "green-gloved hands of the researcher",
+          "black surface with a white paper underneath"
+        ],
+        "visible_text_labels": [
+          "blue label on the microtube"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube, emphasizing the use of a blue mesh tube rack for organization. The researcher's green gloves and the white cap of the microtube are distinctive visual elements."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        38.7375,
+        51.65
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a blue cylindrical filter on top of a white container",
+          "researcher adjusts the filter to ensure it is properly seated"
+        ],
+        "objects_visible": [
+          "blue cylindrical filter with a perforated surface",
+          "white container with a handle",
+          "black laboratory equipment in the background",
+          "white cables and tubing on the lab bench"
+        ],
+        "visible_text_labels": [
+          "Samples can be stored for up to 3 months at -80 \u00b0C"
+        ],
+        "quantities": [
+          "3 months",
+          "-80 \u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of a blue cylindrical filter, which is carefully placed on a white container, likely as part of a sample preparation or storage process. The text overlay provides specific storage conditions, emphasizing the importance of maintaining samples at -80 \u00b0C for up to 3 months."
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_3/64216_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 600.725333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        150.18133325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with a pink liquid",
+          "petri dish",
+          "yellow test tube rack",
+          "bottles with blue and green caps in the background"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL",
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a petri dish with DMEM medium, highlighting the precise volume measurement and the use of a labeled microtube. The background includes various laboratory equipment, emphasizing a controlled environment. The pink color of the DMEM medium is a distinctive feature in this segment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        150.18133325,
+        300.3626665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small animal, likely a mouse, with gloved hands",
+          "applies a yellowish substance to the animal's skin using a pipette",
+          "uses surgical scissors to make an incision on the animal's skin"
+        ],
+        "objects_visible": [
+          "small animal with brown fur",
+          "yellowish substance in a pipette",
+          "surgical scissors with metallic blades",
+          "blue surgical gloves",
+          "sterile surgical drape with a blue and white pattern"
+        ],
+        "visible_text_labels": [
+          "Refer text for anesthesia and analgesia regime"
+        ],
+        "quantities": [
+          "small animal (likely a mouse)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the surgical preparation of a small animal, highlighting the application of a yellowish substance and the precise incision made with surgical scissors. The sterile environment and use of gloves emphasize the controlled nature of the procedure. The text label provides a reference for anesthesia and analgesia protocols."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        300.3626665,
+        450.54399975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Surgical instruments manipulate a folded strip within a biological tissue environment.",
+          "A gloved hand uses forceps to handle a folded strip, placing it into a container."
+        ],
+        "objects_visible": [
+          "Folded strip with dimensions 4 x 5 mm and 2-3 mm thickness",
+          "Surgical forceps with metallic, curved tips",
+          "Biological tissue with visible sutures and a reddish hue",
+          "A container with a blue lid and a white interior"
+        ],
+        "visible_text_labels": [
+          "Folded strip: 4 x 5 mm, 2 - 3 mm thick"
+        ],
+        "quantities": [
+          "4 x 5 mm dimensions of the folded strip",
+          "2 - 3 mm thickness of the folded strip"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling and placement of a small, folded strip within a surgical context, emphasizing the dimensions and careful manipulation of the material. The environment suggests a controlled, experimental procedure involving biological tissues."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        450.54399975,
+        600.725333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher points to specific areas on a mouse brain slice under a microscope",
+          "Researcher gestures towards a graph showing data points related to tumor growth"
+        ],
+        "objects_visible": [
+          "Mouse brain slice with visible staining patterns",
+          "Microscope with adjustable focus knobs",
+          "Graph with plotted data points and labeled axes"
+        ],
+        "visible_text_labels": [
+          "HE",
+          "HER2",
+          "200 \u00b5m",
+          "100 \u00b5m",
+          "Uninvolved",
+          "Tumor",
+          "Dapi % Positve"
+        ],
+        "quantities": [
+          "200 \u00b5m scale bar on brain slice",
+          "100 \u00b5m scale bar on brain slice",
+          "Data points on graph indicating percentages"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed observation of a stained mouse brain slice under a microscope, highlighting specific regions of interest. The researcher uses a graph to correlate the observed data with tumor growth metrics, emphasizing the quantitative analysis of the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_3/52098_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 572.864,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        143.216
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a cylindrical object with a textured surface and inserts a smaller cylindrical component into it.",
+          "Researcher adjusts the position of the cylindrical components, ensuring they are properly aligned."
+        ],
+        "objects_visible": [
+          "A cylindrical object with a textured surface and a smaller cylindrical component.",
+          "A person wearing a blue lab coat."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the careful assembly of cylindrical components, likely part of a scientific apparatus. The researcher's hands are prominently featured, emphasizing the precision required for the task. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        143.216,
+        286.432
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher operates a blender with a cylindrical container labeled 'DMEM' and a blue cap.",
+          "Researcher uses a pipette to transfer a liquid into a petri dish."
+        ],
+        "objects_visible": [
+          "A blender with a cylindrical container labeled 'DMEM' and a blue cap.",
+          "A petri dish containing a pink-colored medium.",
+          "A pipette with a black tip."
+        ],
+        "visible_text_labels": [
+          "See manuscript for details",
+          "DMEM"
+        ],
+        "quantities": [
+          "200uL of pink-colored DMEM medium"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of DMEM medium, highlighting the use of a blender and a pipette for transferring a specific volume of liquid. The pink color of the medium in the petri dish is a distinctive feature, indicating a specific type of cell culture medium."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        286.432,
+        429.648
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher adjusts a metallic component on a large cylindrical machine, possibly a reactor or autoclave.",
+          "Researcher uses a tool to tighten a connection on the machine, ensuring a secure seal.",
+          "Researcher walks away from the machine towards a computer setup.",
+          "Researcher interacts with a laptop, likely monitoring or controlling the experiment."
+        ],
+        "objects_visible": [
+          "Large cylindrical machine with metallic components and a perforated section.",
+          "A tool, possibly a wrench, used for tightening connections.",
+          "A laptop on a desk with a visible screen displaying graphs and data.",
+          "A computer setup with a chair and a desk in a laboratory environment."
+        ],
+        "visible_text_labels": [
+          "jove logo in the top right corner of the video frame."
+        ],
+        "quantities": [
+          "No specific quantities, volumes, or counts are visible in this segment."
+        ],
+        "key_distinguishing_features": "This segment focuses on the execution phase of an experiment, where the researcher is actively adjusting and securing components on a large machine. The transition from manual adjustments to computer interaction suggests a shift from physical setup to digital monitoring. The presence of a perforated section on the machine and the use of a tool for tightening connections are distinctive features."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        429.648,
+        572.864
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher observes pressure readings on a graph displayed on a laptop",
+          "researcher points to specific data points on the graph"
+        ],
+        "objects_visible": [
+          "laptop with a graph showing pressure readings",
+          "graph with blue and red lines representing inlet and outlet pressures",
+          "researcher wearing a blue shirt"
+        ],
+        "visible_text_labels": [
+          "Inlet pressure (bottom)",
+          "Outlet pressure (bottom)",
+          "Outlet pressure (top)",
+          "Time [sec]",
+          "log pressure [kPa]",
+          "jove"
+        ],
+        "quantities": [
+          "pressure readings in kPa",
+          "time in seconds up to 1200"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of pressure data over time, with a detailed graph showing both inlet and outlet pressures. The researcher interacts with the graph, likely analyzing the trends and data points. The graph includes a logarithmic scale for pressure, indicating a wide range of values being measured."
+      }
+    }
+  ]
+}

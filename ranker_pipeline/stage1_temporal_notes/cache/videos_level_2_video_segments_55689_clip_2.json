@@ -1,0 +1,166 @@
+{
+  "video_id": "videos/level_2/video_segments/55689/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.084,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.521
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish labeled '7-25-13'",
+          "researcher uses a pipette to transfer a small volume of liquid into the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with handwritten label '7-25-13'",
+          "pipette with a blue tip",
+          "red biohazard container with ice and a labeled bottle",
+          "another petri dish labeled 'Bas 5'"
+        ],
+        "visible_text_labels": [
+          "7-25-13",
+          "Bas 5"
+        ],
+        "quantities": [
+          "small volume of liquid (exact volume not specified)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a liquid sample into a labeled petri dish, emphasizing careful handling and documentation. The presence of a biohazard container suggests the handling of potentially hazardous materials. The handwritten labels on the petri dishes indicate a specific date and sample type, highlighting the importance of record-keeping in the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.521,
+        17.042
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish labeled 'pHerG2 T 7-25-13'",
+          "researcher uses a pipette to transfer a small volume of liquid into the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with handwritten label",
+          "pipette with a fine tip",
+          "red container filled with ice and a bottle of liquid",
+          "laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "pHerG2 T 7-25-13",
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid (exact volume not specified)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a petri dish and the transfer of liquid using a pipette. The handwritten label on the petri dish provides specific experimental details. The presence of ice in the red container suggests the need to maintain a cold environment for the liquid."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.042,
+        25.563000000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a white rectangular object on a laboratory instrument",
+          "researcher uses a pipette to transfer liquid from a bottle labeled 'PBS 1X' into a container"
+        ],
+        "objects_visible": [
+          "laboratory instrument with a digital display reading 'LID OPEN 99 600'",
+          "bottle labeled 'PBS 1X' with a white cap",
+          "pipette with a blue plunger",
+          "transparent container with multiple compartments",
+          "red ice bucket containing the PBS bottle"
+        ],
+        "visible_text_labels": [
+          "LID OPEN 99 600",
+          "PBS 1X",
+          "Thermo"
+        ],
+        "quantities": [
+          "99 (likely temperature setting)",
+          "600 (likely RPM or speed setting)"
+        ],
+        "key_distinguishing_features": "The segment highlights the precise action of transferring liquid using a pipette, with a focus on the labeled PBS bottle and the digital display of the laboratory instrument. The presence of the ice bucket suggests the need to maintain the temperature of the solution."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.563000000000002,
+        34.084
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and inserts it into a well of a 96-well plate",
+          "researcher adjusts the pipette to draw liquid from a tube"
+        ],
+        "objects_visible": [
+          "pipette with a white body and red markings",
+          "96-well plate with a clear lid",
+          "red container filled with ice cubes and labeled bottles",
+          "bottles with blue caps and handwritten labels",
+          "hand wearing a blue nitrile glove"
+        ],
+        "visible_text_labels": [
+          "ICE!",
+          "PRE-11",
+          "DMEM"
+        ],
+        "quantities": [
+          "96-well plate",
+          "blue caps on bottles"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting liquid into a 96-well plate, with a clear view of the pipette and well plate. The red container with ice and labeled bottles suggests a controlled environment for sample storage. The handwritten labels on the bottles add a personalized touch to the experimental setup."
+      }
+    }
+  ]
+}

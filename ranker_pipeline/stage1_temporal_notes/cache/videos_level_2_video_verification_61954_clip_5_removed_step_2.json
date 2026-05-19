@@ -1,0 +1,139 @@
+{
+  "video_id": "videos/level_2/video_verification/61954/clip_5_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.5934,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.64835
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a yellow liquid into a glass container"
+        ],
+        "objects_visible": [
+          "a clear glass container with a textured, darkened exterior",
+          "a pipette with a yellow liquid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a pipette adding a yellow liquid into a glass container with a dark, textured exterior. The focus is on the interaction between the pipette and the container, highlighting the liquid's movement. The 'jove' logo is visible in the top right corner."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.64835,
+        13.2967
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A pipette tip is inserted into a liquid medium within a petri dish",
+          "The pipette tip releases a small volume of liquid, causing ripples and bubbles in the medium"
+        ],
+        "objects_visible": [
+          "A clear petri dish containing a dark, granular medium",
+          "A yellow pipette tip with a fine nozzle"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The volume of liquid added is not quantified but appears to be a small amount, likely microliters"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise addition of a liquid to a petri dish, highlighting the interaction between the pipette tip and the medium. The dark granular texture of the medium contrasts sharply with the clear liquid, emphasizing the experimental setup. The 'jove' logo indicates the video's source."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.2967,
+        19.94505
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a yellow liquid into a petri dish containing a dark, granular substance"
+        ],
+        "objects_visible": [
+          "petri dish with a dark, granular substance",
+          "yellow pipette tip"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The petri dish contains a dark, granular substance that contrasts sharply with the yellow liquid being pipetted. The liquid appears to be carefully dispensed, suggesting a controlled experimental step. The focus is on the interaction between the liquid and the granular substance."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.94505,
+        26.5934
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a clear liquid from a yellow pipette tip into a petri dish containing a dark, granular substance"
+        ],
+        "objects_visible": [
+          "petri dish with a dark, granular substance",
+          "yellow pipette tip"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid, likely microliters"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of adding a small volume of liquid to a petri dish, which contains a dark, granular substance. The yellow pipette tip is a distinctive feature, indicating the use of a specific tool for liquid transfer. The dark granular substance in the petri dish contrasts sharply with the clear liquid being added."
+      }
+    }
+  ]
+}

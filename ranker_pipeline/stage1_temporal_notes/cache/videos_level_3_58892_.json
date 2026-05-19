@@ -1,0 +1,175 @@
+{
+  "video_id": "videos/level_3/58892_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 473.130667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        118.28266675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A man in a blue sweater and glasses is speaking directly to the camera.",
+          "The video transitions to a close-up of a computer screen displaying a molecular diagram labeled 'Mca/Dnp FRET pair'.",
+          "A researcher in a white lab coat and blue gloves is seen handling a large orange container labeled 'WATER'."
+        ],
+        "objects_visible": [
+          "A man wearing a blue sweater over a red and white checkered shirt.",
+          "A computer screen showing a molecular diagram with labels.",
+          "A large orange container labeled 'WATER'.",
+          "A laboratory environment with various equipment and supplies."
+        ],
+        "visible_text_labels": [
+          "Mca/Dnp FRET pair",
+          "Intramolecular fluorescence energy transfer",
+          "Cleavage site",
+          "Mca",
+          "Dnp",
+          "WATER"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment introduces the concept of a Mca/Dnp FRET pair through a molecular diagram, highlighting the cleavage site. The transition from a speaker to a computer screen and then to a lab setting emphasizes the preparatory phase of the experiment. The presence of a water container suggests the initial setup of the experimental environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        118.28266675,
+        236.5653335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 96-well plate into a microplate reader",
+          "researcher adjusts settings on a computer interface for the microplate reader",
+          "researcher closes the lid of the microplate reader"
+        ],
+        "objects_visible": [
+          "96-well plate with a black bottom and clear top",
+          "microplate reader with a digital display and control buttons",
+          "computer screen showing a software interface for the microplate reader",
+          "blue plastic tray containing ice and a black object",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "Read Mode: Endpoint",
+          "Wavelength settings",
+          "Total Run Time: 00:00:00",
+          "Interval: 00:00:00",
+          "Before first read only: 00:00:00",
+          "Before each read: 00:00:00",
+          "Number of reads: 1",
+          "Preparing the Assay"
+        ],
+        "quantities": [
+          "96 wells in the plate",
+          "00:00:00 for various time settings"
+        ],
+        "key_distinguishing_features": "This segment focuses on the setup and execution of a microplate reading process, highlighting the interaction between the researcher and the microplate reader. The software interface is prominently displayed, showing detailed settings for the reading process. The presence of ice in a blue tray suggests temperature control is a critical aspect of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        236.5653335,
+        354.84800025000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher uses a computer mouse to interact with a software interface",
+          "researcher views and analyzes data on a computer screen"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a software interface with graphs and data tables",
+          "computer mouse held by a gloved hand",
+          "laboratory equipment in the background including a microscope and other lab tools"
+        ],
+        "visible_text_labels": [
+          "Relative fluorescence units (RFU)",
+          "Time (min)",
+          "And-4 WT - Trypsin",
+          "1 unit per reaction for furin",
+          "0.5 \u00b5L of 160 nM TPCK for trypsin"
+        ],
+        "quantities": [
+          "14,000 RFU (maximum value on the graph)",
+          "60 minutes (maximum time on the graph)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the analysis phase of the experiment, where the researcher is interpreting data displayed on a computer screen. The graphs show a clear trend in relative fluorescence units over time, indicating a reaction's progress. The presence of specific text labels and quantities suggests a detailed examination of enzymatic activity."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        354.84800025000004,
+        473.130667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [],
+        "objects_visible": [
+          "Bar graph showing Vmax (RFU/min) for different S2' substrates",
+          "Error bars on the bar graph"
+        ],
+        "visible_text_labels": [
+          "Furin",
+          "Vmax (RFU/min)",
+          "EMC/2012 S2'",
+          "EMC/2012 mutA-S S2'",
+          "EMC/2012 mutS-I S2'",
+          "Mor213 S2'",
+          "HKU205 S2'"
+        ],
+        "quantities": [
+          "Vmax values ranging from 0 to 8 RFU/min"
+        ],
+        "key_distinguishing_features": "This segment focuses on a bar graph comparing the Vmax values of various S2' substrates in the context of Furin activity. The graph includes error bars, indicating variability in the measurements. The substrates are labeled with specific mutations and origins, highlighting differences in their enzymatic activity."
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "video_id": "videos/level_2/video_segments/64484/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.651,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.66275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "image analysis software is open, displaying a red and black speckled image",
+          "software interface shows histogram and analysis options"
+        ],
+        "objects_visible": [
+          "image analysis software window with red and black speckled image",
+          "histogram window with adjustable parameters",
+          "Windows desktop background with Start menu icon"
+        ],
+        "visible_text_labels": [
+          "Histogram",
+          "Process",
+          "Analyze",
+          "Plugins",
+          "Help",
+          "Frequency",
+          "Intensity"
+        ],
+        "quantities": [
+          "red speckles scattered across a black background"
+        ],
+        "key_distinguishing_features": "The segment focuses on a digital image analysis process, with a red and black speckled image being analyzed. The histogram window suggests adjustments to intensity levels, indicating a quantitative analysis phase. The Windows desktop background provides context for the software environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.66275,
+        17.3255
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "viewing a digital image of red fluorescent spots on a black background",
+          "adjusting settings in a software interface"
+        ],
+        "objects_visible": [
+          "a computer screen displaying a scientific software interface",
+          "a window with a histogram and adjustable parameters",
+          "a desktop background with a Windows logo"
+        ],
+        "visible_text_labels": [
+          "Histogram",
+          "Mean",
+          "StdDev",
+          "Min",
+          "Max",
+          "Total",
+          "Process",
+          "Analyze",
+          "Plugins",
+          "Help"
+        ],
+        "quantities": [
+          "numerical values in the histogram window, such as mean, standard deviation, minimum, maximum, and total"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on digital image analysis, with a clear view of red fluorescent spots against a black background. The histogram window suggests quantitative analysis of the image data. The Windows desktop background provides context for the software environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.3255,
+        25.98825
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays red dots on a black background",
+          "user interacts with analysis tools"
+        ],
+        "objects_visible": [
+          "software window with red dots on a black background",
+          "analysis tool window with histogram and options",
+          "Windows desktop background"
+        ],
+        "visible_text_labels": [
+          "Histogram",
+          "Analyze Particles",
+          "Show: Outlines",
+          "Display Results",
+          "Clear Results"
+        ],
+        "quantities": [
+          "numerous red dots scattered across the black background"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where a software interface displays numerous red dots on a black background, likely representing data points. The user interacts with an analysis tool, suggesting a quantitative assessment of the displayed data. The Windows desktop background indicates a typical computer setup for data analysis."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.98825,
+        34.651
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "user interacts with image analysis software",
+          "user selects 'Analyze Particles' option from dropdown menu"
+        ],
+        "objects_visible": [
+          "image analysis software window with red particles on a black background",
+          "Windows taskbar with various application icons",
+          "dropdown menu with analysis options"
+        ],
+        "visible_text_labels": [
+          "Analyze Particles",
+          "Show...",
+          "Display Results",
+          "Add to Manager",
+          "Clear Results",
+          "Exclude on Edges",
+          "Record Starts",
+          "Include Holes",
+          "Summarize",
+          "Clear Results",
+          "Add to Manager",
+          "Exclude on Edges",
+          "Record Starts",
+          "Include Holes",
+          "Summarize"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment shows a user interacting with image analysis software, specifically focusing on analyzing red particles. The dropdown menu for 'Analyze Particles' is prominently displayed, indicating the user is preparing to quantify or analyze the particles. The software interface and Windows desktop background are clearly visible, providing context for the analysis environment."
+      }
+    }
+  ]
+}

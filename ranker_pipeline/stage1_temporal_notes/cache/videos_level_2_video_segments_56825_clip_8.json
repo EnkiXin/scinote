@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/video_segments/56825/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 37.517,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.37925
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand holds a multi-well plate containing cells.",
+          "A pipette is used to transfer a yellow liquid into the wells of the plate."
+        ],
+        "objects_visible": [
+          "A multi-well plate with clear wells containing cells.",
+          "A gloved hand manipulating the plate.",
+          "A pipette with a yellow liquid being dispensed."
+        ],
+        "visible_text_labels": [
+          "EFFECTS OF INHIBITORS ON CELLS MIGRATION"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment shows the initial preparation phase of an experiment, where a researcher is seen handling a multi-well plate and using a pipette to add a yellow liquid, likely an inhibitor, to the cells. The text 'EFFECTS OF INHIBITORS ON CELLS MIGRATION' is prominently displayed, indicating the focus of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.37925,
+        18.7585
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a clear liquid into a multi-well plate",
+          "holds a 1.5mL microtube with a blue cap"
+        ],
+        "objects_visible": [
+          "a gloved hand holding a multi-well plate",
+          "a pipette with a yellow tip",
+          "a 1.5mL microtube with a blue cap",
+          "a second multi-well plate in the background"
+        ],
+        "visible_text_labels": [
+          "1.5mL visible on the microtube"
+        ],
+        "quantities": [
+          "1.5mL capacity of the microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting a clear liquid into a multi-well plate, with a gloved hand ensuring stability. The presence of a second multi-well plate in the background suggests a multi-step process. The blue-capped microtube adds a distinct color contrast to the scene."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.7585,
+        28.137750000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 12-well plate containing pink-colored liquid into a CO2 incubator",
+          "researcher closes the incubator door"
+        ],
+        "objects_visible": [
+          "12-well plate with pink liquid in each well",
+          "CO2 incubator with a digital display",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "Temp (C): 36.9",
+          "CO2 (%): 5.0"
+        ],
+        "quantities": [
+          "36.9\u00b0C temperature",
+          "5.0% CO2 concentration"
+        ],
+        "key_distinguishing_features": "This segment shows the precise placement of a 12-well plate into a CO2 incubator, highlighting the controlled environment settings for cell culture. The digital display on the incubator provides specific temperature and CO2 levels, emphasizing the importance of maintaining these conditions for the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        28.137750000000004,
+        37.517
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small volume of liquid into a well of a multi-well plate",
+          "researcher carefully places the pipette tip into a specific well containing a purple liquid"
+        ],
+        "objects_visible": [
+          "multi-well plate with clear wells containing a purple liquid",
+          "pipette with a fine tip",
+          "researcher's gloved hands",
+          "a clear plastic container in the background"
+        ],
+        "visible_text_labels": [
+          "none"
+        ],
+        "quantities": [
+          "none"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise action of transferring liquid into a multi-well plate, highlighting the careful handling and accuracy required in the experiment. The purple liquid in the wells suggests a specific reagent or sample being used."
+      }
+    }
+  ]
+}

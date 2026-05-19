@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/video_verification/58458/clip_4_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 28.186333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.04658325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a test tube",
+          "researcher holds a test tube with a blue cap"
+        ],
+        "objects_visible": [
+          "pink test tube rack with multiple slots",
+          "test tube with a blue cap",
+          "pipette with a transparent tip",
+          "laboratory countertop with various equipment"
+        ],
+        "visible_text_labels": [
+          "Dilute 2x PDA-NDs with 15-nm-thick PDA coating",
+          "jove"
+        ],
+        "quantities": [
+          "2x PDA-NDs",
+          "15-nm-thick PDA coating"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action into a test tube, emphasizing the preparation of a specific solution. The pink test tube rack and the blue-capped test tube are distinctive elements in the scene."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.04658325,
+        14.0931665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and transfers liquid from a test tube into a microtube",
+          "researcher places the microtube into a foam rack"
+        ],
+        "objects_visible": [
+          "red foam test tube rack with multiple holes",
+          "white foam microtube rack with blue-capped microtubes",
+          "pipette with a clear tip",
+          "test tubes with blue caps",
+          "white lab coat",
+          "blue gloves",
+          "CORNING LSE centrifuge"
+        ],
+        "visible_text_labels": [
+          "Dilute 2x PDA-NDs with 15-nm-thick PDA coating",
+          "CORNING LSE"
+        ],
+        "quantities": [
+          "2x PDA-NDs",
+          "15-nm-thick PDA coating"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of microtubes and test tubes, emphasizing the dilution process of PDA-NDs. The use of a foam rack for organizing the tubes is distinctive, ensuring stability and organization during the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.0931665,
+        21.13974975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a test tube labeled 'Purified DNA'"
+        ],
+        "objects_visible": [
+          "white foam test tube rack with multiple slots",
+          "three test tubes with blue caps and labels",
+          "pipette with a visible plunger",
+          "Corning LSE centrifuge"
+        ],
+        "visible_text_labels": [
+          "Purified DNA",
+          "jove"
+        ],
+        "quantities": [
+          "three test tubes"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid into a labeled test tube using a pipette. The foam rack and centrifuge suggest a laboratory setting. The blue caps on the test tubes are a distinctive feature."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        21.13974975,
+        28.186333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "researcher places microtube into foam holder"
+        ],
+        "objects_visible": [
+          "white foam tube holder with multiple compartments",
+          "two 1.5mL microtubes with blue caps",
+          "black laboratory bench",
+          "CORNING LSF device"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "CORNING LSF"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment shows the precise handling of microtubes, emphasizing the careful placement into a foam holder. The focus is on the labeled microtube, indicating a specific medium (DMEM). The CORNING LSF device in the background suggests a controlled laboratory environment."
+      }
+    }
+  ]
+}

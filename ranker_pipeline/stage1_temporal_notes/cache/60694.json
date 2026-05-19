@@ -1,0 +1,163 @@
+{
+  "video_id": "60694",
+  "benchmark": "scivideobench",
+  "duration_seconds": 416.725333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        104.18133325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person in a dark suit and glasses stands in front of a bookshelf, speaking.",
+          "A person in a gray sweater and glasses stands in front of a whiteboard, speaking."
+        ],
+        "objects_visible": [
+          "A bookshelf filled with binders and books.",
+          "A whiteboard with some writing on it.",
+          "A person wearing a dark suit and glasses.",
+          "A person wearing a gray sweater and glasses."
+        ],
+        "visible_text_labels": [
+          "MYEONGJIN KIM",
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment features two individuals speaking in different settings, one in front of a bookshelf and the other in front of a whiteboard. The text 'MYEONGJIN KIM' and 'JOVE' are visible, indicating the context of a scientific presentation or lecture. There are no visible experimental actions or objects in this segment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        104.18133325,
+        208.3626665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher operates a computer to control a precision positioning system.",
+          "Researcher adjusts the settings on a software interface for a motion control system."
+        ],
+        "objects_visible": [
+          "A computer monitor displaying a software interface for motion control.",
+          "A precision positioning system with a white and blue box labeled 'PIMikroMove 2.2.3.0'.",
+          "A computer mouse and keyboard used by the researcher."
+        ],
+        "visible_text_labels": [
+          "PIMikroMove 2.2.3.0",
+          "Controller macros",
+          "Current Value/Position: 102.0000000 mm"
+        ],
+        "quantities": [
+          "102.0000000 mm (current value/position of the motion control system)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise control of a motion system using a computer interface, highlighting the researcher's interaction with the software. The specific numerical values and labels on the screen provide detailed insight into the system's operation. The presence of a specialized motion control system suggests a high-precision experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        208.3626665,
+        312.54399975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher adjusts the focus knob on a confocal microscope.",
+          "Researcher examines samples under the microscope."
+        ],
+        "objects_visible": [
+          "Confocal microscope with a white body and black eyepieces.",
+          "Samples mounted on microscope slides.",
+          "Microscope stage with a red alignment tool."
+        ],
+        "visible_text_labels": [
+          "Confocal microscope",
+          "PET film (500\u03bcm)",
+          "PMMA film (175\u03bcm)",
+          "PVC film (300\u03bcm)"
+        ],
+        "quantities": [
+          "500\u03bcm thickness of PET film",
+          "175\u03bcm thickness of PMMA film",
+          "300\u03bcm thickness of PVC film"
+        ],
+        "key_distinguishing_features": "This segment focuses on the use of a confocal microscope to observe various film samples of different materials and thicknesses. The researcher meticulously adjusts the microscope settings, emphasizing the precision required in microscopic analysis. The visual comparison of PET, PMMA, and PVC films highlights the differences in their structural properties."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        312.54399975,
+        416.725333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher holds a rectangular sample holder with a transparent film sample attached.",
+          "Researcher carefully places the sample holder into a black rectangular device, likely a testing apparatus."
+        ],
+        "objects_visible": [
+          "A rectangular sample holder with a transparent film sample attached.",
+          "A black rectangular device with a slot for inserting the sample holder.",
+          "A researcher wearing a white lab coat and gloves."
+        ],
+        "visible_text_labels": [
+          "PET film (50\u00b5m)",
+          "PMMA film (175\u00b5m)",
+          "PVC film (300\u00b5m)"
+        ],
+        "quantities": [
+          "50\u00b5m thickness of PET film",
+          "175\u00b5m thickness of PMMA film",
+          "300\u00b5m thickness of PVC film"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling and placement of film samples into a testing device, emphasizing the precise thicknesses of the films. The researcher's careful actions highlight the importance of accurate sample preparation in the experiment."
+      }
+    }
+  ]
+}

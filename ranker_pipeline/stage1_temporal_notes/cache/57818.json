@@ -1,0 +1,165 @@
+{
+  "video_id": "57818",
+  "benchmark": "scivideobench",
+  "duration_seconds": 339.392,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        84.848
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a white lab coat",
+          "researcher holds a small, clear glass vial with a red cap"
+        ],
+        "objects_visible": [
+          "white lab coat with a name tag",
+          "small, clear glass vial with a red cap",
+          "a bottle with a white label and red text",
+          "a digital multimeter with a blue display",
+          "a transparent plastic container with compartments",
+          "a roll of clear tape",
+          "a small, yellow square object with text",
+          "a pair of black-handled scissors",
+          "a metallic box with various knobs and dials"
+        ],
+        "visible_text_labels": [
+          "Kaveh Delfanazari",
+          "University of Cambridge",
+          "II. Two-dimensional Josephson Junction Fabrication"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment highlights the preparation phase of a scientific experiment, with a focus on the researcher's attire and the various laboratory tools and materials laid out on the table. The presence of a digital multimeter and a metallic box with knobs suggests an electrical or electronic component to the experiment. The text labels indicate the researcher's affiliation and the specific topic of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        84.848,
+        169.696
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small, dark-colored object into a cylindrical container labeled '500 mg AuGeNi'",
+          "researcher operates a machine with a digital display and various buttons, adjusting settings"
+        ],
+        "objects_visible": [
+          "cylindrical container with a label reading '500 mg AuGeNi'",
+          "machine with a digital display and control buttons",
+          "researcher wearing a blue protective suit and gloves"
+        ],
+        "visible_text_labels": [
+          "500 mg AuGeNi",
+          "jove"
+        ],
+        "quantities": [
+          "500 mg"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a small, labeled container with a specific mass of material. The researcher's interaction with a specialized machine suggests a controlled process, likely involving measurement or processing of the material. The protective attire indicates a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        169.696,
+        254.54399999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher examines a micrograph of a semiconductor device structure.",
+          "Researcher analyzes a set of electrical measurement curves displayed on a graph."
+        ],
+        "objects_visible": [
+          "Micrograph showing a semiconductor device with labeled regions of InGaAs and Nb.",
+          "Graph displaying multiple curves representing dI/dV measurements at various temperatures."
+        ],
+        "visible_text_labels": [
+          "InGaAs",
+          "Nb",
+          "dI/dV (k\u03a9)",
+          "V (mV)",
+          "University of Cambridge"
+        ],
+        "quantities": [
+          "2 \u03bcm scale bar on the micrograph",
+          "10 \u03bcm scale bar on the micrograph",
+          "Temperature values: 600 mK, 700 mK, 800 mK, 500 mK, 400 mK, 300 mK, 200 mK, 100 mK, 50 mK"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed observation of a semiconductor device's microstructure and its electrical properties at various temperatures. The micrograph and graph provide specific measurements and labels, emphasizing the scientific analysis of the device. The inclusion of the University of Cambridge label suggests an academic or research context."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        254.54399999999998,
+        339.392
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a syringe and injects a small volume of liquid into a petri dish",
+          "researcher observes the petri dish under a microscope"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'DMEM' with a blue cap",
+          "petri dish containing a clear medium",
+          "microscope with an eyepiece and stage"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "petri dish"
+        ],
+        "quantities": [
+          "~200uL of liquid added to petri dish"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a small volume of DMEM medium to a petri dish, followed by microscopic observation. The use of a labeled microtube and the specific volume of liquid highlight the controlled nature of the experiment. The transition from liquid addition to observation under a microscope underscores the experimental progression."
+      }
+    }
+  ]
+}

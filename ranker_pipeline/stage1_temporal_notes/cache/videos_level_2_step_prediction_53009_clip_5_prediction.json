@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/step_prediction/53009/clip_5_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 46.734333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.68358325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a clear plastic container with a mouse inside a larger metal cage"
+        ],
+        "objects_visible": [
+          "clear plastic container with a mouse inside",
+          "metal cage with bedding material",
+          "small metal feeding tray",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one mouse",
+          "one clear plastic container"
+        ],
+        "key_distinguishing_features": "The segment shows a mouse being carefully placed into a controlled environment within a metal cage. The researcher's gloved hand is visible, emphasizing the sterile handling of the animal. The 'jove' logo indicates the video is likely part of a scientific protocol demonstration."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.68358325,
+        23.3671665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "cursor moves to fill in the 'Subject' field with '28'",
+          "cursor moves to fill in the 'Experiment' field with '1'",
+          "cursor moves to fill in the 'Group' field with '0'"
+        ],
+        "objects_visible": [
+          "computer screen displaying a data entry form",
+          "input fields for Subject, Experiment, Group, Comments, and Optional Custom Filename"
+        ],
+        "visible_text_labels": [
+          "Subject",
+          "Experiment",
+          "Group",
+          "Comments",
+          "Optional Custom Filename",
+          "Close",
+          "Previous",
+          "Next"
+        ],
+        "quantities": [
+          "28 (Subject)",
+          "1 (Experiment)",
+          "0 (Group)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the data entry phase of an experiment, specifically inputting numerical values into a digital form. The form fields are clearly labeled, and the cursor's movement is precise as it fills in the required information. The blue background of the screen contrasts with the white form, making the text and fields easily distinguishable."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.3671665,
+        35.05074975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "mouse enters a metal apparatus with a grid floor",
+          "mouse explores the apparatus"
+        ],
+        "objects_visible": [
+          "metal apparatus with a grid floor",
+          "mouse with dark fur",
+          "wood shavings on the grid floor"
+        ],
+        "visible_text_labels": [
+          "Breakpoint",
+          "12.00"
+        ],
+        "quantities": [
+          "12.00"
+        ],
+        "key_distinguishing_features": "The segment focuses on a mouse entering and exploring a metal apparatus with a grid floor, which is likely part of a behavioral experiment. The presence of wood shavings on the floor suggests an attempt to provide a familiar environment for the mouse. The 'Breakpoint' label with a value of '12.00' indicates a specific measurement or timing parameter in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.05074975,
+        46.734333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small, dark-colored animal into a transparent, enclosed testing apparatus",
+          "researcher adjusts the position of the animal within the apparatus"
+        ],
+        "objects_visible": [
+          "transparent testing apparatus with a grid floor",
+          "small, dark-colored animal (likely a mouse or rat)",
+          "researcher's gloved hand wearing a blue glove",
+          "metallic components of the apparatus"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful placement of a small animal into a specialized testing apparatus, highlighting the precision required in handling the subject. The transparent nature of the apparatus allows for clear observation of the animal's movements. The researcher's gloved hand indicates adherence to sterile or controlled conditions."
+      }
+    }
+  ]
+}

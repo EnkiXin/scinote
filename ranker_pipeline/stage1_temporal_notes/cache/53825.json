@@ -1,0 +1,158 @@
+{
+  "video_id": "53825",
+  "benchmark": "scivideobench",
+  "duration_seconds": 653.589333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        163.39733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person wearing purple gloves handles a clear plastic container with a red and black object inside.",
+          "The person places the container on a white surface next to a white plastic jug."
+        ],
+        "objects_visible": [
+          "A clear plastic container with a red and black object inside.",
+          "A white plastic jug with a handle.",
+          "A white surface, possibly a lab bench."
+        ],
+        "visible_text_labels": [
+          "Jonathan Ting",
+          "Allen Institute for Brain Science",
+          "Procedures involving animal subjects have been approved by the Institutional Animal Care and Use Committee (IACUC) at the Allen Institute for Brain Science"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment highlights the initial setup phase of an experiment, with a focus on the handling of a specific container. The presence of text labels provides context about the researcher and institutional approval for animal procedures. The scene is set in a laboratory environment, indicated by the use of gloves and lab equipment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        163.39733325,
+        326.7946665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 50mL conical tube with a blue cap",
+          "researcher uses forceps to manipulate a small, light-colored object within a petri dish",
+          "researcher places a petri dish containing a specimen into a blue container filled with ice"
+        ],
+        "objects_visible": [
+          "50mL conical tube with a blue cap",
+          "petri dish containing a specimen",
+          "forceps with black handles",
+          "blue container filled with ice cubes",
+          "specimen with a light-colored, possibly organic structure"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "50mL conical tube",
+          "blue container filled with ice"
+        ],
+        "key_distinguishing_features": "This segment highlights the careful handling of a specimen using forceps and the use of ice to maintain a controlled temperature. The presence of a 50mL conical tube suggests the preparation or storage of a liquid sample. The 'jove' watermark indicates the video is part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        326.7946665,
+        490.19199975000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'NMDA' with a blue cap",
+          "pipettes ~200uL of a clear liquid from the microtube into a petri dish",
+          "researcher places the petri dish on a magnetic stirrer",
+          "researcher adjusts the speed of the magnetic stirrer using a dial"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'NMDA'",
+          "petri dish containing a clear liquid",
+          "magnetic stirrer with a black stir bar",
+          "pipette with a blue plunger",
+          "laboratory bench with a printed table and a digital scale"
+        ],
+        "visible_text_labels": [
+          "NMDA",
+          "Table 2: Appropriate solution for perfusion cells according to protocol"
+        ],
+        "quantities": [
+          "200uL",
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a clear liquid from a labeled microtube into a petri dish, followed by the use of a magnetic stirrer. The presence of a printed table and a digital scale on the bench suggests a highly controlled experimental setup. The actions are methodical, emphasizing the importance of accurate liquid handling in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        490.19199975000004,
+        653.589333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "man speaks directly to the camera"
+        ],
+        "objects_visible": [
+          "man with short brown hair wearing a plaid shirt",
+          "large window with a view of a cityscape in the background"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment is distinctive as it features a man speaking directly to the camera, likely explaining or narrating the scientific content. The background includes a large window with a cityscape view, adding context to the setting. The JOVE logo is visible, indicating the video's source or affiliation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "video_id": "videos/level_2/video_segments/56127/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 55.535,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.88375
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [],
+        "objects_visible": [
+          "Two rectangular samples placed on a light blue surface: one blue labeled 'Si' and one yellow labeled 'ZnO'"
+        ],
+        "visible_text_labels": [
+          "Si",
+          "ZnO"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment showcases two distinct samples, one silicon (Si) and one zinc oxide (ZnO), placed side by side for comparison. The samples are clearly labeled, and their colors and materials are distinct, suggesting a focus on material properties. There are no actions or measurements being performed in this segment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.88375,
+        27.7675
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Displays top view and cross-sectional images of a nanostructured material"
+        ],
+        "objects_visible": [
+          "A) Top View Image showing a dense array of hexagonal nanostructures",
+          "B) Cross-sectional Image revealing the vertical alignment of the nanostructures"
+        ],
+        "visible_text_labels": [
+          "A) Top View Image",
+          "B) Cross-sectional Image",
+          "500 nm",
+          "1 \u03bcm",
+          "jove"
+        ],
+        "quantities": [
+          "500 nm scale bar in the top view image",
+          "1 \u03bcm scale bar in the cross-sectional image"
+        ],
+        "key_distinguishing_features": "This segment distinctly shows two types of microscopic images of a nanostructured material, emphasizing both the top view and cross-sectional perspectives. The scale bars provide precise measurements, highlighting the nanoscale dimensions of the structures. The images are presented in grayscale, focusing on the structural details rather than color."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        27.7675,
+        41.65125
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [],
+        "objects_visible": [
+          "three grayscale microscopic images labeled A), B), and C)",
+          "a graph with axes labeled 'Intensity, a.u.' and '2 theta, degree'"
+        ],
+        "visible_text_labels": [
+          "A)",
+          "B)",
+          "C)",
+          "100 nm",
+          "1 \u03bcm",
+          "10 \u03bcm",
+          "Intensity, a.u.",
+          "2 theta, degree",
+          "20",
+          "30",
+          "40",
+          "50",
+          "60",
+          "70",
+          "80"
+        ],
+        "quantities": [
+          "100 nm scale bar in image A)",
+          "1 \u03bcm scale bar in image B)",
+          "10 \u03bcm scale bar in image C)"
+        ],
+        "key_distinguishing_features": "This segment features a static display of microscopic images and a graph, indicating a focus on structural analysis at different scales. The images show varying levels of detail, from nanometer to micrometer scales, while the graph likely represents data related to material properties or crystalline structure. There are no active actions or manipulations observed in this segment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        41.65125,
+        55.535
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Displays TEM and HRTEM images of a nanomaterial"
+        ],
+        "objects_visible": [
+          "TEM image of a cylindrical nanomaterial with a scale bar of 500 nm",
+          "HRTEM image showing atomic lattice planes with a scale bar of 2 nm"
+        ],
+        "visible_text_labels": [
+          "TEM",
+          "HRTEM",
+          "Growth direction",
+          "0.26 nm",
+          "500 nm",
+          "2 nm",
+          "Intensity, a. u.",
+          "2 theta, degree",
+          "(100)",
+          "(002)",
+          "(101)",
+          "(102)",
+          "(110)",
+          "(103)",
+          "(201)",
+          "(004)"
+        ],
+        "quantities": [
+          "500 nm (scale bar in TEM image)",
+          "2 nm (scale bar in HRTEM image)",
+          "0.26 nm (interplanar spacing in HRTEM image)"
+        ],
+        "key_distinguishing_features": "This segment distinctly shows high-resolution TEM images of a nanomaterial, highlighting its structural features and growth direction. The HRTEM image provides detailed lattice spacing, which is crucial for material characterization. The accompanying XRD pattern further supports the crystallographic analysis of the material."
+      }
+    }
+  ]
+}

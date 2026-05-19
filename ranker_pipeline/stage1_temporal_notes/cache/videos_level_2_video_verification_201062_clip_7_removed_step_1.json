@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/video_verification/201062/clip_7_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 19.524,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.881
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into a multi-well plate"
+        ],
+        "objects_visible": [
+          "researcher's gloved hand holding a pipette",
+          "transparent multi-well plate with multiple compartments",
+          "orange tube rack holding a small tube with a blue cap",
+          "text on the tube labeled 'Primuline'"
+        ],
+        "visible_text_labels": [
+          "Primuline",
+          "Alternatively, keep cells in blocking buffer at 4 \u00b0C overnight"
+        ],
+        "quantities": [
+          "~200uL of liquid being pipetted"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action into a multi-well plate, with a focus on the labeled tube 'Primuline' and the specific instruction text on the screen. The orange tube rack and the researcher's gloved hand are distinctive elements."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.881,
+        9.762
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Primary' with a blue cap",
+          "pipettes a clear liquid from the microtube into a multi-well plate"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "multi-well plate with clear wells",
+          "orange test tube rack holding a microtube",
+          "blue pipette with a transparent tip"
+        ],
+        "visible_text_labels": [
+          "Primary"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action from a labeled microtube into a multi-well plate, emphasizing the careful handling of samples. The orange test tube rack and the blue pipette add color contrast to the scene, highlighting the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.762,
+        14.643
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a multi-well plate"
+        ],
+        "objects_visible": [
+          "transparent multi-well plate with multiple compartments",
+          "orange test tube rack holding a Falcon tube",
+          "researcher's gloved hand",
+          "pipette with a clear tip"
+        ],
+        "visible_text_labels": [
+          "FALCON"
+        ],
+        "quantities": [
+          "~200uL of liquid dispensed into each well"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid into a multi-well plate, highlighting the use of a pipette. The orange test tube rack and Falcon tube provide context for the laboratory setting. The researcher's gloved hand ensures sterility during the process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        14.643,
+        19.524
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a 96-well plate"
+        ],
+        "objects_visible": [
+          "96-well plate with clear wells",
+          "orange test tube rack holding a 15mL Falcon tube with a blue cap",
+          "pipette with a transparent tip"
+        ],
+        "visible_text_labels": [
+          "3 wash cycles of 10 min each, RT"
+        ],
+        "quantities": [
+          "3 wash cycles",
+          "10 min each"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action into a 96-well plate, indicating a step in a multi-step protocol. The text overlay specifies the wash cycle conditions, emphasizing the procedural detail. The orange test tube rack and Falcon tube add context to the laboratory setting."
+      }
+    }
+  ]
+}

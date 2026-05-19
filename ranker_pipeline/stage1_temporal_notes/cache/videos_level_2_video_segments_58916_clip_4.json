@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/58916/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.631,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.90775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a red valve on a gas cylinder",
+          "researcher connects a small, clear plastic tube to a brass fitting"
+        ],
+        "objects_visible": [
+          "yellow gas cylinder with a red valve",
+          "brass fittings and gauges on a metal panel",
+          "purple nitrile gloves",
+          "white lab coat",
+          "clear plastic tube",
+          "metal piping and clamps"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "red valve on the gas cylinder"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a gas cylinder's valve and the connection of a tube, highlighting the preparation phase of an experiment involving gas flow. The researcher's hands are gloved, emphasizing safety protocols. The setup includes detailed metal fittings and gauges, indicating a controlled environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.90775,
+        17.8155
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a brass valve with a red handle using a wrench",
+          "researcher holds a wrench in the left hand and a brass valve in the right hand"
+        ],
+        "objects_visible": [
+          "purple nitrile gloves",
+          "white lab coat",
+          "brass valve with a red handle",
+          "metallic laboratory support frame",
+          "white plastic container with a blue label",
+          "black tubing connected to the support frame"
+        ],
+        "visible_text_labels": [
+          "blue label on the white plastic container"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a brass valve using a wrench, highlighting the researcher's hands and the tools involved. The laboratory setup includes a metallic frame and various connected components, emphasizing a controlled experimental environment. The purple gloves and white lab coat indicate a sterile and professional setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.8155,
+        26.72325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a valve on a gas cylinder with gloved hands",
+          "researcher connects a pressure gauge to a gas cylinder"
+        ],
+        "objects_visible": [
+          "gas cylinder with red and blue valves",
+          "pressure gauge with a metallic body and a clear dial",
+          "white lab coat worn by the researcher",
+          "purple gloves on the researcher's hands",
+          "metallic pipes and tubing forming part of the setup"
+        ],
+        "visible_text_labels": [
+          "CARBON DIOXIDE"
+        ],
+        "quantities": [
+          "pressure gauge reading not clearly visible"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of gas equipment, highlighting the researcher's interaction with valves and gauges. The presence of a carbon dioxide label indicates the specific type of gas being used. The researcher's gloved hands emphasize the importance of safety and precision in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.72325,
+        35.631
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a clear glass beaker with a metal clamp",
+          "researcher uses a white squeeze bulb to draw liquid into a pipette",
+          "researcher places a white squeeze bulb on a metal stand",
+          "researcher opens a stainless steel oven with a blue handle and retrieves a glass container"
+        ],
+        "objects_visible": [
+          "clear glass beaker with measurement markings",
+          "white squeeze bulb with a yellow label",
+          "metal clamp with orange and black handles",
+          "stainless steel oven with a blue handle",
+          "glass container inside the oven"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "beaker with measurement markings up to 100 mL"
+        ],
+        "key_distinguishing_features": "This segment shows the researcher actively using laboratory equipment, such as a squeeze bulb and a metal clamp, to manipulate a liquid in a beaker. The retrieval of a glass container from a stainless steel oven indicates a step involving temperature control. The presence of the 'jove' logo suggests this is part of a scientific demonstration video."
+      }
+    }
+  ]
+}

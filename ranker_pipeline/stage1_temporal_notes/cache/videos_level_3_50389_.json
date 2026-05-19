@@ -1,0 +1,167 @@
+{
+  "video_id": "videos/level_3/50389_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 387.882667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        96.97066675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher holds a syringe and prepares it for use.",
+          "A gloved hand sprays a white substance onto a white surface."
+        ],
+        "objects_visible": [
+          "A syringe with a needle attached.",
+          "A white surface, possibly a table or counter.",
+          "A gloved hand holding a spray bottle."
+        ],
+        "visible_text_labels": [
+          "Accelerated Type 1 Diabetes Induction in Mice by Adoptive Transfer of Diabetogenic CD4+ T Cells",
+          "Gregory Berry and Hanspeter Waldner",
+          "Department of Microbiology & Immunology, Pennsylvania State University",
+          "II. Isolation of T Cells from Spleen and Lymph Nodes of BDC2.5 Mice"
+        ],
+        "quantities": [
+          "n=5 (number of NOD.SCID recipients)"
+        ],
+        "key_distinguishing_features": "This segment introduces the research topic and setup, focusing on the preparation of materials and the isolation of T cells from specific mouse strains. The text labels provide context for the study's objectives and authors. The visual elements highlight the initial steps in the experimental process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        96.97066675,
+        193.9413335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher uses a pipette to transfer a small volume of liquid from the microtube into a petri dish",
+          "researcher places the petri dish containing the liquid into a centrifuge",
+          "researcher operates the centrifuge by adjusting the settings and closing the lid"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "pipette with a pink-colored liquid",
+          "petri dish containing a small volume of liquid",
+          "centrifuge with a digital display and control panel",
+          "red test tube rack holding multiple tubes"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL",
+          "small volume of liquid"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube labeled 'DMEM' and the subsequent transfer of its contents into a petri dish. The use of a centrifuge highlights a critical step in the experimental process. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        193.9413335,
+        290.91200025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a microtube",
+          "researcher places the microtube into a green rack"
+        ],
+        "objects_visible": [
+          "green microtube rack with multiple compartments",
+          "pipette with a blue plunger",
+          "microtube with a black cap",
+          "yellow microtube rack with multiple compartments",
+          "red microtube cap on the lab bench"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "volume of liquid dispensed is not specified"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of microtubes and the use of a pipette, highlighting the careful and methodical nature of the experiment. The green and yellow racks provide a clear organizational structure for the microtubes. The presence of the 'jove' logo suggests this is part of a professional scientific video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        290.91200025,
+        387.882667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher observes and points to a graph on a screen",
+          "Researcher gestures towards specific data points on the graph"
+        ],
+        "objects_visible": [
+          "Graph displaying 'Cumulative T1D [%]' on the y-axis and 'Days post T cell transfer' on the x-axis",
+          "Researcher wearing a white lab coat with a name tag"
+        ],
+        "visible_text_labels": [
+          "1-2 x 10^6 cells 100% incidence",
+          "NOD.SCID recipients (n=5)",
+          "Days post T cell transfer",
+          "Cumulative T1D [%]"
+        ],
+        "quantities": [
+          "1-2 x 10^6 cells",
+          "100% incidence",
+          "n=5"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of a graph related to T cell transfer and incidence of T1D. The researcher is actively engaging with the data, pointing out specific details. The graph includes precise numerical data and labels, emphasizing the experimental outcomes."
+      }
+    }
+  ]
+}

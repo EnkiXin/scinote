@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/video_segments/201866/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.531,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.63275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments manipulate tissue within an exposed thoracic cavity",
+          "a gloved hand adjusts a retractor to maintain exposure"
+        ],
+        "objects_visible": [
+          "exposed heart with visible chambers and vessels",
+          "metallic surgical retractor with a chain handle",
+          "gauze pads surrounding the surgical site",
+          "yellowish fur of the animal subject"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a detailed view of a surgical procedure on an animal's heart, with clear visibility of the internal structures and the use of specialized surgical tools. The presence of the 'jove' watermark indicates this is a scientific or educational video. The focus is on the precise manipulation of the heart tissue."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.63275,
+        19.2655
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A surgical instrument is inserted into the exposed heart cavity.",
+          "The instrument manipulates the heart tissue, possibly for suturing or examination."
+        ],
+        "objects_visible": [
+          "A metallic surgical instrument with a curved tip.",
+          "A heart with visible chambers and sutures.",
+          "A retractor holding the chest cavity open.",
+          "A white gauze pad partially covering the surgical area.",
+          "A chain with metallic beads, likely part of the surgical setup."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure on a heart, with a focus on the precise manipulation of the heart tissue using a specialized instrument. The presence of sutures and the retractor indicates an ongoing surgical intervention. The gauze and metallic chain add to the detailed surgical environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.2655,
+        28.898249999999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a scalpel to carefully cut through tissue within an exposed surgical area.",
+          "The hand adjusts the position of a metallic retractor to maintain exposure of the surgical site."
+        ],
+        "objects_visible": [
+          "A scalpel with a metallic blade and black handle.",
+          "A metallic retractor with a chain attached, holding the tissue open.",
+          "Exposed internal tissues and organs of an animal, including visible blood vessels and connective tissue.",
+          "A gloved hand wearing a blue surgical glove."
+        ],
+        "visible_text_labels": [
+          "joVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on precise surgical techniques, highlighting the use of a scalpel and retractor in a controlled surgical environment. The exposed tissues and the careful manipulation by the gloved hand emphasize the delicate nature of the procedure. The presence of the 'joVE' logo indicates a scientific or educational context."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        28.898249999999997,
+        38.531
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher adjusts a transparent, flexible tube connected to a mechanical ventilation system.",
+          "Researcher manipulates a small, metallic clamp to secure the tube in place."
+        ],
+        "objects_visible": [
+          "A transparent, flexible tube with a blue cap, connected to a mechanical ventilation system.",
+          "A metallic clamp with a black handle, used to secure the tube.",
+          "A surgical setup with a white cloth covering the subject, revealing an exposed area with visible tissue and blood.",
+          "A complex array of medical equipment, including tubes, wires, and a control panel."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The tube appears to be approximately 1.5mm in diameter."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a ventilation tube and clamp, highlighting the meticulous nature of the procedure. The presence of visible blood and exposed tissue indicates an invasive surgical process. The researcher's gloved hands emphasize the sterile environment required for the experiment."
+      }
+    }
+  ]
+}

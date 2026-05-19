@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/video_verification/54752/clip_5_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 36.663047,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.16576175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher opens the sample compartment of a UV-1600PC Spectrophotometer",
+          "researcher places a cuvette into the sample compartment"
+        ],
+        "objects_visible": [
+          "UV-1600PC Spectrophotometer with a digital display and keypad",
+          "a cuvette being handled with gloved fingers",
+          "a white lab coat and gloves worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "UV-1600PC Spectrophotometer",
+          "Photometry",
+          "0.342 Abs",
+          "600.0 nm"
+        ],
+        "quantities": [
+          "0.342 Abs",
+          "600.0 nm"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a cuvette into a spectrophotometer, highlighting the measurement phase of an experiment. The digital display shows specific absorbance and wavelength values, indicating the instrument's active role in data collection. The researcher's gloved hand ensures contamination-free handling of the sample."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.16576175,
+        18.3315235
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully inserts it into a test tube in a red rack",
+          "researcher withdraws the pipette, likely after aspirating a liquid sample"
+        ],
+        "objects_visible": [
+          "red test tube racks with multiple test tubes",
+          "yellow test tube rack with no tubes",
+          "blue pipette tip box with green tips",
+          "researcher's gloved hands performing the action"
+        ],
+        "visible_text_labels": [
+          "jove logo in the top right corner"
+        ],
+        "quantities": [
+          "multiple test tubes in the red rack"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of test tubes and pipettes, emphasizing the careful insertion of the pipette into a test tube. The presence of multiple racks and pipette tips suggests a multi-step process. The researcher's gloved hands highlight the importance of sterility in the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.3315235,
+        27.497285249999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "hand in white glove inserts pipette tip into a blue container",
+          "pipette is used to transfer liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "hand wearing a white latex glove",
+          "pipette with a white handle",
+          "blue container with a black opening",
+          "petri dish with a clear lid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of inserting a pipette tip into a container, likely for liquid aspiration. The hand's careful handling of the pipette highlights the controlled nature of the experiment. The petri dish suggests a biological or chemical application."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.497285249999997,
+        36.663047
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a clear petri dish with a light yellowish medium",
+          "pipettes a small volume of liquid into the petri dish"
+        ],
+        "objects_visible": [
+          "clear petri dish with a light yellowish medium",
+          "pipette with a fine tip",
+          "researcher's gloved hand holding the petri dish",
+          "researcher's gloved hand holding the pipette"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid (exact volume not specified)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of adding a liquid to a petri dish, likely for culturing purposes. The researcher's gloved hands and the use of a pipette highlight the sterile technique. The petri dish contains a light yellowish medium, suggesting it is prepared for microbial or cell culture."
+      }
+    }
+  ]
+}

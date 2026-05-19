@@ -1,0 +1,150 @@
+{
+  "video_id": "videos/level_2/video_segments/59358/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.181,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.54525
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 15mL conical tube with red cap",
+          "researcher places the conical tube into a white metal rack"
+        ],
+        "objects_visible": [
+          "white metal rack with grid structure",
+          "15mL conical tube with red cap",
+          "blue-gloved hand",
+          "white textured surface underneath the rack"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "15mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful placement of a 15mL conical tube into a metal rack, emphasizing the preparation phase. The red cap and blue-gloved hand are distinctive visual elements. The white textured surface provides a clean background for the activity."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.54525,
+        17.0905
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher uses tweezers to place a small, dark object on a white strip",
+          "researcher measures the distance between the dark object and a purple spot on the strip using a ruler"
+        ],
+        "objects_visible": [
+          "white strip with a purple spot and a dark object",
+          "metal ruler with clear markings",
+          "tweezers held by gloved hands",
+          "white textured surface underneath the strip and ruler"
+        ],
+        "visible_text_labels": [],
+        "quantities": [
+          "distance between the dark object and the purple spot is approximately 6.5 cm"
+        ],
+        "key_distinguishing_features": "The segment focuses on precise measurement, with the researcher carefully placing a small object and using a ruler for accurate distance determination. The white strip with distinct markings serves as a key element for the measurement process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.0905,
+        25.635749999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small, white, cylindrical object into a circular, dark-colored chamber of a blue machine",
+          "researcher closes the lid of the blue machine"
+        ],
+        "objects_visible": [
+          "blue machine with a circular chamber and a lid",
+          "small, white, cylindrical object",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a small object into a specialized machine, indicating a step in a controlled scientific process. The blue machine and the circular chamber are distinctive features of this segment. The researcher's careful handling suggests the importance of this step in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.635749999999998,
+        34.181
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher stands and observes computer screen",
+          "researcher interacts with computer using mouse"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a graph",
+          "computer keyboard and mouse",
+          "desktop computer tower",
+          "blue table with laboratory equipment",
+          "window showing bicycles parked outside"
+        ],
+        "visible_text_labels": [
+          "RVL on the lab coat"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is focused on analyzing data displayed on the computer screen, indicating a phase of observation. The laboratory setting is well-lit with natural light from the window, and the presence of bicycles outside suggests a typical research facility environment. The blue table in the background holds additional laboratory equipment, emphasizing the research context."
+      }
+    }
+  ]
+}

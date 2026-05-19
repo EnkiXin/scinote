@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/59555/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.175,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.04375
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a small, transparent square cover slip on a microscope slide",
+          "researcher adjusts the microscope stage to position the slide under the objective lens"
+        ],
+        "objects_visible": [
+          "microscope with a black objective lens and stage",
+          "transparent square cover slip",
+          "microscope slide",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a cover slip on a microscope slide, highlighting the initial steps of sample preparation. The researcher's gloved hand ensures sterility, and the microscope's objective lens is clearly visible, indicating the setup for microscopic examination."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.04375,
+        16.0875
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher adjusts the microscope stage",
+          "researcher looks through the microscope eyepiece"
+        ],
+        "objects_visible": [
+          "microscope with a labeled objective lens",
+          "researcher wearing blue gloves",
+          "petri dish on the microscope stage"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "objective lens labeled '10x'"
+        ],
+        "key_distinguishing_features": "The researcher is carefully positioning a petri dish under the microscope, ensuring it is aligned for observation. The focus is on the precise adjustment of the microscope stage, highlighting the meticulous nature of the observation process. The 'jove' logo is prominently displayed, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.0875,
+        24.131249999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher looks through the eyepieces of a microscope",
+          "researcher adjusts the microscope's focus knobs"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and a face mask",
+          "Olympus brand microscope with dual eyepieces",
+          "computer monitor displaying a microscopic image and software interface",
+          "temperature display on the microscope showing 37.0\u00b0C"
+        ],
+        "visible_text_labels": [
+          "OLYMPUS",
+          "37.0\u00b0C"
+        ],
+        "quantities": [
+          "37.0\u00b0C"
+        ],
+        "key_distinguishing_features": "The segment focuses on the researcher observing a sample under a microscope, with a clear view of the microscope's brand and the temperature setting. The computer screen shows a live microscopic image, indicating real-time observation. The researcher's precise adjustments to the microscope suggest a detailed examination process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.131249999999998,
+        32.175
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher views sample through microscope",
+          "computer screen displays magnified image of sample"
+        ],
+        "objects_visible": [
+          "Olympus microscope with dual eyepieces",
+          "computer monitor showing software interface and magnified sample image",
+          "labeled components including 'GV solution', 'Cover glass (CG)', 'Objective lens', 'Heat stage', 'double-faced seal'"
+        ],
+        "visible_text_labels": [
+          "GV solution",
+          "Cover glass (CG)",
+          "Objective lens",
+          "Heat stage",
+          "double-faced seal",
+          "OLYMPUS"
+        ],
+        "quantities": [
+          "70 (temperature reading on microscope display)"
+        ],
+        "key_distinguishing_features": "This segment highlights the detailed setup of a microscope for observing a sample, with specific components labeled for clarity. The computer screen provides a live, magnified view of the sample, indicating an active observation phase. The temperature reading on the microscope suggests controlled environmental conditions for the experiment."
+      }
+    }
+  ]
+}

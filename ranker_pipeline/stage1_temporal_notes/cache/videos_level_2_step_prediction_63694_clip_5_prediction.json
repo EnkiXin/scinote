@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/step_prediction/63694/clip_5_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.4514,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.61285
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a transparent plastic sheet with black specks",
+          "researcher tilts the sheet to observe the specks"
+        ],
+        "objects_visible": [
+          "transparent plastic sheet with black specks",
+          "researcher wearing a white lab coat, gloves, and a face mask"
+        ],
+        "visible_text_labels": [
+          "Insect Disinfection",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of an experiment involving insect disinfection. The researcher is handling a transparent sheet with visible black specks, likely insects, and the setting suggests a controlled laboratory environment. The presence of protective gear indicates a focus on safety and sterility."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.61285,
+        15.2257
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a clear glass beaker containing a light yellow liquid",
+          "researcher places the beaker on a white paper towel"
+        ],
+        "objects_visible": [
+          "researcher wearing blue gloves and a white lab coat",
+          "clear glass beaker with a light yellow liquid",
+          "white paper towel",
+          "plastic bottle with an orange cap and a label",
+          "empty clear glass beaker",
+          "digital scale",
+          "white tissue paper",
+          "brown object resembling a sponge"
+        ],
+        "visible_text_labels": [
+          "label on the plastic bottle with an orange cap"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully handling a beaker with a light yellow liquid, suggesting a preparation step in the experiment. The presence of a digital scale and other laboratory items indicates a controlled environment. The white paper towel under the beaker suggests an effort to maintain cleanliness and prevent spills."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.2257,
+        22.838549999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours liquid from a 500mL bottle into a petri dish covered with a white cloth",
+          "researcher holds the petri dish steady with one hand while pouring with the other"
+        ],
+        "objects_visible": [
+          "500mL bottle with an orange cap",
+          "petri dish covered with a white cloth featuring a black logo",
+          "clear liquid being poured",
+          "red rubber stopper on the lab bench"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "500mL bottle"
+        ],
+        "key_distinguishing_features": "The segment shows a careful pouring action, emphasizing the controlled transfer of liquid into a petri dish. The white cloth covering the petri dish is distinctive, suggesting a protective or sterile measure. The orange cap of the bottle contrasts with the clear liquid, making the action visually clear."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.838549999999998,
+        30.4514
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher unfolds a white cloth or tissue",
+          "researcher holds the cloth with both gloved hands"
+        ],
+        "objects_visible": [
+          "white cloth or tissue",
+          "blue nitrile gloves",
+          "white lab coat",
+          "beaker with clear liquid",
+          "petri dish with a wooden stick",
+          "brown box in the background"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully handling a white cloth, possibly for cleaning or preparing a surface. The focus is on the meticulous handling of the cloth, indicating a preparatory step in the experiment. The background includes laboratory equipment, emphasizing a controlled environment."
+      }
+    }
+  ]
+}

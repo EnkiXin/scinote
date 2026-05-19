@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/video_segments/1942/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.108,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.527
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Wipes the injection site of a mouse with a swab containing 70% ethanol"
+        ],
+        "objects_visible": [
+          "Mouse in a transparent restraint tube",
+          "Blue-gloved hand holding a swab",
+          "Gold-colored perforated tray"
+        ],
+        "visible_text_labels": [
+          "Wipe the injection site with 70% ethanol prior to injection",
+          "jove"
+        ],
+        "quantities": [
+          "70% ethanol"
+        ],
+        "key_distinguishing_features": "The mouse is securely restrained in a transparent tube, ensuring it remains still. The swab is being used to clean the injection site, emphasizing the importance of sterility. The gold-colored tray provides a distinct background for the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.527,
+        19.054
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe and a thin, flexible tube",
+          "researcher connects the tube to the syringe"
+        ],
+        "objects_visible": [
+          "blue-gloved hands",
+          "transparent syringe with measurement markings",
+          "pink flexible tube",
+          "plastic container with a grid pattern"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "length of the tube is approximately 10 cm"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of connecting a thin, pink tube to a syringe, highlighting the careful handling by gloved hands. The background includes a plastic container with a grid, suggesting a controlled laboratory environment. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.054,
+        28.580999999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe and a thin, flexible tube",
+          "researcher carefully inserts the syringe into the tube, ensuring a secure connection"
+        ],
+        "objects_visible": [
+          "a syringe with a visible plunger and measurement markings",
+          "a thin, flexible tube with a pinkish hue",
+          "a transparent container with a white substance inside, possibly a gel or paste",
+          "a blue-gloved hand manipulating the syringe and tube"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "the syringe appears to have a capacity of 1 mL, as indicated by the measurement markings"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a syringe and a flexible tube, highlighting the careful insertion of the syringe into the tube. The presence of a transparent container with a white substance suggests a controlled laboratory environment. The blue-gloved hand emphasizes the sterile and meticulous nature of the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        28.580999999999996,
+        38.108
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette with a fine tip and carefully places it into a small, transparent container",
+          "researcher uses the pipette to transfer a small amount of a pinkish liquid from the container into a petri dish"
+        ],
+        "objects_visible": [
+          "transparent container with a grid-like base",
+          "petri dish with a yellowish grid pattern",
+          "pipette with a fine tip",
+          "pinkish liquid being transferred",
+          "researcher's hands wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small amount of liquid (volume not specified)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a pinkish liquid using a pipette, highlighting the careful handling and accuracy required in the experiment. The use of a grid-patterned petri dish and container suggests a controlled environment for the experiment. The researcher's gloved hands emphasize the importance of maintaining sterility."
+      }
+    }
+  ]
+}

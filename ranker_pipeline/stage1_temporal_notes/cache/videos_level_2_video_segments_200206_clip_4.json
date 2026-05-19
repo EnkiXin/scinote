@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_segments/200206/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 64.157,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        16.03925
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope captures and displays a fluorescent image of a biological sample",
+          "software interface adjusts parameters for image analysis"
+        ],
+        "objects_visible": [
+          "computer screen displaying a scientific software interface",
+          "fluorescent image of a biological sample with purple coloration",
+          "various control panels and settings within the software"
+        ],
+        "visible_text_labels": [
+          "Image",
+          "Waveform",
+          "Camera",
+          "ROI",
+          "Acquisition",
+          "jove"
+        ],
+        "quantities": [
+          "ROI dimensions: 100x100 pixels",
+          "Exposure time: 100 ms"
+        ],
+        "key_distinguishing_features": "The segment focuses on the observation phase of an experiment, where a fluorescent biological sample is being imaged and analyzed using specialized software. The interface displays various adjustable parameters, indicating a detailed and controlled observation process. The image transitions from a focused view of a single cell-like structure to a dispersed pattern of fluorescent particles."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        16.03925,
+        32.0785
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays real-time imaging data",
+          "user interacts with software controls"
+        ],
+        "objects_visible": [
+          "software interface with multiple panels",
+          "live imaging data with purple and black coloration",
+          "various control sliders and buttons"
+        ],
+        "visible_text_labels": [
+          "Acquisition",
+          "Image",
+          "Total camera time",
+          "Camera settings"
+        ],
+        "quantities": [
+          "1000 ms (exposure time)",
+          "10000 (gain setting)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on real-time imaging data analysis, with a detailed software interface showing live cell imaging. The user interacts with various controls, adjusting parameters like exposure time and gain. The purple and black coloration in the imaging data suggests fluorescent labeling of cells."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        32.0785,
+        48.11775
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"observation\",\n  \"actions_observed\": [\"software interface displays real-time imaging data\", \"user interacts with software controls\"],\n  \"objects_visible\": [\"software interface with multiple panels\", \"live imaging data with purple dots\", \"control sliders and buttons\"],\n  \"visible_text_labels\": [\"CH1: RINCH1, CH2: RINCH2\", \"Start/End\", \"Motor\", \"WaveForm\", \"jove\"],\n  \"quantities\": [\"30 "
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        48.11775,
+        64.157
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays real-time imaging data",
+          "image processing parameters are adjusted"
+        ],
+        "objects_visible": [
+          "software interface with multiple panels",
+          "image of fluorescently labeled cells",
+          "parameter sliders and input fields"
+        ],
+        "visible_text_labels": [
+          "ROI Manager",
+          "Image Display",
+          "Total capture time",
+          "Next capture"
+        ],
+        "quantities": [
+          "1000 ms exposure time",
+          "100 frames",
+          "1000 ms interval"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase of the experiment, where real-time imaging data of fluorescently labeled cells is displayed and analyzed. The software interface includes detailed parameter controls for image acquisition and processing. The image of the cells shows a clear fluorescent signal, indicating successful labeling."
+      }
+    }
+  ]
+}

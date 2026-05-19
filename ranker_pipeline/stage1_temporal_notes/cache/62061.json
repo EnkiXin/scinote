@@ -1,0 +1,173 @@
+{
+  "video_id": "62061",
+  "benchmark": "scivideobench",
+  "duration_seconds": 445.098667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        111.27466675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person wearing a denim jacket and a black shirt stands in a laboratory setting, speaking to the camera.",
+          "A gloved hand holds a small glass vial labeled 'C600' and places it into a white foam block with pre-cut holes."
+        ],
+        "objects_visible": [
+          "A white foam block with pre-cut holes for vials.",
+          "A small glass vial labeled 'C600'.",
+          "A laboratory background with shelves containing various bottles and containers."
+        ],
+        "visible_text_labels": [
+          "C600",
+          "Metabolite Extraction",
+          "KARAMAT MOHAMMAD",
+          "CONCORDIA UNIVERSITY",
+          "jove"
+        ],
+        "quantities": [
+          "One vial labeled 'C600'."
+        ],
+        "key_distinguishing_features": "This segment features a person introducing a scientific procedure in a laboratory setting. The focus is on the preparation phase, specifically the handling and placement of a labeled vial into a foam block. The background and text labels provide context for the research environment and the specific experiment being conducted."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        111.27466675,
+        222.5493335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher operates a high-performance liquid chromatography (HPLC) machine by adjusting settings on the control panel.",
+          "Researcher injects a sample into the HPLC system using a syringe."
+        ],
+        "objects_visible": [
+          "HPLC machine with a digital display showing various parameters.",
+          "Syringe with a clear liquid sample.",
+          "Control panel with buttons and a screen displaying chromatography settings."
+        ],
+        "visible_text_labels": [
+          "Column type: SeQuant ZIC-pHILIC 5um polymer 150 x 2.1 mm",
+          "Solvent A: LC-MS grade H2O: ACN (95:5, v/v) 20 mM Ammonium acetate",
+          "Solvent B: LC-MS grade Acetonitrile (ACN)",
+          "Pressure limit: Maximum = 300 bar, Minimum = 0",
+          "HPLC gradient program with time, flow rate, and compositions."
+        ],
+        "quantities": [
+          "Column dimensions: 150 x 2.1 mm",
+          "Pressure limit: Maximum = 300 bar",
+          "Flow rate: 0.25 mL/min at various time points."
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed setup and operation of an HPLC machine for metabolite separation. The specific parameters and gradient program are clearly displayed, emphasizing the precision required in the experiment. The researcher's interaction with the machine highlights the technical skills needed for such analyses."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        222.5493335,
+        333.82400025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'Sample 1' with a blue cap.",
+          "Pipettes approximately 200uL of a clear liquid from the microtube into a petri dish."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap labeled 'Sample 1'",
+          "Petri dish containing a clear liquid",
+          "Pipette with a blue tip",
+          "Blue plastic rack for microtubes"
+        ],
+        "visible_text_labels": [
+          "Sample 1",
+          "See text for quenching details"
+        ],
+        "quantities": [
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a specific volume of liquid from a labeled microtube into a petri dish, emphasizing the controlled nature of the experiment. The presence of a blue cap and the specific label 'Sample 1' on the microtube highlight the importance of sample identification in the process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        333.82400025,
+        445.098667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The video displays a comparison of cell quenching methods using microscopic images and data tables.",
+          "The video transitions to a man speaking in a laboratory setting."
+        ],
+        "objects_visible": [
+          "Microscopic images of cells with varying conditions labeled as 'Control', 'Our method of cell quenching', and 'Currently used method of cell quenching'.",
+          "A data table showing metabolite retention times and shifts for different columns.",
+          "A man in a denim jacket standing in a laboratory environment."
+        ],
+        "visible_text_labels": [
+          "Control",
+          "Our method of cell quenching: 60% (v/v) methanol at -20\u00b0C with an isotonic buffered solution of ABC at pH = 8.0",
+          "Control",
+          "Currently used method of cell quenching: 80% (v/v) methanol at -40\u00b0C without a buffer",
+          "Reverse-phase Zorbax Eclipse Plus C18 column",
+          "Zwitterionic-phase ZIC-pHILIC column",
+          "KARAMAT MOHAMMAD",
+          "CONCORDIA UNIVERSITY"
+        ],
+        "quantities": [
+          "15 \u03bcm scale bar in microscopic images",
+          "Retention time shifts such as 7.8 seconds for NAD+ in the Zorbax column and 19.2 seconds in the ZIC-pHILIC column",
+          "p-values like 9.80E-05 and 2.40E-03 in the data table"
+        ],
+        "key_distinguishing_features": "This segment distinctly compares different cell quenching methods through visual and numerical data, highlighting the effectiveness of each method. The transition to a person speaking in a lab setting suggests an explanation or discussion of the results. The detailed data table provides specific retention times and shifts for various metabolites under different conditions."
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "video_id": "videos/level_2/video_segments/61666/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 69.522,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        17.3805
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays flow cytometry data",
+          "user interacts with data visualization tools"
+        ],
+        "objects_visible": [
+          "scatter plots showing cell populations",
+          "histograms of DCV measurements",
+          "gate and statistics table with numerical data"
+        ],
+        "visible_text_labels": [
+          "ALL Events",
+          "Cells",
+          "Simple Cells",
+          "DCV",
+          "Gates and Statistics",
+          "Displaying 100,000 of 100,000 events"
+        ],
+        "quantities": [
+          "100,000 events",
+          "17.77% of events in gate",
+          "15.53% of events in gate"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its detailed flow cytometry analysis, with multiple scatter plots and histograms visualizing cell populations and DCV measurements. The user interface includes a gate and statistics table, providing precise numerical data for the observed cell populations. The segment focuses on the observation and analysis phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        17.3805,
+        34.761
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The software interface updates to display new data points in the scatter plots.",
+          "The user adjusts the gate settings, altering the color distribution in the plots."
+        ],
+        "objects_visible": [
+          "A complex software interface with multiple scatter plots and histograms.",
+          "A table labeled 'Gates and Statistics' showing numerical data.",
+          "A sidebar with controls for adjusting gate settings and viewing options."
+        ],
+        "visible_text_labels": [
+          "Gates and Statistics",
+          "DCV vs. FSC-A",
+          "DCV vs. SSC-A",
+          "DCV vs. FSC-A (blue)",
+          "DCV vs. SSC-A (blue)"
+        ],
+        "quantities": [
+          "100,000 - 100,000 events displayed in the scatter plots.",
+          "Gate statistics showing percentages like 99.95% and 0.05%"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on real-time data analysis, with the user actively manipulating gate settings to refine the displayed data. The interface is densely packed with visual data, emphasizing a detailed observation phase. The color-coded scatter plots dynamically update as the user makes adjustments."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        34.761,
+        52.14150000000001
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays multiple scatter plots and 3D visualizations",
+          "user interacts with the software, highlighting different data clusters"
+        ],
+        "objects_visible": [
+          "scatter plots with data points in various colors",
+          "3D visualization of data clusters",
+          "software interface with multiple tabs and options",
+          "histogram plots",
+          "text labels for different data sets"
+        ],
+        "visible_text_labels": [
+          "sanger lanes",
+          "AC_BIG",
+          "AC_1",
+          "DSV: wsc 488 nm",
+          "DSV: Black Shift 488 nm",
+          "DSV: wsc APC 647 nm"
+        ],
+        "quantities": [
+          "data points in scatter plots",
+          "3D visualization of data clusters"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on data visualization and analysis, with multiple scatter plots and 3D visualizations displayed. The user interacts with the software, highlighting different data clusters, indicating an active observation phase. The presence of specific text labels for different data sets further emphasizes the detailed analysis being conducted."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        52.14150000000001,
+        69.522
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays multiple scatter plots and histograms",
+          "user interacts with the software, highlighting specific data points"
+        ],
+        "objects_visible": [
+          "scatter plots with various color-coded data points",
+          "histograms showing distribution of data",
+          "software interface with multiple tabs and toolbars",
+          "text labels for different data categories"
+        ],
+        "visible_text_labels": [
+          "AC_BIG",
+          "AC_1",
+          "Sanger Lens",
+          "VLV",
+          "AC_BIG",
+          "VLV",
+          "DSI vs APC",
+          "DSI vs APC"
+        ],
+        "quantities": [
+          "data points in scatter plots",
+          "histogram bars indicating frequency"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on data visualization, with multiple scatter plots and histograms displayed. The user interacts with the software, highlighting specific data points, indicating an analysis phase. The interface is complex, with various tabs and toolbars suggesting a detailed examination of the data."
+      }
+    }
+  ]
+}

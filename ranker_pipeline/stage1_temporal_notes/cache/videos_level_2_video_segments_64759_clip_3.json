@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/video_segments/64759/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 36.144,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.036
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1000 mL Erlenmeyer flask with a white funnel inserted",
+          "researcher pours a clear liquid from a beaker into the funnel"
+        ],
+        "objects_visible": [
+          "1000 mL Erlenmeyer flask with white funnel",
+          "clear beaker containing a liquid",
+          "blue box with a white lid",
+          "white lab coat with 'OSU' and 'Oregon State University' text",
+          "various lab equipment in the background"
+        ],
+        "visible_text_labels": [
+          "OSU",
+          "Oregon State University"
+        ],
+        "quantities": [
+          "1000 mL Erlenmeyer flask"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a clear liquid is being transferred into a 1000 mL Erlenmeyer flask using a funnel. The researcher's attire and the visible lab environment suggest a controlled scientific setting. The presence of the 'OSU' logo on the lab coat adds a specific institutional context."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.036,
+        18.072
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a white funnel with a white liquid inside",
+          "researcher places the funnel on top of a glass flask"
+        ],
+        "objects_visible": [
+          "white funnel with white liquid",
+          "glass flask with a narrow neck",
+          "blue box with white contents",
+          "beaker with a yellow label",
+          "purple gloves",
+          "white lab coat with 'OSU' logo"
+        ],
+        "visible_text_labels": [
+          "OSU"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring a liquid using a funnel, highlighting the careful handling of laboratory equipment. The presence of the 'OSU' logo on the lab coat suggests an affiliation with a specific institution. The funnel and flask setup is central to the activity being performed."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.072,
+        27.107999999999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small glass vial with a purple liquid inside",
+          "researcher uses a pipette to transfer a small volume of liquid from the vial into a conical flask"
+        ],
+        "objects_visible": [
+          "a conical flask with a white funnel inserted",
+          "a pipette with a blue plunger",
+          "a small glass vial containing a purple liquid",
+          "a white lab coat worn by the researcher",
+          "a white plastic container with a purple lid in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a purple liquid from a vial to a conical flask using a pipette. The researcher's gloved hands are prominently featured, emphasizing the careful handling of the materials. The background includes various lab equipment, suggesting a well-equipped laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.107999999999997,
+        36.144
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a conical flask with a blue cap and a clear liquid inside",
+          "researcher connects a clear plastic tube to the flask's stopper"
+        ],
+        "objects_visible": [
+          "conical flask with a blue cap and clear liquid",
+          "clear plastic tube connected to the flask",
+          "white funnel with a yellow liquid inside",
+          "various laboratory equipment and containers in the background"
+        ],
+        "visible_text_labels": [
+          "CH1 on a container in the background"
+        ],
+        "quantities": [
+          "clear liquid in the conical flask (quantity not specified)"
+        ],
+        "key_distinguishing_features": "The researcher is actively connecting a tube to a flask, indicating a step in a fluid transfer or filtration process. The presence of a funnel with a yellow liquid suggests a multi-step procedure. The background contains various lab items, emphasizing a typical laboratory setting."
+      }
+    }
+  ]
+}

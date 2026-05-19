@@ -1,0 +1,165 @@
+{
+  "video_id": "videos/level_2/video_verification/50969/clip_6_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.854367,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.21359175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher uses a pipette to transfer liquid from the microtube"
+        ],
+        "objects_visible": [
+          "blue microtube rack with multiple slots",
+          "pipette with a red plunger",
+          "white lab coat",
+          "blue nitrile gloves",
+          "black lab bench",
+          "white paper towel",
+          "three pipettes with different colored tips (orange, yellow, and black)"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where a researcher is handling a microtube labeled 'DMEM'. The use of a pipette to transfer liquid from the microtube is a key action. The blue microtube rack and the variety of pipette tips are distinctive elements in the scene."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.21359175,
+        16.4271835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand adjusts a knob on a temperature control device labeled 'QUANTUM NORTHWEST'."
+        ],
+        "objects_visible": [
+          "A temperature control device with a digital display showing '25.0\u00b0C', a knob with a red indicator light, and a gloved hand making adjustments."
+        ],
+        "visible_text_labels": [
+          "TEMPERATURE CONTROL",
+          "QUANTUM NORTHWEST",
+          "25.0\u00b0C"
+        ],
+        "quantities": [
+          "25.0\u00b0C"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a temperature control device, highlighting the digital display and the gloved hand's interaction with the knob. The red indicator light on the knob adds a distinctive visual element."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.4271835,
+        24.640775250000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A gloved hand adjusts a knob on the temperature control device."
+        ],
+        "objects_visible": [
+          "A temperature control device labeled 'QUANTUM NORTHWEST' with a digital display.",
+          "A gloved hand interacting with the device."
+        ],
+        "visible_text_labels": [
+          "Holder = 23.95 \u00b0C",
+          "Target = 35.54 \u00b0C",
+          "TEMPERATURE CONTROL",
+          "QUANTUM NORTHWEST",
+          "run/stop",
+          "stir",
+          "seeking",
+          "holding",
+          "fault"
+        ],
+        "quantities": [
+          "23.95 \u00b0C",
+          "35.54 \u00b0C"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a temperature control device, highlighting the current and target temperatures. The gloved hand indicates a controlled and sterile environment, typical in laboratory settings. The digital display provides clear, real-time temperature readings."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.640775250000004,
+        32.854367
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a small component on the optical table"
+        ],
+        "objects_visible": [
+          "optical table with a grid pattern",
+          "metallic rods and clamps",
+          "small electronic device with wires",
+          "computer monitor displaying a graph",
+          "black shelving unit with equipment"
+        ],
+        "visible_text_labels": [
+          "TEMPERATURE CONTROL QUANTUM NORTHWEST"
+        ],
+        "quantities": [
+          "23.95 \u00b0C (Holder temperature)",
+          "35.00 \u00b0C (Target temperature)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the researcher's hand manipulating a small component on the optical table, indicating a precise adjustment. The background includes a temperature control unit and a computer monitor, suggesting a controlled experimental setup. The environment is a well-equipped laboratory with various scientific instruments."
+      }
+    }
+  ]
+}

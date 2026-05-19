@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/57332/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 53.377,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.34425
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher holds a wooden stick with a yellow measuring tape attached",
+          "researcher adjusts the position of the wooden stick and measuring tape over a bucket"
+        ],
+        "objects_visible": [
+          "gray plastic bucket filled with wood shavings",
+          "wooden stick with handwritten markings",
+          "yellow measuring tape",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "handwritten markings on the wooden stick"
+        ],
+        "quantities": [
+          "length measurement indicated by the yellow measuring tape"
+        ],
+        "key_distinguishing_features": "The segment focuses on a precise measurement activity involving a bucket of wood shavings. The researcher uses a wooden stick with a yellow measuring tape to take a specific measurement. The handwritten markings on the stick suggest a customized approach to the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.34425,
+        26.6885
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher stirs a mixture of straw-like material in a large gray bucket with a wooden stick",
+          "researcher adjusts a yellow and black device connected to a white hose, possibly a pump or filter, near a series of gray buckets"
+        ],
+        "objects_visible": [
+          "large gray bucket filled with brown straw-like material",
+          "wooden stick used for stirring",
+          "yellow and black device with a white hose",
+          "several gray buckets with green labels",
+          "researcher wearing a striped shirt and gloves"
+        ],
+        "visible_text_labels": [
+          "green label on a gray bucket with text that is not fully legible"
+        ],
+        "quantities": [
+          "one large gray bucket",
+          "multiple gray buckets in the background"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where the researcher is actively mixing materials in a bucket and adjusting equipment. The presence of straw-like material and the use of a wooden stick for stirring are distinctive features. The yellow and black device connected to a hose suggests a setup for filtration or aeration."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        26.6885,
+        40.03275
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher uses a yellow measuring tape to measure the depth of wood shavings in a large gray bucket",
+          "researcher adjusts the wood shavings with gloved hands"
+        ],
+        "objects_visible": [
+          "gray plastic bucket filled with wood shavings",
+          "yellow measuring tape with black markings",
+          "white gloves on the researcher's hands",
+          "white tube partially visible"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "measuring tape shows a depth of approximately 10 inches"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of wood shavings in a bucket, highlighting the use of a yellow measuring tape. The researcher's gloved hands are actively involved in adjusting the shavings for accurate measurement. The presence of a white tube suggests additional equipment in the setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        40.03275,
+        53.377
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a clear liquid from a bottle into a large, circular, metallic container with a central hub and radial spokes",
+          "researcher uses a long, thin tool to stir the liquid inside the container"
+        ],
+        "objects_visible": [
+          "a large, circular, metallic container with a central hub and radial spokes",
+          "a clear plastic bottle with a label",
+          "a long, thin tool used for stirring",
+          "a white measuring tape placed on the table",
+          "a black bucket with a white hose attached",
+          "a white bucket with a black hose attached"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "the liquid appears to be poured in a substantial volume, filling a significant portion of the container"
+        ],
+        "key_distinguishing_features": "The segment is distinctive due to the large, circular metallic container with a unique design, and the researcher's careful pouring and stirring actions. The presence of the measuring tape suggests precision in the experiment. The hoses attached to the buckets indicate a setup for liquid handling or drainage."
+      }
+    }
+  ]
+}

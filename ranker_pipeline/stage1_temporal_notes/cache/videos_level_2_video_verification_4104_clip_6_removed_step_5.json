@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/video_verification/4104/clip_6_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.517367,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.87934175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a pipette to add a clear liquid to a central well on a white square block containing circular patterns."
+        ],
+        "objects_visible": [
+          "A white square block with a central metallic well surrounded by black circular patterns.",
+          "A gloved hand holding a pipette.",
+          "A clear liquid being dispensed from the pipette."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The amount of liquid added is not quantified, but it appears to be a small volume."
+        ],
+        "key_distinguishing_features": "The segment is distinctive due to the precise addition of liquid to a central well on a patterned block, suggesting a controlled experimental setup. The presence of a gloved hand and pipette indicates a laboratory environment. The 'jove' label suggests this is part of a scientific demonstration video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.87934175,
+        23.7586835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a wooden stick to manipulate a small, dark, circular object on a white cutting board.",
+          "The dark object is pressed into a clear, viscous substance spread on the cutting board."
+        ],
+        "objects_visible": [
+          "A white, square cutting board with a grid of circular patterns etched into it.",
+          "A small, dark, circular object resembling a lens or a similar item.",
+          "A wooden stick used for manipulation.",
+          "A gloved hand wearing a blue nitrile glove."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment is distinctive for the precise manipulation of a small, dark object using a wooden stick on a patterned cutting board. The presence of a viscous substance and the careful handling suggest a controlled scientific procedure. The blue-gloved hand adds a professional touch to the activity."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.7586835,
+        35.63802525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a metal punch tool to extract circular samples from a white, semi-transparent block",
+          "researcher places the extracted sample onto a white cloth using tweezers"
+        ],
+        "objects_visible": [
+          "metal punch tool with a cylindrical cutting edge",
+          "white, semi-transparent block with circular markings",
+          "white cloth for sample placement",
+          "tweezers held by gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple circular samples extracted from the block"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise extraction of circular samples using a metal punch tool, highlighting the methodical handling of the samples with tweezers. The white block with pre-marked circles suggests a controlled and repeatable sampling process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.63802525,
+        47.517367
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a white cloth and wipes a small, metallic object",
+          "researcher places the cleaned object into a green circuit board slot"
+        ],
+        "objects_visible": [
+          "researcher's hands wearing blue nitrile gloves",
+          "white cloth used for cleaning",
+          "small metallic object being cleaned",
+          "green circuit board with multiple slots and a blue cable connected",
+          "laboratory background with various equipment and containers"
+        ],
+        "visible_text_labels": [
+          "V. Coin Cell Testing"
+        ],
+        "quantities": [
+          "one metallic object",
+          "one green circuit board slot"
+        ],
+        "key_distinguishing_features": "This segment focuses on the meticulous cleaning and placement of a small metallic object into a circuit board, emphasizing precision in handling. The background laboratory setting suggests a controlled environment for testing. The text 'V. Coin Cell Testing' indicates the specific phase of the experiment."
+      }
+    }
+  ]
+}

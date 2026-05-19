@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/62771/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 31.177,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.79425
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 96-well plate with an orange sealing tape",
+          "researcher adjusts the position of the 96-well plate"
+        ],
+        "objects_visible": [
+          "96-well plate with black and clear wells",
+          "orange sealing tape",
+          "purple nitrile gloves",
+          "white paper with printed grid and numbers"
+        ],
+        "visible_text_labels": [
+          "numbers 1 to 12 on the white paper grid",
+          "letters A to H on the white paper grid"
+        ],
+        "quantities": [
+          "96 wells in the plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a 96-well plate, emphasizing the use of an orange sealing tape for securing the wells. The researcher's gloved hands are prominently featured, indicating a sterile environment. The printed grid and numbers on the paper suggest a systematic approach to organizing the samples."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.79425,
+        15.5885
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 96-well plate with a clear lid and orange frame",
+          "researcher carefully places the lid on the plate, ensuring it is securely closed"
+        ],
+        "objects_visible": [
+          "96-well plate with a clear lid and orange frame",
+          "researcher's hands wearing purple nitrile gloves",
+          "a white sheet of paper with printed text and numbers",
+          "a clear plastic storage box with a blue handle"
+        ],
+        "visible_text_labels": [
+          "numbers and letters on the 96-well plate indicating well positions"
+        ],
+        "quantities": [
+          "96 wells on the plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a 96-well plate, emphasizing the precision required in laboratory procedures. The orange frame on the lid is a distinctive feature, likely aiding in the secure closure of the plate. The presence of a printed sheet suggests detailed documentation or instructions are part of the process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.5885,
+        23.38275
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places brown paper towels into a clear plastic container with compartments"
+        ],
+        "objects_visible": [
+          "clear plastic container with black edges and blue handle",
+          "brown paper towels",
+          "compartment with a grid of small holes",
+          "orange ruler"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple brown paper towels"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where the researcher is organizing brown paper towels into a multi-compartment container. The container's design, with a grid of small holes in one compartment, is distinctive. The presence of an orange ruler suggests measurements may be involved in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.38275,
+        31.177
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a transparent plastic container with a blue handle",
+          "researcher places the container on a metal rack"
+        ],
+        "objects_visible": [
+          "transparent plastic container with a blue handle",
+          "metal rack with a grid pattern",
+          "researcher's hand wearing a purple glove"
+        ],
+        "visible_text_labels": [
+          "25\u00b0C",
+          "Humidity controlled",
+          "12 h light:dark cycles"
+        ],
+        "quantities": [
+          "25\u00b0C",
+          "12 h light:dark cycles"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a controlled environment, as indicated by the text labels specifying temperature and humidity conditions. The researcher's gloved hand suggests a sterile or controlled handling process. The container is placed on a metal rack, likely for incubation or storage."
+      }
+    }
+  ]
+}

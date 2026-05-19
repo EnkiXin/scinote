@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_verification/58818/clip_1_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.770375,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.44259375
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a large white incubator with a blue handle",
+          "researcher reaches into the incubator with gloved hands"
+        ],
+        "objects_visible": [
+          "white lab coat on the researcher",
+          "black refrigerator in the background",
+          "incubator with a digital display showing 'Thermo' brand",
+          "cardboard box on the floor next to the incubator",
+          "small white equipment with a digital display on the left side of the frame"
+        ],
+        "visible_text_labels": [
+          "Thermo"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase as the researcher interacts with a large incubator. The researcher's gloved hands are visible as they reach into the incubator, indicating a sterile environment. The surrounding lab equipment and the digital display on the incubator add context to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.44259375,
+        16.8851875
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a test tube",
+          "researcher places the test tube into a rack"
+        ],
+        "objects_visible": [
+          "blue-gloved hand",
+          "pipette with a white tip",
+          "test tube with a clear liquid",
+          "blue test tube rack",
+          "orange plastic bag on the counter"
+        ],
+        "visible_text_labels": [
+          "Adjust culture volume as necessary for other species of interest"
+        ],
+        "quantities": [
+          "amount of liquid dispensed is not specified"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of liquid transfer using a pipette. The researcher's gloved hand and the presence of a text overlay provide context for adjusting culture volumes. The orange plastic bag adds a distinct visual element to the workspace."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.8851875,
+        25.32778125
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher places the microtube into a vortex mixer labeled 'VORTEX GENIE 2'"
+        ],
+        "objects_visible": [
+          "a vortex mixer labeled 'VORTEX GENIE 2' with a blue and white label",
+          "a 1.5mL microtube with a blue cap labeled 'DMEM'",
+          "a glass jar labeled 'WASTE' containing purple beads",
+          "a plastic bottle with a label reading 'SKH'"
+        ],
+        "visible_text_labels": [
+          "VORTEX GENIE 2",
+          "DMEM",
+          "WASTE",
+          "SKH",
+          "See text for all buffers and media"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the use of a vortex mixer to agitate a microtube containing DMEM. The presence of a waste jar with purple beads and a labeled bottle suggests a controlled laboratory environment. The text overlay indicates additional information is available in the accompanying text."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.32778125,
+        33.770375
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a large, frost-covered freezer door",
+          "researcher reaches into the freezer and retrieves a container"
+        ],
+        "objects_visible": [
+          "large freezer with frost on the interior walls",
+          "researcher wearing a white lab coat and blue gloves",
+          "container being retrieved from the freezer",
+          "laboratory shelves in the background with various equipment and supplies"
+        ],
+        "visible_text_labels": [
+          "Extended incubation at high temperature may result in degradation of polyP"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the retrieval of a container from a frost-covered freezer, emphasizing the cold storage conditions. The frost on the freezer's interior is a distinctive feature, indicating the low temperature necessary for the experiment. The text overlay provides a cautionary note about high-temperature incubation effects."
+      }
+    }
+  ]
+}

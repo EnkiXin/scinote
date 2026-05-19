@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/video_verification/54614/clip_4_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 74.629367,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        18.65734175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a funnel into a clear plastic container",
+          "researcher pours a brown granular substance from a jar into the funnel"
+        ],
+        "objects_visible": [
+          "a clear plastic container with a red stripe",
+          "a funnel with a white handle",
+          "a jar with a blue label containing a brown granular substance",
+          "a digital scale with a white surface",
+          "a black countertop with a sink and a faucet",
+          "a wall with a grid of white objects resembling syringes"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "the jar appears to be about half full of the brown granular substance"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a substance, with the researcher carefully pouring a granular material into a container using a funnel. The setting is a laboratory environment, indicated by the presence of a digital scale and a wall with syringes. The researcher's actions are deliberate and precise."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        18.65734175,
+        37.3146835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a clear glass petri dish with a red label on a black lab bench",
+          "researcher opens a second petri dish containing a white substance, possibly powder or granules",
+          "researcher uses a small spatula to transfer white granules from a container into a beaker"
+        ],
+        "objects_visible": [
+          "clear glass petri dish with a red label",
+          "second petri dish with a white substance",
+          "beaker with measurement markings",
+          "container with white granules",
+          "small spatula",
+          "black lab bench"
+        ],
+        "visible_text_labels": [
+          "red label on petri dish (text not fully legible)",
+          "measurement markings on beaker (100 mL)"
+        ],
+        "quantities": [
+          "beaker capacity: 100 mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of materials, specifically the handling of petri dishes and the transfer of granular substances. The use of a spatula for transferring materials is a distinctive action. The red label on the petri dish suggests it is designated for a specific purpose in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        37.3146835,
+        55.97202525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher places the microtube into a boiling liquid inside a glass container"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "boiling liquid in a glass container",
+          "red hose connected to the glass container",
+          "laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "Boil CHCl\u2083 for 30 sec 3x"
+        ],
+        "quantities": [
+          "30 seconds",
+          "3 times"
+        ],
+        "key_distinguishing_features": "The segment focuses on the boiling process of CHCl\u2083, with a specific instruction to boil for 30 seconds three times. The researcher's precise handling of the microtube is highlighted, emphasizing the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        55.97202525,
+        74.629367
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher places the microtube into a boiling liquid in a glass beaker"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "glass beaker containing a boiling liquid",
+          "red coiled tubing connected to a vacuum or pressure system",
+          "researcher wearing a beige lab coat and white gloves"
+        ],
+        "visible_text_labels": [
+          "Boil CHCl\u2083 for 30 sec 3x"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "30 seconds"
+        ],
+        "key_distinguishing_features": "The segment focuses on the boiling process of a chloroform (CHCl\u2083) solution, emphasizing the specific timing of 30 seconds. The researcher's careful handling of the microtube and the boiling apparatus highlights the precision required in this step."
+      }
+    }
+  ]
+}

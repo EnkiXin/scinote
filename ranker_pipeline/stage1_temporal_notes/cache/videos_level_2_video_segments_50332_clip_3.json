@@ -1,0 +1,183 @@
+{
+  "video_id": "videos/level_2/video_segments/50332/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 27.67,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.9175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places tubes into centrifuge chamber",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "centrifuge with open lid revealing four tubes in a rotor",
+          "blue plastic container with white contents",
+          "researcher wearing white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "10 ml PBS + 0.02% EDTA",
+          "RT",
+          "3x",
+          "10 min",
+          "120 x g",
+          "BECKMAN",
+          "GS-6R Centrifuge"
+        ],
+        "quantities": [
+          "10 ml",
+          "0.02%",
+          "3x",
+          "10 min",
+          "120 x g"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher carefully placing tubes into a centrifuge, indicating a step in sample preparation. The centrifuge settings are clearly displayed, specifying the conditions for the centrifugation process. The environment suggests a laboratory setting with a focus on precision and controlled conditions."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.9175,
+        13.835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube with a clear liquid",
+          "researcher uses a pipette to transfer liquid from a bottle into the conical tube"
+        ],
+        "objects_visible": [
+          "15mL conical tube with a clear liquid",
+          "pipette with a long tip",
+          "bottle with a white cap and label",
+          "red and blue plastic rack",
+          "white bottle with a label",
+          "small white container with a red cap",
+          "white container with a blue label"
+        ],
+        "visible_text_labels": [
+          "10 ml PBS + 0.02% EDTA",
+          "RT",
+          "3x",
+          "10 min",
+          "120 x g"
+        ],
+        "quantities": [
+          "15mL conical tube",
+          "10 ml PBS + 0.02% EDTA"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer process using a pipette, emphasizing the careful handling of laboratory materials. The presence of specific text labels on the screen provides context for the experimental conditions. The researcher's actions are methodical, focusing on the accurate measurement and transfer of liquids."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.835,
+        20.7525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a clear glass bottle with a label and a black cap",
+          "researcher uses a pipette to transfer liquid into the glass bottle"
+        ],
+        "objects_visible": [
+          "clear glass bottle with a label and a black cap",
+          "pipette with a white handle and black tip",
+          "red and blue plastic rack",
+          "white plastic bottle with a white cap",
+          "small white container with a red cap",
+          "white box with a blue lid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "the liquid being transferred appears to be a small volume, likely in microliters"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette into a labeled glass bottle. The presence of various laboratory items like the plastic rack and containers suggests a controlled experimental setup. The researcher's gloved hands emphasize the importance of maintaining a sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        20.7525,
+        27.67
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube labeled 'PBS + 0.02% EDTA' with a white cap",
+          "researcher uses a pipette to transfer liquid from the conical tube into a test tube"
+        ],
+        "objects_visible": [
+          "15mL conical tube with a white cap and handwritten label",
+          "pipette with a blue tip",
+          "test tube held in the researcher's hand",
+          "red test tube rack with empty slots",
+          "white container with blue lid containing pipette tips",
+          "metal vent in the background"
+        ],
+        "visible_text_labels": [
+          "PBS + 0.02% EDTA",
+          "10 min",
+          "120 x g",
+          "RT"
+        ],
+        "quantities": [
+          "15mL conical tube",
+          "10 minutes",
+          "120 x g",
+          "room temperature (RT)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a solution labeled 'PBS + 0.02% EDTA,' emphasizing the specific conditions of 10 minutes at 120 x g and room temperature. The use of a pipette for transferring liquid highlights the controlled nature of the experiment."
+      }
+    }
+  ]
+}

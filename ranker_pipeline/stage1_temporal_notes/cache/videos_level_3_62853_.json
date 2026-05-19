@@ -1,0 +1,175 @@
+{
+  "video_id": "videos/level_3/62853_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 535.36,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        133.84
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a laboratory incubator with a digital display showing '37\u00b0C'",
+          "researcher places a petri dish inside the incubator"
+        ],
+        "objects_visible": [
+          "laboratory incubator with a digital temperature display",
+          "petri dish with a transparent lid",
+          "researcher wearing a white lab coat, blue gloves, and a blue face mask"
+        ],
+        "visible_text_labels": [
+          "37\u00b0C"
+        ],
+        "quantities": [
+          "37\u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase where a petri dish is placed inside an incubator set to 37\u00b0C. The researcher's attire and the use of the incubator highlight a controlled laboratory environment. The digital display on the incubator is a key feature, indicating the precise temperature setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        133.84,
+        267.68
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Mitochondria' with an orange cap",
+          "pipettes ~200uL of a clear liquid from the microtube into a labeled well on a yellow 96-well plate"
+        ],
+        "objects_visible": [
+          "yellow 96-well plate with labeled wells",
+          "microtube labeled 'Mitochondria' with an orange cap",
+          "pipette with a white tip",
+          "text overlay indicating 'Mitochondria: 10 mg/mL, 200 \u00b5L is ~ 2 mg protein'",
+          "text overlay with a caution: 'Wear Gloves as PMSF is Highly Toxic'"
+        ],
+        "visible_text_labels": [
+          "Mitochondria: 10 mg/mL, 200 \u00b5L is ~ 2 mg protein",
+          "CAUTION: Wear Gloves as PMSF is Highly Toxic"
+        ],
+        "quantities": [
+          "10 mg/mL",
+          "200 \u00b5L",
+          "2 mg protein"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise pipetting of a mitochondrial solution into a well plate, emphasizing the importance of handling toxic substances like PMSF with gloves. The specific concentration and volume of the solution are highlighted for accuracy."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        267.68,
+        401.52
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Smp' with an orange cap",
+          "researcher places the microtube into a yellow 96-well plate",
+          "researcher uses a pipette to transfer a clear liquid from a test tube into a well of the plate"
+        ],
+        "objects_visible": [
+          "yellow 96-well plate with numbered wells",
+          "microtube with an orange cap labeled 'Smp'",
+          "pipette with a blue plunger",
+          "test tube with a clear liquid and an orange cap"
+        ],
+        "visible_text_labels": [
+          "Smp",
+          "1",
+          "2",
+          "3"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "96-well plate"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of microtubes and the transfer of liquid into a 96-well plate, highlighting the meticulous nature of the experiment. The use of a labeled microtube and a numbered plate ensures accurate tracking of samples. The researcher's gloved hands emphasize the importance of maintaining a sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        401.52,
+        535.36
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "zooms in on a Western blot image showing protein bands",
+          "highlights specific protein bands with a yellow box"
+        ],
+        "objects_visible": [
+          "Western blot image with labeled protein bands",
+          "protein markers such as porin, \u03b1-KGD, and Prx1",
+          "protein samples labeled as Mit, S, SMP, CS, and CP"
+        ],
+        "visible_text_labels": [
+          "porin",
+          "\u03b1-KGD",
+          "Prx1",
+          "Mit",
+          "S",
+          "SMP",
+          "CS",
+          "CP",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "quantities": [
+          "protein bands at specific molecular weights (e.g., 37 kDa, 50 kDa, 25 kDa)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the analysis of a Western blot, specifically highlighting the presence of certain proteins in different samples. The use of a yellow box to emphasize specific bands suggests a detailed examination of the results. The labels and molecular weight markers provide context for the protein analysis."
+      }
+    }
+  ]
+}

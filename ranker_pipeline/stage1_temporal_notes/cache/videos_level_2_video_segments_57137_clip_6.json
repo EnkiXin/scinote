@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/57137/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.696,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.674
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher holds a digital pH meter and inserts it into a container labeled 'SUCROSE 1%'"
+        ],
+        "objects_visible": [
+          "digital pH meter displaying a reading of 5.35",
+          "container labeled 'SUCROSE 1%' with a yellowish liquid",
+          "container labeled 'WATER' with a clear liquid",
+          "container labeled 'SPECIAL WATER' with a green label",
+          "red bucket in the background"
+        ],
+        "visible_text_labels": [
+          "SUCROSE 1%",
+          "WATER",
+          "SPECIAL WATER",
+          "5.35"
+        ],
+        "quantities": [
+          "5.35 pH reading"
+        ],
+        "key_distinguishing_features": "The segment focuses on measuring the pH of a sucrose solution, with a clear emphasis on the digital pH meter and its reading. The setup includes multiple labeled containers, indicating a controlled experiment environment. The researcher's gloved hand ensures a sterile handling of the equipment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.674,
+        21.348
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "rats are observed in their cages",
+          "a gloved hand reaches into a cage"
+        ],
+        "objects_visible": [
+          "clear plastic cages with green labels",
+          "white rats with pink ears and noses",
+          "wood shavings as bedding",
+          "metal shelving unit"
+        ],
+        "visible_text_labels": [
+          "IV. Establishing Depression-contagion in Na\u00efve Rats",
+          "jove"
+        ],
+        "quantities": [
+          "multiple cages, each housing one or more rats"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of rats in a controlled environment, with a gloved hand interacting with one of the cages. The setup is designed for a scientific study, as indicated by the labeled cages and the text on the screen. The rats are visibly active, exploring their environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.348,
+        32.022
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "white rats interact within a transparent cage",
+          "rats sniff and move around the bedding"
+        ],
+        "objects_visible": [
+          "transparent plastic cage with green label",
+          "white rats with long tails",
+          "wood shavings as bedding",
+          "metal shelving unit"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "two white rats",
+          "one transparent cage"
+        ],
+        "key_distinguishing_features": "This segment focuses on the behavior of white rats within a transparent cage, highlighting their interaction and movement. The green label on the cage suggests a specific identification or experimental condition. The setting is a controlled environment, likely part of a larger animal housing facility."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.022,
+        42.696
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher places a transparent plastic container with white mice on a shelf",
+          "researcher adjusts the position of the container on the shelf"
+        ],
+        "objects_visible": [
+          "transparent plastic containers with white mice inside",
+          "black metal shelving unit",
+          "green lids on the containers",
+          "researcher wearing a white lab coat, blue gloves, and a hairnet"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "two white mice in the container",
+          "multiple containers on the shelf"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling and placement of containers with white mice, emphasizing the careful and controlled environment. The researcher's attire and the organized shelving highlight the laboratory setting. The presence of the 'jove' logo suggests a professional or educational context."
+      }
+    }
+  ]
+}

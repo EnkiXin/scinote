@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/53248/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 43.418,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.8545
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a clear plastic container with a blue cap on a precision balance",
+          "researcher adjusts the container on the balance"
+        ],
+        "objects_visible": [
+          "precision balance with a digital display",
+          "clear plastic container with a blue cap",
+          "yellow and brown circular object on the balance",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "0.0000g displayed on the balance"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a container on a digital balance, highlighting the importance of accurate measurement. The researcher's gloved hands and the clear plastic container with a blue cap are prominent features. The balance's digital display is clearly visible, showing a zero reading."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.8545,
+        21.709
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a blue pipette and dispenses liquid into a test tube",
+          "researcher places the test tube on a cork stand"
+        ],
+        "objects_visible": [
+          "blue-gloved hand",
+          "blue pipette with a blue tip",
+          "clear test tube with a blue cap",
+          "white bottle labeled 'DEIONIZED'",
+          "cork stand",
+          "laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "DEIONIZED"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a pipette and test tube, emphasizing the use of blue gloves and a blue pipette. The background laboratory setup includes various glassware and equipment, indicating a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.709,
+        32.5635
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a clear liquid and a blue cap",
+          "researcher uses a pipette to transfer a small volume of yellow liquid from a container into the microtube"
+        ],
+        "objects_visible": [
+          "a 1.5mL microtube with a blue cap",
+          "a clear plastic bottle labeled 'DEIONIZED' with a blue cap",
+          "a cork stand holding the microtube",
+          "a pipette with a blue tip",
+          "a small container with a yellow liquid"
+        ],
+        "visible_text_labels": [
+          "DEIONIZED",
+          "CAS-7732-18-5",
+          "Target Ti:Au mass ratio 4:1"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "small volume of yellow liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a yellow liquid into a microtube using a pipette, emphasizing the controlled nature of the experiment. The presence of a labeled 'DEIONIZED' water bottle suggests the importance of using specific reagents. The text 'Target Ti:Au mass ratio 4:1' indicates a specific experimental condition being met."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.5635,
+        43.418
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours deionized water from a labeled bottle into a small plastic container",
+          "researcher uses a blue pipette to transfer liquid from the container into a test tube"
+        ],
+        "objects_visible": [
+          "a clear plastic test tube on a cork stand",
+          "a bottle labeled 'DEIONIZE' with a blue cap",
+          "a blue pipette",
+          "a cork stand",
+          "a white machine with a yellow warning label in the background"
+        ],
+        "visible_text_labels": [
+          "Target Ti:Au mass ratio 4:1",
+          "DEIONIZE"
+        ],
+        "quantities": [
+          "4:1 mass ratio of Ti:Au"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise addition of deionized water to a test tube, emphasizing the controlled environment of a laboratory setting. The use of a labeled bottle and a pipette highlights the importance of accuracy in the experiment. The background machine and warning label add context to the laboratory's safety and operational standards."
+      }
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "video_id": "videos/level_3/56651_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 579.306667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        144.82666675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher dons a white lab coat over a white shirt.",
+          "Researcher adjusts their glasses with their right hand.",
+          "Researcher holds a small, clear glass tube with a metal rod inside, using blue gloves."
+        ],
+        "objects_visible": [
+          "A white lab coat with a visible collar and buttons.",
+          "A clear glass tube containing a metal rod, held by blue gloves.",
+          "A yellow surface with red circular markings, possibly a testing or calibration mat."
+        ],
+        "visible_text_labels": [
+          "Yu-Lin Hsieh",
+          "Kaohsiung Medical University",
+          "III. Behavioral Testing: Hot Plate and von Frey Hair"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment highlights the initial preparation phase where the researcher is getting ready for an experiment, emphasizing the donning of a lab coat and handling of a specific glass tube. The text labels provide context about the researcher's affiliation and the nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        144.82666675,
+        289.6533335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a transparent acrylic block with thin wire loops into a black container labeled 'ITC'",
+          "researcher handles a small, rectangular glass slide with a thin wire loop attached, placing it on a mesh surface",
+          "researcher uses a pipette to add a small volume of 30% sucrose solution onto a white tissue paper"
+        ],
+        "objects_visible": [
+          "black container labeled 'ITC' with a transparent acrylic block inside",
+          "small rectangular glass slide with a thin wire loop",
+          "pipette with a blue tip",
+          "white tissue paper on a black surface",
+          "mesh surface with a glass slide placed on it"
+        ],
+        "visible_text_labels": [
+          "ITC",
+          "30% sucrose"
+        ],
+        "quantities": [
+          "small volume of 30% sucrose solution"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of materials, specifically the handling of a glass slide with a wire loop and the addition of a sucrose solution. The use of a black container labeled 'ITC' suggests a specialized setup for the experiment. The precise placement of the glass slide on a mesh surface indicates a controlled environment for the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        289.6533335,
+        434.48000025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap and transfers its contents using a pipette",
+          "pipettes ~200uL of a clear liquid into a multi-well plate",
+          "researcher places the microtube back into a labeled rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "pipette with a yellow plunger",
+          "multi-well plate with several wells containing clear liquid",
+          "microtube rack labeled with alphanumeric codes",
+          "blue plastic container with ice cubes",
+          "glass beaker with a blue rim"
+        ],
+        "visible_text_labels": [
+          "Wash 3x 0.5 M Tris 10 min/wash",
+          "V. DRG Section Preparation and Evaluation of Injured Small-Diameter Neurons"
+        ],
+        "quantities": [
+          "200uL",
+          "3x",
+          "10 min/wash"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of microtubes and the transfer of liquids into a multi-well plate, emphasizing the step-by-step execution of a protocol. The presence of ice cubes suggests the need to maintain a cold environment for the samples. The text overlay provides specific instructions for washing steps, indicating a structured experimental procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        434.48000025,
+        579.306667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher presents a bar graph showing lethal rates at different RTX doses.",
+          "Researcher displays a fluorescent microscopic image of tissue with red and green staining."
+        ],
+        "objects_visible": [
+          "Bar graph with blue bars labeled 'Lethal rate (%)' and 'RTX dose (\u00b5g/kg)'",
+          "Fluorescent microscopic image with red and green stained tissue sections",
+          "Researcher wearing a white lab coat and glasses"
+        ],
+        "visible_text_labels": [
+          "Lethal rate (%)",
+          "RTX dose (\u00b5g/kg)",
+          "200",
+          "50",
+          "10"
+        ],
+        "quantities": [
+          "200 \u00b5g/kg",
+          "50 \u00b5g/kg",
+          "10 \u00b5g/kg"
+        ],
+        "key_distinguishing_features": "This segment focuses on the presentation of experimental results, specifically a bar graph illustrating lethal rates at various RTX doses and a fluorescent microscopic image of tissue staining. The researcher's direct engagement with the camera suggests an explanatory or interpretative phase of the experiment."
+      }
+    }
+  ]
+}

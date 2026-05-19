@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/video_segments/67076/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 21.021,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.25525
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and inserts it into a well of a green microplate",
+          "researcher carefully dispenses liquid into the well"
+        ],
+        "objects_visible": [
+          "green microplate with multiple wells",
+          "pipette with a blue plunger",
+          "researcher's gloved hands",
+          "various laboratory equipment in the background including a centrifuge and a shaker"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "no specific quantities are visible"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting liquid into a microplate, highlighting the researcher's careful handling. The green microplate and the blue-gloved hands are prominent visual elements. The background equipment suggests a well-equipped laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.25525,
+        10.5105
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and inserts it into a small vial",
+          "researcher withdraws liquid from the vial using the pipette"
+        ],
+        "objects_visible": [
+          "green container with multiple small vials",
+          "white pipette with a blue plunger",
+          "vial with a clear liquid",
+          "laboratory equipment including a centrifuge and a hotplate"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "~200uL of liquid being withdrawn"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a pipette to extract a precise volume of liquid from a vial. The green container holding the vials is prominently visible, and the laboratory setting is well-equipped with various instruments. The focus is on the precision of the liquid transfer process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.5105,
+        15.76575
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'F' with a blue cap",
+          "researcher uses a pipette to transfer liquid into the microtube"
+        ],
+        "objects_visible": [
+          "green microtube rack",
+          "white Eppendorf thermomixer",
+          "blue microtube rack",
+          "various storage boxes in the background"
+        ],
+        "visible_text_labels": [
+          "Eppendorf",
+          "NP",
+          "F"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube labeled 'F', emphasizing the careful transfer of liquid using a pipette. The presence of the Eppendorf thermomixer and other laboratory equipment highlights a controlled laboratory environment. The researcher's gloved hand and the specific labeling of the microtube underscore the importance of accuracy in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        15.76575,
+        21.021
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher uses a pipette to transfer liquid from the microtube"
+        ],
+        "objects_visible": [
+          "green microtube rack",
+          "white and blue laboratory equipment with digital display",
+          "blue microtube rack",
+          "various storage containers in the background"
+        ],
+        "visible_text_labels": [
+          "Eppendorf",
+          "NP"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a microtube, indicating precision in the experiment. The use of a pipette suggests the transfer of a specific volume of liquid. The presence of multiple storage containers and equipment highlights a well-equipped laboratory setting."
+      }
+    }
+  ]
+}

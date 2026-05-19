@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/video_segments/50459/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 36.113,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.02825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses tweezers to manipulate a small metallic component",
+          "researcher holds a brass-colored metal plate with holes and a protruding rod"
+        ],
+        "objects_visible": [
+          "transparent acrylic base with multiple cylindrical pins",
+          "metallic clamps and rods forming a mechanical setup",
+          "brass-colored metal plate with holes and a protruding rod",
+          "tweezers held by the researcher"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple cylindrical pins on the acrylic base"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of a brass-colored metal plate using tweezers within a mechanical setup. The transparent acrylic base with cylindrical pins provides a structured environment for the experiment. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.02825,
+        18.0565
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher threads a thin, blue wire through a small, rectangular brass plate with four holes",
+          "researcher carefully manipulates the wire, ensuring it passes through the designated holes in the brass plate"
+        ],
+        "objects_visible": [
+          "a small, rectangular brass plate with four holes and screws",
+          "a thin, blue wire being threaded through the brass plate",
+          "a black surface on which the brass plate and wire are placed"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "four holes in the brass plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise threading of a blue wire through a brass plate, highlighting the meticulous hand movements required. The brass plate's four holes and screws are clearly visible, emphasizing the technical nature of the task. The 'jove' logo in the corner indicates the video's source."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.0565,
+        27.08475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher threads a thin wire through a small metallic component",
+          "researcher adjusts the wire using a tool with a white handle"
+        ],
+        "objects_visible": [
+          "transparent acrylic device with multiple metallic pins and white handles",
+          "small metallic component with a wire being threaded through it",
+          "black rectangular block within the acrylic device"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple metallic pins (exact count not specified)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of a thin wire through a small metallic component, highlighting the intricate nature of the task. The transparent acrylic device with white handles and metallic pins provides a clear view of the internal components, emphasizing the precision required. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.08475,
+        36.113
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A red laser beam is directed into a transparent rectangular apparatus containing a black central block.",
+          "The laser beam interacts with the setup, creating visible light paths within the apparatus."
+        ],
+        "objects_visible": [
+          "A transparent rectangular apparatus with a black central block, surrounded by metallic screws and white knobs.",
+          "A red laser beam entering the apparatus.",
+          "Blue and red wires connected to the apparatus."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment is distinctive due to the precise interaction of the red laser beam with the transparent apparatus, highlighting the setup's optical properties. The presence of blue and red wires suggests an electrical component to the experiment. The 'jove' label indicates the video's source or branding."
+      }
+    }
+  ]
+}

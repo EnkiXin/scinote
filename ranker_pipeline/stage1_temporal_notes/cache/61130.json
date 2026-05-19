@@ -1,0 +1,135 @@
+{
+  "video_id": "61130",
+  "benchmark": "scivideobench",
+  "duration_seconds": 514.154667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        128.53866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher in purple gloves adjusts a black and silver mechanical arm with a digital display.",
+          "Researcher places a clear plastic bag containing a black object into a blue container with a yellow handle."
+        ],
+        "objects_visible": [
+          "Black and silver mechanical arm with a digital display showing '0000'.",
+          "Blue container with a yellow handle and a warning symbol.",
+          "Clear plastic bag containing a black object.",
+          "Researcher wearing purple gloves and a white lab coat."
+        ],
+        "visible_text_labels": [
+          "0000 (on the digital display of the mechanical arm)."
+        ],
+        "quantities": [
+          "0000 (digital reading on the mechanical arm)."
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the precise adjustment of a mechanical arm by a researcher, indicating a preparatory step in a controlled environment. The use of a blue container with a warning symbol suggests the handling of potentially sensitive or hazardous materials. The digital display on the mechanical arm adds a layer of technical precision to the actions observed."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        128.53866675,
+        257.0773335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"preparation\",\n  \"actions_observed\": [\n    \"Researcher places a small orange object into a metallic cylindrical device held in gloved hands.\",\n    \"Researcher adjusts the metallic cylindrical device, ensuring the orange object is securely positioned.\"\n  ],\n  \"objects_visible\": [\n    \"Metallic cylindrical device with a copper-colored body and a flange with multiple bolts.\",\n    \"Small "
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        257.0773335,
+        385.61600025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher adjusts settings on a digital control panel labeled 'Setpoint ramp rate'.",
+          "Researcher uses a keypad to input values on the control panel.",
+          "Researcher handles a cylindrical object, possibly a gas cylinder, with a label indicating '2000 psi'.",
+          "Researcher observes a digital display showing various parameters like 'Value', 'Setpoint', and 'Ramp'."
+        ],
+        "objects_visible": [
+          "A digital control panel with a keypad and display screen.",
+          "A cylindrical object with a label indicating '2000 psi'.",
+          "A digital display showing parameters such as 'Value', 'Setpoint', and 'Ramp'.",
+          "A set of three black cylindrical objects arranged in a blue holder."
+        ],
+        "visible_text_labels": [
+          "Setpoint ramp rate",
+          "Old value: 0.0000 %",
+          "Value: 0.0000 %",
+          "Setpoint: 0.0000 %",
+          "Ramp: 0.0000 %",
+          "2000 psi"
+        ],
+        "quantities": [
+          "0.0000 % (Setpoint ramp rate)",
+          "0.0000 % (Value)",
+          "0.0000 % (Setpoint)",
+          "0.0000 % (Ramp)",
+          "2000 psi"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise adjustment of a digital control panel, highlighting the input of specific values for a ramp rate. The presence of a high-pressure gas cylinder suggests the experiment involves controlled gas flow. The detailed observation of parameters on the digital display underscores the importance of accurate monitoring."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        385.61600025,
+        514.154667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"execution\",\n  \"actions_observed\": [\n    \"Researcher adjusts a knob on a cylindrical device with a purple glove\",\n    \"Researcher holds a cylindrical device with a blue label\"\n  ],\n  \"objects_visible\": [\n    \"Cylindrical device with a blue label and a knob\",\n    \"Purple glove on the researcher's hand\",\n    \"Computer screen displaying a table with various parameters and a graph\"\n  ],\n "
+      }
+    }
+  ]
+}

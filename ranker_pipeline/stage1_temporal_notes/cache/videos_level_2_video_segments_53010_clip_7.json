@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/video_segments/53010/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.731,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.18275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "hand places a small black object into a clear acrylic stand",
+          "hand adjusts the position of the black object within the stand"
+        ],
+        "objects_visible": [
+          "clear acrylic stand with vertical rods",
+          "small black spherical object",
+          "metallic rods forming a grid-like structure in the background",
+          "tools including tweezers and a small metal rod on the table"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a small black object into a clear acrylic stand, suggesting a setup phase for an experiment. The presence of tools and a grid-like structure in the background indicates a controlled laboratory environment. The 'jove' logo suggests this is part of a scientific demonstration video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.18275,
+        16.3655
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "hand places black caps onto the ends of transparent rods",
+          "hand uses tweezers to adjust a small white object on a metal rod"
+        ],
+        "objects_visible": [
+          "transparent rods with black caps",
+          "metal rods arranged in a grid",
+          "wooden base with holes",
+          "tweezers with black tips",
+          "small white object on a metal rod"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple black caps",
+          "multiple metal rods"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of black caps onto transparent rods, indicating a setup phase. The use of tweezers to adjust a small white object highlights the need for fine control and accuracy. The grid of metal rods and wooden base suggest a structured experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.3655,
+        24.548250000000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A white rat is navigating a transparent acrylic maze with metal rods.",
+          "A hand uses a pen-like tool to guide the rat through the maze."
+        ],
+        "objects_visible": [
+          "A white rat with pink eyes and ears.",
+          "A transparent acrylic maze with metal rods and black caps.",
+          "A pen-like tool held by a hand."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The maze has multiple metal rods.",
+          "The rat has four visible legs."
+        ],
+        "key_distinguishing_features": "The segment focuses on the rat's interaction with the maze, highlighting its movement and the guiding action of the pen-like tool. The transparent nature of the maze allows clear visibility of the rat's navigation process. The 'jove' logo is prominently displayed in the upper right corner."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.548250000000003,
+        32.731
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A white rat interacts with a transparent acrylic enclosure containing a series of parallel metal rods.",
+          "A hand uses a tool to manipulate the metal rods within the enclosure."
+        ],
+        "objects_visible": [
+          "A white rat with pink eyes and ears.",
+          "A transparent acrylic enclosure with a grid of parallel metal rods.",
+          "A hand holding a metallic tool with a black handle."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The enclosure has approximately 10 metal rods."
+        ],
+        "key_distinguishing_features": "The rat actively explores the enclosure, placing its paws on the metal rods. The hand's tool appears to be adjusting or testing the rods' stability. The 'jove' logo is visible in the top right corner, indicating a scientific context."
+      }
+    }
+  ]
+}

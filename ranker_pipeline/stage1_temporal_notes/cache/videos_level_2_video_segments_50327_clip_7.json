@@ -1,0 +1,146 @@
+{
+  "video_id": "videos/level_2/video_segments/50327/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.675,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.91875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a syringe with a needle",
+          "mouse is placed on a white paper towel on a blue surgical drape"
+        ],
+        "objects_visible": [
+          "white mouse with pink ears and tail",
+          "blue surgical drape with a white paper towel",
+          "researcher's gloved hand holding a syringe",
+          "stack of white paper towels in the background",
+          "medical equipment and papers on the right side"
+        ],
+        "visible_text_labels": [
+          "IV. Transplantation of Tissue Recombinant Underneath the Renal Capsule",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a mouse being prepared for a medical procedure, with a researcher holding a syringe, indicating the start of a transplantation process. The setup includes a clean, controlled environment with a blue surgical drape and medical supplies. The text overlay specifies the procedure as 'Transplantation of Tissue Recombinant Underneath the Renal Capsule.'"
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.91875,
+        17.8375
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "mouse is lying on its side on a textured surface",
+          "mouse moves its limbs slightly"
+        ],
+        "objects_visible": [
+          "hairless mouse with pink skin",
+          "white textured fabric surface",
+          "blue textured fabric in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The mouse is hairless and appears to be in a state of rest or mild activity. The fabric surfaces provide a soft, contrasting background that highlights the mouse's features. The 'jove' logo suggests a scientific or educational context."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.8375,
+        26.756249999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a yellow-handled brush with a brown tip to gently stroke the back of a hairless mouse."
+        ],
+        "objects_visible": [
+          "A hairless mouse lying on a textured white surface.",
+          "A yellow-handled brush with a brown tip.",
+          "A gloved hand holding the brush."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the interaction between the brush and the mouse, highlighting the gentle nature of the action. The hairless mouse is a distinctive subject, and the brush's movement is deliberate and careful."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.756249999999998,
+        35.675
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses fine-tipped forceps to manipulate a small, brownish object on a white, textured surface",
+          "researcher's fingers gently hold the object in place while using the forceps"
+        ],
+        "objects_visible": [
+          "black forceps with fine tips",
+          "small, brownish object resembling a biological specimen",
+          "white, textured surface resembling a paper towel"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on precise manipulation of a small object using forceps, highlighting the delicate nature of the task. The white textured surface provides a clear contrast to the brownish object, aiding in visibility. The presence of the 'jove' logo suggests this is part of a scientific demonstration video."
+      }
+    }
+  ]
+}

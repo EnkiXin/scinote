@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/step_prediction/50593/clip_2_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.414033,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.60350825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a centrifuge lid with gloved hands",
+          "researcher uses a red tool to adjust or remove a component inside the centrifuge"
+        ],
+        "objects_visible": [
+          "centrifuge with a white exterior and a transparent lid",
+          "researcher wearing a white lab coat and blue gloves",
+          "red tool held by the researcher"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase involving a centrifuge, with the researcher using a specific tool for adjustments. The presence of the 'jove' logo indicates this is part of a scientific demonstration video. The researcher's careful handling of the centrifuge highlights the precision required in this step."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.60350825,
+        13.2070165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a small, clear glass container with a metal lid into a fume hood"
+        ],
+        "objects_visible": [
+          "fume hood with a glass window",
+          "various bottles with red caps and labels",
+          "a cylindrical metal can with a label",
+          "a white container with a lid",
+          "a metal scale with a circular weighing platform",
+          "a white tray with a metal rod"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher handling a small glass container within a fume hood, surrounded by various laboratory chemicals and equipment. The fume hood is equipped with a glass window, and the scene is well-organized with labeled bottles and a metal can. The researcher's actions suggest preparation for a chemical procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.2070165,
+        19.81052475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher wearing black gloves picks up a small, round, black object from a white container"
+        ],
+        "objects_visible": [
+          "white container with several small, round, black objects inside",
+          "black gloves on the researcher's hand",
+          "various bottles with red caps in the background",
+          "a metal scale with a circular weighing platform",
+          "a white plastic tray with a few small, round, black objects"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "several small, round, black objects"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of small, round, black objects, likely for a specific scientific procedure. The researcher's use of black gloves emphasizes the need for careful and contamination-free handling. The background includes various bottles and a scale, indicating a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.81052475,
+        26.414033
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher pours small metallic spheres from a black container into a plastic tray on a scale",
+          "researcher uses a tool to adjust the spheres in the tray"
+        ],
+        "objects_visible": [
+          "black container with metallic spheres",
+          "plastic tray on a scale",
+          "scale with a digital display",
+          "bottles with red caps in the background",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "40.540 grams displayed on the scale"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of metallic spheres using a scale, with the researcher carefully handling the spheres. The digital display on the scale provides a specific reading, emphasizing the importance of accurate measurement in this experiment."
+      }
+    }
+  ]
+}

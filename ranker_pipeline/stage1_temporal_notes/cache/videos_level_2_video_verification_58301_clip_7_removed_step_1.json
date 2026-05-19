@@ -1,0 +1,139 @@
+{
+  "video_id": "videos/level_2/video_verification/58301/clip_7_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 13.993047,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        3.49826175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher uses computer mouse to interact with software"
+        ],
+        "objects_visible": [
+          "researcher wearing white lab coat and blue gloves",
+          "computer monitor displaying a circular image with a dark center and concentric rings",
+          "computer keyboard and mouse",
+          "microscope with a black eyepiece and adjustment knobs"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a researcher interacting with a computer, likely analyzing a circular image on the screen. The presence of a microscope suggests a laboratory setting. The image on the screen appears to be a detailed, possibly microscopic view of a sample."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        3.49826175,
+        6.9965235
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"observation\",\n  \"actions_observed\": [\"researcher views a circular image on a computer screen\"],\n  \"objects_visible\": [\"computer monitor displaying a circular image with a dark center and lighter outer rings\", \"researcher wearing a white lab coat\", \"computer keyboard\", \"microscope on the right side of the frame\"],\n  \"visible_text_labels\": [\"C\", \"0.5\", \"1\", \"1.5\", \"2\", \"3\", \"4\", \"5\", \""
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        6.9965235,
+        10.49478525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher observes circular cross-sectional image on computer screen"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a circular cross-sectional image with concentric rings",
+          "researcher wearing a white lab coat",
+          "laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a detailed observation of a circular cross-sectional image, likely from a medical or scientific scan, displayed on a computer screen. The researcher is intently examining the image, suggesting a critical analysis phase. The background includes laboratory equipment, emphasizing a scientific setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        10.49478525,
+        13.993047
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher views a circular, dark-colored sample on a computer screen"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a circular sample with concentric dark rings",
+          "researcher wearing a white lab coat",
+          "various icons and a taskbar on the computer screen"
+        ],
+        "visible_text_labels": [
+          "C",
+          "0.5",
+          "1",
+          "3",
+          "7",
+          "jove"
+        ],
+        "quantities": [
+          "0.5",
+          "1",
+          "3",
+          "7"
+        ],
+        "key_distinguishing_features": "The segment focuses on the detailed observation of a circular sample with dark concentric rings on a computer screen. The researcher is intently examining the sample, suggesting a critical analysis phase. The presence of numerical labels on the screen indicates specific measurements or scale references."
+      }
+    }
+  ]
+}

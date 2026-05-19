@@ -1,0 +1,192 @@
+{
+  "video_id": "videos/level_2/video_verification/61180/clip_7_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 45.622333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.40558325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "user interacts with image processing software",
+          "user applies binary threshold to image"
+        ],
+        "objects_visible": [
+          "computer desktop with various icons",
+          "image processing software window with menu options",
+          "black and white image of cellular structures",
+          "color-coded segmented image of cells"
+        ],
+        "visible_text_labels": [
+          "Binary",
+          "Threshold...",
+          "Add more classifiers to remove non-ecDNA as necessary."
+        ],
+        "quantities": [
+          "multiple cellular structures in the image"
+        ],
+        "key_distinguishing_features": "This segment shows a user applying a binary threshold to an image of cellular structures within an image processing software. The transition from grayscale to binary highlights the segmentation process. The desktop environment includes various scientific software icons, indicating a research setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.40558325,
+        22.8111665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "User selects 'Threshold' from the 'Image' menu in the software interface.",
+          "A threshold adjustment window appears, allowing the user to manipulate the threshold settings."
+        ],
+        "objects_visible": [
+          "A computer screen displaying an image analysis software interface.",
+          "A black and white image of cellular structures on the left side of the screen.",
+          "A colorized image of cellular structures on the right side of the screen.",
+          "A threshold adjustment window with options for 'Default', 'Fixed', and 'Dark background'."
+        ],
+        "visible_text_labels": [
+          "Threshold",
+          "Default",
+          "Fixed",
+          "Dark background",
+          "Black histogram",
+          "Auto",
+          "Apply",
+          "Reset",
+          "Set"
+        ],
+        "quantities": [
+          "The threshold adjustment window includes numerical values for threshold settings, though specific numbers are not visible."
+        ],
+        "key_distinguishing_features": "This segment focuses on the threshold adjustment process within an image analysis software, highlighting the transition from a black and white image to a colorized one. The user interacts with the software's menu options to modify image parameters. The presence of both raw and processed images side by side emphasizes the software's role in enhancing visual data."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.8111665,
+        34.21674975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "selects 'Select Area' from the 'Edit' menu in the software",
+          "draws a yellow outline around a specific region in the image"
+        ],
+        "objects_visible": [
+          "computer screen displaying image analysis software",
+          "image of a dark field with a highlighted region",
+          "desktop icons and taskbar"
+        ],
+        "visible_text_labels": [
+          "Select Area",
+          "Analyze Particles",
+          "Size 0.00-infinity",
+          "Circularity 0.00-1.00",
+          "Include Holes",
+          "Display Results",
+          "Clear Results",
+          "Summarize",
+          "Add to Manager",
+          "Show"
+        ],
+        "quantities": [
+          "Size 0.00-infinity",
+          "Circularity 0.00-1.00"
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase, where a specific area is selected and outlined for analysis. The software interface and the precise selection of parameters for particle analysis are distinctive. The highlighted region in the dark field image suggests a targeted analysis of a particular feature."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        34.21674975,
+        45.622333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "clicks on 'Analyze Particles' option in the software",
+          "adjusts settings in the 'Analyze Particles' dialog box"
+        ],
+        "objects_visible": [
+          "computer screen displaying image analysis software",
+          "image of a biological sample with a yellow outline",
+          "dialog box with measurement parameters"
+        ],
+        "visible_text_labels": [
+          "Analyze Particles",
+          "Size",
+          "Circularity",
+          "Show",
+          "Display Results",
+          "Add to Manager",
+          "Clear Results",
+          "Include Holes",
+          "Dark background",
+          "Black histogram",
+          "Add",
+          "Count",
+          "Total Area",
+          "Average Size",
+          "MinSize",
+          "Points"
+        ],
+        "quantities": [
+          "15.836 (Total Area)",
+          "0.336 (Average Size)",
+          "0.409 (MinSize)",
+          "2,563 (Points)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase of the experiment, where specific parameters are set for analyzing particles within a biological image. The software interface is prominently displayed, showing detailed settings and results. The yellow outline on the image indicates the area being analyzed."
+      }
+    }
+  ]
+}

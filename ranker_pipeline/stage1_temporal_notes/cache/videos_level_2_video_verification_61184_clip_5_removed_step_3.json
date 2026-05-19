@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/video_verification/61184/clip_5_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.247467,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.56186675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher points to a stack of wooden boards on a shelf"
+        ],
+        "objects_visible": [
+          "wooden boards of various sizes and thicknesses on a wooden shelf",
+          "researcher wearing a white lab coat and glasses",
+          "sheet of paper with text and diagrams on a wall"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple wooden boards"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, highlighting the selection of materials. The researcher is seen pointing to a specific stack of wooden boards, indicating a choice or preparation step. The environment suggests a workshop or lab setting with organized storage."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.56186675,
+        21.1237335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Machine components are in motion, with a motor spinning a cylindrical part.",
+          "A blue motor is connected to a metallic shaft, which is rotating."
+        ],
+        "objects_visible": [
+          "A blue motor with a yellow wire connected to it.",
+          "A metallic cylindrical component attached to the motor, spinning rapidly.",
+          "A control panel with various buttons and a digital display.",
+          "A green piece of material placed on the workbench."
+        ],
+        "visible_text_labels": [
+          "PRESS START BUTTONS",
+          "STOP"
+        ],
+        "quantities": [
+          "The motor is spinning at a high speed, though the exact RPM is not visible."
+        ],
+        "key_distinguishing_features": "The segment shows a mechanical setup in operation, with a motor driving a cylindrical component. The control panel and the green material on the workbench add context to the experimental setup. The motion of the spinning part is the central focus of this segment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.1237335,
+        31.68560025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A small, cylindrical object is being pushed through a narrow, metallic channel by a mechanical device.",
+          "The object appears to be moving at a consistent speed, suggesting a controlled process."
+        ],
+        "objects_visible": [
+          "A metallic channel with a white plastic component at the end.",
+          "A mechanical device with a blue and silver body, connected by a yellow and gray cable.",
+          "A small, cylindrical object moving through the channel."
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a mechanical process where a small object is being precisely guided through a channel, highlighting the precision and automation of the setup. The metallic and plastic components suggest a clean, controlled environment typical of scientific experiments."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.68560025,
+        42.247467
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "computer screen displays a software interface with multiple graphs and data points",
+          "a pop-up window appears indicating 'End of Test'"
+        ],
+        "objects_visible": [
+          "computer monitor with a complex software interface",
+          "various buttons and controls on the software interface",
+          "a pop-up window with the text 'End of Test'"
+        ],
+        "visible_text_labels": [
+          "End of Test",
+          "STOP PROGRAM",
+          "SYSTEM INFORMATION",
+          "SETUP A TEST SEQUENCE",
+          "RECORD CURRENT DATA",
+          "INSTRUMENT SETTINGS"
+        ],
+        "quantities": [
+          "data points on graphs",
+          "values in the software interface"
+        ],
+        "key_distinguishing_features": "This segment is distinctive due to the detailed software interface used for monitoring and controlling an experiment. The appearance of the 'End of Test' pop-up window signifies the completion of a specific test phase. The interface includes multiple graphs and data points, indicating a complex data collection process."
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "video_id": "videos/level_3/50332_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 462.72,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        115.68
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a 15mL conical tube with a red cap, labeled 'PBMCs'.",
+          "Researcher places the conical tube on a magnetic stand labeled 'MAGNET'.",
+          "Researcher uses a pipette to transfer a clear liquid from a reservoir into a petri dish."
+        ],
+        "objects_visible": [
+          "15mL conical tube with a red cap, labeled 'PBMCs'.",
+          "Magnetic stand with the word 'MAGNET' in blue text.",
+          "Petri dish containing a clear liquid.",
+          "Pipette with a blue plunger."
+        ],
+        "visible_text_labels": [
+          "Negative Bead Isolation",
+          "MAGNET",
+          "jove"
+        ],
+        "quantities": [
+          "15mL conical tube",
+          "Clear liquid transferred into petri dish (quantity not specified)"
+        ],
+        "key_distinguishing_features": "This segment highlights the initial steps of a cell isolation process using a magnetic stand. The focus is on the preparation of PBMCs in a conical tube and the use of a pipette for liquid transfer. The presence of the 'MAGNET' label on the stand is a distinctive feature."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        115.68,
+        231.36
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a test tube",
+          "researcher places the test tube into a centrifuge"
+        ],
+        "objects_visible": [
+          "pipette with a white body and black plunger",
+          "test tube with a red cap",
+          "centrifuge with a gray exterior and a black interior",
+          "red and blue plastic test tube racks",
+          "green test tube rack",
+          "bottles labeled with text and numbers",
+          "white gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "PBS + 0.02% EDTA",
+          "10 min",
+          "120 x g",
+          "RT"
+        ],
+        "quantities": [
+          "10 minutes",
+          "120 x g",
+          "0.02%"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the precise handling of a pipette to dispense liquid into a test tube, followed by the placement of the tube into a centrifuge. The text labels provide specific conditions for the experiment, such as the use of PBS with 0.02% EDTA and the centrifugation parameters. The presence of multiple test tube racks and labeled bottles suggests a well-organized laboratory setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        231.36,
+        347.04
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube labeled 'M-CSF' with a purple cap",
+          "researcher places the 15mL conical tube into a centrifuge",
+          "researcher operates the centrifuge by pressing buttons on the control panel"
+        ],
+        "objects_visible": [
+          "15mL conical tube with a purple cap",
+          "centrifuge with a digital display and control buttons",
+          "labeled box of 'Heraeus' centrifuge tubes",
+          "red and blue test tube racks"
+        ],
+        "visible_text_labels": [
+          "e.g. 100 ng/ml M-CSF",
+          "Heraeus"
+        ],
+        "quantities": [
+          "100 ng/ml M-CSF"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of a 15mL conical tube containing M-CSF, which is placed into a centrifuge. The researcher's actions are precise, indicating a step in the cell culture process. The presence of the labeled 'Heraeus' box suggests the use of specific laboratory equipment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        347.04,
+        462.72
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Displays flow cytometry data comparing freshly isolated monocytes and macrophages after 6 days.",
+          "Presents bar graphs showing the expression of M1 and M2 markers in macrophages."
+        ],
+        "objects_visible": [
+          "Flow cytometry plots with axes labeled '% of Max' and 'Forward Scatter'.",
+          "Bar graphs with error bars comparing M1 and M2 markers.",
+          "Microscopic image of Dil-oxLDL stained cells."
+        ],
+        "visible_text_labels": [
+          "Control",
+          "CD45RO (FITC)",
+          "oxLDL",
+          "CD14 (FITC)",
+          "Macrophages after 6 days",
+          "Propidium iodide",
+          "M1 markers",
+          "M2 markers",
+          "Dil-oxLDL",
+          "V. Conclusion"
+        ],
+        "quantities": [
+          "22.4% of macrophages stained with Propidium iodide after 6 days.",
+          "89.7% of freshly isolated monocytes stained with CD45RO.",
+          "89.7% of freshly isolated monocytes stained with CD14."
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed analysis of macrophage polarization using flow cytometry and marker expression. The inclusion of Dil-oxLDL staining highlights the visualization of cellular uptake. The transition to a conclusion slide suggests the end of the data presentation."
+      }
+    }
+  ]
+}

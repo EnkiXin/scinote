@@ -1,0 +1,140 @@
+{
+  "video_id": "videos/level_2/video_segments/4295/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.092,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.523
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "injecting a substance into a caterpillar"
+        ],
+        "objects_visible": [
+          "light green caterpillar with black spots",
+          "syringe with a needle"
+        ],
+        "visible_text_labels": [
+          "<45\u00b0"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The syringe is shown being inserted into the caterpillar at an angle less than 45 degrees. The caterpillar is stationary and positioned horizontally. The syringe needle is clearly visible as it penetrates the caterpillar's body."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.523,
+        15.046
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "injects a greenish insect larva with a syringe",
+          "holds the larva steady with gloved fingers"
+        ],
+        "objects_visible": [
+          "greenish insect larva with visible segments",
+          "a syringe with a needle inserted into the larva",
+          "purple latex gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "Clear, green-blue liquid (hemolymph) = normal",
+          "Yellow liquid (gut puncture) = insect sacrifice"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise injection procedure into an insect larva, with a syringe held at a specific angle. The text on screen provides critical information about the expected outcomes of the injection based on the fluid color. The researcher's hands are gloved, emphasizing the controlled and sterile nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.046,
+        22.569
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "3D model of a flat, circular object is displayed"
+        ],
+        "objects_visible": [
+          "a light olive-green, flat, circular 3D object"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment features a simple 3D model of a flat, circular object with a uniform light olive-green color. The model lacks any additional features or markings, and the background is plain white, emphasizing the object's simplicity. The 'jove' logo is visible in the top right corner."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.569,
+        30.092
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "spheres are evenly distributed on the surface of a flat, circular platform"
+        ],
+        "objects_visible": [
+          "a flat, circular platform with a light green surface and a darker green border",
+          "five small, evenly spaced spheres of varying colors (purple, blue, green, and gray)"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "five spheres"
+        ],
+        "key_distinguishing_features": "The segment shows a static arrangement of five spheres on a flat platform, with no visible movement or interaction. The spheres are distinct in color, and the platform has a simple, clean design. The 'jove' logo is visible in the top right corner, indicating the source of the video."
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/video_segments/58184/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.476,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.869
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher handles a clear plastic tube with a black cap",
+          "researcher places the tube on a flat surface"
+        ],
+        "objects_visible": [
+          "clear plastic tube with a black cap",
+          "red-tinted environment",
+          "researcher wearing gloves"
+        ],
+        "visible_text_labels": [
+          "6. Mice Restraint",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment is characterized by a red-tinted environment, likely to simulate low-light conditions for mice. The focus is on the preparation of a tube, possibly for restraining a mouse. The text '6. Mice Restraint' indicates the specific step in the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.869,
+        17.738
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a transparent plastic cage with a grid top on a table",
+          "researcher opens the cage lid to reveal several white mice inside"
+        ],
+        "objects_visible": [
+          "transparent plastic cage with a grid top",
+          "white mice inside the cage",
+          "red-tinted lighting illuminating the scene",
+          "researcher wearing a white lab coat and purple gloves"
+        ],
+        "visible_text_labels": [
+          "UCMS room"
+        ],
+        "quantities": [
+          "several white mice"
+        ],
+        "key_distinguishing_features": "The segment is characterized by the preparation of a mouse cage for an experiment under red lighting, which is likely used to minimize disturbance to the mice. The researcher's careful handling of the cage and mice suggests a controlled environment. The 'UCMS room' label indicates a specific location for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.738,
+        26.607
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a white powdery substance from a white cloth bag into a transparent container with a blue label"
+        ],
+        "objects_visible": [
+          "transparent container with a blue label",
+          "white cloth bag containing a white powdery substance",
+          "metallic table surface",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "7. Disruption of Light/Dark Cycle"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the action of transferring a white powdery substance into a labeled container, likely as part of a procedure related to disrupting light/dark cycles. The blue label on the container suggests it is part of a controlled experiment. The metallic table surface indicates a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.607,
+        35.476
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A gloved hand reaches into a red-lit room and adjusts a container on a shelf"
+        ],
+        "objects_visible": [
+          "A red-lit room with shelves containing various containers and equipment",
+          "A gloved hand performing an action",
+          "Containers on shelves, some transparent and some opaque"
+        ],
+        "visible_text_labels": [
+          "7. Disruption of Light/Dark Cycle"
+        ],
+        "quantities": [
+          "Multiple containers on shelves"
+        ],
+        "key_distinguishing_features": "The segment is distinctive due to the red lighting, which is likely used to simulate a dark environment for light-sensitive experiments. The gloved hand indicates careful handling of materials, emphasizing the controlled nature of the experiment. The containers on the shelves suggest a storage or observation setup for the experiment."
+      }
+    }
+  ]
+}

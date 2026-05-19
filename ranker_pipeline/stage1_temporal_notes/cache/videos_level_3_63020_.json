@@ -1,0 +1,174 @@
+{
+  "video_id": "videos/level_3/63020_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 443.072,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        110.768
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A diagram illustrates the process of rearing nonviruliferous leafhoppers, acquiring a virus, and rearing viruliferous leafhoppers.",
+          "A researcher places a rice seedling into a container with water."
+        ],
+        "objects_visible": [
+          "A diagram showing leafhoppers, rice plants, and various laboratory tools.",
+          "A rice seedling with green leaves and a white root system.",
+          "A transparent container filled with water."
+        ],
+        "visible_text_labels": [
+          "Rear nonviruliferous leafhoppers",
+          "Acquire virus",
+          "Rear viruliferous leafhoppers",
+          "rice seedling",
+          "water"
+        ],
+        "quantities": [
+          "One rice seedling",
+          "A container of water"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its detailed diagram explaining the process of virus acquisition in leafhoppers. It also shows the initial step of placing a rice seedling in water, which is crucial for the experiment's setup. The visual focus on both the diagram and the physical action highlights the preparatory phase of the research."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        110.768,
+        221.536
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'Sample' with blue cap",
+          "pipettes ~200uL of clear liquid from microtube into petri dish",
+          "researcher places petri dish under a microscope for observation"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'Sample'",
+          "petri dish containing clear liquid",
+          "microscope with adjustable knobs and eyepiece",
+          "laboratory bench with various equipment and containers"
+        ],
+        "visible_text_labels": [
+          "Sample can be stored at -80\u00b0C for 3 months",
+          "See Table 1 for all buffer composition details"
+        ],
+        "quantities": [
+          "200uL of clear liquid",
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a sample in a microtube, followed by its transfer into a petri dish. The use of a pipette for accurate volume measurement is highlighted, along with the subsequent microscopic examination. The text overlay provides specific storage and buffer composition details, emphasizing the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        221.536,
+        332.304
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Sample 1' with a blue cap",
+          "pipettes ~200uL of a clear liquid from the microtube into a petri dish",
+          "researcher places the petri dish on a magnetic stirrer with a rotating bar",
+          "researcher adjusts the speed dial on the magnetic stirrer to 5"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'Sample 1'",
+          "petri dish containing a clear liquid",
+          "magnetic stirrer with a rotating bar",
+          "speed dial on the magnetic stirrer",
+          "test tubes in a rack with blue caps",
+          "Vortex 5 Nylinator labeled on a blue device"
+        ],
+        "visible_text_labels": [
+          "Sample 1",
+          "Vortex 5 Nylinator"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "~200uL of a clear liquid",
+          "speed dial set to 5"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube and the use of a magnetic stirrer, highlighting the controlled addition of a liquid sample. The presence of the Vortex 5 Nylinator suggests a step involving sample mixing or agitation. The actions are methodical, emphasizing the importance of accurate volume measurement and speed control."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        332.304,
+        443.072
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a well plate",
+          "computer screen displays a gel electrophoresis image with distinct bands"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "pipette with a white tip",
+          "well plate with multiple compartments",
+          "computer monitor showing a gel electrophoresis image",
+          "labeled wells on the well plate"
+        ],
+        "visible_text_labels": [
+          "M 1 2 3 4",
+          "100 75 50 35 25",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "100, 75, 50, 35, 25 (sizes of DNA fragments in the gel)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where the researcher analyzes the results of a gel electrophoresis experiment. The computer screen prominently displays the gel image with clear bands, indicating successful separation of DNA fragments. The researcher's precise handling of the pipette and microtube highlights the careful nature of the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/step_prediction/59027/clip_5_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 43.197467,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.79936675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a clear plastic multi-well plate",
+          "researcher uses a pipette to transfer liquid into the wells"
+        ],
+        "objects_visible": [
+          "clear plastic multi-well plate with multiple compartments",
+          "pipette with a fine tip",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple wells in the plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a multi-well plate is being handled. The researcher's gloved hand and the precise use of a pipette highlight the sterile and controlled environment. The 'jove' logo indicates the video's source or branding."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.79936675,
+        21.5987335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with an orange cap",
+          "researcher attaches the microtube to a pipette tip"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with an orange cap",
+          "pipette tip",
+          "researcher's gloved hands",
+          "purple and black pens on the table"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube, highlighting the researcher's gloved hands and the specific orange cap. The background includes laboratory tools like pens, emphasizing a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.5987335,
+        32.39810025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a small black mouse in a transparent tube",
+          "researcher gently manipulates the mouse's forelimbs"
+        ],
+        "objects_visible": [
+          "transparent tube with a black mouse inside",
+          "researcher's gloved hands",
+          "metallic grid or cage in the background"
+        ],
+        "visible_text_labels": [
+          "Mice reject entering tube by forelimbs"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the behavior of a mouse as it resists entering a tube using its forelimbs. The researcher's hands are carefully handling the mouse, demonstrating the observed behavior. The background includes a metallic grid, suggesting a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.39810025,
+        43.197467
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with an orange cap labeled 'CORNING'",
+          "researcher uses a pipette to transfer a dark liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with an orange cap labeled 'CORNING'",
+          "pipette with a transparent tip",
+          "petri dish containing a dark liquid",
+          "white paper towel on a black surface",
+          "yellow biohazard container"
+        ],
+        "visible_text_labels": [
+          "CORNING"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a dark liquid from a microtube to a petri dish, highlighting the use of a labeled microtube and a pipette. The presence of a biohazard container suggests the handling of potentially hazardous materials. The white paper towel and black surface provide a clean, high-contrast workspace for the experiment."
+      }
+    }
+  ]
+}

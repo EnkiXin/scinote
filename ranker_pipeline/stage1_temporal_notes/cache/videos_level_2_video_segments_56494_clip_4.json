@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/56494/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 36.317,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.07925
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses tweezers to manipulate a small, square, light-colored object within a circular, transparent container."
+        ],
+        "objects_visible": [
+          "A circular, transparent container with a metallic rim and a small, square, light-colored object being held by tweezers."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small object using tweezers within a confined, circular space. The presence of a gloved hand indicates a controlled, sterile environment. The 'jove' label suggests this is part of a scientific or educational video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.07925,
+        18.1585
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand presses a button on a control panel"
+        ],
+        "objects_visible": [
+          "A black control panel with a digital display and buttons",
+          "A gloved hand",
+          "A label with text on the control panel"
+        ],
+        "visible_text_labels": [
+          "SET1",
+          "10W REF",
+          "PANEL PHR",
+          "PGN DOWN",
+          "UP",
+          "ENT",
+          "RF600",
+          "RF Power Supply"
+        ],
+        "quantities": [
+          "10W"
+        ],
+        "key_distinguishing_features": "The segment focuses on the interaction with a specific control panel, highlighting the pressing of a button. The digital display and labeled buttons provide detailed information about the device's settings. The presence of a gloved hand indicates a controlled and sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.1585,
+        27.23775
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher operates a large, beige machine with a digital display and control buttons",
+          "researcher adjusts settings on the machine using a control panel with labeled buttons"
+        ],
+        "objects_visible": [
+          "beige machine with a digital display showing various parameters",
+          "control panel with buttons labeled 'PWR', 'UP', 'DOWN', and 'ENT'",
+          "white glove on the researcher's hand",
+          "laboratory environment with various equipment and cables in the background"
+        ],
+        "visible_text_labels": [
+          "PWR",
+          "UP",
+          "DOWN",
+          "ENT",
+          "jove"
+        ],
+        "quantities": [
+          "digital display showing numerical values and parameters"
+        ],
+        "key_distinguishing_features": "The segment focuses on the researcher's interaction with a complex machine, highlighting the use of a control panel with specific buttons. The researcher's gloved hand is actively adjusting settings, emphasizing the precision required in this step. The background reveals a busy laboratory setup, indicating a detailed experimental process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.23775,
+        36.317
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "hand adjusts a knob on a temperature controller"
+        ],
+        "objects_visible": [
+          "temperature controller with digital display",
+          "hand wearing a name badge",
+          "yellow label with Chinese characters",
+          "red ON/OFF switch"
+        ],
+        "visible_text_labels": [
+          "\u6e29\u63a7\u5668",
+          "ON",
+          "REPEAT this process to prepare double or multi-heterostructures",
+          "jove"
+        ],
+        "quantities": [
+          "80.0\u00b0C",
+          "20.0"
+        ],
+        "key_distinguishing_features": "The segment focuses on a temperature controller with a digital display showing precise temperature readings. A hand adjusts the settings, indicating a controlled process. The presence of a name badge and Chinese text suggests a laboratory environment with specific procedural instructions."
+      }
+    }
+  ]
+}

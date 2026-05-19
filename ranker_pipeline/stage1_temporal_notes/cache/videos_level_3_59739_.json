@@ -1,0 +1,170 @@
+{
+  "video_id": "videos/level_3/59739_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 552.512,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        138.128
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "C\u00e9dric Theunissen stands in front of a bookshelf, speaking to the camera.",
+          "J\u00e9r\u00f4me Beaudelot is shown in a laboratory setting, wearing safety goggles and a white lab coat, handling a small glass vial."
+        ],
+        "objects_visible": [
+          "A bookshelf filled with books of various colors and sizes.",
+          "A molecular structure model on the top shelf.",
+          "A glass vial with a clear liquid, held by J\u00e9r\u00f4me Beaudelot.",
+          "Laboratory equipment in the background, including a glass apparatus with tubes and a clamp stand."
+        ],
+        "visible_text_labels": [
+          "C\u00e9dric Theunissen",
+          "ULB",
+          "J\u00e9r\u00f4me Beaudelot",
+          "Tetrakis(acetonitrile)copper(I) hexafluorophosphate",
+          "DPEPhos"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment features a transition from a speaker in a library-like setting to a laboratory scene where a researcher is handling a vial. The molecular structure model and the specific chemical name displayed highlight the scientific context. The segment emphasizes preparation and introduction of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        138.128,
+        276.256
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'BCP' with a blue cap and connects it to a glass apparatus.",
+          "Researcher adjusts the orange balloon attached to the glass setup, ensuring it is properly inflated.",
+          "Researcher pours a yellowish liquid from a beaker into a flask containing a red liquid, which is partially submerged in a white bucket."
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'BCP' with a blue cap",
+          "Glass apparatus with orange balloon",
+          "Beaker containing yellowish liquid",
+          "Flask with red liquid",
+          "White bucket",
+          "Aluminum foil wrapped around the flask"
+        ],
+        "visible_text_labels": [
+          "bcp: bathocuproine",
+          "Failing to perform the argon purging will lead to lower product purity and yield"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "Yellowish liquid being poured into the flask"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of a microtube labeled 'BCP' and the careful adjustment of an orange balloon connected to a glass apparatus. The pouring of a yellowish liquid into a flask containing a red liquid, partially submerged in a white bucket, is a distinctive action in this segment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        276.256,
+        414.38399999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1L round-bottom flask containing a yellow liquid labeled '1L of diethyl ether'",
+          "researcher places a small glass vial with a cork stopper on a lab bench",
+          "researcher adds a small amount of solid from a petri dish into the vial",
+          "researcher operates a UV light device with blue LED strips and a lamp, adjusting settings on the control panel"
+        ],
+        "objects_visible": [
+          "1L round-bottom flask with yellow liquid",
+          "small glass vial with a cork stopper",
+          "petri dish containing a small amount of solid",
+          "UV light device with blue LED strips and a lamp",
+          "control panel with digital readouts and buttons"
+        ],
+        "visible_text_labels": [
+          "1L of diethyl ether",
+          "Blue LEDs strips",
+          "Lamp"
+        ],
+        "quantities": [
+          "1L of diethyl ether",
+          "450 on the control panel display"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of diethyl ether and the preparation of a small vial with a solid sample. The use of a UV light device with blue LED strips and a lamp suggests a specific experimental setup involving light exposure. The control panel settings indicate precise adjustments for the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        414.38399999999996,
+        552.512
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "petri dish containing pink-colored DMEM medium",
+          "pipette with a visible volume scale"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "200uL"
+        ],
+        "quantities": [
+          "1.5mL",
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a DMEM medium, emphasizing the accurate measurement and transfer of a specific volume. The use of a labeled microtube and a pipette with a visible scale highlights the importance of accuracy in the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/video_verification/55968/clip_8_removed_step_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 36.575733,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.14393325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a black component on a microscope",
+          "researcher uses a screwdriver to tighten a part on the microscope"
+        ],
+        "objects_visible": [
+          "microscope with a digital display",
+          "black screwdriver",
+          "purple gloves",
+          "white lab coat",
+          "laboratory shelves with various equipment"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is meticulously adjusting a component on a sophisticated microscope, indicating a preparatory phase. The use of a screwdriver suggests precise mechanical adjustments are necessary. The environment is a well-equipped laboratory with organized shelves in the background."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.14393325,
+        18.2878665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a black rectangular component on a microscope setup",
+          "researcher uses gloved hands to secure a circular component onto the microscope"
+        ],
+        "objects_visible": [
+          "black rectangular component with a small protruding wire",
+          "microscope labeled 'OLYMPUS' with a circular component being attached",
+          "purple nitrile gloves on the researcher's hands",
+          "white lab coat worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "OLYMPUS"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment and attachment of components to a microscope, highlighting the careful handling by the researcher. The 'OLYMPUS' label on the microscope is a key identifier. The researcher's gloved hands and lab coat emphasize a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.2878665,
+        27.43179975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts the camera labeled 'ANDOR Zyla' on the microscope setup"
+        ],
+        "objects_visible": [
+          "ANDOR Zyla camera with cooling vents and control buttons",
+          "microscope setup with a metal base and optical components",
+          "researcher's gloved hand manipulating the camera"
+        ],
+        "visible_text_labels": [
+          "ANDOR",
+          "Zyla"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a high-resolution ANDOR Zyla camera, indicating preparation for imaging. The researcher's gloved hand is seen making careful adjustments, emphasizing the importance of handling sensitive equipment. The camera's cooling vents and control buttons are clearly visible, highlighting its specialized design for scientific imaging."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.43179975,
+        36.575733
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small volume of liquid onto a microscope slide",
+          "researcher places a cover slip over the liquid on the microscope slide using tweezers"
+        ],
+        "objects_visible": [
+          "microscope with a 60x objective lens labeled 'PlanApo'",
+          "pipette with a fine tip",
+          "microscope slide with a small drop of liquid",
+          "cover slip held by tweezers",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "60x/1.40 Oil PlanApo"
+        ],
+        "quantities": [
+          "small volume of liquid (exact volume not specified)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a small sample volume for microscopic examination. The use of a 60x oil immersion objective lens suggests a high magnification requirement for the sample. The careful placement of the cover slip over the liquid is critical to avoid air bubbles and ensure proper sample viewing."
+      }
+    }
+  ]
+}

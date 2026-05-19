@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_3/52732_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 506.048,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        126.512
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A hand wearing a white glove holds a 1.5mL microtube labeled 'DMEM' with a blue cap.",
+          "A gloved hand picks up a pipette and inserts it into a red liquid reservoir."
+        ],
+        "objects_visible": [
+          "A 1.5mL microtube with a blue cap labeled 'DMEM'.",
+          "A pipette with a red liquid reservoir.",
+          "A petri dish containing a small amount of yellowish substance.",
+          "A diagram showing a spinal cord with labeled parts: 'transverse process', 'spinal cord', and 'pedicle'.",
+          "A woman in a red and black shirt seated in front of a bookshelf."
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "transverse process",
+          "spinal cord",
+          "pedicle",
+          "Andrea Mothe",
+          "Toronto Western Hospital"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment features a detailed preparation phase with a focus on handling a microtube labeled 'DMEM'. A diagram of the spinal cord is shown, highlighting specific anatomical features. The scene transitions between a laboratory setting and an interview with a researcher."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        126.512,
+        253.024
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate tissue within an open surgical site",
+          "forceps carefully extract a small, elongated structure from the tissue",
+          "extracted structure is placed into a petri dish containing a clear liquid"
+        ],
+        "objects_visible": [
+          "forceps with metallic, serrated tips",
+          "petri dish with a clear liquid and a small, elongated tissue structure",
+          "surgical site with exposed, reddish tissue and visible blood",
+          "gloved hands manipulating the forceps"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one petri dish",
+          "one pair of forceps"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its detailed surgical extraction process, where a specific tissue structure is carefully removed and placed into a petri dish. The presence of blood and exposed tissue highlights the invasive nature of the procedure. The use of forceps and the petri dish suggests a controlled, laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        253.024,
+        379.536
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'SAMPLE' with a blue cap",
+          "pipettes ~200uL of a clear liquid from the microtube into a blue test tube rack"
+        ],
+        "objects_visible": [
+          "blue test tube rack with multiple empty slots",
+          "1.5mL microtube with a blue cap",
+          "pipette with a pink and white handle",
+          "blue-lidded reagent bottle with a label",
+          "petri dish with a clear medium"
+        ],
+        "visible_text_labels": [
+          "SAMPLE",
+          "jove"
+        ],
+        "quantities": [
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid sample using a pipette. The blue test tube rack and the labeled microtube are distinctive elements, emphasizing the organized and methodical nature of the experiment. The 'jove' logo indicates the video is part of a scientific demonstration series."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        379.536,
+        506.048
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope slide with stained tissue sections is shown",
+          "microscope images of isolated neurospheres are displayed"
+        ],
+        "objects_visible": [
+          "microscope slide with tissue sections stained in pink and blue",
+          "microscope images showing neurospheres with Ki67 and Hoechst staining",
+          "text labels on the microscope images"
+        ],
+        "visible_text_labels": [
+          "IV. Results: Isolated Neurospheres Express Ki67 and Nestin by Passage 3",
+          "Ki67/Hoechst",
+          "Passage 3",
+          "100 \u00b5m"
+        ],
+        "quantities": [
+          "100 \u00b5m scale bar on the microscope images"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of isolated neurospheres through microscopy, highlighting their expression of Ki67 and Nestin. The images provide a detailed view of the neurospheres at Passage 3, with clear scale bars for reference. The segment transitions from tissue sections to specific neurosphere images, emphasizing the experimental results."
+      }
+    }
+  ]
+}

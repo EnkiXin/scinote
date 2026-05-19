@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/step_prediction/56651/clip_5_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 56.343933,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.08598325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a small white object in a petri dish",
+          "researcher holds a petri dish with a clear liquid"
+        ],
+        "objects_visible": [
+          "petri dish with a clear liquid",
+          "forceps held by gloved hands",
+          "small white object being manipulated",
+          "blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small white object using forceps within a petri dish. The researcher's hands are gloved, emphasizing a sterile environment. The petri dish contains a clear liquid, suggesting a controlled medium for the object."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.08598325,
+        28.1719665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a clear petri dish with a white substance inside",
+          "researcher uses a pipette to transfer a small amount of liquid from a microtube into the petri dish"
+        ],
+        "objects_visible": [
+          "clear petri dish containing a white substance",
+          "pipette with a blue plunger",
+          "microtube labeled 'ATM18b' with a white cap",
+          "researcher's hands wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "ATM18b"
+        ],
+        "quantities": [
+          "small amount of liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube and the transfer of a liquid sample into a petri dish, emphasizing the careful preparation steps. The microtube is clearly labeled, and the researcher's gloved hands ensure sterility. The white substance in the petri dish suggests a specific experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        28.1719665,
+        42.25794975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled '30% sucrose' with a blue cap",
+          "researcher carefully opens the microtube and uses a pipette to transfer a small volume of liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled '30% sucrose'",
+          "pipette with a blue tip",
+          "petri dish on the lab bench",
+          "microscope with a camera attachment",
+          "various lab equipment and supplies in the background"
+        ],
+        "visible_text_labels": [
+          "30% sucrose O/N",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "small volume of liquid transferred (exact volume not specified)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a 30% sucrose solution, emphasizing the careful transfer of liquid using a pipette. The presence of a labeled microtube and the researcher's methodical actions highlight the importance of accuracy in this step of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        42.25794975,
+        56.343933
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a yellow pencil to point at specific wells in a 96-well plate",
+          "researcher holds a small, clear plastic container with a lid, possibly containing samples or reagents"
+        ],
+        "objects_visible": [
+          "96-well plate with a metallic finish and labeled rows and columns",
+          "yellow pencil with a sharpened tip",
+          "clear plastic container with a lid",
+          "microscope with a red 'Leitz' logo",
+          "researcher's hands wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "Leitz (on the microscope)",
+          "jove (watermark in the top right corner)"
+        ],
+        "quantities": [
+          "96 wells in the plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a 96-well plate, with the researcher using a pencil to indicate specific wells, suggesting a detailed and methodical approach. The presence of a microscope and a clear plastic container indicates a laboratory setting where sample preparation or analysis is being conducted."
+      }
+    }
+  ]
+}

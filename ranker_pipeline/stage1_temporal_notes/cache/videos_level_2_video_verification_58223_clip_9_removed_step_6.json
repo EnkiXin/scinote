@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_verification/58223/clip_9_removed_step_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.593047,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.14826175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "researcher uses pipette to transfer liquid from microtube into test tube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "pipette with white body and black plunger",
+          "test tube rack with multiple clear test tubes",
+          "yellow pipette tip box"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a specific microtube labeled 'DMEM' is used. The researcher's actions are precise, involving the transfer of liquid using a pipette. The setup includes a test tube rack and a pipette tip box, indicating a well-organized laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.14826175,
+        16.2965235
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into a test tube",
+          "holds a test tube rack"
+        ],
+        "objects_visible": [
+          "test tube rack with multiple clear test tubes",
+          "yellow pipette tip box",
+          "small vial with a blue cap",
+          "pipette dispensing liquid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one test tube with a brown liquid"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action into a test tube, with a gloved hand stabilizing the test tube rack. The presence of a small vial with a blue cap suggests additional reagents or samples are involved. The yellow pipette tip box indicates preparation for multiple pipetting steps."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.2965235,
+        24.44478525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a test tube"
+        ],
+        "objects_visible": [
+          "pipette with a white body and red plunger",
+          "test tube rack with multiple clear test tubes",
+          "beaker labeled 'Waste' with a purple marking",
+          "test tube with a blue cap"
+        ],
+        "visible_text_labels": [
+          "Waste",
+          "100",
+          "200"
+        ],
+        "quantities": [
+          "~200uL of liquid dispensed into the test tube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of liquid dispensing using a pipette into a test tube. The presence of a waste beaker and a test tube rack indicates a controlled laboratory environment. The blue-capped test tube suggests the handling of specific reagents or samples."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.44478525,
+        32.593047
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a red cap labeled '10x buffer'",
+          "researcher places the microtube into a vortex mixer labeled 'Vortex-Genie 2'"
+        ],
+        "objects_visible": [
+          "a vortex mixer with a blue and white label",
+          "a 1.5mL microtube with a red cap",
+          "a white lab coat",
+          "a blue glove",
+          "a yellow microtube rack",
+          "a white pipette tip box"
+        ],
+        "visible_text_labels": [
+          "Vortex-Genie 2",
+          "10x buffer"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the use of a vortex mixer to mix the contents of a microtube. The researcher's gloved hand is clearly visible, emphasizing safety and precision. The vortex mixer's label and the microtube's label are distinct and legible."
+      }
+    }
+  ]
+}

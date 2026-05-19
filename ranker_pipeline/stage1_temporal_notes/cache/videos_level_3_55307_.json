@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_3/55307_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 510.592,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        127.648
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap.",
+          "Pipettes approximately 200uL of pink-colored DMEM medium into a petri dish."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap labeled 'DMEM'.",
+          "Pink-colored DMEM medium in a petri dish.",
+          "Pipette with a blue plunger."
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL",
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise preparation of a DMEM medium sample, highlighting the use of a labeled microtube and a specific volume measurement. The pink color of the medium is a distinctive feature, indicating its composition or state."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        127.648,
+        255.296
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'TAA' with a blue cap",
+          "researcher uses a pipette to transfer a yellowish liquid from a vial into a test tube",
+          "researcher places the test tube into a centrifuge labeled 'MODEL WX-6002-100P'"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital display showing '450 000'",
+          "test tube with a yellowish liquid",
+          "vial with a blue cap labeled 'TAA'",
+          "pipette with a blue plunger",
+          "aluminum foil covering some equipment",
+          "digital scale with a green display"
+        ],
+        "visible_text_labels": [
+          "TAA: Titanium diisopropoxide bis(acetylacetonate)",
+          "MODEL WX-6002-100P",
+          "450 000"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "450 000 (likely RPM or another measurement on the centrifuge)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the precise handling of a labeled chemical compound (TAA) and the use of a centrifuge with a specific digital reading. The presence of aluminum foil and a digital scale suggests a controlled and detailed experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        255.296,
+        382.94399999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher uses a pipette to transfer a clear liquid into a small vial labeled 'TFSI: Bis(trifluoromethylsulfonyl)imide'.",
+          "Researcher places the vial into a foil-covered container on a hotplate."
+        ],
+        "objects_visible": [
+          "A foil-covered container on a hotplate with a digital display showing temperature settings.",
+          "A vial with a label 'TFSI: Bis(trifluoromethylsulfonyl)imide'.",
+          "A pipette with a fine tip for precise liquid transfer."
+        ],
+        "visible_text_labels": [
+          "TFSI: Bis(trifluoromethylsulfonyl)imide"
+        ],
+        "quantities": [
+          "The digital display on the hotplate shows a temperature of 100\u00b0C."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a specific chemical compound, TFSI, and its placement in a controlled thermal environment. The use of foil covering suggests a need to protect the contents from external contamination or light. The digital display on the hotplate indicates a controlled temperature setting, emphasizing the importance of thermal conditions in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        382.94399999999996,
+        510.592
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher stands in front of a large circular window with a view of greenery outside",
+          "researcher speaks directly to the camera"
+        ],
+        "objects_visible": [
+          "researcher wearing a light-colored shirt with a striped tie",
+          "large circular window with a wooden frame",
+          "green foliage visible through the window"
+        ],
+        "visible_text_labels": [
+          "iove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the researcher speaking in a natural setting, with a large circular window providing a backdrop of greenery. The absence of laboratory equipment or experimental actions suggests a moment of explanation or summary. The 'iove' watermark indicates the video's source or platform."
+      }
+    }
+  ]
+}

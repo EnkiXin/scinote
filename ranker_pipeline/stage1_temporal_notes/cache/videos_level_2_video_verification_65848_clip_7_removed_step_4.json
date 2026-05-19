@@ -1,0 +1,143 @@
+{
+  "video_id": "videos/level_2/video_verification/65848/clip_7_removed_step_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.280333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.57008325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "holding a microtube with a pipette"
+        ],
+        "objects_visible": [
+          "transparent microtube containing a clear liquid",
+          "gloved hand holding the microtube",
+          "eye of an animal with visible cornea and iris"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up of an animal's eye, highlighting the cornea and iris. A gloved hand is seen holding a microtube, suggesting a preparation for an injection or application of a substance. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.57008325,
+        13.1401665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is focused on an eye, possibly for examination or surgical procedure",
+          "a small, transparent pipette or tool is introduced into the eye"
+        ],
+        "objects_visible": [
+          "eye with a visible cornea, iris, and lens",
+          "pipette or tool with a fine tip",
+          "surrounding tissue and fur"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up view of an eye, highlighting the intricate details of the cornea and lens. The introduction of a tool suggests a precise, delicate procedure. The surrounding fur indicates the subject is likely an animal."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.1401665,
+        19.71024975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A fine needle is inserted into the eye, likely for injection or aspiration.",
+          "The needle is held steady, suggesting a precise and controlled procedure."
+        ],
+        "objects_visible": [
+          "A close-up view of an eye with a dilated pupil.",
+          "A fine needle inserted into the eye.",
+          "Moisture around the eye, possibly from a saline solution."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a delicate procedure involving the eye, with a needle inserted into the eye's interior. The close-up view highlights the precision required for this task. The presence of moisture around the eye suggests a controlled environment for the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.71024975,
+        26.280333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a used needle into a yellow sharps container"
+        ],
+        "objects_visible": [
+          "yellow sharps container with a white lid and a red warning label",
+          "researcher's gloved hand",
+          "green table surface",
+          "medical equipment in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the disposal of a used needle into a properly labeled sharps container, emphasizing safety protocols. The yellow color of the container and the red warning label are distinctive features. The researcher's gloved hand indicates adherence to sterile techniques."
+      }
+    }
+  ]
+}

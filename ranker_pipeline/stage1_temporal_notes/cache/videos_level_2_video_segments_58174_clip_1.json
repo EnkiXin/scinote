@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/58174/clip_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.795,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.69875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a rectangular PMMA plate with both gloved hands",
+          "researcher carefully places the PMMA plate into a mechanical testing apparatus"
+        ],
+        "objects_visible": [
+          "rectangular PMMA plate with dimensions 60 x 50 x 10 mm\u00b3",
+          "mechanical testing apparatus with adjustable arms and a base",
+          "yellow cable on the floor",
+          "black and yellow equipment on the table"
+        ],
+        "visible_text_labels": [
+          "PMMA \u2013 Poly(Methyl MethAcrylate)",
+          "Plate size: 60 x 50 x 10 mm\u00b3",
+          "See text protocol for details"
+        ],
+        "quantities": [
+          "60 x 50 x 10 mm\u00b3"
+        ],
+        "key_distinguishing_features": "The researcher is handling a PMMA plate with precise dimensions, indicating a controlled preparation phase. The mechanical testing apparatus suggests the experiment involves material testing. The visible text provides specific details about the material and its size."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.69875,
+        15.3975
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a transparent plate with circular wells onto a metal stage",
+          "researcher adjusts the plate to ensure it is properly aligned on the stage"
+        ],
+        "objects_visible": [
+          "transparent plate with four circular wells",
+          "metal stage with adjustment knobs",
+          "yellow cable in the background",
+          "microscope objective lens labeled 'M Plan 10X'"
+        ],
+        "visible_text_labels": [
+          "Plate size: 60 x 50 x 10 mm\u00b3",
+          "See text protocol for details",
+          "jove"
+        ],
+        "quantities": [
+          "60 x 50 x 10 mm\u00b3"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a transparent plate with specific dimensions onto a metal stage, highlighting the preparation phase of the experiment. The presence of a labeled microscope objective lens and a yellow cable in the background adds context to the laboratory setting. The text overlay provides specific plate dimensions and directs viewers to a text protocol for further details."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.3975,
+        23.09625
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a transparent block with cylindrical holes into a metal holder"
+        ],
+        "objects_visible": [
+          "transparent block with cylindrical holes",
+          "metal holder with knobs and screws",
+          "microscope objective lens labeled '10x'",
+          "yellow cable",
+          "black and white cables",
+          "metal surface with a grid of holes"
+        ],
+        "visible_text_labels": [
+          "10x"
+        ],
+        "quantities": [
+          "10x magnification"
+        ],
+        "key_distinguishing_features": "The transparent block with cylindrical holes is carefully aligned and secured in the metal holder, suggesting a precise setup for an experiment. The presence of the microscope objective lens indicates that the block will likely be observed or measured under magnification. The researcher's gloved hand ensures a controlled and sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.09625,
+        30.795
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a transparent acrylic block with circular cutouts onto a metal stage",
+          "researcher adjusts the position of the acrylic block on the stage"
+        ],
+        "objects_visible": [
+          "metal stage with multiple adjustment knobs",
+          "transparent acrylic block with circular cutouts",
+          "microscope objective lens labeled '10x'",
+          "yellow and black cables",
+          "blue-gloved hand"
+        ],
+        "visible_text_labels": [
+          "10x"
+        ],
+        "quantities": [
+          "multiple circular cutouts"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a transparent acrylic block with circular cutouts onto a metal stage, indicating a step in setting up an experimental apparatus. The researcher's gloved hand is actively involved in positioning the block, highlighting the importance of careful alignment. The presence of a 10x microscope objective lens suggests that the setup is part of a microscopy experiment."
+      }
+    }
+  ]
+}

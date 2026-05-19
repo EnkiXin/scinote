@@ -1,0 +1,150 @@
+{
+  "video_id": "videos/level_2/step_prediction/64400/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 15.5365,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        3.884125
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [],
+        "objects_visible": [
+          "glass petri dish containing numerous light brown wheat seeds"
+        ],
+        "visible_text_labels": [
+          "Wheat Seedling Germination and Hydroponic Culture",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment shows a petri dish filled with wheat seeds, indicating the initial preparation phase of a seed germination experiment. The seeds are uniformly distributed, suggesting they are ready for the next steps in the process. The dark background contrasts with the light seeds, emphasizing their presence."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        3.884125,
+        7.76825
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours seeds from a petri dish into a beaker containing water"
+        ],
+        "objects_visible": [
+          "petri dish filled with light brown seeds",
+          "beaker with clear water",
+          "researcher's hands wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "seeds in a petri dish",
+          "water in a beaker"
+        ],
+        "key_distinguishing_features": "The segment shows a clear transition from a petri dish to a beaker, indicating a step in the experiment involving the seeds. The researcher's hands are gloved, emphasizing a controlled environment. The JOVE logo is visible, suggesting a professional or educational context."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        7.76825,
+        11.652375
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a small amount of light brown granules from a transparent container into a beaker containing a clear liquid",
+          "researcher uses a metal rod to stir the mixture in the beaker"
+        ],
+        "objects_visible": [
+          "beaker with a clear liquid and light brown granules",
+          "transparent container with light brown granules",
+          "metal rod for stirring",
+          "blue nitrile gloves",
+          "black lab surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small amount of granules",
+          "clear liquid in beaker"
+        ],
+        "key_distinguishing_features": "The segment shows the precise addition of granules to a liquid, followed by stirring, indicating a step in a chemical or biological process. The use of a metal rod for stirring is a distinctive feature. The granules appear to be evenly distributed as they are added."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        11.652375,
+        15.5365
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand pours a clear liquid from a squeeze bottle into a beaker containing a cloudy, light brown solution.",
+          "The gloved hand then uses a metal rod to stir the contents of the beaker."
+        ],
+        "objects_visible": [
+          "A transparent beaker with a cloudy, light brown solution.",
+          "A clear squeeze bottle with a white nozzle.",
+          "A metal rod used for stirring.",
+          "A dark gray laboratory surface with visible scratches and a small hole."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The beaker appears to contain approximately 50 mL of solution based on the visible markings."
+        ],
+        "key_distinguishing_features": "This segment shows the active mixing of a solution, highlighting the use of a squeeze bottle for adding a clear liquid and a metal rod for stirring. The laboratory surface's condition, with scratches and a hole, adds a distinctive backdrop to the experiment."
+      }
+    }
+  ]
+}

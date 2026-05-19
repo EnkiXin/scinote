@@ -1,0 +1,158 @@
+{
+  "video_id": "65386",
+  "benchmark": "scivideobench",
+  "duration_seconds": 278.997333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        69.74933325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Displays a title slide with disclaimer and introduction text",
+          "Presents a slide detailing compound administration routes"
+        ],
+        "objects_visible": [
+          "White background with black text",
+          "Slide with bullet points and arrows"
+        ],
+        "visible_text_labels": [
+          "Disclaimer",
+          "A Rodent Neonatal Model of Retroorbital Vein Injection",
+          "Introduction",
+          "Animal research \u2192 Clinical work",
+          "Compound administration",
+          "Subcutaneous",
+          "Intraperitoneal",
+          "Intravenous \u2192 Neonates",
+          "Retroorbital Injection",
+          "Alternative to tail vein injection",
+          "Easy, reproducible"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on introductory slides, providing context for the research and detailing the transition from animal research to clinical applications. The text highlights the specific routes of compound administration, emphasizing the intravenous route for neonates."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        69.74933325,
+        139.4986665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand holds a syringe and injects a substance into a small, pink, translucent organ.",
+          "The organ is illuminated with a red light, highlighting its internal structures."
+        ],
+        "objects_visible": [
+          "A syringe with a needle inserted into a small, pink, translucent organ.",
+          "Gloved hands manipulating the organ and syringe.",
+          "A red light source illuminating the organ."
+        ],
+        "visible_text_labels": [
+          "Medial canthus",
+          "Retro-orbital sinus",
+          "Superficial temporal vein",
+          "Facial vein"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment is distinctive for its detailed anatomical labeling of the organ being injected, with specific structures like the 'Medial canthus' and 'Retro-orbital sinus' clearly marked. The use of red light to enhance visibility of the organ's internal features is a notable aspect of the setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        139.4986665,
+        209.24799975000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand holds a small, translucent pink object, likely a mouse eye, steady on a printed paper.",
+          "A syringe is used to inject a clear liquid into the pink object."
+        ],
+        "objects_visible": [
+          "A small, translucent pink object resembling a mouse eye.",
+          "A syringe with a clear liquid being injected.",
+          "A gloved hand holding the pink object.",
+          "A printed paper with text and diagrams underneath the pink object."
+        ],
+        "visible_text_labels": [
+          "Representative results",
+          "Retroorbital injection of the tracer biotin-dextran injection"
+        ],
+        "quantities": [
+          "The syringe appears to contain a small volume of liquid, likely in the microliter range."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise injection of a tracer substance into a small, translucent pink object, likely a mouse eye, as part of a scientific procedure. The printed paper underneath provides context, indicating the procedure involves a retroorbital injection. The use of gloves and a syringe highlights the controlled and sterile nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        209.24799975000002,
+        278.997333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a syringe filled with a clear liquid and injects it into the retroorbital sinus of a mouse.",
+          "Researcher uses a gloved hand to stabilize the mouse's head during the injection."
+        ],
+        "objects_visible": [
+          "A syringe with a clear liquid, likely the tracer solution.",
+          "A mouse with its head being held steady by a gloved hand.",
+          "A transparent tape or bandage partially visible under the mouse's head."
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise administration of a tracer injection into a mouse's retroorbital sinus. The use of gloves and careful handling of the syringe highlights the controlled and sterile nature of the procedure. The presence of the transparent tape suggests a setup to maintain the mouse's position during the injection."
+      }
+    }
+  ]
+}

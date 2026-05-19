@@ -1,0 +1,162 @@
+{
+  "video_id": "56774",
+  "benchmark": "scivideobench",
+  "duration_seconds": 400.576,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        100.144
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a small, transparent microtube with a blue cap.",
+          "Researcher uses a pipette to transfer a small volume of liquid into the microtube."
+        ],
+        "objects_visible": [
+          "A small, transparent microtube with a blue cap.",
+          "A pipette with a fine tip.",
+          "A microscope with a mounted camera."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The microtube appears to be a 1.5mL size."
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where precise handling of a microtube and pipette is observed. The presence of a microscope suggests a laboratory setting. The 'jove' logo indicates the video is likely part of a scientific demonstration series."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        100.144,
+        200.288
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses scissors to cut a small section of a mouse's tail",
+          "researcher holds a syringe and injects a substance into the mouse's tail"
+        ],
+        "objects_visible": [
+          "black mouse with a white patch on its chest",
+          "metal scissors with a black handle",
+          "transparent syringe with a pinkish substance",
+          "white surgical gloves on the researcher's hands",
+          "white gauze or surgical pad under the mouse"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small section of the mouse's tail"
+        ],
+        "key_distinguishing_features": "This segment distinctly shows a surgical procedure involving a mouse, with precise actions like cutting and injecting. The presence of the 'jove' logo suggests this is part of a scientific instructional video. The focus is on the interaction between the researcher's hands and the mouse, highlighting the procedural steps."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        200.288,
+        300.432
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand holds a syringe connected to a catheter, injecting a clear liquid into a tissue.",
+          "The camera focuses on the tissue, showing a close-up of the injection site with visible tissue structures."
+        ],
+        "objects_visible": [
+          "A syringe with a clear liquid, connected to a catheter.",
+          "A gloved hand manipulating the syringe.",
+          "A close-up view of tissue with visible blood vessels and surrounding structures."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The syringe appears to contain approximately 1-2 mL of liquid."
+        ],
+        "key_distinguishing_features": "This segment highlights the precise injection of a liquid into tissue, with a focus on the interaction between the catheter and the tissue. The close-up view provides detailed observation of the tissue's response to the injection. The presence of the 'jove' logo suggests this is part of a scientific or educational video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        300.432,
+        400.576
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "researcher holds a syringe connected to a catheter",
+          "researcher opens a transparent container with a yellow label",
+          "researcher closes a door",
+          "researcher stands in a laboratory setting"
+        ],
+        "objects_visible": [
+          "transparent container with a yellow label",
+          "catheter connected to a syringe",
+          "laboratory door with a white handle",
+          "graph with error bars"
+        ],
+        "visible_text_labels": [
+          "WT",
+          "APP/PS1",
+          "2000 pg/mL",
+          "**",
+          "jove",
+          "VI. Conclusion"
+        ],
+        "quantities": [
+          "2000 pg/mL"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on concluding actions, including handling medical equipment and presenting a graph with significant results. The presence of a 'VI. Conclusion' text suggests the final phase of the experiment. The graph highlights a significant difference between 'WT' and 'APP/PS1' groups."
+      }
+    }
+  ]
+}

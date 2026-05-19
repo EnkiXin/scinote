@@ -1,0 +1,176 @@
+{
+  "video_id": "videos/level_3/54147_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 541.674667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        135.41866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a white funnel and pours a white powdery substance from a small container into a clear glass beaker",
+          "researcher uses a spatula to scrape the remaining powder from the container into the beaker"
+        ],
+        "objects_visible": [
+          "white funnel with a smooth, slightly curved surface",
+          "clear glass beaker with a wide opening",
+          "small white container with a lid",
+          "metal spatula with a flat, rectangular blade",
+          "blue gloves worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "jove logo in the top right corner"
+        ],
+        "quantities": [
+          "no specific quantities or measurements are visible"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase where a white powdery substance is carefully transferred into a beaker using a funnel and spatula. The researcher's hands are gloved, emphasizing the controlled and sterile environment. The presence of the jove logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        135.41866675,
+        270.8373335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand adjusts the speed of a magnetic stirrer to 800-1,000 rpm.",
+          "A researcher adds a small amount of a white powder to a solution in a 500 mL Erlenmeyer flask to avoid lumps.",
+          "The researcher uses a pipette to transfer a liquid from a labeled bottle into a beaker containing a mixture of 3.2 g H2O and 6.8 g EtOH."
+        ],
+        "objects_visible": [
+          "A 500 mL Erlenmeyer flask with a solution being stirred by a magnetic stirrer.",
+          "A magnetic stirrer with a speed control knob.",
+          "A beaker containing a mixture of water and ethanol.",
+          "A pipette and a labeled bottle containing a liquid.",
+          "A white powder being added to the solution in the Erlenmeyer flask."
+        ],
+        "visible_text_labels": [
+          "800 - 1,000 rpm",
+          "Impurities will Precipitate Out of Solution During This Time",
+          "Add in Small Amounts to Avoid Formation of Lumps",
+          "Glaidin will Aggregate as EtOH is Reduced",
+          "3.2 g H2O 6.8 g EtOH"
+        ],
+        "quantities": [
+          "800-1,000 rpm",
+          "3.2 g H2O",
+          "6.8 g EtOH"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of substances to a solution under controlled stirring conditions. The emphasis on avoiding lumps and the specific quantities of water and ethanol highlight the importance of accurate measurements in the experiment. The visual text provides clear instructions for the steps being performed."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        270.8373335,
+        406.25600025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a centrifuge lid",
+          "researcher places a 1.5mL microtube labeled 'Sample 1' into the centrifuge chamber",
+          "researcher closes the centrifuge lid and sets the centrifuge parameters"
+        ],
+        "objects_visible": [
+          "blue centrifuge with a digital display and control buttons",
+          "1.5mL microtube labeled 'Sample 1' with a white cap",
+          "a box of Kimtech Science Kimwipes on the lab bench",
+          "a 500mL glass beaker with a clear liquid",
+          "a 100mL graduated cylinder with a clear liquid"
+        ],
+        "visible_text_labels": [
+          "LID OPEN",
+          "Sample 1",
+          "Kimtech Science Kimwipes"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "500mL beaker",
+          "100mL graduated cylinder"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube and its placement into a centrifuge, highlighting the importance of correct equipment operation. The presence of Kimwipes suggests a sterile environment is maintained. The digital display on the centrifuge indicates a modern laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        406.25600025,
+        541.674667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A researcher holds a glass slide with a droplet of liquid on it, observing its behavior.",
+          "The video transitions to a close-up of a water droplet on a surface, labeled 'Uncoated glass.'"
+        ],
+        "objects_visible": [
+          "A glass slide with a droplet of liquid",
+          "A close-up of a water droplet on a surface",
+          "A table with various laboratory items including a spray bottle and a box"
+        ],
+        "visible_text_labels": [
+          "Uncoated glass",
+          "Contact angle of substrates before & after nanoparticle-coating",
+          "Glass: 25.5 \u00b1 1.3\u00b0 (before coating), 8.9 \u00b1 0.8\u00b0 (after coating)",
+          "Polystyrene: 52.7 \u00b1 1.2\u00b0 (before coating), 9.8 \u00b1 0.8\u00b0 (after coating)"
+        ],
+        "quantities": [
+          "25.5 \u00b1 1.3\u00b0",
+          "8.9 \u00b1 0.8\u00b0",
+          "52.7 \u00b1 1.2\u00b0",
+          "9.8 \u00b1 0.8\u00b0"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of contact angles on different substrates, specifically comparing uncoated and nanoparticle-coated surfaces. The video includes detailed text labels with precise angle measurements, emphasizing the impact of the coating. The close-up of the water droplet on uncoated glass highlights the visual difference in surface properties."
+      }
+    }
+  ]
+}

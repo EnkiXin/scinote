@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/step_prediction/55614/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 19.907533,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.97688325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses gloved hands to manipulate a glass jar inside a sealed chamber"
+        ],
+        "objects_visible": [
+          "glass jar with a metal screw cap",
+          "black gloves",
+          "white lab coat",
+          "sealed chamber with a transparent window and black frame"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully handling a glass jar within a controlled environment, suggesting a procedure requiring sterility or containment. The use of black gloves and a sealed chamber highlights the importance of maintaining a controlled atmosphere. The 'jove' logo indicates this is part of a scientific demonstration or instructional video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.97688325,
+        9.9537665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wears black gloves and handles a clear glass jar with a metal lid inside a glovebox"
+        ],
+        "objects_visible": [
+          "clear glass jar with a metal lid",
+          "black gloves",
+          "white lab coat",
+          "glovebox with a transparent front and black frame"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully manipulating a glass jar within a controlled environment, emphasizing the need for contamination-free handling. The use of black gloves and a glovebox highlights the precision and safety measures in the experiment. The 'jove' logo indicates the video is likely part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.9537665,
+        14.93064975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours liquid from a glass beaker into a 1000 mL graduated cylinder"
+        ],
+        "objects_visible": [
+          "1000 mL graduated cylinder with blue cap",
+          "glass beaker",
+          "blue gloves",
+          "white lab coat",
+          "metal ring stand"
+        ],
+        "visible_text_labels": [
+          "1000 mL",
+          "500 mL",
+          "200 mL"
+        ],
+        "quantities": [
+          "1000 mL"
+        ],
+        "key_distinguishing_features": "The segment shows a precise transfer of liquid into a graduated cylinder, emphasizing the measurement process. The blue cap on the cylinder and the researcher's blue gloves are distinctive features. The focus is on the careful handling of the beaker and cylinder."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        14.93064975,
+        19.907533
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a blue cap onto a 1000 mL glass bottle containing a dark liquid",
+          "researcher adjusts the cap to ensure it is securely fastened"
+        ],
+        "objects_visible": [
+          "1000 mL glass bottle with measurement markings",
+          "blue cap",
+          "researcher's gloved hand wearing a teal glove",
+          "white lab coat"
+        ],
+        "visible_text_labels": [
+          "1000 mL",
+          "800 mL",
+          "600 mL",
+          "400 mL",
+          "200 mL"
+        ],
+        "quantities": [
+          "1000 mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of capping a large glass bottle, emphasizing the secure placement of the blue cap. The measurement markings on the bottle are clearly visible, indicating the volume of the dark liquid inside. The researcher's gloved hand is the only part of the person visible, highlighting the sterile handling of the container."
+      }
+    }
+  ]
+}

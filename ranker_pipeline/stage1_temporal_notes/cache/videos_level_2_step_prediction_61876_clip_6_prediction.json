@@ -1,0 +1,131 @@
+{
+  "video_id": "videos/level_2/step_prediction/61876/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 16.782,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.1955
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is focused on a small insect encased in a transparent substance"
+        ],
+        "objects_visible": [
+          "a small insect with a brown body and translucent wings encased in a clear, gel-like substance"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The insect appears to be immobilized within the gel-like substance, with its wings and body clearly visible under magnification. The focus of the microscope highlights the intricate details of the insect's anatomy."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.1955,
+        8.391
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "places a small, transparent slide with a sample on a microscope stage",
+          "adjusts the slide with fingers to position it correctly"
+        ],
+        "objects_visible": [
+          "microscope with a bright light source",
+          "black circular stage of the microscope",
+          "transparent slide with a visible sample"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a transparent slide on a microscope stage, highlighting the careful hand movements. The bright light from the microscope illuminates the slide, emphasizing the preparation phase. No text or numerical labels are visible on the objects."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        8.391,
+        12.586500000000001
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher adjusts a small black object on a circular platform",
+          "researcher uses fingers to manipulate a component of the black object"
+        ],
+        "objects_visible": [
+          "black circular platform with a central rectangular slot",
+          "small black object with two protruding handles",
+          "researcher's fingers"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up of a researcher's hands manipulating a small black object on a circular platform. The object appears to be part of a precision instrument, possibly for measurement or calibration. The hands are carefully adjusting the object, indicating a delicate and precise action."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        12.586500000000001,
+        16.782
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "a white object, possibly a cotton swab, is moved into the frame and gently touches the insect"
+        ],
+        "objects_visible": [
+          "a pale, translucent insect with a red eye, positioned on a dark, wet surface",
+          "a white object resembling a cotton swab"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The insect is the central focus, with its red eye and translucent body being particularly noticeable. The interaction with the white object suggests an attempt to manipulate or observe the insect's behavior. The dark, wet surface provides a stark contrast to the pale insect."
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_2/step_prediction/3563/clip_2_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.287567,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.32189175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 10mL graduated cylinder containing a clear liquid",
+          "researcher places the graduated cylinder on the lab bench"
+        ],
+        "objects_visible": [
+          "red tray filled with ice cubes and labeled tubes",
+          "1.5mL microtube with a blue cap labeled 'DMEM'",
+          "1.5mL microtube with a green cap labeled 'PBS'",
+          "Fisher Scientific Digital Vortex Mixer",
+          "WATSON water bottle",
+          "plastic wash bottle",
+          "biohazard warning sign on the red cabinet"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "PBS",
+          "Fisher Scientific",
+          "WATSON"
+        ],
+        "quantities": [
+          "10mL graduated cylinder",
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase with a focus on the handling of a 10mL graduated cylinder. The red tray with ice and labeled tubes suggests a controlled environment for sample storage. The presence of a vortex mixer and water bottle indicates a well-equipped laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.32189175,
+        16.6437835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a small, red, tissue-like object in a petri dish",
+          "researcher places the tissue-like object into a red container filled with ice"
+        ],
+        "objects_visible": [
+          "petri dish containing a red, tissue-like object",
+          "forceps held by a gloved hand",
+          "red container filled with ice",
+          "yellow and black device with a digital display and buttons",
+          "red biohazard container with a label"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one red tissue-like object",
+          "one petri dish",
+          "one red container filled with ice"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the careful handling of a red tissue-like object using forceps, followed by its placement into a container of ice. The presence of a biohazard container and a digital device suggests a controlled laboratory environment. The 'jove' watermark indicates the video is likely from a scientific instructional source."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.6437835,
+        24.965675250000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher presses a button on the yellow device labeled 'programMACS Dissociator'",
+          "researcher places a red container filled with ice cubes on the table"
+        ],
+        "objects_visible": [
+          "yellow device with a digital display and buttons labeled 'programMACS Dissociator'",
+          "red container filled with ice cubes",
+          "red biohazard sharps container",
+          "white device with a digital display and buttons labeled '8890'"
+        ],
+        "visible_text_labels": [
+          "programMACS Dissociator",
+          "8890"
+        ],
+        "quantities": [
+          "red container filled with ice cubes"
+        ],
+        "key_distinguishing_features": "The segment focuses on the interaction with a yellow 'programMACS Dissociator' device, highlighting the pressing of a button. The presence of a red container with ice cubes suggests a step involving temperature control. The biohazard sharps container indicates the handling of potentially hazardous materials."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.965675250000004,
+        33.287567
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a red liquid sample",
+          "researcher places the microtube into a pink sample holder inside a water bath"
+        ],
+        "objects_visible": [
+          "FISHERbrand water bath with a digital display showing 37.0\u00b0C",
+          "pink and yellow sample holders inside the water bath",
+          "a gloved hand manipulating the microtube"
+        ],
+        "visible_text_labels": [
+          "FISHERbrand",
+          "ISOTEMP 215",
+          "37.0"
+        ],
+        "quantities": [
+          "37.0\u00b0C"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a microtube containing a red liquid into a water bath set at 37.0\u00b0C. The use of color-coded sample holders adds a visual distinction for organization. The digital display on the water bath confirms the controlled temperature environment."
+      }
+    }
+  ]
+}

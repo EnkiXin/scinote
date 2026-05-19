@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/video_segments/59474/clip_12.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.161,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.79025
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscopic imaging of cells"
+        ],
+        "objects_visible": [
+          "three microscopic images of cells with different visualizations"
+        ],
+        "visible_text_labels": [
+          "20 \u03bcm",
+          "20 \u03bcm"
+        ],
+        "quantities": [
+          "20 \u03bcm scale bar in two images"
+        ],
+        "key_distinguishing_features": "The segment shows three distinct microscopic views of a cell, with one image highlighting the cell in green fluorescence, another in grayscale, and the third combining both views. The scale bar indicates the size of the cell at 20 \u03bcm. The images are static, suggesting a focus on observation rather than active manipulation."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.79025,
+        19.5805
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [],
+        "objects_visible": [
+          "three microscopic images of a cell, each with distinct characteristics",
+          "a green fluorescent cell in the left image against a black background",
+          "a grayscale image of a cell with a visible nucleus and surrounding cytoplasm in the middle",
+          "a composite image on the right showing the green fluorescent cell overlaid on the grayscale cell image"
+        ],
+        "visible_text_labels": [
+          "20 \u03bcm scale bar in the left and right images",
+          "jove logo in the top right corner"
+        ],
+        "quantities": [
+          "20 \u03bcm scale bar indicating the size of the cell in the images"
+        ],
+        "key_distinguishing_features": "This segment highlights the visualization of a cell using fluorescence microscopy and phase contrast imaging. The composite image effectively merges the fluorescent and grayscale views, providing a detailed look at the cell's structure. The scale bar ensures accurate size reference for the cell."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.5805,
+        29.37075
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "data points are plotted on a graph over time",
+          "a red trend line is added to the graph"
+        ],
+        "objects_visible": [
+          "graph with black data points and red trend line",
+          "x-axis labeled 'Time (min)'",
+          "y-axis labeled 'Area (pixels)'"
+        ],
+        "visible_text_labels": [
+          "Time (min)",
+          "Area (pixels)",
+          "jove"
+        ],
+        "quantities": [
+          "time range from 0 to 30 minutes",
+          "area range from 13500 to 15500 pixels"
+        ],
+        "key_distinguishing_features": "This segment shows a dynamic graph with fluctuating data points over time, and a red trend line is introduced to indicate the overall trend. The graph's axes are clearly labeled, and the data points exhibit variability, suggesting an ongoing observation or measurement process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.37075,
+        39.161
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Graph displays area fluctuations over time",
+          "Red dashed line represents a trend or mean value"
+        ],
+        "objects_visible": [
+          "Line graph with black data points and red dashed line",
+          "Bar graph showing standard deviation"
+        ],
+        "visible_text_labels": [
+          "Area Fluctuations (%)",
+          "Time (min)",
+          "Standard Deviation of Nuclear Projected Area Fluctuations (%)",
+          "Hours Post-"
+        ],
+        "quantities": [
+          "Time range from 0 to 30 minutes",
+          "Area fluctuations range from -15% to 15%",
+          "Standard deviation value of approximately 3%"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of area fluctuations over time, with a detailed line graph showing variability. The red dashed line likely represents a mean or trend, and a bar graph provides additional statistical context. The data points are plotted at regular intervals, indicating a systematic measurement process."
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "video_id": "videos/level_2/video_verification/59449/clip_5_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 44.733,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.18325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses scissors to make an incision on the mouse's skin",
+          "researcher uses forceps to manipulate the mouse's skin"
+        ],
+        "objects_visible": [
+          "mouse with dark fur and exposed skin",
+          "metal scissors with black handles",
+          "metal forceps",
+          "purple-gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a surgical procedure on a mouse, with precise use of scissors and forceps. The mouse's skin is visibly cut and manipulated, indicating a detailed surgical technique. The presence of purple gloves highlights the sterile environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.18325,
+        22.3665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a small, dark, irregularly shaped object",
+          "researcher holds a mouse with exposed skin and tissue"
+        ],
+        "objects_visible": [
+          "forceps with metallic, shiny surface",
+          "mouse with partially shaved skin revealing pink tissue and some dark fur",
+          "purple nitrile gloves worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise surgical procedure involving a mouse. The researcher's hands, clad in purple gloves, are manipulating a small object with forceps, suggesting a delicate operation. The exposed tissue of the mouse is prominently visible, indicating an invasive procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.3665,
+        33.549749999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand holds a small animal, likely a mouse, with its head exposed and skin partially removed.",
+          "A tool, possibly a scalpel or probe, is used to manipulate the exposed tissue on the animal's head."
+        ],
+        "objects_visible": [
+          "A small animal, likely a mouse, with its head and part of its neck exposed and skin partially removed.",
+          "Purple nitrile gloves worn by the researcher.",
+          "A metallic tool, possibly a scalpel or probe, being used to manipulate the tissue."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise surgical procedure being performed on a small animal, with the researcher's gloved hands and the metallic tool being the central elements. The exposed tissue and the careful manipulation suggest a delicate and controlled experiment. The 'jove' logo indicates the video is likely part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        33.549749999999996,
+        44.733
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a small, pale, bulbous object",
+          "forceps gently press and adjust the object, possibly for dissection or examination"
+        ],
+        "objects_visible": [
+          "a small, pale, bulbous object with a translucent appearance",
+          "forceps with metallic, sharp tips",
+          "purple-gloved hands holding the object and forceps"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful manipulation of a small, pale object using forceps, suggesting a delicate dissection or examination process. The object's translucent and bulbous nature is distinctive, and the use of forceps indicates precision is required. The purple gloves and the 'jove' logo suggest a controlled laboratory setting."
+      }
+    }
+  ]
+}

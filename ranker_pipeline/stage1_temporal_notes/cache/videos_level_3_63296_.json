@@ -1,0 +1,165 @@
+{
+  "video_id": "videos/level_3/63296_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 568.106667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        142.02666675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with blue tip",
+          "petri dish containing pink-colored medium",
+          "yellow microtube rack",
+          "pink microtube rack",
+          "metallic perforated tray"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Loading Vessels with Stock Cell Culture"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "~200uL of DMEM medium"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of cell culture vessels, highlighting the precise handling of DMEM medium. The use of color-coded racks and the metallic perforated tray suggests a controlled laboratory environment. The pink color of the medium is a distinctive feature, indicating the presence of phenol red as a pH indicator."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        142.02666675,
+        284.0533335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'Sample 1' with blue cap",
+          "pipettes ~200uL of clear liquid from microtube into a test tube",
+          "researcher places microtube back into pink foam rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'Sample 1'",
+          "pipette with a white tip",
+          "test tube with clear liquid",
+          "pink foam rack with multiple slots",
+          "yellow test tube rack",
+          "blue-gloved hands"
+        ],
+        "visible_text_labels": [
+          "Sample 1"
+        ],
+        "quantities": [
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a small volume of liquid from a microtube to a test tube, highlighting the use of a pipette for accuracy. The pink foam rack and blue-gloved hands are distinctive elements, emphasizing a controlled laboratory environment. The labeled microtube adds specificity to the sample being handled."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        284.0533335,
+        426.08000025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe and carefully removes bubbles from a vessel",
+          "researcher places the vessel on a rack and adjusts the syringe plunger"
+        ],
+        "objects_visible": [
+          "a syringe with a clear liquid and bubbles",
+          "a vessel with a clear liquid",
+          "a yellow rack for holding vessels",
+          "a perforated surface, possibly a lab bench or equipment"
+        ],
+        "visible_text_labels": [
+          "Removing Bubbles from the Vessels"
+        ],
+        "quantities": [
+          "the syringe contains a clear liquid with visible bubbles"
+        ],
+        "key_distinguishing_features": "This segment focuses on the meticulous process of removing bubbles from a vessel, highlighting the precision required in handling laboratory equipment. The presence of a yellow rack and a perforated surface suggests a controlled laboratory environment. The text label emphasizes the specific task being performed."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        426.08000025,
+        568.106667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap.",
+          "Pipettes approximately 200uL of pink-colored DMEM medium into a petri dish."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "Pink-colored DMEM medium",
+          "Petri dish",
+          "Pipette with a blue plunger"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "200uL"
+        ],
+        "quantities": [
+          "1.5mL",
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of DMEM medium, highlighting the use of a labeled microtube and the specific volume of liquid being transferred. The pink color of the medium is a distinctive feature, indicating its composition or purpose in the experiment."
+      }
+    }
+  ]
+}

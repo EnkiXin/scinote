@@ -1,0 +1,177 @@
+{
+  "video_id": "videos/level_3/200229_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 444.48,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        111.12
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher wearing purple gloves and a white lab coat prepares a dilution series.",
+          "Researcher uses a pipette to transfer liquid into a purple 96-well plate."
+        ],
+        "objects_visible": [
+          "Purple 96-well plate with multiple wells",
+          "Blue pipette tip box",
+          "Blue test tube rack with labeled tubes",
+          "Small beige Fisher Scientific vortex mixer",
+          "White lab coat and purple gloves on the researcher"
+        ],
+        "visible_text_labels": [
+          "Construct the remaining dilution series similarly",
+          "PD-L1 Magnetic Bead-Based PD-1/PD-L1 Blocking Assay",
+          "Narrator: Karin King",
+          "Demonstrators: Jay Overholser and Linlin Guo",
+          "Dilutions: 125, 63, 31, 16, and 8 \u00b5g/mL"
+        ],
+        "quantities": [
+          "125, 63, 31, 16, and 8 \u00b5g/mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a dilution series for a PD-L1 Magnetic Bead-Based assay. The researcher meticulously uses a pipette to transfer precise volumes of liquid into a 96-well plate. The detailed text labels provide context for the specific dilutions being prepared."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        111.12,
+        222.24
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a 96-well plate",
+          "researcher covers a 96-well plate with aluminum foil",
+          "researcher places a 96-well plate into a Luminex machine",
+          "researcher washes a plate with PBS-TBN solution"
+        ],
+        "objects_visible": [
+          "96-well plate with purple wells",
+          "pipette with a blue plunger",
+          "aluminum foil covering a 96-well plate",
+          "Luminex machine with a digital display",
+          "PBS-TBN solution in a blue-capped bottle"
+        ],
+        "visible_text_labels": [
+          "PBS-TBN Volume: 50 \u03bcL/well + extra for pipetting loss",
+          "Luminex",
+          "Wash 2x with PBS-TBN"
+        ],
+        "quantities": [
+          "50 \u03bcL/well",
+          "2x wash"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a 96-well plate, including liquid dispensing, covering with aluminum foil, and washing steps. The use of a Luminex machine indicates a specific type of analysis being performed. The detailed text labels provide clear instructions for the volume and washing procedures."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        222.24,
+        333.36
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 96-well plate with a white base and a clear lid",
+          "researcher uses a multichannel pipette to dispense liquid into the wells of the 96-well plate"
+        ],
+        "objects_visible": [
+          "96-well plate with a white base and a clear lid",
+          "multichannel pipette with blue tips",
+          "purple gloves on the researcher's hands",
+          "black Luminex logo on a white background"
+        ],
+        "visible_text_labels": [
+          "Luminex"
+        ],
+        "quantities": [
+          "96 wells in the plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a 96-well plate is being filled with liquid using a multichannel pipette. The researcher's hands, clad in purple gloves, are prominently featured, emphasizing the precision required in this step. The Luminex logo is clearly visible, indicating the brand of the equipment being used."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        333.36,
+        444.48
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "displays graph of PD-1/PD-L1 binding inhibition",
+          "displays graph of anti-PD-L1 antibody binding"
+        ],
+        "objects_visible": [
+          "computer screen showing a graph with multiple lines",
+          "graph with data points and trend lines"
+        ],
+        "visible_text_labels": [
+          "PD-1/PD-L1 Binding Inhibition (%)",
+          "Antibody Concentration (\u00b5g/mL)",
+          "Negative Control (Trastuzumab)",
+          "Positive Control (Atezolizumab)",
+          "Anti-PD-L1(36)",
+          "Anti-PD-L1(50)",
+          "Anti-PD-L1(95)",
+          "Anti-PD-L1(130)",
+          "Anti-PD-L1 Antibody Binding (MFI)",
+          "Antibody Concentration (\u00b5g/mL)",
+          "Negative Control (Trastuzumab)"
+        ],
+        "quantities": [
+          "0-100% binding inhibition",
+          "0.03-1000 \u00b5g/mL antibody concentration",
+          "0-800 MFI antibody binding"
+        ],
+        "key_distinguishing_features": "This segment focuses on the graphical representation of experimental data, showing the relationship between antibody concentration and binding inhibition or binding intensity. The graphs include multiple data series for comparison, with clear labels and trend lines. The segment is critical for analyzing the efficacy of different antibodies in the context of PD-1/PD-L1 interactions."
+      }
+    }
+  ]
+}

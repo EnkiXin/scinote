@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/step_prediction/57561/clip_11_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 27.114733,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.77868325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid into a microtube",
+          "researcher places the microtube in a green rack"
+        ],
+        "objects_visible": [
+          "green microtube rack with multiple wells",
+          "pipette with a white tip",
+          "microtube with a white cap",
+          "orange and blue storage boxes in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one microtube",
+          "one pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette into a microtube, highlighting the careful handling of laboratory equipment. The green microtube rack and the presence of storage boxes in the background provide context for a typical laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.77868325,
+        13.5573665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a microtube into a well of a white multi-well plate",
+          "researcher places the microtube back into the green microtube rack"
+        ],
+        "objects_visible": [
+          "green microtube rack with multiple compartments",
+          "white multi-well plate with several wells",
+          "pipette with a white handle and blue plunger",
+          "blue-gloved hands of the researcher",
+          "orange and blue storage boxes in the background",
+          "white beaker labeled 'PARAFILM'"
+        ],
+        "visible_text_labels": [
+          "PARAFILM",
+          "jove"
+        ],
+        "quantities": [
+          "one microtube",
+          "one multi-well plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette, highlighting the researcher's careful handling of the microtube and multi-well plate. The green microtube rack and the white multi-well plate are central to the activity, emphasizing the organized setup of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.5573665,
+        20.33604975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and inserts it into a well of a white 96-well plate",
+          "researcher carefully dispenses liquid into the well"
+        ],
+        "objects_visible": [
+          "green 96-well plate with multiple wells",
+          "white 96-well plate with a single well being used",
+          "pipette with a white handle and a transparent tip",
+          "blue-gloved hands of the researcher",
+          "a box labeled 'PARAFILM' in the background"
+        ],
+        "visible_text_labels": [
+          "PARAFILM"
+        ],
+        "quantities": [
+          "one well of the white 96-well plate being used"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise action of dispensing liquid into a specific well of a 96-well plate, highlighting the careful handling and accuracy required. The presence of the PARAFILM box in the background suggests the potential for sealing or covering the plate later in the process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        20.33604975,
+        27.114733
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a small, rectangular sample holder into a white and purple device with a digital display",
+          "researcher removes the sample holder from the device"
+        ],
+        "objects_visible": [
+          "white and purple device with a digital display showing '13.8' and a graph",
+          "small, rectangular sample holder with a clear window",
+          "white test tube rack with multiple empty slots",
+          "orange and blue storage containers in the background",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "13.8",
+          "jove"
+        ],
+        "quantities": [
+          "13.8 (reading on the device's display)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase, where a sample is analyzed using a digital device. The reading of '13.8' is prominently displayed, suggesting a quantitative analysis. The presence of the 'jove' logo indicates the video is likely part of a scientific tutorial or demonstration."
+      }
+    }
+  ]
+}

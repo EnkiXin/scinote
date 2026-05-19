@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/55934/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 58.575,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.64375
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a white cap",
+          "researcher uses a pipette to add a clear liquid into the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a white cap",
+          "pipette with a purple plunger",
+          "beaker containing a clear liquid",
+          "brown glass bottle with a white cap",
+          "small container with a red label",
+          "laboratory glove on the researcher's hand"
+        ],
+        "visible_text_labels": [
+          "Mini-emulsion Method",
+          "SDS: Sodium dodecyl sulfate"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a clear liquid into a microtube using a pipette, highlighting the mini-emulsion method. The presence of SDS (Sodium dodecyl sulfate) indicates the use of a surfactant in the experiment. The researcher's gloved hand ensures a sterile environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.64375,
+        29.2875
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand holds a small vial labeled '163' and uses a pipette to add a clear liquid into it.",
+          "The vial is then placed on a magnetic stirrer, and a stir bar is inserted into the vial."
+        ],
+        "objects_visible": [
+          "A small vial with a white cap labeled '163' containing a clear liquid.",
+          "A pipette dispensing a clear liquid into the vial.",
+          "A magnetic stirrer with a digital display and control buttons.",
+          "A stir bar inside the vial."
+        ],
+        "visible_text_labels": [
+          "SDS: Sodium dodecyl sulfate",
+          "MICROTEC CO., LTD."
+        ],
+        "quantities": [
+          "The vial is labeled '163', possibly indicating a specific sample or experiment number."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a liquid to a vial and the subsequent use of a magnetic stirrer, highlighting the controlled mixing process. The vial is clearly labeled, and the equipment used is specialized for laboratory mixing tasks."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        29.2875,
+        43.931250000000006
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small glass vial containing a white substance into a centrifuge",
+          "researcher closes the centrifuge lid and adjusts the settings on the centrifuge"
+        ],
+        "objects_visible": [
+          "a small glass vial with a white substance inside",
+          "a pink centrifuge with a black lid and control knobs",
+          "researcher's gloved hand manipulating the vial and centrifuge"
+        ],
+        "visible_text_labels": [
+          "jove (logo in the top right corner)"
+        ],
+        "quantities": [
+          "one small glass vial"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a small vial containing a white substance, which is then placed into a centrifuge. The researcher's actions are deliberate, indicating a step in a scientific procedure that requires careful execution. The centrifuge's pink color and the researcher's gloved hand are notable visual elements."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        43.931250000000006,
+        58.575
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a clear liquid and a white cap",
+          "researcher uses a pipette to transfer a small volume of liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a white cap",
+          "pipette with a blue plunger",
+          "petri dish containing a clear liquid",
+          "researcher's gloved hands",
+          "laboratory equipment in the background, including a microscope and other lab instruments"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a liquid sample using a pipette, highlighting the careful handling of the microtube and the petri dish. The background laboratory setting adds context to the scientific procedure being performed."
+      }
+    }
+  ]
+}

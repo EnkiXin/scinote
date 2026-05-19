@@ -1,0 +1,174 @@
+{
+  "video_id": "videos/level_2/video_segments/55649/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 36.755,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.18875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher inserts a white, rectangular object into a cylindrical chamber",
+          "researcher closes the chamber door"
+        ],
+        "objects_visible": [
+          "cylindrical chamber with a transparent window and a red-brown rim",
+          "white, rectangular object being inserted",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "CENTER",
+          "EUROTHERM",
+          "DIGITROL"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise insertion of a white object into a specialized cylindrical chamber, likely for a controlled environment experiment. The chamber's transparent window and red-brown rim are distinctive features. The researcher's gloved hand indicates adherence to sterile or controlled handling protocols."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.18875,
+        18.3775
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "hand adjusts temperature settings on a EUROtherm controller"
+        ],
+        "objects_visible": [
+          "EUROtherm temperature controllers with digital displays",
+          "hand wearing a white glove",
+          "DIGITROL control panel"
+        ],
+        "visible_text_labels": [
+          "CENTER",
+          "EUROtherm",
+          "DIGITROL",
+          "Heating: 5 \u00b0C/min, 1 h at 300 \u00b0C, 1 h at 900 \u00b0C, Cooling: 10 \u00b0C/min to 300 \u00b0C",
+          "jove"
+        ],
+        "quantities": [
+          "3.0",
+          "3.2",
+          "6.8",
+          "3.9",
+          "4.0",
+          "5 \u00b0C/min",
+          "1 h",
+          "300 \u00b0C",
+          "900 \u00b0C",
+          "10 \u00b0C/min"
+        ],
+        "key_distinguishing_features": "The segment focuses on precise temperature control adjustments for a heating and cooling process. The hand's interaction with the EUROtherm controllers highlights the manual setup of specific temperature parameters. The detailed text overlay provides a clear protocol for the heating and cooling cycle."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.3775,
+        27.566250000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand adjusts a control knob on a temperature control panel.",
+          "The hand then opens a cylindrical furnace door."
+        ],
+        "objects_visible": [
+          "A temperature control panel with digital displays showing '3.0' and '3.2' on the left, and '3.9' and '4.0' on the right.",
+          "A cylindrical furnace with a visible interior and a door being opened.",
+          "A gloved hand manipulating the equipment."
+        ],
+        "visible_text_labels": [
+          "CENTER",
+          "EUROTHERM",
+          "TUBE NO. 2",
+          "Heating: 5 \u00b0C/min, 1 h at 300 \u00b0C, 1 h at 900 \u00b0C, Cooling: 10 \u00b0C/min to 300 \u00b0C",
+          "jove"
+        ],
+        "quantities": [
+          "5 \u00b0C/min",
+          "1 h at 300 \u00b0C",
+          "1 h at 900 \u00b0C",
+          "10 \u00b0C/min to 300 \u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise control of temperature settings for a heat treatment process, as indicated by the detailed heating and cooling parameters. The opening of the furnace door suggests the transition to a new phase of the experiment. The presence of a gloved hand emphasizes the careful handling required for the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.566250000000004,
+        36.755
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "illustration of hair structure is shown",
+          "process of pyrolysis is depicted"
+        ],
+        "objects_visible": [
+          "diagram of hair with labeled parts: cuticle, cortex, medulla",
+          "image of hollow carbon fiber",
+          "text labels for hair and pyrolysis"
+        ],
+        "visible_text_labels": [
+          "cuticle",
+          "cortex",
+          "medulla",
+          "hair",
+          "Pyrolysis",
+          "hollow carbon fiber"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the visual representation of hair structure and the transformation into a hollow carbon fiber through pyrolysis. The detailed labeling of hair components and the clear depiction of the pyrolysis process are distinctive features. The segment lacks any physical actions, relying solely on illustrative content."
+      }
+    }
+  ]
+}

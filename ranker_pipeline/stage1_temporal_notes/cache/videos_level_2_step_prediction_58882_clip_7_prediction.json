@@ -1,0 +1,150 @@
+{
+  "video_id": "videos/level_2/step_prediction/58882/clip_7_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.518792,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.879698
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a small, clear tube with a blue cap into a centrifuge chamber",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "beige centrifuge with a digital display and control buttons",
+          "small, clear tube with a blue cap",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one tube placed in the centrifuge"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of an experiment, specifically the placement of a single tube into a centrifuge. The researcher's careful handling of the tube and the closing of the centrifuge lid indicate the start of a centrifugation process. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.879698,
+        19.759396
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a pipette inserted"
+        ],
+        "objects_visible": [
+          "blue nitrile-gloved hand",
+          "transparent microtube containing a yellowish liquid",
+          "pipette with a clear tip"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The microtube contains a small volume of yellowish liquid, likely a sample or reagent. The researcher's hand is gloved, emphasizing a sterile technique. The focus is on the microtube and pipette, suggesting a precise liquid handling step."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.759396,
+        29.639094
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a blue cloth inside a New Brunswick Scientific incubator",
+          "researcher closes the incubator door"
+        ],
+        "objects_visible": [
+          "New Brunswick Scientific incubator with a transparent window",
+          "blue cloth",
+          "yellow plastic rack inside the incubator",
+          "black perforated metal surface inside the incubator"
+        ],
+        "visible_text_labels": [
+          "NEW BRUNSWICK SCIENTIFIC"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation of the incubator for an experiment, highlighting the placement of a blue cloth inside. The transparent window of the incubator provides a clear view of the interior setup. The New Brunswick Scientific branding is prominently visible on the incubator."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.639094,
+        39.518792
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a small, dark-colored object into a centrifuge rotor",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "centrifuge with a visible 'NEW BRUNSWICK SCIENTIFIC' label",
+          "centrifuge rotor with multiple slots",
+          "researcher's gloved hand",
+          "digital display and control panel of the centrifuge"
+        ],
+        "visible_text_labels": [
+          "NEW BRUNSWICK SCIENTIFIC",
+          "Microfuge 18R Centrifuge"
+        ],
+        "quantities": [
+          "one small, dark-colored object placed in the rotor"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of an experiment involving a centrifuge. The researcher carefully places a small object into the rotor, indicating precision in setup. The centrifuge's brand and model are clearly visible, providing context for the equipment used."
+      }
+    }
+  ]
+}

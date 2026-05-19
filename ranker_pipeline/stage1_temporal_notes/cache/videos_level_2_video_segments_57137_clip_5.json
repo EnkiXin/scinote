@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/video_segments/57137/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 74.648,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        18.662
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wearing a lab coat, hairnet, and gloves handles a transparent plastic animal cage",
+          "researcher places a clear plastic ramp into the cage"
+        ],
+        "objects_visible": [
+          "transparent plastic animal cages with bedding and a white mouse inside",
+          "green-lidded plastic containers on the shelves",
+          "metal shelving units filled with multiple animal cages",
+          "a clear plastic ramp with a smooth surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one white mouse visible in the cage"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of an animal cage for an experiment, with a researcher carefully placing a ramp inside. The environment is a controlled laboratory setting with numerous cages organized on shelves. The presence of a white mouse and the specific action of adding the ramp suggest a setup for animal behavior or movement studies."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        18.662,
+        37.324
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wearing a white lab coat and blue gloves reaches into a transparent cage containing white mice",
+          "researcher gently interacts with the mice, possibly for handling or observation"
+        ],
+        "objects_visible": [
+          "transparent cages with green labels, housing white mice on wood shavings",
+          "a researcher wearing a white lab coat and blue gloves",
+          "wood shavings as bedding material in the cages"
+        ],
+        "visible_text_labels": [
+          "green labels on the cages, though the text is not clearly legible"
+        ],
+        "quantities": [
+          "multiple white mice in each cage, exact count not specified"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase where the researcher is interacting with mice in a controlled environment. The use of transparent cages and wood shavings suggests a laboratory setting. The researcher's attire and gloves indicate adherence to hygiene protocols."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        37.324,
+        55.986
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher wearing blue gloves carefully opens a transparent plastic container labeled 'Depression' with a green tag",
+          "researcher gently picks up a white mouse from the container using gloved hands"
+        ],
+        "objects_visible": [
+          "transparent plastic containers with labels and tags",
+          "white mouse with a pink nose and ears",
+          "blue gloves worn by the researcher",
+          "metal shelving unit holding multiple containers",
+          "green tags with handwritten text on the containers"
+        ],
+        "visible_text_labels": [
+          "Depression 06.09.14",
+          "3.15.14"
+        ],
+        "quantities": [
+          "one white mouse",
+          "multiple transparent plastic containers"
+        ],
+        "key_distinguishing_features": "This segment focuses on the careful handling of a white mouse from a labeled container, emphasizing the precision and care taken by the researcher. The containers are systematically arranged on a metal shelving unit, each with distinct labels for identification. The use of blue gloves highlights the importance of maintaining a sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        55.986,
+        74.648
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A researcher wearing a white lab coat and gloves places a transparent container with a green latch into a shelf unit.",
+          "The researcher carefully arranges the container among other similar containers on the shelf."
+        ],
+        "objects_visible": [
+          "A transparent container with a green latch, filled with bedding material and possibly small animals.",
+          "A shelf unit with multiple compartments, each housing similar transparent containers.",
+          "A researcher wearing a white lab coat and gloves."
+        ],
+        "visible_text_labels": [
+          "The number '7' is visible in the bottom left corner of the screen."
+        ],
+        "quantities": [
+          "The shelf unit contains multiple compartments, but the exact number is not specified."
+        ],
+        "key_distinguishing_features": "This segment focuses on the careful placement of a transparent container into a shelf unit, indicating a step in the execution phase of the experiment. The presence of the number '7' suggests this is part of a sequence or step in the procedure. The researcher's attire and the organized setup highlight a controlled laboratory environment."
+      }
+    }
+  ]
+}

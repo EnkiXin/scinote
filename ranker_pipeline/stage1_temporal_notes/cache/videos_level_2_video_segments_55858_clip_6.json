@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/video_segments/55858/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 45.265,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.31625
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A pipette is used to dispense a liquid into a small, square container with a central well."
+        ],
+        "objects_visible": [
+          "A transparent, square container with a central well, placed on a rotating platform.",
+          "A pipette with a fine tip dispensing liquid.",
+          "A rotating platform with a circular base."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The liquid appears to be dispensed in a small, precise volume, though the exact quantity is not specified."
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise dispensing of a liquid into a central well of a container, which is situated on a rotating platform. The use of a pipette suggests a controlled and accurate method of liquid transfer. The 'jove' logo indicates the video is likely part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.31625,
+        22.6325
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "man speaks to the camera"
+        ],
+        "objects_visible": [
+          "man with long hair and a beard wearing a blue shirt",
+          "scientific poster with diagrams and text",
+          "whiteboard with chemical formulas written on it"
+        ],
+        "visible_text_labels": [
+          "HydRegen",
+          "2. Minimising waste",
+          "4. Easily adaptable",
+          "greener biocatalysis for the production of fine chemicals",
+          "immobilised enzyme cascades for NADH-driven biocatalysis"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment features a man speaking in front of a scientific poster and a whiteboard, indicating an explanatory or educational phase. The poster includes detailed diagrams and text related to biocatalysis, suggesting the topic of discussion. The whiteboard with chemical formulas adds to the scientific context of the video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.6325,
+        33.948750000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "gloved hands use tweezers to manipulate a small object on a petri dish",
+          "the object is carefully placed into a designated spot on the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a grid pattern",
+          "tweezers held by gloved hands",
+          "small, possibly biological sample being manipulated"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on precise manual manipulation of a small object within a petri dish, highlighting the careful and controlled nature of the task. The use of tweezers and gloved hands underscores the need for sterility and precision in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        33.948750000000004,
+        45.265
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small blue microtube with a pipette tip inserted",
+          "researcher carefully dispenses a clear liquid from the microtube into a small rectangular well on a circular platform"
+        ],
+        "objects_visible": [
+          "researcher's gloved hands wearing black nitrile gloves",
+          "a small blue microtube with a pipette tip",
+          "a circular platform with a rectangular well containing a clear liquid",
+          "a transparent cylindrical container surrounding the platform"
+        ],
+        "visible_text_labels": [
+          "See text protocol for spectroelectrochemical cell construction and experiment buffer composition"
+        ],
+        "quantities": [
+          "small rectangular well on the platform"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a clear liquid from a microtube into a well, highlighting the careful handling and dispensing process. The surrounding transparent container suggests a controlled environment for the experiment. The text overlay provides context for the protocol being followed."
+      }
+    }
+  ]
+}

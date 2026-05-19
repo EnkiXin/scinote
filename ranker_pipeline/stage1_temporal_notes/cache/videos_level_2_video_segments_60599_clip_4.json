@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/60599/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 242.569,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        60.64225
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a syringe and injects a mouse with a needle",
+          "researcher places a mouse in a clear plastic container with bedding material"
+        ],
+        "objects_visible": [
+          "a syringe with a needle",
+          "a mouse with a white bandage on its head",
+          "a clear plastic container with bedding material",
+          "a researcher wearing purple gloves and a yellow sleeve",
+          "a petri dish with a grid pattern"
+        ],
+        "visible_text_labels": [
+          "P. aeruginosa INOCULATION",
+          "SEE TEXT FOR PAO1:LUX PREPARATION DETAILS"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of an experiment involving the inoculation of a mouse with P. aeruginosa. The researcher is seen handling the mouse and placing it in a container, indicating the start of the experimental procedure. The presence of specific text labels provides context for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        60.64225,
+        121.2845
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher uses surgical scissors to perform a wound excision on a mouse.",
+          "Mouse is placed on a black surface with a red dot indicating a specific area."
+        ],
+        "objects_visible": [
+          "Surgical scissors with metallic blades and black handles.",
+          "Mouse with visible fur and a red dot on its body.",
+          "Black surface with a red dot and text indicating 'Spectral Instruments Imaging'."
+        ],
+        "visible_text_labels": [
+          "WOUND EXCISION",
+          "EUTHANASIA: CO2 INHALATION + CERVICAL DISLOCATION"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on a surgical procedure involving a mouse, with a clear emphasis on the wound excision process. The presence of a red dot on the mouse and the specific text labels provide context for the procedure. The use of surgical scissors and the black surface with imaging text highlight the controlled and precise nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        121.2845,
+        181.92675
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A researcher uses a pipette to transfer a small volume of liquid into a test tube.",
+          "The researcher places a mouse on a flat surface, likely for examination or injection."
+        ],
+        "objects_visible": [
+          "A pipette with a black handle and a yellow plunger.",
+          "A test tube with a clear liquid inside.",
+          "A mouse with dark fur, lying on a flat surface.",
+          "A yellow test tube rack with multiple slots."
+        ],
+        "visible_text_labels": [
+          "Eppendorf"
+        ],
+        "quantities": [
+          "The pipette is set to a specific volume, though the exact volume is not visible."
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of a pipette and a test tube, indicating a controlled laboratory environment. The presence of a mouse suggests an animal model is being used in the experiment. The Eppendorf label on the pipette is a distinctive feature, indicating the brand of laboratory equipment used."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        181.92675,
+        242.569
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "Researchers present final data visualization",
+          "Discuss results and implications"
+        ],
+        "objects_visible": [
+          "Graph showing infection rate vs. dose",
+          "Graph showing weight change over days post-infection"
+        ],
+        "visible_text_labels": [
+          "Infection rate (% of wounds inoculated)",
+          "Dose",
+          "Days post-infection",
+          "Weight change (% of original)",
+          "PBS",
+          "PAO1",
+          "r\u00b2=0.8313",
+          "p<0.05",
+          "50"
+        ],
+        "quantities": [
+          "100% infection rate at dose 4",
+          "50% infection rate at dose 2",
+          "r\u00b2=0.8313 correlation coefficient"
+        ],
+        "key_distinguishing_features": "This segment highlights the conclusion of the experiment with detailed graphical data presentation. The infection rate graph shows a clear dose-dependent relationship, while the weight change graph compares PBS and PAO1 treatments. The segment emphasizes statistical significance with a p-value and correlation coefficient."
+      }
+    }
+  ]
+}

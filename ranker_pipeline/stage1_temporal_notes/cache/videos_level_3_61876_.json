@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_3/61876_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 471.232,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        117.808
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A person wearing glasses and a black turtleneck is speaking to the camera.",
+          "A hand is shown holding a small, transparent object with a purple grid pattern, possibly a microfluidic device or a sample slide."
+        ],
+        "objects_visible": [
+          "A person with shoulder-length brown hair wearing glasses and a black turtleneck.",
+          "A small, transparent object with a purple grid pattern, held by a hand."
+        ],
+        "visible_text_labels": [
+          "ALEXANDRA WOLLER",
+          "TECHNICAL UNIVERSITY OF MUNICH"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment features a person identified as Alexandra Woller from the Technical University of Munich, likely discussing a scientific topic. The focus shifts to a close-up of a transparent object with a purple grid, suggesting a detailed observation or demonstration of a scientific tool or sample."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        117.808,
+        235.616
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to carefully place a small insect on a petri dish",
+          "researcher adjusts the microscope to focus on the insect",
+          "researcher uses a fine tool to secure the insect's head in place"
+        ],
+        "objects_visible": [
+          "a petri dish with a small insect on it",
+          "a microscope with a bright light source",
+          "a pipette with a fine tip",
+          "a fine tool for manipulating the insect"
+        ],
+        "visible_text_labels": [
+          "Securing the Head"
+        ],
+        "quantities": [
+          "one insect",
+          "one petri dish"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise manipulation of a small insect under a microscope, highlighting the careful placement and securing of the insect's head. The use of specialized tools and the microscope's bright light source are distinctive features. The text 'Securing the Head' indicates the specific step being performed."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        235.616,
+        353.42400000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is used to examine a small, translucent orange-brown object",
+          "a white, thin, flexible tool is used to manipulate the object under the microscope"
+        ],
+        "objects_visible": [
+          "a small, translucent orange-brown object with a segmented appearance",
+          "a white, thin, flexible tool with a pointed end",
+          "a microscope with a dark background and a circular viewing area"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the detailed examination of a small, translucent object under a microscope, highlighting its segmented structure. The use of a white, thin tool suggests precise manipulation of the object for closer inspection. The dark background of the microscope enhances the visibility of the object's features."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        353.42400000000004,
+        471.232
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope displays magnified view of a specimen with a white, star-shaped structure and surrounding bubbles",
+          "graphical data is shown with green and red crosses representing 'Walk' and 'Groom' activities"
+        ],
+        "objects_visible": [
+          "microscope view with a white star-shaped structure and bubbles",
+          "graph with green and red crosses and labels 'Walk' and 'Groom'",
+          "colorful, pixelated image resembling a heat map",
+          "black and white spherical object resembling a brain"
+        ],
+        "visible_text_labels": [
+          "Walk",
+          "Groom",
+          "\u0394F/F",
+          "OL",
+          "VLNP",
+          "VMNP",
+          "AL",
+          "MB",
+          "LH",
+          "SNP",
+          "CX",
+          "LX",
+          "INP",
+          "PENP",
+          "GNG"
+        ],
+        "quantities": [
+          "\u0394F/F values ranging from -0.04 to 0.1"
+        ],
+        "key_distinguishing_features": "This segment features a detailed observation of a specimen under a microscope alongside graphical data representing behavioral activities. The combination of visual and quantitative data suggests a focus on analyzing neural activity related to specific behaviors. The presence of a heat map and a brain-like image further emphasizes the neuroscientific context of the study."
+      }
+    }
+  ]
+}

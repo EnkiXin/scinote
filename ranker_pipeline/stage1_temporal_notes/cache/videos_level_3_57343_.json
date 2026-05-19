@@ -1,0 +1,170 @@
+{
+  "video_id": "videos/level_3/57343_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 612.906667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        153.22666675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube labeled 'SAMPLE' with a white cap",
+          "researcher places the conical tube on a blue vortex mixer labeled 'vortexer'"
+        ],
+        "objects_visible": [
+          "15mL conical tube with a white cap",
+          "blue vortex mixer with a black mixing head",
+          "researcher wearing a blue lab coat and white gloves"
+        ],
+        "visible_text_labels": [
+          "SAMPLE",
+          "vortexer"
+        ],
+        "quantities": [
+          "15mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase where a specific 15mL conical tube is handled and placed on a vortex mixer. The researcher's attire and the equipment used highlight a controlled laboratory environment. The vortex mixer is a key tool for mixing the sample."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        153.22666675,
+        306.4533335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube labeled 'SOIL SAMPLE' containing a brownish liquid",
+          "researcher uses a pipette to transfer a measured volume of liquid from the conical tube into a smaller tube"
+        ],
+        "objects_visible": [
+          "15mL conical tube with a brownish liquid labeled 'SOIL SAMPLE'",
+          "pipette with a green plunger and a pink tip",
+          "smaller tube receiving the transferred liquid",
+          "blue ice bucket containing ice cubes",
+          "labeled bottles in the background",
+          "laboratory equipment including a lyophilizer with a collector temperature display"
+        ],
+        "visible_text_labels": [
+          "SOIL SAMPLE",
+          "Collector temperature capable of -105 \u00b0C"
+        ],
+        "quantities": [
+          "15mL conical tube",
+          "-105 \u00b0C collector temperature"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a soil sample in a laboratory setting, emphasizing the use of a pipette for liquid transfer. The presence of a lyophilizer with a specific collector temperature highlights the controlled environment required for the experiment. The blue ice bucket suggests the need to maintain low temperatures during the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        306.4533335,
+        459.68000025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a centrifuge lid",
+          "researcher carefully places a test tube into the centrifuge",
+          "researcher closes the centrifuge lid and starts the centrifuge",
+          "researcher uses a pipette to transfer a liquid into a labeled test tube",
+          "researcher places a test tube into a blue ice bucket"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital display and control buttons",
+          "test tubes labeled 'SOLUBILIZED PROTEIN SUPERNATANT'",
+          "pipette with a blue plunger",
+          "blue ice bucket with a grid of compartments",
+          "labeled test tubes with yellow caps"
+        ],
+        "visible_text_labels": [
+          "SOLUBILIZED PROTEIN SUPERNATANT",
+          "20% [TCA] in tubes Use caution when using TCA",
+          "NANOPURE WATER"
+        ],
+        "quantities": [
+          "35 mL capacity on test tube",
+          "20% concentration of TCA"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of test tubes and the use of a centrifuge, emphasizing the careful transfer of liquids and the use of TCA, which requires caution. The blue ice bucket is used to maintain the temperature of the samples."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        459.68000025,
+        612.906667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher stands in front of a laboratory shelf filled with various boxes and containers.",
+          "Researcher speaks directly to the camera, likely explaining the data shown on the screen."
+        ],
+        "objects_visible": [
+          "A woman with short blonde hair wearing a light blue lab coat and glasses.",
+          "A laboratory shelf with yellow and white boxes labeled 'MoBio', 'MPLEx', and 'SDS'.",
+          "A Venn diagram on the screen displaying data related to 'Kansas Native Prairie Soil'."
+        ],
+        "visible_text_labels": [
+          "Kansas Native Prairie Soil",
+          "MoBio 2533",
+          "MPLEx 3376",
+          "SDS 2668",
+          "1488, 418, 2087, 369, 502, 258, 1539"
+        ],
+        "quantities": [
+          "2533, 3376, 2668, 1488, 418, 2087, 369, 502, 258, 1539"
+        ],
+        "key_distinguishing_features": "This segment focuses on the presentation of data through a Venn diagram, highlighting the overlap of results from different methods (MoBio, MPLEx, SDS) in analyzing Kansas Native Prairie Soil. The researcher's direct address to the camera suggests an explanatory or interpretative phase of the experiment. The background laboratory setting adds context to the scientific nature of the discussion."
+      }
+    }
+  ]
+}

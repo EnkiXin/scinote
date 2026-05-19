@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/step_prediction/50389/clip_3_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.271542,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.5678855
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher uses a pipette to transfer liquid from the microtube into a test tube"
+        ],
+        "objects_visible": [
+          "yellow test tube rack with multiple holes",
+          "red test tube rack with multiple holes",
+          "1.5mL microtube with blue cap",
+          "pipette with a white tip",
+          "test tube labeled 'DMEM'"
+        ],
+        "visible_text_labels": [
+          "1 spleen/strainer and 4-6 lymph nodes/strainer",
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "1 spleen/strainer",
+          "4-6 lymph nodes/strainer"
+        ],
+        "key_distinguishing_features": "The segment shows a precise transfer of liquid using a pipette, highlighting the careful handling of biological samples. The use of color-coded racks for organizing tubes is distinctive, aiding in the systematic processing of samples."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.5678855,
+        21.135771
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes a clear liquid from a test tube into the microtube using a pipette with a red liquid indicator"
+        ],
+        "objects_visible": [
+          "yellow and red test tube racks",
+          "a blue-capped microtube labeled 'DMEM'",
+          "a pipette with a red liquid indicator",
+          "a test tube with a clear liquid",
+          "a blue cap on the lab bench"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a clear liquid into a labeled microtube using a pipette. The use of color-coded racks and the labeled microtube highlight the organized and methodical nature of the experiment. The red liquid indicator on the pipette provides a visual cue for the liquid being transferred."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.135771,
+        31.703656499999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'JK Prec' with blue cap",
+          "pipettes ~200uL of pink-colored liquid into microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "pipette with pink liquid",
+          "red and yellow storage boxes in background"
+        ],
+        "visible_text_labels": [
+          "JK Prec",
+          "jove"
+        ],
+        "quantities": [
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a pink liquid into a labeled microtube, emphasizing the careful handling of small volumes. The background storage boxes add context to the laboratory setting. The 'JK Prec' label on the tube suggests a specific experimental protocol or sample."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.703656499999997,
+        42.271542
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 1.5mL microtube labeled 'DMEM' with a blue cap into a centrifuge chamber",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital display and control panel",
+          "1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a labeled microtube into a centrifuge, highlighting the careful handling of laboratory materials. The centrifuge's digital display and control panel are prominently visible, emphasizing the technical aspect of the experiment. The researcher's attire and gloves underscore the controlled environment of the laboratory setting."
+      }
+    }
+  ]
+}

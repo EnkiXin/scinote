@@ -1,0 +1,148 @@
+{
+  "video_id": "videos/level_2/video_segments/60469/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 28.32,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.08
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes ~200uL of pink-colored liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "petri dish with a clear lid",
+          "pipette with a pink liquid sample"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "~200uL"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action, transferring a small volume of pink liquid from a microtube into a petri dish. The researcher's gloved hand is clearly visible, emphasizing the sterile handling of the sample. The focus on the liquid's color and the specific volume highlights the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.08,
+        14.16
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is used to observe a sample",
+          "sample appears to be a suspension of cells or particles"
+        ],
+        "objects_visible": [
+          "microscope field of view with scattered dark particles",
+          "two larger, more defined clusters of particles"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "two distinct clusters of particles"
+        ],
+        "key_distinguishing_features": "The segment focuses on a microscopic view, highlighting the presence of two larger clusters among scattered particles. The grayscale image suggests a detailed observation phase. The 'jove' logo indicates the video's source or platform."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.16,
+        21.240000000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small, round object into a centrifuge chamber"
+        ],
+        "objects_visible": [
+          "white centrifuge with a digital display and control buttons",
+          "black centrifuge chamber with multiple slots",
+          "researcher's gloved hand wearing a blue nitrile glove"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "digital display shows '00:00' and '0000'"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of placing a small object into a centrifuge, highlighting the controlled environment of a laboratory setting. The digital display and control buttons on the centrifuge suggest a modern, precise instrument. The blue nitrile glove indicates adherence to safety protocols."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        21.240000000000002,
+        28.32
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small vial into a blue bucket filled with ice"
+        ],
+        "objects_visible": [
+          "blue bucket filled with ice cubes",
+          "small vial with a black cap",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "ANESTHETIZE THE MOUSE WITH 4% ISOFLURANE IN AN INDUCTION CHAMBER"
+        ],
+        "quantities": [
+          "4% isoflurane"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a vial, likely containing anesthetic, by placing it in ice. The text overlay provides specific instructions for anesthetizing a mouse, indicating a step in a controlled scientific procedure. The use of ice suggests the need to maintain the vial at a low temperature."
+      }
+    }
+  ]
+}

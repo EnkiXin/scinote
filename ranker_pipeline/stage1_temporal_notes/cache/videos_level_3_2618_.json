@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_3/2618_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 422.528,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        105.632
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher holds a syringe filled with a red liquid, likely the autologous blood.",
+          "The researcher carefully injects the liquid into a mouse's brain using a stereotactic frame."
+        ],
+        "objects_visible": [
+          "A syringe with a red liquid, possibly autologous blood.",
+          "A mouse secured in a stereotactic frame.",
+          "A stereotactic frame used for precise positioning."
+        ],
+        "visible_text_labels": [
+          "Autologous Blood Injection to Model Spontaneous Intracerebral Hemorrhage in Mice",
+          "Buprenorphine 0.1 mg/kg"
+        ],
+        "quantities": [
+          "0.1 mg/kg of Buprenorphine"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of the experiment, where the autologous blood is injected into the mouse's brain. The use of a stereotactic frame ensures precise placement of the injection. The text labels provide context for the experiment and the dosage of Buprenorphine administered."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        105.632,
+        211.264
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a clamp holding a small animal, likely a mouse, in a surgical setup",
+          "researcher uses a scalpel to make an incision on the animal's abdomen",
+          "researcher carefully manipulates the animal's internal organs, possibly for surgical or experimental purposes"
+        ],
+        "objects_visible": [
+          "surgical setup with a clamp holding a small animal",
+          "scalpel with a metallic blade and black handle",
+          "surgical instruments including forceps and scissors",
+          "medical equipment such as a digital timer displaying '36.9' and a device labeled 'Micro 4'",
+          "white surgical gloves worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "36.9 (on the digital timer)",
+          "Micro 4 (on the medical device)"
+        ],
+        "quantities": [
+          "36.9 seconds (displayed on the digital timer)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its detailed surgical procedure on a small animal, highlighting the precision required in handling delicate tissues. The presence of specialized medical equipment and the researcher's careful manipulation of surgical tools underscore the controlled and methodical nature of the experiment. The digital timer and labeled devices provide specific context for the timing and equipment used in the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        211.264,
+        316.896
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher injects a substance into a snake's mouth using a syringe",
+          "researcher adjusts the syringe plunger to control the flow of the substance",
+          "researcher holds the snake's head steady with gloved hands"
+        ],
+        "objects_visible": [
+          "snake with its mouth open, revealing its tongue and teeth",
+          "syringe labeled 'Micro 4' with a clear plunger and red substance inside",
+          "gloved hands manipulating the syringe and snake",
+          "temperature controller displaying '37.1'",
+          "laboratory equipment including a digital timer and other instruments"
+        ],
+        "visible_text_labels": [
+          "Micro 4",
+          "37.1",
+          "Temperature Controller"
+        ],
+        "quantities": [
+          "37.1 (temperature reading on the controller)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the precise administration of a substance into a snake's mouth, highlighting the careful handling of the animal and the use of specialized laboratory equipment. The temperature controller reading suggests a controlled environment for the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        316.896,
+        422.528
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "presents a graph titled 'Cylinder Score Results' for analysis",
+          "discusses the data points and trends in the graph"
+        ],
+        "objects_visible": [
+          "graph with two categories: 'SHAM' and 'ICH'",
+          "data points and fitted values plotted on the graph",
+          "a woman seated in front of a wooden background with sculpted faces"
+        ],
+        "visible_text_labels": [
+          "Cylinder Score Results",
+          "SHAM",
+          "ICH",
+          "Laterality Index",
+          "post-op day",
+          "cylinder score",
+          "Fitted values"
+        ],
+        "quantities": [
+          "data points plotted on the y-axis ranging from -5 to 10",
+          "post-op days on the x-axis ranging from 1 to 3"
+        ],
+        "key_distinguishing_features": "This segment focuses on the presentation and analysis of surgical success rates and behavioral data, as indicated by the graph. The woman appears to be explaining the results, with a background that includes artistic elements. The graph provides a clear visual comparison between 'SHAM' and 'ICH' groups over post-operative days."
+      }
+    }
+  ]
+}

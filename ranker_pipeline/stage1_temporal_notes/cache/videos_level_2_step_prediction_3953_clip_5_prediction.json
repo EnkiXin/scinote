@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/step_prediction/3953/clip_5_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.019633,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.00490825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'P. aeruginosa' with a white cap",
+          "researcher uses a pipette to transfer liquid from the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with white cap labeled 'P. aeruginosa'",
+          "pipette with a white body and black plunger",
+          "beaker containing a pink liquid",
+          "test tube rack with multiple compartments",
+          "blue-gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "P. aeruginosa",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube containing 'P. aeruginosa'. The researcher's gloved hand and the use of a pipette highlight the sterile technique required. The pink liquid in the beaker suggests a medium or solution relevant to the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.00490825,
+        16.0098165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into a multi-well plate"
+        ],
+        "objects_visible": [
+          "pipette with a white tip",
+          "transparent multi-well plate with circular wells",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "not specified"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting, with a close-up view of the pipette tip entering a well. The multi-well plate is transparent, allowing visibility of the liquid being added. The researcher's gloved hand is steady, emphasizing careful handling."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.0098165,
+        24.01472475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a CO2 incubator door",
+          "researcher places a petri dish inside the incubator"
+        ],
+        "objects_visible": [
+          "CO2 incubator with a digital display",
+          "petri dish held by the researcher",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "30 min, 5% CO2, 37 \u00b0C",
+          "jove"
+        ],
+        "quantities": [
+          "30 min",
+          "5% CO2",
+          "37 \u00b0C"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher carefully placing a petri dish into a CO2 incubator, emphasizing the controlled environment needed for the experiment. The text overlay specifies the incubation conditions, highlighting the importance of precise environmental control. The researcher's deliberate actions underscore the careful handling required in this phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.01472475,
+        32.019633
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid into a multi-well plate"
+        ],
+        "objects_visible": [
+          "transparent multi-well plate with six compartments",
+          "pipette with a visible plunger and tip",
+          "text overlay on the screen"
+        ],
+        "visible_text_labels": [
+          "Refer to written protocol for in vivo applications",
+          "jove"
+        ],
+        "quantities": [
+          "six compartments in the multi-well plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid into a multi-well plate, emphasizing the importance of following a written protocol. The text overlay provides a clear directive for in vivo applications, highlighting the instructional nature of the video."
+      }
+    }
+  ]
+}

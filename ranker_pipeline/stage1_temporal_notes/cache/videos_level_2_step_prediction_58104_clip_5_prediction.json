@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/step_prediction/58104/clip_5_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.325933,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.58148325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgeon uses surgical forceps to manipulate tissue within an open surgical site",
+          "surgeon carefully adjusts the position of the forceps to handle delicate structures"
+        ],
+        "objects_visible": [
+          "surgical forceps with metallic, serrated tips",
+          "exposed internal tissues and organs within a surgical incision",
+          "gloved hands of the surgeon",
+          "surgical drapes surrounding the surgical site"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up view of a surgical procedure, highlighting the precision of the surgeon's movements with the forceps. The exposed tissues and organs are clearly visible, emphasizing the complexity of the surgical task. The presence of the 'jove' logo suggests this is part of a scientific or educational video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.58148325,
+        19.1629665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a small, dark object within an open surgical cavity",
+          "researcher holds a surgical instrument with a pointed tip to assist in the manipulation of the object"
+        ],
+        "objects_visible": [
+          "forceps with black tips held by gloved hands",
+          "surgical cavity with exposed red tissue and bone structures",
+          "small, dark object being manipulated within the cavity",
+          "gloved hands of the researcher"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise surgical procedure involving the use of forceps to handle a small object within a complex anatomical structure. The hands of the researcher are gloved, emphasizing a sterile environment. The surgical cavity is prominently displayed, revealing intricate tissue and bone details."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.1629665,
+        28.74444975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Surgeon uses forceps to manipulate a small metallic clamp within the surgical site.",
+          "Surgeon adjusts the position of the clamp with precision, ensuring it is securely placed."
+        ],
+        "objects_visible": [
+          "A surgical site with exposed tissue and organs, including a visible section of the gastrointestinal tract.",
+          "Metallic forceps held by gloved hands.",
+          "A small metallic clamp with a spring mechanism.",
+          "Blue surgical drapes surrounding the surgical area."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "Two gloved hands performing the procedure."
+        ],
+        "key_distinguishing_features": "This segment highlights the precise manipulation of a metallic clamp within a surgical site, demonstrating the delicate nature of the procedure. The use of forceps to adjust the clamp's position is a critical action, emphasizing the surgeon's skill and focus. The visible 'jove' logo indicates the video's source or affiliation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        28.74444975,
+        38.325933
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Surgeon uses forceps to manipulate tissue within an open surgical site.",
+          "Surgeon carefully places a small metallic instrument into the surgical cavity."
+        ],
+        "objects_visible": [
+          "Surgical forceps with metallic tips",
+          "Small metallic surgical instrument with a curved end",
+          "Exposed internal tissues and organs of an animal",
+          "Blue surgical drape surrounding the surgical site",
+          "Gloved hands of the surgeon"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment shows a detailed surgical procedure with precise manipulation of internal tissues using specialized instruments. The focus is on the careful placement of a small metallic tool into the surgical cavity, highlighting the precision required in such procedures. The exposed tissues and the use of forceps are distinctive features of this segment."
+      }
+    }
+  ]
+}

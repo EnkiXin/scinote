@@ -1,0 +1,144 @@
+{
+  "video_id": "videos/level_2/video_verification/62864/clip_6_removed_step_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 55.608333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.90208325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "soldering iron is applied to a circuit board component",
+          "metallic tweezers hold a small component in place"
+        ],
+        "objects_visible": [
+          "yellow circuit board with red traces",
+          "soldering iron with a pointed tip",
+          "metallic tweezers",
+          "small electronic component being soldered"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise soldering of a small component onto a yellow circuit board. The use of tweezers to hold the component and the application of the soldering iron highlight the delicate nature of the task. The red traces on the board suggest a specific electrical pathway."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.90208325,
+        27.8041665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher uses a screwdriver to adjust a component on a blue electronic device labeled 'MiniVNA'",
+          "Researcher holds the blue MiniVNA device with one hand while manipulating the screwdriver with the other"
+        ],
+        "objects_visible": [
+          "Blue MiniVNA device with a label and connector",
+          "Screwdriver with a blue handle",
+          "White lab coat worn by the researcher",
+          "White countertop with a marble-like pattern"
+        ],
+        "visible_text_labels": [
+          "MiniVNA",
+          "Bandwidth: 300-500 MHz",
+          "1 kHz resolution"
+        ],
+        "quantities": [
+          "300-500 MHz",
+          "1 kHz resolution"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise adjustment of a MiniVNA device, highlighting the researcher's hands-on interaction with the equipment. The specific bandwidth and resolution settings are clearly displayed, emphasizing the technical nature of the task. The use of a screwdriver suggests a fine-tuning process is underway."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        27.8041665,
+        41.70624975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"measurement\",\n  \"actions_observed\": [\"The video displays a Smith chart with impedance measurements at 431.7 MHz.\", \"A cursor moves along the Smith chart, indicating different impedance values.\"],\n  \"objects_visible\": [\"Smith chart with red and green lines\", \"Cursor on the Smith chart\", \"Measurement data on the right side of the screen\"],\n  \"visible_text_labels\": [\"Impedance: 431.7 MH"
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        41.70624975,
+        55.608333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher observes a digital display showing a Smith chart with a yellow and blue trace"
+        ],
+        "objects_visible": [
+          "Smith chart display with concentric circles and radial lines",
+          "yellow and blue traces on the Smith chart",
+          "digital readout showing frequency range and other parameters"
+        ],
+        "visible_text_labels": [
+          "Start 300,000,000Hz",
+          "Stop 499,618,117Hz",
+          "Ref=50.0+0.01",
+          "vna/d 3.4.7",
+          "DL288A 2020"
+        ],
+        "quantities": [
+          "300,000,000Hz to 499,618,117Hz frequency range",
+          "50.0+0.01 reference impedance"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of a Smith chart, a specialized graphical tool used in electrical engineering for analyzing complex impedances. The presence of specific frequency values and impedance reference highlights the technical nature of the experiment. The digital display and traces indicate real-time data analysis."
+      }
+    }
+  ]
+}

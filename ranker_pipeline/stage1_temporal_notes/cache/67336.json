@@ -1,0 +1,182 @@
+{
+  "video_id": "67336",
+  "benchmark": "scivideobench",
+  "duration_seconds": 583.317333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        145.82933325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher in a white lab coat is seated and speaking to the camera.",
+          "Computer screen displays a list of PCR reaction mix components and settings."
+        ],
+        "objects_visible": [
+          "White lab coat with 'RFA' embroidered on the left chest.",
+          "Shelves in the background with various laboratory equipment and supplies.",
+          "Computer screen showing a software interface with multiple tabs and a sequence alignment tool."
+        ],
+        "visible_text_labels": [
+          "Breeding by Design for Functional Rice with Genome Editing Technologies",
+          "Chunxue Yan, Huicong Meng, Yanxin Pei, Wei Sun, Jinshan Zhang",
+          "Shandong Normal University",
+          "What research questions will your laboratory focus on in the future?",
+          "Reaction Mix: 10 \u03bcL of polymerase mix buffer, 1 \u03bcL of forward primer, 1 \u03bcL of reverse primer, 1 \u03bcL of gDNA from X134 tissues and 7 \u03bcL of distilled water",
+          "PCR Settings: 95\u00b0C, 3 min (95\u00b0C, 20 s - 56\u00b0C, 30 s - 72\u00b0C, 60 s) with 35 cycles 72\u00b0C, 5 min"
+        ],
+        "quantities": [
+          "10 \u03bcL of polymerase mix buffer",
+          "1 \u03bcL of forward primer",
+          "1 \u03bcL of reverse primer",
+          "1 \u03bcL of gDNA",
+          "7 \u03bcL of distilled water",
+          "35 cycles",
+          "95\u00b0C, 3 min",
+          "95\u00b0C, 20 s",
+          "56\u00b0C, 30 s",
+          "72\u00b0C, 60 s",
+          "72\u00b0C, 5 min"
+        ],
+        "key_distinguishing_features": "This segment features a researcher discussing future research directions in a laboratory setting, with a focus on genome editing technologies for rice. The computer screen provides detailed PCR reaction mix and settings, indicating preparation for a genetic experiment. The environment is a well-equipped lab with visible shelves of supplies."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        145.82933325,
+        291.6586665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a pipette and carefully dispenses liquid into a small container.",
+          "Researcher places a transparent container with green plants into a growth chamber."
+        ],
+        "objects_visible": [
+          "Pipette with a blue plunger and orange tip",
+          "Small transparent container with green plants",
+          "Growth chamber with a purple interior and labeled compartments",
+          "Computer screen displaying a spreadsheet with data and text",
+          "Yellow and black box with a digital display"
+        ],
+        "visible_text_labels": [
+          "Anneal Buffer: Tris-EDTA buffer and 50 mM NaCl",
+          "Primer Stock: 10 \u00b5mol/L",
+          "Perform Agrobacterium-mediated transformation of rice",
+          "95\u00b0C, 3 min (95\u00b0C, 20 s - 56\u00b0C, 30 s - 72\u00b0C, 60 s) with 35 cycles - 72\u00b0C, 5 min"
+        ],
+        "quantities": [
+          "10 \u00b5mol/L",
+          "35 cycles",
+          "95\u00b0C, 3 min",
+          "56\u00b0C, 30 s",
+          "72\u00b0C, 60 s"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of biological samples and the use of a growth chamber for plant cultivation. The computer screen in the background provides context with detailed experimental parameters and data. The focus on specific reagents and temperature cycles underscores the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        291.6586665,
+        437.48799975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 1.5mL microtube labeled 'Sample 1' with a green cap into a centrifuge",
+          "researcher closes the centrifuge lid and starts the centrifuge"
+        ],
+        "objects_visible": [
+          "blue centrifuge with a digital display showing '00:00'",
+          "yellow and orange microtube racks containing various microtubes",
+          "microtube labeled 'Sample 1' with a green cap",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "Sample 1",
+          "00:00"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the centrifugation process, highlighting the precise placement of a labeled microtube into a centrifuge. The digital display on the centrifuge and the organized arrangement of microtubes in racks are distinctive features. The researcher's careful handling of the microtube emphasizes the importance of accuracy in this step."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        437.48799975,
+        583.317333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with a blue plunger",
+          "petri dish containing pink-colored medium",
+          "yellow test tube rack with multiple slots",
+          "white lab coat worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL",
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube and the accurate pipetting of a specific volume of DMEM medium. The pink color of the medium is distinctive, and the researcher's actions are methodical and deliberate. The presence of the 'jove' logo suggests this is part of a professional scientific video."
+      }
+    }
+  ]
+}

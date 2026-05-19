@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/video_segments/55858/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 25.401,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.35025
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid into a centrifuge tube"
+        ],
+        "objects_visible": [
+          "centrifuge with an open lid",
+          "black centrifuge rotor with multiple slots",
+          "transparent pipette with a blue plunger",
+          "centrifuge tube containing a clear liquid"
+        ],
+        "visible_text_labels": [
+          "Eppendorf"
+        ],
+        "quantities": [
+          "one centrifuge tube",
+          "one pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid into a centrifuge tube using a pipette. The centrifuge is an Eppendorf model, and the rotor is clearly visible with multiple slots. The liquid being transferred appears clear, indicating a controlled laboratory procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.35025,
+        12.7005
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a small container"
+        ],
+        "objects_visible": [
+          "black-gloved hand holding a pipette",
+          "small clear container receiving liquid",
+          "metallic equipment with a red handle and a digital display",
+          "text overlay providing instructions"
+        ],
+        "visible_text_labels": [
+          "Add 450 \u00b5L exchange buffer and concentrate at 2700 x g 5x"
+        ],
+        "quantities": [
+          "450 \u00b5L",
+          "2700 x g",
+          "5x"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer using a pipette, with a clear focus on the volume and concentration parameters. The text overlay provides specific instructions, emphasizing the controlled nature of the experiment. The metallic equipment in the background suggests a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.7005,
+        19.05075
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, clear microtube with a pipette tip inserted",
+          "researcher places the microtube into a centrifuge"
+        ],
+        "objects_visible": [
+          "black-gloved hand holding a microtube",
+          "centrifuge with a transparent door and red handle",
+          "pipette tip inserted into the microtube",
+          "blue tray in the background"
+        ],
+        "visible_text_labels": [
+          "Add 450 \u00b5L exchange buffer and concentrate at 2700 x g 5x",
+          "jove"
+        ],
+        "quantities": [
+          "450 \u00b5L",
+          "2700 x g",
+          "5x"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube containing a small volume of liquid, emphasizing the careful placement into a centrifuge. The text overlay provides specific instructions for the volume of buffer and centrifugation conditions. The use of a pipette tip indicates the controlled addition of liquid."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.05075,
+        25.401
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand reaches into the transparent chamber and adjusts a component inside.",
+          "The hand manipulates a small, cylindrical object, possibly a tool or part of the apparatus."
+        ],
+        "objects_visible": [
+          "A transparent chamber with red framing, containing various mechanical components.",
+          "A cylindrical object with a metallic and black exterior, possibly part of the machine.",
+          "A gloved hand, indicating a researcher's interaction with the apparatus."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a researcher's gloved hand interacting with a complex apparatus inside a transparent chamber. The focus is on the precise manipulation of a small component, highlighting the intricate nature of the experiment. The 'jove' logo is visible, indicating the source of the video."
+      }
+    }
+  ]
+}

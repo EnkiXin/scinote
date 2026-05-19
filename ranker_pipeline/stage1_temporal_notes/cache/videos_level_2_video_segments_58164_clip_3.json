@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_2/video_segments/58164/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 48.065,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.01625
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand places a small, labeled bottle of trichloroacetic acid on the lab bench.",
+          "The hand then reaches into a container of ice cubes."
+        ],
+        "objects_visible": [
+          "A clear glass bottle labeled 'trichloroacetic acid 100% w/v' with an orange label.",
+          "A blue test tube rack holding several small test tubes with orange caps.",
+          "A container filled with ice cubes.",
+          "A pH test strip chart with various color blocks and numbers."
+        ],
+        "visible_text_labels": [
+          "trichloroacetic acid 100% w/v",
+          "Samples may be stored at 4 \u00b0C overnight",
+          "distilled water"
+        ],
+        "quantities": [
+          "100% w/v concentration of trichloroacetic acid"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation of a chemical reagent, specifically trichloroacetic acid, and the handling of samples that require cold storage. The presence of ice cubes and the text about storing samples at 4 \u00b0C overnight emphasize the importance of temperature control in this experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.01625,
+        24.0325
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher closes the centrifuge lid",
+          "researcher holds a small vial and a pipette"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital display and control buttons",
+          "small vial containing a yellowish liquid",
+          "pipette with a fine tip"
+        ],
+        "visible_text_labels": [
+          "PRESS HERE TO CLOSE",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher interacting with a centrifuge, specifically closing its lid. The focus then shifts to the researcher handling a vial and a pipette, suggesting a transition to a liquid transfer step. The presence of the 'jove' watermark indicates this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        24.0325,
+        36.04875
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a yellow cap and a handwritten label",
+          "researcher uses a pipette to transfer a small volume of liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a yellow cap and handwritten label",
+          "pipette with a transparent tip",
+          "petri dish with a clear medium",
+          "beaker labeled 'VWR 250 mL'",
+          "blue test tube rack with multiple slots",
+          "various laboratory containers and equipment in the background"
+        ],
+        "visible_text_labels": [
+          "VWR 250 mL"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "250 mL beaker"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid sample using a pipette, highlighting the careful handling of a small-volume microtube. The presence of a labeled beaker and a test tube rack suggests a well-organized laboratory setup. The handwritten label on the microtube indicates a personalized or experimental sample."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        36.04875,
+        48.065
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid from a beaker labeled '0.1 M NaOH' into a test tube",
+          "researcher places the test tube into a blue test tube rack"
+        ],
+        "objects_visible": [
+          "250 mL PYREX beaker with an orange label reading '0.1 M NaOH'",
+          "blue test tube rack with multiple test tubes",
+          "pipette with a clear tip",
+          "test tubes with white caps and yellow labels",
+          "white and black electronic device with a dial and a black cord"
+        ],
+        "visible_text_labels": [
+          "0.1 M NaOH",
+          "250 mL PYREX"
+        ],
+        "quantities": [
+          "250 mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a chemical solution using a pipette, highlighting the careful handling of reagents. The use of a labeled beaker and test tube rack emphasizes the organized nature of the experiment. The electronic device suggests a controlled environment for the experiment."
+      }
+    }
+  ]
+}

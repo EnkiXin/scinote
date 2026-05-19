@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/step_prediction/64146/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 13.167467,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        3.29186675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes ~200uL of pink-colored liquid into petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with pink liquid",
+          "pipette with clear tip",
+          "purple nitrile gloves",
+          "green test tube rack with labeled tubes"
+        ],
+        "visible_text_labels": [
+          "Seeding MCF10A Cells in IrECM, PAF Treatment, and Re-Feeding with Fresh Media"
+        ],
+        "quantities": [
+          "~200uL of liquid"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action with a pink liquid, likely a cell culture medium, into a petri dish. The researcher's hand is gloved, emphasizing a sterile technique. The background includes a green test tube rack, indicating a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        3.29186675,
+        6.5837335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes ~200uL of pink-colored liquid into a petri dish",
+          "holds petri dish lid with left hand"
+        ],
+        "objects_visible": [
+          "petri dish with clear lid",
+          "pipette with pink liquid",
+          "green test tube rack",
+          "test tubes with white labels",
+          "purple nitrile gloves",
+          "beaker with pink liquid"
+        ],
+        "visible_text_labels": [
+          "test tube labels with handwritten text"
+        ],
+        "quantities": [
+          "~200uL of liquid"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action with a pink liquid into a petri dish, emphasizing the careful handling of laboratory materials. The use of purple nitrile gloves and the presence of a green test tube rack highlight a controlled laboratory environment. The pink liquid and petri dish suggest a biological or chemical experiment in progress."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        6.5837335,
+        9.87560025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a petri dish with a clear lid",
+          "researcher uses a pipette to add a small volume of pink liquid into the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid",
+          "pipette with a pink liquid",
+          "green test tube rack with labeled tubes",
+          "beaker with pink liquid in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of pink liquid"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of adding a liquid to a petri dish, highlighting the use of a pipette for controlled dispensing. The pink color of the liquid and the clear petri dish are distinctive features. The background includes a green test tube rack and a beaker with pink liquid, suggesting a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        9.87560025,
+        13.167467
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes ~200uL of pink-colored liquid into a petri dish",
+          "holds petri dish lid with gloved hand"
+        ],
+        "objects_visible": [
+          "petri dish with clear lid",
+          "pipette with pink liquid",
+          "green test tube rack with labeled tubes",
+          "purple nitrile glove",
+          "petri dish containing pink liquid"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "~200uL"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action with a pink liquid into a petri dish, emphasizing the careful handling of laboratory materials. The use of a purple nitrile glove highlights the importance of safety and sterility in the experiment. The JOVE logo indicates the video is part of a scientific demonstration series."
+      }
+    }
+  ]
+}

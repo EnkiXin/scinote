@@ -1,0 +1,186 @@
+{
+  "video_id": "videos/level_3/2702_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 481.557333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        120.38933325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A hand wearing a white glove holds a syringe with a needle inserted into the trachea of a mouse.",
+          "A cartoon illustration depicts a mouse with a syringe inserted into its trachea, showing the process of intratracheal injection."
+        ],
+        "objects_visible": [
+          "A syringe with a needle inserted into the trachea of a mouse.",
+          "A cartoon mouse with a syringe inserted into its trachea.",
+          "A hand wearing a white glove holding the syringe."
+        ],
+        "visible_text_labels": [
+          "Non-Surgical Intratracheal Instillation of Mice with Analysis of Lungs and Lung Draining Lymph Nodes by Flow Cytometry",
+          "Manira Rayamajhi\u00b9, Elizabeth F. Redente\u00b3, Tracy V. Condon\u00b9, Mercedes Gonzalez-Juarrero\u00b2, David W.H. Riches\u00b9,\u00b3,\u2074, and Laurel L. Lenz\u00b9,\u2074",
+          "Department of Immunology, University of Colorado School of Medicine",
+          "Department of Microbiology, Immunology, and Pathology, Colorado State University",
+          "Division of Cell Biology, Department of Pediatrics, Department of Immunology, National Jewish Health",
+          "I. Intratracheal Injection"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment highlights the preparation phase of an intratracheal injection procedure in mice, using both a real-life demonstration and a cartoon illustration to explain the process. The text labels provide detailed information about the researchers and their affiliations, emphasizing the scientific context of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        120.38933325,
+        240.7786665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a surgical tool to manipulate a small, exposed area on a mouse's head",
+          "researcher applies a substance from a syringe into the exposed area"
+        ],
+        "objects_visible": [
+          "mouse with its head exposed and secured in a metal frame",
+          "surgical tools including forceps and a syringe",
+          "metal frame with a red label",
+          "aluminum foil covering the base of the setup",
+          "gloved hands of the researcher"
+        ],
+        "visible_text_labels": [
+          "KIMTEC"
+        ],
+        "quantities": [
+          "small, precise volume of liquid from the syringe"
+        ],
+        "key_distinguishing_features": "This segment focuses on a delicate surgical procedure involving a mouse, with the researcher carefully applying a substance to an exposed area. The setup includes a metal frame and aluminum foil, emphasizing a controlled and sterile environment. The presence of the 'KIMTEC' label suggests the use of specific medical-grade materials."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        240.7786665,
+        361.16799975000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate tissue within an open surgical field",
+          "researcher places a small tissue sample into a labeled petri dish",
+          "researcher transfers a pipette tip containing a red liquid into a multi-well plate"
+        ],
+        "objects_visible": [
+          "forceps with a metallic, curved tip",
+          "petri dishes labeled 'Lymph nodes' and 'Lungs'",
+          "multi-well plate with clear wells",
+          "pipette with a red liquid",
+          "surgical field with exposed tissue and blood",
+          "labeled tissue samples in petri dishes"
+        ],
+        "visible_text_labels": [
+          "Lymph nodes",
+          "Lungs",
+          "Inoculate through 18 GA needle",
+          "Lymph nodes: 25 - 30 min",
+          "Lungs: 30 min",
+          "37\u00b0C"
+        ],
+        "quantities": [
+          "18 GA needle",
+          "25 - 30 min",
+          "30 min",
+          "37\u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of tissue samples and their placement into labeled petri dishes, indicating a step in a biological or medical experiment. The use of specific time intervals and temperature suggests controlled conditions for tissue processing. The surgical field and the presence of blood highlight the invasive nature of the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        361.16799975000004,
+        481.557333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "displays flow cytometry data on a screen",
+          "compares data from different experimental conditions"
+        ],
+        "objects_visible": [
+          "flow cytometry plots with gated live cells",
+          "graphs showing CD45 and CD11c expression",
+          "data from AJ mice lung draining lymph nodes 24 hours post injection"
+        ],
+        "visible_text_labels": [
+          "1 X 10^8 GFP positive Bacillus anthracis spores",
+          "AJ mice lungs",
+          "30 min post infection",
+          "Gated on Live Cells",
+          "CD45",
+          "CD11c",
+          "FSC-H",
+          "SSC-H",
+          "AJ mice lung draining lymph nodes analyzed 24 hrs post injection",
+          "PBS",
+          "FITC Beads + LPS, i.t.",
+          "Empty Channel",
+          "Beads -FITC"
+        ],
+        "quantities": [
+          "37.9",
+          "16.8",
+          "0.36",
+          "0",
+          "19.6",
+          "3.98"
+        ],
+        "key_distinguishing_features": "This segment focuses on the analysis of flow cytometry data from mice experiments, highlighting the differences in cell populations post-infection. The data is presented with specific gating on live cells and includes numerical values for cell populations. The segment is distinctive for its detailed graphical representation of experimental outcomes."
+      }
+    }
+  ]
+}

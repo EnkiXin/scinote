@@ -1,0 +1,147 @@
+{
+  "video_id": "videos/level_2/video_verification/57541/clip_4_removed_step_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.506083,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.62652075
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher manipulates a blue surgical tool near a blood vessel",
+          "researcher uses forceps to hold tissue in place"
+        ],
+        "objects_visible": [
+          "blue surgical tool with a pointed tip",
+          "forceps with metallic sheen",
+          "gloved hand with visible blood stains",
+          "exposed internal tissue with visible blood vessels"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure with a focus on precise manipulation of tools near delicate tissue. The presence of blood stains on the glove indicates active work in a surgical environment. The blue surgical tool is a distinctive feature, suggesting a specialized function in the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.62652075,
+        13.2530415
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Surgeon uses forceps to manipulate a small, transparent tube within a surgical field.",
+          "Surgeon adjusts the position of the tube with precision, likely for a specific surgical procedure."
+        ],
+        "objects_visible": [
+          "Gloved hands of a surgeon, one holding forceps and the other holding a small, transparent tube.",
+          "A surgical field with visible tissue structures, blood vessels, and a red, pulsating organ."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment highlights a delicate surgical procedure involving a transparent tube, with the surgeon's hands and forceps being the focal point. The presence of a pulsating red organ and visible blood vessels suggests a complex surgical environment. The 'jove' label indicates the video is likely from a scientific or educational source."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.2530415,
+        19.87956225
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a wooden stick to manipulate a red, glossy organ within a surgical field.",
+          "Metal forceps are used to hold and adjust the position of the organ."
+        ],
+        "objects_visible": [
+          "A red, glossy organ with visible blood vessels and a smooth surface.",
+          "A gloved hand with a white, textured glove.",
+          "A wooden stick with a rounded end.",
+          "Metal forceps with a shiny, reflective surface."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful manipulation of a red organ using a wooden stick and forceps, highlighting the precision required in the procedure. The presence of the 'jove' logo suggests this is part of a scientific or educational video. The organ's glossy texture and the surgical setting are distinctive features."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.87956225,
+        26.506083
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Surgeon uses forceps to manipulate a suture thread around a blood vessel",
+          "Surgeon adjusts the position of the kidney with a cotton swab"
+        ],
+        "objects_visible": [
+          "Kidney with a visible, glossy, reddish surface",
+          "Metal forceps with serrated edges",
+          "Cotton swab with a wooden handle",
+          "Blood vessels and surrounding tissue",
+          "Gloved hands of the surgeon"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of a suture around a blood vessel, highlighting the delicate nature of the surgical procedure. The use of a cotton swab to adjust the kidney's position adds a layer of complexity to the task. The presence of the 'jove' logo suggests this is part of a scientific or educational video."
+      }
+    }
+  ]
+}

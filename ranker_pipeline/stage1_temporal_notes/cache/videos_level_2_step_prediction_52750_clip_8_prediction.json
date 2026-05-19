@@ -1,0 +1,150 @@
+{
+  "video_id": "videos/level_2/step_prediction/52750/clip_8_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.982,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.7455
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "forceps hold a small, pinkish object",
+          "scissors are used to make a precise cut into the object"
+        ],
+        "objects_visible": [
+          "metal forceps with textured grips",
+          "metal scissors with sharp, pointed tips",
+          "a small, pinkish object resembling a biological sample"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a delicate surgical procedure, with the forceps and scissors being the primary tools. The pinkish object appears to be a biological sample, possibly tissue, being carefully manipulated. The 'jove' logo indicates the video is likely from a scientific or educational source."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.7455,
+        17.491
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a green-handled tool to adjust a component on a transparent device."
+        ],
+        "objects_visible": [
+          "A transparent, square-shaped device with a central circular component, two small tubes, and four legs.",
+          "A gloved hand holding a green-handled tool."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise adjustment being made to a transparent device, likely part of a scientific apparatus. The use of a green-handled tool suggests a delicate operation. The 'jove' logo indicates the video is from a scientific demonstration platform."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.491,
+        26.2365
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe with a green plunger and orange body",
+          "researcher injects liquid into a transparent container with two needles labeled 'nr. 1 needle: mitral valve culture' and 'nr. 2 needle: aortic valve culture'"
+        ],
+        "objects_visible": [
+          "a transparent container with a square base and a central cylindrical cavity",
+          "two needles connected to the container, each labeled for valve culture",
+          "a syringe with a green plunger and orange body",
+          "a gloved hand holding the syringe"
+        ],
+        "visible_text_labels": [
+          "nr. 1 needle: mitral valve culture",
+          "nr. 2 needle: aortic valve culture"
+        ],
+        "quantities": [
+          "two needles for different valve cultures"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise injection of liquid into a container with two distinct needles for mitral and aortic valve cultures. The syringe's green plunger and orange body are distinctive, and the labels on the needles clearly differentiate the valve cultures being handled."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.2365,
+        34.982
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 100 mL syringe filled with a clear liquid and injects it into a transparent reservoir with a red liquid inside",
+          "researcher uses tweezers to manipulate a small object within a petri dish containing a clear liquid"
+        ],
+        "objects_visible": [
+          "100 mL syringe with a clear liquid",
+          "transparent reservoir with a red liquid",
+          "petri dish with a clear liquid",
+          "tweezers held by a gloved hand",
+          "white gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "100 mL syringe"
+        ],
+        "key_distinguishing_features": "This segment shows the precise handling of liquids and small objects, emphasizing the use of a syringe and tweezers in a controlled laboratory environment. The presence of a petri dish and a reservoir suggests a focus on fluid dynamics or biological experimentation. The 'jove' logo indicates the video is likely part of a scientific demonstration or tutorial."
+      }
+    }
+  ]
+}

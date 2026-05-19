@@ -1,0 +1,140 @@
+{
+  "video_id": "videos/level_2/video_verification/53009/clip_2_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.111333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.02783325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher observes the interior of a large, open, white cabinet"
+        ],
+        "objects_visible": [
+          "large white cabinet with a transparent front door",
+          "metallic animal cage with a grid floor inside the cabinet",
+          "researcher wearing a blue lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a researcher observing a specialized cabinet containing an animal cage, suggesting a controlled environment setup. The cabinet's transparent door allows clear visibility of the cage's interior. The presence of the 'jove' logo indicates this is part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.02783325,
+        16.0556665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a metal tray with a grid pattern and circular indentations",
+          "researcher uses a tool to adjust or interact with the metal tray"
+        ],
+        "objects_visible": [
+          "metal tray with a grid pattern and circular indentations",
+          "tool with a red handle and metallic tip",
+          "researcher's hands wearing blue nitrile gloves",
+          "metallic equipment with a white box and a black wire"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation of a metal tray, likely for a scientific experiment, with the researcher carefully adjusting it using a specialized tool. The presence of the 'jove' logo suggests this is part of a professional scientific video. The blue nitrile gloves indicate a controlled environment to prevent contamination."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.0556665,
+        24.08349975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A gloved hand inserts a small object into a circular opening on a metallic surface."
+        ],
+        "objects_visible": [
+          "A metallic surface with a circular opening surrounded by four screws, a rectangular slot with a sliding mechanism, and a gloved hand holding a small object."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up of a metallic surface with a distinct circular opening and a rectangular slot. The gloved hand's interaction with the circular opening is the central action, emphasizing precision and careful handling."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.08349975,
+        32.111333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "mouse moves within a transparent enclosure"
+        ],
+        "objects_visible": [
+          "metallic enclosure with a circular viewing port",
+          "transparent plastic barrier",
+          "metallic grate on one side of the enclosure"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The mouse is visible through the transparent barrier, moving within a confined metallic enclosure. The enclosure features a circular viewing port and a metallic grate, suggesting a controlled environment for observation. The 'jove' logo is visible in the upper right corner, indicating the source of the video."
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_3/58052_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 492.714667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        123.17866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a large cylindrical metal tank with a gauge and a valve",
+          "researcher handles a purple glove, putting it on their hand"
+        ],
+        "objects_visible": [
+          "a large cylindrical metal tank with a pressure gauge and a valve",
+          "a purple glove",
+          "a white lab coat",
+          "a glass container with a label reading '4-heptadecyl-catechol (hdcat)'",
+          "a red and black control panel with a warning label"
+        ],
+        "visible_text_labels": [
+          "4-heptadecyl-catechol (hdcat)",
+          "Do not exceed 70 \u00b0C"
+        ],
+        "quantities": [
+          "70 \u00b0C"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase where a researcher is seen interacting with a large cylindrical tank, possibly for storing or dispensing a chemical. The presence of a specific chemical label and a temperature warning suggests a controlled environment for handling sensitive materials. The researcher's actions with the glove indicate a focus on safety and precision."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        123.17866675,
+        246.3573335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'fdcat' with a blue cap",
+          "researcher places the microtube on a foil-covered surface",
+          "researcher opens a small bottle labeled 'fluorinated-4-undecylcatechol (fdcat)'"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'fdcat'",
+          "small bottle with red cap labeled 'fluorinated-4-undecylcatechol (fdcat)'",
+          "foil-covered surface",
+          "various laboratory equipment and reagents in the background"
+        ],
+        "visible_text_labels": [
+          "fluorinated-4-undecylcatechol (fdcat)",
+          "fdcat"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a specific reagent, fluorinated-4-undecylcatechol (fdcat), highlighting the handling of a microtube and a small bottle. The actions are precise and deliberate, emphasizing the importance of careful reagent management in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        246.3573335,
+        369.53600025000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'CHCl3 dry' with a purple cap",
+          "researcher places the microtube on a white tray containing other labeled tubes"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'CHCl3 dry' with a purple cap",
+          "white tray with multiple labeled tubes",
+          "researcher wearing purple gloves",
+          "microscope with a yellow label",
+          "glass beaker with a blue liquid",
+          "aluminum foil covering a container"
+        ],
+        "visible_text_labels": [
+          "CHCl3 dry",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of a specific microtube labeled 'CHCl3 dry', emphasizing the preparation phase of the experiment. The presence of a microscope and other laboratory equipment suggests a detailed scientific procedure. The researcher's use of purple gloves highlights the importance of safety and contamination prevention."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        369.53600025000003,
+        492.714667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher stands in front of a whiteboard with chemical structures and equations",
+          "researcher gestures towards the whiteboard while speaking"
+        ],
+        "objects_visible": [
+          "whiteboard with chemical structures and equations",
+          "researcher wearing a dark blue shirt",
+          "computer monitor in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the researcher's interaction with a whiteboard, which contains detailed chemical structures and equations. The setting suggests a discussion or explanation phase, likely involving theoretical or experimental aspects of the research. The presence of a computer monitor in the background adds to the laboratory or classroom environment."
+      }
+    }
+  ]
+}

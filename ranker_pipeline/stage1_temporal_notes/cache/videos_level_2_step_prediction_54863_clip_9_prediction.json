@@ -1,0 +1,171 @@
+{
+  "video_id": "videos/level_2/step_prediction/54863/clip_9_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 45.332933,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.33323325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and inserts it into a red liquid in a black pot",
+          "researcher withdraws the pipette and dispenses the liquid into a small tube"
+        ],
+        "objects_visible": [
+          "black pot containing red liquid",
+          "pipette with a white and red handle",
+          "small tubes in a blue rack",
+          "two trays with red and yellow caps",
+          "a blue vortex mixer labeled 'Vortex-Genie 2'",
+          "a white device with red and black wires"
+        ],
+        "visible_text_labels": [
+          "Vortex-Genie 2",
+          "jove"
+        ],
+        "quantities": [
+          "red liquid in the pot",
+          "small tubes in the blue rack"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of transferring red liquid using a pipette, with a focus on laboratory equipment like the vortex mixer and the organized setup of tubes and trays. The red liquid in the pot is a distinctive feature of this segment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.33323325,
+        22.6664665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a red lid on a black pot containing a red liquid",
+          "researcher uses a pipette to transfer a small volume of liquid from the pot into a 1.5mL microtube with a blue cap"
+        ],
+        "objects_visible": [
+          "black pot with red liquid and a red lid",
+          "pipette with a white body and black plunger",
+          "1.5mL microtube with a blue cap",
+          "blue microtube rack with several tubes",
+          "yellow and red microtube racks",
+          "blue vortex mixer labeled 'Vortex-Genie 2'",
+          "white power supply with red and black wires"
+        ],
+        "visible_text_labels": [
+          "BOX-2 is protein A",
+          "Vortex-Genie 2"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "several tubes in the blue microtube rack"
+        ],
+        "key_distinguishing_features": "The segment highlights the precise action of transferring liquid from a pot to a microtube using a pipette, with a focus on the red liquid and the specific equipment used. The presence of multiple microtube racks and a vortex mixer suggests a detailed laboratory setup for sample preparation."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.6664665,
+        33.99969975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and transfers liquid into a microtube",
+          "researcher places the microtube into a blue microtube rack"
+        ],
+        "objects_visible": [
+          "blue microtube rack with several microtubes",
+          "pipette with a white tip",
+          "red and yellow microtube storage boxes",
+          "aluminum foil covering part of the work surface",
+          "Vortex-Genie 2 mixer with a blue casing",
+          "electrical device with red and black wires"
+        ],
+        "visible_text_labels": [
+          "Vortex-Genie 2",
+          "15 min RT"
+        ],
+        "quantities": [
+          "15 minutes"
+        ],
+        "key_distinguishing_features": "This segment shows the precise handling of microtubes and the use of a pipette for liquid transfer, emphasizing the controlled environment of the experiment. The presence of the '15 min RT' text suggests a specific incubation or reaction time at room temperature is part of the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        33.99969975,
+        45.332933
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a transparent lid on a gel electrophoresis tank",
+          "researcher connects red and black cables to a power supply unit"
+        ],
+        "objects_visible": [
+          "transparent gel electrophoresis tank with green side columns",
+          "power supply unit with digital display showing '0.0'",
+          "red and black cables connected to the power supply",
+          "gel cassette labeled 'SDS-FREE' inside the tank",
+          "five small brown vials with yellow caps labeled '1', '2', '3', '4', and '5'"
+        ],
+        "visible_text_labels": [
+          "SDS-FREE",
+          "NATURAL GELS ONLY",
+          "BIO-RAD"
+        ],
+        "quantities": [
+          "digital display reading '0.0' on the power supply unit"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the setup of gel electrophoresis, with a focus on connecting the power supply to initiate the process. The labeled vials and the 'SDS-FREE' gel cassette indicate a specific type of protein analysis. The researcher's actions are precise, ensuring the correct setup for the experiment."
+      }
+    }
+  ]
+}

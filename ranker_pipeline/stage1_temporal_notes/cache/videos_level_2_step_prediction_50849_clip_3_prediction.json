@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/step_prediction/50849/clip_3_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.8688,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.9672
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher picks up a small vial from a tray",
+          "researcher places the vial on the table"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat",
+          "a tray with multiple small vials, some with blue caps",
+          "a table with a brown surface",
+          "a clear plastic bag containing multiple small vials with blue caps"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple vials in the tray and plastic bag"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where the researcher is handling small vials, likely containing samples or reagents. The presence of a clear plastic bag with multiple vials suggests organization and storage of materials. The 'jove' logo indicates the video is part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.9672,
+        23.9344
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a clear plastic bag containing blue and purple gel-like substances on a beige mat",
+          "researcher adjusts the position of the plastic bag on the mat"
+        ],
+        "objects_visible": [
+          "clear plastic bag with blue and purple gel-like substances",
+          "beige mat with white rectangular markings",
+          "researcher wearing a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple gel-like substances in the plastic bag"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a researcher is handling a clear plastic bag containing blue and purple gel-like substances. The mat beneath the bag has white rectangular markings, possibly for alignment or measurement. The researcher's actions are deliberate, suggesting careful placement and adjustment of the bag."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.9344,
+        35.9016
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher folds a piece of black tape",
+          "researcher places the folded black tape on the table"
+        ],
+        "objects_visible": [
+          "black tape",
+          "researcher wearing a white lab coat",
+          "a table with a white surface",
+          "a transparent container with blue and white contents"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully handling black tape, folding it in a specific manner. The setting appears to be a laboratory environment, indicated by the white lab coat and the presence of scientific materials. The action of folding the tape suggests a preparatory step for an experiment or procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.9016,
+        47.8688
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a rectangular object on a flat surface",
+          "researcher adjusts the rectangular object with both hands"
+        ],
+        "objects_visible": [
+          "rectangular object with a light-colored, possibly fabric or paper, top layer",
+          "dark wooden surface",
+          "white wall",
+          "wooden door with a visible hinge",
+          "white brick wall in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful placement and adjustment of a rectangular object, likely a piece of equipment or material, on a flat surface. The researcher's actions suggest preparation for a subsequent step in the experiment. The background includes a wooden door and a white brick wall, providing context to the laboratory setting."
+      }
+    }
+  ]
+}

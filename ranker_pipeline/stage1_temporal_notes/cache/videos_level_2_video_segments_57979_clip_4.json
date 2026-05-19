@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_2/video_segments/57979/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 44.857,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.21425
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a test tube",
+          "researcher places the pipette back on the stand"
+        ],
+        "objects_visible": [
+          "white lab coat",
+          "blue gloves",
+          "pipette with a red plunger",
+          "test tube with a blue cap",
+          "yellow bucket",
+          "white mug",
+          "red and white box",
+          "black cables",
+          "metal pipette stand",
+          "white lab bench"
+        ],
+        "visible_text_labels": [
+          "80% ACN (0.1% TFA)"
+        ],
+        "quantities": [
+          "1.5 mL microtube"
+        ],
+        "key_distinguishing_features": "The researcher is actively using a pipette to transfer liquid into a labeled test tube, indicating a precise step in the experiment. The environment is a well-equipped laboratory with various tools and containers visible. The focus is on the careful handling of the pipette and the labeled test tube."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.21425,
+        22.4285
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 100mL beaker labeled 'dH2O' and tilts it to pour water into a glass container",
+          "a syringe attached to a clamp stand is positioned above the glass container, likely for precise liquid addition"
+        ],
+        "objects_visible": [
+          "a 100mL beaker with a blue label reading 'dH2O'",
+          "a glass container partially filled with a clear liquid",
+          "a syringe with a red plunger and black liquid inside, held by a clamp stand",
+          "a bottle labeled '80% ACN (0.1% TFA)' with a blue cap",
+          "a test tube rack with multiple white test tubes",
+          "a yellow bucket in the background"
+        ],
+        "visible_text_labels": [
+          "dH2O",
+          "80% ACN (0.1% TFA)"
+        ],
+        "quantities": [
+          "100mL beaker",
+          "80% ACN (0.1% TFA)"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of water and other chemicals, emphasizing the controlled addition of liquids in a laboratory setting. The use of a clamp stand for the syringe suggests a need for accuracy in the experiment. The presence of multiple labeled containers indicates a complex procedure involving multiple reagents."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.4285,
+        33.64275
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a white cap",
+          "pipettes a clear liquid from a bottle labeled 'dH2O' into the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a white cap",
+          "pipette with a red plunger and a clear tip",
+          "bottle labeled 'dH2O' with a blue cap",
+          "yellow container with a warning label",
+          "transparent container with a green lid",
+          "researcher's gloved hand wearing blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "dH2O",
+          "jove"
+        ],
+        "quantities": [
+          "volume of liquid being pipetted is not specified"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring a clear liquid from a labeled bottle into a microtube using a pipette. The presence of a warning label on the yellow container suggests the handling of potentially hazardous materials. The researcher's gloved hand emphasizes the importance of safety protocols."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        33.64275,
+        44.857
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher speaks to the camera"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat with a red tie and striped shirt",
+          "bookshelf filled with binders and documents",
+          "wooden cabinet in the background",
+          "microphone clipped to the researcher's coat"
+        ],
+        "visible_text_labels": [
+          "Josef Voglmeir",
+          "Nanjing Agricultural University",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment features a researcher in a lab coat speaking directly to the camera, with a bookshelf and documents visible in the background. The setting suggests an office or lab environment. The researcher's attire and the visible text labels provide context for the affiliation and identity."
+      }
+    }
+  ]
+}

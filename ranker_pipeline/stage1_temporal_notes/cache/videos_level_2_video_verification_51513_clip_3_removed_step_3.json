@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_2/video_verification/51513/clip_3_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.8065,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.701625
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a refrigerator",
+          "researcher retrieves a container from the refrigerator"
+        ],
+        "objects_visible": [
+          "refrigerator with a biohazard warning sign",
+          "container with a biohazard label",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "BIOHAZARD",
+          "Fisherbrand"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment highlights the preparation phase where a researcher, wearing protective gear, retrieves a biohazard-labeled container from a refrigerator. The biohazard warning sign on the refrigerator emphasizes the controlled and safe handling of materials. The Fisherbrand label on the container suggests the use of a specific brand for laboratory storage."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.701625,
+        21.40325
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube containing a pinkish liquid",
+          "researcher peels off a label from the tube"
+        ],
+        "objects_visible": [
+          "15mL conical tube with a blue cap",
+          "pinkish liquid inside the tube",
+          "a gloved hand holding the tube",
+          "a label with handwritten text"
+        ],
+        "visible_text_labels": [
+          "Perform all steps in this protocol under sterile conditions."
+        ],
+        "quantities": [
+          "15mL conical tube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, emphasizing the handling of a 15mL conical tube with a pinkish liquid under sterile conditions. The researcher's gloved hand and the peeling of a label highlight the meticulous nature of the protocol."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.40325,
+        32.104875
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube labeled 'DMEM' with a handwritten note",
+          "researcher uses a pipette to transfer a clear liquid from the 15mL tube into a petri dish"
+        ],
+        "objects_visible": [
+          "15mL conical tube with handwritten label",
+          "pipette with a clear liquid",
+          "petri dish with a white surface",
+          "researcher's gloved hands in blue nitrile gloves",
+          "other laboratory equipment in the background, including tubes with blue caps"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Fibroblasts",
+          "Keratinocytes"
+        ],
+        "quantities": [
+          "15mL conical tube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid from a labeled 15mL conical tube into a petri dish, highlighting the careful handling of materials. The handwritten labels on the tube provide specific context for the experiment. The researcher's gloved hands emphasize the sterile conditions of the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.104875,
+        42.8065
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube with a blue cap containing a red liquid",
+          "researcher uses a pipette to transfer liquid from the conical tube into a petri dish"
+        ],
+        "objects_visible": [
+          "15mL conical tube with blue cap containing red liquid",
+          "pipette with blue plunger",
+          "petri dish",
+          "digital timer displaying 1:25:00",
+          "white foam rack holding tubes",
+          "bottle labeled 'Complete Growth Media'"
+        ],
+        "visible_text_labels": [
+          "Complete Growth Media",
+          "1:25:00"
+        ],
+        "quantities": [
+          "15mL conical tube",
+          "1:25:00 on digital timer"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a red liquid in a 15mL conical tube, emphasizing the use of a pipette for transferring the liquid. The digital timer in the background suggests a time-sensitive experiment. The presence of a labeled 'Complete Growth Media' bottle indicates the context of cell culture or biological media preparation."
+      }
+    }
+  ]
+}

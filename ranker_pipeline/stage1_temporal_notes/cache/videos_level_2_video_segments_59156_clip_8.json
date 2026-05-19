@@ -1,0 +1,150 @@
+{
+  "video_id": "videos/level_2/video_segments/59156/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 22.353,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.58825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a cylindrical metal object and tilts it to pour a liquid into a petri dish on a microscope stage"
+        ],
+        "objects_visible": [
+          "Leica microscope with a petri dish on its stage",
+          "cylindrical metal object with a liquid inside",
+          "petri dish on the microscope stage",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "CAUTION: Be careful not to burn hands"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a researcher pouring a liquid from a metal cylinder into a petri dish on a microscope stage. A cautionary text appears, warning about the risk of burning hands. The focus is on the precise action of transferring the liquid."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.58825,
+        11.1765
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is used to observe a specimen",
+          "a pair of tweezers manipulates a small object under the microscope"
+        ],
+        "objects_visible": [
+          "a dark, elongated object being held by tweezers",
+          "a microscope field of view with scattered debris and particles"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up view through a microscope, highlighting the precise manipulation of a small object with tweezers. The field of view is filled with scattered particles, suggesting a detailed examination of a sample. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.1765,
+        16.76475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places petri dish into incubator",
+          "researcher closes incubator door"
+        ],
+        "objects_visible": [
+          "petri dish with transparent lid",
+          "incubator with digital display and control buttons",
+          "researcher wearing blue gloves and white lab coat"
+        ],
+        "visible_text_labels": [
+          "VWR",
+          "INCU-Line",
+          "POWER",
+          "888"
+        ],
+        "quantities": [
+          "888 (digital display reading on incubator)"
+        ],
+        "key_distinguishing_features": "This segment shows a researcher carefully placing a petri dish into a VWR INCU-Line incubator, highlighting the controlled environment setup. The digital display reading of '888' is distinctive, possibly indicating a default or error state. The researcher's gloved hand and lab coat emphasize the sterile handling of the sample."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        16.76475,
+        22.353
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand presses a button on the device, turning on the power."
+        ],
+        "objects_visible": [
+          "A VWR INCU-Line incubator with a digital display and control buttons."
+        ],
+        "visible_text_labels": [
+          "VWR",
+          "INCU-Line",
+          "POWER",
+          "60.0"
+        ],
+        "quantities": [
+          "60.0"
+        ],
+        "key_distinguishing_features": "The segment shows the activation of an incubator, indicated by the illuminated power button and the digital display showing a temperature reading of 60.0. The hand interacting with the device is wearing a blue glove, emphasizing a controlled laboratory environment."
+      }
+    }
+  ]
+}

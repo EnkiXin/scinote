@@ -1,0 +1,174 @@
+{
+  "video_id": "videos/level_2/step_prediction/53010/clip_3_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.822,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.7055
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "person places a small object into a metal bowl on a digital scale",
+          "person uses a calculator"
+        ],
+        "objects_visible": [
+          "metal bowl on a digital scale",
+          "digital scale displaying a reading",
+          "calculator",
+          "notebook with handwritten notes",
+          "cage with small animals",
+          "box with a label",
+          "laptop displaying an image of the scale"
+        ],
+        "visible_text_labels": [
+          "jove",
+          "8000 (on the side of a machine)"
+        ],
+        "quantities": [
+          "0.00 (initial reading on the digital scale)",
+          "0.02 (reading on the digital scale after adding the object)"
+        ],
+        "key_distinguishing_features": "The segment focuses on precise measurement using a digital scale, with a clear view of the scale's reading changing as an object is added. The presence of a calculator and notebook suggests data recording is part of the process. The environment includes laboratory equipment and animals, indicating a research setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.7055,
+        13.411
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "person adds more food pellets into the bowl on the scale",
+          "scale displays a new weight reading"
+        ],
+        "objects_visible": [
+          "stainless steel bowl containing brown food pellets",
+          "digital scale with a blue display",
+          "cage with a mouse inside",
+          "notebook with handwritten notes",
+          "calculator",
+          "green tray with compartments"
+        ],
+        "visible_text_labels": [
+          "43.3 (weight reading on the scale)",
+          "jove (logo in the top right corner)"
+        ],
+        "quantities": [
+          "43.3 grams (weight of the food pellets)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of food pellets using a digital scale, with a clear view of the weight reading. The presence of a mouse in a cage and laboratory equipment suggests an animal feeding experiment. The handwritten notes and calculator indicate data recording and calculations are part of the process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.411,
+        20.1165
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a metal bowl containing a rat onto a digital scale",
+          "researcher writes the weight on a chart"
+        ],
+        "objects_visible": [
+          "digital scale displaying a weight reading",
+          "metal bowl with a rat inside",
+          "chart with handwritten data",
+          "cage with a rat inside"
+        ],
+        "visible_text_labels": [
+          "Weights of Rat 9",
+          "Date",
+          "Weight"
+        ],
+        "quantities": [
+          "260.01 grams"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of a rat's weight using a digital scale. The researcher records the weight on a chart, indicating a systematic approach to data collection. The presence of a cage with another rat suggests a controlled environment for multiple subjects."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        20.1165,
+        26.822
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "A hand places a white rat into a metal cage.",
+          "A hand holds a notebook with handwritten notes."
+        ],
+        "objects_visible": [
+          "A digital scale with a metal bowl on top.",
+          "A metal cage with a white rat inside.",
+          "A notebook with handwritten notes.",
+          "A window with a snowy outdoor view."
+        ],
+        "visible_text_labels": [
+          "Weights Cage 3",
+          "Date",
+          "Weight (g)",
+          "Rat 9",
+          "Rat 10",
+          "Rat 11",
+          "Rat 12",
+          "Borderline"
+        ],
+        "quantities": [
+          "Weight measurements ranging from 190g to 310g.",
+          "Dates from 21.01.2015 to 05.02.2015."
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase, where a rat is placed in a cage for weighing. The digital scale and handwritten notes suggest data recording. The graph in the background provides a visual representation of weight trends for multiple rats over time."
+      }
+    }
+  ]
+}

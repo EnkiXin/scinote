@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_segments/2618/clip_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.593,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.64825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a syringe connected to a mechanical setup",
+          "researcher handles a small animal, possibly a mouse, with gloved hands"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and blue gloves",
+          "a syringe connected to a mechanical apparatus",
+          "a small animal with dark fur and a visible tail",
+          "a white tissue or cloth under the animal",
+          "various laboratory equipment and supplies on shelves"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of an experiment involving a small animal. The researcher is seen adjusting a syringe connected to a mechanical setup, likely for precise administration of a substance. The animal is carefully handled, indicating a controlled and delicate procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.64825,
+        15.2965
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a toothpick to manipulate a small object near a mouse's eye",
+          "researcher holds the mouse steady with gloved hands"
+        ],
+        "objects_visible": [
+          "mouse with its eyes open and head tilted",
+          "toothpick held by gloved hand",
+          "gloved hands manipulating the mouse",
+          "yellowish substance on a white paper towel"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise action involving a toothpick near the mouse's eye, suggesting a delicate procedure. The presence of a yellowish substance on the paper towel indicates a possible byproduct or material related to the experiment. The gloved hands emphasize the controlled and sterile environment of the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.2965,
+        22.94475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe labeled 'Buprenorphine 0.1 mg/kg' and administers an injection to a mouse",
+          "researcher places the mouse on a blue cloth"
+        ],
+        "objects_visible": [
+          "mouse with light brown fur lying on its side",
+          "1 mL syringe with a needle",
+          "blue cloth under the mouse",
+          "medical equipment in the background"
+        ],
+        "visible_text_labels": [
+          "Buprenorphine 0.1 mg/kg",
+          "jove"
+        ],
+        "quantities": [
+          "0.1 mg/kg"
+        ],
+        "key_distinguishing_features": "The segment focuses on the administration of Buprenorphine to a mouse, highlighting the precise dosage and the careful handling of the animal. The syringe is clearly labeled, emphasizing the importance of accurate medication administration in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.94475,
+        30.593
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a scalpel to carefully incise the skin of a small animal",
+          "researcher holds the animal steady with gloved hands"
+        ],
+        "objects_visible": [
+          "scalpel with a metallic blade",
+          "small animal with dark fur and exposed skin",
+          "gloved hands of the researcher",
+          "white gauze or cloth underneath the animal"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise surgical procedure, highlighting the use of a scalpel for an incision. The animal's skin is visibly wet, possibly from a previous application of a solution, and the researcher's hands are carefully manipulating the scalpel. The background includes a white surface with some yellowish stains, suggesting a controlled laboratory environment."
+      }
+    }
+  ]
+}

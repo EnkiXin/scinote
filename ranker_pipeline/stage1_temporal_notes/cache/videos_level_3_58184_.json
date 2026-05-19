@@ -1,0 +1,166 @@
+{
+  "video_id": "videos/level_3/58184_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 433.898667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        108.47466675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A man in a black shirt stands in a laboratory setting, speaking to the camera.",
+          "A man in a light blue shirt appears, also speaking to the camera.",
+          "A mouse is shown inside a transparent cage with bedding material."
+        ],
+        "objects_visible": [
+          "A metal shelving unit with various laboratory items such as boxes and containers.",
+          "A transparent cage labeled 'UCMS room' containing a mouse and bedding material.",
+          "A red-tinted view of a laboratory environment with a mouse in a cage."
+        ],
+        "visible_text_labels": [
+          "Procedures involving animal subjects have been approved by the Institutional Animal Care and Use Committee of The Academic College Tel-Aviv-Yaffo",
+          "1. Wet Cage",
+          "UCMS room"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment introduces the laboratory setting and the experimental context, highlighting the approval for animal procedures. It also shows a mouse in a transparent cage, emphasizing the preparation phase of the experiment. The red-tinted view adds a unique visual element to the laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        108.47466675,
+        216.9493335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved hand pours dampened sawdust into a transparent container labeled '2. Dampened Sawdust'.",
+          "A gloved hand places a metal cage structure into an empty transparent container labeled '4. Empty Cage'.",
+          "A gloved hand carefully places a mouse into a transparent restraint tube labeled '6. Mice Restraint'."
+        ],
+        "objects_visible": [
+          "A transparent container filled with dampened sawdust.",
+          "A metal cage structure with a grid pattern.",
+          "A transparent container labeled '4. Empty Cage'.",
+          "A transparent restraint tube with a mouse inside, labeled '6. Mice Restraint'.",
+          "A gloved hand performing actions."
+        ],
+        "visible_text_labels": [
+          "2. Dampened Sawdust",
+          "4. Empty Cage",
+          "6. Mice Restraint"
+        ],
+        "quantities": [
+          "One mouse is visible in the restraint tube."
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the preparation of a controlled environment for mice, involving specific labeled containers and a restraint tube. The actions are methodical and precise, indicating a step-by-step setup process. The use of dampened sawdust and a metal cage suggests preparation for a specific experimental condition."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        216.9493335,
+        325.42400025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'Sucrose' with a black cap",
+          "Researcher places the microtube on a black tray with labeled compartments"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with black cap labeled 'Sucrose'",
+          "Black tray with compartments labeled 'Water' and 'Sucrose'",
+          "Sterile bottles with fresh fluid"
+        ],
+        "visible_text_labels": [
+          "Sucrose",
+          "Water",
+          "Replace bottles every 24 h, using sterile bottles with fresh fluid"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "24 h"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of sucrose solutions, emphasizing the replacement of bottles every 24 hours. The use of labeled microtubes and compartments highlights the importance of maintaining a controlled environment for the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        325.42400025,
+        433.898667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "presents bar graph comparing BDNF levels in Na\u00efve and UCMS groups",
+          "highlights differences in BDNF levels between treatment groups"
+        ],
+        "objects_visible": [
+          "bar graph with BDNF pg/\u03bcg Protein/\u03bcl (Hippocampus) on y-axis",
+          "Na\u00efve and UCMS labels on x-axis",
+          "legend indicating saline, escitalopram, and NHT treatments"
+        ],
+        "visible_text_labels": [
+          "BDNF pg/\u03bcg Protein/\u03bcl (Hippocampus)",
+          "Na\u00efve",
+          "UCMS",
+          "saline",
+          "escitalopram",
+          "NHT"
+        ],
+        "quantities": [
+          "BDNF levels ranging from 0.00 to 0.80 pg/\u03bcg Protein/\u03bcl"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of BDNF levels in the hippocampus, comparing Na\u00efve and UCMS groups with different treatments. The bar graph clearly shows significant differences, with the UCMS group treated with escitalopram showing the highest BDNF levels. The use of asterisks indicates statistical significance in the data."
+      }
+    }
+  ]
+}

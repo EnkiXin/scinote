@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/step_prediction/63422/clip_8_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 28.282567,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.07064175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a small metal tool to manipulate a small object in a petri dish",
+          "researcher places the petri dish on a foil-covered surface"
+        ],
+        "objects_visible": [
+          "petri dish with a small, red object inside",
+          "metal tool with a fine tip",
+          "foil-covered surface with various labeled sections",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "Eosin 0.5%",
+          "96% EtOH",
+          "100% EtOH",
+          "Xylene"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise manipulation of a small object in a petri dish using a metal tool. The foil-covered surface is divided into sections labeled with different chemicals, indicating a step-by-step process. The researcher's actions are deliberate and focused on the petri dish."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.07064175,
+        14.1412835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small amount of liquid into a petri dish",
+          "researcher holds a petri dish with a clear, gel-like substance"
+        ],
+        "objects_visible": [
+          "petri dish with a clear, gel-like substance",
+          "pipette with a fine tip",
+          "aluminum foil lining the surface",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small amount of liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a liquid into a petri dish, highlighting the careful handling of the pipette. The aluminum foil lining suggests a controlled environment for the experiment. The 'jove' logo indicates the video is likely part of a scientific tutorial or demonstration."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.1412835,
+        21.21192525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "petri dish containing pink medium",
+          "pipette with black and orange body"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a specific volume of DMEM medium. The use of a labeled microtube and the pink color of the medium are distinctive features. The action is performed with a pipette, emphasizing accuracy in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        21.21192525,
+        28.282567
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a clear liquid from a beaker into a petri dish containing a small electronic component",
+          "researcher places the petri dish on a white tray"
+        ],
+        "objects_visible": [
+          "clear beaker with a handle",
+          "petri dish with a small electronic component inside",
+          "white tray on a laboratory bench",
+          "orange-gloved hand",
+          "small orange electronic component on the bench"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one petri dish",
+          "one beaker"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pouring a liquid into a petri dish containing an electronic component, highlighting the careful handling of materials. The presence of the orange-gloved hand and the small electronic component adds a unique element to the laboratory setting."
+      }
+    }
+  ]
+}

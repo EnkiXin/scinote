@@ -1,0 +1,146 @@
+{
+  "video_id": "videos/level_2/step_prediction/61383/clip_3_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 52.406667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.10166675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a red cap and a pipette",
+          "researcher uses a pipette to transfer a small volume of liquid from the microtube into a well of a multi-well plate"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a red cap",
+          "pipette with a blue plunger",
+          "multi-well plate with pink wells",
+          "researcher wearing purple gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid (exact volume not specified)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube and the transfer of liquid using a pipette. The researcher's gloved hands and the multi-well plate indicate a controlled laboratory environment. The 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.10166675,
+        26.2033335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a pink liquid and a white cap",
+          "researcher uses a pipette to transfer a small volume of liquid from the microtube into a well of a multi-well plate"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with pink liquid and white cap",
+          "pipette with a white tip",
+          "multi-well plate with multiple wells, some containing different colored liquids",
+          "blue, pink, and green microtube racks",
+          "various laboratory items in the background including a box labeled 'NEX'"
+        ],
+        "visible_text_labels": [
+          "NEX"
+        ],
+        "quantities": [
+          "small volume of liquid transferred using the pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube containing a pink liquid, emphasizing the careful transfer of a small volume into a multi-well plate. The use of color-coded microtube racks and the presence of various laboratory items in the background highlight the organized and methodical nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        26.2033335,
+        39.30500025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a microtube",
+          "researcher places the microtube back into a pink microtube rack"
+        ],
+        "objects_visible": [
+          "blue microtube rack with multiple compartments",
+          "pink microtube rack with microtubes of various colors",
+          "green microtube rack with microtubes",
+          "pipette with a blue tip",
+          "small white bottles with labels",
+          "cardboard box with printed text",
+          "metal tweezers on the lab bench"
+        ],
+        "visible_text_labels": [
+          "Axygen MAX",
+          "DMEM"
+        ],
+        "quantities": [
+          "microtubes in racks",
+          "pipette tip size"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of microtubes and liquids, emphasizing the use of a pipette for accurate dispensing. The presence of multiple colored microtube racks suggests a complex experiment with various samples or conditions. The researcher's careful actions highlight the importance of accuracy in this phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        39.30500025,
+        52.406667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"execution\",\n  \"actions_observed\": [\n    \"researcher holds a blue microtube rack with multiple 1.5mL microtubes\",\n    \"researcher carefully removes a microtube from the blue rack using gloved fingers\"\n  ],\n  \"objects_visible\": [\n    \"blue microtube rack with multiple 1.5mL microtubes\",\n    \"green microtube rack with multiple 1.5mL microtubes\",\n    \"pink microtube rack with multiple 1."
+      }
+    }
+  ]
+}

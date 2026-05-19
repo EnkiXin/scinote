@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/video_verification/55934/clip_5_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.0385,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.759625
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "hand uses tweezers to place a small object on a microscope stage"
+        ],
+        "objects_visible": [
+          "microscope with a 20x objective lens labeled 'LU Plan F'",
+          "black microscope stage with two silver knobs",
+          "tweezers held by a hand",
+          "small object being placed on the stage"
+        ],
+        "visible_text_labels": [
+          "LU Plan F",
+          "20x",
+          "SPR",
+          "0.40"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a small object on a microscope stage using tweezers. The microscope's objective lens is clearly labeled with magnification and numerical aperture details. The hand's careful manipulation highlights the preparation phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.759625,
+        19.51925
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A hand adjusts the focus knob of a Nikon LU Plan Fluor 20x objective lens on a microscope.",
+          "A person uses a stylus to interact with a tablet displaying a 'MicroSupport' application."
+        ],
+        "objects_visible": [
+          "Nikon LU Plan Fluor 20x objective lens with a green band and engraved specifications.",
+          "A tablet with a 'MicroSupport' application interface showing various buttons and settings.",
+          "A fine-tipped tool held near the microscope objective lens."
+        ],
+        "visible_text_labels": [
+          "Nikon LU Plan Fluor 20x 0.45",
+          "MicroSupport"
+        ],
+        "quantities": [
+          "20x magnification of the microscope objective lens."
+        ],
+        "key_distinguishing_features": "This segment highlights the precise adjustment of a microscope's focus using a hand-operated knob, alongside the use of a digital tablet for controlling or monitoring the experiment. The Nikon LU Plan Fluor 20x objective lens is a key feature, emphasizing the high magnification used in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.51925,
+        29.278875
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is focused on a sample with a green-lit spot at the center of the crosshairs"
+        ],
+        "objects_visible": [
+          "microscope view with a grid overlay and a green-lit spot at the center",
+          "crosshairs on the microscope screen"
+        ],
+        "visible_text_labels": [
+          "For details on laser settings, see text protocol",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise observation through a microscope, highlighting a green-lit spot at the center of the crosshairs. The text on the screen suggests that the video provides detailed instructions on laser settings in a separate protocol. The grid overlay aids in precise measurement and alignment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.278875,
+        39.0385
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "computer screen displays a spectrum analysis graph",
+          "graph shows a peak at a specific wavelength"
+        ],
+        "objects_visible": [
+          "computer screen with a graphical user interface",
+          "spectrum analysis graph with a red line indicating intensity over wavelength"
+        ],
+        "visible_text_labels": [
+          "For details on laser settings, see text protocol",
+          "Wavelength: 569.52",
+          "FWHM: 0.30",
+          "Intensity",
+          "Wavelength (nm)",
+          "Axis X Auto Scale"
+        ],
+        "quantities": [
+          "569.52 nm wavelength",
+          "0.30 FWHM"
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase, displaying a detailed spectrum analysis graph with a prominent peak. The specific wavelength and FWHM values are highlighted, indicating precise data collection. The interface includes Japanese text, suggesting the software's origin or user."
+      }
+    }
+  ]
+}

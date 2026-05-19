@@ -1,0 +1,150 @@
+{
+  "video_id": "videos/level_2/video_verification/58314/clip_8_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.467767,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.61694175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube with a blue cap and a clear liquid inside",
+          "researcher uses a pipette to transfer a small volume of liquid from a test tube into a 50mL conical tube"
+        ],
+        "objects_visible": [
+          "red test tube rack holding multiple test tubes with blue caps",
+          "clear 50mL conical tube with measurement markings",
+          "pipette with a blue plunger",
+          "test tubes with blue caps containing clear and yellow liquids"
+        ],
+        "visible_text_labels": [
+          "See text for calculations"
+        ],
+        "quantities": [
+          "volume markings on the 50mL conical tube (e.g., 25mL, 50mL)"
+        ],
+        "key_distinguishing_features": "This segment shows a detailed liquid transfer process using a pipette, with a focus on the precise handling of test tubes and conical tubes. The red test tube rack and the clear conical tube with measurement markings are distinctive elements. The text prompt suggests that calculations related to the experiment are provided elsewhere."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.61694175,
+        17.2338835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube containing a pink liquid",
+          "researcher places the conical tube on a flat surface"
+        ],
+        "objects_visible": [
+          "15mL conical tube with pink liquid",
+          "blue nitrile gloves",
+          "metallic laboratory surface"
+        ],
+        "visible_text_labels": [],
+        "quantities": [
+          "15mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the handling of a 15mL conical tube with a pink liquid, indicating a step in a liquid-based experiment. The researcher's blue nitrile gloves emphasize the sterile handling of the sample. The metallic surface suggests a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.2338835,
+        25.85082525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a white cap",
+          "researcher uses a pipette to transfer a pink-colored liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a white cap",
+          "pipette with a clear tip",
+          "petri dish containing a pink medium",
+          "blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "~200uL of pink-colored liquid"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a pink liquid using a pipette, highlighting the careful handling of the microtube and petri dish. The pink color of the liquid is distinctive, suggesting it may be a specific medium or solution. The researcher's gloved hands emphasize the sterile conditions of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.85082525,
+        34.467767
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a small brush to manipulate a pinkish substance in a clear petri dish",
+          "researcher holds the petri dish with one hand while using the brush with the other"
+        ],
+        "objects_visible": [
+          "clear petri dish containing a pinkish substance",
+          "small brush with a wooden handle",
+          "blue nitrile gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of a pinkish substance within a petri dish using a small brush. The researcher's hands, clad in blue nitrile gloves, are prominently featured, emphasizing the careful handling of the material. The 'jove' logo is visible in the top right corner, indicating the source of the video."
+      }
+    }
+  ]
+}

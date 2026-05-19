@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_segments/57759/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 37.124,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.281
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is used to observe a sample",
+          "pipette is positioned near the sample"
+        ],
+        "objects_visible": [
+          "microscopic organisms or particles",
+          "pipette tip",
+          "microscope slide"
+        ],
+        "visible_text_labels": [
+          "Estimate density visually",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a microscopic view of a sample, with a pipette tip visible, suggesting an action of either adding or removing a substance. The text 'Estimate density visually' indicates the purpose of the observation. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.281,
+        18.562
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a clear liquid into a petri dish containing a greenish substance"
+        ],
+        "objects_visible": [
+          "petri dish with a greenish substance",
+          "pipette with a clear liquid",
+          "another petri dish in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of adding a clear liquid to a petri dish with a greenish substance, likely part of a biological or chemical experiment. The presence of the 'jove' logo suggests this is a professional scientific video. The background petri dish adds context to the experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.562,
+        27.843000000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into a glass bowl containing a clear solution"
+        ],
+        "objects_visible": [
+          "pipette with a clear liquid",
+          "glass bowl with a clear solution",
+          "red-lidded petri dish",
+          "plastic container with a blue label",
+          "bottle labeled 'CAROLINA Purified Spring Water'",
+          "beaker with a green solution",
+          "plastic container with a red lid"
+        ],
+        "visible_text_labels": [
+          "CAROLINA Purified Spring Water",
+          "Carolina"
+        ],
+        "quantities": [
+          "~200uL of liquid pipetted"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting a clear liquid into a glass bowl, surrounded by various laboratory containers and solutions. The presence of a labeled 'CAROLINA Purified Spring Water' bottle suggests the use of specific reagents in the experiment. The red-lidded petri dish and other containers indicate a multi-step process in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.843000000000004,
+        37.124
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid from a graduated cylinder into a glass bowl"
+        ],
+        "objects_visible": [
+          "graduated cylinder with a clear liquid",
+          "glass bowl with clear liquid",
+          "another glass bowl with a yellowish liquid",
+          "orange tape on the table",
+          "various laboratory containers in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "~200 mL of liquid being transferred"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of liquid using a graduated cylinder, highlighting the careful measurement and handling of the liquid. The presence of orange tape on the table adds a distinctive visual element to the setup."
+      }
+    }
+  ]
+}

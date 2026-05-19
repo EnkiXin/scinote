@@ -1,0 +1,186 @@
+{
+  "video_id": "58517",
+  "benchmark": "scivideobench",
+  "duration_seconds": 714.261333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        178.56533325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher is seated at a desk with two computer monitors displaying 'UFMG' and 'ctmm' logos.",
+          "The video transitions to a diagram showing two mice connected to devices labeled 'Anodal' and 'Cathodal', with wires attached to their heads."
+        ],
+        "objects_visible": [
+          "Two computer monitors with 'UFMG' and 'ctmm' logos.",
+          "A desk with various office supplies and a keyboard.",
+          "A diagram illustrating two mice connected to experimental devices with labeled components."
+        ],
+        "visible_text_labels": [
+          "UFMG",
+          "ctmm",
+          "Anodal",
+          "Cathodal",
+          "Animal tDCS",
+          "Animal Transcranial DC Stimulation",
+          "0.35",
+          "Sterilization",
+          "Before Starting",
+          "Dry heat for metallic surgical instruments - 440\u00b0C 3 min.",
+          "Autoclave for cotton/plastic based materials - 121\u00b0C 20 min."
+        ],
+        "quantities": [
+          "440\u00b0C for 3 minutes",
+          "121\u00b0C for 20 minutes"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase of an experiment involving transcranial DC stimulation on mice, with a focus on sterilization procedures and setup diagrams. The researcher's workspace is shown, emphasizing the institutional context of the study. The detailed sterilization instructions suggest a high level of care in maintaining experimental integrity."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        178.56533325,
+        357.1306665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand holds a small animal, likely a mouse, with a clamp-like tool.",
+          "The hand uses a syringe to inject a substance into the mouse's tail vein."
+        ],
+        "objects_visible": [
+          "A small, dark-furred mouse with a visible tail.",
+          "A syringe with a clear barrel and a needle attached.",
+          "A clamp-like tool holding the mouse's tail.",
+          "A metal surface with various medical equipment and tubing."
+        ],
+        "visible_text_labels": [
+          "Before Starting",
+          "Sterilization",
+          "Anesthesia",
+          "Temperature controller"
+        ],
+        "quantities": [
+          "3 min",
+          "20 min",
+          "37\u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the administration of an injection to a mouse, highlighting the precision required in handling the animal and the syringe. The background text provides context for the preparation steps, emphasizing sterilization and anesthesia protocols. The metal surface and medical tools suggest a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        357.1306665,
+        535.69599975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid from a syringe into a test tube",
+          "mouse is placed on a controlled thermal platform with a temperature display showing 37\u00b0C",
+          "researcher adjusts the thermal platform settings using a control panel"
+        ],
+        "objects_visible": [
+          "pipette with a blue plunger",
+          "test tube with a clear liquid",
+          "controlled thermal platform with a digital temperature display",
+          "mouse on the thermal platform",
+          "control panel with various buttons and a temperature adjustment knob"
+        ],
+        "visible_text_labels": [
+          "Controlled Thermal Platform (Adjustable 37\u00b0C)",
+          "5 mg/kg Ketamine",
+          "Before Starting"
+        ],
+        "quantities": [
+          "5 mg/kg Ketamine",
+          "37\u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a mouse for an experiment, highlighting the use of a controlled thermal platform set to 37\u00b0C. The researcher's actions involve precise liquid transfer and temperature adjustment, emphasizing the controlled conditions necessary for the experiment. The presence of specific text labels like '5 mg/kg Ketamine' and 'Before Starting' indicates the preparatory phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        535.69599975,
+        714.261333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Researcher adjusts the settings on the 'Animal transcranial DC Stimulator' device.",
+          "The researcher monitors the digital display on the stimulator, which shows a reading of '0.00'.",
+          "The researcher observes the animal secured in a Kopf stereotaxic frame."
+        ],
+        "objects_visible": [
+          "Animal transcranial DC Stimulator device with a digital display and control buttons.",
+          "Kopf stereotaxic frame holding an animal.",
+          "Electrodes connected to the animal and the stimulator.",
+          "A graph titled 'Contact Quality' with data points for 'Sham' and 'tDCS' groups."
+        ],
+        "visible_text_labels": [
+          "Animal transcranial DC Stimulator",
+          "KOPF",
+          "Contact Quality",
+          "Sham",
+          "tDCS",
+          "Mean contact quality (1-10 scale)",
+          "tDCS sessions",
+          "S1, S2, S3, S4, S5",
+          "n.s."
+        ],
+        "quantities": [
+          "0.00 (reading on the stimulator display)",
+          "1-10 scale (for contact quality)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase of the experiment, where the researcher uses a specialized device to apply transcranial DC stimulation. The graph displayed provides a visual representation of contact quality between the electrodes and the animal's head across multiple sessions. The presence of the stereotaxic frame indicates precise positioning of the animal for the procedure."
+      }
+    }
+  ]
+}

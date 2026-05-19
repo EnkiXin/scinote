@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_verification/55301/clip_7_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 19.207667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.80191675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small green plant with purple-gloved hands",
+          "researcher uses a pipette to apply a liquid onto the leaf"
+        ],
+        "objects_visible": [
+          "green leafy plant in a small black pot",
+          "purple nitrile gloves",
+          "pipette with a clear tip",
+          "white laboratory bench with various items in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully applying a liquid to a specific area of the leaf, suggesting a targeted treatment. The use of purple gloves and a pipette indicates a controlled and precise experimental procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.80191675,
+        9.6038335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Cuts a leaf with a scalpel along a specific line",
+          "Holds the leaf steady with gloved fingers"
+        ],
+        "objects_visible": [
+          "Green leaf with visible veins",
+          "Purple nitrile gloves",
+          "Scalpel with a metallic blade"
+        ],
+        "visible_text_labels": [
+          "Size: < 22 mm x 40 mm",
+          "jove"
+        ],
+        "quantities": [
+          "< 22 mm x 40 mm"
+        ],
+        "key_distinguishing_features": "The segment shows a precise cutting action on a leaf, emphasizing the size constraints of the cut piece. The use of purple nitrile gloves and a scalpel highlights a controlled, sterile environment typical in scientific experiments. The text overlay specifies the exact size requirements for the leaf sample."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.6038335,
+        14.40575025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a green leaf sample into a small container"
+        ],
+        "objects_visible": [
+          "green leaf sample with a size less than 22 mm x 40 mm",
+          "purple-gloved hands",
+          "pipette with a clear tip",
+          "small transparent container"
+        ],
+        "visible_text_labels": [
+          "Size: < 22 mm x 40 mm",
+          "jove"
+        ],
+        "quantities": [
+          "< 22 mm x 40 mm"
+        ],
+        "key_distinguishing_features": "The segment shows a precise handling of a small green leaf sample, emphasizing the size constraints. The use of a pipette for transferring the sample highlights a delicate and controlled process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        14.40575025,
+        19.207667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses tweezers to manipulate a small green object on a glass slide",
+          "researcher carefully places a small, clear droplet on the green object"
+        ],
+        "objects_visible": [
+          "purple nitrile gloves",
+          "tweezers with metallic tips",
+          "a small green object on a glass slide",
+          "a clear droplet"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on precise manipulation of a small green object on a glass slide using tweezers. The researcher's hands are gloved, emphasizing a sterile environment. The clear droplet suggests a liquid sample being added to the green object for further analysis."
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "video_id": "videos/level_2/video_segments/60828/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.701,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.67525
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a cluster of hairy roots",
+          "researcher places the hairy roots into a petri dish"
+        ],
+        "objects_visible": [
+          "forceps with a metallic, shiny surface",
+          "petri dish containing a clear liquid",
+          "hairy roots with a dense, fibrous appearance",
+          "gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "TRANSFORMED HAIRY ROOT IDENTIFICATION AND CONSERVATION",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of transformed hairy roots using forceps, highlighting the delicate nature of the experiment. The roots are visibly dense and fibrous, indicating their unique characteristics. The petri dish and the gloved hand suggest a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.67525,
+        19.3505
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "UV light is used to illuminate a petri dish containing a sample",
+          "A conical flask with a liquid sample is placed under UV light"
+        ],
+        "objects_visible": [
+          "petri dish with a sample emitting a yellow glow under UV light",
+          "conical flask with a liquid sample emitting a yellow glow under UV light",
+          "UV light source"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment highlights the use of UV light to observe fluorescence in biological samples. The yellow glow under UV light suggests the presence of fluorescent molecules. The setup includes both a petri dish and a conical flask, indicating a comparison or analysis of different sample types."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.3505,
+        29.025750000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher unwraps a small, foil-wrapped object with gloved hands",
+          "researcher places the unwrapped object on a clean, flat surface"
+        ],
+        "objects_visible": [
+          "gloved hands of the researcher",
+          "a small, foil-wrapped object",
+          "a clean, flat surface for placing the unwrapped object",
+          "various laboratory equipment and containers in the background"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the careful handling and unwrapping of a small, foil-wrapped object, emphasizing the importance of maintaining a sterile environment. The researcher's gloved hands and the clean surface highlight the precision and care taken in the preparation phase."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.025750000000002,
+        38.701
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a large, metallic, cylindrical container with a lid",
+          "researcher uses a long, thin tool to retrieve a small, white, cylindrical object from the container"
+        ],
+        "objects_visible": [
+          "large metallic cylindrical container with a lid",
+          "small white cylindrical object",
+          "long thin tool with a black handle",
+          "researcher wearing a white lab coat, gloves, and a face mask"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one small white cylindrical object"
+        ],
+        "key_distinguishing_features": "This segment is distinctive due to the use of a specialized tool to retrieve a small object from a large metallic container, suggesting a controlled and precise retrieval process. The presence of a face mask and gloves highlights the importance of safety and sterility in the procedure."
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "video_id": "videos/level_2/step_prediction/54413/clip_8_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 50.738333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.68458325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software displays a graph with a red line indicating a peak in the data",
+          "cursor moves along the graph, highlighting specific data points"
+        ],
+        "objects_visible": [
+          "graph with a red line showing a peak at 14.054 MHz",
+          "software interface with various parameters and settings",
+          "text labels and numerical values on the right side of the screen"
+        ],
+        "visible_text_labels": [
+          "Overview Scan 1 (MHz)",
+          "Magnet Field (kG)",
+          "Description: Sample LCM_Prot.txt",
+          "Area of Overlap (kHz^2): 0.205",
+          "Center Freq (kHz): 14.054000",
+          "Freq. Step (kHz): 0.020",
+          "Freq. Step (kHz): 1.000",
+          "Calib. (kHz/cm^2 / ug): 226.0"
+        ],
+        "quantities": [
+          "14.054 MHz",
+          "0.205 kHz^2",
+          "0.020 kHz",
+          "1.000 kHz",
+          "226.0 kHz/cm^2 / ug"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of a graph with a distinct peak at 14.054 MHz, indicating a specific measurement. The software interface provides detailed parameters and settings, suggesting a precise analysis process. The cursor movement along the graph highlights specific data points for closer examination."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.68458325,
+        25.3691665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher adjusts a knob on a cylindrical apparatus wrapped in white cloth and aluminum foil",
+          "Researcher presses buttons on a control panel with a digital display"
+        ],
+        "objects_visible": [
+          "Cylindrical apparatus with white cloth and aluminum foil wrapping",
+          "Control panel with a digital display and keypad",
+          "Researcher wearing a white lab coat and yellow safety glasses",
+          "Gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "Setp.1: 200.00\u00b0C",
+          "T-J: 85.84\u00b0C",
+          "Power: 100%",
+          "Control: T-R"
+        ],
+        "quantities": [
+          "200.00\u00b0C",
+          "85.84\u00b0C",
+          "100%"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a temperature-controlled apparatus, highlighting the researcher's interaction with both the physical equipment and the digital control panel. The use of specific temperature settings and power levels indicates a controlled experimental environment. The researcher's gloved hand and safety glasses emphasize adherence to safety protocols."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.3691665,
+        38.053749749999994
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand presses the '5' key on a control panel, followed by the '0' key.",
+          "The hand then presses the 'P' key, likely to confirm the input."
+        ],
+        "objects_visible": [
+          "A control panel with a digital display showing 'Setp.1: 500.00\u00b0C', 'T-J: 89.50\u00b0C', 'Power: 100 %', and 'Control: T-R'.",
+          "A keypad with numbers 0-9, 'P', and 'ESC' keys.",
+          "A gloved hand interacting with the keypad."
+        ],
+        "visible_text_labels": [
+          "Setp.1: 500.00\u00b0C",
+          "T-J: 89.50\u00b0C",
+          "Power: 100 %",
+          "Control: T-R",
+          "P",
+          "ESC"
+        ],
+        "quantities": [
+          "500.00\u00b0C",
+          "89.50\u00b0C",
+          "100 %"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise input of a temperature setting on a control panel, highlighting the interaction with the keypad. The digital display provides specific temperature and power readings, indicating a controlled environment setup. The gloved hand's actions are deliberate, emphasizing the importance of accurate input in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        38.053749749999994,
+        50.738333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Software displays a graph with a peak indicating a resonance frequency measurement.",
+          "A table updates with numerical data related to the adsorption measurement of CO2 at 50\u00b0C."
+        ],
+        "objects_visible": [
+          "Graph showing magnitude vs. frequency with a prominent peak.",
+          "Table with columns for pressure, resonance frequency, mass adsorbed, and other parameters.",
+          "Software interface with labels such as 'Pressure', 'Resonance frequency', and 'Mass adsorbed'."
+        ],
+        "visible_text_labels": [
+          "CO2 @ T = 50\u00b0C",
+          "Pressure / bar",
+          "Resonance frequency reference LC / Hz",
+          "Resonance frequency sample LC (coated) / Hz",
+          "Difference in f due to sample + ads. mass / Hz",
+          "Mass adsorbed / mg",
+          "Density of LC: \u03c1LC = 6.13 g cm^-3",
+          "Effective piezoelectric stiffened shear modulus: \u03bcLC = 1.9E+12 g cm^-1 s^-2"
+        ],
+        "quantities": [
+          "Pressure: 0.00 bar",
+          "Resonance frequency reference LC: 1487823 Hz",
+          "Resonance frequency sample LC: 148950598 Hz",
+          "Mass adsorbed: 0 mg",
+          "Density of LC: 6.13 g cm^-3",
+          "Effective piezoelectric stiffened shear modulus: 1.9E+12 g cm^-1 s^-2"
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase, with a detailed view of a resonance frequency graph and a table updating with adsorption data. The software interface provides specific numerical values and parameters related to the CO2 adsorption experiment at 50\u00b0C."
+      }
+    }
+  ]
+}

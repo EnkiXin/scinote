@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/video_segments/60241/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.351,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.58775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher picks up a small, round object from a plastic bag",
+          "researcher places the object on a white paper towel"
+        ],
+        "objects_visible": [
+          "plastic bag containing numerous small, round objects with red and white patterns",
+          "white paper towel on a white lab table",
+          "researcher's hands wearing a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one small, round object being handled"
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a single small, round object, likely a seed or similar item, from a collection in a plastic bag. The researcher's actions are deliberate and precise, suggesting a preparatory step in a scientific procedure. The presence of the 'jove' logo indicates this is part of a scientific video tutorial."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.58775,
+        13.1755
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places small, dark-colored objects into a perforated black block",
+          "researcher uses a tool to carefully position the objects into the block"
+        ],
+        "objects_visible": [
+          "metallic tray with a perforated black block inside",
+          "small, dark-colored objects resembling seeds or samples",
+          "a tool with a pointed end for precise placement"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple small objects being placed into the block"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of small objects into a perforated block, indicating a preparation step in a scientific procedure. The use of a tool for placement highlights the need for accuracy. The metallic tray and black block provide a clean, controlled environment for the task."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.1755,
+        19.76325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses tweezers to place small objects into a grid on a tray",
+          "researcher holds a small transparent container"
+        ],
+        "objects_visible": [
+          "metal tray with a grid of small holes containing brown objects",
+          "tweezers held by the researcher",
+          "small transparent container",
+          "another metal tray in the background with a similar grid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple small brown objects in a grid pattern"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of small objects into a grid using tweezers, indicating a meticulous and controlled process. The presence of a second tray in the background suggests a repetitive or comparative step in the experiment. The researcher's hands are the main focus, emphasizing the manual dexterity required."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.76325,
+        26.351
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a fine-tipped orange brush to apply a liquid substance to small, evenly spaced wells on a dark green tray",
+          "researcher holds a small, clear glass vial containing a yellowish liquid in their left hand"
+        ],
+        "objects_visible": [
+          "a rectangular stainless steel tray with a dark green insert containing multiple small wells",
+          "a small, clear glass vial with a yellowish liquid",
+          "a fine-tipped orange brush",
+          "a second stainless steel tray in the background with a similar dark green insert",
+          "a small bottle with a white cap and a dropper on the countertop"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple small wells on the tray"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise application of a liquid substance to small wells using a fine-tipped brush, highlighting the meticulous nature of the task. The presence of a clear vial and a second tray in the background suggests a systematic and repetitive process. The researcher's attire and the laboratory setting emphasize a controlled experimental environment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/step_prediction/61691/clip_5_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.723333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.93083325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places tubes into centrifuge chamber",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "centrifuge with digital display showing '100.0' and '0.0'",
+          "green tube rack containing tubes with yellow caps",
+          "researcher wearing blue gloves and a blue lab coat"
+        ],
+        "visible_text_labels": [
+          "Centrifuge at 9600 x g for 12 min 22\u00b0C"
+        ],
+        "quantities": [
+          "9600 x g",
+          "12 min",
+          "22\u00b0C"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher carefully placing tubes into a centrifuge, preparing for a specific centrifugation protocol. The digital display on the centrifuge and the text overlay provide precise parameters for the centrifugation process. The green tube rack with yellow-capped tubes is a distinctive feature in the background."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.93083325,
+        17.8616665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a microtube",
+          "researcher adjusts the pipette volume setting with their thumb"
+        ],
+        "objects_visible": [
+          "pipette with a white body and black volume adjustment dial",
+          "microtube rack containing multiple microtubes with blue caps",
+          "microtube with a blue cap being filled with liquid",
+          "researcher's hands wearing blue nitrile gloves",
+          "blue lab coat partially visible"
+        ],
+        "visible_text_labels": [
+          "1000 \u03bcL"
+        ],
+        "quantities": [
+          "1000 \u03bcL pipette volume setting"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting liquid into a microtube, highlighting the researcher's careful handling of the pipette. The blue nitrile gloves and lab coat emphasize the controlled laboratory environment. The specific volume setting on the pipette is clearly visible, indicating a controlled and measured process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.8616665,
+        26.792499749999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube with a yellow cap",
+          "tube is placed in a blue tube rack"
+        ],
+        "objects_visible": [
+          "15mL conical tube with a yellow cap",
+          "blue tube rack",
+          "transparent container with orange liquid and handwritten labels",
+          "text overlay on the screen"
+        ],
+        "visible_text_labels": [
+          "Precipitation of the adenovirus released in the culture medium"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the observation of a tube containing a precipitate, likely adenovirus, in a culture medium. The tube is clearly labeled and placed in a rack, indicating a step in monitoring the viral precipitation process. The presence of a text overlay provides context for the experiment's purpose."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.792499749999998,
+        35.723333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a white rectangular device on a yellow and black platform",
+          "researcher uses a pipette to transfer a liquid from a white container into the white rectangular device"
+        ],
+        "objects_visible": [
+          "white rectangular device with a digital display",
+          "yellow and black platform with a digital readout",
+          "pipette with a blue plunger",
+          "white container with a lid",
+          "researcher's gloved hands wearing blue nitrile gloves",
+          "green plastic rack in the background",
+          "white wall with electrical outlets"
+        ],
+        "visible_text_labels": [
+          "digital readout on the yellow and black platform showing '0.00'"
+        ],
+        "quantities": [
+          "digital readout on the platform showing '0.00'"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of laboratory equipment, specifically the use of a pipette to transfer liquid into a device for measurement. The digital readout on the platform suggests a quantitative analysis is being performed. The presence of a green plastic rack and electrical outlets in the background indicates a well-equipped laboratory setting."
+      }
+    }
+  ]
+}

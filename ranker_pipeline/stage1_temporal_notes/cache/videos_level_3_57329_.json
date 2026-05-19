@@ -1,0 +1,182 @@
+{
+  "video_id": "videos/level_3/57329_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 420.714667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        105.17866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a 15mL conical tube labeled 'Conditioned Supernatant B16F10' with a blue cap.",
+          "Researcher uses a pipette to transfer a pink-colored liquid from the conical tube into a petri dish."
+        ],
+        "objects_visible": [
+          "15mL conical tube with blue cap and handwritten label",
+          "Petri dish with a clear lid",
+          "Pipette with a blue tip",
+          "Orange test tube rack holding multiple tubes",
+          "Laboratory background with shelves containing various bottles and containers"
+        ],
+        "visible_text_labels": [
+          "Conditioned Supernatant B16F10",
+          "See text for all medium/reagent preparation details"
+        ],
+        "quantities": [
+          "15mL conical tube",
+          "Pink-colored liquid transferred into petri dish"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a conditioned supernatant, specifically from B16F10 cells, as indicated by the labeled conical tube. The researcher's precise handling of the pipette and the clear labeling of materials highlight the importance of accuracy in this step. The background laboratory setting provides context for the controlled environment necessary for such experiments."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        105.17866675,
+        210.3573335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into petri dish"
+        ],
+        "objects_visible": [
+          "orange test tube rack with labeled tubes",
+          "petri dish with clear lid labeled 'PBS'",
+          "pipette with pink liquid",
+          "labeled bottle of 'adipogenic medium'"
+        ],
+        "visible_text_labels": [
+          "PBS",
+          "DMEM",
+          "adipogenic medium",
+          "Alternative: Culture primary bone marrow-derived mesenchymal cells"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "~200uL of DMEM medium"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of DMEM medium, highlighting the use of a pipette to transfer a specific volume of liquid. The presence of labeled tubes and petri dishes underscores the organized and methodical nature of the experiment. The text overlay suggests an alternative culture method for mesenchymal cells."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        210.3573335,
+        315.53600025000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a test tube",
+          "researcher places a test tube into a white foam block",
+          "researcher uses a pipette to transfer liquid from a test tube into a petri dish"
+        ],
+        "objects_visible": [
+          "pipette with a white body and blue plunger",
+          "test tubes with orange caps",
+          "white foam block with holes for test tubes",
+          "petri dish with a clear lid",
+          "orange test tube rack",
+          "bottle labeled 'PBS' with a white cap",
+          "bottle labeled 'CORNING' with a red cap"
+        ],
+        "visible_text_labels": [
+          "PBS",
+          "CORNING",
+          "Caution: Do not damage insert membrane"
+        ],
+        "quantities": [
+          "test tubes with orange caps",
+          "petri dish with a clear lid"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of test tubes and petri dishes, emphasizing the careful transfer of liquids using a pipette. The cautionary text about not damaging the insert membrane highlights the delicate nature of the experiment. The presence of labeled bottles and foam blocks indicates a well-organized laboratory setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        315.53600025000003,
+        420.714667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher holds a pipette and carefully dispenses liquid into a multi-well plate.",
+          "Microscope is used to observe and capture images of cells in a petri dish."
+        ],
+        "objects_visible": [
+          "Multi-well plate with clear wells and handwritten labels.",
+          "Petri dish containing cells under a microscope.",
+          "Microscope with adjustable focus knobs and eyepieces.",
+          "Bar graph displaying relative gene expression levels for various genes."
+        ],
+        "visible_text_labels": [
+          "Control",
+          "10\u00b3",
+          "Leptin",
+          "Adiponectin",
+          "FABP4",
+          "Pref-1",
+          "CEBPa",
+          "CEBPb",
+          "PPAR\u03b3",
+          "V. Results: Dynamic Bone Marrow-derived Adipocyte Regulation of Tumor Cells"
+        ],
+        "quantities": [
+          "10\u00b3 B16 cells",
+          "10\u2076 B16 cells",
+          "10\u2075 B16 cells",
+          "None B16 cells"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where the researcher uses a microscope to examine cellular samples and compares them with a control. The bar graph provides a detailed analysis of gene expression levels, highlighting the impact of different B16 cell concentrations on adipocyte regulation."
+      }
+    }
+  ]
+}

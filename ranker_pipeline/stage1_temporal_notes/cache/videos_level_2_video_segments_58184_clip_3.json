@@ -1,0 +1,147 @@
+{
+  "video_id": "videos/level_2/video_segments/58184/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 22.17,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.5425
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A hand pours dampened sawdust into a transparent animal enclosure"
+        ],
+        "objects_visible": [
+          "A transparent animal enclosure with a metal grid top",
+          "A hand holding a container of dampened sawdust"
+        ],
+        "visible_text_labels": [
+          "2. Dampened Sawdust",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The enclosure is illuminated with a red light, likely to simulate a controlled environment. The sawdust is visibly damp, indicating preparation for an experiment involving animals. The enclosure appears to be designed for housing small animals, possibly rodents."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.5425,
+        11.085
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A hand pours dampened sawdust into a transparent container with a black lid"
+        ],
+        "objects_visible": [
+          "Transparent container with a black lid and a grid-like structure inside",
+          "Hand holding a container of dampened sawdust"
+        ],
+        "visible_text_labels": [
+          "2. Dampened Sawdust",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The video segment focuses on the preparation step involving dampened sawdust, which is being added to a container. The red lighting suggests a controlled environment, possibly for animal housing or a specific experimental setup. The text '2. Dampened Sawdust' indicates this is part of a sequence of steps."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.085,
+        16.6275
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "hand uses a long, thin tool to manipulate dampened sawdust inside a transparent container",
+          "hand carefully places the tool into the container and adjusts the sawdust"
+        ],
+        "objects_visible": [
+          "transparent plastic container filled with dampened sawdust",
+          "long, thin tool with a black handle",
+          "red light source illuminating the scene",
+          "black clamp holding the light source"
+        ],
+        "visible_text_labels": [
+          "2. Dampened Sawdust",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment is characterized by the use of a red light, which suggests a controlled environment possibly for biological or chemical processes. The hand's precise manipulation of the sawdust with a tool indicates a delicate and specific step in the experiment. The dampened sawdust is clearly visible, emphasizing the preparation of the substrate."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        16.6275,
+        22.17
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a knife to cut a white object, possibly a piece of food or material, into smaller pieces",
+          "researcher places the cut pieces into a transparent container filled with shredded material"
+        ],
+        "objects_visible": [
+          "transparent container with shredded material",
+          "another transparent container with a white substance and a red light above it",
+          "a knife being used for cutting",
+          "a white object being cut"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "the knife is used to cut the object into multiple pieces"
+        ],
+        "key_distinguishing_features": "The segment is characterized by the use of a knife for cutting a white object in a red-lit environment, suggesting a controlled setting. The presence of two transparent containers with different contents highlights the preparation of materials for an experiment."
+      }
+    }
+  ]
+}

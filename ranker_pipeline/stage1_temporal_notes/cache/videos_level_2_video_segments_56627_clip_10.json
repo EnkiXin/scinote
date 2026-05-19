@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/video_segments/56627/clip_10.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 41.944,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.486
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a clear glass syringe and injects a liquid into a cylindrical glass chamber"
+        ],
+        "objects_visible": [
+          "cylindrical glass chamber with a metal base",
+          "white device labeled 'Harvard Apparatus' with blue indicator lights",
+          "black tubing connected to the chamber",
+          "clear glass syringe with a white plunger"
+        ],
+        "visible_text_labels": [
+          "Harvard Apparatus",
+          "jove"
+        ],
+        "quantities": [
+          "no specific quantities are visible"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of injecting a liquid into a specialized chamber, likely for a controlled experiment. The Harvard Apparatus device suggests a setup for fluid dynamics or biological studies. The clear syringe and tubing highlight the focus on fluid manipulation."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.486,
+        20.972
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand carefully inserts a syringe into a submerged needle within a clear liquid reservoir."
+        ],
+        "objects_visible": [
+          "A clear cylindrical reservoir filled with a transparent liquid, a syringe with a needle, a white device labeled 'Hawtech' with blue indicator lights, a black hose connected to the reservoir, and a white foam pad with circular indentations."
+        ],
+        "visible_text_labels": [
+          "Hawtech",
+          "jove"
+        ],
+        "quantities": [
+          "The syringe appears to hold a small volume of liquid, though the exact quantity is not specified."
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of inserting a syringe into a submerged needle, suggesting a controlled liquid transfer process. The setup includes a specialized device with indicator lights, indicating a high level of technical precision. The presence of the 'jove' logo suggests this is part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.972,
+        31.458000000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe and carefully inserts it into a submerged glass tube",
+          "researcher adjusts the syringe plunger, likely to control the flow of liquid into the submerged tube"
+        ],
+        "objects_visible": [
+          "a clear glass tube partially submerged in a water bath on a magnetic stirrer",
+          "a syringe with a transparent barrel and a metallic needle",
+          "a magnetic stirrer labeled 'Heidolph' with blue indicator lights",
+          "a black hose connected to the glass tube",
+          "a white plastic connector with a valve",
+          "blue-gloved hands manipulating the syringe"
+        ],
+        "visible_text_labels": [
+          "Heidolph"
+        ],
+        "quantities": [
+          "the syringe appears to hold a small volume of liquid, though the exact volume is not specified"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a syringe to inject liquid into a submerged glass tube, highlighting the controlled nature of the experiment. The use of a magnetic stirrer and the submerged setup suggest a process requiring temperature control and mixing. The blue-gloved hands emphasize the sterile and careful handling of materials."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.458000000000002,
+        41.944
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "computer screen displays software interface for oxygen measurement"
+        ],
+        "objects_visible": [
+          "computer screen showing 'Untitled - O2view' software",
+          "graph labeled 'Oxygen + Rate'"
+        ],
+        "visible_text_labels": [
+          "Untitled - O2view",
+          "Oxygen + Rate",
+          "File",
+          "Hardware",
+          "Calibrate",
+          "View",
+          "Graph",
+          "GO"
+        ],
+        "quantities": [
+          "300 (on the graph axis)"
+        ],
+        "key_distinguishing_features": "The segment focuses on a software interface used for monitoring oxygen levels, with a specific emphasis on the 'Oxygen + Rate' graph. The 'GO' button is highlighted, suggesting the initiation of data collection or measurement. The interface is clean and designed for scientific data observation."
+      }
+    }
+  ]
+}

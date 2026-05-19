@@ -1,0 +1,178 @@
+{
+  "video_id": "videos/level_2/video_segments/3187/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.893,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.72325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope captures fluorescent images of cells",
+          "software analyzes and displays kymographs"
+        ],
+        "objects_visible": [
+          "fluorescent green cells under a microscope",
+          "kymograph showing distance vs. time",
+          "software interface with measurement tools"
+        ],
+        "visible_text_labels": [
+          "Distance",
+          "Time",
+          "B",
+          "C",
+          "jove"
+        ],
+        "quantities": [
+          "151x214 pixels RGB 128K"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of fluorescently labeled cells, with a kymograph illustrating their movement over time. The software interface includes measurement tools, indicating a detailed analysis of cellular dynamics. The 'jove' watermark suggests this is part of a scientific video tutorial."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.72325,
+        19.4465
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Displaying a kymograph of GFP-actin labeled HUVEC cells"
+        ],
+        "objects_visible": [
+          "Kymograph image showing vertical streaks of green fluorescence",
+          "Axes labeled 'Distance' and 'Time'"
+        ],
+        "visible_text_labels": [
+          "Distance",
+          "Time",
+          "Reslice of GFP-actin-HUVEC (30090)",
+          "151x14 pixels RGB 126K"
+        ],
+        "quantities": [
+          "151x14 pixels"
+        ],
+        "key_distinguishing_features": "The kymograph displays vertical streaks of green fluorescence, indicating the movement of GFP-actin over time. The axes are clearly labeled, with 'Distance' on the vertical axis and 'Time' on the horizontal axis. The image resolution and dimensions are specified as 151x14 pixels."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.4465,
+        29.16975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "zooms in on specific regions of the kymograph images",
+          "highlights areas of interest with arrows"
+        ],
+        "objects_visible": [
+          "kymograph images labeled 'B' and 'C' showing green fluorescent signals",
+          "arrows pointing to specific features in the kymograph",
+          "measurement data displayed at the bottom of image C"
+        ],
+        "visible_text_labels": [
+          "B",
+          "C",
+          "Distance",
+          "Time",
+          "jove"
+        ],
+        "quantities": [
+          "151x14 pixels",
+          "126K",
+          "97 95 55 33 96 83.463 96.297"
+        ],
+        "key_distinguishing_features": "This segment focuses on detailed observation of kymograph images, with specific areas highlighted using arrows. The measurement data at the bottom of image C provides numerical values, suggesting a quantitative analysis. The green fluorescent signals are prominent, indicating the visualization of a biological process over time and distance."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.16975,
+        38.893
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "measures the length of a green fluorescent structure using a digital tool"
+        ],
+        "objects_visible": [
+          "green fluorescent structures on a dark background",
+          "a digital measurement tool with a yellow line and arrow",
+          "a table displaying measurement results"
+        ],
+        "visible_text_labels": [
+          "Area",
+          "BX",
+          "BY",
+          "Width",
+          "Height",
+          "Angle",
+          "Length",
+          "1",
+          "97",
+          "55",
+          "53",
+          "11",
+          "96",
+          "83.463",
+          "96.297"
+        ],
+        "quantities": [
+          "96.297 (length measurement)",
+          "83.463 (angle measurement)",
+          "96 (height measurement)"
+        ],
+        "key_distinguishing_features": "This segment focuses on precise digital measurement of a fluorescent structure, with a clear display of numerical data. The use of a yellow line and arrow highlights the specific area being measured. The table provides detailed measurements including area, angle, and length."
+      }
+    }
+  ]
+}

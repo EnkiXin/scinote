@@ -1,0 +1,178 @@
+{
+  "video_id": "videos/level_2/video_segments/4104/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 40.204,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.051
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher in white lab coat and beige gloves connects a blue cable to a green circuit board",
+          "researcher places a small green circuit board into a slot on a larger device"
+        ],
+        "objects_visible": [
+          "gray device with multiple green circuit board slots",
+          "blue cable",
+          "green circuit board with silver screws",
+          "black surface on which the device rests",
+          "white lab coat",
+          "beige gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "12 green circuit board slots"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a small green circuit board into a larger device, highlighting the careful handling by the researcher. The blue cable connection suggests an electrical setup, and the multiple slots indicate a multi-channel system. The gloves and lab coat emphasize a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.051,
+        20.102
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [],
+        "objects_visible": [],
+        "visible_text_labels": [
+          "Voltage Window for the Cell",
+          "Active material in positive electrode: LiCoO\u2082",
+          "Nominal working voltage: 3.7 V",
+          "Upper cut-off voltage: 4.3 V",
+          "Lower cut-off voltage: 3.0 V",
+          "W_EM = W_ED - W_CC",
+          "Weight of the electrode disc with the current collector = W_ED",
+          "Weight of the uncoated current collector disc of the same diameter = W_CC"
+        ],
+        "quantities": [
+          "3.7 V",
+          "4.3 V",
+          "3.0 V"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase by displaying detailed text about the voltage window for a lithium-ion cell, including specific voltage values and electrode weight calculations. The text is presented in a clear, structured format, emphasizing the technical specifications of the cell."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.102,
+        30.153
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Displays a mathematical formula for calculating the weight of the active material"
+        ],
+        "objects_visible": [
+          "Gray background with white text and mathematical equations"
+        ],
+        "visible_text_labels": [
+          "W_AM = W_EM x 0.8",
+          "where C is the theoretical specific capacity of the active material."
+        ],
+        "quantities": [
+          "0.8"
+        ],
+        "key_distinguishing_features": "This segment focuses on a specific calculation involving the weight of the active material, using a multiplication factor of 0.8. The text is presented clearly against a gray background, emphasizing the mathematical relationship."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        30.153,
+        40.204
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "The video displays a static image of a spreadsheet detailing a charge-discharge cycle protocol for a battery test."
+        ],
+        "objects_visible": [
+          "A spreadsheet with columns labeled 'Step Label', 'Number of Limits', 'Control Type', 'Control Value', 'Extra Control Value 1', 'Extra Control Value 2', and rows detailing steps such as 'OCV', 'CC_Charge_Cby5', and 'CC_Discharge_Cby5'.",
+          "A mathematical formula 'C_EM = W_AM x C' is shown at the top of the screen."
+        ],
+        "visible_text_labels": [
+          "Charge rate: C/5; Discharge rate: C/5",
+          "where C is the theoretical specific capacity of the active material.",
+          "Step Label",
+          "Number of Limits",
+          "Control Type",
+          "Control Value",
+          "Extra Control Value 1",
+          "Extra Control Value 2",
+          "OCV",
+          "CC_Charge_Cby5",
+          "CC_Discharge_Cby5",
+          "Log Limit",
+          "Step Limit",
+          "Goto Step",
+          "End Test",
+          "Type1",
+          "Sign1",
+          "Value1",
+          "DV_Time",
+          "PV_CHAN_Voltage",
+          "Current (A)"
+        ],
+        "quantities": [
+          "C/5",
+          "4.3",
+          "3",
+          "01:00:00",
+          "00:00:10",
+          "00:00:10"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on a detailed protocol for battery testing, with specific charge and discharge rates. The spreadsheet format provides a structured view of the testing steps and their associated parameters. The inclusion of a mathematical formula at the top ties the practical steps to the theoretical basis of the experiment."
+      }
+    }
+  ]
+}

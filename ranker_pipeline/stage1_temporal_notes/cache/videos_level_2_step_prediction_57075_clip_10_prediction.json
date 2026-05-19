@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/step_prediction/57075/clip_10_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.219833,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.05495825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Display of real-time data on a computer interface",
+          "Highlighted 'CUT-OFF Solenoids' text indicating a specific operational state"
+        ],
+        "objects_visible": [
+          "Graph plotting 'Temperature (Celsius)' against 'Time'",
+          "Temperature readouts for 'Inlet Temp' and 'Outlet Temp'",
+          "Temperature readouts for 'Heater 1 Temp' and 'Heater 2 Temp'",
+          "Recording status indicator showing 'NOT RECORDING'"
+        ],
+        "visible_text_labels": [
+          "Inlet Temp",
+          "Outlet Temp",
+          "Heater 1 Temp",
+          "Heater 2 Temp",
+          "Recording",
+          "NOT RECORDING",
+          "CUT-OFF Solenoids",
+          "STOP PROGRAM",
+          "Space Velocity Calculator",
+          "Test Name: JOVEtest"
+        ],
+        "quantities": [
+          "Temperature values: 21.17\u00b0C and 21.107\u00b0C for Heater 1 and Heater 2 respectively",
+          "Temperature values: 179.483\u00b0C for the tested temperature",
+          "Volume values: 30 ml for Reactor Volume",
+          "Space Velocity: 200 s^-1"
+        ],
+        "key_distinguishing_features": "This segment highlights a computer interface displaying real-time temperature data and operational statuses. The 'CUT-OFF Solenoids' text is emphasized, suggesting a critical operational state. The interface also shows that the system is not currently recording data."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.05495825,
+        16.1099165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"observation\",\n  \"actions_observed\": [\"The video displays a static screen of a laboratory software interface with no active human interaction observed.\"],\n  \"objects_visible\": [\"A computer screen showing a graphical user interface with various data fields, graphs, and control buttons.\", \"A graph plotting 'Exhaust Temp' against 'Time' with a red line indicating temperature changes.\", \""
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.1099165,
+        24.164874750000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a valve on a gas line wrapped with aluminum foil",
+          "researcher uses a black tool to tighten or loosen the valve"
+        ],
+        "objects_visible": [
+          "gas line with aluminum foil wrapping",
+          "black valve handle",
+          "black tool held by the researcher",
+          "researcher's hand with a black wristband"
+        ],
+        "visible_text_labels": [
+          "tape"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a gas line valve, highlighting the use of a black tool for fine control. The aluminum foil wrapping on the gas line is a distinctive feature, suggesting insulation or protection."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.164874750000003,
+        32.219833
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Graphs update in real-time showing temperature changes",
+          "Data values in the 'Space Velocity Calculator' section update dynamically"
+        ],
+        "objects_visible": [
+          "Graph displaying 'Inlet Temp' and 'Outlet Temp' with a red and black line",
+          "Temperature readouts for 'Heater 1 Temp' and 'Heater 2 Temp'",
+          "Buttons labeled 'CUT-OFF Solenoids' and 'STOP PROGRAM'"
+        ],
+        "visible_text_labels": [
+          "Space Velocity Calculator",
+          "STOP PROGRAM",
+          "CUT-OFF Solenoids",
+          "Heater 1 Temp: 22.1547",
+          "Heater 2 Temp: 22.1138",
+          "Elapsed Time: 53s"
+        ],
+        "quantities": [
+          "22.1547 \u00b0C (Heater 1 Temp)",
+          "22.1138 \u00b0C (Heater 2 Temp)",
+          "53s (Elapsed Time)",
+          "140 mL (Reactor Volume)",
+          "1790 mL/min (Total Flow Rate at Room Temp)"
+        ],
+        "key_distinguishing_features": "This segment shows real-time updates of temperature graphs and data values, indicating an ongoing observation phase. The 'CUT-OFF Solenoids' button is highlighted, suggesting a focus on flow control. The elapsed time of 53 seconds marks a specific point in the experiment's progression."
+      }
+    }
+  ]
+}

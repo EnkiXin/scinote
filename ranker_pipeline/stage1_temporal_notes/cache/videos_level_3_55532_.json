@@ -1,0 +1,165 @@
+{
+  "video_id": "videos/level_3/55532_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 417.066667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        104.26666675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a 15mL conical tube labeled 'MEM Nonessential Amino Acids' with a purple cap.",
+          "Researcher places the conical tube into a yellow test tube rack."
+        ],
+        "objects_visible": [
+          "15mL conical tube with purple cap labeled 'MEM Nonessential Amino Acids'",
+          "Yellow test tube rack with multiple slots",
+          "White test tube labeled 'MEM Essential Amino Acids' with a purple cap",
+          "Bottle labeled 'Sterile H2O' with a yellow cap",
+          "Bottle labeled 'DMEM' with a blue cap"
+        ],
+        "visible_text_labels": [
+          "MEM Nonessential Amino Acids",
+          "MEM Essential Amino Acids",
+          "Sterile H2O",
+          "DMEM"
+        ],
+        "quantities": [
+          "15mL conical tube",
+          "15mL conical tube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where specific reagents are organized and labeled for use in the experiment. The presence of multiple labeled tubes and bottles indicates a meticulous setup process. The researcher's actions are deliberate, ensuring each component is correctly placed and ready for the next steps."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        104.26666675,
+        208.5333335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a test tube labeled 'ASM pH 7.0' with a purple cap",
+          "researcher carefully fills the test tube to about 5 mm below the blue marker near the top of the tube"
+        ],
+        "objects_visible": [
+          "test tubes with various pH labels (ASM pH 7.0, ASM pH 7.5, etc.)",
+          "a white test tube rack",
+          "a yellow biohazard sharps container",
+          "a clear petri dish",
+          "a bottle labeled 'STERILE H2O'"
+        ],
+        "visible_text_labels": [
+          "ASM pH 7.0",
+          "ASM pH 7.5",
+          "Fill to about 5 mm below the blue marker near the top of the tube"
+        ],
+        "quantities": [
+          "5 mm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise filling of test tubes to a specific level, emphasizing accuracy in preparation. The presence of multiple labeled test tubes suggests a systematic approach to varying pH levels. The biohazard container indicates the handling of potentially hazardous materials."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        208.5333335,
+        312.80000025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap and a pipette",
+          "researcher places a petri dish containing a sample under a microscope",
+          "researcher adjusts the focus of the microscope to examine the sample"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "pipette with a yellow tip",
+          "petri dish containing a sample",
+          "microscope with a digital display showing a blue screen",
+          "biohazard sign on a refrigerator door"
+        ],
+        "visible_text_labels": [
+          "BIOHAZARD",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of a microtube and a petri dish, emphasizing the use of a pipette and a microscope for sample examination. The presence of a biohazard sign on the refrigerator highlights the controlled environment for handling potentially hazardous materials. The digital display on the microscope suggests a modern setup for detailed observation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        312.80000025,
+        417.066667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher holds a transparent capillary tube rack containing multiple tubes with visible microbiological growth.",
+          "Researcher points to specific tubes in the rack, highlighting areas of interest."
+        ],
+        "objects_visible": [
+          "Capillary tube rack with multiple tubes showing varying degrees of microbiological growth.",
+          "Purple arrows pointing to specific tubes in the rack."
+        ],
+        "visible_text_labels": [
+          "V. Results: Microbiological Growth in the WinCF Capillary Tubes"
+        ],
+        "quantities": [
+          "Multiple tubes in the rack, each with distinct growth patterns."
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of microbiological growth in capillary tubes, with specific tubes highlighted for their growth patterns. The use of purple arrows draws attention to particular tubes of interest. The text label clearly indicates the focus on results from the WinCF Capillary Tubes."
+      }
+    }
+  ]
+}

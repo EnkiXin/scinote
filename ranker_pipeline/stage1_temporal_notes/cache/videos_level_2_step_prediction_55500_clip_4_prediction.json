@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/step_prediction/55500/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.217833,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.55445825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a cylindrical component on a machine",
+          "researcher holds a metallic tool near the machine"
+        ],
+        "objects_visible": [
+          "blue and beige machine labeled 'QTM-1000'",
+          "researcher wearing a white lab coat and black gloves",
+          "metallic tool with a cylindrical end"
+        ],
+        "visible_text_labels": [
+          "YSZ: Yttria-Stabilized-Zirconia",
+          "QTM-1000"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a researcher interacting with a specialized machine, specifically adjusting a component related to Yttria-Stabilized-Zirconia. The machine's label and the researcher's precise actions highlight the technical nature of the task. The presence of a metallic tool suggests a fine adjustment or measurement process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.55445825,
+        15.1089165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher adjusts a vertical scale on a flow measurement device"
+        ],
+        "objects_visible": [
+          "yellow and blue flow measurement device labeled 'OTF-1200'",
+          "metallic vertical scale with numerical markings",
+          "white tubing connected to the device",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "750 mL/min in this experiment",
+          "OTF-1200"
+        ],
+        "quantities": [
+          "750 mL/min"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a flow measurement device, emphasizing the specific flow rate of 750 mL/min. The researcher's gloved hand is actively engaged in fine-tuning the scale, indicating a controlled and meticulous process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.1089165,
+        22.66337475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher adjusts settings on a digital control panel"
+        ],
+        "objects_visible": [
+          "digital control panel with a display showing 'E-08' and '165'",
+          "red emergency stop button",
+          "yellow warning label",
+          "researcher's hand wearing a black glove"
+        ],
+        "visible_text_labels": [
+          "E-08",
+          "165",
+          "jove"
+        ],
+        "quantities": [
+          "165"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a digital control panel, likely for setting parameters in an experiment. The presence of a red emergency stop button and a yellow warning label indicates safety measures. The researcher's hand, wearing a black glove, interacts with the control panel, emphasizing the importance of precise adjustments."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.66337475,
+        30.217833
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher presses buttons on a digital control panel"
+        ],
+        "objects_visible": [
+          "digital control panel with a display showing '20' and 'End'",
+          "gloved hand interacting with the control panel",
+          "machine with a patent label 'ZL-2011-2-0389859.8'"
+        ],
+        "visible_text_labels": [
+          "20",
+          "End",
+          "SET",
+          "PATENT ZL-2011-2-0389859.8"
+        ],
+        "quantities": [
+          "20"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise interaction with a digital control panel, highlighting the setting of a specific value '20'. The presence of a patent label on the machine suggests a specialized piece of equipment. The hand's interaction with the panel indicates an active step in the experiment's execution phase."
+      }
+    }
+  ]
+}

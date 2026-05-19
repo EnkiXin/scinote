@@ -1,0 +1,170 @@
+{
+  "video_id": "videos/level_2/video_segments/63694/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 31.098,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.7745
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to pick up a green spherical object from a transparent container",
+          "researcher transfers the green spherical object into a petri dish"
+        ],
+        "objects_visible": [
+          "three transparent containers filled with green spherical objects",
+          "three petri dishes with a clear medium",
+          "forceps held by the researcher",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "Jove"
+        ],
+        "quantities": [
+          "multiple green spherical objects in each container",
+          "three petri dishes"
+        ],
+        "key_distinguishing_features": "The segment shows a precise transfer of green spherical objects using forceps, highlighting the careful handling of samples. The setup with multiple containers and petri dishes suggests a systematic approach to the experiment. The researcher's gloved hands emphasize the sterile conditions of the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.7745,
+        15.549
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "containers with green peas are displayed",
+          "thermometer readings are shown"
+        ],
+        "objects_visible": [
+          "three transparent rectangular containers filled with green peas",
+          "two thermometers with visible temperature scales",
+          "a row of labeled containers with blue lids"
+        ],
+        "visible_text_labels": [
+          "Control water",
+          "Control water",
+          "Control water",
+          "Control water",
+          "Control water",
+          "Control water"
+        ],
+        "quantities": [
+          "three containers of peas",
+          "two thermometers"
+        ],
+        "key_distinguishing_features": "This segment highlights a controlled setup with multiple containers of green peas, likely for an experiment. The presence of thermometers suggests temperature monitoring is a critical aspect. The labeled containers with blue lids indicate a systematic approach to sample organization."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.549,
+        23.3235
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Camera pans across labeled containers with plant samples",
+          "Camera focuses on a climate-controlled chamber"
+        ],
+        "objects_visible": [
+          "Transparent containers with blue and white lids containing plant samples",
+          "Climate-controlled chamber with a cylindrical graph paper roll inside",
+          "Thermometer and hygrometer on the chamber's side"
+        ],
+        "visible_text_labels": [
+          "Control Water",
+          "Control Water",
+          "Almond Emulsion",
+          "Almond Emulsion",
+          "Almond Emulsion",
+          "Dark 25 \u00b1 2 \u00b0C",
+          "71% \u00b1 5% relative humidity"
+        ],
+        "quantities": [
+          "25 \u00b1 2 \u00b0C",
+          "71% \u00b1 5% relative humidity"
+        ],
+        "key_distinguishing_features": "This segment highlights the storage conditions of plant samples in a controlled environment, emphasizing the precise temperature and humidity settings. The labeled containers suggest a systematic approach to sample management."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.3235,
+        31.098
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small amount of liquid from a petri dish into a clear glass container",
+          "researcher carefully handles the petri dish containing green plant samples"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat, blue gloves, and safety glasses",
+          "petri dish with green plant samples",
+          "clear glass container",
+          "pipette with a blue tip",
+          "microscope on the lab bench",
+          "various lab equipment in the background including a centrifuge and other instruments"
+        ],
+        "visible_text_labels": [
+          "Dark 25 \u00b1 2 \u00b0C 71% \u00b1 5% relative humidity"
+        ],
+        "quantities": [
+          "small amount of liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of plant samples and liquid transfer, emphasizing the controlled environment indicated by the text overlay. The researcher's methodical actions highlight the importance of accuracy in the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_3/58743_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 410.24,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        102.56
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A man in a maroon shirt stands in front of a shelf displaying trophies and awards.",
+          "A woman in a white lab coat is seen holding a small container with a clear liquid, possibly a sample.",
+          "A man in a white lab coat is shown holding a pipette and dispensing a liquid into a test tube."
+        ],
+        "objects_visible": [
+          "A shelf with trophies and awards in the background.",
+          "A small container with a clear liquid held by the woman.",
+          "A pipette and a test tube used by the man in the lab coat."
+        ],
+        "visible_text_labels": [
+          "Yue-Wen Chen",
+          "National Ilan University",
+          "See text for ethanol concentrations"
+        ],
+        "quantities": [
+          "The specific volume of liquid being pipetted is not quantified in the video."
+        ],
+        "key_distinguishing_features": "This segment introduces the researchers and their initial actions in a laboratory setting, highlighting the preparation phase of an experiment. The presence of trophies and awards suggests a well-recognized research environment. The focus on handling samples and equipment sets the stage for the subsequent experimental steps."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        102.56,
+        205.12
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a refrigerator and retrieves a container with a blue cap",
+          "researcher uses a pipette to transfer a yellowish liquid from a bottle into a test tube",
+          "researcher operates a laptop, adjusting settings on a software interface for a column thermostat method",
+          "researcher places a vial into a rack with other vials, all capped with blue lids"
+        ],
+        "objects_visible": [
+          "refrigerator with multiple shelves containing labeled containers",
+          "pipette with a yellow liquid being transferred",
+          "test tube with a blue cap",
+          "laptop displaying a software interface for a column thermostat method",
+          "vial rack with multiple vials, each with a blue cap"
+        ],
+        "visible_text_labels": [
+          "Methanol:water ratio of 88.8:11.2",
+          "Column Thermostat Method: Instrument 1",
+          "Temperature: 30.0 \u00b0C",
+          "Stoptime: as Pump 20.00"
+        ],
+        "quantities": [
+          "88.8:11.2 ratio of methanol to water",
+          "30.0 \u00b0C temperature setting",
+          "20.00 stoptime setting"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its detailed focus on the precise handling of liquids and the use of a software interface to control experimental conditions. The researcher's actions are methodical, involving both manual and digital adjustments. The specific methanol:water ratio and temperature settings highlight the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        205.12,
+        307.68
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher uses a pipette to transfer a clear liquid from a test tube into a 96-well plate"
+        ],
+        "objects_visible": [
+          "blue microtube labeled 'DMEM'",
+          "96-well plate with multiple wells",
+          "pipette with a blue plunger",
+          "test tube with a clear liquid",
+          "laboratory bench with various equipment and containers"
+        ],
+        "visible_text_labels": [
+          "Cell density: 1 x 10^6 cells/mL"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "1 x 10^6 cells/mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube and the transfer of a clear liquid into a 96-well plate, emphasizing the controlled environment of a laboratory setting. The text label indicating cell density highlights the specific context of cell culture or related experiments."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        307.68,
+        410.24
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Researcher stacks petri dishes containing agar media on a metal tray",
+          "Researcher places a transparent cover on the stack of petri dishes"
+        ],
+        "objects_visible": [
+          "Petri dishes with solidified agar media",
+          "Metal tray with a grid pattern",
+          "Transparent plastic cover",
+          "Researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "Stack of 5 petri dishes"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of petri dishes for culturing, with a clear emphasis on the stacking and covering process. The metal tray with a grid pattern is distinctive, likely used for organization and stability. The researcher's actions are methodical, ensuring the dishes are properly aligned and covered."
+      }
+    }
+  ]
+}

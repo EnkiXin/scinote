@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/59992/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 36.329,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.08225
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a large flask containing a brownish liquid",
+          "researcher tilts the flask to observe the liquid's behavior"
+        ],
+        "objects_visible": [
+          "large flask with a brownish liquid",
+          "researcher wearing blue gloves and a white lab coat",
+          "metal stand with a clamp",
+          "metal pot on the left side of the frame",
+          "various laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively manipulating a large flask, suggesting a step in a chemical or biological process. The brownish liquid in the flask is a key focus, and the researcher's careful handling indicates its importance. The laboratory setting is well-equipped, with various tools and apparatus visible in the background."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.08225,
+        18.1645
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a large conical flask containing a yellowish liquid",
+          "researcher adjusts a clamp to secure the flask in place"
+        ],
+        "objects_visible": [
+          "a large conical flask with a clear upper section and a yellowish liquid",
+          "a clamp stand with a metallic clamp",
+          "a white lab coat with a visible logo and text",
+          "blue latex gloves on the researcher's hands",
+          "a white wall with a black horizontal stripe in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "the flask contains a significant volume of liquid, approximately filling half of its capacity"
+        ],
+        "key_distinguishing_features": "The segment focuses on the handling of a large conical flask, emphasizing the careful placement and securing of the flask using a clamp. The researcher's attire and gloves highlight a controlled laboratory environment. The yellowish liquid in the flask suggests a specific substance being used in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.1645,
+        27.24675
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 500mL beaker with a yellowish liquid and a red label",
+          "researcher pours the yellowish liquid from the beaker into a funnel placed on top of a round-bottom flask"
+        ],
+        "objects_visible": [
+          "500mL beaker with a red label",
+          "funnel with a long stem",
+          "round-bottom flask containing a yellowish liquid",
+          "glassware rack with various tubes and connectors",
+          "white lab coat and blue gloves on the researcher"
+        ],
+        "visible_text_labels": [
+          "red label on the beaker (text not fully legible)"
+        ],
+        "quantities": [
+          "500mL beaker"
+        ],
+        "key_distinguishing_features": "The segment focuses on the transfer of a yellowish liquid from a beaker to a flask using a funnel, highlighting the careful handling of laboratory glassware. The researcher's gloved hands and the precise pouring action are central to this segment. The presence of a glassware rack in the background adds context to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.24675,
+        36.329
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a large, orange, flexible tube with both gloved hands",
+          "researcher places the orange tube into a funnel positioned on a stand"
+        ],
+        "objects_visible": [
+          "a large, orange, flexible tube",
+          "a clear glass funnel with a blue rubber stopper",
+          "a metal stand holding the funnel",
+          "a beaker with a clear liquid underneath the funnel",
+          "a metal pot on the left side of the workspace",
+          "various laboratory glassware and equipment in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one large orange tube",
+          "one funnel"
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a large orange tube, which is being inserted into a funnel. The setup suggests a liquid transfer process, with attention to precision in the laboratory environment. The presence of the 'jove' logo indicates this is part of a scientific demonstration video."
+      }
+    }
+  ]
+}

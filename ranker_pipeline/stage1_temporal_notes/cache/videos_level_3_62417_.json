@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_3/62417_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 436.603333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        109.15083325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person wearing gloves uses a pipette to transfer a liquid into a petri dish containing insects.",
+          "A researcher holds a petri dish with a group of insects, possibly for observation or experimentation."
+        ],
+        "objects_visible": [
+          "A petri dish containing multiple insects, some of which appear to be dead or immobilized.",
+          "A pipette with a blue plunger, used for transferring liquid.",
+          "A petri dish lid, partially visible, with a label that is not fully legible."
+        ],
+        "visible_text_labels": [
+          "MARG\u00c9 LORENZEN, NCSU",
+          "WILLIAM KLOBASA, NCSU"
+        ],
+        "quantities": [
+          "The petri dish contains a group of insects, but the exact count is not specified."
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase of an experiment involving insects, with a focus on the use of a pipette to transfer liquid into a petri dish. The presence of labeled text on the screen identifies the researchers involved. The segment emphasizes the handling of insects in a controlled laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        109.15083325,
+        218.3016665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish with a clear, circular cover and a pinkish medium inside",
+          "researcher uses a pipette to add a small volume of a pink liquid into the petri dish",
+          "researcher places the petri dish on a red tray containing other petri dishes with similar pinkish media",
+          "researcher uses a wooden stick to manipulate a small object under a microscope"
+        ],
+        "objects_visible": [
+          "petri dish with a clear cover and pinkish medium",
+          "pipette with a pink liquid",
+          "red tray with multiple petri dishes",
+          "microscope with a Leica brand label",
+          "wooden stick used for manipulation under the microscope"
+        ],
+        "visible_text_labels": [
+          "Leica (on the microscope)"
+        ],
+        "quantities": [
+          "small volume of pink liquid added to the petri dish"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of petri dishes and the addition of a pink liquid, likely a medium, using a pipette. The use of a wooden stick under a microscope suggests delicate manipulation of small objects. The red tray with multiple petri dishes indicates a systematic approach to the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        218.3016665,
+        327.45249975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish with a clear lid and transfers contents using a pipette",
+          "researcher places a petri dish into a controlled environment chamber"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid containing a dark substance",
+          "pipette with a yellow flexible tube",
+          "controlled environment chamber with a digital display and control buttons",
+          "green plant with long leaves inside the chamber"
+        ],
+        "visible_text_labels": [
+          "Incubation and Hatching of Embryos",
+          "jove"
+        ],
+        "quantities": [
+          "1 petri dish",
+          "1 green plant"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of petri dishes and their placement into a controlled environment, likely for incubation. The presence of a green plant inside the chamber suggests a specific experimental setup. The digital display on the chamber indicates controlled conditions for the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        327.45249975,
+        436.603333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Microscope displays a transparent, elongated organism with visible internal structures.",
+          "The organism is shown in a dark background, likely for contrast enhancement."
+        ],
+        "objects_visible": [
+          "Transparent, elongated organism with visible internal structures.",
+          "Dark background for contrast."
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the observation of a transparent organism under a microscope, highlighting its internal structures. The dark background enhances the visibility of the organism's features. There are no visible text labels or quantities in this segment."
+      }
+    }
+  ]
+}

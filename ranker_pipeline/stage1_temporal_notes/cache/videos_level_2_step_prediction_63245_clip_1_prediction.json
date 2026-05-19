@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/step_prediction/63245/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 18.142,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.5355
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher uses a pipette to transfer liquid from the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "pipette with a white handle",
+          "petri dish on the lab bench",
+          "various lab equipment and supplies on shelves"
+        ],
+        "visible_text_labels": [
+          "Preliminary Sample Preparation"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the initial steps of sample preparation, with the researcher handling a microtube and a pipette. The setting is a well-equipped laboratory with various supplies visible in the background. The text 'Preliminary Sample Preparation' is prominently displayed, indicating the phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.5355,
+        9.071
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher puts on blue nitrile gloves",
+          "researcher adjusts gloves for proper fit"
+        ],
+        "objects_visible": [
+          "white lab coat",
+          "black office chair",
+          "white countertop with various lab equipment",
+          "blue nitrile gloves",
+          "plastic containers",
+          "pipette tips in a blue rack"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is meticulously preparing for an experiment by putting on gloves, ensuring a sterile environment. The lab setup is well-organized with various equipment and supplies neatly arranged. The focus is on the initial preparation steps before the experiment begins."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.071,
+        13.6065
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a blue-capped 1.5mL microtube into a centrifuge",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "centrifuge with a white exterior and a transparent lid",
+          "1.5mL microtube with a blue cap",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "JOVE logo in the top right corner"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a microtube into a centrifuge, highlighting the careful handling of laboratory equipment. The blue cap on the microtube is a distinctive feature, indicating a specific type of sample or medium. The researcher's actions are deliberate and methodical, emphasizing the importance of accuracy in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        13.6065,
+        18.142
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher closes the lid of a centrifuge",
+          "researcher adjusts settings on the centrifuge"
+        ],
+        "objects_visible": [
+          "white lab coat",
+          "centrifuge with a digital display and control panel",
+          "blue gloves",
+          "laboratory countertop with various equipment"
+        ],
+        "visible_text_labels": [
+          "JOVE logo in the top right corner"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is seen interacting with a centrifuge, carefully closing its lid and adjusting settings, indicating a precise step in the experiment. The environment is a well-equipped laboratory with a focus on safety and precision. The JOVE logo suggests this is part of a scientific instructional video."
+      }
+    }
+  ]
+}

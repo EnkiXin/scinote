@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_2/video_segments/62864/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.281,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.57025
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "displaying a static graph with a red line"
+        ],
+        "objects_visible": [
+          "graph with a grid background",
+          "red line indicating data points"
+        ],
+        "visible_text_labels": [
+          "jove",
+          "won e Scan"
+        ],
+        "quantities": [
+          "no specific quantities or measurements are visible"
+        ],
+        "key_distinguishing_features": "The segment shows a static graph with a red line that remains relatively flat, indicating a steady state or baseline. The grid background suggests a measurement or data recording context. The 'jove' and 'won e Scan' labels indicate the software or platform used for the observation."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.57025,
+        17.1405
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Three beakers are placed on a wooden surface, each labeled with a pH value."
+        ],
+        "objects_visible": [
+          "Three clear glass beakers labeled 'pH 4', 'pH 7', and 'pH 10' containing different colored liquids",
+          "A white bottle with a label and a black cap",
+          "A white cloth or towel in the background"
+        ],
+        "visible_text_labels": [
+          "pH 4",
+          "pH 7",
+          "pH 10",
+          "CAUTION: Handle HCl with care",
+          "Refer to text for buffer composition"
+        ],
+        "quantities": [
+          "Three beakers"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation of different pH buffer solutions, with each beaker distinctly labeled and containing a different colored liquid. The cautionary note about handling HCl suggests the use of potentially hazardous chemicals. The reference to buffer composition indicates a detailed experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.1405,
+        25.710749999999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "hand stirs liquid in beaker labeled 'pH 4' with a glass rod"
+        ],
+        "objects_visible": [
+          "three beakers labeled 'pH 4', 'pH 7', and 'pH 10' containing clear liquids",
+          "glass rod used for stirring",
+          "black and yellow microscope on the right side of the table"
+        ],
+        "visible_text_labels": [
+          "pH 4",
+          "pH 7",
+          "pH 10",
+          "Refer to text for buffer composition"
+        ],
+        "quantities": [
+          "three beakers"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase where a hand is seen stirring the liquid in the beaker labeled 'pH 4'. The presence of a microscope suggests a laboratory setting. The text overlay indicates a reference to buffer composition, emphasizing the experimental context."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.710749999999997,
+        34.281
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Display of calibration data for pH measurement"
+        ],
+        "objects_visible": [
+          "Calibration data table with pH values, pulse lengths, and calculated voltage outputs"
+        ],
+        "visible_text_labels": [
+          "Calibration data",
+          "pH value (cal. meter) [-]",
+          "Pulse length [ms]",
+          "Calc. volt. output [mV]"
+        ],
+        "quantities": [
+          "3.98 pH",
+          "400 ms pulse length",
+          "1200 mV voltage output",
+          "10.01 pH",
+          "710 ms pulse length",
+          "1510 mV voltage output"
+        ],
+        "key_distinguishing_features": "This segment focuses on the calibration data for a pH meter, presenting specific pH values, corresponding pulse lengths, and calculated voltage outputs. The data is neatly organized in a table format, emphasizing the relationship between pH and electrical measurements. The segment is purely informational with no physical actions observed."
+      }
+    }
+  ]
+}

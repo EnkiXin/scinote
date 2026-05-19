@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_2/step_prediction/56494/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 48.536133,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.13403325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "hand wearing a white glove uses tweezers to place a small white square object into a circular container filled with a dark liquid"
+        ],
+        "objects_visible": [
+          "hand wearing a white glove",
+          "tweezers with a metallic tip",
+          "small white square object",
+          "circular container with a dark liquid",
+          "metallic rim of the container with screws"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a small white square object into a dark liquid using tweezers. The hand is gloved, emphasizing a controlled and sterile environment. The circular container with a metallic rim suggests a specialized scientific apparatus."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.13403325,
+        24.2680665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher adjusts a knob on a vacuum chamber",
+          "digital display shows a reading of 2.8888E-6 Torr"
+        ],
+        "objects_visible": [
+          "Pfeiffer DualGauge vacuum measurement device",
+          "vacuum chamber with various tubes and connections",
+          "digital display showing vacuum pressure reading"
+        ],
+        "visible_text_labels": [
+          "PFEIFFER",
+          "DualGauge",
+          "VACUUM",
+          "2.8888E-6",
+          "PARA",
+          "CH",
+          "40.0"
+        ],
+        "quantities": [
+          "2.8888E-6 Torr",
+          "40.0"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise measurement of vacuum pressure using a Pfeiffer DualGauge device. The digital display clearly shows a reading of 2.8888E-6 Torr, indicating a high vacuum level. The researcher is actively adjusting the vacuum chamber, suggesting a step in achieving the desired vacuum conditions."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        24.2680665,
+        36.40209975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "hand adjusts control knob on a device",
+          "hand presses buttons on a control panel"
+        ],
+        "objects_visible": [
+          "digital display showing '40.0'",
+          "digital display showing 'E-12' and '-9.000000'",
+          "control panel with buttons labeled 'PARA', 'CH', 'ENT'",
+          "device labeled 'PROTEC'"
+        ],
+        "visible_text_labels": [
+          "40.0",
+          "E-12",
+          "PARA",
+          "CH",
+          "ENT",
+          "PROTEC"
+        ],
+        "quantities": [
+          "40.0",
+          "E-12",
+          "-9.000000"
+        ],
+        "key_distinguishing_features": "This segment focuses on precise adjustments and readings on scientific equipment, highlighting the importance of accurate measurements. The presence of multiple digital displays and control panels suggests a complex setup requiring careful operation. The hand's interaction with the equipment underscores the manual control aspect of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        36.40209975,
+        48.536133
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a knob on a control panel labeled 'RF600'",
+          "researcher connects a cable to a device with a digital display showing '5.0800'"
+        ],
+        "objects_visible": [
+          "black control panel with blue digital display and labeled buttons",
+          "digital vacuum gauge with a reading of '5.0800'",
+          "researcher wearing a white lab coat and gloves",
+          "various laboratory equipment and cables in the background"
+        ],
+        "visible_text_labels": [
+          "RF600",
+          "5.0800",
+          "VACUUM"
+        ],
+        "quantities": [
+          "5.0800 (vacuum gauge reading)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise adjustment of laboratory equipment, specifically a control panel and a vacuum gauge. The researcher's actions are deliberate, indicating a step in the experimental procedure that requires careful control of parameters. The presence of a digital display and labeled controls highlights the technical nature of the experiment."
+      }
+    }
+  ]
+}

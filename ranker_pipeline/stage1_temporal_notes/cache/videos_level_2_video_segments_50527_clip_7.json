@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/video_segments/50527/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 59.897,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.97425
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher carefully handles a green tray containing small plants.",
+          "Researcher uses tweezers to manipulate a plant's panicle."
+        ],
+        "objects_visible": [
+          "Green tray with small plants",
+          "Tweezers held by the researcher",
+          "Plant panicles being manipulated",
+          "Laboratory shelves with various equipment and supplies"
+        ],
+        "visible_text_labels": [
+          "Panicle-to-Panicle",
+          "Anther-to-Stigma"
+        ],
+        "quantities": [
+          "Two distinct methods of plant manipulation shown in split-screen"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase of a plant experiment, focusing on the precise handling of plant panicles. The split-screen format distinctly shows two methods: 'Panicle-to-Panicle' and 'Anther-to-Stigma'. The researcher's meticulous use of tweezers emphasizes the delicate nature of the task."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.97425,
+        29.9485
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher carefully handles a male panicle and places it near a female panicle for pollination",
+          "researcher discards the male panicle after the pollination process"
+        ],
+        "objects_visible": [
+          "green plants with panicles in a laboratory setting",
+          "small plastic containers with labels",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "Panicle-to-Panicle Pollination",
+          "Discard male panicle after pollination"
+        ],
+        "quantities": [
+          "multiple plants in the frame, with at least one male and one female panicle being handled"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise action of panicle-to-panicle pollination, highlighting the careful handling of plant parts. The text overlay provides clear instructions for the procedure, emphasizing the discarding of the male panicle post-pollination."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        29.9485,
+        44.92275
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses tweezers to hold a small green plant structure",
+          "researcher carefully manipulates a plant structure with their fingers"
+        ],
+        "objects_visible": [
+          "green plant structures resembling panicles",
+          "tweezers held by the researcher",
+          "researcher's hands with visible fingernails",
+          "head-mounted magnifying visor worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "Anther-to-Stigma Pollination"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of plant structures, likely for pollination purposes. The researcher's use of tweezers and magnifying visor highlights the delicate nature of the task. The text 'Anther-to-Stigma Pollination' indicates the specific type of pollination being demonstrated."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        44.92275,
+        59.897
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small green plant with a long stem and a single leaf",
+          "researcher uses a white tissue to gently wipe the surface of a small, clear plastic container"
+        ],
+        "objects_visible": [
+          "small green plant with a single leaf and long stem",
+          "white tissue",
+          "clear plastic container",
+          "white lab coat",
+          "various laboratory equipment including a pipette, a white bottle with a blue cap, and a red basket in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the handling of a small plant and the preparation of a container, likely for a subsequent step in the experiment. The researcher's meticulous actions with the tissue suggest a need for cleanliness or sterility. The presence of laboratory equipment in the background indicates a controlled experimental environment."
+      }
+    }
+  ]
+}

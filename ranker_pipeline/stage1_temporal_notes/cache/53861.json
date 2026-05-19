@@ -1,0 +1,153 @@
+{
+  "video_id": "53861",
+  "benchmark": "scivideobench",
+  "duration_seconds": 614.869333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        153.71733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher in a white lab coat and gloves handles a wafer covered with aluminum foil, carefully placing it into a machine labeled 'III. Deep Reactive Ion Etching'.",
+          "The researcher operates the machine, adjusting settings and closing the chamber door."
+        ],
+        "objects_visible": [
+          "A wafer partially covered with aluminum foil, placed on a black tray.",
+          "A machine labeled 'III. Deep Reactive Ion Etching' with a digital display and control panel.",
+          "A researcher wearing a white lab coat and gloves."
+        ],
+        "visible_text_labels": [
+          "III. Deep Reactive Ion Etching",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of a deep reactive ion etching process, highlighting the careful handling of a wafer and the operation of specialized equipment. The researcher's meticulous actions emphasize the precision required in this step."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        153.71733325,
+        307.4346665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a transparent petri dish containing a black circular substrate with a grid pattern",
+          "researcher uses a green-handled pipette to dispense small droplets of a clear liquid onto the substrate"
+        ],
+        "objects_visible": [
+          "transparent petri dish with a black circular substrate featuring a grid pattern",
+          "green-handled pipette with a fine tip",
+          "small droplets of clear liquid on the substrate",
+          "researcher's gloved hands manipulating the petri dish and pipette"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small droplets of liquid, approximately 10-20 microliters each"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise application of liquid droplets onto a patterned substrate, likely for a controlled experiment. The use of a green-handled pipette and the grid pattern on the substrate suggest a methodical approach to sample placement. The presence of the 'jove' logo indicates this is part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        307.4346665,
+        461.15199974999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a tool to manipulate a small, rectangular device with visible screws and a patterned surface.",
+          "The gloved hand carefully aligns and places the device on a flat surface."
+        ],
+        "objects_visible": [
+          "A small, rectangular device with screws and a patterned surface, labeled 'isofluidic'.",
+          "A gloved hand wearing a purple nitrile glove."
+        ],
+        "visible_text_labels": [
+          "isofluidic",
+          "VII. Operating the Acoustofluidic Device"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise handling and placement of an acoustofluidic device, emphasizing the careful alignment by a gloved hand. The device's labeling and the specific action of operating it highlight the technical nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        461.15199974999996,
+        614.869333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher observes and explains data displayed on a graph comparing flow rate and applied voltage.",
+          "Researcher gestures towards the graph while discussing the relationship between variables."
+        ],
+        "objects_visible": [
+          "Graph with multiple colored lines representing different flow rates and voltages.",
+          "Researcher wearing a blue and white patterned shirt."
+        ],
+        "visible_text_labels": [
+          "Flow Rate",
+          "Applied Voltage",
+          "Distance Across the Microchannel (\u03bcm)",
+          "Relative Fluorescence Intensity"
+        ],
+        "quantities": [
+          "Voltage values ranging from 0 V to 50 V",
+          "Flow rates indicated by different colored lines on the graph"
+        ],
+        "key_distinguishing_features": "This segment focuses on the analysis of experimental data, with a detailed graph showing the relationship between flow rate and applied voltage. The researcher's gestures and explanations highlight the significance of the data trends. The visual presentation of the graph is central to the segment's content."
+      }
+    }
+  ]
+}

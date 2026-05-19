@@ -1,0 +1,168 @@
+{
+  "video_id": "66978",
+  "benchmark": "scivideobench",
+  "duration_seconds": 146.517333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        36.62933325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher places a slide on a white surface.",
+          "Researcher uses a pipette to add a clear liquid to a small container."
+        ],
+        "objects_visible": [
+          "A white slide with a small, rectangular area for sample placement.",
+          "A pipette with a blue plunger and a clear tip.",
+          "A small, clear container with a green label.",
+          "A purple 96-well plate.",
+          "A blue hotplate labeled 'HOTPLATE'.",
+          "A box of Kimtech wipes."
+        ],
+        "visible_text_labels": [
+          "FISH for Gene Amplification Assessment in Formalin-Fixed Paraffin-Embedded Cancer Specimens",
+          "Collin Gilbreath, Yan Peng, Sihan Wu",
+          "70%, 85% and 100% ethanol",
+          "KIMTECH"
+        ],
+        "quantities": [
+          "10 min",
+          "5 min",
+          "20 min",
+          "20 microL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the initial preparation steps for a FISH gene amplification assessment, highlighting the use of specific reagents and equipment. The researcher's actions are precise, emphasizing the importance of accurate sample preparation. The presence of detailed text labels and quantities underscores the methodical nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        36.62933325,
+        73.2586665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a glass slide into a programmable slide moter",
+          "researcher adjusts the settings on the slide moter's digital display"
+        ],
+        "objects_visible": [
+          "red and white Boekel Scientific programmable slide moter with a digital display",
+          "glass slide with a sample on it",
+          "laboratory countertop with various equipment and supplies in the background"
+        ],
+        "visible_text_labels": [
+          "BOEKEL Boekel Scientific",
+          "PROGRAMMABLE SLIDE MOTER",
+          "SET TIME: 00:00:00"
+        ],
+        "quantities": [
+          "00:00:00 (time setting on the slide moter)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the use of a programmable slide moter, highlighting the precise control over the slide's movement. The digital display and the researcher's interaction with the device emphasize the technical aspect of the experiment. The background laboratory setting provides context for the scientific activity."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        73.2586665,
+        109.88799975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher places a petri dish containing a sample under a fluorescence microscope.",
+          "Researcher adjusts the microscope settings using a computer interface."
+        ],
+        "objects_visible": [
+          "Petri dish with a sample emitting blue and red fluorescence under the microscope.",
+          "Computer monitor displaying a fluorescence microscopy image with adjustable parameters.",
+          "Microscope with a stage and objective lenses."
+        ],
+        "visible_text_labels": [
+          "Use the DAPI channel to adjust the focus",
+          "Obtain 5 - 10 Z-stacks with a 1 \u03bcm interval"
+        ],
+        "quantities": [
+          "5 - 10 Z-stacks",
+          "1 \u03bcm interval"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase where the researcher uses a fluorescence microscope to capture detailed images of a sample. The computer interface allows for precise adjustments, emphasizing the importance of accurate focus and Z-stack acquisition. The visible text provides specific instructions for optimizing the imaging process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        109.88799975,
+        146.517333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The video displays a static image of fluorescent microscopy results for different cell types."
+        ],
+        "objects_visible": [
+          "Microscopic images of cells stained with DAPI and ERBB2 FISH probes.",
+          "A grid layout with three columns labeled 'Triple negative', 'HER2-positive eDNA-like', and 'HER2-positive HSR-like'."
+        ],
+        "visible_text_labels": [
+          "Triple negative",
+          "HER2-positive eDNA-like",
+          "HER2-positive HSR-like",
+          "DAPI",
+          "ERBB2 FISH",
+          "Merge"
+        ],
+        "quantities": [
+          "The grid contains 9 images in total, 3 for each cell type."
+        ],
+        "key_distinguishing_features": "The segment highlights the differences in ERBB2 gene amplification patterns between triple-negative and HER2-positive cell types. The 'Merge' images combine DAPI and FISH signals, showing distinct patterns of gene amplification. The HER2-positive eDNA-like and HSR-like cells exhibit different amplification structures, with the former showing extrachromosomal DNA and the latter showing homogeneously staining regions."
+      }
+    }
+  ]
+}

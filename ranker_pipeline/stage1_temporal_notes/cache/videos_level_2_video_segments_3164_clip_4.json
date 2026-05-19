@@ -1,0 +1,167 @@
+{
+  "video_id": "videos/level_2/video_segments/3164/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.017,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.25425
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a circular door of a plasma treatment device",
+          "researcher places a 25 mm no. 1 coverslip inside the device"
+        ],
+        "objects_visible": [
+          "plasma treatment device with a circular door and control panel",
+          "25 mm no. 1 coverslip",
+          "researcher wearing teal gloves",
+          "control panel with buttons labeled 'PUMP', 'GAS', 'TIMER', 'POWER'"
+        ],
+        "visible_text_labels": [
+          "25 mm no. 1 coverslip",
+          "Plasma treatment 10 min overslip"
+        ],
+        "quantities": [
+          "25 mm",
+          "10 min"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a specific coverslip is being placed into a plasma treatment device. The control panel and the precise size of the coverslip are highlighted, emphasizing the controlled environment for the experiment. The researcher's gloved hands indicate a sterile procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.25425,
+        16.5085
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher pours deionized water from a labeled bottle into a small metal container held by a gloved hand",
+          "researcher rinses the metal container with deionized water twice",
+          "researcher pours ethanol from a labeled bottle into the metal container for rinsing"
+        ],
+        "objects_visible": [
+          "a bottle labeled 'ETHANOL' with a white cap and warning symbols",
+          "a bottle labeled 'DEIONIZED WATER' with a white cap and warning symbols",
+          "a bottle of 'Antibacterial' hand soap with a pump dispenser",
+          "a metal container held by gloved hands",
+          "a black countertop with a sink",
+          "a faucet and plumbing fixtures"
+        ],
+        "visible_text_labels": [
+          "ETHANOL",
+          "DEIONIZED WATER",
+          "Antibacterial",
+          "2X with 18.2 M\u03a9 deionized water",
+          "2X ethanol rinse"
+        ],
+        "quantities": [
+          "18.2 M\u03a9 deionized water",
+          "2X rinse"
+        ],
+        "key_distinguishing_features": "This segment focuses on the meticulous cleaning of a metal container using deionized water and ethanol, emphasizing the importance of purity in the preparation phase. The specific rinsing steps and the use of high-purity water highlight the controlled nature of the experiment. The presence of both deionized water and ethanol bottles underscores the multi-step cleaning protocol."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.5085,
+        24.762750000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small metallic object with tweezers",
+          "researcher places the metallic object into a petri dish containing liquid droplets"
+        ],
+        "objects_visible": [
+          "petri dish with multiple liquid droplets",
+          "tweezers held by a gloved hand",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple droplets in the petri dish"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of placing a small metallic object into a petri dish using tweezers. The environment is illuminated with a warm, orange light, emphasizing the focus on the petri dish and the liquid droplets. The researcher's gloved hand and lab attire highlight the controlled and sterile nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.762750000000004,
+        33.017
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher interacts with a touchscreen interface on a PVD 75 machine",
+          "researcher points at specific areas on the screen"
+        ],
+        "objects_visible": [
+          "researcher wearing a full-body protective suit with hood and gloves",
+          "PVD 75 machine with a touchscreen interface",
+          "text overlay on the screen"
+        ],
+        "visible_text_labels": [
+          "PVD 75",
+          "50 \u00c5 titanium, 150 \u00c5 gold",
+          "jove"
+        ],
+        "quantities": [
+          "50 \u00c5 titanium",
+          "150 \u00c5 gold"
+        ],
+        "key_distinguishing_features": "The researcher is actively using a touchscreen to control the PVD 75 machine, indicating a precise step in the deposition process. The specific materials and thicknesses (50 \u00c5 titanium, 150 \u00c5 gold) are highlighted, emphasizing the controlled nature of the experiment. The protective suit suggests a cleanroom environment, crucial for the experiment's success."
+      }
+    }
+  ]
+}

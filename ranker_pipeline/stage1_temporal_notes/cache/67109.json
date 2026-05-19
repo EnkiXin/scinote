@@ -1,0 +1,164 @@
+{
+  "video_id": "67109",
+  "benchmark": "scivideobench",
+  "duration_seconds": 461.44,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        115.36
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher in a white lab coat stands in a laboratory setting, addressing the camera.",
+          "The researcher gestures with their hands while speaking, likely explaining the experimental setup."
+        ],
+        "objects_visible": [
+          "A laboratory environment with shelves containing various lab equipment and supplies.",
+          "A white lab coat worn by the researcher.",
+          "A black shirt visible under the lab coat."
+        ],
+        "visible_text_labels": [
+          "Fabrication and Characterization of Microneedle Patches for Loading and Delivery of Exosomes",
+          "Sijia Mu1,2, Hao Chang2, Fengli Qu2",
+          "1Medical School, Faculty of Medicine, Tianjin University, 2Hangzhou Institute of Medicine, Chinese Academy of Sciences"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment is distinctive for its introductory nature, with the researcher providing an overview in a well-equipped laboratory. The focus is on verbal communication rather than hands-on experimentation. The presence of detailed text labels on the screen provides context for the research topic."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        115.36,
+        230.72
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a 15mL conical tube with a red liquid and transfers it to a centrifuge.",
+          "Researcher uses a pipette to transfer a small volume of liquid from a test tube into a microtube."
+        ],
+        "objects_visible": [
+          "15mL conical tube with red liquid",
+          "Centrifuge with multiple slots for tubes",
+          "Pipette with a blue plunger",
+          "Microtube with a pink cap",
+          "Orange test tube rack",
+          "Blue microtube rack"
+        ],
+        "visible_text_labels": [
+          "Repeat the ultrafiltration steps until the total volume is within 5 mL"
+        ],
+        "quantities": [
+          "5 mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of liquids in a laboratory setting, emphasizing the use of a centrifuge and pipette for volume reduction. The text overlay provides a specific instruction related to ultrafiltration steps, highlighting the importance of achieving a precise volume. The presence of both conical tubes and microtubes underscores the transition from larger to smaller sample volumes."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        230.72,
+        346.08
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Exosome Concentration: 10 \u00b5g/\u00b5L' with a blue cap",
+          "researcher places the microtube into a yellow test tube rack",
+          "researcher operates a plasma cleaner by adjusting the dial and pressing the power button",
+          "researcher uses a pipette to transfer a clear liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap and label",
+          "yellow test tube rack",
+          "plasma cleaner with a digital display showing '460'",
+          "pipette with a clear liquid",
+          "petri dish"
+        ],
+        "visible_text_labels": [
+          "Exosome Concentration: 10 \u00b5g/\u00b5L",
+          "460"
+        ],
+        "quantities": [
+          "10 \u00b5g/\u00b5L",
+          "460"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of exosome solutions and the use of a plasma cleaner, highlighting the importance of controlled conditions in the experiment. The digital display on the plasma cleaner and the labeled microtube provide specific details about the experimental setup. The actions are methodical, emphasizing the careful preparation and transfer of solutions."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        346.08,
+        461.44
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a clear plastic container into a centrifuge chamber",
+          "researcher closes the centrifuge lid and starts the centrifuge",
+          "researcher uses a pipette to transfer a small volume of liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "centrifuge with a visible chamber and lid",
+          "clear plastic container with a green cap",
+          "pipette with a black tip",
+          "petri dish containing a clear liquid",
+          "gloved hands of the researcher"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "200 \u03bcm scale bar visible in the petri dish image"
+        ],
+        "key_distinguishing_features": "This segment focuses on the centrifugation process and subsequent liquid transfer, highlighting the use of precise laboratory equipment. The presence of a scale bar in the petri dish image emphasizes the microscopic scale of the experiment. The researcher's actions are methodical, indicating a controlled experimental procedure."
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_2/video_segments/52732/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.123,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.78075
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a blue-capped 1.5mL microtube labeled 'Sperm' and uses a pipette to transfer a small volume of liquid into it",
+          "researcher places the microtube back into a blue test tube rack"
+        ],
+        "objects_visible": [
+          "blue test tube rack with multiple empty slots and one microtube labeled 'Sperm'",
+          "a pipette with a pink tip",
+          "a clear plastic container labeled 'SHARKS' containing various items",
+          "a gloved hand performing the actions"
+        ],
+        "visible_text_labels": [
+          "Sperm",
+          "SHARKS",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "one microtube in the rack"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, specifically the handling and labeling of a microtube containing 'Sperm'. The use of a pipette for precise liquid transfer is a key action. The blue test tube rack and the labeled container 'SHARKS' provide context for the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.78075,
+        23.5615
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher picks up a pipette with a black handle and orange plunger",
+          "researcher inserts the pipette tip into a 1.5mL microtube labeled 'DMEM' with a blue cap"
+        ],
+        "objects_visible": [
+          "blue microtube rack with multiple 1.5mL microtubes",
+          "pipette with a black handle and orange plunger",
+          "two small glass bottles with red liquid and white labels",
+          "blue test tube rack with several test tubes",
+          "a clear plastic container with a white lid"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "SHARPS"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a pipette and microtube, emphasizing the researcher's interaction with the DMEM-labeled microtube. The presence of multiple labeled containers and the organized setup highlight the methodical nature of the experiment. The researcher's gloved hand is visible, ensuring sterility and precision."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.5615,
+        35.34225
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap and a label",
+          "researcher uses a pipette to transfer a small volume of liquid from the microtube into a test tube"
+        ],
+        "objects_visible": [
+          "blue microtube rack with multiple compartments",
+          "test tube with a clear liquid inside",
+          "pipette with a black and white handle",
+          "a bottle with a red liquid and a label",
+          "a transparent container labeled 'SHARPS'"
+        ],
+        "visible_text_labels": [
+          "SHARPS",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of liquid using a pipette, highlighting the careful handling of small volumes. The presence of a sharps container indicates the handling of potentially hazardous materials. The blue microtube rack and the labeled bottle add to the organized laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.34225,
+        47.123
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'Unstimulated' with blue cap",
+          "researcher uses a pipette to transfer a small volume of liquid from the microtube into a blue test tube rack"
+        ],
+        "objects_visible": [
+          "blue test tube rack with multiple empty slots",
+          "1.5mL microtube with blue cap and handwritten label",
+          "pipette with a pink plunger",
+          "green microtube storage box",
+          "clear plastic container labeled 'WASTE'",
+          "beaker with handwritten label 'SAMPLES'"
+        ],
+        "visible_text_labels": [
+          "Unstimulated",
+          "WASTE",
+          "SAMPLES"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "small volume of liquid (exact volume not specified)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a labeled microtube and the transfer of its contents using a pipette. The blue test tube rack and the presence of a waste container highlight the organized workflow in the laboratory setting. The handwritten labels on the microtube and beaker add a personal touch to the otherwise standardized lab environment."
+      }
+    }
+  ]
+}

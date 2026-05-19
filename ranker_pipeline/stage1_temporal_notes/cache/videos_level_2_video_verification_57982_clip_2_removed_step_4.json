@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_2/video_verification/57982/clip_2_removed_step_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.08,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.77
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "researcher uses pipette to transfer liquid from microtube"
+        ],
+        "objects_visible": [
+          "blue pipette tip box",
+          "white microtube rack",
+          "blue DMEM labeled microtube",
+          "pipette with white tip",
+          "aluminum foil-covered petri dish",
+          "purple test tube rack",
+          "yellow liquid in glass bottles"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a microtube labeled 'DMEM', indicating a specific medium used in the experiment. The use of a pipette for transferring liquid suggests precision in the experiment's execution. The aluminum foil-covered petri dish is a distinctive feature, likely used for protecting the sample from light or contamination."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.77,
+        17.54
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wearing green gloves carefully unwraps aluminum foil from a small object",
+          "researcher places the unwrapped object into a conical flask containing a cloudy liquid"
+        ],
+        "objects_visible": [
+          "green gloves on the researcher's hands",
+          "aluminum foil being unwrapped",
+          "conical flask with handwritten label containing a cloudy liquid",
+          "laboratory equipment including a Bunsen burner and a digital oven"
+        ],
+        "visible_text_labels": [
+          "handwritten label on the conical flask reading 'S. cerevisiae S. cerevisiae wild type'"
+        ],
+        "quantities": [
+          "digital oven display showing '150' twice, likely indicating temperature settings"
+        ],
+        "key_distinguishing_features": "This segment highlights the careful handling of a small object wrapped in aluminum foil, which is then added to a conical flask. The handwritten label on the flask and the digital oven settings provide specific context for the experiment. The green gloves and laboratory equipment emphasize a controlled and sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.54,
+        26.31
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts temperature setting on incubator to 150 degrees",
+          "researcher presses button to turn incubator ON"
+        ],
+        "objects_visible": [
+          "incubator with digital control panel",
+          "three conical flasks with labels inside the incubator",
+          "green-gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "150",
+          "ON",
+          "OFF",
+          "cerulean",
+          "wild-type",
+          "DMEM"
+        ],
+        "quantities": [
+          "150 degrees",
+          "three conical flasks"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of the incubator's temperature to 150 degrees, highlighting the digital control panel. The labeled conical flasks inside the incubator suggest a controlled experiment setup. The green-gloved hand indicates adherence to laboratory safety protocols."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.31,
+        35.08
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small volume of liquid into a labeled well on a microplate",
+          "researcher places the microplate into a Countess II automated cell counter"
+        ],
+        "objects_visible": [
+          "microplate with labeled wells",
+          "pipette with a blue plunger",
+          "Countess II automated cell counter with a digital display",
+          "gloved hand wearing a bright green glove"
+        ],
+        "visible_text_labels": [
+          "Insert slide",
+          "Countess II",
+          "Capture",
+          "Light source"
+        ],
+        "quantities": [
+          "small volume of liquid (exact volume not specified)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid sample into a microplate well, followed by the insertion of the microplate into a Countess II cell counter. The digital display on the cell counter is prominently shown, indicating the next steps in the process. The use of a bright green glove adds a distinct visual element to the actions being performed."
+      }
+    }
+  ]
+}

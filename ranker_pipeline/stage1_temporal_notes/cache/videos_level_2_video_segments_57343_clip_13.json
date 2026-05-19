@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/video_segments/57343/clip_13.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 50.793,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.69825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a test tube in a rack",
+          "researcher holds a pipette and dispenses liquid into a test tube"
+        ],
+        "objects_visible": [
+          "blue test tube rack with multiple holes",
+          "test tube with a clear liquid",
+          "pipette with a white tip",
+          "beaker labeled '400mL PYREX' containing a yellow liquid",
+          "box labeled 'Kimberly-Clark'"
+        ],
+        "visible_text_labels": [
+          "400mL PYREX",
+          "Kimberly-Clark"
+        ],
+        "quantities": [
+          "400mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where a test tube is placed in a rack and liquid is dispensed into it using a pipette. The presence of a labeled beaker and a box of Kimberly-Clark products adds context to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.69825,
+        25.3965
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette with a white tip and dispenses a clear liquid into a test tube",
+          "researcher uses a pipette with a pink tip to add a different liquid to the test tube"
+        ],
+        "objects_visible": [
+          "test tube with a clear liquid being added",
+          "pipette with a white tip",
+          "pipette with a pink tip",
+          "researcher's gloved hands",
+          "blue laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "Alternatively, dry under a nitrogen stream until the pellet slightly begins to crack"
+        ],
+        "quantities": [
+          "clear liquid being added to the test tube"
+        ],
+        "key_distinguishing_features": "This segment shows the precise addition of liquids to a test tube using two different pipette tips, highlighting the careful handling of materials in a laboratory setting. The presence of the text overlay provides context for an alternative drying method, emphasizing the instructional nature of the video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.3965,
+        38.09475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a transparent tube containing a dark liquid with visible particles"
+        ],
+        "objects_visible": [
+          "transparent tube with a dark liquid and particles",
+          "gloved hand holding the tube"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up of a transparent tube containing a dark liquid with visible particles, suggesting a sample or solution being observed. The gloved hand indicates a controlled laboratory environment. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        38.09475,
+        50.793
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small, clear plastic container into a designated slot on a laboratory device"
+        ],
+        "objects_visible": [
+          "laboratory device with multiple circular slots",
+          "small, clear plastic container with a white cap"
+        ],
+        "visible_text_labels": [
+          "MAXIMIX Plus"
+        ],
+        "quantities": [
+          "one small, clear plastic container"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a small, clear plastic container into a laboratory device, highlighting the importance of accurate sample handling. The MAXIMIX Plus device is prominently featured, suggesting its role in the experiment's execution phase. The close-up view emphasizes the small size and specific design of the container."
+      }
+    }
+  ]
+}

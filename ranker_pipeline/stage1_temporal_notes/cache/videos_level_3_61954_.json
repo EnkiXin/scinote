@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_3/61954_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 531.669333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        132.91733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher in a white lab coat and black mask holds a small, clear glass container with a yellow-handled tool.",
+          "The researcher carefully places the container under a microscope for observation."
+        ],
+        "objects_visible": [
+          "A clear glass container with a yellow-handled tool partially submerged in it.",
+          "A microscope with a black eyepiece and a stage for holding samples.",
+          "A laboratory setting with shelves containing various lab equipment and supplies."
+        ],
+        "visible_text_labels": [
+          "The word 'jove' is visible in the top right corner of the screen."
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment highlights the initial preparation phase of an experiment, focusing on the careful handling of a small glass container. The researcher's meticulous actions suggest a delicate procedure, possibly involving microscopic examination. The laboratory environment is well-equipped, indicating a professional setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        132.91733325,
+        265.8346665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid into a multi-well plate",
+          "microscope is used to examine a sample on a slide, with the researcher adjusting the focus and stage"
+        ],
+        "objects_visible": [
+          "multi-well plate with clear liquid in each well",
+          "pipette with a blue tip",
+          "microscope with an eyepiece and adjustable stage",
+          "sample slide under the microscope",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "Jove logo in the top right corner"
+        ],
+        "quantities": [
+          "multiple wells in the plate, each containing a small volume of liquid"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of liquids in a multi-well plate and the detailed examination of a sample under a microscope. The researcher's actions are methodical, emphasizing the importance of accuracy in the experiment. The presence of the Jove logo suggests this is part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        265.8346665,
+        398.75199975000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "microscope objective lens is lowered towards a petri dish containing a transparent substance",
+          "a pipette is used to carefully dispense a small volume of liquid into the petri dish"
+        ],
+        "objects_visible": [
+          "a petri dish with a clear liquid, placed on a metal stage of a microscope",
+          "a pipette with a fine tip, dispensing liquid into the petri dish",
+          "a microscope with a visible objective lens and adjustment knobs"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "the liquid dispensed appears to be a small volume, likely in microliters, though the exact volume is not specified"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a liquid sample into a petri dish under a microscope, highlighting the careful control required in such an experiment. The presence of the 'jove' logo suggests this is part of a scientific demonstration or tutorial. The close-up view emphasizes the interaction between the pipette and the petri dish."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        398.75199975000004,
+        531.669333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is used to capture images of cellular structures at different time points",
+          "images are displayed on a screen showing control and experimental conditions"
+        ],
+        "objects_visible": [
+          "microscope with a stage and objective lenses",
+          "petri dish containing a sample on the microscope stage",
+          "computer screen displaying microscopic images of cells",
+          "pipette adding a blue liquid to the petri dish"
+        ],
+        "visible_text_labels": [
+          "42 min, 10 \u03bcM NAPP1",
+          "control",
+          "aPKC",
+          "15 mins",
+          "120 mins",
+          "61.2 min",
+          "Lateral drift",
+          "Focus drift"
+        ],
+        "quantities": [
+          "10 \u03bcM NAPP1",
+          "15 mins",
+          "120 mins",
+          "61.2 min"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where microscopic images of cells are captured and displayed at various time intervals. The control and experimental conditions are compared, highlighting the effects of NAPP1 on cellular structures. The addition of a blue liquid to the petri dish suggests a step in the experimental procedure."
+      }
+    }
+  ]
+}

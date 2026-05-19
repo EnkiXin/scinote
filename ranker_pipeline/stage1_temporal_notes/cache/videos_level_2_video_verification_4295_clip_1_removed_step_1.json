@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/video_verification/4295/clip_1_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 44.077367,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.01934175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds blender jar with gloved hand",
+          "researcher operates blender"
+        ],
+        "objects_visible": [
+          "blender with a beige mixture inside",
+          "white blender base with control panel",
+          "cone-shaped flask with a yellowish liquid",
+          "gloved hand of a researcher",
+          "labeled containers on the shelf"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher actively blending a mixture, with a focus on the blender and the researcher's gloved hand. The presence of a cone-shaped flask with a yellowish liquid suggests a subsequent step in the process. The JOVE logo is visible, indicating the video's source."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.01934175,
+        22.0386835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a thick, light brown liquid from a metal container into a glass baking dish",
+          "researcher places a rectangular block of a light-colored material, possibly agarose, into a foil-lined tray"
+        ],
+        "objects_visible": [
+          "metal container with a yellow handle",
+          "glass baking dish containing a light brown liquid",
+          "rectangular block of light-colored material",
+          "foil-lined tray",
+          "laboratory equipment including a blender and various containers in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "thick, light brown liquid being poured into the dish"
+        ],
+        "key_distinguishing_features": "The segment focuses on the pouring of a viscous liquid into a baking dish and the placement of a block of material into a foil-lined tray, suggesting a step in a laboratory procedure. The presence of laboratory equipment in the background emphasizes the scientific setting. The actions are precise and deliberate, indicating a controlled experimental process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.0386835,
+        33.05802525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1000 mL volumetric flask with a blue stopper",
+          "researcher pours a clear liquid from a bottle into the volumetric flask"
+        ],
+        "objects_visible": [
+          "1000 mL volumetric flask with blue stopper",
+          "clear liquid in a bottle with an orange cap",
+          "laboratory bench with various equipment and cables",
+          "a blue clamp holding the volumetric flask"
+        ],
+        "visible_text_labels": [
+          "MILLIPORE"
+        ],
+        "quantities": [
+          "1000 mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a clear liquid into a volumetric flask, emphasizing the use of a blue clamp for stability. The orange-capped bottle and the blue stopper on the flask are distinctive visual elements."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        33.05802525,
+        44.077367
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small glass tube containing a white substance",
+          "researcher uses a pipette to transfer a liquid from the tube into a conical flask"
+        ],
+        "objects_visible": [
+          "conical flask with a narrow neck and wide base",
+          "pipette with a blue plunger",
+          "small glass tube with a white substance",
+          "laboratory bench with various equipment and bottles in the background"
+        ],
+        "visible_text_labels": [
+          "Bleach 2-3 min"
+        ],
+        "quantities": [
+          "2-3 min"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a liquid from a small glass tube into a conical flask, with a specific time duration of 2-3 minutes indicated for the bleach treatment. The researcher's actions are deliberate and careful, emphasizing the controlled nature of the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_2/video_segments/52818/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 24.897,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.22425
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a small, circular object on a digital scale",
+          "researcher adjusts the object on the scale with gloved fingers"
+        ],
+        "objects_visible": [
+          "digital scale with a clear protective cover",
+          "small, circular object on a piece of paper",
+          "yellow folder with a pen on top",
+          "white lab coat",
+          "blue gloves",
+          "white bottle with a red cap"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully handling a small object for precise measurement on a digital scale. The setting is a laboratory with various equipment and supplies visible, emphasizing a controlled environment. The focus is on the meticulous placement and adjustment of the object on the scale."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.22425,
+        12.4485
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "The digital display of a precision balance shows a weight reading."
+        ],
+        "objects_visible": [
+          "A digital precision balance with a model number CAUW 220D."
+        ],
+        "visible_text_labels": [
+          "CAUW 220D",
+          "0.00063 g",
+          "BRK",
+          "MENU",
+          "CAL",
+          "0/T",
+          "UNIT",
+          "1d/10d"
+        ],
+        "quantities": [
+          "0.00063 g"
+        ],
+        "key_distinguishing_features": "The segment focuses on a digital precision balance displaying a very small weight measurement, indicating the measurement phase of an experiment. The balance's model number and various control buttons are clearly visible, emphasizing the precision of the equipment. The weight reading suggests the measurement of a tiny sample, likely for scientific analysis."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.4485,
+        18.67275
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher views images on a computer screen",
+          "researcher adjusts settings on the computer"
+        ],
+        "objects_visible": [
+          "black LG computer monitor displaying microscopic images",
+          "black computer keyboard",
+          "black computer tower",
+          "researcher wearing glasses and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "Use 15 kV voltage and 1,200X magnification",
+          "jove"
+        ],
+        "quantities": [
+          "15 kV voltage",
+          "1,200X magnification",
+          "10 \u03bcm scale bar"
+        ],
+        "key_distinguishing_features": "The segment focuses on the observation of microscopic images at a specific voltage and magnification. The screen displays two distinct microscopic images with a 10 \u03bcm scale bar for reference. The researcher interacts with the computer, likely adjusting settings for optimal image analysis."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        18.67275,
+        24.897
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "viewing microscopic images on a computer screen"
+        ],
+        "objects_visible": [
+          "computer monitor displaying two microscopic images",
+          "microscopic image with scale bar labeled '10 \u03bcm'",
+          "microscopic image with scale bar labeled '10 \u03bcm'"
+        ],
+        "visible_text_labels": [
+          "10 \u03bcm",
+          "10 \u03bcm",
+          "jove"
+        ],
+        "quantities": [
+          "10 \u03bcm",
+          "10 \u03bcm"
+        ],
+        "key_distinguishing_features": "The segment focuses on the observation of microscopic images, with two distinct images displayed side by side on a computer screen. Both images feature a scale bar indicating 10 \u03bcm, suggesting a detailed examination of materials or structures at a microscopic level. The 'jove' logo is visible, indicating the source or platform of the video."
+      }
+    }
+  ]
+}

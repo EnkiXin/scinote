@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/video_verification/55500/clip_1_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 52.2522,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.06305
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a beaker on a digital scale",
+          "researcher adjusts the scale's settings"
+        ],
+        "objects_visible": [
+          "blue digital scale with a white platform",
+          "clear glass beaker with measurement markings",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of a beaker's weight using a digital scale. The researcher's gloved hand is seen interacting with the scale, emphasizing the importance of accurate measurement in the experiment. The beaker is empty, suggesting preparation for a subsequent step."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.06305,
+        26.1261
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a beaker on a digital scale",
+          "researcher adjusts the beaker on the scale"
+        ],
+        "objects_visible": [
+          "beaker with a clear liquid",
+          "digital scale with a white platform and blue base",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "caution: Adding ZrCl\u2084 to H\u2082O is highly exothermic",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a beaker containing a clear liquid onto a digital scale, emphasizing the measurement phase of the experiment. The cautionary note about the exothermic reaction of ZrCl\u2084 with water is prominently displayed, highlighting the safety considerations. The researcher's gloved hand ensures safe handling of the beaker."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        26.1261,
+        39.18915
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A hand wearing a black glove adjusts the speed dial on a magnetic stirrer to 700 rpm.",
+          "A clear glass beaker containing a light-colored liquid is placed on the magnetic stirrer, and a magnetic stir bar is visible inside the beaker."
+        ],
+        "objects_visible": [
+          "A blue and white magnetic stirrer with a speed dial and a digital display showing '50'.",
+          "A clear glass beaker with measurement markings, containing a light-colored liquid and a magnetic stir bar.",
+          "A hand wearing a black glove."
+        ],
+        "visible_text_labels": [
+          "Continue stirring at 700 rpm"
+        ],
+        "quantities": [
+          "700 rpm",
+          "50 (digital display reading)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise adjustment of a magnetic stirrer to a specific speed of 700 rpm, ensuring consistent mixing of the liquid in the beaker. The digital display and the hand's interaction with the speed dial highlight the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        39.18915,
+        52.2522
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A hand in a black glove adjusts the speed dial on a magnetic stirrer to 50.",
+          "A beaker containing a yellow liquid is placed on the magnetic stirrer."
+        ],
+        "objects_visible": [
+          "A blue magnetic stirrer with a white platform and two blue dials.",
+          "A clear glass beaker with a yellow liquid inside, marked with '600 mL' and 'KIMBLE'.",
+          "A hand wearing a black glove."
+        ],
+        "visible_text_labels": [
+          "50 (displayed on the magnetic stirrer's speed dial).",
+          "600 mL (marking on the beaker).",
+          "KIMBLE (brand name on the beaker).",
+          "Continue stirring at 700 rpm (text overlay on the screen)."
+        ],
+        "quantities": [
+          "50 (speed setting on the magnetic stirrer).",
+          "600 mL (capacity marking on the beaker)."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise adjustment of a magnetic stirrer's speed to 50, indicating a controlled mixing process. The beaker's yellow liquid and the 'KIMBLE' brand are distinctive features. The text overlay suggests a continuation of a stirring process at a specific speed."
+      }
+    }
+  ]
+}

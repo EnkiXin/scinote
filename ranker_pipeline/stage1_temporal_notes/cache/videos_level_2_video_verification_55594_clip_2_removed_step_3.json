@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_2/video_verification/55594/clip_2_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.874333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.96858325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wipes the microscope stage with a white cloth"
+        ],
+        "objects_visible": [
+          "white microscope with two eyepieces and a stage",
+          "white lab coat",
+          "blue gloves",
+          "white cloth",
+          "various lab equipment including pipettes, containers, and a tissue box"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is meticulously cleaning the microscope stage, indicating preparation for a precise experiment. The presence of various lab tools and the researcher's attire suggest a controlled laboratory environment. The 'jove' logo is prominently displayed, indicating the video's source."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.96858325,
+        17.9371665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "instruments are arranged on a clean surface"
+        ],
+        "objects_visible": [
+          "two syringes with orange caps",
+          "a pair of tweezers",
+          "a small white object resembling a rabbit",
+          "a blue and white electronic device with red and black components",
+          "a plastic pipette with a white object resembling a mouse"
+        ],
+        "visible_text_labels": [
+          "Ensure the instruments do not touch the bench",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, emphasizing the careful arrangement of instruments on a clean surface. The text overlay stresses the importance of keeping instruments sterile by not touching the bench. The variety of objects, including syringes, tweezers, and pipettes, suggests a detailed experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.9371665,
+        26.90574975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "arranges various laboratory items on a bench",
+          "displays a tissue box, a petri dish, a bottle labeled 'Worm Water', a container of pipette tips, and a box of Kimwipes"
+        ],
+        "objects_visible": [
+          "white bottle with a green cap labeled 'Worm Water'",
+          "white container with orange label holding pipette tips",
+          "white tissue box with 'Kimtech' branding",
+          "petri dish with a clear lid",
+          "white box of Kimwipes",
+          "white plastic pipette with an orange tip"
+        ],
+        "visible_text_labels": [
+          "Worm Water",
+          "Pipettes",
+          "no caps",
+          "Kimtech"
+        ],
+        "quantities": [
+          "1 bottle of Worm Water",
+          "1 container of pipette tips",
+          "1 petri dish",
+          "1 box of Kimwipes"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, showcasing a variety of laboratory supplies neatly arranged on a bench. The presence of a labeled 'Worm Water' bottle and a box of Kimwipes suggests a specific experimental context. The arrangement of items indicates readiness for a precise and controlled procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.90574975,
+        35.874333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A hand reaches into the frame and picks up a pipette from the labeled container."
+        ],
+        "objects_visible": [
+          "A white bottle labeled 'Worm Water' with a green cap and a green straw-like attachment.",
+          "A white container labeled 'Pipettes no caps' holding multiple pipettes.",
+          "A box of Kimtech tissues with a tissue partially pulled out.",
+          "A petri dish with a clear lid placed upside down on the table.",
+          "A multi-channel pipette stand in the background."
+        ],
+        "visible_text_labels": [
+          "Worm Water",
+          "Pipettes no caps",
+          "Kimtech"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where a pipette is selected from a labeled container. The workspace is organized with clearly labeled items, emphasizing a methodical approach. The action of picking up the pipette suggests the start of a procedural step in the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_3/62650_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 598.592,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        149.648
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher types on a computer keyboard while wearing a face mask.",
+          "Researcher holds a pipette and transfers liquid into a red microtube rack."
+        ],
+        "objects_visible": [
+          "Computer monitor displaying a spreadsheet with data.",
+          "Red microtube rack with multiple wells.",
+          "Pipette with a blue plunger.",
+          "White bottle labeled 'DMEM' with a blue cap.",
+          "Black keyboard and mouse on a desk."
+        ],
+        "visible_text_labels": [
+          "Procedures involving animal subjects have been approved by the UC Davis Institutional Animal Care and Use Committee and the UC Davis Institutional Biosafety Committee."
+        ],
+        "quantities": [
+          "The red microtube rack has 24 wells."
+        ],
+        "key_distinguishing_features": "This segment highlights the initial preparation phase of an experiment, where data is reviewed on a computer and liquid is transferred into microtubes. The presence of the UC Davis approval text emphasizes the regulatory compliance of the procedures. The researcher's use of a face mask and gloves underscores the importance of safety protocols."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        149.648,
+        299.296
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with a blue plunger",
+          "petri dish containing a clear medium",
+          "blue plastic test tube rack",
+          "conical flask with a yellowish liquid",
+          "black ice bucket containing ice cubes"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "~200uL of DMEM medium"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a DMEM medium, emphasizing the use of a pipette to transfer a specific volume. The presence of ice cubes in a black bucket suggests the need to maintain a cold environment for the experiment. The researcher's actions are methodical, indicating a controlled and careful execution phase."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        299.296,
+        448.94399999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher adjusts the focus and settings on a fluorescence microscope.",
+          "Researcher uses a computer to analyze and manipulate the microscope images."
+        ],
+        "objects_visible": [
+          "Fluorescence microscope with a sample slide under the objective lens.",
+          "Computer monitor displaying a red fluorescent image of a biological sample.",
+          "Computer interface with various analysis tools and settings."
+        ],
+        "visible_text_labels": [
+          "jove",
+          "Repeat the procedure for the other lateral ventricle"
+        ],
+        "quantities": [
+          "Red fluorescent image with visible cell-like structures."
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where the researcher uses a fluorescence microscope and computer software to analyze a biological sample. The red fluorescent image suggests the presence of specific labeled cells or structures. The computer interface indicates detailed image analysis and manipulation capabilities."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        448.94399999999996,
+        598.592
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Microscope displays a brain slice with red and blue fluorescence.",
+          "Cursor highlights specific regions on the brain slice image."
+        ],
+        "objects_visible": [
+          "Microscope interface with a brain slice image showing red and blue fluorescence.",
+          "Scale bars indicating 500 \u00b5m and 1 mm.",
+          "Text labels for PHP.e8 CAG-mRuby, PHP.e8 enhancer library, AAV9 CAG-eGFP, and AAV9 enhancer library.",
+          "DAPI staining label on the image."
+        ],
+        "visible_text_labels": [
+          "36.02 million units of red fluorescence",
+          "PHP.e8 CAG-mRuby",
+          "PHP.e8 enhancer library",
+          "AAV9 CAG-eGFP",
+          "AAV9 enhancer library",
+          "DAPI"
+        ],
+        "quantities": [
+          "36.02 million units of red fluorescence",
+          "500 \u00b5m",
+          "1 mm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of a brain slice with distinct red and blue fluorescence, highlighting the effectiveness of different viral vectors. The use of scale bars and specific labels for each vector and staining method provides detailed context. The cursor interaction suggests an analysis or measurement process is underway."
+      }
+    }
+  ]
+}

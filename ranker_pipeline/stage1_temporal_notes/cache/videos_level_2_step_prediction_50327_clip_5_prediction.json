@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/step_prediction/50327/clip_5_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 30.284567,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.57114175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a large white laboratory incubator",
+          "researcher places a small blue-capped tube into a centrifuge"
+        ],
+        "objects_visible": [
+          "large white laboratory incubator with a digital display",
+          "centrifuge with a blue-lit control panel",
+          "small blue-capped tube",
+          "researcher wearing purple gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment shows a researcher interacting with laboratory equipment, specifically an incubator and a centrifuge. The focus is on the precise placement of a small blue-capped tube into the centrifuge, highlighting the careful handling of laboratory materials. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.57114175,
+        15.1422835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 15mL conical tube labeled 'Lipofectamine 2000' with blue cap",
+          "researcher tilts the conical tube to inspect the contents"
+        ],
+        "objects_visible": [
+          "15mL conical tube with blue cap",
+          "purple nitrile gloves",
+          "other conical tubes in the background",
+          "a bottle of clear liquid with a label"
+        ],
+        "visible_text_labels": [
+          "Lipofectamine 2000",
+          "BPSD"
+        ],
+        "quantities": [
+          "15mL"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a 15mL conical tube, ensuring the contents are visible and properly labeled. The focus is on the preparation phase, with attention to the specific reagent 'Lipofectamine 2000'."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.1422835,
+        22.71342525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a white cabinet with a glass door",
+          "researcher places a purple object, possibly a container or a tool, inside the cabinet"
+        ],
+        "objects_visible": [
+          "white cabinet with a glass door",
+          "purple object being placed inside the cabinet",
+          "researcher wearing a white lab coat and purple gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the action of placing an object inside a cabinet, highlighting the careful handling by the researcher. The white cabinet with a glass door is a prominent feature, suggesting a controlled environment for storage. The purple object being handled adds a distinct visual element to the scene."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.71342525,
+        30.284567
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "researcher places microtube on a vortex mixer"
+        ],
+        "objects_visible": [
+          "vortex mixer labeled 'VSM-3' with a black knob and a silver body",
+          "microtube with a blue cap containing a red liquid",
+          "stack of white petri dishes in the background"
+        ],
+        "visible_text_labels": [
+          "~15 seconds each",
+          "VSM-3",
+          "jove"
+        ],
+        "quantities": [
+          "~15 seconds each"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of vortexing a microtube for a specific duration. The vortex mixer and the labeled microtube are central to the activity. The text overlay specifies the duration of the vortexing process."
+      }
+    }
+  ]
+}

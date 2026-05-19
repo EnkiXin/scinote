@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_segments/57265/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.096,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.774
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher fills a syringe with a pinkish liquid",
+          "researcher adjusts the plunger of the syringe"
+        ],
+        "objects_visible": [
+          "a syringe with a needle attached",
+          "a green plastic container",
+          "a small vial with a white label",
+          "gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "a small amount of pinkish liquid in the syringe"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a syringe, highlighting the careful filling and adjustment of the plunger. The green container and vial suggest a controlled laboratory environment. The pinkish liquid in the syringe is a distinctive feature of this segment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.774,
+        17.548
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher injects a mouse with a syringe containing a pink liquid",
+          "researcher holds the mouse steady with gloved hands"
+        ],
+        "objects_visible": [
+          "a mouse with a shaved patch on its back",
+          "a syringe with a pink liquid",
+          "gloved hands of the researcher",
+          "a white textured surface under the mouse"
+        ],
+        "visible_text_labels": [
+          "Do not pierce peritoneal cavity/limb musculature",
+          "jove"
+        ],
+        "quantities": [
+          "pink liquid in the syringe"
+        ],
+        "key_distinguishing_features": "The segment shows a precise injection procedure on a mouse, emphasizing the importance of avoiding the peritoneal cavity and limb musculature. The researcher's gloved hands are carefully manipulating the syringe and the mouse. The pink liquid in the syringe is a distinctive feature of the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.548,
+        26.321999999999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Maintains needle at injection site for 10 seconds",
+          "Holds syringe with pink liquid"
+        ],
+        "objects_visible": [
+          "Mouse with shaved back area",
+          "Syringe containing pink liquid",
+          "Gloved hands of researcher"
+        ],
+        "visible_text_labels": [
+          "Maintain needle at site for 10 s to allow basement membrane matrix solidification"
+        ],
+        "quantities": [
+          "10 seconds"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of maintaining the needle at the injection site for a specific duration. The pink liquid in the syringe is a notable feature, likely indicating a specific substance being administered. The mouse's shaved back area is clearly visible, emphasizing the injection site."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.321999999999996,
+        35.096
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small animal, likely a mouse, with gloved hands",
+          "researcher gently manipulates the animal's body, possibly for examination or preparation"
+        ],
+        "objects_visible": [
+          "small dark-colored mouse with a shaved patch on its back",
+          "gloved hands of the researcher",
+          "a white textured surface, possibly a surgical or examination table"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the handling of a small animal, emphasizing the researcher's careful manipulation. The presence of a shaved patch on the mouse suggests preparation for a specific procedure. The gloved hands highlight the sterile conditions of the experiment."
+      }
+    }
+  ]
+}

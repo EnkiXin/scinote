@@ -1,0 +1,175 @@
+{
+  "video_id": "videos/level_3/61993_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 511.381333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        127.84533325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a petri dish with a clear, yellowish liquid and a pipette",
+          "researcher uses a pipette to transfer a small volume of liquid from a microtube into a petri dish",
+          "researcher places a petri dish on a magnetic stirrer and adjusts the speed",
+          "researcher opens a refrigerator and retrieves a container with tubes",
+          "researcher places a petri dish on a magnetic stirrer and adjusts the speed"
+        ],
+        "objects_visible": [
+          "petri dish with a clear, yellowish liquid",
+          "pipette with a blue tip",
+          "microtube with a blue cap",
+          "magnetic stirrer with a rotating bar",
+          "refrigerator with a digital display",
+          "container with tubes inside the refrigerator"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase of an experiment, focusing on the handling of liquids and the use of laboratory equipment like a pipette and a magnetic stirrer. The researcher's actions are precise and methodical, emphasizing the importance of accurate liquid transfer and controlled conditions. The presence of a refrigerator and the retrieval of tubes suggest the need for temperature-sensitive materials."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        127.84533325,
+        255.6906665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Part Plasmid' with a blue cap",
+          "pipettes ~50uL of clear liquid from the microtube into a petri dish containing agar",
+          "researcher places the petri dish under a UV light to observe fluorescence"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'Part Plasmid'",
+          "petri dish containing agar",
+          "UV light source",
+          "pipette with a blue tip",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "Part Plasmid",
+          "Assembling Part Plasmids into 'Cassette' Plasmids"
+        ],
+        "quantities": [
+          "50uL of clear liquid",
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the precise handling of plasmid DNA in a microtube and the use of UV light to visualize the results. The researcher's actions are methodical, emphasizing the careful transfer of a small volume of liquid. The presence of the UV light highlights the importance of fluorescence in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        255.6906665,
+        383.53599975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'C5' with a blue cap",
+          "researcher uses a pipette to transfer a clear liquid from the microtube into a petri dish",
+          "researcher places a petri dish containing a yellow substance on a blue mat",
+          "researcher operates a centrifuge by adjusting the speed and time settings"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'C5'",
+          "pipette with a clear liquid",
+          "petri dish with a yellow substance",
+          "blue mat on the lab bench",
+          "centrifuge with a digital display and control knobs"
+        ],
+        "visible_text_labels": [
+          "C5",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "clear liquid transferred using pipette (volume not specified)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube and the transfer of a clear liquid into a petri dish, followed by the use of a centrifuge. The presence of a yellow substance in the petri dish and the labeled microtube 'C5' are distinctive elements. The centrifuge operation suggests a step in sample preparation or processing."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        383.53599975,
+        511.381333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "presents two petri dishes with distinct color patterns",
+          "compares the growth patterns of different genetic constructs"
+        ],
+        "objects_visible": [
+          "two petri dishes with a blue background",
+          "a petri dish labeled 'BTS1-ERG20 fusion TU' with orange and yellow growth patterns",
+          "a petri dish labeled 'ERG20 TU' with orange and yellow growth patterns"
+        ],
+        "visible_text_labels": [
+          "BTS1-ERG20 fusion TU",
+          "ERG20 TU",
+          "B/E-\u03b2-Carotene",
+          "B/E-Lycopene",
+          "BTS1/ERG20",
+          "E-\u03b2-Carotene",
+          "E-Lycopene"
+        ],
+        "quantities": [
+          "1 cm scale bar on each petri dish"
+        ],
+        "key_distinguishing_features": "This segment highlights the visual comparison of two genetic constructs in petri dishes, showing distinct color patterns indicative of different metabolic pathways. The scale bar provides a reference for the size of the colonies. The segment focuses on the observation phase, emphasizing the differences in growth and coloration."
+      }
+    }
+  ]
+}

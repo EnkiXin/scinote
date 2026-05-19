@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/step_prediction/58332/clip_3_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 20.6416,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.1604
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places gloved hand on a centrifuge lid",
+          "researcher adjusts the centrifuge lid"
+        ],
+        "objects_visible": [
+          "white Eppendorf centrifuge with a note on top",
+          "gloved hand of a researcher",
+          "note with handwritten text on the centrifuge"
+        ],
+        "visible_text_labels": [
+          "Eppendorf",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase involving a centrifuge, with a researcher's gloved hand interacting with the lid. The handwritten note on the centrifuge suggests specific instructions or details related to the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.1604,
+        10.3208
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, clear plastic tube with a white cap",
+          "researcher places the tube onto a blue analytical balance"
+        ],
+        "objects_visible": [
+          "blue analytical balance with a white label",
+          "small, clear plastic tube with a white cap",
+          "researcher's hand wearing a white latex glove"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of placing a small tube onto a balance, highlighting the importance of accurate measurement. The researcher's gloved hand ensures sterility and precision. The blue analytical balance is a key feature, indicating a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.3208,
+        15.481200000000001
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a blue container with a glass beaker inside a white machine",
+          "researcher adjusts the position of the container within the machine"
+        ],
+        "objects_visible": [
+          "white machine with a vertical rod and a transparent door",
+          "blue container holding a glass beaker",
+          "researcher's gloved hand",
+          "brass and green gas valves on the right side of the machine"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise placement of a blue container with a beaker inside a specialized machine, indicating a controlled experimental setup. The researcher's gloved hand ensures sterility and careful handling. The brass valves suggest the involvement of gas or pressure in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        15.481200000000001,
+        20.6416
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a green valve connected to a gold-colored gas cylinder",
+          "researcher operates a control panel with a digital display and keypad"
+        ],
+        "objects_visible": [
+          "white laboratory coat worn by the researcher",
+          "white gloves on the researcher's hands",
+          "a white and black control panel with a digital display and keypad",
+          "a gold-colored gas cylinder with a green valve and a pressure gauge",
+          "a white machine with a transparent door and a blue tray inside",
+          "a blue tray inside the machine containing a clear glass beaker and other components"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "no specific quantities or readings are visible in this segment"
+        ],
+        "key_distinguishing_features": "The segment focuses on the researcher's interaction with a gas cylinder and a control panel, indicating a step involving gas flow adjustment. The presence of a transparent door on the machine allows a view of the internal components, which include a blue tray and a beaker. The researcher's precise hand movements suggest a controlled and deliberate action."
+      }
+    }
+  ]
+}

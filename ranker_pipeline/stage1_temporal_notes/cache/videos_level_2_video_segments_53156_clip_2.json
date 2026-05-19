@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/53156/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.339,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.33475
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 15mL conical tube into a centrifuge chamber",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "centrifuge with a visible rotor and chamber",
+          "15mL conical tube with a blue cap",
+          "researcher wearing a white lab coat and blue gloves",
+          "yellow lab coat with polka dots"
+        ],
+        "visible_text_labels": [
+          "5 min 1,000 x g RT"
+        ],
+        "quantities": [
+          "15mL conical tube",
+          "5 minutes",
+          "1,000 x g"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a 15mL conical tube into a centrifuge, highlighting the centrifugation parameters of 5 minutes at 1,000 x g. The researcher's attire and careful handling of the tube emphasize the controlled environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.33475,
+        16.6695
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube containing a pink liquid",
+          "researcher uses a pipette to transfer a small volume of the pink liquid from the conical tube into a petri dish"
+        ],
+        "objects_visible": [
+          "15mL conical tube with pink liquid",
+          "pipette with a white tip",
+          "petri dish",
+          "yellow test tube rack",
+          "researcher's gloved hands",
+          "watch on the researcher's left wrist"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of pink liquid transferred"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a pink liquid from a conical tube to a petri dish using a pipette. The researcher's gloved hands and the presence of a watch on the left wrist are notable. The yellow test tube rack in the background adds context to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.6695,
+        25.00425
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with black handle",
+          "petri dish containing a small volume of pink liquid",
+          "yellow test tube rack",
+          "blue microtube storage box"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a specific volume of DMEM medium using a pipette. The pink color of the medium is distinctive, and the researcher's careful handling of the microtube and petri dish emphasizes the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.00425,
+        33.339
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap and a label",
+          "researcher uses a pipette to transfer a clear liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap and a label",
+          "pipette with a clear liquid",
+          "petri dish with a white lid",
+          "yellow rack with multiple holes",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a clear liquid from a microtube to a petri dish using a pipette. The researcher's gloved hands and the yellow rack with multiple holes are distinctive elements in the scene. The 'jove' logo is visible in the upper right corner."
+      }
+    }
+  ]
+}

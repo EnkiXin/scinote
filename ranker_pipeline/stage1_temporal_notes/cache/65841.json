@@ -1,0 +1,188 @@
+{
+  "video_id": "65841",
+  "benchmark": "scivideobench",
+  "duration_seconds": 94.037333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        23.50933325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher navigates a computer screen displaying the Gene Expression Omnibus (GEO) database",
+          "researcher selects a specific dataset from the GEO database"
+        ],
+        "objects_visible": [
+          "computer screen with a web browser open to the GEO website",
+          "browser tabs and interface elements",
+          "list of datasets and their descriptions"
+        ],
+        "visible_text_labels": [
+          "Gene Expression Omnibus",
+          "GEO",
+          "Getting Started",
+          "Information for Subscribers",
+          "Experiment type",
+          "Overall design",
+          "Platform",
+          "Sample",
+          "GSE38695"
+        ],
+        "quantities": [
+          "43089 samples",
+          "20574 samples"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on digital data preparation, specifically the selection of a gene expression dataset from the GEO database. The researcher's interaction with the computer screen highlights the initial steps in data analysis for the experiment. The presence of specific dataset identifiers and sample counts underscores the precision required in this preparatory phase."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        23.50933325,
+        47.0186665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "User clicks on the 'Analyze' button within a web-based data analysis platform.",
+          "The screen transitions to display a new window with a scatter plot graph showing gene expression data."
+        ],
+        "objects_visible": [
+          "A web browser window displaying a data analysis platform interface.",
+          "A scatter plot graph with data points and a regression line.",
+          "A table with gene expression data including columns for gene IDs, p-values, and log fold changes."
+        ],
+        "visible_text_labels": [
+          "Analyze",
+          "GSE66957",
+          "P = 0.00236",
+          "normal vs ovarian cancer"
+        ],
+        "quantities": [
+          "P-value of 0.00236",
+          "Log fold change values ranging from -2.5 to 2.5"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on executing a data analysis task within a web-based platform, transitioning from a data table to a visual scatter plot representation. The scatter plot highlights a significant p-value, indicating a notable difference in gene expression between normal and ovarian cancer samples."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        47.0186665,
+        70.52799975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "User selects 'Colon Adenocarcinoma' from a dropdown menu",
+          "User clicks 'Submit' to generate gene expression analysis results"
+        ],
+        "objects_visible": [
+          "Web browser interface displaying TNMplot website",
+          "Dropdown menu for tissue selection",
+          "Submit button",
+          "Gene expression analysis results including scatter plot and bar chart"
+        ],
+        "visible_text_labels": [
+          "TNMplot: differential gene expression analysis in Tumor, Normal, and Metastatic tissues.",
+          "Colon Adenocarcinoma",
+          "Submit",
+          "TMOD gene expression",
+          "Normal",
+          "Tumor",
+          "Cut-off in normal tissues",
+          "Min",
+          "Q1",
+          "Med",
+          "Q3",
+          "Max"
+        ],
+        "quantities": [
+          "3000 (maximum gene expression value on y-axis)",
+          "97.1% (percentage of tumors higher than normal)",
+          "25 (minimum gene expression value on y-axis)"
+        ],
+        "key_distinguishing_features": "This segment shows the user interacting with a web-based gene expression analysis tool, specifically selecting a tissue type and submitting the request. The resulting data visualization includes a scatter plot and bar chart, highlighting the differential expression of a gene in normal versus tumor tissues. The segment is distinctive for its focus on digital data analysis rather than physical experimentation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        70.52799975,
+        94.037333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Displays comparative gene expression data for TMOD3 in normal and ovarian cancer samples"
+        ],
+        "objects_visible": [
+          "Scatter plot for GSE51088 with gene expression intensity data",
+          "Scatter plot for GSE66957 with log2 mRNA expression data",
+          "Heatmap showing TMOD3 gene expression levels"
+        ],
+        "visible_text_labels": [
+          "GSE51088",
+          "GSE66957",
+          "normal",
+          "ovarian cancer",
+          "TMOD3 gene expression intensity",
+          "log2(TMOD3 mRNA expression+1)",
+          "P = 0.0082",
+          "P = 0.0026",
+          "P = 3.6E-32"
+        ],
+        "quantities": [
+          "0.4 (maximum gene expression intensity in GSE51088)",
+          "11 (maximum log2 mRNA expression in GSE66957)",
+          "3000 (maximum TMOD3 gene expression level in the heatmap)"
+        ],
+        "key_distinguishing_features": "This segment highlights significant differences in TMOD3 gene expression between normal and ovarian cancer samples, as evidenced by the p-values and visual data distribution. The heatmap distinctly shows a higher expression level in ovarian cancer samples compared to normal samples. The segment emphasizes the statistical significance of the findings with clear p-values."
+      }
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "video_id": "63393",
+  "benchmark": "scivideobench",
+  "duration_seconds": 470.933333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        117.73333325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher in a yellow lab coat and gloves handles a small, circular object with tweezers",
+          "researcher places the circular object on a flat surface and adjusts it with a tool"
+        ],
+        "objects_visible": [
+          "yellow lab coat with green polka dots",
+          "white gloves",
+          "tweezers with black handles",
+          "small, circular object with a reflective surface",
+          "a flat, dark surface with a grid pattern",
+          "a small, transparent container with a lid",
+          "a digital scale with a green display",
+          "a bottle with a black cap and a label",
+          "a small, rectangular device with a red light"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "the digital scale displays a reading of 0.0000 grams"
+        ],
+        "key_distinguishing_features": "The segment is characterized by the meticulous handling of a small, circular object in a controlled environment, likely a cleanroom, indicated by the yellow lighting and the researcher's protective attire. The presence of specialized tools and equipment suggests a high-precision task. The digital scale and other devices imply that measurements are being taken or recorded."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        117.73333325,
+        235.4666665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand places a petri dish containing a transparent material onto a digital scale.",
+          "The scale displays a reading of 0.00 grams, indicating the initial weight measurement.",
+          "A UV light box is shown with a warning label indicating 'UV LIGHT' and 'DANGER: Do not look into beam.'",
+          "A researcher operates a UV light box, likely exposing a sample to UV radiation."
+        ],
+        "objects_visible": [
+          "A digital scale with a black display and white buttons.",
+          "A petri dish with a transparent material inside.",
+          "A UV light box with a warning label and a clear glass window.",
+          "A perforated metal surface beneath the UV light box."
+        ],
+        "visible_text_labels": [
+          "UV LIGHT",
+          "DANGER: Do not look into beam."
+        ],
+        "quantities": [
+          "0.00 grams (scale reading)"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise measurement of a sample's weight using a digital scale and the subsequent exposure of the sample to UV radiation in a controlled environment. The presence of safety warnings on the UV light box underscores the importance of handling UV radiation with caution. The perforated metal surface beneath the UV box suggests a specialized setup for this type of experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        235.4666665,
+        353.19999975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small volume of liquid into a petri dish",
+          "microscope is adjusted and used to examine a sample on a glass slide"
+        ],
+        "objects_visible": [
+          "petri dishes containing clear liquid and small objects",
+          "microscope with a glass slide on the stage",
+          "graphical data displayed on a screen showing Raman spectroscopy results",
+          "laboratory equipment including a pipette and a scale"
+        ],
+        "visible_text_labels": [
+          "Normalized Intensity (a.u.)",
+          "Raman Shift (cm\u207b\u00b9)",
+          "2D peak",
+          "G peak",
+          "Graphene",
+          "Substrate"
+        ],
+        "quantities": [
+          "Raman Shift values ranging from 1400 to 2800 cm\u207b\u00b9",
+          "graph showing peaks at specific Raman Shift values"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on spectroscopic analysis, as evidenced by the Raman spectroscopy data displayed. The use of a microscope and the presence of petri dishes suggest a detailed examination of samples, likely for material characterization. The environment is a controlled laboratory setting, indicated by the specialized equipment and the careful handling of samples."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        353.19999975,
+        470.933333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The video displays a detailed molecular interaction diagram involving PBASE, BSA, and Aptamer.",
+          "A researcher, identified as Sakib Ishraq, is seen speaking and gesturing with his hands, likely explaining the molecular interactions."
+        ],
+        "objects_visible": [
+          "A molecular diagram showing PBASE, BSA, and Aptamer with specific chemical structures and interactions.",
+          "A researcher wearing a light green shirt and glasses, gesturing with his hands."
+        ],
+        "visible_text_labels": [
+          "PBASE",
+          "BSA",
+          "Aptamer",
+          "Sakib Ishraq",
+          "Graphene"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the molecular-level interaction between PBASE, BSA, and Aptamer, highlighting their chemical structures and bonds. The researcher's presence and gestures suggest an explanatory phase, emphasizing the importance of these interactions in the context of the experiment."
+      }
+    }
+  ]
+}

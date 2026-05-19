@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_2/video_segments/57346/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 36.488,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.122
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher uses a pipette to transfer liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "orange ice bucket containing microtubes",
+          "petri dishes on a white tray",
+          "beaker with a clear liquid and a red label",
+          "aluminum foil-covered container with glassware",
+          "stack of white napkins or paper towels"
+        ],
+        "visible_text_labels": [
+          "Eppendorf tubes labeled 'FALCON'"
+        ],
+        "quantities": [
+          "microtube with a blue cap",
+          "petri dishes arranged in a white tray"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer process using a pipette, with the microtube and petri dish clearly visible. The orange ice bucket and aluminum foil-covered container add context to the controlled laboratory environment. The researcher's gloved hands emphasize the sterile handling of materials."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.122,
+        18.244
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid from a bottle into a test tube",
+          "researcher carefully places the test tube into a rack"
+        ],
+        "objects_visible": [
+          "test tubes labeled 'HBC' with blue caps",
+          "an orange container filled with ice cubes",
+          "a bottle labeled 'FICOLL' partially submerged in ice",
+          "aluminum foil covering part of the work surface",
+          "a beaker with a warning label and a metal spoon inside"
+        ],
+        "visible_text_labels": [
+          "HBC",
+          "FICOLL",
+          "10% BLEACH"
+        ],
+        "quantities": [
+          "multiple test tubes in a row",
+          "a single bottle of FICOLL"
+        ],
+        "key_distinguishing_features": "The segment highlights the precise handling of test tubes and the use of a pipette for liquid transfer, emphasizing the controlled environment with ice for temperature regulation. The presence of multiple labeled test tubes and a specific FICOLL bottle suggests a step in a complex biological or chemical procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.244,
+        27.366
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube labeled 'HBG' with a blue cap",
+          "researcher places the 15mL conical tube into a white plastic tube rack"
+        ],
+        "objects_visible": [
+          "white plastic tube rack with multiple slots",
+          "15mL conical tubes with blue caps and 'HBG' label",
+          "beaker with a clear liquid and a label",
+          "aluminum foil covering part of the work surface"
+        ],
+        "visible_text_labels": [
+          "HBG"
+        ],
+        "quantities": [
+          "15mL conical tube"
+        ],
+        "key_distinguishing_features": "The researcher is handling 15mL conical tubes labeled 'HBG', indicating a specific experiment phase. The use of a white plastic tube rack suggests organization and systematic handling of multiple samples. The presence of a beaker and aluminum foil suggests a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.366,
+        36.488
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a white tray with labeled tubes into a centrifuge",
+          "researcher closes the centrifuge lid and sets the parameters on the control panel"
+        ],
+        "objects_visible": [
+          "white centrifuge with a digital control panel",
+          "white tray containing tubes labeled 'HBC' with orange caps",
+          "researcher wearing a white lab coat, blue gloves, and a blue face shield"
+        ],
+        "visible_text_labels": [
+          "5,800 x g, 15 min, 4 \u00b0C"
+        ],
+        "quantities": [
+          "5,800 x g",
+          "15 min",
+          "4 \u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the centrifugation process, with specific parameters displayed on the screen. The researcher's actions are precise, ensuring the tubes are correctly placed and the centrifuge is properly set. The use of protective gear highlights the importance of safety in the laboratory setting."
+      }
+    }
+  ]
+}

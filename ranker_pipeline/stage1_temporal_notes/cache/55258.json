@@ -1,0 +1,168 @@
+{
+  "video_id": "55258",
+  "benchmark": "scivideobench",
+  "duration_seconds": 553.344,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        138.336
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher in a white lab coat and glasses is speaking to the camera.",
+          "A gloved hand places a petri dish on a laboratory bench.",
+          "A gloved hand uses a pipette to transfer a clear liquid into a petri dish."
+        ],
+        "objects_visible": [
+          "A white lab coat worn by the researcher.",
+          "A petri dish with a clear lid and base.",
+          "A pipette with a green plunger and a white tip.",
+          "A bottle labeled 'ONE' with a red cap.",
+          "A digital timer displaying '00:00:00'."
+        ],
+        "visible_text_labels": [
+          "ONE",
+          "Plasmonic Trapping and Release of Nanoparticles in a Monitoring Environment",
+          "Jung-Dae Kim\u00b9 and Yong-Gu Lee\u00b2",
+          "\u00b9Division of Scientific Instrumentation, Korea Basic Science Institute (KBSI)",
+          "\u00b2School of Mechanical Engineering, Gwangju Institute of Science and Technology"
+        ],
+        "quantities": [
+          "The petri dish is approximately 10 cm in diameter."
+        ],
+        "key_distinguishing_features": "This segment introduces the research context with a title slide and features a researcher explaining the setup. The focus is on the preparation of a petri dish with a liquid sample, highlighting the initial steps of the experiment. The presence of a digital timer suggests time-sensitive procedures are involved."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        138.336,
+        276.672
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses tweezers to manipulate a small object in a petri dish.",
+          "A machine displays a UV intensity reading of 64 mJ/cm\u00b2.",
+          "A hand adjusts a component on a yellow machine, possibly a UV light source."
+        ],
+        "objects_visible": [
+          "A petri dish containing a clear liquid and a small object being manipulated with tweezers.",
+          "A yellow machine with a digital display and control buttons.",
+          "A gloved hand holding tweezers."
+        ],
+        "visible_text_labels": [
+          "UV intensity: 64 mJ/cm\u00b2",
+          "Ti etch rate: 25 \u00c5/s"
+        ],
+        "quantities": [
+          "64 mJ/cm\u00b2",
+          "25 \u00c5/s"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise manipulation of a small object in a petri dish using tweezers, alongside the monitoring of UV intensity and etch rate on a specialized machine. The yellow color of the machine and the specific readings displayed are distinctive features of this segment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        276.672,
+        415.00800000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish with a transparent cover and places it on a flat surface",
+          "researcher uses a pipette to add a small volume of liquid into the petri dish",
+          "researcher operates a complex optical setup, adjusting components and focusing a laser",
+          "researcher views the setup through a pair of goggles, likely for laser safety"
+        ],
+        "objects_visible": [
+          "petri dish with a transparent cover",
+          "pipette with a fine tip",
+          "optical setup with various lenses, mirrors, and a laser source",
+          "computer screen displaying a live feed of the experiment"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid added to the petri dish"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of a petri dish and the use of a sophisticated optical setup, indicating a focus on controlled experimentation. The researcher's use of safety goggles and the presence of a live feed on a computer screen suggest a high level of precision and safety in the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        415.00800000000004,
+        553.344
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher points to a diagram illustrating the location of a nanohole within a microchannel.",
+          "Researcher gestures towards the diagram to explain the flow direction and the interaction between the trapped particle and the released particle."
+        ],
+        "objects_visible": [
+          "A diagram showing a microchannel with labeled components: nanohole, gold block, trapped particle, released particle, and flow direction.",
+          "A researcher wearing glasses and a light blue shirt."
+        ],
+        "visible_text_labels": [
+          "Nanohole",
+          "Gold block",
+          "Trapped particle",
+          "Released particle",
+          "Flow direction",
+          "Location of the nanohole",
+          "Microchannel"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on a detailed explanation of a microchannel setup, highlighting the specific location of a nanohole and the dynamics of particle trapping and release. The researcher uses a diagram to visually support the explanation, emphasizing the flow direction and particle interactions."
+      }
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "video_id": "59865",
+  "benchmark": "scivideobench",
+  "duration_seconds": 487.061333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        121.76533325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'PBS-G' with a blue cap",
+          "researcher places the microtube on a purple tray"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'PBS-G'",
+          "purple tray with multiple compartments",
+          "computer monitor displaying a graph with red and blue lines",
+          "black office chair with a high backrest",
+          "microscope with a white base and black eyepiece"
+        ],
+        "visible_text_labels": [
+          "PBS-G: PBS pH 7.4 supplemented with 6 mM glucose",
+          "II. Cell Growth, Lysis, and Affinity Chromatography"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "6 mM glucose"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, highlighting the handling of a microtube labeled 'PBS-G' and its placement on a purple tray. The visible text on the screen provides specific details about the solution's composition, emphasizing the controlled environment for the experiment. The presence of a computer monitor and a microscope suggests a laboratory setting equipped for detailed scientific work."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        121.76533325,
+        243.5306665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher uses a pipette to transfer a clear liquid from a test tube into a petri dish containing ice",
+          "researcher places the microtube back into a rack filled with ice cubes"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with a white tip",
+          "petri dish filled with ice cubes",
+          "test tube with a green cap",
+          "rack for microtubes"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Do not use a pipette to resuspend"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "clear liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "This segment highlights the careful handling of a microtube labeled 'DMEM' and the precise use of a pipette to transfer a liquid into a petri dish containing ice. The presence of ice suggests a need to maintain low temperatures during the procedure. The text 'Do not use a pipette to resuspend' indicates a specific cautionary note for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        243.5306665,
+        365.29599974999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Displays a Western blot image with various protein bands",
+          "Highlights specific protein bands with a red box"
+        ],
+        "objects_visible": [
+          "Western blot image with labeled protein bands",
+          "Graphical representation of molecular weight markers",
+          "Text labels indicating experimental conditions"
+        ],
+        "visible_text_labels": [
+          "Conjugated to Ag-beads",
+          "Input",
+          "Ag-beads",
+          "PI3P",
+          "PI4P",
+          "PI5P",
+          "PI(3,4)P2",
+          "PI(3,5)P2",
+          "PI(4,5)P2",
+          "PI(3,4,5)P3",
+          "rRAP1-HA",
+          "WB: \u03b1-His",
+          "AI: PI(3,4,5)P3-agarose beads",
+          "rRAP1-His",
+          "PIP5Pase",
+          "[\u03bcM]"
+        ],
+        "quantities": [
+          "25 kDa",
+          "37 kDa",
+          "55 kDa",
+          "75 kDa",
+          "100 kDa",
+          "150 kDa",
+          "250 kDa"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of a Western blot, specifically highlighting the interaction of proteins with PI(3,4,5)P3-agarose beads. The use of a red box to emphasize a particular protein band suggests a key finding in the experiment. The detailed labeling of experimental conditions and molecular weights provides a comprehensive view of the results."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        365.29599974999996,
+        487.061333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher speaks while seated in front of a computer",
+          "researcher gestures with hands while explaining"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a scientific graph",
+          "microphone positioned near the researcher",
+          "researcher wearing glasses and a light-colored sweater"
+        ],
+        "visible_text_labels": [
+          "Ins(1,4,5)P3 Washing proteins",
+          "Not enriched",
+          "Enriched",
+          "Ladder",
+          "Lysate",
+          "Beads",
+          "Ins(1,4,5)P3",
+          "84 proteins",
+          "kDa",
+          "p-value (log10)",
+          "Fold change (log2)",
+          "FC > 2, p-value < 0.05"
+        ],
+        "quantities": [
+          "84 proteins",
+          "kDa values ranging from 0 to 250",
+          "p-value (log10) ranging from 0 to 6",
+          "fold change (log2) ranging from -2 to 8"
+        ],
+        "key_distinguishing_features": "This segment focuses on the researcher explaining data related to protein enrichment, as indicated by the detailed scientific graph on the screen. The researcher's gestures and direct engagement with the camera suggest an explanatory phase. The graph highlights specific proteins with significant fold changes and p-values, emphasizing the results of the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "video_id": "videos/level_2/step_prediction/63892/clip_8_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.931875,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.98296875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is focused on a tissue sample",
+          "a fine needle is inserted into the tissue"
+        ],
+        "objects_visible": [
+          "pink tissue with visible blood vessels",
+          "a metallic needle with a sharp tip",
+          "small black particles scattered on the tissue"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The tissue sample is highly magnified, revealing intricate details of the blood vessels and surrounding tissue. The needle's insertion suggests a precise, delicate procedure. The presence of small black particles adds an element of complexity to the tissue's appearance."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.98296875,
+        17.9659375
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "microscope is used to observe a tissue sample",
+          "forceps manipulate a small object within the tissue"
+        ],
+        "objects_visible": [
+          "pink tissue with visible capillaries and fibers",
+          "metal forceps with fine tips",
+          "small, dark object being manipulated by the forceps"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up view of a tissue sample under a microscope, highlighting the intricate details of the tissue's structure. The use of forceps to manipulate a small object within the tissue suggests a precise and delicate procedure. The 'jove' logo indicates the video is likely part of a scientific demonstration or tutorial."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.9659375,
+        26.94890625
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A metallic tool is being used to manipulate a tissue sample within a biological environment."
+        ],
+        "objects_visible": [
+          "A metallic tool with a pointed tip",
+          "A pinkish tissue sample with visible capillaries and cellular structures"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up view of a tissue sample being manipulated with a metallic tool, highlighting the intricate details of the tissue's surface. The tool appears to be carefully adjusting or dissecting the tissue, suggesting a precise surgical or experimental procedure. The 'jove' logo indicates the video is likely part of a scientific demonstration or educational content."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.94890625,
+        35.931875
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A researcher uses a cotton swab to apply a substance to the exposed tissue of an animal's neck.",
+          "The researcher manipulates the tissue with a pair of forceps."
+        ],
+        "objects_visible": [
+          "A cotton swab with a white tip",
+          "A pair of metallic forceps with pointed tips",
+          "Exposed tissue and organs of an animal's neck",
+          "The animal's fur, which is dark and light in patches"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a delicate surgical procedure involving the application of a substance to the animal's tissue. The use of a cotton swab and forceps highlights the precision required. The exposed tissue and organs are clearly visible, indicating an invasive procedure."
+      }
+    }
+  ]
+}

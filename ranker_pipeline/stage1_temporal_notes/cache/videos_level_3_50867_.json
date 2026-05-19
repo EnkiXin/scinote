@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_3/50867_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 562.837333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        140.70933325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher holds a 1.5mL microtube labeled 'GSH x5' with a yellow cap.",
+          "The researcher places the microtube on a magnetic stirrer."
+        ],
+        "objects_visible": [
+          "A 1.5mL microtube with a yellow cap labeled 'GSH x5'.",
+          "A magnetic stirrer with a white base and a black knob.",
+          "A ruler with red markings on the left side of the frame."
+        ],
+        "visible_text_labels": [
+          "GSH x5",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "GSH x5"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the preparation of a specific reagent, GSH x5, which is likely a concentrated solution of glutathione. The presence of a magnetic stirrer suggests that the solution may need to be mixed or kept in motion during the experiment. The ruler in the background provides a sense of scale and context for the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        140.70933325,
+        281.4186665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 6-well cell culture plate and uses a pipette to transfer liquid into one of the wells",
+          "researcher places the 6-well plate on a magnetic stirrer and adjusts the speed using a dial",
+          "researcher uses a digital pH meter to measure the pH of a solution in a beaker"
+        ],
+        "objects_visible": [
+          "6-well cell culture plate with clear wells",
+          "pipette with a blue plunger",
+          "magnetic stirrer with a white base and a black dial",
+          "digital pH meter with a display screen showing a reading",
+          "beaker containing a clear solution"
+        ],
+        "visible_text_labels": [
+          "2.5, 5.0, 7.5, or 10 min",
+          "pH"
+        ],
+        "quantities": [
+          "2.5, 5.0, 7.5, or 10 minutes",
+          "pH reading on the digital meter"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of cell culture plates and the use of a magnetic stirrer, highlighting the importance of controlled conditions in the experiment. The inclusion of a digital pH meter indicates the need for accurate measurement of solution properties. The specific time intervals mentioned suggest a time-course experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        281.4186665,
+        422.12799974999996
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher operates a centrifuge by adjusting the speed dial and pressing the start button",
+          "researcher places a foil-covered container into a microwave oven and sets the timer",
+          "researcher uses a pipette to transfer a clear liquid from a test tube into a petri dish"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital display and control panel",
+          "microwave oven with a digital timer and control knobs",
+          "foil-covered container placed inside the microwave",
+          "pipette with a blue plunger and a clear pipette tip",
+          "petri dish with a clear liquid being added",
+          "test tube with a clear liquid"
+        ],
+        "visible_text_labels": [
+          "jove logo in the top right corner",
+          "centrifuge brand name 'Heraeus' visible on the device",
+          "microwave brand name 'GE' visible on the device"
+        ],
+        "quantities": [
+          "centrifuge speed set to 3000 RPM",
+          "microwave timer set to 2 minutes",
+          "pipette volume set to approximately 200 microliters"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on multiple laboratory equipment operations, including precise adjustments to a centrifuge and microwave, as well as the careful transfer of a liquid using a pipette. The presence of the jove logo suggests this is part of a professional scientific video tutorial. The actions are methodical and highlight the importance of accurate equipment use in experimental procedures."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        422.12799974999996,
+        562.837333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'CFTR' with a blue cap.",
+          "Researcher places the microtube on a white tray."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap labeled 'CFTR'",
+          "White tray with a grid pattern",
+          "White lab coat worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "CFTR",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of a microtube labeled 'CFTR', indicating a specific protein of interest. The white tray with a grid pattern suggests an organized method for sample placement. The researcher's attire, a white lab coat, emphasizes a controlled laboratory environment."
+      }
+    }
+  ]
+}

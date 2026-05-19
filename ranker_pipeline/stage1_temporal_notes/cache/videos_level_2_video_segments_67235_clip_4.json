@@ -1,0 +1,176 @@
+{
+  "video_id": "videos/level_2/video_segments/67235/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 25.832,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.458
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays segmented regions of a 3D model",
+          "user selects and highlights specific areas within the model"
+        ],
+        "objects_visible": [
+          "3D model of a circular structure with internal features",
+          "software interface with various tools and settings",
+          "highlighted regions labeled 'Frame 1' and 'Frame 2'"
+        ],
+        "visible_text_labels": [
+          "Dragogyffis 3D Model Workbench Viewer 2024.1",
+          "Slice 707 / 1160",
+          "Frame 1",
+          "Frame 2",
+          "Range Min: 0 Max: 1000"
+        ],
+        "quantities": [
+          "8,755.50 x 8,173.84 \u00b5m",
+          "Slice 707 / 1160"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where specific regions within a 3D model are being highlighted and analyzed. The software interface provides detailed measurements and slice information, indicating a precise analysis of the model's internal structures. The highlighted 'Frame 1' and 'Frame 2' suggest a comparative or sequential analysis of different sections."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.458,
+        12.916
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Graph updates with training progress",
+          "Progress bar advances slightly"
+        ],
+        "objects_visible": [
+          "Graph with epoch and loss data",
+          "Progress bar labeled 'Epochs'",
+          "Training parameters table"
+        ],
+        "visible_text_labels": [
+          "Training model 'Teghik_1' on Net2D_01",
+          "Epochs",
+          "Loss",
+          "Training parameters",
+          "Data augmentation",
+          "Training data information"
+        ],
+        "quantities": [
+          "Epochs: 0%",
+          "Loss: 0.0000"
+        ],
+        "key_distinguishing_features": "This segment shows the initial phase of a machine learning model training process, with a graph that begins to plot the loss over epochs. The progress bar indicates the start of the training, with minimal advancement. The interface provides detailed training parameters and data augmentation settings."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.916,
+        19.374000000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A dialog box appears, prompting the user to publish a trained model with specific parameters.",
+          "The user interacts with the dialog box, likely confirming or adjusting settings."
+        ],
+        "objects_visible": [
+          "A software interface with a 3D segmented image of biological structures in the center.",
+          "A dialog box with options for publishing a trained model.",
+          "Color-coded regions in the 3D image, including purple, teal, and white.",
+          "A timeline bar at the bottom of the interface."
+        ],
+        "visible_text_labels": [
+          "Publish",
+          "Trained model",
+          "Drag a trained model into a project to make it available to other features of Dragonfly 3D Works.",
+          "Model name: Segmentation_2023-07-12_12-34-56",
+          "Model description: Trained model for segmentation of specific biological structures."
+        ],
+        "quantities": [
+          "The model name includes a timestamp: 2023-07-12_12-34-56."
+        ],
+        "key_distinguishing_features": "This segment is distinctive because it shows the process of publishing a trained model within a software interface, highlighting the interaction with a dialog box. The 3D segmented image with color-coded regions is a key visual element, indicating the application of the model in biological structure analysis. The presence of a specific timestamp in the model name provides a precise reference for the model's creation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.374000000000002,
+        25.832
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays a cross-sectional image of a biological sample",
+          "user interacts with the software, adjusting parameters and viewing different slices"
+        ],
+        "objects_visible": [
+          "software interface with various toolbars and panels",
+          "circular cross-sectional image of a biological sample with a porous structure",
+          "3D model preview in the top left corner"
+        ],
+        "visible_text_labels": [
+          "Slice 707 / 1412",
+          "Yaw: 0.0\u00b0",
+          "Pitch: 180.0\u00b0",
+          "Roll: 0.0\u00b0",
+          "Range Min: 0 Max: 255",
+          "13.123,54 X 9.899,97 \u00b5m"
+        ],
+        "quantities": [
+          "707 / 1412 slices",
+          "13.123,54 \u00b5m",
+          "9.899,97 \u00b5m",
+          "180.0\u00b0 pitch"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of a detailed cross-sectional image of a biological sample, likely bone or a similar porous structure, using a specialized software interface. The user is actively adjusting viewing parameters, such as pitch and slice number, to analyze the sample from different angles. The interface includes precise measurements and a 3D model preview, indicating a high level of detail in the analysis."
+      }
+    }
+  ]
+}

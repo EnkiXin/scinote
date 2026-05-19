@@ -1,0 +1,143 @@
+{
+  "video_id": "videos/level_2/video_verification/57988/clip_2_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 35.981016,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.995254
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a small volume of pink-colored liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "pipette with a fine tip",
+          "petri dish containing a white, cloudy substance",
+          "pink-colored liquid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action, with a focus on the interaction between the pipette and the petri dish. The pink color of the liquid contrasts sharply with the white substance in the dish, making the action visually distinct. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.995254,
+        17.990508
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "uses fine-tipped forceps to manipulate a small, soft tissue sample",
+          "carefully separates and adjusts the tissue within a liquid medium"
+        ],
+        "objects_visible": [
+          "fine-tipped forceps with metallic sheen",
+          "soft tissue sample with a pinkish hue and visible striations",
+          "liquid medium with small bubbles"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of a delicate tissue sample using forceps, highlighting the careful handling required in the procedure. The liquid medium and the presence of bubbles suggest a controlled environment for tissue processing. The close-up view emphasizes the fine details of the tissue and the tools used."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.990508,
+        26.985761999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope adjusts focus on tissue sample"
+        ],
+        "objects_visible": [
+          "pinkish tissue sample with visible striations",
+          "metallic pins securing tissue",
+          "microscope stage"
+        ],
+        "visible_text_labels": [
+          "DRGs: Dorsal Root Ganglia"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up view of a tissue sample, likely a dorsal root ganglion, secured with metallic pins. The tissue exhibits a pinkish hue with distinct striations, suggesting detailed observation under a microscope. The camera's focus shifts slightly, enhancing the visibility of the tissue's texture."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.985761999999998,
+        35.981016
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope is focused on a sample containing elongated, white, segmented structures"
+        ],
+        "objects_visible": [
+          "white, segmented structures resembling nematodes or similar organisms"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "approximately 10 segmented structures are visible"
+        ],
+        "key_distinguishing_features": "The segment focuses on a microscopic view of segmented structures, likely biological samples, with a clear emphasis on their elongated and white appearance. The 'jove' logo is visible, indicating the source of the video. The structures are arranged in a somewhat scattered pattern on the surface."
+      }
+    }
+  ]
+}

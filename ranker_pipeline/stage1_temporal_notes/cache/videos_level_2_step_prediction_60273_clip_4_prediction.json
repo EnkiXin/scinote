@@ -1,0 +1,147 @@
+{
+  "video_id": "videos/level_2/step_prediction/60273/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 23.862,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.9655
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "a 96-well plate is shown with pink liquid in each well"
+        ],
+        "objects_visible": [
+          "a transparent 96-well plate filled with pink liquid",
+          "a clear plastic lid partially covering the plate",
+          "a stainless steel surface on which the plate is placed"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "96 wells"
+        ],
+        "key_distinguishing_features": "The segment highlights a 96-well plate with a uniform pink liquid in each well, suggesting a prepared sample for analysis. The clear plastic lid indicates the plate is either being prepared for or has just completed a step in the experiment. The stainless steel surface suggests a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.9655,
+        11.931
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 96-well plate into an incubator"
+        ],
+        "objects_visible": [
+          "96-well plate with purple liquid in wells",
+          "incubator with perforated shelves",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "96 wells"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher carefully placing a 96-well plate containing purple liquid into an incubator. The incubator's interior is visible, featuring perforated shelves. The researcher's gloved hand is the primary focus as they handle the plate."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.931,
+        17.8965
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a multi-well plate with a purple cover onto a black platform of a machine",
+          "researcher adjusts the multi-well plate on the platform"
+        ],
+        "objects_visible": [
+          "multi-well plate with a purple cover",
+          "black platform of a machine",
+          "researcher wearing a white lab coat and teal gloves"
+        ],
+        "visible_text_labels": [
+          "Corning"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a multi-well plate onto a machine, indicating a step in an automated process. The purple cover of the plate is a distinctive feature, and the researcher's gloved hand ensures contamination-free handling."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.8965,
+        23.862
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher looks through the eyepiece of a compound microscope",
+          "researcher adjusts the microscope's focus knobs"
+        ],
+        "objects_visible": [
+          "compound microscope with multiple objective lenses",
+          "computer monitor displaying a microscopic image with a crosshair",
+          "tablet device on the desk showing control interfaces",
+          "researcher wearing a white lab coat and teal gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively observing a sample under a compound microscope, with the corresponding image displayed on a computer monitor. The setup includes a tablet for controlling the microscope, indicating a high-tech laboratory environment. The focus is on the interaction between the microscope and the digital display."
+      }
+    }
+  ]
+}

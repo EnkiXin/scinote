@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/63855/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.231,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.05775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a microtube",
+          "researcher places the microtube into a blue microtube rack"
+        ],
+        "objects_visible": [
+          "blue microtube rack containing several microtubes",
+          "pipette with a white and orange handle",
+          "microtube with a blue cap",
+          "bottles of reagents with labels and barcodes",
+          "pink microtube rack in the background",
+          "petri dish with a red cap"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Sigma-Aldrich"
+        ],
+        "quantities": [
+          "microtube labeled 'DMEM' with a blue cap"
+        ],
+        "key_distinguishing_features": "The researcher is meticulously handling a pipette to transfer liquid into a microtube, emphasizing precision in the experiment. The presence of labeled reagent bottles and a petri dish suggests a controlled laboratory environment. The blue microtube rack is a distinctive feature, organizing the microtubes for easy access."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.05775,
+        16.1155
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher closes the lid of a centrifuge",
+          "researcher presses buttons on the centrifuge control panel"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital display and control buttons",
+          "researcher wearing a white lab coat, blue gloves, and a face mask"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "digital display on the centrifuge showing '00:00'"
+        ],
+        "key_distinguishing_features": "The researcher is actively interacting with the centrifuge, closing the lid and setting parameters. The centrifuge's digital display is prominently visible, showing a time setting. The researcher's protective gear is clearly visible, emphasizing a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.1155,
+        24.173250000000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a test tube",
+          "researcher places the test tube into a blue test tube rack"
+        ],
+        "objects_visible": [
+          "blue test tube rack with multiple slots",
+          "pipette with a transparent tip",
+          "test tube with a green cap",
+          "orange-capped container with a label",
+          "blue-lidded container with a label",
+          "red liquid in the test tube",
+          "various containers and equipment in the background"
+        ],
+        "visible_text_labels": [
+          "label on the orange-capped container with text that is not fully legible",
+          "label on the blue-lidded container with text that is not fully legible"
+        ],
+        "quantities": [
+          "amount of liquid dispensed is not specified but appears to be a small volume"
+        ],
+        "key_distinguishing_features": "The researcher's precise handling of the pipette and test tube highlights the careful nature of the experiment. The use of a blue test tube rack suggests an organized workflow. The presence of multiple labeled containers indicates a complex experimental setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.173250000000003,
+        32.231
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a blue microtube rack into a laboratory incubator",
+          "researcher closes the incubator door"
+        ],
+        "objects_visible": [
+          "blue microtube rack containing multiple microtubes",
+          "laboratory incubator with a digital display and control panel",
+          "researcher wearing a white lab coat, blue gloves, and a face mask"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple microtubes in the blue rack"
+        ],
+        "key_distinguishing_features": "This segment shows the precise placement of a blue microtube rack into an incubator, highlighting the careful handling of laboratory materials. The researcher's protective gear underscores the controlled environment necessary for the experiment. The incubator's digital display suggests a controlled temperature setting for the microtubes."
+      }
+    }
+  ]
+}

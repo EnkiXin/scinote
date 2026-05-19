@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_2/step_prediction/2137/clip_3_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 26.661651,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.66541275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher picks up a 1.5mL microtube from a yellow rack",
+          "researcher places the microtube back into the yellow rack"
+        ],
+        "objects_visible": [
+          "yellow microtube rack holding several tubes with blue caps",
+          "red and white bottles labeled 'DMEM Complete Medium'",
+          "red biohazard container",
+          "black pipette tips in a holder"
+        ],
+        "visible_text_labels": [
+          "S2-DRSC Drosophila",
+          "25\u00b0C",
+          "DMEM Complete Medium"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment shows a researcher handling a microtube in a yellow rack, with a focus on preparation for an experiment involving Drosophila cells. The environment is a clean, organized laboratory setup with specific media and temperature conditions indicated."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.66541275,
+        13.3308255
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and transfers liquid into a petri dish",
+          "researcher places the petri dish on a yellow perforated rack"
+        ],
+        "objects_visible": [
+          "pipette with a blue plunger",
+          "petri dish with a clear lid",
+          "yellow perforated rack",
+          "red and white labeled bottles",
+          "1.5mL microtube with a blue cap"
+        ],
+        "visible_text_labels": [
+          "S2-DRSC Drosophila",
+          "25\u00b0C",
+          "Log phase",
+          "jove"
+        ],
+        "quantities": [
+          "~200uL of liquid transferred"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer using a pipette into a petri dish, emphasizing the controlled environment of 25\u00b0C for Drosophila cell culture. The yellow perforated rack is distinctive, likely used for organizing multiple petri dishes."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.3308255,
+        19.996238249999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher looks through the eyepiece of a microscope",
+          "researcher adjusts the focus knobs on the microscope"
+        ],
+        "objects_visible": [
+          "white lab coat",
+          "microscope with a black and white body",
+          "computer keyboard",
+          "laptop screen",
+          "laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively engaged in observing a sample under the microscope, indicating a phase of detailed examination. The presence of a laptop and keyboard suggests data recording or analysis may be part of the process. The 'jove' logo indicates the video is likely from a scientific instructional source."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.996238249999998,
+        26.661651
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 50mL conical tube labeled 'Cells' with a white cap",
+          "researcher tilts the conical tube to pour liquid into a clear petri dish"
+        ],
+        "objects_visible": [
+          "50mL conical tube with a white cap and handwritten label",
+          "clear petri dish with a ruler marked in centimeters",
+          "yellow perforated rack in the background",
+          "red surface with handwritten text"
+        ],
+        "visible_text_labels": [
+          "Cells",
+          "125% of cells needed",
+          "jove"
+        ],
+        "quantities": [
+          "125% of cells needed"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of transferring cells from a labeled conical tube into a petri dish, emphasizing the need for 125% of the required cell quantity. The presence of a ruler in the petri dish suggests a measurement or observation step is imminent."
+      }
+    }
+  ]
+}

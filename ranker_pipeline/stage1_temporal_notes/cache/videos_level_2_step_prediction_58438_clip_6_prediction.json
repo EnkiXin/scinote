@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/step_prediction/58438/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.522133,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.63053325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a long cylindrical object with a metallic finish",
+          "researcher adjusts the position of the cylindrical object on a white cloth"
+        ],
+        "objects_visible": [
+          "long metallic cylindrical object with a darkened end",
+          "white cloth on the lab bench",
+          "various lab equipment including a microtome and containers with reagents",
+          "researcher wearing a white lab coat and purple gloves"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a long metallic cylindrical object, likely a core sample, which is being prepared for analysis. The researcher's actions are deliberate, emphasizing the importance of the object. The lab setting is well-equipped, indicating a professional environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.63053325,
+        17.2610665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses purple gloves to handle a cylindrical object",
+          "researcher places the cylindrical object into a machine labeled 'HOT'"
+        ],
+        "objects_visible": [
+          "cylindrical object wrapped in white material",
+          "machine with a blue front panel and a 'HOT' label",
+          "researcher wearing a white lab coat and purple gloves",
+          "green gas cylinder with attached pipes",
+          "beaker and other laboratory equipment on the counter"
+        ],
+        "visible_text_labels": [
+          "HOT",
+          "SCCM = Standard Cubic Centimeter per Minute"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully handling a hot cylindrical object, indicating a process that requires heat. The presence of the 'HOT' label on the machine emphasizes the need for caution. The segment highlights a specific step in a laboratory procedure involving temperature-sensitive equipment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.2610665,
+        25.891599749999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a glass tube with a purple liquid, carefully positioning it into a metal apparatus",
+          "researcher adjusts the tube within the apparatus, ensuring it is securely placed"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and purple gloves",
+          "metal apparatus with a circular opening and a label reading 'HOT'",
+          "glass tube containing a purple liquid",
+          "laboratory equipment including a gas cylinder, various pipes, and a control panel"
+        ],
+        "visible_text_labels": [
+          "HOT"
+        ],
+        "quantities": [
+          "one glass tube"
+        ],
+        "key_distinguishing_features": "The researcher is handling a glass tube with a purple liquid, indicating a specific chemical or solution. The apparatus is labeled 'HOT,' suggesting the tube is being placed in a heated environment. The precise and careful handling of the tube highlights the importance of the step in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.891599749999997,
+        34.522133
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand adjusts the settings on a control panel of a large machine."
+        ],
+        "objects_visible": [
+          "A large cylindrical machine with a 'HOT' warning sign",
+          "A control panel with multiple digital displays and buttons",
+          "A gloved hand wearing a purple glove",
+          "A white lab coat partially visible",
+          "Various cables and tubes connected to the machine",
+          "A white box with electrical outlets and switches"
+        ],
+        "visible_text_labels": [
+          "HOT",
+          "ALARM CONTROLLER",
+          "21"
+        ],
+        "quantities": [
+          "21 (displayed on the digital readout)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the interaction with a complex machine, highlighting the adjustment of settings on a control panel. The presence of a 'HOT' warning sign indicates the machine operates at high temperatures. The detailed view of the control panel and the gloved hand emphasizes the precision required in this step."
+      }
+    }
+  ]
+}

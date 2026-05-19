@@ -1,0 +1,166 @@
+{
+  "video_id": "videos/level_3/52601_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 588.202667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        147.05066675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher is seen speaking to the camera, likely explaining the setup or context of the experiment."
+        ],
+        "objects_visible": [
+          "A man wearing a striped shirt, seated in an office environment with a plant and a framed certificate in the background.",
+          "A diagram showing a circular array labeled 'CA3' with a smaller inset image of a brain slice."
+        ],
+        "visible_text_labels": [
+          "CA3",
+          "array",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment is distinctive for its introductory nature, focusing on the researcher's explanation and the visual representation of the 'CA3' array. The office setting and the presence of a plant add a personal touch to the scientific context."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        147.05066675,
+        294.1013335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, clear petri dish with a yellow label reading 'CSF' and uses a pipette to transfer a small volume of liquid into it",
+          "researcher places the petri dish under a microscope for observation"
+        ],
+        "objects_visible": [
+          "petri dish with a yellow label reading 'CSF'",
+          "pipette with a blue tip",
+          "microscope with a clear view of the petri dish",
+          "researcher wearing a white lab coat and purple gloves"
+        ],
+        "visible_text_labels": [
+          "CSF",
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a petri dish labeled 'CSF' and the subsequent microscopic observation. The researcher's actions are deliberate, emphasizing the careful transfer of liquid. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        294.1013335,
+        441.15200025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes approximately 200uL of pink-colored DMEM medium into a petri dish",
+          "microscope is adjusted to focus on a small, white, fibrous object within a petri dish",
+          "researcher uses a fine-tipped tool to manipulate a small, white, fibrous object under the microscope"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pink-colored DMEM medium",
+          "petri dish containing a small, white, fibrous object",
+          "microscope with adjustable focus knobs",
+          "fine-tipped tool for manipulating small objects"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Leica"
+        ],
+        "quantities": [
+          "200uL",
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling and manipulation of a small, white, fibrous object under a microscope, highlighting the use of DMEM medium. The researcher's actions are meticulous, emphasizing the importance of accuracy in the experiment. The Leica microscope and the fine-tipped tool are key tools used in this detailed work."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        441.15200025,
+        588.202667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher observes data on a screen",
+          "researcher adjusts a microscope"
+        ],
+        "objects_visible": [
+          "microscope with a yellow and black handle",
+          "gloved hand adjusting the microscope",
+          "data graph on a screen"
+        ],
+        "visible_text_labels": [
+          "IV. Results: Data Recorded by the PMEA from an Unfolded Hippocampus",
+          "1 mV",
+          "200 ms",
+          "600 \u00b5V",
+          "300 \u00b5V",
+          "200 ms"
+        ],
+        "quantities": [
+          "1 mV",
+          "200 ms",
+          "600 \u00b5V",
+          "300 \u00b5V"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where data from an unfolded hippocampus is recorded and displayed on a graph. The researcher is seen adjusting a microscope, likely to ensure accurate data collection. The graph includes specific voltage and time measurements, indicating a detailed analysis of the recorded data."
+      }
+    }
+  ]
+}

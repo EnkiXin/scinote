@@ -1,0 +1,176 @@
+{
+  "video_id": "videos/level_3/57240_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 563.328,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        140.832
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DNA' with a blue cap",
+          "researcher uses a pipette to transfer a small volume of liquid into a test tube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "pipette with a black handle",
+          "red test tube rack",
+          "green plant tissue sample",
+          "laboratory countertop with various equipment"
+        ],
+        "visible_text_labels": [
+          "DNA",
+          "II. Isolation of Genomic DNA from Plant Tissue"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "small volume of liquid (exact volume not specified)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the initial steps of DNA isolation from plant tissue, highlighting the use of a labeled microtube and a pipette for liquid transfer. The presence of a green plant tissue sample suggests the source material for the experiment. The text label 'II. Isolation of Genomic DNA from Plant Tissue' clearly indicates the purpose of the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        140.832,
+        281.664
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish",
+          "researcher places the microtube back into a red storage rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "red storage rack for microtubes",
+          "petri dish containing pink-colored DMEM medium",
+          "pipette with a visible plunger and tip",
+          "laboratory bench with various equipment and containers"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "See the Table of Materials for all the reagents"
+        ],
+        "quantities": [
+          "200uL",
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling and transfer of DMEM medium using a pipette. The researcher's actions are methodical, emphasizing the importance of accurate volume measurement. The use of a labeled microtube and a petri dish highlights the controlled environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        281.664,
+        422.496
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'Tris-acetate EDTA Buffer' with blue cap",
+          "researcher uses a pipette to transfer a clear liquid from the microtube into a small beaker",
+          "researcher places insulated gloves on their hands",
+          "researcher handles a hot plate with insulated gloves"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'Tris-acetate EDTA Buffer'",
+          "pipette with a blue plunger",
+          "small beaker containing a clear liquid",
+          "insulated gloves with a textured surface",
+          "hot plate with a glowing red heating element"
+        ],
+        "visible_text_labels": [
+          "Tris-acetate EDTA Buffer",
+          "Wear insulated gloves in order to prevent burns"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "clear liquid transferred using pipette (quantity not specified)"
+        ],
+        "key_distinguishing_features": "This segment highlights the careful handling of a hot plate with insulated gloves, emphasizing safety. The researcher's actions involve precise liquid transfer using a pipette, and the use of a labeled microtube is clearly visible. The text overlay provides a safety instruction, adding context to the actions."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        422.496,
+        563.328
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher examines a gel electrophoresis image displayed on a screen",
+          "Researcher points to specific bands on the gel image while explaining the results"
+        ],
+        "objects_visible": [
+          "Gel electrophoresis image with distinct bands",
+          "Researcher in a white lab coat with a microphone",
+          "PCR primer pairs labeled as LAA2/LAJ5, Las606/LSS, and FBOX",
+          "DNA samples labeled as gDNA 1 to gDNA 6",
+          "Internal Amplification Control labeled as FBOX"
+        ],
+        "visible_text_labels": [
+          "LAA2/LAJ5 (700 bp)",
+          "Las606/LSS (500 bp)",
+          "FBOX (400 bp)",
+          "Uninfected",
+          "Clas Infected",
+          "Internal Amplification Control"
+        ],
+        "quantities": [
+          "700 bp",
+          "500 bp",
+          "400 bp"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase where the researcher analyzes PCR amplification results for identifying the Citrus Greening Bacterium. The gel electrophoresis image is central, showing distinct bands for infected and uninfected samples. The researcher's detailed explanation highlights the significance of the bands corresponding to specific primer pairs."
+      }
+    }
+  ]
+}

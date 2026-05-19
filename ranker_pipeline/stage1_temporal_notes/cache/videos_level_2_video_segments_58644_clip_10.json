@@ -1,0 +1,185 @@
+{
+  "video_id": "videos/level_2/video_segments/58644/clip_10.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.008,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.502
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher observes the computer screen displaying a method file for MS and MS/MS analysis"
+        ],
+        "objects_visible": [
+          "researcher with curly red hair wearing a white lab coat and safety glasses",
+          "computer monitor displaying a method file interface with various settings and diagrams",
+          "complex laboratory equipment with tubes, wires, and components",
+          "text overlay on the screen"
+        ],
+        "visible_text_labels": [
+          "See text for building the MS and MS/MS method file"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the researcher observing a computer screen with a detailed method file for MS and MS/MS analysis. The laboratory equipment in the background is intricate, with visible tubes and components. The text overlay provides a specific instruction related to the method file."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.502,
+        21.004
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "The user interacts with the software interface, adjusting settings related to the mass spectrometer.",
+          "The user changes the 'Spectrum data type' from 'Centroid' to 'Profile'."
+        ],
+        "objects_visible": [
+          "Computer screen displaying a mass spectrometry software interface",
+          "Graph showing mass spectra data",
+          "Settings panel with various adjustable parameters"
+        ],
+        "visible_text_labels": [
+          "Instrument Status",
+          "Total Ion Current",
+          "TIC Variation",
+          "Inject time",
+          "AGC Target reached",
+          "AGC Precursor Mode",
+          "Scan rate",
+          "Spectrum data type",
+          "Profile",
+          "Centroid",
+          "Control",
+          "Settings",
+          "Define Scan",
+          "Ion Transfer",
+          "Mass Calibration Data",
+          "System",
+          "Analysis Graph",
+          "Performance",
+          "Electronics"
+        ],
+        "quantities": [
+          "16.8668E6 ions/sec (Total Ion Current)",
+          "15% (TIC Variation)",
+          "23.09 ms (Inject time)",
+          "100% (AGC Target reached)",
+          "7.4 scans/sec (Scan rate)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the software interface of a mass spectrometry system, where the user is actively adjusting the 'Spectrum data type' setting. The interface displays real-time data such as ion current and scan rate, providing a detailed view of the instrument's performance. The transition from 'Centroid' to 'Profile' mode is a key action in this segment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.004,
+        31.506
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The video transitions to a software interface displaying a list of samples and their associated data files.",
+          "The cursor moves to highlight a specific row in the sample list."
+        ],
+        "objects_visible": [
+          "Computer screen showing a software interface with a sample list.",
+          "Highlighted row in the sample list indicating 'ndeb_ntapcotes_Brx'."
+        ],
+        "visible_text_labels": [
+          "Sample Type",
+          "File Name",
+          "Sample ID",
+          "Path",
+          "Inst Meth",
+          "ndeb_ntapcotes_Brx",
+          "C:\\CALIBUR\\DATA\\ZY\\blank_180912222141.raw"
+        ],
+        "quantities": [
+          "1.00 (Spray voltage)",
+          "247 (Capillary temp.)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase within a software interface, where a specific sample is highlighted for further analysis. The transition from the previous settings screen to the sample list is notable, emphasizing the progression in the experiment's data handling. The detailed file path and sample ID provide specific context for the highlighted sample."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.506,
+        42.008
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "user navigates through a software interface to select a method file",
+          "user opens a file selection dialog to choose a specific method file"
+        ],
+        "objects_visible": [
+          "software interface with a 'Run Sequence' window",
+          "file selection dialog with a list of method files",
+          "computer screen displaying a scientific data management software"
+        ],
+        "visible_text_labels": [
+          "Run Sequence",
+          "Method",
+          "Start When Ready",
+          "Change Instruments",
+          "Q Exactive HF - Ddabap MS",
+          "Therma EASY-nLC",
+          "C:\\V\\CALIBUR\\DATA\\ENM-20180917\\v1"
+        ],
+        "quantities": [
+          "3 rows in the sample table",
+          "3 run rows in the method selection"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on software-based method selection for a scientific instrument, highlighting the user's interaction with a file dialog to choose a specific method. The interface shows detailed paths and method names, indicating a precise setup process. The segment emphasizes the execution phase of an experiment through digital configuration."
+      }
+    }
+  ]
+}

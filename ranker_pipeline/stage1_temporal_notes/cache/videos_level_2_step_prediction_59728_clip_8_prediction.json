@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/step_prediction/59728/clip_8_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 19.774067,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.94351675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a clear liquid from a small glass container into a 300mL beaker"
+        ],
+        "objects_visible": [
+          "300mL beaker with measurement markings",
+          "small glass container with a white substance inside",
+          "purple gloves",
+          "white lab coat"
+        ],
+        "visible_text_labels": [
+          "300mL",
+          "200mL",
+          "100mL",
+          "jove"
+        ],
+        "quantities": [
+          "300mL"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of transferring a liquid from a small container into a beaker, emphasizing the careful handling typical in laboratory settings. The beaker's measurement markings are clearly visible, indicating the volume of liquid being used. The researcher's gloved hands and lab coat highlight the controlled environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.94351675,
+        9.8870335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a small amount of a white substance from a 1.5mL microtube into a 300mL beaker containing a clear liquid",
+          "researcher uses a pipette to transfer a clear liquid from a bottle with a blue cap into a petri dish containing a small, orange object"
+        ],
+        "objects_visible": [
+          "300mL beaker with measurement markings and the brand name 'HEMD'",
+          "1.5mL microtube with a clear cap",
+          "petri dish with a small, orange object inside",
+          "pipette with a blue cap",
+          "bottle with a blue cap"
+        ],
+        "visible_text_labels": [
+          "300mL",
+          "HEMD"
+        ],
+        "quantities": [
+          "300mL beaker",
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment shows the precise transfer of substances using a microtube and a pipette, highlighting the careful handling of small volumes in a laboratory setting. The presence of a petri dish with an orange object suggests a specific experimental procedure. The use of a 300mL beaker with clear measurement markings ensures accurate volume tracking."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.8870335,
+        14.830550249999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pours liquid from a labeled jug into a metal sieve",
+          "holds a metal sieve with a small orange object inside"
+        ],
+        "objects_visible": [
+          "transparent jug with blue cap labeled 'DI Water'",
+          "metal sieve with a small orange object inside",
+          "black laboratory table",
+          "purple gloves",
+          "white lab coat"
+        ],
+        "visible_text_labels": [
+          "DI Water",
+          "jove"
+        ],
+        "quantities": [
+          "not specified"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of pouring DI water from a labeled jug into a metal sieve containing a small orange object. The focus is on the controlled flow of water and the handling of the sieve. The presence of purple gloves and a white lab coat indicates a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        14.830550249999998,
+        19.774067
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours liquid from a squeeze bottle through a small metal sieve into a petri dish",
+          "researcher holds a small metal sieve with a handle, containing a small orange object"
+        ],
+        "objects_visible": [
+          "a transparent squeeze bottle with a blue cap and a flexible nozzle",
+          "a small metal sieve with a handle",
+          "a petri dish with a clear liquid",
+          "a small orange object in the sieve",
+          "a black laboratory bench"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "the amount of liquid being poured is not quantified"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pouring liquid through a sieve, likely to filter or separate the orange object. The use of a squeeze bottle suggests a controlled flow of liquid. The presence of the 'jove' logo indicates this is part of a scientific demonstration video."
+      }
+    }
+  ]
+}

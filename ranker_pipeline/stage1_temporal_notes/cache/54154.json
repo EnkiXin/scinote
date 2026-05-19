@@ -1,0 +1,177 @@
+{
+  "video_id": "54154",
+  "benchmark": "scivideobench",
+  "duration_seconds": 666.666667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        166.66666675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'C10' with a blue cap",
+          "researcher uses a pipette to transfer a clear liquid from a labeled bottle into a test tube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'C10'",
+          "pipette with a blue plunger",
+          "test tube labeled 'C10 Filtrate'",
+          "bottle with a white cap and a green label",
+          "labeled bottle with a red label and a white cap"
+        ],
+        "visible_text_labels": [
+          "C10",
+          "C10 Filtrate",
+          "Fisher Scientific"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "clear liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of an experiment, where precise labeling and careful handling of small volumes of liquid are critical. The use of a labeled microtube and a test tube suggests a methodical approach to sample management. The presence of Fisher Scientific branding indicates the use of professional-grade laboratory equipment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        166.66666675,
+        333.3333335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Acetone' with a blue cap",
+          "researcher pours a clear liquid from a labeled bottle into a beaker",
+          "researcher uses a pipette to transfer a small volume of liquid into a test tube",
+          "researcher places a labeled test tube into a centrifuge"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'Acetone'",
+          "beaker with a clear liquid",
+          "pipette with a blue plunger",
+          "test tube labeled '5M NaOH'",
+          "centrifuge with a digital display",
+          "labeled bottles with hazard symbols"
+        ],
+        "visible_text_labels": [
+          "Acetone",
+          "5M NaOH",
+          "1,722 x g",
+          "2 min"
+        ],
+        "quantities": [
+          "1.5mL",
+          "1,722 x g",
+          "2 min"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of chemicals and the use of a centrifuge, highlighting the importance of accurate measurements and safety protocols. The presence of labeled containers and hazard symbols underscores the controlled environment of the experiment. The centrifuge's digital display indicates specific centrifugation parameters, emphasizing the methodical nature of the process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        333.3333335,
+        500.00000024999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled '4 mg/ml ink in chloroform' with a blue cap",
+          "researcher uses a pipette with a 0.5 mm needle to transfer liquid from the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "pipette with a 0.5 mm needle",
+          "black surface with grid lines"
+        ],
+        "visible_text_labels": [
+          "4 mg/ml ink in chloroform",
+          "0.5 mm needle",
+          "VII. Solution Processing of CdSe, CdTe and Au Films: Spray Coating"
+        ],
+        "quantities": [
+          "4 mg/ml",
+          "0.5 mm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a chloroform-based ink solution, emphasizing the use of a specific needle size for accurate transfer. The black grid surface provides a clear contrast for visual clarity during the process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        500.00000024999997,
+        666.666667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher presents and discusses a graph with absorbance data",
+          "researcher explains the relationship between absorbance and wavelength"
+        ],
+        "objects_visible": [
+          "graph with multiple colored lines representing absorbance data",
+          "text labels on the graph including '30 psi', '100 nm', '10 um'",
+          "researcher wearing a white lab coat and glasses"
+        ],
+        "visible_text_labels": [
+          "30 psi",
+          "100 nm",
+          "10 um",
+          "Absorbance",
+          "\u03bb / nm",
+          "Transmission (%)"
+        ],
+        "quantities": [
+          "30 psi",
+          "100 nm",
+          "10 um"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed analysis of absorbance data, with specific emphasis on the impact of pressure and wavelength. The graph includes multiple data lines, each representing different conditions, and the researcher provides a detailed explanation of the observed trends."
+      }
+    }
+  ]
+}

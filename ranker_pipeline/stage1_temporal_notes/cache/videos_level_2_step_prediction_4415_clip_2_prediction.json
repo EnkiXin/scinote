@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/step_prediction/4415/clip_2_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 37.925533,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.48138325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a petri dish",
+          "researcher uses a gloved hand to stabilize the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a clear, square insert",
+          "pipette with a red and black handle",
+          "gloved hands wearing blue nitrile gloves",
+          "laboratory bench with a perforated metal surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "~200uL of liquid dispensed into the petri dish"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action into a petri dish with a square insert, emphasizing careful handling. The researcher's gloved hand stabilizes the dish, ensuring accuracy. The perforated metal surface of the bench is a distinctive feature of the laboratory setup."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.48138325,
+        18.9627665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a petri dish",
+          "researcher places the petri dish on the work surface"
+        ],
+        "objects_visible": [
+          "pipette with a white and blue handle",
+          "petri dish with a clear lid",
+          "plastic bottle with a black cap",
+          "purple container with a transparent lid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is carefully dispensing liquid into a petri dish using a pipette, indicating a precise step in the experiment. The presence of a purple container and a labeled bottle suggests a controlled laboratory environment. The focus is on the action of transferring liquid, which is central to the experiment's execution phase."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.9627665,
+        28.44414975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a pink liquid sample",
+          "researcher uses a pipette to transfer the pink liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with pink liquid",
+          "pipette with a black handle and white tip",
+          "petri dish with a clear, circular base",
+          "researcher's gloved hands wearing blue nitrile gloves",
+          "a bottle of clear liquid in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a pink liquid sample from a microtube to a petri dish using a pipette. The researcher's gloved hands and the clear petri dish are prominent, emphasizing the sterile and controlled environment. The pink color of the liquid is a distinctive feature, suggesting a specific type of sample or medium."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        28.44414975,
+        37.925533
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to dispense 20-30 \u00b5l of liquid into a petri dish",
+          "researcher carefully places the petri dish on the work surface"
+        ],
+        "objects_visible": [
+          "petri dish with a clear, circular cover",
+          "pipette with a blue and black handle",
+          "researcher's gloved hands in blue nitrile gloves",
+          "a clear bottle with a black cap in the background",
+          "a purple container partially visible on the right"
+        ],
+        "visible_text_labels": [
+          "20-30 \u00b5l"
+        ],
+        "quantities": [
+          "20-30 \u00b5l"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise dispensing of a small volume of liquid into a petri dish, emphasizing the controlled and careful handling typical in laboratory procedures. The visible text '20-30 \u00b5l' highlights the specific volume being used, underscoring the importance of accuracy in this step."
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/step_prediction/50210/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 17.872167,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.46804175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a small rodent's internal organs",
+          "researcher uses scissors to carefully cut and separate tissue"
+        ],
+        "objects_visible": [
+          "small rodent with exposed internal organs",
+          "forceps with black tips",
+          "scissors with metallic blades",
+          "white surgical gloves",
+          "blue surgical drape"
+        ],
+        "visible_text_labels": [
+          "II. Colon Tumor Isolation and Cell Dissociation"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise surgical procedure on a rodent, focusing on the isolation of internal structures. The use of forceps and scissors indicates a delicate dissection process. The text overlay specifies the procedure as 'Colon Tumor Isolation and Cell Dissociation.'"
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.46804175,
+        8.9360835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "uses forceps to manipulate a small, translucent object",
+          "transfers the object from a blue multi-compartment container to a petri dish"
+        ],
+        "objects_visible": [
+          "blue multi-compartment container with clear sections",
+          "petri dish with a white interior",
+          "forceps held by a gloved hand",
+          "small, translucent object resembling a worm or larva"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one small, translucent object"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small, translucent object using forceps, emphasizing the careful transfer from a blue container to a petri dish. The blue container has multiple compartments, suggesting organization for multiple samples. The gloved hand indicates a sterile environment for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        8.9360835,
+        13.40412525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to hold a small, transparent object",
+          "researcher uses scissors to cut a thin, elongated structure"
+        ],
+        "objects_visible": [
+          "forceps with a curved tip",
+          "scissors with sharp, pointed blades",
+          "a small, transparent object resembling a larva or similar specimen",
+          "a white textured surface, possibly a paper towel"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of a small, transparent specimen using surgical instruments. The use of forceps and scissors suggests a delicate dissection or preparation process. The white textured surface provides a clean and contrasting background for the activity."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        13.40412525,
+        17.872167
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "forceps manipulate a small, translucent object with orange and brown spots",
+          "object is gently prodded and repositioned"
+        ],
+        "objects_visible": [
+          "forceps with black tips",
+          "small, translucent object with orange and brown spots"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of a small, translucent object using forceps. The object's distinct orange and brown spots are clearly visible, suggesting it may be a biological specimen. The forceps' interaction with the object is gentle and deliberate."
+      }
+    }
+  ]
+}

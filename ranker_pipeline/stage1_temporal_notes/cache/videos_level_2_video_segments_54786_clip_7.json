@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_segments/54786/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.391,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.59775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher places a transparent cell culture flask with a red cap on the lab bench"
+        ],
+        "objects_visible": [
+          "a red test tube rack holding a single microtube",
+          "a transparent cell culture flask with a red cap and a label",
+          "a bottle of 'CELL' culture medium with a white cap and a label",
+          "a pipette with a red tip"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "CELL"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where the researcher organizes and sets up the necessary materials for the experiment. The presence of labeled tubes and a cell culture flask indicates the start of a cell culture procedure. The use of a pipette suggests that liquid handling is imminent."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.59775,
+        21.1955
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens the lid of a centrifuge",
+          "researcher places a small tube into the centrifuge chamber"
+        ],
+        "objects_visible": [
+          "white centrifuge with a digital display and control buttons",
+          "researcher's gloved hand holding a small tube",
+          "centrifuge chamber with multiple slots for tubes"
+        ],
+        "visible_text_labels": [
+          "Eppendorf"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of loading a tube into a centrifuge, highlighting the careful handling of laboratory equipment. The centrifuge's digital display and brand name are clearly visible, emphasizing the professional laboratory setting. The researcher's gloved hand underscores the importance of maintaining a sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.1955,
+        31.79325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a test tube",
+          "researcher places the test tube into an orange test tube rack"
+        ],
+        "objects_visible": [
+          "a white pipette with a black plunger",
+          "an orange test tube rack with multiple slots",
+          "a small white bottle with a label and a white cap",
+          "a test tube held by the researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "Refer to text protocol for details",
+          "jove"
+        ],
+        "quantities": [
+          "the liquid volume being dispensed is not specified but appears to be a small amount"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting liquid into a test tube, emphasizing the importance of following a detailed protocol. The orange test tube rack and the labeled bottle are distinctive elements in the scene."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.79325,
+        42.391
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher closes the lid of a large freezer"
+        ],
+        "objects_visible": [
+          "large white freezer with blue interior lid",
+          "yellow and blue plastic containers in the background",
+          "white lab coat worn by the researcher",
+          "gloved hands of the researcher"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher interacting with a large freezer, likely for storing biological samples. The freezer's lid is open initially and then closed, indicating the completion of a storage or retrieval action. The background contains various laboratory storage items, emphasizing a laboratory setting."
+      }
+    }
+  ]
+}

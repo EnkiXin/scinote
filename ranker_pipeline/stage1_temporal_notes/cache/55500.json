@@ -1,0 +1,184 @@
+{
+  "video_id": "55500",
+  "benchmark": "scivideobench",
+  "duration_seconds": 433.6,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        108.4
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher pours a clear liquid from a glass bottle into a beaker placed on a magnetic stirrer.",
+          "The stirrer is set to 700 rpm, as indicated by the text on the screen."
+        ],
+        "objects_visible": [
+          "A clear glass beaker containing a white powdery substance and a clear liquid.",
+          "A blue magnetic stirrer with a digital display and control knobs.",
+          "A glass bottle with a white cap, used to pour the liquid into the beaker.",
+          "A yellow caution sign with a warning symbol and text."
+        ],
+        "visible_text_labels": [
+          "Adding ZrCl\u2084 to H\u2082O is highly exothermic",
+          "Continue stirring at 700 rpm"
+        ],
+        "quantities": [
+          "700 rpm"
+        ],
+        "key_distinguishing_features": "This segment highlights the initial preparation step of mixing chemicals, with a focus on the exothermic reaction warning and the specific stirring speed. The presence of a caution sign emphasizes the importance of safety in this procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        108.4,
+        216.8
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher pours a yellow liquid from a beaker into a white bowl containing orange granules",
+          "researcher operates a Carver hydraulic press to compress a sample",
+          "researcher places a sample into a cylindrical mold on the hydraulic press"
+        ],
+        "objects_visible": [
+          "beaker with yellow liquid",
+          "white bowl containing orange granules",
+          "Carver hydraulic press",
+          "cylindrical mold on the hydraulic press",
+          "laboratory scale with a beaker on top"
+        ],
+        "visible_text_labels": [
+          "CARVER",
+          "1 cm x 1 cm",
+          "750 ml/min in this experiment"
+        ],
+        "quantities": [
+          "1 cm x 1 cm",
+          "750 ml/min"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation of a sample using a hydraulic press, with specific attention to the size and flow rate parameters. The visual focus on the Carver hydraulic press and the precise measurement of the sample dimensions make this segment distinctive. The transition from liquid handling to mechanical processing is a key feature."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        216.8,
+        325.20000000000005
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "A gloved hand adjusts a digital display showing '20' and 'run'.",
+          "A computer screen displays a graph with a red line indicating a temperature change from ambient to 1,200 \u00b0C at a rate of 10 \u00b0C/min.",
+          "A hand places a cylindrical object on a flat surface."
+        ],
+        "objects_visible": [
+          "A digital display with red and green numbers and symbols.",
+          "A computer monitor showing a graph with a red line and numerical data.",
+          "A cylindrical object with a hollow center, possibly a sample holder.",
+          "A flat surface, likely a workbench or table."
+        ],
+        "visible_text_labels": [
+          "10 \u00b0C/min Ambient to 1,200 \u00b0C",
+          "See text for details on calculation",
+          "YSZ Surface Area (m\u00b2\u00b7g\u207b\u00b9)",
+          "Amount of Carbon Template (vol%)",
+          "glucose:metals molar ratio"
+        ],
+        "quantities": [
+          "20 (displayed on the digital screen)",
+          "10 \u00b0C/min",
+          "1,200 \u00b0C",
+          "0:1, 2.25:1, 4.5:1 (molar ratios)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase, highlighting a digital display and a computer graph tracking temperature changes. The presence of a cylindrical object suggests a sample being prepared for analysis. The detailed text labels provide specific parameters for the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        325.20000000000005,
+        433.6
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher presents and discusses data on a screen"
+        ],
+        "objects_visible": [
+          "graph showing weight percentage vs. temperature",
+          "inset graph highlighting a specific temperature range",
+          "microscopic images of materials with labeled crystallite sizes",
+          "XRD pattern with labeled glucose:metals ratios",
+          "N2 adsorption and desorption isotherms with labeled glucose:metals ratios"
+        ],
+        "visible_text_labels": [
+          "Glucose:Metals = 0:1",
+          "Glucose:Metals = 4.5:1",
+          "9 nm",
+          "12 nm",
+          "22 nm",
+          "N2 adsorption",
+          "N2 desorption",
+          "Glucose:Metals",
+          "Pore Volume (cm\u00b3/g)",
+          "Pore Diameter (nm)"
+        ],
+        "quantities": [
+          "95 wt %",
+          "65 wt %",
+          "9 nm",
+          "12 nm",
+          "22 nm",
+          "27.5 to 32.5 2\u03b8 (\u00b0)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed analysis of material properties, including thermal behavior, crystallite size, and pore structure, as influenced by varying glucose:metals ratios. The data is presented through a combination of graphs, microscopic images, and XRD patterns, providing a comprehensive view of the material's characteristics. The researcher's discussion likely ties these observations to the experimental outcomes."
+      }
+    }
+  ]
+}

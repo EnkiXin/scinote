@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/video_verification/57343/clip_1_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.3214,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.33035
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher holds a 250 mL graduated cylinder with a clear liquid",
+          "researcher places a small red container on a digital scale"
+        ],
+        "objects_visible": [
+          "250 mL graduated cylinder with measurement markings",
+          "red container labeled 'SOIL SAMPLE'",
+          "digital scale with a red display"
+        ],
+        "visible_text_labels": [
+          "SOIL SAMPLE",
+          "jove",
+          "Tare",
+          "G"
+        ],
+        "quantities": [
+          "250 mL",
+          "0.000 g"
+        ],
+        "key_distinguishing_features": "The segment focuses on precise measurement, with a clear view of a graduated cylinder and a digital scale. The red container labeled 'SOIL SAMPLE' is a key element, indicating the subject of the measurement. The digital scale's display shows a zero reading, suggesting the container is being tared."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.33035,
+        16.6607
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "drops a small amount of liquid into a labeled container"
+        ],
+        "objects_visible": [
+          "clear plastic container labeled 'SOIL MPLEX'",
+          "pipette tip dispensing liquid"
+        ],
+        "visible_text_labels": [
+          "SOIL MPLEX"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise addition of a liquid into a container labeled 'SOIL MPLEX', indicating a step in a soil sample preparation or analysis process. The clear plastic container and the labeled text are distinctive features of this segment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.6607,
+        24.991049999999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 50mL conical tube labeled 'SOIL MPLEX'",
+          "researcher pours soil sample from the conical tube into a graduated cylinder"
+        ],
+        "objects_visible": [
+          "50mL conical tube with a white label",
+          "graduated cylinder with measurement markings",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "SOIL MPLEX"
+        ],
+        "quantities": [
+          "50mL conical tube",
+          "graduated cylinder"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a soil sample from a labeled conical tube to a graduated cylinder, emphasizing the careful handling of the sample. The researcher's gloved hands ensure sterility and accuracy during the process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.991049999999998,
+        33.3214
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube labeled 'SOIL SAMPLE' with a white cap",
+          "researcher uses a pipette to transfer a liquid from the conical tube into a petri dish"
+        ],
+        "objects_visible": [
+          "15mL conical tube with a white cap and handwritten label 'SOIL SAMPLE'",
+          "petri dish containing a small amount of soil sample",
+          "pipette with a blue plunger",
+          "blue lab coat worn by the researcher",
+          "white gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "SOIL SAMPLE",
+          "Refer to Table of Materials for purification system"
+        ],
+        "quantities": [
+          "15mL conical tube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a soil sample, emphasizing the use of a labeled conical tube and the careful transfer of its contents. The text overlay provides a reference to a materials list, indicating a structured experimental protocol."
+      }
+    }
+  ]
+}

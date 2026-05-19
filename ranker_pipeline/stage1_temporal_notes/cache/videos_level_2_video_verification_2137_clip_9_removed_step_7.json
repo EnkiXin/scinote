@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_verification/2137/clip_9_removed_step_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 43.287866,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.8219665
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "automated pipette system performs PBST washes"
+        ],
+        "objects_visible": [
+          "black automated pipette head with multiple blue tips",
+          "white microplate with wells",
+          "black control panel with screws"
+        ],
+        "visible_text_labels": [
+          "PBST wash X 3",
+          "10 min / wash"
+        ],
+        "quantities": [
+          "3 washes",
+          "10 minutes per wash"
+        ],
+        "key_distinguishing_features": "The segment showcases an automated system performing a series of PBST washes, emphasizing the repetitive and precise nature of the process. The blue tips of the pipette head are clearly visible as they interact with the microplate. The text overlay provides specific timing details for the washes."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.8219665,
+        21.643933
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A multi-channel pipette dispenses 15 \u03bcL of a solution into each well of a black microplate.",
+          "A gloved hand covers the microplate with a transparent film."
+        ],
+        "objects_visible": [
+          "A multi-channel pipette with multiple pipette tips",
+          "A black microplate with a grid of wells",
+          "A transparent film being used to cover the microplate",
+          "Gloved hands performing the action"
+        ],
+        "visible_text_labels": [
+          "15 \u03bcl fluorescently labeled secondary antibody + nuclear stain / well",
+          "jove"
+        ],
+        "quantities": [
+          "15 \u03bcL of solution per well"
+        ],
+        "key_distinguishing_features": "This segment shows the precise dispensing of a fluorescently labeled secondary antibody and nuclear stain into a microplate, followed by the careful covering of the plate to prevent contamination. The multi-channel pipette ensures uniform distribution across the wells."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.643933,
+        32.4658995
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "automated pipette system performs PBST washes on a multi-well plate"
+        ],
+        "objects_visible": [
+          "black automated pipette system with multiple needles",
+          "multi-well plate",
+          "white reservoir containing PBST solution"
+        ],
+        "visible_text_labels": [
+          "PBST wash X 3",
+          "10 min / wash"
+        ],
+        "quantities": [
+          "3 washes",
+          "10 minutes per wash"
+        ],
+        "key_distinguishing_features": "The segment showcases an automated process for washing a multi-well plate with PBST solution, emphasizing the repetitive and precise nature of the task. The text overlay specifies the number of washes and duration, highlighting the standardized protocol. The focus is on the mechanical precision of the pipette system."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.4658995,
+        43.287866
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a refrigerator set to 4\u00b0C",
+          "researcher places a white box labeled 'Tissue Culture' into the refrigerator"
+        ],
+        "objects_visible": [
+          "refrigerator with a temperature display showing 4\u00b0C",
+          "white box labeled 'Tissue Culture' with a red and blue label",
+          "various containers and bottles inside the refrigerator",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "4\u00b0C",
+          "\u2264 3 weeks",
+          "Tissue Culture"
+        ],
+        "quantities": [
+          "4\u00b0C",
+          "\u2264 3 weeks"
+        ],
+        "key_distinguishing_features": "This segment focuses on the storage of a tissue culture box in a refrigerator set to 4\u00b0C, emphasizing the importance of temperature control. The text '\u2264 3 weeks' suggests a time constraint for the storage duration. The researcher's careful handling of the box highlights the delicate nature of the contents."
+      }
+    }
+  ]
+}

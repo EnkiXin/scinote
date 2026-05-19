@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/video_segments/60982/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.89,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.7225
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a container with a white foam insert and yellow and orange plastic components",
+          "researcher holds a white plastic cup with a pipette tip inserted"
+        ],
+        "objects_visible": [
+          "container with white foam insert and yellow and orange plastic components",
+          "white plastic cup with a pipette tip",
+          "brown paper towel",
+          "blue-gloved hands",
+          "blue plastic container in the background"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a researcher handling a specialized container with a foam insert and distinct plastic components, suggesting preparation for a specific experimental setup. The presence of a pipette tip in a cup indicates the imminent addition of a liquid substance. The blue-gloved hands emphasize a sterile environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.7225,
+        17.445
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a white cylindrical container on a green platform of a digital scale",
+          "scale displays a reading of 0.060 grams"
+        ],
+        "objects_visible": [
+          "white cylindrical container with a white cap",
+          "digital scale with a green platform and a digital display",
+          "other laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "GeneMate",
+          "0.000",
+          "0.060"
+        ],
+        "quantities": [
+          "0.060 grams"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of a small object using a digital scale, highlighting the importance of accurate weight readings in the experiment. The green platform of the scale and the digital display are distinctive features in this scene."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.445,
+        26.1675
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'DMEM' with blue cap",
+          "researcher unscrews the cap of the microtube"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "blue container in the background",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the handling of a microtube containing DMEM, a common cell culture medium. The researcher's gloved hand is prominently featured, emphasizing the sterile technique. The blue cap of the microtube is a distinctive feature in this segment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.1675,
+        34.89
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a small volume of clear liquid into a designated well on a microfluidic chip"
+        ],
+        "objects_visible": [
+          "transparent pipette tip",
+          "microfluidic chip with orange rectangular patterns",
+          "gloved hand holding the pipette"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid, likely in microliters"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise delivery of a liquid into a specific well on a microfluidic chip, highlighting the accuracy required in such experiments. The orange patterns on the chip provide a clear visual guide for the placement of the liquid. The gloved hand ensures a sterile environment during the procedure."
+      }
+    }
+  ]
+}

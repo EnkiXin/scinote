@@ -1,0 +1,147 @@
+{
+  "video_id": "videos/level_2/step_prediction/61411/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 52.142,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.0355
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and transfers liquid into a petri dish",
+          "researcher places a petri dish lid on a purple test tube rack"
+        ],
+        "objects_visible": [
+          "petri dishes with pink-colored medium",
+          "purple test tube rack with multiple compartments",
+          "small test tubes with white caps",
+          "pipette with a white tip",
+          "green gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "~ 2:1 ratio of DNA copy number"
+        ],
+        "quantities": [
+          "2:1 ratio of DNA copy number"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of petri dishes and test tubes, emphasizing the importance of maintaining a specific DNA copy number ratio. The use of a purple test tube rack and the pink medium in the petri dishes are distinctive visual elements."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.0355,
+        26.071
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses 100ul of opti-MEM into a microtube",
+          "researcher places the microtube back into a purple test tube rack"
+        ],
+        "objects_visible": [
+          "purple test tube rack with multiple wells",
+          "microtubes with white caps",
+          "pipette with a clear tip",
+          "researcher's hands wearing green gloves",
+          "red test tube with a label"
+        ],
+        "visible_text_labels": [
+          "100ul of opti-MEM",
+          "jove"
+        ],
+        "quantities": [
+          "100ul"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of a specific volume of opti-MEM to a microtube, highlighting the importance of accurate liquid handling in the experiment. The use of a purple test tube rack and the clear labeling of the liquid volume emphasize the methodical nature of the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        26.071,
+        39.106500000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"execution\",\n  \"actions_observed\": [\n    \"researcher holds a 1.5mL microtube labeled 'TNF' with a white cap\",\n    \"pipettes 100uL of opti-MEM into the microtube\"\n  ],\n  \"objects_visible\": [\n    \"purple microtube rack with multiple labeled microtubes\",\n    \"pipette with a white tip\",\n    \"microtube labeled 'TNF' with a white cap\",\n    \"microtube labeled 'IL-6' with a white cap\",\n    \"m"
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        39.106500000000004,
+        52.142
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses 100\u00b5L of opti-MEM into a small, clear microtube",
+          "researcher places the microtube into a purple test tube rack"
+        ],
+        "objects_visible": [
+          "purple test tube rack with multiple empty slots",
+          "small, clear microtubes with white caps",
+          "pipette with a white tip",
+          "researcher's hands wearing green nitrile gloves",
+          "a test tube labeled '14-07' with an orange cap in a blue test tube holder"
+        ],
+        "visible_text_labels": [
+          "100\u00b5L of opti-MEM",
+          "100\u00b5L of transfection reagent mix",
+          "14-07"
+        ],
+        "quantities": [
+          "100\u00b5L",
+          "100\u00b5L"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise addition of opti-MEM to microtubes, highlighting the careful handling and measurement of liquids. The use of a purple test tube rack and the specific labeling of tubes and reagents emphasize the organized and methodical nature of the experiment. The green gloves and pipette indicate a sterile and controlled environment."
+      }
+    }
+  ]
+}

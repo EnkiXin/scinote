@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/57332/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 27.35,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.8375
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher connects a transparent tube to a white connector on a machine",
+          "researcher adjusts the tube and connector to ensure a secure fit"
+        ],
+        "objects_visible": [
+          "transparent tube with white connectors",
+          "black machine with various ports and labels",
+          "researcher's gloved hands",
+          "coiled tubes and connectors in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise connection of a transparent tube to a machine, highlighting the importance of secure connections in experimental setups. The presence of multiple tubes and connectors suggests a complex system setup. The gloved hands emphasize the need for sterility and precision."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.8375,
+        13.675
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher operates a laptop with gloved hands"
+        ],
+        "objects_visible": [
+          "green gas cylinder with red strap",
+          "laptop with visible screen",
+          "black and silver device labeled 'Innova' with digital display",
+          "white gloves on researcher's hands"
+        ],
+        "visible_text_labels": [
+          "Innova",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is interacting with a laptop, likely controlling or monitoring an experiment. The presence of a gas cylinder and specialized equipment suggests a controlled environment setup. The gloved hands indicate adherence to safety protocols."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.675,
+        20.512500000000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "hand in white glove adjusts a white connector on a device",
+          "hand in white glove holds a white connector and aligns it with a port"
+        ],
+        "objects_visible": [
+          "white connector with a cylindrical shape",
+          "device with a port for the connector",
+          "multiple white cables connected to the device",
+          "hand wearing a white latex glove"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of connecting a white cylindrical connector to a device, emphasizing the careful handling by a gloved hand. The multiple white cables connected to the device suggest a complex setup, likely part of a scientific apparatus. The absence of visible text labels directs attention solely to the mechanical interaction."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        20.512500000000003,
+        27.35
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "software displays real-time concentration data of various nitrogen compounds",
+          "graph updates with new data points"
+        ],
+        "objects_visible": [
+          "computer screen showing Thermo Scientific software interface",
+          "graph plotting concentration over time",
+          "numerical data for NO, NO2, NOx, NH3, and N"
+        ],
+        "visible_text_labels": [
+          "CONCENTRATION",
+          "NO",
+          "NO2",
+          "NOx",
+          "NH3",
+          "N",
+          "SAVE",
+          "RUN",
+          "PEN",
+          "ENTER",
+          "TERM",
+          "HELP"
+        ],
+        "quantities": [
+          "4.9 ppm (NO)",
+          "7.7 ppm (NO2)",
+          "3.2 ppm (NOx)",
+          "139.3 ppm (NH3)",
+          "142.5 ppm (N)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the measurement phase, with real-time data displayed on the software interface. The graph updates dynamically, reflecting changes in concentration levels. The numerical values for each compound are prominently shown, providing precise measurements."
+      }
+    }
+  ]
+}

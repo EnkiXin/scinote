@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/53789/clip_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 43.841,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.96025
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small glass vial with a clear liquid",
+          "researcher pours the liquid from the vial into a round-bottom flask"
+        ],
+        "objects_visible": [
+          "round-bottom flask with a clear liquid inside",
+          "glass vial with a clear liquid",
+          "magnetic stirrer with a hotplate",
+          "glass beaker containing a clear liquid",
+          "purple-gloved hand",
+          "chemical setup with glass tubing and clamps"
+        ],
+        "visible_text_labels": [
+          "Reduction of methyl 4-nitrobenzoate",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise action of transferring a clear liquid from a small vial into a round-bottom flask, indicating a step in a chemical reduction process. The setup includes a magnetic stirrer and a beaker, suggesting a controlled laboratory environment. The text 'Reduction of methyl 4-nitrobenzoate' provides context for the experiment being performed."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.96025,
+        21.9205
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small glass vial with a white substance",
+          "researcher pours the white substance into a round-bottom flask containing a clear liquid"
+        ],
+        "objects_visible": [
+          "round-bottom flask with a clear liquid",
+          "small glass vial with a white substance",
+          "digital scale with a blue display",
+          "glass beaker containing a white liquid",
+          "metal clamp stand",
+          "purple gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "Reduction of methyl 4-nitrobenzoate",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise action of adding a white substance from a small vial into a round-bottom flask, indicating a step in a chemical reaction. The researcher's hands are protected with purple gloves, emphasizing safety in the lab environment. The digital scale and clamp stand suggest a controlled and measured experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.9205,
+        32.88075
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small glass tube with a red liquid inside",
+          "researcher attaches the glass tube to a larger glass flask with a white foam stopper"
+        ],
+        "objects_visible": [
+          "glass flask with a white foam stopper and a metal clamp",
+          "small glass tube containing red liquid",
+          "purple-gloved hand manipulating the glass tube",
+          "metal stand with clamps and tubing in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small glass tube containing red liquid, which is being connected to a larger flask. The researcher's gloved hand is a prominent feature, emphasizing the careful nature of the task. The background setup with metal clamps and tubing suggests a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.88075,
+        43.841
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher adjusts a valve on a glass apparatus with a purple-gloved hand.",
+          "Researcher holds a 50 mL graduated cylinder with a clear liquid, marked with measurement lines."
+        ],
+        "objects_visible": [
+          "A glass apparatus with multiple tubes and valves, mounted on a metal frame.",
+          "A 50 mL graduated cylinder with measurement markings, held by purple-gloved hands.",
+          "A round-bottom flask with a white stopper, connected to the apparatus.",
+          "A beaker containing a dark liquid, placed on a lab bench."
+        ],
+        "visible_text_labels": [
+          "Repeat vacuum-refill cycle 3x",
+          "jove"
+        ],
+        "quantities": [
+          "50 mL graduated cylinder",
+          "3x vacuum-refill cycle"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise adjustment of a valve in a glass apparatus, likely part of a vacuum-refill cycle. The researcher's actions are deliberate, emphasizing the importance of accurate control in the experiment. The presence of a 50 mL graduated cylinder suggests the measurement of liquid volumes is a critical part of the procedure."
+      }
+    }
+  ]
+}

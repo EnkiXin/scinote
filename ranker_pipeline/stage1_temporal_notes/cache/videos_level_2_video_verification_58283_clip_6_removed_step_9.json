@@ -1,0 +1,146 @@
+{
+  "video_id": "videos/level_2/video_verification/58283/clip_6_removed_step_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 56.315367,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        14.07884175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a refrigerator and retrieves a container",
+          "researcher places a petri dish on a metal surface"
+        ],
+        "objects_visible": [
+          "refrigerator with various labeled bottles and containers",
+          "petri dish with a clear, iridescent surface",
+          "metal laboratory surface with a black wire rack and a white device with a digital display"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where a researcher retrieves a container from a refrigerator and places a petri dish on a metal surface. The petri dish exhibits an iridescent sheen, indicating it may contain a specific medium or substance. The refrigerator is stocked with various labeled bottles and containers, suggesting a well-organized laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        14.07884175,
+        28.1576835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish with a clear, transparent lid",
+          "researcher uses a pipette to add a small volume of liquid into the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid",
+          "pipette with a white body and a blue plunger",
+          "black wire rack holding various tubes and containers",
+          "1.5mL microtube with a blue cap labeled 'DMEM'"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise addition of liquid into a petri dish using a pipette, highlighting the controlled environment of a laboratory setup. The presence of a labeled microtube and a wire rack with various tubes underscores the organized nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        28.1576835,
+        42.23652525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "petri dish is placed on a wire rack inside a refrigerator"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid and a light brown medium inside",
+          "white wire rack inside a refrigerator"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the petri dish being stored in a refrigerator, indicating a step in the experiment where the sample needs to be kept at a controlled temperature. The petri dish is the central object, and its placement on the wire rack is a distinctive feature of this segment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        42.23652525,
+        56.315367
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a clear petri dish with a blue cap",
+          "researcher places the petri dish on a black wire rack inside a biosafety cabinet"
+        ],
+        "objects_visible": [
+          "black wire rack with multiple compartments",
+          "biosafety cabinet with a transparent front panel",
+          "petri dish with a blue cap",
+          "various laboratory tools and containers in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the handling of a petri dish, emphasizing the use of a biosafety cabinet for a controlled environment. The researcher's actions are deliberate, indicating a step in the experimental procedure. The presence of the 'jove' logo suggests this is part of a scientific demonstration video."
+      }
+    }
+  ]
+}

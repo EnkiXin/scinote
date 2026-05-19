@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_3/56819_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 537.706667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        134.42666675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Surgical instruments are positioned around the surgical site.",
+          "A surgical maneuver is being performed, likely involving the manipulation of internal organs."
+        ],
+        "objects_visible": [
+          "Surgical instruments including a clamp and a retractor.",
+          "Internal organs with visible blood vessels and tissue structures."
+        ],
+        "visible_text_labels": [
+          "Kocher Maneuver",
+          "Gastroepiploic Vein"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment highlights the initial phase of a surgical procedure, focusing on the Kocher maneuver. The visible text labels provide specific anatomical references, and the surgical instruments are actively engaged in manipulating the internal structures."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        134.42666675,
+        268.8533335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Surgeon manipulates surgical instruments to suture the jejunum ends.",
+          "Surgical tools are used to hold and adjust tissue for precise stitching."
+        ],
+        "objects_visible": [
+          "Metallic surgical instruments with curved tips",
+          "Tissue of the jejunum with visible sutures",
+          "Blood and bodily fluids within the surgical field"
+        ],
+        "visible_text_labels": [
+          "Suture 2 jejunum ends"
+        ],
+        "quantities": [
+          "Two ends of the jejunum being sutured"
+        ],
+        "key_distinguishing_features": "This segment focuses on the meticulous process of suturing the jejunum, highlighting the precision required in surgical procedures. The presence of specialized surgical instruments and the visible text label emphasize the specific task being performed. The environment is characterized by the natural colors and textures of internal tissues and surgical tools."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        268.8533335,
+        403.28000025000006
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Surgeon manipulates surgical instruments to suture the gallbladder to the peritoneum.",
+          "Clamps and forceps are used to hold and adjust tissue and sutures."
+        ],
+        "objects_visible": [
+          "Metallic surgical instruments including clamps and forceps.",
+          "Suture thread being used to stitch tissue.",
+          "Exposed internal organs and tissue with visible blood and moisture."
+        ],
+        "visible_text_labels": [
+          "Suture of Gallbladder to peritoneum"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise suturing of the gallbladder to the peritoneum, highlighting the use of specialized surgical tools. The visible text label provides context for the specific surgical procedure being performed. The close-up view emphasizes the intricate nature of the task."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        403.28000025000006,
+        537.706667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "The video transitions from surgical procedures to text-based information about the postoperative course and conclusions."
+        ],
+        "objects_visible": [
+          "Surgical instruments in the background, slightly out of focus",
+          "Text slides with bullet points summarizing the case"
+        ],
+        "visible_text_labels": [
+          "Postoperative Course",
+          "No Complication",
+          "No pancreatic leak was detected. The drains were removed in postoperative day 5",
+          "Discharge postoperative day 6",
+          "Conclusion",
+          "Laparoscopic Pancreatoduodenectomy is a technically challenging but successful oncological procedure with low grade dysplasia, diameter 1.5 cm.",
+          "The modified Blumgart pancreaticojejunostomy is a manageable technique to perform the pancreatic anastomosis",
+          "Margin negative",
+          "It is performed only at high volume centers by surgeons with extensive experience"
+        ],
+        "quantities": [
+          "1.5 cm",
+          "postoperative day 5",
+          "postoperative day 6"
+        ],
+        "key_distinguishing_features": "This segment shifts from visual surgical procedures to textual information, summarizing the postoperative outcomes and conclusions of the case. The text highlights the success of the procedure and the specific techniques used, emphasizing the importance of high-volume centers and experienced surgeons."
+      }
+    }
+  ]
+}

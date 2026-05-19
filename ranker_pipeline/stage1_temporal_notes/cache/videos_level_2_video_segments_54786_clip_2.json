@@ -1,0 +1,144 @@
+{
+  "video_id": "videos/level_2/video_segments/54786/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.511,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.37775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a small, pinkish tissue sample",
+          "forceps hold the tissue while a scalpel makes precise incisions"
+        ],
+        "objects_visible": [
+          "transparent petri dish containing a small amount of clear liquid",
+          "metal forceps with a curved tip",
+          "scalpel with a fine, sharp blade",
+          "pinkish tissue sample with visible blood vessels"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of a tissue sample using surgical instruments. The tissue appears to be part of a larger organ, possibly a heart, given its structure and color. The liquid in the petri dish suggests a controlled environment for the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.37775,
+        16.7555
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a small, red and white object within a petri dish",
+          "researcher lifts the object with forceps for closer inspection"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid",
+          "forceps held by gloved hands",
+          "small, red and white object resembling a biological sample"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small, red and white object using forceps within a petri dish. The researcher's gloved hands are visible, emphasizing a sterile environment. The object is carefully lifted and examined, suggesting a detailed inspection or preparation step."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.7555,
+        25.133250000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a tissue sample",
+          "researcher places the tissue sample into a petri dish"
+        ],
+        "objects_visible": [
+          "forceps with serrated tips",
+          "petri dish with a clear, transparent base",
+          "tissue sample with a red and translucent appearance",
+          "gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The tissue sample is being carefully handled with forceps, indicating a delicate procedure. The petri dish is used as a container for the sample, suggesting a controlled environment for the experiment. The red and translucent appearance of the tissue is distinctive and may indicate its specific type or condition."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.133250000000004,
+        33.511
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher speaks directly to the camera"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat",
+          "laboratory background with equipment"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a researcher speaking, likely explaining a step or concept related to the experiment. The background shows a typical laboratory setting, emphasizing the scientific context. The 'jove' logo is visible, indicating the video's source or affiliation."
+      }
+    }
+  ]
+}

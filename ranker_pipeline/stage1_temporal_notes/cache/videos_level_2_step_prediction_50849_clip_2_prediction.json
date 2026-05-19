@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/step_prediction/50849/clip_2_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 27.9489,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.987225
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher walks into the room",
+          "researcher places a white cloth on the table"
+        ],
+        "objects_visible": [
+          "white lab coat",
+          "white cloth",
+          "wooden table",
+          "white filing cabinet",
+          "open door",
+          "black box on the table"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is seen entering the room and preparing the workspace by laying down a white cloth. The environment suggests a laboratory setting with a focus on cleanliness and organization. The JOVE logo is visible, indicating the video's source."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.987225,
+        13.97445
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a clear plastic bag containing small, labeled vials",
+          "researcher places the bag on the table"
+        ],
+        "objects_visible": [
+          "clear plastic bag with multiple vials inside",
+          "black rectangular object on the table",
+          "other similar plastic bags on the table"
+        ],
+        "visible_text_labels": [
+          "jpve"
+        ],
+        "quantities": [
+          "multiple vials in the bag"
+        ],
+        "key_distinguishing_features": "The researcher is handling a clear plastic bag containing multiple vials, suggesting preparation for an experiment. The table setup includes similar bags and a black rectangular object, indicating an organized workspace. The 'jpve' logo is visible, suggesting a scientific or educational context."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.97445,
+        20.961675
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher organizes and arranges several plastic bags containing black and white rectangular objects on the table",
+          "researcher picks up and examines a small black object with a white label"
+        ],
+        "objects_visible": [
+          "plastic bags with black and white rectangular objects",
+          "small black object with a white label",
+          "black rectangular object on the table",
+          "black and white striped object on the table"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple plastic bags",
+          "one small black object"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where the researcher is methodically organizing various objects on the table. The presence of multiple plastic bags with similar contents suggests a systematic approach to the experiment. The small black object with a white label is a key item being handled."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        20.961675,
+        27.9489
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher unfolds a beige cloth on a wooden table",
+          "researcher smooths out the cloth with both hands"
+        ],
+        "objects_visible": [
+          "beige cloth",
+          "wooden table",
+          "four transparent plastic bags containing greenish-blue objects",
+          "researcher wearing a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jpve"
+        ],
+        "quantities": [
+          "four transparent plastic bags"
+        ],
+        "key_distinguishing_features": "The researcher is carefully preparing the workspace by unfolding and smoothing a cloth, likely to create a clean and organized area for the experiment. The presence of four plastic bags with greenish-blue contents suggests these items are part of the experimental materials. The 'jpve' logo indicates the video is likely from a scientific or educational source."
+      }
+    }
+  ]
+}

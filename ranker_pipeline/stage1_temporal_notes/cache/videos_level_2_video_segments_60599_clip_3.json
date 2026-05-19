@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/video_segments/60599/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.802,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.9505
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a green-handled tool with a small, cylindrical tip",
+          "researcher manipulates the tool near the exposed area of an animal's body"
+        ],
+        "objects_visible": [
+          "animal with a shaved and exposed area on its back",
+          "green surgical gloves",
+          "blue surgical drape covering the animal",
+          "green-handled tool with a metallic tip"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise surgical procedure, with the researcher using a specialized tool on an animal's exposed skin. The green gloves and blue drape indicate a sterile environment. The tool's design suggests it is used for a specific, delicate task."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.9505,
+        23.901
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a light green, cylindrical tool near the animal's eye",
+          "researcher uses forceps to manipulate the animal's head and eye area"
+        ],
+        "objects_visible": [
+          "animal with its head partially exposed, covered by a transparent surgical drape",
+          "green surgical gloves worn by the researcher",
+          "metal forceps held by the researcher",
+          "light green cylindrical tool used near the animal's eye"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a precise surgical procedure involving an animal's eye, with the researcher using specialized tools. The transparent drape and green gloves highlight the sterile environment. The light green tool and forceps are central to the action, indicating a delicate and controlled operation."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.901,
+        35.8515
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate tissue on the mouse's abdomen",
+          "researcher applies a liquid substance from a syringe into the mouse's mouth"
+        ],
+        "objects_visible": [
+          "mouse with exposed abdomen and restrained limbs",
+          "forceps with metallic, curved tips",
+          "syringe with a clear, transparent liquid",
+          "black tube with a label and a white cap",
+          "blue surgical gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid from the syringe"
+        ],
+        "key_distinguishing_features": "This segment shows a detailed surgical procedure on a mouse, with the researcher carefully manipulating tissue and administering a liquid substance. The use of forceps and a syringe highlights the precision required in this experimental phase. The mouse is restrained and appears to be under anesthesia, ensuring it remains still during the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.8515,
+        47.802
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small animal, likely a mouse, with gloved hands and a clamp",
+          "researcher manipulates a medical device connected to the animal, possibly for an injection or monitoring"
+        ],
+        "objects_visible": [
+          "small animal, likely a mouse, with visible fur and a clamp on its body",
+          "medical device with tubes and a black component connected to the animal",
+          "green surgical gloves on the researcher's hands",
+          "yellow surgical cap worn by the researcher",
+          "sterile blue surgical drape under the animal"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on a precise medical procedure involving a small animal, with the researcher's hands carefully manipulating a device connected to the animal. The sterile environment and specialized equipment highlight the controlled nature of the experiment. The presence of the 'jove' logo suggests this is part of a scientific demonstration or educational video."
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "video_id": "videos/level_3/62458_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 567.594667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        141.89866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a small, white, spherical object with black spots resembling a miniature soccer ball",
+          "researcher places the spherical object on a flat surface next to a rectangular piece of cardboard with scattered black markings",
+          "researcher uses a computer to display an image of a mouse interacting with a similar spherical object on the screen",
+          "researcher opens a large, cylindrical container filled with a granular substance and places a transparent, rectangular object with green caps inside"
+        ],
+        "objects_visible": [
+          "small white spherical object with black spots",
+          "rectangular piece of cardboard with scattered black markings",
+          "computer screen displaying an image of a mouse and a spherical object",
+          "large cylindrical container filled with granular substance",
+          "transparent rectangular object with green caps"
+        ],
+        "visible_text_labels": [
+          "See text manuscript for cue dimensions",
+          "Object Habituation",
+          ">50 cm in diameter"
+        ],
+        "quantities": [
+          ">50 cm in diameter"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on preparing objects for an experiment, including a miniature soccer ball and a granular-filled container. The use of a computer screen to display a related image suggests a connection between the physical objects and the experiment's context. The text labels provide specific dimensions and instructions, emphasizing the preparatory nature of the actions."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        141.89866675,
+        283.7973335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A mouse is placed in a circular arena with various objects including dumbbells, a ball, and a tube.",
+          "The mouse explores the arena, interacting with the objects.",
+          "A computer screen displays a live feed of the mouse's movement, along with data and graphs."
+        ],
+        "objects_visible": [
+          "A mouse with a white and black coat",
+          "A circular arena filled with sand-like material",
+          "A dumbbell with a black handle and silver weights",
+          "A small green and white soccer ball",
+          "A transparent tube with a green label",
+          "A computer screen showing a live feed and data analysis"
+        ],
+        "visible_text_labels": [
+          "Context Habituation",
+          "Encoding Trial"
+        ],
+        "quantities": [
+          "The arena appears to be approximately 1 meter in diameter"
+        ],
+        "key_distinguishing_features": "This segment focuses on the behavior of a mouse in a controlled environment, with detailed observation and data recording. The presence of various objects in the arena suggests a study on the mouse's interaction and exploration patterns. The computer screen provides real-time data analysis, indicating a sophisticated experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        283.7973335,
+        425.69600025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a transparent plastic container with a green lid and places it on a surface",
+          "researcher uses a pipette to transfer a small volume of liquid into the container",
+          "researcher places a small, white, spherical object into the container",
+          "researcher observes the object's movement within the container"
+        ],
+        "objects_visible": [
+          "transparent plastic container with a green lid",
+          "pipette with a blue tip",
+          "small, white, spherical object",
+          "computer screen displaying a software interface with various parameters and a live video feed"
+        ],
+        "visible_text_labels": [
+          "Time spent exploring object 1 (novel set): 00:00:00",
+          "Total exploration time: 00:00:00",
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid (exact volume not specified)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the execution phase where a researcher manipulates a small object within a controlled environment. The use of a pipette and the observation of the object's movement are distinctive. The software interface on the computer screen provides real-time data and visual feedback."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        425.69600025,
+        567.594667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher discusses experimental design and results",
+          "Graphs and bar charts are displayed to illustrate data"
+        ],
+        "objects_visible": [
+          "Graphs showing exploration time percentages",
+          "Bar charts comparing different test delays and contexts",
+          "Text labels indicating session and context details"
+        ],
+        "visible_text_labels": [
+          "Session X (Context 1 and 3)",
+          "Session X + 1 (Context 2 and 4)",
+          "Group 1",
+          "Group 2",
+          "Context 1",
+          "Context 2",
+          "Context 3",
+          "Context 4",
+          "20 min encoding",
+          "Test",
+          "1 h",
+          "24 h",
+          "Test delay",
+          "KRISTOFFER H\u00d8JGAARD",
+          "AARHUS UNIVERSITY"
+        ],
+        "quantities": [
+          "20 min encoding time",
+          "1 h and 24 h test delays",
+          "Exploration time percentages ranging from 0 to 100%"
+        ],
+        "key_distinguishing_features": "This segment focuses on the presentation of experimental data through detailed graphs and bar charts, highlighting the effects of different contexts and test delays on exploration time. The researcher, identified as Kristoffer H\u00f8jgaard from Aarhus University, provides insights into the experimental design. The visual elements are designed to clearly differentiate between various experimental groups and conditions."
+      }
+    }
+  ]
+}

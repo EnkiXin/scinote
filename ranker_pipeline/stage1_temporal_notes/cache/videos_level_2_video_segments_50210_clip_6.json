@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/50210/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.967,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.99175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a test tube",
+          "researcher places the pipette back into its holder"
+        ],
+        "objects_visible": [
+          "pipette with a black handle and pink plunger",
+          "red test tube rack holding several test tubes",
+          "green test tube rack with empty slots",
+          "transparent container with a blue lid",
+          "biohazard warning label on a centrifuge",
+          "white centrifuge with a digital display and control buttons"
+        ],
+        "visible_text_labels": [
+          "biohazard symbol on the centrifuge",
+          "JOVE logo in the top right corner"
+        ],
+        "quantities": [
+          "test tubes in the red rack are labeled with numbers or letters"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of liquid transfer using a pipette, highlighting the controlled environment of a laboratory setup. The presence of a biohazard label on the centrifuge indicates the handling of potentially hazardous materials. The JOVE logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.99175,
+        19.9835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses a clear liquid into a 1.5mL microtube labeled '1' with a blue cap",
+          "researcher places the microtube back into a green test tube rack"
+        ],
+        "objects_visible": [
+          "green test tube rack with multiple empty slots",
+          "red test tube rack with several 15mL conical tubes with blue caps",
+          "1.5mL microtube labeled '1' with a blue cap",
+          "pipette with a clear liquid",
+          "researcher's gloved hands",
+          "Thermo Fisher Scientific equipment in the background"
+        ],
+        "visible_text_labels": [
+          "1",
+          "Thermo"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "15mL conical tubes"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of a microtube and the use of a pipette for liquid transfer. The focus is on the green and red test tube racks, which organize the tubes methodically. The researcher's actions are deliberate, emphasizing the careful execution of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.9835,
+        29.97525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a 1.5mL microtube into a white circular rack with multiple compartments",
+          "researcher closes the white circular rack with a blue lid"
+        ],
+        "objects_visible": [
+          "white circular rack with multiple compartments",
+          "blue lid for the white circular rack",
+          "green and pink test tube racks in the background",
+          "researcher's gloved hands (one white glove, one blue glove)"
+        ],
+        "visible_text_labels": [
+          "jove (logo in the top right corner)"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase where a microtube is carefully placed into a specialized rack, emphasizing the importance of organization in laboratory procedures. The use of distinct gloves for different tasks highlights the attention to contamination control. The background racks add context to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.97525,
+        39.967
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher uses a blue tool to scrape a white powdery substance from a surface",
+          "researcher's gloved hand is visible as they manipulate the tool"
+        ],
+        "objects_visible": [
+          "blue scraping tool with a green handle",
+          "white powdery substance with a granular texture",
+          "gloved hand wearing a white glove"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the detailed texture of the white powdery substance, highlighting its granular nature. The blue scraping tool with a green handle is a distinctive feature used in the action. The researcher's gloved hand is actively involved in the manipulation of the tool."
+      }
+    }
+  ]
+}

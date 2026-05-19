@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/1942/clip_10.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 43.877,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.96925
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens a large incubator door",
+          "researcher places a petri dish inside the incubator"
+        ],
+        "objects_visible": [
+          "large incubator with a glass door",
+          "petri dish held by the researcher",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "37\u00b0C at least 4 days"
+        ],
+        "quantities": [
+          "37\u00b0C",
+          "4 days"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher carefully placing a petri dish into an incubator set at 37\u00b0C for at least 4 days. The incubator's glass door is open, revealing its interior shelves. The text overlay specifies the temperature and duration required for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.96925,
+        21.9385
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "time-lapse observation of cell culture over 4 days"
+        ],
+        "objects_visible": [
+          "circular petri dish containing red and green cells",
+          "red circular cancer cells",
+          "green and yellow fibroblast cells"
+        ],
+        "visible_text_labels": [
+          "cancer cells",
+          "fibroblast cells",
+          "after 4 days"
+        ],
+        "quantities": [
+          "red cancer cells increase in number",
+          "fibroblast cells remain constant"
+        ],
+        "key_distinguishing_features": "This segment shows a time-lapse of a cell culture where cancer cells (red) visibly increase in number over 4 days, while fibroblast cells (green and yellow) remain unchanged. The petri dish is the central focus, with clear labels for each cell type."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.9385,
+        32.90775
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher places the microtube into a rack",
+          "researcher picks up a pipette and inserts it into a container of pink liquid"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "pipette with a blue plunger",
+          "container of pink liquid",
+          "microtube rack",
+          "petri dish with a grid pattern"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher handling a microtube and a pipette, indicating a precise step in the experiment. The pink liquid and the grid-patterned petri dish suggest a controlled environment for cell culture or analysis. The focus on the microtube and pipette highlights the meticulous nature of the task."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.90775,
+        43.877
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a clear liquid into a multi-well plate",
+          "researcher carefully places the pipette tip into each well of the plate"
+        ],
+        "objects_visible": [
+          "white multi-well plate with teal-colored labels on each well",
+          "pipette with a clear tip",
+          "laboratory equipment labeled 'SUN'",
+          "various laboratory supplies and reagents in the background"
+        ],
+        "visible_text_labels": [
+          "Assess purity of derived cells by immunostaining",
+          "SUN"
+        ],
+        "quantities": [
+          "12 wells in the multi-well plate"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of liquid into a multi-well plate, likely for immunostaining. The teal labels on the wells suggest a systematic approach to sample organization. The background equipment and supplies indicate a well-equipped laboratory setting."
+      }
+    }
+  ]
+}

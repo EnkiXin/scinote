@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_3/57131_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 544.682667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        136.17066675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person places a small, white, oval-shaped object into a petri dish containing a clear liquid.",
+          "A gloved hand uses a pipette to transfer a small volume of liquid into a petri dish."
+        ],
+        "objects_visible": [
+          "A petri dish with a clear liquid and a small white object inside.",
+          "A gloved hand holding a pipette.",
+          "A pipette tip dispenser and a pipette.",
+          "A refrigerator with a digital display showing '25\u00b0C' and '12/12 light/dark'."
+        ],
+        "visible_text_labels": [
+          "Kathleen Beckingham",
+          "Rice University",
+          "25\u00b0C",
+          "12/12 light/dark"
+        ],
+        "quantities": [
+          "25\u00b0C",
+          "12/12 light/dark"
+        ],
+        "key_distinguishing_features": "This segment highlights the initial preparation steps in a laboratory setting, focusing on the careful handling of a small object and liquid transfer. The presence of a refrigerator with specific temperature and light/dark cycle settings suggests controlled environmental conditions for the experiment. The video includes text labels identifying the researcher and their affiliation."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        136.17066675,
+        272.3413335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher pours a clear liquid from a bottle labeled '10% w/v Nipagen in 95% ETOH' into a beaker",
+          "researcher places a petri dish containing a small amount of yeast paste on a digital scale",
+          "researcher uses a pipette to transfer a small amount of liquid from a petri dish into another container"
+        ],
+        "objects_visible": [
+          "beaker with a clear liquid",
+          "digital scale displaying a reading",
+          "petri dish with a small amount of yeast paste",
+          "pipette with a fine tip",
+          "bottle labeled '10% w/v Nipagen in 95% ETOH'"
+        ],
+        "visible_text_labels": [
+          "10% w/v Nipagen in 95% ETOH",
+          "0.8 - 0.9 g yeast paste"
+        ],
+        "quantities": [
+          "0.8 - 0.9 g yeast paste",
+          "10% w/v Nipagen in 95% ETOH"
+        ],
+        "key_distinguishing_features": "This segment focuses on precise measurement and handling of yeast paste and a specific chemical solution. The digital scale is used to ensure accurate weight, and the liquid transfer is done with a pipette for precision. The bottle label provides specific details about the chemical composition of the solution being used."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        272.3413335,
+        408.51200025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher uses a computer mouse to interact with a digital image analysis software",
+          "software displays a grayscale image of a neuron with dendritic branches"
+        ],
+        "objects_visible": [
+          "computer screen displaying a scientific image analysis program",
+          "digital image of a neuron with a central soma and radiating dendrites",
+          "software interface with menu options like 'Adjust', 'Analyze', 'Process'"
+        ],
+        "visible_text_labels": [
+          "jove",
+          "Area: 130188",
+          "MinThr: 255",
+          "MaxThr: 255"
+        ],
+        "quantities": [
+          "130188 pixels (area measurement of the neuron image)",
+          "255 (minimum and maximum threshold values)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the digital analysis of a neuron image, highlighting the use of specialized software for quantifying neuronal structures. The grayscale image and precise measurements suggest a detailed morphological study. The presence of the 'jove' logo indicates the video is part of a scientific tutorial or demonstration."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        408.51200025,
+        544.682667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The video displays a microscopic image of a biological structure with a complex network of dark, interconnected lines against a white background.",
+          "A slide with text and images is shown, detailing genetic expression in tracheae and salivary glands of larvae, including a bar graph and a diagram of a larva."
+        ],
+        "objects_visible": [
+          "A microscopic image with a central circular structure surrounded by a network of dark lines.",
+          "A slide with a bar graph showing percentages of live larvae outside food over days after hatching.",
+          "A diagram of a larva with labeled parts such as 'SG' for salivary glands."
+        ],
+        "visible_text_labels": [
+          "cut-Gal4 expression in the tracheae. Upper panel shows DIC image of larva. Bar = 50 \u03bcm. Lower panel shows Gal4 expression reported by UAS mCherry. Note expression in salivary glands (SG) in addition to tracheae.",
+          "The unifilobate gene covers more than 37 kb of genomic DNA and its transcripts are as shown. Introns are single lines. Protein coding reads are orange.",
+          "DAY 8: left - control pupae, right - btl-GAL4>UAS uifRNAi larvae"
+        ],
+        "quantities": [
+          "Bar = 50 \u03bcm",
+          "Days After Hatching: 0 to 20"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of genetic expression patterns in larvae, with detailed visual and textual information on the expression of cut-Gal4 in tracheae and salivary glands. The inclusion of a bar graph and a larval diagram provides a comprehensive view of the experimental results."
+      }
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "video_id": "videos/level_2/video_verification/53156/clip_4_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 20.511333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.12783325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved finger interacts with a touchscreen interface, adjusting the 'Dispense Volume' setting."
+        ],
+        "objects_visible": [
+          "A touchscreen display showing a program control interface for a dispensing system.",
+          "A gloved finger pointing at the screen."
+        ],
+        "visible_text_labels": [
+          "Saved Program Number",
+          "Barrel Size",
+          "Dispense Volume (cc)",
+          "Speed (cc per sec)",
+          "Back-off (steps)",
+          "EXTEND (Retract)",
+          "MANUAL (Auto)",
+          "Cancel",
+          "Save Program",
+          "Single Step"
+        ],
+        "quantities": [
+          "0.00023 cc (Dispense Volume)",
+          "3 cc (Barrel Size)",
+          "0.010 cc per sec (Speed)",
+          "10 steps (Back-off)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a dispensing volume on a digital interface. The user's gloved hand indicates a controlled laboratory environment. The small volume setting suggests a highly accurate and delicate process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.12783325,
+        10.2556665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A gloved finger interacts with a touchscreen interface, adjusting the 'Back-off (steps)' parameter to '5'."
+        ],
+        "objects_visible": [
+          "A touchscreen display showing a program control interface for a precision dispensing system.",
+          "A gloved hand interacting with the touchscreen."
+        ],
+        "visible_text_labels": [
+          "Saved Program Number",
+          "Barrel Size",
+          "Dispense Volume (cc)",
+          "Speed (cc per sec)",
+          "Back-off (steps)",
+          "EXTEND (Retract)",
+          "MANUAL (Auto)",
+          "Cancel",
+          "Save Program",
+          "Single Step",
+          "Prime and Dispense",
+          "Save As"
+        ],
+        "quantities": [
+          "1",
+          "3cc",
+          "0.00023 cc",
+          "0.010 cc per sec",
+          "5 steps"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise setup of a dispensing program, highlighting the adjustment of the 'Back-off (steps)' parameter. The interface is designed for detailed control over small volumes, as indicated by the very low dispense volume. The use of a gloved hand suggests a controlled and sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        10.2556665,
+        15.38349975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Cursor highlights specific numerical values in a spreadsheet"
+        ],
+        "objects_visible": [
+          "Spreadsheet with columns labeled 'Point Number', 'Type', 'X[mm]', 'Y[mm]', 'Z[mm]', 'Speed', 'Angle', 'Condition No', 'Job No', 'MJob No'"
+        ],
+        "visible_text_labels": [
+          "Point Dispense",
+          "X[mm]",
+          "Y[mm]",
+          "Z[mm]",
+          "160.000",
+          "162.400",
+          "164.800",
+          "167.200",
+          "169.600"
+        ],
+        "quantities": [
+          "160.000 mm",
+          "162.400 mm",
+          "164.800 mm",
+          "167.200 mm",
+          "169.600 mm"
+        ],
+        "key_distinguishing_features": "The segment focuses on a detailed view of a spreadsheet, specifically highlighting a sequence of X and Y coordinates in millimeters. The cursor movement draws attention to the incremental changes in the X values, suggesting a systematic measurement or data entry process. The highlighted values are part of a larger dataset, likely related to point dispensing operations."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        15.38349975,
+        20.511333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Cursor selects a cell in the spreadsheet containing the value '160.000' in the X[mm] column.",
+          "Cursor clicks on a dropdown menu labeled 'Changing Mode' in the toolbar."
+        ],
+        "objects_visible": [
+          "A spreadsheet interface with columns labeled 'Point Number', 'Type', 'X[mm]', 'Y[mm]', 'Z[mm]', 'Speed', 'Angle', 'Condition No.', 'Job No.', 'MJob No.', and 'Job No.'.",
+          "A toolbar with various icons and a dropdown menu labeled 'Changing Mode'.",
+          "A dialog box titled 'Sending CBI Data' with text 'If you want to send all the grid data at once it is all right. Press the Send button to start Sending. If you want to send the Segment Send button when you insert the data.'"
+        ],
+        "visible_text_labels": [
+          "Point Dispense",
+          "160.000",
+          "162.400",
+          "Changing Mode",
+          "Sending CBI Data",
+          "Adjust_Tip_T",
+          "JR2 300SZ"
+        ],
+        "quantities": [
+          "160.000 mm",
+          "162.400 mm",
+          "47 JoVE 5x5 Array"
+        ],
+        "key_distinguishing_features": "This segment focuses on the execution phase of a robotic dispensing process, where specific coordinates are selected and a mode change is initiated. The presence of a dialog box suggests a preparatory step for data transmission to a robotic system. The detailed numerical values in the spreadsheet indicate precise control over the dispensing process."
+      }
+    }
+  ]
+}

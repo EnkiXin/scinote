@@ -1,0 +1,175 @@
+{
+  "video_id": "videos/level_3/1942_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 508.949333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        127.23733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'Versene' with a blue cap.",
+          "Pipettes ~200uL of a clear solution from the microtube into a petri dish containing a red-colored medium."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap labeled 'Versene'.",
+          "Petri dish with a red-colored medium.",
+          "Pipette with a black handle and a transparent tip."
+        ],
+        "visible_text_labels": [
+          "Versene: 0.014 g/l of phenol red, 0.2 g/l of EDTA-Na in 1 x PBS, pH 7.2",
+          "FBS or soybean trypsin inhibitor may be used"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "~200uL of a clear solution",
+          "0.014 g/l of phenol red",
+          "0.2 g/l of EDTA-Na",
+          "pH 7.2"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a solution using Versene, highlighting the specific components and concentrations. The researcher's precise handling of the microtube and pipette emphasizes the importance of accuracy in this step. The red-colored medium in the petri dish contrasts with the clear solution, making the action visually distinct."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        127.23733325,
+        254.4746665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish",
+          "researcher uses forceps to hold a small animal, likely a mouse, in a secure position",
+          "injects a solution into the mouse using a syringe with a needle"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with pink-colored DMEM medium",
+          "petri dish",
+          "forceps",
+          "small animal (likely a mouse)",
+          "syringe with needle",
+          "laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "add HBSS to final concentration of ~5 x 10^5 cells/ml",
+          "nude, NOD-SCID, or NSG",
+          "Jackson's Laboratory",
+          "200 \u00b5L 5 x 10^5 cells",
+          "if first trial fails use a more proximal region"
+        ],
+        "quantities": [
+          "200 \u00b5L",
+          "5 x 10^5 cells"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling and injection of a solution into a small animal, demonstrating careful technique with specific volumes and concentrations. The use of forceps and a syringe highlights the delicate nature of the procedure. The text labels provide context for the experiment, indicating the use of specific cell lines and concentrations."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        254.4746665,
+        381.71199975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a blue marker to label a petri dish with a grid pattern",
+          "researcher places a petri dish containing a sample into a microscope for observation",
+          "researcher uses forceps to manipulate a tissue sample on a black background"
+        ],
+        "objects_visible": [
+          "petri dish with a grid pattern and handwritten label",
+          "microscope with a sample stage",
+          "forceps with a metallic finish",
+          "tissue sample with a reddish-brown color",
+          "aluminum foil covering a container"
+        ],
+        "visible_text_labels": [
+          "viability should be >80%"
+        ],
+        "quantities": [
+          ">80%"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation and observation of a tissue sample, highlighting the use of a grid-patterned petri dish for labeling and a microscope for detailed examination. The tissue sample's reddish-brown color and the use of forceps for manipulation are distinctive features."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        381.71199975,
+        508.949333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher places petri dishes containing cell cultures into an incubator set at 37\u00b0C",
+          "researcher checks the petri dishes under a microscope after 4 days"
+        ],
+        "objects_visible": [
+          "incubator with a digital display showing 37\u00b0C",
+          "petri dishes with visible cell cultures",
+          "microscope with an eyepiece and objective lenses",
+          "labeled petri dishes with text 'highly metastatic cancer cell'"
+        ],
+        "visible_text_labels": [
+          "37\u00b0C at least 4 days",
+          "highly metastatic cancer cell",
+          "cancer cells"
+        ],
+        "quantities": [
+          "37\u00b0C",
+          "4 days"
+        ],
+        "key_distinguishing_features": "This segment focuses on the incubation and observation of cell cultures, specifically highlighting the conditions (37\u00b0C for 4 days) and the type of cells being studied (highly metastatic cancer cells). The use of a microscope for post-incubation assessment is a key feature."
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "video_id": "videos/level_2/video_verification/4142/clip_9_removed_step_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 25.646833,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.41170825
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a labeled box containing 'Ethanol Standards' samples",
+          "researcher places the box on a laboratory counter next to a labeled 'Dialysate Samples' box"
+        ],
+        "objects_visible": [
+          "laboratory counter with a white machine and control panel",
+          "two boxes labeled 'Dialysate Samples' and 'Ethanol Standards'",
+          "researcher's gloved hands",
+          "yellow pipes and gauges in the background",
+          "posters and informational sheets on the wall"
+        ],
+        "visible_text_labels": [
+          "Dialysate Samples",
+          "Ethanol Standards",
+          "~30 min"
+        ],
+        "quantities": [
+          "~30 min"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation phase where labeled sample boxes are being organized on a laboratory counter. The presence of specific text labels and the researcher's careful handling of the samples emphasize the methodical nature of the experiment. The background elements, such as gauges and informational posters, suggest a well-equipped laboratory setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.41170825,
+        12.8234165
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher places a labeled sample tray on the instrument"
+        ],
+        "objects_visible": [
+          "computer monitor displaying a software interface for system control",
+          "sample tray with multiple compartments",
+          "instrument labeled 'Internal Standards'"
+        ],
+        "visible_text_labels": [
+          "~30 min",
+          "Internal Standards",
+          "System Control - Varian Star #1 - Ready"
+        ],
+        "quantities": [
+          "~30 min"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of samples for analysis, as indicated by the labeled tray and the software interface. The computer screen shows detailed parameters and settings, suggesting a high level of precision in the experiment. The presence of the 'Internal Standards' label highlights the importance of calibration in this process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        12.8234165,
+        19.23512475
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Computer screen displays a software interface for system control of a Varian Star #1 instrument.",
+          "The software shows a detailed sample list with various parameters such as sample number, sample type, and injection details."
+        ],
+        "objects_visible": [
+          "Computer monitor displaying a software interface with a blue and white color scheme.",
+          "A graphical representation of a sample tray with multiple wells.",
+          "A table with columns labeled 'Sample Number', 'Sample Type', 'Vol', 'Injections', 'Amount', 'STD', and 'Peak Area'."
+        ],
+        "visible_text_labels": [
+          "System Control - Varian Star #1 - Ready",
+          "Sample List",
+          "Sample Type",
+          "Vol",
+          "Injections",
+          "Amount",
+          "STD",
+          "Peak Area"
+        ],
+        "quantities": [
+          "Sample numbers ranging from 1 to 15.",
+          "Injection volumes listed as 10.00, 20.00, and 30.00."
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on a detailed software interface used for controlling a scientific instrument, showcasing a sample list with specific parameters for each sample. The graphical representation of the sample tray adds a visual aid to the data displayed in the table."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        19.23512475,
+        25.646833
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "user interacts with software interface",
+          "user selects 'Add Sample using Method' option"
+        ],
+        "objects_visible": [
+          "computer monitor displaying software interface",
+          "dialog box titled 'Add Sample using Method'"
+        ],
+        "visible_text_labels": [
+          "System Control",
+          "Ready",
+          "Add Sample using Method",
+          "See example in Table 2."
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the software interface used for sample management, highlighting the 'Add Sample using Method' dialog box. The user is actively navigating through the software, indicating a step in the execution phase of the experiment. The text 'See example in Table 2.' suggests a reference to additional documentation or data."
+      }
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "video_id": "videos/level_2/video_segments/58083/clip_11.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 60.927,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        15.23175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a test tube into a petri dish",
+          "researcher places a petri dish into a laboratory oven"
+        ],
+        "objects_visible": [
+          "orange test tube rack with multiple test tubes",
+          "petri dish with labeled sections including 'PMA' and 'LPS'",
+          "laboratory oven with a digital display and control knobs",
+          "researcher wearing purple gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "PMA",
+          "LPS",
+          "DMEM"
+        ],
+        "quantities": [
+          "test tube rack with 24 wells",
+          "petri dish with 6 labeled sections"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise transfer of liquid using a pipette into a petri dish with labeled sections, followed by the placement of the dish into a laboratory oven. The use of color-coded test tube racks and labeled petri dishes emphasizes the organized and methodical nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        15.23175,
+        30.4635
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher removes a foil-wrapped container from a white incubator using purple gloves",
+          "researcher places the container on a workbench covered with a white sheet and various laboratory items"
+        ],
+        "objects_visible": [
+          "white incubator with a transparent door",
+          "foil-wrapped container with a purple label",
+          "workbench with a white sheet",
+          "blue and orange pipette tip boxes",
+          "red biohazard container",
+          "transparent container with a green label",
+          "black and white pipette",
+          "blue and white microtube rack"
+        ],
+        "visible_text_labels": [
+          "Jove (logo in the top right corner)"
+        ],
+        "quantities": [
+          "one foil-wrapped container",
+          "multiple pipette tips in the blue and orange boxes"
+        ],
+        "key_distinguishing_features": "This segment highlights the careful handling of a foil-wrapped container, likely containing biological samples, as it is transferred from an incubator to a prepared workbench. The presence of various laboratory tools and containers suggests a setup for a detailed experiment. The use of gloves and biohazard containers emphasizes the importance of safety and sterility."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        30.4635,
+        45.69525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a brown vial with a white label and a purple-gloved hand",
+          "researcher uses a pipette to dispense a clear liquid onto a white sheet with blue squares"
+        ],
+        "objects_visible": [
+          "brown vial with a white label",
+          "pipette with a blue plunger",
+          "white sheet with blue squares",
+          "aluminum foil partially covering the sheet",
+          "green and white plastic container in the background",
+          "red object partially visible in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "clear liquid dispensed in small, precise amounts"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise dispensing of a clear liquid from a vial onto a sheet with blue squares, highlighting the careful handling and measurement typical in laboratory procedures. The presence of aluminum foil and a green container in the background suggests a controlled experimental setup. The researcher's gloved hand and the use of a pipette emphasize the importance of sterility and accuracy."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        45.69525,
+        60.927
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher adjusts imaging parameters on a computer monitor",
+          "Researcher uses purple gloves to handle a sample on a microscope stage"
+        ],
+        "objects_visible": [
+          "Computer monitor displaying imaging software",
+          "Microscope with a sample stage",
+          "Purple gloves worn by the researcher",
+          "White lab coat worn by the researcher",
+          "Black chair the researcher is seated on"
+        ],
+        "visible_text_labels": [
+          "Maintain consistent imaging parameters between samples",
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the researcher's interaction with imaging equipment, emphasizing the importance of consistent imaging parameters. The use of purple gloves and the specific setup of the microscope and computer monitor are distinctive features. The text overlay reinforces the instructional nature of the video."
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "video_id": "videos/level_2/video_segments/62309/clip_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 55.361,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.84025
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a transparent plastic mold with a grid pattern into a larger rectangular mold",
+          "researcher carefully aligns the smaller mold within the larger mold"
+        ],
+        "objects_visible": [
+          "transparent plastic mold with a grid pattern",
+          "larger rectangular mold with cylindrical pins",
+          "white gloves on the researcher's hands",
+          "green cutting mat on the workbench",
+          "various laboratory tools and containers in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "grid pattern with 16 small square compartments"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise alignment of a smaller grid-patterned mold into a larger mold with cylindrical pins, highlighting the preparation phase of a scientific process. The researcher's hands, clad in white gloves, are actively involved in the careful placement and alignment. The green cutting mat and laboratory background provide context for the setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.84025,
+        27.6805
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher carefully places a transparent plastic sheet with a grid pattern over a metallic component with protruding bolts",
+          "researcher adjusts the plastic sheet to align with the bolts, ensuring proper positioning"
+        ],
+        "objects_visible": [
+          "metallic component with 16 protruding bolts arranged in a 4x4 grid",
+          "transparent plastic sheet with a grid pattern",
+          "white gloves worn by the researcher",
+          "green cutting mat in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "16 bolts",
+          "4x4 grid pattern"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise alignment of a transparent plastic sheet with a metallic component, highlighting the careful handling and positioning by the researcher. The bolts and grid pattern suggest a methodical setup, likely for a specific experimental procedure. The presence of the 'jove' logo indicates this is part of a scientific demonstration video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        27.6805,
+        41.52075
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher connects a black and blue tool to a transparent device labeled 'Stack'"
+        ],
+        "objects_visible": [
+          "transparent device with multiple metallic bolts and labeled 'Stack'",
+          "black and blue tool with a digital display",
+          "green cutting mat with grid lines",
+          "white plastic container",
+          "metallic surface under the device"
+        ],
+        "visible_text_labels": [
+          "Stack"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise connection of a tool to a transparent device, highlighting the intricate setup of the experiment. The green cutting mat provides a clear contrast to the metallic and transparent components, emphasizing the workspace organization."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        41.52075,
+        55.361
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a complex apparatus with multiple tubes and connectors",
+          "researcher manipulates a small, white, rectangular component with a black screw"
+        ],
+        "objects_visible": [
+          "a metallic apparatus with multiple tubes and connectors",
+          "a white rectangular component with a black screw",
+          "a green cutting mat with grid lines",
+          "a white lab coat worn by the researcher",
+          "a digital display on a machine in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple tubes and connectors"
+        ],
+        "key_distinguishing_features": "This segment focuses on the intricate manipulation of a complex apparatus, highlighting the precision required in handling the small, white rectangular component with a black screw. The presence of a green cutting mat and a digital display in the background suggests a controlled laboratory environment."
+      }
+    }
+  ]
+}

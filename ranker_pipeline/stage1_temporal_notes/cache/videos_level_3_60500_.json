@@ -1,0 +1,172 @@
+{
+  "video_id": "videos/level_3/60500_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 529.109333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        132.27733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher opens a large incubator filled with numerous white and brown eggs.",
+          "Researcher carefully removes a tray containing eggs from the incubator.",
+          "Researcher places the tray on a table and selects a specific egg.",
+          "Researcher uses a pipette to transfer a liquid substance into a beaker labeled 'TEAOH: TETRAETHYLAMMONIUM HYDROXIDE'."
+        ],
+        "objects_visible": [
+          "A large incubator with multiple trays of eggs.",
+          "A tray containing white and brown eggs.",
+          "A beaker labeled 'TEAOH: TETRAETHYLAMMONIUM HYDROXIDE'.",
+          "A pipette used for transferring liquids."
+        ],
+        "visible_text_labels": [
+          "TEAOH: TETRAETHYLAMMONIUM HYDROXIDE",
+          "BEA SEED CRYSTAL SYNTHESIS"
+        ],
+        "quantities": [
+          "The tray contains approximately 30 eggs."
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of an experiment involving eggs, highlighting the careful handling of the eggs and the precise transfer of a chemical substance. The text 'BEA SEED CRYSTAL SYNTHESIS' suggests a specific scientific process being demonstrated. The use of a labeled beaker and pipette emphasizes the controlled nature of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        132.27733325,
+        264.5546665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher operates a precision balance to weigh a small container",
+          "researcher pours a white powdery substance from a labeled bottle into a beaker",
+          "researcher uses a magnetic stirrer to mix the contents of a beaker"
+        ],
+        "objects_visible": [
+          "precision balance with a digital display",
+          "beaker containing a clear liquid",
+          "magnetic stirrer with a rotating bar",
+          "labeled bottle with a white cap",
+          "chemical formula '24 Na\u2082O: 1 Al\u2082O\u2083: 200 SiO\u2082: 69 TEAOH: 2905 H\u2082O' displayed on screen"
+        ],
+        "visible_text_labels": [
+          "24 Na\u2082O: 1 Al\u2082O\u2083: 200 SiO\u2082: 69 TEAOH: 2905 H\u2082O"
+        ],
+        "quantities": [
+          "24 moles of Na\u2082O",
+          "1 mole of Al\u2082O\u2083",
+          "200 moles of SiO\u2082",
+          "69 moles of TEAOH",
+          "2905 moles of H\u2082O"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise measurement and mixing of chemical components, highlighting the use of specialized laboratory equipment. The chemical formula displayed suggests a complex synthesis process. The actions are methodical, emphasizing accuracy in the preparation of a chemical mixture."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        264.5546665,
+        396.83199975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'OSDA' with a blue cap",
+          "researcher uses a pipette to transfer a clear liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'OSDA'",
+          "pipette with a white tip",
+          "petri dish containing a clear liquid",
+          "laboratory equipment including a balance scale and a centrifuge"
+        ],
+        "visible_text_labels": [
+          "OSDA: ORGANIC STRUCTURE-DIRECTING AGENT",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "clear liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube labeled 'OSDA' and the transfer of a clear liquid into a petri dish, highlighting the importance of organic structure-directing agents in the experiment. The presence of laboratory equipment like a balance scale and centrifuge underscores the controlled environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        396.83199975,
+        529.109333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher views and analyzes XRD and FE-SEM results on a computer screen"
+        ],
+        "objects_visible": [
+          "computer screen displaying XRD graph with peaks",
+          "FE-SEM image showing microscopic structure",
+          "researcher wearing a white lab coat"
+        ],
+        "visible_text_labels": [
+          "RESULTS: XRD AND FE-SEM",
+          "\u03b1-Al\u2082O\u2083",
+          "1.0kV 9.3mm x30.0k SE(L)",
+          "1 \u00b5m",
+          "MOTOMU SAKAI",
+          "WASEDA UNIVERSITY"
+        ],
+        "quantities": [
+          "2\u03b8 (Cu K\u03b1) / deg.",
+          "intensity / cps",
+          "1 \u00b5m scale bar"
+        ],
+        "key_distinguishing_features": "This segment focuses on the analysis of XRD and FE-SEM data, with clear visual emphasis on the graph and microscopic image. The researcher's name and affiliation are displayed, adding context to the scientific work being presented."
+      }
+    }
+  ]
+}

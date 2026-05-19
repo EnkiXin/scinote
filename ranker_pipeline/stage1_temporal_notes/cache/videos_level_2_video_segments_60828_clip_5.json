@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_segments/60828/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 45.231,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.30775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher dons white latex gloves",
+          "researcher picks up a 1.5mL microtube with an orange cap"
+        ],
+        "objects_visible": [
+          "white latex gloves",
+          "1.5mL microtube with an orange cap",
+          "various glass jars containing plant samples",
+          "metal scissors",
+          "pipette tips",
+          "labeled glass jars"
+        ],
+        "visible_text_labels": [
+          "TB EXPLANT SCREENING, INFECTION, AND CO-CULTURE",
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the initial preparation phase, where the researcher is seen putting on gloves and handling a microtube, indicating the start of a sterile procedure. The presence of plant samples in jars suggests the experiment involves plant tissue culture. The title text provides context for the experiment's focus on tuberculosis-related research."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.30775,
+        22.6155
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 50 mL conical tube containing a clear liquid",
+          "researcher tilts the conical tube to pour the liquid into a glass beaker"
+        ],
+        "objects_visible": [
+          "50 mL conical tube with measurement markings",
+          "glass beaker with a small plant sample inside",
+          "Bunsen burner with a visible flame",
+          "metal surface of a laboratory bench"
+        ],
+        "visible_text_labels": [
+          "MSSAS: MS MEDIUM SUPPLEMENTED WITH SUCROSE AND ACETOSYRINGONE"
+        ],
+        "quantities": [
+          "50 mL conical tube",
+          "clear liquid being poured"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer from a conical tube to a beaker, emphasizing the controlled environment of a laboratory. The presence of a Bunsen burner suggests a sterile or heat-related procedure is part of the experiment. The MSSAS medium label indicates a specific nutrient solution used in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.6155,
+        33.92325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, clear plastic tube with a white cap",
+          "researcher uses a Bunsen burner to sterilize the tube's opening"
+        ],
+        "objects_visible": [
+          "Bunsen burner with a blue flame",
+          "sterile gloves on the researcher's hands",
+          "various glass jars and petri dishes containing plant samples",
+          "metal surface of the workbench"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one small, clear plastic tube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the sterilization process using a Bunsen burner, highlighting the importance of aseptic technique. The researcher's hands are gloved, emphasizing the sterile environment. The presence of plant samples in jars and petri dishes suggests a biological experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        33.92325,
+        45.231
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to transfer small green plant samples from one petri dish to another",
+          "researcher carefully places the plant samples onto a white agar medium in the petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with white agar medium and small green plant samples",
+          "forceps held by the researcher's gloved hand",
+          "another petri dish containing additional green plant samples",
+          "glass containers with plant samples in the background",
+          "burner with a lit flame in the background"
+        ],
+        "visible_text_labels": [
+          "MSSAAS: MS MEDIUM SUPPLEMENTED WITH AGAR, SUCROSE, AND AS MEDIUM",
+          "jove"
+        ],
+        "quantities": [
+          "multiple small green plant samples"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of plant samples using forceps, highlighting the careful handling required in the experiment. The white agar medium in the petri dish is a key feature, indicating the setup for plant cultivation. The presence of a lit burner in the background suggests a sterile environment is maintained."
+      }
+    }
+  ]
+}

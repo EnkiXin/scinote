@@ -1,0 +1,170 @@
+{
+  "video_id": "videos/level_3/57021_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 506.538667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        126.63466675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Lysis buffer A' with a blue cap",
+          "researcher places the microtube into a blue ice bucket containing ice cubes",
+          "researcher operates a centrifuge by pressing buttons on the control panel"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap labeled 'Lysis buffer A'",
+          "blue ice bucket filled with ice cubes",
+          "centrifuge with a digital display and control buttons",
+          "green tray containing various laboratory items"
+        ],
+        "visible_text_labels": [
+          "See text for preparation of Lysis buffer A",
+          "Thermo"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "0.00 displayed on the centrifuge screen"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a lysis buffer, highlighting the use of a specific microtube and the cooling method with ice. The centrifuge operation suggests a step involving sample processing. The text overlay provides additional context for the preparation of the buffer."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        126.63466675,
+        253.2693335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a test tube",
+          "researcher places the test tube into a blue ice-filled container",
+          "researcher uses a pipette to transfer liquid from a test tube into a well plate"
+        ],
+        "objects_visible": [
+          "pipette with a white body and black plunger",
+          "1.5mL microtube labeled 'Wash Buffer 1' with a blue cap",
+          "blue ice-filled container with a grid for holding test tubes",
+          "green and blue well plates with multiple compartments",
+          "researcher wearing white gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "See text for preparation of Wash Buffer 1",
+          "MINI WAVE"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "multiple compartments in well plates"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of test tubes and well plates, emphasizing the use of ice to maintain sample temperature. The researcher's actions are methodical, indicating a step in the execution phase of the experiment. The presence of labeled 'Wash Buffer 1' suggests a specific protocol is being followed."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        253.2693335,
+        379.90400024999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 1.5mL microtube labeled 'DNA' with a blue cap into a centrifuge",
+          "researcher closes the centrifuge lid and adjusts the speed dial to 3000 RPM"
+        ],
+        "objects_visible": [
+          "AS ONE Mini Micro Centrifuge with a white body and black control knobs",
+          "1.5mL microtube labeled 'DNA' with a blue cap",
+          "centrifuge lid with a clear window and a warning label",
+          "researcher's gloved hand with a wristwatch"
+        ],
+        "visible_text_labels": [
+          "AS ONE",
+          "Mini Micro Centrifuge",
+          "DNA"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "3000 RPM"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a labeled microtube into a centrifuge, highlighting the importance of correct speed settings. The researcher's gloved hand and wristwatch add a human element to the otherwise technical process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        379.90400024999997,
+        506.538667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap.",
+          "Pipettes approximately 200uL of a pink-colored DMEM medium into a petri dish."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap labeled 'DMEM'",
+          "Pink-colored DMEM medium",
+          "Petri dish",
+          "Pipette with a blue plunger"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "V. IP-RdRP Assay: RNase Treatment",
+          "VI. Results: RdRP Products of Endogenous TERT in Mitotic HeLa Cells",
+          "VII. Conclusion"
+        ],
+        "quantities": [
+          "1.5mL",
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of DMEM medium, a specific cell culture medium, and the precise measurement of 200uL. The text labels indicate a progression from assay treatment to results and conclusion, highlighting the structured nature of the experiment."
+      }
+    }
+  ]
+}

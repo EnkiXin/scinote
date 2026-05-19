@@ -1,0 +1,163 @@
+{
+  "video_id": "videos/level_2/video_segments/54899/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.191,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.79775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a blue Falcon tube labeled 'TBS-T'",
+          "researcher uses a pipette to transfer liquid into petri dishes"
+        ],
+        "objects_visible": [
+          "blue Falcon tube with 'TBS-T' label",
+          "pipette with blue tip",
+          "four petri dishes on a flat surface"
+        ],
+        "visible_text_labels": [
+          "FALCON",
+          "TBS-T",
+          "jove"
+        ],
+        "quantities": [
+          "four petri dishes"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where a blue Falcon tube labeled 'TBS-T' is prominently featured. The researcher is seen using a pipette to transfer liquid into four petri dishes, indicating the start of a liquid handling process. The 'jove' logo is visible, suggesting the video is part of a scientific tutorial or demonstration."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.79775,
+        23.5955
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'H2O' with a blue cap",
+          "researcher places the microtube into a blue microtube rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'H2O' with a blue cap",
+          "blue microtube rack",
+          "green test tube rack with multiple empty slots",
+          "Vortex-Genie 2 mixer with a white and red label",
+          "small white microtube with a red cap",
+          "plastic box containing a 96-well plate with purple and yellow wells"
+        ],
+        "visible_text_labels": [
+          "H2O",
+          "VORTEX-GENIE 2",
+          "Light sensitive reagents"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment highlights the preparation of light-sensitive reagents, as indicated by the text on the screen. The researcher is carefully handling a microtube labeled 'H2O', suggesting the preparation of a solution. The presence of a Vortex-Genie 2 mixer and a 96-well plate suggests subsequent mixing or analysis steps."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.5955,
+        35.39325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap and handwritten label 'DMEM'",
+          "petri dish containing a white, grid-like substance",
+          "pipette with a yellow tip",
+          "green test tube rack with multiple empty slots",
+          "blue-gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Vortex to mix"
+        ],
+        "quantities": [
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a specific volume of DMEM medium using a pipette. The handwritten label on the microtube and the pink color of the medium are distinctive features. The action is part of a step that requires careful execution, as indicated by the 'Vortex to mix' instruction."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.39325,
+        47.191
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid into small petri dishes",
+          "researcher places petri dishes into an incubator"
+        ],
+        "objects_visible": [
+          "pipette with a white handle and blue plunger",
+          "small, clear petri dishes arranged on a black tray",
+          "green test tube rack with multiple empty slots",
+          "incubator with a transparent door and metal shelves inside"
+        ],
+        "visible_text_labels": [
+          "Vortex to mix"
+        ],
+        "quantities": [
+          "four petri dishes on the tray"
+        ],
+        "key_distinguishing_features": "This segment shows the precise transfer of liquid into petri dishes using a pipette, followed by the placement of these dishes into an incubator. The green test tube rack and the transparent incubator door are distinctive elements in the scene."
+      }
+    }
+  ]
+}

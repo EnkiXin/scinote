@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/video_verification/2355/clip_6_removed_step_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 31.625767,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.90644175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher looks through a binocular microscope",
+          "researcher adjusts the stage of the microscope with gloved hands"
+        ],
+        "objects_visible": [
+          "binocular microscope with a stage and objective lenses",
+          "petri dish on the microscope stage",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively observing a sample under a binocular microscope, indicating a phase of detailed examination. The use of blue gloves and a lab coat emphasizes a controlled laboratory environment. The petri dish on the microscope stage suggests the sample is likely a biological specimen."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.90644175,
+        15.8128835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a petri dish into an incubator",
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap"
+        ],
+        "objects_visible": [
+          "white incubator with a glass door",
+          "petri dish with a blue lid",
+          "1.5mL microtube labeled 'DMEM' with a blue cap",
+          "white lab coat",
+          "blue gloves",
+          "plastic pipette tips in a rack",
+          "clear plastic bottle with a white cap"
+        ],
+        "visible_text_labels": [
+          "Grow 5-7 days post-transfection",
+          "DMEM"
+        ],
+        "quantities": [
+          "5-7 days"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher placing a petri dish into an incubator, indicating a step in cell culture. The focus on the DMEM microtube suggests the preparation of a medium for cell growth. The text overlay provides a specific timeframe for post-transfection growth."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.8128835,
+        23.71932525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a clear plastic container with a grid of wells",
+          "researcher tilts the container to pour liquid into a well"
+        ],
+        "objects_visible": [
+          "clear plastic container with multiple wells",
+          "researcher's gloved hand",
+          "bottles labeled 'PBS pH 7.4' and 'Sterile Water for Injection'"
+        ],
+        "visible_text_labels": [
+          "PBS pH 7.4",
+          "Sterile Water for Injection"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the researcher's hand manipulating a clear plastic container, likely for liquid distribution. The presence of labeled bottles suggests preparation for a specific solution or medium. The action of tilting the container is a key step in the process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.71932525,
+        31.625767
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a multi-well plate",
+          "researcher uses a pipette to transfer liquid from a labeled bottle into the wells"
+        ],
+        "objects_visible": [
+          "red test tube rack with blue-capped tubes",
+          "transparent multi-well plate with several compartments",
+          "pipette with a blue plunger",
+          "labeled bottle with a white label and barcode"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "specific volume of liquid being transferred (not quantified in the image)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid using a pipette into a multi-well plate, emphasizing the careful handling of laboratory equipment. The presence of the red test tube rack and the labeled bottle suggests a controlled and organized experimental setup."
+      }
+    }
+  ]
+}

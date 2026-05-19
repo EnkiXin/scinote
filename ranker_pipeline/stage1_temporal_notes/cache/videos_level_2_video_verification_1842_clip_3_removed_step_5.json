@@ -1,0 +1,167 @@
+{
+  "video_id": "videos/level_2/video_verification/1842/clip_3_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 40.302751,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.07568775
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a clear plastic gel tray",
+          "researcher places the pipette tip into a bottle labeled 'GELFREE 8100 RUNNING BUFFER'"
+        ],
+        "objects_visible": [
+          "clear plastic gel tray with compartments",
+          "pipette with a white body and yellow plunger",
+          "bottle labeled 'GELFREE 8100 RUNNING BUFFER' with a white cap",
+          "yellow pipette tip rack",
+          "researcher wearing purple gloves and a blue lab coat"
+        ],
+        "visible_text_labels": [
+          "GELFREE 8100 RUNNING BUFFER",
+          "Running Buffer - 8 mL"
+        ],
+        "quantities": [
+          "8 mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase where a precise volume of running buffer is being added to a gel tray. The researcher's actions are deliberate, ensuring the correct amount of buffer is dispensed. The presence of the labeled bottle and the specific volume mentioned highlight the importance of accuracy in this step."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.07568775,
+        20.1513755
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a multi-channel pipette and dispenses 100 \u00b5L of running buffer into a clear plastic container",
+          "researcher places the multi-channel pipette back into its holder"
+        ],
+        "objects_visible": [
+          "a bottle labeled 'GELFREE 8100 Running Buffer' with a white cap",
+          "a multi-channel pipette with multiple tips",
+          "a clear plastic container with compartments",
+          "a white plastic lid for the container",
+          "a blue and yellow pipette tip rack"
+        ],
+        "visible_text_labels": [
+          "Running Buffer \u2013 100 \u00b5L",
+          "GELFREE 8100 Running Buffer"
+        ],
+        "quantities": [
+          "100 \u00b5L",
+          "6 mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise preparation of a running buffer solution, highlighting the use of a multi-channel pipette for accurate dispensing. The clear labeling of the buffer bottle and the specific volume measurement emphasize the importance of accuracy in this step. The presence of a pipette tip rack and container lid suggests a well-organized laboratory setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.1513755,
+        30.22706325
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a multi-channel pipette to dispense liquid into a 96-well plate",
+          "researcher places the multi-channel pipette on a yellow pipette stand"
+        ],
+        "objects_visible": [
+          "transparent 96-well plate with multiple compartments",
+          "white plastic lid for the 96-well plate",
+          "multi-channel pipette with multiple tips",
+          "yellow pipette stand",
+          "white bottle labeled 'GELFREE 8100 RUNNING BUFFER pH 8.3'",
+          "researcher wearing a blue lab coat"
+        ],
+        "visible_text_labels": [
+          "GELFREE 8100 RUNNING BUFFER pH 8.3",
+          "jove"
+        ],
+        "quantities": [
+          "96 wells in the plate"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise use of a multi-channel pipette for liquid dispensing into a 96-well plate, emphasizing the efficiency of handling multiple samples simultaneously. The presence of the 'GELFREE 8100 RUNNING BUFFER' bottle suggests a specific application in gel electrophoresis or related biochemical processes."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        30.22706325,
+        40.302751
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a transparent gel casting tray into a gel caster machine",
+          "researcher adjusts the gel casting tray within the gel caster machine"
+        ],
+        "objects_visible": [
+          "gel caster machine with a white and gray body",
+          "transparent gel casting tray with a black comb inserted",
+          "yellow-lidded microtube rack",
+          "blue-lidded microtube rack",
+          "white bottle labeled 'GELFREE 8100 BINDING BUFFER'",
+          "clear plastic container with small white objects",
+          "black laboratory countertop"
+        ],
+        "visible_text_labels": [
+          "GELFREE 8100 BINDING BUFFER"
+        ],
+        "quantities": [
+          "multiple microtubes in the racks"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a gel casting tray into a gel caster machine, highlighting the setup phase of gel electrophoresis. The presence of multiple laboratory tools and reagents suggests a detailed preparation for a biochemical analysis. The researcher's actions are deliberate, ensuring the correct alignment of the tray within the machine."
+      }
+    }
+  ]
+}

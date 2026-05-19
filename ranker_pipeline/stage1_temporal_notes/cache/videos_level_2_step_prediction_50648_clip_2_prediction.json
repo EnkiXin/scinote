@@ -1,0 +1,156 @@
+{
+  "video_id": "videos/level_2/step_prediction/50648/clip_2_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 44.940875,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.23521875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher adjusts a clamp stand with gloved hands",
+          "researcher places a white cloth on the lab bench"
+        ],
+        "objects_visible": [
+          "two large glass beakers with measurement markings",
+          "a clamp stand with a vertical rod and adjustable clamp",
+          "a white lab bench with drawers",
+          "a white cloth",
+          "a researcher wearing a beige lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "two large glass beakers"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where the researcher is seen adjusting laboratory equipment and organizing the workspace. The presence of large beakers and a clamp stand suggests an upcoming experiment involving liquid measurements. The researcher's careful handling of the clamp stand and placement of the cloth indicate attention to detail in the setup."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.23521875,
+        22.4704375
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wearing blue gloves adjusts a clamp stand",
+          "researcher places a white cloth on the workbench"
+        ],
+        "objects_visible": [
+          "1000 mL glass beaker with a funnel inserted",
+          "clamp stand with adjustable arms",
+          "white cloth on the workbench",
+          "small glass tube with a blue cap"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1000 mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where the researcher is setting up equipment. The clamp stand and beaker with a funnel are prominently featured, indicating the setup for a liquid transfer or filtration process. The white cloth suggests a clean workspace is being maintained."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.4704375,
+        33.70565625
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a clear glass beaker on a white surface",
+          "researcher adjusts a clamp stand with a blue handle"
+        ],
+        "objects_visible": [
+          "clear glass beaker with a white substance inside",
+          "clamp stand with a blue handle",
+          "white lab coat",
+          "blue gloves",
+          "white surface with a grid pattern"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "1000 mL (as indicated on the beaker)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where the researcher is setting up equipment. The clear glass beaker with a white substance and the clamp stand are central to the scene. The blue handle on the clamp stand is a distinctive feature."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        33.70565625,
+        44.940875
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A droplet of liquid is being dispensed from a pipette tip into a petri dish"
+        ],
+        "objects_visible": [
+          "A pipette tip dispensing a droplet",
+          "A petri dish receiving the droplet",
+          "A white laboratory cabinet"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "A single droplet of liquid"
+        ],
+        "key_distinguishing_features": "The droplet is clearly visible as it forms and detaches from the pipette tip, highlighting the precision of the liquid dispensing. The petri dish is positioned directly below the pipette, ensuring accurate delivery. The 'jove' logo is visible in the top right corner, indicating the source of the video."
+      }
+    }
+  ]
+}

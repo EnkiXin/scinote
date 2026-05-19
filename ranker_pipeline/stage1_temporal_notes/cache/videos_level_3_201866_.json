@@ -1,0 +1,168 @@
+{
+  "video_id": "videos/level_3/201866_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 412.565333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        103.14133325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher ensures proper level of anesthesia by toe-pinching the rat.",
+          "Researcher uses surgical scissors to make an incision in the rat's abdomen."
+        ],
+        "objects_visible": [
+          "A rat lying on a surgical table with a yellow surgical drape.",
+          "Surgical scissors with metallic blades and black handles.",
+          "A gloved hand holding the surgical scissors."
+        ],
+        "visible_text_labels": [
+          "Ensure proper level of anesthesia by toe-pinching the rat",
+          "Anaesthesia Regimen: Mixture of 60 mg/kg ketamine and 5 mg/kg xylazine",
+          "Procurement and Cannulation of Donor Rat Lung Block for Ex Vivo Lung Perfusion",
+          "Demonstrator: Yong Gyu Lee"
+        ],
+        "quantities": [
+          "60 mg/kg ketamine",
+          "5 mg/kg xylazine"
+        ],
+        "key_distinguishing_features": "This segment highlights the initial steps of preparing a rat for a surgical procedure, focusing on anesthesia verification and the beginning of the incision process. The text labels provide specific details about the anesthesia regimen and the purpose of the procedure. The use of surgical scissors and the rat's positioning on the surgical table are distinctive features."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        103.14133325,
+        206.2826665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher uses a scalpel to carefully incise the tissue, exposing the underlying structures.",
+          "A gloved hand manipulates a metallic retractor to hold the incision open, providing a clear view of the surgical site."
+        ],
+        "objects_visible": [
+          "A scalpel with a metallic blade and black handle.",
+          "A metallic retractor with a chain attached, used to hold the incision open.",
+          "A gloved hand, likely belonging to the researcher, manipulating the surgical instruments.",
+          "A surgical site with visible tissue layers and exposed internal structures."
+        ],
+        "visible_text_labels": [
+          "Perfusate: Polymerized Human Hemoglobin-Based Oxygen Carrier"
+        ],
+        "quantities": [
+          "The retractor chain consists of multiple small metallic beads."
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its detailed surgical procedure, focusing on the precise use of a scalpel and retractor. The visible text label indicates the use of a specialized perfusate, adding a layer of specificity to the experiment. The close-up view of the surgical site highlights the intricate nature of the work being performed."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        206.2826665,
+        309.42399975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A researcher uses a surgical tool to manipulate a small, exposed organ within a rodent's body cavity.",
+          "A hand adjusts a clamp holding the organ in place, ensuring it remains steady during the procedure."
+        ],
+        "objects_visible": [
+          "A rodent with its chest cavity exposed, revealing internal organs and tissues.",
+          "A metallic surgical clamp with a chain attached, securing the organ.",
+          "A digital display showing a reading of '7.3' on a medical device.",
+          "A bar graph with red and blue bars labeled 'Perfusate', 'Poly-PEG', and 'Ceramide'."
+        ],
+        "visible_text_labels": [
+          "jove",
+          "Perfusate",
+          "Poly-PEG",
+          "Ceramide"
+        ],
+        "quantities": [
+          "7.3 (reading on the medical device)",
+          "Bar graph values ranging from 0 to 200 (units not specified)"
+        ],
+        "key_distinguishing_features": "This segment focuses on a surgical procedure involving a rodent, with detailed manipulation of an organ using specialized tools. The presence of a digital display and a bar graph suggests monitoring and data collection are integral parts of the experiment. The precise actions and tools highlight the complexity and precision required in this phase of the study."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        309.42399975,
+        412.565333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Graph data is displayed, showing changes in perfusate over time.",
+          "Cursor highlights specific data points on the graph."
+        ],
+        "objects_visible": [
+          "Bar graph with three categories: PolyHb, Control, and RBC.",
+          "X-axis labeled 'Time (hr)' with intervals from 0 to 4 hours.",
+          "Y-axis labeled '\u0394 O2/\u0394pO2 (\u03bcmol/min/mg)' with values ranging from 0 to 100."
+        ],
+        "visible_text_labels": [
+          "Perfusate",
+          "PolyHb",
+          "Control",
+          "RBC",
+          "Time (hr)",
+          "\u0394 O2/\u0394pO2 (\u03bcmol/min/mg)"
+        ],
+        "quantities": [
+          "Data points at 0, 1, 2, 3, and 4 hours for each perfusate type.",
+          "Error bars indicating variability in measurements."
+        ],
+        "key_distinguishing_features": "This segment focuses on a detailed observation of a bar graph comparing three perfusate types over time. The cursor highlights specific data points, suggesting a detailed analysis of the results. The graph includes error bars, indicating the variability in the measurements."
+      }
+    }
+  ]
+}

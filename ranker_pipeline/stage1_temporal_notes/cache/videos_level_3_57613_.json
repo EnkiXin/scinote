@@ -1,0 +1,181 @@
+{
+  "video_id": "videos/level_3/57613_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 489.728,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        122.432
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher in a lab coat and purple gloves handles a clear plastic container with a white lid.",
+          "Researcher places the container on a digital scale, which displays a reading of 0.000g."
+        ],
+        "objects_visible": [
+          "A clear plastic container with a white lid.",
+          "A digital scale with a yellow base and black display.",
+          "A lab bench with various bottles and containers in the background."
+        ],
+        "visible_text_labels": [
+          "jove logo in the top right corner."
+        ],
+        "quantities": [
+          "0.000g displayed on the digital scale."
+        ],
+        "key_distinguishing_features": "This segment focuses on the initial preparation phase where a researcher is seen handling a container and using a digital scale, emphasizing precision in measurement. The presence of the 'jove' logo indicates the video is likely part of a scientific demonstration series."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        122.432,
+        244.864
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap.",
+          "Pipettes approximately 200uL of pink-colored DMEM medium into a petri dish."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap labeled 'DMEM'.",
+          "Pink-colored DMEM medium.",
+          "Petri dish.",
+          "Pipette."
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL",
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a DMEM medium, emphasizing the accurate measurement and transfer of a specific volume. The pink color of the medium is a distinctive feature, likely indicating a specific formulation or indicator. The use of a labeled microtube and a petri dish highlights the controlled environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        244.864,
+        367.296
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Sample 1' with a purple cap",
+          "researcher places the microtube into a centrifuge",
+          "researcher adjusts the centrifuge settings using a digital control panel"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital display showing '1600' and '5 min'",
+          "1.5mL microtube with a purple cap",
+          "laboratory countertop with various equipment and supplies"
+        ],
+        "visible_text_labels": [
+          "1600",
+          "5 min",
+          "245-300",
+          "PRESSURE",
+          "TEMPERATURE"
+        ],
+        "quantities": [
+          "1600 RPM",
+          "5 minutes",
+          "245-300 (likely temperature range)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the centrifugation process, with specific attention to the centrifuge settings and the handling of a microtube. The digital display on the centrifuge provides precise control over the speed and duration, highlighting the importance of accurate parameters in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        367.296,
+        489.728
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher views data on a computer screen displaying a chromatogram.",
+          "Researcher analyzes a bar graph comparing pentosan-derived product yields under various catalyst conditions."
+        ],
+        "objects_visible": [
+          "Computer monitor showing a chromatogram with peaks labeled with retention times.",
+          "Bar graph comparing yields of C5 sugars and furfural under different catalysts.",
+          "Table listing catalysts with corresponding A_max, [I]%, [H+]%, and H_0 values."
+        ],
+        "visible_text_labels": [
+          "Pentosan-derived products yield (%)",
+          "C5 sugars",
+          "Furfural",
+          "Non-catalytic",
+          "Non-acidic IL",
+          "Acidic IL",
+          "HCl",
+          "H2SO4",
+          "Catalysts",
+          "A_max",
+          "[I]%",
+          "[H+]%",
+          "H_0",
+          "Blank",
+          "HCl",
+          "H2SO4",
+          "Acidic IL",
+          "Non-acidic IL"
+        ],
+        "quantities": [
+          "0.991 (A_max for Blank and Non-acidic IL)",
+          "76% (I% for HCl)",
+          "24% (H+ for HCl)",
+          "1.5 (H_0 for HCl)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation and analysis of experimental data, specifically comparing the effectiveness of various catalysts in producing pentosan-derived products. The detailed bar graph and table provide quantitative insights into the yields and conditions. The chromatogram on the computer screen suggests real-time data analysis."
+      }
+    }
+  ]
+}

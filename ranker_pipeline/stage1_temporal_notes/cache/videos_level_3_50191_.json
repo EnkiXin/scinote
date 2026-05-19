@@ -1,0 +1,172 @@
+{
+  "video_id": "videos/level_3/50191_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 442.048,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        110.512
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher holds a white mouse with gloved hands, positioning it for a procedure.",
+          "The researcher uses a pipette to transfer a liquid into a small container."
+        ],
+        "objects_visible": [
+          "A white mouse with a visible tail and ears.",
+          "A pipette with a transparent tip.",
+          "A small, clear container for liquid transfer.",
+          "A whiteboard with hand-drawn diagrams and text."
+        ],
+        "visible_text_labels": [
+          "Ucp1, Cidea, Fabp4, Ucp1/Fabp4, Cidea/Fabp4",
+          "control, rosiglitazone, cAMP",
+          "Relative expression"
+        ],
+        "quantities": [
+          "Relative expression values on the y-axis of the bar graphs, ranging from 0 to 2500."
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on the preparation phase involving a mouse, likely for a biological experiment. The presence of bar graphs with specific gene expression data suggests a connection to molecular biology research. The whiteboard with diagrams adds an educational or explanatory element to the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        110.512,
+        221.024
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish containing a clear liquid and small red particles",
+          "researcher uses a pipette to transfer a small volume of liquid from a beaker into a petri dish",
+          "researcher places petri dishes on a paper towel to absorb excess liquid"
+        ],
+        "objects_visible": [
+          "petri dishes with clear liquid and red particles",
+          "pipette with a blue plunger",
+          "beaker containing a clear liquid",
+          "paper towel with absorbed liquid",
+          "gloved hands of the researcher"
+        ],
+        "visible_text_labels": [
+          "DMEM/F12 containing 10% FPS and P/S"
+        ],
+        "quantities": [
+          "small volume of liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of petri dishes and liquids, emphasizing the use of DMEM/F12 medium with specific additives. The researcher's actions are methodical, ensuring careful transfer and placement of the petri dishes. The presence of red particles in the liquid suggests a specific experimental condition or sample."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        221.024,
+        331.536
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish",
+          "researcher places the microtube back into a yellow rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "yellow microtube rack",
+          "pipette with pink plunger",
+          "petri dish with pink medium",
+          "gibco Advanced DMEM/F12 medium bottle",
+          "DMEM 1X medium in a clear plastic bag"
+        ],
+        "visible_text_labels": [
+          "gibco by Life technologies",
+          "Advanced DMEM/F12",
+          "DMEM 1X"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "~200uL of DMEM medium"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling and transfer of DMEM medium using a pipette. The researcher's actions are methodical, ensuring accurate volume measurement. The use of a labeled microtube and a petri dish highlights the controlled environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        331.536,
+        442.048
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "presents bar graphs comparing gene expression levels",
+          "displays Western blot image with labeled bands"
+        ],
+        "objects_visible": [
+          "bar graphs with labels 'Ucp1', 'Fabp4', 'Cidea/Fabp4'",
+          "Western blot image with 'Unspecific band' and 'UCP1' labels"
+        ],
+        "visible_text_labels": [
+          "Ucp1",
+          "Fabp4",
+          "Cidea/Fabp4",
+          "control",
+          "cAMP",
+          "rosiglitazone",
+          "Unspecific band",
+          "UCP1"
+        ],
+        "quantities": [
+          "Relative expression values on y-axis of bar graphs",
+          "0.0016, 0.0008, 0.0004 on Western blot image"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of gene expression changes in adipocytes, using both bar graphs and a Western blot image. The bar graphs compare relative expression levels of Ucp1, Fabp4, and Cidea/Fabp4 under different conditions. The Western blot highlights the presence of UCP1 protein and an unspecific band for comparison."
+      }
+    }
+  ]
+}

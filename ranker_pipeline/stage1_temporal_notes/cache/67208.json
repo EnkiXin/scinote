@@ -1,0 +1,172 @@
+{
+  "video_id": "67208",
+  "benchmark": "scivideobench",
+  "duration_seconds": 379.968,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        94.992
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap.",
+          "Pipettes approximately 200uL of pink-colored DMEM medium into a petri dish."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap labeled 'DMEM'.",
+          "Pink-colored DMEM medium.",
+          "Petri dish.",
+          "Pipette with a blue plunger."
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Evaluation of the Effect of Growth Factors on Chlorophylls a and b Production from Microalgae",
+          "Frizek Nathaniel Morales-Rivera, Sofia Torres-Monber, Julio C\u00e9sar Jacuinde-Ruiz, Juan Crist\u00f3bal Camacho-Arriaga, Juan Carlos Gonz\u00e1lez-Hern\u00e1ndez",
+          "Chemistry and Biochemistry Engineering Department, Technological Institute of Morelia, National Institute of Technology of Mexico"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "200uL of DMEM medium"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of an experiment involving microalgae. The researcher is seen handling a specific volume of DMEM medium, emphasizing precision in the setup. The video includes detailed text overlays providing context about the study and its contributors."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        94.992,
+        189.984
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher places a petri dish containing a sample into an incubator with a light source.",
+          "Researcher adjusts the petri dish inside the incubator to ensure proper exposure to light."
+        ],
+        "objects_visible": [
+          "Petri dish with a transparent lid containing a sample",
+          "Incubator with a light source inside",
+          "Researcher wearing blue gloves and a white lab coat",
+          "Laboratory equipment in the background, including a refrigerator and a gas cylinder"
+        ],
+        "visible_text_labels": [
+          "Photoperiod: C. sorokiniana: 12 h light and 12 h dark",
+          "Alternatively, add 5 - 10% inoculum volume to the medium"
+        ],
+        "quantities": [
+          "12 h light and 12 h dark",
+          "5 - 10% inoculum volume"
+        ],
+        "key_distinguishing_features": "This segment focuses on the execution phase of an experiment involving the photoperiodic control of C. sorokiniana. The researcher carefully places a petri dish into an incubator with a light source, emphasizing the importance of light exposure in the experimental setup. The background laboratory setting and visible text labels provide context for the specific conditions being controlled."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        189.984,
+        284.976
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Sample 1' with a blue cap",
+          "pipettes approximately 200uL of a green-colored solution into a petri dish",
+          "researcher places the petri dish under a light source emitting blue light (460 nm)"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'Sample 1'",
+          "green-colored solution in the microtube",
+          "petri dish with a transparent lid",
+          "pipette with a green plunger",
+          "light source emitting blue light (460 nm)"
+        ],
+        "visible_text_labels": [
+          "C. sorokiniana: Blue (460 nm), purple (mix of 460 nm and 630 nm)",
+          "H. pluvialis: Red (630 nm)",
+          "Photoperiod: C. sorokiniana: 12 h light and 12 h dark, H. pluvialis: 16 h light and 8 h dark"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "200uL of green-colored solution",
+          "460 nm blue light"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube containing a green solution, which is then pipetted into a petri dish and exposed to a specific wavelength of blue light. The text labels provide detailed information about the photoperiod and light wavelengths used for different species, emphasizing the controlled experimental conditions."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        284.976,
+        379.968
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'Sample 3' with a blue cap.",
+          "Researcher places the microtube into a centrifuge labeled 'Eppendorf 5415R'.",
+          "Researcher adjusts the centrifuge settings using a digital keypad."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'Sample 3'",
+          "Eppendorf 5415R centrifuge with a digital display and keypad",
+          "Graph showing chlorophyll content over time with multiple treatment lines"
+        ],
+        "visible_text_labels": [
+          "Sample 3",
+          "Eppendorf 5415R",
+          "Chlorophyll Content [\u03bcg cell\u207b\u00b9]",
+          "Treatment 1, Treatment 2, Treatment 3, Treatment 4"
+        ],
+        "quantities": [
+          "1.5mL",
+          "Chlorophyll content values ranging from 0.000030 to 0.000045 \u03bcg cell\u207b\u00b9"
+        ],
+        "key_distinguishing_features": "This segment focuses on the centrifugation of a specific sample, highlighting the precise handling of the microtube and the use of a digital centrifuge. The graph in the background provides a detailed visual of chlorophyll content changes over time, emphasizing the experimental context."
+      }
+    }
+  ]
+}

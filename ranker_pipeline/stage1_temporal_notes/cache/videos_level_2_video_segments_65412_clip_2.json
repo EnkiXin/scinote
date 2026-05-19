@@ -1,0 +1,170 @@
+{
+  "video_id": "videos/level_2/video_segments/65412/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 31.383,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.84575
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes green liquid into test tubes"
+        ],
+        "objects_visible": [
+          "green test tube rack with multiple test tubes",
+          "pipette with green liquid",
+          "beaker containing green liquid",
+          "PTFE gaskets on a brown sheet",
+          "stacked glass beakers with metal objects inside",
+          "purple microtube rack",
+          "various laboratory glassware and containers"
+        ],
+        "visible_text_labels": [
+          "PTFE: Polytetrafluoroethylene",
+          "jove"
+        ],
+        "quantities": [
+          "multiple test tubes in the rack",
+          "green liquid in the beaker"
+        ],
+        "key_distinguishing_features": "The segment shows a pipette transferring green liquid into test tubes held in a green rack. PTFE gaskets are visible on a brown sheet, indicating a focus on materials and their properties. The laboratory setup includes various glassware and containers, suggesting a detailed experimental procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.84575,
+        15.6915
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a green 12-well plate and places a small glass vial with a brown cap into one of the wells",
+          "researcher uses a pipette to transfer a green liquid from a beaker into the vial in the well"
+        ],
+        "objects_visible": [
+          "green 12-well plate with multiple empty wells",
+          "small glass vial with a brown cap containing a green liquid",
+          "pipette with a clear tip",
+          "beaker containing a green liquid",
+          "stack of clear glass beakers with metal rings",
+          "white lab bench with various lab equipment and materials"
+        ],
+        "visible_text_labels": [
+          "PTFE: Polytetrafluoroethylene"
+        ],
+        "quantities": [
+          "12-well plate",
+          "one vial with a brown cap"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a vial into a well plate and the subsequent transfer of a green liquid using a pipette. The green color of the liquid and the well plate stands out against the white lab bench. The text 'PTFE: Polytetrafluoroethylene' is prominently displayed, indicating the material of the vial or plate."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        15.6915,
+        23.53725
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand interacts with a touchscreen interface on a laboratory device.",
+          "The hand selects and adjusts parameters on the screen."
+        ],
+        "objects_visible": [
+          "A touchscreen interface displaying an 'Add Experiment' menu.",
+          "A gloved hand wearing a blue nitrile glove.",
+          "A laboratory device with a digital display and control buttons."
+        ],
+        "visible_text_labels": [
+          "Add Experiment",
+          "Vial Type: Glass vial (20 mL wide neck)",
+          "Priority",
+          "Heat as fast as possible",
+          "Hold Time",
+          "Cooling",
+          "Desired reaction temperature: 120 \u00b0C or 180 \u00b0C"
+        ],
+        "quantities": [
+          "120 \u00b0C or 180 \u00b0C"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise setup of a laboratory experiment, highlighting the interaction with a digital interface to set specific temperature parameters. The use of a gloved hand emphasizes the controlled and sterile environment necessary for the experiment. The visible text clearly indicates the desired reaction temperatures, underscoring the importance of accurate temperature control."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        23.53725,
+        31.383
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A robotic arm moves to position a sample into a designated slot on the machine",
+          "The machine's internal mechanism appears to rotate or adjust the sample holder"
+        ],
+        "objects_visible": [
+          "A gray automated machine labeled 'Anton Paar' with a circular sample holder containing multiple slots",
+          "A robotic arm with a purple and green gradient design",
+          "A computer screen displaying a software interface with text and options"
+        ],
+        "visible_text_labels": [
+          "Anton Paar",
+          "Desired reaction temperature: 120 \u00b0C or 180 \u00b0C",
+          "Add Experiment"
+        ],
+        "quantities": [
+          "120 \u00b0C",
+          "180 \u00b0C"
+        ],
+        "key_distinguishing_features": "The segment highlights the precise movement of a robotic arm interacting with an automated machine, emphasizing the integration of robotics in laboratory procedures. The machine's sample holder is a key feature, designed for multiple samples. The software interface on the computer screen provides specific temperature settings, indicating a controlled experimental environment."
+      }
+    }
+  ]
+}

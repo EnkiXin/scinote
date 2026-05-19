@@ -1,0 +1,179 @@
+{
+  "video_id": "videos/level_3/61180_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 555.946667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        138.98666675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A man in a suit speaks directly to the camera, likely introducing the experiment.",
+          "A woman in a lab coat is seated at a desk, working on a computer with multiple open windows displaying scientific data and images.",
+          "A gloved hand pours a liquid from a beaker into a metal pot labeled 'PLEASE REMOVE YOUR TISSUES AFTER YOU HAVE MELTED YOUR WAX.'"
+        ],
+        "objects_visible": [
+          "A man wearing a suit and a light blue shirt, standing in front of a bookshelf.",
+          "A computer screen with various open windows, including one displaying a microscopic image of cells.",
+          "A metal pot with a printed label, containing a liquid and a metal rod.",
+          "A beaker with a blue liquid being poured into the pot."
+        ],
+        "visible_text_labels": [
+          "PLEASE REMOVE YOUR TISSUES AFTER YOU HAVE MELTED YOUR WAX",
+          "jove"
+        ],
+        "quantities": [
+          "The pot contains a liquid, but the specific volume is not quantified."
+        ],
+        "key_distinguishing_features": "This segment highlights the initial setup of an experiment, with a focus on both the introduction by a presenter and the practical preparation steps in a laboratory setting. The presence of a labeled pot and the action of pouring liquid suggest a specific procedure is being followed. The computer screen with scientific data adds context to the research environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        138.98666675,
+        277.9733335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes approximately 200uL of pink-colored DMEM medium into a petri dish",
+          "researcher places the petri dish on a blue mat for further handling"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with a blue tip",
+          "petri dish containing pink-colored DMEM medium",
+          "blue mat on the laboratory bench",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL",
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a DMEM medium, highlighting the use of a labeled microtube and a specific volume measurement. The researcher's actions are methodical, emphasizing the importance of accurate liquid transfer in the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        277.9733335,
+        416.96000025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "User interacts with a software interface for image analysis, specifically focusing on cell segmentation and classification.",
+          "The user selects and applies different classifiers to refine the segmentation of cellular structures."
+        ],
+        "objects_visible": [
+          "A computer desktop with various icons, including folders, applications, and shortcuts.",
+          "A software window displaying a microscopic image of cells with blue and red fluorescence.",
+          "A sidebar with options for training, testing, and saving classifiers within the software."
+        ],
+        "visible_text_labels": [
+          "Training",
+          "Test classifier",
+          "Save probability",
+          "Options",
+          "Load classifier",
+          "Save classifier",
+          "Load data",
+          "Save data",
+          "Create new class",
+          "Add more classifiers to remove non-ecDNA as necessary"
+        ],
+        "quantities": [
+          "The image contains numerous cells, with specific counts not provided but visually estimated to be in the hundreds."
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on digital image analysis of cellular structures, with the user actively refining segmentation through software tools. The presence of blue and red fluorescence highlights different cellular components, and the interface suggests a detailed, interactive process of data analysis."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        416.96000025,
+        555.946667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "The video displays a computer screen with a scientific software interface open, showing various image analysis tools and options.",
+          "A cursor moves across the screen, selecting and interacting with different elements of the software interface."
+        ],
+        "objects_visible": [
+          "A Windows desktop with various application icons, including a folder labeled 'Desktop (25)' and a file named '20230303'.",
+          "A software window with tabs such as 'Edit', 'Image', 'Process', 'Analyze', 'Plugins', and 'Window'.",
+          "A smaller window within the software displaying a list of files and folders, including 'MPO-ANCA GN', 'Training', 'Model', and 'NETS'.",
+          "A section of the screen showing a merged image with a yellow square highlighting a specific area."
+        ],
+        "visible_text_labels": [
+          "MPO-ANCA GN",
+          "Training",
+          "Model",
+          "NETS",
+          "Merged",
+          "ecMPO",
+          "Results",
+          "Nuclei",
+          "Background",
+          "NETs",
+          "ecMPO"
+        ],
+        "quantities": [
+          "The folder 'Desktop (25)' indicates there are 25 items within it."
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on digital image analysis, with a detailed view of a software interface used for processing and analyzing scientific images. The presence of specific labels like 'MPO-ANCA GN' and 'ecMPO' suggests a specialized application in medical or biological research. The interaction with the software highlights the analytical phase of the experiment."
+      }
+    }
+  ]
+}

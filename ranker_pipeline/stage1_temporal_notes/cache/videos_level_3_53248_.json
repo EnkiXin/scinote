@@ -1,0 +1,175 @@
+{
+  "video_id": "videos/level_3/53248_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 524.629333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        131.15733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A diagram of a chemical reaction is shown, illustrating the interaction between gold ions and sodium ions.",
+          "A man is introduced as Mark Elvington from Savannah River Consulting, L.L.C."
+        ],
+        "objects_visible": [
+          "A diagram showing a chemical reaction with gold ions (Au\u00b3\u207a) and sodium ions (Na\u207a) surrounding a central structure.",
+          "A man in a professional setting, wearing a dark shirt.",
+          "A graph labeled 'Particle Size Distribution' with multiple scan lines.",
+          "A microscopic image labeled 'Morphology' showing a detailed view of a material structure."
+        ],
+        "visible_text_labels": [
+          "Au\u00b3\u207a",
+          "Na\u207a",
+          "Morphology",
+          "Particle Size Distribution",
+          "Mark Elvington",
+          "Savannah River Consulting, L.L.C."
+        ],
+        "quantities": [
+          "300 nm scale bar in the morphology image."
+        ],
+        "key_distinguishing_features": "This segment introduces a scientific context with a focus on chemical interactions and material analysis, featuring both visual diagrams and a professional introduction. The detailed morphology image and particle size distribution graph provide specific insights into the material being studied."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        131.15733325,
+        262.3146665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 250mL Erlenmeyer flask with a white, porous material inside",
+          "researcher places the flask on a magnetic stirrer with a digital display showing '0.00g'",
+          "researcher adjusts the flask on the stirrer, ensuring it is centered and stable"
+        ],
+        "objects_visible": [
+          "250mL Erlenmeyer flask with a white, porous material inside",
+          "magnetic stirrer with a digital display",
+          "researcher's gloved hands wearing blue nitrile gloves",
+          "various laboratory equipment in the background, including a pipette and other glassware"
+        ],
+        "visible_text_labels": [
+          "0.00g (on the digital display of the magnetic stirrer)"
+        ],
+        "quantities": [
+          "250mL (capacity of the Erlenmeyer flask)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a flask containing a white, porous material onto a magnetic stirrer, highlighting the importance of stability and accurate measurement in the experiment. The digital display on the stirrer provides a clear reading of the weight, emphasizing the quantitative aspect of the setup. The researcher's careful handling of the flask underscores the meticulous nature of the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        262.3146665,
+        393.47199975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 250mL beaker with a blue cap and pours a clear liquid into a 250mL Erlenmeyer flask",
+          "researcher places the Erlenmeyer flask on a magnetic stirrer and adjusts the speed dial to 700 RPM"
+        ],
+        "objects_visible": [
+          "250mL beaker with a blue cap",
+          "250mL Erlenmeyer flask",
+          "magnetic stirrer with a speed dial and a digital display",
+          "researcher wearing blue gloves"
+        ],
+        "visible_text_labels": [
+          "250mL",
+          "700 RPM"
+        ],
+        "quantities": [
+          "250mL",
+          "700 RPM"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid from a beaker to an Erlenmeyer flask, followed by the use of a magnetic stirrer. The specific speed setting of 700 RPM is highlighted, indicating a controlled mixing process. The researcher's gloved hands emphasize the importance of maintaining a sterile environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        393.47199975,
+        524.629333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "presents final data visualizations",
+          "summarizes findings"
+        ],
+        "objects_visible": [
+          "graph showing particle size distribution over 24 hours",
+          "graph showing Triton X-100 effect over 48 hours",
+          "microscopic images labeled TEM, nMST, SEM, MST"
+        ],
+        "visible_text_labels": [
+          "24 hr",
+          "Triton X-100 48 hr",
+          "VI. Conclusion",
+          "TEM",
+          "nMST",
+          "SEM",
+          "MST",
+          "Scan 1",
+          "Scan 2",
+          "Scan 3",
+          "Scan 4"
+        ],
+        "quantities": [
+          "particle size range from 1 to 10000 nm",
+          "intensity values up to 6000 for 24 hr graph",
+          "intensity values up to 100 for Triton X-100 graph"
+        ],
+        "key_distinguishing_features": "This segment focuses on the conclusion of the experiment, presenting final data in graphical and microscopic forms. The graphs highlight particle size distribution and the effect of Triton X-100 over time. The microscopic images provide visual evidence of the particles under different techniques."
+      }
+    }
+  ]
+}

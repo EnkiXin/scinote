@@ -1,0 +1,172 @@
+{
+  "video_id": "54628",
+  "benchmark": "scivideobench",
+  "duration_seconds": 351.082667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        87.77066675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A man in a light blue shirt is speaking in a classroom setting.",
+          "The video transitions to a title card with the text 'Fabrication of White Light-emitting Electrochemical Cells with Stable Emission from Exciplexes'."
+        ],
+        "objects_visible": [
+          "A classroom with blue chairs and tables in the background.",
+          "A title card with authors' names and affiliations.",
+          "A bottle labeled 'Chloroform, Dehydrated Super' with a green label."
+        ],
+        "visible_text_labels": [
+          "Yoshinori Nishikitani, Waseda University",
+          "Soichi Uchida, NOC",
+          "Chloroform, Dehydrated Super",
+          "II. Preparation of Active Layer Solutions"
+        ],
+        "quantities": [
+          "500 mL (as indicated on the chloroform bottle label)"
+        ],
+        "key_distinguishing_features": "This segment introduces the research topic and key researchers involved. It transitions from a classroom setting to a title card, highlighting the preparation phase of the experiment. The presence of a chloroform bottle suggests the use of specific chemicals in the process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        87.77066675,
+        175.5413335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses a liquid into a small glass vial",
+          "researcher places a labeled vial on a magnetic stirrer"
+        ],
+        "objects_visible": [
+          "pipette with a red plunger and a long, thin tip",
+          "small glass vial with a white cap and a yellow label",
+          "magnetic stirrer with a white top and a black base",
+          "metal sink with a faucet and a drain",
+          "several glass beakers with yellow labels",
+          "bottles with labels and caps"
+        ],
+        "visible_text_labels": [
+          "detergent",
+          "jove"
+        ],
+        "quantities": [
+          "small volume of liquid dispensed into the vial"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a liquid using a pipette and the use of a magnetic stirrer, indicating a controlled laboratory environment. The presence of labeled vials and beakers suggests a methodical approach to the experiment. The researcher's gloved hands emphasize the importance of maintaining a sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        175.5413335,
+        263.31200025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A machine spins a wafer at 800 rpm for 60 seconds, then accelerates to 1,000 rpm over 3 seconds.",
+          "A researcher adjusts a knob on a machine labeled '\u6210\u819c\u30b3\u30f3\u30c8\u30ed\u30fc\u30e9' (film controller)."
+        ],
+        "objects_visible": [
+          "A spinning wafer inside a machine with aluminum foil lining the interior.",
+          "A digital display showing '100 nm Al' and '0.4 nm/sec evaporation rate'.",
+          "A machine with a digital interface and buttons, including a knob being adjusted by a gloved hand."
+        ],
+        "visible_text_labels": [
+          "800 rpm for 60 sec",
+          "1,000 rpm over 3 sec",
+          "100 nm Al",
+          "0.4 nm/sec evaporation rate",
+          "See Figure 1"
+        ],
+        "quantities": [
+          "800 rpm for 60 seconds",
+          "1,000 rpm over 3 seconds",
+          "100 nm Al",
+          "0.4 nm/sec evaporation rate"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise control of a wafer spinning process and aluminum evaporation rate, highlighting the technical adjustments made by the researcher. The digital display and machine interface are central to the execution phase of the experiment. The specific parameters of the process are clearly indicated on the screen."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        263.31200025,
+        351.082667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "researcher points to a graph on a screen",
+          "researcher gestures towards a CIE color diagram"
+        ],
+        "objects_visible": [
+          "CIE color diagram with labeled points",
+          "graph showing normalized EL intensity vs. wavelength",
+          "researcher wearing a light blue shirt"
+        ],
+        "visible_text_labels": [
+          "PFD:amine = 1:0.25",
+          "V. Conclusion",
+          "Measurement normally performed in the dark",
+          "2-TNATA",
+          "DMFLNPB",
+          "PFD only"
+        ],
+        "quantities": [
+          "6,000 mJ/cm\u00b2",
+          "365 nm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the conclusion of the experiment, with a detailed CIE color diagram and a graph of normalized EL intensity. The researcher is seen explaining the results, emphasizing the importance of measurements performed in the dark. The specific ratio of PFD:amine is highlighted as 1:0.25."
+      }
+    }
+  ]
+}

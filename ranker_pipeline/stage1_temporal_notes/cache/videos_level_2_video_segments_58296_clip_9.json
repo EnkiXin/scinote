@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/video_segments/58296/clip_9.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 23.015,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.75375
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to add a clear liquid into a rectangular gel mold"
+        ],
+        "objects_visible": [
+          "rectangular gel mold with a clear, structured design",
+          "pipette with a yellow plunger",
+          "black surface covered with aluminum foil",
+          "blue-gloved hand holding the pipette"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "clear liquid being added in a controlled manner"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise addition of a clear liquid into a gel mold, highlighting the careful handling and the structured design of the mold. The use of a pipette and the researcher's gloved hand emphasize the controlled and sterile environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.75375,
+        11.5075
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a clear liquid into a rectangular, transparent gel mold",
+          "gently places the mold on a flat, dark surface"
+        ],
+        "objects_visible": [
+          "transparent rectangular gel mold with a grid pattern",
+          "pipette tip dispensing liquid",
+          "dark flat surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "clear liquid being pipetted"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of pipetting a clear liquid into a gel mold, which is placed on a dark surface. The mold has a distinct grid pattern, suggesting it is used for gel electrophoresis. The liquid spreads evenly within the mold, indicating careful handling."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.5075,
+        17.26125
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a small, transparent plastic container with both gloved hands",
+          "researcher carefully places the container on a flat, dark surface"
+        ],
+        "objects_visible": [
+          "blue nitrile gloves",
+          "small transparent plastic container with a rectangular shape and a lid",
+          "dark flat surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a small, transparent container, emphasizing the careful and deliberate actions of the researcher. The blue nitrile gloves highlight the sterile environment necessary for the experiment. The dark surface provides a stark contrast to the transparent container, making it the focal point."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.26125,
+        23.015
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "places a small transparent object on a digital scale",
+          "reads the weight displayed on the digital scale"
+        ],
+        "objects_visible": [
+          "digital scale with a display reading 0.010g",
+          "small transparent object with a grid-like structure",
+          "blue-gloved hand"
+        ],
+        "visible_text_labels": [
+          "Fisher Scientific",
+          "START/STOP",
+          "H M S C",
+          "CLOCK",
+          "T1 T2 T3 T4"
+        ],
+        "quantities": [
+          "0.010g"
+        ],
+        "key_distinguishing_features": "The segment focuses on precise measurement, as indicated by the digital scale's display showing a weight of 0.010g. The transparent object being weighed has a distinct grid-like structure, suggesting it may be a specialized scientific tool or sample holder. The blue-gloved hand indicates a controlled, sterile environment typical in laboratory settings."
+      }
+    }
+  ]
+}

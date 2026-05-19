@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/step_prediction/58743/clip_4_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 23.6446,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.91115
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and a microtube",
+          "researcher appears to be preparing to transfer liquid"
+        ],
+        "objects_visible": [
+          "pipette with a black handle",
+          "microtube with a blue cap",
+          "laboratory equipment including a rotary evaporator and a digital scale",
+          "shelves with various bottles containing liquids"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is focused on handling a pipette and a microtube, suggesting a precise liquid transfer is imminent. The laboratory setup includes specialized equipment like a rotary evaporator, indicating a complex experiment. The presence of labeled bottles on shelves suggests a well-organized workspace."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.91115,
+        11.8223
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A pipette is dispensing a yellow liquid into a metal container filled with water."
+        ],
+        "objects_visible": [
+          "A pipette with a clear plastic tip",
+          "A metal container with water",
+          "A yellow liquid being dispensed",
+          "A white laboratory environment"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The yellow liquid appears to be a small volume, possibly a few milliliters."
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of dispensing a yellow liquid into water, likely for a specific scientific purpose. The environment suggests a controlled laboratory setting. The focus is on the interaction between the pipette and the metal container."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.8223,
+        17.73345
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small white box into the oven",
+          "researcher closes the oven door"
+        ],
+        "objects_visible": [
+          "white box with a yellow label",
+          "oven with a glass door and metal racks",
+          "researcher wearing a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise action of placing a small white box into an oven, indicating a step in a controlled process. The oven's interior is visible, showing metal racks and a clean setup. The researcher's hand is the only part of them visible, emphasizing the action over the individual."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.73345,
+        23.6446
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 500mL clear glass bottle with a blue cap",
+          "researcher uses a pipette to transfer a clear liquid from the bottle into a small glass vial containing a greenish-yellow substance"
+        ],
+        "objects_visible": [
+          "500mL clear glass bottle with a blue cap",
+          "small glass vial with greenish-yellow substance",
+          "pipette with a green and white handle",
+          "blue plastic container",
+          "white cap",
+          "laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "clear liquid being transferred, volume not specified"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a clear liquid using a pipette into a vial containing a greenish-yellow substance. The researcher's hands are steady, indicating careful handling. The background includes laboratory equipment, suggesting a controlled experimental environment."
+      }
+    }
+  ]
+}

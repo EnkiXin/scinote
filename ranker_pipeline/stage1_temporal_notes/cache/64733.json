@@ -1,0 +1,158 @@
+{
+  "video_id": "64733",
+  "benchmark": "scivideobench",
+  "duration_seconds": 404.949333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        101.23733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap.",
+          "Pipettes approximately 200uL of pink-colored DMEM medium into a petri dish."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap labeled 'DMEM'.",
+          "Pink-colored DMEM medium.",
+          "Petri dish.",
+          "Pipette."
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Terminal Anesthesia: Barbiturate (>100 mg/kg, IP)"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "200uL of DMEM medium"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a medium for an experiment, specifically involving the use of DMEM. The precise measurement of 200uL of the medium is highlighted, emphasizing the importance of accurate volume control. The text 'Terminal Anesthesia: Barbiturate (>100 mg/kg, IP)' suggests the context of the experiment involves anesthesia."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        101.23733325,
+        202.4746665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, transparent organ-like structure with blue and white tubes attached",
+          "researcher manipulates the organ-like structure with forceps, adjusting its position"
+        ],
+        "objects_visible": [
+          "transparent organ-like structure with blue and white tubes",
+          "forceps with metallic tips",
+          "white, granular ice-like substance in a petri dish"
+        ],
+        "visible_text_labels": [
+          "Perfusion takes ~2 min"
+        ],
+        "quantities": [
+          "~2 min"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of a transparent organ-like structure during a perfusion process, which takes approximately 2 minutes. The use of forceps to manipulate the structure and the presence of ice-like granules in a petri dish are distinctive features."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        202.4746665,
+        303.71199975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled '2% osmium tetroxide' with a black cap",
+          "researcher uses a pipette to transfer a clear liquid from a labeled vial into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a black cap and blue handwritten label",
+          "pipette with a black tip",
+          "petri dish containing a clear liquid",
+          "vial labeled 'WASH 2' with blue handwritten text"
+        ],
+        "visible_text_labels": [
+          "2% osmium tetroxide",
+          "WASH 2"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "clear liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "This segment focuses on the handling of specific reagents, particularly the 2% osmium tetroxide solution, which is a critical fixative in electron microscopy. The precise use of a pipette to transfer liquids highlights the meticulous nature of the experiment. The handwritten labels on the tubes and vials emphasize the importance of clear labeling in scientific procedures."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        303.71199975,
+        404.949333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses a blue liquid onto a tissue sample",
+          "the tissue sample is submerged in a clear liquid medium, likely for observation or treatment"
+        ],
+        "objects_visible": [
+          "a pipette with a fine tip",
+          "a tissue sample with a visible blue coloration",
+          "a clear liquid medium surrounding the tissue sample"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "the blue liquid is dispensed in a controlled manner, suggesting a specific volume, though the exact quantity is not visible"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise application of a blue liquid to a tissue sample, highlighting the careful handling and observation process. The clear liquid medium suggests a controlled environment for the experiment. The blue coloration of the tissue is a distinctive feature, indicating a specific reaction or staining process."
+      }
+    }
+  ]
+}

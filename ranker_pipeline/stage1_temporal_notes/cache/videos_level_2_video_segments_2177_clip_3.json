@@ -1,0 +1,153 @@
+{
+  "video_id": "videos/level_2/video_segments/2177/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 51.326,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        12.8315
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a sterile plastic bag containing a petri dish",
+          "researcher carefully removes the petri dish from the bag"
+        ],
+        "objects_visible": [
+          "sterile plastic bag with a petri dish inside",
+          "petri dish with a visible sample or specimen",
+          "researcher wearing purple gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a petri dish, emphasizing sterility and precision. The researcher's actions are deliberate, ensuring the sample remains uncontaminated. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        12.8315,
+        25.663
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 10 mL syringe and carefully injects a clear liquid into a beaker containing ice cubes",
+          "researcher withdraws the syringe from the beaker"
+        ],
+        "objects_visible": [
+          "10 mL syringe with a clear liquid",
+          "beaker filled with ice cubes and a clear liquid",
+          "researcher's gloved hands (purple nitrile gloves)",
+          "a plastic bag with a pink label partially visible in the background"
+        ],
+        "visible_text_labels": [
+          "10 mL (on the syringe)"
+        ],
+        "quantities": [
+          "10 mL (capacity of the syringe)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of injecting a liquid into a beaker of ice, highlighting the controlled environment for the experiment. The presence of ice cubes suggests a need to maintain a low temperature. The researcher's careful handling of the syringe emphasizes the importance of accuracy in this step."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        25.663,
+        38.4945
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe with a needle attached",
+          "researcher injects a liquid into a petri dish"
+        ],
+        "objects_visible": [
+          "10mL syringe with a needle",
+          "petri dish with a clear medium",
+          "gloved hand wearing purple gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "10mL syringe"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of injecting a liquid from a syringe into a petri dish. The researcher's gloved hand is clearly visible, emphasizing the sterile technique. The petri dish appears to contain a clear medium, likely for culturing cells or organisms."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        38.4945,
+        51.326
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a clear plastic container with a coiled pink tube inside",
+          "researcher places the container into a large metal incubator"
+        ],
+        "objects_visible": [
+          "clear plastic container with a coiled pink tube",
+          "metal incubator with a digital control panel",
+          "researcher's gloved hands (purple gloves)"
+        ],
+        "visible_text_labels": [
+          "37\u00b0C 60 min",
+          "SANYO"
+        ],
+        "quantities": [
+          "37\u00b0C",
+          "60 min"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a container with a coiled tube into an incubator set at 37\u00b0C for 60 minutes. The researcher's gloved hands are visible, emphasizing the sterile handling of the container. The digital display on the incubator clearly shows the temperature and time settings."
+      }
+    }
+  ]
+}

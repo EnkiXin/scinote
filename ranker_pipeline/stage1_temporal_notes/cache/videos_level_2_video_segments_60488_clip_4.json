@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_segments/60488/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.499,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.87475
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 500mL conical flask labeled 'NaCl' with a yellow label",
+          "researcher pours a clear liquid from a white bottle into the conical flask"
+        ],
+        "objects_visible": [
+          "500mL conical flask with a yellow label reading 'NaCl'",
+          "white bottle with a blue cap",
+          "green test tube rack holding two test tubes",
+          "digital scale labeled 'Microbalance'",
+          "centrifuge labeled 'Centrifuge 5424'"
+        ],
+        "visible_text_labels": [
+          "NaCl",
+          "Microbalance",
+          "Centrifuge 5424"
+        ],
+        "quantities": [
+          "500mL conical flask"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pouring a clear liquid into a labeled conical flask, emphasizing the importance of accurate liquid transfer in the experiment. The presence of various laboratory equipment like a centrifuge and a digital scale suggests a well-equipped lab setting. The green test tube rack adds a pop of color to the otherwise neutral-toned scene."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.87475,
+        23.7495
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a white cap",
+          "researcher uses a pipette to transfer liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "green microtube rack",
+          "1.5mL microtube with a white cap",
+          "pipette with a transparent tip",
+          "petri dish",
+          "centrifuge labeled 'Centrifuge 5424'"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Centrifuge 5424"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment shows a precise liquid transfer using a pipette, highlighting the careful handling of a microtube labeled 'DMEM'. The green microtube rack and the centrifuge in the background provide context for a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.7495,
+        35.62425
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a clear plastic bag containing a rectangular object with a grid pattern",
+          "researcher places the plastic bag into a water bath with a digital display showing 41.7\u00b0C and a timer reading 00:59"
+        ],
+        "objects_visible": [
+          "a water bath with a digital display and a warning symbol",
+          "a clear plastic bag with a grid-patterned object inside",
+          "a digital display showing temperature and time",
+          "a warning symbol indicating hot surface"
+        ],
+        "visible_text_labels": [
+          "41.7\u00b0C",
+          "00:59"
+        ],
+        "quantities": [
+          "41.7\u00b0C",
+          "00:59"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the use of a water bath to maintain a specific temperature, and the careful handling of a grid-patterned object within a plastic bag. The digital display provides precise temperature and time readings, emphasizing the controlled conditions of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.62425,
+        47.499
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens the lid of a centrifuge",
+          "researcher places a purple rotor into the centrifuge chamber"
+        ],
+        "objects_visible": [
+          "centrifuge with a digital control panel",
+          "purple rotor with multiple slots for tubes",
+          "researcher wearing purple gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "JOVE logo in the top right corner"
+        ],
+        "quantities": [
+          "multiple slots on the rotor, but the exact number is not specified"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a purple rotor into a centrifuge, highlighting the careful handling of laboratory equipment. The researcher's use of purple gloves adds a distinctive visual element. The centrifuge's digital control panel suggests a modern laboratory setting."
+      }
+    }
+  ]
+}

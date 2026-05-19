@@ -1,0 +1,167 @@
+{
+  "video_id": "58661",
+  "benchmark": "scivideobench",
+  "duration_seconds": 427.989333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        106.99733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a transparent cylindrical container with a black base and a white label.",
+          "Researcher places the container on a digital electronic scale labeled 'C&A'.",
+          "Researcher adjusts the container on the scale, ensuring it is centered."
+        ],
+        "objects_visible": [
+          "A transparent cylindrical container with a black base and a white label.",
+          "A digital electronic scale labeled 'C&A' with a display showing a reading.",
+          "A black and white device labeled 'Ammeter' with a dial and a light indicator."
+        ],
+        "visible_text_labels": [
+          "C&A ELECTRONIC SCALE",
+          "Ammeter",
+          "Light"
+        ],
+        "quantities": [
+          "The scale displays a reading of 0.000 grams."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise preparation of a container on a digital scale, highlighting the importance of accurate measurement in the experiment. The presence of an ammeter suggests the involvement of electrical components in the setup. The scene is set in a laboratory environment, emphasizing the controlled conditions necessary for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        106.99733325,
+        213.9946665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher places a clear glass beaker on a digital scale",
+          "researcher uses tongs to handle a white, spherical object and places it on the scale",
+          "researcher adjusts the scale's display to show a reading of 5.75 grams"
+        ],
+        "objects_visible": [
+          "digital scale with a black base and red digital display",
+          "clear glass beaker with measurement markings",
+          "white spherical object with a smooth surface",
+          "tongs with black handles and metallic tips",
+          "laboratory equipment in the background including a water distillation unit and a bottle of liquid"
+        ],
+        "visible_text_labels": [
+          "5.75 grams displayed on the digital scale",
+          "jove logo in the top right corner of the screen"
+        ],
+        "quantities": [
+          "5.75 grams displayed on the digital scale",
+          "beaker with measurement markings up to 1000 mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on precise measurement using a digital scale, highlighting the careful handling of a spherical object with tongs. The setting is a well-equipped laboratory with various pieces of equipment visible, emphasizing a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        213.9946665,
+        320.99199975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher places a cylindrical metal object with a perforated top into a blue-lidded muffle furnace labeled 'Nabertherm'.",
+          "Researcher adjusts the temperature settings on the muffle furnace's control panel, setting it to 39 degrees Celsius.",
+          "Researcher uses a pipette to transfer a clear liquid from a beaker into a petri dish."
+        ],
+        "objects_visible": [
+          "Blue-lidded muffle furnace with a digital display and control panel.",
+          "Cylindrical metal object with a perforated top.",
+          "Petri dish containing a clear liquid.",
+          "Pipette with a clear liquid being dispensed.",
+          "Beaker containing a clear liquid."
+        ],
+        "visible_text_labels": [
+          "Nabertherm",
+          "39"
+        ],
+        "quantities": [
+          "39 degrees Celsius"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the use of a muffle furnace in a laboratory setting, indicating a high-temperature process. The researcher's precise actions with the furnace and pipette highlight a controlled experimental procedure. The focus on temperature settings and liquid transfer suggests a step requiring specific conditions."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        320.99199975,
+        427.989333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'Sample A' with a green cap.",
+          "Researcher places the microtube into a centrifuge labeled 'Model 1234'."
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a green cap labeled 'Sample A'",
+          "Centrifuge labeled 'Model 1234' with a digital display showing '00:00'",
+          "Petri dish containing a clear liquid with a grid pattern"
+        ],
+        "visible_text_labels": [
+          "Sample A",
+          "Model 1234",
+          "00:00"
+        ],
+        "quantities": [
+          "1.5mL",
+          "00:00"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of a sample for centrifugation, highlighting the specific labeling and equipment used. The centrifuge's digital display is prominently shown, indicating the start of the process. The petri dish with a grid pattern suggests a controlled environment for observation."
+      }
+    }
+  ]
+}

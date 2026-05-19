@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_2/video_segments/57343/clip_10.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 43.428,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.857
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a small white container into a centrifuge chamber",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "white centrifuge with a black interior chamber",
+          "small white container with a white cap",
+          "researcher wearing blue gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation phase of an experiment involving a centrifuge. The researcher's gloved hand is seen placing a small white container into the centrifuge, indicating careful handling of materials. The centrifuge lid is then closed, signaling the start of a centrifugation process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.857,
+        21.714
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'SOIL MPLEx' with a yellow label",
+          "researcher places the microtube into a blue plastic rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a yellow label",
+          "blue plastic microtube rack",
+          "glass bottle with a metal cap",
+          "various labeled containers and bottles in the background"
+        ],
+        "visible_text_labels": [
+          "SOIL MPLEx",
+          "LUBRIZOL",
+          "PROTEIN",
+          "SUPERNA"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase, where a labeled microtube is handled and placed into a rack. The yellow label on the microtube is distinctive, and the background contains various scientific containers, indicating a laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.714,
+        32.571
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 50mL conical tube labeled 'SOLUBILIZED SOIL PROTEIN SUPERNATANT' with a yellow label",
+          "researcher pours a dark brown liquid from the conical tube into a clear test tube labeled 'SOLUBILIZED SOIL PROTEIN SUPERNATANT'"
+        ],
+        "objects_visible": [
+          "50mL conical tube with a yellow label",
+          "clear test tube with a yellow label",
+          "test tube rack with multiple empty slots",
+          "Kimberly-Clark box in the background",
+          "blue container with a white label"
+        ],
+        "visible_text_labels": [
+          "SOLUBILIZED SOIL PROTEIN SUPERNATANT",
+          "Kimberly-Clark"
+        ],
+        "quantities": [
+          "50mL conical tube",
+          "clear test tube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the transfer of a dark brown liquid from a 50mL conical tube to a test tube, emphasizing the handling of soil protein supernatant. The yellow labels on both the conical tube and test tube provide clear identification of the sample. The background includes laboratory supplies, indicating a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.571,
+        43.428
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a 1.5mL microtube labeled 'SOLUBILIZED SOIL PROTEIN SUPERNATANT' into a centrifuge chamber",
+          "researcher closes the centrifuge lid"
+        ],
+        "objects_visible": [
+          "centrifuge with a visible rotor and numbered slots",
+          "1.5mL microtube with a yellow label",
+          "researcher's gloved hand",
+          "blue-handled tool on the countertop"
+        ],
+        "visible_text_labels": [
+          "SOLUBILIZED SOIL PROTEIN SUPERNATANT",
+          "12000 rpm"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "12000 rpm"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise placement of a labeled microtube into a centrifuge, highlighting the importance of careful handling in the experiment. The centrifuge's rotor and numbered slots are clearly visible, emphasizing the structured setup. The blue-handled tool on the countertop adds a contextual detail to the laboratory environment."
+      }
+    }
+  ]
+}

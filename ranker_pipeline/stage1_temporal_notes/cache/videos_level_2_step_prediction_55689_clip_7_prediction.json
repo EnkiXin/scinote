@@ -1,0 +1,152 @@
+{
+  "video_id": "videos/level_2/step_prediction/55689/clip_7_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.722333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.68058325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into a test tube",
+          "places the test tube into a rack"
+        ],
+        "objects_visible": [
+          "pipette with a blue plunger",
+          "test tube containing a yellowish liquid",
+          "white test tube rack with blue accents",
+          "a centrifuge with multiple slots and a central axis"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "one test tube",
+          "one pipette"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid into a test tube using a pipette. The centrifuge in the background suggests a laboratory setting. The yellowish liquid in the test tube is a distinctive feature."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.68058325,
+        17.3611665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into a test tube",
+          "holds a test tube labeled 'DMEM'"
+        ],
+        "objects_visible": [
+          "pipette with a blue plunger",
+          "test tube labeled 'DMEM' with a clear liquid",
+          "white test tube rack with blue accents",
+          "green perforated background"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "~200uL of liquid"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action into a test tube labeled 'DMEM'. The test tube is held securely in a white rack with blue accents, and the background features a green perforated surface, adding context to the laboratory setting."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.3611665,
+        26.04174975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'Wash' with blue cap",
+          "researcher places microtube into green test tube rack"
+        ],
+        "objects_visible": [
+          "green test tube rack with multiple holes",
+          "1.5mL microtube with blue cap",
+          "white test tube rack with blue dividers",
+          "beaker with clear liquid",
+          "black and white laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "Wash",
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the handling of a microtube labeled 'Wash', emphasizing the precise placement into a green test tube rack. The background laboratory setup includes various equipment and containers, indicating a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        26.04174975,
+        34.722333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [],
+        "objects_visible": [
+          "transparent microtubes containing a pale yellow liquid",
+          "white microtube rack"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up view of microtubes containing a pale yellow liquid, likely a sample or reagent. The microtubes are held in a white rack, suggesting a step in sample preparation or observation. The background includes a green surface, indicating a laboratory setting."
+      }
+    }
+  ]
+}

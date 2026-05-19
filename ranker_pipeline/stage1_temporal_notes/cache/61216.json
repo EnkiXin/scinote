@@ -1,0 +1,141 @@
+{
+  "video_id": "61216",
+  "benchmark": "scivideobench",
+  "duration_seconds": 881.749333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        220.43733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a blue embroidery hoop with a transparent membrane stretched across it",
+          "researcher places the hoop on a white cloth, ensuring the membrane is taut",
+          "researcher adjusts the hoop to secure the membrane properly"
+        ],
+        "objects_visible": [
+          "blue embroidery hoop with a transparent membrane",
+          "white cloth underneath the hoop",
+          "researcher's gloved hands manipulating the hoop"
+        ],
+        "visible_text_labels": [
+          "1. separator membrane preparation"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the preparation of a separator membrane using a blue embroidery hoop. The researcher's actions are meticulous, ensuring the membrane is properly stretched and secured. The use of an embroidery hoop as a tool for membrane preparation is a distinctive feature of this segment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        220.43733325,
+        440.8746665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "error": "json_parse_failed",
+        "raw": "{\n  \"phase\": \"execution\",\n  \"actions_observed\": [\n    \"researcher holds a petri dish with a blue rim and a white substance inside\",\n    \"researcher uses a paintbrush to spread the white substance evenly across the petri dish\",\n    \"researcher places the petri dish on a white surface and adjusts its position\",\n    \"researcher holds a small glass vial with a blue label and a metal cap\",\n    \"researc"
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        440.8746665,
+        661.31199975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a black cylindrical object with a gold-colored band near the top",
+          "researcher uses a scalpel to carefully cut a strip of black tape labeled 'tape composite' with a 1 mm overlap",
+          "researcher applies the cut tape strip to the black cylindrical object"
+        ],
+        "objects_visible": [
+          "black cylindrical object with a gold-colored band",
+          "scalpel with a metallic blade",
+          "black tape strip labeled 'tape composite'",
+          "graph paper background with blue grid lines"
+        ],
+        "visible_text_labels": [
+          "tape composite",
+          "1 mm overlap"
+        ],
+        "quantities": [
+          "1 mm overlap"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise application of a tape strip to a cylindrical object, emphasizing the importance of a 1 mm overlap. The use of a scalpel for cutting the tape highlights the need for accuracy in the experiment. The graph paper background aids in visual alignment and measurement."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        661.31199975,
+        881.749333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A gloved hand holds a small, metallic actuator with a thin wire attached, examining it closely.",
+          "The hand uses a black tool to manipulate the actuator, possibly adjusting its position or demonstrating its flexibility."
+        ],
+        "objects_visible": [
+          "A small, metallic actuator with a thin wire attached, held by a gloved hand.",
+          "A black tool used to manipulate the actuator.",
+          "A white background that provides contrast to the actuator and hand."
+        ],
+        "visible_text_labels": [
+          "actuator 21.2 mg",
+          "load 17.8 mg"
+        ],
+        "quantities": [
+          "21.2 mg (mass of the actuator)",
+          "17.8 mg (mass of the load)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed examination of a small actuator, highlighting its mass and the load it can handle. The use of a gloved hand and a black tool suggests a careful and precise handling of the actuator, emphasizing its delicate nature. The text labels provide specific quantitative information about the actuator and the load."
+      }
+    }
+  ]
+}

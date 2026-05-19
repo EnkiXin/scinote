@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/video_segments/56857/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.127,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.78175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher places a small black mouse on a white, rectangular, foam-like platform",
+          "researcher adjusts the mouse's position with gloved hands"
+        ],
+        "objects_visible": [
+          "small black mouse with a visible tail and ears",
+          "white foam platform with rectangular cutouts",
+          "researcher's hands wearing light blue latex gloves",
+          "white lab coat partially visible",
+          "background laboratory equipment including a digital scale and other devices"
+        ],
+        "visible_text_labels": [
+          "JOVE logo in the top right corner"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a small black mouse, emphasizing the preparation phase of an experiment. The use of a foam platform suggests a method for stabilizing the mouse. The researcher's gloved hands indicate a controlled and sterile environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.78175,
+        19.5635
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate tissue",
+          "researcher uses scissors to carefully cut tissue"
+        ],
+        "objects_visible": [
+          "animal with exposed skin and tissue",
+          "forceps with black handles",
+          "scissors with black handles",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of surgical tools being used on an animal's skin, highlighting precise tissue manipulation. The researcher's gloved hands are actively engaged in the procedure, emphasizing the delicate nature of the task. The visible 'jove' logo suggests this is part of a scientific or educational video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.5635,
+        29.34525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical scissors are used to carefully cut through tissue",
+          "forceps hold the tissue steady during the cutting process"
+        ],
+        "objects_visible": [
+          "animal with exposed surgical site",
+          "metal surgical scissors with sharp blades",
+          "metal forceps with textured grips",
+          "gloved hands manipulating the instruments"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise surgical procedure with visible blood and tissue, indicating an invasive operation. The use of surgical scissors and forceps highlights the delicate nature of the task. The 'jove' watermark suggests this is part of a scientific or educational video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.34525,
+        39.127
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate tissue",
+          "researcher uses scissors to carefully cut through tissue"
+        ],
+        "objects_visible": [
+          "forceps with a metallic, serrated tip",
+          "scissors with a sharp, pointed blade",
+          "exposed tissue with visible blood vessels and muscle fibers",
+          "animal with dark fur and a shaved surgical area"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise surgical procedure with the use of forceps and scissors on exposed tissue. The researcher's hands are gloved, indicating a sterile environment. The focus is on the careful manipulation and cutting of tissue, highlighting the delicate nature of the procedure."
+      }
+    }
+  ]
+}

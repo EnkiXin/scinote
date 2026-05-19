@@ -1,0 +1,160 @@
+{
+  "video_id": "66562",
+  "benchmark": "scivideobench",
+  "duration_seconds": 247.104,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        61.776
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person wearing glasses and a striped shirt is speaking directly to the camera."
+        ],
+        "objects_visible": [
+          "A person with glasses and a striped shirt",
+          "A window with horizontal blinds in the background"
+        ],
+        "visible_text_labels": [
+          "Optical Photothermal Infrared - Fluorescence In Situ Hybridization (OPTIR-FISH)",
+          "Zhongyue Guo, Yeran Bai, F\u00e1tima C. Pereira, Ji-Xin Cheng",
+          "Department of Biomedical Engineering, Boston University",
+          "Neuroscience Research Institute, Department of Molecular, Cellular, and Developmental Biology, University of California Santa Barbara",
+          "Photothermal Spectroscopy Corp.",
+          "School of Biological Sciences, University of Southampton",
+          "Department of Electrical & Computer Engineering, Photonics Center, Boston University",
+          "These authors contributed equally"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment features a person introducing or explaining a scientific topic, with text overlays providing detailed affiliations and contributors. The background includes a window with horizontal blinds, suggesting an indoor setting."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        61.776,
+        123.552
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a purple pipette and dispenses liquid into a green microtube rack",
+          "researcher places a labeled microtube into a centrifuge chamber",
+          "researcher closes the centrifuge lid and sets the timer"
+        ],
+        "objects_visible": [
+          "purple pipette with a fine tip",
+          "green microtube rack with multiple slots",
+          "microtubes with blue caps and handwritten labels",
+          "centrifuge with a digital display and control buttons",
+          "biohazard warning sign on the centrifuge"
+        ],
+        "visible_text_labels": [
+          "Hybridization: E. coli- Gam42a-Cy5 B. theta-Bac303-Cy3",
+          "BIOHAZARD"
+        ],
+        "quantities": [
+          "microtube labeled 'DMEM' with blue cap",
+          "digital display on centrifuge showing '00:00'"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of microtubes and the use of a centrifuge, emphasizing the controlled environment necessary for the experiment. The biohazard warning sign indicates the handling of potentially hazardous materials. The text on the screen provides specific details about the hybridization process involving E. coli and B. theta strains."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        123.552,
+        185.328
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a small object within a petri dish",
+          "researcher places the petri dish lid aside on the work surface"
+        ],
+        "objects_visible": [
+          "petri dish with a clear lid and a small object inside",
+          "forceps held by the researcher",
+          "black work surface",
+          "other petri dishes in the background"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the precise manipulation of a small object within a petri dish using forceps, highlighting the delicate nature of the task. The black work surface provides a stark contrast, enhancing the visibility of the petri dish and the object being handled. The absence of text labels or quantities suggests a focus on the manual dexterity and technique involved."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        185.328,
+        247.104
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pipette with a purple plunger",
+          "petri dish containing a clear medium",
+          "green test tube rack holding multiple tubes"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "200uL",
+          "1.5mL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a specific volume of DMEM medium using a pipette. The researcher's actions are methodical, emphasizing accuracy in handling the microtube and petri dish. The green test tube rack in the background adds context to the laboratory setting."
+      }
+    }
+  ]
+}

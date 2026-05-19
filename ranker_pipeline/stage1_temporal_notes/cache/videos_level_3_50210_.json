@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_3/50210_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 453.620289,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        113.40507225
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A cartoon mouse is shown with a glowing red area in its abdomen, indicating a tumor.",
+          "A petri dish is displayed with the label 'Day 1', showing a few black dots on a light background, possibly representing initial cell cultures."
+        ],
+        "objects_visible": [
+          "A cartoon mouse with a glowing red tumor in its abdomen.",
+          "A petri dish with a light background and a few black dots, labeled 'Day 1'.",
+          "A small inset image showing a magnified view of the petri dish contents."
+        ],
+        "visible_text_labels": [
+          "Day 1",
+          "100 \u03bcm"
+        ],
+        "quantities": [
+          "A few black dots in the petri dish, possibly representing initial cell cultures.",
+          "100 \u03bcm scale bar in the magnified inset image."
+        ],
+        "key_distinguishing_features": "This segment features a cartoon illustration of a mouse with a tumor, transitioning to a petri dish labeled 'Day 1' with initial cell cultures. The magnified inset provides a detailed view of the petri dish contents, emphasizing the early stages of a biological experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        113.40507225,
+        226.8101445
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish",
+          "researcher places the microtube back into a red tube rack",
+          "researcher closes the petri dish with a transparent lid"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "red tube rack",
+          "petri dish with pink-colored medium",
+          "transparent lid for the petri dish",
+          "pipette with a blue tip"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "See written protocol for media formulation"
+        ],
+        "quantities": [
+          "1.5mL",
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of DMEM medium, highlighting the use of a pipette to transfer a specific volume of liquid. The petri dish and its transparent lid are central to the action, emphasizing the preparation of a controlled environment for the experiment. The text 'See written protocol for media formulation' suggests a detailed protocol is available for reference."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        226.8101445,
+        340.21521675
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap and a label that appears handwritten",
+          "researcher uses a pipette to transfer a clear liquid from the microtube into a petri dish containing a cell culture",
+          "researcher places the microtube back into a red tube rack"
+        ],
+        "objects_visible": [
+          "red tube rack with multiple slots",
+          "1.5mL microtube with a blue cap",
+          "petri dish with a cell culture",
+          "pipette with a transparent tip",
+          "green tube rack in the background",
+          "white centrifuge with a digital display"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid from a microtube to a petri dish, highlighting the use of a pipette for accurate measurement. The presence of a centrifuge and multiple tube racks suggests a laboratory setting equipped for cell culture experiments. The handwritten label on the microtube indicates a personalized or experimental setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        340.21521675,
+        453.620289
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher places a sample slide into a Leica microscope for observation.",
+          "Microscope displays a magnified image of a cellular structure at 100 \u03bcm scale."
+        ],
+        "objects_visible": [
+          "Leica microscope with a red button and control panel.",
+          "Sample slide with a cellular structure under observation.",
+          "Graph showing 'Colonies/well' with two bars labeled '75U/30min' and '200U/2h'."
+        ],
+        "visible_text_labels": [
+          "Day 6",
+          "Colonies/well",
+          "75U/30min",
+          "200U/2h",
+          "100 \u03bcm"
+        ],
+        "quantities": [
+          "100 \u03bcm scale on the microscope image.",
+          "Two bars in the graph showing colony counts at different conditions."
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where a cellular structure is examined under a Leica microscope. The graph indicates a comparison of colony counts under different treatment conditions, suggesting an analysis of cellular growth or response. The 'Day 6' label implies a time-series study."
+      }
+    }
+  ]
+}

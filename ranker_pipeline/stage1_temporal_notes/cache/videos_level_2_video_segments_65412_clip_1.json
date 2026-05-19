@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_2/video_segments/65412/clip_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 28.083,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.02075
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher pours liquid from a large amber bottle into a clear glass beaker"
+        ],
+        "objects_visible": [
+          "large amber bottle with a white label",
+          "clear glass beaker",
+          "purple test tube rack",
+          "various laboratory equipment and containers on the counter"
+        ],
+        "visible_text_labels": [
+          "Ultrapure water resistivity: >18 M\u03a9-cm",
+          "Microwave-Assisted Synthesis of \u03b1-Ni(OH)\u2082 Nanosheets",
+          "Demonstrator: Sam Kimmel"
+        ],
+        "quantities": [
+          ">18 M\u03a9-cm"
+        ],
+        "key_distinguishing_features": "The segment focuses on the initial preparation phase where a liquid is being transferred from a large amber bottle to a beaker. The text on the screen indicates the resistivity of ultrapure water, suggesting the importance of purity in the experiment. The setting is a well-equipped laboratory with various tools and containers visible."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.02075,
+        14.0415
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a small, clear glass bottle with a white label",
+          "researcher uses a pipette to transfer a blue-green substance into the bottle"
+        ],
+        "objects_visible": [
+          "small clear glass bottle with a white label",
+          "pipette with a blue-green substance",
+          "orange cap on the counter",
+          "purple test tube rack",
+          "various laboratory equipment and containers in the background"
+        ],
+        "visible_text_labels": [
+          "Ultrapure water resistivity: \u226518 M\u03a9-cm"
+        ],
+        "quantities": [
+          "\u226518 M\u03a9-cm"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a blue-green substance into a small glass bottle, emphasizing the careful handling of materials. The presence of the orange cap and the purple test tube rack adds context to the laboratory setting. The text on the screen provides specific information about the water resistivity, indicating the high purity of the water used."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.0415,
+        21.06225
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a small glass bottle with a greenish liquid and a white substance inside onto a Fisher Scientific ultrasonic bath",
+          "researcher adjusts the bottle within the ultrasonic bath"
+        ],
+        "objects_visible": [
+          "Fisher Scientific ultrasonic bath labeled 'ULTRASONIC BATH 2.5L'",
+          "small glass bottle with greenish liquid and white substance",
+          "green plastic test tube rack",
+          "various laboratory glassware and equipment in the background"
+        ],
+        "visible_text_labels": [
+          "ULTRASONIC BATH 2.5L",
+          "Fisher Scientific"
+        ],
+        "quantities": [
+          "2.5L capacity of the ultrasonic bath"
+        ],
+        "key_distinguishing_features": "This segment focuses on the use of an ultrasonic bath, a specialized piece of laboratory equipment. The greenish liquid and white substance in the bottle suggest a specific experimental setup. The Fisher Scientific branding on the ultrasonic bath is clearly visible, indicating the equipment's manufacturer."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        21.06225,
+        28.083
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places an orange-capped container into the ultrasonic bath",
+          "researcher adjusts the dial on the ultrasonic bath"
+        ],
+        "objects_visible": [
+          "ultrasonic bath labeled 'ULTRASONIC BATH 2.5L' by Fisher Scientific",
+          "orange-capped container",
+          "blue-gloved hand",
+          "laboratory bench with various equipment and containers",
+          "pipette tips in a blue and orange rack"
+        ],
+        "visible_text_labels": [
+          "ULTRASONIC BATH 2.5L",
+          "Fisher Scientific"
+        ],
+        "quantities": [
+          "2.5L capacity of the ultrasonic bath"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a container into an ultrasonic bath, highlighting the researcher's careful handling. The Fisher Scientific ultrasonic bath is a central element, with its capacity and branding clearly visible. The researcher's actions are deliberate, emphasizing the importance of the ultrasonic treatment in the experiment."
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "video_id": "videos/level_2/video_verification/200206/clip_8_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 44.666567,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.16664175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays a microscopic image",
+          "parameters and settings are visible on the screen"
+        ],
+        "objects_visible": [
+          "microscopic image of a biological sample with a purple hue",
+          "software interface with various panels and controls"
+        ],
+        "visible_text_labels": [
+          "COLLAPSED CONTROLS",
+          "Total counting time",
+          "Number of samples",
+          "Sample volume",
+          "Sample concentration"
+        ],
+        "quantities": [
+          "Total counting time: 1000 ms",
+          "Number of samples: 1",
+          "Sample volume: 100 uL",
+          "Sample concentration: 10^6 cells/mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on a detailed software interface used for analyzing microscopic images, with specific parameters and settings displayed. The biological sample appears as a purple, granular structure within a green rectangular boundary. The interface includes multiple panels for adjusting and monitoring the analysis process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.16664175,
+        22.3332835
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays a fluorescent image of a biological sample",
+          "user interacts with the software, adjusting parameters and observing changes in the image"
+        ],
+        "objects_visible": [
+          "software interface with multiple panels and controls",
+          "fluorescent image of a biological sample with purple dots",
+          "various sliders, buttons, and input fields for adjusting settings"
+        ],
+        "visible_text_labels": [
+          "Image",
+          "Workflow",
+          "Cancel all",
+          "Cancel",
+          "Next",
+          "Previous",
+          "Total camera time",
+          "Total exposure time",
+          "Total frames"
+        ],
+        "quantities": [
+          "Total camera time: 00:00:00",
+          "Total exposure time: 00:00:00",
+          "Total frames: 0"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for its focus on a software interface used for analyzing a fluorescent biological sample. The image displayed is a dense cluster of purple dots, likely representing cells or molecules, within a rectangular frame. The user is actively adjusting settings, suggesting a real-time observation and analysis process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        22.3332835,
+        33.499925250000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays a live image of a sample with a purple fluorescent pattern",
+          "bounding box changes from green to red, indicating a change in the analysis or selection"
+        ],
+        "objects_visible": [
+          "software interface with multiple panels and controls",
+          "central image display showing a purple fluorescent pattern within a rectangular bounding box",
+          "various sliders, buttons, and input fields for adjusting parameters"
+        ],
+        "visible_text_labels": [
+          "Waveform",
+          "Cancel all",
+          "Necessary",
+          "Sufficient",
+          "Total counting time",
+          "Total exposure time",
+          "Total number of lines"
+        ],
+        "quantities": [
+          "total counting time: 00:00:00",
+          "total exposure time: 00:00:00",
+          "total number of lines: 0"
+        ],
+        "key_distinguishing_features": "The segment focuses on the observation phase, where a software interface is used to analyze a fluorescent sample. The change in the bounding box color from green to red suggests a transition in the analysis process. The interface includes detailed controls and parameters for fine-tuning the observation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        33.499925250000004,
+        44.666567
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "software interface displays a cell image with overlaid analysis tools",
+          "user adjusts parameters in the software for cell analysis"
+        ],
+        "objects_visible": [
+          "software interface with multiple panels",
+          "cell image with purple fluorescence",
+          "red and green bounding boxes on the cell image"
+        ],
+        "visible_text_labels": [
+          "Image",
+          "Workflow",
+          "Cancel all",
+          "Necessary",
+          "Optional",
+          "Total category lines",
+          "Total category lines",
+          "Total category lines"
+        ],
+        "quantities": [
+          "1 cell image displayed",
+          "multiple adjustable parameters in the software"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase where a cell image is being analyzed using specialized software. The interface includes detailed tools for adjusting analysis parameters, and the cell is highlighted with distinct bounding boxes for precise measurement. The software's layout is complex, with multiple panels dedicated to different aspects of the analysis."
+      }
+    }
+  ]
+}

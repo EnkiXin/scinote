@@ -1,0 +1,150 @@
+{
+  "video_id": "videos/level_2/video_segments/60259/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 42.941,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.73525
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher adjusts the patient's position on the MRI table",
+          "Medical staff prepares the patient for an MRI scan by ensuring they are properly positioned"
+        ],
+        "objects_visible": [
+          "MRI machine with 'MONASH University' branding",
+          "Patient lying on the MRI table covered with a white blanket",
+          "Medical staff wearing blue scrubs and gloves",
+          "Yellow sharps container on a nearby table",
+          "Various medical supplies and equipment on a table beside the MRI machine"
+        ],
+        "visible_text_labels": [
+          "MONASH University",
+          "TEST BLOOD SUGAR LEVEL AND OTHER BLOOD MEASURES WITH BASELINE SAMPLE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment highlights the preparation phase of an MRI scan, with a focus on the patient's positioning and the presence of medical staff ensuring readiness. The branding of 'MONASH University' on the MRI machine is a distinctive feature. The text overlay indicates the context of blood sugar and other baseline measurements."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.73525,
+        21.4705
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand holds a syringe and injects a liquid into a patient's leg.",
+          "Another gloved hand uses a cotton swab to apply pressure to the injection site."
+        ],
+        "objects_visible": [
+          "A syringe with a clear liquid being injected into a patient's leg.",
+          "A cotton swab used to apply pressure to the injection site.",
+          "A patient's leg with a clear, gel-like substance spread over the injection area."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The syringe appears to contain approximately 10 mL of liquid."
+        ],
+        "key_distinguishing_features": "This segment shows a precise medical procedure involving an injection into a patient's leg. The use of gloves and a syringe highlights a sterile environment. The presence of a gel-like substance on the leg suggests preparation for the injection."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.4705,
+        32.20575
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "intravenous catheter is secured with transparent dressing",
+          "patient's arm is shown with IV setup"
+        ],
+        "objects_visible": [
+          "intravenous catheter with a white hub and blue cap",
+          "transparent adhesive dressing covering the insertion site",
+          "patient's arm with visible skin texture"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on a close-up of an IV catheter secured on a patient's arm, emphasizing the medical setup. The transparent dressing and the catheter's components are clearly visible, highlighting the clinical context. The 'jove' logo indicates the video's source or branding."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.20575,
+        42.941
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher operates a control panel on a medical imaging machine",
+          "researcher adjusts settings on the control panel"
+        ],
+        "objects_visible": [
+          "medical imaging machine labeled 'Biograph mMR'",
+          "researcher wearing yellow ear protection and a white lab coat",
+          "control panel with various buttons and a screen"
+        ],
+        "visible_text_labels": [
+          "Biograph mMR",
+          "VBIC"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively interacting with a sophisticated medical imaging machine, focusing on the control panel. The presence of ear protection suggests the machine may produce loud noises. The setting is a clinical or research environment, indicated by the sterile and professional appearance."
+      }
+    }
+  ]
+}

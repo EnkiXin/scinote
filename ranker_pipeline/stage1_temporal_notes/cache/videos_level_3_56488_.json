@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_3/56488_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 516.586667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        129.14666675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'THAWING' with a blue cap",
+          "researcher places the microtube into a water bath labeled '20 min'"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a blue cap",
+          "water bath with a digital display showing '20 min'",
+          "researcher wearing a white lab coat and purple gloves"
+        ],
+        "visible_text_labels": [
+          "THAWING",
+          "20 min"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "20 minutes"
+        ],
+        "key_distinguishing_features": "This segment focuses on the initial preparation step of thawing a sample in a water bath. The researcher's actions are precise, and the use of a labeled microtube and a digital timer highlights the controlled nature of the experiment. The presence of a water bath with a specific time setting underscores the importance of timing in this step."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        129.14666675,
+        258.2933335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a petri dish with a blue-rimmed cover and places it on a white surface",
+          "researcher uses a pipette to transfer a clear liquid from a bottle labeled 'HBSS: Hanks Balanced Saline Solution' into the petri dish",
+          "researcher places a petri dish on a magnetic stirrer and adjusts the speed using a control knob",
+          "researcher uses a pipette to add a small volume of liquid from a bottle with an orange cap into a petri dish on a magnetic stirrer"
+        ],
+        "objects_visible": [
+          "petri dish with a blue-rimmed cover",
+          "pipette with a clear tip",
+          "bottle labeled 'HBSS: Hanks Balanced Saline Solution'",
+          "magnetic stirrer with a rotating bar",
+          "petri dish on a magnetic stirrer",
+          "bottle with an orange cap"
+        ],
+        "visible_text_labels": [
+          "HBSS: Hanks Balanced Saline Solution",
+          "15 min each step"
+        ],
+        "quantities": [
+          "clear liquid from the HBSS bottle",
+          "small volume of liquid from the bottle with an orange cap"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of liquids in a petri dish, emphasizing the use of HBSS and a magnetic stirrer. The actions are methodical, with specific attention to the addition of liquids and the adjustment of the stirrer's speed. The text '15 min each step' suggests a timed protocol for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        258.2933335,
+        387.44000025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher operates a precision machine, adjusting settings on a digital control panel.",
+          "Researcher places a small, cylindrical object into a metal holder on the machine.",
+          "Researcher uses a tool to secure the cylindrical object in the holder."
+        ],
+        "objects_visible": [
+          "A precision machine with a digital control panel displaying various settings.",
+          "A cylindrical object with a metallic finish, possibly a sample for testing.",
+          "A metal holder with a screw mechanism for securing the cylindrical object.",
+          "A tool, likely a screwdriver, used to adjust the holder."
+        ],
+        "visible_text_labels": [
+          "Order: 3 \u03bcm, 1 \u03bcm, 0.25 \u03bcm, 90 nm each, RT",
+          "90 min",
+          "jove"
+        ],
+        "quantities": [
+          "3 \u03bcm, 1 \u03bcm, 0.25 \u03bcm, 90 nm",
+          "90 min"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise setup of a machine for a specific test, highlighting the careful placement and securing of a cylindrical sample. The digital control panel and the detailed settings indicate a high level of precision required for the experiment. The presence of specific measurements and time intervals suggests a controlled and methodical process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        387.44000025,
+        516.586667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher gestures with hands while explaining",
+          "microscope is shown with a sample slide under the objective lens"
+        ],
+        "objects_visible": [
+          "microscope with a labeled objective lens 'NHT\u00b2'",
+          "sample slide under the microscope",
+          "researcher wearing a white lab coat with 'SUNLAB' embroidered on it"
+        ],
+        "visible_text_labels": [
+          "NHT\u00b2",
+          "SUNLAB",
+          "crack bridging",
+          "3 \u00b5m"
+        ],
+        "quantities": [
+          "3 \u00b5m scale bar in the microscopic image"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where the researcher explains a microscopic image showing 'crack bridging' with a 3 \u00b5m scale bar. The microscope setup is prominently featured, highlighting the sample slide under the objective lens."
+      }
+    }
+  ]
+}

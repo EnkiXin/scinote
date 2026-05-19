@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_3/63838_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 548.949333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        137.23733325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher in a white lab coat and blue gloves handles surgical instruments",
+          "researcher uses forceps and scissors to manipulate tissue on an animal's exposed abdominal cavity"
+        ],
+        "objects_visible": [
+          "animal with white fur and exposed internal organs",
+          "surgical forceps with blue handles",
+          "surgical scissors with metallic finish",
+          "blue surgical gloves",
+          "white lab coat",
+          "orange biohazard bag in the background"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on a surgical procedure involving an animal, with the researcher meticulously handling surgical tools. The presence of a biohazard bag suggests the handling of potentially hazardous biological materials. The detailed manipulation of the animal's internal tissues is a critical aspect of the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        137.23733325,
+        274.4746665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand uses a cotton swab to clean a nerve specimen in a petri dish containing a yellowish liquid.",
+          "A researcher holds a syringe and needle, injecting a substance into a small, orange-colored object, possibly a fruit or a model."
+        ],
+        "objects_visible": [
+          "A petri dish with a yellowish liquid and a nerve specimen being cleaned with a cotton swab.",
+          "A syringe and needle being used to inject a substance into an orange-colored object.",
+          "A bottle with a blue cap and a yellow liquid, connected to a setup with clamps and tubing."
+        ],
+        "visible_text_labels": [
+          "Nerve Cleaning Procedure"
+        ],
+        "quantities": [
+          "The petri dish contains a significant amount of yellowish liquid, but the exact volume is not specified."
+        ],
+        "key_distinguishing_features": "This segment focuses on the detailed cleaning of a nerve specimen and the injection of a substance into an orange object, highlighting precise manual techniques. The presence of a petri dish with a nerve specimen and a syringe indicates a biological or medical experiment. The setup with a bottle and clamps suggests a controlled environment for the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        274.4746665,
+        411.71199975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe and injects a yellow liquid into a transparent gel block",
+          "researcher uses a pair of tweezers to manipulate a small object within the gel block",
+          "researcher adjusts the position of the gel block on a stand",
+          "researcher connects wires to a circuit board and monitors the readings on an oscilloscope"
+        ],
+        "objects_visible": [
+          "transparent gel block with a yellow liquid inside",
+          "syringe with a blue plunger and a needle",
+          "tweezers with a metallic finish",
+          "circuit board with various components and wires",
+          "oscilloscope with a screen displaying waveforms",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "yellow liquid volume not specified",
+          "waveform readings on the oscilloscope not specified"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the precise manipulation of a gel block with a syringe and tweezers, combined with the use of an oscilloscope to monitor electrical signals. The focus on both mechanical and electrical components highlights a multidisciplinary approach in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        411.71199975,
+        548.949333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher observes and analyzes data on a computer screen displaying a MATLAB script and graphical output.",
+          "Researcher compares voltage-time graphs for different cuff types."
+        ],
+        "objects_visible": [
+          "Computer screen with MATLAB interface showing a script named 'HFAC_4ch_Monophasic_Stimulation.m'.",
+          "Graphs displaying voltage over time for 'Metallic nerve cuff' and 'Conductive Elastomer cuff'.",
+          "Researcher wearing a white lab coat and a face mask."
+        ],
+        "visible_text_labels": [
+          "Metallic nerve cuff",
+          "Conductive Elastomer cuff",
+          "Voltage / mV",
+          "Time / ms",
+          "HFAC_4ch_Monophasic_Stimulation.m"
+        ],
+        "quantities": [
+          "Voltage range from -2000 mV to 2000 mV",
+          "Time range from -10 ms to 10 ms"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation and analysis of voltage-time data for different nerve cuff types, highlighting the differences in their electrical behavior. The researcher is actively engaged in interpreting the data displayed on the MATLAB interface. The segment emphasizes the comparison between metallic and conductive elastomer cuffs."
+      }
+    }
+  ]
+}

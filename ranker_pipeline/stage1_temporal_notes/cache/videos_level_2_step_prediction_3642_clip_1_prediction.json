@@ -1,0 +1,171 @@
+{
+  "video_id": "videos/level_2/step_prediction/3642/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 46.462,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.6155
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Illustration of a mouse appears on the left side of the screen",
+          "Illustration of a mouse appears on the right side of the screen"
+        ],
+        "objects_visible": [
+          "Illustration of a mouse on the left labeled 'Germ-free'",
+          "Illustration of a mouse on the right labeled 'Conventional'",
+          "Diagram of cages labeled 'Cage 1a', 'Cage 2a', 'Cage 3a', 'Cage 4a', 'Cage 1b', 'Cage 2b', 'Cage 3b', 'Cage 4b'"
+        ],
+        "visible_text_labels": [
+          "Germ-free",
+          "Conventional",
+          "Cage 1a",
+          "Cage 2a",
+          "Cage 3a",
+          "Cage 4a",
+          "Cage 1b",
+          "Cage 2b",
+          "Cage 3b",
+          "Cage 4b",
+          "Colonization in open environment"
+        ],
+        "quantities": [
+          "8 cages in total, 4 on each side"
+        ],
+        "key_distinguishing_features": "This segment introduces two types of mice: germ-free and conventional, with a diagram showing their respective colonization environments. The visual emphasizes the contrast between the two groups through labeled illustrations and a structured cage layout. The segment sets the stage for a comparative study."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.6155,
+        23.231
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Diagram illustrates the setup for mixing germ-free and conventional mice litters"
+        ],
+        "objects_visible": [
+          "Illustration of two mice labeled 'Germ-free' and 'Conventional'",
+          "Diagram of cages labeled 'Cage 1a', 'Cage 1b', 'Cage 2a', 'Cage 2b', 'Cage 3a', 'Cage 3b', 'Cage 4a', 'Cage 4b'",
+          "Text labels 'Mix litters' and 'Colonization in open environment'"
+        ],
+        "visible_text_labels": [
+          "Germ-free",
+          "Conventional",
+          "Mix litters",
+          "Colonization in open environment",
+          "Cage 1a",
+          "Cage 1b",
+          "Cage 2a",
+          "Cage 2b",
+          "Cage 3a",
+          "Cage 3b",
+          "Cage 4a",
+          "Cage 4b"
+        ],
+        "quantities": [
+          "8 cages in total"
+        ],
+        "key_distinguishing_features": "This segment specifically highlights the preparation phase of an experiment involving the mixing of germ-free and conventional mice litters. The diagram clearly shows the allocation of mice into separate cages, emphasizing the controlled setup for colonization in an open environment. The visual representation aids in understanding the experimental design."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.231,
+        34.846500000000006
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a white mouse with gloved hands",
+          "researcher administers a liquid substance from a syringe into the mouse's mouth"
+        ],
+        "objects_visible": [
+          "white mouse with visible whiskers and tail",
+          "gloved hands holding the mouse",
+          "syringe with a yellow liquid"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment shows a detailed illustration of a mouse being administered a liquid substance, likely for experimental purposes. The focus is on the careful handling of the mouse and the precise administration of the substance. The illustration style is simple yet informative, highlighting the interaction between the researcher and the mouse."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        34.846500000000006,
+        46.462
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher wearing purple gloves removes a lid from a blue cylindrical container",
+          "researcher places the lid on the table and uses a pair of tweezers to manipulate an object inside the container"
+        ],
+        "objects_visible": [
+          "blue cylindrical container with a metallic lid",
+          "purple gloves on the researcher's hand",
+          "tweezers held by the researcher",
+          "a white lab coat worn by the researcher",
+          "a glass beaker in the background",
+          "a black hose connected to a device"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise action of removing a lid and using tweezers, indicating a delicate procedure. The blue container and metallic lid are distinctive, suggesting specialized laboratory equipment. The presence of a glass beaker and black hose in the background adds context to the laboratory setting."
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "video_id": "videos/level_2/video_verification/50484/clip_2_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 23.943047,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        5.98576175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher opens a biosafety cabinet",
+          "researcher places a petri dish inside the biosafety cabinet"
+        ],
+        "objects_visible": [
+          "biosafety cabinet with a glass front",
+          "petri dishes",
+          "laboratory equipment on shelves",
+          "researcher wearing a white lab coat and gloves"
+        ],
+        "visible_text_labels": [
+          "II. Preparing Cells",
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the initial setup of a laboratory environment, specifically the preparation of cells. The researcher is seen interacting with a biosafety cabinet, emphasizing the importance of a controlled environment. The text 'II. Preparing Cells' indicates this is part of a structured experimental protocol."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        5.98576175,
+        11.9715235
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap",
+          "researcher places the microtube into a yellow test tube rack"
+        ],
+        "objects_visible": [
+          "yellow test tube rack with multiple holes",
+          "two small petri dishes with clear lids",
+          "blue-capped microtube",
+          "metallic laboratory surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher handling a microtube with a blue cap, which is then placed into a yellow test tube rack. The focus is on the precise placement of the tube, indicating a step in a laboratory procedure. The metallic surface and petri dishes suggest a sterile environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        11.9715235,
+        17.957285249999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a petri dish into an incubator",
+          "researcher closes the incubator door"
+        ],
+        "objects_visible": [
+          "incubator with a digital display",
+          "petri dish held by the researcher",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "37 \u00b0C",
+          "5% CO\u2082",
+          "Overnight to a confluency of 30-40%"
+        ],
+        "quantities": [
+          "37 \u00b0C",
+          "5% CO\u2082",
+          "30-40% confluency"
+        ],
+        "key_distinguishing_features": "This segment shows the precise placement of a petri dish into an incubator, highlighting the controlled conditions of 37 \u00b0C and 5% CO\u2082. The text overlay specifies the overnight incubation to achieve a specific cell confluency, emphasizing the importance of environmental control in the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        17.957285249999998,
+        23.943047
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 15mL conical tube with a blue cap",
+          "researcher uses a pipette to transfer liquid from the conical tube into a petri dish"
+        ],
+        "objects_visible": [
+          "15mL conical tube with a blue cap",
+          "pipette with a black handle",
+          "petri dish containing a clear medium",
+          "yellow test tube rack",
+          "bottle of red liquid labeled 'DMEM'",
+          "white lab bench with various equipment"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "15mL conical tube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of liquid from a conical tube to a petri dish, highlighting the use of a pipette for accurate measurements. The presence of a DMEM bottle suggests the preparation of a cell culture medium."
+      }
+    }
+  ]
+}

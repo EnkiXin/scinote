@@ -1,0 +1,151 @@
+{
+  "video_id": "videos/level_2/video_segments/56857/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 18.27,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        4.5675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses scissors to make an incision in the skin of an animal",
+          "researcher holds the skin with forceps to stabilize it"
+        ],
+        "objects_visible": [
+          "metal scissors with sharp blades",
+          "metal forceps holding the skin",
+          "animal with dark fur and exposed pink skin",
+          "green pins securing the animal's ears",
+          "white gloves on the researcher's hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise surgical procedure with the use of scissors and forceps on an animal's skin. The green pins securing the animal's ears are distinctive, indicating a controlled experimental setup. The white gloves highlight the sterile conditions of the procedure."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        4.5675,
+        9.135
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to hold tissue",
+          "researcher uses scissors to cut tissue"
+        ],
+        "objects_visible": [
+          "black-furred animal with exposed neck tissue",
+          "metal forceps with curved tips",
+          "metal scissors with sharp blades",
+          "green pins securing the animal's limbs",
+          "latex-gloved hands"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise surgical procedure on an animal's neck, with the researcher using forceps and scissors to manipulate and cut tissue. The green pins securing the animal's limbs are a distinctive feature, indicating a controlled experimental setup. The exposed tissue and the researcher's gloved hands highlight the sterile and meticulous nature of the procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        9.135,
+        13.7025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate tissue within an incision on an animal's neck",
+          "forceps are used to gently separate and adjust the tissue layers"
+        ],
+        "objects_visible": [
+          "animal with a visible incision on its neck, revealing underlying tissue",
+          "metal forceps with a serrated tip",
+          "green object partially visible at the bottom right corner",
+          "white background with some blood stains"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the precise manipulation of tissue using forceps, highlighting the surgical technique. The presence of blood stains on the white background indicates an invasive procedure. The green object in the corner suggests the use of additional tools or materials."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        13.7025,
+        18.27
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher uses a digital caliper to measure a small red object",
+          "researcher adjusts the caliper's jaws to fit the object"
+        ],
+        "objects_visible": [
+          "digital caliper with a display reading",
+          "small red object being measured",
+          "gloved hand holding the caliper"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "0.00 mm (display reading on the caliper)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise measurement of a small red object using a digital caliper. The gloved hand ensures a sterile environment, and the caliper's digital display is prominently shown. The red object is carefully positioned between the caliper's jaws for accurate measurement."
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "video_id": "videos/level_3/55964_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 445.504,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        111.376
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person wearing gloves places a blue sponge into a petri dish containing a clear liquid.",
+          "The person then adds a small, clear plastic bag containing a yellow object into the petri dish."
+        ],
+        "objects_visible": [
+          "A petri dish with a clear liquid and a blue sponge.",
+          "A small, clear plastic bag containing a yellow object.",
+          "Gloved hands performing the actions."
+        ],
+        "visible_text_labels": [
+          "Basic Methods for the Study of Reproductive Ecology of Fish in Aquaria",
+          "Kazuya Fukuda and Tomoki Sunobe",
+          "Laboratory of Fish Behavioral Ecology, Tateyama Station, Field Science Center, Tokyo University of Marine Science and Technology",
+          "II. Preparing to Implant VIE Tags"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of an experiment involving fish reproductive ecology. The use of a petri dish with a sponge and a yellow object in a plastic bag suggests a setup for handling or tagging fish. The text labels provide context about the researchers and their affiliation."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        111.376,
+        222.752
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher pours a clear liquid from a labeled bottle into a transparent container.",
+          "The researcher uses a syringe to inject a small amount of liquid into the container."
+        ],
+        "objects_visible": [
+          "A transparent plastic container with a label that reads 'Anesthesia'.",
+          "A syringe with a yellow plunger and a needle.",
+          "A bottle with a label that is partially visible, suggesting it contains an anesthetic solution."
+        ],
+        "visible_text_labels": [
+          "Anesthesia",
+          "Maintain water temperature and anesthetic concentration can vary with species"
+        ],
+        "quantities": [
+          "The syringe appears to contain approximately 1 mL of liquid."
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation of an anesthetic solution for a fish experiment, highlighting the careful handling of the liquid and the use of a syringe for precise dosing. The text overlay emphasizes the importance of maintaining specific conditions for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        222.752,
+        334.12800000000004
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate a small object in a petri dish",
+          "researcher looks through a microscope, adjusting the focus and stage",
+          "researcher holds a syringe with a needle, injecting a liquid into a container"
+        ],
+        "objects_visible": [
+          "petri dish with a clear, gel-like substance",
+          "forceps with a metallic, shiny surface",
+          "microscope with multiple lenses and adjustment knobs",
+          "syringe with a clear barrel and a needle",
+          "transparent container with a label"
+        ],
+        "visible_text_labels": [
+          "Recovery"
+        ],
+        "quantities": [
+          "5 mL (as indicated on the syringe)"
+        ],
+        "key_distinguishing_features": "This segment focuses on precise manipulation and observation, with the use of forceps and a microscope indicating detailed work. The presence of a labeled 'Recovery' container suggests a specific phase in the experiment. The syringe with a 5 mL marking highlights the controlled addition of a liquid."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        334.12800000000004,
+        445.504
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "A researcher observes a fish in a transparent container with a grid overlay.",
+          "The researcher points to specific data points on a graph showing clutch size versus female size."
+        ],
+        "objects_visible": [
+          "A transparent container with a fish inside, placed on a grid background.",
+          "A graph with a red trend line and data points, labeled 'Clutch size' and 'Female size (mm)'.",
+          "A table with detailed collection data including dates, depths, and survival rates."
+        ],
+        "visible_text_labels": [
+          "Clutch size",
+          "Female size (mm)",
+          "Collection day",
+          "Collection depth",
+          "Collection method",
+          "Number of collected individuals",
+          "Stay duration",
+          "Transport day",
+          "Number of dead individuals",
+          "Survival rate",
+          "V. Conclusion"
+        ],
+        "quantities": [
+          "21 m, 19 m, 21 m (collection depths)",
+          "43, 15, 96 (number of collected individuals)",
+          "93%, 99%, 95% (survival rates)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of a fish in a controlled environment and the analysis of data related to clutch size and female size. The graph and table provide detailed quantitative information, emphasizing the importance of data collection and analysis in the study. The visual elements highlight the relationship between biological measurements and experimental outcomes."
+      }
+    }
+  ]
+}

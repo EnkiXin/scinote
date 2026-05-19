@@ -1,0 +1,175 @@
+{
+  "video_id": "64514",
+  "benchmark": "scivideobench",
+  "duration_seconds": 515.946667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        128.98666675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'ACT051-2: 2-bromo-5-tosyl-5H-pyrrolo[2,3-b]pyrazine' with a blue cap",
+          "researcher pours a white powdery substance from a small white container into a conical flask containing a clear liquid",
+          "researcher places a blue balloon over the opening of a flask containing a brown liquid"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap",
+          "small white container with white powdery substance",
+          "conical flask with clear liquid",
+          "flask with brown liquid",
+          "blue balloon",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "ACT051-2: 2-bromo-5-tosyl-5H-pyrrolo[2,3-b]pyrazine",
+          "ACT051-3: Tert-butyl (5-toluenesulfonyl-5H-pyrrole [2,3-b] pyrazine-2-yl) carbamate"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "small white container (quantity of powder not specified)"
+        ],
+        "key_distinguishing_features": "This segment is distinctive for the precise handling of labeled microtubes and the addition of a white powdery substance to a liquid in a conical flask. The use of a blue balloon over a flask containing a brown liquid is a unique visual element in this segment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        128.98666675,
+        257.9733335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A researcher wearing blue gloves pours a clear liquid from a 1-liter glass beaker into a round-bottom flask containing a brownish solution.",
+          "The flask is connected to a condenser and is partially submerged in a water bath within a white container.",
+          "The researcher adjusts the position of the flask and condenser setup."
+        ],
+        "objects_visible": [
+          "A round-bottom flask with a brownish solution inside.",
+          "A condenser connected to the flask.",
+          "A white container serving as a water bath.",
+          "A 1-liter glass beaker with a clear liquid.",
+          "A researcher wearing a white lab coat and blue gloves."
+        ],
+        "visible_text_labels": [
+          "Pilot Scale-Up Synthesis of Compounds ACT051-2 and ACT051-3"
+        ],
+        "quantities": [
+          "1-liter glass beaker"
+        ],
+        "key_distinguishing_features": "This segment focuses on the transfer of a clear liquid into a round-bottom flask containing a brownish solution, highlighting the setup for a chemical synthesis process. The condenser and water bath indicate a controlled environment for the reaction. The text label specifies the compounds being synthesized, ACT051-2 and ACT051-3."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        257.9733335,
+        386.96000025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher holds a 1.5mL microtube labeled 'ACT051-1' with a blue cap.",
+          "Pipettes approximately 200uL of a clear liquid from the microtube into a reaction vessel."
+        ],
+        "objects_visible": [
+          "A 1.5mL microtube with a blue cap labeled 'ACT051-1'.",
+          "A pipette with a blue tip.",
+          "A reaction vessel containing a clear liquid.",
+          "A digital display showing a temperature reading of 25\u00b0C."
+        ],
+        "visible_text_labels": [
+          "ACT051-1",
+          "DMF, DIPEA",
+          "Tsc, rt",
+          "ACT051-2",
+          "Xantphos, Pd(OAc)2, K2CO3, DMF",
+          "ACT051-3"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "200uL of liquid",
+          "25\u00b0C temperature reading"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube labeled 'ACT051-1' and the transfer of a specific volume of liquid into a reaction vessel. The digital display indicating a temperature of 25\u00b0C suggests controlled experimental conditions. The visible chemical structures and reaction steps highlight the synthesis process being carried out."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        386.96000025,
+        515.946667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "Displays a table with experimental conditions and results for different reaction setups.",
+          "Highlights specific rows in the table to emphasize variations in reaction parameters and outcomes."
+        ],
+        "objects_visible": [
+          "A table with columns labeled 'Number', 'Dosage of Pd(OAc)2', 'Reaction solvent', 'V/V', 'Reaction time / h', and 'Product peak area / %'.",
+          "Highlighted rows in blue, green, and yellow to differentiate between experimental conditions."
+        ],
+        "visible_text_labels": [
+          "Dosage of Pd(OAc)2: 0.60% wt, 0.60% wt, 0.60% wt, 0.50% wt",
+          "Reaction solvent: tert amyl alcohol / 1,4-dioxane, tert amyl alcohol / 1,4-dioxane, tert amyl alcohol / Toluene, tert amyl alcohol / Toluene",
+          "V/V: 1/4, 2/3, 2/3, 2/3",
+          "Reaction time / h: 3.5, 3.5, 3, 2.25",
+          "Product peak area / %: 84.22, 83.34, 88.52, 87.11"
+        ],
+        "quantities": [
+          "0.60% wt, 0.50% wt (dosage of Pd(OAc)2)",
+          "1/4, 2/3 (volume ratios)",
+          "3.5 h, 3 h, 2.25 h (reaction times)",
+          "84.22%, 83.34%, 88.52%, 87.11% (product peak areas)"
+        ],
+        "key_distinguishing_features": "This segment focuses on a detailed comparison of reaction conditions, particularly the dosage of Pd(OAc)2, solvent type, volume ratios, and their impact on reaction time and product yield. The use of color highlights to differentiate experimental setups aids in visual analysis."
+      }
+    }
+  ]
+}

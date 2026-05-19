@@ -1,0 +1,180 @@
+{
+  "video_id": "videos/level_2/video_segments/57131/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 60.084,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        15.021
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher holds a petri dish with a transparent agar medium and a central black spot",
+          "researcher places the petri dish on a lightbox for better visualization"
+        ],
+        "objects_visible": [
+          "petri dish with a white, web-like growth pattern surrounding a central black spot",
+          "lightbox with a grid pattern for scale reference",
+          "researcher wearing a white lab coat"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The petri dish contains a distinct growth pattern with a central black spot, suggesting a specific experimental setup. The lightbox provides a clear view of the growth, emphasizing the observation phase. The researcher's attire indicates a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        15.021,
+        30.042
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "clicks on the 'Image' menu in the software interface",
+          "selects 'Adjust' from the dropdown menu"
+        ],
+        "objects_visible": [
+          "computer screen displaying a scientific image analysis software",
+          "black and white circular image resembling a retinal or vascular network",
+          "menu options including 'Type', 'Adjust', 'Properties', 'Color', 'Stacks', 'Hyperstacks', 'Crop', 'Duplicate', 'Resize', 'Rename', 'Scale', 'Transform', 'Zoom', 'Overlay', 'Lookup Tables', 'Annotate', 'Drawing', 'Video Editing', 'Axes', 'Convert', 'Convolve', 'Threshold'"
+        ],
+        "visible_text_labels": [
+          "Image",
+          "Process",
+          "Analyze",
+          "Plugins",
+          "Window",
+          "Help",
+          "Adjust",
+          "Brightness/Contrast...",
+          "Window/Level...",
+          "Color Balance...",
+          "Auto Local Threshold",
+          "Auto Threshold",
+          "Equalize",
+          "Histogram",
+          "Invert LUT",
+          "Make Binary",
+          "Threshold..."
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the use of image analysis software, specifically navigating the 'Image' menu to adjust settings. The circular image displayed appears to be a detailed vascular or retinal network, suggesting a focus on biological imaging. The user's interaction with the software indicates a step in processing or analyzing the image data."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        30.042,
+        45.063
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "clicks on 'Analyze' menu and selects 'Set Measurements'",
+          "clicks on 'Analyze Particles' option"
+        ],
+        "objects_visible": [
+          "black and white circular image resembling a biological structure",
+          "threshold adjustment window",
+          "image analysis software interface"
+        ],
+        "visible_text_labels": [
+          "Analyze",
+          "Set Measurements",
+          "Analyze Particles",
+          "Threshold",
+          "Default",
+          "Dark background",
+          "Auto",
+          "Apply"
+        ],
+        "quantities": [
+          "2.40x2.40 inches (1392x1392)",
+          "8-bit"
+        ],
+        "key_distinguishing_features": "This segment shows the user interacting with an image analysis software, specifically setting parameters for particle analysis. The black and white image appears to be a biological specimen, possibly a neuron or a similar structure, with intricate branching patterns. The threshold adjustment window indicates the user is fine-tuning the image for analysis."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        45.063,
+        60.084
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "clicks on 'Set Measurements' dialog box",
+          "selects options for area, mean gray value, and integrated density"
+        ],
+        "objects_visible": [
+          "black and white image of a neuron-like structure",
+          "ImageJ software interface",
+          "measurement dialog box with various options"
+        ],
+        "visible_text_labels": [
+          "Set Measurements",
+          "Area",
+          "Mean gray value",
+          "Integrated density",
+          "130188",
+          "255",
+          "255"
+        ],
+        "quantities": [
+          "130188 (area measurement)",
+          "255 (mean gray value)",
+          "255 (integrated density)"
+        ],
+        "key_distinguishing_features": "This segment focuses on quantifying the neuron-like structure using ImageJ software. The user interacts with the 'Set Measurements' dialog to select specific parameters for analysis. The displayed values suggest the software is calculating the area, mean gray value, and integrated density of the selected region."
+      }
+    }
+  ]
+}

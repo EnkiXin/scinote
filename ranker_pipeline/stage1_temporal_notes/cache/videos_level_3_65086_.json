@@ -1,0 +1,173 @@
+{
+  "video_id": "videos/level_3/65086_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 408.405333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        102.10133325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A person wearing blue gloves holds a pipette and dispenses liquid into a multi-well plate.",
+          "The person carefully places the pipette tip into a test tube and withdraws a measured volume of liquid."
+        ],
+        "objects_visible": [
+          "A multi-well plate with blue caps on some wells.",
+          "A pipette with a green handle and a white tip.",
+          "A blue test tube rack holding several test tubes.",
+          "A black surface on which the multi-well plate is placed."
+        ],
+        "visible_text_labels": [
+          "Preparation of Spheroids and Spheroid Culture in Bioreactor",
+          "JOVE"
+        ],
+        "quantities": [
+          "The pipette appears to be set to a specific volume, though the exact measurement is not visible."
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of laboratory equipment, specifically the use of a pipette to transfer liquids into a multi-well plate. The presence of blue-capped wells and a test tube rack suggests a controlled and organized experimental setup. The text overlay indicates the video is about spheroid culture in a bioreactor."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        102.10133325,
+        204.2026665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher carefully removes a 1.5mL microtube labeled 'DMEM' with a blue cap from a blue tube rack",
+          "pipettes approximately 200uL of a clear liquid from the microtube into a petri dish containing spheroids",
+          "researcher uses a pipette to gently mix the liquid in the petri dish, ensuring even distribution without disturbing the spheroids"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'DMEM' with a blue cap",
+          "blue tube rack holding multiple microtubes",
+          "petri dish containing spheroids",
+          "pipette with a white tip",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Avoid removing any spheroids during this exchange"
+        ],
+        "quantities": [
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube and the careful addition of a liquid to a petri dish containing spheroids. The emphasis is on avoiding the removal of spheroids during the liquid exchange. The researcher's actions are deliberate and controlled to ensure the integrity of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        204.2026665,
+        306.30399975
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes approximately 200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "pink-colored DMEM medium",
+          "petri dish",
+          "pipette with a white tip",
+          "orange and blue test tube racks",
+          "computer monitor displaying a software interface"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "See text for details regarding sample cleanup and protein extraction"
+        ],
+        "quantities": [
+          "1.5mL",
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a DMEM medium sample, emphasizing the use of a labeled microtube and the specific volume of liquid transferred. The presence of a computer screen with a software interface suggests data recording or analysis is part of the process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        306.30399975,
+        408.405333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher interacts with a computer displaying proteome analysis data.",
+          "Researcher points to specific data points on a bar graph and a scatter plot."
+        ],
+        "objects_visible": [
+          "Computer screen showing a bar graph titled 'Adenylate kinase (AK)' with data points for THLE-3 flat cells, HepG2/C3A flat cells, THLE-3 spheroids, and HepG2/C3A spheroids.",
+          "Computer screen displaying two scatter plots labeled 'Metallothionein 1E (MT1E)' and 'Metallothionein 1X (MT1X)' with relative abundance data for different cell types."
+        ],
+        "visible_text_labels": [
+          "Adenylate kinase (AK)",
+          "Metallothionein 1E (MT1E)",
+          "Metallothionein 1X (MT1X)",
+          "THLE-3 flat cells",
+          "HepG2/C3A flat cells",
+          "THLE-3 spheroids",
+          "HepG2/C3A spheroids",
+          "Spheroids (days in culture)",
+          "Component 1 (68.3%)",
+          "Component 2 (26.1%)"
+        ],
+        "quantities": [
+          "68.3% for Component 1",
+          "26.1% for Component 2",
+          "Relative abundance values ranging from 0 to 2 on the scatter plots"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation and analysis of proteome data from liver spheroids, highlighting specific protein expressions like Adenylate kinase and Metallothionein. The researcher's interaction with the data emphasizes the differences between flat cells and spheroids over time."
+      }
+    }
+  ]
+}

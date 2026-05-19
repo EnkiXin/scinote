@@ -1,0 +1,140 @@
+{
+  "video_id": "videos/level_2/video_verification/52601/clip_7_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 3.336667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        0.83416675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand pours a white, viscous liquid from a small white funnel into a clear glass beaker containing two white plastic cups."
+        ],
+        "objects_visible": [
+          "A clear glass beaker with two white plastic cups inside, a white funnel, a white viscous liquid, and gloved hands."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The liquid appears to be poured in a continuous stream, but no specific volume is indicated."
+        ],
+        "key_distinguishing_features": "The segment shows a precise pouring action with a white viscous liquid, emphasizing the careful handling of materials. The presence of the 'jove' logo suggests this is part of a scientific demonstration. The setup with the beaker and cups indicates a controlled experiment environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        0.83416675,
+        1.6683335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand pours a white, viscous liquid from a small white funnel into a glass beaker containing two white funnels."
+        ],
+        "objects_visible": [
+          "A clear glass beaker with two white funnels inside, a white viscous liquid being poured, and gloved hands holding the beaker and funnel."
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "The liquid appears to be poured in a continuous stream, but no specific volume is indicated."
+        ],
+        "key_distinguishing_features": "The segment shows a close-up of a liquid transfer process, emphasizing the use of funnels to direct the flow. The white liquid's viscosity is notable, as it flows slowly and steadily. The gloved hands indicate a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        1.6683335,
+        2.5025002499999998
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand pours a white, viscous liquid into a petri dish containing two small, white, cylindrical molds."
+        ],
+        "objects_visible": [
+          "A clear petri dish with two white cylindrical molds inside",
+          "A gloved hand holding the petri dish",
+          "A white, viscous liquid being poured into the petri dish"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise pouring action of a white, viscous liquid into specific molds within a petri dish, highlighting a controlled laboratory procedure. The presence of the 'jove' logo suggests this is part of a scientific demonstration video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        2.5025002499999998,
+        3.336667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "A gloved hand pours a clear, viscous liquid into a petri dish containing two small, white, conical tubes."
+        ],
+        "objects_visible": [
+          "A clear petri dish with two white conical tubes inside",
+          "A gloved hand holding the petri dish",
+          "A clear, viscous liquid being poured into the petri dish"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a precise pouring action of a clear, viscous liquid into a petri dish with two conical tubes, emphasizing the careful handling of materials. The presence of the 'jove' logo indicates the video is likely part of a scientific demonstration or tutorial."
+      }
+    }
+  ]
+}

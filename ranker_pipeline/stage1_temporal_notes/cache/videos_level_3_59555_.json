@@ -1,0 +1,166 @@
+{
+  "video_id": "videos/level_3/59555_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 453.418667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        113.35466675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Researcher holds a 96-well plate with a blue lid and carefully places it on the lab bench.",
+          "Researcher uses a pipette to transfer a clear liquid from a test tube into a well of the 96-well plate."
+        ],
+        "objects_visible": [
+          "96-well plate with a blue lid",
+          "test tube containing a clear liquid",
+          "pipette with a blue plunger",
+          "lab bench with a white surface"
+        ],
+        "visible_text_labels": [
+          "Yuri Ota, AIST"
+        ],
+        "quantities": [
+          "96 wells in the plate"
+        ],
+        "key_distinguishing_features": "This segment focuses on the preparation phase of an experiment, specifically the handling of a 96-well plate. The researcher's actions are precise, indicating a controlled and methodical approach. The presence of the text label 'Yuri Ota, AIST' suggests the researcher's affiliation and identity."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        113.35466675,
+        226.7093335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a small container",
+          "researcher places a small container into a blue test tube rack",
+          "researcher operates a centrifuge by pressing buttons on its digital interface"
+        ],
+        "objects_visible": [
+          "pipette with a blue plunger and a transparent tip",
+          "small clear container with a white cap",
+          "blue test tube rack with multiple slots",
+          "centrifuge with a digital display and various buttons",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "1.104 (on the centrifuge display)",
+          "jove (logo in the top right corner)"
+        ],
+        "quantities": [
+          "1.104 (reading on the centrifuge display)"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of laboratory equipment, particularly the use of a pipette and a centrifuge. The researcher's actions are methodical, emphasizing the importance of accuracy in the experiment. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        226.7093335,
+        340.06400025000005
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a transparent glass slide with a circular depression on a dark surface",
+          "researcher holds a stopwatch and starts timing"
+        ],
+        "objects_visible": [
+          "transparent glass slide with a circular depression",
+          "blue-gloved hands",
+          "stopwatch with a digital display showing 0:00",
+          "blue ice bucket containing tubes"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "0:00 stopwatch reading"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise setup of a glass slide for microscopic observation, with a clear emphasis on timing as indicated by the use of a stopwatch. The presence of a blue ice bucket suggests the need to maintain a specific temperature for the samples."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        340.06400025000005,
+        453.418667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Researcher observes a microscopic image on a computer screen showing vesicles and bacterial cells.",
+          "Researcher adjusts the microscope, likely to focus on specific areas of the sample."
+        ],
+        "objects_visible": [
+          "Microscope with a blue protective cover on the eyepiece area.",
+          "Computer screen displaying a microscopic image with a scale bar indicating 10 \u03bcm.",
+          "Bar graph showing the relative frequency of GV (genomic vesicles) based on the number of bacterial cells per GV.",
+          "Researcher wearing a white lab coat and a face mask."
+        ],
+        "visible_text_labels": [
+          "Vesicle size: 10.7 \u03bcm",
+          "Vesicle size: 28 \u03bcm",
+          "360 min",
+          "Relative frequency of GV (%)",
+          "Number of bacterial cells per GV"
+        ],
+        "quantities": [
+          "10.7 \u03bcm",
+          "28 \u03bcm",
+          "360 min",
+          "10 \u03bcm scale bar"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation of vesicles and bacterial cells under a microscope, with detailed measurements and a bar graph indicating the relative frequency of genomic vesicles. The researcher's interaction with the microscope and the computer screen highlights the analytical aspect of the experiment."
+      }
+    }
+  ]
+}

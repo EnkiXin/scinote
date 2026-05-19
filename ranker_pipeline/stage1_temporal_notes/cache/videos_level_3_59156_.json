@@ -1,0 +1,171 @@
+{
+  "video_id": "videos/level_3/59156_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 453.141333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        113.28533325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A researcher holds a pipette and carefully dispenses a small volume of liquid into a petri dish.",
+          "The researcher uses a microtube labeled 'DMEM' with a blue cap to transfer a pink-colored medium."
+        ],
+        "objects_visible": [
+          "A 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "A petri dish containing a clear medium",
+          "A pipette with a black handle and a transparent tip",
+          "A metal tray with multiple compartments"
+        ],
+        "visible_text_labels": [
+          "Wiebke M\u00f6bius",
+          "Max Planck Institute of Experimental Medicine",
+          "All experiments including samples from animals described here have been approved by the Institutional Animal Care and the Lower Saxony State Office for Customer Protection and Food Safety (LAVES)."
+        ],
+        "quantities": [
+          "200uL of pink-colored DMEM medium"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise preparation of a petri dish with a specific medium, emphasizing the controlled environment and the use of labeled microtubes. The text on the screen provides important ethical and institutional context for the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        113.28533325,
+        226.5706665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Researcher places a 1.5mL microtube labeled 'FALCON' with a blue cap into a centrifuge.",
+          "Researcher operates a Leica Microsystems cryostat, setting the temperature to -20\u00b0C and initiating a processing program.",
+          "Researcher uses a pipette to transfer a clear liquid from a test tube into a petri dish containing a small object."
+        ],
+        "objects_visible": [
+          "Leica Microsystems cryostat with a digital display showing temperature and program settings.",
+          "Centrifuge with a rotor containing multiple slots for tubes.",
+          "1.5mL microtube labeled 'FALCON' with a blue cap.",
+          "Petri dish with a small object inside.",
+          "Pipette with a clear liquid."
+        ],
+        "visible_text_labels": [
+          "Leica Microsystems",
+          "-20\u00b0C processing",
+          "FALCON",
+          "Perform all of the following steps at room temperature"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "-20\u00b0C temperature setting"
+        ],
+        "key_distinguishing_features": "This segment highlights the use of specialized laboratory equipment, including a cryostat and a centrifuge, for precise sample processing. The researcher's actions are methodical, emphasizing the importance of temperature control and careful liquid transfer. The visible text provides specific instructions for maintaining room temperature during subsequent steps."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        226.5706665,
+        339.85599974999997
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer a small volume of liquid into a petri dish",
+          "researcher places a small object, possibly a specimen, into the petri dish using a wooden stick",
+          "researcher operates a sputter coater, adjusting settings on the digital display"
+        ],
+        "objects_visible": [
+          "petri dish with a clear, transparent surface",
+          "pipette with a yellow body and a fine tip",
+          "wooden stick used for manipulating small objects",
+          "sputter coater with a digital display and control buttons",
+          "specimen in the petri dish, possibly a small organism or sample"
+        ],
+        "visible_text_labels": [
+          "Gold",
+          "Checking quartz",
+          "Temperature: 24\u00b0C",
+          "Time elapsed: 00:02",
+          "Thickness: 5.00"
+        ],
+        "quantities": [
+          "5.00 (thickness reading on the sputter coater display)",
+          "24\u00b0C (temperature reading on the sputter coater display)"
+        ],
+        "key_distinguishing_features": "This segment highlights the precise handling of a specimen in a petri dish and the use of a sputter coater, indicating a step in sample preparation for imaging or analysis. The digital display on the sputter coater provides specific readings, emphasizing the controlled environment required for the experiment. The use of a wooden stick for manipulating the specimen suggests a delicate and precise operation."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        339.85599974999997,
+        453.141333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope displays high-contrast images of cellular structures",
+          "3D model of cellular components is shown with highlighted regions"
+        ],
+        "objects_visible": [
+          "microscope-generated black and white images of cellular structures",
+          "3D model of cellular components with color-coded regions",
+          "a woman speaking in front of a bookshelf"
+        ],
+        "visible_text_labels": [
+          "VII. Results: Enhanced Membrane Contrast and High-quality Volume Data",
+          "JOVE"
+        ],
+        "quantities": [
+          "scale bar indicating 1 micron in the microscope image"
+        ],
+        "key_distinguishing_features": "This segment focuses on the visual analysis of cellular structures, showcasing enhanced membrane contrast and high-quality volume data. The transition from 2D images to a 3D model highlights the detailed observation of cellular components. The presence of a speaker in a laboratory setting adds an explanatory context to the visual data."
+      }
+    }
+  ]
+}

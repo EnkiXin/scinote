@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_2/video_segments/1942/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 29.344,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        7.336
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher unwraps aluminum foil covering a tissue sample",
+          "researcher uses forceps to manipulate the tissue sample"
+        ],
+        "objects_visible": [
+          "aluminum foil covering a tissue sample",
+          "petri dish with a clear lid",
+          "researcher's gloved hands",
+          "forceps with pink tips",
+          "a bottle labeled '500 mL' with a white cap"
+        ],
+        "visible_text_labels": [
+          "500 mL",
+          "jove",
+          "IV. Dissection and Culturing Cells from Lung Metastases"
+        ],
+        "quantities": [
+          "500 mL"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher carefully unwrapping a tissue sample from aluminum foil, indicating the preparation phase of a dissection. The use of forceps with pink tips and the presence of a labeled bottle suggest a controlled laboratory environment. The text overlay provides context for the experiment involving lung metastases."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        7.336,
+        14.672
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher injects a mouse with a syringe containing a pink liquid",
+          "researcher holds the mouse steady with gloved hands"
+        ],
+        "objects_visible": [
+          "mouse lying on aluminum foil",
+          "syringe with pink liquid",
+          "petri dish with a clear liquid",
+          "beaker labeled '500 mL'",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "500 mL"
+        ],
+        "quantities": [
+          "500 mL (beaker capacity)"
+        ],
+        "key_distinguishing_features": "The segment shows a precise injection procedure on a mouse, highlighting the use of a pink liquid in a syringe. The mouse is carefully restrained on aluminum foil, and the researcher's hands are gloved for safety. The background includes laboratory equipment, emphasizing a controlled experimental environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        14.672,
+        22.008000000000003
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses surgical scissors to carefully cut through tissue",
+          "researcher manipulates the tissue with forceps to expose internal structures"
+        ],
+        "objects_visible": [
+          "small animal (likely a mouse) with its abdomen exposed",
+          "surgical scissors with metallic blades",
+          "forceps with metallic tips",
+          "blue-gloved hands performing the procedure",
+          "animal secured on a reflective surface with purple-tipped pins"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "four purple-tipped pins securing the animal"
+        ],
+        "key_distinguishing_features": "The segment shows a precise surgical procedure being performed on a small animal, with the researcher's hands using specialized tools to carefully manipulate and expose internal tissues. The reflective surface and the use of pins to secure the animal are distinctive features of this setup."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        22.008000000000003,
+        29.344
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate small red tissue samples",
+          "researcher places tissue samples into a petri dish"
+        ],
+        "objects_visible": [
+          "petri dish with clear glass bottom",
+          "forceps with metallic tips",
+          "small red tissue samples",
+          "blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "3-4 small red tissue samples"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of tissue samples using forceps, highlighting the careful placement into a petri dish. The use of blue nitrile gloves emphasizes the sterile environment. The red color of the tissue samples stands out against the clear petri dish."
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "video_id": "videos/level_2/video_verification/57329/clip_5_removed_step_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.067,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.51675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "microscope view of cells under magnification"
+        ],
+        "objects_visible": [
+          "cells with visible nuclei and cytoplasmic structures",
+          "microscope slide"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a detailed microscopic view of cells, highlighting their internal structures. The cells appear to be in a fixed or stained state, allowing for clear observation of their nuclei and cytoplasm. The JOVE logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.51675,
+        17.0335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid from a labeled tube into a multi-well plate"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'formaldehyde 37%'",
+          "pipette with a white tip",
+          "multi-well plate with clear wells",
+          "orange cap of the microtube",
+          "white foam block holding the microtube"
+        ],
+        "visible_text_labels": [
+          "formaldehyde 37%"
+        ],
+        "quantities": [
+          "37% concentration of formaldehyde"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a formaldehyde solution, emphasizing the use of a labeled microtube and a multi-well plate. The orange cap and white foam block add distinctive visual elements to the setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.0335,
+        25.55025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled '60% isopropanol' with a red cap",
+          "researcher uses a pipette to transfer liquid from the microtube into a multi-well plate"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a red cap",
+          "multi-well plate with clear wells",
+          "pipette with a yellow tip",
+          "foam block holding the microtube"
+        ],
+        "visible_text_labels": [
+          "60% isopropanol",
+          "CORNING CentriStar",
+          "STARLADY III Advance"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a liquid from a labeled microtube into a multi-well plate, emphasizing the use of a pipette for accurate measurement. The foam block holding the microtube ensures stability during the process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.55025,
+        34.067
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a well of a multi-well plate",
+          "researcher carefully places the pipette tip into a test tube labeled 'Virus'"
+        ],
+        "objects_visible": [
+          "1.5mL microtube labeled 'Virus' with an orange cap",
+          "multi-well plate with clear wells",
+          "pipette with a blue plunger and white tip",
+          "test tube rack with multiple slots",
+          "bottles with labels and caps in the background"
+        ],
+        "visible_text_labels": [
+          "Virus"
+        ],
+        "quantities": [
+          "volume of liquid being pipetted is not specified but appears to be a small amount"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of transferring liquid from a labeled test tube into a multi-well plate, highlighting the careful handling of samples. The presence of the 'Virus' label on the test tube suggests the handling of potentially infectious material."
+      }
+    }
+  ]
+}

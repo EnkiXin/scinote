@@ -1,0 +1,164 @@
+{
+  "video_id": "videos/level_2/video_segments/59119/clip_8.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 46.891,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.72275
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses tweezers to carefully transfer small green plant samples from one petri dish to another",
+          "researcher places the petri dish containing the plant samples on a white lab bench"
+        ],
+        "objects_visible": [
+          "petri dishes with clear lids containing small green plant samples",
+          "tweezers held by the researcher's gloved hand",
+          "blue gloves worn by the researcher",
+          "white lab coat worn by the researcher",
+          "various laboratory equipment and supplies on shelves in the background"
+        ],
+        "visible_text_labels": [
+          "JOVE logo in the top right corner of the screen"
+        ],
+        "quantities": [
+          "multiple small green plant samples being transferred"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of plant samples using tweezers, emphasizing the care taken in the transfer process. The background is a well-equipped laboratory, indicating a controlled environment for the experiment. The researcher's attire and gloves highlight the importance of maintaining sterility."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.72275,
+        23.4455
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube with a blue cap and green labeling",
+          "researcher uses a pipette to transfer a greenish-yellow liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap and green labeling",
+          "pipette with a black handle",
+          "petri dish containing a greenish-yellow liquid",
+          "white foam block with multiple holes for holding tubes"
+        ],
+        "visible_text_labels": [
+          "1.5mL"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of a liquid sample using a pipette, highlighting the careful handling of the microtube and the petri dish. The greenish-yellow color of the liquid is distinctive, suggesting it may be a biological or chemical sample. The foam block serves as a stable holder for the microtube during the process."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.4455,
+        35.16825
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a knob on a vacuum pump labeled 'VAC' with a green light illuminated",
+          "researcher opens a stainless steel oven with a digital display showing '037' and '139', and places a covered petri dish inside"
+        ],
+        "objects_visible": [
+          "black vacuum pump with a pressure gauge and yellow tubing",
+          "stainless steel oven with a digital display and a brand name 'memmert'",
+          "covered petri dish with a transparent lid",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "VAC",
+          "memmert",
+          "037",
+          "139"
+        ],
+        "quantities": [
+          "037 (possibly temperature in \u00b0C)",
+          "139 (possibly time in minutes)"
+        ],
+        "key_distinguishing_features": "This segment highlights the use of a vacuum pump and an oven, indicating a step involving controlled environmental conditions. The digital display on the oven provides specific numerical values, suggesting precise control over the experiment. The researcher's actions are deliberate and focused on setting up the equipment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.16825,
+        46.891
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "pipettes ~200uL of pink-colored DMEM medium into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'DMEM'",
+          "petri dish containing a small amount of pink liquid",
+          "pipette with a blue plunger",
+          "test tube rack holding several clear tubes",
+          "bottle labeled 'Ethanol' with a blue cap"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "Ethanol"
+        ],
+        "quantities": [
+          "1.5mL",
+          "~200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube and the accurate pipetting of a specific volume of DMEM medium. The presence of the labeled 'Ethanol' bottle suggests a sterile environment, emphasizing the importance of contamination prevention in the experiment."
+      }
+    }
+  ]
+}

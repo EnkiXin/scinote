@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_2/video_segments/64314/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 39.402,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.8505
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses black forceps to manipulate a small object on a white surface",
+          "mouse is placed inside a transparent chamber with a white base"
+        ],
+        "objects_visible": [
+          "black forceps",
+          "white mouse with pink ears and tail",
+          "transparent chamber with orange sealing tape",
+          "white base inside the chamber",
+          "blue gloves on the researcher's hands",
+          "blue and white lab coat"
+        ],
+        "visible_text_labels": [
+          "Deliver 21% O\u2082 at 0.5 L/min per liter of chamber volume"
+        ],
+        "quantities": [
+          "21% O\u2082",
+          "0.5 L/min per liter of chamber volume"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of manipulating a small object with forceps, followed by placing a mouse in a controlled environment. The text overlay provides specific instructions for oxygen delivery, emphasizing the controlled experimental conditions."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.8505,
+        19.701
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgical instruments are used to manipulate internal tissues of an animal"
+        ],
+        "objects_visible": [
+          "surgical scissors with metallic, curved blades",
+          "forceps with fine, pointed tips",
+          "animal with exposed internal organs"
+        ],
+        "visible_text_labels": [
+          "Tissue Collection and Processing for Histology"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment shows a close-up of surgical tools being used to handle the internal tissues of an animal, likely for tissue collection. The focus is on the precision of the instruments and the exposed anatomy. The text label indicates the purpose is for histology processing."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.701,
+        29.5515
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate internal organs of a dissected mouse",
+          "researcher uses scissors to carefully cut and separate tissue structures"
+        ],
+        "objects_visible": [
+          "dissected mouse with exposed internal organs",
+          "a pair of scissors with black handles",
+          "forceps held by gloved hands",
+          "small pieces of tissue and organs removed from the mouse"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "two gloved hands performing the dissection"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise dissection of a mouse, highlighting the use of surgical instruments to carefully manipulate and separate internal structures. The presence of the 'jove' logo suggests this is part of a scientific instructional video. The scene is well-lit, emphasizing the intricate details of the dissection process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        29.5515,
+        39.402
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses forceps to manipulate internal organs of a dissected mouse",
+          "researcher uses scissors to carefully cut and separate tissue structures"
+        ],
+        "objects_visible": [
+          "dissected mouse with exposed internal organs",
+          "forceps with metallic tips held in gloved hands",
+          "scissors with metallic blades and black handles",
+          "gloved hands performing the dissection",
+          "white surgical tray as the working surface"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "two gloved hands",
+          "one pair of scissors",
+          "one pair of forceps"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise dissection of a mouse, highlighting the use of surgical instruments to manipulate and separate internal structures. The hands are gloved, emphasizing a sterile environment, and the dissection is performed on a white surgical tray, providing a clear view of the procedure. The presence of the 'jove' logo suggests this is part of a scientific instructional video."
+      }
+    }
+  ]
+}

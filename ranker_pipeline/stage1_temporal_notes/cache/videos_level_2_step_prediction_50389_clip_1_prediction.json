@@ -1,0 +1,137 @@
+{
+  "video_id": "videos/level_2/step_prediction/50389/clip_1_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 33.929875,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.48246875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [],
+        "objects_visible": [],
+        "visible_text_labels": [
+          "Accelerated Type 1 Diabetes Induction in Mice by Adoptive Transfer of Diabetogenic CD4+ T Cells",
+          "Gregory Berry and Hanspeter Waldner",
+          "Department of Microbiology & Immunology, Pennsylvania State University"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment displays a title slide with no visible actions or objects, focusing solely on introducing the research topic and authors. The text is centered and clearly formatted for presentation purposes."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.48246875,
+        16.9649375
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "Illustration of a mouse with internal organs highlighted"
+        ],
+        "objects_visible": [
+          "Mouse illustration with internal organs such as the pancreas, liver, and heart"
+        ],
+        "visible_text_labels": [
+          "Accelerated Type 1 Diabetes Induction in Mice by Adoptive Transfer of Diabetogenic CD4+ T Cells",
+          "Gregory Berry and Hanspeter Waldner",
+          "Department of Microbiology & Immunology, Pennsylvania State University"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment features a detailed illustration of a mouse with its internal organs, emphasizing the pancreas. The text labels provide context for a scientific study on diabetes induction in mice. The illustration serves as a preparatory visual for the experimental content."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.9649375,
+        25.44740625
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Cell sorting process is depicted with a tube filling up with blue liquid"
+        ],
+        "objects_visible": [
+          "A test tube with a blue liquid filling up from the bottom",
+          "A sign labeled 'Cell Sorter' with specific cell markers"
+        ],
+        "visible_text_labels": [
+          "Cell Sorter",
+          "CD4+",
+          "TCR V\u03b24+",
+          "CD62L+"
+        ],
+        "quantities": [
+          "The tube is partially filled with blue liquid, indicating a volume of sorted cells"
+        ],
+        "key_distinguishing_features": "This segment visually represents the cell sorting process, highlighting the specific cell markers being sorted. The blue liquid in the tube signifies the collected sorted cells, emphasizing the execution phase of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.44740625,
+        33.929875
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "injects a mouse with a syringe containing blue liquid"
+        ],
+        "objects_visible": [
+          "white mouse with pink ears and tail",
+          "blue liquid-filled syringe"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "This segment shows a syringe filled with blue liquid being injected into a mouse, indicating a step in an experimental procedure. The mouse is depicted in a simple, cartoonish style, and the syringe is clearly shown as the tool for administration. The focus is on the action of injection, with no additional context or environment provided."
+      }
+    }
+  ]
+}

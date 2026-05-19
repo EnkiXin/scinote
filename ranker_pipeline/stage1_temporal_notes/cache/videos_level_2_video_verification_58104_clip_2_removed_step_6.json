@@ -1,0 +1,162 @@
+{
+  "video_id": "videos/level_2/video_verification/58104/clip_2_removed_step_6.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 53.851333,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        13.46283325
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "surgeon uses forceps to manipulate tissue",
+          "surgeon applies a substance with a brush"
+        ],
+        "objects_visible": [
+          "forceps with curved tips",
+          "brush with a black bristle head",
+          "surgical gloves (blue and white)",
+          "surgical drape covering the patient",
+          "surgical light illuminating the wound"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a close-up of a surgical procedure with precise tissue manipulation. The use of a brush to apply a substance is distinctive, suggesting a step in wound care or preparation. The lighting and gloves emphasize a sterile environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        13.46283325,
+        26.9256665
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Surgeon uses a scalpel to make precise incisions in the tissue.",
+          "Surgeon manipulates a surgical instrument to separate and expose deeper layers of tissue."
+        ],
+        "objects_visible": [
+          "A scalpel with a white handle and sharp blade.",
+          "A surgical instrument with a metallic, curved tip.",
+          "Exposed tissue with visible layers of muscle and fat.",
+          "Blue surgical drapes surrounding the surgical site."
+        ],
+        "visible_text_labels": [
+          "Harmonic"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a detailed surgical procedure with a focus on tissue dissection. The use of a scalpel and a specialized surgical instrument highlights the precision required. The exposed tissue layers and the sterile environment emphasize the complexity of the operation."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        26.9256665,
+        40.388499749999994
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "Surgeon's gloved hands manipulate surgical instruments within an open incision.",
+          "Metal retractor is used to hold the incision open, exposing internal tissues."
+        ],
+        "objects_visible": [
+          "Metal surgical retractor with curved ends",
+          "Gloved hands of a surgeon",
+          "Exposed internal tissues and organs within an incision",
+          "Blue surgical drape surrounding the incision site"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment distinctly shows the use of a metal retractor to maintain an open incision, allowing for clear access to internal tissues. The gloved hands of the surgeon are actively manipulating the instruments, emphasizing the precision required in the procedure."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        40.388499749999994,
+        53.851333
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "Surgeon manipulates surgical instruments within an open surgical site, likely performing a procedure on the trachea or a similar structure.",
+          "A close-up view of the surgical site reveals a circular incision with visible tissue layers and a central opening."
+        ],
+        "objects_visible": [
+          "Surgical instruments including forceps and a scalpel held by gloved hands.",
+          "A medical monitor displaying various parameters such as volume, MAC, MV, and other numerical data.",
+          "A surgical site with exposed tissue and a central opening, possibly the trachea."
+        ],
+        "visible_text_labels": [
+          "Volume",
+          "MAC",
+          "MV",
+          "PEAK",
+          "PEEP",
+          "FRESH GAS",
+          "Trigger",
+          "jove"
+        ],
+        "quantities": [
+          "Volume: 57, 53, 50",
+          "MAC: 2.0",
+          "MV: 1.6",
+          "PEAK: 28",
+          "PEEP: 4.4",
+          "FRESH GAS: 2.00"
+        ],
+        "key_distinguishing_features": "This segment focuses on a detailed surgical procedure, with a close-up of the surgical site and a medical monitor providing real-time data. The presence of the 'jove' logo suggests this is part of a scientific or educational video. The precise manipulation of instruments within the exposed tissue is a key feature of this segment."
+      }
+    }
+  ]
+}

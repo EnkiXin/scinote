@@ -1,0 +1,167 @@
+{
+  "video_id": "videos/level_2/video_segments/54171/clip_5.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.135,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.78375
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a test tube",
+          "researcher places the test tube back into a rack"
+        ],
+        "objects_visible": [
+          "pipette with a white tip",
+          "test tubes with orange caps in a clear rack",
+          "petri dishes with pink liquid",
+          "blue test tube rack",
+          "test tube labeled 'DMEM'"
+        ],
+        "visible_text_labels": [
+          "DMEM",
+          "jove"
+        ],
+        "quantities": [
+          "6 test tubes in the rack",
+          "multiple petri dishes"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of liquid transfer using a pipette into test tubes, with a focus on the DMEM-labeled tube. The petri dishes with pink liquid in the background suggest a cell culture setup. The orange caps on the test tubes are a distinctive feature."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.78375,
+        23.5675
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into petri dishes",
+          "holds a pipette with a volume setting"
+        ],
+        "objects_visible": [
+          "petri dishes with pink-colored medium",
+          "pipette with a black handle and white volume dial",
+          "gloved hands",
+          "yellow pipette tip rack"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "200 uL"
+        ],
+        "key_distinguishing_features": "The segment shows a close-up of a researcher's gloved hands using a pipette to transfer a precise volume of pink-colored medium into petri dishes. The focus is on the pipette's volume setting, indicating a controlled and accurate liquid transfer. The petri dishes are arranged in a clear plastic tray, suggesting a systematic experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.5675,
+        35.35125
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a labeled test tube into a petri dish",
+          "researcher carefully places the pipette tip into a test tube labeled 'T1' and withdraws a liquid sample"
+        ],
+        "objects_visible": [
+          "test tubes with orange caps labeled 'T1', 'T2', 'T3', and 'T4'",
+          "a petri dish with handwritten labels 'Row 1', 'A', 'B', 'C', and 'D'",
+          "a pipette with a black handle and a transparent tip",
+          "a clear plastic test tube rack"
+        ],
+        "visible_text_labels": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "Row 1",
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "quantities": [
+          "the pipette appears to be set for a specific volume, though the exact volume is not visible"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of liquid from labeled test tubes into a petri dish using a pipette. The handwritten labels on the petri dish suggest a systematic approach to sample placement. The orange caps on the test tubes provide a visual cue for easy identification."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.35125,
+        47.135
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes liquid into a 1.5 mL microtube labeled 'CORNING' with an orange cap"
+        ],
+        "objects_visible": [
+          "transparent 24-well plate with multiple wells",
+          "1.5 mL microtubes with orange caps labeled 'CORNING'",
+          "pipette with a fine tip"
+        ],
+        "visible_text_labels": [
+          "CORNING",
+          "1.5 mL",
+          "jove"
+        ],
+        "quantities": [
+          "1.5 mL"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of pipetting liquid into a specific microtube within a well-plate setup. The orange caps and 'CORNING' label on the tubes are distinctive features. The 'jove' watermark indicates the video's source."
+      }
+    }
+  ]
+}

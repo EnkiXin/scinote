@@ -1,0 +1,167 @@
+{
+  "video_id": "videos/level_2/video_segments/62432/clip_3.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 36.121,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.03025
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a graduated pipette filled with a clear liquid",
+          "researcher places the pipette tip into a bottle labeled 'RhB'"
+        ],
+        "objects_visible": [
+          "graduated pipette with clear liquid",
+          "two glass bottles with blue caps, one labeled 'RhB'",
+          "blue plastic caps on the table",
+          "researcher wearing a white lab coat and blue gloves"
+        ],
+        "visible_text_labels": [
+          "RhB: Rhodamine B",
+          "Preparation of 0.2% RhB-Sucrose Solution and Feeding of Male Mosquitoes"
+        ],
+        "quantities": [
+          "0.2% RhB-Sucrose Solution"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation phase, where a clear liquid is being measured and transferred using a graduated pipette. The RhB bottle is prominently labeled, indicating the specific substance being used. The researcher's precise handling of the pipette suggests a controlled and accurate process."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.03025,
+        18.0605
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube labeled 'RhB: Rhodamine B' with blue cap",
+          "researcher pours dark red liquid from a bottle into a graduated cylinder"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'RhB: Rhodamine B'",
+          "graduated cylinder with measurement markings",
+          "dark red liquid in a bottle with a blue cap",
+          "clear plastic container with white tubes",
+          "white lab coat with a logo and text on the sleeve",
+          "blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "RhB: Rhodamine B",
+          "Sucrose 10% APR 21"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "graduated cylinder with measurement markings"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a Rhodamine B solution, with the researcher carefully handling a microtube and pouring a dark red liquid. The presence of a labeled microtube and a specific chemical name highlights the precision required in this step. The background includes a clear plastic container with white tubes, suggesting a controlled laboratory environment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        18.0605,
+        27.09075
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette with a long, thin tip and carefully dispenses a liquid into a small glass vial",
+          "researcher places the pipette tip into a container with multiple pipette tips"
+        ],
+        "objects_visible": [
+          "a clear glass vial with a blue cap labeled '10% Sucrose'",
+          "a blue cap lying next to the vial",
+          "a transparent plastic container holding multiple pipette tips",
+          "a white lab coat worn by the researcher",
+          "blue nitrile gloves on the researcher's hands",
+          "a black wristwatch on the researcher's left wrist"
+        ],
+        "visible_text_labels": [
+          "10% Sucrose"
+        ],
+        "quantities": [
+          "one glass vial",
+          "one blue cap",
+          "multiple pipette tips"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a pipette and the dispensing of a liquid into a labeled vial. The researcher's actions are deliberate, emphasizing the importance of accuracy in the experiment. The presence of multiple pipette tips in a container suggests a repetitive or multi-step process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        27.09075,
+        36.121
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher carefully places a white cloth over a circular opening of a transparent container",
+          "researcher adjusts the cloth to ensure it is properly covering the opening"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat and blue gloves",
+          "transparent containers with circular openings and labels",
+          "small cylindrical containers with red caps",
+          "a blue-lidded jar labeled 'SODIUM HYDROXIDE'",
+          "several vials with white caps on the table"
+        ],
+        "visible_text_labels": [
+          "SODIUM HYDROXIDE",
+          "DAY 5: ENZYME"
+        ],
+        "quantities": [
+          "three small cylindrical containers with red caps"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a container by covering its opening with a cloth, likely to control the environment within. The presence of labeled containers and vials suggests a controlled experiment setup. The researcher's meticulous handling of the cloth highlights the importance of maintaining a sterile or controlled condition."
+      }
+    }
+  ]
+}

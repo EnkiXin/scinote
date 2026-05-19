@@ -1,0 +1,170 @@
+{
+  "video_id": "videos/level_2/video_segments/61383/clip_7.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 47.915,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        11.97875
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a petri dish",
+          "researcher places a small, transparent container with a red label into a centrifuge"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat, purple gloves, and safety goggles",
+          "pipette with a white body and black plunger",
+          "petri dish with a clear lid and a small amount of liquid",
+          "centrifuge with a digital display and a lid that is open",
+          "transparent container with a red label and a barcode",
+          "computer monitor displaying a graph or data",
+          "various laboratory equipment and supplies on the workbench"
+        ],
+        "visible_text_labels": [
+          "red label on the transparent container with a barcode",
+          "digital display on the centrifuge"
+        ],
+        "quantities": [
+          "small amount of liquid in the petri dish",
+          "digital display on the centrifuge showing settings or status"
+        ],
+        "key_distinguishing_features": "The segment highlights the precise handling of laboratory equipment, specifically the use of a pipette and a centrifuge. The researcher's attention to detail is evident in the careful placement of the container into the centrifuge. The presence of a computer monitor and various lab supplies underscores the controlled environment of the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        11.97875,
+        23.9575
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher uses a pipette to transfer liquid from a 96-well plate into a microtube",
+          "researcher carefully places the microtube into a rack"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat, purple gloves, and a face mask",
+          "a pipette with a black handle and a white tip",
+          "a 96-well plate with a gray lid",
+          "a green microtube rack",
+          "a pink box with a cartoon design",
+          "a white box with blue text",
+          "various bottles and containers on the lab bench"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "96-well plate",
+          "microtube"
+        ],
+        "key_distinguishing_features": "The researcher is meticulously handling a pipette to transfer liquid, indicating a precise step in the experiment. The presence of a 96-well plate and microtube rack suggests a multi-sample analysis. The lab environment is well-organized with various equipment and supplies visible."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        23.9575,
+        35.93625
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher places a clear, dome-shaped lid onto a black base labeled 'Purification',",
+          "researcher operates a blue touchscreen device labeled 'AB Applied Biosystems',"
+        ],
+        "objects_visible": [
+          "clear dome-shaped lid with Japanese text on the base",
+          "blue touchscreen device with a grid of method options",
+          "black base labeled 'Purification'",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "Purification",
+          "AB Applied Biosystems",
+          "New Method",
+          "Folder",
+          "Last Used"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment focuses on the preparation of a purification device and the selection of a method on a specialized laboratory instrument. The clear dome-shaped lid and the labeled base are distinctive features. The interaction with the touchscreen device highlights the digital control aspect of the experiment."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        35.93625,
+        47.915
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and a microtube",
+          "researcher appears to be preparing to transfer liquid"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat, purple gloves, and a face mask",
+          "black lab bench with various lab items",
+          "a clear microtube with a blue cap",
+          "a pipette with a pipette tip",
+          "a green and pink microtube rack",
+          "a clear plastic container with compartments",
+          "a roll of tape",
+          "a box of pipette tips",
+          "a petri dish"
+        ],
+        "visible_text_labels": [
+          "Applied Biosystems"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the researcher's hands as they handle a pipette and a microtube, suggesting a precise liquid transfer step. The lab bench is cluttered with various lab items, indicating an active experimental setup. The researcher's attire and the presence of specific lab equipment highlight a controlled laboratory environment."
+      }
+    }
+  ]
+}

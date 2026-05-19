@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/video_segments/60711/clip_4.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 27.821,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        6.95525
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a clear glass beaker with a metal rod inside",
+          "researcher adjusts the position of the beaker on a wooden platform"
+        ],
+        "objects_visible": [
+          "clear glass beaker with a metal rod",
+          "wooden platform",
+          "metallic equipment with knobs and wires",
+          "gas cylinders with pressure gauges",
+          "coiled tubing"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a beaker with a metal rod, suggesting a setup phase for an experiment. The surrounding equipment, including gas cylinders and coiled tubing, indicates a controlled laboratory environment. The absence of visible text labels emphasizes the preparatory nature of the actions."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        6.95525,
+        13.9105
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a black cable with a connector",
+          "researcher adjusts the cable and connector with both hands"
+        ],
+        "objects_visible": [
+          "black cable with a metallic connector",
+          "wooden block on the table",
+          "various laboratory equipment in the background",
+          "transparent plastic tubing"
+        ],
+        "visible_text_labels": [
+          "99.999% ARGON AT 20 mL/min"
+        ],
+        "quantities": [
+          "20 mL/min"
+        ],
+        "key_distinguishing_features": "The segment focuses on the careful handling of a black cable with a connector, likely for setting up a gas flow system. The text overlay specifies the gas as 99.999% argon at a flow rate of 20 mL/min, indicating a precise preparation step. The background shows a typical laboratory setup with various equipment and tubing."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        13.9105,
+        20.865750000000002
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a knob on a gas cylinder labeled '99.999% ARGON AT 20 mL/min'"
+        ],
+        "objects_visible": [
+          "researcher wearing a blue lab coat",
+          "gas cylinder with a digital display and control knobs",
+          "various laboratory equipment in the background"
+        ],
+        "visible_text_labels": [
+          "99.999% ARGON AT 20 mL/min"
+        ],
+        "quantities": [
+          "20 mL/min"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise adjustment of a gas flow rate, emphasizing the control of argon supply. The digital display and labeled gas cylinder highlight the importance of accurate gas flow in the experiment. The researcher's deliberate hand movements indicate a careful execution phase."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        20.865750000000002,
+        27.821
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher adjusts a knob on a large metallic machine with multiple dials and gauges"
+        ],
+        "objects_visible": [
+          "large metallic machine with dials, gauges, and a red-outlined section",
+          "microscope with a digital display",
+          "various laboratory equipment and supplies on shelves in the background"
+        ],
+        "visible_text_labels": [
+          "red-outlined section on the machine with Japanese text"
+        ],
+        "quantities": [
+          "multiple dials and gauges on the machine, but specific readings are not discernible"
+        ],
+        "key_distinguishing_features": "The segment focuses on the researcher interacting with a complex machine, highlighting the precision required in adjusting the equipment. The red-outlined section on the machine draws attention to a specific area of interest. The background shows a well-equipped laboratory setting."
+      }
+    }
+  ]
+}

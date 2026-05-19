@@ -1,0 +1,150 @@
+{
+  "video_id": "videos/level_2/video_segments/61760/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.021,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.00525
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a small container",
+          "researcher adjusts the pipette plunger with their thumb"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat, gloves, and safety goggles",
+          "pipette with a blue plunger and a white body",
+          "small clear container with a liquid inside",
+          "laboratory background with shelves, equipment, and supplies"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is focused on precise liquid handling using a pipette. The close-up shot emphasizes the careful adjustment of the pipette plunger. The laboratory setting is well-equipped, indicating a professional research environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.00525,
+        16.0105
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'DMEM' with a blue cap",
+          "researcher uses a pipette to transfer liquid from the microtube into a test tube"
+        ],
+        "objects_visible": [
+          "blue test tube rack with multiple slots",
+          "1.5mL microtube with blue cap",
+          "pipette with a clear tip",
+          "test tube with a clear liquid"
+        ],
+        "visible_text_labels": [
+          "DMEM"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise transfer of liquid using a pipette from a labeled microtube into a test tube. The blue test tube rack and the clear liquid in the test tube are distinctive elements. The action is methodical, emphasizing the careful handling of laboratory materials."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.0105,
+        24.01575
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds 1.5mL microtube with blue cap",
+          "researcher places microtube into centrifuge"
+        ],
+        "objects_visible": [
+          "white lab coat",
+          "protective goggles",
+          "centrifuge with digital display",
+          "microtube with blue cap",
+          "laboratory countertop with various equipment"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "The researcher is carefully handling a microtube, indicating precision in the experiment. The centrifuge is a central piece of equipment in this segment, suggesting a step involving sample processing. The JOVE logo indicates this is a professional scientific video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.01575,
+        32.021
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a syringe with a clear, flexible tube attached",
+          "researcher manipulates the syringe and tube, possibly preparing for injection or sampling"
+        ],
+        "objects_visible": [
+          "clear syringe with a flexible tube",
+          "researcher's gloved hands",
+          "black background"
+        ],
+        "visible_text_labels": [],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the researcher's hands and the syringe, emphasizing the preparation or handling of the syringe and tube. The black background contrasts sharply with the clear syringe and tube, highlighting the details of the equipment. The absence of other objects keeps the viewer's attention on the syringe and the researcher's actions."
+      }
+    }
+  ]
+}

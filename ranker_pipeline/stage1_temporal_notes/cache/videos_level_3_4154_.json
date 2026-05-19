@@ -1,0 +1,158 @@
+{
+  "video_id": "videos/level_3/4154_.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 416.554667,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        104.13866675
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "A title slide is displayed introducing the topic 'Antibody Transfection into Neurons as a Tool to Study Disease Pathogenesis'.",
+          "A researcher in a white lab coat is seated at a desk, speaking to the camera."
+        ],
+        "objects_visible": [
+          "A title slide with authors' names and affiliations.",
+          "A seated researcher wearing a white lab coat with a name tag.",
+          "A desk with a computer monitor and other office items in the background."
+        ],
+        "visible_text_labels": [
+          "Antibody Transfection into Neurons as a Tool to Study Disease Pathogenesis",
+          "Joshua N. Douglas, Lidia A. Gardner, Sangmin Lee, Yoojin Shin, Chassidy J. Groover, and Michael C. Levin",
+          "Research Service, Veterans Administration Medical Center",
+          "Department of Neurology, Department of Anatomy/Neurobiology, University of Tennessee Health Science Center"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment introduces the research topic and the researchers involved, setting the stage for the scientific content. The visual focus is on the title slide and the researcher speaking, with no experimental actions taking place yet."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        104.13866675,
+        208.2773335
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Antibody' with a red cap",
+          "pipettes ~100uL of a clear liquid from the microtube into a petri dish",
+          "researcher places the microtube back into a labeled rack"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a red cap labeled 'Antibody'",
+          "petri dish containing a clear liquid",
+          "pipette with a white tip",
+          "labeled microtube rack",
+          "researcher wearing gloves and a lab coat"
+        ],
+        "visible_text_labels": [
+          "Antibody",
+          "IV. Antibody Transfection"
+        ],
+        "quantities": [
+          "~100uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of an antibody solution, emphasizing the careful pipetting of a specific volume into a petri dish. The labeled microtube and the researcher's methodical actions highlight the importance of accuracy in this step of the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        208.2773335,
+        312.41600025
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Sample 1' with a blue cap",
+          "pipettes ~200uL of a pink-colored DMEM medium into a petri dish",
+          "researcher places the petri dish under a microscope for observation"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with blue cap labeled 'Sample 1'",
+          "pink-colored DMEM medium in a petri dish",
+          "microscope with a digital camera attachment",
+          "computer monitor displaying live microscopic images"
+        ],
+        "visible_text_labels": [
+          "Sample 1",
+          "DMEM"
+        ],
+        "quantities": [
+          "200uL"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a specific sample and its preparation for microscopic analysis. The use of a labeled microtube and the exact volume of medium pipetted highlight the meticulous nature of the experiment. The live imaging setup on the computer monitor indicates a real-time observation phase."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        312.41600025,
+        416.554667
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "conclusion",
+        "actions_observed": [
+          "researcher sits at a desk and speaks"
+        ],
+        "objects_visible": [
+          "researcher wearing a white lab coat with a name tag",
+          "wooden desk",
+          "framed certificates and pictures on the wall",
+          "microphone"
+        ],
+        "visible_text_labels": [
+          "JOVE"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment features a researcher seated at a desk, likely summarizing findings or providing a conclusion. The setting is an office with visible credentials on the wall, indicating a professional and academic environment. The researcher's attire and posture suggest a formal presentation or discussion."
+      }
+    }
+  ]
+}

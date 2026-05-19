@@ -1,0 +1,149 @@
+{
+  "video_id": "videos/level_2/video_verification/3255/clip_2_removed_step_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 34.623047,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.65576175
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a yellow liquid into a labeled section of a multi-well plate"
+        ],
+        "objects_visible": [
+          "transparent multi-well plate with blue labels",
+          "yellow liquid in a pipette",
+          "gloved hand holding the pipette"
+        ],
+        "visible_text_labels": [
+          "weak",
+          "weak",
+          "weak"
+        ],
+        "quantities": [
+          "~5 min"
+        ],
+        "key_distinguishing_features": "The segment shows a precise pipetting action into a multi-well plate, with a clear focus on the labeled sections. The yellow liquid is carefully dispensed, indicating a controlled experimental step. The text '~5 min' suggests a time-related parameter in the experiment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.65576175,
+        17.3115235
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "measurement",
+        "actions_observed": [
+          "researcher holds a digital timer and presses a button to start timing"
+        ],
+        "objects_visible": [
+          "digital timer with a blue and white design",
+          "researcher's gloved hands"
+        ],
+        "visible_text_labels": [
+          "00:00"
+        ],
+        "quantities": [
+          "00:00"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of starting a digital timer, indicating the beginning of a time-sensitive process. The researcher's gloved hands emphasize the controlled and sterile environment of the experiment. The timer's display is clearly visible, showing the initial reading of 00:00."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        17.3115235,
+        25.96728525
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "transparent containers are arranged in a row",
+          "blue sticky notes are attached to the containers"
+        ],
+        "objects_visible": [
+          "transparent plastic containers",
+          "blue sticky notes with handwritten labels"
+        ],
+        "visible_text_labels": [
+          "Superficial",
+          "mut",
+          "Superficial",
+          "mut"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment shows a series of transparent containers with blue sticky notes labeled 'Superficial' and 'mut', indicating a preparation phase for a scientific experiment. The containers are neatly arranged, suggesting an organized setup. The handwritten labels provide specific identification for each container."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        25.96728525,
+        34.623047
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher holds a rectangular glass slide with a small rectangular piece of tape on one end",
+          "researcher uses a red pencil to mark a line on the glass slide"
+        ],
+        "objects_visible": [
+          "rectangular glass slide with a small rectangular piece of tape",
+          "red pencil",
+          "gloved hands"
+        ],
+        "visible_text_labels": [
+          "Superfrost"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the preparation of a glass slide, highlighting the precise action of marking it with a red pencil. The presence of the 'Superfrost' label on the tape indicates a specific type of glass slide used in microscopy. The gloved hands emphasize the sterile handling of the materials."
+      }
+    }
+  ]
+}

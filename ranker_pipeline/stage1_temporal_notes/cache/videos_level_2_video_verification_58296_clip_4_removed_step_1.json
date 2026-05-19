@@ -1,0 +1,159 @@
+{
+  "video_id": "videos/level_2/video_verification/58296/clip_4_removed_step_1.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 38.413375,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        9.60334375
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "wipes a glass slide with a white cloth",
+          "holds a glass slide with both gloved hands"
+        ],
+        "objects_visible": [
+          "glass slide with a rectangular shape and a small well",
+          "white cloth used for cleaning",
+          "blue nitrile gloves"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The segment focuses on the meticulous preparation of a glass slide, emphasizing the cleaning process. The use of a white cloth and the careful handling of the slide suggest a sterile environment. The blue nitrile gloves highlight the importance of contamination prevention."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        9.60334375,
+        19.2066875
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [
+          "researcher wipes a clear plastic container with a white cloth",
+          "researcher opens a refrigerator door"
+        ],
+        "objects_visible": [
+          "clear plastic container",
+          "white cloth",
+          "refrigerator with a digital display",
+          "researcher wearing blue gloves and a white lab coat"
+        ],
+        "visible_text_labels": [
+          "65\u00b0C",
+          "Zangle"
+        ],
+        "quantities": [
+          "65\u00b0C"
+        ],
+        "key_distinguishing_features": "The segment focuses on the preparation of a clear plastic container, emphasizing cleanliness through wiping. The refrigerator's digital display showing 65\u00b0C is a distinctive feature, suggesting temperature control is crucial for the experiment."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        19.2066875,
+        28.81003125
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "pipettes a clear liquid onto a transparent rectangular slide containing a worm"
+        ],
+        "objects_visible": [
+          "transparent rectangular slide with a worm on it",
+          "pipette with a clear liquid",
+          "green cutting mat with grid lines"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "clear liquid being pipetted in a controlled manner"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise application of a clear liquid onto a transparent slide containing a worm, highlighting the careful handling of the pipette. The green cutting mat with grid lines provides a clear background for the experiment. The 'jove' logo is visible in the top right corner."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        28.81003125,
+        38.413375
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "places a transparent plastic slide on a green cutting mat",
+          "operates a Fisher Scientific Zangle hotplate"
+        ],
+        "objects_visible": [
+          "transparent plastic slide",
+          "green cutting mat with grid lines",
+          "Fisher Scientific Zangle hotplate",
+          "aluminum foil covering the hotplate surface"
+        ],
+        "visible_text_labels": [
+          "Fisher Scientific",
+          "Zangle",
+          "00:10",
+          "OFF",
+          "136",
+          "150\u00b0C"
+        ],
+        "quantities": [
+          "00:10 (time setting)",
+          "136 (possibly speed or another parameter)",
+          "150\u00b0C (temperature setting)"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise placement of a transparent slide on a cutting mat and the operation of a hotplate set to 150\u00b0C. The hotplate's digital display shows specific parameters, indicating a controlled heating process. The aluminum foil on the hotplate suggests a method to evenly distribute heat."
+      }
+    }
+  ]
+}

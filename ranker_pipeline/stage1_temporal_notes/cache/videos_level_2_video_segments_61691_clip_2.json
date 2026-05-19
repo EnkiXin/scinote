@@ -1,0 +1,147 @@
+{
+  "video_id": "videos/level_2/video_segments/61691/clip_2.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 41.359,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.33975
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "preparation",
+        "actions_observed": [],
+        "objects_visible": [],
+        "visible_text_labels": [
+          "PURIFICATION OF THE ADENOVIRUS FROM CELL LYSATE AND CULTURE MEDIUM"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "This segment is entirely text-based, displaying a title card that introduces the topic of adenovirus purification. There are no visible objects, actions, or measurements in this segment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.33975,
+        20.6795
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "stacks of transparent containers with orange caps are shown",
+          "text overlay appears describing the process"
+        ],
+        "objects_visible": [
+          "transparent containers with orange caps labeled 'TC treated'",
+          "text overlay reading 'Harvesting the virus-producing cells and the culture medium'"
+        ],
+        "visible_text_labels": [
+          "TC treated",
+          "Harvesting the virus-producing cells and the culture medium"
+        ],
+        "quantities": [
+          "multiple containers in a stack"
+        ],
+        "key_distinguishing_features": "The segment focuses on the containers used for cell culture, highlighting their labeling and the process of harvesting virus-producing cells. The text overlay provides context for the viewer about the ongoing procedure."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        20.6795,
+        31.01925
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a 1.5mL microtube labeled 'Sample 1' with a white cap",
+          "researcher uses a pipette to transfer a clear liquid from the microtube into a petri dish"
+        ],
+        "objects_visible": [
+          "1.5mL microtube with a white cap",
+          "pipette with a blue plunger",
+          "petri dish containing a clear liquid",
+          "blue plastic tray holding multiple microtubes",
+          "black countertop with a white paper with handwritten notes"
+        ],
+        "visible_text_labels": [
+          "Sample 1",
+          "handwritten notes on the white paper"
+        ],
+        "quantities": [
+          "1.5mL microtube",
+          "clear liquid transferred using a pipette"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise transfer of a clear liquid from a labeled microtube into a petri dish, highlighting the use of a pipette for accurate measurement. The presence of a blue tray with multiple microtubes suggests a systematic approach to sample handling."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        31.01925,
+        41.359
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher views sample through a microscope",
+          "researcher adjusts microscope knobs"
+        ],
+        "objects_visible": [
+          "microscope with black knobs and eyepieces",
+          "computer monitor displaying microscopic image",
+          "researcher wearing blue lab coat and protective mask"
+        ],
+        "visible_text_labels": [
+          "software interface elements on the computer screen"
+        ],
+        "quantities": [
+          "two black knobs on the microscope"
+        ],
+        "key_distinguishing_features": "This segment focuses on the observation phase, where the researcher is actively using a microscope. The computer screen displays a live feed of the microscopic image, indicating real-time analysis. The researcher's protective gear emphasizes the controlled environment of the lab."
+      }
+    }
+  ]
+}

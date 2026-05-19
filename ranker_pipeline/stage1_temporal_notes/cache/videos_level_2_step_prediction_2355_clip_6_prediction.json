@@ -1,0 +1,155 @@
+{
+  "video_id": "videos/level_2/step_prediction/2355/clip_6_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 32.4534,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        8.11335
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "observation",
+        "actions_observed": [
+          "researcher looks through a binocular microscope",
+          "researcher adjusts the stage of the microscope with gloved hands"
+        ],
+        "objects_visible": [
+          "binocular microscope with a stage and objective lenses",
+          "petri dish on the microscope stage",
+          "researcher wearing a white lab coat and blue gloves",
+          "black and white microscope stand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [],
+        "key_distinguishing_features": "The researcher is actively observing a sample under a binocular microscope, indicating a detailed examination phase. The use of blue gloves and a lab coat emphasizes a controlled laboratory environment. The petri dish on the microscope stage suggests the sample is likely a biological specimen."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        8.11335,
+        16.2267
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher opens an incubator and places a petri dish inside",
+          "researcher closes the incubator door"
+        ],
+        "objects_visible": [
+          "white incubator with a glass door",
+          "petri dish held by the researcher",
+          "researcher wearing a white lab coat and blue gloves",
+          "text on the screen indicating 'Grow 5-7 days post-transfection'"
+        ],
+        "visible_text_labels": [
+          "Grow 5-7 days post-transfection",
+          "jove"
+        ],
+        "quantities": [
+          "5-7 days"
+        ],
+        "key_distinguishing_features": "The segment shows a researcher placing a petri dish into an incubator, indicating a step in a cell culture process. The text on the screen specifies a time frame for growth post-transfection. The incubator's glass door and the researcher's protective attire are prominent features."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        16.2267,
+        24.34005
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a well of a multi-well plate"
+        ],
+        "objects_visible": [
+          "transparent multi-well plate with multiple compartments",
+          "pipette with a flexible tip",
+          "bottles of reagents in the background",
+          "gloved hand of the researcher"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "multiple compartments in the multi-well plate"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise action of liquid dispensing into a multi-well plate, highlighting the use of a pipette. The background includes reagent bottles, suggesting a laboratory setting. The researcher's gloved hand ensures sterility during the process."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        24.34005,
+        32.4534
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and dispenses liquid into a multi-well plate",
+          "researcher places the pipette tip into a well containing a clear liquid"
+        ],
+        "objects_visible": [
+          "red pipette tip rack with blue tips",
+          "transparent multi-well plate with several wells",
+          "pipette with a long, thin tip",
+          "a bottle with a label and a CE mark"
+        ],
+        "visible_text_labels": [
+          "CE",
+          "jove"
+        ],
+        "quantities": [
+          "multiple wells in the multi-well plate"
+        ],
+        "key_distinguishing_features": "The segment shows a precise action of liquid dispensing into a multi-well plate, highlighting the use of a pipette and a red tip rack. The presence of a CE-marked bottle suggests a controlled laboratory environment. The focus is on the careful handling of laboratory equipment."
+      }
+    }
+  ]
+}

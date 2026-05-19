@@ -1,0 +1,161 @@
+{
+  "video_id": "videos/level_2/step_prediction/57774/clip_3_prediction.mp4",
+  "benchmark": "expvid",
+  "duration_seconds": 43.3643,
+  "num_segments": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "time_range": [
+        0.0,
+        10.841075
+      ],
+      "frame_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher closes the lid of a centrifuge",
+          "researcher sets the centrifuge parameters"
+        ],
+        "objects_visible": [
+          "white centrifuge with a digital display and control buttons",
+          "two gray pipette racks with orange indicator lights",
+          "green microtube rack",
+          "researcher wearing a white lab coat and purple gloves"
+        ],
+        "visible_text_labels": [
+          "21,000 x g",
+          "1.5 min"
+        ],
+        "quantities": [
+          "21,000 x g",
+          "1.5 min"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise setup of a centrifuge, highlighting the specific parameters of 21,000 x g and 1.5 minutes. The researcher's actions are deliberate, ensuring the centrifuge is properly closed and set for the experiment. The surrounding lab equipment, such as pipette racks and a microtube rack, suggests a well-prepared laboratory environment."
+      }
+    },
+    {
+      "segment_id": 1,
+      "time_range": [
+        10.841075,
+        21.68215
+      ],
+      "frame_indices": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a microtube",
+          "researcher places the microtube into a green rack"
+        ],
+        "objects_visible": [
+          "green microtube rack with multiple slots",
+          "microtube with a clear body and a white cap",
+          "pipette with a white body and a transparent tip",
+          "green container filled with ice cubes",
+          "conical flask containing a yellowish liquid with a red label",
+          "yellow petri dish in the background"
+        ],
+        "visible_text_labels": [
+          "joVe"
+        ],
+        "quantities": [
+          "volume of liquid being pipetted is not specified but appears to be a small amount"
+        ],
+        "key_distinguishing_features": "The segment focuses on the precise handling of a microtube and the use of a pipette, emphasizing the careful and controlled nature of the experiment. The presence of ice cubes in the green container suggests the need to maintain a specific temperature for the samples. The yellowish liquid in the conical flask and the petri dish in the background hint at a broader experimental setup."
+      }
+    },
+    {
+      "segment_id": 2,
+      "time_range": [
+        21.68215,
+        32.523225
+      ],
+      "frame_indices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher closes the lid of a centrifuge",
+          "researcher holds a 1.5mL microtube with a clear liquid and a pipette tip inserted into it"
+        ],
+        "objects_visible": [
+          "white centrifuge with a digital display and control knobs",
+          "1.5mL microtube with a clear liquid",
+          "pipette tip inserted into the microtube",
+          "green microtube rack",
+          "researcher's gloved hand"
+        ],
+        "visible_text_labels": [
+          "jove"
+        ],
+        "quantities": [
+          "1.5mL microtube"
+        ],
+        "key_distinguishing_features": "This segment shows the transition from centrifugation to handling a microtube, highlighting the researcher's precise actions with the pipette tip. The presence of the green microtube rack adds a distinct visual element to the workspace. The 'jove' logo is visible, indicating the source of the video."
+      }
+    },
+    {
+      "segment_id": 3,
+      "time_range": [
+        32.523225,
+        43.3643
+      ],
+      "frame_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "note": {
+        "phase": "execution",
+        "actions_observed": [
+          "researcher holds a pipette and carefully dispenses liquid into a microtube",
+          "researcher places the microtube into a green microtube rack"
+        ],
+        "objects_visible": [
+          "a conical flask containing a yellowish liquid with a red label",
+          "a green microtube rack with multiple compartments",
+          "a green container with ice cubes",
+          "a white lab coat and blue gloves worn by the researcher"
+        ],
+        "visible_text_labels": [
+          "jove (logo in the top right corner)"
+        ],
+        "quantities": [
+          "the conical flask contains approximately 200 mL of liquid"
+        ],
+        "key_distinguishing_features": "This segment focuses on the precise handling of a microtube, emphasizing the careful dispensing of liquid using a pipette. The presence of ice cubes in the green container suggests the need to maintain a cold environment for the samples. The researcher's attire and the organized lab setup highlight a controlled experimental environment."
+      }
+    }
+  ]
+}

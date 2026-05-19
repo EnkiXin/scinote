@@ -19,15 +19,17 @@ python compute_per_task_results.py
 
 ## ExpVid L2 + L3  (Qwen-7B answer, n = 745 test items)
 
-| Task | task_type / metric | n | Video | Video + Self-note | Video + v2-Noter |
-|---|---|---:|---:|---:|---:|
-| sequence_generation     | seqgen / F1      | 161 | **44.85** | 40.34 | 35.40 |
-| sequence_ordering       | mc / acc         | 150 |  48.00 | **56.67** | 53.33 |
-| step_prediction         | steppred / exact | 145 |  **3.45** |  0.69 |  2.07 |
-| video_verification      | mc / acc         | 152 |  11.84 | 11.84 | **21.71** |
-| experimental_conclusion | fitb / F1        |  76 | **20.00** | 18.50 | 17.07 |
-| scientific_discovery    | fitb / F1        |  61 |  17.81 | 19.18 | **18.89** |
-| **overall macro**       |                  | 745 |  25.94 | 26.14 | **26.51** |
+| Task | task_type / metric | n | Video | Video + Self-note | Video + v2-Noter | task-gated v2 ⭐ |
+|---|---|---:|---:|---:|---:|---:|
+| sequence_generation     | seqgen / F1      | 161 | **44.85** | 40.34 | 35.40 | 44.85 |
+| sequence_ordering       | mc / acc         | 150 |  48.00 | **56.67** | 53.33 | 53.33 |
+| step_prediction         | steppred / exact | 145 |  **3.45** |  0.69 |  2.07 |  3.45 |
+| video_verification      | mc / acc         | 152 |  11.84 | 11.84 | **21.71** | 21.71 |
+| experimental_conclusion | fitb / F1        |  76 | **20.00** | 18.50 | 17.07 | 20.00 |
+| scientific_discovery    | fitb / F1        |  61 |  17.81 | 19.18 | **18.89** | 18.89 |
+| **overall macro**       |                  | 745 |  25.94 | 26.14 | 26.51 | **29.03** ⭐ |
+
+**task-gated v2** = use the v2-noter note only when `task_type == "mc"` and fall back to Video-only on free-form generation tasks (seqgen / steppred / fitb). Diagnostic + improvement options in [V2_NOTER_REGRESSION_ANALYSIS.md](V2_NOTER_REGRESSION_ANALYSIS.md). Δ vs Video macro: **+3.09 pp**, vs unconditional v2-noter: +2.52 pp.
 
 ## SciVideoBench  (Qwen-3B answer, n = 218 test items)
 

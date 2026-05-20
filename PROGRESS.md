@@ -75,6 +75,24 @@
 
 ---
 
+## 0. Trained noters — comparison across all 5 versions
+
+All trained noters distill oracle notes via LoRA SFT. None sees the gold answer at inference. Training details consolidated here; per-version results live in their respective sections below.
+
+| Noter | Base model | Oracle target | Train set | Trainable params | LoRA | Wall-clock | ExpVid 20% test | SciVB 20% test | Detail |
+|---|---|---|---|---|---|---|---:|---:|---|
+| **v1** | Qwen2.5-VL-7B | v2 prose, ExpVid only | 3690 ExpVid L2+L3 oracle notes (cross-benchmark) | 20.2 M / 8.3 B (0.24 %) | r=32 α=64, q/k/v/o_proj | ~4.8 h on 1×H200 | n/a (ExpVid not in test) | 20.50 (full n=1000) | [`notetaker_training.md`](notetaker_training.md) |
+| **v2** | Qwen2.5-VL-7B | v2 prose, **both** benchmarks | 3726 items (3122 ExpVid + 604 SciVB), per-task 80/20 split, seed `ranker_pipeline_v1` | ~20 M (same LoRA) | r=32 α=64, q/k/v/o_proj | ~5-6 h on 1×H200 | **26.51** | **23.39** | §3 |
+| **v3** | Qwen2.5-VL-7B | v2 prose target rewritten with **task-aware schemas** (`observed_step_indices` / `verbatim_specifics` / `next_step_prediction`) | same 3726 | ~20 M | same LoRA | ~5-6 h on 1×H200 | 26.08 | n/a | §4.1 + [`NON_MC_REGRESSION_DEEP_DIVE.md`](NON_MC_REGRESSION_DEEP_DIVE.md) |
+| **v4a** | **MiMo-VL-7B-RL** | **v4 task-aware oracle** (Qwen-72B, per-task schemas + frame anchors) | 3726 (same per-task 80/20 split) | 30.7 M / 8.3 B (0.37 %) | r=32 α=64, q/k/v/o_proj | **28 min DDP 8×H200** (after `num_workers=4` fix; original 4-5 h) | **26.60** | 20.64 | §6 |
+| **v4b** | MiMo-VL-7B-RL (`/think` SYSTEM prepend) | same v4 task-aware oracle | same 3726 | 30.7 M | same LoRA | 28 min DDP 8×H200 | 26.07 | 20.18 | §6 |
+
+**Headline progression** (ExpVid 20% test): v2 26.51 → v3 26.08 → v4a **26.60** → v4b 26.07. Each engineering swap moves the needle <1 pp. **Δ across 4 noter generations: +0.09 pp.**
+
+**v4 oracle ceiling on the same test split: 67.84 %** — gap to best trained noter (v4a) = 41.24 pp. The gap has *widened* with the new oracle (was 22.80 pp under v2 prose oracle), confirming structural unlearnability of answer-aware focus.
+
+---
+
 ## 1. Paper 1 baseline experiments (2026-05-10 → 17)
 
 ### 1.1 ExpVid per-task accuracies (full n, Qwen-7B answer)

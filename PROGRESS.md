@@ -1,8 +1,8 @@
 # ExpVid Experiments — Progress Log
 
-**Updated**: 2026-05-17
-**Status**: Paper 1 complete. Nothing running.
-**Setup**: Qwen2.5-VL-7B answer model (bf16, H200), 32 frames/video. Stage-1 noter is 7B, 72B, or oracle-72B (sees gold answer) depending on condition.
+**Updated**: 2026-05-19
+**Status**: Paper 1 Extension W2-W3 complete (v4a + v4b MiMo noters); Track A ceiling + Track B baselines running.
+**Setup**: Qwen2.5-VL-7B answer model (bf16, H200), 32 frames/video. Stage-1 noter is 7B, 72B, oracle-72B, **or MiMo-VL-7B-RL ±Think (v4)** depending on condition.
 
 ---
 
@@ -297,3 +297,76 @@ On SciVideoBench, v2 noter (23.39 %) beats v1 noter (which was trained only on E
 The headline −11 pp on ExpVid is an eval-script protocol mismatch, not a noter failure (see per-task breakdown above). The "true" v2-noter result on ExpVid would need a non-MC scorer; that is a fix-the-scorer task, not a re-train task.
 
 This makes paper 2 (counterfactual ranker, [`COUNTERFACTUAL_RANKER_PIPELINE.md`](COUNTERFACTUAL_RANKER_PIPELINE.md)) the natural next step: use the reasoner's *behaviour* as supervision instead of the oracle's *outputs*.
+
+---
+
+## Paper-1 Extension W1-W3 — task-aware oracle + MiMo noter swap (2026-05-19)
+
+Goal: test whether the four hypothesized fixes from [`PAPER1_EXTENSION_PLAN.md`](PAPER1_EXTENSION_PLAN.md) close the +28 pp distillation gap between trained noter and oracle ceiling.
+
+### W1: task-aware oracle regeneration (Qwen2.5-VL-72B, ExpVid only)
+
+**Prompt redesign** ([`oracle_prompts_v4_taskaware.py`](oracle_prompts_v4_taskaware.py)): per-task schemas that force structured output the answer model can read.
+  * `mc`: per-option supporting/refuting evidence + frame ranges (replaces v2's selective-bias single-evidence list)
+  * `seqgen`: per-step `{step_index, visual_evidence, frame_range, verbatim_on_screen_text}` (replaces prose-only)
+  * `steppred`: `observed_steps_so_far` + `current_state_at_end` + `why_next_step`
+  * `fitb`: per-blank `{fill_in_index, verbatim_on_screen, frame_location, context}` with `null` if not literally visible
+
+**Backend**: InternVL3-78B download stalled at 47/48 files → fell back to Qwen-72B with the new prompts. **3765 oracle notes written** under [`results_v4_oracle_qwen72b/oracle_notes/`](results_v4_oracle_qwen72b/oracle_notes/) across the 6 L2+L3 tasks.
+
+### W2-W3: MiMo-VL-7B-RL noters trained on v4 oracle
+
+Two trained noters, identical setup (LoRA r=32 α=64 attention-only, 1 epoch DDP 8-GPU, 3726 train items, max_frames=16):
+  * **v4a (no-Think)** — SYSTEM unchanged
+  * **v4b (Think)** — SYSTEM prepended with `/think\n` to activate MiMo's RL-trained reasoning chain
+
+**Trainer optimization**: setting `dataloader_num_workers=4`, `dataloader_pin_memory=True`, `dataloader_persistent_workers=True`, `dataloader_prefetch_factor=4` in `TrainingArguments` cut step time from 30 s → 1.5 s (**20× speedup**) on this multimodal SFT. Each training run: ~28 min wall-clock; eval: ~25 min wall-clock (8-GPU parallel note gen + 8-GPU parallel C2 eval).
+
+### Track A (20% test, n=745 ExpVid + 218 SciVideoBench) — results
+
+| Condition | Noter | ExpVid acc | SciVideoBench acc |
+|---|---|---:|---:|
+| Video (C0)               | —                                   | 25.94 | 20.50 |
+| v2-Noter (Qwen-7B prose) | Qwen2.5-VL-7B + LoRA v2             | 26.51 | 23.39 |
+| v3-Noter (Qwen-7B task-aware) | Qwen2.5-VL-7B + LoRA v3 task-aware | 26.08 | (n/a) |
+| **v4a-Noter (MiMo no-Think)** | MiMo-VL-7B-RL + LoRA v4a       | **26.60** | **20.64** |
+| v4b-Noter (MiMo Think)   | MiMo-VL-7B-RL + LoRA v4b /think     | 26.07 | 20.18 |
+
+**Reading**:
+  * **Model swap Qwen→MiMo**: +0.09 pp (26.51 → 26.60). Effectively neutral.
+  * **Think mode**: −0.53 pp vs no-Think (26.60 → 26.07). Slightly hurts — confirms diagnostic concern that long reasoning chains pad notes with unhelpful prose rather than improve specificity.
+  * **Task-aware schema swap (v3 task-aware → v4a task-aware oracle)**: +0.52 pp (26.08 → 26.60). The most positive effect, still tiny.
+
+**Conclusion**: the three independent levers in items (2)-(4) of the extension plan each move the needle by <1 pp. The +28 pp distillation gap is **not** explainable by noter capacity, schema design, or reasoning mode in isolation. This is a *negative* result for the schema-redesign hypothesis but a *confirmatory* result for paper 1's core claim — the gap is structural (answer-conditional selection is unlearnable from oracle outputs alone), not engineering-fixable.
+
+### v4a per-task breakdown (ExpVid n=745, Qwen-7B answer)
+
+| Task | n | acc |
+|---|---:|---:|
+| sequence_ordering        | 150 | **52.67** |
+| sequence_generation      | 161 | 38.54 |
+| video_verification       | 152 | 15.79 |
+| scientific_discovery     |  61 | 15.51 |
+| experimental_conclusion  |  76 | 14.01 |
+| step_prediction          | 145 | 8.97 |
+
+MC tasks (ordering, verification) remain the only ones where any noter helps; the structural-output tasks (seqgen, steppred, fitb) stay near or below Video-only baseline despite the v4 task-aware oracle supervision.
+
+Raw artifacts:
+  * Per-item eval JSON: [`results_v4_split/v4a_noter_eval/`](results_v4_split/v4a_noter_eval/) and [`v4b_noter_eval/`](results_v4_split/v4b_noter_eval/)
+  * Noter outputs: [`results_v4_split/v4a_noter_notes/`](results_v4_split/v4a_noter_notes/) (745 ExpVid + 218 SciVB rows × 2)
+  * Per-config aggregated `summary.json` files inside each `<bench>/` subdir
+  * Training logs: [`logs/train_v4a_mimo_ddp.log`](logs/train_v4a_mimo_ddp.log), [`logs/train_v4b_mimo_ddp.log`](logs/train_v4b_mimo_ddp.log)
+  * Full chain log: [`logs/full_extension.log`](logs/full_extension.log)
+  * Commit pushed: `f72ad757`
+
+### Currently running (started 2026-05-19 ~23:48)
+
+  * **Track A ceiling**: gold-conditioned oracle notes (v4 task-aware + v2 prose) fed to Qwen-7B answer model on the same 20% test split. Quantifies the new oracle's ceiling vs the old. Results land in [`results_v4_split/oracle_v4_ceiling_eval/`](results_v4_split/oracle_v4_ceiling_eval/) and [`oracle_v2_ceiling_eval/`](results_v4_split/oracle_v2_ceiling_eval/). Log: [`logs/track_a_ceiling.log`](logs/track_a_ceiling.log).
+  * **Background downloads** for Track B (no GPU contention): GLM-4.5V (~158 GB so far), InternVL3_5-38B (~59 GB so far), InternVL3-78B retry (~115 GB so far). Logs `logs/dl_*.log`.
+
+### What's still deferred
+
+  * **Track B Track B (cross-family baselines)**: C0 + self-note + cross-model-note for MiMo / GLM-4.5V / InternVL3_5-38B / InternVL3-78B on full benchmark. Blocked on downloads finishing + `evaluate_unified.py` extension to non-Qwen processors.
+  * **W5 MiMo self-note (task-aware)**: MiMo writes + answers, needs an inference path that's not currently in `evaluate_unified.py`.
+  * **W7-W8**: bootstrap CI on the Track A numbers + final paper tables.

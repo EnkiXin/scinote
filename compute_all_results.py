@@ -37,7 +37,12 @@ ROOT = Path(__file__).resolve().parent
 # ── Per-config: raw chunk JSONs to compute from ──────────────────────────────
 
 CONFIGS = [
-    # (label, benchmark, glob_pattern)
+    # (label, benchmark, glob_pattern). Order in CSV/table.
+    # ── Baselines (fresh pipeline) ──
+    ("C0-fresh",            "expvid",        "results_v4_split/c0_eval/expvid/eval_results_chunk*.json"),
+    ("self-7B-fresh",       "expvid",        "results_v4_split/selfnote_7b_eval/expvid/eval_results_chunk*.json"),
+    ("self-72B-fresh",      "expvid",        "results_v4_split/selfnote_72b_eval/expvid/eval_results_chunk*.json"),
+    # ── Trained noters (all on fresh pipeline by construction) ──
     ("v2-noter",            "expvid",        "results_v2_split/v2_noter_eval_fixed/expvid/eval_results_chunk*.json"),
     ("v2-noter",            "scivideobench", "results_v2_split/v2_noter_eval/scivideobench/eval_results*.json"),
     ("v3-noter",            "expvid",        "results_v2_split/v3_noter_eval/expvid/eval_results_chunk*.json"),
@@ -45,6 +50,7 @@ CONFIGS = [
     ("v4a-noter",           "scivideobench", "results_v4_split/v4a_noter_eval/scivideobench/eval_results_chunk*.json"),
     ("v4b-noter",           "expvid",        "results_v4_split/v4b_noter_eval/expvid/eval_results_chunk*.json"),
     ("v4b-noter",           "scivideobench", "results_v4_split/v4b_noter_eval/scivideobench/eval_results_chunk*.json"),
+    # ── Oracle ceilings (fresh) ──
     ("oracle-old-v2-prose", "expvid",        "results_v4_split/oracle_v2_ceiling_eval/expvid/eval_results_chunk*.json"),
     ("oracle-new-v4-TA",    "expvid",        "results_v4_split/oracle_v4_ceiling_eval/expvid/eval_results_chunk*.json"),
 ]
@@ -162,10 +168,14 @@ def main():
         print()
 
         configs_expvid_ordered = [
-            "C0", "C-7B-self-note", "C-72B-self-note",
+            # Fresh-pipeline baselines (preferred — same evaluator as everything below)
+            "C0-fresh", "self-7B-fresh", "self-72B-fresh",
+            # Trained noters
             "v2-noter", "v3-noter", "v4a-noter", "v4b-noter",
+            # Oracle ceilings (fresh)
             "oracle-old-v2-prose", "oracle-new-v4-TA",
-            "C-72B-oracle",
+            # Legacy aggregates (informational; comparison.json — different evaluator)
+            "C0", "C-7B-self-note", "C-72B-self-note", "C-72B-oracle",
         ]
         headers = ["Task", "n"]
         col_keys = []

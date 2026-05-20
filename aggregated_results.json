@@ -1,0 +1,481 @@
+{
+  "v2-noter__expvid": {
+    "label": "v2-noter",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v2_split/v2_noter_eval_fixed/expvid/eval_results_chunk*.json",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 35.4,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 53.33,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 2.07,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 21.71,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 17.07,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 18.89,
+        "n": 61
+      }
+    },
+    "overall_acc": 26.51,
+    "n_valid": 745,
+    "n_err": 0,
+    "n_files": 8
+  },
+  "v2-noter__scivideobench": {
+    "label": "v2-noter",
+    "benchmark": "scivideobench",
+    "source": "fresh aggregation from results_v2_split/v2_noter_eval/scivideobench/eval_results*.json",
+    "by_task": {
+      "mc": {
+        "acc": 23.39,
+        "n": 218
+      }
+    },
+    "overall_acc": 23.39,
+    "n_valid": 218,
+    "n_err": 0,
+    "n_files": 1
+  },
+  "v3-noter__expvid": {
+    "label": "v3-noter",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v2_split/v3_noter_eval/expvid/eval_results_chunk*.json",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 39.2,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 52.0,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 3.45,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 19.08,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 15.58,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 12.06,
+        "n": 61
+      }
+    },
+    "overall_acc": 26.08,
+    "n_valid": 745,
+    "n_err": 0,
+    "n_files": 8
+  },
+  "v4a-noter__expvid": {
+    "label": "v4a-noter",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v4_split/v4a_noter_eval/expvid/eval_results_chunk*.json",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 38.54,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 52.67,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 8.97,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 15.79,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 14.01,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 15.51,
+        "n": 61
+      }
+    },
+    "overall_acc": 26.6,
+    "n_valid": 745,
+    "n_err": 0,
+    "n_files": 8
+  },
+  "v4a-noter__scivideobench": {
+    "label": "v4a-noter",
+    "benchmark": "scivideobench",
+    "source": "fresh aggregation from results_v4_split/v4a_noter_eval/scivideobench/eval_results_chunk*.json",
+    "by_task": {
+      "mc": {
+        "acc": 20.64,
+        "n": 218
+      }
+    },
+    "overall_acc": 20.64,
+    "n_valid": 218,
+    "n_err": 0,
+    "n_files": 8
+  },
+  "v4b-noter__expvid": {
+    "label": "v4b-noter",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v4_split/v4b_noter_eval/expvid/eval_results_chunk*.json",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 37.14,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 49.33,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 7.59,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 20.39,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 13.95,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 12.85,
+        "n": 61
+      }
+    },
+    "overall_acc": 26.07,
+    "n_valid": 745,
+    "n_err": 0,
+    "n_files": 8
+  },
+  "v4b-noter__scivideobench": {
+    "label": "v4b-noter",
+    "benchmark": "scivideobench",
+    "source": "fresh aggregation from results_v4_split/v4b_noter_eval/scivideobench/eval_results_chunk*.json",
+    "by_task": {
+      "mc": {
+        "acc": 20.18,
+        "n": 218
+      }
+    },
+    "overall_acc": 20.18,
+    "n_valid": 218,
+    "n_err": 0,
+    "n_files": 8
+  },
+  "oracle-old-v2-prose__expvid": {
+    "label": "oracle-old-v2-prose",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v4_split/oracle_v2_ceiling_eval/expvid/eval_results_chunk*.json",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 75.84,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 65.33,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 7.59,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 72.37,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 44.31,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 52.52,
+        "n": 61
+      }
+    },
+    "overall_acc": 54.61,
+    "n_valid": 745,
+    "n_err": 0,
+    "n_files": 8
+  },
+  "oracle-new-v4-TA__expvid": {
+    "label": "oracle-new-v4-TA",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v4_split/oracle_v4_ceiling_eval/expvid/eval_results_chunk*.json",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 90.38,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 78.0,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 48.28,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 71.05,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 46.32,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 48.73,
+        "n": 61
+      }
+    },
+    "overall_acc": 67.84,
+    "n_valid": 745,
+    "n_err": 0,
+    "n_files": 8
+  },
+  "C0__scivideobench": {
+    "label": "C0",
+    "benchmark": "scivideobench",
+    "by_task": {
+      "Conceptual Reasoning": {
+        "acc": 22.83,
+        "n": 92
+      },
+      "Hypothetical Reasoning": {
+        "acc": 23.26,
+        "n": 86
+      },
+      "Quantitative Reasoning": {
+        "acc": 10.0,
+        "n": 40
+      }
+    },
+    "overall_acc": 20.64,
+    "n_valid": 218,
+    "n_err": 0,
+    "source": "comparison.json (legacy aggregator)"
+  },
+  "C-3B-self-note__scivideobench": {
+    "label": "C-3B-self-note",
+    "benchmark": "scivideobench",
+    "by_task": {
+      "Conceptual Reasoning": {
+        "acc": 27.17,
+        "n": 92
+      },
+      "Hypothetical Reasoning": {
+        "acc": 29.07,
+        "n": 86
+      },
+      "Quantitative Reasoning": {
+        "acc": 10.0,
+        "n": 40
+      }
+    },
+    "overall_acc": 24.77,
+    "n_valid": 218,
+    "n_err": 0,
+    "source": "comparison.json (legacy aggregator)"
+  },
+  "C-72B-oracle__scivideobench": {
+    "label": "C-72B-oracle",
+    "benchmark": "scivideobench",
+    "by_task": {
+      "Conceptual Reasoning": {
+        "acc": 56.52,
+        "n": 92
+      },
+      "Hypothetical Reasoning": {
+        "acc": 55.81,
+        "n": 86
+      },
+      "Quantitative Reasoning": {
+        "acc": 35.0,
+        "n": 40
+      }
+    },
+    "overall_acc": 52.29,
+    "n_valid": 218,
+    "n_err": 0,
+    "source": "comparison.json (legacy aggregator)"
+  },
+  "C-trained-vl-noter-v1__scivideobench": {
+    "label": "C-trained-vl-noter-v1",
+    "benchmark": "scivideobench",
+    "by_task": {
+      "Conceptual Reasoning": {
+        "acc": 23.91,
+        "n": 92
+      },
+      "Hypothetical Reasoning": {
+        "acc": 24.42,
+        "n": 86
+      },
+      "Quantitative Reasoning": {
+        "acc": 10.0,
+        "n": 40
+      }
+    },
+    "overall_acc": 21.56,
+    "n_valid": 218,
+    "n_err": 0,
+    "source": "comparison.json (legacy aggregator)"
+  },
+  "C0__expvid": {
+    "label": "C0",
+    "benchmark": "expvid",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 44.85,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 48.0,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 3.45,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 11.84,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 20.0,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 17.81,
+        "n": 61
+      }
+    },
+    "overall_acc": 25.94,
+    "n_valid": 745,
+    "n_err": 0,
+    "source": "comparison.json (legacy aggregator)"
+  },
+  "C-7B-self-note__expvid": {
+    "label": "C-7B-self-note",
+    "benchmark": "expvid",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 40.34,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 56.67,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 0.69,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 11.84,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 18.5,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 19.18,
+        "n": 61
+      }
+    },
+    "overall_acc": 26.14,
+    "n_valid": 745,
+    "n_err": 0,
+    "source": "comparison.json (legacy aggregator)"
+  },
+  "C-72B-self-note__expvid": {
+    "label": "C-72B-self-note",
+    "benchmark": "expvid",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 39.63,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 56.67,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 3.45,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 16.45,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 20.39,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 19.18,
+        "n": 61
+      }
+    },
+    "overall_acc": 27.65,
+    "n_valid": 745,
+    "n_err": 0,
+    "source": "comparison.json (legacy aggregator)"
+  },
+  "C-72B-oracle__expvid": {
+    "label": "C-72B-oracle",
+    "benchmark": "expvid",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 75.63,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 61.33,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 7.59,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 51.97,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 42.22,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 51.59,
+        "n": 61
+      }
+    },
+    "overall_acc": 49.31,
+    "n_valid": 745,
+    "n_err": 0,
+    "source": "comparison.json (legacy aggregator)"
+  }
+}

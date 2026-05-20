@@ -1,15 +1,15 @@
 {
   "by_task": {
     "sequence_generation": {
-      "acc": 37.96,
+      "acc": 39.79,
       "n": 161
     },
     "sequence_ordering": {
-      "acc": 56.0,
+      "acc": 56.67,
       "n": 150
     },
     "step_prediction": {
-      "acc": 1.38,
+      "acc": 2.76,
       "n": 145
     },
     "video_verification": {
@@ -17,15 +17,15 @@
       "n": 152
     },
     "experimental_conclusion": {
-      "acc": 17.92,
+      "acc": 19.32,
       "n": 76
     },
     "scientific_discovery": {
-      "acc": 20.41,
+      "acc": 19.32,
       "n": 61
     }
   },
-  "overall_acc": 27.0,
+  "overall_acc": 27.86,
   "n_valid": 745,
   "n_err": 0
 }

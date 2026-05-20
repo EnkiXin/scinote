@@ -19,7 +19,7 @@ log "Fresh C0 eval — 8-GPU parallel over v4_split_test (n=963)"
 PIDS=()
 for g in 0 1 2 3 4 5 6 7; do
     nohup $PY evaluate_c0_test_split.py \
-        --device cuda:$g --benchmark both \
+        --device cuda:$g --benchmark expvid \
         --chunk_id $g --num_chunks 8 \
         > logs/c0_fresh_eval_g$g.log 2>&1 &
     PIDS+=($!)

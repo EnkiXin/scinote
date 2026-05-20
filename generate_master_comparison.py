@@ -30,15 +30,18 @@ ROOT = Path(__file__).resolve().parent
 
 # (label, eval_dir, notes_dir-or-None, blurb)
 CONFIGS = [
-    ("Video (C0)",            "c0_eval",                  None,                 "no note, video + question only"),
-    ("+7B self-note",         "selfnote_7b_eval",         "selfnote_7b_notes",  "Qwen2.5-VL-7B writes a note (no answer access), same 7B answers"),
-    ("+72B self-note",        "selfnote_72b_eval",        "selfnote_72b_notes", "Qwen2.5-VL-72B writes a note (no answer access), 7B answers"),
-    ("+v2-noter (Qwen prose)","v2_noter_eval_fixed",      "v2_noter_notes",     "Qwen2.5-VL-7B+LoRA trained on v2 prose oracle"),
-    ("+v3-noter (Qwen TA)",   "v3_noter_eval",            "v3_noter_notes",     "Qwen2.5-VL-7B+LoRA trained on v3 task-aware oracle"),
-    ("+v4a-noter (MiMo)",     "v4a_noter_eval",           "v4a_noter_notes",    "MiMo-VL-7B-RL+LoRA trained on v4 task-aware oracle"),
-    ("+v4b-noter (MiMo /think)","v4b_noter_eval",         "v4b_noter_notes",    "MiMo-VL-7B-RL+LoRA Think mode, same v4 oracle"),
-    ("Oracle-old (v2 prose, gold)", "oracle_v2_ceiling_eval", "oracle_v2_notes", "Qwen-72B + gold answer, prose schema (lossy ceiling)"),
-    ("Oracle-new (v4 TA, gold)",    "oracle_v4_ceiling_eval", "oracle_v4_notes", "Qwen-72B + gold answer, task-aware schema + frame anchors"),
+    ("Video (C0)",                  "c0_eval",                  None,                          "no note, video + question only"),
+    ("+7B self-note",               "selfnote_7b_eval",         "selfnote_7b_notes",           "Qwen2.5-VL-7B writes a note (no answer access)"),
+    ("+72B self-note",              "selfnote_72b_eval",        "selfnote_72b_notes",          "Qwen2.5-VL-72B writes a note (no answer access)"),
+    ("+InternVL3-8B self-note",     "selfnote_internvl3_8b_eval", "selfnote_internvl3_8b_notes", "OpenGVLab/InternVL3-8B writes a note (no answer)"),
+    ("+InternVL3-14B self-note",    "selfnote_internvl3_14b_eval","selfnote_internvl3_14b_notes","OpenGVLab/InternVL3-14B writes a note (no answer)"),
+    ("+v2-noter (Qwen prose)",      "v2_noter_eval_fixed",      "v2_noter_notes",              "Qwen2.5-VL-7B+LoRA trained on v2 prose oracle"),
+    ("+v3-noter (Qwen TA)",         "v3_noter_eval",            "v3_noter_notes",              "Qwen2.5-VL-7B+LoRA trained on v3 task-aware oracle"),
+    ("+v4a-noter (MiMo)",           "v4a_noter_eval",           "v4a_noter_notes",             "MiMo-VL-7B-RL+LoRA trained on v4 task-aware oracle"),
+    ("+v4b-noter (MiMo /think)",    "v4b_noter_eval",           "v4b_noter_notes",             "MiMo-VL-7B-RL+LoRA Think mode, same v4 oracle"),
+    ("Oracle-old (v2 prose, gold)", "oracle_v2_ceiling_eval",   "oracle_v2_notes",             "Qwen-72B + gold answer, prose schema"),
+    ("Oracle-new (v4 TA, gold)",    "oracle_v4_ceiling_eval",   "oracle_v4_notes",             "Qwen-72B + gold answer, task-aware + frame anchors"),
+    ("Oracle-v5 (v5 TA, gold, InternVL3-78B)", "oracle_v5_ceiling_eval", "oracle_v5_notes",     "InternVL3-78B + gold answer, task-aware + frame anchors"),
 ]
 
 TASK_ORDER = [

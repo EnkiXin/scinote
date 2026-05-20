@@ -53,6 +53,18 @@ CONFIGS = [
     # ── Oracle ceilings (fresh) ──
     ("oracle-old-v2-prose", "expvid",        "results_v4_split/oracle_v2_ceiling_eval/expvid/eval_results_chunk*.json"),
     ("oracle-new-v4-TA",    "expvid",        "results_v4_split/oracle_v4_ceiling_eval/expvid/eval_results_chunk*.json"),
+    # ── v5 statement-grounded (NEW) ──
+    ("v5a-noter",           "expvid",        "results_v4_split/v5a_noter_eval/expvid/eval_results_chunk*.json"),
+    ("v5a-noter",           "scivideobench", "results_v4_split/v5a_noter_eval/scivideobench/eval_results_chunk*.json"),
+    ("v5b-noter",           "expvid",        "results_v4_split/v5b_noter_eval/expvid/eval_results_chunk*.json"),
+    ("v5b-noter",           "scivideobench", "results_v4_split/v5b_noter_eval/scivideobench/eval_results_chunk*.json"),
+    ("oracle-v5-stmt",      "expvid",        "results_v4_split/oracle_v5_ceiling_eval/expvid/eval_results_chunk*.json"),
+    ("oracle-v5-stmt",      "scivideobench", "results_v4_split/oracle_v5_ceiling_eval/scivideobench/eval_results_chunk*.json"),
+    # ── InternVL self-notes (already computed; for the master table) ──
+    ("internvl3-8b-self",   "expvid",        "results_v4_split/selfnote_internvl3_8b_eval/expvid/eval_results_chunk*.json"),
+    ("internvl3-8b-self",   "scivideobench", "results_v4_split/selfnote_internvl3_8b_eval/scivideobench/eval_results_chunk*.json"),
+    ("internvl3-14b-self",  "expvid",        "results_v4_split/selfnote_internvl3_14b_eval/expvid/eval_results_chunk*.json"),
+    ("internvl3-14b-self",  "scivideobench", "results_v4_split/selfnote_internvl3_14b_eval/scivideobench/eval_results_chunk*.json"),
 ]
 
 # ── Baselines we don't have raw files for; pulled from comparison.json ───────
@@ -173,7 +185,11 @@ def main():
             # Trained noters
             "v2-noter", "v3-noter", "v4a-noter", "v4b-noter",
             # Oracle ceilings (fresh)
-            "oracle-old-v2-prose", "oracle-new-v4-TA",
+            "oracle-old-v2-prose", "oracle-new-v4-TA", "oracle-v5-stmt",
+            # InternVL self-notes (no training, untrained backbone)
+            "internvl3-8b-self", "internvl3-14b-self",
+            # v5 statement-grounded trained noters
+            "v5a-noter", "v5b-noter",
             # Legacy aggregates (informational; comparison.json — different evaluator)
             "C0", "C-7B-self-note", "C-72B-self-note", "C-72B-oracle",
         ]

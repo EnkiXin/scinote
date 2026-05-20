@@ -1,4 +1,109 @@
 {
+  "C0-fresh__expvid": {
+    "label": "C0-fresh",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v4_split/c0_eval/expvid/eval_results_chunk*.json",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 43.33,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 51.33,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 0.0,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 18.42,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 18.73,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 16.56,
+        "n": 61
+      }
+    },
+    "overall_acc": 26.73,
+    "n_valid": 745,
+    "n_err": 0,
+    "n_files": 8
+  },
+  "self-7B-fresh__expvid": {
+    "label": "self-7B-fresh",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v4_split/selfnote_7b_eval/expvid/eval_results_chunk*.json",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 39.93,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 54.0,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 0.69,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 13.82,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 18.31,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 19.35,
+        "n": 61
+      }
+    },
+    "overall_acc": 25.91,
+    "n_valid": 745,
+    "n_err": 0,
+    "n_files": 8
+  },
+  "self-72B-fresh__expvid": {
+    "label": "self-72B-fresh",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v4_split/selfnote_72b_eval/expvid/eval_results_chunk*.json",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 37.96,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 56.0,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 1.38,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 18.42,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 17.92,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 20.41,
+        "n": 61
+      }
+    },
+    "overall_acc": 27.0,
+    "n_valid": 745,
+    "n_err": 0,
+    "n_files": 8
+  },
   "v2-noter__expvid": {
     "label": "v2-noter",
     "benchmark": "expvid",
@@ -253,6 +358,131 @@
     "n_valid": 745,
     "n_err": 0,
     "n_files": 8
+  },
+  "v5a-noter__expvid": {
+    "label": "v5a-noter",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v4_split/v5a_noter_eval/expvid/eval_results_chunk*.json",
+    "by_task": {},
+    "overall_acc": 0.0,
+    "n_valid": 0,
+    "n_err": 0,
+    "n_files": 0
+  },
+  "v5a-noter__scivideobench": {
+    "label": "v5a-noter",
+    "benchmark": "scivideobench",
+    "source": "fresh aggregation from results_v4_split/v5a_noter_eval/scivideobench/eval_results_chunk*.json",
+    "by_task": {},
+    "overall_acc": 0.0,
+    "n_valid": 0,
+    "n_err": 0,
+    "n_files": 0
+  },
+  "v5b-noter__expvid": {
+    "label": "v5b-noter",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v4_split/v5b_noter_eval/expvid/eval_results_chunk*.json",
+    "by_task": {},
+    "overall_acc": 0.0,
+    "n_valid": 0,
+    "n_err": 0,
+    "n_files": 0
+  },
+  "v5b-noter__scivideobench": {
+    "label": "v5b-noter",
+    "benchmark": "scivideobench",
+    "source": "fresh aggregation from results_v4_split/v5b_noter_eval/scivideobench/eval_results_chunk*.json",
+    "by_task": {},
+    "overall_acc": 0.0,
+    "n_valid": 0,
+    "n_err": 0,
+    "n_files": 0
+  },
+  "oracle-v5-stmt__expvid": {
+    "label": "oracle-v5-stmt",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v4_split/oracle_v5_ceiling_eval/expvid/eval_results_chunk*.json",
+    "by_task": {},
+    "overall_acc": 0.0,
+    "n_valid": 0,
+    "n_err": 0,
+    "n_files": 0
+  },
+  "oracle-v5-stmt__scivideobench": {
+    "label": "oracle-v5-stmt",
+    "benchmark": "scivideobench",
+    "source": "fresh aggregation from results_v4_split/oracle_v5_ceiling_eval/scivideobench/eval_results_chunk*.json",
+    "by_task": {},
+    "overall_acc": 0.0,
+    "n_valid": 0,
+    "n_err": 0,
+    "n_files": 0
+  },
+  "internvl3-8b-self__expvid": {
+    "label": "internvl3-8b-self",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v4_split/selfnote_internvl3_8b_eval/expvid/eval_results_chunk*.json",
+    "by_task": {
+      "sequence_generation": {
+        "acc": 39.79,
+        "n": 161
+      },
+      "sequence_ordering": {
+        "acc": 56.67,
+        "n": 150
+      },
+      "step_prediction": {
+        "acc": 2.76,
+        "n": 145
+      },
+      "video_verification": {
+        "acc": 18.42,
+        "n": 152
+      },
+      "experimental_conclusion": {
+        "acc": 19.32,
+        "n": 76
+      },
+      "scientific_discovery": {
+        "acc": 19.32,
+        "n": 61
+      }
+    },
+    "overall_acc": 27.86,
+    "n_valid": 745,
+    "n_err": 0,
+    "n_files": 2
+  },
+  "internvl3-8b-self__scivideobench": {
+    "label": "internvl3-8b-self",
+    "benchmark": "scivideobench",
+    "source": "fresh aggregation from results_v4_split/selfnote_internvl3_8b_eval/scivideobench/eval_results_chunk*.json",
+    "by_task": {},
+    "overall_acc": 0.0,
+    "n_valid": 0,
+    "n_err": 0,
+    "n_files": 0
+  },
+  "internvl3-14b-self__expvid": {
+    "label": "internvl3-14b-self",
+    "benchmark": "expvid",
+    "source": "fresh aggregation from results_v4_split/selfnote_internvl3_14b_eval/expvid/eval_results_chunk*.json",
+    "by_task": {},
+    "overall_acc": 0.0,
+    "n_valid": 0,
+    "n_err": 0,
+    "n_files": 0
+  },
+  "internvl3-14b-self__scivideobench": {
+    "label": "internvl3-14b-self",
+    "benchmark": "scivideobench",
+    "source": "fresh aggregation from results_v4_split/selfnote_internvl3_14b_eval/scivideobench/eval_results_chunk*.json",
+    "by_task": {},
+    "overall_acc": 0.0,
+    "n_valid": 0,
+    "n_err": 0,
+    "n_files": 0
   },
   "C0__scivideobench": {
     "label": "C0",

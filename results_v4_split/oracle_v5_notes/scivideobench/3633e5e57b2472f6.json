@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_61829_4", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 15-20: A graph showing a time-resolved measurement with a final peak indicating a diameter of approximately 110 nm\"\n  ],\n  \"salient_objects_or_text\": [\n    \"PLA_black_200\u00b0C, Diameter [nm], 110 nm\"\n  ]\n}\n```"}

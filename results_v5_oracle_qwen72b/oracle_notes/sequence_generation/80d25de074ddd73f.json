@@ -1,0 +1,1 @@
+{"task": "sequence_generation", "video_path": "videos/level_2/video_segments/61383/clip_8.mp4", "item_id": "61383_clip8_sequence_generation", "gold": ["59", "60", "61"], "note": "{\n  \"supporting_cues\": [],\n  \"salient_objects_or_text\": [\n    \"frame 0-32: bar graphs showing relative miRNA expression levels in sham and UUO conditions\"\n  ]\n}"}

@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_65887_2", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: gloved hands placing a tube labeled 'VIRUS' into a centrifuge\"\n  ],\n  \"salient_objects_or_text\": [\n    \"tube labeled 'VIRUS'\"\n  ]\n}\n```"}

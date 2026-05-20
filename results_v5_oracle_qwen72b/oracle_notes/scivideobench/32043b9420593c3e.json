@@ -1,0 +1,1 @@
+{"video_id": "65887", "question_id": "2", "task": "mc", "gold": "A", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: gloved hands placing a tube labeled 'VIRUS' into a centrifuge\"\n  ],\n  \"salient_objects_or_text\": [\n    \"tube labeled 'VIRUS'\"\n  ]\n}\n```"}

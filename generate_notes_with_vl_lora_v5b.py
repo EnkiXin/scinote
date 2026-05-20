@@ -21,7 +21,7 @@ from train_notetaker_vl_v5b_mimo_think import (
 )
 from evaluate_unified import MAX_PIXELS
 
-OUT_ROOT = Path(__file__).resolve().parent / "results_v4_split" / "v4b_noter_notes"
+OUT_ROOT = Path(__file__).resolve().parent / "results_v4_split" / "v5b_noter_notes"
 OUT_ROOT.mkdir(parents=True, exist_ok=True)
 
 

@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_67000_4", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: gloved hand applying a strip onto a nitrocellulose membrane, indicating a step in the immunoassay process\"\n  ],\n  \"salient_objects_or_text\": [\n    \"nitrocellulose membrane, control line\"\n  ]\n}\n```"}

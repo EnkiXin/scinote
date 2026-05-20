@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_66831_4", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: pipette dispensing liquid into a test tube labeled 'Binding Buffer'\"\n  ],\n  \"salient_objects_or_text\": [\n    \"text overlay indicating 'Control Tube 1: 5 \u00b5L Annexin V-PE (10 min)'\"\n  ]\n}\n```"}

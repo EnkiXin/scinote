@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_58781_4", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 5-9: pipette transferring liquid into well containing clear medium\"\n  ],\n  \"salient_objects_or_text\": [\n    \"text indicating 'Growing Cells on Acoustically-Transparent Polyester Film'\"\n  ]\n}\n```"}

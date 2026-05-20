@@ -1,0 +1,1 @@
+{"video_id": "2157", "question_id": "1", "task": "mc", "gold": "B", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: gloved hands placing a clear, moist medium into a container, ensuring it remains hydrated\"\n  ],\n  \"salient_objects_or_text\": [\n    \"clear, moist medium in a container\"\n  ]\n}\n```"}

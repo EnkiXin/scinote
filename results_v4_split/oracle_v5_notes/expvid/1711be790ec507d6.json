@@ -1,0 +1,1 @@
+{"sample_id": "expvid_sequence_generation_videos_level_2_video_segments_61383_clip_8.mp4_61383_clip8_sequence_generation", "benchmark": "expvid", "task": "sequence_generation", "note": "{\n  \"supporting_cues\": [],\n  \"salient_objects_or_text\": [\n    \"frame 0-32: bar graphs showing relative miRNA expression levels in sham and UUO conditions\"\n  ]\n}"}

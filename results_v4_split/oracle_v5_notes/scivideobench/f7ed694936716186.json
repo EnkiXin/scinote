@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_67311_3", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: computer screen displaying flow cytometry data with numerical values and graphs\"\n  ],\n  \"salient_objects_or_text\": [\n    \"text on the screen showing 'Total Events' and 'Events/sec' values\"\n  ]\n}\n```"}

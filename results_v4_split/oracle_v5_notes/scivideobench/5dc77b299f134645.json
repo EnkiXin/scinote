@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_67263_1", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 20-25: microscope setup with a prism positioned at the base of the slide, indicating the use of total internal reflection\"\n  ],\n  \"salient_objects_or_text\": [\n    \"prism and microscope slide setup\"\n  ]\n}\n```"}

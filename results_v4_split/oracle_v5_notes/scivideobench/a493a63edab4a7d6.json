@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_57502_2", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 20-25: A person in a lab coat is seen placing a sample into an oven, indicating a step in the annealing process.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"oven with temperature settings visible\"\n  ]\n}\n```"}

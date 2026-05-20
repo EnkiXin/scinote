@@ -1,0 +1,1 @@
+{"video_id": "52028", "question_id": "1", "task": "mc", "gold": "D", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 20-25: A hand wearing a blue glove is seen carefully spreading a white substance onto a glass slide, ensuring an even layer.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"Glass slide and white substance\"\n  ]\n}\n```"}

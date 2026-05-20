@@ -1,0 +1,1 @@
+{"video_id": "65065", "question_id": "2", "task": "mc", "gold": "G", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 15-20: A hand wearing a blue glove is seen placing a sample into a furnace, indicating a heat treatment process.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The furnace with a digital display showing temperature settings.\"\n  ]\n}\n```"}

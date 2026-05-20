@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_61071_4", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 20-25: A hand places a component onto a substrate, which is positioned under an evaporation apparatus.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"substrate and evaporation apparatus\"\n  ]\n}\n```"}

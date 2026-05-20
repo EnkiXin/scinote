@@ -1,0 +1,1 @@
+{"video_id": "61071", "question_id": "4", "task": "mc", "gold": "E", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 20-25: A hand places a component onto a substrate, which is positioned under an evaporation apparatus.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"substrate and evaporation apparatus\"\n  ]\n}\n```"}

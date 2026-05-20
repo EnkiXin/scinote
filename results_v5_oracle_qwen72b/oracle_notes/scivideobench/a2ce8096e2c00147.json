@@ -1,0 +1,1 @@
+{"video_id": "65632", "question_id": "1", "task": "mc", "gold": "H", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 5-9: A person uses a tool to stretch a balloon opening, indicating the tool's role in preparing the balloon.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The tool used for stretching the balloon opening is visible.\"\n  ]\n}\n```"}

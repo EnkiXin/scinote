@@ -1,0 +1,1 @@
+{"video_id": "65519", "question_id": "1", "task": "mc", "gold": "H", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: software interface showing a 'Chirp correction' option with no file listed, indicating the absence of a generated file\"\n  ],\n  \"salient_objects_or_text\": [\n    \"Chirp correction option in the software interface\"\n  ]\n}\n```"}

@@ -1,0 +1,1 @@
+{"video_id": "52293", "question_id": "4", "task": "mc", "gold": "E", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: text overlay indicating 'Secondary Antibodies for Iba1: donkey anti-rabbit 594' and 'for Pan-neuronal: donkey anti-mouse 488'\"\n  ],\n  \"salient_objects_or_text\": [\n    \"text specifying secondary antibody details\"\n  ]\n}\n```"}

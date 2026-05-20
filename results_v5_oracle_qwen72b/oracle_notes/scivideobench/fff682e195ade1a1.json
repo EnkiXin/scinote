@@ -1,0 +1,1 @@
+{"video_id": "59909", "question_id": "5", "task": "mc", "gold": "H", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: A hand adjusts a control panel with a pressure gauge, indicating a change in pressure settings.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"Pressure gauge reading and control panel labels\"\n  ]\n}\n```"}

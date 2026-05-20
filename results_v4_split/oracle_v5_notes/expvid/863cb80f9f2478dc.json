@@ -1,0 +1,1 @@
+{"sample_id": "expvid_step_prediction_videos_level_2_step_prediction_54863_clip_9_prediction.mp4_54863_clip_9_step_prediction", "benchmark": "expvid", "task": "step_prediction", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 3-5: gloved hand placing aluminum foil over the gel apparatus\"\n  ],\n  \"salient_objects_or_text\": [\n    \"aluminum foil\"\n  ]\n}\n```"}

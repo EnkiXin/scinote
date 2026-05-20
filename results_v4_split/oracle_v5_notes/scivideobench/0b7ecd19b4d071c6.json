@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_4178_2", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: A hand is shown applying clips to labeled tubes marked 'DGA' and 'PA', indicating a step in the procedure where these clips are crucial.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"DGA, PA\"\n  ]\n}\n```"}

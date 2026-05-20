@@ -1,0 +1,1 @@
+{"video_id": "66831", "question_id": "4", "task": "mc", "gold": "G", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: pipette dispensing liquid into a test tube labeled 'Binding Buffer'\"\n  ],\n  \"salient_objects_or_text\": [\n    \"text overlay indicating 'Control Tube 1: 5 \u00b5L Annexin V-PE (10 min)'\"\n  ]\n}\n```"}

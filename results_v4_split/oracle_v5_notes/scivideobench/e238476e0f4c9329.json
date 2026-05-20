@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_64571_3", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: A hand in a blue glove is seen holding a small vial labeled with a chemical formula and a mass of 13.2 mg.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The vial label includes the text 'Pd(0) 13.2 mg'\"\n  ]\n}\n```"}

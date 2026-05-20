@@ -1,0 +1,1 @@
+{"video_id": "53631", "question_id": "4", "task": "mc", "gold": "H", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: A hand wearing a blue glove is seen holding a small container with a label that reads 'ZnCl2', indicating the substance being used.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The label 'ZnCl2' on the container in frame 10-15\"\n  ]\n}\n```"}

@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_64870_3", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 20-25: A hand adjusts a component on a device, which is shown to be responsive to a magnetic field in subsequent frames.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"Magnetic guidance cooling and heating labels\"\n  ]\n}\n```"}

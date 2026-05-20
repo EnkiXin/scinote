@@ -1,0 +1,1 @@
+{"sample_id": "scivideobench_mc_57735_3", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: hands wearing gloves carefully position a circular separator material between two metallic components\"\n  ],\n  \"salient_objects_or_text\": [\n    \"separator diameter: 1.905 cm (5/8 in)\"\n  ]\n}\n```"}

@@ -10,7 +10,7 @@
 
 **Paper 1 (now confirmed twice)**: visual notes do NOT close the small-model gap to oracle on scientific video reasoning. The +30 pp oracle lift is answer-conditioning leak, and is *not* distillable into a trained noter (best trained-noter Δ is +2-3 pp). This survives every engineering knob we have tried so far — base model swap, task-aware schemas, Think mode, in-distribution training, oracle redesign.
 
-**Paper 1 Extension (2026-05-19/20)**: the task-aware oracle (v4, Qwen-72B with per-task structured schemas + frame anchors) raises the **ceiling** from 49.31% → **67.84%** on ExpVid 20% test, but the trained noter (v4a, MiMo-VL-7B-RL) only reaches 26.60% — so the distillation gap **widened** from 22.80 pp to 41.24 pp. The ceiling is now even further out of reach; engineering the supervision target alone does not solve the problem.
+**Paper 1 Extension (2026-05-19/20)**: the task-aware oracle (v4, Qwen-72B with per-task structured schemas + frame anchors) raises the **ceiling** from 54.61% → **67.84%** on ExpVid 20% test (both measured with the same evaluator), but the trained noter (v4a, MiMo-VL-7B-RL) only reaches 26.60% — so the distillation gap **widened** from 28.10 pp to 41.24 pp. The ceiling is now even further out of reach; engineering the supervision target alone does not solve the problem.
 
 **Conclusion**: paper-2 (counterfactual ranker, [`COUNTERFACTUAL_RANKER_PIPELINE.md`](COUNTERFACTUAL_RANKER_PIPELINE.md)) — trade unlearnable "answer-aware focus" for learnable "which segments does the reasoner need" — is the right next direction.
 
@@ -89,7 +89,7 @@ All trained noters distill oracle notes via LoRA SFT. None sees the gold answer 
 
 **Headline progression** (ExpVid 20% test): v2 26.51 → v3 26.08 → v4a **26.60** → v4b 26.07. Each engineering swap moves the needle <1 pp. **Δ across 4 noter generations: +0.09 pp.**
 
-**v4 oracle ceiling on the same test split: 67.84 %** — gap to best trained noter (v4a) = 41.24 pp. The gap has *widened* with the new oracle (was 22.80 pp under v2 prose oracle), confirming structural unlearnability of answer-aware focus.
+**v4 oracle ceiling on the same test split: 67.84 %** (vs v2 prose oracle ceiling 54.61 % on same eval pipeline) — gap to best trained noter (v4a) = 41.24 pp. The gap has *widened* with the new oracle (was 28.10 pp under v2 prose oracle), confirming structural unlearnability of answer-aware focus.
 
 ---
 
@@ -292,7 +292,7 @@ cut step time from **30s → 1.5s** (≈20× speedup). Each training run: 28 min
 | **v4a-Noter (MiMo)**      | MiMo-VL-7B-RL + LoRA            | **26.60** | 20.64 |
 | v4b-Noter (MiMo Think)    | MiMo-VL-7B-RL + LoRA /think     | 26.07 | 20.18 |
 | **C-oracle-new (v4, task-aware)** ⭐ | **Qwen-72B + gold + new schemas** | **67.84** | n/a |
-| C-oracle-old (v2 prose)   | Qwen-72B + gold, prose schema   | 49.31 | 52.29 |
+| C-oracle-old (v2 prose)   | Qwen-72B + gold, prose schema   | 54.61¹ | 52.29 |
 
 **Three independent levers, each ≤1 pp**:
 * Model swap Qwen→MiMo: 26.51 → 26.60 = **+0.09 pp**
@@ -315,22 +315,28 @@ cut step time from **30s → 1.5s** (≈20× speedup). Each training run: 28 min
 
 ### 6.5 Track A oracle ceiling — the big news (2026-05-19/20)
 
-**The task-aware v4 oracle has a MUCH higher ceiling than the v2 prose oracle.**
+**The task-aware v4 oracle has a higher ceiling than the v2 prose oracle, even after evaluator alignment.**
 
 | Oracle | Schema | ExpVid 20% test acc |
 |---|---|---:|
-| C-oracle-old | Qwen-72B + gold, prose | **49.31** |
-| **C-oracle-new** | **Qwen-72B + gold, task-aware + frame anchors** | **67.84 (+18.53 pp)** |
+| C-oracle-old | Qwen-72B + gold, prose | **54.61**¹ |
+| **C-oracle-new** | **Qwen-72B + gold, task-aware + frame anchors** | **67.84 (+13.23 pp)** |
 
-Per-task v4-oracle ceiling:
-* sequence_generation: **90.38%** (F1; was 76% partial earlier)
-* sequence_ordering:    78.00%
-* video_verification:   71.05%
-* scientific_discovery: 48.73%
-* step_prediction:      48.28%
-* experimental_conclusion: 46.32%
+¹ Newly recomputed with the same evaluator as v4a/v4b/v4-oracle. An older historical run reported 49.31 with a different MC parser; that older number is *not* apples-to-apples with the v4 pipeline. See §6.6 footnote.
 
-**Implication**: schema redesign on the oracle side DID work — the new oracle notes contain ~18 pp more usable signal than the old prose notes. But the trained noter v4a only reaches 26.60% on the same test set, so the **distillation gap widened from 22.80 pp to 41.24 pp**. The ceiling moved further out of reach. This is the strongest paper-1 confirmation yet that the gap is structural (answer-conditional selection), not engineering-fixable.
+Per-task v4-oracle vs v2-oracle ceilings (both same evaluator):
+
+| Task | v2 prose oracle | v4 task-aware oracle | Δ |
+|---|---:|---:|---:|
+| sequence_generation     | 75.84 | **90.38** | +14.54 |
+| sequence_ordering       | 65.33 | **78.00** | +12.67 |
+| step_prediction         |  7.59 | **48.28** | **+40.69** ⭐ |
+| video_verification      | 72.37 | 71.05 | −1.32 |
+| experimental_conclusion | 44.31 | **46.32** | +2.01 |
+| scientific_discovery    | **52.52** | 48.73 | −3.79 |
+| **overall**             | **54.61** | **67.84** | **+13.23** |
+
+**Implication**: schema redesign on the oracle side DID work — the new oracle notes contain +13.23 pp more usable signal than the old prose notes on average, with the bulk of the gain on `step_prediction` (+40.69 pp from explicit integer step IDs). On `scientific_discovery` and `video_verification`, the new schema actually *loses* a little to the old (the v2 prose oracle's free-form description happens to encode MC-distinguishing visual cues better than the task-aware "supporting/refuting per option" schema, which can dilute the signal). But the trained noter v4a only reaches 26.60% on the same test set, so the **distillation gap widened from 28.10 pp (54.61 − 26.51) to 41.24 pp (67.84 − 26.60)**. The ceiling moved further out of reach. This is the strongest paper-1 confirmation yet that the gap is structural (answer-conditional selection), not engineering-fixable.
 
 ---
 
@@ -342,17 +348,16 @@ All numbers on the **same 20 % held-out test split** (per-task 80/20, seed `rank
 
 | Task | n | metric | **C0 Video** | +v2-noter (Qwen prose) | +v3-noter (Qwen TA) | +v4a-noter (MiMo TA) | +v4b-noter (MiMo Think) | Oracle-old (v2 prose) | Oracle-new (v4 TA) |
 |---|---:|---|---:|---:|---:|---:|---:|---:|---:|
-| sequence_generation     | 161 | F1 (steps)  | **44.85** ✅ | 35.40 | 39.20 | 38.54 | 37.14 | 76.0¹ | **90.38** ⭐ |
-| sequence_ordering       | 150 | MC          | 48.00 | 53.33 ✅ | 52.00 | 52.67 | 49.33 | 65.7¹ | **78.00** ⭐ |
-| step_prediction         | 145 | exact (int) | 3.45  | 2.07  | 3.45  | **8.97** ✅ | 7.59  | n/a   | **48.28** ⭐ |
-| video_verification      | 152 | MC          | 11.84 | **21.71** ✅ | 19.08 | 15.79 | 20.39 | n/a   | **71.05** ⭐ |
-| experimental_conclusion |  76 | F1 (fitb)   | **20.00** ✅ | 17.07 | 15.58 | 14.01 | 13.95 | n/a   | **46.32** ⭐ |
-| scientific_discovery    |  61 | F1 (fitb)   | 17.81 | **18.89** ✅ | 12.06 | 15.51 | 12.85 | n/a   | **48.73** ⭐ |
-| **overall**             | 745 |             | 25.94 | 26.51 | 26.08 | **26.60** ✅ | 26.07 | 49.31² | **67.84** ⭐ |
-| Δ vs Video              |     |             | —     | +0.57 | +0.14 | **+0.66** | +0.13 | +23.37 | **+41.90** |
+| sequence_generation     | 161 | F1 (steps)  | **44.85** ✅ | 35.40 | 39.20 | 38.54 | 37.14 | 75.84 | **90.38** ⭐ |
+| sequence_ordering       | 150 | MC          | 48.00 | 53.33 ✅ | 52.00 | 52.67 | 49.33 | 65.33 | **78.00** ⭐ |
+| step_prediction         | 145 | exact (int) | 3.45  | 2.07  | 3.45  | **8.97** ✅ | 7.59  | 7.59  | **48.28** ⭐ |
+| video_verification      | 152 | MC          | 11.84 | **21.71** ✅ | 19.08 | 15.79 | 20.39 | 72.37 | **71.05** ⭐ |
+| experimental_conclusion |  76 | F1 (fitb)   | **20.00** ✅ | 17.07 | 15.58 | 14.01 | 13.95 | 44.31 | **46.32** ⭐ |
+| scientific_discovery    |  61 | F1 (fitb)   | 17.81 | **18.89** ✅ | 12.06 | 15.51 | 12.85 | **52.52** ⭐ | 48.73 |
+| **overall**             | 745 |             | 25.94 | 26.51 | 26.08 | **26.60** ✅ | 26.07 | 54.61 | **67.84** ⭐ |
+| Δ vs Video              |     |             | —     | +0.57 | +0.14 | **+0.66** | +0.13 | +28.67 | **+41.90** |
 
-¹ v2 prose oracle per-task only ran partially on full ExpVid (n=215 / n=140), not on the 20% test split. The 49.31 overall is reconstructed from the 20% test eval.
-² C-oracle-old overall on 20% test split.
+All numbers above (including both oracle ceilings) were freshly computed with the same evaluator pipeline (`evaluate_v4_test_split.py` / `evaluate_oracle_{v2,v4}_ceiling.py`) so they are directly comparable. An older historical run of the v2 prose oracle stored in `results_v2_split/comparison.json` reported 49.31 % overall — that figure used a different MC parser, mainly affecting `video_verification` (51.97 vs 72.37), and is **not** apples-to-apples with the rest of the table. Use the 54.61 % figure when comparing across configurations.
 
 ### Per-task readings
 
@@ -436,8 +441,8 @@ L1 averaged, V+Note − V+RandomNote ≈ 0 (Δ = −0.7 pp). On operation and qu
 
 ### F6. Oracle-note ceiling is huge, but is NOT distillable
 
-* Old prose oracle ceiling: SciVB 48.60 / ExpVid 49.31 (+30 / +23 pp over Video)
-* **New task-aware oracle ceiling**: ExpVid 67.84 (+42 pp over Video)
+* Old prose oracle ceiling (same eval pipeline as below): SciVB 48.60 (full n=1000) / ExpVid 54.61 (20% test) (+30 / +28.67 pp over Video)
+* **New task-aware oracle ceiling**: ExpVid 67.84 (+41.90 pp over Video)
 * Best trained noter (v4a MiMo task-aware): ExpVid 26.60 (+0.66 pp over Video, **41 pp short of new ceiling**)
 
 The visual evidence needed for these reasoning questions IS in the video — small models simply fail to focus on it. Oracle's answer-aware focus is **unlearnable from oracle outputs alone**.
@@ -470,7 +475,7 @@ Default `num_workers=0` left 8×H200 at ~18% TDP idle on CPU video decode. With 
 | 2026-05-17 | **Paper 1 complete**. Frame-selection paradigm closed (all selectors ±1 pp uniform) |
 | 2026-05-18 | v2 per-task 80/20 methodology adopted; v2 eval-script bug fixed; v3 task-aware schema retrain done; task-gated v2 declared best non-oracle config |
 | 2026-05-19 | Paper-1 extension W1-W3 complete (v4 oracle + v4a/v4b MiMo). Net result: model swap + Think + schema each <1 pp. |
-| 2026-05-19/20 | **v4 task-aware oracle ceiling = 67.84%** vs old 49.31%. Schema works on the supervision side, but distillation gap widens. |
+| 2026-05-19/20 | **v4 task-aware oracle ceiling = 67.84%** vs v2 prose oracle 54.61% (same eval pipeline). Schema works on the supervision side; distillation gap widens from 28.10pp to 41.24pp. |
 | Next | Track B + paper-2 counterfactual ranker ([`COUNTERFACTUAL_RANKER_PIPELINE.md`](COUNTERFACTUAL_RANKER_PIPELINE.md)) |
 
 ---

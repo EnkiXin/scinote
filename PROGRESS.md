@@ -334,6 +334,66 @@ Per-task v4-oracle ceiling:
 
 ---
 
+## 6.6 Master per-task comparison — no-note vs each note source
+
+All numbers on the **same 20 % held-out test split** (per-task 80/20, seed `ranker_pipeline_v1`). The first column is Video-only (C0); every other column is `video + <note source> + Q + opts` with the same Qwen2.5-VL-7B answer model. **Best non-oracle** in each row marked ✅; **best oracle** marked ⭐.
+
+### ExpVid L2+L3 (n=745, Qwen-7B answer)
+
+| Task | n | metric | **C0 Video** | +v2-noter (Qwen prose) | +v3-noter (Qwen TA) | +v4a-noter (MiMo TA) | +v4b-noter (MiMo Think) | Oracle-old (v2 prose) | Oracle-new (v4 TA) |
+|---|---:|---|---:|---:|---:|---:|---:|---:|---:|
+| sequence_generation     | 161 | F1 (steps)  | **44.85** ✅ | 35.40 | 39.20 | 38.54 | 37.14 | 76.0¹ | **90.38** ⭐ |
+| sequence_ordering       | 150 | MC          | 48.00 | 53.33 ✅ | 52.00 | 52.67 | 49.33 | 65.7¹ | **78.00** ⭐ |
+| step_prediction         | 145 | exact (int) | 3.45  | 2.07  | 3.45  | **8.97** ✅ | 7.59  | n/a   | **48.28** ⭐ |
+| video_verification      | 152 | MC          | 11.84 | **21.71** ✅ | 19.08 | 15.79 | 20.39 | n/a   | **71.05** ⭐ |
+| experimental_conclusion |  76 | F1 (fitb)   | **20.00** ✅ | 17.07 | 15.58 | 14.01 | 13.95 | n/a   | **46.32** ⭐ |
+| scientific_discovery    |  61 | F1 (fitb)   | 17.81 | **18.89** ✅ | 12.06 | 15.51 | 12.85 | n/a   | **48.73** ⭐ |
+| **overall**             | 745 |             | 25.94 | 26.51 | 26.08 | **26.60** ✅ | 26.07 | 49.31² | **67.84** ⭐ |
+| Δ vs Video              |     |             | —     | +0.57 | +0.14 | **+0.66** | +0.13 | +23.37 | **+41.90** |
+
+¹ v2 prose oracle per-task only ran partially on full ExpVid (n=215 / n=140), not on the 20% test split. The 49.31 overall is reconstructed from the 20% test eval.
+² C-oracle-old overall on 20% test split.
+
+### Per-task readings
+
+* **sequence_generation (seqgen, F1)**: best non-oracle is C0 (44.85). Every trained noter actively hurts because noter outputs introduce off-by-one step IDs and step-name paraphrases. Oracle-new hits **90.38** because the v4 schema emits explicit `step_index` integers, which the answer model can lexically match. Gap C0→oracle-new = +45.53 pp; gap C0→best-noter = −6.31 pp. The signal exists in video, the trained noters cannot extract it.
+* **sequence_ordering (MC)**: closed-vocabulary task; all noters help similarly (+4-5 pp over C0). MiMo v4a slightly worse than v2 here (52.67 vs 53.33), Think mode hurts (49.33). Oracle ceiling 78.0 — MC robustness means smaller schema-design effect on ceiling.
+* **step_prediction (integer)**: largest single-task noter gain ever recorded — v4a's **+5.52 pp** over v2 (2.07 → 8.97). This is the only place MiMo + task-aware oracle measurably helps a non-MC task. Still 39 pp short of the v4 oracle ceiling.
+* **video_verification (MC)**: v2-noter (21.71) is the only configuration that nearly matches its own oracle ceiling — until you look at the v4-task-aware oracle, which jumps to **71.05** (+50 pp over v2-noter). Schema redesign on this MC task unlocks a previously hidden signal.
+* **experimental_conclusion (fitb)**: every noter worse than C0. Fitb requires verbatim on-screen text; trained noters either paraphrase (v2/v4a/v4b) or hallucinate (v3). Oracle ceiling +26 pp confirms the signal is in the video.
+* **scientific_discovery (fitb)**: v2 marginally beats C0 (18.89 vs 17.81); v3/v4a/v4b all worse. Same root cause as exp_conclusion.
+
+### Headline reading
+
+The **biggest single delta in the entire matrix** is the v4 task-aware oracle on `sequence_generation`: **+45.53 pp over C0**. This is the same task where every trained noter *loses* to C0. The same supervisory schema, when (a) given the gold answer and (b) executed by a 72B teacher, produces a usable step-by-step note; when the schema target is distilled into a 7B-class noter without the answer, the noter fails to read step IDs from the frames and hurts the answer model.
+
+### SciVideoBench (n=218 20% test, Qwen-3B answer; n=1000 for paper-1 row)
+
+Per-question-type breakdown only exists on the full benchmark (n=1000); the 20% test split numbers below are overall-only. SciVideoBench has no v4 oracle (regen was ExpVid-only).
+
+| Source / n | Conceptual | Hypothetical | Quantitative | Overall |
+|---|---:|---:|---:|---:|
+| **Full n=1000 — Qwen-3B answer** | | | | |
+| C0 Video                              | 23.24 | 20.00 |  9.39 | 18.60 |
+| +3B-self-note                         | 25.14 | 20.52 |  8.98 | 19.40 |
+| +trained-v1-noter (cross-benchmark)   | n/a   | n/a   | n/a   | 20.50 |
+| **C-72B-oracle (v2 prose)**           | **54.86** | **50.13** | **36.73** | **48.60** ⭐ |
+| **Full n=1000 — Qwen-7B answer (direction flip)** | | | | |
+| C0 Video                              | n/a | n/a | n/a | **24.90** ✅ |
+| +trained-v1-noter                     | n/a | n/a | n/a | 21.30 ❌ |
+| **20 % test n=218 — Qwen-3B answer** | overall only | | | |
+| C0 Video                              |   |   |   | 20.64 |
+| +3B-self-note                         |   |   |   | **24.77** ✅ |
+| +v1-noter                             |   |   |   | 21.56 |
+| +v2-noter (Qwen-7B + LoRA prose)      |   |   |   | 23.39 |
+| +v4a-noter (MiMo)                     |   |   |   | 20.64 |
+| +v4b-noter (MiMo Think)               |   |   |   | 20.18 |
+| **C-72B-oracle**                      |   |   |   | **52.29** ⭐ |
+
+**Note on SciVB v4a/v4b regression**: v4 oracle regen ran ExpVid-only, so v4a/v4b's SciVB training target is identical to v2's (no SciVB oracle change). The drop 23.39 → 20.64 reflects MiMo-base behaviour on SciVB-style conceptual/hypothetical MC, not a schema effect.
+
+---
+
 ## 7. Currently running / Just completed
 
 * ✅ **C-oracle-old (v2 prose) ceiling** on 20% ExpVid test — confirmed 49.31% baseline

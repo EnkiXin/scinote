@@ -61,3 +61,13 @@ smoke_test*.log
 *.mp4
 *.avi
 *.mov
+
+# LoRA training intermediate checkpoints (regenerable; >100MB)
+checkpoints/**/checkpoint-*/
+# Files exceeding GitHub 100MB limit (keep adapters local; no git-lfs in this repo)
+checkpoints/**/adapter_model.safetensors
+checkpoints/**/optimizer.pt
+checkpoints/**/scheduler.pt
+checkpoints/**/rng_state_*.pth
+checkpoints/**/training_args.bin
+checkpoints/**/tokenizer.json

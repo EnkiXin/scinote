@@ -285,6 +285,10 @@ def main():
         ddp_find_unused_parameters=True,
         dataloader_drop_last=True,
         remove_unused_columns=False,
+        dataloader_num_workers=4,
+        dataloader_pin_memory=True,
+        dataloader_persistent_workers=True,
+        dataloader_prefetch_factor=4,
     )
 
     trainer = Trainer(model=model, args=targs,

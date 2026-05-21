@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/step_prediction/52874/clip_3_prediction.mp4
+
+## Visual
+- A person wearing purple gloves places a white bin on a table, then moves it to a different location. The bin has dimensions labeled as 120 cm x 90 cm x 76 cm. The scene shifts to show a person in a lab coat and purple gloves handling various items on a table, including a bottle with a blue label, a small bottle with a blue cap, and a green metal structure. (tool=visual_inspect, t=0.00-49.61, conf=0.85) — raw: "A person wearing purple gloves places a white bin on a table, then moves it to a different location. The bin has dimensions labeled as 120 cm x 90 cm x 76 cm. The scene shifts to show a person in a..."

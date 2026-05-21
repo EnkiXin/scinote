@@ -87,21 +87,41 @@ All conditions share:
 
 ## 3. Results
 
-### 3.1 ExpVid 20% test (n = 745, Qwen2.5-VL-7B answer)
+### 3.1 ExpVid L2 + L3 (n = 745, Qwen2.5-VL-7B answer)
 
-| Task | n | C0 | C1_fixed | C2_react | Δ (C1−C0) | Δ (C2−C1) |
-|---|---:|---:|---:|---:|---:|---:|
-| sequence_generation | 161 | 42.78 | 44.47 | **44.64** | +1.69 | +0.17 |
-| sequence_ordering | 150 | 51.33 | **58.67** ⭐ | 57.33 | **+7.34** | −1.34 |
-| step_prediction | 145 | 0.00 | **3.45** | 2.76 | +3.45 | −0.69 |
-| video_verification | 152 | 18.42 | **21.71** ⭐ | 17.76 | +3.29 | **−3.95** |
-| experimental_conclusion | 76 | 18.75 | 17.89 | **18.78** | −0.86 | +0.89 |
-| scientific_discovery | 61 | 16.59 | 16.92 | **18.22** | +0.33 | +1.30 |
-| **overall** | **745** | **26.61** | **29.73** ⭐ | 28.76 | **+3.12** | **−0.97** |
+| Task | n | C0 | C1_fixed | C2_react | C2_react_v2 |
+|---|---:|---:|---:|---:|---:|
+| sequence_generation | 161 | 42.78 | 44.47 | **44.64** | 43.63 |
+| sequence_ordering | 150 | 51.33 | **58.67** ⭐ | 57.33 | 57.33 |
+| step_prediction | 145 | 0.00 | **3.45** | 2.76 | 2.07 |
+| video_verification | 152 | 18.42 | **21.71** ⭐ | 17.76 | 19.74 |
+| experimental_conclusion | 76 | 18.75 | 17.89 | **18.78** | 18.40 |
+| scientific_discovery | 61 | 16.59 | 16.92 | 18.22 | **19.02** |
+| **overall** | **745** | **26.61** | **29.73** ⭐ | 28.76 | 28.84 |
 
-C1_fixed wins overall. C2_react improves on free-form fitb tasks
-(experimental_conclusion +0.89, scientific_discovery +1.30) but regresses on
-the strongest C1 wins (video_verification −3.95) — see §4.
+C1_fixed wins overall. C2_react_v2 (B+C prompt fixes — no timestamp
+picking + show options to planner) partially recovered the
+video_verification regression (17.76 → 19.74, +1.98) but only tied
+C2_react overall (+0.08 pp). At 7B planner scale, prompt-level fixes
+cannot close the gap to the hand-coded TASK_TO_TOOLS router →
+motivates training a learned planner (next plan).
+
+### 3.1.1 ExpVid Level-1 (n = 4035, Qwen2.5-VL-7B answer)
+
+| L1 sub-task | n | C0 | C1_fixed | Δ |
+|---|---:|---:|---:|---:|
+| materials | 1266 | 34.28 | **37.05** | **+2.77** |
+| tools | 1130 | 37.61 | **37.96** | +0.35 |
+| operation | 938 | **67.70** | 61.73 | −5.97 |
+| quantity | 701 | **49.79** | 43.37 | −6.42 |
+| **L1 overall** | **4035** | **45.68** | 44.14 | −1.54 |
+
+Agent helps materials identification (+2.77) but hurts operation
+(−5.97) and quantity (−6.42). Same failure mode as the SciVB
+regression: visual_inspect's literal description biases the model
+on questions that ARE about the action ("what is the person doing"),
+and quantity Qs need OCR not visual_inspect. **TASK_TO_TOOLS is too
+coarse — learnable routing should help.**
 
 ### 3.2 SciVideoBench (n = 218, Qwen2.5-VL-7B answer)
 

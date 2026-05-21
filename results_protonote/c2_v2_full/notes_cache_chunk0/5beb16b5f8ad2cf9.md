@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/step_prediction/58022/clip_4_prediction.mp4
+
+## Visual
+- A scientist wearing blue gloves places a test tube labeled "Cerebrospinal Fluid" into a centrifuge. The centrifuge is part of a Thermo Scientific non-compact system. The scientist then opens a box containing a Falcon tube rack and places it on the lab bench. (tool=visual_inspect, t=0.00-32.82, conf=0.85) — raw: "A scientist wearing blue gloves places a test tube labeled "Cerebrospinal Fluid" into a centrifuge. The centrifuge is part of a Thermo Scientific non-compact system. The scientist then opens a box ..."

@@ -1,0 +1,9 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/step_prediction/3564/clip_7_prediction.mp4
+
+## Visual
+- The video shows a diagram of an experimental setup involving a rat connected to tubes leading to two bottles labeled "Fructose" and "Buffer." The setup includes a pressure gauge and a stopwatch. A hand wearing a white glove is seen writing on a form, likely recording data related to the experiment. The form includes sections for "Preparation," "Procedure," and "Results," with fields for time, temperature, and other measurements. (tool=visual_inspect, t=0.00-41.96, conf=0.85) — raw: "The video shows a diagram of an experimental setup involving a rat connected to tubes leading to two bottles labeled "Fructose" and "Buffer." The setup includes a pressure gauge and a stopwatch. A ..."
+- The video begins with an illustration of a laboratory setup involving a rat, a pressure gauge, and two fluid containers labeled "Fructose" and "Buffer." The pressure gauge is connected to the setup, indicating that it will be used to measure pressure changes.
+
+Next, the scene transitions to a close-up of a person's gloved hand holding a digital timer. The timer displays "0:01:29," suggesting that some time has already passed since the start of the experiment or measurement process.
+
+Finally, the video shows a close-up of a manometer, which is a device for measuring pressure. The manometer is filled with a liquid, and the level of the liquid indicates the pressure being measured. The manometer is labeled as "Sphygmomanometer Certified," confirming its accuracy (tool=visual_inspect, t=0.00-41.96, conf=0.85) — raw: "The video begins with an illustration of a laboratory setup involving a rat, a pressure gauge, and two fluid containers labeled "Fructose" and "Buffer." The pressure gauge is connected to the setup..."

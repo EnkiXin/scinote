@@ -208,6 +208,7 @@ def main():
     args = ap.parse_args()
 
     if args.benchmark == "expvid_l1":
+        benchmark = "expvid_l1"
         items = load_expvid_l1(subtask=args.l1_subtask or None,
                                  limit=args.limit if args.limit > 0 else None)
     else:

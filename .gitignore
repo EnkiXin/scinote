@@ -20,6 +20,7 @@ env/
 
 # Data & cached downloads (too large for git)
 data/
+!protonote/data/   # keep ProtoNote loader code
 *.pkl
 *.npz
 *.zip

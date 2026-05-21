@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos/jove_67000.mp4
+
+## Visual
+- The video begins with a title slide introducing a study on the significance of flow rates in an assay based on Quantitative Dots. The scene then transitions to a laboratory setting where a scientist, wearing a lab coat, is seen handling various equipment and materials. The scientist uses a pipette to transfer liquid into a container, and the video captures close-up shots of the equipment, including a digital timer set at 43 seconds and a device labeled "Jetting Rate: 1 µL/cm." (tool=visual_inspect, t=0.00-433.07, conf=0.85) — raw: "The video begins with a title slide introducing a study on the significance of flow rates in an assay based on Quantitative Dots. The scene then transitions to a laboratory setting where a scientis..."

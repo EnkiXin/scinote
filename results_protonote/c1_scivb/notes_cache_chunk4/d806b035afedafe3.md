@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos/jove_63742.mp4
+
+## Visual
+- The video begins with a title card indicating "The irradiation of Bacteria." It then transitions to a close-up of a gloved hand holding a small vial with a red cap, alongside a digital timer set at 150 seconds. The scene shifts to a table displaying magnification levels, pixel sizes, exposure doses, and dose rates for an Hitachi H-9000 equipped with EMIS-Quantum CCD camera. The final frame shows a series of grayscale images labeled A through G, each highlighting different areas within a circular region, possibly representing bacterial cells under electron microscopy. (tool=visual_inspect, t=0.00-332.16, conf=0.85) — raw: "The video begins with a title card indicating "The irradiation of Bacteria." It then transitions to a close-up of a gloved hand holding a small vial with a red cap, alongside a digital timer set at..."

@@ -1,12 +1,14 @@
 # ExpVid + SciVideoBench — Full Experiment Progress Log
 
-**Updated**: 2026-05-20
-**Last action**: Track A oracle ceilings computed (v4 task-aware oracle hits 67.84% on ExpVid 20% test, +18.53 pp over v2 prose oracle). Track B background downloads complete.
+**Updated**: 2026-05-21
+**Last action**: **ProtoNote Phase 3 — agent-based approach reaches 29.73 % on ExpVid 20% test (Qwen-VL-7B + 1 visual-tool call + notes-in-prompt), +3.12 pp over C0, new SOTA on non-oracle configurations.** Beats prior best (InternVL3-8B self-note = 27.86 %) by +1.87 pp.
 **Setup**: H200 (8×, bf16), Qwen2.5-VL-7B answer model (ExpVid), Qwen2.5-VL-3B (SciVideoBench), 32 frames/video. Noter base swapped from Qwen2.5-VL-7B to MiMo-VL-7B-RL in W2-W3.
 
 ---
 
-## 📌 TL;DR (status at 2026-05-20)
+## 📌 TL;DR (status at 2026-05-21)
+
+**Paper 2 pivot — ProtoNote agent (NEW)**: a task-conditional tool agent (visual_inspect / ocr / temporal / note_read+write) with persistent per-video notes reaches **29.73 % overall** on ExpVid 20% test using Qwen2.5-VL-7B alone, +3.12 pp over C0 baseline (26.61 %) and +1.87 pp over the prior best non-oracle config (+InternVL3-8B self-note 27.86 %). Per-task gains concentrate on visual-evidence-bottlenecked tasks: sequence_ordering +7.34, step_prediction +3.45, video_verification +3.29, sequence_generation +1.69. Free-form fitb tasks (experimental_conclusion, scientific_discovery) ≈ flat. Code: `protonote/`. Eval: `results_protonote/c1_full/`. Commits: `40a64fd0` (Phase 0-2 scaffolding + tools), `c4613151` (Phase 3 agent + 29.73 % result).
 
 **Paper 1 (now confirmed twice)**: visual notes do NOT close the small-model gap to oracle on scientific video reasoning. The +30 pp oracle lift is answer-conditioning leak, and is *not* distillable into a trained noter (best trained-noter Δ is +2-3 pp). This survives every engineering knob we have tried so far — base model swap, task-aware schemas, Think mode, in-distribution training, oracle redesign.
 

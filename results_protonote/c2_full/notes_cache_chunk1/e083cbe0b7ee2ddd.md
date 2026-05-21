@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_3/57979_.mp4
+
+## Visual
+- A person wearing blue gloves places a black circular object on a red surface. The scene then shifts to a close-up of a digital timer displaying "01:18." The timer is part of a setup that includes test tubes labeled with substances like "dH2O," "Pentanol," and "Silicon," as well as a beaker marked "dH2O." A computer screen shows a graph with a red line, indicating some form of data collection or monitoring process. (tool=visual_inspect, t=0.00-506.35, conf=0.85) — raw: "A person wearing blue gloves places a black circular object on a red surface. The scene then shifts to a close-up of a digital timer displaying "01:18." The timer is part of a setup that includes t..."

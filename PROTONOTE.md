@@ -3,7 +3,9 @@
 **Status (2026-05-21)**: Phase 0–3 complete. ProtoNote C1_fixed agent reaches
 **29.73 %** on ExpVid 20% test split, **+3.12 pp over C0 baseline** and **+1.87 pp
 over the prior best non-oracle config** (InternVL3-8B self-note = 27.86 %), using
-only Qwen2.5-VL-7B as the answer model. C2 ReAct condition currently running.
+only Qwen2.5-VL-7B as the answer model. C2 ReAct (LLM-driven tool routing) =
+28.76 %, slightly **worse** than C1_fixed — a small VLM planner cannot beat the
+task-taxonomy-based deterministic routing at 7B scale (see §4).
 
 ---
 
@@ -87,17 +89,19 @@ All conditions share:
 
 ### 3.1 ExpVid 20% test (n = 745, Qwen2.5-VL-7B answer)
 
-| Task | n | C0 | C1_fixed | Δ |
-|---|---:|---:|---:|---:|
-| sequence_generation | 161 | 42.78 | **44.47** | +1.69 |
-| sequence_ordering | 150 | 51.33 | **58.67** | **+7.34** ⭐ |
-| step_prediction | 145 | 0.00 | **3.45** | +3.45 |
-| video_verification | 152 | 18.42 | **21.71** | +3.29 |
-| experimental_conclusion | 76 | 18.75 | 17.89 | −0.86 |
-| scientific_discovery | 61 | 16.59 | 16.92 | +0.33 |
-| **overall** | **745** | **26.61** | **29.73** | **+3.12** ⭐ |
+| Task | n | C0 | C1_fixed | C2_react | Δ (C1−C0) | Δ (C2−C1) |
+|---|---:|---:|---:|---:|---:|---:|
+| sequence_generation | 161 | 42.78 | 44.47 | **44.64** | +1.69 | +0.17 |
+| sequence_ordering | 150 | 51.33 | **58.67** ⭐ | 57.33 | **+7.34** | −1.34 |
+| step_prediction | 145 | 0.00 | **3.45** | 2.76 | +3.45 | −0.69 |
+| video_verification | 152 | 18.42 | **21.71** ⭐ | 17.76 | +3.29 | **−3.95** |
+| experimental_conclusion | 76 | 18.75 | 17.89 | **18.78** | −0.86 | +0.89 |
+| scientific_discovery | 61 | 16.59 | 16.92 | **18.22** | +0.33 | +1.30 |
+| **overall** | **745** | **26.61** | **29.73** ⭐ | 28.76 | **+3.12** | **−0.97** |
 
-C2_react full run currently in progress (will fill in this row when done).
+C1_fixed wins overall. C2_react improves on free-form fitb tasks
+(experimental_conclusion +0.89, scientific_discovery +1.30) but regresses on
+the strongest C1 wins (video_verification −3.95) — see §4.
 
 ### 3.2 SciVideoBench (n = 218, Qwen2.5-VL-7B answer)
 
@@ -164,6 +168,29 @@ underperform Qwen-noters on SciVB (proposal §5 also flags this risk).
 0 for sequence_generation, sometimes 1 for video_verification when the
 planner asks for OCR on a specific timestamp range).
 
+**Why C2_react underperforms C1_fixed.** The 7B planner is not strong enough
+to reliably make tool-routing decisions that beat the task-taxonomy. The
+biggest C2 regression is on video_verification (21.71 → 17.76 = −3.95): when
+the planner *does* invoke OCR on a self-chosen timestamp range, the
+zoomed-in text often misses the relevant label, and the noisy OCR output
+overwrites the cleaner full-video visual description in the answer prompt.
+On tasks where the planner correctly decides "answer immediately"
+(sequence_generation), C2 ≈ C1.
+
+Conclusion at 7B: **the task → tool mapping is a better router than a
+same-size VLM planner.** Two interpretations:
+
+1. The handcrafted TASK_TO_TOOLS already captures the right structural
+   prior; an LLM planner cannot recover this from in-context observation
+   alone at this scale.
+2. The benefit of a learned planner would need either a stronger model
+   (72B+), or RL training of the routing decision (proposal §9 — out of
+   first-paper scope).
+
+This is itself a paper-worthy finding: it isolates the "task-conditional
+routing" claim to the *taxonomy-based* variant. For the paper-1 ProtoNote
+submission, **C1_fixed is the headline number.**
+
 ---
 
 ## 5. Code & data layout
@@ -196,7 +223,7 @@ scinote/
 └── results_protonote/
     ├── full_expvid/                    # ExpVid C0 baseline (26.61 %)
     ├── c1_full/                        # ExpVid C1_fixed agent (29.73 %)  ⭐
-    ├── c2_full/                        # ExpVid C2_react agent (running)
+    ├── c2_full/                        # ExpVid C2_react agent (28.76 %)
     ├── c0_scivb/                       # SciVB C0 baseline (25.69 %)
     ├── c1_scivb/                       # SciVB C1_fixed agent (24.31 %)
     ├── c1_smoke/   c2_smoke/           # 10-item smoke tests
@@ -242,13 +269,15 @@ Per the original Phase 0–8 ProtoNote proposal:
 
 **Immediate near-term**:
 
-* Finish C2_react full 745 ExpVid (in progress).
 * Multi-question accumulation ablation: re-run C1_fixed with a global
   cross-process NoteBuffer (rather than per-chunk), measure the Δ for
   videos that appear in ≥ 2 questions. Directly tests the
   "notes-as-artifact" paper claim.
 * SciVB regression diagnosis: is it really the question genre, or
   could a different tool-policy mix help on SciVB?
+* Stronger planner for C2: rerun with 72B planner or oracle-routed
+  C2 (oracle picks the right tool per item) to bound the achievable
+  C2 gain.
 
 ---
 
@@ -260,3 +289,4 @@ Per the original Phase 0–8 ProtoNote proposal:
 | `c4613151` | Phase 3: actual agent (C1_fixed) — 29.73 % ExpVid result |
 | `b3183028` | PROGRESS.md updated with Phase 3 number |
 | `9e1c0ec3` | SciVB C1_fixed result + C2 ReAct controller code |
+| `a307838b` | PROTONOTE.md consolidated overview (pre-C2 result) |

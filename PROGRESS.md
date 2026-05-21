@@ -8,7 +8,13 @@
 
 ## 📌 TL;DR (status at 2026-05-21)
 
-**Paper 2 pivot — ProtoNote agent (NEW)**: a task-conditional tool agent (visual_inspect / ocr / temporal / note_read+write) with persistent per-video notes reaches **29.73 % overall** on ExpVid 20% test using Qwen2.5-VL-7B alone, +3.12 pp over C0 baseline (26.61 %) and +1.87 pp over the prior best non-oracle config (+InternVL3-8B self-note 27.86 %). Per-task gains concentrate on visual-evidence-bottlenecked tasks: sequence_ordering +7.34, step_prediction +3.45, video_verification +3.29, sequence_generation +1.69. Free-form fitb tasks (experimental_conclusion, scientific_discovery) ≈ flat. Code: `protonote/`. Eval: `results_protonote/c1_full/`. Commits: `40a64fd0` (Phase 0-2 scaffolding + tools), `c4613151` (Phase 3 agent + 29.73 % result).
+**Paper 2 pivot — ProtoNote agent (NEW, 2026-05-21)**:
+  * **C1_fixed** (task-routed deterministic tools + persistent notes): **29.73 %** overall on ExpVid 20% test using Qwen2.5-VL-7B alone, +3.12 pp over C0 baseline (26.61 %) and +1.87 pp over the prior best non-oracle config (+InternVL3-8B self-note 27.86 %). **New SOTA non-oracle.**
+  * **C2_react** (LLM-driven tool routing on top of seed step): **28.76 %**, slightly worse than C1_fixed (−0.97). At 7B-VLM-planner scale, the task taxonomy outperforms a learned planner — biggest C2 regression is video_verification (21.71 → 17.76 = −3.95) where the planner picks bad timestamp ranges for OCR.
+  * **SciVB Qwen-7B** apples-to-apples: C0=25.69 / C1_fixed=24.31 (−1.38). Notes HURT on conceptual/hypothetical SciVB MC because the visual description doesn't bridge to the abstract reasoning required.
+  * **Per-task ExpVid Δ (C1−C0)**: sequence_ordering +7.34, video_verification +3.29, step_prediction +3.45, sequence_generation +1.69; fitb tasks ≈ flat.
+  * Code: `protonote/`. Eval: `results_protonote/{full_expvid,c1_full,c2_full,c0_scivb,c1_scivb}/`. Headline result file: [`PROTONOTE.md`](PROTONOTE.md).
+  * Commits: `40a64fd0` (Phase 0-2 scaffolding + tools), `c4613151` (Phase 3 C1_fixed + 29.73 % result), `9e1c0ec3` (SciVB + C2 code), `a307838b` (PROTONOTE.md consolidated overview).
 
 **Paper 1 (now confirmed twice)**: visual notes do NOT close the small-model gap to oracle on scientific video reasoning. The +30 pp oracle lift is answer-conditioning leak, and is *not* distillable into a trained noter (best trained-noter Δ is +2-3 pp). This survives every engineering knob we have tried so far — base model swap, task-aware schemas, Think mode, in-distribution training, oracle redesign.
 

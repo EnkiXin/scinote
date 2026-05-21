@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/step_prediction/50648/clip_1_prediction.mp4
+
+## Visual
+- The video begins with a title slide introducing a research study on separating spermatogenic cell types using STA-PUT velocity sedimentation. The authors' names and affiliations are listed below the title. The next frame shows a simple diagram of a test tube with a yellow liquid inside, alongside four blue circles representing cells, suggesting the initial state before the separation process. (tool=visual_inspect, t=0.00-28.51, conf=0.85) — raw: "The video begins with a title slide introducing a research study on separating spermatogenic cell types using STA-PUT velocity sedimentation. The authors' names and affiliations are listed below th..."

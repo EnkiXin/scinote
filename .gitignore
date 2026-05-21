@@ -19,8 +19,7 @@ env/
 .claude/
 
 # Data & cached downloads (too large for git)
-data/
-!protonote/data/   # keep ProtoNote loader code
+/data/             # only matches scinote/data/, not e.g. protonote/data/
 *.pkl
 *.npz
 *.zip

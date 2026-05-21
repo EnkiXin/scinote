@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/58438/clip_35.mp4
+
+## Visual
+- A scientist wearing a white lab coat and purple gloves operates a control panel in a laboratory setting. The panel displays various controls and gauges, including a digital readout showing "760." A sign on the panel indicates temperature settings for a furnace, ranging from 20 K/min to 2000°C and 3 K/min to 2290°C. The scientist appears to be adjusting or monitoring the equipment. (tool=visual_inspect, t=0.00-8.09, conf=0.85) — raw: "A scientist wearing a white lab coat and purple gloves operates a control panel in a laboratory setting. The panel displays various controls and gauges, including a digital readout showing "760." A..."

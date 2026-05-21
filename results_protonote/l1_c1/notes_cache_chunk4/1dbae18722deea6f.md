@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/59992/clip_25.mp4
+
+## Visual
+- A scientist wearing a lab coat and blue gloves is working in a laboratory. They are handling a glass tube connected to a condenser apparatus, which is part of a distillation setup. The scientist appears to be adjusting or connecting the tube to the apparatus. Various lab equipment, including a hot plate, beakers, and other glassware, is visible on the workbench. (tool=visual_inspect, t=0.00-6.48, conf=0.85) — raw: "A scientist wearing a lab coat and blue gloves is working in a laboratory. They are handling a glass tube connected to a condenser apparatus, which is part of a distillation setup. The scientist ap..."

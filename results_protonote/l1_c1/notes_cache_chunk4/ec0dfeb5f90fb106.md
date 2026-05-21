@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/2177/clip_16.mp4
+
+## Visual
+- A scientist in a lab coat and purple gloves uses a pipette to transfer a red liquid into a test tube. The test tube is held above a container of ice, which also holds other test tubes with blue caps. (tool=visual_inspect, t=0.00-7.86, conf=0.85) — raw: "A scientist in a lab coat and purple gloves uses a pipette to transfer a red liquid into a test tube. The test tube is held above a container of ice, which also holds other test tubes with blue caps."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/50332/clip_24.mp4
+
+## Visual
+- A person wearing gloves is handling laboratory equipment on a stainless steel surface. They are using a purple device to manipulate a small tube, possibly for cell separation or analysis. The text overlay indicates that "Bead-bound, non-monocytic cells stick to tube." Nearby, there are colorful test tube racks (red and green) and various lab supplies including bottles and containers. (tool=visual_inspect, t=0.00-6.66, conf=0.85) — raw: "A person wearing gloves is handling laboratory equipment on a stainless steel surface. They are using a purple device to manipulate a small tube, possibly for cell separation or analysis. The text ..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/50969/clip_23.mp4
+
+## Visual
+- The video shows a graph plotting PBD signal (in arbitrary units) against time (in seconds). Two lines represent different signals: one red line labeled "Afast" and another blue line labeled "Aslow." The red line starts at zero and increases rapidly before plateauing, while the blue line remains relatively flat. The yellow shaded area highlights the region where the red line rises sharply. (tool=visual_inspect, t=0.00-9.45, conf=0.85) — raw: "The video shows a graph plotting PBD signal (in arbitrary units) against time (in seconds). Two lines represent different signals: one red line labeled "Afast" and another blue line labeled "Aslow...."

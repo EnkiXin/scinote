@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/64484/clip_19.mp4
+
+## Visual
+- A person is handling a small plastic container with a brown substance inside it on a laboratory bench. They pour a clear liquid labeled "Buffer-4" into the container. A bottle labeled "ETHANOL" and another labeled "Buffer-3" are also present on the bench. Text at the bottom of the screen indicates a protocol involving Buffer-3 for 10 minutes, Buffer-4 for 5 minutes, and 70% EtOH for 1 minute. (tool=visual_inspect, t=0.00-12.06, conf=0.85) — raw: "A person is handling a small plastic container with a brown substance inside it on a laboratory bench. They pour a clear liquid labeled "Buffer-4" into the container. A bottle labeled "ETHANOL" and..."

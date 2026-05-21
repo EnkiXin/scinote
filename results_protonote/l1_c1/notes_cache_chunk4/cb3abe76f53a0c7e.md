@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/58184/clip_22.mp4
+
+## Visual
+- A person wearing a white lab coat and purple gloves is handling a clear plastic container with a metal grid on top. The container appears to be filled with small animals, possibly mice, and bedding material. The person is using a tool, likely for transferring or examining the contents of the container. The lighting is red, suggesting a controlled environment, possibly a laboratory setting. (tool=visual_inspect, t=0.00-4.69, conf=0.85) — raw: "A person wearing a white lab coat and purple gloves is handling a clear plastic container with a metal grid on top. The container appears to be filled with small animals, possibly mice, and bedding..."

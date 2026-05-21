@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/62876/clip_9.mp4
+
+## Visual
+- A mouse's abdomen is exposed, revealing its internal organs. A gloved hand uses forceps to manipulate the tissue while another hand holds a syringe connected to a cannula. The text overlay indicates that for young mice, an 18 G needle should be used, and for aged mice, a 21 G needle is recommended. An alternative method suggested is using hemostatic forceps to fix the cannula. (tool=visual_inspect, t=0.00-12.15, conf=0.85) — raw: "A mouse's abdomen is exposed, revealing its internal organs. A gloved hand uses forceps to manipulate the tissue while another hand holds a syringe connected to a cannula. The text overlay indicate..."

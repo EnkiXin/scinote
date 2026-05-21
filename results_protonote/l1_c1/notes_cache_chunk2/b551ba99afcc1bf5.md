@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/3564/clip_55.mp4
+
+## Visual
+- The video shows a diagram illustrating an experimental setup involving a rat connected to a perfusion system. The system includes two bottles labeled "Fructose" and "Buffer," connected by tubes to the rat's body, with one tube leading to the heart and another to the liver. A pressure gauge is also part of the setup, indicating the system's operational status. (tool=visual_inspect, t=0.00-6.93, conf=0.85) — raw: "The video shows a diagram illustrating an experimental setup involving a rat connected to a perfusion system. The system includes two bottles labeled "Fructose" and "Buffer," connected by tubes to ..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/62157/clip_14.mp4
+
+## Visual
+- A person wearing a gray long-sleeve shirt and pink gloves is seated at a lab bench, handling small objects with their gloved hands. The bench is cluttered with various lab equipment, including a microscope, test tubes, and other supplies. The background shows shelves stocked with numerous labeled bottles and boxes, indicating a well-equipped laboratory setting. (tool=visual_inspect, t=0.00-8.74, conf=0.85) — raw: "A person wearing a gray long-sleeve shirt and pink gloves is seated at a lab bench, handling small objects with their gloved hands. The bench is cluttered with various lab equipment, including a mi..."

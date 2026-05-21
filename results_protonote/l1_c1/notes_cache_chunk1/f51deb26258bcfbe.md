@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/51084/clip_23.mp4
+
+## Visual
+- The video shows a close-up view of a surgical procedure on an animal's head, where various surgical instruments are being used to manipulate tissue. The instruments include forceps and scissors, which are held by unseen hands. The area being worked on appears to be the scalp or skull, with exposed blood vessels and tissue. There are no visible labels or quantities indicated in the frames. (tool=visual_inspect, t=0.00-8.07, conf=0.85) — raw: "The video shows a close-up view of a surgical procedure on an animal's head, where various surgical instruments are being used to manipulate tissue. The instruments include forceps and scissors, wh..."

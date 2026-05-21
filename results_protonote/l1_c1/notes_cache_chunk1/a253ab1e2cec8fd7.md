@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/53260/clip_36.mp4
+
+## Visual
+- The video shows a close-up of a metallic cylindrical container with a transparent rod inside it, likely part of an experimental setup. The rod appears to be moving or rotating within the container. The background includes a textured surface with rectangular patterns, possibly a wafer or substrate used in semiconductor fabrication. The "jove" logo is visible in the top right corner, indicating the source of the video. (tool=visual_inspect, t=0.00-9.99, conf=0.85) — raw: "The video shows a close-up of a metallic cylindrical container with a transparent rod inside it, likely part of an experimental setup. The rod appears to be moving or rotating within the container...."

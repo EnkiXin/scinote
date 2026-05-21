@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/57909/clip_5.mp4
+
+## Visual
+- A person wearing a lab coat and gloves opens a large, transparent-lidded incubator filled with orange spheres. They reach inside, presumably to retrieve or place something. The incubator has various labels and stickers on it, including one that reads "Adda." A caption at the bottom of the screen states, "See text for all medium/reagent preparation details." (tool=visual_inspect, t=0.00-10.65, conf=0.85) — raw: "A person wearing a lab coat and gloves opens a large, transparent-lidded incubator filled with orange spheres. They reach inside, presumably to retrieve or place something. The incubator has variou..."

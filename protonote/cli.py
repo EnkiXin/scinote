@@ -143,7 +143,7 @@ class ProtoNoteAgent:
 # ── CLI ─────────────────────────────────────────────────────────────────────
 
 def _build_agent(condition: str, vlm, notes_cache_dir: str,
-                  max_react_steps: int = 2):
+                  max_react_steps: int = 2, planner_adapter: str = ""):
     """Factory: build the agent that matches `condition`.
 
     Conditions:
@@ -153,10 +153,13 @@ def _build_agent(condition: str, vlm, notes_cache_dir: str,
                   — the original C2; underperforms C1_fixed on video_verification
       C2_react_v2 ReAct with (B) no timestamp picking + (C) MC options shown
                   to planner. Designed to fix the C2_react regression.
+      C3_learned  ReAct with a trained planner LoRA. Loads adapter from
+                  `planner_adapter`; uses adapter for planner JSON output and
+                  base model for tool/answer calls (peft disable_adapter).
     """
     if condition == "C0":
         return ProtoNoteAgent(vlm=vlm, condition="C0")
-    if condition in ("C1_fixed", "C2_react", "C2_react_v2"):
+    if condition in ("C1_fixed", "C2_react", "C2_react_v2", "C3_learned"):
         from protonote.notes.note_buffer import NoteBuffer
         from protonote.tools import build_default_tools
         buf = NoteBuffer(cache_dir=notes_cache_dir)
@@ -164,6 +167,13 @@ def _build_agent(condition: str, vlm, notes_cache_dir: str,
         if condition == "C1_fixed":
             from protonote.planner.controller import FixedScheduleAgent
             return FixedScheduleAgent(vlm=vlm, tools=tools, note_buffer=buf)
+        if condition == "C3_learned":
+            if not planner_adapter:
+                raise ValueError("C3_learned requires --planner_adapter <path>")
+            from protonote.planner.learned_controller import LearnedReActAgent
+            return LearnedReActAgent(vlm=vlm, tools=tools, note_buffer=buf,
+                                       adapter_path=planner_adapter,
+                                       max_react_steps=max_react_steps)
         from protonote.planner.react_controller import ReActAgent
         if condition == "C2_react_v2":
             return ReActAgent(vlm=vlm, tools=tools, note_buffer=buf,
@@ -193,18 +203,19 @@ def main():
     ap.add_argument("--chunk_id", type=int, default=0)
     ap.add_argument("--num_chunks", type=int, default=1)
     ap.add_argument("--condition", default="C0",
-                     choices=["C0", "C1_fixed", "C2_react", "C2_react_v2"],
-                     help="C0 = single VLM call (baseline). C1_fixed = "
-                          "task-routed tools → NoteBuffer → answer-with-notes. "
-                          "C2_react = LLM-driven tool routing + sub-range. "
-                          "C2_react_v2 = LLM tool routing only (full-clip) + "
-                          "MC options shown to planner (fixes the 7B-planner "
-                          "regression).")
+                     choices=["C0", "C1_fixed", "C2_react", "C2_react_v2",
+                                "C3_learned"],
+                     help="C0/C1_fixed/C2_react/C2_react_v2 — see _build_agent. "
+                          "C3_learned = ReAct with a trained planner LoRA "
+                          "(--planner_adapter <path>).")
     ap.add_argument("--notes_cache", default="",
-                     help="NoteBuffer cache dir (C1+/C2). Defaults to "
+                     help="NoteBuffer cache dir (C1+/C2/C3). Defaults to "
                           "<output_dir>/notes_cache.")
     ap.add_argument("--max_react_steps", type=int, default=2,
-                     help="C2_react only: max LLM-planned tool calls after seed.")
+                     help="C2/C3 only: max LLM-planned tool calls after seed.")
+    ap.add_argument("--planner_adapter", default="",
+                     help="C3_learned: path to the trained LoRA adapter dir "
+                          "(e.g. checkpoints/planner_lora_A/final).")
     args = ap.parse_args()
 
     if args.benchmark == "expvid_l1":
@@ -228,7 +239,8 @@ def main():
     notes_cache_dir = args.notes_cache or str(out_dir / "notes_cache")
     agent = _build_agent(args.condition, vlm=vlm,
                           notes_cache_dir=notes_cache_dir,
-                          max_react_steps=args.max_react_steps)
+                          max_react_steps=args.max_react_steps,
+                          planner_adapter=args.planner_adapter)
 
     out_path = out_dir / (
         f"trajectory_{args.benchmark}"

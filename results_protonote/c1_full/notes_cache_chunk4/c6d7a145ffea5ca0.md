@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/video_segments/57573/clip_4.mp4
+
+## Visual
+- A person wearing blue gloves holds a small metallic object, possibly a substrate, in their hands. The video then cuts to a scientist in a lab coat, speaking directly to the camera. The scientist appears to be explaining or discussing something related to the experiment shown on the computer screen behind them, which displays graphs labeled "stress (kPa)" and "displacement (μm)." (tool=visual_inspect, t=0.00-52.23, conf=0.85) — raw: "A person wearing blue gloves holds a small metallic object, possibly a substrate, in their hands. The video then cuts to a scientist in a lab coat, speaking directly to the camera. The scientist ap..."

@@ -1,0 +1,7 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_3/60961_.mp4
+
+## Visual
+- The video shows a close-up of a hand holding a small object over a dark surface, possibly preparing for an experiment. The scene then transitions to a series of microscopic images labeled with different phases of cell division: Interphase, Centrosome Separation, NEB (Nuclear Envelope Breakdown), Metaphase, Anaphase, and Telophase. These images are accompanied by text indicating that attempting to completely remove the fat body may damage or rupture the testes. (tool=visual_inspect, t=0.00-485.29, conf=0.85) — raw: "The video shows a close-up of a hand holding a small object over a dark surface, possibly preparing for an experiment. The scene then transitions to a series of microscopic images labeled with diff..."
+
+## OCR
+- - jove (tool=ocr, t=0.00-485.29, conf=0.80) — raw: "- jove"

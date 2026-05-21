@@ -140,6 +140,21 @@ class ProtoNoteAgent:
 
 # ── CLI ─────────────────────────────────────────────────────────────────────
 
+def _build_agent(condition: str, vlm, notes_cache_dir: str):
+    """Factory: return either the C0 single-call agent or the Phase 3
+    fixed-schedule tool agent."""
+    if condition == "C0":
+        return ProtoNoteAgent(vlm=vlm, condition="C0")
+    if condition == "C1_fixed":
+        from protonote.notes.note_buffer import NoteBuffer
+        from protonote.planner.controller import FixedScheduleAgent
+        from protonote.tools import build_default_tools
+        buf = NoteBuffer(cache_dir=notes_cache_dir)
+        tools = build_default_tools(vlm=vlm, note_buffer=buf)
+        return FixedScheduleAgent(vlm=vlm, tools=tools, note_buffer=buf)
+    raise ValueError(f"unknown condition: {condition!r}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="Qwen/Qwen2.5-VL-7B-Instruct")
@@ -150,6 +165,12 @@ def main():
     ap.add_argument("--output_dir", default="results_protonote/pilot")
     ap.add_argument("--chunk_id", type=int, default=0)
     ap.add_argument("--num_chunks", type=int, default=1)
+    ap.add_argument("--condition", default="C0", choices=["C0", "C1_fixed"],
+                     help="C0 = single VLM call (baseline). C1_fixed = "
+                          "task-routed tools → NoteBuffer → answer-with-notes.")
+    ap.add_argument("--notes_cache", default="",
+                     help="NoteBuffer cache dir (C1_fixed only). Defaults to "
+                          "<output_dir>/notes_cache.")
     args = ap.parse_args()
 
     benchmark = None if args.benchmark == "all" else args.benchmark
@@ -157,13 +178,16 @@ def main():
     if args.num_chunks > 1:
         items = [it for i, it in enumerate(items) if i % args.num_chunks == args.chunk_id]
     print(f"[cli] {len(items)} items (benchmark={benchmark}, "
-          f"chunk={args.chunk_id}/{args.num_chunks})", flush=True)
+          f"chunk={args.chunk_id}/{args.num_chunks}, "
+          f"condition={args.condition})", flush=True)
 
     vlm = VLMClient(model_name=args.model, device=args.device)
-    agent = ProtoNoteAgent(vlm=vlm, condition="C0")
 
     out_dir = ROOT / args.output_dir
     out_dir.mkdir(parents=True, exist_ok=True)
+    notes_cache_dir = args.notes_cache or str(out_dir / "notes_cache")
+    agent = _build_agent(args.condition, vlm=vlm, notes_cache_dir=notes_cache_dir)
+
     out_path = out_dir / (
         f"trajectory_{args.benchmark}"
         + (f"_chunk{args.chunk_id}of{args.num_chunks}" if args.num_chunks > 1 else "")
@@ -191,7 +215,7 @@ def main():
         t = r.get("task", "?")
         by_task.setdefault(t, []).append(r["score"])
     print()
-    print(f"=== ProtoNote {args.benchmark} C0 baseline (limit={args.limit}) ===")
+    print(f"=== ProtoNote {args.benchmark} {args.condition} (limit={args.limit}) ===")
     for t, s in sorted(by_task.items()):
         print(f"  {t:<30} acc={100*sum(s)/len(s):.2f}%  n={len(s)}")
     all_scores = [r["score"] for r in results if "score" in r]

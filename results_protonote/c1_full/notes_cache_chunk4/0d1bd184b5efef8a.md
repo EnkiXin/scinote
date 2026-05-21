@@ -1,0 +1,10 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_3/64146_.mp4
+
+## Visual
+- The video begins with a title card indicating the process of seeding MCF10A cells in IrECM, followed by PAF treatment, and re-feeding with fresh media. The scene transitions to a laboratory setting where a person wearing purple gloves handles test tubes and a pipette, transferring liquid between them. The test tubes are labeled with handwritten notes, and one tube contains a pinkish liquid. The background shows a blue test tube rack and various lab equipment. (tool=visual_inspect, t=0.00-481.86, conf=0.85) — raw: "The video begins with a title card indicating the process of seeding MCF10A cells in IrECM, followed by PAF treatment, and re-feeding with fresh media. The scene transitions to a laboratory setting..."
+
+## OCR
+- - jove
+- MCF10A
+- 200 nM
+- disrupted epithelial (tool=ocr, t=0.00-481.86, conf=0.80) — raw: "- jove - MCF10A - 200 nM - disrupted epithelial"

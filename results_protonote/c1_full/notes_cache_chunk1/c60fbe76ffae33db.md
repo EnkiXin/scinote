@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/video_segments/56338/clip_2.mp4
+
+## Visual
+- A scientist in a lab coat is seen operating a microscope, adjusting its focus with one hand while looking through the eyepiece. The scene then shifts to show a person wearing gloves handling a piece of equipment labeled "Caution - Ionizing radiation Handle equipment carefully." The equipment appears to be a radiation detector or similar device used for measuring radiation levels. (tool=visual_inspect, t=0.00-32.17, conf=0.85) — raw: "A scientist in a lab coat is seen operating a microscope, adjusting its focus with one hand while looking through the eyepiece. The scene then shifts to show a person wearing gloves handling a piec..."

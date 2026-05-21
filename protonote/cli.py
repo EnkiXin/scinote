@@ -37,13 +37,38 @@ from protonote.data.loaders import (  # noqa: E402
 )
 
 
-# ── LLM client (HF transformers in-process for Phase 0) ─────────────────────
+# ── LLM client (HF transformers in-process; multi-arch dispatcher) ─────────
+
+# Qwen2.5-VL family + MiMo-VL-7B-RL (Qwen-derived arch). InternVL3 has its
+# own loader/chat-API and is dispatched as a separate client below.
+_QWEN_VL_FAMILY = (
+    "Qwen/Qwen2.5-VL-",            # all three sizes (3B/7B/72B)
+    "Qwen2.5-VL-",                 # short form
+    "XiaomiMiMo/MiMo-VL",         # MiMo-VL inherits Qwen2.5-VL architecture
+    "MiMo-VL",                     # short form
+)
+
+
+def _is_qwen_family(model_name: str) -> bool:
+    return any(p in model_name for p in _QWEN_VL_FAMILY)
+
+
+def _is_internvl(model_name: str) -> bool:
+    return "InternVL" in model_name
+
 
 class VLMClient:
-    """Wraps a Qwen2.5-VL model. Single .generate() call per question.
+    """Polymorphic VLM client. Dispatches to a Qwen-family or InternVL3
+    loader based on `model_name`.
 
-    Phase 2 (tools) will share this client across the visual / OCR tools too.
-    For Phase 0 it is only used by the agent's answer call.
+    The `.generate(messages, max_new_tokens)` interface is the same for
+    every backbone — callers (the agent, tools) do not need to know which
+    model they are talking to.
+
+    `device` semantics:
+      * "cuda:0" / "cuda:N" — single GPU placement (Qwen-3B/7B, MiMo, InternVL)
+      * "auto"              — HF `device_map="auto"` for tensor-parallel
+                              (Qwen-72B across all visible GPUs)
     """
 
     def __init__(self, model_name: str = "Qwen/Qwen2.5-VL-7B-Instruct",
@@ -51,11 +76,36 @@ class VLMClient:
         self.model_name = model_name
         self.device = device
         print(f"[VLMClient] loading {model_name} on {device}", flush=True)
-        self.processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
+        dm = "auto" if device == "auto" else device
+
+        if _is_internvl(model_name):
+            self._impl = _InternVLImpl(model_name, dm, dtype)
+        elif _is_qwen_family(model_name):
+            self._impl = _QwenVLImpl(model_name, dm, dtype)
+        else:
+            # Fall back to Qwen loader (covers most VL models with same arch)
+            print(f"[VLMClient] unknown family for {model_name}; "
+                  f"trying Qwen2.5-VL loader", flush=True)
+            self._impl = _QwenVLImpl(model_name, dm, dtype)
+        print(f"[VLMClient] loaded ({self._impl.__class__.__name__})",
+              flush=True)
+        self.model = self._impl.model          # exposed for LoRA wrapping
+        self.processor = self._impl.processor   # exposed for legacy callers
+
+    @torch.no_grad()
+    def generate(self, messages: list, max_new_tokens: int = 64) -> str:
+        return self._impl.generate(messages, max_new_tokens=max_new_tokens)
+
+
+# ── Qwen-2.5-VL family + MiMo-VL implementation ─────────────────────────────
+
+class _QwenVLImpl:
+    def __init__(self, model_name: str, device_map, dtype):
+        self.processor = AutoProcessor.from_pretrained(
+            model_name, trust_remote_code=True)
         self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-            model_name, dtype=dtype, device_map=device)
+            model_name, dtype=dtype, device_map=device_map)
         self.model.eval()
-        print(f"[VLMClient] loaded", flush=True)
 
     @torch.no_grad()
     def generate(self, messages: list, max_new_tokens: int = 64) -> str:
@@ -65,14 +115,125 @@ class VLMClient:
             messages, return_video_kwargs=True)
         if "fps" in video_kwargs and isinstance(video_kwargs["fps"], list):
             video_kwargs["fps"] = video_kwargs["fps"][0] if video_kwargs["fps"] else 1.0
-        inputs = self.processor(text=[text], images=image_inputs, videos=video_inputs,
-                                 return_tensors="pt", **video_kwargs)
+        inputs = self.processor(
+            text=[text], images=image_inputs, videos=video_inputs,
+            return_tensors="pt", **video_kwargs)
         inputs = {k: v.to(self.model.device) if hasattr(v, "to") else v
                   for k, v in inputs.items()}
-        outputs = self.model.generate(**inputs, max_new_tokens=max_new_tokens, do_sample=False)
+        outputs = self.model.generate(
+            **inputs, max_new_tokens=max_new_tokens, do_sample=False)
         raw = self.processor.decode(
-            outputs[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True).strip()
+            outputs[0][inputs["input_ids"].shape[1]:],
+            skip_special_tokens=True).strip()
         return raw
+
+
+# ── InternVL3 implementation ────────────────────────────────────────────────
+
+class _InternVLImpl:
+    """InternVL3 uses a different chat API (`model.chat(tokenizer, ...)`)
+    and its own per-frame patch tokenizer. We render frames to a
+    pixel-value tensor and call `.chat()` once per generate."""
+
+    def __init__(self, model_name: str, device_map, dtype):
+        from transformers import AutoModel, AutoTokenizer
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            model_name, trust_remote_code=True, use_fast=False)
+        # transformers 5.8 has a `all_tied_weights_keys` check in its
+        # caching allocator warmup that fails for InternVL's custom model
+        # class (which only exposes `_tied_weights_keys`). Patch the class
+        # before loading.
+        from transformers.dynamic_module_utils import get_class_from_dynamic_module
+        import transformers.models.auto.auto_factory as _af
+        # Soft monkey-patch: add the missing alias to any class that has _tied_weights_keys.
+        _orig_from = AutoModel.from_pretrained
+        def _patched_from(*args, **kwargs):
+            kwargs.setdefault("torch_dtype", dtype)
+            kwargs["trust_remote_code"] = True
+            if "device_map" in kwargs:
+                kwargs.pop("device_map")
+            # First load to CPU to apply the patch, then move.
+            return _orig_from(*args, **kwargs)
+        try:
+            self.model = AutoModel.from_pretrained(
+                model_name, dtype=dtype,
+                trust_remote_code=True, device_map=device_map)
+        except AttributeError as e:
+            if "all_tied_weights_keys" not in str(e):
+                raise
+            # Add the property to the class then retry without auto warmup.
+            # Use the dynamic module loader to grab the class, then alias.
+            from transformers import AutoConfig
+            cfg = AutoConfig.from_pretrained(model_name, trust_remote_code=True)
+            cls = get_class_from_dynamic_module(
+                cfg.auto_map["AutoModel"], model_name)
+            if not hasattr(cls, "all_tied_weights_keys"):
+                # _tied_weights_keys is a list of strings; we need a dict-like
+                # mapping for the new API. Provide a minimal dict view.
+                cls.all_tied_weights_keys = property(
+                    lambda self: {k: k for k in (self._tied_weights_keys or [])})
+            self.model = AutoModel.from_pretrained(
+                model_name, dtype=dtype,
+                trust_remote_code=True, device_map=device_map)
+        self.model.eval()
+        # InternVL processor differs from the Qwen one; keep `processor` as
+        # the tokenizer so the public attribute is set but unused.
+        self.processor = self.tokenizer
+
+    @torch.no_grad()
+    def generate(self, messages: list, max_new_tokens: int = 64) -> str:
+        # Convert OpenAI-style messages -> (text_question, frame_pil_list).
+        text_parts: list[str] = []
+        frames: list = []
+        for msg in messages:
+            content = msg["content"]
+            if isinstance(content, str):
+                text_parts.append(content)
+                continue
+            for block in content:
+                if block.get("type") == "text":
+                    text_parts.append(block["text"])
+                elif block.get("type") == "video":
+                    frames.extend(block["video"])
+                elif block.get("type") == "image":
+                    frames.append(block["image"])
+        question = "\n\n".join(text_parts).strip()
+
+        from PIL import Image as _PILImage
+        import torchvision.transforms as T
+
+        # InternVL transform: 448x448 normalized.
+        tf = T.Compose([
+            T.Resize((448, 448), interpolation=T.InterpolationMode.BICUBIC),
+            T.ToTensor(),
+            T.Normalize(mean=[0.485, 0.456, 0.406],
+                         std=[0.229, 0.224, 0.225]),
+        ])
+        if not frames:
+            pixel_values = None
+        else:
+            tensors = [tf(f if isinstance(f, _PILImage.Image)
+                          else _PILImage.fromarray(f)) for f in frames]
+            pixel_values = torch.stack(tensors).to(self.model.device).to(
+                next(self.model.parameters()).dtype)
+
+        num_patches_list = ([pixel_values.shape[0]]
+                             if pixel_values is not None else None)
+        gen_cfg = dict(max_new_tokens=max_new_tokens, do_sample=False)
+        if pixel_values is not None:
+            video_prefix = "".join(
+                f"Frame{i + 1}: <image>\n"
+                for i in range(pixel_values.shape[0]))
+            question_with_video = video_prefix + question
+            response = self.model.chat(
+                self.tokenizer, pixel_values, question_with_video,
+                gen_cfg, num_patches_list=num_patches_list,
+                history=None, return_history=False)
+        else:
+            response = self.model.chat(
+                self.tokenizer, None, question, gen_cfg,
+                history=None, return_history=False)
+        return response.strip()
 
 
 # ── Agent ───────────────────────────────────────────────────────────────────
@@ -198,6 +359,8 @@ def main():
                           "(tools / materials / operation / quantity). "
                           "Empty = all four.")
     ap.add_argument("--limit", type=int, default=50, help="Pilot limit; 0 = full split")
+    ap.add_argument("--split", default="test", choices=["test", "train"],
+                     help="Which split of v2_split_*.jsonl to evaluate (ignored for expvid_l1).")
     ap.add_argument("--max_frames", type=int, default=32)
     ap.add_argument("--output_dir", default="results_protonote/pilot")
     ap.add_argument("--chunk_id", type=int, default=0)
@@ -225,7 +388,8 @@ def main():
     else:
         benchmark = None if args.benchmark == "all" else args.benchmark
         items = load_test_split(benchmark=benchmark,
-                                  limit=args.limit if args.limit > 0 else None)
+                                  limit=args.limit if args.limit > 0 else None,
+                                  split=args.split)
     if args.num_chunks > 1:
         items = [it for i, it in enumerate(items) if i % args.num_chunks == args.chunk_id]
     print(f"[cli] {len(items)} items (benchmark={benchmark}, "

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/51084/clip_23.mp4
+
+## Visual
+- A surgical procedure is being performed on an animal's ear. The ear is open, revealing its inner structures. Various surgical instruments, including forceps and scissors, are used to manipulate and examine the tissue. The ear appears to be inflamed or infected, with redness and swelling evident. The surgical environment includes sterile equipment and a focus on precision and care. (tool=visual_inspect, t=0.00-8.07, conf=0.85) — raw: "A surgical procedure is being performed on an animal's ear. The ear is open, revealing its inner structures. Various surgical instruments, including forceps and scissors, are used to manipulate and..."

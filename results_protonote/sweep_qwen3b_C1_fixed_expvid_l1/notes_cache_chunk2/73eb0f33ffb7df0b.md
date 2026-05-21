@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/61124/clip_35.mp4
+
+## Visual
+- A person wearing gloves and a mask is handling a test tube in a laboratory setting. They are placing the test tube into a blue container filled with ice cubes. The person then uses a pipette to transfer liquid from a vial into the test tube. The background includes various laboratory equipment and supplies, such as a beaker, a box labeled "Kontes," and a green tray with a grid pattern. (tool=visual_inspect, t=0.00-7.24, conf=0.85) — raw: "A person wearing gloves and a mask is handling a test tube in a laboratory setting. They are placing the test tube into a blue container filled with ice cubes. The person then uses a pipette to tra..."

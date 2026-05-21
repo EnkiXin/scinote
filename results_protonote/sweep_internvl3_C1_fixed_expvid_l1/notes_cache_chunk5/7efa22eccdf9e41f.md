@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/4022/clip_47.mp4
+
+## Visual
+- A person in a lab coat and gloves is working in a biosafety cabinet. They are handling a pipette with a pink liquid, likely a cell culture medium, and transferring it into a test rack. The medium is labeled as "995% growth medium 5% DMSO." Nearby, there are containers labeled "BioWhittaker" and "FBS." The setting suggests a typical laboratory environment for cell culture work. (tool=visual_inspect, t=0.00-10.74, conf=0.85) — raw: "A person in a lab coat and gloves is working in a biosafety cabinet. They are handling a pipette with a pink liquid, likely a cell culture medium, and transferring it into a test rack. The medium i..."

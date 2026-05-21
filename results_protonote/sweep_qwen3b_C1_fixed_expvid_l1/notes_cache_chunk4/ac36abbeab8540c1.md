@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/58438/clip_35.mp4
+
+## Visual
+- A person wearing gloves and safety goggles is operating a machine with various controls and gauges. The machine has a digital display showing "420 SCCM" and another display showing "20 K/min to 2000 °C" and "3 K/min to 2290 °C". There is also a sign on the machine that reads "Please contact for technical issues or assistance with other issues involving the furnace. Thanks!" (tool=visual_inspect, t=0.00-8.09, conf=0.85) — raw: "A person wearing gloves and safety goggles is operating a machine with various controls and gauges. The machine has a digital display showing "420 SCCM" and another display showing "20 K/min to 200..."

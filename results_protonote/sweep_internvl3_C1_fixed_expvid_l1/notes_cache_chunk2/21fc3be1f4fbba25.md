@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/56488/clip_31.mp4
+
+## Visual
+- The video shows shows a person wearing purple gloves placing a petri dish into a machine, likely for incubation or processing. The machine's digital display shows a timer set at 2 minutes. The scene then transitions to a microscopic view of a cell culture, with grid lines and a crosshair overlay for precise observation. The "jove" logo is visible in the top right corner, indicating the source of the video. (tool=visual_inspect, t=0.00-5.09, conf=0.85) — raw: "The video shows shows a person wearing purple gloves placing a petri dish into a machine, likely for incubation or processing. The machine's digital display shows a timer set at 2 minutes. The scen..."

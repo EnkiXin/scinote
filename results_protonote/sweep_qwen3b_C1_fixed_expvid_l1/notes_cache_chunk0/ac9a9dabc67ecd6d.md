@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/57531/clip_12.mp4
+
+## Visual
+- A person wearing purple gloves is working in a laboratory setting. They are holding a small container with a white lid and pouring a liquid from a larger container into it using a pipette. The liquid appears to be a clear solution. There are several other containers and bottles on the table, including one labeled "PBS" (phosphate-buffered saline). The person is also seen using a spray bottle to clean the work area. (tool=visual_inspect, t=0.00-9.77, conf=0.85) — raw: "A person wearing purple gloves is working in a laboratory setting. They are holding a small container with a white lid and pouring a liquid from a larger container into it using a pipette. The liqu..."

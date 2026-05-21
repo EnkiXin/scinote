@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/64798/clip_19.mp4
+
+## Visual
+- A person wearing a lab coat and orange gloves is seen handling a beaker containing a white powdery substance. They stir the contents with a metal rod, causing a white vapor to rise. The person then transfers the substance into a blue petri dish placed on a metal tray, causing more vapor to emanate. The scene takes place in a laboratory setting, with various lab equipment visible in the background. The logo "jove" is visible in the top right corner of the frames. (tool=visual_inspect, t=0.00-17.88, conf=0.85) — raw: "A person wearing a lab coat and orange gloves is seen handling a beaker containing a white powdery substance. They stir the contents with a metal rod, causing a white vapor to rise. The person then..."

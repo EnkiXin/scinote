@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/56779/clip_17.mp4
+
+## Visual
+- A person wearing purple gloves is using a pair of tweezers to hold a thin metal rod. The rod is being heated over a blue flame, likely from a Bunsen burner, causing it to glow. The person then uses a pair of scissors to cut the rod. The background shows show laboratory equipment, including beakers and containers. The logo "jove" is visible in the top right corner. (tool=visual_inspect, t=0.00-6.53, conf=0.85) — raw: "A person wearing purple gloves is using a pair of tweezers to hold a thin metal rod. The rod is being heated over a blue flame, likely from a Bunsen burner, causing it to glow. The person then uses..."

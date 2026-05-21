@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/video_segments/57573/clip_4.mp4
+
+## Visual
+- A person in a lab coat is operating a computer with a complex scientific experiment setup visible in the background. The computer screen displays various graphs and data related to the experiment, including stress-strain curves and images of a sample. The interface shows the person is using shows multiple windows showing different types of data visualizations, indicating the monitoring and analysis of experimental results. (tool=visual_inspect, t=0.00-52.23, conf=0.85) — raw: "A person in a lab coat is operating a computer with a complex scientific experiment setup visible in the background. The computer screen displays various graphs and data related to the experiment, ..."

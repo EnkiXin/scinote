@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/2177/clip_16.mp4
+
+## Visual
+- A scientist wearing gloves and a lab coat is working in a laboratory. He is holding a test tube with a red liquid inside it. The scientist is using a pipette to transfer the liquid from one container to another. There are several other containers on a table in front of him, including a beaker and a flask. The scientist is carefully handling the test tube and the pipette, ensuring that the liquid is transferred accurately. (tool=visual_inspect, t=0.00-7.86, conf=0.85) — raw: "A scientist wearing gloves and a lab coat is working in a laboratory. He is holding a test tube with a red liquid inside it. The scientist is using a pipette to transfer the liquid from one contain..."

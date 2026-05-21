@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/50969/clip_23.mp4
+
+## Visual
+- The video displays a graph showing the PBD signal over time, with time on seconds on the x-axis and PBD signal in arbitrary units on the y-axis. The graph features three labeled vertical lines: "A_fast," "A_slow," and "A_x," indicating different time points. A yellow shaded area highlights a specific time interval on the graph. The graph shows a red and blue line, both plateauing at a constant value. The video appears to demonstrate a comparison between two signals over time, with a focus on the highlighted time interval. (tool=visual_inspect, t=0.00-9.45, conf=0.85) — raw: "The video displays a graph showing the PBD signal over time, with time on seconds on the x-axis and PBD signal in arbitrary units on the y-axis. The graph features three labeled vertical lines: "A_..."

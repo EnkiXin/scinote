@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/step_prediction/4308/clip_7_prediction.mp4
+
+## Visual
+- A person wearing blue gloves is conducting a laboratory experiment. They pour a liquid from a beaker into a small bottle labeled "TEMED." The beaker contains a green-colored substance. The bottle is then placed in a water bath at 12°C for 2 hours. The person uses a pipette to add another liquid to the beaker, which is submerged in the water bath. (tool=visual_inspect, t=0.00-21.21, conf=0.85) — raw: "A person wearing blue gloves is conducting a laboratory experiment. They pour a liquid from a beaker into a small bottle labeled "TEMED." The beaker contains a green-colored substance. The bottle i..."

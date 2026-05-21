@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/52325/clip_27.mp4
+
+## Visual
+- A scientist wearing purple gloves is working in a laboratory setting. She is handling a test tube with a green liquid, which she places into a clear plastic tray containing multiple small containers. The tray appears to be part of an automated system for conducting experiments. There is a piece of paper on the counter with handwritten notes, including the instruction "Repeat 5 times." Various laboratory equipment and supplies are visible in the background, including a centrifuge, a digital scale, and a rack holding test tubes. (tool=visual_inspect, t=0.00-17.73, conf=0.85) — raw: "A scientist wearing purple gloves is working in a laboratory setting. She is handling a test tube with a green liquid, which she places into a clear plastic tray containing multiple small container..."

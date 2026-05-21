@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/52325/clip_13.mp4
+
+## Visual
+- The video showcases a laboratory setup with a focus on a temperature measurement device. The device, labeled "testo 176T2," displays fluctuating temperature readings, indicating it is actively measuring and recording data. The background reveals a complex apparatus with tubing and a transparent enclosure, suggesting a controlled environment for experiments. A chair and other equipment are visible, emphasizing the laboratory setting. (tool=visual_inspect, t=0.00-7.65, conf=0.85) — raw: "The video showcases a laboratory setup with a focus on a temperature measurement device. The device, labeled "testo 176T2," displays fluctuating temperature readings, indicating it is actively meas..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos/jove_67405.mp4
+
+## Visual
+- A person is seen speaking in a room with large windows. The scene transitions to a laboratory where a person wearing blue gloves is using scissors to cut a piece of paper. Another person is shown working with lab equipment, handling a blue container. A close-up of a pipette is shown with labels indicating "PGC resin" and "C18 disk." A graph is displayed on a computer screen, followed by a person placing a tube into an orange rack. The video concludes with a person working in the lab, handling lab equipment. (tool=visual_inspect, t=0.00-659.26, conf=0.85) — raw: "A person is seen speaking in a room with large windows. The scene transitions to a laboratory where a person wearing blue gloves is using scissors to cut a piece of paper. Another person is shown w..."

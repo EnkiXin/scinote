@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/57265/clip_14.mp4
+
+## Visual
+- The frames depict a close-up of a laboratory procedure where a person wearing purple gloves is using tweezers and a scalpel to manipulate small, pinkish tissue samples in a petri dish. The person is carefully cutting or separating the tissue pieces. The petri dish is transparent, and the background is a neutral, light-colored surface. The logo "jove" is visible in the top right corner of the frames. (tool=visual_inspect, t=0.00-4.88, conf=0.85) — raw: "The frames depict a close-up of a laboratory procedure where a person wearing purple gloves is using tweezers and a scalpel to manipulate small, pinkish tissue samples in a petri dish. The person i..."

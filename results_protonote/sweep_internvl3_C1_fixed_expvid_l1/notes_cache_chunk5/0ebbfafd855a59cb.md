@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/3691/clip_13.mp4
+
+## Visual
+- The video showcases a close-up view of a surgical procedure, likely involving the manipulation of tissue. Two surgical instruments are seen interacting with a pale, fleshy structure, possibly a gland or organ. The background is a muted purple, typical of endoscopic views. The logo "jove" is visible in the top right corner, indicating the source of the video. The instruments appear to be carefully positioning or adjusting the tissue, suggesting a precise and delicate operation. (tool=visual_inspect, t=0.00-6.21, conf=0.85) — raw: "The video showcases a close-up view of a surgical procedure, likely involving the manipulation of tissue. Two surgical instruments are seen interacting with a pale, fleshy structure, possibly a gla..."

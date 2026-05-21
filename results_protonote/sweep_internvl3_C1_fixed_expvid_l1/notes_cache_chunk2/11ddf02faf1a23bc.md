@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/60469/clip_12.mp4
+
+## Visual
+- A person in a lab coat and gloves is handling a pipette, transferring liquid into a clear container. Nearby, there is a blue bowl filled with a white substance, possibly ice or a cooling agent. The person is also seen placing items into a storage unit, possibly a freezer or incubator. The scene takes place in a laboratory setting with various lab equipment visible. (tool=visual_inspect, t=0.00-11.76, conf=0.85) — raw: "A person in a lab coat and gloves is handling a pipette, transferring liquid into a clear container. Nearby, there is a blue bowl filled with a white substance, possibly ice or a cooling agent. The..."

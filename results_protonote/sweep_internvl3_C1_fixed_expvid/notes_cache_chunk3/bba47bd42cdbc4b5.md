@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/video_segments/63997/clip_5.mp4
+
+## Visual
+- A person wearing black gloves is placing orange bottle caps into a metal tray containing two mice. The mice are interacting with each other and the bottle caps. The tray has markings and text on its bottom. The video includes text overlays explaining the experiment, such as "Animals with pain prefer closed safe areas" and "Count the number of grooming maneuvers using blinded observers." (tool=visual_inspect, t=0.00-48.57, conf=0.85) — raw: "A person wearing black gloves is placing orange bottle caps into a metal tray containing two mice. The mice are interacting with each other and the bottle caps. The tray has markings and text on it..."

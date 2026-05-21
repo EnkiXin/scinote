@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/50196/clip_3.mp4
+
+## Visual
+- The video shows shows a petri dish with a clear liquid medium. Initially, the dish is empty, but as the video progresses, small, round, white particles are added to the medium. The particles are distributed unevenly across the dish, forming into two distinct clusters. The background is plain white, and the petri dish is outlined in blue. The logo "Jove" is visible in the top right corner throughout the video. (tool=visual_inspect, t=0.00-8.43, conf=0.85) — raw: "The video shows shows a petri dish with a clear liquid medium. Initially, the dish is empty, but as the video progresses, small, round, white particles are added to the medium. The particles are di..."

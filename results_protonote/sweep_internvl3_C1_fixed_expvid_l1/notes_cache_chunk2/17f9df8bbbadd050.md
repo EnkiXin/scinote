@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/62309/clip_27.mp4
+
+## Visual
+- The video shows a laboratory setup where a person is transferring a yellow liquid from a funnel into a flask. The flask is labeled "Rinse Solution" and is placed on a hot plate stirrer. Two large large containers labeled "LC Solution" and "HC Solution" are connected with tubing, suggesting a flow system. The background includes various lab equipment and containers with chemicals. The scene transitions to show the setup from a different angle, emphasizing the connections between the containers and the flask. (tool=visual_inspect, t=0.00-17.40, conf=0.85) — raw: "The video shows a laboratory setup where a person is transferring a yellow liquid from a funnel into a flask. The flask is labeled "Rinse Solution" and is placed on a hot plate stirrer. Two large l..."

@@ -1,0 +1,32 @@
+{
+  "n_files": 8,
+  "n_valid": 745,
+  "n_err": 0,
+  "overall_acc": 23.58,
+  "by_task": {
+    "sequence_generation": {
+      "acc": 26.09,
+      "n": 161
+    },
+    "sequence_ordering": {
+      "acc": 48.0,
+      "n": 150
+    },
+    "step_prediction": {
+      "acc": 8.28,
+      "n": 145
+    },
+    "video_verification": {
+      "acc": 21.05,
+      "n": 152
+    },
+    "experimental_conclusion": {
+      "acc": 14.8,
+      "n": 76
+    },
+    "scientific_discovery": {
+      "acc": 10.58,
+      "n": 61
+    }
+  }
+}

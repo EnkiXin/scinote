@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/58239/clip_29.mp4
+
+## Visual
+- A person wearing blue gloves is using a pipette to transfer liquid into a black rack containing small tubes. The tubes are arranged in a grid pattern, and some of them have caps. To the left, there is a white rack with similar tubes, some of which are capped. The background includes a glass container and a blue object, possibly a piece of lab equipment. The video is labeled with the "JOVE" logo in the top right corner. (tool=visual_inspect, t=0.00-6.75, conf=0.85) — raw: "A person wearing blue gloves is using a pipette to transfer liquid into a black rack containing small tubes. The tubes are arranged in a grid pattern, and some of them have caps. To the left, there..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/55080/clip_10.mp4
+
+## Visual
+- A gloved hand is seen applying a substance to a small animal, likely a mouse, on a blue surface. The substance appears to be a gel or paste, and the procedure involves careful application. Text on the screen advises autoclaving surgical instruments prior to the procedure. The animal is then incised with a scalpel, and the area is cleaned with a yellow substance. (tool=visual_inspect, t=0.00-13.55, conf=0.85) — raw: "A gloved hand is seen applying a substance to a small animal, likely a mouse, on a blue surface. The substance appears to be a gel or paste, and the procedure involves careful application. Text on ..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/52225/clip_12.mp4
+
+## Visual
+- The video shows shows two black and white rats in a glass enclosure filled with wood shavings. One rat is climbing on a red and green plastic object, while the other is near a metal cage filled with food pellets. Various toys, including a pink and blue ball and cardboard tubes, are scattered around the enclosure. The "jove" logo is visible in the top right corner. The scene transitions to a top-down view of the enclosure, showing the rats moving around the red object and interacting with each other. (tool=visual_inspect, t=0.00-6.54, conf=0.85) — raw: "The video shows shows two black and white rats in a glass enclosure filled with wood shavings. One rat is climbing on a red and green plastic object, while the other is near a metal cage filled wit..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/60711/clip_26.mp4
+
+## Visual
+- A person is adjusting a dial on a piece of laboratory equipment, which is rotating a beaker containing a liquid. Text on the screen provides instructions: "Keep reaction vessel at room temperature" and "Use a constant rotation speed." The equipment is labeled "EYELAND." The scene transitions to a person speaking in an office setting, with the name "Keitaro Horiyawa, Osaka University" displayed at the bottom. (tool=visual_inspect, t=0.00-6.76, conf=0.85) — raw: "A person is adjusting a dial on a piece of laboratory equipment, which is rotating a beaker containing a liquid. Text on the screen provides instructions: "Keep reaction vessel at room temperature"..."

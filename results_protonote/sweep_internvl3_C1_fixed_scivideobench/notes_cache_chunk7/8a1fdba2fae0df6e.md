@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos/jove_67252.mp4
+
+## Visual
+- The video begins with a title screen introducing the topic and researchers. It then transitions to a laboratory setting where a person is seen working with various lab equipment, including pipetting and using a thermal cycler. The person is wearing gloves and a lab coat, handling samples and using a vortexer. The video includes close-up shots of lab equipment and processes, with text instructions appearing on the screen. The final frames show a title screen for "Representative Results." (tool=visual_inspect, t=0.00-282.67, conf=0.85) — raw: "The video begins with a title screen introducing the topic and researchers. It then transitions to a laboratory setting where a person is seen working with various lab equipment, including pipettin..."

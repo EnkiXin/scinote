@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/step_prediction/58022/clip_4_prediction.mp4
+
+## Visual
+- A person wearing a lab coat and gloves is seen handling lab equipment and samples. They use a pipette to transfer liquid into a test of petri dishes, then place labeled test tubes into a centrifuge. The labels on the tubes include "Cytokine" and "PBS." The person is working in a laboratory setting with various equipment and supplies visible in the background. (tool=visual_inspect, t=0.00-32.82, conf=0.85) — raw: "A person wearing a lab coat and gloves is seen handling lab equipment and samples. They use a pipette to transfer liquid into a test of petri dishes, then place labeled test tubes into a centrifuge..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos/jove_67000.mp4
+
+## Visual
+- The video begins with a title slide introducing the topic and researchers involved in a fluorescent lateral flow immunoassay using quantum dots nanobods. The scene transitions to a person in a lab coat speaking, likely discussing their research. Next, a close-up shows a person handling a pipette, transferring liquid into a test well, with labels such as "EDC" and "phosphate buffer" visible. The person then places a sample into a centrifuge, followed by using a robotic dispenser to apply a liquid to a test strip. The video concludes with the person placing a device into an incubator, with a temperature display visible. (tool=visual_inspect, t=0.00-433.07, conf=0.85) — raw: "The video begins with a title slide introducing the topic and researchers involved in a fluorescent lateral flow immunoassay using quantum dots nanobods. The scene transitions to a person in a lab ..."

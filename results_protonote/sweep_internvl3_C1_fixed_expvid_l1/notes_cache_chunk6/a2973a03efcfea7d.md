@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/59396/clip_9.mp4
+
+## Visual
+- A person wearing green scrubs and white gloves is dissecting a piece of meat on a white surface. They use a blue-handled knife to cut along the length of the meat, which appears to be a large organ or muscle. The person is carefully separating the tissue, revealing its internal structure. (tool=visual_inspect, t=0.00-15.01, conf=0.85) — raw: "A person wearing green scrubs and white gloves is dissecting a piece of meat on a white surface. They use a blue-handled knife to cut along the length of the meat, which appears to be a large organ..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/step_prediction/50648/clip_1_prediction.mp4
+
+## Visual
+- The video begins with a title slide displaying the research paper's title and authors. It then transitions to an illustration of a mouse, followed by a depiction of three different cell types. These cells are shown moving towards a con graduated cylinder, which is then filled with a yellow liquid. The cells settle at different levels within the cylinder, indicating a separation process. The video concludes with the cells settled at the bottom of the cylinder. (tool=visual_inspect, t=0.00-28.51, conf=0.85) — raw: "The video begins with a title slide displaying the research paper's title and authors. It then transitions to an illustration of a mouse, followed by a depiction of three different cell types. Thes..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/58083/clip_18.mp4
+
+## Visual
+- A man in a white lab coat is seated at a desk with a computer monitor displaying an image. He is wearing purple gloves and is using a mouse to navigate the screen. The monitor shows a close-up view of a sample under a microscope. On the desk, there is a keyboard, a mouse, and a few other items including a bottle and a small container. The background includes a wall with electrical outlets and a window. (tool=visual_inspect, t=0.00-6.89, conf=0.85) — raw: "A man in a white lab coat is seated at a desk with a computer monitor displaying an image. He is wearing purple gloves and is using a mouse to navigate the screen. The monitor shows a close-up view..."

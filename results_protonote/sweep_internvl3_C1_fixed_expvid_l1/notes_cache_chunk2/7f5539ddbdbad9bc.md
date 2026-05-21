@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/52325/clip_27.mp4
+
+## Visual
+- A person in a lab coat and purple gloves is conducting a scientific experiment. They are using a pipette to transfer a liquid into a series of wells in a microplate. The person is also writing on a sheet of paper, likely recording data from the experiment. The text "Repeat 5 times" appears, indicating the procedure's repetition. Various lab equipment, including test a multimeter and bottles with colored liquids, are visible on the bench. (tool=visual_inspect, t=0.00-17.73, conf=0.85) — raw: "A person in a lab coat and purple gloves is conducting a scientific experiment. They are using a pipette to transfer a liquid into a series of wells in a microplate. The person is also writing on a..."

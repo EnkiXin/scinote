@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/64314/clip_37.mp4
+
+## Visual
+- The frames depict a surgical procedure where a person wearing gloves is manipulating a blood vessel on a white tray. The person uses forceps to hold the vessel and a pen to mark its proximal and distal ends. The text "Keep track of the proximal vs distal end" appears, emphasizing the importance of distinguishing these parts. The vessel is stained with a red dye, and the background is a clinical setting with surgical instruments visible. (tool=visual_inspect, t=0.00-14.19, conf=0.85) — raw: "The frames depict a surgical procedure where a person wearing gloves is manipulating a blood vessel on a white tray. The person uses forceps to hold the vessel and a pen to mark its proximal and di..."

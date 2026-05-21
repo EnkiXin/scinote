@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/59271/clip_24.mp4
+
+## Visual
+- A person wearing gloves is preparing a solution by adding a liquid from a pipette into a brown bottle. They then pour a clear liquid into a tube placed in a pink rack. The text on the screen indicates the solution is PBS with 990 µg/mL ampicillin and 990 µg/mL kanamycin. The person then places the capped tube into the rack and places the rack on a blue tray. (tool=visual_inspect, t=0.00-11.87, conf=0.85) — raw: "A person wearing gloves is preparing a solution by adding a liquid from a pipette into a brown bottle. They then pour a clear liquid into a tube placed in a pink rack. The text on the screen indica..."

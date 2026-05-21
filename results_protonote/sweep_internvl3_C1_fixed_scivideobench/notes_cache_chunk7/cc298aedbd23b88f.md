@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos/jove_56149.mp4
+
+## Visual
+- The video showcases a scientific experiment involving the preparation and analysis of ZnO nanorods on AZO sputtered and sol-gel processed ZnO seed layers. A person in a lab coat and gloves is seen handling a blue strip, possibly a substrate, and placing it into a machine. The video also includes close-up shots of a petri dish with yellow samples and a graph displaying current density versus voltage for different devices. The "jove" logo is visible throughout the video, indicating the source. (tool=visual_inspect, t=0.00-572.74, conf=0.85) — raw: "The video showcases a scientific experiment involving the preparation and analysis of ZnO nanorods on AZO sputtered and sol-gel processed ZnO seed layers. A person in a lab coat and gloves is seen ..."

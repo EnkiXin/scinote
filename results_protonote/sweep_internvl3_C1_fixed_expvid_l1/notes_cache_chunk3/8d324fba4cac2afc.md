@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/56679/clip_6.mp4
+
+## Visual
+- A black rat is being treated with clindamycin, as indicated by the text overlay. The rat is lying on a white cloth, with a tube of clindamycin applied to its head. In the background, a hot plate controller displays a temperature of 37.0°C, and the text at the bottom suggests the video suggests indicates providing analgesia through drinking water from 11 day pre- to 33 days post-surgery. (tool=visual_inspect, t=0.00-5.99, conf=0.85) — raw: "A black rat is being treated with clindamycin, as indicated by the text overlay. The rat is lying on a white cloth, with a tube of clindamycin applied to its head. In the background, a hot plate co..."

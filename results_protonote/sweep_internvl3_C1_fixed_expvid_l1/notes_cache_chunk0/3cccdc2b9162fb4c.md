@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/57988/clip_6.mp4
+
+## Visual
+- The frames depict a close-up view of a surgical procedure, likely involving the manipulation of tissue. Surgical instruments are visible, interacting with a pale, fleshy tissue that has a purplish area, possibly indicating a site of interest or concern. The background appears to be a sterile surgical field, and the lighting is bright, highlighting the area of focus. The "jove" logo is visible in the top right corner, suggesting the source of the video. (tool=visual_inspect, t=0.00-4.07, conf=0.85) — raw: "The frames depict a close-up view of a surgical procedure, likely involving the manipulation of tissue. Surgical instruments are visible, interacting with a pale, fleshy tissue that has a purplish ..."

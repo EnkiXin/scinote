@@ -1,0 +1,2 @@
+{"sample_id": "expvid_l1_tools_55531_clip_60_tools", "benchmark": "expvid", "task": "l1_tools", "task_type": "mc", "gold": "D", "condition": "C0", "trajectory": [{"step": 0, "action": "answer", "raw": "D", "elapsed_s": 2.384}], "pred": "D", "raw": "D", "score": 1.0}
+{"sample_id": "expvid_l1_tools_55531_clip_52_tools", "benchmark": "expvid", "task": "l1_tools", "task_type": "mc", "gold": "D", "condition": "C0", "trajectory": [{"step": 0, "action": "answer", "raw": "A", "elapsed_s": 1.582}], "pred": "A", "raw": "A", "score": 0.0}

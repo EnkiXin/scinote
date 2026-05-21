@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/step_prediction/62107/clip_6_prediction.mp4
+
+## Visual
+- A person wearing blue gloves is using a pipette to transfer a liquid into a series of small tubes arranged in a gray rack. The tubes are part of a larger set of lab equipment, including racks with pink and blue containers, and a box labeled "ULINE COLD PACK" containing additional pipette tips. The person is carefully handling the pipette, ensuring precise transfer of the liquid. The scene is set in a laboratory environment, with various lab tools and supplies visible in the background. (tool=visual_inspect, t=0.00-25.21, conf=0.85) — raw: "A person wearing blue gloves is using a pipette to transfer a liquid into a series of small tubes arranged in a gray rack. The tubes are part of a larger set of lab equipment, including racks with ..."

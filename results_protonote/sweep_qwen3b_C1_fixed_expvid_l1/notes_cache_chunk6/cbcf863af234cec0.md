@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/58580/clip_54.mp4
+
+## Visual
+- A scientist wearing a white lab coat and gloves is working in a laboratory. He is using a centrifuge machine to spin samples. The centrifuge has a clear lid with a black base. The scientist is carefully placing a sample tube into the centrifuge. The centrifuge is on a white countertop. There are shelves behind the scientist filled with various containers and equipment. (tool=visual_inspect, t=0.00-6.74, conf=0.85) — raw: "A scientist wearing a white lab coat and gloves is working in a laboratory. He is using a centrifuge machine to spin samples. The centrifuge has a clear lid with a black base. The scientist is care..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/video_segments/58916/clip_8.mp4
+
+## Visual
+- A person wearing a lab coat and purple gloves is adjusting a gas flow setup. They connect a gas line to a device, adjust valves, and use a handheld device to monitor or control the flow. The setup includes various gas lines, valves, and a container wrapped in foil. The person interacts with a digital device displaying a flow rate of 0.24 L/min. (tool=visual_inspect, t=0.00-29.95, conf=0.85) — raw: "A person wearing a lab coat and purple gloves is adjusting a gas flow setup. They connect a gas line to a device, adjust valves, and use a handheld device to monitor or control the flow. The setup ..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/51084/clip_23.mp4
+
+## Visual
+- The frames depict a surgical procedure on a small animal, likely a rodent, with surgical instruments being used to manipulate tissue. The area being operated on appears to be the animal's head, with exposed tissue and blood visible. The instruments are carefully positioned, suggesting precision in the procedure. There are no visible labels or quantities to note. (tool=visual_inspect, t=0.00-8.07, conf=0.85) — raw: "The frames depict a surgical procedure on a small animal, likely a rodent, with surgical instruments being used to manipulate tissue. The area being operated on appears to be the animal's head, wit..."

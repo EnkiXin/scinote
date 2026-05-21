@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos/jove_63742.mp4
+
+## Visual
+- The video begins with a close-up of a gloved hand using a pipette to transfer a liquid sample onto a gold-coated pen tip. The scene transitions to a table displaying magnification, pixel size, and exposure doses for an EMISSEM QuesM CCD camera. Following this, a person wearing blue gloves is seen adjusting a device with a digital display reading "1.50" and holding a smartphone. The video concludes with a series of images showing labeled A through G, depicting a schematic and microscopic images of a bacterial cell and photoenzymatic processes. (tool=visual_inspect, t=0.00-332.16, conf=0.85) — raw: "The video begins with a close-up of a gloved hand using a pipette to transfer a liquid sample onto a gold-coated pen tip. The scene transitions to a table displaying magnification, pixel size, and ..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/3564/clip_55.mp4
+
+## Visual
+- The frames depict a diagram of a perfusion setup involving a rat, with tubing connecting the rat to two containers labeled "Buffer" and "Fixative." A pressure gauge is shown above the containers. A hand is seen writing on a paper with notes about the experiment, including times for the start, end of buffer, beginning of fix, and end of the process, along with observations about the liver and pancreas. (tool=visual_inspect, t=0.00-6.93, conf=0.85) — raw: "The frames depict a diagram of a perfusion setup involving a rat, with tubing connecting the rat to two containers labeled "Buffer" and "Fixative." A pressure gauge is shown above the containers. A..."

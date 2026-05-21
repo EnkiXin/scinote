@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/step_prediction/60744/clip_3_prediction.mp4
+
+## Visual
+- The frames depict a microscopic view of a surgical procedure, likely involving the manipulation of tissue or a similar material using forceps. The forceps are seen moving and adjusting the material, which appears to be a small, possibly biological structure. The background is a sterile, light-colored surface, and the procedure is being conducted under magnification, as indicated by the close-up view. The "jove" logo is visible, suggesting the video is from a scientific or educational source. (tool=visual_inspect, t=0.00-23.61, conf=0.85) — raw: "The frames depict a microscopic view of a surgical procedure, likely involving the manipulation of tissue or a similar material using forceps. The forceps are seen moving and adjusting the material..."

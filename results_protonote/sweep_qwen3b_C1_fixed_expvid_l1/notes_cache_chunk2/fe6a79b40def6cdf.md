@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/50969/clip_23.mp4
+
+## Visual
+- The graph shows the PBD signal over time, with two curves labeled A_slow and A_fast. The red curve represents A_slow, which starts at zero and increases rapidly to a peak value before stabilizing. The blue curve represents A_fast, which also starts at zero but increases more slowly than A_slow. The x-axis is labeled "time (s)" and ranges from 0 to 0.004 seconds. The y-axis is labeled "PBD signal (a.u.)" and ranges from 0 to 0.08. (tool=visual_inspect, t=0.00-9.45, conf=0.85) — raw: "The graph shows the PBD signal over time, with two curves labeled A_slow and A_fast. The red curve represents A_slow, which starts at zero and increases rapidly to a peak value before stabilizing. ..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos/jove_54674.mp4
+
+## Visual
+- The video showcases a series of scientific experiments involving the handling and analysis of a chemical labeled "Li exchange." A person in a lab coat and blue gloves is seen opening a container, pouring a white liquid into a funnel setup, and using a pipette to transfer liquid into a blue rack. The video concludes with images of graphs displaying sample weight percentage and normalized intensity versus wavelength, indicating the results of the experiments. (tool=visual_inspect, t=0.00-433.51, conf=0.85) — raw: "The video showcases a series of scientific experiments involving the handling and analysis of a chemical labeled "Li exchange." A person in a lab coat and blue gloves is seen opening a container, p..."

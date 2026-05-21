@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/60469/clip_12.mp4
+
+## Visual
+- A scientist wearing gloves and a lab coat is working in a laboratory setting. They are handling a test tube rack with several test tubes, some of which have green caps. The scientist is also using a pipette to transfer liquid into one of the test tubes. There is a blue bowl filled with ice cubes on the counter next to the test tube rack. The scientist then places the test tube rack into a centrifuge machine. (tool=visual_inspect, t=0.00-11.76, conf=0.85) — raw: "A scientist wearing gloves and a lab coat is working in a laboratory setting. They are handling a test tube rack with several test tubes, some of which have green caps. The scientist is also using ..."

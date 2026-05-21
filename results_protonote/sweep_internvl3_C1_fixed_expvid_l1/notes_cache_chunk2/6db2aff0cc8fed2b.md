@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/51974/clip_33.mp4
+
+## Visual
+- A person wearing gloves is using tweezers to handle small objects, possibly crystals, on a metallic surface with circular patterns. The scene includes close-ups of illuminated square patterns, likely indicating the objects being manipulated. The video appears to focus on a scientific or laboratory process involving precise handling and observation of these objects. (tool=visual_inspect, t=0.00-22.65, conf=0.85) — raw: "A person wearing gloves is using tweezers to handle small objects, possibly crystals, on a metallic surface with circular patterns. The scene includes close-ups of illuminated square patterns, like..."

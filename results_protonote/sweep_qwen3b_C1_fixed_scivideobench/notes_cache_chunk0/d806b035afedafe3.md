@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos/jove_63742.mp4
+
+## Visual
+- A person wearing blue gloves uses a pipette to transfer a liquid substance into a test tube. The video then transitions to a computer screen displaying a table with magnification values, pixel sizes, exposure doses, and dose rates for Hitachi H-600 equipment with EMFNS Quantronix K3 cameras. The table includes columns for magnification (KX), pixel size (μm), exposure dose (μm²), dose rate (μm²/s), and dose rate per exposure (μm²/s). The table also shows the number of images taken at each magnification level. (tool=visual_inspect, t=0.00-332.16, conf=0.85) — raw: "A person wearing blue gloves uses a pipette to transfer a liquid substance into a test tube. The video then transitions to a computer screen displaying a table with magnification values, pixel size..."

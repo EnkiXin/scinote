@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/56819/clip_33.mp4
+
+## Visual
+- The frames depict a surgical procedure involving the use of surgical instruments to manipulate tissue. The instruments are seen interacting with a section of tissue, possibly for cutting or repositioning. The environment is consistent with an internal surgical site, characterized by the presence of blood and bodily tissues. There are no visible labels or quantities that can be counted. (tool=visual_inspect, t=0.00-5.95, conf=0.85) — raw: "The frames depict a surgical procedure involving the use of surgical instruments to manipulate tissue. The instruments are seen interacting with a section of tissue, possibly for cutting or reposit..."

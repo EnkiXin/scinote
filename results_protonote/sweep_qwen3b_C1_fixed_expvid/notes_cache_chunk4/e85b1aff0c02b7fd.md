@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/video_segments/54971/clip_4.mp4
+
+## Visual
+- A person wearing gloves is working with a test tube in a laboratory setting. They are holding the test tube and appear to be preparing it for an experiment or procedure. The background includes various laboratory equipment and supplies, such as bottles, containers, and a microscope. The person's hands are the main focus of the video, and they are carefully handling the test tube. (tool=visual_inspect, t=0.00-39.47, conf=0.85) — raw: "A person wearing gloves is working with a test tube in a laboratory setting. They are holding the test tube and appear to be preparing it for an experiment or procedure. The background includes var..."

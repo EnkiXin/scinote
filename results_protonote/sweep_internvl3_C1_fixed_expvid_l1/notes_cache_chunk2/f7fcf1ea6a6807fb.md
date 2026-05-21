@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/57988/clip_41.mp4
+
+## Visual
+- A person wearing blue gloves is transferring a liquid from a test test tube into a pipette. The test tube contains a pink liquid, and the pipette is being used to transfer this liquid into another container. The scene takes place in a laboratory setting with various lab equipment visible, including a red rack holding another test tube with a pink liquid, a blue rack, and a yellow and black box. (tool=visual_inspect, t=0.00-8.43, conf=0.85) — raw: "A person wearing blue gloves is transferring a liquid from a test test tube into a pipette. The test tube contains a pink liquid, and the pipette is being used to transfer this liquid into another ..."

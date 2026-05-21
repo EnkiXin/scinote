@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/56819/clip_33.mp4
+
+## Visual
+- A surgical procedure is taking place inside a body cavity. A gloved hand holds a tool that appears to be a forceps or clamp, manipulating tissue. The tissue being worked on is pinkish-red and moist, suggesting it might be an organ or a part of the gastrointestinal tract. There is a dark, possibly black, tube connected to the tool, likely for suction or irrigation. The surrounding area is also pinkish-red, indicating the presence of blood or tissue fluid. (tool=visual_inspect, t=0.00-5.95, conf=0.85) — raw: "A surgical procedure is taking place inside a body cavity. A gloved hand holds a tool that appears to be a forceps or clamp, manipulating tissue. The tissue being worked on is pinkish-red and moist..."

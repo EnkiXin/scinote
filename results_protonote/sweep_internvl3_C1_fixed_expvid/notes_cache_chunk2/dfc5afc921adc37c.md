@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/video_segments/50210/clip_5.mp4
+
+## Visual
+- A person in a lab coat and gloves is working with lab equipment. They are using a pipette to transfer liquid into a test test tube, and then placing the tube into a machine. The person is also seen handling a tray with multiple test tubes containing pink liquid. (tool=visual_inspect, t=0.00-56.53, conf=0.85) — raw: "A person in a lab coat and gloves is working with lab equipment. They are using a pipette to transfer liquid into a test test tube, and then placing the tube into a machine. The person is also seen..."

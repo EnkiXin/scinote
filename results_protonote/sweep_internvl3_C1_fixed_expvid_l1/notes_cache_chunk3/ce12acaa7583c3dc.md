@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/62088/clip_17.mp4
+
+## Visual
+- The frames depict a surgical procedure involving the manipulation of tissue with surgical instruments. The tissue appears to be pink and moist, indicative of internal anatomy. The instruments are metallic and are being used to hold or dissect the tissue. There is a visible label "jove" in the top right corner, likely indicating the source or platform of the video. The background is dark, focusing attention on the surgical site. (tool=visual_inspect, t=0.00-7.21, conf=0.85) — raw: "The frames depict a surgical procedure involving the manipulation of tissue with surgical instruments. The tissue appears to be pink and moist, indicative of internal anatomy. The instruments are m..."

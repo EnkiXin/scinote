@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/61666/clip_6.mp4
+
+## Visual
+- A scientist wearing gloves and a lab coat is working with test tubes on a lab bench. The scientist is using a pipette to transfer liquid from one tube to another. There are several blue plastic racks with test tubes on them, and a white container with a red lid is also present on the bench. The scientist is focused on their work, carefully handling the test tubes and pipette. (tool=visual_inspect, t=0.00-11.30, conf=0.85) — raw: "A scientist wearing gloves and a lab coat is working with test tubes on a lab bench. The scientist is using a pipette to transfer liquid from one tube to another. There are several blue plastic rac..."

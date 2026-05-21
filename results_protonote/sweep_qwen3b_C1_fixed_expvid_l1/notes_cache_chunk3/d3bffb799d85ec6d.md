@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/51161/clip_16.mp4
+
+## Visual
+- A scientist is using a Canto II HTS instrument to analyze samples. The instrument is labeled "3L Canto II + HTS (1)" and is connected to a computer screen displaying data. The scientist is holding a test tube rack with samples labeled "PBS/BSA" and "Do not transfer pearls." The scientist places the test tube rack into the instrument and then removes it. The computer screen shows a graph with two clusters of data points, one labeled "Specimen D01-A1" and the other labeled "Specimen D01-B1." (tool=visual_inspect, t=0.00-13.56, conf=0.85) — raw: "A scientist is using a Canto II HTS instrument to analyze samples. The instrument is labeled "3L Canto II + HTS (1)" and is connected to a computer screen displaying data. The scientist is holding ..."

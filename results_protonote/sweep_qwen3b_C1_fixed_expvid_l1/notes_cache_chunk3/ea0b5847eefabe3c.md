@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/59396/clip_15.mp4
+
+## Visual
+- A person wearing green surgical attire and white gloves is handling a large, pinkish-red organ on a white surface. The organ appears to be a piece of tissue or muscle, possibly from an animal. The person uses their hands to manipulate the organ, which has a rough texture and some dark spots. A small syringe with a needle is also visible on the surface next to the organ. The text "15 cm" is displayed at the bottom left corner of the frame. (tool=visual_inspect, t=0.00-8.25, conf=0.85) — raw: "A person wearing green surgical attire and white gloves is handling a large, pinkish-red organ on a white surface. The organ appears to be a piece of tissue or muscle, possibly from an animal. The ..."

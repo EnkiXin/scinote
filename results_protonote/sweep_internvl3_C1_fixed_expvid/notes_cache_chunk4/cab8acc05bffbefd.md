@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/video_segments/61037/clip_6.mp4
+
+## Visual
+- The video showcases a laboratory procedure involving Western blotting. A person in a blue lab coat and gloves is seen handling a pipette and transferring liquid into a series of wells in a microplate. Another individual in a white lab coat is shown placing a gel cassette into a machine, likely for electrophoresis. The video concludes with a close-up of a gel, displaying distinct bands, indicative of protein separation and detection. The environment is a typical lab setting with various equipment and supplies visible. (tool=visual_inspect, t=0.00-27.75, conf=0.85) — raw: "The video showcases a laboratory procedure involving Western blotting. A person in a blue lab coat and gloves is seen handling a pipette and transferring liquid into a series of wells in a micropla..."

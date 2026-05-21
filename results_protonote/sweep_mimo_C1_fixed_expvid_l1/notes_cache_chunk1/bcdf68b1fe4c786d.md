@@ -1,0 +1,7 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/54818/clip_21.mp4
+
+## Visual
+- <think>
+</think>
+
+The clip shows a surgical procedure on an animal's eye, with surgical instruments manipulating the eye and sutures being placed. The background is a green surgical drape with a circular opening, and the word "jove" is visible in the top right corner. (tool=visual_inspect, t=0.00-5.11, conf=0.85) — raw: "<think> </think>  The clip shows a surgical procedure on an animal's eye, with surgical instruments manipulating the eye and sutures being placed. The background is a green surgical drape with a ci..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/65412/clip_10.mp4
+
+## Visual
+- A scientist wearing gloves is pouring a liquid from a large brown bottle into a small glass container on a lab counter. The counter has various lab equipment and supplies, including test tubes, a pipette, and a purple tray with small containers. There is also a green plastic container with multiple compartments. The text "Ultrapure water resistivity: >18 MQ-cm" is displayed at the bottom of the screen. (tool=visual_inspect, t=0.00-8.37, conf=0.85) — raw: "A scientist wearing gloves is pouring a liquid from a large brown bottle into a small glass container on a lab counter. The counter has various lab equipment and supplies, including test tubes, a p..."

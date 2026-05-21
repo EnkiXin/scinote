@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/63501/clip_19.mp4
+
+## Visual
+- A person wearing blue gloves is using a pipette to transfer liquid into a series of tubes connected to a piece of laboratory equipment. The equipment has two main units with labels and gauges, and several tubes with colored caps (red and yellow) are connected to it. The person is carefully manipulating the pipette to ensure precise transfer. The background shows various lab equipment and cables. (tool=visual_inspect, t=0.00-11.16, conf=0.85) — raw: "A person wearing blue gloves is using a pipette to transfer liquid into a series of tubes connected to a piece of laboratory equipment. The equipment has two main units with labels and gauges, and ..."

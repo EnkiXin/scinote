@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/56327/clip_29.mp4
+
+## Visual
+- A person in a lab coat is handling a piece of equipment, possibly a centrifuge, at a workstation with a computer. The computer screen displays a graphical user interface with various windows open, including a map and a list of items. The person is wearing gloves and appears to be preparing or operating the equipment. The workstation is equipped with a keyboard and mouse, and there is a printer or scanner nearby. The environment suggests to be a laboratory or research setting. (tool=visual_inspect, t=0.00-4.17, conf=0.85) — raw: "A person in a lab coat is handling a piece of equipment, possibly a centrifuge, at a workstation with a computer. The computer screen displays a graphical user interface with various windows open, ..."

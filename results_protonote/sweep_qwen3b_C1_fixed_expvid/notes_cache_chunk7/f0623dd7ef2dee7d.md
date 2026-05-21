@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/step_prediction/60744/clip_3_prediction.mp4
+
+## Visual
+- A small black object is being manipulated with tweezers under a microscope. The object appears to be a tiny insect or similar creature. The tweezers are used to gently move the object around on a glass slide. The microscope's eyepiece shows a magnified view of the object and the slide. There are no visible labels or quantities in the frames provided. (tool=visual_inspect, t=0.00-23.61, conf=0.85) — raw: "A small black object is being manipulated with tweezers under a microscope. The object appears to be a tiny insect or similar creature. The tweezers are used to gently move the object around on a g..."

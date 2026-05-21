@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/4142/clip_41.mp4
+
+## Visual
+- A person wearing a lab coat and blue gloves is performing a chemical experiment. They are using a pipette to transfer liquid from a flask labeled "40% Chloroform" into another container. The experiment is being conducted in a chemical fume hood, as indicated by the text overlay. Various lab equipment, including a water container labeled "H2O" and a device with a dial, are visible on the lab bench. (tool=visual_inspect, t=0.00-12.18, conf=0.85) — raw: "A person wearing a lab coat and blue gloves is performing a chemical experiment. They are using a pipette to transfer liquid from a flask labeled "40% Chloroform" into another container. The experi..."

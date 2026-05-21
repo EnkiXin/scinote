@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/63101/clip_49.mp4
+
+## Visual
+- A person in a lab coat and blue gloves is handling a pipette, transferring liquid into a blue microcentrifuge tube. The tube is placed in a container filled with ice. Various lab equipment and supplies, including a purple rack with tubes and a yellow rack, are visible on the bench. The text overlay indicates that additional information about primer sequences and PCR mix composition can be found in the text. (tool=visual_inspect, t=0.00-13.17, conf=0.85) — raw: "A person in a lab coat and blue gloves is handling a pipette, transferring liquid into a blue microcentrifuge tube. The tube is placed in a container filled with ice. Various lab equipment and supp..."

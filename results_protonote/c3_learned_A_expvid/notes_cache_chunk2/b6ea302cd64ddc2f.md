@@ -1,0 +1,30 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_3/60550_.mp4
+
+## Visual
+- The video shows a laboratory setting where a person wearing purple gloves handles various lab equipment, including a syringe, test tubes, and a beaker with red liquid. The scene transitions to a computer screen displaying graphs and images related to centrosomes in fusion, specifically mentioning "NEDD1: NEURAL PRECURSOR CELL EXPRESSED DEVELOPMENTALLY DOWN-REGULATED 1." (tool=visual_inspect, t=0.00-449.75, conf=0.85) — raw: "The video shows a laboratory setting where a person wearing purple gloves handles various lab equipment, including a syringe, test tubes, and a beaker with red liquid. The scene transitions to a co..."
+
+## OCR
+- - Unlabelled
+- Violet +ve
+- Far Red +ve
+- Fusion
+- 640 670/30-cell Trace far red
+- jove
+- 10^2
+- 10^4
+- 10^2
+- 10^4
+- 10^2
+- 10^4
+- 10^2
+- 10^4
+- 10^2
+- 10^4
+- 10^2
+- 10^4
+- 10^2
+- 10^4
+- 10^2
+- 10^4
+- 10^2
+- (tool=ocr, t=0.00-449.75, conf=0.80) — raw: "- Unlabelled - Violet +ve - Far Red +ve - Fusion - 640 670/30-cell Trace far red - jove - 10^2 - 10^4 - 10^2 - 10^4 - 10^2 - 10^4 - 10^2 - 10^4 - 10^2 - 10^4 - 10^2 - 10^4 - 10^2 - 10^4 - 10^2 - 10..."

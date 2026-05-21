@@ -159,8 +159,23 @@ def load_train_jsonl() -> list[dict]:
 
 
 def emit_pairs(item: dict, mode: str) -> list[dict]:
-    """Yield (input_prompt, output_action_json) pairs for one training item."""
-    pairs = []
+    """Yield ONE (input_prompt, output_action_json) pair per training item.
+
+    The pair simulates the inference distribution: the agent always runs a
+    SEED visual_inspect call first, so the planner ALWAYS sees a non-empty
+    Visual: section in the notes. The decision is then:
+      * "ocr"      — if the task wants OCR added (video_verification,
+                     experimental_conclusion, scientific_discovery,
+                     l1_tools, l1_materials, l1_quantity)
+      * "answer"   — if visual is already sufficient (sequence_generation,
+                     sequence_ordering, step_prediction, scivb, l1_operation)
+      * Mode B: also override to "answer" for SciVB mechanism / purpose
+        Qs (the SCIVB_DIAGNOSIS write-up's hypothesis).
+
+    This matches what the agent actually sees at inference time, fixing
+    the v1-A train/inference distribution mismatch (where pair 0 used
+    empty notes but the agent's first planner call saw seed notes).
+    """
     benchmark = item.get("benchmark", "expvid")
     task = item.get("task", "")
     if benchmark == "scivideobench" and not task:
@@ -170,58 +185,52 @@ def emit_pairs(item: dict, mode: str) -> list[dict]:
     options = item.get("options") if isinstance(item.get("options"), dict) else None
     video_id = item.get("video_path", item.get("sample_id", "video"))
 
-    # ── pair 0: empty notes → first tool (or "answer" in mode B for skip Qs)
-    first_tool = tools[0]
-    skip_pair0 = False
-    if mode == "B":
-        if benchmark == "scivideobench" and is_mechanism_question(question):
-            skip_pair0 = True
-        elif task == "l1_operation":
-            skip_pair0 = True
+    # Build the seed-style stub note that mimics what the agent will have
+    # at inference after the SEED visual_inspect call.
+    seed_note = _STUB_NOTE_TEMPLATE.format(
+        video_id=video_id,
+        tool_output_placeholder=(
+            "the video shows a person performing a lab procedure "
+            "with visible equipment, materials, and labels"
+        ),
+    )
 
-    pair0_input = _planner_user_prompt(question, "", 60.0, 2, options)
-    if skip_pair0:
-        pair0_output = ('{"tool": "answer", "reason": '
-                         '"question is purpose/mechanism-style; visual notes '
-                         'tend to bias toward literal distractor"}')
+    # Decide the planner's action:
+    #   - if TASK_TO_TOOLS includes "ocr" (and seed already covered visual),
+    #     route to "ocr" to add the missing OCR pass
+    #   - otherwise the visual seed is enough → "answer"
+    needs_ocr = "ocr" in tools
+    label_tool = "ocr" if needs_ocr else "answer"
+
+    # Mode B: also override to "answer" for mechanism/purpose Qs (any
+    # benchmark) and for L1 operation. Mechanism-style Qs do not benefit
+    # from a literal action description in the notes — per the SCIVB and
+    # L1 operation diagnoses.
+    if mode == "B":
+        if is_mechanism_question(question):
+            label_tool = "answer"
+        elif task == "l1_operation":
+            label_tool = "answer"
+
+    prompt = _planner_user_prompt(question, seed_note, 60.0, 1, options)
+    if label_tool == "ocr":
+        completion = ('{"tool": "ocr", "reason": '
+                       '"OCR pass needed to read on-screen labels / numbers / '
+                       'instrument readings missed by the initial visual pass"}')
     else:
-        pair0_output = (
-            f'{{"tool": "{first_tool}", "reason": '
-            f'"task-routed first tool for {task or benchmark}"}}'
-        )
-    pairs.append({
+        completion = ('{"tool": "answer", "reason": '
+                       '"prior visual notes are sufficient for this question; '
+                       'commit to answer"}')
+
+    return [{
         "sample_id":  item.get("sample_id", "?"),
         "benchmark":  benchmark,
         "task":       task,
         "task_type":  item.get("task_type", "mc"),
-        "prompt":     pair0_input,
-        "completion": pair0_output,
+        "prompt":     prompt,
+        "completion": completion,
         "step":       0,
-    })
-
-    # ── pair 1: synthetic note context → "answer"
-    if not skip_pair0:
-        stub_note = _STUB_NOTE_TEMPLATE.format(
-            video_id=video_id,
-            tool_output_placeholder=(
-                "the video shows a person performing a lab procedure "
-                "with visible equipment and reagents"
-            ),
-        )
-        pair1_input = _planner_user_prompt(question, stub_note, 60.0, 1, options)
-        pair1_output = ('{"tool": "answer", "reason": '
-                         '"prior tool output is sufficient; commit to answer"}')
-        pairs.append({
-            "sample_id":  item.get("sample_id", "?"),
-            "benchmark":  benchmark,
-            "task":       task,
-            "task_type":  item.get("task_type", "mc"),
-            "prompt":     pair1_input,
-            "completion": pair1_output,
-            "step":       1,
-        })
-
-    return pairs
+    }]
 
 
 def main():

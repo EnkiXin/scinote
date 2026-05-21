@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos/jove_67000.mp4
+
+## Visual
+- The video begins with a title slide introducing a study on the significance of flow rates in an assay based on Quantitative Dots. The scene then transitions to a laboratory setting where a scientist, wearing gloves, is handling various lab equipment including a centrifuge, a blue container labeled "Lecu," and a bottle of propylene glycol. The scientist appears to be preparing or processing samples, possibly for analysis using the Quantitative Dots method mentioned in the title. (tool=visual_inspect, t=0.00-433.07, conf=0.85) — raw: "The video begins with a title slide introducing a study on the significance of flow rates in an assay based on Quantitative Dots. The scene then transitions to a laboratory setting where a scientis..."

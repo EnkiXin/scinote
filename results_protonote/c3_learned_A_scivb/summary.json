@@ -1,0 +1,12 @@
+{
+  "n_files": 7,
+  "n_valid": 218,
+  "n_err": 0,
+  "overall_acc": 24.77,
+  "by_task": {
+    "mc": {
+      "acc": 24.77,
+      "n": 218
+    }
+  }
+}

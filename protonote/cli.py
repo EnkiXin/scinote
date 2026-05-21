@@ -32,7 +32,9 @@ from evaluate_c0_test_split import (  # noqa: E402
     BUILDERS, parse_for_task, gold_for, extract_frames,
 )
 
-from protonote.data.loaders import load_test_split, resolve_video_path  # noqa: E402
+from protonote.data.loaders import (  # noqa: E402
+    load_test_split, load_expvid_l1, resolve_video_path,
+)
 
 
 # ── LLM client (HF transformers in-process for Phase 0) ─────────────────────
@@ -142,10 +144,19 @@ class ProtoNoteAgent:
 
 def _build_agent(condition: str, vlm, notes_cache_dir: str,
                   max_react_steps: int = 2):
-    """Factory: build the agent that matches `condition`."""
+    """Factory: build the agent that matches `condition`.
+
+    Conditions:
+      C0          single VLM call (no tools, no notes)
+      C1_fixed    deterministic task-routed tools → NoteBuffer → answer
+      C2_react    ReAct (planner picks tool + timestamp_range, no options shown)
+                  — the original C2; underperforms C1_fixed on video_verification
+      C2_react_v2 ReAct with (B) no timestamp picking + (C) MC options shown
+                  to planner. Designed to fix the C2_react regression.
+    """
     if condition == "C0":
         return ProtoNoteAgent(vlm=vlm, condition="C0")
-    if condition in ("C1_fixed", "C2_react"):
+    if condition in ("C1_fixed", "C2_react", "C2_react_v2"):
         from protonote.notes.note_buffer import NoteBuffer
         from protonote.tools import build_default_tools
         buf = NoteBuffer(cache_dir=notes_cache_dir)
@@ -154,8 +165,15 @@ def _build_agent(condition: str, vlm, notes_cache_dir: str,
             from protonote.planner.controller import FixedScheduleAgent
             return FixedScheduleAgent(vlm=vlm, tools=tools, note_buffer=buf)
         from protonote.planner.react_controller import ReActAgent
+        if condition == "C2_react_v2":
+            return ReActAgent(vlm=vlm, tools=tools, note_buffer=buf,
+                                max_react_steps=max_react_steps,
+                                allow_timestamp_picking=False,
+                                show_options_to_planner=True)
         return ReActAgent(vlm=vlm, tools=tools, note_buffer=buf,
-                            max_react_steps=max_react_steps)
+                            max_react_steps=max_react_steps,
+                            allow_timestamp_picking=True,
+                            show_options_to_planner=False)
     raise ValueError(f"unknown condition: {condition!r}")
 
 
@@ -163,17 +181,25 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="Qwen/Qwen2.5-VL-7B-Instruct")
     ap.add_argument("--device", default="cuda:0")
-    ap.add_argument("--benchmark", default="expvid", choices=["expvid", "scivideobench", "all"])
+    ap.add_argument("--benchmark", default="expvid",
+                     choices=["expvid", "scivideobench", "expvid_l1", "all"])
+    ap.add_argument("--l1_subtask", default="",
+                     help="ExpVid L1 only: filter to one sub-task "
+                          "(tools / materials / operation / quantity). "
+                          "Empty = all four.")
     ap.add_argument("--limit", type=int, default=50, help="Pilot limit; 0 = full split")
     ap.add_argument("--max_frames", type=int, default=32)
     ap.add_argument("--output_dir", default="results_protonote/pilot")
     ap.add_argument("--chunk_id", type=int, default=0)
     ap.add_argument("--num_chunks", type=int, default=1)
     ap.add_argument("--condition", default="C0",
-                     choices=["C0", "C1_fixed", "C2_react"],
+                     choices=["C0", "C1_fixed", "C2_react", "C2_react_v2"],
                      help="C0 = single VLM call (baseline). C1_fixed = "
                           "task-routed tools → NoteBuffer → answer-with-notes. "
-                          "C2_react = LLM-driven tool routing on top of seed.")
+                          "C2_react = LLM-driven tool routing + sub-range. "
+                          "C2_react_v2 = LLM tool routing only (full-clip) + "
+                          "MC options shown to planner (fixes the 7B-planner "
+                          "regression).")
     ap.add_argument("--notes_cache", default="",
                      help="NoteBuffer cache dir (C1+/C2). Defaults to "
                           "<output_dir>/notes_cache.")
@@ -181,8 +207,13 @@ def main():
                      help="C2_react only: max LLM-planned tool calls after seed.")
     args = ap.parse_args()
 
-    benchmark = None if args.benchmark == "all" else args.benchmark
-    items = load_test_split(benchmark=benchmark, limit=args.limit if args.limit > 0 else None)
+    if args.benchmark == "expvid_l1":
+        items = load_expvid_l1(subtask=args.l1_subtask or None,
+                                 limit=args.limit if args.limit > 0 else None)
+    else:
+        benchmark = None if args.benchmark == "all" else args.benchmark
+        items = load_test_split(benchmark=benchmark,
+                                  limit=args.limit if args.limit > 0 else None)
     if args.num_chunks > 1:
         items = [it for i, it in enumerate(items) if i % args.num_chunks == args.chunk_id]
     print(f"[cli] {len(items)} items (benchmark={benchmark}, "

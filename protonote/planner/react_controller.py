@@ -70,26 +70,57 @@ _PLANNER_SYSTEM = (
 
 
 def _planner_prompt(question: str, notes_md: str, video_duration: float,
-                     budget_remaining: int, tools_available: list[str]) -> str:
+                     budget_remaining: int, tools_available: list[str],
+                     options: dict | None = None,
+                     allow_timestamp_picking: bool = True) -> str:
+    """Build the planner-LLM prompt.
+
+    When `options` is provided (MC items), the answer choices are surfaced so
+    the planner can decide whether extra OCR/visual_inspect would help
+    disambiguate them. When `allow_timestamp_picking=False`, the planner
+    output schema drops timestamp_range and tools always run on the full
+    clip — this avoids the 7B-planner failure mode of picking a sub-range
+    that misses the relevant on-screen evidence.
+    """
     tools_doc = []
     if "visual_inspect" in tools_available:
-        tools_doc.append('  visual_inspect(timestamp_range=[t0, t1]) — describe what is visually happening in a time range')
+        if allow_timestamp_picking:
+            tools_doc.append('  visual_inspect(timestamp_range=[t0, t1]) — describe what is visually happening in a time range')
+        else:
+            tools_doc.append('  visual_inspect — describe what is visually happening in the WHOLE clip (a fresh, focused pass)')
     if "ocr" in tools_available:
-        tools_doc.append('  ocr(timestamp_range=[t0, t1]) — read all visible text / labels / numbers in a time range')
+        if allow_timestamp_picking:
+            tools_doc.append('  ocr(timestamp_range=[t0, t1]) — read all visible text / labels / numbers in a time range')
+        else:
+            tools_doc.append('  ocr — read all visible text / labels / numbers across the WHOLE clip')
     tools_doc.append('  answer — commit to answering; pick this when notes are sufficient')
+
+    options_block = ""
+    if options:
+        opts_text = "\n".join(f"  {k}) {v}" for k, v in options.items())
+        options_block = f"Answer choices:\n{opts_text}\n\n"
+
+    schema_keys = (
+        '  "tool" (one of the actions above),\n'
+        + ('  "timestamp_range" ([start_sec, end_sec] for tool calls; omit for answer),\n'
+            if allow_timestamp_picking else "")
+        + '  "reason" (one short sentence).\n'
+    )
+    example = (
+        '{"tool": "ocr", "timestamp_range": [40, 55], "reason": "labels visible in final frames"}'
+        if allow_timestamp_picking
+        else '{"tool": "ocr", "reason": "need to read instrument labels to disambiguate A vs C"}'
+    )
 
     return (
         f"Question: {question}\n\n"
+        f"{options_block}"
         f"Notes so far:\n{notes_md if notes_md.strip() else '(empty)'}\n\n"
         f"Video duration: {video_duration:.1f} seconds.\n"
         f"Actions remaining: {budget_remaining}.\n\n"
         f"Available actions:\n" + "\n".join(tools_doc) + "\n\n"
-        "Output ONE JSON object with keys:\n"
-        '  "tool" (one of the actions above),\n'
-        '  "timestamp_range" ([start_sec, end_sec] for tool calls; omit for answer),\n'
-        '  "reason" (one short sentence).\n\n'
-        "Only output the JSON. Example: "
-        '{"tool": "ocr", "timestamp_range": [40, 55], "reason": "labels visible in final frames"}'
+        "Output ONE JSON object with keys:\n" + schema_keys + "\n"
+        "Only output the JSON. Example: " + example
     )
 
 
@@ -105,6 +136,8 @@ class ReActAgent:
         max_new_tokens_planner: int = 96,
         max_new_tokens_answer_mc: int = 8,
         max_new_tokens_answer_open: int = 64,
+        allow_timestamp_picking: bool = True,
+        show_options_to_planner: bool = True,
     ):
         self.vlm = vlm
         self.tools = tools
@@ -113,6 +146,8 @@ class ReActAgent:
         self.max_plan = max_new_tokens_planner
         self.max_mc = max_new_tokens_answer_mc
         self.max_open = max_new_tokens_answer_open
+        self.allow_ts = allow_timestamp_picking
+        self.show_opts = show_options_to_planner
         self._seeded: set[str] = set()
 
     def _section_for_tool(self, tool_name: str) -> str:
@@ -149,7 +184,8 @@ class ReActAgent:
         self._seeded.add(video_path)
 
     def _react_loop(self, video_path: str, question: str, task: str | None,
-                     duration: float, trajectory: list[dict]) -> None:
+                     duration: float, trajectory: list[dict],
+                     options: dict | None = None) -> None:
         available = list(set(tools_for_task(task)) | {"visual_inspect", "ocr"})
         for step in range(self.max_react):
             notes_md = self.buf.render_for_llm(video_path,
@@ -157,7 +193,9 @@ class ReActAgent:
                                                  max_chars=2000)
             prompt = _planner_prompt(question, notes_md, duration,
                                       budget_remaining=self.max_react - step,
-                                      tools_available=available)
+                                      tools_available=available,
+                                      options=options if self.show_opts else None,
+                                      allow_timestamp_picking=self.allow_ts)
             messages = [
                 {"role": "system", "content": _PLANNER_SYSTEM},
                 {"role": "user",   "content": [{"type": "text", "text": prompt}]},
@@ -180,11 +218,14 @@ class ReActAgent:
             if tool_name == "answer" or tool_name not in self.tools:
                 break
 
-            tr = action.get("timestamp_range") or [0.0, duration]
-            try:
-                tr = (float(tr[0]), float(tr[1]))
-            except Exception:
-                tr = (0.0, duration)
+            if self.allow_ts:
+                tr = action.get("timestamp_range") or [0.0, duration]
+                try:
+                    tr = (float(tr[0]), float(tr[1]))
+                except Exception:
+                    tr = (0.0, duration)
+            else:
+                tr = (0.0, duration)  # full-video; planner cannot pick sub-range
 
             kwargs: dict[str, Any] = {"timestamp_range": tr}
             if tool_name == "ocr":
@@ -238,7 +279,9 @@ class ReActAgent:
 
         self._seed(vp, task, question, out["trajectory"])
         if self.max_react > 0:
-            self._react_loop(vp, question, task, duration, out["trajectory"])
+            options = item.get("options") if isinstance(item.get("options"), dict) else None
+            self._react_loop(vp, question, task, duration, out["trajectory"],
+                              options=options)
 
         notes_md = self.buf.render_for_llm(vp, question_context=question)
         note_ctx = notes_md if self.buf.num_entries(vp) > 0 else None

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos/jove_67000.mp4
+
+## Visual
+- The video begins with a title screen introducing a study on the effects of Flos Lonicerae on Quantitative Dots (Q-Dots) in a mouse model. The scene transitions to a laboratory setting where a person wearing a lab coat and gloves is seen handling various laboratory equipment and materials, including a pipette, test tubes, and a blue ice bucket labeled "Lenti." The individual carefully measures and dispenses liquids into a container, with a digital display showing a jetting rate of 1 μL/cm. (tool=visual_inspect, t=0.00-433.07, conf=0.85) — raw: "The video begins with a title screen introducing a study on the effects of Flos Lonicerae on Quantitative Dots (Q-Dots) in a mouse model. The scene transitions to a laboratory setting where a perso..."

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos/jove_67252.mp4
+
+## Visual
+- The video shows a laboratory setting where a person wearing gloves handles various lab equipment and materials. The individual uses a pipette to transfer liquids into a multi-well plate, places samples into a vortex mixer, and operates a digital droplet polymerase chain reaction (ddPCR) machine. The text on screen provides instructions such as "Vortex and briefly spin the samples." The video also includes a title card for a research paper titled "Quantification of Adeno-Associated Viral Genomes in Purified Vector Samples by Digital Droplet Polymerase Chain Reaction," listing authors and affiliations. (tool=visual_inspect, t=0.00-282.67, conf=0.85) — raw: "The video shows a laboratory setting where a person wearing gloves handles various lab equipment and materials. The individual uses a pipette to transfer liquids into a multi-well plate, places sam..."

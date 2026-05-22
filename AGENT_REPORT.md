@@ -338,39 +338,139 @@ schema). Currently running:
 
 ---
 
-## 4. Results to date
+## 4. Results to date — Per-Model Breakdown
 
-### 4.1 ExpVid L2 + L3 (n = 745, Qwen-7B answer)
+Each model section below shows **every sub-task × every method** evaluated on
+that backbone. Missing entries (`—`) mean the experiment has not been run.
 
-| Task | n | C0 | C1_fixed | C2_react | C2_react_v2 |
+**Methods** (columns in every table):
+- **C0** — baseline, single VLM call (no tools, no notes)
+- **C1_fixed** — taxonomy-routed deterministic tool agent (the ProtoNote
+  hand-coded variant)
+- **C2_react** — LLM zero-shot ReAct planner (original)
+- **C2_react_v2** — ReAct + (B) no timestamp picking + (C) MC options shown
+- **C3_learned_A** — Qwen-7B planner LoRA trained via SFT (Step A v2)
+
+**Benchmarks / sub-tasks**:
+- **ExpVid L1** (n=4035, 4 sub-tasks): tools / materials / operation / quantity
+- **ExpVid L2/L3** (n=745, 6 sub-tasks): sequence_generation / sequence_ordering / step_prediction / video_verification / experimental_conclusion / scientific_discovery
+- **SciVB** (n=218, single MC task)
+
+### 4.1 Qwen2.5-VL-3B-Instruct (3B answer)
+
+| Sub-task | n | C0 | C1_fixed | C2_react | C2_v2 | C3_learn |
+|---|---:|---:|---:|---:|---:|---:|
+| **ExpVid L1** | | | | | | |
+| tools | 1130 | 33.36 | 33.81 | — | — | — |
+| materials | 1266 | 30.17 | 32.31 | — | — | — |
+| operation | 938 | 60.34 | 58.85 | — | — | — |
+| quantity | 701 | 37.23 | 38.37 | — | — | — |
+| **L1 overall** | **4035** | **39.31** | **39.95** | — | — | — |
+| **ExpVid L2/L3** | | | | | | |
+| sequence_generation | 161 | 23.93 | 26.09 | — | — | — |
+| sequence_ordering | 150 | 44.00 | 48.00 | — | — | — |
+| step_prediction | 145 | 4.83 | 8.28 | — | — | — |
+| video_verification | 152 | 19.08 | 21.05 | — | — | — |
+| experimental_conclusion | 76 | 16.34 | 14.80 | — | — | — |
+| scientific_discovery | 61 | 14.90 | 10.58 | — | — | — |
+| **L2/L3 overall** | **745** | **21.75** | **23.58** | — | — | — |
+| **SciVB** | 218 | **21.10** | **22.02** | — | — | — |
+
+### 4.2 Qwen2.5-VL-7B-Instruct (7B answer, original ProtoNote backbone)
+
+| Sub-task | n | C0 | C1_fixed | C2_react | C2_v2 | C3_learn |
+|---|---:|---:|---:|---:|---:|---:|
+| **ExpVid L1** | | | | | | |
+| tools | 1130 | 37.61 | 37.96 | — | — | — |
+| materials | 1266 | 34.28 | 37.05 | — | — | — |
+| operation | 938 | 67.70 | 61.73 | — | — | — |
+| quantity | 701 | 49.79 | 43.37 | — | — | — |
+| **L1 overall** | **4035** | **45.68** | **44.14** | — | — | — |
+| **ExpVid L2/L3** | | | | | | |
+| sequence_generation | 161 | 42.78 | 44.47 | 44.64 | 43.63 | **44.98** |
+| sequence_ordering | 150 | 51.33 | **58.67** | 57.33 | 57.33 | 57.33 |
+| step_prediction | 145 | 0.00 | **3.45** | 2.76 | 2.07 | 2.76 |
+| video_verification | 152 | 18.42 | **21.71** | 17.76 | 19.74 | 18.42 |
+| experimental_conclusion | 76 | 18.75 | 17.89 | 18.78 | 18.40 | **18.96** |
+| scientific_discovery | 61 | 16.59 | 16.92 | 18.22 | 19.02 | **19.44** |
+| **L2/L3 overall** | **745** | **26.61** | **29.73** ⭐ | 28.76 | 28.84 | **29.09** |
+| **SciVB** | 218 | **25.69** | 24.31 | — | — | 24.77 |
+
+### 4.3 MiMo-VL-7B-RL (7B answer, Qwen-derived arch)
+
+| Sub-task | n | C0 | C1_fixed | C2_react | C2_v2 | C3_learn |
+|---|---:|---:|---:|---:|---:|---:|
+| **ExpVid L1** | | | | | | |
+| tools | 1130 | 39.29 | 39.20 | — | — | — |
+| materials | 1266 | 36.81 | 41.23 | — | — | — |
+| operation | 938 | 61.51 | 62.05 | — | — | — |
+| quantity | 701 | 39.37 | 41.08 | — | — | — |
+| **L1 overall** | **4035** | **43.69** | **45.48** | — | — | — |
+| **ExpVid L2/L3** | | | | | | |
+| sequence_generation | 161 | 41.85 | 43.17 | — | — | — |
+| sequence_ordering | 150 | **57.33** | 54.67 | — | — | — |
+| step_prediction | 145 | 6.90 | **11.03** | — | — | — |
+| video_verification | 152 | 16.45 | 15.79 | — | — | — |
+| experimental_conclusion | 76 | 17.26 | 15.33 | — | — | — |
+| scientific_discovery | 61 | 14.63 | 14.74 | — | — | — |
+| **L2/L3 overall** | **745** | **28.24** | **28.48** | — | — | — |
+| **SciVB** | 218 | **25.23** | 23.85 | — | — | — |
+
+### 4.4 InternVL3-8B (8B answer, separate architecture)
+
+| Sub-task | n | C0 | C1_fixed | C2_react | C2_v2 | C3_learn |
+|---|---:|---:|---:|---:|---:|---:|
+| **ExpVid L1** | | | | | | |
+| tools | 1130 | 33.10 | 33.72 | — | — | — |
+| materials | 1266 | 30.88 | 34.52 | — | — | — |
+| operation | 938 | 65.46 | 57.68 | — | — | — |
+| quantity | 701 | 55.78 | 51.36 | — | — | — |
+| **L1 overall** | **4035** | **43.87** | **42.60** | — | — | — |
+| **ExpVid L2/L3** | | | | | | |
+| sequence_generation | 161 | 31.13 | 31.04 | — | — | — |
+| sequence_ordering | 150 | 50.67 | **60.67** | — | — | — |
+| step_prediction | 145 | **7.59** | 6.21 | — | — | — |
+| video_verification | 152 | 16.45 | 15.13 | — | — | — |
+| experimental_conclusion | 76 | 21.08 | 18.63 | — | — | — |
+| scientific_discovery | 61 | 16.83 | 13.32 | — | — | — |
+| **L2/L3 overall** | **745** | **25.29** | **26.21** | — | — | — |
+| **SciVB** | 218 | **29.36** | 27.98 | — | — | — |
+
+### 4.5 Qwen2.5-VL-72B-Instruct (72B answer, TP=4)
+
+| Sub-task | n | C0 | C1_fixed | C2_react | C2_v2 | C3_learn |
+|---|---:|---:|---:|---:|---:|---:|
+| **ExpVid L1** | | | | | | |
+| tools | 1130 | 39.12 | 39.73 | — | — | — |
+| materials | 1266 | **42.50** | 41.63 | — | — | — |
+| operation | 938 | **77.61** | 64.93 | — | — | — |
+| quantity | 701 | **53.92** | 47.36 | — | — | — |
+| **L1 overall** | **4035** | **51.70** ⭐ | **47.51** | — | — | — |
+| **ExpVid L2/L3** | | | | | | |
+| sequence_generation | 161 | 45.49 | — | — | — | — |
+| sequence_ordering | 150 | **77.33** ⭐ | — | — | — | — |
+| step_prediction | 145 | 4.14 | — | — | — | — |
+| video_verification | 152 | 18.42 | — | — | — | — |
+| experimental_conclusion | 76 | 28.95 | — | — | — | — |
+| scientific_discovery | 61 | 27.02 | — | — | — | — |
+| **L2/L3 overall** | **745** | **35.13** ⭐ | — | — | — | — |
+| **SciVB** | 218 | **41.74** ⭐ | — | — | — | — |
+
+### 4.6 Cross-model summary (overall accuracy per benchmark)
+
+| Benchmark | Qwen-3B | Qwen-7B | MiMo-7B | InternVL3-8B | Qwen-72B |
 |---|---:|---:|---:|---:|---:|
-| sequence_generation | 161 | 42.78 | 44.47 | **44.64** | TBD |
-| sequence_ordering | 150 | 51.33 | **58.67** ⭐ | 57.33 | TBD |
-| step_prediction | 145 | 0.00 | **3.45** | 2.76 | TBD |
-| video_verification | 152 | 18.42 | **21.71** ⭐ | 17.76 | TBD |
-| experimental_conclusion | 76 | 18.75 | 17.89 | **18.78** | TBD |
-| scientific_discovery | 61 | 16.59 | 16.92 | **18.22** | TBD |
-| **overall** | **745** | **26.61** | **29.73** ⭐ | 28.76 | TBD |
+| **L1 C0** | 39.31 | 45.68 | 43.69 | 43.87 | **51.70** |
+| **L1 C1_fixed** | 39.95 | 44.14 | 45.48 | 42.60 | **47.51** |
+| **L1 Δ** (C1-C0) | +0.64 | −1.54 | **+1.79** | −1.27 | **−4.19** |
+| **L2/L3 C0** | 21.75 | 26.61 | 28.24 | 25.29 | **35.13** |
+| **L2/L3 C1_fixed** | 23.58 | **29.73** | 28.48 | 26.21 | running |
+| **L2/L3 Δ** | +1.83 | **+3.12** | +0.24 | +0.92 | — |
+| **SciVB C0** | 21.10 | 25.69 | 25.23 | 29.36 | **41.74** |
+| **SciVB C1_fixed** | 22.02 | 24.31 | 23.85 | 27.98 | running |
+| **SciVB Δ** | **+0.92** | −1.38 | −1.38 | −1.38 | — |
 
-### 4.2 SciVideoBench (n = 218, Qwen-7B answer)
-
-| Config | acc |
-|---|---:|
-| C0 | **25.69** |
-| C1_fixed | 24.31 |
-| Δ (agent − baseline) | **−1.38** |
-
-### 4.3 ExpVid L1 (n = 4035)
-
-| Subtask | n | C0 | C1_fixed |
-|---|---:|---:|---:|
-| level1_tools | 1130 | running | pending |
-| level1_materials | 1266 | running | pending |
-| level1_operation | 938 | running | pending |
-| level1_quantity | 701 | running | pending |
-| **all L1** | **4035** | **running** | **pending** |
-
-### 4.4 ExpVid L2/L3 — comparison to paper-1 PER_TASK_RESULTS
+### 4.7 Comparison to paper-1 PER_TASK_RESULTS (Qwen-7B + ExpVid L2/L3 only)
 
 Same 20 % held-out test split, same fresh-pipeline evaluator. All numbers
 are non-oracle except the last two rows.
@@ -388,6 +488,8 @@ are non-oracle except the last two rows.
 | task-gated v2 hybrid (prior best non-oracle config) | 27.80 |
 | **ProtoNote C1_fixed (new)** | **29.73** ⭐ |
 | ProtoNote C2_react | 28.76 |
+| ProtoNote C2_react_v2 | 28.84 |
+| ProtoNote C3_learned_A (Step A v2 SFT) | 29.09 |
 | Oracle-old (v2 prose, gold) | 54.61 |
 | Oracle-new (v4 TA, gold) | 67.84 |
 

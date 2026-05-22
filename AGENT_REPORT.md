@@ -121,7 +121,7 @@ question + video
 | `protonote/planner/react_controller.py` | `ReActAgent` (C2_react / C2_react_v2) |
 | `protonote/eval/eval_expvid.py` | Aggregator → `summary.json` |
 
-### 2.2 Conditions
+### 2.2 Conditions (operational summary)
 
 | Code | Tools used | Routing decision | Notes-in-prompt? |
 |---|---|---|---|
@@ -129,12 +129,237 @@ question + video
 | **C1_fixed** | TASK_TO_TOOLS[task] | hard-coded taxonomy | yes |
 | **C2_react** | seed visual + LLM-picked tools | LLM picks tool + timestamp_range | yes |
 | **C2_react_v2** | seed visual + LLM-picked tools | LLM picks tool only; tools always run on the full clip; MC options shown to planner | yes |
+| **C3_learned_A** | seed visual + LoRA-planner-picked tools | trained Qwen-7B LoRA picks tool | yes |
 
 All conditions share:
 * Qwen2.5-VL-7B answer model (HF transformers, bf16, greedy)
-* 32 frames/video, `max_pixels = 360×420` (720×840 for OCR)
+* 32 frames/video, `max_pixels = 360×420` (720×840 for OCR tool)
 * `max_new_tokens`: 8 (MC), 64 (open), 96 (planner)
 * ReAct budget: 2 additional tool calls after the seed step
+
+### 2.3 Method details — what each condition actually does at inference time
+
+#### C0 — baseline (single VLM call)
+
+Pseudo-code (`protonote/cli.py:ProtoNoteAgent.answer`):
+
+```python
+frames = extract_frames(video_path, max_frames=32)
+messages = BUILDERS[task_type](item, frames, note=None, benchmark=...)
+raw = vlm.generate(messages, max_new_tokens=8 if MC else 64)
+pred = parse_for_task(raw, task_type, item)
+score = SCORERS[task_type](pred, gold)
+```
+
+* `BUILDERS` reused verbatim from `evaluate_c0_test_split` (same as
+  paper-1 fresh pipeline). For an MC item:
+  ```
+  System: "{MC_SYSTEM}"
+  User:   <video frames>
+          "Question: {q}\n\nOptions:\n  A. ...\n  B. ...\n\n
+           Answer ONLY with the letter."
+  ```
+* Greedy decoding, no sampling, no tools, no notes injection.
+* This is the C0 paper-1 numbers we reproduce to ±0.5 pp.
+
+#### C1_fixed — deterministic tool router (`FixedScheduleAgent`)
+
+Pseudo-code (`protonote/planner/controller.py:FixedScheduleAgent.answer`):
+
+```python
+tools_for_this_task = TASK_TO_TOOLS[task]  # e.g. ["ocr", "visual_inspect"]
+for tool_name in tools_for_this_task:
+    res = tools[tool_name](video_path, query=question)
+    if res.success:
+        note_buffer.append(video_id, NoteEntry(content=res.content,
+                                                  evidence=res.evidence))
+notes_md = note_buffer.render_for_llm(video_id, question_context=question)
+# Same builder as C0 but with note=notes_md instead of note=None
+messages = BUILDERS[task_type](item, frames, note=notes_md, benchmark=...)
+raw = vlm.generate(messages, max_new_tokens=...)
+```
+
+**Concrete `TASK_TO_TOOLS` mapping** (`protonote/planner/tool_policy.py`):
+
+```python
+TASK_TO_TOOLS = {
+    "sequence_generation":     ["visual_inspect"],
+    "sequence_ordering":       ["visual_inspect"],
+    "step_prediction":         ["visual_inspect"],
+    "video_verification":      ["ocr", "visual_inspect"],
+    "experimental_conclusion": ["visual_inspect", "ocr"],
+    "scientific_discovery":    ["visual_inspect", "ocr"],
+    "scivideobench":           ["visual_inspect"],
+    # extended in training data prep (prepare_planner_data.py):
+    "l1_tools":     ["ocr", "visual_inspect"],
+    "l1_materials": ["visual_inspect", "ocr"],
+    "l1_operation": ["visual_inspect"],
+    "l1_quantity":  ["ocr", "visual_inspect"],
+}
+```
+
+The notes injected into the answer prompt are the rendered markdown
+view of `NoteBuffer`:
+
+```
+# <video_id>
+## Visual
+- the video shows a person performing... (tool=visual_inspect, t=0.0-30.0, conf=0.85)
+
+## OCR
+- jove
+- METTLER TOLEDO  (tool=ocr, t=0.0-30.0, conf=0.80)
+```
+
+Multi-question accumulation: if the same `video_id` is asked again
+later, the existing notes are loaded from disk and the new tool
+outputs are appended (not overwritten). The paper claim of
+"notes-as-artifact" lives at this layer.
+
+#### C2_react — LLM-planned ReAct loop (original)
+
+Pseudo-code (`protonote/planner/react_controller.py:ReActAgent`):
+
+```python
+# Seed step (deterministic): always do a full-video visual_inspect first
+# so the planner has something to look at.
+seed_res = tools["visual_inspect"](video_path, query=
+    "In 1-2 sentences, describe the key actions, materials, "
+    "and any visible labels/quantities in this clip.")
+note_buffer.append(video_id, NoteEntry(content=seed_res.content,
+                                          evidence=seed_res.evidence))
+
+# Planner loop, up to max_react_steps=2 additional actions
+for step in range(max_react_steps):
+    notes_md = note_buffer.render_for_llm(video_id, max_chars=2000)
+    planner_prompt = _planner_prompt(
+        question, notes_md, video_duration_s,
+        budget_remaining=max_react_steps - step,
+        tools_available=tools_for_task(task) | {"visual_inspect", "ocr"})
+    raw = vlm.generate([
+        {"role": "system",  "content": _PLANNER_SYSTEM},
+        {"role": "user",    "content": [{"type":"text","text":planner_prompt}]},
+    ], max_new_tokens=96)
+    action = _parse_action(raw)   # lenient JSON extraction
+    if action["tool"] == "answer" or action["tool"] not in tools:
+        break
+    tr = action["timestamp_range"] or (0.0, video_duration_s)
+    res = tools[action["tool"]](video_path,
+                                  timestamp_range=tuple(tr),
+                                  focus_query=question if action["tool"]=="ocr" else None,
+                                  query=action.get("reason") if action["tool"]=="visual_inspect" else None)
+    if res.success:
+        note_buffer.append(video_id, NoteEntry(content=res.content,
+                                                  evidence=res.evidence))
+
+# Final answer same as C1_fixed
+notes_md = note_buffer.render_for_llm(video_id, question_context=question)
+messages = BUILDERS[task_type](item, frames, note=notes_md, benchmark=...)
+raw = vlm.generate(messages, ...)
+```
+
+The planner prompt (`_planner_prompt` in `react_controller.py`) shows
+the planner the question, current notes, video duration, remaining
+budget, and a description of available actions. The planner outputs
+ONE JSON object:
+
+```
+{"tool": "ocr", "timestamp_range": [40, 55], "reason": "labels visible in final frames"}
+```
+
+Lenient JSON parser falls back to `{"tool":"answer"}` on parse errors,
+so the agent never crashes — a confused planner just terminates the
+loop early.
+
+#### C2_react_v2 — ReAct with B+C fixes
+
+Same control flow as C2_react but two changes inside `_planner_prompt`:
+
+* **(B) No timestamp picking**: the prompt drops the
+  `timestamp_range` action key. Tool calls always run on the full
+  clip `(0.0, duration_s)`. Removes the 7B-planner failure mode of
+  picking sub-ranges that miss the relevant on-screen evidence.
+* **(C) Options shown to planner**: for MC items, the answer choices
+  are surfaced in the planner prompt:
+  ```
+  Question: ...
+
+  Answer choices:
+    A) ...
+    B) ...
+    ...
+
+  Notes so far: ...
+  ```
+  The planner can then reason "do I need OCR to disambiguate A vs C?"
+  rather than guessing in the dark.
+
+Both controlled by `ReActAgent.__init__(allow_timestamp_picking, show_options_to_planner)`. C2_react keeps the original defaults
+(`True`, `False`); C2_react_v2 forces (`False`, `True`).
+
+#### C3_learned_A — trained planner LoRA (`LearnedReActAgent`)
+
+Same control flow as C2_react_v2 (no timestamp picking, options
+shown) but the planner's `vlm.generate(...)` call uses a Qwen-7B
+LoRA adapter. The tool calls and the final answer call use the BASE
+Qwen-7B (LoRA disabled), so the only thing different from C2_react_v2
+is the JSON output from the planner step.
+
+Adapter loading (`protonote/planner/learned_controller.py`):
+
+```python
+peft_model = PeftModel.from_pretrained(base_qwen_7b, adapter_path)
+vlm.model = peft_model
+vlm.planner_generate = lambda msgs, **kw: orig_generate(msgs, **kw)   # adapter active
+vlm.generate         = lambda msgs, **kw: \
+    peft_model.disable_adapter().__enter__() and orig_generate(msgs, **kw)
+```
+
+(Implementation detail uses `with peft_model.disable_adapter(): ...`
+so tools / final answer get the base behavior.)
+
+**Training** (`protonote/train/train_planner_sft.py`):
+
+* SFT data (`prepare_planner_data.py` mode A): for each training item,
+  one (prompt, completion) pair simulating the inference distribution
+  — the prompt includes a stub "Visual: ..." note (matching what the
+  seed `visual_inspect` call writes at inference), and the label is:
+  - `"ocr"` if `TASK_TO_TOOLS[task]` includes ocr (the OCR pass is
+    the missing tool after the visual seed)
+  - `"answer"` otherwise (the visual seed is sufficient)
+* Hyperparameters: LoRA r=32, α=64, target=q/k/v/o_proj, vision frozen,
+  fp32 LoRA / bf16 base, lr=1e-5, batch=2 × ga=4, 3 epochs, NanGuard
+  callback. ~3 min on 8×H200 DDP for 3726 items.
+* train_loss: 2.30 → 0.71 (well-converged).
+
+**Planned but not yet implemented**:
+
+* **Step B** — extend prepare_planner_data.py mode B to also output a
+  fourth action `"answer_no_notes"` for mechanism / purpose Qs, and
+  modify the agent so this action bypasses note injection into the
+  answer-time prompt. Designed to fix the SciVB regression.
+* **Step C (GRPO RL)** — sample K trajectories per item, use answer
+  score as reward, group-relative advantage. Requires train_split
+  trajectory data (`results_protonote/train_c0/`, currently partial).
+* **Step D (DPO)** — preference pairs from existing C0/C1/C2 score
+  deltas per item. Custom implementation needed because TRL 0.21 is
+  incompatible with transformers 5.8.
+
+### 2.4 Hyperparameters (constants across all conditions)
+
+| Parameter | Value | Code location |
+|---|---|---|
+| Answer model | Qwen2.5-VL-7B-Instruct (or model under sweep) | `cli.py:VLMClient` |
+| dtype | bf16 base + fp32 LoRA (when applicable) | `cli.py`, `train_planner_sft.py` |
+| Frames/video | 32 | `--max_frames` |
+| `max_pixels` (frames) | 360 × 420 = 151,200 | `evaluate_unified.MAX_PIXELS` |
+| `max_pixels` (OCR frames) | 720 × 840 = 604,800 | `tools/ocr_tool.py` |
+| `max_new_tokens` (MC) | 8 | `cli.py:answer_max_mc` |
+| `max_new_tokens` (open) | 64 | `cli.py:answer_max_open` |
+| `max_new_tokens` (planner) | 96 | `react_controller.py:max_plan` |
+| `max_react_steps` (C2/C3) | 2 | `react_controller.py:max_react` |
+| Decoding | greedy (`do_sample=False`) | both planner and answer |
+| Note context max chars | 4000 (render_for_llm), 2000 (planner prompt) | `note_buffer.py`, `react_controller.py` |
 
 ### 2.3 NoteBuffer disk format
 

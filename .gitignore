@@ -71,3 +71,6 @@ checkpoints/**/scheduler.pt
 checkpoints/**/rng_state_*.pth
 checkpoints/**/training_args.bin
 checkpoints/**/tokenizer.json
+data/bioprobench/*.json
+data/bioprobench/filtered_corpus.jsonl
+data/bioprobench/.cache

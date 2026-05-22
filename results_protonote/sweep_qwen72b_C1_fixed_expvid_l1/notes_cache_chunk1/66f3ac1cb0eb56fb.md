@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/54030/clip_31.mp4
+
+## Visual
+- The video shows a close-up view of a metallic vacuum chamber with various ports and flanges, followed by a shot of a Pfeiffer Vacuum pump connected with hoses. The scene then transitions to a stack of electronic equipment, including a digital multimeter displaying "0.000" and a National Instruments PXI system. Finally, a close-up reveals the interior of the vacuum chamber, showing a cylindrical component with coiled wires around it. (tool=visual_inspect, t=0.00-15.74, conf=0.85) — raw: "The video shows a close-up view of a metallic vacuum chamber with various ports and flanges, followed by a shot of a Pfeiffer Vacuum pump connected with hoses. The scene then transitions to a stack..."

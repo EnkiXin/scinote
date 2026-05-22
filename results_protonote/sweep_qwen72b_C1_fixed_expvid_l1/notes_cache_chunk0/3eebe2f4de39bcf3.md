@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/63129/clip_33.mp4
+
+## Visual
+- A small animal, likely a rodent, is lying on its back with its abdomen exposed. A person wearing green gloves is holding a syringe and appears to be injecting or extracting fluid from the animal's abdominal cavity. The animal's fur is partially shaved, and there are yellow adhesive strips around the incision site. A white cloth is placed under the animal for support. (tool=visual_inspect, t=0.00-10.15, conf=0.85) — raw: "A small animal, likely a rodent, is lying on its back with its abdomen exposed. A person wearing green gloves is holding a syringe and appears to be injecting or extracting fluid from the animal's ..."

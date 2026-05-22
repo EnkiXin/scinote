@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/video_segments/53800/clip_1.mp4
+
+## Visual
+- The video begins with a title slide reading "II. Pain Scoring/Electrical Stimulation Task." The scene transitions to a laboratory setting where two individuals are seated at a desk. One person, wearing a light blue shirt, appears to be explaining or demonstrating something while gesturing towards a computer monitor displaying a blue screen. The other individual, dressed in a dark blue shirt, listens attentively. A table with various items, including a box labeled "MAX," is visible in the background. (tool=visual_inspect, t=0.00-38.27, conf=0.85) — raw: "The video begins with a title slide reading "II. Pain Scoring/Electrical Stimulation Task." The scene transitions to a laboratory setting where two individuals are seated at a desk. One person, wea..."

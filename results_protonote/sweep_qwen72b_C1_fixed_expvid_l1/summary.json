@@ -1,0 +1,24 @@
+{
+  "n_files": 2,
+  "n_valid": 4035,
+  "n_err": 0,
+  "overall_acc": 47.51,
+  "by_task": {
+    "l1_tools": {
+      "acc": 39.73,
+      "n": 1130
+    },
+    "l1_materials": {
+      "acc": 41.63,
+      "n": 1266
+    },
+    "l1_operation": {
+      "acc": 64.93,
+      "n": 938
+    },
+    "l1_quantity": {
+      "acc": 47.36,
+      "n": 701
+    }
+  }
+}

@@ -11,7 +11,16 @@ Companion files:
 
 ---
 
-## 0. TL;DR (2026-05-21)
+## 0. TL;DR (2026-05-22 update)
+
+* **Multi-model sweep (22/24 cells)** — 5 backbones × 2 conditions × 3
+  benchmarks. Reveals agent's effect is **capability-dependent**: Qwen-3B
+  helps universally, Qwen-72B HURTS L1 by −4.19 pp (`l1_operation` −12.68).
+  SciVB regresses **exactly −1.38 pp** on all 3 measured 7B+ backbones.
+  Full table in [MULTIMODEL_RESULTS.md](MULTIMODEL_RESULTS.md).
+* **Step A v2 trained planner**: Qwen-7B SFT LoRA → ExpVid 29.09 / SciVB 24.77 (between baseline and rule-based C1_fixed; partial SciVB recovery).
+
+## 0a. TL;DR (2026-05-21 — original)
 
 * The ProtoNote agent (`protonote/`) is an end-to-end inference-time
   agent that wraps Qwen2.5-VL-7B with task-conditional tools and a

@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/61180/clip_1.mp4
+
+## Visual
+- The video begins with a title screen displaying "Supervised Machine Learning for Semi-Quantification of Extracellular DNA in Glomerulonephritis," along with the names of the authors and their affiliations. The scene then transitions to a man in a suit standing in front of bookshelves, identified as Stephen Roger Holdsworth from Monash University. (tool=visual_inspect, t=0.00-17.94, conf=0.85) — raw: "The video begins with a title screen displaying "Supervised Machine Learning for Semi-Quantification of Extracellular DNA in Glomerulonephritis," along with the names of the authors and their affil..."

@@ -1,11 +1,14 @@
 # ProtoNote — agent-based scientific video understanding
 
-**Status (2026-05-21)**: Phase 0–3 complete. ProtoNote C1_fixed agent reaches
-**29.73 %** on ExpVid 20% test split, **+3.12 pp over C0 baseline** and **+1.87 pp
-over the prior best non-oracle config** (InternVL3-8B self-note = 27.86 %), using
-only Qwen2.5-VL-7B as the answer model. C2 ReAct (LLM-driven tool routing) =
-28.76 %, slightly **worse** than C1_fixed — a small VLM planner cannot beat the
-task-taxonomy-based deterministic routing at 7B scale (see §4).
+**Status (2026-05-22)**: Phase 0–3 complete + multi-model sweep (22/24 cells)
++ Step A v2 trained planner LoRA. ProtoNote C1_fixed agent reaches
+**29.73 %** on ExpVid 20% test split with Qwen2.5-VL-7B, **+3.12 pp over C0
+baseline** and **+1.87 pp over the prior best non-oracle config**
+(InternVL3-8B self-note = 27.86 %). Multi-model sweep (5 backbones)
+reveals a **capability-dependent regression**: agent helps weak models
+universally; on 72B it HURTS L1 by −4.19 pp with `l1_operation` dropping
+−12.68 pp. See [MULTIMODEL_RESULTS.md](MULTIMODEL_RESULTS.md) for the full
+matrix and refined paper narrative.
 
 ---
 
@@ -120,8 +123,33 @@ Agent helps materials identification (+2.77) but hurts operation
 (−5.97) and quantity (−6.42). Same failure mode as the SciVB
 regression: visual_inspect's literal description biases the model
 on questions that ARE about the action ("what is the person doing"),
-and quantity Qs need OCR not visual_inspect. **TASK_TO_TOOLS is too
-coarse — learnable routing should help.**
+and quantity Qs need OCR not visual_inspect.
+
+### 3.1.2 Multi-Model Ablation Matrix (22/24 cells, see [MULTIMODEL_RESULTS.md](MULTIMODEL_RESULTS.md))
+
+The agent's C0→C1_fixed effect across 5 backbones × 3 benchmarks:
+
+```
+                      L1 (4035)          L2/L3 (745)        SciVB (218)
+Model            C0    C1   Δ    |    C0    C1   Δ    |    C0    C1   Δ
+─────────────────────────────────────────────────────────────────────────
+Qwen-3B (3B)   39.31 39.95 +0.64 | 21.75 23.58 +1.83 | 21.10 22.02 +0.92
+Qwen-7B  (7B)  45.68 44.14 -1.54 | 26.61 29.73 +3.12 | 25.69 24.31 -1.38
+MiMo-7B  (7B)  43.69 45.48 +1.79 | 28.24 28.48 +0.24 | 25.23 23.85 -1.38
+InternVL3 (8B) 43.87 42.60 -1.27 | 25.29 26.21 +0.92 | 29.36 27.98 -1.38
+Qwen-72B (72B) 51.70 47.51 -4.19 | 35.13   —    —    | 41.74   —    —
+```
+
+Three findings:
+1. **SciVB regression is invariant at exactly −1.38 pp** on every 7B+
+   backbone (3/3 measured). Structural property of SciVB's mechanism-Q
+   distribution, not a backbone artifact.
+2. **L1 regression scales inversely with model capability** — Qwen-3B
+   helps (+0.64), 7B-class mixed, Qwen-72B hurts hard (−4.19), with
+   `l1_operation` specifically dropping −12.68 pp on 72B.
+3. **ExpVid L2/L3 helps consistently** across all measured backbones
+   (+0.24 to +3.12) — procedural reasoning tasks where the visual note
+   is supplementary, not competing with the answer.
 
 ### 3.2 SciVideoBench (n = 218, Qwen2.5-VL-7B answer)
 

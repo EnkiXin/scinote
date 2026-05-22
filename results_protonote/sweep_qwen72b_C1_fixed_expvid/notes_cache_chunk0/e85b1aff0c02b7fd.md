@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_2/video_segments/54971/clip_4.mp4
+
+## Visual
+- A person wearing gloves uses a pipette to transfer liquid into small tubes arranged in a green rack. The text on the screen reads "See text for liposome and reagent composition." (tool=visual_inspect, t=0.00-39.47, conf=0.85) — raw: "A person wearing gloves uses a pipette to transfer liquid into small tubes arranged in a green rack. The text on the screen reads "See text for liposome and reagent composition.""

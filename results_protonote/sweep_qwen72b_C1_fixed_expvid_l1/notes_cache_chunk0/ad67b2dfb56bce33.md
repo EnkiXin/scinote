@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/55594/clip_18.mp4
+
+## Visual
+- The video begins with a title screen displaying "IV. Surgical Ablation." The scene transitions to a close-up of a transparent petri dish containing a small white square piece of material with a tiny organism on it. A pipette is used to add a drop of liquid labeled as "worm water" onto the material, with an on-screen instruction stating, "Rehydrate the worm with one drop of worm water every 2 - 3 min." (tool=visual_inspect, t=0.00-10.66, conf=0.85) — raw: "The video begins with a title screen displaying "IV. Surgical Ablation." The scene transitions to a close-up of a transparent petri dish containing a small white square piece of material with a tin..."

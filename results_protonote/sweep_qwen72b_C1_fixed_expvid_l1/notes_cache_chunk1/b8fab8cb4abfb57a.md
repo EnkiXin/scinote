@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/59474/clip_29.mp4
+
+## Visual
+- A person wearing a white lab coat and purple gloves is placing a clear plastic container with a lid into an open incubator. The incubator has a "Thermo" label on its door. (tool=visual_inspect, t=0.00-7.83, conf=0.85) — raw: "A person wearing a white lab coat and purple gloves is placing a clear plastic container with a lid into an open incubator. The incubator has a "Thermo" label on its door."

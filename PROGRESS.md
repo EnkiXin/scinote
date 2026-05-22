@@ -8,7 +8,9 @@
 
 ## 📌 TL;DR (status at 2026-05-21)
 
-**Paper 2 pivot — ProtoNote agent (NEW, 2026-05-21)**:
+**Paper 2 pivot — ProtoNote agent (UPDATED 2026-05-22)**:
+  * **Multi-model sweep (22/24 cells)** across 5 backbones — see [MULTIMODEL_RESULTS.md](MULTIMODEL_RESULTS.md). Key finding: **agent value is capability-dependent**. Qwen-3B helps everywhere; Qwen-7B mixed (L2/L3 +3.12, L1 −1.54, SciVB −1.38); Qwen-72B HURTS L1 by −4.19 pp (l1_operation drops −12.68 pp). SciVB regression is **exactly −1.38 pp** on every 7B+ backbone (3/3 measured) — structural property of mechanism-Q distribution, not a model artifact.
+  * **Step A v2 trained planner**: Qwen-7B LoRA trained 3 epochs on seed-aware SFT data → ExpVid 29.09 (vs C1 29.73), SciVB 24.77 (vs C0 25.69, partial recovery).
   * **C1_fixed** (task-routed deterministic tools + persistent notes): **29.73 %** overall on ExpVid 20% test using Qwen2.5-VL-7B alone, +3.12 pp over C0 baseline (26.61 %) and +1.87 pp over the prior best non-oracle config (+InternVL3-8B self-note 27.86 %). **New SOTA non-oracle.**
   * **C2_react** (LLM-driven tool routing on top of seed step): **28.76 %**, slightly worse than C1_fixed (−0.97). At 7B-VLM-planner scale, the task taxonomy outperforms a learned planner — biggest C2 regression is video_verification (21.71 → 17.76 = −3.95) where the planner picks bad timestamp ranges for OCR.
   * **SciVB Qwen-7B** apples-to-apples: C0=25.69 / C1_fixed=24.31 (−1.38). Notes HURT on conceptual/hypothetical SciVB MC because the visual description doesn't bridge to the abstract reasoning required.

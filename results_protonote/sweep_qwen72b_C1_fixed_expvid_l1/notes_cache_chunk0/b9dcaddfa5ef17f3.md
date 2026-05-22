@@ -1,0 +1,4 @@
+# /home/yz0392@unt.ad.unt.edu/KV_cache_EMNLP_1/hf_cache/hub/datasets--OpenGVLab--ExpVid/snapshots/5ee45cfb1e20e4410672475584d22a98770bb96c/videos/level_1/64484/clip_19.mp4
+
+## Visual
+- A hand places a small, rectangular, brown object into a white tray. The hand then picks up a small bottle labeled "Buffer-4" and pours its contents over the object in the tray. Visible on the table are a larger bottle labeled "ETHANOL," another small bottle labeled "Buffer-3," and text indicating the protocol steps: "Buffer-3 x 10 min," "Buffer-4 x 5 min," and "70% EtOH x 1 min." (tool=visual_inspect, t=0.00-12.06, conf=0.85) — raw: "A hand places a small, rectangular, brown object into a white tray. The hand then picks up a small bottle labeled "Buffer-4" and pours its contents over the object in the tray. Visible on the table..."

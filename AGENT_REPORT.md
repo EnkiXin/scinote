@@ -11,7 +11,27 @@ Companion files:
 
 ---
 
-## 0. TL;DR (2026-05-22 update)
+## 0. TL;DR (2026-05-23 — ProtoNote-RAG v4 in progress)
+
+* **ProtoNote-RAG v4** (new project, [PROTONOTE_V4_PLAN.md](PROTONOTE_V4_PLAN.md))
+  — Iterative discovery agent with selective BioProBench KB grounding +
+  CLIP unseen-frame retrieval + per-frame augmentation. Single trained
+  LoRA planner (SFT cold-start + GRPO RL). See Section 10 below for full
+  progress; [PROGRESS_PROTONOTE_V4.md](PROGRESS_PROTONOTE_V4.md) for the
+  phase-by-phase tracking doc.
+  * **Phase 0 GATE PASS**: Biology forced-KB ablation (n=44) shows
+    no_kb 18.18 % → force_kb 34.09 % = **KB lift +15.91 pp** (gate
+    threshold +3.0 pp). Per-discipline differential: Biology +15.91,
+    Biochem +12.50, Engineering +11.11 (surprise), Chemistry −14.29.
+    This is the **paper signature finding**: BioProBench KB helps on
+    biology/biochem, hurts on chemistry (corpus-coverage dependency).
+    Commit `a9a766d3`.
+  * **Phase 1 in progress**: 72B-teacher trajectory generation pivoted
+    to dual-VLM (72B planner + 7B answer/per_frame) after Pivot A's 80%
+    skip rate. N=30 Pivot B validation running on GPUs 4-7. Commit
+    `1a2e487c`.
+
+## 0a. TL;DR (2026-05-22 update)
 
 * **Multi-model sweep (22/24 cells)** — 5 backbones × 2 conditions × 3
   benchmarks. Reveals agent's effect is **capability-dependent**: Qwen-3B
@@ -884,3 +904,148 @@ scinote/
     ├── notes_cache_pilot/            # Phase 1 multi-Q pilot output
     └── tool_selftest/                # Phase 2 tool 8/8 unit-test output
 ```
+
+---
+
+## 10. ProtoNote-RAG v4 — Iterative Discovery + Selective KB Grounding
+
+**Started 2026-05-22.** New project replacing the previous C1_fixed-replay
+trajectory-SFT line. Locked plan: [PROTONOTE_V4_PLAN.md](PROTONOTE_V4_PLAN.md).
+Phase-by-phase tracking: [PROGRESS_PROTONOTE_V4.md](PROGRESS_PROTONOTE_V4.md).
+
+### 10.1 Project goals
+
+Train a single Qwen-VL-7B + LoRA planner to route 5 actions:
+`explore_more_frames` / `augment_frame_visual` / `augment_frame_ocr` /
+`kb_search` / `sufficient_answer`. Three gap types — knowledge gap → KB,
+visual coverage gap → CLIP retrieve unseen frames, specificity gap →
+augment specific frame. SFT cold-start with Qwen-VL-72B teacher
+(hint-correction) + GRPO RL refinement. Target ICLR / ACL 2027.
+
+### 10.2 Infrastructure (Phase 0, complete)
+
+| Module | File | Status |
+|---|---|---|
+| `FrameNote` + `NoteBuffer v4` (frame-indexed, redo) | `protonote/v4/note_buffer.py` | ✓ |
+| Length-adaptive sampler `n=max(4,min(16,duration/45))` | `protonote/v4/initial_sampling.py` | ✓ |
+| BioProBench corpus build + JoVE 4-layer filter | `protonote/v4/kb/build_corpus.py` | ✓ — 14,675 protocols → 82,668 chunks, **0 % JoVE leak** |
+| BM25 + BGE-base-en-v1.5 + RRF hybrid retriever | `protonote/v4/kb/retriever.py` | ✓ |
+| bge-reranker-v2-m3 cross-encoder | `protonote/v4/kb/reranker.py` | ✓ |
+| 4-stage `KBSearchTool` (BM25+BGE+RRF→rerank→filter) | `protonote/v4/kb/kb_tool.py` | ✓ |
+| CLIP-ViT-B/32 frame retriever (transformers 5.8 fix) | `protonote/v4/clip_retrieve.py` | ✓ |
+| `PerFrameVLM` (visual_inspect / OCR per frame) | `protonote/v4/tools/per_frame.py` | ✓ |
+| 5-action `IterativeAgent` (max_rounds=4) | `protonote/v4/iterative_loop.py` | ✓ |
+| `PromptDrivenAgent` (no-train baseline, classify+heuristic) | `protonote/v4/prompt_driven_loop.py` | ✓ |
+| CLI: cli / cli_prompt_driven / pilot_forced_kb | `protonote/v4/{cli,…}.py` | ✓ |
+
+### 10.3 Phase 0 GATE — **PASS** (2026-05-22)
+
+Forced-KB ablation on SciVB Biology subset (paper-1 20 % test split,
+discipline metadata joined from `scivideobench_1k.jsonl`):
+
+| Run | n | no_kb | force_kb | KB lift |
+|---|---:|---:|---:|---:|
+| SciVB mixed (no discipline filter) | 50 | 22.00 % | 24.00 % | +2.00 pp |
+| **SciVB Biology (gate run)** | **44** | **18.18 %** | **34.09 %** | **+15.91 pp** ✓ |
+
+**Per-discipline breakdown (paper signature finding)**:
+
+| Discipline | n | no_kb | force_kb | lift | plan §11 prediction |
+|---|---:|---:|---:|---:|---|
+| **Biology (full)** | 44 | 18.18 % | 34.09 % | **+15.91** ⭐ | +4-8 |
+| Biochemistry | 8 | 0.00 % | 12.50 % | +12.50 | +3-6 |
+| Engineering | 9 | 11.11 % | 22.22 % | +11.11 | 0-1 (surprise) |
+| Bioengineering | 4 | 25.00 % | 25.00 % | 0.00 | +1-3 |
+| Medicine | 10 | 50.00 % | 50.00 % | 0.00 | +1-4 |
+| Chemistry | 7 | 14.29 % | 0.00 % | **−14.29** | +1-2 (KB hurts) |
+
+Wall-clock: 2 × 27 min on single H200 GPU.
+Output: `results_protonote_v4/pilot_forced_kb/biology/`.
+
+**Gate criteria — ALL PASS**:
+1. Tools functional ✓
+2. JoVE leak rate = 0.000 % (0/82,668 chunks) ✓
+3. KB lift ≥ +3 pp on biology ✓ (+15.91 pp = 5.3× threshold)
+
+### 10.4 Phase 1 — Teacher SFT data generation
+
+**Goal**: ~3K teacher trajectories from Qwen-VL-72B with hint-correction;
+extract (state, action) SFT rows for student planner training.
+
+#### 10.4.1 Pivot A (locked plan recipe) — 80 % skip rate
+
+`HintedTeacherAgent` injects gold-answer into PLANNER PROMPT only; saves
+trajectory only when score=1.0; on fail, retries with hint up to 3
+attempts. Initial pilots:
+
+| Run | N | Saved | Skip rate | Saved-action diversity |
+|---|---:|---:|---:|---|
+| N=2 smoke | 2 | 1 | 50 % | 1 sufficient_answer |
+| N=100 (killed at 35) unforced | 35 | 6 | 83 % | 6 sufficient_answer |
+| N=20 force_tool_first | 20 | 3 | 85 % | 3 sufficient_answer (all attempt 1) |
+| N=10 debug w/ failed-attempts log | 10 | 2 | 80 % | 2 sufficient_answer |
+| N=30 task_filter+fewshot | 13 (killed) | 2 | 85 % | 2 sufficient_answer |
+
+**Root cause (final diagnosis from N=10 debug `failed_attempts.jsonl`)**:
+- `force_tool_first` works mechanically: forced-tool actions are kb_search
+  14× / augment_visual 8× in failed attempts.
+- BUT: hint is injected only into PLANNER prompt. **Stage 3 final answer
+  is a SEPARATE generation call that never sees the hint.** Tools execute,
+  notes get written, but the 72B answer model still produces wrong values:
+  - experimental_conclusion gold=`['10 mM','5 μL','30 mg/mL']` → attempts
+    1/2/3 predict `10 mM|2 mL|1 mg/mL` → `10 mM|2 μL|1 mg`
+  - mc gold=`F` → all 3 attempts predict `H`
+- The locked plan §13.6 ("strong-teacher 72B with hint-correction") was
+  over-optimistic: teacher cannot recover gold-specific values via tools
+  alone when hint is restricted to planner.
+
+#### 10.4.2 Pivot B (user-selected 2026-05-23) — 72B planner + 7B answer
+
+`HintedTeacherAgent` becomes dual-VLM:
+- `vlm` (72B): planner only
+- `answer_vlm` (7B): per-frame visual_inspect/OCR + Stage 3 final answer
+- Save criterion: 7B answer == gold (mirrors student inference)
+
+Rationale: directly measures whether teacher's tool routing improves
+the STUDENT (7B). The 7B is the bottleneck at inference time anyway, so
+SFT data generated this way is in-distribution.
+
+CLI flags:
+- `--answer_model Qwen/Qwen2.5-VL-7B-Instruct`
+- `--answer_device cuda:0`
+- `--answer_model ""` reverts to Pivot A
+
+Memory layout: 72B device_map=auto across 4 GPUs (~38 GB each); 7B on
+cuda:0 sharing the first 72B shard (~15 GB); total ~53 GB/141 GB
+H200 — comfortable.
+
+N=30 Pivot B validation **currently running on GPUs 4-7** (commit
+`1a2e487c`).
+
+### 10.5 Commit trail
+
+| Commit | Summary |
+|---|---|
+| `c8142827` | v4 skeleton + plan + NoteBuffer + length-adaptive sampler |
+| `5409ba79` | BioProBench corpus + JoVE 4-layer filter (0 % leak) |
+| `6f900346` | BM25+BGE+RRF hybrid retriever |
+| `9831e114` | Cross-encoder reranker + 4-stage kb_search tool |
+| `8472affa` | KB smoke verified |
+| `416a0af7` | CLIP frame retriever (transformers 5.8 API fix) |
+| `abaefc3c` | Iterative loop + cli + 5-action vocab |
+| `20e6648f` | Prompt-driven planner + forced-KB ablation script |
+| **`a9a766d3`** | **Phase 0 GATE PASS: Biology KB lift +15.91 pp** |
+| `92e7d26a` | Phase 1 sft_data.py D1 (HintedTeacherAgent + N=2 smoke) |
+| `45ae9812` | Phase 1 diagnosis: 80 % skip rate, root cause analysis |
+| `ba4b56e3` | Pivot A N=30: tool_amenable + few-shot still 85 % skip |
+| **`1a2e487c`** | **Pivot B: dual-VLM (72B planner + 7B answer)** |
+
+### 10.6 Pending / next
+
+- Pivot B N=30 result analysis (in progress)
+- If Pivot B yield ≥ 30 % → full 2,117 tool-amenable train items
+- Phase 2: Planner SFT on dual-VLM-generated trajectories
+- Phase 3: GRPO RL refinement
+- Phase 4: Eval (ExpVid L2/L3 + SciVB) + 5 diagnostic analyses (per-
+  discipline KB, action usage, trajectory length, state-conditioning,
+  per-component ablation)

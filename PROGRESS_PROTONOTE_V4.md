@@ -42,9 +42,41 @@
 **SciVB Biology 44-item forced-KB ablation (Phase 0 gate run, 2026-05-22)**:
 - no_kb_initial: **18.18 %** (n=44, biology-only)
 - force_kb_initial: **34.09 %** (n=44, biology-only)
-- **KB LIFT = +15.91 pp on Biology** ✓ **GATE PASS** (threshold +3.0 pp)
+- **KB LIFT = +15.91 pp** vs the notes-on baseline ✓ **GATE PASS** (threshold +3.0 pp)
 - Wall-clock: 2 × 27 min on H200 single GPU (CUDA 4)
 - Output: `results_protonote_v4/pilot_forced_kb/biology/trajectory_scivideobench_{no_kb,force_kb}_initial.jsonl`
+
+**HONEST vs-C0 comparison (added 2026-05-23, computed by joining
+existing `results_protonote/c0_scivb/` with SciVB discipline metadata)**:
+
+| Discipline | n | C0 (no notes, no KB) | v4 no_kb (Stage 1 notes) | v4 force_kb | force_kb − C0 |
+|---|---:|---:|---:|---:|---:|
+| **Biology** | 44 | **31.82 %** | 18.18 % | **34.09 %** | **+2.27 pp** |
+| Biochemistry | 19 (44 train) | 31.58 % | — | — | — |
+| Medicine | 36 | 27.78 % | — | — | — |
+| Bioengineering | 16 | 25.00 % | — | — | — |
+| Chemistry | 44 | 15.91 % | — | — | — |
+| Engineering | 53 | 26.42 % | — | — | — |
+| Physics | 6 | 16.67 % | — | — | — |
+
+Interpretation:
+- The +15.91 pp Phase 0 gate is real *as a forced-KB ablation*, but it's
+  the gain over the **notes-on** baseline, not over C0.
+- Stage 1 length-adaptive notes **HURT** biology by −13.64 pp on n=44
+  (C0 31.82 → v4 no_kb 18.18). This replicates paper-1's SciVB regression
+  finding (C1_fixed = 24.31 = −1.38 pp from C0=25.69 over all 218 items;
+  on biology it's more severe).
+- KB then **RECOVERS** notes-on biology to slightly above C0 (+2.27 pp).
+- Net story: selective KB grounding makes the agent beat C0 on biology
+  (the first non-oracle config to do so), but the margin is modest. Paper
+  framing should emphasize:
+  (a) per-discipline differential (paper signature finding) — direction
+      matches BioProBench coverage;
+  (b) the dual asymmetry: notes hurt biology, KB rescues it; chemistry
+      is hurt by both (per n=7 mixed pilot).
+- Engineering's surprise +11.11 pp (n=9 mixed pilot) is now suspect; the
+  full Engineering subset has C0=26.42 % (n=53) so we'd need a full
+  53-item Engineering forced-KB run to confirm.
 
 **Per-discipline breakdown (mixed n=50 pilot)** — paper signature finding emerges:
 

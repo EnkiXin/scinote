@@ -124,6 +124,8 @@ def main():
     ap.add_argument("--discipline", default="",
                      help="Filter SciVB items by discipline "
                           "(Biology / Chemistry / Engineering / Medicine / ...)")
+    ap.add_argument("--num_chunks", type=int, default=1)
+    ap.add_argument("--chunk_id", type=int, default=0)
     args = ap.parse_args()
 
     items = load_test_split(benchmark=args.benchmark,
@@ -145,8 +147,11 @@ def main():
               flush=True)
     if args.limit and args.limit > 0:
         items = items[:args.limit]
-    print(f"[forced-kb] {len(items)} items (benchmark={args.benchmark})",
-          flush=True)
+    if args.num_chunks > 1:
+        items = [it for i, it in enumerate(items)
+                  if i % args.num_chunks == args.chunk_id]
+    print(f"[forced-kb] {len(items)} items (benchmark={args.benchmark}, "
+          f"chunk={args.chunk_id}/{args.num_chunks})", flush=True)
 
     vlm = VLMClient(model_name=args.model, device=args.device)
     kb = KBSearchTool.from_dir(args.kb_dir, device=args.device)
@@ -163,8 +168,11 @@ def main():
         ("force_kb_initial",{"force_kb": True,  "initial_sampling": True}),
     ]
     summary = {}
+    chunk_suffix = (f"_chunk{args.chunk_id}of{args.num_chunks}"
+                     if args.num_chunks > 1 else "")
     for label, kw in runs:
-        out_path = out_dir / f"trajectory_{args.benchmark}_{label}.jsonl"
+        out_path = (out_dir /
+                     f"trajectory_{args.benchmark}_{label}{chunk_suffix}.jsonl")
         print(f"\n=== {label} ===", flush=True)
         results = []
         with open(out_path, "w") as fout:

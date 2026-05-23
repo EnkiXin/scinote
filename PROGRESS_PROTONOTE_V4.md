@@ -172,6 +172,53 @@ pending paper re-scoping discussion**.
 Per user instruction 2026-05-23: pause all v4 jobs after 4-condition
 results land; no further launches until review.
 
+### Per-discipline SciVB breakdown (n=143, plan §11 signature finding)
+
+Computed by joining v4 4-cond results with SciVB discipline metadata.
+
+| Discipline | n | paper-1 C0 | C1_fixed | v4 pure_c0 | v4 kb_only | v4 stage1_only | v4 stage1+kb | **Δ v4 vs C0** |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| **Biology** | 26 | 34.62 % | 42.31 % | 34.62 % | 34.62 % | 23.08 % | **38.46 %** | **+3.84** ⭐ |
+| Biochemistry | 12 | 33.33 % | 25.00 % | 16.67 % | 16.67 % | 0.00 % | 0.00 % | −33.33 |
+| Medicine | 27 | 29.63 % | 22.22 % | 29.63 % | 29.63 % | 14.81 % | 18.52 % | −11.11 |
+| Bioengineering | 9 | 33.33 % | 22.22 % | 22.22 % | 22.22 % | 11.11 % | 11.11 % | −22.22 |
+| Engineering | 36 | 22.22 % | 19.44 % | 25.00 % | 25.00 % | 25.00 % | 25.00 % | +2.78 |
+| Chemistry | 28 | 14.29 % | 10.71 % | 7.14 % | 10.71 % | 14.29 % | 14.29 % | 0.00 |
+| Physics | 5 | 20.00 % | 20.00 % | 20.00 % | 20.00 % | 20.00 % | 20.00 % | 0.00 |
+| OVERALL | 143 | 25.87 % | 23.08 % | 23.08 % | 23.78 % | 17.48 % | 20.98 % | −4.89 |
+
+Patterns:
+- **Biology**: only discipline where full v4 (stage1_plus_kb) **cleanly
+  beats paper-1 C0** by **+3.84 pp**. KB alone gives 0 on Biology, but
+  Stage 1 notes + KB *combined* helps. paper-1 C1_fixed also strong
+  here (+7.69 pp); v4 doesn't reach it (−3.85 pp vs C1).
+- **Biochemistry**: full v4 collapses to 0 %. Small n=12, but the drop
+  is too large to dismiss as noise. The MC builder anomaly (cf. §4)
+  may be more severe on biochem items.
+- **Medicine / Bioengineering**: similar pattern — v4 hurts noticeably.
+- **Engineering**: v4 marginally beats C0 (+2.78 pp). Surprising;
+  earlier n=9 mixed pilot also flagged Engineering as KB-friendly,
+  this n=36 confirms the direction (smaller magnitude).
+- **Chemistry / Physics**: small or zero effect (Chemistry barely
+  recovers from pure_c0 dip via Stage 1 + KB).
+
+**Paper signature**: v4 force-KB helps on Biology specifically; other
+disciplines neutral-to-hurt. Direction roughly matches BioProBench's
+biology-dominant corpus coverage (plan §7).
+
+### Per-discipline mixed pilot retraction
+
+The earlier mixed-pilot n=50 numbers (Biology +0, Engineering +11.11,
+Chemistry −14.29) were from the OLD 2-condition (Stage 1 always ON)
+pilot on the first 50 items of SciVB. With proper 4-condition on full
+143 items, the picture changes:
+- Engineering "+11.11" → actual +2.78 (was overestimated due to small n)
+- Chemistry "−14.29" → actual 0.00 (was overestimated dip due to small n)
+- Biology "+0" → actual +3.84 (was underestimated, only 12 items)
+
+Treat any earlier per-discipline numbers as superseded by the n=143
+table above.
+
 ---
 
 ## Phase 1 — Strong-teacher SFT data (weeks 3-4)

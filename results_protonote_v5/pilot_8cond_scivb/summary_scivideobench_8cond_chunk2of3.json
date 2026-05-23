@@ -1,0 +1,58 @@
+{
+  "n_items": 72,
+  "benchmark": "scivideobench",
+  "chunk": "2/3",
+  "per_condition": {
+    "pure_c0": {
+      "acc": 26.38888888888889,
+      "n": 72
+    },
+    "kb_t04": {
+      "acc": 25.0,
+      "n": 72,
+      "fire_rate": 22.22222222222222,
+      "acc_when_fired": 25.0,
+      "acc_when_not_fired": 25.0
+    },
+    "kb_t05": {
+      "acc": 26.38888888888889,
+      "n": 72,
+      "fire_rate": 16.666666666666664,
+      "acc_when_fired": 25.0,
+      "acc_when_not_fired": 26.666666666666668
+    },
+    "kb_t06": {
+      "acc": 25.0,
+      "n": 72,
+      "fire_rate": 12.5,
+      "acc_when_fired": 22.22222222222222,
+      "acc_when_not_fired": 25.396825396825395
+    },
+    "kb_t07": {
+      "acc": 26.38888888888889,
+      "n": 72,
+      "fire_rate": 11.11111111111111,
+      "acc_when_fired": 25.0,
+      "acc_when_not_fired": 26.5625
+    },
+    "ocr_only": {
+      "acc": 22.22222222222222,
+      "n": 72
+    },
+    "kb_t05_plus_ocr": {
+      "acc": 25.0,
+      "n": 72,
+      "fire_rate": 16.666666666666664,
+      "acc_when_fired": 33.33333333333333,
+      "acc_when_not_fired": 23.333333333333332
+    },
+    "kb_t06_plus_ocr": {
+      "acc": 23.61111111111111,
+      "n": 72,
+      "fire_rate": 12.5,
+      "acc_when_fired": 33.33333333333333,
+      "acc_when_not_fired": 22.22222222222222
+    }
+  },
+  "oracle_acc": 33.333333333333336
+}

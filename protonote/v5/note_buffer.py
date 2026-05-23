@@ -149,18 +149,33 @@ class NoteBuffer:
         return "\n\n".join(sections) if sections else "(no augmentations yet)"
 
     def render_for_answer(self) -> str:
-        """Full-detail answer-facing render. No truncation on passages."""
+        """Full-detail answer-facing render with confidence-tagged passages.
+
+        Key behaviour (v5 revised):
+          * If ALL kb_contexts have empty passages → skip the entire
+            "## Retrieved Knowledge" section (prompt degrades to C0).
+          * Otherwise: each passage gets a confidence tag derived from
+            its cross-encoder score:
+              score ≥ 0.7 → [HIGH conf, score=…]
+              score ≥ 0.5 → [MED  conf, score=…]
+              score <  0.5 → [LOW  conf, score=…]
+        """
+        from protonote.v5.kb.kb_tool import confidence_band
         sections = []
         aug = self.get_augmented_indices()
         if aug:
             sections.append("## Frame Augmentations")
             for idx in aug:
                 sections.append(self.frames[idx].render())
-        if self.kb_contexts:
-            sections.append("\n## Retrieved Knowledge")
+        # Only emit KB section if at least one context has passages
+        has_kb = any(kb.get("passages") for kb in self.kb_contexts)
+        if has_kb:
+            sections.append("\n## Retrieved Knowledge (relevance scores)")
             for kb in self.kb_contexts:
-                if not kb["passages"]: continue
+                if not kb.get("passages"): continue
                 sections.append(f"### Query: {kb['rewritten_query']}")
-                for p in kb["passages"]:
-                    sections.append(f"- {p}")
+                scores = kb.get("scores") or [0.0] * len(kb["passages"])
+                for p, s in zip(kb["passages"], scores):
+                    band = confidence_band(float(s))
+                    sections.append(f"- [{band} conf, score={float(s):.2f}] {p}")
         return "\n\n".join(sections)

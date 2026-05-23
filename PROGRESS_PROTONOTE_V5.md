@@ -66,14 +66,16 @@ Per item: 1 frame extraction + 1 KB retrieval (with rewriter) + 1 OCR call
 | v5 pure_c0 (sanity) | 23.08 | 26.66 |
 | v5 kb_only (rewrite, threshold 0.2) | 19.58 | 25.29 |
 | **v5 ocr_only** | 20.98 | **29.77** ⭐⭐ |
-| v5 kb_plus_ocr (full training-free v5) | 22.38 | 27.44 |
+| v5 kb_plus_ocr (FORCED both tools — NOT planner-driven) | 22.38 | 27.44 |
 
 #### Key findings
 
 1. **v5 ocr_only ≈ paper-1 C1_fixed on ExpVid** (29.77 vs 29.73, +0.04 pp).
    A single middle-frame high-res OCR call gives the answer model enough
    information to match the prior SOTA without any iterative routing.
-   **This is the most surprising v5 result.**
+   **Caveat**: this is a FORCED-OCR-on-every-item condition (no planner
+   judgment); it represents the **upper bound** a perfect planner could
+   reach, not what a cold-start planner actually achieves.
 
 2. **v5 KB with rewriting is WORSE than v4 KB without rewriting**:
    - SciVB: v5 kb_only 19.58 vs v4 kb_only 23.78 = **−4.20 pp**
@@ -118,6 +120,60 @@ distract the model on items where pure C0 would have answered correctly.
 | v5_training_free ≥ paper-1 C0 (sanity) | pure_c0 ≈ C0 overall; MC builder anomaly on 3 disciplines | **partial PASS** |
 | v5_training_free ≥ C1_fixed | ExpVid: v5_ocr_only 29.77 ≈ C1 29.73 (✓ via OCR alone); SciVB: kb+ocr 22.38 < C1 23.08 (−0.70) | **mixed** |
 | Pivot if v5_training_free << C1_fixed by >2 pp | ExpVid kb+ocr 27.44 vs C1 29.73 = −2.29 (borderline) | borderline |
+
+### ⚠ IMPORTANT: What 4-cond actually tested vs what "training-free v5" means
+
+User flagged 2026-05-23 that the 4-cond pilot is **not** the v5 training-
+free baseline. I conflated two different experiments:
+
+| Experiment | What it does | Status |
+|---|---|---|
+| **Ablation** (`pilot_4cond.py`) | **FORCES** KB and/or OCR on every item — bypasses the planner | ✓ DONE (this doc's results) |
+| **Training-free baseline** (`iterative_loop.py` + cold-start planner) | Planner (zero-shot LLM) **decides per item** whether to fire KB / OCR | **NOT YET RUN** |
+
+The `v5_kb_plus_ocr = 27.44 %` on ExpVid I called "full training-free
+v5" earlier in this doc is actually **the WORST-CASE for v5**: it's
+what happens when the planner has zero judgment and naively fires
+both tools on every single item, including ones that don't benefit.
+
+The **real** training-free v5 (planner-driven `IterativeAgentV5`) was
+never executed on the full sets. It should sit between the ablation
+ceiling and floor:
+
+- Lower bound: `pure_c0` (26.66 ExpVid) — planner skips all tools
+- Upper bound: `v5_ocr_only` (29.77 ExpVid) — planner perfectly picks OCR every time
+- Forced-everything: `v5_kb_plus_ocr` (27.44) — what I called "v5"
+
+What the ablation **does** answer:
+- Mechanism upper bound: if a planner learned to ALWAYS pick OCR on
+  ExpVid, it would match C1_fixed (29.77 ≈ 29.73). This is the SFT/RL
+  target's reachable ceiling.
+- KB-with-rewrite alone HURTS most items (`v5_kb_only` < `pure_c0`),
+  so a planner that fires KB everywhere is bad. KB needs gating.
+
+What the ablation **does NOT** answer:
+- Can a zero-shot 7B planner actually do that routing?
+  Empirically v4 showed: at cold-start the planner picks
+  sufficient_answer ~100 % of the time (no tool use). So v5 cold-start
+  planner-driven baseline is probably ≈ `pure_c0`, NOT `v5_ocr_only`.
+  That's the experiment I owe.
+
+**Phase 0 gate evaluation is therefore PREMATURE.** The "real" v5
+training-free vs C1_fixed comparison still needs:
+1. Run `IterativeAgentV5` with Qwen-VL-7B as cold-start planner
+2. Same SciVB 143 + ExpVid 745 split
+3. Compare to paper-1 C0/C1_fixed AND to the ablation rows
+
+### Implementation status
+
+| Component | Where | Run on full sets? |
+|---|---|---|
+| NoteBuffer v5 | `protonote/v5/note_buffer.py` | n/a (data structure) |
+| Query rewriter | `protonote/v5/kb/query_rewriter.py` | ✓ (smoke 100) |
+| KB tool v5 | `protonote/v5/kb/kb_tool.py` | ✓ (via 4-cond) |
+| IterativeAgentV5 (planner-driven) | `protonote/v5/iterative_loop.py` | **NO — never executed** |
+| 4-cond ablation pilot | `protonote/v5/pilot_4cond.py` | ✓ (SciVB 143 + ExpVid 745) |
+| Equipment image KB | not built | deferred |
 
 ### Implications for v5 plan
 

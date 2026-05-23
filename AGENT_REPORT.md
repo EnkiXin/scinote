@@ -11,7 +11,52 @@ Companion files:
 
 ---
 
-## 0. TL;DR (2026-05-23 — ProtoNote-RAG v4 cold-start FAILS to beat paper-1 C1_fixed)
+## 0. TL;DR (2026-05-23 — v4 cold-start fails; v5 4-cond ablation has caveat)
+
+### v5 Phase-0 ablation (NEW 2026-05-23)
+
+**Important caveat**: the v5 4-condition pilot **FORCES** KB / OCR on
+every item — it is NOT a planner-driven training-free baseline. The
+real "v5 training-free" with `IterativeAgentV5` (zero-shot planner)
+has **not yet been run**.
+
+| Method | SciVB n=143 | ExpVid n=745 |
+|---|---:|---:|
+| paper-1 C0 | 25.87 | 26.61 |
+| paper-1 C1_fixed | 23.08 | **29.73** ⭐ |
+| v5 pure_c0 (force no tools) | 23.08 | 26.66 |
+| v5 kb_only (force KB+rewrite) | 19.58 | 25.29 |
+| v5 ocr_only (force OCR) | 20.98 | **29.77** ⭐⭐ |
+| v5 kb_plus_ocr (force both) | 22.38 | 27.44 |
+
+What the ablation tells us:
+- **Mechanism upper bound**: a planner that learned to ALWAYS pick OCR
+  on ExpVid could match paper-1 C1_fixed (29.77 ≈ 29.73).
+- **KB-with-rewrite HURTS** when fired indiscriminately (-3 to -4 pp vs
+  v4 KB without rewrite). The 5.5× higher fire rate brings in borderline
+  passages that distract the answer model on items where C0 would have
+  been right. KB needs gating, not just rewriting.
+
+What the ablation does NOT tell us:
+- Whether a cold-start planner can actually do that routing. v4 showed
+  zero-shot planners pick `sufficient_answer` ~100 % of the time, so
+  real planner-driven v5 cold-start is probably ≈ `pure_c0`, NOT
+  `v5_ocr_only`.
+
+Open issues:
+- MC builder anomaly: v5 pure_c0 differs from paper-1 C0 by 3-17 pp on
+  several SciVB disciplines (biochem -16.67, bioeng -11.11, chemistry
+  -7.14). Same code path should yield identical numbers; the v5/v4
+  pipeline has a subtle prompt or state-handling difference on SciVB
+  MC items. **Not yet debugged.**
+- Real v5 training-free baseline (planner-driven) is the missing
+  experiment.
+
+Details: [PROGRESS_PROTONOTE_V5.md](PROGRESS_PROTONOTE_V5.md).
+
+---
+
+## 0a. TL;DR (2026-05-23 — ProtoNote-RAG v4 cold-start FAILS to beat paper-1 C1_fixed)
 
 * **ProtoNote-RAG v4** (new project, [PROTONOTE_V4_PLAN.md](PROTONOTE_V4_PLAN.md))
   — Iterative discovery agent with selective BioProBench KB grounding +

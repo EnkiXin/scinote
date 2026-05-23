@@ -1,7 +1,7 @@
 # ExpVid + SciVideoBench — Full Experiment Progress Log
 
-**Updated**: 2026-05-22
-**Last action**: **ProtoNote-RAG v4 Phase 0 GATE PASS.** Forced-KB ablation on SciVB Biology (n=44): no_kb 18.18 % → force_kb **34.09 %** = **KB LIFT +15.91 pp** (gate threshold +3.0 pp). Phase 0 infra all built (NoteBuffer v4 / length-adaptive sampler / BioProBench 82,668 chunks 0 % JoVE leak / BM25+BGE+rerank / CLIP retrieve / iterative loop / prompt-driven loop). Per-discipline (paper signature): Biology +15.91, Biochem +12.50, Engineering +11.11 (surprise), Chemistry −14.29 (KB hurts noisily-relevant disciplines). **→ Phase 1 (Qwen-72B teacher trajectory generation) begins next.** See [PROGRESS_PROTONOTE_V4.md](PROGRESS_PROTONOTE_V4.md).
+**Updated**: 2026-05-23
+**Last action**: **ProtoNote-RAG v4 cold-start 4-condition ablation FINAL — v4 LOSES to paper-1 C1_fixed.** Full SciVB (n=143) + ExpVid L2/L3 (n=745) ran with proper 2×2 ablation (Stage 1 notes ON/OFF × KB ON/OFF). Headline: full v4 (stage1_plus_kb) = 20.98 % SciVB / 26.53 % ExpVid; paper-1 C1_fixed = 23.08 / **29.73**. Δ = **−2.10 / −3.20 pp**. KB-only contribution is small but positive (+0.70 / +1.64 pp on full sets, +2.27 pp on Biology n=44); Stage 1 length-adaptive notes HURT on SciVB (−5.60 pp). The Phase 0 "+15.91 pp" headline was vs the v4-internal Stage 1 baseline, not vs paper-1 C0 — honest vs-C0 gain is +2.27 pp on Biology only. Trained-planner thesis broken at the architecture level; further v4 launches paused per user instruction. See [PROGRESS_PROTONOTE_V4.md](PROGRESS_PROTONOTE_V4.md), [V4_EXECUTION_DEVIATIONS.md](V4_EXECUTION_DEVIATIONS.md).
 **Setup**: H200 (8×, bf16), Qwen2.5-VL-7B answer model (ExpVid), Qwen2.5-VL-3B (SciVideoBench), 32 frames/video. Noter base swapped from Qwen2.5-VL-7B to MiMo-VL-7B-RL in W2-W3.
 
 ---

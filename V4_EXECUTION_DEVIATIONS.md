@@ -280,32 +280,63 @@ Discovered 2026-05-23 while joining results:
 
 ---
 
-## 5. Current execution state (snapshot 2026-05-23 03:00)
+## 5. Current execution state (snapshot 2026-05-23 04:00 — FINAL, all jobs done)
 
-### Running jobs
+### 4-condition ablation FINAL results
 
-| GPU(s) | Job | ETA | Progress | Goal |
-|---|---|---|---|---|
-| 5 | SciVB 218 4-cond ablation | ~3h | 10/218 | Compare v4 4 conditions vs paper-1 C0/C1 on SciVB |
-| 0 | ExpVid 187 4-cond chunk 0 | ~1.5h | 10/187 | Compare v4 vs C0/C1/C2 on ExpVid L2/L3 |
-| 1 | ExpVid 186 4-cond chunk 1 | ~1.5h | 10/186 | (same) |
-| 2 | ExpVid 186 4-cond chunk 2 | ~1.5h | 10/186 | (same) |
-| 3 | ExpVid 186 4-cond chunk 3 | ~1.5h | 10/186 | (same) |
-| (none) | Pivot B N=30 | done | — | Phase 1 yield = 67 % skip, 12 SFT rows |
+All 7 jobs (SciVB 3-way + ExpVid 4-way chunked) finished. Aggregated
+results on full test sets:
 
-### What is NOT running
-- Full Phase 1 SFT data gen (2,117 items) — deferred until 4-cond results decide v4 viability
-- Phase 2 Planner SFT training — not started
-- Phase 3 GRPO RL — not started
-- Phase 4 eval — not started
+| Method | SciVB n=143 | ExpVid n=745 |
+|---|---:|---:|
+| paper-1 C0 | **25.87 %** | 26.61 % |
+| paper-1 C1_fixed | 23.08 % | **29.73 %** ⭐ |
+| paper-1 C2_react | — | 28.76 % |
+| v4 pure_c0 (sanity) | 23.08 % | 26.78 % |
+| v4 kb_only | 23.78 % | 28.42 % |
+| v4 stage1_only | 17.48 % | 26.23 % |
+| v4 stage1_plus_kb (full v4) | 20.98 % | 26.53 % |
 
-### Decision criteria after 4-cond runs finish
+### Outcome → matches the "v4 architecture choices are wrong" branch
 
-| If 4-cond shows… | Then… |
-|---|---|
-| `stage1_plus_kb > C1_fixed` on both benchmarks | Continue plan: Phase 1 full → Phase 2 SFT → Phase 3 RL |
-| `stage1_plus_kb ≈ C1_fixed` (within 1-2 pp) | Pivot paper to "selective per-discipline KB" without trained planner; ship as workshop/short paper |
-| `stage1_plus_kb < C1_fixed` | v4 architecture choices are wrong; rethink before training |
+- Full v4 (`stage1_plus_kb`) **LOSES** to paper-1 C1_fixed:
+  ExpVid −3.20 pp / SciVB −2.10 pp.
+- KB-only contribution small but positive: ExpVid +1.64 pp / SciVB
+  +0.70 pp vs v4 pure_c0 (Biology n=44 stronger: +2.27 pp vs C0).
+- Stage 1 length-adaptive notes HURT: SciVB −5.60 pp / ExpVid −0.55 pp.
+- SciVB pure_c0 anomaly: 23.08 % vs paper-1 C0 25.87 % (−2.79 pp on
+  the same items, same `extract_frames` function); ExpVid matches
+  paper-1 C0 within +0.17 pp. v4-pipeline MC-builder code path on
+  SciVB needs debug, but v4-internal relative deltas remain valid.
+
+### Status of all v4 work
+
+- Phase 0 infrastructure: ✓ done, pushed (`a9a766d3` and earlier)
+- Phase 0 gate: PASS on internal Stage-1 baseline; +2.27 pp Biology
+  vs paper-1 C0 honest reading
+- Phase 1 (teacher SFT data gen): Pivot A 85 % skip, Pivot B 67 % skip,
+  total 12 SFT rows from N=30. Full Phase 1 paused.
+- Phase 2 SFT / Phase 3 RL / Phase 4 eval: not started
+- 4-cond ablation: ✓ done (commit `d39a748a`)
+- **Per user instruction 2026-05-23: STOPPED. No further v4 launches
+  until paper re-scoping discussion.**
+
+### Implications for paper
+
+Trained-planner-over-5-action-vocab thesis is broken at architecture
+level. The Phase 0 Biology +15.91 pp headline was internally consistent
+as a KB ablation but doesn't translate into a competitive end-to-end
+agent. Three viable paper re-scopings (to discuss with user):
+
+1. **"KB grounding helps biology but not enough"** — workshop paper
+   anchored on per-discipline KB analysis (the paper-signature finding
+   remains valid).
+2. **Negative-results paper** — "5-action iterative discovery on
+   scientific video reasoning: why a trained planner won't help here"
+   (paper-1 SciVB regression + v4 Stage 1 finding + KB-only marginal
+   gain = consistent story that supervised-routing isn't the right
+   axis).
+3. **Abandon v4 line, focus on paper-1 polish + extension**.
 
 ---
 

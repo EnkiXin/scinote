@@ -11,25 +11,38 @@ Companion files:
 
 ---
 
-## 0. TL;DR (2026-05-23 — ProtoNote-RAG v4 in progress)
+## 0. TL;DR (2026-05-23 — ProtoNote-RAG v4 cold-start FAILS to beat paper-1 C1_fixed)
 
 * **ProtoNote-RAG v4** (new project, [PROTONOTE_V4_PLAN.md](PROTONOTE_V4_PLAN.md))
   — Iterative discovery agent with selective BioProBench KB grounding +
   CLIP unseen-frame retrieval + per-frame augmentation. Single trained
   LoRA planner (SFT cold-start + GRPO RL). See Section 10 below for full
   progress; [PROGRESS_PROTONOTE_V4.md](PROGRESS_PROTONOTE_V4.md) for the
-  phase-by-phase tracking doc.
-  * **Phase 0 GATE PASS**: Biology forced-KB ablation (n=44) shows
-    no_kb 18.18 % → force_kb 34.09 % = **KB lift +15.91 pp** (gate
-    threshold +3.0 pp). Per-discipline differential: Biology +15.91,
-    Biochem +12.50, Engineering +11.11 (surprise), Chemistry −14.29.
-    This is the **paper signature finding**: BioProBench KB helps on
-    biology/biochem, hurts on chemistry (corpus-coverage dependency).
-    Commit `a9a766d3`.
-  * **Phase 1 in progress**: 72B-teacher trajectory generation pivoted
-    to dual-VLM (72B planner + 7B answer/per_frame) after Pivot A's 80%
-    skip rate. N=30 Pivot B validation running on GPUs 4-7. Commit
-    `1a2e487c`.
+  phase-by-phase tracking doc; [V4_EXECUTION_DEVIATIONS.md](V4_EXECUTION_DEVIATIONS.md)
+  for the execution-vs-plan audit.
+
+  **FINAL 4-condition ablation (cold-start, no training)**:
+
+  | Method | SciVB n=143 | ExpVid n=745 |
+  |---|---:|---:|
+  | paper-1 C0 | **25.87 %** | 26.61 % |
+  | paper-1 C1_fixed | 23.08 % | **29.73 %** ⭐ |
+  | v4 pure_c0 (sanity) | 23.08 % | 26.78 % |
+  | v4 kb_only | 23.78 % | 28.42 % |
+  | v4 stage1_only | 17.48 % | 26.23 % |
+  | v4 stage1_plus_kb (full v4) | 20.98 % | 26.53 % |
+
+  **Headline**: full v4 loses to paper-1 C1_fixed by **−2.10 pp SciVB / −3.20 pp ExpVid**.
+  KB-only contribution +0.70-1.64 pp on full sets (+2.27 pp on Biology n=44);
+  Stage 1 length-adaptive notes HURT (−5.60 pp on SciVB, replicating
+  paper-1 SciVB regression).
+
+  * Phase 0 "+15.91 pp gate" was vs the v4-internal Stage 1 baseline,
+    not vs paper-1 C0. Honest vs-C0 gain = +2.27 pp Biology only.
+  * Phase 1 dual-VLM Pivot B teacher: 67 % skip (vs Pivot A 85 %),
+    only 12 SFT rows generated from N=30; full Phase 1 paused.
+  * Commits: Phase-0 gate `a9a766d3`; Pivot B `1a2e487c`; 4-cond fix
+    `512ea9f4`; final results `d39a748a`.
 
 ## 0a. TL;DR (2026-05-22 update)
 

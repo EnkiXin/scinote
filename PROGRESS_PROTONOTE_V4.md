@@ -135,6 +135,67 @@ This re-scopes Phase 1's target trajectory pool from 3K all-task →
 grounding for scientific video reasoning, with a per-discipline analysis
 showing where tools help vs hurt".
 
+### Pivot N=30 validation (tool_amenable + few-shot) — STILL FAILS
+
+| Run | N processed | Saved | Skip rate | Notes |
+|---|---:|---:|---:|---|
+| N=30 pivot (partial 13/30) | 13 | 2 | 85 % | 2 saved are still attempt-1 sufficient_answer |
+
+Sample failed traces (`failed_attempts.jsonl`):
+- experimental_conclusion gold=['10 mM', '5 μL', '30 mg/mL']
+  attempts 1/2/3 predict `10 mM | 2 mL | 1 mg/mL` → `10 mM | 2 μL | 1 mg`
+  → no change after kb_search; teacher cannot produce the right numerals
+- scientific_discovery gold=['peptide–MHC', 'DAG', 'centrosome
+  reorientation'] → predicts 'agonists | RFP-TFAST | cytoskeletal' →
+  'ligands | RhoA-GTP | actin polymerization'
+- mc gold=F → predicts H all 3 attempts despite hint to gold=F
+
+### Root cause (final diagnosis)
+
+**Hint is injected into PLANNER PROMPT only.** Stage 3 (final answer)
+is a SEPARATE generation call that does NOT see the hint. So:
+- Hint successfully guides planner to pick a reasonable tool (kb_search
+  for protocol, augment_visual for visual MC) ✓
+- Tool executes and writes notes ✓
+- Stage 3 answer model reads frames + notes, but the notes don't
+  disambiguate to the gold answer ✗
+
+The locked plan §13.6 "Qwen-VL-72B with hint-correction" implicitly
+assumed tool outputs would push Stage 3 toward gold. Reality: when the
+question requires extracting specific numerical/textual values the
+teacher doesn't know, the tool calls don't recover them — and we cannot
+leak the gold value through Stage 3 without making the SFT data
+distribution-shifted (the student would never see leaked notes at
+inference time).
+
+### Pivot options (DECISION NEEDED)
+
+Three viable paths to unblock Phase 1; we have evidence for each:
+
+**A. Lower success threshold + save partial-credit trajectories.**
+Items where teacher reaches score ≥ 0.5 (instead of 1.0) get saved.
+For sequence/list tasks with multi-element gold, this captures
+"teacher used tools and got most of the answer right". Estimated
+yield: ~40-50 % save rate, ~1000 SFT rows from 2K items. Risk:
+SFT trains the student on partially wrong answers.
+
+**B. 7B-as-Stage-3 in teacher loop ("teacher does routing, student
+answers").**  72B is planner only; 7B is the answer model. Save
+trajectory when 7B's answer matches gold (not 72B's). This directly
+measures whether teacher's tools improve student. Estimated yield:
+similar to Phase 0 forced-KB pilot — biology-heavy. Cost: same
+~30 GPU-h since 7B is cheap. Risk: 7B answer is the bottleneck;
+teacher routing doesn't matter when 7B can't answer either way.
+
+**C. Skip Phase 1 SFT; go direct GRPO RL with K=8 rollouts.** Plan
+§8 Phase 3 normally needs SFT cold-start, but LongVideo-R1 / Video-R1
+showed RL from base model works. Risk: slower convergence, may
+require KL=0.001 or smaller; ~60 → ~90 GPU-h.
+
+Current recommendation: **B (7B-as-Stage-3)** — directly aligned with
+inference-time deployment; preserves the hint-correction SFT idea but
+fixes the leak/quality issue.
+
 ## Phase 2 — Planner SFT (weeks 5-6)
 **Not started.**
 

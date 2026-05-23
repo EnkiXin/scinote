@@ -51,6 +51,43 @@ _FORBID_ANSWER_BLOCK = (
 )
 
 
+_FEWSHOT_BLOCK = """
+
+## Examples of good action choices
+
+Example 1 — KB-grounded biology question:
+  Question: "Which buffer composition is standard for the lysis step?"
+  Good action: {"action":"kb_search","params":{"query":"cell lysis buffer composition"},"rationale":"protocol knowledge needed"}
+
+Example 2 — Text-on-screen question:
+  Question: "What temperature is displayed on the incubator?"
+  Good action: {"action":"augment_frame_ocr","params":{"frame_idx":12},"rationale":"read instrument label"}
+
+Example 3 — Time-range / unseen-frame question:
+  Question: "What occurs between 1:30 and 2:00?"
+  Good action: {"action":"explore_more_frames","params":{"clip_query":"experimental step between 1:30 and 2:00"},"rationale":"need frames in that range"}
+
+Example 4 — Detail clarification on a known frame:
+  Question: "What instrument is the researcher holding at frame 10?"
+  Good action: {"action":"augment_frame_visual","params":{"frame_idx":10,"focus":"instrument in researcher's hand"},"rationale":"caption is too generic"}
+
+Example 5 — Already justified:
+  Question: "What is the next step?" (notes already show clear progression)
+  Good action: {"action":"sufficient_answer","params":{},"rationale":"notes show steps 1-4; answer is 5"}
+"""
+
+
+# Tool-amenable task whitelist (from N=10 debug analysis 2026-05-22):
+# tools genuinely help; for other tasks teacher tends to skip.
+_TOOL_AMENABLE_TASKS = {
+    ("expvid", "scientific_discovery"),
+    ("expvid", "sequence_ordering"),
+    ("expvid", "video_verification"),
+    ("expvid", "experimental_conclusion"),
+}
+_TOOL_AMENABLE_DISCIPLINES = {"Biology", "Biochemistry", "Medicine"}
+
+
 def _heuristic_tool(item: dict, note_buffer) -> dict:
     """Rule-based fallback when the teacher LLM keeps emitting
     sufficient_answer despite the constraint. Picks one tool action
@@ -98,6 +135,7 @@ class HintedTeacherAgent(IterativeAgent):
 
     hint_answer: str = ""
     force_tool_first: bool = False
+    use_fewshot: bool = True
 
     def _planner_decide(self, item, note_buffer, round_idx):
         opts = (item.get("options")
@@ -108,6 +146,8 @@ class HintedTeacherAgent(IterativeAgent):
             round_idx=round_idx, max_rounds=self.max_rounds,
         )
         prompt_for_llm = un_hinted_prompt
+        if self.use_fewshot:
+            prompt_for_llm += _FEWSHOT_BLOCK
         if self.hint_answer:
             prompt_for_llm += (
                 f"\n## HINT (teacher-only, do NOT mention in output)\n"
@@ -237,9 +277,42 @@ def main():
     ap.add_argument("--max_attempts", type=int, default=3)
     ap.add_argument("--max_rounds", type=int, default=4)
     ap.add_argument("--shuffle_seed", type=int, default=20260522)
+    ap.add_argument("--task_filter", default="all",
+                     choices=["all", "tool_amenable"],
+                     help="'tool_amenable' restricts to tasks where Phase 0 "
+                          "showed tool benefit (Biology+Biochem+Med SciVB, "
+                          "ExpVid scientific_discovery / sequence_ordering / "
+                          "video_verification / experimental_conclusion)")
+    ap.add_argument("--no_fewshot", action="store_true",
+                     help="Disable few-shot examples in planner prompt")
     args = ap.parse_args()
 
     items = load_test_split(benchmark=None, limit=None, split=args.split)
+
+    # Optional tool-amenable task filter (per N=10 debug pivot 2026-05-22)
+    if args.task_filter == "tool_amenable":
+        disc_map = {}
+        sci_jsonl = Path("/home/yz0392@unt.ad.unt.edu/xin_ai/"
+                           "scivideobench/scivideobench_1k.jsonl")
+        for l in open(sci_jsonl):
+            d = json.loads(l)
+            disc_map[(str(d["video_id"]),
+                       int(d["question_id"]))] = d["discipline"]
+        def _keep(it):
+            bm = it.get("benchmark")
+            task = it.get("task")
+            if (bm, task) in _TOOL_AMENABLE_TASKS:
+                return True
+            if bm == "scivideobench":
+                vid = it["video_path"].split(":")[-1]
+                qid = int(it["id"])
+                return disc_map.get((vid, qid), "") in _TOOL_AMENABLE_DISCIPLINES
+            return False
+        before = len(items)
+        items = [it for it in items if _keep(it)]
+        print(f"[teacher-sft] task_filter=tool_amenable: "
+              f"{before} -> {len(items)} items", flush=True)
+
     # Stable shuffle to spread benchmark mix across chunks
     rnd = random.Random(args.shuffle_seed)
     rnd.shuffle(items)
@@ -249,8 +322,8 @@ def main():
         items = [it for i, it in enumerate(items)
                   if i % args.num_chunks == args.chunk_id]
     print(f"[teacher-sft] {len(items)} items "
-          f"(split={args.split}, chunk={args.chunk_id}/{args.num_chunks})",
-          flush=True)
+          f"(split={args.split}, chunk={args.chunk_id}/{args.num_chunks}, "
+          f"fewshot={'off' if args.no_fewshot else 'on'})", flush=True)
 
     # Load 72B teacher (TP across visible GPUs)
     vlm = VLMClient(model_name=args.teacher, device=args.device)
@@ -258,6 +331,7 @@ def main():
     kb = KBSearchTool.from_dir(args.kb_dir, device="cuda:0")
     agent = HintedTeacherAgent(
         vlm=vlm, clip=clip, kb_tool=kb, max_rounds=args.max_rounds)
+    agent.use_fewshot = not args.no_fewshot
 
     out_dir = ROOT / args.output_dir
     out_dir.mkdir(parents=True, exist_ok=True)

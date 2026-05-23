@@ -1,0 +1,17 @@
+{
+  "benchmark": "scivideobench",
+  "condition": "v6_react_sanity",
+  "model": "Qwen/Qwen2.5-VL-72B-Instruct",
+  "n_items": 5,
+  "n_failed": 0,
+  "acc": 20.0,
+  "avg_rounds": 3.0,
+  "action_total": {
+    "visual_inspect": 7,
+    "answer": 5,
+    "retrieve": 3
+  },
+  "max_rounds": 4,
+  "sufficiency_enabled": true,
+  "kb_enabled": true
+}

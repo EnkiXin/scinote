@@ -164,6 +164,59 @@ training-free vs C1_fixed comparison still needs:
 2. Same SciVB 143 + ExpVid 745 split
 3. Compare to paper-1 C0/C1_fixed AND to the ablation rows
 
+### v5 FINAL Phase-0 numbers (2026-05-23 commit `f86ce6ab` + planner-driven)
+
+Three independent runs combined on common subsets (paper-1 ∩ v5_8cond ∩ v5_planner-driven):
+
+| Method | SciVB n=143 | ExpVid n=745 |
+|---|---:|---:|
+| paper-1 C0 (no tools) | **25.87** | 26.61 |
+| paper-1 C1_fixed (task-routed) | 23.08 | **29.73** ⭐ |
+| v5 pure_c0 (sanity) | 23.08 | 26.55 |
+| v5 kb_t04 | 20.98 | 26.55 |
+| v5 kb_t05 | 23.08 | 27.38 |
+| v5 kb_t06 | 22.38 | 26.69 |
+| v5 kb_t07 | 22.38 | 26.65 |
+| v5 ocr_only (forced) | 20.98 | **29.67** ↑ |
+| v5 kb_t05_plus_ocr | 23.08 | 29.25 |
+| v5 kb_t06_plus_ocr | 22.38 | 29.24 |
+| **v5 PLANNER-DRIVEN cold-start** | **22.38** | **26.62** |
+| **Oracle (best-per-item-routing)** | **28.67** | **37.82** |
+
+Planner-driven action distribution (zero-shot Qwen-VL-7B planner,
+kb_threshold=0.6):
+
+| Bench | sufficient_answer | kb_search | augment_frame_ocr |
+|---|---:|---:|---:|
+| SciVB n=218 | 192 | 129 | **0** |
+| ExpVid n=745 | 707 | 152 | **0** |
+
+### Key takeaways
+
+1. **The zero-shot planner NEVER selects OCR** (0/963 stage-2 actions)
+   even though OCR is empirically the highest-value action on ExpVid.
+   This is the canonical cold-start failure mode: a model that can't
+   tell which tool would help its own answer.
+
+2. **Planner-driven baseline ≈ paper-1 C0**:
+   - SciVB: 22.38 % vs paper-1 C0 25.87 % (−3.49 pp; partially MC anomaly)
+   - ExpVid: 26.62 % vs paper-1 C0 26.61 % (matches)
+   With planner choosing `sufficient_answer` 707/745 of the time on
+   ExpVid, the result is essentially "C0 with occasional KB calls
+   that don't help".
+
+3. **OCR-only matches C1_fixed on ExpVid** (29.67 vs 29.73). A trained
+   planner that learns "ALWAYS pick OCR on ExpVid procedural items"
+   would clear the C1_fixed bar.
+
+4. **KB hurts at every threshold**: `Acc|Fired` < `Acc|NotFired` across
+   all KB conditions on both benchmarks. Even t07 (high precision,
+   11-58% fire) doesn't escape this. **BioProBench is the wrong corpus
+   for these benchmark distributions.**
+
+5. **Oracle headroom +5.59 pp / +8.15 pp** is the SFT/RL training
+   target: room exists, the planner just doesn't know it.
+
 ### Implementation status
 
 | Component | Where | Run on full sets? |

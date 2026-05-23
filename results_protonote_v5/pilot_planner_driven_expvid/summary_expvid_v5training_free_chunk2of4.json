@@ -1,0 +1,13 @@
+{
+  "benchmark": "expvid",
+  "chunk": "2/4",
+  "n": 186,
+  "acc": 26.58272225071754,
+  "kb_used_rate": 5.913978494623656,
+  "ocr_used_rate": 0.0,
+  "action_distribution": {
+    "sufficient_answer": 175,
+    "kb_search": 44
+  },
+  "kb_threshold": 0.6
+}

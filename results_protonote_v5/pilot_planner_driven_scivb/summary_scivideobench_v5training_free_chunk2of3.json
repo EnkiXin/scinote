@@ -1,0 +1,13 @@
+{
+  "benchmark": "scivideobench",
+  "chunk": "2/3",
+  "n": 72,
+  "acc": 25.0,
+  "kb_used_rate": 18.055555555555557,
+  "ocr_used_rate": 0.0,
+  "action_distribution": {
+    "sufficient_answer": 61,
+    "kb_search": 50
+  },
+  "kb_threshold": 0.6
+}

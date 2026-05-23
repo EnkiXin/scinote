@@ -24,6 +24,7 @@ from __future__ import annotations
 import argparse
 import json
 import random
+from dataclasses import dataclass, field
 import sys
 import time
 from pathlib import Path
@@ -39,6 +40,9 @@ from protonote.v4.iterative_loop import (                       # noqa: E402
 from protonote.v4.note_buffer import NoteBuffer                # noqa: E402
 from protonote.v4.clip_retrieve import CLIPFrameRetriever      # noqa: E402
 from protonote.v4.kb.kb_tool import KBSearchTool               # noqa: E402
+from protonote.v4.tools.per_frame import PerFrameVLM            # noqa: E402
+from evaluate_c0_test_split import BUILDERS, parse_for_task     # noqa: E402
+from evaluate_unified import SCORERS                            # noqa: E402
 
 
 _FORBID_ANSWER_BLOCK = (
@@ -119,23 +123,50 @@ def _heuristic_tool(item: dict, note_buffer) -> dict:
             "rationale": "heuristic: detailed visual default"}
 
 
+@dataclass
 class HintedTeacherAgent(IterativeAgent):
     """IterativeAgent variant with hint injection + min-tool-call
-    enforcement.
+    enforcement + dual-VLM (72B planner / 7B answer).
 
     * hint_answer: gold-answer string shown to the planner; never written
       into the saved state.
     * force_tool_first: when True, round-1 sufficient_answer is rejected:
       the planner is re-queried with a CONSTRAINT block. If it still picks
       sufficient_answer, a heuristic tool action is substituted.
+    * answer_vlm: if provided, used for Stage 3 (final answer) AND for
+      per-frame visual_inspect / OCR. The `vlm` field is then the
+      PLANNER-ONLY model. This mirrors inference where the student
+      (Qwen-VL-7B) handles vision/answer and the trained planner routes.
 
-    The SFT state is the UN-hinted, UN-constrained planner prompt, so the
-    student sees the same input shape at inference time.
+    The SFT state is the UN-hinted, UN-constrained planner prompt.
     """
 
     hint_answer: str = ""
     force_tool_first: bool = False
     use_fewshot: bool = True
+    answer_vlm: any = None
+
+    def __post_init__(self):
+        # Override parent: per_frame uses answer_vlm if provided
+        vlm_for_per_frame = self.answer_vlm or self.vlm
+        self.per_frame = PerFrameVLM(vlm=vlm_for_per_frame)
+
+    def _final_answer(self, item, frames, note_buffer):
+        """Stage 3 with the answer model (7B), not the planner (72B)."""
+        if self.answer_vlm is None:
+            return super()._final_answer(item, frames, note_buffer)
+        task_type = item.get("task_type", "mc")
+        notes_md = note_buffer.render_for_answer() or None
+        builder = BUILDERS[task_type]
+        if task_type == "mc":
+            messages = builder(item, frames, notes_md, item["benchmark"])
+        else:
+            messages = builder(item, frames, notes_md)
+        max_new = (self.answer_max_mc if task_type == "mc"
+                    else self.answer_max_open)
+        raw = self.answer_vlm.generate(messages, max_new_tokens=max_new)
+        pred = parse_for_task(raw, task_type, item)
+        return raw, pred
 
     def _planner_decide(self, item, note_buffer, round_idx):
         opts = (item.get("options")
@@ -267,6 +298,13 @@ def main():
     ap.add_argument("--teacher", default="Qwen/Qwen2.5-VL-72B-Instruct")
     ap.add_argument("--device", default="auto",
                      help="'auto' for device_map=auto across visible GPUs")
+    ap.add_argument("--answer_model", default="Qwen/Qwen2.5-VL-7B-Instruct",
+                     help="Stage 3 answer + per-frame model. Defaults to 7B "
+                          "(student inference model). Set to '' to use the "
+                          "teacher for everything (legacy plan A behavior).")
+    ap.add_argument("--answer_device", default="cuda:0",
+                     help="Device for the answer model. Default cuda:0; "
+                          "shares GPU with first shard of 72B teacher.")
     ap.add_argument("--split", default="train")
     ap.add_argument("--limit", type=int, default=0,
                      help="0 = use all train items")
@@ -326,11 +364,17 @@ def main():
           f"fewshot={'off' if args.no_fewshot else 'on'})", flush=True)
 
     # Load 72B teacher (TP across visible GPUs)
-    vlm = VLMClient(model_name=args.teacher, device=args.device)
+    teacher_vlm = VLMClient(model_name=args.teacher, device=args.device)
+    # Load 7B answer model (separate single-GPU placement) unless empty
+    answer_vlm = None
+    if args.answer_model:
+        answer_vlm = VLMClient(model_name=args.answer_model,
+                                 device=args.answer_device)
     clip = CLIPFrameRetriever(device="cuda:0")
     kb = KBSearchTool.from_dir(args.kb_dir, device="cuda:0")
     agent = HintedTeacherAgent(
-        vlm=vlm, clip=clip, kb_tool=kb, max_rounds=args.max_rounds)
+        vlm=teacher_vlm, clip=clip, kb_tool=kb, max_rounds=args.max_rounds,
+        answer_vlm=answer_vlm)
     agent.use_fewshot = not args.no_fewshot
 
     out_dir = ROOT / args.output_dir

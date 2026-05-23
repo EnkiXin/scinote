@@ -1,7 +1,7 @@
 # ExpVid + SciVideoBench — Full Experiment Progress Log
 
-**Updated**: 2026-05-21
-**Last action**: **ProtoNote Phase 3 — agent-based approach reaches 29.73 % on ExpVid 20% test (Qwen-VL-7B + 1 visual-tool call + notes-in-prompt), +3.12 pp over C0, new SOTA on non-oracle configurations.** Beats prior best (InternVL3-8B self-note = 27.86 %) by +1.87 pp.
+**Updated**: 2026-05-22
+**Last action**: **ProtoNote-RAG v4 Phase 0 GATE PASS.** Forced-KB ablation on SciVB Biology (n=44): no_kb 18.18 % → force_kb **34.09 %** = **KB LIFT +15.91 pp** (gate threshold +3.0 pp). Phase 0 infra all built (NoteBuffer v4 / length-adaptive sampler / BioProBench 82,668 chunks 0 % JoVE leak / BM25+BGE+rerank / CLIP retrieve / iterative loop / prompt-driven loop). Per-discipline (paper signature): Biology +15.91, Biochem +12.50, Engineering +11.11 (surprise), Chemistry −14.29 (KB hurts noisily-relevant disciplines). **→ Phase 1 (Qwen-72B teacher trajectory generation) begins next.** See [PROGRESS_PROTONOTE_V4.md](PROGRESS_PROTONOTE_V4.md).
 **Setup**: H200 (8×, bf16), Qwen2.5-VL-7B answer model (ExpVid), Qwen2.5-VL-3B (SciVideoBench), 32 frames/video. Noter base swapped from Qwen2.5-VL-7B to MiMo-VL-7B-RL in W2-W3.
 
 ---

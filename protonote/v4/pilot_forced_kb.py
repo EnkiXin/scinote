@@ -121,10 +121,30 @@ def main():
     ap.add_argument("--kb_dir", default="data/bioprobench")
     ap.add_argument("--output_dir",
                      default="results_protonote_v4/pilot_forced_kb")
+    ap.add_argument("--discipline", default="",
+                     help="Filter SciVB items by discipline "
+                          "(Biology / Chemistry / Engineering / Medicine / ...)")
     args = ap.parse_args()
 
     items = load_test_split(benchmark=args.benchmark,
-                              limit=args.limit if args.limit > 0 else None)
+                              limit=None)
+    # Optional discipline filter via SciVB raw metadata join
+    if args.discipline and args.benchmark == "scivideobench":
+        raw_path = Path("/home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/"
+                         "scivideobench_1k.jsonl")
+        disc_map = {}
+        for l in open(raw_path):
+            d = json.loads(l)
+            disc_map[(str(d["video_id"]), int(d["question_id"]))] = d["discipline"]
+        def _keep(it):
+            vid = it["video_path"].split(":")[-1]
+            qid = int(it["id"])
+            return disc_map.get((vid, qid), "") == args.discipline
+        items = [it for it in items if _keep(it)]
+        print(f"[forced-kb] discipline={args.discipline}: {len(items)} items",
+              flush=True)
+    if args.limit and args.limit > 0:
+        items = items[:args.limit]
     print(f"[forced-kb] {len(items)} items (benchmark={args.benchmark})",
           flush=True)
 
@@ -132,6 +152,8 @@ def main():
     kb = KBSearchTool.from_dir(args.kb_dir, device=args.device)
 
     out_dir = ROOT / args.output_dir
+    if args.discipline:
+        out_dir = out_dir / args.discipline.lower()
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # Run twice: once with force_kb, once without — back-to-back so the

@@ -38,18 +38,39 @@ from evaluate_unified import SCORERS                # noqa: E402
 from protonote.data.loaders import resolve_video_path  # noqa: E402
 
 
-def run_one(item: dict, vlm, kb_tool, *,
-             force_kb: bool = True,
-             initial_sampling: bool = True) -> dict:
-    """Stage 1 (initial sampling) → optional forced kb_search → Stage 3."""
+def _answer_under_notes(item, frames, notes_md, vlm) -> tuple[str, float]:
+    """Run Stage-3 answer with the given notes; return (pred, score)."""
+    task_type = item.get("task_type", "mc")
+    builder = BUILDERS[task_type]
+    if task_type == "mc":
+        messages = builder(item, frames, notes_md, item["benchmark"])
+    else:
+        messages = builder(item, frames, notes_md)
+    max_new = 8 if task_type == "mc" else 64
+    raw = vlm.generate(messages, max_new_tokens=max_new)
+    pred = parse_for_task(raw, task_type, item)
+    score = float(SCORERS[task_type](pred, gold_for(item)))
+    return pred, score, raw
+
+
+def run_one_all_conditions(item: dict, vlm, kb_tool) -> dict:
+    """Run all 4 conditions on a single item, sharing frames + Stage 1
+    notes + KB retrieval to amortize cost.
+
+    Conditions (only differ in what goes into Stage 3 prompt):
+      - pure_c0          : no notes, no KB         (≈ paper-1 C0)
+      - kb_only          : no notes, KB passages   (KB-only contribution)
+      - stage1_only      : Stage 1 notes, no KB    (notes-only contribution)
+      - stage1_plus_kb   : Stage 1 notes + KB      (v4 forced-KB)
+    """
     out = {
         "sample_id": item["sample_id"],
         "benchmark": item["benchmark"],
         "task":      item.get("task"),
         "task_type": item.get("task_type", "mc"),
         "gold":      gold_for(item),
-        "condition": "force_kb" if force_kb else "no_kb",
         "trajectory": [],
+        "by_condition": {},
     }
     try:
         vp = resolve_video_path(item)
@@ -60,53 +81,66 @@ def run_one(item: dict, vlm, kb_tool, *,
     except Exception as e:
         return {**out, "error": f"video err: {str(e)[:120]}"}
 
-    nb = NoteBuffer(video_id=vp, duration=duration, n_total_frames=32)
-    nb.initialize()
+    # Build TWO notebuffers — with and without Stage 1 notes.
+    # KB context is appended to a third NoteBuffer (uses bare question).
+    nb_no_notes = NoteBuffer(video_id=vp, duration=duration, n_total_frames=32)
+    nb_no_notes.initialize()
+    nb_stage1 = NoteBuffer(video_id=vp, duration=duration, n_total_frames=32)
+    nb_stage1.initialize()
 
-    # Stage 1: initial sampling (do single-frame visual_inspect via
-    # the agent's per_frame helper).
+    # Stage 1 captions (shared across conditions that need them)
     from protonote.v4.tools.per_frame import PerFrameVLM
     per_frame = PerFrameVLM(vlm=vlm)
-    if initial_sampling:
-        indices = length_adaptive_indices(duration)
-        for idx in indices:
-            if idx >= len(frames): continue
-            cap = per_frame.initial_visual_inspect(
-                frames[idx], focus=item.get("question","")[:120])
-            nb.frames[idx].base_visual = cap
-        out["trajectory"].append({
-            "stage": 1, "action": "initial_sampling",
-            "initial_indices": indices,
-        })
+    indices = length_adaptive_indices(duration)
+    for idx in indices:
+        if idx >= len(frames): continue
+        cap = per_frame.initial_visual_inspect(
+            frames[idx], focus=item.get("question","")[:120])
+        nb_stage1.frames[idx].base_visual = cap
 
-    # Forced KB
-    if force_kb and kb_tool is not None:
-        q = item.get("question", "")
-        r = kb_tool.search(q)
-        if r["passages"]:
-            nb.add_kb_context(round_idx=1, query=q,
-                               passages=r["passages"], sources=r["sources"])
-        out["trajectory"].append({
-            "stage": 2, "action": "kb_search",
-            "query": q[:120], "n_passages": len(r["passages"]),
-            "n_filtered": r.get("n_filtered", 0),
-        })
+    # KB retrieval (same query for both KB-enabled conditions)
+    q = item.get("question", "")
+    kb_result = None
+    if kb_tool is not None:
+        kb_result = kb_tool.search(q)
 
-    # Stage 3: answer
-    task_type = item.get("task_type", "mc")
-    notes_md = nb.render_for_answer() or None
-    builder = BUILDERS[task_type]
-    if task_type == "mc":
-        messages = builder(item, frames, notes_md, item["benchmark"])
-    else:
-        messages = builder(item, frames, notes_md)
-    max_new = 8 if task_type == "mc" else 64
-    raw = vlm.generate(messages, max_new_tokens=max_new)
-    pred = parse_for_task(raw, task_type, item)
-    score = float(SCORERS[task_type](pred, out["gold"]))
+    # Build per-condition NoteBuffers
+    nb_kb_only = NoteBuffer(video_id=vp, duration=duration, n_total_frames=32)
+    nb_kb_only.initialize()
+    if kb_result and kb_result["passages"]:
+        nb_kb_only.add_kb_context(round_idx=1, query=q,
+                                    passages=kb_result["passages"],
+                                    sources=kb_result["sources"])
 
-    out["pred"] = pred
-    out["raw"] = raw[:120]
+    nb_stage1_kb = NoteBuffer(video_id=vp, duration=duration, n_total_frames=32)
+    nb_stage1_kb.initialize()
+    for idx, fn in nb_stage1.frames.items():
+        nb_stage1_kb.frames[idx].base_visual = fn.base_visual
+    if kb_result and kb_result["passages"]:
+        nb_stage1_kb.add_kb_context(round_idx=1, query=q,
+                                      passages=kb_result["passages"],
+                                      sources=kb_result["sources"])
+
+    # 4 answer calls
+    conditions = [
+        ("pure_c0",        None),
+        ("kb_only",        nb_kb_only.render_for_answer() or None),
+        ("stage1_only",    nb_stage1.render_for_answer() or None),
+        ("stage1_plus_kb", nb_stage1_kb.render_for_answer() or None),
+    ]
+    for name, notes_md in conditions:
+        pred, score, raw = _answer_under_notes(item, frames, notes_md, vlm)
+        out["by_condition"][name] = {
+            "pred": pred, "score": score, "raw": raw[:80],
+            "notes_used": notes_md is not None,
+        }
+
+    out["initial_indices"] = indices
+    out["kb_n_passages"] = len(kb_result["passages"]) if kb_result else 0
+    # Top-level score = stage1_plus_kb (the v4 headline)
+    pred = out["by_condition"]["stage1_plus_kb"]["pred"]
+    score = out["by_condition"]["stage1_plus_kb"]["score"]
+    raw = out["by_condition"]["stage1_plus_kb"]["raw"]
     out["score"] = score
     return out
 
@@ -161,49 +195,56 @@ def main():
         out_dir = out_dir / args.discipline.lower()
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # Run twice: once with force_kb, once without — back-to-back so the
-    # ANSWER side of the comparison sees the same frames + same model.
-    runs = [
-        ("no_kb_initial",   {"force_kb": False, "initial_sampling": True}),
-        ("force_kb_initial",{"force_kb": True,  "initial_sampling": True}),
-    ]
-    summary = {}
+    # 4-condition apples-to-apples ablation per item (frames + Stage 1 +
+    # KB retrieval shared across the 4 final-answer calls). Conditions:
+    #   pure_c0        : no notes,  no KB    (== paper-1 C0)
+    #   kb_only        : no notes,  KB
+    #   stage1_only    : Stage1 notes, no KB
+    #   stage1_plus_kb : Stage1 notes + KB   (full v4 forced-KB)
+    CONDITION_NAMES = ["pure_c0", "kb_only", "stage1_only", "stage1_plus_kb"]
     chunk_suffix = (f"_chunk{args.chunk_id}of{args.num_chunks}"
                      if args.num_chunks > 1 else "")
-    for label, kw in runs:
-        out_path = (out_dir /
-                     f"trajectory_{args.benchmark}_{label}{chunk_suffix}.jsonl")
-        print(f"\n=== {label} ===", flush=True)
-        results = []
-        with open(out_path, "w") as fout:
-            t0 = time.time()
-            for i, item in enumerate(items):
-                r = run_one(item, vlm, kb, **kw)
-                fout.write(json.dumps(r, default=str) + "\n")
-                fout.flush()
-                results.append(r)
-                if (i + 1) % 10 == 0 or i == len(items) - 1:
-                    valid = [x for x in results if "score" in x]
-                    acc = sum(x["score"] for x in valid) / max(len(valid),1) * 100
-                    print(f"  [{i+1}/{len(items)}] acc={acc:.2f}%  "
-                          f"n_valid={len(valid)}  "
-                          f"elapsed={time.time()-t0:.0f}s",
-                          flush=True)
-        scores = [r["score"] for r in results if "score" in r]
-        acc = 100 * sum(scores) / max(len(scores), 1)
-        summary[label] = {"acc": acc, "n": len(scores)}
+    out_path = (out_dir /
+                  f"trajectory_{args.benchmark}_4cond{chunk_suffix}.jsonl")
+
+    print(f"\n=== 4-condition ablation on {args.benchmark} ===", flush=True)
+    results = []
+    t0 = time.time()
+    with open(out_path, "w") as fout:
+        for i, item in enumerate(items):
+            r = run_one_all_conditions(item, vlm, kb)
+            fout.write(json.dumps(r, default=str) + "\n")
+            fout.flush()
+            results.append(r)
+            if (i + 1) % 10 == 0 or i == len(items) - 1:
+                valid = [x for x in results if "by_condition" in x]
+                line = f"  [{i+1}/{len(items)}] "
+                for cn in CONDITION_NAMES:
+                    accs = [x["by_condition"][cn]["score"] for x in valid
+                              if cn in x["by_condition"]]
+                    a = 100 * sum(accs) / max(len(accs), 1)
+                    line += f"{cn[:13]}={a:.1f}%  "
+                line += f"elapsed={time.time()-t0:.0f}s"
+                print(line, flush=True)
 
     print()
     print("=" * 60)
-    print("FORCED-KB PILOT SUMMARY")
+    print(f"4-CONDITION SUMMARY ({args.benchmark}, n_chunk={len(items)})")
     print("=" * 60)
-    for k, v in summary.items():
-        print(f"  {k:<20}  acc={v['acc']:.2f}%  n={v['n']}")
-    a = summary.get("no_kb_initial", {}).get("acc", 0)
-    b = summary.get("force_kb_initial", {}).get("acc", 0)
-    print(f"\n  KB LIFT = {b - a:+.2f} pp")
-    print(f"  GATE: KB lift ≥ +3.0 pp on biology: "
-          f"{'PASS' if (b - a) >= 3.0 else 'FAIL'}")
+    summary = {}
+    valid = [x for x in results if "by_condition" in x]
+    for cn in CONDITION_NAMES:
+        scores = [x["by_condition"][cn]["score"] for x in valid
+                    if cn in x["by_condition"]]
+        a = 100 * sum(scores) / max(len(scores), 1)
+        print(f"  {cn:<18}  acc={a:.2f}%  n={len(scores)}")
+        summary[cn] = a
+    print(f"\n  Δ (KB-only effect):   kb_only       - pure_c0        = "
+          f"{summary['kb_only'] - summary['pure_c0']:+.2f} pp")
+    print(f"  Δ (Stage1 effect):    stage1_only   - pure_c0        = "
+          f"{summary['stage1_only'] - summary['pure_c0']:+.2f} pp")
+    print(f"  Δ (combined):         stage1_plus_kb- pure_c0        = "
+          f"{summary['stage1_plus_kb'] - summary['pure_c0']:+.2f} pp")
 
 
 if __name__ == "__main__":

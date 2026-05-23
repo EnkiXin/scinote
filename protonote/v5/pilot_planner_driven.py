@@ -42,7 +42,10 @@ from protonote.v5.kb.query_rewriter import QueryRewriter         # noqa: E402
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="Qwen/Qwen2.5-VL-7B-Instruct")
-    ap.add_argument("--device", default="cuda:0")
+    ap.add_argument("--device", default="cuda:0",
+                     help="VLM device; pass 'auto' for 72B tensor parallel")
+    ap.add_argument("--kb_device", default="cuda:0",
+                     help="Device for BGE/reranker (when VLM on 'auto')")
     ap.add_argument("--benchmark", default="scivideobench",
                      choices=["expvid", "scivideobench"])
     ap.add_argument("--limit", type=int, default=0)
@@ -70,7 +73,7 @@ def main():
 
     vlm = VLMClient(model_name=args.model, device=args.device)
     kb  = KBSearchToolV5.from_dir(
-        args.kb_dir, device=args.device,
+        args.kb_dir, device=args.kb_device,
         score_threshold=args.kb_threshold)
     rewriter = QueryRewriter(vlm=vlm)
     agent = IterativeAgentV5(

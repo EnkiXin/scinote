@@ -110,6 +110,70 @@ Notes:
 
 ---
 
+## 4-condition apples-to-apples ablation (2026-05-23, FINAL)
+
+User-flagged condition-alignment issue led to redesign of the v4 pilot
+into a clean 2×2 ablation. Each item runs 1 Stage-1 + 1 KB retrieval
++ 4 final-answer calls (shared frames + Stage 1 + KB).
+
+| Condition | Stage 1 notes | KB | Equivalent to |
+|---|:---:|:---:|---|
+| pure_c0 | ❌ | ❌ | paper-1 C0 (pipeline sanity check) |
+| kb_only | ❌ | ✓ | isolates KB contribution |
+| stage1_only | ✓ | ❌ | isolates Stage 1 length-adaptive notes |
+| stage1_plus_kb | ✓ | ✓ | full v4 forced-KB |
+
+### Results (full test sets, n=143 SciVB / n=745 ExpVid L2/L3)
+
+| Method | SciVB | ExpVid L2/L3 | Notes |
+|---|---:|---:|---|
+| paper-1 C0 (no notes, no KB) | **25.87 %** | **26.61 %** | baseline |
+| paper-1 C1_fixed (task-routed tools + notes) | 23.08 % | **29.73 %** ⭐ | original SOTA |
+| paper-1 C2_react (LLM-planned ReAct) | — | 28.76 % | |
+| v4 pure_c0 | 23.08 % | 26.78 % | sanity vs paper-1 C0: ExpVid ✓, SciVB ⚠ −2.79 pp |
+| v4 kb_only | 23.78 % | 28.42 % | KB alone: +0.70 SciVB / +1.64 ExpVid |
+| v4 stage1_only | 17.48 % | 26.23 % | Stage 1 hurts SciVB −5.60 pp |
+| v4 stage1_plus_kb | 20.98 % | 26.53 % | full v4 LOSES to C1_fixed |
+
+### Key conclusions
+
+1. **v4 cold-start (no training) does NOT beat paper-1 C1_fixed**
+   - ExpVid: full v4 26.53 % vs C1_fixed 29.73 % = **−3.20 pp**
+   - SciVB: full v4 20.98 % vs C1_fixed 23.08 % = **−2.10 pp**
+
+2. **Stage 1 length-adaptive notes HURT** (especially on SciVB
+   mechanism/conceptual questions, replicating paper-1 SciVB regression).
+
+3. **KB alone gives small positive contribution**:
+   - ExpVid +1.64 pp / SciVB +0.70 pp on the full sets.
+   - On Biology-only n=44 it's stronger (+2.27 pp vs paper-1 C0, as
+     reported in Phase 0 honest analysis).
+
+4. **Stage 1 + KB does NOT recover to pure_c0 level**
+   — KB partly cancels Stage 1's harm but not fully.
+
+5. **Anomaly**: v4 pure_c0 = 23.08 % on SciVB vs paper-1 C0 = 25.87 %
+   (−2.79 pp). ExpVid pure_c0 matches paper-1 C0 within noise
+   (26.78 vs 26.61 = +0.17). The SciVB gap suggests a v4-pipeline-
+   specific issue with the MC builder or note=None path; relative
+   comparisons across v4 conditions remain valid since they share the
+   same pipeline.
+
+### Decision implications
+
+Per the locked plan's per-phase gates, v4 stage1_plus_kb does not beat
+C1_fixed, so the "trained planner over 5-action vocabulary" thesis is
+broken at the architecture level: training would need to recover at
+least 3.20 pp on ExpVid just to reach the C1_fixed baseline. The
+Phase 0 KB lift was real but small in absolute terms (~+1-2 pp vs
+true C0). Phase 1 (full 2K trajectory generation) is **paused
+pending paper re-scoping discussion**.
+
+Per user instruction 2026-05-23: pause all v4 jobs after 4-condition
+results land; no further launches until review.
+
+---
+
 ## Phase 1 — Strong-teacher SFT data (weeks 3-4)
 
 ### Status: DIAGNOSED — locked-plan recipe yields high skip rate

@@ -41,16 +41,65 @@ from protonote.v4.clip_retrieve import CLIPFrameRetriever      # noqa: E402
 from protonote.v4.kb.kb_tool import KBSearchTool               # noqa: E402
 
 
+_FORBID_ANSWER_BLOCK = (
+    "\n## CONSTRAINT\n"
+    "You MUST pick a TOOL action this round (one of explore_more_frames, "
+    "augment_frame_visual, augment_frame_ocr, kb_search). "
+    "`sufficient_answer` is NOT allowed yet — your notes are too thin to "
+    "justify a confident answer. Choose the most informative tool given "
+    "the question and current notes.\n"
+)
+
+
+def _heuristic_tool(item: dict, note_buffer) -> dict:
+    """Rule-based fallback when the teacher LLM keeps emitting
+    sufficient_answer despite the constraint. Picks one tool action
+    based on simple question features."""
+    q = (item.get("question") or "").lower()
+    # KB-bias keywords (biology/biochem/medicine vocabulary)
+    kb_kw = ("dna", "rna", "protein", "cell", "tissue", "buffer",
+              "reagent", "antibody", "pcr", "blot", "stain", "concentration",
+              "molarity", "ph", "mg", "ml", "incubate", "centrifuge")
+    if any(k in q for k in kb_kw):
+        return {"action": "kb_search",
+                "params": {"query": (item.get("question") or "")[:120]},
+                "rationale": "heuristic: biology/protocol keywords"}
+    # OCR-bias keywords
+    ocr_kw = ("read", "label", "number", "value", "shown on", "displayed",
+               "timer", "measurement")
+    if any(k in q for k in ocr_kw):
+        explored = note_buffer.get_explored_indices()
+        idx = explored[len(explored)//2] if explored else 0
+        return {"action": "augment_frame_ocr",
+                "params": {"frame_idx": int(idx)},
+                "rationale": "heuristic: text/value-reading question"}
+    # Default: detailed visual on an explored frame
+    explored = note_buffer.get_explored_indices()
+    idx = explored[len(explored)//2] if explored else 0
+    return {"action": "augment_frame_visual",
+            "params": {"frame_idx": int(idx),
+                        "focus": (item.get("question") or "")[:120]},
+            "rationale": "heuristic: detailed visual default"}
+
+
 class HintedTeacherAgent(IterativeAgent):
-    """IterativeAgent variant that supports hint injection into the
-    PLANNER PROMPT only. Hint is the gold answer; it is shown to the
-    planner so the teacher can pick the correct route, but the saved
-    state used for SFT is reconstructed from the UN-hinted prompt."""
+    """IterativeAgent variant with hint injection + min-tool-call
+    enforcement.
+
+    * hint_answer: gold-answer string shown to the planner; never written
+      into the saved state.
+    * force_tool_first: when True, round-1 sufficient_answer is rejected:
+      the planner is re-queried with a CONSTRAINT block. If it still picks
+      sufficient_answer, a heuristic tool action is substituted.
+
+    The SFT state is the UN-hinted, UN-constrained planner prompt, so the
+    student sees the same input shape at inference time.
+    """
 
     hint_answer: str = ""
+    force_tool_first: bool = False
 
     def _planner_decide(self, item, note_buffer, round_idx):
-        # Re-implement parent: but optionally append hint to the prompt.
         opts = (item.get("options")
                  if isinstance(item.get("options"), dict) else None)
         un_hinted_prompt = _build_planner_prompt(
@@ -60,16 +109,15 @@ class HintedTeacherAgent(IterativeAgent):
         )
         prompt_for_llm = un_hinted_prompt
         if self.hint_answer:
-            hint_block = (
+            prompt_for_llm += (
                 f"\n## HINT (teacher-only, do NOT mention in output)\n"
                 f"The CORRECT FINAL ANSWER is: {self.hint_answer}\n"
                 f"Your job is to pick the action that would BEST help a "
-                f"student model reach this answer. Pick `sufficient_answer` "
-                f"only when current notes already justify the correct "
-                f"choice; otherwise pick the action that fills the most "
-                f"important remaining gap.\n"
+                f"student model reach this answer.\n"
             )
-            prompt_for_llm = un_hinted_prompt + hint_block
+        forbid_now = (self.force_tool_first and round_idx == 1)
+        if forbid_now:
+            prompt_for_llm += _FORBID_ANSWER_BLOCK
         messages = [
             {"role": "system", "content": _PLANNER_SYSTEM},
             {"role": "user",   "content": [{"type": "text",
@@ -77,7 +125,14 @@ class HintedTeacherAgent(IterativeAgent):
         ]
         raw = self.vlm.generate(messages, max_new_tokens=128)
         decision = _parse_action(raw)
-        # Stash the un-hinted prompt so we can write SFT rows later
+        # Enforce constraint: if forbid_now AND planner still picked
+        # sufficient_answer, retry once; then heuristic.
+        if forbid_now and decision.get("action") == "sufficient_answer":
+            raw2 = self.vlm.generate(messages, max_new_tokens=128)
+            decision = _parse_action(raw2)
+            if decision.get("action") == "sufficient_answer":
+                decision = _heuristic_tool(item, note_buffer)
+                decision["_heuristic_fallback"] = True
         decision["_state_prompt"] = un_hinted_prompt
         return decision
 
@@ -108,18 +163,21 @@ def _make_sft_rows(item: dict, traj_dict: dict) -> list[dict]:
 
 
 def run_one(item: dict, agent: HintedTeacherAgent,
-              max_attempts: int = 3) -> tuple[dict | None, list[dict]]:
+              max_attempts: int = 3,
+              debug_log=None) -> tuple[dict | None, list[dict]]:
     """Try up to max_attempts. Return (winning_trajectory, sft_rows) or
     (None, []) if all attempts fail.
 
     Attempt 1: pure expert (no hint).
-    Attempt 2-3: hint = gold answer.
+    Attempt 2-3: hint = gold answer + force_tool_first.
     """
     gold = item.get("gold", "")
     if not gold:
         return None, []
+    failed_attempts = []
     for attempt in range(1, max_attempts + 1):
         agent.hint_answer = "" if attempt == 1 else str(gold)
+        agent.force_tool_first = (attempt >= 2)
         # Patch _planner_decide to capture _state_prompt into trajectory
         # We monkeypatch the result merging: easier to do post-hoc.
         original_planner = agent._planner_decide
@@ -143,6 +201,24 @@ def run_one(item: dict, agent: HintedTeacherAgent,
         if result.get("score", 0.0) >= 1.0:
             result["attempt"] = attempt
             return result, _make_sft_rows(item, result)
+        # Record failed attempt summary for diagnostics
+        if debug_log is not None:
+            failed_attempts.append({
+                "attempt": attempt,
+                "actions": [s["action"] for s in result.get("trajectory", [])
+                              if s.get("stage") == 2],
+                "pred": result.get("pred"),
+                "gold": gold,
+                "raw":  (result.get("raw") or "")[:80],
+            })
+    if debug_log is not None:
+        debug_log.write(json.dumps({
+            "sample_id": item["sample_id"],
+            "task": item.get("task"),
+            "gold": gold,
+            "failed": failed_attempts,
+        }) + "\n")
+        debug_log.flush()
     return None, []
 
 
@@ -189,15 +265,18 @@ def main():
               if args.num_chunks > 1 else "")
     traj_path = out_dir / f"trajectories{suffix}.jsonl"
     sft_path = out_dir / f"sft_rows{suffix}.jsonl"
+    debug_path = out_dir / f"failed_attempts{suffix}.jsonl"
 
     n_success = 0
     n_skip = 0
     n_rows = 0
     t0 = time.time()
-    with open(traj_path, "w") as tfout, open(sft_path, "w") as sfout:
+    with (open(traj_path, "w") as tfout, open(sft_path, "w") as sfout,
+           open(debug_path, "w") as dfout):
         for i, item in enumerate(items):
             try:
-                traj, rows = run_one(item, agent, args.max_attempts)
+                traj, rows = run_one(item, agent, args.max_attempts,
+                                       debug_log=dfout)
             except Exception as e:
                 print(f"  [{i+1}/{len(items)}] EXC {str(e)[:140]}",
                       flush=True)

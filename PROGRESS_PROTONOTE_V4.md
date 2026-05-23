@@ -79,7 +79,61 @@ Notes:
 ---
 
 ## Phase 1 — Strong-teacher SFT data (weeks 3-4)
-**Not started.**
+
+### Status: DIAGNOSED — locked-plan recipe yields high skip rate
+
+**Code shipped**: `protonote/v4/planner/sft_data.py` (commit 92e7d26a).
+- `HintedTeacherAgent` injects gold-answer hint into PLANNER PROMPT only
+- `force_tool_first` constraint: round-1 sufficient_answer forbidden in hint mode
+- `_heuristic_tool` fallback when planner keeps emitting sufficient_answer
+- Failed-attempt diagnostics writer to `failed_attempts.jsonl`
+
+### Pilots (Qwen2.5-VL-72B, device_map=auto across 4 H200s)
+
+| Run | N | Saved | Skip rate | Action diversity |
+|---|---:|---:|---:|---|
+| N=2 smoke | 2 | 1 | 50 % | 1 sufficient_answer |
+| N=20 force | 20 | 3 | 85 % | 3 sufficient_answer (all attempt 1) |
+| N=10 debug | 10 | 2 | 80 % | 2 sufficient_answer (all attempt 1) |
+| N=100 partial (35 items, no force) | 35 | 6 | 83 % | 6 sufficient_answer |
+
+### Root cause analysis (from N=10 debug `failed_attempts.jsonl`)
+
+- `force_tool_first` works mechanically: in attempt 2/3, teacher picks
+  a tool action (kb_search 14× / augment_frame_visual 2×).
+- **But** the tool action doesn't change the final answer:
+  - step_prediction (gold=28, all 3 attempts predict 58)
+  - sequence_generation (gold=[25..31], all attempts predict 4 25..34)
+  - step_prediction (gold=35, all attempts predict 38)
+- These tasks need **better video reasoning**, not external knowledge.
+- The Phase 0 +15.91 pp KB lift is specifically a **biology / external-
+  knowledge** phenomenon. Tools don't add value on:
+  - step_prediction (frame-index questions)
+  - sequence_generation (counting visible step indices)
+  - fill-in-the-blank narrow numerical questions
+- Teacher defaults to `kb_search` when forced (it's the "smartest-sounding"
+  tool); but a kb_search for "what frame is the next step" returns noise.
+
+### PIVOT decision
+
+**Option chosen**: filter train set to tool-amenable tasks; few-shot the
+teacher with one example per action. (Decision date 2026-05-22.)
+
+Tool-amenable train items (2,117 total):
+- SciVB Biology + Biochemistry + Medicine: 328
+- ExpVid scientific_discovery: 321 (KB-friendly experimental questions)
+- ExpVid sequence_ordering: 577 (teacher answers right >50%, low-cost)
+- ExpVid video_verification: 582 (visual augment helps; Phase-1 +3.29 pp)
+- ExpVid experimental_conclusion: 309
+
+NOT tool-amenable (deferred / sufficient_answer only):
+- ExpVid step_prediction: 593 (frame-index question; tools don't help)
+- ExpVid sequence_generation: 578 (numerical sequence; tools don't help)
+
+This re-scopes Phase 1's target trajectory pool from 3K all-task →
+~2K tool-amenable. Paper messaging is **also cleaner**: "selective KB
+grounding for scientific video reasoning, with a per-discipline analysis
+showing where tools help vs hurt".
 
 ## Phase 2 — Planner SFT (weeks 5-6)
 **Not started.**

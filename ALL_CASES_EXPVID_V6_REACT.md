@@ -1,8 +1,8 @@
-# ALL Cases — ExpVid v6 ReAct (72B + 5 tools, partial n=708/745)
+# ALL Cases — ExpVid v6 ReAct FINAL (n=745, 72B + 5 tools)
 
-Total: 708 items so far. Each case: action_dist + per-round trace + comparison to 72B C0.
+Total: 745 items, acc=34.38%, vs 72B C0=35.13% paired Δ=-0.75 pp (tied)
 
-Tags: 【SAVED】v6 saved a wrong C0; 【HURT】v6 broke a correct C0; 【both ✓/✗】both same.
+Tags: 【SAVED】v6 saved wrong C0; 【HURT】v6 broke correct C0; 【both ✓/✗】same.
 
 
 # Task: **step_prediction** (n=145, correct=7)
@@ -11,7 +11,7 @@ Tags: 【SAVED】v6 saved a wrong C0; 【HURT】v6 broke a correct C0; 【both �
 
 - `expvid_step_prediction_videos_level_2_step_prediction_1942_clip_7_prediction.mp4_1942_clip_7_step_prediction`
 - task: step_prediction
-- gold=`36`  v6_pred=`17`  c0_pred(score=0.0)
+- gold=`36`  v6_pred=`17`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -39,7 +39,7 @@ Complete step list: Aspirate media from cell culture plate
 
 - `expvid_step_prediction_videos_level_2_step_prediction_201062_clip_10_prediction.mp4_201062_clip_10_step_prediction`
 - task: step_prediction
-- gold=`52`  v6_pred=`53`  c0_pred(score=0.0)
+- gold=`52`  v6_pred=`53`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -60,7 +60,7 @@ Complete step list: Sterilize tweezers with 70% ethanol
 
 - `expvid_step_prediction_videos_level_2_step_prediction_2177_clip_3_prediction.mp4_2177_clip_3_step_prediction`
 - task: step_prediction
-- gold=`18`  v6_pred=`54`  c0_pred(score=0.0)
+- gold=`18`  v6_pred=`54`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -81,7 +81,7 @@ Complete step list: Thread 20 G needle into one end of polyethylene tubing
 
 - `expvid_step_prediction_videos_level_2_step_prediction_2177_clip_4_prediction.mp4_2177_clip_4_step_prediction`
 - task: step_prediction
-- gold=`25`  v6_pred=`54`  c0_pred(score=0.0)
+- gold=`25`  v6_pred=`54`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -102,7 +102,7 @@ Complete step list: Thread 20 G needle into one end of polyethylene tubing
 
 - `expvid_step_prediction_videos_level_2_step_prediction_2465_clip_6_prediction.mp4_2465_clip_6_step_prediction`
 - task: step_prediction
-- gold=`54`  v6_pred=`55`  c0_pred(score=0.0)
+- gold=`54`  v6_pred=`55`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -124,7 +124,7 @@ Complete step list: Turn on Hitachi F-7000 Spectra Fluorimeter
 
 - `expvid_step_prediction_videos_level_2_step_prediction_2618_clip_1_prediction.mp4_2618_clip_1_step_prediction`
 - task: step_prediction
-- gold=`8`  v6_pred=`47`  c0_pred(score=0.0)
+- gold=`8`  v6_pred=`47`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -147,7 +147,7 @@ Complete step list: Induce anesthesia with isoflurane
 
 - `expvid_step_prediction_videos_level_2_step_prediction_2693_clip_2_prediction.mp4_2693_clip_2_step_prediction`
 - task: step_prediction
-- gold=`10`  v6_pred=`34`  c0_pred(score=0.0)
+- gold=`10`  v6_pred=`34`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -168,7 +168,7 @@ Complete step list: Harvest human endothelial EAHY 926 cells at 95% confluency
 
 - `expvid_step_prediction_videos_level_2_step_prediction_2702_clip_6_prediction.mp4_2702_clip_6_step_prediction`
 - task: step_prediction
-- gold=`40`  v6_pred=`40`  c0_pred(score=1.0)
+- gold=`40`  v6_pred=`40`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -188,7 +188,7 @@ Complete step list: Prepare inoculum in 50 microliters of saline
 
 - `expvid_step_prediction_videos_level_2_step_prediction_3187_clip_3_prediction.mp4_3187_clip_3_step_prediction`
 - task: step_prediction
-- gold=`23`  v6_pred=`55`  c0_pred(score=0.0)
+- gold=`23`  v6_pred=`55`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -209,7 +209,7 @@ Complete step list: Sterilize cover slips with 70% ethanol for 2 minutes
 
 - `expvid_step_prediction_videos_level_2_step_prediction_3227_clip_9_prediction.mp4_3227_clip_9_step_prediction`
 - task: step_prediction
-- gold=`43`  v6_pred=`44`  c0_pred(score=0.0)
+- gold=`43`  v6_pred=`44`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -229,7 +229,7 @@ Complete step list: Place single drop of collodion into large beaker of water us
 
 - `expvid_step_prediction_videos_level_2_step_prediction_3564_clip_7_prediction.mp4_3564_clip_7_step_prediction`
 - task: step_prediction
-- gold=`42`  v6_pred=`65`  c0_pred(score=0.0)
+- gold=`42`  v6_pred=`65`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -259,7 +259,7 @@ Complete step list: Flush fixative line with buffer using 50 milliliter syringe 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_3642_clip_2_prediction.mp4_3642_clip_2_step_prediction`
 - task: step_prediction
-- gold=`12`  v6_pred=`38`  c0_pred(score=0.0)
+- gold=`12`  v6_pred=`38`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -279,7 +279,7 @@ Complete step list: Remove germ-free mice from isolators
 
 - `expvid_step_prediction_videos_level_2_step_prediction_3691_clip_4_prediction.mp4_3691_clip_4_step_prediction`
 - task: step_prediction
-- gold=`28`  v6_pred=`51`  c0_pred(score=0.0)
+- gold=`28`  v6_pred=`51`  c0_score=0.0
 - action_dist: `{'is_sufficient': 2, 'visual_inspect': 1, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -311,7 +311,7 @@ Complete step list: Dissect E14.5 mouse embryos from uterus
 
 - `expvid_step_prediction_videos_level_2_step_prediction_4308_clip_7_prediction.mp4_4308_clip_7_step_prediction`
 - task: step_prediction
-- gold=`34`  v6_pred=`35`  c0_pred(score=0.0)
+- gold=`34`  v6_pred=`35`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -331,7 +331,7 @@ Complete step list: Dissolve 11 mg DPPC and 1.7 mg DSPE-PEG2000 in chloroform in
 
 - `expvid_step_prediction_videos_level_2_step_prediction_50459_clip_7_prediction.mp4_50459_clip_7_step_prediction`
 - task: step_prediction
-- gold=`47`  v6_pred=`61`  c0_pred(score=0.0)
+- gold=`47`  v6_pred=`61`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -350,7 +350,7 @@ Complete step list: Wrap desired amount of polylactic acid fibers (200 micron di
 
 - `expvid_step_prediction_videos_level_2_step_prediction_50484_clip_7_prediction.mp4_50484_clip_7_step_prediction`
 - task: step_prediction
-- gold=`33`  v6_pred=`34`  c0_pred(score=0.0)
+- gold=`33`  v6_pred=`34`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -373,7 +373,7 @@ Complete step list: Prepare incubation chamber
 
 - `expvid_step_prediction_videos_level_2_step_prediction_50648_clip_1_prediction.mp4_50648_clip_1_step_prediction`
 - task: step_prediction
-- gold=`6`  v6_pred=`65`  c0_pred(score=0.0)
+- gold=`6`  v6_pred=`65`  c0_score=0.0
 - action_dist: `{'is_sufficient': 1, 'visual_inspect': 1, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -404,7 +404,7 @@ Complete step list: Harvest mixed population of cells from mouse testes
 
 - `expvid_step_prediction_videos_level_2_step_prediction_50658_clip_8_prediction.mp4_50658_clip_8_step_prediction`
 - task: step_prediction
-- gold=`41`  v6_pred=`55`  c0_pred(score=0.0)
+- gold=`41`  v6_pred=`55`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -424,7 +424,7 @@ Complete step list: Fit peristaltic pump with two tubes
 
 - `expvid_step_prediction_videos_level_2_step_prediction_50849_clip_3_prediction.mp4_50849_clip_3_step_prediction`
 - task: step_prediction
-- gold=`16`  v6_pred=`28`  c0_pred(score=0.0)
+- gold=`16`  v6_pred=`28`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -444,7 +444,7 @@ Complete step list: Remove cold presser arm wrap from cold storage
 
 - `expvid_step_prediction_videos_level_2_step_prediction_50867_clip_1_prediction.mp4_50867_clip_1_step_prediction`
 - task: step_prediction
-- gold=`8`  v6_pred=`49`  c0_pred(score=0.0)
+- gold=`8`  v6_pred=`49`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -464,7 +464,7 @@ Complete step list: Culture cells on six 24-millimeter filters
 
 - `expvid_step_prediction_videos_level_2_step_prediction_51551_clip_7_prediction.mp4_51551_clip_7_step_prediction`
 - task: step_prediction
-- gold=`51`  v6_pred=`59`  c0_pred(score=0.0)
+- gold=`51`  v6_pred=`59`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -484,7 +484,7 @@ Complete step list: Digest AIP1P-GFP plasmid with restriction enzyme for chromos
 
 - `expvid_step_prediction_videos_level_2_step_prediction_51974_clip_11_prediction.mp4_51974_clip_11_step_prediction`
 - task: step_prediction
-- gold=`36`  v6_pred=`44`  c0_pred(score=0.0)
+- gold=`36`  v6_pred=`44`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -509,7 +509,7 @@ Complete step list: Precisely align elastomeric microtip stamp on ink
 
 - `expvid_step_prediction_videos_level_2_step_prediction_52090_clip_4_prediction.mp4_52090_clip_4_step_prediction`
 - task: step_prediction
-- gold=`14`  v6_pred=`71`  c0_pred(score=0.0)
+- gold=`14`  v6_pred=`71`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -539,7 +539,7 @@ Complete step list: Set up LabWare in fume hood
 
 - `expvid_step_prediction_videos_level_2_step_prediction_52098_clip_7_prediction.mp4_52098_clip_7_step_prediction`
 - task: step_prediction
-- gold=`55`  v6_pred=`68`  c0_pred(score=0.0)
+- gold=`55`  v6_pred=`68`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -559,7 +559,7 @@ Complete step list: Construct sample from two grade B electric resistance welded
 
 - `expvid_step_prediction_videos_level_2_step_prediction_52299_clip_3_prediction.mp4_52299_clip_3_step_prediction`
 - task: step_prediction
-- gold=`20`  v6_pred=`44`  c0_pred(score=0.0)
+- gold=`20`  v6_pred=`44`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -579,7 +579,7 @@ Complete step list: Remove skin from decapitated mouse head to expose skull and 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_52411_clip_4_prediction.mp4_52411_clip_4_step_prediction`
 - task: step_prediction
-- gold=`31`  v6_pred=`54`  c0_pred(score=0.0)
+- gold=`31`  v6_pred=`54`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -599,7 +599,7 @@ Complete step list: Place eight-day-old specific pathogen-free embryonated chick
 
 - `expvid_step_prediction_videos_level_2_step_prediction_52542_clip_8_prediction.mp4_52542_clip_8_step_prediction`
 - task: step_prediction
-- gold=`52`  v6_pred=`53`  c0_pred(score=0.0)
+- gold=`52`  v6_pred=`53`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -620,7 +620,7 @@ Complete step list: Prepare all stock solutions as specified in text protocol
 
 - `expvid_step_prediction_videos_level_2_step_prediction_52557_clip_8_prediction.mp4_52557_clip_8_step_prediction`
 - task: step_prediction
-- gold=`43`  v6_pred=`44`  c0_pred(score=0.0)
+- gold=`43`  v6_pred=`44`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -640,7 +640,7 @@ Complete step list: Grind defatted cotton seed meal through a 0.5 millimeter ste
 
 - `expvid_step_prediction_videos_level_2_step_prediction_52601_clip_5_prediction.mp4_52601_clip_5_step_prediction`
 - task: step_prediction
-- gold=`24`  v6_pred=`53`  c0_pred(score=0.0)
+- gold=`24`  v6_pred=`53`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -661,7 +661,7 @@ Complete step list: Place mouse head in ice-cold oxygenated sucrose solution
 
 - `expvid_step_prediction_videos_level_2_step_prediction_52653_clip_7_prediction.mp4_52653_clip_7_step_prediction`
 - task: step_prediction
-- gold=`65`  v6_pred=`66`  c0_pred(score=0.0)
+- gold=`65`  v6_pred=`66`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -693,7 +693,7 @@ Complete step list: Place anesthetized mouse in stereotactic apparatus
 
 - `expvid_step_prediction_videos_level_2_step_prediction_52874_clip_10_prediction.mp4_52874_clip_10_step_prediction`
 - task: step_prediction
-- gold=`40`  v6_pred=`40`  c0_pred(score=0.0)
+- gold=`40`  v6_pred=`40`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'is_sufficient': 1, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -722,7 +722,7 @@ Complete step list: Spray and wipe inside of large enrichment bin with sporicidi
 
 - `expvid_step_prediction_videos_level_2_step_prediction_52874_clip_3_prediction.mp4_52874_clip_3_step_prediction`
 - task: step_prediction
-- gold=`10`  v6_pred=`13`  c0_pred(score=0.0)
+- gold=`10`  v6_pred=`13`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -745,7 +745,7 @@ Complete step list: Spray and wipe inside of large enrichment bin with sporicidi
 
 - `expvid_step_prediction_videos_level_2_step_prediction_53156_clip_3_prediction.mp4_53156_clip_3_step_prediction`
 - task: step_prediction
-- gold=`18`  v6_pred=`37`  c0_pred(score=0.0)
+- gold=`18`  v6_pred=`37`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -764,7 +764,7 @@ Complete step list: Seed 350,000 human adipose tissue stromal cells onto treated
 
 - `expvid_step_prediction_videos_level_2_step_prediction_53248_clip_7_prediction.mp4_53248_clip_7_step_prediction`
 - task: step_prediction
-- gold=`54`  v6_pred=`55`  c0_pred(score=0.0)
+- gold=`54`  v6_pred=`55`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -784,7 +784,7 @@ Complete step list: Add 0.58 milliliters of 25 weight percent sodium methoxide s
 
 - `expvid_step_prediction_videos_level_2_step_prediction_53411_clip_6_prediction.mp4_53411_clip_6_step_prediction`
 - task: step_prediction
-- gold=`41`  v6_pred=`49`  c0_pred(score=0.0)
+- gold=`41`  v6_pred=`49`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -802,7 +802,7 @@ Complete step list: Add 3 grams of sediment sample to pre-weighed sterile 50 mil
 
 - `expvid_step_prediction_videos_level_2_step_prediction_53618_clip_3_prediction.mp4_53618_clip_3_step_prediction`
 - task: step_prediction
-- gold=`16`  v6_pred=`39`  c0_pred(score=0.0)
+- gold=`16`  v6_pred=`39`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -821,7 +821,7 @@ Complete step list: Prepare 5 mL culture of E. coli in LB medium with antibiotic
 
 - `expvid_step_prediction_videos_level_2_step_prediction_54171_clip_2_prediction.mp4_54171_clip_2_step_prediction`
 - task: step_prediction
-- gold=`12`  v6_pred=`40`  c0_pred(score=0.0)
+- gold=`12`  v6_pred=`40`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -841,7 +841,7 @@ Complete step list: Adjust CV-1 cell concentration to 100,000 cells per millilit
 
 - `expvid_step_prediction_videos_level_2_step_prediction_54413_clip_8_prediction.mp4_54413_clip_8_step_prediction`
 - task: step_prediction
-- gold=`49`  v6_pred=`57`  c0_pred(score=0.0)
+- gold=`49`  v6_pred=`57`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -861,7 +861,7 @@ Complete step list: Thoroughly wash two LCMs with deionized water
 
 - `expvid_step_prediction_videos_level_2_step_prediction_54611_clip_6_prediction.mp4_54611_clip_6_step_prediction`
 - task: step_prediction
-- gold=`31`  v6_pred=`50`  c0_pred(score=0.0)
+- gold=`31`  v6_pred=`50`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -881,7 +881,7 @@ Complete step list: Pre-chill mortar and pestle with liquid nitrogen
 
 - `expvid_step_prediction_videos_level_2_step_prediction_54664_clip_9_prediction.mp4_54664_clip_9_step_prediction`
 - task: step_prediction
-- gold=`44`  v6_pred=`43`  c0_pred(score=0.0)
+- gold=`44`  v6_pred=`43`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -903,7 +903,7 @@ Complete step list: Add 1 mg of fluorescently labeled compound to 100 microliter
 
 - `expvid_step_prediction_videos_level_2_step_prediction_54863_clip_9_prediction.mp4_54863_clip_9_step_prediction`
 - task: step_prediction
-- gold=`29`  v6_pred=`30`  c0_pred(score=0.0)
+- gold=`29`  v6_pred=`30`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -922,7 +922,7 @@ Complete step list: Prepare 5% native polyacrylamide gel containing 0.5x TBE and
 
 - `expvid_step_prediction_videos_level_2_step_prediction_54899_clip_2_prediction.mp4_54899_clip_2_step_prediction`
 - task: step_prediction
-- gold=`13`  v6_pred=`8`  c0_pred(score=0.0)
+- gold=`13`  v6_pred=`8`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -954,7 +954,7 @@ Complete step list: Remove culture medium
 
 - `expvid_step_prediction_videos_level_2_step_prediction_54899_clip_7_prediction.mp4_54899_clip_7_step_prediction`
 - task: step_prediction
-- gold=`42`  v6_pred=`49`  c0_pred(score=0.0)
+- gold=`42`  v6_pred=`49`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -977,7 +977,7 @@ Complete step list: Remove culture medium
 
 - `expvid_step_prediction_videos_level_2_step_prediction_54972_clip_4_prediction.mp4_54972_clip_4_step_prediction`
 - task: step_prediction
-- gold=`17`  v6_pred=`49`  c0_pred(score=0.0)
+- gold=`17`  v6_pred=`49`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -997,7 +997,7 @@ Complete step list: Dilute peptide-plasmid DNA mixture with ultrapure water unti
 
 - `expvid_step_prediction_videos_level_2_step_prediction_55307_clip_3_prediction.mp4_55307_clip_3_step_prediction`
 - task: step_prediction
-- gold=`26`  v6_pred=`48`  c0_pred(score=0.0)
+- gold=`26`  v6_pred=`48`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1017,7 +1017,7 @@ Complete step list: Cover 2/3 of conductive side of FTO coated glass slide with 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_55307_clip_5_prediction.mp4_55307_clip_5_step_prediction`
 - task: step_prediction
-- gold=`47`  v6_pred=`48`  c0_pred(score=0.0)
+- gold=`47`  v6_pred=`48`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1037,7 +1037,7 @@ Complete step list: Cover 2/3 of conductive side of FTO coated glass slide with 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_55689_clip_2_prediction.mp4_55689_clip_2_step_prediction`
 - task: step_prediction
-- gold=`19`  v6_pred=`54`  c0_pred(score=0.0)
+- gold=`19`  v6_pred=`54`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1058,7 +1058,7 @@ Complete step list: Grow cells to 70-80% confluence on 10 cm tissue culture plat
 
 - `expvid_step_prediction_videos_level_2_step_prediction_55718_clip_5_prediction.mp4_55718_clip_5_step_prediction`
 - task: step_prediction
-- gold=`17`  v6_pred=`25`  c0_pred(score=0.0)
+- gold=`17`  v6_pred=`25`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1077,7 +1077,7 @@ Complete step list: Select mole-sized objects with similar feature complexity (t
 
 - `expvid_step_prediction_videos_level_2_step_prediction_55964_clip_5_prediction.mp4_55964_clip_5_step_prediction`
 - task: step_prediction
-- gold=`23`  v6_pred=`24`  c0_pred(score=0.0)
+- gold=`23`  v6_pred=`24`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1098,7 +1098,7 @@ Complete step list: Cut soft sponge into 5 cm² section (20-25 mm tall)
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56074_clip_2_prediction.mp4_56074_clip_2_step_prediction`
 - task: step_prediction
-- gold=`12`  v6_pred=`12`  c0_pred(score=1.0)
+- gold=`12`  v6_pred=`12`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1117,7 +1117,7 @@ Complete step list: Calibrate probe sonicator fitted with vial block sonitrobe
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56094_clip_2_prediction.mp4_56094_clip_2_step_prediction`
 - task: step_prediction
-- gold=`5`  v6_pred=`70`  c0_pred(score=0.0)
+- gold=`5`  v6_pred=`70`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1136,7 +1136,7 @@ Complete step list: Dilute each glycan to 100 micromolar concentration
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56243_clip_4_prediction.mp4_56243_clip_4_step_prediction`
 - task: step_prediction
-- gold=`34`  v6_pred=`45`  c0_pred(score=0.0)
+- gold=`34`  v6_pred=`45`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1166,7 +1166,7 @@ Complete step list: Check surgical plane of anesthesia via absence of reaction t
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56248_clip_8_prediction.mp4_56248_clip_8_step_prediction`
 - task: step_prediction
-- gold=`43`  v6_pred=`51`  c0_pred(score=0.0)
+- gold=`43`  v6_pred=`51`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1186,7 +1186,7 @@ Complete step list: Seed one million breast epithelial cells in 3 milliliters of
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56268_clip_7_prediction.mp4_56268_clip_7_step_prediction`
 - task: step_prediction
-- gold=`46`  v6_pred=`42`  c0_pred(score=0.0)
+- gold=`46`  v6_pred=`42`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1206,7 +1206,7 @@ Complete step list: Remove contaminants and dust from 70 mm × 70 mm × 70 mm mo
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56327_clip_5_prediction.mp4_56327_clip_5_step_prediction`
 - task: step_prediction
-- gold=`24`  v6_pred=`22`  c0_pred(score=0.0)
+- gold=`24`  v6_pred=`22`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1227,7 +1227,7 @@ Complete step list: Plate DU145 or 22Rv1 cells in 150 cm² flasks containing 20 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56611_clip_11_prediction.mp4_56611_clip_11_step_prediction`
 - task: step_prediction
-- gold=`60`  v6_pred=`61`  c0_pred(score=0.0)
+- gold=`60`  v6_pred=`61`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1246,7 +1246,7 @@ Complete step list: Dissolve 0.4 millimoles of tetrabutylammonium tetrafluorobor
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56639_clip_2_prediction.mp4_56639_clip_2_step_prediction`
 - task: step_prediction
-- gold=`11`  v6_pred=`11`  c0_pred(score=1.0)
+- gold=`11`  v6_pred=`11`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1266,7 +1266,7 @@ Complete step list: Position one peristaltic feeder tube per tissue bath around 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56639_clip_4_prediction.mp4_56639_clip_4_step_prediction`
 - task: step_prediction
-- gold=`27`  v6_pred=`27`  c0_pred(score=1.0)
+- gold=`27`  v6_pred=`27`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1286,7 +1286,7 @@ Complete step list: Position one peristaltic feeder tube per tissue bath around 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56655_clip_1_prediction.mp4_56655_clip_1_step_prediction`
 - task: step_prediction
-- gold=`4`  v6_pred=`2`  c0_pred(score=0.0)
+- gold=`4`  v6_pred=`2`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1309,7 +1309,7 @@ Complete step list: Add biotinylated poly-L-lysine (bio-PLL) diluted 1:500 in di
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56779_clip_3_prediction.mp4_56779_clip_3_step_prediction`
 - task: step_prediction
-- gold=`16`  v6_pred=`54`  c0_pred(score=0.0)
+- gold=`16`  v6_pred=`54`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1337,7 +1337,7 @@ Complete step list: Combine 10 male and 15 female adult drosophila flies in vial
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56825_clip_2_prediction.mp4_56825_clip_2_step_prediction`
 - task: step_prediction
-- gold=`13`  v6_pred=`58`  c0_pred(score=0.0)
+- gold=`13`  v6_pred=`58`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1357,7 +1357,7 @@ Complete step list: Remove flask containing cells from cell culture incubator
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56859_clip_2_prediction.mp4_56859_clip_2_step_prediction`
 - task: step_prediction
-- gold=`12`  v6_pred=`72`  c0_pred(score=0.0)
+- gold=`12`  v6_pred=`72`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1379,7 +1379,7 @@ Complete step list: Fix pancreas sample in freshly prepared 4% paraformaldehyde
 
 - `expvid_step_prediction_videos_level_2_step_prediction_56997_clip_8_prediction.mp4_56997_clip_8_step_prediction`
 - task: step_prediction
-- gold=`32`  v6_pred=`46`  c0_pred(score=0.0)
+- gold=`32`  v6_pred=`46`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1400,7 +1400,7 @@ Complete step list: Euthanize two mice using approved method
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57075_clip_8_prediction.mp4_57075_clip_8_step_prediction`
 - task: step_prediction
-- gold=`56`  v6_pred=`80`  c0_pred(score=0.0)
+- gold=`56`  v6_pred=`80`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1420,7 +1420,7 @@ Complete step list: Weigh 5.92 grams of aluminum chloride hexahydrate using cali
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57131_clip_4_prediction.mp4_57131_clip_4_step_prediction`
 - task: step_prediction
-- gold=`24`  v6_pred=`51`  c0_pred(score=0.0)
+- gold=`24`  v6_pred=`51`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1440,7 +1440,7 @@ Complete step list: Set up control and experimental genetic crosses in egg-lay d
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57137_clip_6_prediction.mp4_57137_clip_6_step_prediction`
 - task: step_prediction
-- gold=`29`  v6_pred=`42`  c0_pred(score=0.0)
+- gold=`29`  v6_pred=`42`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1460,7 +1460,7 @@ Complete step list: Select male Sprague Dawley rats with no overt pathology weig
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57240_clip_6_prediction.mp4_57240_clip_6_step_prediction`
 - task: step_prediction
-- gold=`35`  v6_pred=`57`  c0_pred(score=0.0)
+- gold=`35`  v6_pred=`57`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1480,7 +1480,7 @@ Complete step list: Cut fresh citrus leaf with clean scissors and place in clean
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57329_clip_3_prediction.mp4_57329_clip_3_step_prediction`
 - task: step_prediction
-- gold=`14`  v6_pred=`41`  c0_pred(score=0.0)
+- gold=`14`  v6_pred=`41`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1500,7 +1500,7 @@ Complete step list: Seed 2 × 10⁵ B16F10 melanoma cells in 100-millimeter dish
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57343_clip_6_prediction.mp4_57343_clip_6_step_prediction`
 - task: step_prediction
-- gold=`21`  v6_pred=`61`  c0_pred(score=0.0)
+- gold=`21`  v6_pred=`61`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1519,7 +1519,7 @@ Complete step list: Weigh 10 grams of soil sample into each of two 50-milliliter
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57346_clip_6_prediction.mp4_57346_clip_6_step_prediction`
 - task: step_prediction
-- gold=`35`  v6_pred=`43`  c0_pred(score=0.0)
+- gold=`35`  v6_pred=`43`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1540,7 +1540,7 @@ Complete step list: Document weight of human brain tissue
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57385_clip_2_prediction.mp4_57385_clip_2_step_prediction`
 - task: step_prediction
-- gold=`11`  v6_pred=`44`  c0_pred(score=0.0)
+- gold=`11`  v6_pred=`44`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1560,7 +1560,7 @@ Complete step list: Anesthetize cockroaches on ice until immobile for three minu
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57531_clip_3_prediction.mp4_57531_clip_3_step_prediction`
 - task: step_prediction
-- gold=`14`  v6_pred=`34`  c0_pred(score=0.0)
+- gold=`14`  v6_pred=`34`  c0_score=0.0
 - action_dist: `{'is_sufficient': 1, 'visual_inspect': 1, 'answer': 1}`  rounds: 3
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1587,7 +1587,7 @@ Complete step list: Aspirate medium from cells
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57531_clip_4_prediction.mp4_57531_clip_4_step_prediction`
 - task: step_prediction
-- gold=`20`  v6_pred=`34`  c0_pred(score=0.0)
+- gold=`20`  v6_pred=`34`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1608,7 +1608,7 @@ Complete step list: Aspirate medium from cells
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57541_clip_1_prediction.mp4_57541_clip_1_step_prediction`
 - task: step_prediction
-- gold=`6`  v6_pred=`70`  c0_pred(score=0.0)
+- gold=`6`  v6_pred=`70`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1629,7 +1629,7 @@ Complete step list: Cut a five millimeter section of tubing
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57543_clip_11_prediction.mp4_57543_clip_11_step_prediction`
 - task: step_prediction
-- gold=`64`  v6_pred=`65`  c0_pred(score=0.0)
+- gold=`64`  v6_pred=`65`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1649,7 +1649,7 @@ Complete step list: Use small dissecting scissors to cut skin along midline of s
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57573_clip_5_prediction.mp4_57573_clip_5_step_prediction`
 - task: step_prediction
-- gold=`25`  v6_pred=`17`  c0_pred(score=0.0)
+- gold=`25`  v6_pred=`17`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'is_sufficient': 1, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1678,7 +1678,7 @@ Complete step list: Mix and degas 1.1 grams of PDMS prepolymer mixture in speed 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57573_clip_6_prediction.mp4_57573_clip_6_step_prediction`
 - task: step_prediction
-- gold=`33`  v6_pred=`40`  c0_pred(score=0.0)
+- gold=`33`  v6_pred=`40`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1698,7 +1698,7 @@ Complete step list: Mix and degas 1.1 grams of PDMS prepolymer mixture in speed 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57598_clip_6_prediction.mp4_57598_clip_6_step_prediction`
 - task: step_prediction
-- gold=`33`  v6_pred=`64`  c0_pred(score=0.0)
+- gold=`33`  v6_pred=`64`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1719,7 +1719,7 @@ Complete step list: Prepare 1 mL of 3% w/v low-melting temperature agarose in 1X
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57629_clip_4_prediction.mp4_57629_clip_4_step_prediction`
 - task: step_prediction
-- gold=`31`  v6_pred=`46`  c0_pred(score=0.0)
+- gold=`31`  v6_pred=`46`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1739,7 +1739,7 @@ Complete step list: Identify distal stomach and pylorus
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57737_clip_5_prediction.mp4_57737_clip_5_step_prediction`
 - task: step_prediction
-- gold=`37`  v6_pred=`46`  c0_pred(score=0.0)
+- gold=`37`  v6_pred=`46`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1761,7 +1761,7 @@ Complete step list: Load 1 mL syringe with 27-gauge needle with 0.1 mL LPS in PB
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57759_clip_3_prediction.mp4_57759_clip_3_step_prediction`
 - task: step_prediction
-- gold=`10`  v6_pred=`55`  c0_pred(score=0.0)
+- gold=`10`  v6_pred=`55`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1779,7 +1779,7 @@ Complete step list: Transfer individual Stentor cells into well of glass spot pl
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57774_clip_3_prediction.mp4_57774_clip_3_step_prediction`
 - task: step_prediction
-- gold=`14`  v6_pred=`62`  c0_pred(score=0.0)
+- gold=`14`  v6_pred=`62`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1799,7 +1799,7 @@ Complete step list: Add 1840 microliters of culture to 160 microliters of 37% fo
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57928_clip_3_prediction.mp4_57928_clip_3_step_prediction`
 - task: step_prediction
-- gold=`19`  v6_pred=`45`  c0_pred(score=0.0)
+- gold=`19`  v6_pred=`45`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1821,7 +1821,7 @@ Complete step list: Label four solar panels as C1, DVR1, DVR2, and DVR3
 
 - `expvid_step_prediction_videos_level_2_step_prediction_57979_clip_1_prediction.mp4_57979_clip_1_step_prediction`
 - task: step_prediction
-- gold=`4`  v6_pred=`45`  c0_pred(score=0.0)
+- gold=`4`  v6_pred=`45`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1841,7 +1841,7 @@ Complete step list: Homogenize 100 grams of fresh radish using kitchen blender f
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58022_clip_1_prediction.mp4_58022_clip_1_step_prediction`
 - task: step_prediction
-- gold=`7`  v6_pred=`8`  c0_pred(score=0.0)
+- gold=`7`  v6_pred=`8`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1863,7 +1863,7 @@ Complete step list: Add fetal bovine serum to RPMI 1640 to achieve 10% final con
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58022_clip_4_prediction.mp4_58022_clip_4_step_prediction`
 - task: step_prediction
-- gold=`23`  v6_pred=`49`  c0_pred(score=0.0)
+- gold=`23`  v6_pred=`49`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1882,7 +1882,7 @@ Complete step list: Add fetal bovine serum to RPMI 1640 to achieve 10% final con
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58052_clip_4_prediction.mp4_58052_clip_4_step_prediction`
 - task: step_prediction
-- gold=`30`  v6_pred=`49`  c0_pred(score=0.0)
+- gold=`30`  v6_pred=`49`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1904,7 +1904,7 @@ Complete step list: Bring 4-mL glass vial, two spatulas, and 1-mL micropipette i
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58052_clip_6_prediction.mp4_58052_clip_6_step_prediction`
 - task: step_prediction
-- gold=`22`  v6_pred=`49`  c0_pred(score=0.0)
+- gold=`22`  v6_pred=`49`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1926,7 +1926,7 @@ Complete step list: Bring 4-mL glass vial, two spatulas, and 1-mL micropipette i
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58104_clip_1_prediction.mp4_58104_clip_1_step_prediction`
 - task: step_prediction
-- gold=`7`  v6_pred=`2`  c0_pred(score=0.0)
+- gold=`7`  v6_pred=`2`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1946,7 +1946,7 @@ Complete step list: Use laryngoscope to expose vocal cords through mouth of 25-3
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58283_clip_3_prediction.mp4_58283_clip_3_step_prediction`
 - task: step_prediction
-- gold=`14`  v6_pred=`51`  c0_pred(score=0.0)
+- gold=`14`  v6_pred=`51`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1965,7 +1965,7 @@ Complete step list: Synthesize DNA fragment containing 5' BglII cutting site, se
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58283_clip_4_prediction.mp4_58283_clip_4_step_prediction`
 - task: step_prediction
-- gold=`25`  v6_pred=`51`  c0_pred(score=0.0)
+- gold=`25`  v6_pred=`51`  c0_score=0.0
 - action_dist: `{'is_sufficient': 2, 'answer': 1}`  rounds: 3
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -1990,7 +1990,7 @@ Complete step list: Synthesize DNA fragment containing 5' BglII cutting site, se
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58334_clip_1_prediction.mp4_58334_clip_1_step_prediction`
 - task: step_prediction
-- gold=`8`  v6_pred=`8`  c0_pred(score=1.0)
+- gold=`8`  v6_pred=`8`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2010,7 +2010,7 @@ Complete step list: Thaw and gently resuspend mitochondrial vesicles (mitoplasts
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58458_clip_1_prediction.mp4_58458_clip_1_step_prediction`
 - task: step_prediction
-- gold=`8`  v6_pred=`42`  c0_pred(score=0.0)
+- gold=`8`  v6_pred=`42`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2031,7 +2031,7 @@ Complete step list: Dissolve 30.29 grams of tris HCl powder in 100 milliliters o
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58474_clip_4_prediction.mp4_58474_clip_4_step_prediction`
 - task: step_prediction
-- gold=`27`  v6_pred=`54`  c0_pred(score=0.0)
+- gold=`27`  v6_pred=`54`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2051,7 +2051,7 @@ Complete step list: Retrieve one vial of papain powder from 4°C storage
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58577_clip_2_prediction.mp4_58577_clip_2_step_prediction`
 - task: step_prediction
-- gold=`10`  v6_pred=`35`  c0_pred(score=0.0)
+- gold=`10`  v6_pred=`35`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2080,7 +2080,7 @@ Complete step list: Place one cotton ball in bottom of 4cm diameter × 21cm heig
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58727_clip_7_prediction.mp4_58727_clip_7_step_prediction`
 - task: step_prediction
-- gold=`40`  v6_pred=`53`  c0_pred(score=0.0)
+- gold=`40`  v6_pred=`53`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2099,7 +2099,7 @@ Complete step list: Add 15 milliliters of density gradient cell separation solut
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58818_clip_1_prediction.mp4_58818_clip_1_step_prediction`
 - task: step_prediction
-- gold=`6`  v6_pred=`38`  c0_pred(score=0.0)
+- gold=`6`  v6_pred=`38`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2117,7 +2117,7 @@ Complete step list: Grow Lactobacillus reuteri in malic enzyme induction medium 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58892_clip_6_prediction.mp4_58892_clip_6_step_prediction`
 - task: step_prediction
-- gold=`33`  v6_pred=`33`  c0_pred(score=1.0)
+- gold=`33`  v6_pred=`33`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2136,7 +2136,7 @@ Complete step list: Select protease recognition site including 2-3 amino acids u
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58916_clip_5_prediction.mp4_58916_clip_5_step_prediction`
 - task: step_prediction
-- gold=`27`  v6_pred=`60`  c0_pred(score=0.0)
+- gold=`27`  v6_pred=`60`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2156,7 +2156,7 @@ Complete step list: Connect ball valve to one end of four-inch long, 1/8 size th
 
 - `expvid_step_prediction_videos_level_2_step_prediction_58971_clip_6_prediction.mp4_58971_clip_6_step_prediction`
 - task: step_prediction
-- gold=`29`  v6_pred=`85`  c0_pred(score=0.0)
+- gold=`29`  v6_pred=`85`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2176,7 +2176,7 @@ Complete step list: Place 500 milligrams of low-melting agarose in 100 millilite
 
 - `expvid_step_prediction_videos_level_2_step_prediction_59119_clip_3_prediction.mp4_59119_clip_3_step_prediction`
 - task: step_prediction
-- gold=`12`  v6_pred=`45`  c0_pred(score=0.0)
+- gold=`12`  v6_pred=`45`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2195,7 +2195,7 @@ Complete step list: Grow a single Agrobacterium colony overnight in 5 ml of YEB 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_59270_clip_4_prediction.mp4_59270_clip_4_step_prediction`
 - task: step_prediction
-- gold=`26`  v6_pred=`37`  c0_pred(score=0.0)
+- gold=`26`  v6_pred=`37`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2215,7 +2215,7 @@ Complete step list: Transfer eggs laid by adult moths to two liter boxes
 
 - `expvid_step_prediction_videos_level_2_step_prediction_59338_clip_9_prediction.mp4_59338_clip_9_step_prediction`
 - task: step_prediction
-- gold=`43`  v6_pred=`44`  c0_pred(score=0.0)
+- gold=`43`  v6_pred=`44`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2234,7 +2234,7 @@ Complete step list: Set up drill press with fence and stop using short dowel to 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_59449_clip_5_prediction.mp4_59449_clip_5_step_prediction`
 - task: step_prediction
-- gold=`34`  v6_pred=`50`  c0_pred(score=0.0)
+- gold=`34`  v6_pred=`50`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2253,7 +2253,7 @@ Complete step list: Position anesthetized mouse in stereotactic platform with in
 
 - `expvid_step_prediction_videos_level_2_step_prediction_59764_clip_5_prediction.mp4_59764_clip_5_step_prediction`
 - task: step_prediction
-- gold=`29`  v6_pred=`46`  c0_pred(score=0.0)
+- gold=`29`  v6_pred=`46`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2272,7 +2272,7 @@ Complete step list: Mount single element ultrasound transducers onto transducer 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_60273_clip_4_prediction.mp4_60273_clip_4_step_prediction`
 - task: step_prediction
-- gold=`11`  v6_pred=`68`  c0_pred(score=0.0)
+- gold=`11`  v6_pred=`68`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2292,7 +2292,7 @@ Complete step list: Add 0.5 milliliters of trypsin to cancer cell culture in tis
 
 - `expvid_step_prediction_videos_level_2_step_prediction_60469_clip_9_prediction.mp4_60469_clip_9_step_prediction`
 - task: step_prediction
-- gold=`56`  v6_pred=`63`  c0_pred(score=0.0)
+- gold=`56`  v6_pred=`63`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2312,7 +2312,7 @@ Complete step list: Add 1 mL of 10 mM HEPES in DMEM to tumor fragments
 
 - `expvid_step_prediction_videos_level_2_step_prediction_60488_clip_5_prediction.mp4_60488_clip_5_step_prediction`
 - task: step_prediction
-- gold=`40`  v6_pred=`53`  c0_pred(score=0.0)
+- gold=`40`  v6_pred=`53`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2334,7 +2334,7 @@ Complete step list: Inoculate 5 milliliters of single drop-out broth with single
 
 - `expvid_step_prediction_videos_level_2_step_prediction_60744_clip_3_prediction.mp4_60744_clip_3_step_prediction`
 - task: step_prediction
-- gold=`13`  v6_pred=`25`  c0_pred(score=0.0)
+- gold=`13`  v6_pred=`25`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2358,7 +2358,7 @@ Complete step list: Collect up to 15 larvae in a 2 ml tube using glass pipette a
 
 - `expvid_step_prediction_videos_level_2_step_prediction_60828_clip_4_prediction.mp4_60828_clip_4_step_prediction`
 - task: step_prediction
-- gold=`24`  v6_pred=`20`  c0_pred(score=0.0)
+- gold=`24`  v6_pred=`20`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2379,7 +2379,7 @@ Complete step list: Select plump and undamaged tartary buckwheat seeds
 
 - `expvid_step_prediction_videos_level_2_step_prediction_60982_clip_9_prediction.mp4_60982_clip_9_step_prediction`
 - task: step_prediction
-- gold=`56`  v6_pred=`63`  c0_pred(score=0.0)
+- gold=`56`  v6_pred=`63`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2399,7 +2399,7 @@ Complete step list: Pick 30 to 40 young adult worms into watch glass dish contai
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61037_clip_5_prediction.mp4_61037_clip_5_step_prediction`
 - task: step_prediction
-- gold=`32`  v6_pred=`46`  c0_pred(score=0.0)
+- gold=`32`  v6_pred=`46`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2419,7 +2419,7 @@ Complete step list: Seed fibroblasts into 24-well plates at 50,000 cells per wel
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61054_clip_4_prediction.mp4_61054_clip_4_step_prediction`
 - task: step_prediction
-- gold=`24`  v6_pred=`52`  c0_pred(score=0.0)
+- gold=`24`  v6_pred=`52`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2441,7 +2441,7 @@ Complete step list: Add 500 microliters of Tween 20 to one liter of PBS
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61124_clip_8_prediction.mp4_61124_clip_8_step_prediction`
 - task: step_prediction
-- gold=`58`  v6_pred=`71`  c0_pred(score=0.0)
+- gold=`58`  v6_pred=`71`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2463,7 +2463,7 @@ Complete step list: Mix magnetic beads until homogeneous
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61180_clip_4_prediction.mp4_61180_clip_4_step_prediction`
 - task: step_prediction
-- gold=`24`  v6_pred=`49`  c0_pred(score=0.0)
+- gold=`24`  v6_pred=`49`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2482,7 +2482,7 @@ Complete step list: Heat samples in slide rack at 60 degrees Celsius for 60 minu
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61243_clip_4_prediction.mp4_61243_clip_4_step_prediction`
 - task: step_prediction
-- gold=`30`  v6_pred=`43`  c0_pred(score=0.0)
+- gold=`30`  v6_pred=`43`  c0_score=0.0
 - action_dist: `{'is_sufficient': 2, 'answer': 1}`  rounds: 3
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2509,7 +2509,7 @@ Complete step list: Wash worms from growth plates into 15 ml conical tube using 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61330_clip_7_prediction.mp4_61330_clip_7_step_prediction`
 - task: step_prediction
-- gold=`51`  v6_pred=`75`  c0_pred(score=0.0)
+- gold=`51`  v6_pred=`75`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2529,7 +2529,7 @@ Complete step list: Wash the head three times in 5 milliliters of GBSS
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61383_clip_3_prediction.mp4_61383_clip_3_step_prediction`
 - task: step_prediction
-- gold=`32`  v6_pred=`62`  c0_pred(score=0.0)
+- gold=`32`  v6_pred=`62`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2550,7 +2550,7 @@ Complete step list: Make incision in abdominal skin using surgical scissors and 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61391_clip_3_prediction.mp4_61391_clip_3_step_prediction`
 - task: step_prediction
-- gold=`21`  v6_pred=`32`  c0_pred(score=0.0)
+- gold=`21`  v6_pred=`32`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2571,7 +2571,7 @@ Complete step list: Calibrate electric goniometer according to manufacturer's in
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61411_clip_3_prediction.mp4_61411_clip_3_step_prediction`
 - task: step_prediction
-- gold=`23`  v6_pred=`43`  c0_pred(score=0.0)
+- gold=`23`  v6_pred=`43`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2591,7 +2591,7 @@ Complete step list: Dissect 6-8 hippocampi from postnatal day 1 pups using HBSS 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61449_clip_8_prediction.mp4_61449_clip_8_step_prediction`
 - task: step_prediction
-- gold=`54`  v6_pred=`60`  c0_pred(score=0.0)
+- gold=`54`  v6_pred=`60`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2610,7 +2610,7 @@ Complete step list: Add 100 microliters of Proteinase K, 800 microliters of lysi
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61666_clip_5_prediction.mp4_61666_clip_5_step_prediction`
 - task: step_prediction
-- gold=`32`  v6_pred=`58`  c0_pred(score=0.0)
+- gold=`32`  v6_pred=`58`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2630,7 +2630,7 @@ Complete step list: Harvest both testes from an eight week old male mouse
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61760_clip_8_prediction.mp4_61760_clip_8_step_prediction`
 - task: step_prediction
-- gold=`53`  v6_pred=`25`  c0_pred(score=0.0)
+- gold=`53`  v6_pred=`25`  c0_score=0.0
 - action_dist: `{'is_sufficient': 1, 'visual_inspect': 2, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2657,7 +2657,7 @@ Complete step list: Split 2 milliliters of human plasma into two 1-milliliter al
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61993_clip_5_prediction.mp4_61993_clip_5_step_prediction`
 - task: step_prediction
-- gold=`21`  v6_pred=`12`  c0_pred(score=0.0)
+- gold=`21`  v6_pred=`12`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'is_sufficient': 1, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2690,7 +2690,7 @@ Complete step list: Add 20 femtomoles of each PCR product
 
 - `expvid_step_prediction_videos_level_2_step_prediction_61993_clip_6_prediction.mp4_61993_clip_6_step_prediction`
 - task: step_prediction
-- gold=`25`  v6_pred=`11`  c0_pred(score=0.0)
+- gold=`25`  v6_pred=`11`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2715,7 +2715,7 @@ Complete step list: Add 20 femtomoles of each PCR product
 
 - `expvid_step_prediction_videos_level_2_step_prediction_62088_clip_5_prediction.mp4_62088_clip_5_step_prediction`
 - task: step_prediction
-- gold=`40`  v6_pred=`30`  c0_pred(score=0.0)
+- gold=`40`  v6_pred=`30`  c0_score=0.0
 - action_dist: `{'is_sufficient': 1, 'visual_inspect': 1, 'answer': 1}`  rounds: 3
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2741,7 +2741,7 @@ Complete step list: Dilute 2.2 molar sucrose to prepare six 10-50% sucrose gradi
 
 - `expvid_step_prediction_videos_level_2_step_prediction_62107_clip_6_prediction.mp4_62107_clip_6_step_prediction`
 - task: step_prediction
-- gold=`33`  v6_pred=`46`  c0_pred(score=0.0)
+- gold=`33`  v6_pred=`46`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2761,7 +2761,7 @@ Complete step list: Supplement DMEM with 5% dextran/charcoal coated FBS, 1X peni
 
 - `expvid_step_prediction_videos_level_2_step_prediction_62279_clip_4_prediction.mp4_62279_clip_4_step_prediction`
 - task: step_prediction
-- gold=`24`  v6_pred=`55`  c0_pred(score=0.0)
+- gold=`24`  v6_pred=`55`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2782,7 +2782,7 @@ Complete step list: Create computer-aided design model of mold using patient ima
 
 - `expvid_step_prediction_videos_level_2_step_prediction_62309_clip_6_prediction.mp4_62309_clip_6_step_prediction`
 - task: step_prediction
-- gold=`27`  v6_pred=`36`  c0_pred(score=0.0)
+- gold=`27`  v6_pred=`36`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2802,7 +2802,7 @@ Complete step list: Add 5% sulfinitated polyetheretherketone fibers to 250 milli
 
 - `expvid_step_prediction_videos_level_2_step_prediction_62533_clip_5_prediction.mp4_62533_clip_5_step_prediction`
 - task: step_prediction
-- gold=`31`  v6_pred=`48`  c0_pred(score=0.0)
+- gold=`31`  v6_pred=`48`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2822,7 +2822,7 @@ Complete step list: Make fly behavior observation chamber (FBOC) using transluce
 
 - `expvid_step_prediction_videos_level_2_step_prediction_62559_clip_2_prediction.mp4_62559_clip_2_step_prediction`
 - task: step_prediction
-- gold=`8`  v6_pred=`33`  c0_pred(score=0.0)
+- gold=`8`  v6_pred=`33`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2843,7 +2843,7 @@ Complete step list: Measure approximately 5 ml of glass beads in a 50 ml conical
 
 - `expvid_step_prediction_videos_level_2_step_prediction_62650_clip_11_prediction.mp4_62650_clip_11_step_prediction`
 - task: step_prediction
-- gold=`61`  v6_pred=`63`  c0_pred(score=0.0)
+- gold=`61`  v6_pred=`63`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2864,7 +2864,7 @@ Complete step list: Choose or design reporter construct
 
 - `expvid_step_prediction_videos_level_2_step_prediction_62671_clip_4_prediction.mp4_62671_clip_4_step_prediction`
 - task: step_prediction
-- gold=`20`  v6_pred=`57`  c0_pred(score=0.0)
+- gold=`20`  v6_pred=`57`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2884,7 +2884,7 @@ Complete step list: Wash protein pellets twice with acetone via centrifugation a
 
 - `expvid_step_prediction_videos_level_2_step_prediction_62771_clip_4_prediction.mp4_62771_clip_4_step_prediction`
 - task: step_prediction
-- gold=`20`  v6_pred=`52`  c0_pred(score=0.0)
+- gold=`20`  v6_pred=`52`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2904,7 +2904,7 @@ Complete step list: Pour molten agarose into reagent trough
 
 - `expvid_step_prediction_videos_level_2_step_prediction_63501_clip_3_prediction.mp4_63501_clip_3_step_prediction`
 - task: step_prediction
-- gold=`17`  v6_pred=`18`  c0_pred(score=0.0)
+- gold=`17`  v6_pred=`18`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'is_sufficient': 1, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2934,7 +2934,7 @@ Complete step list: Place clean paper (5 by 35 millimeters) on center of double-
 
 - `expvid_step_prediction_videos_level_2_step_prediction_63997_clip_2_prediction.mp4_63997_clip_2_step_prediction`
 - task: step_prediction
-- gold=`4`  v6_pred=`32`  c0_pred(score=0.0)
+- gold=`4`  v6_pred=`32`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2955,7 +2955,7 @@ Complete step list: Take sterile flat surface for mouse placement
 
 - `expvid_step_prediction_videos_level_2_step_prediction_64041_clip_8_prediction.mp4_64041_clip_8_step_prediction`
 - task: step_prediction
-- gold=`50`  v6_pred=`67`  c0_pred(score=0.0)
+- gold=`50`  v6_pred=`67`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -2974,7 +2974,7 @@ Complete step list: Disinfect forceps using dry heat sterilization at 200 degree
 
 - `expvid_step_prediction_videos_level_2_step_prediction_64175_clip_4_prediction.mp4_64175_clip_4_step_prediction`
 - task: step_prediction
-- gold=`23`  v6_pred=`38`  c0_pred(score=0.0)
+- gold=`23`  v6_pred=`38`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -3006,7 +3006,7 @@ Complete step list: Place euthanized mouse torso in 35 mm Petri dish
 
 - `expvid_step_prediction_videos_level_2_step_prediction_64759_clip_5_prediction.mp4_64759_clip_5_step_prediction`
 - task: step_prediction
-- gold=`36`  v6_pred=`50`  c0_pred(score=0.0)
+- gold=`36`  v6_pred=`50`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -3026,7 +3026,7 @@ Complete step list: Add 50 grams of air-dried soil sample (sieved to 2 mm) into 
 
 - `expvid_step_prediction_videos_level_2_step_prediction_64923_clip_5_prediction.mp4_64923_clip_5_step_prediction`
 - task: step_prediction
-- gold=`31`  v6_pred=`54`  c0_pred(score=0.0)
+- gold=`31`  v6_pred=`54`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -3047,7 +3047,7 @@ Complete step list: Remove medium from wells of HEK 293T cell plate
 
 - `expvid_step_prediction_videos_level_2_step_prediction_65126_clip_3_prediction.mp4_65126_clip_3_step_prediction`
 - task: step_prediction
-- gold=`11`  v6_pred=`50`  c0_pred(score=0.0)
+- gold=`11`  v6_pred=`50`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -3067,7 +3067,7 @@ Complete step list: Culture HCT116 cell line in DMEM cell culture medium
 
 - `expvid_step_prediction_videos_level_2_step_prediction_65412_clip_6_prediction.mp4_65412_clip_6_step_prediction`
 - task: step_prediction
-- gold=`30`  v6_pred=`35`  c0_pred(score=0.0)
+- gold=`30`  v6_pred=`35`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -3097,7 +3097,7 @@ Complete step list: Mix 105 milliliters of ethylene glycol
 
 - `expvid_step_prediction_videos_level_2_step_prediction_65848_clip_7_prediction.mp4_65848_clip_7_step_prediction`
 - task: step_prediction
-- gold=`43`  v6_pred=`61`  c0_pred(score=0.0)
+- gold=`43`  v6_pred=`61`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -3118,7 +3118,7 @@ Complete step list: Place PRDM medium in 37°C water bath
 
 - `expvid_step_prediction_videos_level_2_step_prediction_67076_clip_4_prediction.mp4_67076_clip_4_step_prediction`
 - task: step_prediction
-- gold=`24`  v6_pred=`81`  c0_pred(score=0.0)
+- gold=`24`  v6_pred=`81`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -3139,7 +3139,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_step_prediction_videos_level_2_step_prediction_67076_clip_9_prediction.mp4_67076_clip_9_step_prediction`
 - task: step_prediction
-- gold=`49`  v6_pred=`81`  c0_pred(score=0.0)
+- gold=`49`  v6_pred=`81`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the complete step list of the experiment, please predict the next step that will take place after experimental steps shown in this video.
@@ -3163,7 +3163,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_1942_clip_5_removed_step_1.mp4_1942_clip_5_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -3190,7 +3190,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_1942_clip_6_removed_step_9.mp4_1942_clip_6_video_verification`
 - task: video_verification
-- gold=`I`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`I`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -3226,7 +3226,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_201777_clip_8_removed_step_7.mp4_201777_clip_8_video_verification`
 - task: video_verification
-- gold=`G`  v6_pred=`H`  c0_pred(score=0.0)
+- gold=`G`  v6_pred=`H`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -3260,7 +3260,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_2693_clip_5_removed_step_2.mp4_2693_clip_5_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3294,7 +3294,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_2702_clip_4_removed_step_7.mp4_2702_clip_4_video_verification`
 - task: video_verification
-- gold=`G`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`G`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3335,7 +3335,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_2958_clip_3_removed_step_5.mp4_2958_clip_3_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`E`  c0_pred(score=1.0)
+- gold=`E`  v6_pred=`E`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3376,7 +3376,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_3187_clip_6_removed_step_5.mp4_3187_clip_6_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`E`  c0_pred(score=1.0)
+- gold=`E`  v6_pred=`E`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -3405,7 +3405,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_3250_clip_4_removed_step_3.mp4_3250_clip_4_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3445,7 +3445,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_3255_clip_2_removed_step_2.mp4_3255_clip_2_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3487,7 +3487,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_4022_clip_1_removed_step_6.mp4_4022_clip_1_video_verification`
 - task: video_verification
-- gold=`F`  v6_pred=`H`  c0_pred(score=0.0)
+- gold=`F`  v6_pred=`H`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3527,7 +3527,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_4022_clip_5_removed_step_1.mp4_4022_clip_5_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3557,7 +3557,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_4104_clip_6_removed_step_5.mp4_4104_clip_6_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3601,7 +3601,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_4142_clip_9_removed_step_6.mp4_4142_clip_9_video_verification`
 - task: video_verification
-- gold=`F`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`F`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3641,7 +3641,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_4154_clip_5_removed_step_2.mp4_4154_clip_5_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3680,7 +3680,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_50107_clip_4_removed_step_2.mp4_50107_clip_4_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3716,7 +3716,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_50196_clip_2_removed_step_3.mp4_50196_clip_2_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3755,7 +3755,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_50210_clip_6_removed_step_1.mp4_50210_clip_6_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -3791,7 +3791,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_50327_clip_3_removed_step_2.mp4_50327_clip_3_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3827,7 +3827,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_50332_clip_1_removed_step_4.mp4_50332_clip_1_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3863,7 +3863,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_50332_clip_6_removed_step_4.mp4_50332_clip_6_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -3892,7 +3892,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_50389_clip_4_removed_step_2.mp4_50389_clip_4_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3926,7 +3926,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_50849_clip_2_removed_step_3.mp4_50849_clip_2_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3962,7 +3962,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_50849_clip_3_removed_step_3.mp4_50849_clip_3_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -3999,7 +3999,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_50867_clip_3_removed_step_3.mp4_50867_clip_3_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -4025,7 +4025,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_50946_clip_3_removed_step_3.mp4_50946_clip_3_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the following step list，which step was not performed in the video?
@@ -4053,7 +4053,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_51044_clip_2_removed_step_8.mp4_51044_clip_2_video_verification`
 - task: video_verification
-- gold=`H`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`H`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -4087,7 +4087,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_51250_clip_3_removed_step_6.mp4_51250_clip_3_video_verification`
 - task: video_verification
-- gold=`F`  v6_pred=`G`  c0_pred(score=0.0)
+- gold=`F`  v6_pred=`G`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4124,7 +4124,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_51388_clip_6_removed_step_5.mp4_51388_clip_6_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4169,7 +4169,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_51551_clip_4_removed_step_2.mp4_51551_clip_4_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4203,7 +4203,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_51974_clip_12_removed_step_3.mp4_51974_clip_12_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4241,7 +4241,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_52225_clip_2_removed_step_4.mp4_52225_clip_2_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -4268,7 +4268,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_52299_clip_5_removed_step_7.mp4_52299_clip_5_video_verification`
 - task: video_verification
-- gold=`G`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`G`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4309,7 +4309,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_52653_clip_4_removed_step_7.mp4_52653_clip_4_video_verification`
 - task: video_verification
-- gold=`G`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`G`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4355,7 +4355,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_52732_clip_3_removed_step_2.mp4_52732_clip_3_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Given the following step list，which step was not performed in the video?
@@ -4385,7 +4385,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_52732_clip_9_removed_step_6.mp4_52732_clip_9_video_verification`
 - task: video_verification
-- gold=`F`  v6_pred=`F`  c0_pred(score=0.0)
+- gold=`F`  v6_pred=`F`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4423,7 +4423,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_52818_clip_6_removed_step_4.mp4_52818_clip_6_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -4450,7 +4450,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_53010_clip_7_removed_step_2.mp4_53010_clip_7_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -4477,7 +4477,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_53411_clip_6_removed_step_2.mp4_53411_clip_6_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4516,7 +4516,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_53789_clip_8_removed_step_2.mp4_53789_clip_8_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Given the following step list，which step was not performed in the video?
@@ -4547,7 +4547,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_53800_clip_5_removed_step_2.mp4_53800_clip_5_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4581,7 +4581,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_53931_clip_6_removed_step_2.mp4_53931_clip_6_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4618,7 +4618,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_53980_clip_9_removed_step_4.mp4_53980_clip_9_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -4648,7 +4648,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_54171_clip_2_removed_step_5.mp4_54171_clip_2_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4686,7 +4686,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_54171_clip_4_removed_step_1.mp4_54171_clip_4_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the following step list，which step was not performed in the video?
@@ -4716,7 +4716,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_54413_clip_8_removed_step_1.mp4_54413_clip_8_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the following step list，which step was not performed in the video?
@@ -4754,7 +4754,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_54611_clip_9_removed_step_1.mp4_54611_clip_9_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -4779,7 +4779,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_54614_clip_5_removed_step_9.mp4_54614_clip_5_video_verification`
 - task: video_verification
-- gold=`I`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`I`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -4818,7 +4818,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_54661_clip_1_removed_step_1.mp4_54661_clip_1_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4850,7 +4850,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_54664_clip_7_removed_step_1.mp4_54664_clip_7_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4882,7 +4882,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_54752_clip_5_removed_step_5.mp4_54752_clip_5_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -4918,7 +4918,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_54863_clip_5_removed_step_1.mp4_54863_clip_5_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -4939,7 +4939,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_54899_clip_4_removed_step_2.mp4_54899_clip_4_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -4964,7 +4964,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_54972_clip_8_removed_step_4.mp4_54972_clip_8_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the following step list，which step was not performed in the video?
@@ -4998,7 +4998,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_55080_clip_3_removed_step_3.mp4_55080_clip_3_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -5032,7 +5032,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_55080_clip_5_removed_step_5.mp4_55080_clip_5_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`F`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`F`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5070,7 +5070,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_55301_clip_7_removed_step_2.mp4_55301_clip_7_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5106,7 +5106,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_55594_clip_6_removed_step_1.mp4_55594_clip_6_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5140,7 +5140,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_55689_clip_5_removed_step_2.mp4_55689_clip_5_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5174,7 +5174,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_55835_clip_4_removed_step_2.mp4_55835_clip_4_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5213,7 +5213,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56074_clip_6_removed_step_3.mp4_56074_clip_6_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -5240,7 +5240,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56094_clip_15_removed_step_1.mp4_56094_clip_15_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -5261,7 +5261,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56266_clip_5_removed_step_3.mp4_56266_clip_5_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -5290,7 +5290,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56268_clip_2_removed_step_8.mp4_56268_clip_2_video_verification`
 - task: video_verification
-- gold=`H`  v6_pred=`G`  c0_pred(score=0.0)
+- gold=`H`  v6_pred=`G`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -5323,7 +5323,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56418_clip_5_removed_step_5.mp4_56418_clip_5_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -5356,7 +5356,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56423_clip_7_removed_step_3.mp4_56423_clip_7_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -5385,7 +5385,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56494_clip_1_removed_step_1.mp4_56494_clip_1_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`F`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`F`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -5416,7 +5416,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56494_clip_6_removed_step_4.mp4_56494_clip_6_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5452,7 +5452,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56655_clip_1_removed_step_1.mp4_56655_clip_1_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5486,7 +5486,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56676_clip_4_removed_step_2.mp4_56676_clip_4_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`H`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`H`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5526,7 +5526,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56679_clip_6_removed_step_2.mp4_56679_clip_6_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5568,7 +5568,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56778_clip_7_removed_step_1.mp4_56778_clip_7_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`H`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`H`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -5603,7 +5603,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56825_clip_5_removed_step_8.mp4_56825_clip_5_video_verification`
 - task: video_verification
-- gold=`H`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`H`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5653,7 +5653,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_56997_clip_8_removed_step_3.mp4_56997_clip_8_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5687,7 +5687,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57075_clip_9_removed_step_2.mp4_57075_clip_9_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5721,7 +5721,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57131_clip_1_removed_step_2.mp4_57131_clip_1_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5755,7 +5755,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57137_clip_8_removed_step_3.mp4_57137_clip_8_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -5788,7 +5788,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57240_clip_2_removed_step_5.mp4_57240_clip_2_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5826,7 +5826,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57293_clip_2_removed_step_5.mp4_57293_clip_2_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5864,7 +5864,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57309_clip_1_removed_step_3.mp4_57309_clip_1_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5900,7 +5900,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57332_clip_5_removed_step_1.mp4_57332_clip_5_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -5935,7 +5935,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57332_clip_6_removed_step_5.mp4_57332_clip_6_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -5965,7 +5965,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57343_clip_13_removed_step_1.mp4_57343_clip_13_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6001,7 +6001,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57385_clip_6_removed_step_1.mp4_57385_clip_6_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the following step list，which step was not performed in the video?
@@ -6030,7 +6030,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57385_clip_8_removed_step_5.mp4_57385_clip_8_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6070,7 +6070,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57407_clip_1_removed_step_2.mp4_57407_clip_1_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6104,7 +6104,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57541_clip_4_removed_step_4.mp4_57541_clip_4_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6146,7 +6146,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57561_clip_4_removed_step_1.mp4_57561_clip_4_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -6167,7 +6167,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57629_clip_3_removed_step_7.mp4_57629_clip_3_video_verification`
 - task: video_verification
-- gold=`G`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`G`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -6202,7 +6202,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57660_clip_2_removed_step_1.mp4_57660_clip_2_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6236,7 +6236,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57737_clip_4_removed_step_7.mp4_57737_clip_4_video_verification`
 - task: video_verification
-- gold=`G`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`G`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6276,7 +6276,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57759_clip_9_removed_step_2.mp4_57759_clip_9_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6317,7 +6317,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57909_clip_5_removed_step_7.mp4_57909_clip_5_video_verification`
 - task: video_verification
-- gold=`G`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`G`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -6348,7 +6348,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57928_clip_7_removed_step_1.mp4_57928_clip_7_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6386,7 +6386,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57979_clip_1_removed_step_2.mp4_57979_clip_1_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6420,7 +6420,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_57988_clip_2_removed_step_3.mp4_57988_clip_2_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`I`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`I`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6464,7 +6464,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_58052_clip_4_removed_step_5.mp4_58052_clip_4_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`H`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`H`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6506,7 +6506,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_58081_clip_2_removed_step_4.mp4_58081_clip_2_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6542,7 +6542,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_58099_clip_9_removed_step_3.mp4_58099_clip_9_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Given the following step list，which step was not performed in the video?
@@ -6573,7 +6573,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_58267_clip_2_removed_step_1.mp4_58267_clip_2_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6613,7 +6613,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_58283_clip_6_removed_step_9.mp4_58283_clip_6_video_verification`
 - task: video_verification
-- gold=`I`  v6_pred=`I`  c0_pred(score=0.0)
+- gold=`I`  v6_pred=`I`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6657,7 +6657,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_58314_clip_4_removed_step_3.mp4_58314_clip_4_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -6686,7 +6686,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_58577_clip_5_removed_step_1.mp4_58577_clip_5_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`G`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`G`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -6717,7 +6717,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_58580_clip_5_removed_step_1.mp4_58580_clip_5_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`F`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`F`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6757,7 +6757,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_58892_clip_2_removed_step_1.mp4_58892_clip_2_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the following step list，which step was not performed in the video?
@@ -6781,7 +6781,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_58892_clip_3_removed_step_3.mp4_58892_clip_3_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6815,7 +6815,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_58916_clip_8_removed_step_6.mp4_58916_clip_8_video_verification`
 - task: video_verification
-- gold=`F`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`F`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -6844,7 +6844,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_58916_clip_9_removed_step_4.mp4_58916_clip_9_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`F`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`F`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6882,7 +6882,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_59155_clip_11_removed_step_2.mp4_59155_clip_11_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6917,7 +6917,7 @@ Complete step list: Take S400 spin columns
 
 - `expvid_video_verification_videos_level_2_video_verification_59156_clip_6_removed_step_2.mp4_59156_clip_6_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6955,7 +6955,7 @@ In
 
 - `expvid_video_verification_videos_level_2_video_verification_59156_clip_8_removed_step_1.mp4_59156_clip_8_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -6991,7 +6991,7 @@ In
 
 - `expvid_video_verification_videos_level_2_video_verification_59396_clip_7_removed_step_1.mp4_59396_clip_7_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -7016,7 +7016,7 @@ In
 
 - `expvid_video_verification_videos_level_2_video_verification_59616_clip_10_removed_step_4.mp4_59616_clip_10_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7052,7 +7052,7 @@ In
 
 - `expvid_video_verification_videos_level_2_video_verification_60273_clip_6_removed_step_1.mp4_60273_clip_6_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7084,7 +7084,7 @@ In
 
 - `expvid_video_verification_videos_level_2_video_verification_60599_clip_3_removed_step_7.mp4_60599_clip_3_video_verification`
 - task: video_verification
-- gold=`G`  v6_pred=`I`  c0_pred(score=0.0)
+- gold=`G`  v6_pred=`I`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the following step list，which step was not performed in the video?
@@ -7118,7 +7118,7 @@ In
 
 - `expvid_video_verification_videos_level_2_video_verification_60982_clip_3_removed_step_2.mp4_60982_clip_3_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7152,7 +7152,7 @@ In
 
 - `expvid_video_verification_videos_level_2_video_verification_61054_clip_8_removed_step_1.mp4_61054_clip_8_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7187,7 +7187,7 @@ In
 
 - `expvid_video_verification_videos_level_2_video_verification_61180_clip_5_removed_step_3.mp4_61180_clip_5_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Given the following step list，which step was not performed in the video?
@@ -7226,7 +7226,7 @@ In
 
 - `expvid_video_verification_videos_level_2_video_verification_61391_clip_6_removed_step_1.mp4_61391_clip_6_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Given the following step list，which step was not performed in the video?
@@ -7259,7 +7259,7 @@ In
 
 - `expvid_video_verification_videos_level_2_video_verification_61666_clip_2_removed_step_6.mp4_61666_clip_2_video_verification`
 - task: video_verification
-- gold=`F`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`F`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7297,7 +7297,7 @@ In
 
 - `expvid_video_verification_videos_level_2_video_verification_61691_clip_6_removed_step_4.mp4_61691_clip_6_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7337,7 +7337,7 @@ In Image 2, a gloved han
 
 - `expvid_video_verification_videos_level_2_video_verification_61743_clip_3_removed_step_1.mp4_61743_clip_3_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -7370,7 +7370,7 @@ In Image 2, a gloved han
 
 - `expvid_video_verification_videos_level_2_video_verification_61760_clip_2_removed_step_4.mp4_61760_clip_2_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7408,7 +7408,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_61760_clip_3_removed_step_2.mp4_61760_clip_3_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -7437,7 +7437,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_61800_clip_3_removed_step_2.mp4_61800_clip_3_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -7464,7 +7464,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_61805_clip_7_removed_step_5.mp4_61805_clip_7_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`F`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`F`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7507,7 +7507,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_61876_clip_5_removed_step_11.mp4_61876_clip_5_video_verification`
 - task: video_verification
-- gold=`K`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`K`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7553,7 +7553,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_62417_clip_2_removed_step_6.mp4_62417_clip_2_video_verification`
 - task: video_verification
-- gold=`F`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`F`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -7581,7 +7581,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_62559_clip_4_removed_step_4.mp4_62559_clip_4_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -7611,7 +7611,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_62649_clip_5_removed_step_2.mp4_62649_clip_5_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Given the following step list，which step was not performed in the video?
@@ -7640,7 +7640,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_62671_clip_9_removed_step_1.mp4_62671_clip_9_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7674,7 +7674,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_62754_clip_3_removed_step_1.mp4_62754_clip_3_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7704,7 +7704,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_62853_clip_9_removed_step_4.mp4_62853_clip_9_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7740,7 +7740,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_62964_clip_3_removed_step_1.mp4_62964_clip_3_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -7777,7 +7777,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_62964_clip_6_removed_step_3.mp4_62964_clip_6_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7819,7 +7819,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_63101_clip_9_removed_step_3.mp4_63101_clip_9_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the following step list，which step was not performed in the video?
@@ -7854,7 +7854,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_63129_clip_6_removed_step_4.mp4_63129_clip_6_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7894,7 +7894,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_63245_clip_1_removed_step_2.mp4_63245_clip_1_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7928,7 +7928,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_63245_clip_5_removed_step_2.mp4_63245_clip_5_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -7960,7 +7960,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_63296_clip_8_removed_step_3.mp4_63296_clip_8_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -8005,7 +8005,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_63694_clip_7_removed_step_2.mp4_63694_clip_7_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -8039,7 +8039,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_63838_clip_5_removed_step_1.mp4_63838_clip_5_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`E`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`E`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -8073,7 +8073,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_64041_clip_3_removed_step_6.mp4_64041_clip_3_video_verification`
 - task: video_verification
-- gold=`F`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`F`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -8111,7 +8111,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_64146_clip_8_removed_step_5.mp4_64146_clip_8_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`E`  c0_pred(score=1.0)
+- gold=`E`  v6_pred=`E`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Given the following step list，which step was not performed in the video?
@@ -8142,7 +8142,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_64400_clip_1_removed_step_2.mp4_64400_clip_1_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Given the following step list，which step was not performed in the video?
@@ -8173,7 +8173,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_64484_clip_9_removed_step_4.mp4_64484_clip_9_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -8209,7 +8209,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_64560_clip_1_removed_step_1.mp4_64560_clip_1_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`J`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`J`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -8254,7 +8254,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_64759_clip_2_removed_step_5.mp4_64759_clip_2_video_verification`
 - task: video_verification
-- gold=`E`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`E`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -8297,7 +8297,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_64889_clip_4_removed_step_3.mp4_64889_clip_4_video_verification`
 - task: video_verification
-- gold=`C`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -8337,7 +8337,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_65126_clip_9_removed_step_1.mp4_65126_clip_9_video_verification`
 - task: video_verification
-- gold=`A`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Given the following step list，which step was not performed in the video?
@@ -8365,7 +8365,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_65412_clip_2_removed_step_4.mp4_65412_clip_2_video_verification`
 - task: video_verification
-- gold=`D`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -8401,7 +8401,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_67016_clip_10_removed_step_2.mp4_67016_clip_10_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -8435,7 +8435,7 @@ In the first image, a person in a laboratory
 
 - `expvid_video_verification_videos_level_2_video_verification_67016_clip_12_removed_step_2.mp4_67016_clip_12_video_verification`
 - task: video_verification
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Given the following step list，which step was not performed in the video?
@@ -8464,13 +8464,38 @@ In the first image, a person in a laboratory
 ---
 
 
-# Task: **scientific_discovery** (n=24, correct=5)
+# Task: **scientific_discovery** (n=61, correct=11)
 
 ### 1. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
+- `expvid_scientific_discovery_videos_level_3_1842_.mp4_1842_scientific_discovery`
+- task: scientific_discovery
+- gold=`['GELFREE 8100', 'electrophoretic elution from stacking/resolving gels', '3.5–150 kDa', 'top-down and bottom-up proteomics']`  v6_pred=`GELFREE | ion-permeable membranes | a broad range of molecular weights | proteomic`  c0_score=0.16666666666666666
+- action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
+
+> According to the demonstration, the ____ system enables high-recovery, reproducible liquid-phase molecular-weight–based fractionation of intact proteins via ____ with automated time-based collection, yielding discrete fractions spanning ____ that directly support enhanced ____ analyses.
+
+**Trace**:
+- R0 T: The question asks for specific details about the system used in the demonstration and its capabilities. Currently, there is no evidence gathered from the video content to answer this question. The nex
+- R0 A: `visual_inspect` {"timestamp_range": [0, 60], "query": "system used in the demonstration, its method of operation, range of molecular wei
+- R0 O visual: The video segment does not provide specific details about the system being demonstrated, its method of operation, the range of molecular weights it ca
+- R1 T: The question asks for specific details about the system's function, method, molecular weight range, and supported analyses, which are not yet evident from the current visual evidence. To gather this i
+- R1 A: `visual_inspect` {"timestamp_range": [15, 30], "query": "detailed system operation and results"}
+- R1 O visual: The video segment features Jay Harkins from Protein Discovery, Inc., standing in what appears to be a laboratory setting. He is wearing a light blue l
+- R2 T: To answer the question, we need more specific details about the system's function, its method of operation, the molecular weight range it handles, and the types of analyses it supports. The current ev
+- R2 A: `visual_inspect` {"timestamp_range": [60, 90], "query": "system's performance and outcomes, such as fractionation results and analysis su
+- R2 O visual: In the video segment, a scientist is performing a laboratory procedure that involves handling small vials and pipettes. The scene takes place in a wel
+- R3 T: To answer the question accurately, I need more specific details about the system's operation, the molecular weight range it handles, and the types of analyses it supports. While the current evidence s
+- R3 A: `answer` {}
+- FINAL: `GELFREE | ion-permeable membranes | a broad range of molecular weights | proteom`
+
+---
+
+### 2. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
 - `expvid_scientific_discovery_videos_level_3_201832_.mp4_201832_scientific_discovery`
 - task: scientific_discovery
-- gold=`['MEG and HD-EEG', 'unconstrained ECD and dSPM', 'irritative and seizure onset zones', 'eloquent cortex']`  v6_pred=`MEG and EEG recordings | ECD modeling | epileptogenic zone | interictal spikes`  c0_pred(score=0.1)
+- gold=`['MEG and HD-EEG', 'unconstrained ECD and dSPM', 'irritative and seizure onset zones', 'eloquent cortex']`  v6_pred=`MEG and EEG recordings | ECD modeling | epileptogenic zone | interictal spikes`  c0_score=0.1
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > According to the study’s conclusion, electromagnetic source imaging from simultaneous ____—analyzed with ____ after precise spatial co-registration—noninvasively localizes the ____ and maps ____ with focal clusters concordant with iEEG, supporting the combined-modality approach over single-modality recordings.
@@ -8491,11 +8516,11 @@ In the first image, a person in a laboratory
 
 ---
 
-### 2. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【SAVED】
+### 3. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【SAVED】
 
 - `expvid_scientific_discovery_videos_level_3_201866_.mp4_201866_scientific_discovery`
 - task: scientific_discovery
-- gold=`['PolyhHb-based', 'pO2', 'pulmonary vascular resistance', 'compliance']`  v6_pred=`Polymerized Human Hemoglobin-Based Oxygen Carrier | pressure | pulmonary vascular resistance | compliance`  c0_pred(score=0.25)
+- gold=`['PolyhHb-based', 'pO2', 'pulmonary vascular resistance', 'compliance']`  v6_pred=`Polymerized Human Hemoglobin-Based Oxygen Carrier | pressure | pulmonary vascular resistance | compliance`  c0_score=0.25
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In rat ex vivo lung perfusion, a ______ acellular perfusate sustained ______ in the left atrium, preserved low ______, and maintained higher ______ compared with an RBC-based perfusate.
@@ -8516,11 +8541,11 @@ In the first image, a person in a laboratory
 
 ---
 
-### 3. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 4. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_2958_.mp4_2958_scientific_discovery`
 - task: scientific_discovery
-- gold=`['Microfil', 'methyl salicylate', 'radiopaque', 'micro-CT']`  v6_pred=`| | | |`  c0_pred(score=0.0)
+- gold=`['Microfil', 'methyl salicylate', 'radiopaque', 'micro-CT']`  v6_pred=`| | | |`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > The methodological innovation demonstrated uses __ cerebrovascular casting with __ clearing to produce a transparent mouse brain and a durable, __ 3D vascular tree that can be imaged by __, enabling multimodal detection of cerebrovascular malformations.
@@ -8541,11 +8566,36 @@ In the first image, a person in a laboratory
 
 ---
 
-### 4. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 5. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_3187_.mp4_3187_scientific_discovery`
+- task: scientific_discovery
+- gold=`['GFP beta-actin', 'kymograph analysis', 'lamellipodia protrusion', 'stress fiber dynamics']`  v6_pred=`GFP-actin | time-lapse microscopy | cell morphology | motility`  c0_score=0.0
+- action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
+
+> According to the study, live-cell imaging of HUVEC transfected with _____, combined with _____, enables quantitative, time-resolved measurement of _____ and _____ before and after inflammatory mediator treatment, thereby incorporating actin cytoskeleton dynamics into studies of endothelial permeability.
+
+**Trace**:
+- R0 T: The question asks for specific details regarding the methodology used in the study, including the type of transfection, the technique employed, and the measurements taken. The images provided show flu
+- R0 A: `retrieve` {"query": "live-cell imaging of HUVEC transfected with fluorescent protein"}
+- R0 O retr: q=`live-cell imaging of HUVEC transfected with fluorescent prot` n_pass=3 top=0.84
+- R1 T: The question requires specific details about the transfection material used for HUVEC, the technique combined with live-cell imaging, and the measurements taken. From the current evidence, it is clear
+- R1 A: `retrieve` {"query": "HUVEC transfection material and live-cell imaging techniques for measuring actin cytoskeleton dynamics"}
+- R1 O retr: q=`HUVEC transfection material and live-cell imaging techniques` n_pass=3 top=0.96
+- R2 T: The question requires specific details about the transfection material used in HUVEC cells and the techniques employed for measuring actin cytoskeleton dynamics. From the current evidence, it is clear
+- R2 A: `retrieve` {"query": "live-cell imaging of HUVEC cells transfected with specific material and techniques for measuring actin cytosk
+- R2 O retr: q=`live-cell imaging of HUVEC cells transfected with specific m` n_pass=3 top=0.93
+- R3 T: The question requires specific details about the transfection material used in HUVEC cells, the method combined with live-cell imaging, and the measurements taken. While previous evidence provides gen
+- R3 A: `answer` {}
+- FINAL: `GFP-actin | time-lapse microscopy | cell morphology | motility`
+
+---
+
+### 6. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_3564_.mp4_3564_scientific_discovery`
 - task: scientific_discovery
-- gold=`['physiological', '80-130 mmHg', 'vascular system', 'rat brain']`  v6_pred=`constant | 100 mmHg | vascular system | tissue`  c0_pred(score=0.375)
+- gold=`['physiological', '80-130 mmHg', 'vascular system', 'rat brain']`  v6_pred=`constant | 100 mmHg | vascular system | tissue`  c0_score=0.375
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > The methodological innovation shown is that maintaining ________ perfusion pressures (about ________) during transcardial perfusion fixation exploits the ________ to distribute fixative uniformly, enabling rapid, high-quality ________ preservation for immunohistochemistry.
@@ -8566,11 +8616,11 @@ In the first image, a person in a laboratory
 
 ---
 
-### 5. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
+### 7. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
 
 - `expvid_scientific_discovery_videos_level_3_3847_.mp4_3847_scientific_discovery`
 - task: scientific_discovery
-- gold=`['microkeratome dissection', 'artificial anterior chamber', 'endothelial keratoplasty', 'endothelial cell density']`  v6_pred=`processing | artificial anterior chamber | DSAEK | endothelial cell density`  c0_pred(score=0.5)
+- gold=`['microkeratome dissection', 'artificial anterior chamber', 'endothelial keratoplasty', 'endothelial cell density']`  v6_pred=`processing | artificial anterior chamber | DSAEK | endothelial cell density`  c0_score=0.5
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > The study concludes that automated ____ of donor corneas mounted on an ____ reproducibly yields thin, uniform posterior lamellar grafts for ____ while preserving ____.
@@ -8591,11 +8641,11 @@ In the first image, a person in a laboratory
 
 ---
 
-### 6. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 8. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_4022_.mp4_4022_scientific_discovery`
 - task: scientific_discovery
-- gold=`['polyoma middle T antigen', 'claudin-5', 'occludin', 'VE-cadherin']`  v6_pred=`SV40 large T antigen | VE-cadherin | occludin | claudin-5`  c0_pred(score=0.375)
+- gold=`['polyoma middle T antigen', 'claudin-5', 'occludin', 'VE-cadherin']`  v6_pred=`SV40 large T antigen | VE-cadherin | occludin | claudin-5`  c0_score=0.375
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > In this study, neonatal mouse brain endothelial cells were immortalized with ______ to create a homogeneous in vitro BBB model (cEND) that forms a uniform endothelial monolayer expressing the junctional proteins ______, ______, and ______.
@@ -8616,11 +8666,11 @@ In the first image, a person in a laboratory
 
 ---
 
-### 7. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 9. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_4142_.mp4_4142_scientific_discovery`
 - task: scientific_discovery
-- gold=`['in vivo microdialysis', 'gas chromatography with flame ionization detection', 'time course', 'operant ethanol self-administration']`  v6_pred=`microdialysis | HPLC | concentration | drinking`  c0_pred(score=0.125)
+- gold=`['in vivo microdialysis', 'gas chromatography with flame ionization detection', 'time course', 'operant ethanol self-administration']`  v6_pred=`microdialysis | HPLC | concentration | drinking`  c0_score=0.125
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > This study established a minimally disruptive in vivo workflow that combines ________ and ________ to quantify the ________ of ethanol in brain dialysate during ________, enabling synchronous linkage of brain ethanol pharmacokinetics with behavior.
@@ -8641,11 +8691,121 @@ In the first image, a person in a laboratory
 
 ---
 
-### 8. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 10. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_50196_.mp4_50196_scientific_discovery`
+- task: scientific_discovery
+- gold=`['live-cell video microscopy', 'pH-sensitive FITC', 'LysoTracker Red', 'static immunocytochemistry']`  v6_pred=`time-lapse imaging | fluorescent | pH-sensitive | traditional microscopy`  c0_score=0.1
+- action_dist: `{'retrieve': 2, 'visual_inspect': 1, 'answer': 1}`  rounds: 4
+
+> The key innovation in this study was using ____ together with ____ labeling of Candida albicans and ____ staining of macrophage acidic compartments to achieve stage-specific, real-time analysis of phagocytosis, providing greater resolution than ____.
+
+**Trace**:
+- R0 T: The question asks for specific techniques used in the study to analyze phagocytosis. Currently, there is no evidence gathered from the images provided that directly addresses these techniques. To answ
+- R0 A: `retrieve` {"query": "techniques for labeling, staining, and imaging in phagocytosis studies"}
+- R0 O retr: q=`techniques for labeling, staining, and imaging in phagocytos` n_pass=3 top=0.90
+- R1 T: The question asks for specific techniques used in the study to analyze phagocytosis stages. From the current evidence, we know that FITC labeling of Candida albicans and staining of macrophage acidic 
+- R1 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "specific imaging technology used in the study"}
+- R1 O visual: The image provided is completely black, indicating that there is no visual content to describe. Therefore, it is not possible to provide details about
+- R2 T: The question asks for specific techniques and methods used in the study for labeling, staining, and imaging. From the current evidence, we know that FITC labeling of Candida albicans and staining of m
+- R2 A: `retrieve` {"query": "imaging technology used in phagocytosis studies"}
+- R2 O retr: q=`imaging technology used in phagocytosis studies` n_pass=3 top=0.95
+- R3 T: The question asks for the specific techniques and tools used in achieving high-resolution, real-time analysis of phagocytosis. From the gathered evidence, time-lapse imaging and confocal microscopy se
+- R3 A: `answer` {}
+- FINAL: `time-lapse imaging | fluorescent | pH-sensitive | traditional microscopy`
+
+---
+
+### 11. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
+
+- `expvid_scientific_discovery_videos_level_3_50389_.mp4_50389_scientific_discovery`
+- task: scientific_discovery
+- gold=`['naive BDC2.5 CD4+ T cells', 'NOD.SCID mice', 'type 1 diabetes']`  v6_pred=`diabetogenic CD4+ T cells | NOD.SCID mice | type 1 diabetes`  c0_score=0.8888888888888888
+- action_dist: `{'answer': 1}`  rounds: 1
+
+> Fill in the blanks: The study shows that adoptive transfer of small numbers of ______ into ______ leads to rapid, reproducible ______, establishing an accelerated, standardized model for studying pathogenesis and testing therapies.
+
+**Trace**:
+- R0 T: The question asks for specific details from the study regarding the transfer of certain cells and its effects. From the provided images, it is clear that CD4+ T cells were isolated and transferred int
+- R0 A: `answer` {}
+- FINAL: `diabetogenic CD4+ T cells | NOD.SCID mice | type 1 diabetes`
+
+---
+
+### 12. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_50459_.mp4_50459_scientific_discovery`
+- task: scientific_discovery
+- gold=`['tin(II) oxalate-infused polylactic acid (PLA)', 'laser-cut patterning plates', 'PDMS', 'fully hollow']`  v6_pred=`sacrificial | PDMS | resin | interconnected | 3D | precise | uniform | functional`  c0_score=0.0
+- action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
+
+> The video demonstrates a sacrificial-fiber vaporization method in which ________ fibers are 3D patterned with ________, embedded in ________, and then evacuated under heat/vacuum to yield ________ microvascular networks with sub-50-micron spacing for transport and self-healing.
+
+**Trace**:
+- R0 T: The question asks for specific details about the sacrificial-fiber vaporization method, including the type of fibers used, the material they are patterned with, the embedding matrix, and the resulting
+- R0 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "materials and processes involved in the sacrificial-fiber vaporization method"}
+- R0 O visual: The image provided is completely black, indicating that there is no visual content to describe. Therefore, it's not possible to provide a description 
+- R1 T: The question asks for specific details about the sacrificial-fiber vaporization method, including the type of fibers used, the material they are patterned with, the embedding matrix, and the resulting
+- R1 A: `retrieve` {"query": "sacrificial-fiber vaporization method"}
+- R1 O retr: q=`sacrificial-fiber vaporization method` n_pass=0 top=0.00
+- R2 T: The question asks for specific details about the sacrificial-fiber vaporization method, including the type of fibers used, the material they are patterned with, the embedding matrix, and the resulting
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "materials and final network properties"}
+- R2 O visual: The image provided is completely black, indicating that there is no visual content to describe in terms of objects, actions, state changes, or text/la
+- R3 T: The question asks for specific details about the sacrificial-fiber vaporization method, including the type of fibers used, the material they are patterned with, the embedding matrix, and the resulting
+- R3 A: `answer` {}
+- FINAL: `sacrificial | PDMS | resin | interconnected | 3D | precise | uniform | functiona`
+
+---
+
+### 13. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
+
+- `expvid_scientific_discovery_videos_level_3_50527_.mp4_50527_scientific_discovery`
+- task: scientific_discovery
+- gold=`['48°C', '3–6 min', '15°C', 'GUS (β‑glucuronidase) staining']`  v6_pred=`48°C | 3 min | 15°C | GUS assay`  c0_score=0.725
+- action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
+
+> According to the study’s conclusion, the standardized crossing protocol for Setaria viridis uses warm‑water emasculation by dipping trimmed panicles at ____ for ____; anthesis is synchronized with a pre‑dawn treatment at ____; and successful hybrids are confirmed by ____.
+
+**Trace**:
+- R0 T: The question asks for specific parameters used in the standardized crossing protocol for Setaria viridis, including temperature and duration for warm-water emasculation, pre-dawn treatment temperature
+- R0 A: `retrieve` {"query": "standardized crossing protocol for Setaria viridis"}
+- R0 O retr: q=`standardized crossing protocol for Setaria viridis` n_pass=0 top=0.00
+- R1 T: The question requires specific details from the standardized crossing protocol for Setaria viridis, including temperature and time for warm-water emasculation, pre-dawn treatment temperature, and conf
+- R1 A: `retrieve` {"query": "standardized crossing protocol for Setaria viridis"}
+- R1 O retr: q=`standardized crossing protocol for Setaria viridis` n_pass=0 top=0.00
+- R2 T: The question requires specific details about the standardized crossing protocol for Setaria viridis, including temperature, time, and confirmation methods. The current evidence lacks these precise val
+- R2 A: `retrieve` {"query": "standardized crossing protocol for Setaria viridis"}
+- R2 O retr: q=`standardized crossing protocol for Setaria viridis` n_pass=0 top=0.00
+- R3 T: The question requires specific details from the standardized crossing protocol for Setaria viridis, including temperature, time, and confirmation methods. The current evidence lacks these precise valu
+- R3 A: `answer` {}
+- FINAL: `48°C | 3 min | 15°C | GUS assay`
+
+---
+
+### 14. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
+
+- `expvid_scientific_discovery_videos_level_3_51551_.mp4_51551_scientific_discovery`
+- task: scientific_discovery
+- gold=`['TIRF', 'Aip1p', 'R256H', 'restricted and slower']`  v6_pred=`TIRF | Aip1p | R256H | slower`  c0_score=0.875
+- action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
+
+> In yeast, _____ microscopy of GFP-tagged _____ showed that the _____ actin mutation caused its movement to be _____ compared to wild type.
+
+**Trace**:
+- R0 T: The question asks for specific details regarding the microscopy technique used, the protein tagged with GFP, and the effect of an actin mutation on its movement in yeast. Currently, there is no eviden
+- R0 A: `visual_inspect` {"timestamp_range": [0, 30], "query": "microscopy technique, GFP-tagged protein, and effects of actin mutation"}
+- R0 O visual: The image provided is completely black, indicating that there is no visual content to describe in terms of microscopy techniques, GFP-tagged proteins,
+- R1 T: The question asks for details on a specific microscopy technique used in yeast to study a GFP-tagged protein affected by an actin mutation. From the current evidence, we know that total internal refle
+- R1 A: `answer` {}
+- FINAL: `TIRF | Aip1p | R256H | slower`
+
+---
+
+### 15. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_52614_.mp4_52614_scientific_discovery`
 - task: scientific_discovery
-- gold=`['3D organotypic co-culture (OTC)', 'fibrous scaffold', 'fibrin gel', 'promiscuous gene expression']`  v6_pred=`3D organotypic co-culture system | reconstituted extracellular matrix | micropatterned surface | promiscuous gene expression`  c0_pred(score=0.4375)
+- gold=`['3D organotypic co-culture (OTC)', 'fibrous scaffold', 'fibrin gel', 'promiscuous gene expression']`  v6_pred=`3D organotypic co-culture system | reconstituted extracellular matrix | micropatterned surface | promiscuous gene expression`  c0_score=0.4375
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > The study concludes that a ____ that combines a ____ and a ____ with dermal fibroblasts under submerged conditions robustly supports mTEC proliferation and CD80low→CD80high differentiation while maintaining ______, enabling mechanistic assays (e.g., RANKL responsiveness) not feasible in 2D culture.
@@ -8666,11 +8826,211 @@ In the first image, a person in a laboratory
 
 ---
 
-### 9. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 16. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_52750_.mp4_52750_scientific_discovery`
+- task: scientific_discovery
+- gold=`['Miniature Tissue Culture System (MTCS)', 'TUNEL-negative', '1% serum', '10% serum']`  v6_pred=`MTCS | functionally | physiological pressures | increased serum concentration`  c0_score=0.25
+- action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
+
+> The experiment shows that the ____ provides a perfused ex vivo culture that maintains valve viability (____) and native ECM organization at ____ while remaining responsive to environmental changes, with ____ causing leaflet thickening.
+
+**Trace**:
+- R0 T: The question asks for specific details about the experimental setup and its outcomes regarding valve viability, ECM organization, and response to environmental changes. From the provided images, we ca
+- R0 A: `retrieve` {"query": "perfused ex vivo culture maintaining valve viability and ECM organization"}
+- R0 O retr: q=`perfused ex vivo culture maintaining valve viability and ECM` n_pass=1 top=0.61
+- R1 T: The question asks for specific details about the perfused ex vivo culture system used in the experiment, including its ability to maintain valve viability and ECM organization under certain conditions
+- R1 A: `retrieve` {"query": "perfused ex vivo culture system for maintaining valve viability and ECM organization"}
+- R1 O retr: q=`perfused ex vivo culture system for maintaining valve viabil` n_pass=1 top=0.63
+- R2 T: The question requires identifying the specific perfused ex vivo culture system used in the experiment, its ability to maintain valve viability and ECM organization, and the conditions under which it o
+- R2 A: `retrieve` {"query": "perfused ex vivo culture system for maintaining valve viability and ECM organization"}
+- R2 O retr: q=`perfused ex vivo culture system for maintaining valve viabil` n_pass=1 top=0.63
+- R3 T: The question asks for specific details about the perfused ex vivo culture system, including its ability to maintain valve viability and ECM organization under certain conditions. From the current evid
+- R3 A: `answer` {}
+- FINAL: `MTCS | functionally | physiological pressures | increased serum concentration`
+
+---
+
+### 17. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_53248_.mp4_53248_scientific_discovery`
+- task: scientific_discovery
+- gold=`['Triton X-100', 'monosodium titanate', '883', 'Au(III)']`  v6_pred=`Triton X-100 | particles | 960 | Na+`  c0_score=0.25
+- action_dist: `{'retrieve': 1, 'visual_inspect': 2, 'answer': 1}`  rounds: 4
+
+> The experiment demonstrates that a surfactant-mediated sol–gel route using ______ yields nearly uniform nanoscale ______, supports conversion to peroxotitanate confirmed by an FTIR band at ______ cm^-1, and enables ion exchange with ______.
+
+**Trace**:
+- R0 T: The question asks for specific details about the materials and methods used in the experiment, as well as the results obtained. Currently, there is no evidence gathered from the images provided that d
+- R0 A: `retrieve` {"query": "surfactant-mediated sol-gel route for nanoscale material synthesis"}
+- R0 O retr: q=`surfactant-mediated sol-gel route for nanoscale material syn` n_pass=0 top=0.00
+- R1 T: The question requires specific details about the surfactant-mediated sol-gel process, the resulting material, a spectral confirmation via FTIR, and the ion exchange capability. From the current eviden
+- R1 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "detailed descriptions or results sections mentioning surfactant, final product, 
+- R1 O visual: The image provided is completely blank and does not contain any visual content such as objects, actions, text, or labels. Therefore, it is impossible 
+- R2 T: The question requires specific details about the surfactant used, the resulting nanoscale product, the FTIR band value confirming the peroxotitanate conversion, and the ion exchanged. From the current
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "surfaced details about the surfactant type, FTIR band value, and exact ion excha
+- R2 O visual: The image provided is completely blank and white, with no discernible objects, actions, text, or labels present. Therefore, there are no surfaced deta
+- R3 T: The question requires specific details about the surfactant used, the final nanoscale product formed, the FTIR band value confirming the peroxotitanate conversion, and the ion exchanged. From the curr
+- R3 A: `answer` {}
+- FINAL: `Triton X-100 | particles | 960 | Na+`
+
+---
+
+### 18. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
+
+- `expvid_scientific_discovery_videos_level_3_54413_.mp4_54413_scientific_discovery`
+- task: scientific_discovery
+- gold=`['langatate crystal microbalance (LCM)', 'H-ZSM-5', 'steam-assisted crystallization', 'Sauerbrey equation']`  v6_pred=`Langatate crystal | zeolite H-ZSM-5 | vapor deposition | Sauerbrey equation`  c0_score=0.5
+- action_dist: `{'ocr_tool': 1, 'visual_inspect': 2, 'answer': 1}`  rounds: 4
+
+> The study demonstrates a high‑temperature gas adsorption method using a high‑frequency oscillating microbalance based on a ______, on which ______ is synthesized via ______; frequency shifts are converted to uptake with the ______, enabling reliable isotherms and thermodynamic parameters under near‑reaction conditions.
+
+**Trace**:
+- R0 T: The question asks for specific components of the high-temperature gas adsorption method described in the study, including the type of crystal used in the microbalance, the material synthesized, the sy
+- R0 A: `ocr_tool` {"frame_idx": 15}
+- R0 O ocr: {'raw': [{'text': '- [Display]: 149\n- [Caption]: Do not exceed 150 °C, as the LCM will degrade\n- [Logo]: JOVE', 'frame_id': 15, 'resolution': [720, 
+- R1 T: The question asks for specific components of the high-temperature gas adsorption method demonstrated in the study, including the type of crystal used in the microbalance, the material synthesized, the
+- R1 A: `visual_inspect` {"timestamp_range": [0, 30], "query": "synthesized material and its method"}
+- R1 O visual: The image provided is completely blank and white, with no discernible objects, actions, state changes, or text/labels present. There is no synthesized
+- R2 T: The question requires identifying specific components of the high-temperature gas adsorption method described in the study. From the current evidence, we know that the Langmuir Crystal Microbalance (L
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "experimental setup and data processing methods"}
+- R2 O visual: The image provided is completely blank and white, with no discernible objects, actions, text, or labels present. Therefore, there is no experimental s
+- R3 T: The question requires specific details about the materials and methods used in the study, such as the type of crystal used in the microbalance and the synthesis process. From the current evidence, we 
+- R3 A: `answer` {}
+- FINAL: `Langatate crystal | zeolite H-ZSM-5 | vapor deposition | Sauerbrey equation`
+
+---
+
+### 19. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_54972_.mp4_54972_scientific_discovery`
+- task: scientific_discovery
+- gold=`['syringe-assisted', 'peptide–plasmid DNA complexes', 'nuclear-targeted gene expression', 'Arabidopsis thaliana']`  v6_pred=`peptide-based | nanoparticles | expression | plant`  c0_score=0.125
+- action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
+
+> This work introduces a platform that employs ____ transfection and forms characterized ____ to cross plant cellular and organellar barriers, achieving ____ of reporters in intact ____ leaves.
+
+**Trace**:
+- R0 T: The question asks for specific details about the platform introduced in this work, including the type of transfection used, the nature of the formed structures, the outcome achieved, and the target ti
+- R0 A: `visual_inspect` {"timestamp_range": [0, 30], "query": "transfection methods, structure characteristics, outcomes, and target tissues"}
+- R0 O visual: The image provided is completely blank and does not contain any visual content related to transfection methods, structure characteristics, outcomes, o
+- R1 T: The question asks for details on the transfection method, the type of structures formed, the outcome achieved, and the target tissue used in the study. From the current evidence, we know that the rese
+- R1 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "transfection method, structure characteristics, and outcomes"}
+- R1 O visual: The image provided is completely blank and does not contain any visual content related to a transfection method, structure characteristics, or outcome
+- R2 T: The question asks for specific details about the transfection method, the type of structures formed, the outcome achieved, and the target tissue used in the study. From the current evidence, we know t
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "transfection method, structural characteristics, and outcomes"}
+- R2 O visual: The image provided is completely blank and does not contain any visual content related to a transfection method, structural characteristics, or outcom
+- R3 T: The question asks for specific details about the transfection method, the type of structures formed, the outcome achieved, and the target tissue used in the study. From the gathered evidence, we know 
+- R3 A: `answer` {}
+- FINAL: `peptide-based | nanoparticles | expression | plant`
+
+---
+
+### 20. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_55080_.mp4_55080_scientific_discovery`
+- task: scientific_discovery
+- gold=`['intrarenal', 'orthotopic', 'bioluminescent', "Fekete's solution"]`  v6_pred=`subrenal | metastatic | bioluminescence | formalin`  c0_score=0.375
+- action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
+
+> According to the study, the key advance is a ____ implantation protocol that establishes ____ renal tumors in mice that metastasize to the lungs; tumor burden and metastasis were validated by ____ imaging of luciferase-expressing Renca cells, Cytokeratin 8/18 immunohistochemistry, and lung nodule quantification after India Ink inflation with fixation in ____.
+
+**Trace**:
+- R0 T: The question asks for specific details about the implantation protocol, tumor characteristics, validation methods, and fixation solution used in the study. Currently, there is no evidence gathered fro
+- R0 A: `retrieve` {"query": "implantation protocol for renal tumors in mice"}
+- R0 O retr: q=`implantation protocol for renal tumors in mice` n_pass=3 top=0.87
+- R1 T: The question asks for specific details about the implantation protocol, tumor characteristics, validation methods, and fixation solution used in the study. From the current notes, we know that the pro
+- R1 A: `retrieve` {"query": "renal tumor implantation protocol"}
+- R1 O retr: q=`renal tumor implantation protocol` n_pass=3 top=0.95
+- R2 T: The question asks for specific details about the implantation protocol, tumor characteristics, validation methods, and fixation solution used in the study. From the current evidence, we know the proto
+- R2 A: `retrieve` {"query": "renal tumor implantation protocol with imaging techniques and fixation solutions"}
+- R2 O retr: q=`renal tumor implantation protocol with imaging techniques an` n_pass=2 top=0.89
+- R3 T: The question asks for specific details about the implantation protocol, tumor characteristics, validation methods, and fixation solution used in the study. From the current evidence, we know the proto
+- R3 A: `answer` {}
+- FINAL: `subrenal | metastatic | bioluminescence | formalin`
+
+---
+
+### 21. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_56127_.mp4_56127_scientific_discovery`
+- task: scientific_discovery
+- gold=`['aerosol-assisted chemical vapor deposition', '400 °C', 'zinc oxide rods', 'pre-deposited catalyst seeds']`  v6_pred=`zinc oxide rods | low temperatures | nanostructures | catalysts`  c0_score=0.0
+- action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
+
+> This study shows that ______ at ______ enables non-catalyzed growth of columnar ______ directly on silicon-based micromachined platforms, eliminating the need for ______ and providing a microfabrication-compatible route across diverse substrates.
+
+**Trace**:
+- R0 T: The question asks for specific conditions and materials involved in the non-catalyzed growth process described in the video. Currently, there is no evidence gathered to answer this question. The next 
+- R0 A: `visual_inspect` {"timestamp_range": [0, 30], "query": "conditions, materials, and processes used in the experiment"}
+- R0 O visual: The image provided is a title slide for a scientific presentation or paper. It does not contain any visual information about the experimental conditio
+- R1 T: The question asks for specific details about the conditions and materials used in the experiment described in the title slide. From the current evidence, we know the topic involves aerosol-assisted ch
+- R1 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "experimental setup and materials"}
+- R1 O visual: The image provided is completely blank and white, indicating there is no visual content to describe in terms of an experimental setup, materials, obje
+- R2 T: The question asks for specific conditions and materials used in the non-catalyzed growth of zinc oxide rods on silicon-based platforms. From the current evidence, we know the process involves aerosol-
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "experimental setup, temperature control devices, and substrate preparation steps
+- R2 O visual: The image provided is completely blank and does not contain any visual information about an experimental setup, temperature control devices, or substr
+- R3 T: The question asks for specific conditions and materials used in the non-catalyzed growth of zinc oxide rods on silicon substrates. From the current evidence, we know the process involves aerosol-assis
+- R3 A: `answer` {}
+- FINAL: `zinc oxide rods | low temperatures | nanostructures | catalysts`
+
+---
+
+### 22. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_56437_.mp4_56437_scientific_discovery`
+- task: scientific_discovery
+- gold=`['C. elegans', 'ImageJ', 'etoposide', 'delayed first birth']`  v6_pred=`Caenorhabditis elegans | micrometers | etoposide | decreased survival rate`  c0_score=0.375
+- action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
+
+> This study introduces a convenient, cost-effective toxicology platform using ______ that quantifies chemical effects on growth (body-length measured in ______) and reproduction (egg-laying); validation with ______ showed growth retardation, ______, and reduced total egg number even without continuous exposure, supporting applications in drug screening and environmental risk assessment.
+
+**Trace**:
+- R0 T: The question asks for specific details about the study's methodology and findings, including the organism used, units of measurement, and the chemical tested. The video provides visual evidence of *Ca
+- R0 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "focus on any text or labels related to units of measurement for body length and 
+- R0 O visual: The image provided is completely blank and contains no content, including text, labels, objects, or any visual elements. Therefore, there are no units
+- R1 T: The question asks for specific details about the study's methodology and results, such as the organism used, units of measurement, and chemicals tested. From the current evidence, we know the study in
+- R1 A: `retrieve` {"query": "chemical effects on Caenorhabditis elegans growth and reproduction"}
+- R1 O retr: q=`chemical effects on Caenorhabditis elegans growth and reprod` n_pass=3 top=0.91
+- R2 T: The question asks for specific details about the study's methodology and results, such as the organism used, units of measurement, and chemicals tested. From the current evidence, it is clear that *Ca
+- R2 A: `retrieve` {"query": "validation chemical effects on Caenorhabditis elegans growth and reproduction"}
+- R2 O retr: q=`validation chemical effects on Caenorhabditis elegans growth` n_pass=2 top=0.73
+- R3 T: The question asks for specific details about the study's methodology and results, such as the organism used, units of measurement for body length, and the chemical validated. From the visuals, it is c
+- R3 A: `answer` {}
+- FINAL: `Caenorhabditis elegans | micrometers | etoposide | decreased survival rate`
+
+---
+
+### 23. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_56639_.mp4_56639_scientific_discovery`
+- task: scientific_discovery
+- gold=`['contraction amplitude', 'area under the curve', 'arginine vasopressin', 'vasopressin receptor']`  v6_pred=`contraction force | frequency | oxytocin | vasopressin receptor`  c0_score=0.125
+- action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
+
+> The study validated an ex vivo human myometrial strip organ-bath assay by quantifying ____ and ____ and showing that a novel compound caused a concentration-dependent decrease in ____–stimulated activity, indicating selectivity for the ____ over the oxytocin receptor.
+
+**Trace**:
+- R0 T: The question asks for specific details from the study regarding the validation of an ex vivo human myometrial strip organ-bath assay, including what was quantified and the effects of a novel compound 
+- R0 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "graphs and data related to the validation of the ex vivo human myometrial strip 
+- R0 O visual: The image provided is completely blank and does not contain any content such as graphs, data, or text related to the validation of the ex vivo human m
+- R1 T: The question requires specific details about the validation of the ex vivo human myometrial strip organ-bath assay, including the quantified parameters and the effects of a novel compound on receptor 
+- R1 A: `retrieve` {"query": "ex vivo human myometrial strip organ-bath assay validation parameters and novel compound receptor selectivity
+- R1 O retr: q=`ex vivo human myometrial strip organ-bath assay validation p` n_pass=1 top=0.86
+- R2 T: The question requires specific details about the validation of the ex vivo human myometrial strip organ-bath assay, including the quantified parameters and the effects of a novel compound on receptor 
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "detailed description of the quantified parameters and the effects of the novel c
+- R2 O visual: The image provided is completely blank and white, with no discernible objects, actions, state changes, or text/labels present. Therefore, it is not po
+- R3 T: The question requires specific details about the quantified parameters and the effects of a novel compound on receptor activity, which are likely found within the results section of the study. From th
+- R3 A: `answer` {}
+- FINAL: `contraction force | frequency | oxytocin | vasopressin receptor`
+
+---
+
+### 24. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_56779_.mp4_56779_scientific_discovery`
 - task: scientific_discovery
-- gold=`['thin-tipped glass pipettes', 'chambered coverglass', 'Triton X-100', 'phospho-histone H3']`  v6_pred=`instruments | buffer | Triton X-100 | GFP`  c0_pred(score=0.0)
+- gold=`['thin-tipped glass pipettes', 'chambered coverglass', 'Triton X-100', 'phospho-histone H3']`  v6_pred=`instruments | buffer | Triton X-100 | GFP`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > The study establishes a robust dissection–immunohistochemistry workflow for Drosophila pupal ovaries that uses custom ____ to extract fat body, a ____ during fixation and staining, and ____ for permeabilization, enabling time-course analysis with markers like ____.
@@ -8691,11 +9051,11 @@ In the first image, a person in a laboratory
 
 ---
 
-### 10. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
+### 25. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
 
 - `expvid_scientific_discovery_videos_level_3_56819_.mp4_56819_scientific_discovery`
 - task: scientific_discovery
-- gold=`['modified Blumgart', 'U-sutures', 'duct-to-mucosa', 'stent']`  v6_pred=`modified Blumgart | sutures | duct-to-mucosa | stent`  c0_pred(score=0.75)
+- gold=`['modified Blumgart', 'U-sutures', 'duct-to-mucosa', 'stent']`  v6_pred=`modified Blumgart | sutures | duct-to-mucosa | stent`  c0_score=0.75
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > The study concludes that a standardized laparoscopic pancreatoduodenectomy is feasible and safe using a ______ pancreaticojejunostomy that combines transpancreatic barbed ______, a ______ anastomosis, and an internal pancreatic ______.
@@ -8716,11 +9076,111 @@ In the first image, a person in a laboratory
 
 ---
 
-### 11. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 26. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_56825_.mp4_56825_scientific_discovery`
+- task: scientific_discovery
+- gold=`['silicone culture inserts', '500 μm', 'Wimasis', 'epidermal growth factor receptor']`  v6_pred=`microfluidics | controlled | Wimasis | peptide`  c0_score=0.25
+- action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
+
+> In this work, the key advance is a standardized in vitro wound-healing assay that enables rapid, reproducible quantification of cell migration and mechanistic testing. It achieves this by using ______ to create a ______ pseudo-wound and a web-based automated image-analysis platform, ______, thereby allowing interrogation of ______-dependent responses.
+
+**Trace**:
+- R0 T: The question asks for specific components used in the in vitro wound-healing assay described in the video. From the provided images, it seems that a scratch or cut is made in a cell monolayer to creat
+- R0 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "specific tools and platforms used in the in vitro wound-healing assay"}
+- R0 O visual: The image provided is completely black and does not contain any visual information about tools, platforms, or actions related to an in vitro wound-hea
+- R1 T: The question asks for specific components used in the in vitro wound-healing assay, including the method for creating a pseudo-wound and the image analysis platform utilized. From the current evidence
+- R1 A: `visual_inspect` {"timestamp_range": [60, 90], "query": "methods section for pseudo-wound creation and image analysis platform"}
+- R1 O visual: The video segment appears to be part of an interview or presentation, likely discussing scientific methods related to pseudo-wound creation and image 
+- R2 T: To address the question, I need specific details about the tools and platforms used in the in vitro wound-healing assay. The current evidence from the video suggests a discussion around scientific met
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "experimental procedures and technologies"}
+- R2 O visual: The image provided is completely black, indicating an absence of visual content. Therefore, there are no objects, actions, state changes, or text/labe
+- R3 T: The question asks for specific components of the in vitro wound-healing assay, including the method for creating a pseudo-wound and the image-analysis platform used. From the current evidence, we know
+- R3 A: `answer` {}
+- FINAL: `microfluidics | controlled | Wimasis | peptide`
+
+---
+
+### 27. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_57075_.mp4_57075_scientific_discovery`
+- task: scientific_discovery
+- gold=`['silica and alumina', 'rapid supercritical extraction (RSCE)', 'three-way catalysts', 'UCAT testbed']`  v6_pred=`silica | sol-gel method | catalysts | chemical reactions`  c0_score=0.29166666666666663
+- action_dist: `{'retrieve': 1, 'visual_inspect': 2, 'answer': 1}`  rounds: 4
+
+> The study showed that copper-containing _____ aerogels prepared by _____ functioned as _____ in the _____, establishing metal-doped aerogels as robust and tailorable catalysts.
+
+**Trace**:
+- R0 T: The question asks for specific details about the type of aerogel, preparation method, function, and application based on the study's findings. Currently, no evidence has been gathered to answer these 
+- R0 A: `retrieve` {"query": "copper-containing aerogels preparation methods and applications"}
+- R0 O retr: q=`copper-containing aerogels preparation methods and applicati` n_pass=0 top=0.00
+- R1 T: The question asks for specific details about the type of aerogels, their preparation method, and their function in a particular context. From the current evidence, we know that copper-containing aerog
+- R1 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "detailed descriptions or results sections mentioning types of aerogels, preparat
+- R1 O visual: The image provided is completely black with no discernible objects, actions, text, or labels. Therefore, it does not contain any visual information re
+- R2 T: The question asks for specific details about the type of aerogels, their preparation method, and their function as catalysts in a particular process. From the current evidence, we know that copper-con
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "focus on graphs and charts showing aerogel properties and experimental setups"}
+- R2 O visual: The provided image is completely black, indicating that there is no visual content to describe in terms of graphs, charts, aerogel properties, or expe
+- R3 T: The question asks for specific details about the type of aerogels, their preparation method, and their function as catalysts in a certain process. From the current evidence, we know that copper-contai
+- R3 A: `answer` {}
+- FINAL: `silica | sol-gel method | catalysts | chemical reactions`
+
+---
+
+### 28. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_57131_.mp4_57131_scientific_discovery`
+- task: scientific_discovery
+- gold=`['tunneling', 'wandering phase', 'tissue hypoxia at normoxia', 'breathless-Gal4–driven uninflatable RNAi']`  v6_pred=`burrowing activity | larval stage | hypoxia response | cut(ue)-Gal4 expression`  c0_score=0.1
+- action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
+
+> The study shows that a quantitative larval assay uses failure to burrow and a complete absence of ______ during the ______ as a robust behavioral readout of ______, enabling genetic dissection of tracheal oxygen-delivery defects (e.g., ______).
+
+**Trace**:
+- R0 T: The question asks for specific details from the study regarding a quantitative larval assay, including the absence of a certain behavior or condition during a particular stage, which serves as an indi
+- R0 A: `visual_inspect` {"timestamp_range": [23, 24], "query": "larval behavior and stages, focusing on burrowing activity and any absence of sp
+- R0 O visual: The video segment features an interview with Kathleen Beckingham from Rice University. The background shows shelves filled with various containers, li
+- R1 T: The question asks for details about a quantitative larval assay using failure to burrow and the absence of a specific behavior as indicators of a certain condition. From the current visual evidence, w
+- R1 A: `retrieve` {"query": "quantitative larval assay using failure to burrow"}
+- R1 O retr: q=`quantitative larval assay using failure to burrow` n_pass=0 top=0.00
+- R2 T: The question requires identifying key components of a quantitative larval assay, specifically focusing on the failure to burrow and the absence of a certain behavior during a specific stage. While the
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "larval behavior and stages"}
+- R2 O visual: The image provided is completely blank and white, with no discernible objects, actions, or text. Therefore, there is no content related to larval beha
+- R3 T: The question requires identifying key components of a quantitative larval assay, specifically focusing on the failure to burrow and the absence of a certain behavior during a specific stage. From the 
+- R3 A: `answer` {}
+- FINAL: `burrowing activity | larval stage | hypoxia response | cut(ue)-Gal4 expression`
+
+---
+
+### 29. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
+
+- `expvid_scientific_discovery_videos_level_3_57137_.mp4_57137_scientific_discovery`
+- task: scientific_discovery
+- gold=`['five weeks', 'CUS-exposed', 'sucrose preference test', 'forced-swim test']`  v6_pred=`weeks | depressed | sucrose preference test | defeat test`  c0_score=0.5166666666666666
+- action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
+
+> This study introduces a new rat model showing that depressive-like behaviors emerge in naive rats after ____ of cohabitation with ____ conspecifics; these behaviors were verified using the ____ and ____.
+
+**Trace**:
+- R0 T: The question asks for specific details about the study, including the duration of cohabitation, the type of conspecifics involved, and the methods used to verify behaviors. Currently, there is no evid
+- R0 A: `visual_inspect` {"timestamp_range": [0, 60], "query": "details about the duration of cohabitation, type of conspecifics involved, and me
+- R0 O visual: The video segment does not provide any information about the duration of cohabitation, the type of conspecifics involved, or the methods used to verif
+- R1 T: The question requires specific details about the duration of cohabitation, the type of conspecifics involved, and the methods used to verify behaviors, which are not present in the current visual evid
+- R1 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "experimental procedures involving rats and their interactions"}
+- R1 O visual: The image provided is completely blank and does not contain any visual information related to experimental procedures involving rats or their interact
+- R2 T: The question requires specific details about the duration of cohabitation, the type of conspecifics involved, and the methods used to verify behaviors in the rat model. From the current evidence, we k
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "experimental setup and results"}
+- R2 O visual: The image provided is completely blank and white, with no discernible objects, actions, text, or labels present. Therefore, there is no experimental s
+- R3 T: The question requires identifying the duration of cohabitation, the type of conspecifics involved, and the methods used to verify behaviors in the rat model. From the current evidence, we know that th
+- R3 A: `answer` {}
+- FINAL: `weeks | depressed | sucrose preference test | defeat test`
+
+---
+
+### 30. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_57541_.mp4_57541_scientific_discovery`
 - task: scientific_discovery
-- gold=`['normothermic ex vivo liver perfusion', 'PEG-catalase (PEG-CAT)', 'ALT', 'ATP']`  v6_pred=`perfusion | PEG-CAT | MDA formation | liver function`  c0_pred(score=0.14285714285714288)
+- gold=`['normothermic ex vivo liver perfusion', 'PEG-catalase (PEG-CAT)', 'ALT', 'ATP']`  v6_pred=`perfusion | PEG-CAT | MDA formation | liver function`  c0_score=0.14285714285714288
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > The study concludes that a simple, replicable, low-cost rat ______ platform enables systematic evaluation of perfusate additives and organ repair strategies; its effectiveness was validated by supplementing the perfusate with ______, which reduced ______ and preserved ______ during perfusion.
@@ -8741,11 +9201,11 @@ In the first image, a person in a laboratory
 
 ---
 
-### 12. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 31. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_57573_.mp4_57573_scientific_discovery`
 - task: scientific_discovery
-- gold=`['thickness', 'pull-off stress', 'work of separation', 'finger-like cracks']`  v6_pred=`thickness | adhesion strength | adhesion | extensive cavitation`  c0_pred(score=0.25)
+- gold=`['thickness', 'pull-off stress', 'work of separation', 'finger-like cracks']`  v6_pred=`thickness | adhesion strength | adhesion | extensive cavitation`  c0_score=0.25
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > In normal adhesion tests on PDMS/soft skin adhesive thin-film composites, decreasing the top-layer ____ increased ____, rough substrates showed a slightly lower ____, and detachment shifted from little cavitation on thin films to ____ on thicker ones.
@@ -8766,11 +9226,163 @@ In the first image, a person in a laboratory
 
 ---
 
-### 13. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 32. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【HURT】
+
+- `expvid_scientific_discovery_videos_level_3_57598_.mp4_57598_scientific_discovery`
+- task: scientific_discovery
+- gold=`['agarose microgels', 'tagmentation', 'barcode', 'double merger device']`  v6_pred=`droplets | procedures | identifier | barcode`  c0_score=0.5
+- action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
+
+> In SiC-seq, droplet microfluidics are used to encapsulate single cells in ___, perform in-droplet ___, and electrically merge each genome with a unique ___ via a ___ and PCR, enabling ultrahigh-throughput single-cell genome sequencing with uniform coverage while preserving genomic heterogeneity.
+
+**Trace**:
+- R0 T: The question asks for specific components of the SiC-seq process involving droplet microfluidics, including the encapsulation medium, the in-droplet procedure, and the unique identifier merged with th
+- R0 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "droplet microfluidics, encapsulation medium, in-droplet procedure, unique identi
+- R0 O visual: The image provided is completely blank and does not contain any visual content related to droplet microfluidics, encapsulation medium, in-droplet proc
+- R1 T: The question asks for specific components of the SiC-seq process involving droplet microfluidics, including the encapsulation medium, in-droplet procedure, unique identifier, and merging method. From 
+- R1 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "encapsulation, in-droplet processes, and merging techniques in SiC-seq"}
+- R1 O visual: The image provided is completely blank and does not contain any visual content related to encapsulation, in-droplet processes, or merging techniques i
+- R2 T: The question requires specific details about the components and processes involved in SiC-seq, such as the encapsulation medium, in-droplet procedure, unique identifier, and merging technique. While t
+- R2 A: `visual_inspect` {"timestamp_range": [5, 15], "query": "encapsulation process and in-droplet procedures"}
+- R2 O visual: The image provided is completely blank and does not contain any visual content related to an encapsulation process or in-droplet procedures. Therefore
+- R3 T: The question asks for specific components and processes involved in SiC-seq using droplet microfluidics, such as the encapsulation medium, in-droplet procedure, unique identifier, and merging techniqu
+- R3 A: `answer` {}
+- FINAL: `droplets | procedures | identifier | barcode`
+
+---
+
+### 33. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_57928_.mp4_57928_scientific_discovery`
+- task: scientific_discovery
+- gold=`['solar-powered', 'wireless DVR-based', '83%', 'colony-scale']`  v6_pred=`reliable | effective | 78.7% | remote`  c0_score=0.0
+- action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
+
+> The study demonstrates a ____ , ____ video surveillance system that enables minimally invasive monitoring of nesting behavior, producing about ____ usable data and supporting intensive ____ observation.
+
+**Trace**:
+- R0 T: The question asks for specific characteristics of the video surveillance system demonstrated in the study, including its nature, effectiveness, and application. Currently, there is no evidence gathere
+- R0 A: `visual_inspect` {"timestamp_range": [0, 60], "query": "characteristics of the video surveillance system, its effectiveness, and applicat
+- R0 O visual: The video segment begins with a completely black screen, indicating either the start or end of a recording or a transition between scenes. 
+
+Next, the
+- R1 T: The question asks for specific details about the video surveillance system's characteristics and its effectiveness in monitoring nesting behavior. From the current evidence, we know the system involve
+- R1 A: `visual_inspect` {"timestamp_range": [60, 90], "query": "details about the video surveillance system's characteristics, its effectiveness
+- R1 O visual: The video segment shows a person working with a video surveillance system, specifically focusing on the wiring and setup process. Here are the detaile
+- R2 T: The question asks for specific details about the video surveillance system's characteristics, effectiveness, invasiveness, and data output. So far, we've observed the setup and wiring process, but we 
+- R2 A: `visual_inspect` {"timestamp_range": [60, 90], "query": "system in operation and data analysis"}
+- R2 O visual: In the video segment, a person is shown working with a cable management system, likely part of a larger setup for data collection or monitoring. The i
+- R3 T: To answer the question, we need to identify the characteristics of the video surveillance system, its effectiveness, invasiveness, and the amount of usable data it produces. From the gathered evidence
+- R3 A: `answer` {}
+- FINAL: `reliable | effective | 78.7% | remote`
+
+---
+
+### 34. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_57979_.mp4_57979_scientific_discovery`
+- task: scientific_discovery
+- gold=`['PNGase H+', '2-aminobenzamide', 'buffer exchange', 'Raphanus sativus cultivars']`  v6_pred=`Endo Hf | fluorescent | derivatization | peanuts`  c0_score=0.0
+- action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
+
+> The methodological innovation demonstrated is that an acid-stable enzyme, ____ , enables direct release of plant N-glycans followed by ____ labeling without ____ , streamlining workflows to rapidly compare N-glycan compositions across ____ and other allergenic plants.
+
+**Trace**:
+- R0 T: The question asks for specific details about the methodological innovation involving an acid-stable enzyme used in the process of releasing plant N-glycans and subsequent labeling. Currently, there is
+- R0 A: `visual_inspect` {"timestamp_range": [0, 30], "query": "enzymes, labeling processes, or comparisons of N-glycan compositions"}
+- R0 O visual: The image provided is completely black with no discernible objects, actions, text, or labels. Therefore, it does not contain any information related t
+- R1 T: The question requires specific details about an acid-stable enzyme used in the process of releasing plant N-glycans, the subsequent labeling technique, and the avoidance of a particular step to stream
+- R1 A: `retrieve` {"query": "acid-stable enzyme for releasing plant N-glycans"}
+- R1 O retr: q=`acid-stable enzyme for releasing plant N-glycans` n_pass=0 top=0.00
+- R2 T: The question requires specific details about an acid-stable enzyme used in the process of releasing plant N-glycans, as well as the subsequent labeling technique and the avoidance of a particular step
+- R2 A: `retrieve` {"query": "acid-stable enzyme for releasing plant N-glycans"}
+- R2 O retr: q=`acid-stable enzyme for releasing plant N-glycans` n_pass=0 top=0.00
+- R3 T: The question requires specific details about an acid-stable enzyme used in the process of releasing plant N-glycans, as well as the subsequent labeling technique and the type of sample preparation avo
+- R3 A: `answer` {}
+- FINAL: `Endo Hf | fluorescent | derivatization | peanuts`
+
+---
+
+### 35. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_58104_.mp4_58104_scientific_discovery`
+- task: scientific_discovery
+- gold=`['superior epigastric artery perforator (SEAP)', 'carotid–internal jugular', 'fascia', 'safe flap sizing without airway collapse']`  v6_pred=`free | vascular | ultrasound | techniques`  c0_score=0.0
+- action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
+
+> The experiment concludes that a live porcine _____ flap model was established to reproduce human-like microvascular head and neck reconstruction via _____ anastomosis and tracheal repair using _____, providing immediate physiological feedback for skill development and enabling evaluation of _____.
+
+**Trace**:
+- R0 T: The question asks for specific details about the experimental model used in the video, including the type of flap, the method of anastomosis, the tools used, and the evaluation criteria. Currently, th
+- R0 A: `visual_inspect` {"timestamp_range": [0, 60], "query": "surgical techniques, tools, and evaluation criteria"}
+- R0 O visual: The video segment focuses on a surgical procedure being performed on a pig. The setting appears to be a sterile operating room with medical equipment 
+- R1 T: The question asks for specific details about the type of flap model, the method of anastomosis, the tools used, and the evaluation criteria. From the current visual evidence, we know that a surgical p
+- R1 A: `retrieve` {"query": "live porcine flap model for microvascular head and neck reconstruction"}
+- R1 O retr: q=`live porcine flap model for microvascular head and neck reco` n_pass=0 top=0.00
+- R2 T: The question asks for specific details about the type of flap model, the method of anastomosis, the tools used, and the evaluation criteria from the experiment. From the visual evidence, we know the p
+- R2 A: `retrieve` {"query": "live porcine flap model for microvascular head and neck reconstruction"}
+- R2 O retr: q=`live porcine flap model for microvascular head and neck reco` n_pass=0 top=0.00
+- R3 T: The question asks for specific details about the type of flap model, the method of anastomosis, the tools used, and the evaluation criteria from the experiment. From the visual evidence, we know that 
+- R3 A: `answer` {}
+- FINAL: `free | vascular | ultrasound | techniques`
+
+---
+
+### 36. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_58174_.mp4_58174_scientific_discovery`
+- task: scientific_discovery
+- gold=`['water fiber', 'high-voltage water bridge', 'capillary', 'electromagnetic']`  v6_pred=`structure | mechanism | optical | acoustic`  c0_score=0.0
+- action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
+
+> The study demonstrates a methodological innovation in which a freely floating ____ is formed by a ____ that co-confines ____ and ____ waves, providing a platform for multi-wave detection.
+
+**Trace**:
+- R0 T: The question asks for specific components involved in forming a freely floating structure used for multi-wave detection. Currently, there is no direct evidence from the images provided that specifies 
+- R0 A: `visual_inspect` {"timestamp_range": [0, 30], "query": "freely floating structure, confining mechanism, wave types"}
+- R0 O visual: The image provided is completely black, indicating that there is no visual content to describe in terms of a freely floating structure, confining mech
+- R1 T: The question asks for specific components involved in forming a freely floating structure using a particular method that involves confining two types of waves. From the images, we can see various expe
+- R1 A: `visual_inspect` {"timestamp_range": [0, 10], "query": "experimental setups involving optical fibers, lasers, and measurement devices"}
+- R1 O visual: The image provided is completely black, indicating that there is no visual content to describe in terms of experimental setups involving optical fiber
+- R2 T: The question asks for specific components involved in forming a freely floating structure using a certain confinement technique for multiple wave types. From the images, we see various tools like opti
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "specific components and confinement techniques used for forming a freely floatin
+- R2 O visual: The image provided is completely black, indicating either an absence of visual content or a frame from a video where no action or object is visible. T
+- R3 T: The question asks for details on a methodological innovation involving a freely floating structure formed by a specific mechanism that co-confines two types of waves. From the gathered evidence, we se
+- R3 A: `answer` {}
+- FINAL: `structure | mechanism | optical | acoustic`
+
+---
+
+### 37. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_58301_.mp4_58301_scientific_discovery`
+- task: scientific_discovery
+- gold=`['ENACT', 'heterogeneous nucleation density', 'electric field', 'ZIF-8']`  v6_pred=`electrodeposition | film growth | deposition parameters | metal-organic framework`  c0_score=0.0
+- action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
+
+> In this work, the ____ approach enabled precise control of ____ (and nuclei-film thickness) by tuning the ____ , leading to reproducible synthesis of ultrathin, pinhole-free ____ membranes with near defect-free gas-separation performance.
+
+**Trace**:
+- R0 T: The question asks for specific details about an approach used in the work, its control over certain parameters, and the resulting membranes' characteristics. From the images provided, there is no dire
+- R0 A: `retrieve` {"query": "ultrathin, pinhole-free membrane synthesis"}
+- R0 O retr: q=`ultrathin, pinhole-free membrane synthesis` n_pass=0 top=0.00
+- R1 T: The question asks for specific details about an approach used in the synthesis of ultrathin, pinhole-free membranes and their properties. From the current evidence, we know that the researchers conduc
+- R1 A: `retrieve` {"query": "synthesis of ultrathin, pinhole-free membranes"}
+- R1 O retr: q=`synthesis of ultrathin, pinhole-free membranes` n_pass=0 top=0.00
+- R2 T: The question requires specific details about the method used for synthesizing ultrathin, pinhole-free membranes and the factors that enable precise control over their properties. The current evidence 
+- R2 A: `retrieve` {"query": "synthesis of ultrathin, pinhole-free membranes"}
+- R2 O retr: q=`synthesis of ultrathin, pinhole-free membranes` n_pass=0 top=0.00
+- R3 T: The question requires specific details about the method used for synthesizing ultrathin, pinhole-free membranes and the factors that enable precise control over their properties. The current evidence 
+- R3 A: `answer` {}
+- FINAL: `electrodeposition | film growth | deposition parameters | metal-organic framewor`
+
+---
+
+### 38. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_58359_.mp4_58359_scientific_discovery`
 - task: scientific_discovery
-- gold=`['uniform', 'focal plane', 'spatial registration', 'single-element resolution']`  v6_pred=`uniform | well | integrity | invasion`  c0_pred(score=0.0)
+- gold=`['uniform', 'focal plane', 'spatial registration', 'single-element resolution']`  v6_pred=`uniform | well | integrity | invasion`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > The main advance of this biomimetic 3D invasion assay is that it generates numerous ____ spheroids in a single ____ and preserves their ____ after extracellular matrix embedding, enabling continuous ____ tracking and statistically robust anti-metastatic drug screening.
@@ -8791,11 +9403,86 @@ In the first image, a person in a laboratory
 
 ---
 
-### 14. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 39. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_58580_.mp4_58580_scientific_discovery`
+- task: scientific_discovery
+- gold=`['5-ethynyluridine', '4-thiouridine', '365-nm UV', 'biotin-streptavidin']`  v6_pred=`UV irradiation | immunoprecipitation | formaldehyde | biotin-streptavidin`  c0_score=0.16666666666666666
+- action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
+
+> According to the study, CARIC enables transcriptome-wide identification of RNA-binding proteins by integrating metabolic RNA labeling with ____ and ____, in vivo ____ cross-linking, and click-chemistry-driven ____ enrichment.
+
+**Trace**:
+- R0 T: The question asks for specific techniques integrated into the CARIC method for identifying RNA-binding proteins. The video shows various laboratory procedures involving RNA handling and analysis, but 
+- R0 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "laboratory procedures involving RNA handling and analysis"}
+- R0 O visual: The image provided is completely black, indicating that there is no visual content to describe in terms of laboratory procedures involving RNA handlin
+- R1 T: The question asks for specific techniques integrated into the CARIC method for identifying RNA-binding proteins. From the video, we see evidence of metabolic RNA labeling, in vivo cross-linking, and e
+- R1 A: `visual_inspect` {"timestamp_range": [120, 180], "query": "specific techniques for cross-linking and enrichment"}
+- R1 O visual: In the provided video segments, there is no direct depiction of specific techniques for cross-linking and enrichment. However, the scenes suggest a la
+- R2 T: The question asks for specific techniques integrated with metabolic RNA labeling for identifying RNA-binding proteins. From the current evidence, we see general laboratory practices but lack explicit 
+- R2 A: `retrieve` {"query": "CARIC metabolic RNA labeling cross-linking enrichment methods"}
+- R2 O retr: q=`CARIC metabolic RNA labeling cross-linking enrichment method` n_pass=0 top=0.00
+- R3 T: The question asks for the integration of specific techniques with metabolic RNA labeling in the CARIC method. From the visual evidence, we see laboratory procedures involving precise liquid handling a
+- R3 A: `answer` {}
+- FINAL: `UV irradiation | immunoprecipitation | formaldehyde | biotin-streptavidin`
+
+---
+
+### 40. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_58743_.mp4_58743_scientific_discovery`
+- task: scientific_discovery
+- gold=`['ethanol-extraction–HPLC', 'propolins (C, D, F, G)', 'MIC/MBC', 'Staphylococcus aureus']`  v6_pred=`extraction | flavonoids | MIC/MBC | Staphylococcus aureus and Escherichia coli`  c0_score=0.25
+- action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
+
+> The main conclusion is that a standardized, repeatable ______ protocol enables quality assessment of Taiwanese green propolis by quantifying ______ and linking their yield to solvent concentration and antibacterial potency (measured by ______) against ______.
+
+**Trace**:
+- R0 T: The question asks for a conclusion regarding a specific protocol used in assessing Taiwanese green propolis, focusing on quantifying certain components and their relationship with solvent concentratio
+- R0 A: `retrieve` {"query": "standardized extraction protocol"}
+- R0 O retr: q=`standardized extraction protocol` n_pass=3 top=1.00
+- R1 T: The question asks for a specific protocol used in assessing Taiwanese green propolis, focusing on quantifying certain components and their relationship with solvent concentration and antibacterial act
+- R1 A: `retrieve` {"query": "standardized extraction and analysis protocol for Taiwanese green propolis"}
+- R1 O retr: q=`standardized extraction and analysis protocol for Taiwanese ` n_pass=0 top=0.00
+- R2 T: The question asks for a specific protocol used in assessing Taiwanese green propolis, focusing on quantifying certain components and their relationship with solvent concentration and antibacterial act
+- R2 A: `retrieve` {"query": "standardized extraction protocol for Taiwanese green propolis"}
+- R2 O retr: q=`standardized extraction protocol for Taiwanese green propoli` n_pass=0 top=0.00
+- R3 T: The question asks for a specific protocol used in the study related to Taiwanese green propolis, focusing on its standardization, repeatability, and the quantification of certain components linked to 
+- R3 A: `answer` {}
+- FINAL: `extraction | flavonoids | MIC/MBC | Staphylococcus aureus and Escherichia coli`
+
+---
+
+### 41. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【HURT】
+
+- `expvid_scientific_discovery_videos_level_3_59027_.mp4_59027_scientific_discovery`
+- task: scientific_discovery
+- gold=`['footprint analysis', 'hanging box test', 'shortened fore/hindlimb stride length and widened hind base', 'heterozygous rapid-onset dystonia Parkinsonism model mice']`  v6_pred=`wire hang test | protocol | stride length changes | mice`  c0_score=0.6623376623376623
+- action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
+
+> According to the study’s conclusion, a simple, low-cost _____ and _____, when combined with restraint stress, can sensitively detect gait deficits—namely _____—in _____, enabling assessment without expensive equipment.
+
+**Trace**:
+- R0 T: The question asks for specific methods and outcomes from the study that can detect gait deficits in mice. The video has shown various steps of the experiment, including the hanging box test and data a
+- R0 A: `retrieve` {"query": "simple, low-cost methods to detect gait deficits in mice"}
+- R0 O retr: q=`simple, low-cost methods to detect gait deficits in mice` n_pass=1 top=0.59
+- R1 T: The question asks for specific details about a simple, low-cost method used in combination with restraint stress to detect gait deficits in a particular group. From the current evidence, we know that 
+- R1 A: `retrieve` {"query": "wire hang test combined with restraint stress for detecting gait deficits"}
+- R1 O retr: q=`wire hang test combined with restraint stress for detecting ` n_pass=2 top=0.88
+- R2 T: To answer the question, I need to identify the specific low-cost methods mentioned in the study that, when combined with restraint stress, can detect gait deficits. The current evidence points towards
+- R2 A: `retrieve` {"query": "simple, low-cost methods for detecting gait deficits in combination with restraint stress"}
+- R2 O retr: q=`simple, low-cost methods for detecting gait deficits in comb` n_pass=0 top=0.00
+- R3 T: The question asks for specific details about a simple, low-cost method that, when combined with restraint stress, can detect gait deficits in a particular group. So far, we know the wire hang test is 
+- R3 A: `answer` {}
+- FINAL: `wire hang test | protocol | stride length changes | mice`
+
+---
+
+### 42. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_59358_.mp4_59358_scientific_discovery`
 - task: scientific_discovery
-- gold=`['instant thin layer chromatography', 'C-18/EDTA', '91%', '68 minutes']`  v6_pred=`spectrophotometric analysis | radiochemical | 95% | effective`  c0_pred(score=0.0)
+- gold=`['instant thin layer chromatography', 'C-18/EDTA', '91%', '68 minutes']`  v6_pred=`spectrophotometric analysis | radiochemical | 95% | effective`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > The validated, time-critical 68Ga-DOTATATE protocol integrates specific QC steps—using ____ to assess 68Ga colloids and a ____ approach to quantify 68Ga ions—and proceeds to imaging only when radiopharmaceutical purity is at least ____ within the isotope’s ____ half-life window.
@@ -8816,11 +9503,11 @@ In the first image, a person in a laboratory
 
 ---
 
-### 15. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
+### 43. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
 
 - `expvid_scientific_discovery_videos_level_3_59965_.mp4_59965_scientific_discovery`
 - task: scientific_discovery
-- gold=`['agarose', 'poly-HEMA', 'human pluripotent stem cells', 'necrotic centers']`  v6_pred=`agarose | poly-HEMA | human pluripotent stem cells | spontaneous differentiation`  c0_pred(score=0.75)
+- gold=`['agarose', 'poly-HEMA', 'human pluripotent stem cells', 'necrotic centers']`  v6_pred=`agarose | poly-HEMA | human pluripotent stem cells | spontaneous differentiation`  c0_score=0.75
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > This work describes a defined-materials platform that combines ____ microwells and ____-coated wells to generate size-controlled 3D hepatospheres from ____ that avoid ____ while maintaining long-term function (e.g., CYP activity and albumin/AFP secretion).
@@ -8841,11 +9528,11 @@ In the first image, a person in a laboratory
 
 ---
 
-### 16. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【HURT】
+### 44. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【HURT】
 
 - `expvid_scientific_discovery_videos_level_3_60469_.mp4_60469_scientific_discovery`
 - task: scientific_discovery
-- gold=`['lentivirus-mediated transduction', 'orthotopic transplantation', 'tumor microenvironment', 'bladder tumorigenesis']`  v6_pred=`cultivation | transplantation | tumor microenvironment | cancer progression`  c0_pred(score=0.6)
+- gold=`['lentivirus-mediated transduction', 'orthotopic transplantation', 'tumor microenvironment', 'bladder tumorigenesis']`  v6_pred=`cultivation | transplantation | tumor microenvironment | cancer progression`  c0_score=0.6
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > The main innovation is an integrated protocol that couples BLANK of bladder tumor organoids with BLANK into the bladder wall to reconstitute an intact BLANK, enabling rapid and physiologically relevant analysis of gene roles in BLANK.
@@ -8866,11 +9553,61 @@ In the first image, a person in a laboratory
 
 ---
 
-### 17. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 45. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_61013_.mp4_61013_scientific_discovery`
+- task: scientific_discovery
+- gold=`['lift-off and wet-etching', 'lithium niobate', '96.5844 MHz', 'Rayleigh angle']`  v6_pred=`fabrication | lithium niobate | 98.5844 MHz | IDT`  c0_score=0.375
+- action_dist: `{'visual_inspect': 2, 'ocr_tool': 1, 'answer': 1}`  rounds: 4
+
+> This work concludes that a validated, step-by-step ____ protocol for fabricating SAW interdigital transducers on ____ generates robust traveling surface acoustic waves (LDV resonance at ____ ) and actuates droplet jetting at the ____, enabling dependable megahertz-order acoustofluidics.
+
+**Trace**:
+- R0 T: The question asks for specific details about the fabrication protocol, substrate material, frequency of LDV resonance, and location of droplet jetting. Currently, there is no evidence gathered to fill
+- R0 A: `visual_inspect` {"timestamp_range": [0, 60], "query": "fabrication protocol, substrate material, LDV resonance frequency, and droplet je
+- R0 O visual: The video segment begins with a title card that reads "SAW Device Fabrication Via Lift-Off Method," indicating the focus of the video is on the fabric
+- R1 T: To complete the sentence, I need to identify the specific substrate material and the LDV resonance frequency mentioned in the video. The current evidence shows the use of NR9-1500PY photoresist and me
+- R1 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "substrate material and LDV resonance frequency"}
+- R1 O visual: The image provided is completely black with no discernible objects, actions, state changes, or text/labels. Therefore, it is not possible to describe 
+- R2 T: To address the question, we need to identify the specific protocol, substrate material, LDV resonance frequency, and droplet jetting location from the video content. So far, the evidence gathered incl
+- R2 A: `ocr_tool` {"frame_idx": 15}
+- R2 O ocr: {'raw': [{'text': '- [Top right corner]: jove', 'frame_id': 15, 'resolution': [720, 840]}]}
+- R3 T: To complete the answer, we need to identify the specific protocol, substrate material, LDV resonance frequency, and droplet jetting location from the gathered evidence. The video provides details on t
+- R3 A: `answer` {}
+- FINAL: `fabrication | lithium niobate | 98.5844 MHz | IDT`
+
+---
+
+### 46. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_61330_.mp4_61330_scientific_discovery`
+- task: scientific_discovery
+- gold=`['mixed interictal/ictal-like activity', 'prolonged ictal discharges', 'M1', 'A1']`  v6_pred=`normal | epileptic | activated | reactive`  c0_score=0.0
+- action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
+
+> This study shows that rhinal cortex–hippocampus organotypic slice cultures are a robust ex vivo model of epileptogenesis that autonomously evolves from ____ at 7 DIV to ____ by 21 DIV, and reproduces neuroinflammatory hallmarks with ____ microglia and ____ astrocytes.
+
+**Trace**:
+- R0 T: The question asks for specific stages and characteristics of epileptogenesis in rhinal cortex–hippocampus organotypic slice cultures over time. Currently, there is no evidence gathered regarding the s
+- R0 A: `visual_inspect` {"timestamp_range": [0, 60], "query": "stages and characteristics of epileptogenesis in rhinal cortex\u2013hippocampus o
+- R0 O visual: The video begins with a black screen (Image 1), setting a neutral starting point for the presentation. The scene then transitions to a woman seated in
+- R1 T: The question asks for specific details about the progression of epileptogenesis in rhinal cortex-hippocampus organotypic slice cultures from 7 DIV to 21 DIV, including the initial state, final state, 
+- R1 A: `retrieve` {"query": "epileptogenesis progression in rhinal cortex-hippocampus organotypic slice cultures from 7 DIV to 21 DIV"}
+- R1 O retr: q=`epileptogenesis progression in rhinal cortex-hippocampus org` n_pass=0 top=0.00
+- R2 T: To address the question, I need specific details on the progression of epileptogenesis in rhinal cortex-hippocampus organotypic slice cultures from 7 DIV to 21 DIV, including the initial state at 7 DI
+- R2 A: `retrieve` {"query": "progression of epileptogenesis in rhinal cortex-hippocampus organotypic slice cultures from 7 DIV to 21 DIV"}
+- R2 O retr: q=`progression of epileptogenesis in rhinal cortex-hippocampus ` n_pass=0 top=0.00
+- R3 T: To address the question, I need specific details on the progression of epileptogenesis in rhinal cortex–hippocampus organotypic slice cultures from 7 DIV to 21 DIV, including the changes in microglia 
+- R3 A: `answer` {}
+- FINAL: `normal | epileptic | activated | reactive`
+
+---
+
+### 47. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_61666_.mp4_61666_scientific_discovery`
 - task: scientific_discovery
-- gold=`['DyeCycle Violet (DCV)', 'DCV blue', 'DCV red', '1C/2C/4C']`  v6_pred=`APC | FSC | SSC | DAPI`  c0_pred(score=0.0)
+- gold=`['DyeCycle Violet (DCV)', 'DCV blue', 'DCV red', '1C/2C/4C']`  v6_pred=`APC | FSC | SSC | DAPI`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > The study concludes that a low-cytotoxicity _____-based, two-dimensional FACS gating (_____ vs _____) with _____ DNA-content discrimination enables high-purity live isolation of stage-resolved spermatocytes and spermatids from adult mouse testes.
@@ -8891,11 +9628,61 @@ In the first image, a person in a laboratory
 
 ---
 
-### 18. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【HURT】
+### 48. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
+
+- `expvid_scientific_discovery_videos_level_3_61743_.mp4_61743_scientific_discovery`
+- task: scientific_discovery
+- gold=`['acute', 'chronic', 'bicuculline', 'cortico-basal ganglia']`  v6_pred=`acute | chronic | substance P | cortico-striatal-thalamic-cortical`  c0_score=0.5
+- action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
+
+> The study established ____ and ____ rat models of motor tic expression via focal delivery of ____, producing stereotypic kinematic signatures and transient LFP spikes across the ____ pathway, enabling causal investigation of tic mechanisms and long-term modulation.
+
+**Trace**:
+- R0 T: The question asks for specific details about the rat models used in the study, the substance delivered to induce tics, and the neural pathway involved. From the images, we can infer that the study inv
+- R0 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "specific details about the substance used to induce tics and the neural pathway 
+- R0 O visual: The image provided is completely black with no discernible objects, actions, text, or labels. Therefore, there are no specific details about substance
+- R1 T: The question asks for specific details about the rat models used in the study, the substance delivered to induce motor tics, and the neural pathway involved. From the visual evidence, we see rats bein
+- R1 A: `retrieve` {"query": "rat models of motor tic expression via focal delivery"}
+- R1 O retr: q=`rat models of motor tic expression via focal delivery` n_pass=0 top=0.00
+- R2 T: The question requires identifying the types of rat models, the substance used to induce motor tics, and the neural pathway involved in the study. From the visual evidence, we see rats being prepared f
+- R2 A: `retrieve` {"query": "rat models of motor tic expression via focal delivery"}
+- R2 O retr: q=`rat models of motor tic expression via focal delivery` n_pass=0 top=0.00
+- R3 T: The question requires identifying the types of rat models, the substance used to induce motor tics, and the neural pathway involved in the study. From the visual evidence, we see rats being prepared f
+- R3 A: `answer` {}
+- FINAL: `acute | chronic | substance P | cortico-striatal-thalamic-cortical`
+
+---
+
+### 49. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_62279_.mp4_62279_scientific_discovery`
+- task: scientific_discovery
+- gold=`['carotid artery bifurcation', 'endothelial cells', 'recirculation', 'wall shear stress']`  v6_pred=`lung | endothelial cells | pressure | flow rate`  c0_score=0.25
+- action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
+
+> The study introduces a human-replicated, 3D perfusion model of the ____ that is lined with ____ and reproduces physiological hemodynamics, including ____ and ____, to quantify particle deposition and adhesion under flow.
+
+**Trace**:
+- R0 T: The question asks for specific details about a 3D perfusion model, including the organ it replicates, the lining material, and the types of hemodynamics it reproduces. Currently, there is no evidence 
+- R0 A: `visual_inspect` {"timestamp_range": [0, 30], "query": "look for any visual cues related to the organ being modeled, the lining material,
+- R0 O visual: The video segment features Maria Khoury, identified as a technologist from Technion - IIT, standing in what appears to be a laboratory setting. The ba
+- R1 T: The question asks for specific details about a 3D perfusion model, including the organ it replicates, the lining material, and the types of hemodynamics it reproduces. Currently, there is no direct ev
+- R1 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "focus on the 3D perfusion model, its components, and any related text or narrati
+- R1 O visual: The image provided is completely black with no discernible features, objects, text, or actions. There is no 3D perfusion model, components, or any rel
+- R2 T: The question asks for specific details about a 3D perfusion model, including the organ it replicates, its lining material, and the types of hemodynamics it reproduces. From the current evidence, there
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "3D perfusion model"}
+- R2 O visual: The image provided is completely black with no discernible objects, actions, state changes, or text/labels. Therefore, there is no content related to 
+- R3 T: The question asks for specific details about a 3D perfusion model, including the organ being replicated, the lining material, and the types of hemodynamics involved. While the current evidence shows a
+- R3 A: `answer` {}
+- FINAL: `lung | endothelial cells | pressure | flow rate`
+
+---
+
+### 50. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【HURT】
 
 - `expvid_scientific_discovery_videos_level_3_62432_.mp4_62432_scientific_discovery`
 - task: scientific_discovery
-- gold=`['Rhodamine B', 'spermathecae', '90%', 'sterile or Wolbachia-infected']`  v6_pred=`fluorescence | mosquitoes | 50% | mosquito`  c0_pred(score=0.5)
+- gold=`['Rhodamine B', 'spermathecae', '90%', 'sterile or Wolbachia-infected']`  v6_pred=`fluorescence | mosquitoes | 50% | mosquito`  c0_score=0.5
 - action_dist: `{'retrieve': 2, 'visual_inspect': 1, 'answer': 1}`  rounds: 4
 
 > The methodological innovation demonstrated is a ___-based male-marking assay that identifies mating partners via fluorescence in female ___, reduces mating-competitiveness testing time by about ___, and enables direct comparison of two ___ lines for quality control in male release-based mosquito suppression programs.
@@ -8916,11 +9703,61 @@ In the first image, a person in a laboratory
 
 ---
 
-### 19. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 51. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_62771_.mp4_62771_scientific_discovery`
+- task: scientific_discovery
+- gold=`['Microplate Feeder Assay', '3D‑printed coupler', '1536‑well feeder plate', '630 nm']`  v6_pred=`spectrophotometer | precision tool | reference grid | 600 nm`  c0_score=0.225
+- action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
+
+> In this study, the ____ uses a ____ to align a 96‑well starvation plate with a ____ so that pre/post changes in absorbance at ____ of dyed, water‑soluble solutions directly report individual Drosophila consumption and two‑choice preference at high throughput.
+
+**Trace**:
+- R0 T: The question asks for specific details about the method used in the study, including the equipment and techniques employed to measure Drosophila consumption and preference. From the images provided, i
+- R0 A: `retrieve` {"query": "method for measuring Drosophila consumption using 96-well plates and absorbance"}
+- R0 O retr: q=`method for measuring Drosophila consumption using 96-well pl` n_pass=3 top=0.96
+- R1 T: The question asks for specific details about the method used in the study, including the equipment and materials involved in measuring Drosophila consumption. From the current evidence, we know that a
+- R1 A: `retrieve` {"query": "method for measuring Drosophila consumption using 96-well plate and spectrophotometer"}
+- R1 O retr: q=`method for measuring Drosophila consumption using 96-well pl` n_pass=3 top=0.98
+- R2 T: The question asks for details on how a specific method measures Drosophila consumption using a 96-well plate setup. From the current evidence, we know that a spectrophotometer plate is involved, but w
+- R2 A: `retrieve` {"query": "96-well plate setup for measuring Drosophila consumption using spectrophotometer"}
+- R2 O retr: q=`96-well plate setup for measuring Drosophila consumption usi` n_pass=3 top=0.98
+- R3 T: The question requires identifying the components and methods used in the study for measuring Drosophila consumption. From the current evidence, it seems that a 96-well plate is involved, but details a
+- R3 A: `answer` {}
+- FINAL: `spectrophotometer | precision tool | reference grid | 600 nm`
+
+---
+
+### 52. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_62864_.mp4_62864_scientific_discovery`
+- task: scientific_discovery
+- gold=`['ultra-low-power implant-to-implant', 'ISFET', 'synchronization pulses', 'fully passive rectenna']`  v6_pred=`novel | implantable | pulses | external`  c0_score=0.16666666666666666
+- action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
+
+> According to the study, the validated method demonstrates a _____ telemetry approach in which an _____ pH sensor encodes pH as the interval between _____ and reliably transmits it to a _____ receiver, enabling very power-efficient data delivery and paving the way for wireless networks of implantable devices.
+
+**Trace**:
+- R0 T: The question asks for specific details about the telemetry approach used in the study, including the type of sensor, how it encodes pH, and the transmission method. Currently, there is no evidence gat
+- R0 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "sensor technology and data transmission methods"}
+- R0 O visual: The image provided is completely black with no discernible objects, actions, state changes, or text/labels. Therefore, there is no content related to 
+- R1 T: The question asks for specific details about a telemetry approach involving a pH sensor, but the current visual evidence does not directly address these specifics. To answer the question accurately, w
+- R1 A: `retrieve` {"query": "telemetry approach using pH sensor encoding intervals"}
+- R1 O retr: q=`telemetry approach using pH sensor encoding intervals` n_pass=0 top=0.00
+- R2 T: The question requires specific details about a telemetry approach involving a pH sensor, but the current evidence lacks explicit information on the method's characteristics, such as how the pH is enco
+- R2 A: `visual_inspect` {"timestamp_range": [10, 20], "query": "sensor's operation and data transmission process"}
+- R2 O visual: The image provided is completely black with no discernible objects, actions, state changes, or text/labels. Therefore, it is not possible to describe 
+- R3 T: The question requires specific details about a telemetry approach involving a pH sensor, but the current visual and retrieval evidence lacks these specifics. To fill this gap, we need detailed informa
+- R3 A: `answer` {}
+- FINAL: `novel | implantable | pulses | external`
+
+---
+
+### 53. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_63013_.mp4_63013_scientific_discovery`
 - task: scientific_discovery
-- gold=`['protein G', 'tension gauge tethers', 'TIRF/DNA-PAINT', 'P-selectin']`  v6_pred=`protein|assays|fluorescence|receptors`  c0_pred(score=0.0)
+- gold=`['protein G', 'tension gauge tethers', 'TIRF/DNA-PAINT', 'P-selectin']`  v6_pred=`protein|assays|fluorescence|receptors`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > The study’s key innovation is an adhesion footprint assay that uses ____–tethered DNA-based ____ with post-rolling ____ readouts to permanently record and spatially map individual adhesion events mediated by ____ during cell rolling, thereby linking rolling behavior to molecular adhesion forces.
@@ -8941,11 +9778,11 @@ In the first image, a person in a laboratory
 
 ---
 
-### 20. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 54. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_63020_.mp4_63020_scientific_discovery`
 - task: scientific_discovery
-- gold=`['vitellogenin', 'rice dwarf virus P8', 'Western blot', 'saliva-mediated']`  v6_pred=`RSV | N | DIBA | transmissible`  c0_pred(score=0.125)
+- gold=`['vitellogenin', 'rice dwarf virus P8', 'Western blot', 'saliva-mediated']`  v6_pred=`RSV | N | DIBA | transmissible`  c0_score=0.125
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > During leafhopper feeding on rice, the insect salivary protein _____ and the viral protein _____ were detected in planta using a stable, replicable _____ assay, supporting _____ delivery of these proteins into the plant host.
@@ -8966,11 +9803,11 @@ In the first image, a person in a laboratory
 
 ---
 
-### 21. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
+### 55. ✓ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✓】
 
 - `expvid_scientific_discovery_videos_level_3_63422_.mp4_63422_scientific_discovery`
 - task: scientific_discovery
-- gold=`['Japanese quail ex ovo CAM', '3R', 'hypericin', '405 nm']`  v6_pred=`ex ovo model | GMP | hypericin | 532 nm`  c0_pred(score=0.5)
+- gold=`['Japanese quail ex ovo CAM', '3R', 'hypericin', '405 nm']`  v6_pred=`ex ovo model | GMP | hypericin | 532 nm`  c0_score=0.5
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Fill in the blanks: This study established the _____ as a rapid, _____-compliant in vivo model, demonstrating that the photosensitizer _____ excited at _____ enables tumor localization for diagnosis and, with irradiation, induces selective vascular photodamage for therapy, while irradiation alone is innocuous.
@@ -8991,11 +9828,11 @@ In the first image, a person in a laboratory
 
 ---
 
-### 22. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 56. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_63694_.mp4_63694_scientific_discovery`
 - task: scientific_discovery
-- gold=`['green coffee fruit', 'disinfection', 'pre- and post-infestation', 'coffee berry borer']`  v6_pred=`pea | controls | variable | pest`  c0_pred(score=0.0)
+- gold=`['green coffee fruit', 'disinfection', 'pre- and post-infestation', 'coffee berry borer']`  v6_pred=`pea | controls | variable | pest`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'ocr_tool': 1, 'answer': 1}`  rounds: 4
 
 > The study concludes that a standardized ____ bioassay, incorporating rigorous ____ and ____ exposure regimes, simulates natural conditions to quantify treatment effects and link insect mortality to healthy seed protection against the ____.
@@ -9018,11 +9855,36 @@ In the next
 
 ---
 
-### 23. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 57. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_63892_.mp4_63892_scientific_discovery`
+- task: scientific_discovery
+- gold=`['murine iliac arteriovenous fistula model', 'access-related hand dysfunction (ARHD)', 'steal-mediated arterial hypoperfusion', 'neuromuscular perturbations']`  v6_pred=`model | CKD | vascular changes | outcomes`  c0_score=0.14285714285714288
+- action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
+
+> This study established and hemodynamic–functionally validated a ______ that reproduces ______ by linking fistula-induced ______ to measurable ______, creating a platform for mechanistic studies and therapeutic testing.
+
+**Trace**:
+- R0 T: The question asks for specific details about the study's methodology and outcomes, which likely involves identifying key terms from the provided images and data. Currently, there is no direct evidence
+- R0 A: `visual_inspect` {"timestamp_range": [22, 24], "query": "graphs and charts"}
+- R0 O visual: The image provided does not contain any graphs or charts. It appears to be a microscopic view of a surgical procedure, possibly involving suturing or 
+- R1 T: The question asks for specific details about the study's methodology and outcomes, which likely involve establishing a model and validating it through functional measurements. From the current visual 
+- R1 A: `retrieve` {"query": "hemodynamic-functional validation model"}
+- R1 O retr: q=`hemodynamic-functional validation model` n_pass=1 top=0.73
+- R2 T: The question asks for specific details about the study's model and its validation process, which involves reproducing a condition through a link between fistula-induced changes and measurable outcomes
+- R2 A: `retrieve` {"query": "hemodynamic-functional validation model fistula-induced changes"}
+- R2 O retr: q=`hemodynamic-functional validation model fistula-induced chan` n_pass=0 top=0.00
+- R3 T: The question asks for details about a specific model used in the study, including its purpose and how it relates to observable outcomes. From the visual evidence, we see detailed surgical procedures a
+- R3 A: `answer` {}
+- FINAL: `model | CKD | vascular changes | outcomes`
+
+---
+
+### 58. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_63934_.mp4_63934_scientific_discovery`
 - task: scientific_discovery
-- gold=`['culture-based', 'culture-independent', '16S rRNA', 'disc diffusion']`  v6_pred=`culture-based | high-throughput | whole-genome | phenotypic`  c0_pred(score=0.25)
+- gold=`['culture-based', 'culture-independent', '16S rRNA', 'disc diffusion']`  v6_pred=`culture-based | high-throughput | whole-genome | phenotypic`  c0_score=0.25
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > The main conclusion is that a combinatorial workflow combining ______ methods with ______ metagenomic DNA analysis, and integrating ______ sequencing with ______ testing, enables comprehensive surveillance of waterborne antimicrobial resistance by capturing both culturable and non‑culturable bacteria and their resistance genes.
@@ -9043,11 +9905,11 @@ In the next
 
 ---
 
-### 24. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+### 59. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
 
 - `expvid_scientific_discovery_videos_level_3_64175_.mp4_64175_scientific_discovery`
 - task: scientific_discovery
-- gold=`['magnetic assisted cell sorting', 'forskolin and dorsomorphin', 'NeuN', 'Synaptophysin']`  v6_pred=`MACS | EGF and bFGF | β-tubulin III | Synapsin I`  c0_pred(score=0.08333333333333333)
+- gold=`['magnetic assisted cell sorting', 'forskolin and dorsomorphin', 'NeuN', 'Synaptophysin']`  v6_pred=`MACS | EGF and bFGF | β-tubulin III | Synapsin I`  c0_score=0.08333333333333333
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > The study concludes that a standardized ____-based protocol enables isolation of high-purity astrocytes from multiple CNS regions and their direct neuronal programming; using neuronal differentiation medium supplemented with ____ yields induced neurons that express the mature neuronal marker ____ and the pan-synaptic protein ____.
@@ -9068,6 +9930,58 @@ In the next
 
 ---
 
+### 60. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【HURT】
+
+- `expvid_scientific_discovery_videos_level_3_64560_.mp4_64560_scientific_discovery`
+- task: scientific_discovery
+- gold=`['98% formic acid', 'heat-induced', 'avidin-biotin complex peroxidase', 'anti-PrPSc antibodies']`  v6_pred=`heat-induced epitope retrieval | high-pressure | chromogenic visualization | antibodies`  c0_score=0.8166666666666667
+- action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
+
+> This work established a standardized immunohistochemistry protocol for PrPSc that uses ____ for epitope demasking, ____ antigen retrieval, and detection via ____ after incubation with specific ____; together these steps enable confirmatory diagnosis of prion diseases and strain assessment by analyzing deposition types and their neuroanatomical/cellular distribution.
+
+**Trace**:
+- R0 T: The question asks for specific components of an immunohistochemistry protocol used for detecting PrPSc in prion diseases. Currently, there is no evidence gathered to fill in the blanks regarding epito
+- R0 A: `visual_inspect` {"timestamp_range": [0, 60], "query": "epitope demasking, antigen retrieval methods, detection techniques, and type of a
+- R0 O visual: The video segment begins with a black screen, which then transitions to a laboratory setting where a woman in a white lab coat is speaking. She has cu
+- R1 T: The question asks for specific components of a standardized immunohistochemistry protocol for PrPSc, including the method for epitope demasking, the type of antigen retrieval, the detection technique,
+- R1 A: `retrieve` {"query": "standardized immunohistochemistry protocol for PrPSc"}
+- R1 O retr: q=`standardized immunohistochemistry protocol for PrPSc` n_pass=3 top=0.89
+- R2 T: The question asks for specific components of a standardized immunohistochemistry protocol for PrPSc, including the methods for epitope demasking, antigen retrieval, and detection, along with the type 
+- R2 A: `retrieve` {"query": "epitope demasking techniques for PrPSc immunohistochemistry"}
+- R2 O retr: q=`epitope demasking techniques for PrPSc immunohistochemistry` n_pass=3 top=0.67
+- R3 T: The question asks for specific components of a standardized immunohistochemistry protocol for PrPSc, including the method for epitope demasking, antigen retrieval, detection technique, and the type of
+- R3 A: `answer` {}
+- FINAL: `heat-induced epitope retrieval | high-pressure | chromogenic visualization | ant`
+
+---
+
+### 61. ✗ ExpVid scientific_discovery / expvid_scientific_discovery_videos_level  【both ✗】
+
+- `expvid_scientific_discovery_videos_level_3_64798_.mp4_64798_scientific_discovery`
+- task: scientific_discovery
+- gold=`['liquid nitrogen–dry ice', 'glandular capitate stalked and sessile trichomes', 'trichome head morphology', 'high RNA integrity (RIN)']`  v6_pred=`hydrogen peroxide | specific cellular components | cell integrity | high-quality samples`  c0_score=0.39642857142857146
+- action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
+
+> The main conclusion is that a rapid, high-throughput, non-aqueous protocol using _____ and a microsieving workflow to isolate and enrich _____ from Cannabis sativa while preserving _____ and yielding _____, enables robust transcriptomic and proteomic analyses.
+
+**Trace**:
+- R0 T: The question asks for specific components of a protocol used in isolating and enriching certain elements from Cannabis sativa. Currently, there is no evidence gathered regarding the exact substances o
+- R0 A: `visual_inspect` {"timestamp_range": [0, 60], "query": "tools and materials used in the isolation and enrichment process"}
+- R0 O visual: The video segment begins with a black screen, setting a neutral starting point for the content to follow.
+
+The scene then transitions to an indoor set
+- R1 T: The question asks for specific components of a protocol involving isolation and enrichment from *Cannabis sativa*. So far, we've seen the initial setup and preparation steps but lack details on the sp
+- R1 A: `retrieve` {"query": "rapid, high-throughput, non-aqueous protocol for isolating and enriching components from Cannabis sativa"}
+- R1 O retr: q=`rapid, high-throughput, non-aqueous protocol for isolating a` n_pass=3 top=0.82
+- R2 T: The question asks for specific components of a protocol involving a non-aqueous method and microsieving workflow for isolating and enriching certain elements from Cannabis sativa. From the current evi
+- R2 A: `retrieve` {"query": "non-aqueous protocol with microsieving workflow for isolating and enriching elements from Cannabis sativa"}
+- R2 O retr: q=`non-aqueous protocol with microsieving workflow for isolatin` n_pass=2 top=0.53
+- R3 T: To address the question, we need specific details about the non-aqueous protocol and the materials used for isolating and enriching components from *Cannabis sativa*. The current evidence highlights t
+- R3 A: `answer` {}
+- FINAL: `hydrogen peroxide | specific cellular components | cell integrity | high-quality`
+
+---
+
 
 # Task: **experimental_conclusion** (n=76, correct=14)
 
@@ -9075,7 +9989,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_1842_.mp4_1842_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['GELFREE 8100', 'bovine liver homogenate', '12', '3.5–150 kDa']`  v6_pred=`electrophoresis | proteins | 12 | 6kDa to 116.3kDa`  c0_pred(score=0.08333333333333333)
+- gold=`['GELFREE 8100', 'bovine liver homogenate', '12', '3.5–150 kDa']`  v6_pred=`electrophoresis | proteins | 12 | 6kDa to 116.3kDa`  c0_score=0.08333333333333333
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In this demonstration, the ______ system fractionated ______ into ______ distinct molecular-weight fractions spanning ______.
@@ -9100,7 +10014,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_200206_.mp4_200206_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['anterior-posterior', 'plasma membrane', 'Sqh-mCherry', 'Rho1']`  v6_pred=`apical-basal | cortex | myosin-II | Rho1DN`  c0_pred(score=0.25)
+- gold=`['anterior-posterior', 'plasma membrane', 'Sqh-mCherry', 'Rho1']`  v6_pred=`apical-basal | cortex | myosin-II | Rho1DN`  c0_score=0.25
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > Fill in the blanks: Laser ablation in unstimulated embryos caused rapid recoil along the ____ axis, whereas in optogenetically stimulated embryos (in which CRY2–Rho1DN relocalized to the ____ and the medial apical ____ signal disappeared) recoil was absent, indicating loss of apical tension upon ____ inhibition.
@@ -9125,7 +10039,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_201062_.mp4_201062_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['hydrogen peroxide', 'ssDNA foci', 'G1 phase', 'outside S phase']`  v6_pred=`genotoxic stress | activity | G1 phase | foci formation`  c0_pred(score=0.375)
+- gold=`['hydrogen peroxide', 'ssDNA foci', 'G1 phase', 'outside S phase']`  v6_pred=`genotoxic stress | activity | G1 phase | foci formation`  c0_score=0.375
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In synchronized RPE-1 cells, exposure to _____ caused a significant rise in nuclear _____ during the _____, indicating that the assay detects DNA damage–induced ssDNA _____.
@@ -9150,7 +10064,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_2693_.mp4_2693_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['Staphylococcus aureus', 'fibronectin-binding proteins', 'full-length FnBPA', 'fibronectin-binding domain']`  v6_pred=`S. aureus | FnBPs | pFnBA4 | FnBPs binding site`  c0_pred(score=0.125)
+- gold=`['Staphylococcus aureus', 'fibronectin-binding proteins', 'full-length FnBPA', 'fibronectin-binding domain']`  v6_pred=`S. aureus | FnBPs | pFnBA4 | FnBPs binding site`  c0_score=0.125
 - action_dist: `{'ocr_tool': 1, 'visual_inspect': 1, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > In the described assay, invasion of human endothelial cells by _____ requires _____; mutants lacking these show markedly reduced internalization, and invasion is restored only by complementation with _____, not with a version missing the _____.
@@ -9175,7 +10089,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_2702_.mp4_2702_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['intratracheal instillation', 'CD45+ CD11c+', 'Bacillus anthracis spores']`  v6_pred=`intratracheal instillation | AJ mice | GFP-Bacillus anthracis spores`  c0_pred(score=0.2222222222222222)
+- gold=`['intratracheal instillation', 'CD45+ CD11c+', 'Bacillus anthracis spores']`  v6_pred=`intratracheal instillation | AJ mice | GFP-Bacillus anthracis spores`  c0_score=0.2222222222222222
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > The main conclusion of this experiment is that the non-surgical __________ method allows directed delivery of test material into the lungs, with ~15.9% of __________ lung cells positive for __________ at 30 minutes post-infection.
@@ -9200,7 +10114,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_2757_.mp4_2757_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['more than 10^6', '2–3 day', 'over two weeks', '10^7']`  v6_pred=`unknown | unknown | unknown | unknown`  c0_pred(score=0.08333333333333333)
+- gold=`['more than 10^6', '2–3 day', 'over two weeks', '10^7']`  v6_pred=`unknown | unknown | unknown | unknown`  c0_score=0.08333333333333333
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the experiment, the method yields ____ macrophages per harvest from a T75 flask at ____ intervals for ____ , totaling about ____ cells per flask.
@@ -9225,7 +10139,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_2958_.mp4_2958_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['vascular casting', 'abnormal cerebral vascular structure', 'micro-CT', 'brightfield microscopy']`  v6_pred=`injection | protein | immunohistochemistry | fluorescence microscopy`  c0_pred(score=0.125)
+- gold=`['vascular casting', 'abnormal cerebral vascular structure', 'micro-CT', 'brightfield microscopy']`  v6_pred=`injection | protein | immunohistochemistry | fluorescence microscopy`  c0_score=0.125
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > According to the results, after _____, the same _____ detected by _____ is also visible by _____ in the mouse brain.
@@ -9250,7 +10164,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_3642_.mp4_3642_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['indoxyl sulfate', 'phenylacetylglycine', 'p-cresol sulfate', '20']`  v6_pred=`Indoxyl-S | p-Cresol-S | TMAO | 20`  c0_pred(score=0.25)
+- gold=`['indoxyl sulfate', 'phenylacetylglycine', 'p-cresol sulfate', '20']`  v6_pred=`Indoxyl-S | p-Cresol-S | TMAO | 20`  c0_score=0.25
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > During progressive colonization of germ-free mice, urinary levels of _____, _____, and _____ increased from absent/very low at the germ-free state and stabilized by day _____.
@@ -9275,7 +10189,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_4308_.mp4_4308_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['PSNE', 'time', 'energy', 'protein denaturation']`  v6_pred=`substance | intensity | time | temperature`  c0_pred(score=0.0)
+- gold=`['PSNE', 'time', 'energy', 'protein denaturation']`  v6_pred=`substance | intensity | time | temperature`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > According to the experiment, bubbles generated by acoustically vaporized ______ markedly lowered the ______ and ______ needed to heat the hydrogel beyond the ______ threshold, resulting in faster, more efficient ultrasound-mediated ablation than exposures without bubbles.
@@ -9300,7 +10214,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_4422_.mp4_4422_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['autologous chondrocyte-seeded collagen matrices', '3.6 mm', 'trochlear', '12 weeks']`  v6_pred=`chondrocytes and matrix | 5 mm | femoral | 6 weeks`  c0_pred(score=0.375)
+- gold=`['autologous chondrocyte-seeded collagen matrices', '3.6 mm', 'trochlear', '12 weeks']`  v6_pred=`chondrocytes and matrix | 5 mm | femoral | 6 weeks`  c0_score=0.375
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > In a rabbit model, implants composed of _____ were placed into _____ diameter chondral defects in the _____ groove; after _____ in vivo, the defects were filled by repair tissue with a homogeneous, intact, stiff and solid surface comparable to surrounding cartilage, without hypertrophy, calcification, or graft delamination.
@@ -9325,7 +10239,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_50107_.mp4_50107_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['dunce', 'performance index', 'Canton-S wild-type']`  v6_pred=`dnc | performance index | WT`  c0_pred(score=0.3333333333333333)
+- gold=`['dunce', 'performance index', 'Canton-S wild-type']`  v6_pred=`dnc | performance index | WT`  c0_score=0.3333333333333333
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > In the adult Drosophila olfactory shock assay, ______ mutants showed a lower ______ compared with ______ flies.
@@ -9341,7 +10255,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_50196_.mp4_50196_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['6 hours', '82%', '3.4', '16']`  v6_pred=`2 hours | 95% | 3 | 10`  c0_pred(score=0.125)
+- gold=`['6 hours', '82%', '3.4', '16']`  v6_pred=`2 hours | 95% | 3 | 10`  c0_score=0.125
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In a live-cell video microscopy assay of J774.1 macrophages interacting with Candida albicans, over a period of ____, ____ of macrophages engulfed at least one fungal cell, with a mean uptake of ____ cells per macrophage and a maximum of ____.
@@ -9366,7 +10280,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_50210_.mp4_50210_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['200 U/ml collagenase', '2 hours', '39.33 ± 22.05', '75 U/ml for 30 minutes']`  v6_pred=`200U/2h | 6 days | 80 | 75U/30min`  c0_pred(score=0.0)
+- gold=`['200 U/ml collagenase', '2 hours', '39.33 ± 22.05', '75 U/ml for 30 minutes']`  v6_pred=`200U/2h | 6 days | 80 | 75U/30min`  c0_score=0.0
 - action_dist: `{'ocr_tool': 2, 'visual_inspect': 1, 'answer': 1}`  rounds: 4
 
 > In comparing collagenase digestion settings for establishing colon tumor organoids, using ______ for ______ yielded ______ organoids per well, whereas ______ produced none, indicating that efficient digestion is critical for organoid formation.
@@ -9391,7 +10305,7 @@ In the next
 
 - `expvid_experimental_conclusion_videos_level_3_50484_.mp4_50484_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['DFCP1-positive omegasomes', '1.5 min', '10 min', 'lysosomes']`  v6_pred=`DFCP1-positive omegasomes | 3 minutes | 6 minutes | lysosomes`  c0_pred(score=0.625)
+- gold=`['DFCP1-positive omegasomes', '1.5 min', '10 min', 'lysosomes']`  v6_pred=`DFCP1-positive omegasomes | 3 minutes | 6 minutes | lysosomes`  c0_score=0.625
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Live-cell imaging of starved HEK293T cells showed that LC3-positive autophagosomes arise from _____; LC3 structures become clearly visible ~_____ after omegasome initiation, the omegasome disappears by ~_____, and the autophagosome subsequently fuses with _____.
@@ -9420,7 +10334,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_50527_.mp4_50527_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['Setaria viridis', 'anther-to-stigma', 'forceps', 'panicle-to-panicle']`  v6_pred=`outcross | panicle-to-panicle | male panicles | anther-to-stigma`  c0_pred(score=0.0)
+- gold=`['Setaria viridis', 'anther-to-stigma', 'forceps', 'panicle-to-panicle']`  v6_pred=`outcross | panicle-to-panicle | male panicles | anther-to-stigma`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > Based on the experiment described, in ______ crosses, the most effective fertilization method was ______ pollination using ______, compared to ______ pollination.
@@ -9445,7 +10359,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_51084_.mp4_51084_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['400 µm', 'conducting polymer-coated', '1,200 µm', 'uncoated']`  v6_pred=`800 µm | uncoated | 1200 µm | coated`  c0_pred(score=0.0)
+- gold=`['400 µm', 'conducting polymer-coated', '1,200 µm', 'uncoated']`  v6_pred=`800 µm | uncoated | 1200 µm | coated`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'ocr_tool': 1, 'answer': 1}`  rounds: 4
 
 > During insertion into the inferior colliculus under 70 dB white noise, the SNR began increasing at about ____ for ____ electrodes, compared with about ____ for ____ electrodes.
@@ -9470,7 +10384,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_52299_.mp4_52299_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['en face', 'Kirrel2', 'olfactory cilia', 'cryosections']`  v6_pred=`immunohistochemical | proteins | cilia | sections`  c0_pred(score=0.16666666666666666)
+- gold=`['en face', 'Kirrel2', 'olfactory cilia', 'cryosections']`  v6_pred=`immunohistochemical | proteins | cilia | sections`  c0_score=0.16666666666666666
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > When applying the ____ whole-mount method to mouse olfactory epithelium, ____ can be clearly localized to the ____ in a subset of sensory neurons, whereas this localization is difficult to discern in ____.
@@ -9495,7 +10409,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_52557_.mp4_52557_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['maple wood', 'cottonseed', 'cottonseed protein isolate', 'soy']`  v6_pred=`Poplar | cottonseed | protein isolate | soybean`  c0_pred(score=0.25)
+- gold=`['maple wood', 'cottonseed', 'cottonseed protein isolate', 'soy']`  v6_pred=`Poplar | cottonseed | protein isolate | soybean`  c0_score=0.25
 - action_dist: `{'ocr_tool': 1, 'is_sufficient': 1, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > According to the lap-shear results obtained after following the protocol, tests on ____ showed that the water-washed ____ meal adhesive achieved strength comparable to ____, whereas the water-washed ____ meal did not match its protein isolate.
@@ -9520,7 +10434,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_52601_.mp4_52601_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['4-AP', '100 μM', 'PMEA', '100 milliseconds']`  v6_pred=`artificial cerebrospinal fluid | 1x | PMEA | 200 ms`  c0_pred(score=0.0)
+- gold=`['4-AP', '100 μM', 'PMEA', '100 milliseconds']`  v6_pred=`artificial cerebrospinal fluid | 1x | PMEA | 200 ms`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'ocr_tool': 1, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > In the unfolded mouse hippocampus, bathing the tissue in ____ at a concentration of ____ led to spontaneous activity that, when recorded with the ____, propagated across the entire tissue within about ____.
@@ -9545,7 +10459,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_52859_.mp4_52859_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['preconditioning', 'CNO', 'sensory preconditioning effect', 'light–food association']`  v6_pred=`sensory preconditioning | clozapine-N-oxide | sensory preconditioning effect | auditory-to-food association`  c0_pred(score=0.5416666666666666)
+- gold=`['preconditioning', 'CNO', 'sensory preconditioning effect', 'light–food association']`  v6_pred=`sensory preconditioning | clozapine-N-oxide | sensory preconditioning effect | auditory-to-food association`  c0_score=0.5416666666666666
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > The main conclusion was that chemogenetic silencing during _____ via systemic administration of _____ (1 mg/kg i.p., 30 min before sessions) abolished the _____: at test, experimental rats failed to discriminate the preconditioned from the unpaired auditory cue, whereas controls showed greater food-cup responding to the preconditioned cue, even though both groups learned the _____.
@@ -9570,7 +10484,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_52874_.mp4_52874_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['enriched environment', '5 weeks', 'B16 melanoma', '17 days']`  v6_pred=`enriched environment | 3 months | OVCAR-5 tumor cells | 6 weeks`  c0_pred(score=0.375)
+- gold=`['enriched environment', '5 weeks', 'B16 melanoma', '17 days']`  v6_pred=`enriched environment | 3 months | OVCAR-5 tumor cells | 6 weeks`  c0_score=0.375
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > In this study, mice housed in a _____ for _____ before subcutaneous inoculation with _____ had lower tumor weights _____ post-inoculation than controls.
@@ -9595,7 +10509,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_53156_.mp4_53156_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['hADSC', '98%', '95%', 'live/dead confocal staining']`  v6_pred=`cellular | 200 | 200 | cell counting`  c0_pred(score=0.0)
+- gold=`['hADSC', '98%', '95%', 'live/dead confocal staining']`  v6_pred=`cellular | 200 | 200 | cell counting`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In this experiment, bioprinted ____ constructs exhibited high viability, with ____ live cells at day 0 (1 hour post-printing) and ____ at day 8, as assessed by ____.
@@ -9620,7 +10534,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_53931_.mp4_53931_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['CD34+ Sca-1-', 'Sca-1+ CD34-', 'alpha6 beta1', '1.5–5 x 10^5']`  v6_pred=`CD34+ | TA | CD34 | 5.9%`  c0_pred(score=0.3333333333333333)
+- gold=`['CD34+ Sca-1-', 'Sca-1+ CD34-', 'alpha6 beta1', '1.5–5 x 10^5']`  v6_pred=`CD34+ | TA | CD34 | 5.9%`  c0_score=0.3333333333333333
 - action_dist: `{'ocr_tool': 1, 'retrieve': 1, 'visual_inspect': 1, 'answer': 1}`  rounds: 4
 
 > According to the experiment, FACS of mouse dorsal skin distinguishes two epithelial populations: ____ hair follicle stem cells and ____ keratinocytes, defined within the ____-positive gate, with typical yields of about ____ CD34+ HFSCs per animal.
@@ -9645,7 +10559,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_54144_.mp4_54144_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['CMY FRET biosensors', '50–55°C', 'YFP/CFP emission ratio', '1 mM maltose']`  v6_pred=`samples | 53°C | FRET signal ratio | maltose sample`  c0_pred(score=0.0)
+- gold=`['CMY FRET biosensors', '50–55°C', 'YFP/CFP emission ratio', '1 mM maltose']`  v6_pred=`samples | 53°C | FRET signal ratio | maltose sample`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > According to the experiment, running _____ at _____ yields the greatest difference in the _____ between a control and _____, identifying the optimal measurement temperature.
@@ -9670,7 +10584,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_55080_.mp4_55080_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['0.1 mL', 'Renca cells', '2×10^6 cells/mL', 'lungs']`  v6_pred=`cancer cells | syngeneic mice | kidney site | lungs`  c0_pred(score=0.5)
+- gold=`['0.1 mL', 'Renca cells', '2×10^6 cells/mL', 'lungs']`  v6_pred=`cancer cells | syngeneic mice | kidney site | lungs`  c0_score=0.5
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > In this model, intrarenal implantation of ____ of ____ at ____ induces a primary kidney tumor that spontaneously metastasizes to the ____, with tumor burden verifiable by endpoint analyses.
@@ -9695,7 +10609,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_55098_.mp4_55098_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['five days', '1,000', '95%', 'SD card']`  v6_pred=`24 hours | 816 | 98.42% | computer`  c0_pred(score=0.25)
+- gold=`['five days', '1,000', '95%', 'SD card']`  v6_pred=`24 hours | 816 | 98.42% | computer`  c0_score=0.25
 - action_dist: `{'visual_inspect': 2, 'ocr_tool': 1, 'answer': 1}`  rounds: 4
 
 > In the validation study, over _____ of testing, each FED was loaded with _____ pellets, and the device successfully logged _____ of pellets to the _____, indicating high logging accuracy.
@@ -9720,7 +10634,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_55307_.mp4_55307_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['X-ray diffraction', 'NaI', 'CuBr', 'PbI2']`  v6_pred=`XRD patterns | CuBr | NaI | PbI2`  c0_pred(score=0.25)
+- gold=`['X-ray diffraction', 'NaI', 'CuBr', 'PbI2']`  v6_pred=`XRD patterns | CuBr | NaI | PbI2`  c0_score=0.25
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > _____ showed that adding _____ or _____ as additives led to full conversion of _____ into perovskite, with no residual peak.
@@ -9745,7 +10659,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_55594_.mp4_55594_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['double eye ablation', 'photophobic light-avoidance', '24 hours', 'seven days']`  v6_pred=`surgical ablation | vision | immediately | 14 days`  c0_pred(score=0.475)
+- gold=`['double eye ablation', 'photophobic light-avoidance', '24 hours', 'seven days']`  v6_pred=`surgical ablation | vision | immediately | 14 days`  c0_score=0.475
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In the planarian functional assay, after _____, worms lose _____ at _____ but regain it by _____, indicating regeneration of the visual system.
@@ -9770,7 +10684,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_55614_.mp4_55614_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['XPS', 'USO', 'oxygen', 'oxidation']`  v6_pred=`XPS analysis | ultrasonic ozonolysis | functional groups | functionalization`  c0_pred(score=0.3333333333333333)
+- gold=`['XPS', 'USO', 'oxygen', 'oxidation']`  v6_pred=`XPS analysis | ultrasonic ozonolysis | functional groups | functionalization`  c0_score=0.3333333333333333
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > According to the study’s findings, ______ shows that CNTs untreated by ______ have almost no surface ______, which increases with treatment time, indicating successful ______.
@@ -9795,7 +10709,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_55649_.mp4_55649_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['hair-derived carbon fibers', 'cyclic voltammetry', 'dopamine and ascorbic acid', 'carbon nanotube-modified electrodes']`  v6_pred=`hair-derived carbon fibers | electrochemical | hydrogen peroxide | CNTs`  c0_pred(score=0.35)
+- gold=`['hair-derived carbon fibers', 'cyclic voltammetry', 'dopamine and ascorbic acid', 'carbon nanotube-modified electrodes']`  v6_pred=`hair-derived carbon fibers | electrochemical | hydrogen peroxide | CNTs`  c0_score=0.35
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > According to the experiments, electrodes modified with ____ outperformed bare carbon electrodes in ____ detection of ____ but still underperformed compared to ____.
@@ -9820,7 +10734,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_55685_.mp4_55685_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['490 ppb', 'UV-generated OH', 'organic PM mass', '4 hours']`  v6_pred=`high concentration | ozone | organic aerosol mass | 3 hours`  c0_pred(score=0.3928571428571429)
+- gold=`['490 ppb', 'UV-generated OH', 'organic PM mass', '4 hours']`  v6_pred=`high concentration | ozone | organic aerosol mass | 3 hours`  c0_score=0.3928571428571429
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > In the Harvard Environmental Chamber experiment, under conditions of isoprene at ____ and oxidation by ____, the ____ increased initially and reached steady state after about ____.
@@ -9845,7 +10759,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_56195_.mp4_56195_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['16', 'precise intended nucleotide exchange', '15', 'deletions ranging from 1 to 19 bases']`  v6_pred=`10 | deletion | 10 | insertions`  c0_pred(score=0.0)
+- gold=`['16', 'precise intended nucleotide exchange', '15', 'deletions ranging from 1 to 19 bases']`  v6_pred=`10 | deletion | 10 | insertions`  c0_score=0.0
 - action_dist: `{'retrieve': 2, 'visual_inspect': 1, 'answer': 1}`  rounds: 4
 
 > Sequencing of clonal isolates showed that all ____ EGFP-positive clones carried the ____ at the target site, whereas among ____ EGFP-negative clones approximately half were unedited and the remainder harbored ____.
@@ -9870,7 +10784,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_56243_.mp4_56243_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['spinal cord blood flow', 'oxygen saturation', 'injury epicenter']`  v6_pred=`flow | SO2% | epicenter`  c0_pred(score=0.2222222222222222)
+- gold=`['spinal cord blood flow', 'oxygen saturation', 'injury epicenter']`  v6_pred=`flow | SO2% | epicenter`  c0_score=0.2222222222222222
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Laser Doppler measurements indicated that, compared to shams, rats with spinal cord injury showed significantly reduced _____ and _____, with perfusion lowest at the _____ relative to the rostral and caudal segments.
@@ -9895,7 +10809,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_56268_.mp4_56268_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['0.5 mm', 'near-surface chloride maximum', '2 mm', 'chloride diffusion coefficients']`  v6_pred=`finer | feature | coarser | curves`  c0_pred(score=0.0)
+- gold=`['0.5 mm', 'near-surface chloride maximum', '2 mm', 'chloride diffusion coefficients']`  v6_pred=`finer | feature | coarser | curves`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > In this experiment, sampling the cement paste at ____ depth intervals revealed a ______ that was missed when using ____ intervals, leading to significantly different fitted ______ and demonstrating that the coarser spacing was too coarse for accurate profiles.
@@ -9920,7 +10834,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_56888_.mp4_56888_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['3D culture', 'neural rosettes', 'ventricular zone', '2D monolayers']`  v6_pred=`matrigel | rosettes | neural tubes | collagen`  c0_pred(score=0.29166666666666663)
+- gold=`['3D culture', 'neural rosettes', 'ventricular zone', '2D monolayers']`  v6_pred=`matrigel | rosettes | neural tubes | collagen`  c0_score=0.29166666666666663
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > The main finding was that, under a reduced-growth-factor culture approach, organoid aggregates in ______ developed complex brain development–like structures such as ______ and ______, whereas ______ did not form such structures.
@@ -9945,7 +10859,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_57265_.mp4_57265_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['150', 'complete regression', '50%', '75']`  v6_pred=`150 | complete regression | all | 75`  c0_pred(score=0.7)
+- gold=`['150', 'complete regression', '50%', '75']`  v6_pred=`150 | complete regression | all | 75`  c0_score=0.7
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > In mice with subcutaneous pancreatic tumors treated by irreversible electroporation (IRE), delivering ____ pulses caused ____ in nearly ____ of mice, whereas ____ pulses produced only minor regression.
@@ -9970,7 +10884,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_57309_.mp4_57309_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['pericytes', 'endothelial cells', 'complements', 'sprouting']`  v6_pred=`Pericytes | endothelial cells | promotes | sprouting`  c0_pred(score=0.75)
+- gold=`['pericytes', 'endothelial cells', 'complements', 'sprouting']`  v6_pred=`Pericytes | endothelial cells | promotes | sprouting`  c0_score=0.75
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > According to the findings from this bead sprouting assay, ____ tightly associate with ____ and their presence ____ the occurrence of ____.
@@ -9995,7 +10909,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_57385_.mp4_57385_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['liposome-encapsulated dsRNA', 'tubulin', '40%', '60%']`  v6_pred=`dsTub | Tubulin | 80% | 60%`  c0_pred(score=0.25)
+- gold=`['liposome-encapsulated dsRNA', 'tubulin', '40%', '60%']`  v6_pred=`dsTub | Tubulin | 80% | 60%`  c0_score=0.25
 - action_dist: `{'ocr_tool': 2, 'visual_inspect': 1, 'answer': 1}`  rounds: 4
 
 > In this study, continuous oral administration of ____ targeting ____ reduced midgut expression by ____ at day 9 and ____ at day 17, whereas naked dsRNA had no effect.
@@ -10020,7 +10934,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_57543_.mp4_57543_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['immunomagnetic isolation', 'primary oligodendrocyte cultures', '80%', '4 hours']`  v6_pred=`NG2 | oligodendrocyte progenitor cells | 95% | 3 days`  c0_pred(score=0.08333333333333333)
+- gold=`['immunomagnetic isolation', 'primary oligodendrocyte cultures', '80%', '4 hours']`  v6_pred=`NG2 | oligodendrocyte progenitor cells | 95% | 3 days`  c0_score=0.08333333333333333
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > According to the findings, ____ produces ____ with greater than ____ purity in about ____.
@@ -10045,7 +10959,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_57660_.mp4_57660_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['methanol recrystallization', '3.9×', '3.3×', '4.7×']`  v6_pred=`recrystallization | 5.77 | 4.55 | 4.13`  c0_pred(score=0.16666666666666666)
+- gold=`['methanol recrystallization', '3.9×', '3.3×', '4.7×']`  v6_pred=`recrystallization | 5.77 | 4.55 | 4.13`  c0_score=0.16666666666666666
 - action_dist: `{'ocr_tool': 3, 'answer': 1}`  rounds: 4
 
 > In MALDI analysis of carbohydrates, ______ of samples markedly boosted signals compared with the dried droplet method, increasing sodiated ion intensities by ____ for Sialyl-Lewis A and ____ for maltoheptaose, and deprotonated Sialyl-Lewis A by ____.
@@ -10070,7 +10984,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_57789_.mp4_57789_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['5 mM CaCl2', '3 µm', 'membrane tubular protrusions', 'calcium source']`  v6_pred=`calcium ions | 1 micron | tubular protrusions | micropipette`  c0_pred(score=0.2)
+- gold=`['5 mM CaCl2', '3 µm', 'membrane tubular protrusions', 'calcium source']`  v6_pred=`calcium ions | 1 micron | tubular protrusions | micropipette`  c0_score=0.2
 - action_dist: `{'retrieve': 1, 'visual_inspect': 2, 'answer': 1}`  rounds: 4
 
 > In this experiment, localized microinjection of ____ from a micropipette held about ____ from the GUV membrane induces visible ______ that then move along the membrane to follow the moving ____.
@@ -10095,7 +11009,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_57847_.mp4_57847_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['dLDH', 'lactate', 'pyruvate', 'L-2-hydroxyglutarate']`  v6_pred=`KO | lactate | pyruvate | glucose`  c0_pred(score=0.5)
+- gold=`['dLDH', 'lactate', 'pyruvate', 'L-2-hydroxyglutarate']`  v6_pred=`KO | lactate | pyruvate | glucose`  c0_score=0.5
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the experimental results, ____ mutant Drosophila larvae exhibited significant changes in the levels of ____, ____ and ____ compared with controls.
@@ -10120,7 +11034,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_57909_.mp4_57909_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['SWAT', '7.5–8 weeks', 'propidium iodide', 'Oil Red O']`  v6_pred=`gelatin plunger | 45 days | propidium iodide | FABP4`  c0_pred(score=0.25)
+- gold=`['SWAT', '7.5–8 weeks', 'propidium iodide', 'Oil Red O']`  v6_pred=`gelatin plunger | 45 days | propidium iodide | FABP4`  c0_score=0.25
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > The experiment showed that the ____ platform preserves human adipocyte viability ex vivo for at least ____ , as evidenced by exclusion of ____ and positive staining with ____.
@@ -10145,7 +11059,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_57988_.mp4_57988_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['mutant EGFP-NEFH', 'LC-3B-positive', 'confocal imaging']`  v6_pred=`eGFP-NEFH mutant | LC3b-positive | confocal images`  c0_pred(score=0.5)
+- gold=`['mutant EGFP-NEFH', 'LC-3B-positive', 'confocal imaging']`  v6_pred=`eGFP-NEFH mutant | LC3b-positive | confocal images`  c0_score=0.5
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In magnetofected primary mouse motoneuron cultures, _____ forms protein aggregates that are _____, as shown by _____.
@@ -10170,7 +11084,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_58022_.mp4_58022_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['mouse splenocytes', 'Dbp', '3 hours', 'PAMPs']`  v6_pred=`macrophages | Clec9a | specifically | stimulus`  c0_pred(score=0.375)
+- gold=`['mouse splenocytes', 'Dbp', '3 hours', 'PAMPs']`  v6_pred=`macrophages | Clec9a | specifically | stimulus`  c0_score=0.375
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In _______, ______ mRNA levels were significantly reduced ______ after challenge with each tested ______ compared to unchallenged controls.
@@ -10195,7 +11109,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_58916_.mp4_58916_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['37 mm filter', 'cell culture insert', '800 nm', '< 0.05']`  v6_pred=`filter | insert | 40 nm | <0.05`  c0_pred(score=0.375)
+- gold=`['37 mm filter', 'cell culture insert', '800 nm', '< 0.05']`  v6_pred=`filter | insert | 40 nm | <0.05`  c0_score=0.375
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > The study found that deposition measured on the ____ strongly correlates with deposition on the ____ for ____ copper particles (p ____).
@@ -10220,7 +11134,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_59155_.mp4_59155_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['bifunctional squaramide', 'C5', 'highest yield', 'excellent stereoselectivity']`  v6_pred=`Cu | complex | highest yield | enantioselectivity`  c0_pred(score=0.25)
+- gold=`['bifunctional squaramide', 'C5', 'highest yield', 'excellent stereoselectivity']`  v6_pred=`Cu | complex | highest yield | enantioselectivity`  c0_score=0.25
 - action_dist: `{'ocr_tool': 3, 'answer': 1}`  rounds: 4
 
 > Catalyst screening identified the _____ catalyst _____ as optimal for this cycloaddition, delivering the _____ and _____.
@@ -10245,7 +11159,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_59156_.mp4_59156_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['membrane contrast', 'FIB-SEM', 'mouse nervus tibialis', 'C. elegans']`  v6_pred=`contrast | tissue | pig | vagus nerves`  c0_pred(score=0.25)
+- gold=`['membrane contrast', 'FIB-SEM', 'mouse nervus tibialis', 'C. elegans']`  v6_pred=`contrast | tissue | pig | vagus nerves`  c0_score=0.25
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > Compared with the standard protocol, the enhanced preparation yields markedly stronger ____ in ____ cross-sections of both ____ and ____, enabling optimal 3D volume imaging.
@@ -10270,7 +11184,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_59271_.mp4_59271_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['14 days', 'decellularized bone extracellular matrix', 'periosteum and endosteum', 'bone matrix glycoprotein']`  v6_pred=`72 hours | 3D | bone matrix | collagen IV`  c0_pred(score=0.0)
+- gold=`['14 days', 'decellularized bone extracellular matrix', 'periosteum and endosteum', 'bone matrix glycoprotein']`  v6_pred=`72 hours | 3D | bone matrix | collagen IV`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > According to the experiment, when human osteosarcoma cells were cultured for ____ in a ____ model, they exhibited highly heterogeneous morphology and infiltrated the ____ resembling clinical osteosarcoma, and strongly expressed the osteoid-specific ____.
@@ -10295,7 +11209,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_59358_.mp4_59358_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['100 MBq', '45 minutes', 'image noise', 'liver']`  v6_pred=`150 MBq | intravenously | background noise | liver`  c0_pred(score=0.6666666666666666)
+- gold=`['100 MBq', '45 minutes', 'image noise', 'liver']`  v6_pred=`150 MBq | intravenously | background noise | liver`  c0_score=0.6666666666666666
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > Compared with the standard protocol of injecting ____ of 68Ga-DOTATATE ____ before PET/CT, administering a lower dose due to a production delay led to increased ____ , particularly evident in the ____.
@@ -10320,7 +11234,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_59992_.mp4_59992_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['silica column chromatography', 'diterpenoids', 'oxindole', 'three dolabralexin compounds']`  v6_pred=`silica-membrane technology | cosmids | host genomic DNA | pure cosmids`  c0_pred(score=0.2)
+- gold=`['silica column chromatography', 'diterpenoids', 'oxindole', 'three dolabralexin compounds']`  v6_pred=`silica-membrane technology | cosmids | host genomic DNA | pure cosmids`  c0_score=0.2
 - action_dist: `{'retrieve': 1, 'visual_inspect': 2, 'answer': 1}`  rounds: 4
 
 > In the purification workflow, _____ enabled high-purity isolation of _____ by removing the major contaminant _____ and yielding _____.
@@ -10345,7 +11259,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_60469_.mp4_60469_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['90–100%', '250 μL', '30,000 single tumor cells', 'GFP']`  v6_pred=`high | 1 mL | organoids | GFP`  c0_pred(score=0.375)
+- gold=`['90–100%', '250 μL', '30,000 single tumor cells', 'GFP']`  v6_pred=`high | 1 mL | organoids | GFP`  c0_score=0.375
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > In the described protocol, lentiviral transduction of bladder tumor organoids achieved ____ infection efficiency; just ____ of concentrated virus was sufficient to infect ____; successful infection was indicated by strong ____ signals.
@@ -10370,7 +11284,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_60488_.mp4_60488_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['CT229', 'galactose', 'pSup1 and pSup2', 'pSup3']`  v6_pred=`CT229 | galactose | CT288 | vector`  c0_pred(score=0.5)
+- gold=`['CT229', 'galactose', 'pSup1 and pSup2', 'pSup3']`  v6_pred=`CT229 | galactose | CT288 | vector`  c0_score=0.5
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In yeast toxicity and suppressor screens, expression of the Chlamydia trachomatis effector ____ inhibited growth on ____ media; this toxicity was suppressed by ____ but not by ____.
@@ -10395,7 +11309,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_60550_.mp4_60550_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['PEG-mediated', 'heterokaryons', 'doubled', 'at least four']`  v6_pred=`successful | cells | doubled | two`  c0_pred(score=0.0)
+- gold=`['PEG-mediated', 'heterokaryons', 'doubled', 'at least four']`  v6_pred=`successful | cells | doubled | two`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > According to the experiment, ______ cell fusion produced ______ in which the centrosome number was ______, apparent as ______ NEDD1-tagged pericentriolar material foci per fused cell.
@@ -10420,7 +11334,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_60744_.mp4_60744_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['6 days post-fertilization', 'transgenic', 'liver area', 'non-transgenic siblings']`  v6_pred=`12 weeks | ABC | livers | non-transgenic counterparts`  c0_pred(score=0.20833333333333331)
+- gold=`['6 days post-fertilization', 'transgenic', 'liver area', 'non-transgenic siblings']`  v6_pred=`12 weeks | ABC | livers | non-transgenic counterparts`  c0_score=0.20833333333333331
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In the experiment quantifying liver size in larval zebrafish, the main finding was that at ____ , ____ zebrafish larvae had significantly larger ____ than their ____.
@@ -10445,7 +11359,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_60828_.mp4_60828_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['A. rhizogenes', 'light-induced transcription factor', 'rutin and quercetin', 'flavonoid-pathway gene expression']`  v6_pred=`yeast | gene | artemisinic acid | gene expression levels`  c0_pred(score=0.575)
+- gold=`['A. rhizogenes', 'light-induced transcription factor', 'rutin and quercetin', 'flavonoid-pathway gene expression']`  v6_pred=`yeast | gene | artemisinic acid | gene expression levels`  c0_score=0.575
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Fill in the blanks: In this experiment, _____-mediated overexpression of a _____ in tartary buckwheat hairy roots increased the biosynthesis of _____ and markedly upregulated _____ across all three transgenic lines compared with controls.
@@ -10470,7 +11384,7 @@ The scene
 
 - `expvid_experimental_conclusion_videos_level_3_60961_.mp4_60961_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['endoplasmic reticulum', 'microtubules', 'spermatocytes', 'Drosophila testes']`  v6_pred=`chromosomes | mitotic spindles | cells | tissues`  c0_pred(score=0.6666666666666666)
+- gold=`['endoplasmic reticulum', 'microtubules', 'spermatocytes', 'Drosophila testes']`  v6_pred=`chromosomes | mitotic spindles | cells | tissues`  c0_score=0.6666666666666666
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Using this live-tissue imaging protocol, dynamic reorganization of the ____ and ____ can be directly observed in dividing ____ within intact ____.
@@ -10497,7 +11411,7 @@ The scene then transitions to an office env
 
 - `expvid_experimental_conclusion_videos_level_3_61173_.mp4_61173_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['orthotopic', 'mammary fat pad', 'PDX/GEMM', '2–8 weeks']`  v6_pred=`tumor fragments | mammary fat pad | solid | 2 weeks`  c0_pred(score=0.375)
+- gold=`['orthotopic', 'mammary fat pad', 'PDX/GEMM', '2–8 weeks']`  v6_pred=`tumor fragments | mammary fat pad | solid | 2 weeks`  c0_score=0.375
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > The main finding was that ______ transplantation into the ______ produced palpable ______ tumors within approximately ______ after implantation.
@@ -10528,7 +11442,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_61231_.mp4_61231_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['80', 'immunoprecipitation', '2', '1']`  v6_pred=`80 | IP | 0 | 5`  c0_pred(score=0.25)
+- gold=`['80', 'immunoprecipitation', '2', '1']`  v6_pred=`80 | IP | 0 | 5`  c0_score=0.25
 - action_dist: `{'ocr_tool': 3, 'answer': 1}`  rounds: 4
 
 > Fill in the blanks: The results show that MeRIP specifically enriches methylated RNA—approximately ____% of the methylated in vitro transcript was recovered in the ____ sample versus about ____% in the mock, while the non-methylated control had less than ____% recovery in both.
@@ -10553,7 +11467,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_61391_.mp4_61391_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['ipsilesional', '8.24', '1.19', 'two-tailed t-test']`  v6_pred=`affected | 8.24 | 1.19 | t-test`  c0_pred(score=0.6666666666666666)
+- gold=`['ipsilesional', '8.24', '1.19', 'two-tailed t-test']`  v6_pred=`affected | 8.24 | 1.19 | t-test`  c0_score=0.6666666666666666
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > According to the elbow TDPM study, adults with chronic stroke (____ arm) showed significantly higher detection thresholds than healthy adults—approximately ____ degrees versus ____ degrees—as determined by a ____.
@@ -10578,7 +11492,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_61449_.mp4_61449_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['166 bp', '291 bp', 'adapters/indexes', '125 bp']`  v6_pred=`35 bp | 150 bp | adapters | 115 bp`  c0_pred(score=0.375)
+- gold=`['166 bp', '291 bp', 'adapters/indexes', '125 bp']`  v6_pred=`35 bp | 150 bp | adapters | 115 bp`  c0_score=0.375
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > In the cfDNA fragment enrichment graph, the dominant peak near ____ shifts to about ____ after NGS library preparation, mainly because ____ totaling roughly ____ are added to each fragment.
@@ -10603,7 +11517,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_61743_.mp4_61743_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['0.35', '0.35', 'mini osmotic pump', 'quiet waking']`  v6_pred=`1 | 0.5 | osmotic pump | nighttime`  c0_pred(score=0.2)
+- gold=`['0.35', '0.35', 'mini osmotic pump', 'quiet waking']`  v6_pred=`1 | 0.5 | osmotic pump | nighttime`  c0_score=0.2
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > In this rat model, acute tic induction uses a bicuculline microinjection of ____ μL delivered at ____ μL/min via an implanted cannula, producing tics that appear within minutes and subside after tens of minutes; in contrast, chronic induction uses a subcutaneous ____ that elicits tics from the first day, most evident during ____.
@@ -10628,7 +11542,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_62182_.mp4_62182_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['spheroid replating assay', 'integrin α6high', 'EGFRlow', '25%']`  v6_pred=`spheroid culture | α6hi | ERβhi | 9.9%`  c0_pred(score=0.1)
+- gold=`['spheroid replating assay', 'integrin α6high', 'EGFRlow', '25%']`  v6_pred=`spheroid culture | α6hi | ERβhi | 9.9%`  c0_score=0.1
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > The study shows that the ______ enriches a stem-like keratinocyte subpopulation defined by ______/______, constituting about ______ of spheroid-derived cultures.
@@ -10653,7 +11567,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_62309_.mp4_62309_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['0.6', '0.01', '0.7', '0.65']`  v6_pred=`0.5 | 0.05 | 0.69 | 0.66`  c0_pred(score=0.25)
+- gold=`['0.6', '0.01', '0.7', '0.65']`  v6_pred=`0.5 | 0.05 | 0.69 | 0.66`  c0_score=0.25
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In the RED experiment, when operated with NaCl streams at high and low salinities of ____ M and ____ M and with flow rates of 100 mL/min (salt streams) and 50 mL/min (rinse), the stack delivered approximately ____ W/m^2 maximum power density and ____ W/m^2 net power density.
@@ -10678,7 +11592,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_62458_.mp4_62458_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['three 5-min trials', '1 h', '24 h', 'single 20-min trial']`  v6_pred=`1 h | 1 h | 24 h | 24 h`  c0_pred(score=0.5)
+- gold=`['three 5-min trials', '1 h', '24 h', 'single 20-min trial']`  v6_pred=`1 h | 1 h | 24 h | 24 h`  c0_score=0.5
 - action_dist: `{'ocr_tool': 1, 'visual_inspect': 2, 'answer': 1}`  rounds: 4
 
 > In the object location task, the stronger encoding protocol (____) produced a significant preference for the novel-location object above chance at both ____ and ____ delays, whereas the weaker encoding protocol (____) yielded significance only at the shorter delay.
@@ -10703,7 +11617,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_62650_.mp4_62650_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['EGFP', 'middle-lower cortical layers', 'P28', 'no EGFP expression']`  v6_pred=`robust | upper layers | 3 weeks post-injection | no detectable expression`  c0_pred(score=0.26666666666666666)
+- gold=`['EGFP', 'middle-lower cortical layers', 'P28', 'no EGFP expression']`  v6_pred=`robust | upper layers | 3 weeks post-injection | no detectable expression`  c0_score=0.26666666666666666
 - action_dist: `{'ocr_tool': 1, 'visual_inspect': 1, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > In an in vivo neonatal mouse AAV enhancer assay, the positive construct drove _____ expression in the _____ of the cortex by _____, whereas the negative control showed _____, indicating enhancer-dependent transcription in the brain.
@@ -10728,7 +11642,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_62671_.mp4_62671_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['RAW 264.7', 'thiol oxidation', 'SDS-PAGE and western blot', 'LC-MS/MS reporter ions']`  v6_pred=`adherent mammalian | cytokines | live-cell imaging | SDS-PAGE`  c0_pred(score=0.225)
+- gold=`['RAW 264.7', 'thiol oxidation', 'SDS-PAGE and western blot', 'LC-MS/MS reporter ions']`  v6_pred=`adherent mammalian | cytokines | live-cell imaging | SDS-PAGE`  c0_score=0.225
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > According to the experiment, in _____ cells, treatments caused discernible differences in _____ levels, observed by _____, and these changes were quantified at individual cysteine sites via _____.
@@ -10753,7 +11667,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_62853_.mp4_62853_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['Prx1', 'intermembrane space', 'matrix', 'swelling/proteinase K assay']`  v6_pred=`Prx1 | matrix | intermembrane space | supernatant and pellet fractions`  c0_pred(score=0.5)
+- gold=`['Prx1', 'intermembrane space', 'matrix', 'swelling/proteinase K assay']`  v6_pred=`Prx1 | matrix | intermembrane space | supernatant and pellet fractions`  c0_score=0.5
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the fractionation pattern, the study concluded that _____ has dual submitochondrial localization in yeast mitochondria, being present in both the _____ and the _____, as indicated by its western blot profile in the _____.
@@ -10778,7 +11692,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_63694_.mp4_63694_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['94%', '89%', '37%', 'insecticide 2']`  v6_pred=`87% | 75% | 63% | insecticide 2`  c0_pred(score=0.25)
+- gold=`['94%', '89%', '37%', 'insecticide 2']`  v6_pred=`87% | 75% | 63% | insecticide 2`  c0_score=0.25
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In the pre-infestation assay using green coffee fruits sprayed with alkaloid emulsions and evaluated on day 20, the proportion of healthy seeds was ____ for insecticide 2, ____ for insecticide 1, and ____ for the water control, indicating that ____ provided the greatest protection.
@@ -10803,7 +11717,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_64072_.mp4_64072_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['100-fold', 'antifreeze glycoproteins', 'ice surface', 'constant']`  v6_pred=`90% | AFP | ice crystals | constant`  c0_pred(score=0.41666666666666663)
+- gold=`['100-fold', 'antifreeze glycoproteins', 'ice surface', 'constant']`  v6_pred=`90% | AFP | ice crystals | constant`  c0_score=0.41666666666666663
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > In the solution exchange experiment, the fluorescence in the bulk solution dropped by approximately ____ , while the fluorescence from adsorbed ____ on the ____ remained ____.
@@ -10828,7 +11742,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_64146_.mp4_64146_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['PAF', 'EMT', 'alpha6-integrin', 'Vimentin']`  v6_pred=`PAF | mesenchymal transition | α6 Integrin | Vimentin`  c0_pred(score=0.5)
+- gold=`['PAF', 'EMT', 'alpha6-integrin', 'Vimentin']`  v6_pred=`PAF | mesenchymal transition | α6 Integrin | Vimentin`  c0_score=0.5
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > In 3D lrECM cultures of MCF10A acini, prolonged exposure to ____ (200 nM added on days 0, 4, 8, 12, and 16) transformed the structures by disrupting epithelial polarity and inducing ____; these effects were evidenced by mislocalized ____ and increased staining of ____ compared with untreated, polarized hollow-lumen acini.
@@ -10853,7 +11767,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_64759_.mp4_64759_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['mineral-associated organic matter', 'highest-density', 'intermediate-density', 'no significant effect']`  v6_pred=`light | light | heavy | minimal changes`  c0_pred(score=0.0)
+- gold=`['mineral-associated organic matter', 'highest-density', 'intermediate-density', 'no significant effect']`  v6_pred=`light | light | heavy | minimal changes`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > According to the density fractionation results in the experiment, treatment effects on _____ were predominantly confined to the _____ fraction, while the _____ fraction exhibited _____.
@@ -10878,7 +11792,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_64798_.mp4_64798_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['isolated cannabis trichomes', 'RNA integrity', 'RIN', '9.4–10']`  v6_pred=`FFPE blocks | integrity | RIN and DV 200 | high`  c0_pred(score=0.41666666666666663)
+- gold=`['isolated cannabis trichomes', 'RNA integrity', 'RIN', '9.4–10']`  v6_pred=`FFPE blocks | integrity | RIN and DV 200 | high`  c0_score=0.41666666666666663
 - action_dist: `{'ocr_tool': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > In this study, RNA extracted from the ____ showed very high ____, with ____ values of ____, indicating the protocol preserves RNA quality for downstream analyses.
@@ -10903,7 +11817,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_65086_.mp4_65086_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['adenylate kinase', '7%', 'day 17', 'below 5%']`  v6_pred=`LDH | 30% | day 3 | 15%`  c0_pred(score=0.41666666666666663)
+- gold=`['adenylate kinase', '7%', 'day 17', 'below 5%']`  v6_pred=`LDH | 30% | day 3 | 15%`  c0_score=0.41666666666666663
 - action_dist: `{'retrieve': 2, 'visual_inspect': 1, 'answer': 1}`  rounds: 4
 
 > According to the viability analysis, spheroid cell death, inferred from the release of _____, rose to about _____ by _____ and then decreased to _____ thereafter.
@@ -10928,7 +11842,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_65126_.mp4_65126_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['1.42 mg/mL', 'Coomassie-stained SDS-PAGE', 'BSA', 'spectrophotometric measurements']`  v6_pred=`1.46 mg/mL | spectrophotometry | BSA | independent`  c0_pred(score=0.375)
+- gold=`['1.42 mg/mL', 'Coomassie-stained SDS-PAGE', 'BSA', 'spectrophotometric measurements']`  v6_pred=`1.46 mg/mL | spectrophotometry | BSA | independent`  c0_score=0.375
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > According to the quantitative analysis presented, the extracted microtubules reached a final concentration of ____ as determined by ____ with ____ calibration, consistent with ____ measurements.
@@ -10953,7 +11867,7 @@ Next, the scene tr
 
 - `expvid_experimental_conclusion_videos_level_3_67016_.mp4_67016_experimental_conclusion`
 - task: experimental_conclusion
-- gold=`['day 30', 'GFP autofluorescence', 'CRX', 'IBA1']`  v6_pred=`day 30 | morphological changes | rhodopsin | Iba1`  c0_pred(score=0.375)
+- gold=`['day 30', 'GFP autofluorescence', 'CRX', 'IBA1']`  v6_pred=`day 30 | morphological changes | rhodopsin | Iba1`  c0_score=0.375
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > By ____ , retinal organoids co-cultured with microglia exhibited significant ____ indicating microglial presence, and showed clear immunofluorescence for the photoreceptor marker ____ and the microglial marker ____.
@@ -10981,7 +11895,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_1942_clip_8.mp4_1942_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['37', '38', '39', '40', '41', '42']`  v6_pred=`37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57`  c0_pred(score=0.3846153846153846)
+- gold=`['37', '38', '39', '40', '41', '42']`  v6_pred=`37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57`  c0_score=0.3846153846153846
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11013,7 +11927,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_200206_clip_4.mp4_200206_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35']`  v6_pred=`19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 4`  c0_pred(score=0.7058823529411764)
+- gold=`['24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35']`  v6_pred=`19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 4`  c0_score=0.7058823529411764
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11046,7 +11960,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_201062_clip_10.mp4_201062_clip10_sequence_generation`
 - task: sequence_generation
-- gold=`['48', '49', '50', '51', '52']`  v6_pred=`46 47 49 50 52`  c0_pred(score=0.5555555555555556)
+- gold=`['48', '49', '50', '51', '52']`  v6_pred=`46 47 49 50 52`  c0_score=0.5555555555555556
 - action_dist: `{'visual_inspect': 2, 'is_sufficient': 1, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11080,7 +11994,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_201777_clip_5.mp4_201777_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['27', '28', '29', '30', '31', '32', '33', '34', '35', '36']`  v6_pred=`7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 2`  c0_pred(score=0.0)
+- gold=`['27', '28', '29', '30', '31', '32', '33', '34', '35', '36']`  v6_pred=`7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 2`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11116,7 +12030,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_2137_clip_3.mp4_2137_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4']`  v6_pred=`1 2 3`  c0_pred(score=0.8571428571428571)
+- gold=`['1', '2', '3', '4']`  v6_pred=`1 2 3`  c0_score=0.8571428571428571
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11138,7 +12052,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_2757_clip_9.mp4_2757_clip9_sequence_generation`
 - task: sequence_generation
-- gold=`['38', '39', '40', '41', '42']`  v6_pred=`37 38 44 45 46 47 48 49 50 51 52`  c0_pred(score=0.23529411764705882)
+- gold=`['38', '39', '40', '41', '42']`  v6_pred=`37 38 44 45 46 47 48 49 50 51 52`  c0_score=0.23529411764705882
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11172,7 +12086,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_3039_clip_2.mp4_3039_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['6', '7', '8', '9', '10']`  v6_pred=`6 7 10 16`  c0_pred(score=0.8000000000000002)
+- gold=`['6', '7', '8', '9', '10']`  v6_pred=`6 7 10 16`  c0_score=0.8000000000000002
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11202,7 +12116,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_3642_clip_6.mp4_3642_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['34', '35', '36', '37']`  v6_pred=`13 14`  c0_pred(score=0.3333333333333333)
+- gold=`['34', '35', '36', '37']`  v6_pred=`13 14`  c0_score=0.3333333333333333
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11232,7 +12146,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_3874_clip_2.mp4_3874_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['10', '11', '12', '13', '14', '15', '16', '17']`  v6_pred=`10 11 12 13 14 15 16 17`  c0_pred(score=0.4666666666666667)
+- gold=`['10', '11', '12', '13', '14', '15', '16', '17']`  v6_pred=`10 11 12 13 14 15 16 17`  c0_score=0.4666666666666667
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11264,7 +12178,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_3874_clip_7.mp4_3874_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['38', '39', '40', '41', '42', '43']`  v6_pred=`37 41 42 43 44 45 46 47 48 49 50 51 52`  c0_pred(score=0.3333333333333333)
+- gold=`['38', '39', '40', '41', '42', '43']`  v6_pred=`37 41 42 43 44 45 46 47 48 49 50 51 52`  c0_score=0.3333333333333333
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11296,7 +12210,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_3953_clip_5.mp4_3953_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['24', '25', '26', '27', '28']`  v6_pred=`3 4 5 6 7 8 9`  c0_pred(score=0.0)
+- gold=`['24', '25', '26', '27', '28']`  v6_pred=`3 4 5 6 7 8 9`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11325,7 +12239,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_4104_clip_6.mp4_4104_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37']`  v6_pred=`27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44`  c0_pred(score=0.9565217391304348)
+- gold=`['27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37']`  v6_pred=`27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44`  c0_score=0.9565217391304348
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11358,7 +12272,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_4308_clip_7.mp4_4308_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['31', '32', '33', '34']`  v6_pred=`32 33 34 35 36 37 38 39`  c0_pred(score=0.4444444444444445)
+- gold=`['31', '32', '33', '34']`  v6_pred=`32 33 34 35 36 37 38 39`  c0_score=0.4444444444444445
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11390,7 +12304,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_50210_clip_6.mp4_50210_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['37', '38', '39', '40', '41', '42', '43', '44', '45', '46']`  v6_pred=`17 18 19 20 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 3`  c0_pred(score=0.3125)
+- gold=`['37', '38', '39', '40', '41', '42', '43', '44', '45', '46']`  v6_pred=`17 18 19 20 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 3`  c0_score=0.3125
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11423,7 +12337,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_50327_clip_2.mp4_50327_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['12', '13', '14', '15', '16', '17', '18', '19', '20']`  v6_pred=`10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 3`  c0_pred(score=0.5454545454545454)
+- gold=`['12', '13', '14', '15', '16', '17', '18', '19', '20']`  v6_pred=`10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 3`  c0_score=0.5454545454545454
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11455,7 +12369,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_50389_clip_6.mp4_50389_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['33', '34', '35']`  v6_pred=`18 35`  c0_pred(score=0.4)
+- gold=`['33', '34', '35']`  v6_pred=`18 35`  c0_score=0.4
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11486,7 +12400,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_50658_clip_10.mp4_50658_clip10_sequence_generation`
 - task: sequence_generation
-- gold=`['44', '45', '46', '47', '48', '49', '50', '51']`  v6_pred=`43 44 45 46 47 48 49 50 51 52 53 54`  c0_pred(score=0.39999999999999997)
+- gold=`['44', '45', '46', '47', '48', '49', '50', '51']`  v6_pred=`43 44 45 46 47 48 49 50 51 52 53 54`  c0_score=0.39999999999999997
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11516,7 +12430,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_50849_clip_3.mp4_50849_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['11', '12', '13', '14', '15', '16']`  v6_pred=`6 7 9 10 11 12 13 14 15 16 19`  c0_pred(score=0.0)
+- gold=`['11', '12', '13', '14', '15', '16']`  v6_pred=`6 7 9 10 11 12 13 14 15 16 19`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11546,7 +12460,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_51161_clip_3.mp4_51161_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['10', '11', '12', '13', '14', '15']`  v6_pred=`8 26`  c0_pred(score=0.0)
+- gold=`['10', '11', '12', '13', '14', '15']`  v6_pred=`8 26`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11582,7 +12496,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_51357_clip_6.mp4_51357_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['41', '42', '43', '44', '45', '46', '47', '48', '49']`  v6_pred=`48 55 67`  c0_pred(score=0.2222222222222222)
+- gold=`['41', '42', '43', '44', '45', '46', '47', '48', '49']`  v6_pred=`48 55 67`  c0_score=0.2222222222222222
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11617,7 +12531,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_51388_clip_2.mp4_51388_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['9', '10', '11', '12', '13', '14', '15']`  v6_pred=`16 9 10 13 14 15 41 42`  c0_pred(score=0.0)
+- gold=`['9', '10', '11', '12', '13', '14', '15']`  v6_pred=`16 9 10 13 14 15 41 42`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11649,7 +12563,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_51513_clip_8.mp4_51513_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['31', '32', '33', '34', '35', '36', '37']`  v6_pred=`26 27 31 33`  c0_pred(score=0.7142857142857143)
+- gold=`['31', '32', '33', '34', '35', '36', '37']`  v6_pred=`26 27 31 33`  c0_score=0.7142857142857143
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11680,7 +12594,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_51747_clip_5.mp4_51747_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['21', '22', '23', '24']`  v6_pred=`6 7 8 9 10 11 12 24`  c0_pred(score=0.3333333333333333)
+- gold=`['21', '22', '23', '24']`  v6_pred=`6 7 8 9 10 11 12 24`  c0_score=0.3333333333333333
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11709,7 +12623,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_52214_clip_1.mp4_52214_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4', '5', '6', '7', '8']`  v6_pred=`10 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31`  c0_pred(score=0.5)
+- gold=`['1', '2', '3', '4', '5', '6', '7', '8']`  v6_pred=`10 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31`  c0_score=0.5
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11738,7 +12652,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_52299_clip_1.mp4_52299_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4', '5', '6', '7', '8']`  v6_pred=`3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26`  c0_pred(score=0.5)
+- gold=`['1', '2', '3', '4', '5', '6', '7', '8']`  v6_pred=`3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26`  c0_score=0.5
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11768,7 +12682,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_52456_clip_1.mp4_52456_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4']`  v6_pred=`2 3 4 7 8 9 10 19 20 21 30 31 32 33 34 35 39 40 41 42 43 44 45 4`  c0_pred(score=0.22222222222222218)
+- gold=`['1', '2', '3', '4']`  v6_pred=`2 3 4 7 8 9 10 19 20 21 30 31 32 33 34 35 39 40 41 42 43 44 45 4`  c0_score=0.22222222222222218
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11798,7 +12712,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_52614_clip_5.mp4_52614_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['24', '25', '26', '27', '28', '29']`  v6_pred=`25 26 27 28`  c0_pred(score=0.7142857142857143)
+- gold=`['24', '25', '26', '27', '28', '29']`  v6_pred=`25 26 27 28`  c0_score=0.7142857142857143
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11833,7 +12747,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_52732_clip_9.mp4_52732_clip9_sequence_generation`
 - task: sequence_generation
-- gold=`['43', '44', '45', '46', '47', '48', '49']`  v6_pred=`26 27 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 4`  c0_pred(score=0.6153846153846153)
+- gold=`['43', '44', '45', '46', '47', '48', '49']`  v6_pred=`26 27 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 4`  c0_score=0.6153846153846153
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11865,7 +12779,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_52859_clip_9.mp4_52859_clip9_sequence_generation`
 - task: sequence_generation
-- gold=`['46', '47', '48']`  v6_pred=`37 46`  c0_pred(score=0.8571428571428571)
+- gold=`['46', '47', '48']`  v6_pred=`37 46`  c0_score=0.8571428571428571
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11895,7 +12809,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_53009_clip_4.mp4_53009_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['11', '12', '13', '14', '15']`  v6_pred=`6 14 22`  c0_pred(score=0.28571428571428575)
+- gold=`['11', '12', '13', '14', '15']`  v6_pred=`6 14 22`  c0_score=0.28571428571428575
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11928,7 +12842,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_53010_clip_4.mp4_53010_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['11', '12', '13']`  v6_pred=`12 14 13 16 18 19`  c0_pred(score=0.3)
+- gold=`['11', '12', '13']`  v6_pred=`12 14 13 16 18 19`  c0_score=0.3
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11958,7 +12872,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_53672_clip_4.mp4_53672_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['16', '17', '18', '19']`  v6_pred=`14 15 16 17 18 19`  c0_pred(score=1.0)
+- gold=`['16', '17', '18', '19']`  v6_pred=`14 15 16 17 18 19`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -11989,7 +12903,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_53672_clip_8.mp4_53672_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['37', '38']`  v6_pred=`37 38`  c0_pred(score=1.0)
+- gold=`['37', '38']`  v6_pred=`37 38`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12020,7 +12934,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_53789_clip_4.mp4_53789_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['23', '24', '25', '26', '27', '28']`  v6_pred=`23 24 26 27 45`  c0_pred(score=0.6666666666666666)
+- gold=`['23', '24', '25', '26', '27', '28']`  v6_pred=`23 24 26 27 45`  c0_score=0.6666666666666666
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12051,7 +12965,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_53800_clip_1.mp4_53800_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4', '5', '6']`  v6_pred=`2 3 4 5 6 17 18 19`  c0_pred(score=0.7142857142857143)
+- gold=`['1', '2', '3', '4', '5', '6']`  v6_pred=`2 3 4 5 6 17 18 19`  c0_score=0.7142857142857143
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12082,7 +12996,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_53931_clip_4.mp4_53931_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['20', '21', '22', '23', '24', '25']`  v6_pred=`18 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 4`  c0_pred(score=0.42857142857142855)
+- gold=`['20', '21', '22', '23', '24', '25']`  v6_pred=`18 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 4`  c0_score=0.42857142857142855
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12113,7 +13027,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_53980_clip_3.mp4_53980_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['8', '9', '10', '11', '12', '13']`  v6_pred=`8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29`  c0_pred(score=0.4)
+- gold=`['8', '9', '10', '11', '12', '13']`  v6_pred=`8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29`  c0_score=0.4
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12142,7 +13056,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_54147_clip_2.mp4_54147_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['6', '7', '8', '9', '10', '11']`  v6_pred=`6 7 8 9 10 11`  c0_pred(score=0.41379310344827586)
+- gold=`['6', '7', '8', '9', '10', '11']`  v6_pred=`6 7 8 9 10 11`  c0_score=0.41379310344827586
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12173,7 +13087,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_54189_clip_7.mp4_54189_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['48', '49', '50', '51', '52', '53', '54']`  v6_pred=`4 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27`  c0_pred(score=0.0)
+- gold=`['48', '49', '50', '51', '52', '53', '54']`  v6_pred=`4 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12206,7 +13120,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_54614_clip_1.mp4_54614_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1']`  v6_pred=`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 2`  c0_pred(score=0.07999999999999999)
+- gold=`['1']`  v6_pred=`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 2`  c0_score=0.07999999999999999
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12238,7 +13152,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_54615_clip_7.mp4_54615_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42']`  v6_pred=`33 36 37 38 39 40 41`  c0_pred(score=0.6874999999999999)
+- gold=`['31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42']`  v6_pred=`33 36 37 38 39 40 41`  c0_score=0.6874999999999999
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12269,7 +13183,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_54661_clip_9.mp4_54661_clip9_sequence_generation`
 - task: sequence_generation
-- gold=`['42', '43', '44', '45', '46', '47', '48']`  v6_pred=`41 42 43 44 45 46 47 48 50 51 52 53`  c0_pred(score=0.6086956521739131)
+- gold=`['42', '43', '44', '45', '46', '47', '48']`  v6_pred=`41 42 43 44 45 46 47 48 50 51 52 53`  c0_score=0.6086956521739131
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12298,7 +13212,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_54664_clip_3.mp4_54664_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['8', '9', '10', '11', '12', '13', '14']`  v6_pred=`11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 3`  c0_pred(score=0.27586206896551724)
+- gold=`['8', '9', '10', '11', '12', '13', '14']`  v6_pred=`11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 3`  c0_score=0.27586206896551724
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12334,7 +13248,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_54971_clip_4.mp4_54971_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['13', '14', '15', '16']`  v6_pred=`13 14 15 16`  c0_pred(score=1.0)
+- gold=`['13', '14', '15', '16']`  v6_pred=`13 14 15 16`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12363,7 +13277,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_54971_clip_6.mp4_54971_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['25', '26', '27', '28', '29', '30', '31', '32']`  v6_pred=`32 33 34 35 36`  c0_pred(score=0.15384615384615385)
+- gold=`['25', '26', '27', '28', '29', '30', '31', '32']`  v6_pred=`32 33 34 35 36`  c0_score=0.15384615384615385
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12392,7 +13306,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_55080_clip_4.mp4_55080_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['24', '25', '26']`  v6_pred=`24 25 26`  c0_pred(score=1.0)
+- gold=`['24', '25', '26']`  v6_pred=`24 25 26`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12424,7 +13338,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_55301_clip_4.mp4_55301_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['17', '18', '19', '20', '21']`  v6_pred=`20 17 18 19 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 3`  c0_pred(score=0.14285714285714285)
+- gold=`['17', '18', '19', '20', '21']`  v6_pred=`20 17 18 19 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 3`  c0_score=0.14285714285714285
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12454,7 +13368,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_55504_clip_4.mp4_55504_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['20', '21', '22']`  v6_pred=`20 21 22`  c0_pred(score=1.0)
+- gold=`['20', '21', '22']`  v6_pred=`20 21 22`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12484,7 +13398,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_55532_clip_1.mp4_55532_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2']`  v6_pred=`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 2`  c0_pred(score=0.15384615384615385)
+- gold=`['1', '2']`  v6_pred=`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 2`  c0_score=0.15384615384615385
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12513,7 +13427,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_55614_clip_2.mp4_55614_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['5', '6', '7', '8', '9', '10', '11', '12']`  v6_pred=`4 5 9 10 11 12`  c0_pred(score=0.5714285714285714)
+- gold=`['5', '6', '7', '8', '9', '10', '11', '12']`  v6_pred=`4 5 9 10 11 12`  c0_score=0.5714285714285714
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12543,7 +13457,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_55649_clip_2.mp4_55649_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2']`  v6_pred=`9 10 12 13 27`  c0_pred(score=0.0)
+- gold=`['1', '2']`  v6_pred=`9 10 12 13 27`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12574,7 +13488,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_55689_clip_2.mp4_55689_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['13', '14', '15', '16', '17', '18', '19']`  v6_pred=`16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 3`  c0_pred(score=0.45161290322580644)
+- gold=`['13', '14', '15', '16', '17', '18', '19']`  v6_pred=`16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 3`  c0_score=0.45161290322580644
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12610,7 +13524,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_55718_clip_1.mp4_55718_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3']`  v6_pred=`1 10 13 14 15 16 17 18 21 22 23 24`  c0_pred(score=0.11764705882352941)
+- gold=`['1', '2', '3']`  v6_pred=`1 10 13 14 15 16 17 18 21 22 23 24`  c0_score=0.11764705882352941
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12640,7 +13554,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_55835_clip_3.mp4_55835_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['14', '15', '16', '17']`  v6_pred=`10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 3`  c0_pred(score=0.3076923076923077)
+- gold=`['14', '15', '16', '17']`  v6_pred=`10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 3`  c0_score=0.3076923076923077
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12671,7 +13585,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_55934_clip_2.mp4_55934_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['6', '7', '8', '9', '10', '11', '12', '13', '14']`  v6_pred=`7 8 9 11 12 13 14 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 3`  c0_pred(score=0.5)
+- gold=`['6', '7', '8', '9', '10', '11', '12', '13', '14']`  v6_pred=`7 8 9 11 12 13 14 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 3`  c0_score=0.5
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12703,7 +13617,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_56013_clip_8.mp4_56013_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['55', '56', '57', '58', '59', '60', '61', '62', '63', '64']`  v6_pred=`55 56 57 58 59 60 61 62 63`  c0_pred(score=0.9473684210526316)
+- gold=`['55', '56', '57', '58', '59', '60', '61', '62', '63', '64']`  v6_pred=`55 56 57 58 59 60 61 62 63`  c0_score=0.9473684210526316
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12724,7 +13638,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_56094_clip_8.mp4_56094_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['26', '27', '28', '29', '30', '31', '32']`  v6_pred=`25 31 8`  c0_pred(score=0.27586206896551724)
+- gold=`['26', '27', '28', '29', '30', '31', '32']`  v6_pred=`25 31 8`  c0_score=0.27586206896551724
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12753,7 +13667,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_56195_clip_3.mp4_56195_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['15', '16', '17', '18']`  v6_pred=`15 18 19 20 21 22 23 24 25 26 27 38 40 42 44 45 46 47 48 49 50 5`  c0_pred(score=0.3333333333333333)
+- gold=`['15', '16', '17', '18']`  v6_pred=`15 18 19 20 21 22 23 24 25 26 27 38 40 42 44 45 46 47 48 49 50 5`  c0_score=0.3333333333333333
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12785,7 +13699,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_56266_clip_2.mp4_56266_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['5', '6', '7', '8', '9', '10', '11', '12', '13']`  v6_pred=`5 6 8 9 10 11 12 13 14 15 16 17 23 24 25 26 27 28 29 30 31 32 33`  c0_pred(score=0.5)
+- gold=`['5', '6', '7', '8', '9', '10', '11', '12', '13']`  v6_pred=`5 6 8 9 10 11 12 13 14 15 16 17 23 24 25 26 27 28 29 30 31 32 33`  c0_score=0.5
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12807,7 +13721,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_56268_clip_5.mp4_56268_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['25', '26', '27', '28', '29', '30']`  v6_pred=`25 26 27 28 29 30`  c0_pred(score=1.0)
+- gold=`['25', '26', '27', '28', '29', '30']`  v6_pred=`25 26 27 28 29 30`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12828,7 +13742,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_56327_clip_1.mp4_56327_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2']`  v6_pred=`1`  c0_pred(score=0.15384615384615385)
+- gold=`['1', '2']`  v6_pred=`1`  c0_score=0.15384615384615385
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12860,7 +13774,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_56423_clip_5.mp4_56423_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['18', '19', '20', '21', '22']`  v6_pred=`20 21 22 23`  c0_pred(score=0.6666666666666665)
+- gold=`['18', '19', '20', '21', '22']`  v6_pred=`20 21 22 23`  c0_score=0.6666666666666665
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12884,7 +13798,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_56488_clip_4.mp4_56488_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['16', '17', '18', '19', '20', '21', '22']`  v6_pred=`16 17 18 19 20 21 22 23 24 25 26`  c0_pred(score=0.36363636363636365)
+- gold=`['16', '17', '18', '19', '20', '21', '22']`  v6_pred=`16 17 18 19 20 21 22 23 24 25 26`  c0_score=0.36363636363636365
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12913,7 +13827,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_56627_clip_2.mp4_56627_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['5', '6', '7', '8', '9', '10']`  v6_pred=`6 7 8 9 30 31 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50`  c0_pred(score=0.8571428571428571)
+- gold=`['5', '6', '7', '8', '9', '10']`  v6_pred=`6 7 8 9 30 31 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50`  c0_score=0.8571428571428571
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12942,7 +13856,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_56778_clip_2.mp4_56778_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['6', '7', '8', '9', '10']`  v6_pred=`7 8 9 10 11`  c0_pred(score=0.9090909090909091)
+- gold=`['6', '7', '8', '9', '10']`  v6_pred=`7 8 9 10 11`  c0_score=0.9090909090909091
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -12970,7 +13884,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_56825_clip_7.mp4_56825_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['47', '48', '49', '50', '51', '52']`  v6_pred=`47 48 51 52`  c0_pred(score=0.8)
+- gold=`['47', '48', '49', '50', '51', '52']`  v6_pred=`47 48 51 52`  c0_score=0.8
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13000,7 +13914,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_56997_clip_6.mp4_56997_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['20', '21', '22', '23', '24']`  v6_pred=`20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 4`  c0_pred(score=0.37037037037037035)
+- gold=`['20', '21', '22', '23', '24']`  v6_pred=`20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 4`  c0_score=0.37037037037037035
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13031,7 +13945,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57021_clip_1.mp4_57021_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4', '5']`  v6_pred=`2 4 8`  c0_pred(score=0.21428571428571427)
+- gold=`['1', '2', '3', '4', '5']`  v6_pred=`2 4 8`  c0_score=0.21428571428571427
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13062,7 +13976,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57075_clip_4.mp4_57075_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29']`  v6_pred=`16 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 4`  c0_pred(score=0.4736842105263159)
+- gold=`['16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29']`  v6_pred=`16 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 4`  c0_score=0.4736842105263159
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13093,7 +14007,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57075_clip_5.mp4_57075_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['30', '31', '32', '33', '34']`  v6_pred=`30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45`  c0_pred(score=0.47619047619047616)
+- gold=`['30', '31', '32', '33', '34']`  v6_pred=`30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45`  c0_score=0.47619047619047616
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13129,7 +14043,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57313_clip_1.mp4_57313_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4', '5']`  v6_pred=`1 2 3 4 5 6 7 8`  c0_pred(score=0.7692307692307693)
+- gold=`['1', '2', '3', '4', '5']`  v6_pred=`1 2 3 4 5 6 7 8`  c0_score=0.7692307692307693
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13159,7 +14073,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57346_clip_1.mp4_57346_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4', '5', '6']`  v6_pred=`1 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26`  c0_pred(score=0.41379310344827586)
+- gold=`['1', '2', '3', '4', '5', '6']`  v6_pred=`1 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26`  c0_score=0.41379310344827586
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13193,7 +14107,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57346_clip_3.mp4_57346_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['14', '15', '16', '17', '18', '19']`  v6_pred=`12 19`  c0_pred(score=0.4444444444444444)
+- gold=`['14', '15', '16', '17', '18', '19']`  v6_pred=`12 19`  c0_score=0.4444444444444444
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13225,7 +14139,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57379_clip_2.mp4_57379_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['7', '8', '9', '10', '11', '12', '13', '14', '15']`  v6_pred=`13 15 28 32 34 36 48 49 50 52 53 54`  c0_pred(score=0.5)
+- gold=`['7', '8', '9', '10', '11', '12', '13', '14', '15']`  v6_pred=`13 15 28 32 34 36 48 49 50 52 53 54`  c0_score=0.5
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13260,7 +14174,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57385_clip_6.mp4_57385_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['20', '21', '22', '23', '24']`  v6_pred=`22 24`  c0_pred(score=0.5714285714285715)
+- gold=`['20', '21', '22', '23', '24']`  v6_pred=`22 24`  c0_score=0.5714285714285715
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13290,7 +14204,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57385_clip_7.mp4_57385_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['25', '26', '27', '28', '29', '30', '31']`  v6_pred=`8 9 10 11 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35`  c0_pred(score=0.36363636363636365)
+- gold=`['25', '26', '27', '28', '29', '30', '31']`  v6_pred=`8 9 10 11 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35`  c0_score=0.36363636363636365
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13320,7 +14234,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57489_clip_3.mp4_57489_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['5', '6', '7', '8', '9']`  v6_pred=`6 7 8 9 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30`  c0_pred(score=0.3448275862068966)
+- gold=`['5', '6', '7', '8', '9']`  v6_pred=`6 7 8 9 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30`  c0_score=0.3448275862068966
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13350,7 +14264,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57660_clip_2.mp4_57660_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['9', '10', '11', '12']`  v6_pred=`12 13 14 15 16 17 18 19 20 21 22 23`  c0_pred(score=0.4210526315789474)
+- gold=`['9', '10', '11', '12']`  v6_pred=`12 13 14 15 16 17 18 19 20 21 22 23`  c0_score=0.4210526315789474
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13380,7 +14294,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57789_clip_4.mp4_57789_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['13', '14', '15', '16', '17']`  v6_pred=`2 3 10 15 16 17 18 21 22 23 24`  c0_pred(score=0.37499999999999994)
+- gold=`['13', '14', '15', '16', '17']`  v6_pred=`2 3 10 15 16 17 18 21 22 23 24`  c0_score=0.37499999999999994
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13400,7 +14314,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57789_clip_8.mp4_57789_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['29', '30', '31', '32', '33', '34', '35', '36', '37', '38']`  v6_pred=`28 30 34 36 38 40 41 43 44 45 46 47`  c0_pred(score=0.4347826086956522)
+- gold=`['29', '30', '31', '32', '33', '34', '35', '36', '37', '38']`  v6_pred=`28 30 34 36 38 40 41 43 44 45 46 47`  c0_score=0.4347826086956522
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13429,7 +14343,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57908_clip_2.mp4_57908_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['10', '11', '12', '13', '14']`  v6_pred=`1 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33`  c0_pred(score=0.3448275862068966)
+- gold=`['10', '11', '12', '13', '14']`  v6_pred=`1 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33`  c0_score=0.3448275862068966
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13461,7 +14375,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57928_clip_6.mp4_57928_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['31', '32', '33', '34', '35']`  v6_pred=`31 32 33 34 35 36 37 38 39 40 41 42 43 44`  c0_pred(score=0.5263157894736842)
+- gold=`['31', '32', '33', '34', '35']`  v6_pred=`31 32 33 34 35 36 37 38 39 40 41 42 43 44`  c0_score=0.5263157894736842
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13490,7 +14404,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_57982_clip_2.mp4_57982_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['8', '9', '10', '11', '12', '13', '14', '15', '16']`  v6_pred=`4 12 16`  c0_pred(score=0.06451612903225805)
+- gold=`['8', '9', '10', '11', '12', '13', '14', '15', '16']`  v6_pred=`4 12 16`  c0_score=0.06451612903225805
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13527,7 +14441,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58022_clip_3.mp4_58022_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['12', '13', '14', '15']`  v6_pred=`13 14 15`  c0_pred(score=0.75)
+- gold=`['12', '13', '14', '15']`  v6_pred=`13 14 15`  c0_score=0.75
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13556,7 +14470,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58081_clip_9.mp4_58081_clip9_sequence_generation`
 - task: sequence_generation
-- gold=`['51', '52', '53', '54']`  v6_pred=`14 15 30 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 5`  c0_pred(score=0.0)
+- gold=`['51', '52', '53', '54']`  v6_pred=`14 15 30 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 5`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13592,7 +14506,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58083_clip_11.mp4_58083_clip11_sequence_generation`
 - task: sequence_generation
-- gold=`['47', '48', '49', '50', '51', '52', '53', '54']`  v6_pred=`25 26 32 33 54`  c0_pred(score=0.0)
+- gold=`['47', '48', '49', '50', '51', '52', '53', '54']`  v6_pred=`25 26 32 33 54`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13626,7 +14540,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58184_clip_5.mp4_58184_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['23', '24', '25', '26', '27']`  v6_pred=`6 25 26`  c0_pred(score=0.8000000000000002)
+- gold=`['23', '24', '25', '26', '27']`  v6_pred=`6 25 26`  c0_score=0.8000000000000002
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13663,7 +14577,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58184_clip_7.mp4_58184_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['36', '37', '38']`  v6_pred=`31 32 33 34 35 36 38`  c0_pred(score=0.4)
+- gold=`['36', '37', '38']`  v6_pred=`31 32 33 34 35 36 38`  c0_score=0.4
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13691,7 +14605,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58283_clip_4.mp4_58283_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25']`  v6_pred=`5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27`  c0_pred(score=0.6666666666666666)
+- gold=`['15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25']`  v6_pred=`5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27`  c0_score=0.6666666666666666
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13720,7 +14634,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58290_clip_5.mp4_58290_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['15', '16', '17', '18', '19', '20']`  v6_pred=`17 18 20 28 30 31 32 33`  c0_pred(score=0.42105263157894735)
+- gold=`['15', '16', '17', '18', '19', '20']`  v6_pred=`17 18 20 28 30 31 32 33`  c0_score=0.42105263157894735
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13750,7 +14664,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58296_clip_4.mp4_58296_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['13', '14', '15', '16', '17', '18']`  v6_pred=`11 12 13 15 18 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 4`  c0_pred(score=0.08695652173913045)
+- gold=`['13', '14', '15', '16', '17', '18']`  v6_pred=`11 12 13 15 18 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 4`  c0_score=0.08695652173913045
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13782,7 +14696,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58301_clip_6.mp4_58301_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['27', '28', '29', '30', '31']`  v6_pred=`29 30`  c0_pred(score=0.5714285714285715)
+- gold=`['27', '28', '29', '30', '31']`  v6_pred=`29 30`  c0_score=0.5714285714285715
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13813,7 +14727,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58314_clip_3.mp4_58314_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['12', '13', '14', '15']`  v6_pred=`8 9 10 12 13 14 33`  c0_pred(score=0.4285714285714285)
+- gold=`['12', '13', '14', '15']`  v6_pred=`8 9 10 12 13 14 33`  c0_score=0.4285714285714285
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13844,7 +14758,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58323_clip_5.mp4_58323_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['20', '21', '22', '23']`  v6_pred=`18 25 33 35 37 41 42 48 49 52 53`  c0_pred(score=0.0)
+- gold=`['20', '21', '22', '23']`  v6_pred=`18 25 33 35 37 41 42 48 49 52 53`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13874,7 +14788,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58359_clip_2.mp4_58359_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['6', '7', '8', '9']`  v6_pred=`1 2 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28`  c0_pred(score=0.2857142857142857)
+- gold=`['6', '7', '8', '9']`  v6_pred=`1 2 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28`  c0_score=0.2857142857142857
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13907,7 +14821,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58359_clip_4.mp4_58359_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['15', '16', '17', '18', '19', '20', '21']`  v6_pred=`20 21 22 23 24`  c0_pred(score=0.3333333333333333)
+- gold=`['15', '16', '17', '18', '19', '20', '21']`  v6_pred=`20 21 22 23 24`  c0_score=0.3333333333333333
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13937,7 +14851,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58438_clip_5.mp4_58438_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['16', '17', '18', '19', '20', '21']`  v6_pred=`19 20 21 23 24 25 26 27 28 29 30 31`  c0_pred(score=0.6666666666666666)
+- gold=`['16', '17', '18', '19', '20', '21']`  v6_pred=`19 20 21 23 24 25 26 27 28 29 30 31`  c0_score=0.6666666666666666
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13968,7 +14882,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58484_clip_1.mp4_58484_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4']`  v6_pred=`3 6`  c0_pred(score=0.3333333333333333)
+- gold=`['1', '2', '3', '4']`  v6_pred=`3 6`  c0_score=0.3333333333333333
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -13998,7 +14912,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58727_clip_10.mp4_58727_clip10_sequence_generation`
 - task: sequence_generation
-- gold=`['47', '48', '49', '50', '51', '52']`  v6_pred=`3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26`  c0_pred(score=0.0)
+- gold=`['47', '48', '49', '50', '51', '52']`  v6_pred=`3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14028,7 +14942,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58743_clip_5.mp4_58743_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['13', '14', '15', '16', '17', '18', '19', '20']`  v6_pred=`13 14 15 16 17 18 19 20 21 22 23 24 25 26 27`  c0_pred(score=0.6956521739130436)
+- gold=`['13', '14', '15', '16', '17', '18', '19', '20']`  v6_pred=`13 14 15 16 17 18 19 20 21 22 23 24 25 26 27`  c0_score=0.6956521739130436
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14058,7 +14972,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58892_clip_5.mp4_58892_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['24', '25', '26', '27']`  v6_pred=`25 26 27`  c0_pred(score=0.8571428571428571)
+- gold=`['24', '25', '26', '27']`  v6_pred=`25 26 27`  c0_score=0.8571428571428571
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14078,7 +14992,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58927_clip_1.mp4_58927_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4', '5']`  v6_pred=`1 2 3 4 5`  c0_pred(score=0.3448275862068966)
+- gold=`['1', '2', '3', '4', '5']`  v6_pred=`1 2 3 4 5`  c0_score=0.3448275862068966
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14108,7 +15022,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58927_clip_4.mp4_58927_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['15', '16', '17', '18', '19', '20', '21']`  v6_pred=`5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21`  c0_pred(score=0.45161290322580644)
+- gold=`['15', '16', '17', '18', '19', '20', '21']`  v6_pred=`5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21`  c0_score=0.45161290322580644
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14138,7 +15052,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_58971_clip_8.mp4_58971_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['38', '39', '40', '41', '42', '43', '44']`  v6_pred=`37 38 8 9 43 44 51 52 53 54 57 58 61 62 63 64 65`  c0_pred(score=0.0)
+- gold=`['38', '39', '40', '41', '42', '43', '44']`  v6_pred=`37 38 8 9 43 44 51 52 53 54 57 58 61 62 63 64 65`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14171,7 +15085,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_59027_clip_3.mp4_59027_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['13', '14', '15', '16', '17', '18', '19', '20']`  v6_pred=`13 14 15 16 17 18 19 20 21 22 23 24 25 26`  c0_pred(score=0.5333333333333333)
+- gold=`['13', '14', '15', '16', '17', '18', '19', '20']`  v6_pred=`13 14 15 16 17 18 19 20 21 22 23 24 25 26`  c0_score=0.5333333333333333
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14203,7 +15117,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_59155_clip_9.mp4_59155_clip9_sequence_generation`
 - task: sequence_generation
-- gold=`['42', '43', '44', '45', '46', '47']`  v6_pred=`9 10 11 12 13 14 15 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40`  c0_pred(score=0.0)
+- gold=`['42', '43', '44', '45', '46', '47']`  v6_pred=`9 10 11 12 13 14 15 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14233,7 +15147,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_59156_clip_8.mp4_59156_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['44', '45', '46', '47', '48']`  v6_pred=`47 53`  c0_pred(score=0.7499999999999999)
+- gold=`['44', '45', '46', '47', '48']`  v6_pred=`47 53`  c0_score=0.7499999999999999
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14264,7 +15178,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_59271_clip_5.mp4_59271_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['33', '34', '35', '36', '37', '38']`  v6_pred=`5 6 7 28 30 31 32 33 34 35 36 37 38 40 41 42 43 44 45 46 47 48 4`  c0_pred(score=0.41379310344827586)
+- gold=`['33', '34', '35', '36', '37', '38']`  v6_pred=`5 6 7 28 30 31 32 33 34 35 36 37 38 40 41 42 43 44 45 46 47 48 4`  c0_score=0.41379310344827586
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14286,7 +15200,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_59271_clip_7.mp4_59271_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['45', '46', '47', '48', '49', '50', '51', '52', '53', '54']`  v6_pred=`36 37 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54`  c0_pred(score=0.7)
+- gold=`['45', '46', '47', '48', '49', '50', '51', '52', '53', '54']`  v6_pred=`36 37 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54`  c0_score=0.7
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14321,7 +15235,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_59338_clip_5.mp4_59338_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['21', '22']`  v6_pred=`18 21 22 23 24 25 26 27 28 29 30`  c0_pred(score=0.0)
+- gold=`['21', '22']`  v6_pred=`18 21 22 23 24 25 26 27 28 29 30`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14350,7 +15264,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_59338_clip_8.mp4_59338_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['31', '32', '33', '34', '35']`  v6_pred=`33 34 35 36 37 38 39 40 41 42 43`  c0_pred(score=0.37499999999999994)
+- gold=`['31', '32', '33', '34', '35']`  v6_pred=`33 34 35 36 37 38 39 40 41 42 43`  c0_score=0.37499999999999994
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14370,7 +15284,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_59358_clip_2.mp4_59358_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['7', '8', '9', '10']`  v6_pred=`3 4 9 10 12 13 14 15`  c0_pred(score=0.14285714285714285)
+- gold=`['7', '8', '9', '10']`  v6_pred=`3 4 9 10 12 13 14 15`  c0_score=0.14285714285714285
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14400,7 +15314,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_59358_clip_6.mp4_59358_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['24', '25', '26', '27', '28', '29']`  v6_pred=`22 25 26 27 28 29`  c0_pred(score=0.8333333333333334)
+- gold=`['24', '25', '26', '27', '28', '29']`  v6_pred=`22 25 26 27 28 29`  c0_score=0.8333333333333334
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14430,7 +15344,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_59447_clip_6.mp4_59447_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['25', '26', '27', '28', '29', '30', '31']`  v6_pred=`14 25 26`  c0_pred(score=0.7142857142857143)
+- gold=`['25', '26', '27', '28', '29', '30', '31']`  v6_pred=`14 25 26`  c0_score=0.7142857142857143
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14465,7 +15379,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_59474_clip_11.mp4_59474_clip11_sequence_generation`
 - task: sequence_generation
-- gold=`['51', '52', '53']`  v6_pred=`51 52 53 54 55 56 57`  c0_pred(score=0.6)
+- gold=`['51', '52', '53']`  v6_pred=`51 52 53 54 55 56 57`  c0_score=0.6
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14496,7 +15410,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_59992_clip_2.mp4_59992_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['7', '8', '9', '10', '11', '12']`  v6_pred=`3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18`  c0_pred(score=0.5)
+- gold=`['7', '8', '9', '10', '11', '12']`  v6_pred=`3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18`  c0_score=0.5
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14530,7 +15444,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_60461_clip_8.mp4_60461_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['19', '20', '21', '22']`  v6_pred=`20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40`  c0_pred(score=0.24)
+- gold=`['19', '20', '21', '22']`  v6_pred=`20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40`  c0_score=0.24
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14564,7 +15478,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_60488_clip_4.mp4_60488_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['19', '20', '21', '22', '23', '24', '25', '26', '27', '28']`  v6_pred=`13 15 27 30 32 33 34 35 36 37 39 40 41 42 43 44 45 46 47 48 49 5`  c0_pred(score=0.35294117647058826)
+- gold=`['19', '20', '21', '22', '23', '24', '25', '26', '27', '28']`  v6_pred=`13 15 27 30 32 33 34 35 36 37 39 40 41 42 43 44 45 46 47 48 49 5`  c0_score=0.35294117647058826
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14599,7 +15513,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_60500_clip_6.mp4_60500_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['28', '29', '30', '31', '32', '33', '34']`  v6_pred=`29 30 31 32 33 34 35 36 37`  c0_pred(score=0.16666666666666666)
+- gold=`['28', '29', '30', '31', '32', '33', '34']`  v6_pred=`29 30 31 32 33 34 35 36 37`  c0_score=0.16666666666666666
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14630,7 +15544,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_60550_clip_8.mp4_60550_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['36', '37', '38', '39', '40', '41', '42', '43']`  v6_pred=`2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25`  c0_pred(score=0.0)
+- gold=`['36', '37', '38', '39', '40', '41', '42', '43']`  v6_pred=`2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14658,7 +15572,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_60692_clip_3.mp4_60692_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['10', '11', '12', '13', '14', '15']`  v6_pred=`6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 26 27 28 29 32`  c0_pred(score=0.0)
+- gold=`['10', '11', '12', '13', '14', '15']`  v6_pred=`6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 26 27 28 29 32`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14688,7 +15602,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_60744_clip_2.mp4_60744_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4', '5', '6', '7']`  v6_pred=`2 3 4 5`  c0_pred(score=0.8750000000000001)
+- gold=`['1', '2', '3', '4', '5', '6', '7']`  v6_pred=`2 3 4 5`  c0_score=0.8750000000000001
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14716,7 +15630,7 @@ Next, the scene tr
 
 - `expvid_sequence_generation_videos_level_2_video_segments_61013_clip_1.mp4_61013_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']`  v6_pred=`4 5 38 39 40`  c0_pred(score=0.5142857142857142)
+- gold=`['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']`  v6_pred=`4 5 38 39 40`  c0_score=0.5142857142857142
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14750,7 +15664,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_61383_clip_8.mp4_61383_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['59', '60', '61']`  v6_pred=`61 51 52 53 54 55 56 57 58 59`  c0_pred(score=1.0)
+- gold=`['59', '60', '61']`  v6_pred=`61 51 52 53 54 55 56 57 58 59`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14781,7 +15695,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_61453_clip_4.mp4_61453_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['23', '24', '25', '26', '27', '28', '29', '30', '31']`  v6_pred=`23 24 27 28 29`  c0_pred(score=0.7142857142857143)
+- gold=`['23', '24', '25', '26', '27', '28', '29', '30', '31']`  v6_pred=`23 24 27 28 29`  c0_score=0.7142857142857143
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14802,7 +15716,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_61625_clip_6.mp4_61625_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['37', '38', '39', '40']`  v6_pred=`5 7 9 38`  c0_pred(score=0.4444444444444445)
+- gold=`['37', '38', '39', '40']`  v6_pred=`5 7 9 38`  c0_score=0.4444444444444445
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14835,7 +15749,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_61666_clip_3.mp4_61666_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['8', '9', '10', '11', '12', '13', '14', '15', '16', '17']`  v6_pred=`4 8 9 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 3`  c0_pred(score=0.5000000000000001)
+- gold=`['8', '9', '10', '11', '12', '13', '14', '15', '16', '17']`  v6_pred=`4 8 9 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 3`  c0_score=0.5000000000000001
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14865,7 +15779,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_61743_clip_2.mp4_61743_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['9', '10', '11', '12', '13']`  v6_pred=`11 12 13`  c0_pred(score=0.5714285714285714)
+- gold=`['9', '10', '11', '12', '13']`  v6_pred=`11 12 13`  c0_score=0.5714285714285714
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14896,7 +15810,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_61798_clip_4.mp4_61798_clip4_sequence_generation`
 - task: sequence_generation
-- gold=`['9', '10', '11']`  v6_pred=`9 10 11`  c0_pred(score=0.42857142857142855)
+- gold=`['9', '10', '11']`  v6_pred=`9 10 11`  c0_score=0.42857142857142855
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14922,7 +15836,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_61854_clip_7.mp4_61854_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['42', '43', '44', '45', '46', '47', '48', '49']`  v6_pred=`42 43 44 45 46 47 48 49`  c0_pred(score=1.0)
+- gold=`['42', '43', '44', '45', '46', '47', '48', '49']`  v6_pred=`42 43 44 45 46 47 48 49`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14952,7 +15866,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_61954_clip_5.mp4_61954_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['24', '25', '26', '27']`  v6_pred=`20 21 22 24 25 27 30 33 39 51 52`  c0_pred(score=0.3076923076923077)
+- gold=`['24', '25', '26', '27']`  v6_pred=`20 21 22 24 25 27 30 33 39 51 52`  c0_score=0.3076923076923077
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -14982,7 +15896,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_61993_clip_9.mp4_61993_clip9_sequence_generation`
 - task: sequence_generation
-- gold=`['36', '37', '38', '39', '40', '41']`  v6_pred=`8 9 10 11 12 13 21 22 23 24 25 30 31 32 33 34 35 37 38 41 43 44`  c0_pred(score=0.16)
+- gold=`['36', '37', '38', '39', '40', '41']`  v6_pred=`8 9 10 11 12 13 21 22 23 24 25 30 31 32 33 34 35 37 38 41 43 44`  c0_score=0.16
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15017,7 +15931,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_62088_clip_7.mp4_62088_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['45', '46', '47', '48', '49', '50']`  v6_pred=`40 46 47 48 50 51 52 53 54 55 56 57 58 59 60 61 62`  c0_pred(score=0.26666666666666666)
+- gold=`['45', '46', '47', '48', '49', '50']`  v6_pred=`40 46 47 48 50 51 52 53 54 55 56 57 58 59 60 61 62`  c0_score=0.26666666666666666
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15050,7 +15964,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_62458_clip_10.mp4_62458_clip10_sequence_generation`
 - task: sequence_generation
-- gold=`['47', '48', '49', '50', '51']`  v6_pred=`47 48 49 50 51`  c0_pred(score=1.0)
+- gold=`['47', '48', '49', '50', '51']`  v6_pred=`47 48 49 50 51`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15074,7 +15988,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_62533_clip_8.mp4_62533_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['46', '47']`  v6_pred=`24 25 37 44 46 47`  c0_pred(score=0.5714285714285715)
+- gold=`['46', '47']`  v6_pred=`24 25 37 44 46 47`  c0_score=0.5714285714285715
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15104,7 +16018,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_62623_clip_12.mp4_62623_clip12_sequence_generation`
 - task: sequence_generation
-- gold=`['63', '64', '65', '66', '67', '68']`  v6_pred=`38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 5`  c0_pred(score=0.0)
+- gold=`['63', '64', '65', '66', '67', '68']`  v6_pred=`38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 5`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15132,7 +16046,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_62671_clip_1.mp4_62671_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4', '5', '6', '7']`  v6_pred=`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 2`  c0_pred(score=0.3870967741935483)
+- gold=`['1', '2', '3', '4', '5', '6', '7']`  v6_pred=`1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 2`  c0_score=0.3870967741935483
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15163,7 +16077,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_62754_clip_12.mp4_62754_clip12_sequence_generation`
 - task: sequence_generation
-- gold=`['51', '52', '53', '54', '55']`  v6_pred=`48 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65`  c0_pred(score=0.4444444444444445)
+- gold=`['51', '52', '53', '54', '55']`  v6_pred=`48 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65`  c0_score=0.4444444444444445
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15195,7 +16109,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_63020_clip_7.mp4_63020_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['37', '38', '39']`  v6_pred=`35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52`  c0_pred(score=0.2)
+- gold=`['37', '38', '39']`  v6_pred=`35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52`  c0_score=0.2
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15227,7 +16141,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_63039_clip_1.mp4_63039_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4', '5', '6']`  v6_pred=`2 4 5 23 25 26 27 28 29 30 32 33`  c0_pred(score=0.07142857142857144)
+- gold=`['1', '2', '3', '4', '5', '6']`  v6_pred=`2 4 5 23 25 26 27 28 29 30 32 33`  c0_score=0.07142857142857144
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15258,7 +16172,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_63245_clip_7.mp4_63245_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['37', '38', '39', '40', '41']`  v6_pred=`26 27 28 29 30 31 32 33 34 35 36 37 38`  c0_pred(score=0.4000000000000001)
+- gold=`['37', '38', '39', '40', '41']`  v6_pred=`26 27 28 29 30 31 32 33 34 35 36 37 38`  c0_score=0.4000000000000001
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15288,7 +16202,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_63296_clip_5.mp4_63296_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['25', '26', '27', '28', '29', '30']`  v6_pred=`5 7 8 9 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46`  c0_pred(score=0.41379310344827586)
+- gold=`['25', '26', '27', '28', '29', '30']`  v6_pred=`5 7 8 9 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46`  c0_score=0.41379310344827586
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15320,7 +16234,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_63422_clip_8.mp4_63422_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['31', '32', '33', '34', '35', '36', '37', '38', '39', '40']`  v6_pred=`25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 4`  c0_pred(score=0.625)
+- gold=`['31', '32', '33', '34', '35', '36', '37', '38', '39', '40']`  v6_pred=`25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 4`  c0_score=0.625
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15350,7 +16264,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_63501_clip_3.mp4_63501_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['10', '11', '12', '13', '14', '15', '16', '17']`  v6_pred=`8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29`  c0_pred(score=0.5)
+- gold=`['10', '11', '12', '13', '14', '15', '16', '17']`  v6_pred=`8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29`  c0_score=0.5
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15381,7 +16295,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_63779_clip_6.mp4_63779_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['35', '36', '37', '38', '39', '40', '41']`  v6_pred=`23 27 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 4`  c0_pred(score=0.0)
+- gold=`['35', '36', '37', '38', '39', '40', '41']`  v6_pred=`23 27 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 4`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15412,7 +16326,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_63838_clip_9.mp4_63838_clip9_sequence_generation`
 - task: sequence_generation
-- gold=`['67', '68', '69', '70', '71', '72', '73', '74']`  v6_pred=`70 71 72 73 74`  c0_pred(score=0.7692307692307693)
+- gold=`['67', '68', '69', '70', '71', '72', '73', '74']`  v6_pred=`70 71 72 73 74`  c0_score=0.7692307692307693
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15442,7 +16356,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_63892_clip_6.mp4_63892_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['24', '25', '26', '27']`  v6_pred=`21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37`  c0_pred(score=0.3636363636363636)
+- gold=`['24', '25', '26', '27']`  v6_pred=`21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37`  c0_score=0.3636363636363636
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15477,7 +16391,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_63997_clip_2.mp4_63997_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4']`  v6_pred=`3 4`  c0_pred(score=0.6666666666666666)
+- gold=`['1', '2', '3', '4']`  v6_pred=`3 4`  c0_score=0.6666666666666666
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15509,7 +16423,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_63997_clip_5.mp4_63997_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['17', '18', '19', '20', '21', '22', '23']`  v6_pred=`18 12 16`  c0_pred(score=0.7142857142857143)
+- gold=`['17', '18', '19', '20', '21', '22', '23']`  v6_pred=`18 12 16`  c0_score=0.7142857142857143
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15538,7 +16452,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_64041_clip_2.mp4_64041_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['4', '5', '6', '7', '8', '9']`  v6_pred=`5 6 7 8 9 10 11 12`  c0_pred(score=0.8333333333333334)
+- gold=`['4', '5', '6', '7', '8', '9']`  v6_pred=`5 6 7 8 9 10 11 12`  c0_score=0.8333333333333334
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15567,7 +16481,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_64146_clip_6.mp4_64146_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['33', '34', '35', '36', '37']`  v6_pred=`31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49`  c0_pred(score=0.3478260869565218)
+- gold=`['33', '34', '35', '36', '37']`  v6_pred=`31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49`  c0_score=0.3478260869565218
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15598,7 +16512,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_64216_clip_5.mp4_64216_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['26', '27', '28', '29', '30', '31', '32', '33', '34', '35']`  v6_pred=`26 27 28 29 30 31 32 33 34 35`  c0_pred(score=1.0)
+- gold=`['26', '27', '28', '29', '30', '31', '32', '33', '34', '35']`  v6_pred=`26 27 28 29 30 31 32 33 34 35`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15629,7 +16543,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_64216_clip_6.mp4_64216_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['36', '37', '38', '39', '40']`  v6_pred=`37 38 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 5`  c0_pred(score=0.22222222222222218)
+- gold=`['36', '37', '38', '39', '40']`  v6_pred=`37 38 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 5`  c0_score=0.22222222222222218
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15660,7 +16574,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_64484_clip_9.mp4_64484_clip9_sequence_generation`
 - task: sequence_generation
-- gold=`['36', '37', '38', '39', '40']`  v6_pred=`32 33 34 35 36 37 38 39 40`  c0_pred(score=0.7142857142857143)
+- gold=`['36', '37', '38', '39', '40']`  v6_pred=`32 33 34 35 36 37 38 39 40`  c0_score=0.7142857142857143
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15689,7 +16603,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_64560_clip_3.mp4_64560_clip3_sequence_generation`
 - task: sequence_generation
-- gold=`['23', '24', '25', '26', '27', '28', '29']`  v6_pred=`23 24 25`  c0_pred(score=0.6)
+- gold=`['23', '24', '25', '26', '27', '28', '29']`  v6_pred=`23 24 25`  c0_score=0.6
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15721,7 +16635,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_64889_clip_2.mp4_64889_clip2_sequence_generation`
 - task: sequence_generation
-- gold=`['6', '7', '8', '9', '10', '11']`  v6_pred=`9 10 11 27 30`  c0_pred(score=0.28571428571428575)
+- gold=`['6', '7', '8', '9', '10', '11']`  v6_pred=`9 10 11 27 30`  c0_score=0.28571428571428575
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15756,7 +16670,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_65086_clip_1.mp4_65086_clip1_sequence_generation`
 - task: sequence_generation
-- gold=`['1', '2', '3', '4', '5', '6', '7']`  v6_pred=`2 3 5 7 8 9 10`  c0_pred(score=0.3225806451612903)
+- gold=`['1', '2', '3', '4', '5', '6', '7']`  v6_pred=`2 3 5 7 8 9 10`  c0_score=0.3225806451612903
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15787,7 +16701,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_65086_clip_5.mp4_65086_clip5_sequence_generation`
 - task: sequence_generation
-- gold=`['24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34']`  v6_pred=`25 26 30 33 34 35`  c0_pred(score=0.6060606060606061)
+- gold=`['24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34']`  v6_pred=`25 26 30 33 34 35`  c0_score=0.6060606060606061
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15816,7 +16730,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_65412_clip_7.mp4_65412_clip7_sequence_generation`
 - task: sequence_generation
-- gold=`['31', '32', '33', '34']`  v6_pred=`31 32 33 34`  c0_pred(score=1.0)
+- gold=`['31', '32', '33', '34']`  v6_pred=`31 32 33 34`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15848,7 +16762,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_67016_clip_6.mp4_67016_clip6_sequence_generation`
 - task: sequence_generation
-- gold=`['29', '30']`  v6_pred=`30 31 32 33 34 35 36 37`  c0_pred(score=0.25)
+- gold=`['29', '30']`  v6_pred=`30 31 32 33 34 35 36 37`  c0_score=0.25
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15881,7 +16795,7 @@ In t
 
 - `expvid_sequence_generation_videos_level_2_video_segments_67235_clip_8.mp4_67235_clip8_sequence_generation`
 - task: sequence_generation
-- gold=`['41', '42', '43', '44', '45']`  v6_pred=`42 43 44`  c0_pred(score=0.14814814814814814)
+- gold=`['41', '42', '43', '44', '45']`  v6_pred=`42 43 44`  c0_score=0.14814814814814814
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > Based on the full experimental procedure，determine the step numbers shown in the video.
@@ -15912,7 +16826,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_1942_clip_2.mp4_1942_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'answer': 1}`  rounds: 3
 
 > What is the correct sequence of steps for the experimental procedure: Cell detachment and initial processing?
@@ -15968,7 +16882,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_201062_clip_9.mp4_201062_clip9_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for microscopy-based nuclear segmentation starting from image capture to ROI generation?
@@ -16030,7 +16944,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_201866_clip_6.mp4_201866_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Heart-Lung Block Isolation procedure?
@@ -16080,7 +16994,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_2465_clip_4.mp4_2465_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for microplate well assignment using the MPR interface to designate standards and samples?
@@ -16117,7 +17031,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_2465_clip_5.mp4_2465_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing reagents, samples, and performing the PicoGreen assay?
@@ -16167,7 +17081,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_2693_clip_1.mp4_2693_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the experimental procedure: Host Cell Harvesting and Detachment?
@@ -16209,7 +17123,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_2702_clip_1.mp4_2702_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing the inoculum and mouse setup in this experimental procedure?
@@ -16255,7 +17169,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_2757_clip_4.mp4_2757_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the rat preparation and initial dissection procedure?
@@ -16321,7 +17235,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_2757_clip_7.mp4_2757_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for this experimental procedure?
@@ -16399,7 +17313,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_3187_clip_2.mp4_3187_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the endothelial cell transfection procedure using a GFP-beta-actin plasmid?
@@ -16461,7 +17375,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_3250_clip_1.mp4_3250_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the RNA Isolation and Labeling Setup experimental procedure?
@@ -16507,7 +17421,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_3255_clip_4.mp4_3255_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the experimental procedure of blocking and primary antibody incubation?
@@ -16565,7 +17479,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_3691_clip_1.mp4_3691_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for Embryo Dissection and Brain Isolation?
@@ -16619,7 +17533,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_3953_clip_5.mp4_3953_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for completing the bilayer construct in the 'PEG fibrin addition and final assembly' experimental procedure?
@@ -16665,7 +17579,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_4154_clip_4.mp4_4154_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the cell culture setup and transfection complex formation experiment?
@@ -16707,7 +17621,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_4159_clip_5.mp4_4159_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the membrane permeabilization and DAPI staining procedure after fixation?
@@ -16757,7 +17671,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_4295_clip_9.mp4_4295_clip9_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the experimental procedure titled 'Complete injections and initiate monitoring'?
@@ -16807,7 +17721,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_4308_clip_6.mp4_4308_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the experimental procedure 'Hydrogel degassing and PSNE incorporation'?
@@ -16853,7 +17767,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_50196_clip_3.mp4_50196_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the macrophage preparation and staining experiment?
@@ -16927,7 +17841,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_50210_clip_5.mp4_50210_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Organoid Maintenance and Passaging experimental procedure?
@@ -16993,7 +17907,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_50327_clip_9.mp4_50327_clip9_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the 'Cell Implantation and Closure' experimental procedure?
@@ -17042,7 +17956,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_50849_clip_7.mp4_50849_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the 'Stress Induction and Post-Processing' experimental procedure?
@@ -17092,7 +18006,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_50969_clip_2.mp4_50969_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the probe beam alignment setup?
@@ -17134,7 +18048,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_51044_clip_6.mp4_51044_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the hydrogel-cell integration procedure?
@@ -17180,7 +18094,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_51357_clip_1.mp4_51357_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for isolating functional mouse cardiomyocytes?
@@ -17234,7 +18148,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_51388_clip_1.mp4_51388_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for tumor cell preparation and syringe loading?
@@ -17292,7 +18206,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_51388_clip_7.mp4_51388_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for configuring a fluorescent stereo microscope and performing long-term imaging of tumor/ECM fields with buffer perfusion?
@@ -17346,7 +18260,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_51513_clip_5.mp4_51513_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the initial culture setup and incubation procedure focusing on contamination prevention?
@@ -17375,7 +18289,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_51846_clip_3.mp4_51846_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 1, 'answer': 1}`  rounds: 2
 
 > What is the correct sequence of steps for the Mouse Selection and Baseline Recording experimental procedure?
@@ -17419,7 +18333,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_51974_clip_9.mp4_51974_clip9_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the 'Stamp Contact and Tip Collapse' experimental procedure?
@@ -17461,7 +18375,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_52090_clip_7.mp4_52090_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the size-fractionated cluster isolation experimental procedure?
@@ -17515,7 +18429,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_52098_clip_1.mp4_52098_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for composite sample fabrication in the micro-annular gas flow experiment?
@@ -17573,7 +18487,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_52456_clip_2.mp4_52456_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the amino silanization process of plasma-activated cantilevers?
@@ -17623,7 +18537,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_52653_clip_6.mp4_52653_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Open field test execution?
@@ -17689,7 +18603,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_52742_clip_9.mp4_52742_clip9_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > What is the correct sequence of steps for the 'Imaging configuration and acquisition' experimental procedure?
@@ -17741,7 +18655,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_53010_clip_7.mp4_53010_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Forelimb Grasping Transition experimental procedure?
@@ -17787,7 +18701,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_53260_clip_3.mp4_53260_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the 'Resist Development and Pattern Inspection' experimental procedure?
@@ -17829,7 +18743,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_53367_clip_7.mp4_53367_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the brain stimulation protocol setup and initiation?
@@ -17862,7 +18776,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_53411_clip_4.mp4_53411_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'retrieve': 2, 'answer': 1}`  rounds: 3
 
 > What is the correct sequence of steps for the Vegetative Cell Lysis Setup procedure?
@@ -17921,7 +18835,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_53618_clip_1.mp4_53618_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Primer Design and Template Culture Preparation experimental procedure?
@@ -17963,7 +18877,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_53789_clip_1.mp4_53789_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing a nitro group reduction reaction under inert conditions?
@@ -18017,7 +18931,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_53876_clip_9.mp4_53876_clip9_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the nanopatch antenna assembly and immobilization experimental procedure?
@@ -18063,7 +18977,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_54030_clip_5.mp4_54030_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for this experimental procedure?
@@ -18113,7 +19027,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_54144_clip_5.mp4_54144_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Colony Selection and Culture Expansion experimental procedure?
@@ -18175,7 +19089,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_54611_clip_2.mp4_54611_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 2, 'answer': 1}`  rounds: 3
 
 > What is the correct sequence of steps for completing tissue grinding and sample storage?
@@ -18226,7 +19140,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_54611_clip_6.mp4_54611_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the acid extraction and mixing experiment?
@@ -18272,7 +19186,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_54614_clip_2.mp4_54614_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the soil preparation and pre-incubation procedure?
@@ -18318,7 +19232,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_54752_clip_6.mp4_54752_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > Based on the biofilm strain preparation protocol for spatial analysis, what is the correct sequence of experimental steps?
@@ -18368,7 +19282,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_54818_clip_4.mp4_54818_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for creating aortic constriction to induce pressure overload in an experimental procedure?
@@ -18414,7 +19328,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_54839_clip_5.mp4_54839_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the femoral artery modification procedure to prepare arterial endpoints for optimal graft anastomosis fit?
@@ -18462,7 +19376,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_55080_clip_1.mp4_55080_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing Renca tumor cells and loading them into a syringe for implantation?
@@ -18516,7 +19430,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_55463_clip_3.mp4_55463_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the DNA precipitation and initial washing procedure?
@@ -18549,7 +19463,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_55532_clip_6.mp4_55532_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the incubation setup and initiation procedure?
@@ -18582,7 +19496,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_55614_clip_2.mp4_55614_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for setting up the ozonolysis reactor?
@@ -18644,7 +19558,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56094_clip_14.mp4_56094_clip14_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for initiating slide scanning with the array facing down?
@@ -18677,7 +19591,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56243_clip_2.mp4_56243_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for vertebral dissection and laminectomy to expose spinal structures?
@@ -18743,7 +19657,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56243_clip_4.mp4_56243_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the blood flow probe placement experiment?
@@ -18801,7 +19715,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56248_clip_4.mp4_56248_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing confluent cell monolayers in a 24-well plate?
@@ -18845,7 +19759,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56327_clip_4.mp4_56327_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the dose escalation and resistant cell pooling experiment?
@@ -18883,7 +19797,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56338_clip_2.mp4_56338_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the 'Incubation and irradiation' experiment to study radiation-induced cell death?
@@ -18928,7 +19842,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56423_clip_2.mp4_56423_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for collecting a zero time point baseline sample after adding actinomycin D (ActD) to cells?
@@ -18982,7 +19896,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56611_clip_8.mp4_56611_clip8_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing an EIS sample and deaerating the solution?
@@ -19028,7 +19942,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56639_clip_4.mp4_56639_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the tissue mounting and equilibration experimental procedure?
@@ -19085,7 +19999,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56655_clip_1.mp4_56655_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing a biotinylated surface using bio-PLL for T cell adhesion experiments?
@@ -19127,7 +20041,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56778_clip_2.mp4_56778_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for tissue mounting and deparaffinization to prepare FFPE sections?
@@ -19164,7 +20078,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56779_clip_4.mp4_56779_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for Pupa Harvesting and Dissection to isolate abdominal sac tissue?
@@ -19226,7 +20140,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56825_clip_4.mp4_56825_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for placing silicone culture inserts and seeding cells to establish migration study compartments?
@@ -19272,7 +20186,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56859_clip_5.mp4_56859_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the deoxygenation and hydrogel polymerization procedure?
@@ -19317,7 +20231,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_56997_clip_3.mp4_56997_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the 'Connective Tissue Removal Under Microscope' experimental procedure?
@@ -19359,7 +20273,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57075_clip_3.mp4_57075_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the experimental procedure of gel formation and aging?
@@ -19412,7 +20326,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57131_clip_5.mp4_57131_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the incubation monitoring and pupal evaluation procedure?
@@ -19458,7 +20372,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57137_clip_6.mp4_57137_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the 'Cohabitation and Behavioral Testing Plan' experimental procedure?
@@ -19504,7 +20418,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57329_clip_1.mp4_57329_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing and starving B16F10 melanoma cells to synchronize their metabolic state for conditioned medium collection?
@@ -19554,7 +20468,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57332_clip_3.mp4_57332_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing the Gas Sampling Setup?
@@ -19604,7 +20518,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57379_clip_2.mp4_57379_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the cell harvesting and storage procedure?
@@ -19670,7 +20584,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57407_clip_7.mp4_57407_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the experimental procedure of image processing and conversion involving thermal visualization?
@@ -19708,7 +20622,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57541_clip_10.mp4_57541_clip10_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for perfusate regulation and liver sample analysis?
@@ -19770,7 +20684,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57573_clip_4.mp4_57573_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Adhesion Measurement Setup procedure?
@@ -19812,7 +20726,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57613_clip_4.mp4_57613_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the biomass acid digestion and separation experiment?
@@ -19878,7 +20792,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57613_clip_5.mp4_57613_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'answer': 1}`  rounds: 2
 
 > What is the correct sequence of steps for the lignin drying and ash correction experiment?
@@ -19922,7 +20836,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57660_clip_2.mp4_57660_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing and spotting the sample solution involving 2,5-DHB and carbohydrate analytes?
@@ -19964,7 +20878,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57737_clip_3.mp4_57737_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for exosome isolation and storage from BALF samples?
@@ -20030,7 +20944,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57774_clip_1.mp4_57774_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the cell fixation and overnight processing experimental procedure?
@@ -20072,7 +20986,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57847_clip_5.mp4_57847_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for supernatant collection and solvent drying in this experimental procedure?
@@ -20114,7 +21028,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_57908_clip_6.mp4_57908_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for Fmoc deprotection and resin washing?
@@ -20160,7 +21074,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58022_clip_5.mp4_58022_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for RNA Extraction and cDNA Synthesis?
@@ -20198,7 +21112,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58052_clip_6.mp4_58052_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for washing and drying fdcat-HKUST?
@@ -20252,7 +21166,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58083_clip_5.mp4_58083_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing and labeling neutrophil samples to visualize NET formation dynamics using live-cell microscopy?
@@ -20290,7 +21204,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58164_clip_3.mp4_58164_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the protein precipitation and purification experiment?
@@ -20348,7 +21262,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58184_clip_3.mp4_58184_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the experimental procedure: Dampened sawdust stressor and cage replacement?
@@ -20381,7 +21295,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58223_clip_11.mp4_58223_clip11_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for eluting captured RNA at high temperature?
@@ -20423,7 +21337,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58359_clip_5.mp4_58359_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the 'Agarose sealing and medium addition' experimental procedure?
@@ -20463,7 +21377,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58438_clip_6.mp4_58438_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 1, 'answer': 1}`  rounds: 3
 
 > What is the correct sequence of steps for the Pyrolysis under Reducing Atmosphere experimental procedure?
@@ -20508,7 +21422,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58474_clip_6.mp4_58474_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the enzymatic dissociation and incubation of optic lobes?
@@ -20566,7 +21480,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58484_clip_4.mp4_58484_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing and isolating nickel and graphite electrodes?
@@ -20618,7 +21532,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58674_clip_5.mp4_58674_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the rhizobox filling and spacer placement procedure?
@@ -20668,7 +21582,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58727_clip_3.mp4_58727_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the monocyte labeling and incubation procedure?
@@ -20736,7 +21650,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58882_clip_6.mp4_58882_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the sonication and lysate processing experiment?
@@ -20788,7 +21702,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58916_clip_8.mp4_58916_clip8_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for aerosol exposure initiation and flow control?
@@ -20842,7 +21756,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_58971_clip_9.mp4_58971_clip9_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Doxorubicin treatment and PBS washing experiment?
@@ -20888,7 +21802,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_59119_clip_8.mp4_59119_clip8_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the GUS assay preparation to analyze reporter gene expression in transgenic roots?
@@ -20941,7 +21855,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_59243_clip_2.mp4_59243_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for synchronizing a worm population by collecting gravid adults, washing, and bleaching to release embryos?
@@ -20991,7 +21905,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_59700_clip_10.mp4_59700_clip10_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for RNA sample loading and electrophoresis?
@@ -21055,7 +21969,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_60259_clip_5.mp4_60259_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Pre-Scan Positioning and Safety Checks experimental procedure?
@@ -21117,7 +22031,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_60273_clip_10.mp4_60273_clip10_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing and applying skimmed milk-based blocking solution to prevent non-specific binding during staining?
@@ -21167,7 +22081,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_60469_clip_1.mp4_60469_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for enzymatically digesting tumor fragments to create a cell suspension?
@@ -21209,7 +22123,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_60488_clip_4.mp4_60488_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the suppressor screen transformation and heat shock procedure?
@@ -21275,7 +22189,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_60500_clip_6.mp4_60500_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the 'Support dip-coating' experimental procedure?
@@ -21329,7 +22243,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_60550_clip_3.mp4_60550_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Cell mixing and fusion initiation experiment?
@@ -21381,7 +22295,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_60692_clip_1.mp4_60692_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the plate assembly and membrane coating procedure?
@@ -21430,7 +22344,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_60961_clip_3.mp4_60961_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for testes isolation and cleaning?
@@ -21472,7 +22386,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_60982_clip_7.mp4_60982_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for this experimental procedure?
@@ -21526,7 +22440,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_61037_clip_6.mp4_61037_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for protein extraction and electrophoresis prior to Western blot?
@@ -21567,7 +22481,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_61231_clip_7.mp4_61231_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the antibody binding and overnight incubation procedure?
@@ -21617,7 +22531,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_61383_clip_7.mp4_61383_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for RNA quantification and cDNA synthesis?
@@ -21675,7 +22589,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_61411_clip_1.mp4_61411_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the hippocampal dissection and digestion procedure?
@@ -21731,7 +22645,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_61449_clip_8.mp4_61449_clip8_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Chip vortexing and instrument setup procedure?
@@ -21785,7 +22699,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_61666_clip_5.mp4_61666_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for configuring flow cytometry analysis using an unstained control sample?
@@ -21845,7 +22759,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_61770_clip_1.mp4_61770_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for preparing the base emulsion mixture?
@@ -21906,7 +22820,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_61800_clip_1.mp4_61800_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for mouse dissection and testes harvesting?
@@ -21956,7 +22870,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_61876_clip_5.mp4_61876_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the experimental procedure titled 'Body positioning and sealing', which involves repositioning the holder, applying body slot tape, sealing the thorax with UV glue, neck protection, and initial saline addition for imaging?
@@ -22030,7 +22944,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_61930_clip_7.mp4_61930_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for embryo selection and alignment in microinjection preparation?
@@ -22072,7 +22986,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_61954_clip_4.mp4_61954_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the brain quality control and transfer procedure?
@@ -22122,7 +23036,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_61993_clip_8.mp4_61993_clip8_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the experimental procedure on transcription unit transformation and screening?
@@ -22178,7 +23092,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_62157_clip_5.mp4_62157_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the experimental procedure of stress induction and dye solution preparation?
@@ -22219,7 +23133,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_62417_clip_1.mp4_62417_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the adult chamber assembly and female selection procedure?
@@ -22281,7 +23195,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_62417_clip_3.mp4_62417_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the embryo microinjection procedure using CRISPR components?
@@ -22344,7 +23258,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_62432_clip_5.mp4_62432_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`A`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the mating cage assembly and male acclimation experimental procedure?
@@ -22394,7 +23308,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_62432_clip_6.mp4_62432_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for transferring female mosquitoes and initiating mating?
@@ -22444,7 +23358,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_62559_clip_3.mp4_62559_clip3_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for bead drying and quality check?
@@ -22486,7 +23400,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_62559_clip_5.mp4_62559_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the cell loading procedure execution?
@@ -22550,7 +23464,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_62623_clip_7.mp4_62623_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for setting up the microscope and classifier for lymphocyte analysis?
@@ -22588,7 +23502,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_62649_clip_8.mp4_62649_clip8_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the incubator transfer and pressure monitoring experiment?
@@ -22630,7 +23544,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_62754_clip_6.mp4_62754_clip6_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the pH Optimization for Conjugation experiment?
@@ -22684,7 +23598,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_62853_clip_8.mp4_62853_clip8_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for submitochondrial particle fractionation?
@@ -22738,7 +23652,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_62876_clip_1.mp4_62876_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for mouse preparation and thoracic exposure?
@@ -22794,7 +23708,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_63013_clip_7.mp4_63013_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Protein G-TGT hybridization experiment to functionalize the surface and prepare adhesion molecule binding sites?
@@ -22844,7 +23758,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_63245_clip_7.mp4_63245_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`B`  c0_pred(score=1.0)
+- gold=`B`  v6_pred=`B`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for automating SPE and NMR sample preparation?
@@ -22890,7 +23804,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_63296_clip_11.mp4_63296_clip11_sequence_ordering`
 - task: sequence_ordering
-- gold=`B`  v6_pred=`D`  c0_pred(score=0.0)
+- gold=`B`  v6_pred=`D`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the Cell Harvesting and Sample Preparation experimental procedure?
@@ -22954,7 +23868,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_63422_clip_4.mp4_63422_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the CAM preparation and photosensitizer application procedure?
@@ -22983,7 +23897,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_63501_clip_1.mp4_63501_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 2, 'retrieve': 1, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for Flow Cell Assembly and Baking?
@@ -23033,7 +23947,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_63543_clip_2.mp4_63543_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`C`  c0_pred(score=0.0)
+- gold=`D`  v6_pred=`C`  c0_score=0.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the experimental procedure of eye washing and media transfer?
@@ -23066,7 +23980,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_63662_clip_2.mp4_63662_clip2_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`A`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`A`  c0_score=0.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the cell culture and harvesting experimental procedure?
@@ -23116,7 +24030,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_63662_clip_5.mp4_63662_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'retrieve': 3, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for protein extraction and quantification followed by preparation for immunoblotting?
@@ -23166,7 +24080,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_63779_clip_7.mp4_63779_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'retrieve': 1, 'answer': 1}`  rounds: 2
 
 > What is the correct sequence of steps for hydrolysis vial assembly and vacuum degassing?
@@ -23226,7 +24140,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_64400_clip_5.mp4_64400_clip5_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the initial plant matrix extraction procedure?
@@ -23276,7 +24190,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_64400_clip_7.mp4_64400_clip7_sequence_ordering`
 - task: sequence_ordering
-- gold=`A`  v6_pred=`A`  c0_pred(score=1.0)
+- gold=`A`  v6_pred=`A`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the solution sample extraction procedure to quantify residual contaminants?
@@ -23313,7 +24227,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_64484_clip_4.mp4_64484_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`D`  v6_pred=`D`  c0_pred(score=1.0)
+- gold=`D`  v6_pred=`D`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the buffer washing experimental procedure?
@@ -23362,7 +24276,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_64759_clip_1.mp4_64759_clip1_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`C`  c0_pred(score=1.0)
+- gold=`C`  v6_pred=`C`  c0_score=1.0
 - action_dist: `{'answer': 1}`  rounds: 1
 
 > What is the correct sequence of steps for the Sample Preparation and Initial Dispersion experimental procedure?
@@ -23407,7 +24321,7 @@ In t
 
 - `expvid_sequence_ordering_videos_level_2_video_segments_64923_clip_4.mp4_64923_clip4_sequence_ordering`
 - task: sequence_ordering
-- gold=`C`  v6_pred=`B`  c0_pred(score=0.0)
+- gold=`C`  v6_pred=`B`  c0_score=0.0
 - action_dist: `{'visual_inspect': 1, 'retrieve': 2, 'answer': 1}`  rounds: 4
 
 > What is the correct sequence of steps for the bead blocking procedure with tRNA?

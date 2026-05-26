@@ -141,7 +141,10 @@ def _extract_json_envelope(raw: str) -> Optional[str]:
     """Find the first balanced ``{ ... }`` object in raw text.
 
     Handles common LLM cruft: leading prose, ``` fences, trailing
-    explanations.
+    explanations. If the text is truncated (depth never returns to 0
+    — e.g. the VLM hit max_tokens mid-enumeration), trim to the last
+    complete element and pad missing braces / brackets so that the
+    parser can recover the partial KG.
     """
     s = raw.strip()
     # Strip code fences if present.
@@ -157,6 +160,7 @@ def _extract_json_envelope(raw: str) -> Optional[str]:
         return None
 
     depth = 0
+    bracket_depth = 0
     in_str = False
     esc = False
     for i in range(start, len(s)):
@@ -178,7 +182,97 @@ def _extract_json_envelope(raw: str) -> Optional[str]:
             depth -= 1
             if depth == 0:
                 return s[start:i + 1]
-    return None   # unbalanced (likely truncated)
+        elif ch == "[":
+            bracket_depth += 1
+        elif ch == "]":
+            bracket_depth -= 1
+
+    # --- Truncation recovery ---
+    # The string ended while still inside an object (depth > 0). Most
+    # common cause: VLM hit max_tokens mid-enumeration. Trim back to
+    # the last complete element and add the missing closing brackets
+    # so the rest of the parser can recover whatever was emitted.
+    tail = s[start:]
+    return _repair_truncated(tail)
+
+
+def _repair_truncated(s: str) -> Optional[str]:
+    """Pad a truncated JSON object with its missing brackets.
+
+    Trims back to the LAST point where depth + bracket_depth returned
+    to (depth=1, bracket_depth=1) — i.e. just after a complete entity
+    object closed inside an array of objects — then pads the closing
+    brackets to balance.
+
+    If no such safe point exists, we fall back to "trim to last `,`
+    + balance" as a coarse second attempt.
+    """
+    in_str = False
+    esc = False
+    depth = 0
+    bracket_depth = 0
+    # Track position immediately AFTER a `}` that brings us back to
+    # exactly (depth=1, bracket_depth=1). That's the end of one entity
+    # in the "entities" array.
+    last_array_item_end: Optional[int] = None
+    last_comma: Optional[int] = None
+
+    for i, ch in enumerate(s):
+        if esc:
+            esc = False
+            continue
+        if ch == "\\":
+            esc = True
+            continue
+        if ch == '"':
+            in_str = not in_str
+            continue
+        if in_str:
+            continue
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 1 and bracket_depth == 1:
+                last_array_item_end = i + 1
+        elif ch == "[":
+            bracket_depth += 1
+        elif ch == "]":
+            bracket_depth -= 1
+        elif ch == ",":
+            last_comma = i
+
+    trim_at = last_array_item_end if last_array_item_end is not None \
+                  else last_comma
+    if trim_at is None:
+        return None
+
+    trimmed = s[:trim_at]
+    # Recompute current depths on trimmed text.
+    in_str = False
+    esc = False
+    depth = 0
+    bracket_depth = 0
+    for ch in trimmed:
+        if esc:
+            esc = False
+            continue
+        if ch == "\\":
+            esc = True
+            continue
+        if ch == '"':
+            in_str = not in_str
+            continue
+        if in_str:
+            continue
+        if ch == "{": depth += 1
+        elif ch == "}": depth -= 1
+        elif ch == "[": bracket_depth += 1
+        elif ch == "]": bracket_depth -= 1
+
+    if depth < 0 or bracket_depth < 0:
+        return None
+    return trimmed + ("]" * bracket_depth) + ("}" * depth)
 
 
 def _try_parse_json(payload: str) -> Optional[Any]:

@@ -306,3 +306,40 @@ class TestExtractKG:
         prompt = vlm.generate_video.call_args.args[0]
         # 320 / 16 = 20.0s
         assert "20.0s" in prompt
+
+# Append to test_stage1_extract.py:
+class TestTruncationRepair:
+    def test_truncated_mid_element(self):
+        """JSON cut mid-entity → recover earlier complete entities."""
+        from protonote.v8.stages.stage1_extract import parse_kg_from_response
+        bad = '''{"entities": [
+            {"id": "Entity1", "type": "Container", "features": "x",
+              "identity_guess": "y", "initial_confidence": 0.5},
+            {"id": "Entity2", "type": "Container", "features": "x",
+              "identity_guess": "y", "initial_confidence": 0.5},
+            {"id": "Entity3", "type": "Container", "features": "tru'''
+        kg = parse_kg_from_response(bad)
+        assert len(kg.entities) == 2   # Entity1 + Entity2 recovered
+        assert "Entity1" in kg.entities
+        assert "Entity2" in kg.entities
+
+    def test_truncated_mid_array(self):
+        """Truncation right at a `,` boundary should still recover."""
+        from protonote.v8.stages.stage1_extract import parse_kg_from_response
+        bad = '''{"entities": [
+            {"id": "Entity1", "type": "Container", "features": "x",
+              "identity_guess": "y", "initial_confidence": 0.5},'''
+        kg = parse_kg_from_response(bad)
+        assert len(kg.entities) == 1
+        assert "Entity1" in kg.entities
+
+    def test_truncation_with_appended_garbage(self):
+        """Real-world: VLM cut + diagnose script appended '... [N more truncated]'."""
+        from protonote.v8.stages.stage1_extract import parse_kg_from_response
+        bad = ('{"entities": [\n'
+                '{"id": "Entity1", "type": "Container", "features": "a",\n'
+                ' "identity_guess": "y", "initial_confidence": 0.5},\n'
+                '{"id": "Entity2", "type": "Container", "features": "tru\n'
+                '\n... [2888 more chars truncated]')
+        kg = parse_kg_from_response(bad)
+        assert "Entity1" in kg.entities

@@ -289,3 +289,46 @@ def ground_via_retrieve_only(
         ),
     )
     return False
+
+
+# ============================================================
+# OCR path (W4D4) — Display + Measurement entities
+# ============================================================
+
+
+def ground_via_ocr(
+    entity: Entity,
+    frames: list[Image.Image],
+    vlm,
+) -> bool:
+    """Crop entity region and OCR for text/numbers.
+
+    Used for Display and Measurement entities (always-OCR per Stage 2
+    policy). Returns True if OCR returned any text, False if blank or
+    on error. ``entity.grounded.ocr_text`` is set either way.
+    """
+    from protonote.v8.tools.ocr_tool import ocr_for_entity
+
+    result = ocr_for_entity(entity, frames, vlm)
+    text = result.get("text", "")
+    err = result.get("error")
+
+    if text:
+        entity.grounded = GroundingInfo(
+            identity=None,
+            confidence=0.9,           # OCR-content trust, not identity
+            method="ocr",
+            ocr_text=text,
+            evidence=(
+                f"OCR read text from {entity.type} crop "
+                f"(frame {result.get('frame_idx', '?')})"
+            ),
+        )
+        return True
+
+    entity.grounded = GroundingInfo(
+        identity=None, confidence=0.0, method="ungrounded",
+        ocr_text=None,
+        evidence=err if err else "OCR returned no text (NO_TEXT_VISIBLE)",
+    )
+    return False

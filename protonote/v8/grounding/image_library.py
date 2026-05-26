@@ -1,26 +1,22 @@
 """Image library for V8 entity grounding.
 
-Stores reference images (one or more per identity class) along with
-metadata. Used in Stage 3 grounding via SigLIP2 + FAISS:
+Two layers live in this module:
 
-    library = ImageLibrary.from_directory("data/v8_image_library/")
-    library.build_index(embedder)              # one-time
-    matches = library.search(query_pil_image, k=5)
-    # matches: list[ImageEntry] sorted by similarity
+  (1) `ImageEntry` / `ImageLibrary` — schema-only collection (W2D1).
+      Useful when constructing a small in-memory library from a
+      directory of class-folders; embeddings stored per entry.
 
-Directory layout expected by `from_directory`:
+  (2) `LibraryEntry` / `IndexedImageLibrary` — high-level API on top
+      of a manifest-built FAISS index (W2D5). This is what Stage 3
+      grounding actually calls in V8 inference:
 
-    root/
-      centrifuge/
-        img1.jpg
-        img2.jpg
-      pipette/
-        img1.jpg
-      ...
+          lib = IndexedImageLibrary.load("cache/image_library/index")
+          matches = lib.top_k(crop_pil, embedder, k=5,
+                                  filter_entity_type="Container")
+          # matches: list[LibraryEntry] sorted by similarity
 
-Each top-level subdir is an identity class; image files within belong
-to that class. Multiple datasets can coexist by passing a
-`source_dataset` tag at construction time.
+`IndexedImageLibrary` is the production object — it wraps a
+SigLIP2Embedder + a FaissIndex and exposes a simple search API.
 """
 
 from __future__ import annotations
@@ -243,4 +239,138 @@ class ImageLibrary:
             f"datasets={self.datasets}, "
             f"dim={self._embedding_dim}, "
             f"indexed={self._index is not None})"
+        )
+
+
+# ============================================================
+# (2) High-level API for the manifest-built FAISS library (W2D5)
+# ============================================================
+
+
+@dataclass
+class LibraryEntry:
+    """A single match returned by `IndexedImageLibrary.top_k`."""
+
+    label: str
+    entity_type: str
+    image_path: str
+    dataset: str
+    score: float = 0.0
+    all_labels: list[str] = field(default_factory=list)
+    all_entity_types: list[str] = field(default_factory=list)
+    raw_label: str = ""
+
+    @classmethod
+    def from_metadata(cls, meta: dict) -> "LibraryEntry":
+        return cls(
+            label=meta.get("label", ""),
+            entity_type=meta.get("entity_type", ""),
+            image_path=meta.get("image_path", ""),
+            dataset=meta.get("dataset", ""),
+            score=float(meta.get("score", 0.0)),
+            all_labels=list(meta.get("all_labels", [meta.get("label", "")])),
+            all_entity_types=list(
+                meta.get("all_entity_types", [meta.get("entity_type", "")])
+            ),
+            raw_label=meta.get("raw_label", ""),
+        )
+
+
+class IndexedImageLibrary:
+    """High-level API for the V8 image library backed by a built FAISS index.
+
+    Typical usage (Stage 3 grounding flow):
+
+        lib = IndexedImageLibrary.load("cache/image_library/index", embedder)
+        matches = lib.top_k(crop_pil, k=5, filter_entity_type="Container")
+        for m in matches:
+            print(f"{m.label}: {m.score:.3f}  ({m.dataset})")
+
+    The embedder is held by reference so we don't reload SigLIP2 per call.
+    The FAISS index is read-only after `load` — to rebuild, run
+    `python -m protonote.v8.grounding.build_index`.
+    """
+
+    def __init__(self, faiss_index, embedder):
+        # local imports to keep top-level cheap (faiss/torch are heavy)
+        from protonote.v8.grounding.faiss_index import FaissIndex
+        if not isinstance(faiss_index, FaissIndex):
+            raise TypeError(
+                f"faiss_index must be a FaissIndex, got {type(faiss_index)}"
+            )
+        self.faiss = faiss_index
+        self.embedder = embedder
+
+    @classmethod
+    def load(cls, index_dir: str | Path, embedder) -> "IndexedImageLibrary":
+        """Load a pre-built FAISS index from disk + attach an embedder."""
+        from protonote.v8.grounding.faiss_index import FaissIndex
+        idx = FaissIndex.load(index_dir)
+        # quick dim-compat check (skipped if embedder hasn't loaded model)
+        try:
+            if hasattr(embedder, "embedding_dim"):
+                emb_dim = embedder.embedding_dim
+                if emb_dim != idx.embed_dim:
+                    raise ValueError(
+                        f"embedder dim {emb_dim} != index dim {idx.embed_dim}"
+                    )
+        except RuntimeError:
+            pass  # SigLIP2 lazy-load: dim known only after first embed call
+        return cls(idx, embedder)
+
+    # ---- Search ----
+
+    def top_k(self,
+                 query_image,
+                 k: int = 5,
+                 *,
+                 filter_entity_type: str | None = None,
+                 filter_dataset: str | None = None) -> list[LibraryEntry]:
+        """Top-k matches for a single PIL image (or list)."""
+        from PIL import Image
+        if isinstance(query_image, Image.Image):
+            images = [query_image]
+        else:
+            images = list(query_image)
+        if not images:
+            return []
+        emb = self.embedder.embed_images(images)[0]
+        hits = self.faiss.search(
+            emb, k=k,
+            filter_entity_type=filter_entity_type,
+            filter_dataset=filter_dataset,
+        )
+        return [LibraryEntry.from_metadata(h) for h in hits]
+
+    def get_by_label(self, label: str, max_results: int = 10) -> list[LibraryEntry]:
+        return [
+            LibraryEntry.from_metadata(m)
+            for m in self.faiss.get_by_label(label, max_results=max_results)
+        ]
+
+    # ---- Stats / dunder ----
+
+    def __len__(self) -> int:
+        return len(self.faiss)
+
+    @property
+    def n_entries(self) -> int:
+        return len(self.faiss)
+
+    @property
+    def embedding_dim(self) -> int:
+        return self.faiss.embed_dim
+
+    @property
+    def identities(self) -> list[str]:
+        return sorted({m.get("label", "") for m in self.faiss.metadata})
+
+    @property
+    def datasets(self) -> list[str]:
+        return sorted({m.get("dataset", "") for m in self.faiss.metadata})
+
+    def __repr__(self) -> str:
+        return (
+            f"IndexedImageLibrary(n={len(self)}, dim={self.embedding_dim}, "
+            f"datasets={self.datasets}, identities={len(self.identities)})"
         )

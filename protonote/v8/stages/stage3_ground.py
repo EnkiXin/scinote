@@ -19,8 +19,12 @@ from __future__ import annotations
 import logging
 from typing import Optional
 
+import numpy as np
 from PIL import Image
 
+from protonote.v8.grounding.candidate_extractor import (
+    extract_candidates_from_passages,
+)
 from protonote.v8.grounding.crop_utils import crop_entity
 from protonote.v8.grounding.verifier import vlm_verify_match
 from protonote.v8.kg.entity import Entity, GroundingInfo
@@ -123,3 +127,165 @@ def ground_via_image_match(
         ),
     )
     return True
+
+
+# ============================================================
+# RETRIEVE_PLUS_IMAGE path (W4D3)
+# ============================================================
+
+
+def ground_via_retrieve_plus_image(
+    entity: Entity,
+    frames: list[Image.Image],
+    image_library,
+    retrieve_tool,
+    llm_client,
+) -> bool:
+    """KB retrieve → candidate names → image-library lookup + visual verify.
+
+    Used as a fallback for low-similarity IMAGE_MATCH cases and as the
+    primary path for low-confidence Container/Instrument entities.
+
+    Updates ``entity.grounded`` in place. Returns True only if a candidate
+    was found in the library AND a cosine-similarity above
+    ``RETRIEVE_PLUS_IMAGE_MIN`` (0.55) was achieved.
+    """
+    passages = retrieve_tool.retrieve_for_entity(entity, top_k=5)
+    if not passages:
+        entity.grounded = GroundingInfo(
+            identity=None, confidence=0.0, method="ungrounded",
+            evidence="no KB passages retrieved",
+        )
+        return False
+
+    candidates = extract_candidates_from_passages(
+        entity, passages, llm_client,
+    )
+    if not candidates:
+        entity.grounded = GroundingInfo(
+            identity=None, confidence=0.0, method="ungrounded",
+            evidence=(
+                f"KB returned {len(passages)} passages, no candidates "
+                f"extracted"
+            ),
+        )
+        return False
+
+    crop = crop_entity(frames, entity)
+    if crop is None:
+        entity.grounded = GroundingInfo(
+            identity=None, confidence=0.0, method="ungrounded",
+            candidates=candidates,
+            evidence=(
+                f"candidates from KB but no crop available: "
+                f"{', '.join(candidates)}"
+            ),
+        )
+        return False
+
+    # Compute crop embedding once.
+    try:
+        crop_emb = image_library.embedder.embed_images([crop])[0]
+    except Exception as e:
+        logger.warning("crop embedding failed: %s", e)
+        entity.grounded = GroundingInfo(
+            identity=None, confidence=0.0, method="ungrounded",
+            candidates=candidates,
+            evidence=f"crop-embedding failed: {e}",
+        )
+        return False
+
+    best_label: Optional[str] = None
+    best_dataset: Optional[str] = None
+    best_score: float = 0.0
+
+    for cand in candidates:
+        refs = image_library.get_by_label(cand)
+        if not refs:
+            continue
+        ref = refs[0]
+        try:
+            ref_img = Image.open(ref.image_path).convert("RGB")
+            ref_emb = image_library.embedder.embed_images([ref_img])[0]
+        except Exception as e:
+            logger.debug("reference embed failed for %s: %s", cand, e)
+            continue
+        score = float(np.dot(crop_emb, ref_emb))   # both L2-normalized
+        if score > best_score:
+            best_score = score
+            best_label = cand
+            best_dataset = ref.dataset
+
+    if best_label is not None and best_score >= RETRIEVE_PLUS_IMAGE_MIN:
+        entity.grounded = GroundingInfo(
+            identity=best_label,
+            confidence=best_score,
+            method="retrieve_plus_image",
+            source_dataset=best_dataset,
+            candidates=candidates,
+            evidence=(
+                f"KB candidates: {', '.join(candidates)}. "
+                f"Visual match: {best_label} (sim {best_score:.2f})"
+            ),
+        )
+        return True
+
+    entity.grounded = GroundingInfo(
+        identity=None, confidence=0.0, method="ungrounded",
+        candidates=candidates,
+        evidence=(
+            f"KB candidates ({', '.join(candidates)}) not visually "
+            f"verifiable (best sim {best_score:.2f} < "
+            f"{RETRIEVE_PLUS_IMAGE_MIN})"
+        ),
+    )
+    return False
+
+
+# ============================================================
+# RETRIEVE_ONLY path (W4D3) — Materials only
+# ============================================================
+
+
+def ground_via_retrieve_only(
+    entity: Entity,
+    retrieve_tool,
+    llm_client,
+) -> bool:
+    """KB retrieve → candidate names; NO image library check.
+
+    For Material entities where library hit rate is 0 % (实测). We
+    still don't commit to an identity (no visual verification), but
+    we attach the candidate list so Stage 4 reasoning can use it as
+    a hypothesis (e.g. "if Entity3 is MOF, then …").
+
+    Always returns False (entity stays officially ungrounded); the
+    ``candidates`` field is the useful side-effect.
+    """
+    passages = retrieve_tool.retrieve_for_entity(entity, top_k=5)
+    if not passages:
+        entity.grounded = GroundingInfo(
+            identity=None, confidence=0.0, method="ungrounded",
+            evidence="no KB passages retrieved",
+        )
+        return False
+
+    candidates = extract_candidates_from_passages(
+        entity, passages, llm_client,
+    )
+    if not candidates:
+        entity.grounded = GroundingInfo(
+            identity=None, confidence=0.0, method="ungrounded",
+            evidence=f"KB returned {len(passages)} passages, no candidates",
+        )
+        return False
+
+    entity.grounded = GroundingInfo(
+        identity=None, confidence=0.0, method="ungrounded",
+        candidates=candidates,
+        evidence=(
+            f"KB candidates: {', '.join(candidates)}. "
+            f"Material entity — no visual library verification."
+        ),
+    )
+    return False

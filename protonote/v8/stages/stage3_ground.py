@@ -332,3 +332,98 @@ def ground_via_ocr(
         evidence=err if err else "OCR returned no text (NO_TEXT_VISIBLE)",
     )
     return False
+
+
+# ============================================================
+# Orchestrator (W4D5)
+# ============================================================
+
+
+def ground_kg(
+    kg,
+    frames: list[Image.Image],
+    image_library,
+    retrieve_tool,
+    vlm,
+) -> dict:
+    """Run Stages 2 + 3 end-to-end.
+
+    Sequence:
+      1. Stage 2 ``route_kg`` partitions entities + pre-populates
+         USE_AS_IS grounding.
+      2. For each IMAGE_MATCH entity → ``ground_via_image_match``.
+         If it returns False AND left ``entity.grounded=None`` (i.e.
+         low SigLIP2 similarity or VLM-verify rejection), escalate
+         to ``ground_via_retrieve_plus_image``.
+      3. For each entity directly routed to RETRIEVE_PLUS_IMAGE
+         (low-confidence Container/Instrument) → that path.
+      4. For each RETRIEVE_ONLY entity (Materials) → that path.
+      5. For each OCR entity (Display/Measurement) → that path.
+
+    Returns a counts dict with grounding outcomes per path. The KG
+    itself is mutated in place — every entity ends with a non-None
+    ``entity.grounded`` (either a real ground or a deliberate
+    ``ungrounded`` record).
+    """
+    # Local import to keep module-load light.
+    from protonote.v8.stages.stage2_route import route_kg
+
+    routing = route_kg(kg)
+    counts = {
+        "use_as_is":            len(routing.use_as_is),
+        "image_match_success":  0,
+        "image_match_escalated":0,
+        "retrieve_plus_image_success": 0,
+        "retrieve_only":        0,
+        "ocr_success":          0,
+        "ocr_blank":            0,
+        "ungrounded_total":     0,
+    }
+
+    # --- IMAGE_MATCH (with escalation) ---
+    for ent in routing.image_match:
+        ok = ground_via_image_match(ent, frames, image_library, vlm)
+        if ok:
+            counts["image_match_success"] += 1
+            continue
+        # If still None, escalate.
+        if ent.grounded is None:
+            counts["image_match_escalated"] += 1
+            ok2 = ground_via_retrieve_plus_image(
+                ent, frames, image_library, retrieve_tool, vlm,
+            )
+            if ok2:
+                counts["retrieve_plus_image_success"] += 1
+
+    # --- direct RETRIEVE_PLUS_IMAGE ---
+    for ent in routing.retrieve_plus_image:
+        if ground_via_retrieve_plus_image(
+            ent, frames, image_library, retrieve_tool, vlm,
+        ):
+            counts["retrieve_plus_image_success"] += 1
+
+    # --- RETRIEVE_ONLY (Materials) ---
+    for ent in routing.retrieve_only:
+        ground_via_retrieve_only(ent, retrieve_tool, vlm)
+        counts["retrieve_only"] += 1
+
+    # --- OCR ---
+    for ent in routing.ocr:
+        if ground_via_ocr(ent, frames, vlm):
+            counts["ocr_success"] += 1
+        else:
+            counts["ocr_blank"] += 1
+
+    # Final tally + sanity: every entity should have entity.grounded set.
+    for ent in kg.entities.values():
+        if ent.grounded is None:
+            # Should not happen, but be defensive — mark as ungrounded.
+            ent.grounded = GroundingInfo(
+                identity=None, confidence=0.0, method="ungrounded",
+                evidence="orchestrator: no path produced a grounding",
+            )
+        if (ent.grounded.method == "ungrounded"
+                or ent.grounded.identity is None):
+            counts["ungrounded_total"] += 1
+
+    return counts

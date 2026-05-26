@@ -131,7 +131,7 @@ class SigLIP2Embedder:
                 inputs = {k: v.to(self.device) for k, v in inputs.items()}
             with torch.no_grad():
                 feats = self._model.get_image_features(**inputs)
-            out_chunks.append(_l2_normalize(feats.cpu().float().numpy()))
+            out_chunks.append(_l2_normalize(_to_numpy(feats)))
         return np.concatenate(out_chunks, axis=0)
 
     # ---- Text embedding ----
@@ -154,7 +154,7 @@ class SigLIP2Embedder:
                 inputs = {k: v.to(self.device) for k, v in inputs.items()}
             with torch.no_grad():
                 feats = self._model.get_text_features(**inputs)
-            out_chunks.append(_l2_normalize(feats.cpu().float().numpy()))
+            out_chunks.append(_l2_normalize(_to_numpy(feats)))
         return np.concatenate(out_chunks, axis=0)
 
 
@@ -200,6 +200,20 @@ class MockEmbedder:
 
 
 # --- helper ---
+
+def _to_numpy(feats) -> np.ndarray:
+    """Coerce SigLIP2 output to (N, D) np.float32.
+
+    `get_image_features` / `get_text_features` may return a plain
+    Tensor OR a `BaseModelOutputWithPooling` wrapping `last_hidden_state`
+    + `pooler_output`. We prefer the pooled output when present.
+    """
+    if hasattr(feats, "pooler_output"):
+        feats = feats.pooler_output
+    elif hasattr(feats, "last_hidden_state"):
+        feats = feats.last_hidden_state.mean(dim=1)
+    return feats.detach().cpu().float().numpy()
+
 
 def _l2_normalize(x: np.ndarray, eps: float = 1e-8) -> np.ndarray:
     """L2-normalize rows of a (..., D) array."""

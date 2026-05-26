@@ -1,76 +1,70 @@
-# Python
-__pycache__/
-*.py[cod]
-*.so
-*.egg-info/
-.pytest_cache/
 
-# Virtual env
-venv/
-env/
-.venv/
-
-# IDE / OS
-.DS_Store
-.vscode/
-.idea/
-
-# Claude Code state
+asr_cache.json
+# ASR cache (large)
+*.avi
+~/.cache/
+cache/image_library/index/
+cache/image_library/processed/
+cache/image_library/raw/
+checkpoints/**/adapter_model.safetensors
+checkpoints/**/checkpoint-*/
+checkpoints/**/optimizer.pt
+checkpoints/**/rng_state_*.pth
+checkpoints/**/scheduler.pt
+checkpoints/**/tokenizer.json
+checkpoints/**/training_args.bin
 .claude/
-
+# Claude Code state
+data/bioprobench/.cache
+data/bioprobench/filtered_corpus.jsonl
+data/bioprobench/*.json
 # Data & cached downloads (too large for git)
 /data/             # only matches scinote/data/, not e.g. protonote/data/
-*.pkl
-*.npz
-*.zip
-*.tar.gz
-*.parquet
-
-# Logs
-*.log
-nohup.out
-
+.DS_Store
+*.egg-info/
+env/
+# Files exceeding GitHub 100MB limit (keep adapters local; no git-lfs in this repo)
 # HuggingFace cache
-~/.cache/
-
-# ASR cache (large)
-asr_cache.json
-
-# Results — keep small JSON summaries, exclude bulky output
-results/*.pkl
-results_*/    # eval result dirs (videos may have large pickles)
-!results_twostage_v2/eval_*.json
+.idea/
+# IDE / OS
+*.log
+# Logs
+# LoRA training intermediate checkpoints (regenerable; >100MB)
+*.mov
+*.mp4
+nohup.out
+*.npz
+*.parquet
+*.pkl
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Python
 !results/eval_*.json
+results_*/    # eval result dirs (videos may have large pickles)
 !results_h200/
 !results_h200/**
+results_h200/**/*.log
+results_h200/qwen7b_smoke/
+results_h200/qwen7b_twostage_v2/
 !results_h200_unified/
 !results_h200_unified/**
 !results_h200_unified_q72/
 !results_h200_unified_q72/**
-results_h200/**/*.log
-# Smoke dirs (test only)
-results_h200/qwen7b_smoke/
-results_h200/qwen7b_twostage_v2/
-results_smoke_q7/
 results_h200_unified_smoke/
-
-# Smoke test logs
+# Results — keep small JSON summaries, exclude bulky output
+results/*.pkl
+results_smoke_q7/
+!results_twostage_v2/eval_*.json
+# Smoke dirs (test only)
 smoke_test*.log
-
+# Smoke test logs
+*.so
+*.tar.gz
+.venv/
+venv/
 # Video files (never commit raw videos)
-*.mp4
-*.avi
-*.mov
-
-# LoRA training intermediate checkpoints (regenerable; >100MB)
-checkpoints/**/checkpoint-*/
-# Files exceeding GitHub 100MB limit (keep adapters local; no git-lfs in this repo)
-checkpoints/**/adapter_model.safetensors
-checkpoints/**/optimizer.pt
-checkpoints/**/scheduler.pt
-checkpoints/**/rng_state_*.pth
-checkpoints/**/training_args.bin
-checkpoints/**/tokenizer.json
-data/bioprobench/*.json
-data/bioprobench/filtered_corpus.jsonl
-data/bioprobench/.cache
+# Virtual env
+.vscode/
+*.zip
+cache/image_library/processed/*.csv

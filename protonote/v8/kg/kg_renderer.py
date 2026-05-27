@@ -64,7 +64,6 @@ def _render_comprehension_summary(kg) -> list[str]:
     m = kg.metadata
     lines = [
         f"**Comprehension level**: {m.comprehension_level:.0%}",
-        f"- Grounded specifically (VLM direct): {m.grounded_specifically}",
         f"- Grounded via image library: {m.grounded_via_image}",
         f"- Grounded via retrieve + image: {m.grounded_via_retrieve}",
         f"- Grounded via OCR: {m.grounded_via_ocr}",

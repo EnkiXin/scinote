@@ -27,7 +27,7 @@ def make_example_kg() -> KnowledgeGraph:
             initial_confidence=0.85,
             appearance_intervals=[(340, 400)],
             grounded=GroundingInfo(
-                identity="NMR tube", confidence=0.85, method="vlm_direct"
+                identity="NMR tube", confidence=0.85, method="image_match"
             ),
         )
     )

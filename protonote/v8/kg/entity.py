@@ -18,12 +18,14 @@ EntityType = Literal[
 ]
 
 GroundingMethod = Literal[
-    "vlm_direct",          # VLM 直接给 identity (HIGH conf)
     "image_match",         # SigLIP2 + VLM verify (MED conf)
     "retrieve_plus_image", # KB retrieve + image library (LOW conf)
     "ocr",                 # OCR for Display/Measurement
     "ungrounded",          # 仍然 unknown
 ]
+# NOTE: "vlm_direct" was removed (2026-05-27). USE_AS_IS routing is a
+# compute-saving skip, NOT a grounding mechanism — Stage 1's guess is
+# the INPUT to grounding, not a verified output.
 
 
 @dataclass

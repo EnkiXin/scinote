@@ -89,7 +89,7 @@ def _kg_with_entity():
         features="flask", identity_guess="flask",
         initial_confidence=0.9,
         grounded=GroundingInfo(
-            identity="flask", confidence=0.9, method="vlm_direct",
+            identity="flask", confidence=0.9, method="image_match",
         ),
     ))
     return kg

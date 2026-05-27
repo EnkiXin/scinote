@@ -148,9 +148,7 @@ class KnowledgeGraph:
                 m.ungrounded += 1
                 continue
             method = entity.grounded.method
-            if method == "vlm_direct":
-                m.grounded_specifically += 1
-            elif method == "image_match":
+            if method == "image_match":
                 m.grounded_via_image += 1
             elif method == "retrieve_plus_image":
                 m.grounded_via_retrieve += 1
@@ -158,6 +156,11 @@ class KnowledgeGraph:
                 m.grounded_via_ocr += 1
             elif method == "ungrounded":
                 m.ungrounded += 1
+            # Note: "vlm_direct" removed (2026-05-27). USE_AS_IS no
+            # longer pre-populates entity.grounded; those entities
+            # stay None and count as "ungrounded" via the early return
+            # above. `grounded_specifically` field is kept on KGMetadata
+            # for backward compatibility but is always 0.
 
         grounded_total = (
             m.grounded_specifically

@@ -28,7 +28,7 @@ def full_kg():
             initial_confidence=0.95,
             appearance_intervals=[(115, 130)],
             grounded=GroundingInfo(
-                identity="centrifuge", confidence=0.95, method="vlm_direct"
+                identity="centrifuge", confidence=0.95, method="image_match"
             ),
         )
     )
@@ -113,9 +113,10 @@ class TestRenderer:
 
     def test_comprehension_summary(self, full_kg):
         md = render_kg_markdown(full_kg)
-        # 3 entities, 2 grounded (1 vlm_direct + 1 ocr), 1 ungrounded
+        # 3 entities, 2 grounded (1 image_match + 1 ocr), 1 ungrounded
         assert "Comprehension level**: 67%" in md
-        assert "Grounded specifically (VLM direct): 1" in md
+        # `vlm_direct`/`grounded specifically` line removed 2026-05-27.
+        assert "Grounded via image library: 1" in md
         assert "Grounded via OCR: 1" in md
         assert "Ungrounded: 1" in md
 
@@ -123,7 +124,7 @@ class TestRenderer:
         md = render_kg_markdown(full_kg)
         assert "### Entity1 [Instrument]" in md
         assert "centrifuge" in md
-        assert "grounded via vlm_direct" in md
+        assert "grounded via image_match" in md
 
     def test_ungrounded_with_candidates(self, full_kg):
         md = render_kg_markdown(full_kg)

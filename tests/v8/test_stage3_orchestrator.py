@@ -124,7 +124,15 @@ class TestOrchestrator:
         counts = ground_kg(kg, frames, lib, retrieve, vlm)
 
         assert counts["use_as_is"] == 1
-        assert kg.entities["Entity1"].grounded.method == "vlm_direct"
+        # USE_AS_IS no longer pre-populates entity.grounded after route_kg
+        # (fixed 2026-05-27). The orchestrator's defensive sweep then sets
+        # it to a method="ungrounded" record so the KG renderer always sees
+        # a populated field. The key invariant is: identity stays None
+        # (no false-verification claim).
+        g = kg.entities["Entity1"].grounded
+        assert g is not None
+        assert g.method == "ungrounded"
+        assert g.identity is None
         lib.top_k.assert_not_called()
         retrieve.retrieve_for_entity.assert_not_called()
 

@@ -24,7 +24,7 @@ def kg_with_entities():
             identity_guess="centrifuge",
             initial_confidence=0.95,
             grounded=GroundingInfo(
-                identity="centrifuge", confidence=0.95, method="vlm_direct"
+                identity="centrifuge", confidence=0.95, method="image_match"
             ),
         )
     )
@@ -175,10 +175,13 @@ class TestKnowledgeGraph:
     def test_metadata_breakdown(self, kg_with_entities):
         m = kg_with_entities.metadata
         assert m.total_entities == 3
-        assert m.grounded_specifically == 1
+        # 1 image_match (Entity1, fixture changed from vlm_direct) + 1 ocr
+        # + 1 ungrounded. `grounded_specifically` is always 0 after
+        # vlm_direct removal (2026-05-27).
+        assert m.grounded_specifically == 0
+        assert m.grounded_via_image == 1
         assert m.grounded_via_ocr == 1
         assert m.ungrounded == 1
-        assert m.grounded_via_image == 0
         assert m.grounded_via_retrieve == 0
 
     def test_to_dict_round_trip(self, kg_with_entities):

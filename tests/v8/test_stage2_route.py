@@ -108,18 +108,23 @@ def test_unknown_type_falls_back_to_use_as_is():
 # ---- route_kg integration ----
 
 class TestRouteKG:
-    def test_use_as_is_grounding_populated(self):
-        """For USE_AS_IS path, entity.grounded should be set."""
+    def test_use_as_is_leaves_grounded_none(self):
+        """USE_AS_IS skips grounding — entity.grounded must remain None.
+
+        Previously route_kg pre-populated entity.grounded with
+        method='vlm_direct' for USE_AS_IS entities. That falsely
+        signaled external verification to the KG renderer, which
+        dropped the "(ungrounded)" hedge in the markdown, which made
+        Stage 4 over-trust Stage 1's possibly-wrong identity_guess.
+        Fixed 2026-05-27 — entity.grounded stays None.
+        """
         kg = KnowledgeGraph()
         kg.add_entity(_ent("Entity1", "Container", 0.9))  # USE_AS_IS
 
         result = route_kg(kg)
         assert len(result.use_as_is) == 1
-
-        g = kg.entities["Entity1"].grounded
-        assert g is not None
-        assert g.method == "vlm_direct"
-        assert g.identity == "test guess"
+        # USE_AS_IS entities should NOT have entity.grounded populated.
+        assert kg.entities["Entity1"].grounded is None
 
     def test_distributes_to_all_paths(self):
         kg = KnowledgeGraph()

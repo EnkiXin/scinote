@@ -10,18 +10,18 @@ class TestGroundingInfo:
         g = GroundingInfo(
             identity="centrifuge",
             confidence=0.95,
-            method="vlm_direct",
+            method="image_match",
         )
         assert g.identity == "centrifuge"
         assert g.confidence == 0.95
-        assert g.method == "vlm_direct"
+        assert g.method == "image_match"
         assert g.candidates == []
 
     def test_confidence_validation(self):
         with pytest.raises(ValueError):
-            GroundingInfo(identity="x", confidence=1.5, method="vlm_direct")
+            GroundingInfo(identity="x", confidence=1.5, method="image_match")
         with pytest.raises(ValueError):
-            GroundingInfo(identity="x", confidence=-0.1, method="vlm_direct")
+            GroundingInfo(identity="x", confidence=-0.1, method="image_match")
 
     def test_ungrounded(self):
         g = GroundingInfo(
@@ -87,7 +87,7 @@ class TestEntity:
             grounded=GroundingInfo(
                 identity="centrifuge",
                 confidence=0.92,
-                method="vlm_direct",
+                method="image_match",
             ),
         )
         assert e.is_grounded is True

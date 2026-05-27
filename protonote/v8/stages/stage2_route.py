@@ -154,14 +154,11 @@ def route_kg(kg: KnowledgeGraph) -> RoutingResult:
         action = route_entity(entity)
 
         if action == RoutingAction.USE_AS_IS:
-            entity.grounded = GroundingInfo(
-                identity=entity.identity_guess,
-                confidence=entity.initial_confidence,
-                method="vlm_direct",
-                evidence=(
-                    f"VLM direct (HIGH conf {entity.initial_confidence:.2f})"
-                ),
-            )
+            # Don't populate entity.grounded — high initial_confidence means
+            # we SKIP grounding, not that grounding succeeded. Leaving
+            # entity.grounded = None preserves the "(ungrounded)" hedge in
+            # the rendered KG markdown, which is the honest signal to
+            # Stage 4 (no external verification has occurred).
             result.use_as_is.append(entity)
         elif action == RoutingAction.IMAGE_MATCH:
             result.image_match.append(entity)

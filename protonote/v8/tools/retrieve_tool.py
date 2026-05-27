@@ -68,19 +68,39 @@ class RetrieveToolV8:
     def retrieve_for_entity(self, entity, top_k: int = 5) -> list[dict]:
         """Rewrite the query → KB search → return passages.
 
-        Returns: list of passage dicts (V6 format: ``{"text", "score", ...}``).
+        Returns: list of passage dicts (each with ``text`` + ``score``).
         Empty list on rewriter-SKIP or KB error.
+
+        We accept V5/V6 KB tools that return either:
+          - a list of passages directly, or
+          - a dict with ``passages``/``scores``/... (V5 schema)
         """
         rewritten = self._rewrite_query(entity)
         if rewritten is None:
             logger.debug("%s: rewriter returned SKIP", entity.id)
             return []
         try:
-            passages = self.kb.search(rewritten, top_k=top_k)
-            return list(passages or [])
+            result = self.kb.search(rewritten)
         except Exception as e:
             logger.warning("KB search failed: %s", e)
             return []
+
+        if result is None:
+            return []
+        if isinstance(result, list):
+            return result[:top_k]
+        # V5 dict shape: {passages: [...], scores: [...], sources: [...], ...}
+        passages = result.get("passages") or []
+        scores = result.get("scores") or [0.0] * len(passages)
+        sources = result.get("sources") or [None] * len(passages)
+        out = []
+        for i, p in enumerate(passages[:top_k]):
+            out.append({
+                "text":   p,
+                "score":  scores[i] if i < len(scores) else 0.0,
+                "source": sources[i] if i < len(sources) else None,
+            })
+        return out
 
     # ---- internal ----
 
@@ -90,10 +110,19 @@ class RetrieveToolV8:
             features=entity.features,
             identity_guess=entity.identity_guess,
         )
+        # The V6 client exposes `.generate_text` (text-only). Plain `.generate`
+        # is the test-only convention. Try text first, fall back to generate.
         try:
-            raw = self.llm.generate(
-                prompt=prompt, max_tokens=50, temperature=0.0,
-            )
+            if hasattr(self.llm, "generate_text"):
+                raw = self.llm.generate_text(
+                    prompt, max_tokens=50, temperature=0.0,
+                )
+            elif hasattr(self.llm, "generate"):
+                raw = self.llm.generate(
+                    prompt=prompt, max_tokens=50, temperature=0.0,
+                )
+            else:
+                raise AttributeError("no generate / generate_text on LLM")
         except Exception as e:
             logger.warning("rewrite call failed: %s; using raw features", e)
             return entity.features or None

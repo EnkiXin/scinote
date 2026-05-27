@@ -42,6 +42,42 @@ Output JSON ONLY:
 }}"""
 
 
+def _call_vlm_two_images(llm_client, prompt: str, img1, img2,
+                                  max_tokens: int):
+    """Send 2 images + prompt to VLM, return raw string.
+
+    Routes through ``generate_json`` if the client has it (test mocks),
+    else uses V6's ``generate_video`` (which handles N images), else
+    raises.
+    """
+    if hasattr(llm_client, "generate_json"):
+        return llm_client.generate_json(
+            prompt=prompt, images=[img1, img2], max_tokens=max_tokens,
+        )
+    if hasattr(llm_client, "generate_video"):
+        return llm_client.generate_video(
+            prompt, [img1, img2], max_tokens=max_tokens, temperature=0.0,
+        )
+    raise AttributeError("no generate_json / generate_video on llm_client")
+
+
+def _try_parse_json(text):
+    if isinstance(text, dict):
+        return text
+    if not isinstance(text, str):
+        return None
+    import json as _json
+    import re
+    # Strip ```json fences
+    m = re.search(r"\{[\s\S]*\}", text)
+    if not m:
+        return None
+    try:
+        return _json.loads(m.group(0))
+    except Exception:
+        return None
+
+
 def vlm_verify_match(
     query_crop: Image.Image,
     candidate_image: Image.Image,
@@ -49,22 +85,16 @@ def vlm_verify_match(
     llm_client,
     max_tokens: int = 200,
 ) -> dict:
-    """Run the VLM verifier; return a normalized dict.
-
-    The `llm_client` is duck-typed: it must expose
-    ``generate_json(prompt, images, max_tokens=...)`` returning a
-    Python dict (or None on parse failure).
-    """
+    """Run the VLM verifier; return a normalized dict."""
     prompt = VLM_VERIFY_PROMPT.format(candidate_label=candidate_label)
     try:
-        data = llm_client.generate_json(
-            prompt=prompt,
-            images=[query_crop, candidate_image],
-            max_tokens=max_tokens,
+        raw = _call_vlm_two_images(
+            llm_client, prompt, query_crop, candidate_image, max_tokens,
         )
     except Exception as e:
         logger.debug(f"VLM verify call raised: {e}")
-        data = None
+        raw = None
+    data = _try_parse_json(raw)
 
     if not isinstance(data, dict):
         return {

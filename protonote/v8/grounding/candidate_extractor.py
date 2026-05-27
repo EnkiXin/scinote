@@ -67,11 +67,30 @@ def extract_candidates_from_passages(
         passages_text="\n\n---\n\n".join(snippets),
     )
 
+    raw = None
     try:
-        data = llm_client.generate_json(prompt=prompt, max_tokens=200)
+        if hasattr(llm_client, "generate_json"):
+            raw = llm_client.generate_json(prompt=prompt, max_tokens=200)
+        elif hasattr(llm_client, "generate_text"):
+            raw = llm_client.generate_text(
+                prompt, max_tokens=200, temperature=0.0,
+            )
+        else:
+            raise AttributeError("no generate_json/generate_text on LLM")
     except Exception as e:
         logger.debug("candidate extractor LLM call raised: %s", e)
-        data = None
+
+    # Coerce raw string into dict
+    data = raw if isinstance(raw, dict) else None
+    if data is None and isinstance(raw, str):
+        import json as _json
+        import re
+        m = re.search(r"\{[\s\S]*\}", raw)
+        if m:
+            try:
+                data = _json.loads(m.group(0))
+            except Exception:
+                data = None
 
     if not isinstance(data, dict):
         return []

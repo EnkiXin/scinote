@@ -19,6 +19,8 @@ def _ent(t="Container",
 
 def _mock_llm(rewritten: str):
     c = MagicMock()
+    # RetrieveToolV8 prefers .generate_text (V6 client), then .generate.
+    c.generate_text = MagicMock(return_value=rewritten)
     c.generate = MagicMock(return_value=rewritten)
     return c
 
@@ -61,6 +63,7 @@ def test_kb_failure_returns_empty():
 def test_rewriter_error_falls_back_to_features():
     kb = _mock_kb([{"text": "ok"}])
     llm = MagicMock()
+    llm.generate_text = MagicMock(side_effect=RuntimeError("model down"))
     llm.generate = MagicMock(side_effect=RuntimeError("model down"))
     tool = RetrieveToolV8(kb_tool=kb, llm_client=llm)
     out = tool.retrieve_for_entity(_ent(f="my features"))

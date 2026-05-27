@@ -361,9 +361,12 @@ def ground_kg(
       5. For each OCR entity (Display/Measurement) → that path.
 
     Returns a counts dict with grounding outcomes per path. The KG
-    itself is mutated in place — every entity ends with a non-None
-    ``entity.grounded`` (either a real ground or a deliberate
-    ``ungrounded`` record).
+    itself is mutated in place. USE_AS_IS entities (high-confidence
+    Stage-1 guesses) intentionally keep ``entity.grounded=None`` —
+    the renderer falls back to ``identity_guess`` with an
+    "(ungrounded)" hedge for them. Other paths either set a real
+    grounding (e.g. ``method="image_match"``) or an explicit failure
+    record (``method="ungrounded"`` with optional candidates).
     """
     # Local import to keep module-load light.
     from protonote.v8.stages.stage2_route import route_kg
@@ -414,14 +417,16 @@ def ground_kg(
         else:
             counts["ocr_blank"] += 1
 
-    # Final tally + sanity: every entity should have entity.grounded set.
+    # Final tally. Entities with grounded=None are USE_AS_IS skips
+    # (Stage 2 trusted Stage 1's high-confidence guess and did not
+    # attempt external grounding). The renderer falls back to
+    # `identity_guess` with the "(ungrounded)" hedge for those, which
+    # is the correct conservative behavior — never claim a grounding
+    # the orchestrator did not actually perform. Bug fixed 2026-05-27.
     for ent in kg.entities.values():
         if ent.grounded is None:
-            # Should not happen, but be defensive — mark as ungrounded.
-            ent.grounded = GroundingInfo(
-                identity=None, confidence=0.0, method="ungrounded",
-                evidence="orchestrator: no path produced a grounding",
-            )
+            counts["ungrounded_total"] += 1
+            continue
         if (ent.grounded.method == "ungrounded"
                 or ent.grounded.identity is None):
             counts["ungrounded_total"] += 1

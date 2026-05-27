@@ -124,15 +124,13 @@ class TestOrchestrator:
         counts = ground_kg(kg, frames, lib, retrieve, vlm)
 
         assert counts["use_as_is"] == 1
-        # USE_AS_IS no longer pre-populates entity.grounded after route_kg
-        # (fixed 2026-05-27). The orchestrator's defensive sweep then sets
-        # it to a method="ungrounded" record so the KG renderer always sees
-        # a populated field. The key invariant is: identity stays None
-        # (no false-verification claim).
-        g = kg.entities["Entity1"].grounded
-        assert g is not None
-        assert g.method == "ungrounded"
-        assert g.identity is None
+        # USE_AS_IS skips grounding entirely — entity.grounded stays
+        # None so the renderer falls back to identity_guess with the
+        # "(ungrounded)" hedge. The defensive sweep that previously
+        # overwrote None → method="ungrounded" was removed 2026-05-27
+        # because it caused the renderer to drop identity_guess and
+        # emit "Identity: unknown" for trusted Stage-1 guesses.
+        assert kg.entities["Entity1"].grounded is None
         lib.top_k.assert_not_called()
         retrieve.retrieve_for_entity.assert_not_called()
 
@@ -251,9 +249,13 @@ class TestOrchestrator:
         assert counts["ocr_success"] == 1
         assert counts["retrieve_plus_image_success"] == 1
 
-        # Every entity must have a grounded record.
-        for eid, ent in kg.entities.items():
-            assert ent.grounded is not None, f"{eid} not grounded"
+        # USE_AS_IS entity (Entity1, Container 0.95) intentionally
+        # stays grounded=None — Stage 2 skipped grounding. Renderer
+        # falls back to identity_guess with "(ungrounded)" hedge.
+        assert kg.entities["Entity1"].grounded is None
+        # Every other entity went through a real grounding path.
+        for eid in ("Entity2", "Entity3", "Entity4", "Entity5"):
+            assert kg.entities[eid].grounded is not None, f"{eid} not grounded"
 
     def test_no_entity_left_with_grounded_none(self, frames):
         """Even if all paths fail, every entity must have grounded set."""

@@ -1,5 +1,11 @@
 """Case dump for V8 vs 7B C0 (and 72B C0 if available).
 
+Use --v8-tag to swap the V8 trajectory file (default = v8_7b, i.e. the
+no-grounding run). Set --v8-tag v8_7b_grounded to dump the W/ grounding
+run cases. Output filenames mirror the tag.
+
+
+
 For each benchmark, classify each item into:
   SAVED        V8 right, C0 wrong
   HURT         V8 wrong, C0 right
@@ -104,11 +110,17 @@ def render_expvid_case(v8: dict, c0: dict) -> list[str]:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--n", type=int, default=N_PER_CAT)
+    ap.add_argument("--v8-tag", default="v8_7b",
+                     help="condition_label of V8 run "
+                          "(v8_7b or v8_7b_grounded)")
     args = ap.parse_args()
+    tag = args.v8_tag
+    suffix = "" if tag == "v8_7b" else f"_{tag.split('_', 2)[-1]}"
 
     # === SciVB ===
-    v8_sci = load_jsonl(ROOT / "results_protonote_v8/v8_7b_scivb"
-                              / "trajectory_scivideobench_v8_7b.jsonl")
+    sci_dir = "v8_7b_scivb" if tag == "v8_7b" else "v8_7b_grounded_scivb"
+    v8_sci = load_jsonl(ROOT / f"results_protonote_v8/{sci_dir}"
+                              / f"trajectory_scivideobench_{tag}.jsonl")
     c0_7b_sci = []
     for p in (ROOT / "results_protonote_v5/pilot_8cond_scivb"
                 ).glob("trajectory_*.jsonl"):
@@ -154,14 +166,15 @@ def main():
         sci_lines.append("---")
         sci_lines.append("")
 
-    sci_out = ROOT / "V8_CASES_SCIVB.md"
+    sci_out = ROOT / f"V8_CASES_SCIVB{suffix.upper()}.md"
     sci_out.write_text("\n".join(sci_lines))
     print(f"wrote {sci_out}: "
             + ", ".join(f"{c}={len(sci_cats[c])}" for c in sci_cats))
 
     # === ExpVid ===
-    v8_exp = load_jsonl(ROOT / "results_protonote_v8/v8_7b_expvid"
-                              / "trajectory_expvid_v8_7b.jsonl")
+    exp_dir = "v8_7b_expvid" if tag == "v8_7b" else "v8_7b_grounded_expvid"
+    v8_exp = load_jsonl(ROOT / f"results_protonote_v8/{exp_dir}"
+                              / f"trajectory_expvid_{tag}.jsonl")
     c0_7b_exp = []
     for p in (ROOT / "results_protonote_v5/pilot_8cond_expvid"
                 ).glob("trajectory_*.jsonl"):
@@ -208,7 +221,7 @@ def main():
         exp_lines.append("---")
         exp_lines.append("")
 
-    exp_out = ROOT / "V8_CASES_EXPVID.md"
+    exp_out = ROOT / f"V8_CASES_EXPVID{suffix.upper()}.md"
     exp_out.write_text("\n".join(exp_lines))
     print(f"wrote {exp_out}: "
             + ", ".join(f"{c}={len(exp_cats[c])}" for c in exp_cats))

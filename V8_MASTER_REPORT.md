@@ -409,9 +409,145 @@ successes on 342 items) become tiny + measurable.
 
 ---
 
-## 5. Cases
+## 5. Cases — by grounding path, success + failure pairs
 
-### 5.1 No_grounding · V8_SAVED (V8 ✓, C0 ✗)
+For each of the 4 grounding paths (and the no_grounding baseline)
+we show ONE SUCCESS case (grounded ✓ / answer correct) and ONE
+FAILURE case (grounded ✗ / answer wrong). Drawn from the live
+grounded run; all sample_ids are real and traceable in the trajectory
+JSONL.
+
+### 5A. USE_AS_IS path (Stage 1 high-conf guesses, no Stage 3 work)
+
+Across 342 paired items, **278 items had ≥1 USE_AS_IS entity**.
+Of those that had ONLY USE_AS_IS (no other path fired) and where
+grounded vs no_grounding outcomes differed:
+**HELPED: 3 items · HURT: 6 items · net −3 items**.
+
+#### ✅ SUCCESS: `mc_50079_3`  (grounded ✓, no_grounding ✗)
+
+- `ground_counts`: `{use_as_is: 9, all_others: 0}`
+- `stage_2_3` time: 0 s — no actual Stage 3 work
+- The lucky case: USE_AS_IS hedge-loss happened to ALIGN with the
+  correct identity. Stage 4 trusted the (correct) Stage 1 guess
+  more confidently and picked the right MC letter.
+
+#### ❌ FAILURE: `mc_67076_1`  (grounded ✗, no_grounding ✓)
+
+- `ground_counts`: `{use_as_is: 7, all_others: 0}`
+- `stage_2_3` time: **0 s** — no actual Stage 3 work
+- Stage 1 produced same 7 entities in both runs (T=0 deterministic).
+- ONLY difference: in grounded mode, all 7 entities became
+  `Identity: X (grounded via vlm_direct, confidence 0.85)` instead
+  of `Identity guess (ungrounded): X`. Lost the hedge → Stage 4
+  over-trusted a wrong identity → flipped A (right) to C (wrong).
+- **This is the smoking gun for §4's root-cause analysis.**
+
+### 5B. IMAGE_MATCH path (SigLIP2 + image library + VLM verify)
+
+Across 342 paired items, **only 1 image_match_success** total
+(0.1 % call success rate, 0.3 % item success rate). The image library
+(chemistry + medical lab images) is essentially out-of-domain for
+SciVB videos. ExpVid sequence_generation fares slightly better.
+
+#### ✅ SUCCESS (the only one across 342 items): `expvid_…_57385_clip_7`
+
+- task: sequence_generation
+- `ground_counts`: `{use_as_is: 2, image_match_success: 1,
+  image_match_escalated: 2, …}`
+- **1 entity** was actually grounded via SigLIP2 → VLM-verify with
+  high enough cosine + agreement to pass both thresholds.
+- Final partial-credit score: 0.154 (slightly different from
+  no_grounding's score on same item). Marginal.
+
+#### ❌ FAILURE: `mc_67076_1` (also a USE_AS_IS failure above)
+
+- 7 entities, all USE_AS_IS, none even reached IMAGE_MATCH because
+  Stage 2 routed them to USE_AS_IS instead.
+- **Path failure pattern**: when entities ARE routed to IMAGE_MATCH
+  (MED conf 0.50-0.80), the cosine threshold 0.65 + VLM verify 0.70
+  is rarely cleared simultaneously. 113 IMAGE_MATCH attempts → 0
+  successes on SciVB (image library doesn't have engineering /
+  physics / nanomaterials references at scale).
+
+### 5C. RETRIEVE_PLUS_IMAGE path (KB + image library)
+
+Across 342 paired items, **9 items had ≥1 retrieve_plus_image
+success**. Total 111 path successes / 626 calls = **17.7 % per call**.
+But most successes cluster on 2-3 items.
+
+#### ✅ SUCCESS: `mc_60403_5`  (grounded ✓, no_grounding ✗)
+
+- `ground_counts`: `{use_as_is: 1, image_match_escalated: 29,
+  retrieve_plus_image_success: 1, ungrounded_total: 28}`
+- 1 of 29 image_match-failed entities got rescued through
+  KB query → candidate name → image library lookup → cosine
+  match ≥ 0.55.
+- That single grounded identity propagated to Stage 4, which
+  flipped the answer from wrong to correct (score 0.0 → 1.0).
+- **This is the success pattern we want from grounding** — but it
+  only happened **3 times in 342 items** (≈ 0.9 %).
+
+#### ❌ FAILURE: `mc_67120_3`  (Biology / BrdU immunoprecipitation)
+
+- `ground_counts`: `{use_as_is: 1, image_match_escalated: 28,
+  retrieve_plus_image_success: 25 (!), ungrounded_total: 4}`
+- **25 retrieve+image successes**, the MOST of any single item.
+- Question asks: "What is the total time, in minutes, that the
+  samples are nutated at 4 °C…"
+- KG ended up tagging Entity3-Entity7 ALL as "microcentrifuge tube
+  rack" (the most frequent candidate). Gold answer was a time
+  duration, which 7B couldn't compute from the videos in either
+  run. Both grounded and no_grounding wrong with the same letter.
+- **Path success ≠ answer success**: identifying "tube rack"
+  doesn't help answer a duration question.
+
+### 5D. RETRIEVE_ONLY path (Material entities, candidates only)
+
+Material entities get KB candidates but **never** commit to identity
+(no visual verify). Stage 4 reads `candidates: [MOF, salt, polymer]`
+as a hypothesis list.
+
+#### ✅ SUCCESS pattern: (qualitative — no isolated case in current data)
+
+When a Material gets candidates that include the actual substance
+(e.g. "MOF" listed for a video showing MOF synthesis), Stage 4
+can use the hypothesis if other evidence supports it. We have no
+SAVED case clearly attributable to RETRIEVE_ONLY at 342 items —
+suggests candidates are too noisy to be load-bearing.
+
+#### ❌ FAILURE: `mc_66530_4` (smoke 3-item)
+
+- 1 Material entity routed to RETRIEVE_ONLY → candidates list
+  added to KG markdown.
+- Final answer same wrong letter in both runs. The candidates
+  list didn't disambiguate the question's specific material.
+
+### 5E. OCR path (Display + Measurement entities)
+
+OCR almost always "succeeds" mechanically (text extracted from crop)
+but never sets `identity`. It just appends `ocr_text: "…"` to the
+entity in KG markdown.
+
+#### ✅ SUCCESS pattern: `mc_52028_1`  (OCR helped, both runs ✓)
+
+- `ground_counts`: `{ocr_success: 14, …}`
+- 14 Display/Measurement entities got their numeric text extracted.
+- Both grounded and no_grounding got answer right (1.0 each).
+- Hard to attribute the win to OCR specifically since no_grounding
+  also has the entity guesses from Stage 1.
+
+#### ❌ FAILURE: `mc_60563_5`  (OCR HURT)
+
+- `ground_counts`: `{ocr_success: 5, …}`
+- OCR extracted text from 5 Display entities.
+- Grounded answer: WRONG. No_grounding: RIGHT.
+- The OCR text apparently distracted Stage 4 from the structural
+  cues that no_grounding used.
+
+### 5F. No_grounding baseline cases (for contrast)
+
+#### ✅ SUCCESS no_grounding (V8_SAVED vs C0): `mc_60167_3` (Engineering)
 
 **SciVB `mc_60167_3`** (Engineering / Hypothetical Reasoning)
 - **Q**: What could happen if the mechanical processing step shown between 05:25 and 05:36 fails?
@@ -441,97 +577,22 @@ Why V8 won: the temporal chain pinpoints when the "mechanical step"
 is, the BOE container hints at semiconductor wafer processing → V8
 correctly maps to "wafer dicing" answer (B).
 
-### 5.2 No_grounding · V8_HURT (V8 ✗, C0 ✓)
+#### ❌ FAILURE no_grounding (V8_HURT vs C0): `mc_67263_1` (Microscopy)
 
-**SciVB `mc_67263_1`** (Microscopy)
-- **Q**: What physical principle enables the microscopy technique shown at 7:17 to achieve a high signal-to-noise ratio?
-- **Gold**: `A` · **C0**: `A` ✓ · **V8**: ✗
+- **Q**: What physical principle enables the microscopy technique at 7:17?
+- **Gold**: `A` (TIRF) · **C0**: `A` ✓ · **V8 no_grnd**: ✗
+- Stage 1 produced **27 entities / 0 operations in 91 s** — classic 7B
+  duplicate-enumeration (each frame's slide logged separately, ran out
+  of max_tokens). Noisy KG distracted Stage 4 from the simple answer
+  C0 got right.
 
-Stage 1 produced **27 entities / 0 operations in 91 s** — classic 7B
-duplicate-enumeration. Each frame's slide was logged separately
-instead of grouped by appearance_interval; max_tokens=2048
-exhausted before any operations could be emitted. The noisy KG
-distracted Stage 4 from the simple "TIRF" answer C0 got right.
+#### ❌ FAILURE both wrong: `mc_58827_1` (Nanomaterials)
 
-### 5.3 No_grounding · BOTH_WRONG
+- **Gold**: `D` — both C0 and V8 wrong. KG had "Entity4: weighing bowl"
+  that should have been "specialty chamber". 7B vision was the
+  bottleneck, not the KG structure.
 
-**SciVB `mc_58827_1`** (Nanomaterials)
-- **Gold**: `D` · both C0 and V8 wrong.
-
-KG identified an "Entity4: weighing bowl" that should have been "specialty
-chamber". 7B vision was the bottleneck, not the KG structure.
-
-### 5.4 W/ grounding · grounding-succeeded HURT case (root-cause smoking gun)
-
-**SciVB `mc_67076_1`** (live grounded run)
-
-- **C0 pred**: A ✓ · **V8 no_grnd pred**: A ✓ · **V8 grounded pred**: C ✗
-- `ground_counts`: `{use_as_is: 7, image_match_success: 0, all_others: 0}`
-- `stage_2_3` time: **0.00 s** — Stage 3 did NOT run for any entity
-
-Stage 1 produced same KG in both runs (deterministic at T=0). The
-ONLY difference: in grounded mode, Stage 2's USE_AS_IS path tagged
-all 7 entities as `grounded via vlm_direct`. The markdown lost the
-`(ungrounded)` hedge → Stage 4 was 7× more confident about
-potentially-wrong identities → flipped A to C.
-
-### 5.5 W/ grounding · the ONE actual image_match success
-
-**ExpVid `57385_clip_7`** (sequence_generation)
-- `ground_counts`: `{use_as_is: 2, image_match_success: 1, image_match_escalated: 2, ...}`
-- grounded score = 0.154, no_grounding score = (paired same)
-- ExpVid sequence_gen uses partial-credit so absolute movement is small.
-
-This is the only item where SigLIP2 + VLM-verify together passed for
-any entity across 342 items. Even here it didn't help the final
-answer materially.
-
-### 5.6 W/ grounding · retrieve_plus_image bulk-success but HURT
-
-**SciVB `mc_67120_3`** (Biology — BrdU immunoprecipitation)
-- **Q**: What is the total time, in minutes, that the samples are nutated at 4 degrees Celsius during the BrdU immunoprecipitation procedure?
-- **Gold**: `A` · **V8 grounded pred**: `D` · **V8 no_grounding pred**: `D`
-- `ground_counts`: `{use_as_is: 1, image_match_escalated: 28, retrieve_plus_image_success: 25 (!), …, ungrounded_total: 4}`
-- 25 retrieve_plus_image successes — the most of any single item.
-
-But the **same answer** (D, wrong) in both runs. The 25 retrieve+image
-matches all gave the wrong identity ("microcentrifuge tube rack")
-because the BioProBench passages didn't help disambiguate the
-specific equipment. KG markdown:
-
-```markdown
-### Entity2 [Container]
-- **Identity**: ice bucket (grounded via vlm_direct, confidence 0.90)
-### Entity3 [Container]
-- **Identity**: microcentrifuge tube rack (grounded via vlm_direct, confidence 0.90)
-### Entity4 [Container]
-- **Identity**: microcentrifuge tube rack (grounded via vlm_direct, confidence 0.90)
-### Entity5 [Container]
-- **Identity**: microcentrifuge tube rack (grounded via vlm_direct, confidence 0.90)
-### Entity6 [Container]
-- **Identity**: microcentrifuge tube rack (grounded via vlm_direct, confidence 0.90)
-### Entity7 [Container]
-- **Identity**: microcentrifuge tube rack (grounded via vlm_direct, confidence 0.90)
-```
-
-Six "microcentrifuge tube rack" duplicates. The KG markdown
-explosion + repeated label inflation doesn't help answer the time-
-duration question; both runs wrong.
-
-### 5.7 W/ grounding · retrieve_plus_image SAVED case
-
-**SciVB `mc_60403_5`**
-- `ground_counts`: `{use_as_is: 1, image_match_escalated: 29, retrieve_plus_image_success: 1, ungrounded_total: 28}`
-- grounded score = 1.0, no_grnd score = 0.0 → **HELPED**
-
-1 retrieve+image hit was enough to flip the answer. Specific
-entity got a useful identity, which propagated to the right MC choice.
-This is the **success pattern we want**: low-conf entity → KB hint →
-visual verify → correct identification → better answer.
-
-There are only **3** such items across 342 done so far (≈ 1 %).
-
-### 5.8 Failure mode summary
+### 5G. Path-by-path failure mode summary
 
 The 4 paths in current V8:
 

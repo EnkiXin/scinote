@@ -109,6 +109,93 @@ VECTOR_LABPICS_MATERIAL_MAP = {
 
 
 # ============================================================
+# Physics-27 — 27 physics classes from data.yaml
+# ============================================================
+#
+# Source: figshare 30984658 ("Physics Laboratory Equipment Image Dataset").
+# 5,121 imgs (3586 train / 1023 valid / 512 test), YOLO labels.
+# CC BY 4.0. data.yaml `names:` list is verbatim below.
+#
+# Entity type rules:
+#   - measurement-emitting tools (multimeter, stopwatch, scale) → Measurement
+#   - everything else → Instrument
+PHYSICS27_MAP = {
+    "Analog AC Ammeter":              ("analog AC ammeter",         "Measurement"),
+    "Bar pendulum":                   ("bar pendulum",              "Instrument"),
+    "Breadboard":                     ("breadboard",                "Instrument"),
+    "Dc power Supply":                ("DC power supply",           "Instrument"),
+    "Deflection Magnetometer":        ("deflection magnetometer",   "Measurement"),
+    "Digital Multimeter":             ("digital multimeter",        "Measurement"),
+    "Digital Stopwatch":              ("digital stopwatch",         "Measurement"),
+    "Falling Plate":                  ("falling plate",             "Instrument"),
+    "Hydrogen-Deuterium lamp":        ("hydrogen-deuterium lamp",   "Instrument"),
+    "Lens":                           ("lens",                      "Instrument"),
+    "Magnifying Glass":               ("magnifying glass",          "Instrument"),
+    "Micrometer Screw Gauge":         ("micrometer screw gauge",    "Measurement"),
+    "Newton-s Ring Microscope":       ("Newton's ring microscope",  "Instrument"),
+    "Nylon Hammer":                   ("nylon hammer",              "Instrument"),
+    "Physical Pendulum":              ("physical pendulum",         "Instrument"),
+    "Polarimeter":                    ("polarimeter",               "Instrument"),
+    "Power Supply":                   ("power supply",              "Instrument"),
+    "Retort Stand":                   ("retort stand",              "Instrument"),
+    "Scale":                          ("scale",                     "Measurement"),
+    "Slotted Mass Set with Hanger":   ("slotted mass set",          "Instrument"),
+    "Sodium Vapour Lamp Transformer": ("sodium vapour lamp transformer", "Instrument"),
+    "Spherometer":                    ("spherometer",               "Measurement"),
+    "Spring":                         ("spring",                    "Instrument"),
+    "Stewart and Gee-s apparatus":    ("Stewart and Gee's apparatus", "Instrument"),
+    "Vernier Caliper":                ("vernier caliper",           "Measurement"),
+    "Weight":                         ("weight",                    "Instrument"),
+    "Weight With Box":                ("weight with box",           "Instrument"),
+}
+
+
+# ============================================================
+# Wikimedia Commons targeted crawl — 26 high-priority categories
+# ============================================================
+#
+# Source: Wikimedia Commons API crawl with 1-level subcategory recursion.
+# Captured via scripts/v8_crawl_wikimedia.py. Per-image attribution
+# (license, author, source_url) stored in <slug>/manifest.jsonl.
+#
+# Key = category slug (lowercase, underscores).
+WIKIMEDIA_MAP = {
+    # Imaging / microscopy
+    "atomic_force_microscopes":          ("atomic force microscope",          "Instrument"),
+    "scanning_electron_microscopes":     ("scanning electron microscope",     "Instrument"),
+    "transmission_electron_microscopes": ("transmission electron microscope", "Instrument"),
+    "optical_microscopes":               ("optical microscope",               "Instrument"),
+    "confocal_microscopes":              ("confocal microscope",              "Instrument"),
+    # Physics measurement
+    "oscilloscopes":                     ("oscilloscope",                     "Instrument"),
+    "mass_spectrometers":                ("mass spectrometer",                "Instrument"),
+    "nmr_spectrometers":                 ("NMR spectrometer",                 "Instrument"),
+    "infrared_spectrometers":            ("infrared spectrometer",            "Instrument"),
+    "uv-vis_spectrometers":              ("UV-Vis spectrometer",              "Instrument"),
+    # Optics / lasers
+    "optical_tables":                    ("optical table",                    "Instrument"),
+    "lasers":                            ("laser",                            "Instrument"),
+    # Bioengineering / nanofab
+    "microfluidic_devices":              ("microfluidic device",              "Instrument"),
+    "vacuum_chambers":                   ("vacuum chamber",                   "Instrument"),
+    "sputter_deposition_machines":       ("sputter deposition system",        "Instrument"),
+    "chemical_vapor_deposition":         ("chemical vapor deposition system", "Instrument"),
+    "photolithography_equipment":        ("photolithography aligner",         "Instrument"),
+    # Biology / medicine
+    "gel_electrophoresis_apparatus":     ("gel electrophoresis apparatus",    "Instrument"),
+    "centrifuges":                       ("centrifuge",                       "Instrument"),
+    "thermal_cyclers":                   ("PCR thermocycler",                 "Instrument"),
+    "laboratory_incubators":             ("laboratory incubator",             "Instrument"),
+    "surgical_instruments":              ("surgical instrument",              "Instrument"),
+    # General laboratory containers
+    "round-bottom_flasks":               ("round-bottom flask",               "Container"),
+    "erlenmeyer_flasks":                 ("Erlenmeyer flask",                 "Container"),
+    "beakers":                           ("beaker",                           "Container"),
+    "petri_dishes":                      ("Petri dish",                       "Container"),
+}
+
+
+# ============================================================
 # Helpers
 # ============================================================
 
@@ -128,10 +215,25 @@ def vector_labpics_label_to_unified(raw_label: str,
     return None
 
 
+def physics27_label_to_unified(raw_label: str) -> tuple[str, str] | None:
+    """Return (label, entity_type) for Physics-27 class string, or None."""
+    return PHYSICS27_MAP.get(raw_label.strip())
+
+
+def wikimedia_slug_to_unified(slug: str) -> tuple[str, str] | None:
+    """Return (label, entity_type) for a Wikimedia category slug, or None.
+
+    Slugs are produced by `scripts/v8_crawl_wikimedia.py::slugify`.
+    """
+    return WIKIMEDIA_MAP.get((slug or "").strip().lower())
+
+
 def all_label_maps() -> dict[str, dict]:
     """For logging / introspection."""
     return {
         "chemeq25": CHEMEQ25_MAP,
         "vector_labpics_vessels": VECTOR_LABPICS_VESSEL_MAP,
         "vector_labpics_materials": VECTOR_LABPICS_MATERIAL_MAP,
+        "physics27": PHYSICS27_MAP,
+        "wikimedia": WIKIMEDIA_MAP,
     }

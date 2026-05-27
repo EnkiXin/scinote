@@ -22,8 +22,10 @@ import yaml
 
 from protonote.v8.grounding.dataset_mappers import (
     CHEMEQ25_MAP,
+    PHYSICS27_MAP,
     VECTOR_LABPICS_MATERIAL_MAP,
     VECTOR_LABPICS_VESSEL_MAP,
+    WIKIMEDIA_MAP,
 )
 
 
@@ -222,6 +224,149 @@ def build_vector_labpics_rows(dataset_root: Path,
 
 
 # ============================================================
+# Physics-27 (YOLO format, same shape as ChemEq25)
+# ============================================================
+
+def build_physics27_rows(dataset_root: Path,
+                                  rows: list[dict]) -> dict:
+    """Parse Physics-27 (YOLO format, 27 classes) → rows.
+
+    Layout: dataset_root/{train,valid,test}/{images,labels}/. data.yaml
+    holds the class-name list (already mapped in PHYSICS27_MAP).
+    """
+    yaml_file = dataset_root / "data.yaml"
+    if not yaml_file.exists():
+        return {"images": 0, "rows": 0, "skip": "no data.yaml"}
+
+    with open(yaml_file) as f:
+        cfg = yaml.safe_load(f)
+    class_names = cfg.get("names", [])
+    if isinstance(class_names, dict):
+        class_names = [class_names[i] for i in sorted(class_names.keys())]
+
+    n_imgs = 0
+    n_rows = 0
+    n_unmapped = 0
+    seen_unmapped: set[str] = set()
+
+    for split in ("train", "valid", "test"):
+        imgs_dir = dataset_root / split / "images"
+        lbls_dir = dataset_root / split / "labels"
+        if not imgs_dir.exists():
+            continue
+        for img_path in sorted(imgs_dir.iterdir()):
+            if img_path.suffix.lower() not in {".jpg", ".jpeg", ".png"}:
+                continue
+            lbl_path = lbls_dir / f"{img_path.stem}.txt"
+            if not lbl_path.exists():
+                continue
+            classes_in_image: set[str] = set()
+            with open(lbl_path) as f:
+                for line in f:
+                    parts = line.strip().split()
+                    if len(parts) < 5:
+                        continue
+                    try:
+                        cls_idx = int(parts[0])
+                    except ValueError:
+                        continue
+                    if 0 <= cls_idx < len(class_names):
+                        classes_in_image.add(class_names[cls_idx])
+            n_imgs += 1
+            for raw in classes_in_image:
+                mapping = PHYSICS27_MAP.get(raw)
+                if mapping is None:
+                    n_unmapped += 1
+                    seen_unmapped.add(raw)
+                    continue
+                label, etype = mapping
+                rows.append({
+                    "image_path": str(img_path.resolve()),
+                    "label": label,
+                    "entity_type": etype,
+                    "dataset": "physics27",
+                    "raw_label": raw,
+                })
+                n_rows += 1
+
+    return {"images": n_imgs, "rows": n_rows,
+              "unmapped": n_unmapped,
+              "unmapped_keys": sorted(seen_unmapped)}
+
+
+# ============================================================
+# Wikimedia Commons crawl (per-category manifest.jsonl)
+# ============================================================
+
+def build_wikimedia_rows(wikimedia_root: Path,
+                                   rows: list[dict]) -> dict:
+    """Parse `cache/image_library/raw/wikimedia/<slug>/` directories.
+
+    Each subdir from `scripts/v8_crawl_wikimedia.py` has manifest.jsonl
+    (per-image metadata) plus the image files themselves. WIKIMEDIA_MAP
+    is the source of truth for (label, entity_type).
+    """
+    n_imgs = 0
+    n_rows = 0
+    n_unmapped = 0
+    seen_unmapped: set[str] = set()
+
+    if not wikimedia_root.exists():
+        return {"images": 0, "rows": 0, "skip": "missing"}
+
+    for cat_dir in sorted(wikimedia_root.iterdir()):
+        if not cat_dir.is_dir():
+            continue
+        slug = cat_dir.name
+        mapping = WIKIMEDIA_MAP.get(slug)
+        if mapping is None:
+            n_unmapped += 1
+            seen_unmapped.add(slug)
+            continue
+        label, etype = mapping
+        mf = cat_dir / "manifest.jsonl"
+        if mf.exists():
+            with mf.open() as f:
+                for line in f:
+                    try:
+                        rec = json.loads(line)
+                    except Exception:
+                        continue
+                    fname = rec.get("fname")
+                    if not fname:
+                        continue
+                    p = cat_dir / fname
+                    if not p.exists():
+                        continue
+                    n_imgs += 1
+                    rows.append({
+                        "image_path": str(p.resolve()),
+                        "label": label,
+                        "entity_type": etype,
+                        "dataset": "wikimedia",
+                        "raw_label": slug,
+                    })
+                    n_rows += 1
+        else:
+            # No manifest yet — fall back to scanning image files in dir
+            for p in cat_dir.iterdir():
+                if p.suffix.lower() in {".jpg", ".jpeg", ".png"}:
+                    n_imgs += 1
+                    rows.append({
+                        "image_path": str(p.resolve()),
+                        "label": label,
+                        "entity_type": etype,
+                        "dataset": "wikimedia",
+                        "raw_label": slug,
+                    })
+                    n_rows += 1
+
+    return {"images": n_imgs, "rows": n_rows,
+              "unmapped": n_unmapped,
+              "unmapped_keys": sorted(seen_unmapped)}
+
+
+# ============================================================
 # Orchestrator
 # ============================================================
 
@@ -265,6 +410,28 @@ def build_unified_manifest(cache_root: Path,
     else:
         stats["labpics_chemistry"] = {"images": 0, "rows": 0, "skip": "missing"}
         print(f"\nLabPics Chemistry not found")
+
+    # Physics-27 — try both extracted and raw layouts
+    physics27_root = (
+        cache_root / "raw" / "physics27" / "Physics lab equipment image dataset"
+    )
+    if physics27_root.exists():
+        print(f"\nProcessing Physics-27 at {physics27_root}")
+        stats["physics27"] = build_physics27_rows(physics27_root, rows)
+        print(f"  → {stats['physics27']}")
+    else:
+        stats["physics27"] = {"images": 0, "rows": 0, "skip": "missing"}
+        print(f"\nPhysics-27 not found at {physics27_root}")
+
+    # Wikimedia Commons targeted crawl
+    wikimedia_root = cache_root / "raw" / "wikimedia"
+    if wikimedia_root.exists():
+        print(f"\nProcessing Wikimedia crawl at {wikimedia_root}")
+        stats["wikimedia"] = build_wikimedia_rows(wikimedia_root, rows)
+        print(f"  → {stats['wikimedia']}")
+    else:
+        stats["wikimedia"] = {"images": 0, "rows": 0, "skip": "missing"}
+        print(f"\nWikimedia crawl not found at {wikimedia_root}")
 
     # Write CSV
     output_path.parent.mkdir(parents=True, exist_ok=True)

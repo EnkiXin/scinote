@@ -324,7 +324,11 @@ def build_wikimedia_rows(wikimedia_root: Path,
             seen_unmapped.add(slug)
             continue
         label, etype = mapping
-        mf = cat_dir / "manifest.jsonl"
+        # Prefer keep.jsonl (post photo-filter) if present, otherwise fall
+        # back to manifest.jsonl (the raw crawl output).
+        mf = cat_dir / "keep.jsonl"
+        if not mf.exists():
+            mf = cat_dir / "manifest.jsonl"
         if mf.exists():
             with mf.open() as f:
                 for line in f:

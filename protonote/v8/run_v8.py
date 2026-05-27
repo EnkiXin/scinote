@@ -40,7 +40,11 @@ def main():
                      help="cuda / auto / cpu / cuda:N")
     ap.add_argument("--benchmark",
                      default="scivideobench",
-                     choices=["scivideobench", "expvid"])
+                     choices=["scivideobench", "expvid",
+                              "expvid_l1", "expvid_l1_tools",
+                              "expvid_l1_materials",
+                              "expvid_l1_operation",
+                              "expvid_l1_quantity"])
     ap.add_argument("--limit", type=int, default=5,
                      help="0 = all items, default 5 for smoke")
     ap.add_argument("--num_chunks", type=int, default=1)
@@ -60,7 +64,16 @@ def main():
     ap.add_argument("--condition_label", default="v8")
     args = ap.parse_args()
 
-    items = load_test_split(benchmark=args.benchmark, limit=None)
+    # ExpVid L1 (HuggingFace dataset) is separate from the
+    # paper-1 v2_split_test (L2/L3). Route accordingly.
+    if args.benchmark.startswith("expvid_l1"):
+        from protonote.data.loaders import load_expvid_l1
+        subtask = None
+        if args.benchmark != "expvid_l1":
+            subtask = args.benchmark.replace("expvid_l1_", "")
+        items = load_expvid_l1(subtask=subtask, limit=None)
+    else:
+        items = load_test_split(benchmark=args.benchmark, limit=None)
     if args.limit > 0:
         items = items[:args.limit]
     if args.num_chunks > 1:

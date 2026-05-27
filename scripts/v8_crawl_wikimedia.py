@@ -59,7 +59,7 @@ CATEGORIES = [
     # Physics measurement (Instrument / Display)
     ("Oscilloscopes",                     "oscilloscope", "Instrument"),
     ("Mass_spectrometers",                "mass spectrometer", "Instrument"),
-    ("NMR_spectrometer",                  "NMR spectrometer", "Instrument"),
+    ("Nuclear_magnetic_resonance_spectroscopy", "NMR spectrometer", "Instrument"),
     ("Infrared_spectrometers",            "infrared spectrometer", "Instrument"),
     ("Spectrophotometers",                "UV-Vis spectrometer", "Instrument"),
     # Optics / lasers
@@ -70,17 +70,17 @@ CATEGORIES = [
     ("Vacuum_chambers",                   "vacuum chamber", "Instrument"),
     ("Sputter_coating",                   "sputter deposition system", "Instrument"),
     ("Chemical_vapour_deposition",        "chemical vapor deposition system", "Instrument"),
-    ("Photolithography",                  "photolithography aligner", "Instrument"),
+    ("Photolithography_(microfabrication)", "photolithography aligner", "Instrument"),
     # Biology / medicine
     ("Gel_electrophoresis",               "gel electrophoresis apparatus", "Instrument"),
     ("Centrifuges",                       "centrifuge", "Instrument"),
     ("Thermocyclers",                     "PCR thermocycler", "Instrument"),
-    ("Incubators",                        "laboratory incubator", "Instrument"),
+    ("Incubators_(microbiology)",         "laboratory incubator", "Instrument"),
     ("Surgical_instruments",              "surgical instrument", "Instrument"),
     # General laboratory containers (boost coverage)
     ("Round-bottom_flasks",               "round-bottom flask", "Container"),
     ("Erlenmeyer_flasks",                 "Erlenmeyer flask", "Container"),
-    ("Beaker",                            "beaker", "Container"),
+    ("Glass_beakers_(laboratory_equipment)", "beaker", "Container"),
     ("Petri_dishes",                      "Petri dish", "Container"),
 ]
 

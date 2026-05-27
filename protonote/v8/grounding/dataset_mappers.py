@@ -169,7 +169,7 @@ WIKIMEDIA_MAP = {
     # Physics measurement
     "oscilloscopes":                     ("oscilloscope",                     "Instrument"),
     "mass_spectrometers":                ("mass spectrometer",                "Instrument"),
-    "nmr_spectrometer":                  ("NMR spectrometer",                 "Instrument"),
+    "nuclear_magnetic_resonance_spectroscopy": ("NMR spectrometer",           "Instrument"),
     "infrared_spectrometers":            ("infrared spectrometer",            "Instrument"),
     "spectrophotometers":                ("UV-Vis spectrometer",              "Instrument"),
     # Optics / lasers
@@ -180,17 +180,17 @@ WIKIMEDIA_MAP = {
     "vacuum_chambers":                   ("vacuum chamber",                   "Instrument"),
     "sputter_coating":                   ("sputter deposition system",        "Instrument"),
     "chemical_vapour_deposition":        ("chemical vapor deposition system", "Instrument"),
-    "photolithography":                  ("photolithography aligner",         "Instrument"),
+    "photolithography__microfabrication": ("photolithography aligner",        "Instrument"),
     # Biology / medicine
     "gel_electrophoresis":               ("gel electrophoresis apparatus",    "Instrument"),
     "centrifuges":                       ("centrifuge",                       "Instrument"),
     "thermocyclers":                     ("PCR thermocycler",                 "Instrument"),
-    "incubators":                        ("laboratory incubator",             "Instrument"),
+    "incubators__microbiology":          ("laboratory incubator",             "Instrument"),
     "surgical_instruments":              ("surgical instrument",              "Instrument"),
     # General laboratory containers
     "round-bottom_flasks":               ("round-bottom flask",               "Container"),
     "erlenmeyer_flasks":                 ("Erlenmeyer flask",                 "Container"),
-    "beaker":                            ("beaker",                           "Container"),
+    "glass_beakers__laboratory_equipment": ("beaker",                         "Container"),
     "petri_dishes":                      ("Petri dish",                       "Container"),
 }
 

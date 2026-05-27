@@ -42,38 +42,45 @@ USER_AGENT = (
 # High-priority cross-discipline categories. Curate by matching V8 entity
 # types and SciVB/ExpVid disciplines: physics, chemistry, biology,
 # medicine, engineering, materials, imaging, bioengineering.
+#
+# NOTE: 2026-05-27 — first pass found 12/26 categories returned 0 files
+# because the plural / "_devices" / "_equipment" suffixes don't exist as
+# Wikimedia Commons categories. Replaced with the actual canonical names
+# (singular, or the term Commons curates them under). All 26 should now
+# yield >0 after recursion. Slugs preserved to match WIKIMEDIA_MAP in
+# dataset_mappers.py (some slugs changed; mapper updated in tandem).
 CATEGORIES = [
     # Imaging / microscopy (Instrument)
     ("Atomic_force_microscopes",          "atomic force microscope", "Instrument"),
-    ("Scanning_electron_microscopes",     "scanning electron microscope", "Instrument"),
+    ("Scanning_electron_microscope",      "scanning electron microscope", "Instrument"),
     ("Transmission_electron_microscopes", "transmission electron microscope", "Instrument"),
-    ("Optical_microscopes",               "optical microscope", "Instrument"),
+    ("Stereo_microscopes",                "optical microscope", "Instrument"),
     ("Confocal_microscopes",              "confocal microscope", "Instrument"),
     # Physics measurement (Instrument / Display)
     ("Oscilloscopes",                     "oscilloscope", "Instrument"),
     ("Mass_spectrometers",                "mass spectrometer", "Instrument"),
-    ("NMR_spectrometers",                 "NMR spectrometer", "Instrument"),
+    ("NMR_spectrometer",                  "NMR spectrometer", "Instrument"),
     ("Infrared_spectrometers",            "infrared spectrometer", "Instrument"),
-    ("UV-Vis_spectrometers",              "UV-Vis spectrometer", "Instrument"),
+    ("Spectrophotometers",                "UV-Vis spectrometer", "Instrument"),
     # Optics / lasers
     ("Optical_tables",                    "optical table", "Instrument"),
     ("Lasers",                            "laser", "Instrument"),
     # Bioengineering / nanofab
-    ("Microfluidic_devices",              "microfluidic device", "Instrument"),
+    ("Microfluidic_chips",                "microfluidic device", "Instrument"),
     ("Vacuum_chambers",                   "vacuum chamber", "Instrument"),
-    ("Sputter_deposition_machines",       "sputter deposition system", "Instrument"),
-    ("Chemical_vapor_deposition",         "chemical vapor deposition system", "Instrument"),
-    ("Photolithography_equipment",        "photolithography aligner", "Instrument"),
+    ("Sputter_coating",                   "sputter deposition system", "Instrument"),
+    ("Chemical_vapour_deposition",        "chemical vapor deposition system", "Instrument"),
+    ("Photolithography",                  "photolithography aligner", "Instrument"),
     # Biology / medicine
-    ("Gel_electrophoresis_apparatus",     "gel electrophoresis apparatus", "Instrument"),
+    ("Gel_electrophoresis",               "gel electrophoresis apparatus", "Instrument"),
     ("Centrifuges",                       "centrifuge", "Instrument"),
-    ("Thermal_cyclers",                   "PCR thermocycler", "Instrument"),
-    ("Laboratory_incubators",             "laboratory incubator", "Instrument"),
+    ("Thermocyclers",                     "PCR thermocycler", "Instrument"),
+    ("Incubators",                        "laboratory incubator", "Instrument"),
     ("Surgical_instruments",              "surgical instrument", "Instrument"),
     # General laboratory containers (boost coverage)
     ("Round-bottom_flasks",               "round-bottom flask", "Container"),
     ("Erlenmeyer_flasks",                 "Erlenmeyer flask", "Container"),
-    ("Beakers",                           "beaker", "Container"),
+    ("Beaker",                            "beaker", "Container"),
     ("Petri_dishes",                      "Petri dish", "Container"),
 ]
 

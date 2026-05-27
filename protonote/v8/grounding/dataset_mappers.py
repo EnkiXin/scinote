@@ -162,35 +162,35 @@ PHYSICS27_MAP = {
 WIKIMEDIA_MAP = {
     # Imaging / microscopy
     "atomic_force_microscopes":          ("atomic force microscope",          "Instrument"),
-    "scanning_electron_microscopes":     ("scanning electron microscope",     "Instrument"),
+    "scanning_electron_microscope":      ("scanning electron microscope",     "Instrument"),
     "transmission_electron_microscopes": ("transmission electron microscope", "Instrument"),
-    "optical_microscopes":               ("optical microscope",               "Instrument"),
+    "stereo_microscopes":                ("optical microscope",               "Instrument"),
     "confocal_microscopes":              ("confocal microscope",              "Instrument"),
     # Physics measurement
     "oscilloscopes":                     ("oscilloscope",                     "Instrument"),
     "mass_spectrometers":                ("mass spectrometer",                "Instrument"),
-    "nmr_spectrometers":                 ("NMR spectrometer",                 "Instrument"),
+    "nmr_spectrometer":                  ("NMR spectrometer",                 "Instrument"),
     "infrared_spectrometers":            ("infrared spectrometer",            "Instrument"),
-    "uv-vis_spectrometers":              ("UV-Vis spectrometer",              "Instrument"),
+    "spectrophotometers":                ("UV-Vis spectrometer",              "Instrument"),
     # Optics / lasers
     "optical_tables":                    ("optical table",                    "Instrument"),
     "lasers":                            ("laser",                            "Instrument"),
     # Bioengineering / nanofab
-    "microfluidic_devices":              ("microfluidic device",              "Instrument"),
+    "microfluidic_chips":                ("microfluidic device",              "Instrument"),
     "vacuum_chambers":                   ("vacuum chamber",                   "Instrument"),
-    "sputter_deposition_machines":       ("sputter deposition system",        "Instrument"),
-    "chemical_vapor_deposition":         ("chemical vapor deposition system", "Instrument"),
-    "photolithography_equipment":        ("photolithography aligner",         "Instrument"),
+    "sputter_coating":                   ("sputter deposition system",        "Instrument"),
+    "chemical_vapour_deposition":        ("chemical vapor deposition system", "Instrument"),
+    "photolithography":                  ("photolithography aligner",         "Instrument"),
     # Biology / medicine
-    "gel_electrophoresis_apparatus":     ("gel electrophoresis apparatus",    "Instrument"),
+    "gel_electrophoresis":               ("gel electrophoresis apparatus",    "Instrument"),
     "centrifuges":                       ("centrifuge",                       "Instrument"),
-    "thermal_cyclers":                   ("PCR thermocycler",                 "Instrument"),
-    "laboratory_incubators":             ("laboratory incubator",             "Instrument"),
+    "thermocyclers":                     ("PCR thermocycler",                 "Instrument"),
+    "incubators":                        ("laboratory incubator",             "Instrument"),
     "surgical_instruments":              ("surgical instrument",              "Instrument"),
     # General laboratory containers
     "round-bottom_flasks":               ("round-bottom flask",               "Container"),
     "erlenmeyer_flasks":                 ("Erlenmeyer flask",                 "Container"),
-    "beakers":                           ("beaker",                           "Container"),
+    "beaker":                            ("beaker",                           "Container"),
     "petri_dishes":                      ("Petri dish",                       "Container"),
 }
 

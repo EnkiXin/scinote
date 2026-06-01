@@ -218,7 +218,34 @@ Per task: `mc` 0.50/0.45/0.55, `seqgen` 0.211/0.170/0.143, `steppred` 0.05/0/0. 
 
 ---
 
-## 12. Source index
+## 12. Case studies (by phase)
+
+Hand-picked cases that crystallize each phase's lesson (the actual question/gold/predictions are quoted; full dumps live in the cited files).
+
+### Phase 1 — notes leak / trained noters hallucinate
+- **The cleanest regression** — seqgen `57660_clip2`, gold `[9 10 11 12]`. **C0 (video) = `9 10 11 12` (F1 1.0) ✓ → +v2-noter = `15 18` (F1 0.0) ✗.** The note prose ("heating apparatus") is accurate but contains *no step numbers*; the answer model then lexically matches "heating" across the whole protocol and lands on the wrong steps. *A faithful prose note that drops the temporal anchor breaks a correct video answer.* (`V2_NOTER_REGRESSION_ANALYSIS.md`)
+- **Leak vs learn** — seqgen `55504_clip4`, gold `[20 21 22]`. C0 `1 2` (0.0); **Oracle-new (gold-aware) `20 21 22` (1.0)**; trained v2-noter `24…31` (0.0). *The oracle wins only because it encodes the gold step indices (leak); the blind trained noter can't recover them.* (`MASTER_COMPARISON.md`)
+
+### Phase 2 — agent wins on procedural, hurts on mechanism
+- **WIN** — step_prediction `52874_clip10`, gold `40`. C0(72B) `57` ✗ → C1/ReAct `40` ✓: `visual_inspect` read "late in the enrichment-bin assembly" → correct position. (`SIDE_BY_SIDE_EXPVID.md`)
+- **WIN** — video_verification `50196_clip2` ("which step was NOT performed?"), gold = step 3 (stain with Zy dye). C0 `step 2` ✗ → agent `step 3` ✓: the agent queried for on-screen evidence of "Zy dye staining" and confirmed its *absence*. (`SIDE_BY_SIDE_EXPVID.md`)
+- **HURT (the −1.38 pp SciVB mechanism)** — SciVB hypothetical `3976_1` ("what if the Micro-90 cleaning liquid fails?"), gold `C` (overheating + dirty surfaces). **C0(72B) `C` ✓ → agent `G` ✗.** `visual_inspect` correctly saw "Micro-90 removes contaminants", and the agent then reasoned at the *symptom* level ("surfaces stay dirty") instead of the *cause* level (no cooling → friction → overheating). *Grounded surface evidence anchors the model in symptom-space.* (`SIDE_BY_SIDE_SCIVB.md`)
+
+### Phase 3 — V8 grounding helps (rarely), hurts (often)
+- **SUCCESS** — SciVB trypsin `50079_3` ("final trypsin %w/v?"), gold `I (2.03%)`. no-grounding `E (0.3%)` ✗ → grounded `I` ✓: container identity (Falcon tube) + OCR of on-screen volumes enabled the calculation. (`V8_GROUNDED_VS_NO_GROUNDING_SCIVB.md`)
+- **HURT (KG noise)** — ExpVid seqgen diluent-containers, gold `[20–25]`. no-grounding `19 20` → grounded `18 19` (worse): 24 near-identical "diluent" containers + 22 failed image_match escalations made the KG a "sea of undifferentiated containers" that destroyed the sequence signal. (`V8_GROUNDED_VS_NO_GROUNDING_EXPVID.md`)
+- **HURT (false confidence = the USE_AS_IS bug)** — BrdU nutation-timing, gold `A (209 min)`; both no-grounding and grounded = `D (180)`. **30 containers were stamped `grounded via vlm_direct @0.90` while Stage-1 extracted 0 operations** — confident-but-unverified identities masked the real extraction failure (no durations captured → timing impossible). (`V8_GROUNDING_SUCCESS_CASES.md`)
+- **What a V8 KG looks like** — `53931_clip4` (hair-scraping): 5 entities (scalpel/petri dish/PBS/forceps/pipette; only petri dish "grounded"), 4 operations (scrape→transfer→wash→add, with timestamps), 0 stages, comprehension 0%. Entity+temporal chain present; no lifecycle/transmutation. (`V8_KG_EXAMPLES.md`)
+
+### Phase 5 — the oracle-KG cases (why even a *perfect* KG hurts a video-VLM)
+*Same 7B, same frames, same renderer; only the KG content differs. Data: `results_protonote_v9/oracle_kg/dump.json`.*
+- **ANCHORING (the headline case)** — steppred `2693`, gold = step 10 "Add 10 µL bacterial suspension to each well". **C0 (no KG) = exactly that ✓ → C_oracle (perfect KG) = "Perform wash procedure three times" ✗.** The perfect KG's operation list anchored the model onto a different procedural branch. *Clearest proof that a correct KG can redirect the model away from the right answer.*
+- **FLIP** — mc `50969` (probe-beam alignment ordering), gold `A`. **C0 = `A` ✓ → C_oracle = `D` ✗** — the KG's step rendering pulled the model to a wrong ordering.
+- **EXCEPTION (structure pays off)** — seqgen `52299`, gold steps `[1–8]`. C0 F1 0.70; auto-KG 0.0; **C_oracle F1 0.80** — for genuine sequence tasks a *correct* KG helps (the one task family where structure wins).
+
+---
+
+## 13. Source index
 
 - **Paper-1 / noters**: `MASTER_COMPARISON.md`, `PER_TASK_RESULTS.md`, `V2_NOTER_REGRESSION_ANALYSIS.md`, `aggregated_results.json`, `README_ExpVid_Paper.md`
 - **ProtoNote agent**: `PROTONOTE.md`, `EXECUTION.md`, `MULTIMODEL_RESULTS.md`, `PROGRESS.md`

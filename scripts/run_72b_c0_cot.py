@@ -47,7 +47,7 @@ def build_prompt(item) -> str:
     elif tt == "seqgen":
         fmt = "the space-separated step numbers shown (e.g. '3 4 5')"
     elif tt == "steppred":
-        fmt = "the next step (as the question requires)"
+        fmt = "ONLY the step NUMBER of the next step (a single integer, e.g. 56)"
     else:
         fmt = "the answer(s) in the exact format the question requests"
     block = f"Question: {q}"

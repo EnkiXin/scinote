@@ -8,9 +8,9 @@
 
 | # | 结论 | 判定 | 关键证据 |
 |---|---|---|---|
-| K1 | 注入伤 72B(−4.2)帮 7B(+3.1)规模反转 | **改写** | 跨基准拼接:−4.19 是 L1(p≈2e-10,真,集中 l1_operation −12.7),+3.12 是 L2/L3;同基准:L2/L3 72B **−0.35,p=1.0(无效应)**;SciVB −10.55(p≈3e-4,真) |
+| K1 | 注入伤 72B(−4.2)帮 7B(+3.1)规模反转 | **改写(底层主张反而更强)** | headline 跨基准拼接须重写:L1 上 7B 也受伤(−1.54,p=.017)、72B −4.19(p=3.8e-11);L2/3 上 7B +3.12(p=.0019)而 72B **−0.35(p=.875,null)**;SciVB 7B −1.38 n.s. / 72B −10.55(p=1.5e-5)。但同基准内 7B−72B **interaction 三个基准全显著**(+2.65/+3.48/+9.17pp,p≈.002/.011/.003)→ 规模反转方向经正确统计确认 |
 | K2 | H2 证伪:precision 原子≈prose 同样伤 72B | **布线干净但统计为零** | n=75 仅 6 个 discordant pairs,McNemar p=0.219;pilot 比全集偏易 8pp、MDE~8-10pp;Gate-C"弃答有效"叙事塌(见 bug#6) |
-| K3 | CoT 大幅有害(7B −10pp 级) | **7B 大半伪迹;72B mc 真** | 7B seqgen 16/20 CoT 在 768 token 内未到 FINAL ANSWER 记 0;72B mc CoT 40% vs direct 80%(8v0 翻错,p=0.008,"两项相同选 A"式 tie-break)真实 |
+| K3 | CoT 大幅有害(7B −10pp 级) | **方向成立;72B 幅度受 fitb 污染** | 复现修正:7B seqgen 16 条无 FINAL ANSWER 中仅 2-3 条真截断,14 条是模型**主动弃答**(98-244 tok,"not possible to determine")= 真实 CoT 行为,只修真截断 −10.3→−9.8pp;72B 幅度依 fitb 修法在 −2.4~−8.6pp 间摆动;72B mc 8v0 翻错(p=0.008)真实 |
 | K4 | 完美 oracle-KG 仍 −33pp(形式非内容) | **作废** | ① mc 解析器从 '60°C' 抓 'C'(57613 三臂同答 D,oracle 臂记 0);② "oracle" 从未见 gold、per-option evidence 含错误选项、50969 编码错序主动误导;③ n=10 按前轮 KG-harm 选样(prior c2 全 0)→回归均值 |
 | K5 | V9 probe:KG 有害、时序边无用 | **绝对值作废** | CoT prompt 配简答 scorer:同 fixed-80 标准 C0=0.31 vs probe C0=0.19;fitb+steppred 40/80 无信号;修正解析后 MC 子集 C0 0.50/C1 0.45/C2(KG+边)0.60 **方向反转**;C1-vs-C2(边消融)干净且≈0 这条仍立 |
 
@@ -53,6 +53,27 @@ marker-aware 抽取,1536 tok)/ **c1**(同模型行内构建 C1_fixed prose note,
 72B × {ExpVid 745, SciVB 218} × {c0, cot, c1} + rep2(c0),双实例(GPU 0,1 / 3,4)分 chunk,
 输出 `results_unified/72b_*_{main,rep2}_chunk*.jsonl`,日志 `results_unified/logs/`。
 判读规则:任何条件间差异须 > rep2 噪声底且 sign-test 显著才算效应。
+
+## 4.5 复现阶段修正(补验 workflow,18 agents,全部"审计→独立复现"双验)
+
+只有复现成功的 bug 进上表;以下为复现阶段**推翻/收窄**的早先审计主张,以最终版为准:
+
+- **"7B CoT 差距大半是 768-token 截断伪迹" — 推翻。** 16 条无 marker 的 seqgen CoT 中仅 2-3 条
+  真截断;14 条是模型推理后主动弃答(真实 CoT 行为)。修真截断后 −10.3→−9.8pp。审计早先给的
+  "剔除不可解析后 −1.1pp"是把 CoT 弃答效应删掉的循环论证。**K3 在 7B 成立。**
+- **"fitb 修复后 CoT 在 fitb 上反超 +12.3pp" — 脆弱。** 逗号修复给 72B overall gap −2.4pp,
+  bag-F1 给 −8.6pp;方向稳定,量级 scorer 依赖。统一框架已在 prompt 端写明 ' | ' 契约,以重跑为准。
+- **"video-block vs image-block 模态分裂解释基线漂移" — 证伪。** 受控 A/B(同 prompt 同帧只换
+  block 类型,n=80):29.05% vs 29.16%(−0.11pp)。漂移真凶 = prompt 措辞 + token 预算 + 解析路径。
+- **"按 mc 重加权后 V9 KG 反 +5pp" — 证伪**(n=20 上 1 个 item,McNemar p≈1)。可辩护修正
+  (mc+seqgen 干净子集)给 −0.93pp:平坦仍偏负。
+- **K2 补充**:emitted-only 置信度均值 7B 4.31 / 72B 4.93("7B mean 2.89"被 24 个解析失败的 0
+  污染);7B P2 +2.7 是 parse-failure 行注入的 artifact,应记 +0.0;**弃答路径从未被真正测试过**。
+- **K4 补充**:"net −3.5pp on 80"实为 auto-KG 数字;repo 中不存在 oracle-vs-no-KG 的无偏估计;
+  实验内唯一干净对照是 oracle vs auto **+2.0pp,且 oracle 在全部 3 条 seqgen 上胜出**——
+  "答案即结构的任务上内容质量有信号"这条边界结论保留。
+- **K1 补充**:审计自己的 McNemar(b=114/c=96)被 sample_id 碰撞污染;positional 配对正确值
+  b=21/c=19,结论同为 null。任何按 id join 的再分析都必须改用 uid。
 
 ## 5. 待办(矩阵跑完后)
 

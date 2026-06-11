@@ -9,6 +9,7 @@ video_path / id / question / options / gold).
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import sys
 from pathlib import Path
@@ -17,16 +18,26 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 TEST_SPLIT_PATH = ROOT / "train_data" / "v2_split_test.jsonl"
+TRAIN_SPLIT_PATH = ROOT / "train_data" / "v2_split_train.jsonl"
 SCIVB_VIDEO_DIR = Path("/home/yz0392@unt.ad.unt.edu/xin_ai/scivideobench/videos")
 
 
-def load_test_split(benchmark: str | None = None, limit: int | None = None) -> list[dict]:
-    """Return all test samples (or filtered to a single benchmark)."""
-    items = [json.loads(l) for l in open(TEST_SPLIT_PATH)]
+def load_test_split(benchmark: str | None = None, limit: int | None = None,
+                     split: str = "test") -> list[dict]:
+    """Return all samples from the given split (or filtered to a benchmark).
+
+    Each item gets a `uid` unique even where sample_id collides (65 SciVB
+    sample_ids are shared by two different questions about the same video;
+    joining or caching on sample_id silently conflates them)."""
+    path = TRAIN_SPLIT_PATH if split == "train" else TEST_SPLIT_PATH
+    items = [json.loads(l) for l in open(path)]
     if benchmark:
         items = [it for it in items if it.get("benchmark") == benchmark]
     if limit:
         items = items[:limit]
+    for it in items:
+        q = it.get("question") or ""
+        it["uid"] = f"{it.get('sample_id', '')}#{hashlib.sha1(q.encode()).hexdigest()[:8]}"
     return items
 
 

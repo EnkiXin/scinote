@@ -410,11 +410,11 @@ def build_note_messages(frames, task):
 # ── Scoring (same as evaluate.py) ────────────────────────────────────────────
 
 def parse_mc(r):
-    r = r.strip()
-    m = re.search(r'\b([A-D])\b', r)
-    if m:
-        return m.group(1)
-    return r[0].upper() if r and r[0].upper() in "ABCD" else ""
+    # delegate to the marker/verdict-aware parser in evaluate_c0_test_split
+    # (fixes first-\b[A-D]\b-match grabbing stray letters, e.g. the C in
+    # '60°C', out of verbose reasoning); lazy import — that module imports us
+    from evaluate_c0_test_split import parse_mc_aj
+    return parse_mc_aj(r, tuple("ABCD"))
 
 
 def score_mc(p, g):
@@ -439,8 +439,26 @@ def score_steppred(p, g):
     return 1.0 if nums and nums[0] == str(g) else 0.0
 
 
+def _split_fitb_pred(p, n_blanks):
+    """Split a fill-in-the-blank prediction into per-blank parts.
+
+    The prompt asks for ' | ' separators but models routinely use ';',
+    newlines, or commas instead; the old '|'-only split made every blank
+    after the first score 0 in those cases. Comma is only used as a last
+    resort and never splits inside a number ('1,000')."""
+    for sep in ("|", ";", "\n"):
+        parts = [x.strip() for x in p.split(sep) if x.strip()]
+        if len(parts) >= 2:
+            return parts
+    if n_blanks >= 2:
+        parts = [x.strip() for x in re.split(r",(?!\d)", p) if x.strip()]
+        if len(parts) >= 2:
+            return parts
+    return [p.strip()]
+
+
 def score_fitb(p, g):
-    pp = [x.strip().lower() for x in p.split("|")]
+    pp = [x.lower() for x in _split_fitb_pred(p, len(g))]
     out = []
     for i, ref in enumerate(g):
         if i < len(pp):

@@ -156,7 +156,7 @@ def main():
     from protonote.notes.note_buffer import NoteBuffer
     from protonote.notes.note_schema import NoteEntry
     from protonote.tools import build_default_tools
-    from protonote.videoagent2.agent import _parse_assessment
+    from protonote.videoagent2.agent import _parse_assessment, _CONF5_RE
     from protonote.cli import VLMClient
 
     items = load_test_split(benchmark=args.benchmark, limit=None)
@@ -237,6 +237,11 @@ def main():
                 c0_msgs = BUILDERS[tt](item, frames, None, item["benchmark"]) if tt == "mc" else BUILDERS[tt](item, frames, None)
                 conf_raw = vlm.generate(_append_conf_suffix(c0_msgs), max_new_tokens=(24 if tt == "mc" else 96))
                 _, conf = _parse_assessment(conf_raw)
+                # _parse_assessment returns 0.0 when the CONFIDENCE line is
+                # missing/unparseable — that is 'no signal', not 'low
+                # confidence'. The pilot's Gate-C fired exclusively on such
+                # parse failures (models never emit 1-2). Distinguish them.
+                conf_parsed = bool(_CONF5_RE.search(conf_raw or ""))
 
                 # ---- 3 distinct answer calls; P1/P2 reuse by gate ----
                 p_none = answer_for(item, frames, None, tt)
@@ -247,7 +252,7 @@ def main():
                     return float(SCORERS[tt](pred, gold))
                 s_c0 = sc(p_none[0]); s_c1 = sc(p_c1[0]); s_p0 = sc(p_atoms[0])
                 p1_on = task in GATE_T
-                p2_on = conf < TAU
+                p2_on = conf_parsed and conf < TAU
                 res = {
                     "C0":       {"pred": p_none[0], "score": s_c0, "note_used": False},
                     "C1_fixed": {"pred": p_c1[0],   "score": s_c1, "note_used": c1_note is not None},
@@ -257,7 +262,8 @@ def main():
                     "P2":       {"pred": (p_atoms[0] if p2_on and atoms_note else p_none[0]),
                                  "score": (s_p0 if p2_on and atoms_note else s_c0), "note_used": bool(p2_on and atoms_note)},
                 }
-                rec.update({"gold": gold, "conf": conf, "p1_gate_on": p1_on, "p2_gate_on": p2_on,
+                rec.update({"gold": gold, "conf": conf, "conf_parsed": conf_parsed,
+                            "p1_gate_on": p1_on, "p2_gate_on": p2_on,
                             "n_ocr_atoms": len(atoms["ocr_strings"]), "existence": atoms["existence"],
                             "c1_note_chars": len(c1_note) if c1_note else 0,
                             "atoms_note": atoms_note, "results": res,

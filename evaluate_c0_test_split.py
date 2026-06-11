@@ -136,11 +136,52 @@ BUILDERS = {
 }
 
 
+# Answer-marker variants models actually emit (FINAL/EXACT ANSWER, bare ANSWER:)
+_MC_MARKER_RE = re.compile(r"(?:FINAL|EXACT)?\s*ANSWER\s*[:：\-]\s*", re.I)
+
+
+def _mc_letter_in(s: str, keys: str) -> str:
+    # standalone letter only: not inside a word, not '60°C' / 'N/A' / '3A'
+    m = re.search(r"(?<![0-9°/\w])([%s])(?![\w/])" % keys, s)
+    return m.group(1) if m else ""
+
+
 def parse_mc_aj(r: str, valid_keys=tuple("ABCDEFGHIJ")) -> str:
-    s = r.strip()
-    m = re.search(r"\b([A-J])\b", s)
-    if m: return m.group(1)
-    if s and s[0].upper() in valid_keys: return s[0].upper()
+    s = (r or "").strip()
+    if not s:
+        return ""
+    keys = "".join(valid_keys)
+    lines = [ln.strip() for ln in s.splitlines() if ln.strip()]
+    # 1) text right after the last explicit answer marker wins
+    parts = _MC_MARKER_RE.split(s)
+    if len(parts) > 1:
+        hit = _mc_letter_in(parts[-1].strip()[:80], keys)
+        if hit:
+            return hit
+    # 2) a bare verdict line ('D', '(D)', '**D.**') — CoT puts it last
+    for ln in reversed(lines):
+        m = re.match(r"^[\*\s\(\[]*([%s])[\)\]\.\:\*\s]*$" % keys, ln)
+        if m:
+            return m.group(1)
+    # 3) answer-only style leads with the letter: 'B. explanation ...'
+    if lines:
+        m = re.match(r"^[\*\s\(\[]*([%s])(?![\w/])" % keys, lines[0])
+        if m:
+            return m.group(1)
+    # 4) last 'the answer is X' / 'option X' phrasing in the text
+    m = None
+    for m_ in re.finditer(
+            r"(?:answer\s+is|correct\s+option\s+is|option|choose|select)\s*[:\s]?\s*\(?([%s])(?![\w/])" % keys,
+            s, re.I):
+        m = m_
+    if m:
+        return m.group(1).upper()
+    # 5) guarded fallback: first standalone letter anywhere
+    hit = _mc_letter_in(s, keys)
+    if hit:
+        return hit
+    if s[0].upper() in valid_keys:
+        return s[0].upper()
     return ""
 
 

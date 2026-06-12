@@ -1,1 +1,0 @@
-{"video_id": "67123", "question_id": "4", "task": "mc", "gold": "I", "note": "{\n  \"supporting_cues\": [\n    \"frame 10-15: pipette transferring liquid into a well containing a clear medium, indicating a dilution process\"\n  ],\n  \"salient_objects_or_text\": [\n    \"numbers and text on the pipette and well plate, showing measurement and dilution steps\"\n  ]\n}"}

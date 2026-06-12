@@ -1,1 +1,0 @@
-{"sample_id": "scivideobench_mc_56149_1", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: a hand in purple gloves is seen holding a mask and aligning it over a substrate, suggesting a patterning process\"\n  ],\n  \"salient_objects_or_text\": [\n    \"ITO\"\n  ]\n}\n```"}

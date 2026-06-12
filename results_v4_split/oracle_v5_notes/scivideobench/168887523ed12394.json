@@ -1,1 +1,0 @@
-{"sample_id": "scivideobench_mc_66762_3", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 18-22: petri dishes with varying degrees of bacterial growth inhibition, indicating multiple mechanisms at play\"\n  ],\n  \"salient_objects_or_text\": [\n    \"petri dishes with labeled concentrations\"\n  ]\n}\n```"}

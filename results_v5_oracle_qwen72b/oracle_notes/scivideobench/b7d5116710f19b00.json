@@ -1,1 +1,0 @@
-{"video_id": "66420", "question_id": "3", "task": "mc", "gold": "A", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 5-9: A hooked ligation aid is used to position a ligature around a nerve, showing careful maneuvering to avoid surrounding tissue\"\n  ],\n  \"salient_objects_or_text\": [\n    \"hooked ligation aid, ligature, nerve\"\n  ]\n}\n```"}

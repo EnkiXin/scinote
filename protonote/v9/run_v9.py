@@ -180,11 +180,20 @@ def _run_one(
     out["router_confidence"] = routing.get("confidence", 0.0)
     t_router_done = time.time()
 
-    # 6. Stage 4 prompt + VLM
+    # 6. Stage 4 prompt + VLM. `gate_kg=True` lets the strategist drop
+    # the KG block for view sets where Phase B measured the KG hurts
+    # 7B answer accuracy on SciVB (conceptual-only / hypothetical-only /
+    # both). Track the gate decision for downstream analysis.
+    from protonote.v9.stages.stage4_multi_view_strategist import (
+        should_skip_kg,
+    )
+    skipped = should_skip_kg(active_views)
+    out["kg_skipped"] = skipped
     prompt = build_stage4_prompt(
         question=question, options=options,
         kg=kg, active_views=active_views,
         task_type=task_type,
+        gate_kg=True,
     )
     try:
         raw_answer = vlm.generate_video(

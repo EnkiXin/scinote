@@ -1,0 +1,11 @@
+{
+  "benchmark": "scivideobench",
+  "condition": "v9_scivb",
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "n_items": 55,
+  "n_failed": 0,
+  "acc": 18.181818181818183,
+  "elapsed_s": 4484.0,
+  "max_frames": 16,
+  "skip_ocr": false
+}

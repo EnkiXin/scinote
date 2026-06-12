@@ -1,1 +1,0 @@
-{"video_id": "2609", "question_id": "1", "task": "mc", "gold": "A", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 15-20: gloved hand positioning a mouse on a horizontal bar, showing the mouse's body not aligned perpendicular to the bar\"\n  ],\n  \"salient_objects_or_text\": [\n    \"horizontal bar, gloved hand, mouse\"\n  ]\n}\n```"}

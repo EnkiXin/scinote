@@ -1,1 +1,0 @@
-{"video_id": "67000", "question_id": "2", "task": "mc", "gold": "C", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: centrifuge spinning with tubes inside, indicating a separation process\"\n  ],\n  \"salient_objects_or_text\": [\n    \"centrifuge with tubes, suggesting a step to remove unreacted substances\"\n  ]\n}\n```"}

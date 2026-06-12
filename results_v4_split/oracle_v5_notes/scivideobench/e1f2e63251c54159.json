@@ -1,1 +1,0 @@
-{"sample_id": "scivideobench_mc_62061_2", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 15-20: A column labeled 'ZIC-pHILIC' is shown, indicating the type of column used for separation.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"Column type: ZIC-pHILIC 5um polymer 150 x 2.1 mm\"\n  ]\n}\n```"}

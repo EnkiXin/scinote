@@ -1,1 +1,0 @@
-{"video_id": "57502", "question_id": "2", "task": "mc", "gold": "I", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 20-25: A person in a lab coat is seen placing a sample into an oven, indicating a step in the annealing process.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"oven with temperature settings visible\"\n  ]\n}\n```"}

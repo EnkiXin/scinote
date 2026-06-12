@@ -1,0 +1,156 @@
+==== C1 (no edges) ====
+You are answering a question about a scientific experiment video.
+
+Question: Based on the full experimental procedure，determine the step numbers shown in the video.
+1. Obtain informed consent from subject
+2. Provide instructions for pain scoring
+3. Introduce subject to electronic Visual Analogue Scale slider
+4. Instruct subject to indicate pain intensity (0-100%) by moving slider left to right
+5. Inform subject that moving slider fully right terminates painful stimulus
+6. Provide standardized pain scale definitions and instructions during training
+7. Shave skin if necessary
+8. Clean area overlying tibia bone using skin preparation gel
+9. Place two silver-silver chloride electrodes on prepared skin
+10. Position anode with middle 100 mm distal to caudal end of patella
+11. Position cathode directly underneath anode
+12. Instruct subject to sit comfortably with foot flat on floor
+13. Record resistance of electrodes and verify <2 kiloohms
+14. Remove electrodes and re-cleanse skin with preparation gel if necessary
+15. Connect electrodes to constant current stimulator
+16. Apply tetanic pulse (0 mA start, 0.5 mA/s increment, 10 Hz frequency, 0.2 ms duration)
+17. Use Visual Analogue Scale to record pain detection threshold (rating >0)
+18. Record pain tolerance level (when stimulus becomes intolerable)
+19. Terminate painful stimulus administration
+20. Record area under stimulus-response curve
+21. Place 11 cm wide tourniquet cuff over gastrocnemius muscle
+22. Instruct subject to sit comfortably with feet flat on floor
+23. Inflate cuff at 0.5 kPa/s constant rate up to 100 kPa using electro-pneumatic regulator
+24. Instruct subject to rate pain continuously using electronic Visual Analogue Scale during inflation
+25. Cease stimulus by deflating cuff upon intolerable pain indication or reaching 100 kPa pressure
+26. Prepare two thermostat-controlled circulating water baths set at 35°C and 1°C
+27. Measure subject's resting diastolic blood pressure
+28. Place 35 cm tourniquet on subject's non-dominant upper arm
+29. Instruct subject to sit with palm flat, fingers spread wide, without touching bath edges, and rate pain intensity
+30. Subject rates pain intensity
+31. Place non-dominant hand in 35°C warm water bath for 2 minutes
+32. Inflate blood pressure cuff on upper arm to 20 mmHg below resting diastolic pressure
+33. Transfer hand from warm water bath to cold water bath at similar depth
+34. Subject rates pain response during cold immersion using electronic Visual Analogue Scale
+35. Remove arm from cold water bath after reaching tolerance or 120-second limit
+36. Deflate blood pressure cuff
+37. Dry forearm with towel
+38. Repeat electrical stimulation task within 5 minutes after cold pressor test
+39. Turn on UVB lamp and allow warm-up for at least ten minutes
+40. Instruct subject to stand with left hand holding right shoulder
+41. Place UVB lamp in direct contact with skin on right upper back/shoulder area
+42. Apply UVB exposure based on subject's Fitzpatrick skin type to healthy skin
+43. Apply ascending UVB doses to six 1x1 cm areas on subject's back to determine minimal erythema dose
+44. Apply 3x3 cm UVB exposure equivalent to three-fold individual minimal erythema dose to subject's back
+45. Ensure UVB exposure produces homogeneous, well-demarcated skin erythema to induce hyperalgesia
+46. Prepare 3x3 cm thermode for thermal detection threshold assessment
+47. Measure thermal pain detection threshold on normal skin contralateral to UVB-irradiated site
+48. Set thermode initial temperature to 34°C
+49. Ramp thermode temperature at 0.5°C per second
+50. Repeat thermal pain threshold measurement on UVB-irradiated skin
+51. Record average pain detection threshold from three consecutive stimuli
+
+Options:
+
+
+This question activates the following reasoning views: procedural.
+
+# Knowledge Graph (multi-view)
+Active views: procedural
+
+## PROCEDURAL view
+#### Operations in temporal order
+- **6s** [adjusting_slider]: adjusting_slider
+
+
+Reasoning instructions:
+- For procedural aspects: follow the Operations in temporal order. Be careful about control vs experimental entities — individually-operated entities follow their own track.
+
+Provide brief step-by-step reasoning, then on the FINAL line output your answer in the format the question requested.
+
+Reasoning:
+
+==== C2 (edges) ====
+You are answering a question about a scientific experiment video.
+
+Question: Based on the full experimental procedure，determine the step numbers shown in the video.
+1. Obtain informed consent from subject
+2. Provide instructions for pain scoring
+3. Introduce subject to electronic Visual Analogue Scale slider
+4. Instruct subject to indicate pain intensity (0-100%) by moving slider left to right
+5. Inform subject that moving slider fully right terminates painful stimulus
+6. Provide standardized pain scale definitions and instructions during training
+7. Shave skin if necessary
+8. Clean area overlying tibia bone using skin preparation gel
+9. Place two silver-silver chloride electrodes on prepared skin
+10. Position anode with middle 100 mm distal to caudal end of patella
+11. Position cathode directly underneath anode
+12. Instruct subject to sit comfortably with foot flat on floor
+13. Record resistance of electrodes and verify <2 kiloohms
+14. Remove electrodes and re-cleanse skin with preparation gel if necessary
+15. Connect electrodes to constant current stimulator
+16. Apply tetanic pulse (0 mA start, 0.5 mA/s increment, 10 Hz frequency, 0.2 ms duration)
+17. Use Visual Analogue Scale to record pain detection threshold (rating >0)
+18. Record pain tolerance level (when stimulus becomes intolerable)
+19. Terminate painful stimulus administration
+20. Record area under stimulus-response curve
+21. Place 11 cm wide tourniquet cuff over gastrocnemius muscle
+22. Instruct subject to sit comfortably with feet flat on floor
+23. Inflate cuff at 0.5 kPa/s constant rate up to 100 kPa using electro-pneumatic regulator
+24. Instruct subject to rate pain continuously using electronic Visual Analogue Scale during inflation
+25. Cease stimulus by deflating cuff upon intolerable pain indication or reaching 100 kPa pressure
+26. Prepare two thermostat-controlled circulating water baths set at 35°C and 1°C
+27. Measure subject's resting diastolic blood pressure
+28. Place 35 cm tourniquet on subject's non-dominant upper arm
+29. Instruct subject to sit with palm flat, fingers spread wide, without touching bath edges, and rate pain intensity
+30. Subject rates pain intensity
+31. Place non-dominant hand in 35°C warm water bath for 2 minutes
+32. Inflate blood pressure cuff on upper arm to 20 mmHg below resting diastolic pressure
+33. Transfer hand from warm water bath to cold water bath at similar depth
+34. Subject rates pain response during cold immersion using electronic Visual Analogue Scale
+35. Remove arm from cold water bath after reaching tolerance or 120-second limit
+36. Deflate blood pressure cuff
+37. Dry forearm with towel
+38. Repeat electrical stimulation task within 5 minutes after cold pressor test
+39. Turn on UVB lamp and allow warm-up for at least ten minutes
+40. Instruct subject to stand with left hand holding right shoulder
+41. Place UVB lamp in direct contact with skin on right upper back/shoulder area
+42. Apply UVB exposure based on subject's Fitzpatrick skin type to healthy skin
+43. Apply ascending UVB doses to six 1x1 cm areas on subject's back to determine minimal erythema dose
+44. Apply 3x3 cm UVB exposure equivalent to three-fold individual minimal erythema dose to subject's back
+45. Ensure UVB exposure produces homogeneous, well-demarcated skin erythema to induce hyperalgesia
+46. Prepare 3x3 cm thermode for thermal detection threshold assessment
+47. Measure thermal pain detection threshold on normal skin contralateral to UVB-irradiated site
+48. Set thermode initial temperature to 34°C
+49. Ramp thermode temperature at 0.5°C per second
+50. Repeat thermal pain threshold measurement on UVB-irradiated skin
+51. Record average pain detection threshold from three consecutive stimuli
+
+Options:
+
+
+This question activates the following reasoning views: procedural.
+
+# Knowledge Graph (multi-view)
+Active views: procedural
+
+## PROCEDURAL view
+#### Operations in temporal order
+- **6s** [adjusting_slider]: adjusting_slider
+
+## TEMPORAL EDGES
+(operation ordering derived from on-screen timestamps — reliable, no inference)
+(no temporal edges: fewer than 2 timed operations)
+
+
+Reasoning instructions:
+- For procedural aspects: follow the Operations in temporal order. Be careful about control vs experimental entities — individually-operated entities follow their own track.
+- Use the TEMPORAL EDGES section to follow the exact order of operations (A --before--> B means A finishes before B starts; --overlaps--> means they run concurrently). Trace this chain when the question depends on operation order or what precedes/follows a step.
+
+Provide brief step-by-step reasoning, then on the FINAL line output your answer in the format the question requested.
+
+Reasoning:

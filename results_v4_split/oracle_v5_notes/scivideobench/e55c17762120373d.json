@@ -1,1 +1,0 @@
-{"sample_id": "scivideobench_mc_66604_1", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: pipette carefully dispensing liquid into a well plate, ensuring no air is introduced\"\n  ],\n  \"salient_objects_or_text\": [\n    \"pipette, well plate, clear liquid\"\n  ]\n}\n```"}

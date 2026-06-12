@@ -1,1 +1,0 @@
-{"video_id": "59148", "question_id": "4", "task": "mc", "gold": "G", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 20-25: a hand wearing a blue glove is seen moving a piece of bovine muscle within a clear container, ensuring it is properly positioned\"\n  ],\n  \"salient_objects_or_text\": [\n    \"bovine muscle, clear container, blue glove\"\n  ]\n}\n```"}

@@ -1,1 +1,0 @@
-{"sample_id": "scivideobench_mc_66420_4", "benchmark": "scivideobench", "task": "mc", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: a pipette is seen applying a clear liquid to the eye of a mouse, which is likely a lubricant or saline solution\"\n  ],\n  \"salient_objects_or_text\": [\n    \"pipette, mouse eye, clear liquid\"\n  ]\n}\n```"}

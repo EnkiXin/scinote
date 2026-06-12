@@ -1,1 +1,0 @@
-{"video_id": "67405", "question_id": "5", "task": "mc", "gold": "B", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 20-25: A person is seen using a pipette to transfer a liquid into a well plate, indicating a step in sample preparation.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"Pipette, well plate, and liquid transfer\"\n  ]\n}\n```"}

@@ -174,12 +174,70 @@ _RENDERERS = {
 }
 
 
+# ── STEP 2: explicit temporal edges (zero-hallucination) ──────────
+# Probe (2026-05-31): the prior pipeline rendered operations only as
+# flat "inputs:/outputs:" string lists and NEVER turned them into
+# walkable edges, and the derived state_graph was never read by Stage 4.
+# These helpers render operations as EXPLICIT directed edges so we can
+# test whether the answer model uses graph structure at all.
+
+def _temporal_edges(kg) -> list[tuple]:
+    """Derive zero-hallucination temporal edges from operation timestamps.
+
+    Returns (a_id, a_action, relation, b_id, b_action) tuples, where
+    relation is "before" (consecutive in time) or "overlaps" (time
+    intervals intersect). source=temporal, reliability=high.
+    """
+    ops = sorted(kg.operations, key=lambda o: o.timestamp)
+    edges: list[tuple] = []
+    for a, b in zip(ops, ops[1:]):
+        edges.append((a.operation_id, a.action, "before",
+                      b.operation_id, b.action))
+    for i, a in enumerate(ops):
+        a_end = a.timestamp + (a.duration or 0.0)
+        for b in ops[i + 1:]:
+            if b.timestamp < a_end:        # sorted: a.ts <= b.ts
+                edges.append((a.operation_id, a.action, "overlaps",
+                              b.operation_id, b.action))
+            else:
+                break                       # sorted -> no later overlap
+    return edges
+
+
+def render_temporal_edges(kg) -> str:
+    edges = _temporal_edges(kg)
+    lines = [
+        "## TEMPORAL EDGES",
+        "(operation ordering derived from on-screen timestamps — reliable, "
+        "no inference)",
+    ]
+    if not edges:
+        lines.append("(no temporal edges: fewer than 2 timed operations)")
+        return "\n".join(lines)
+    for a_id, a_act, rel, b_id, b_act in edges:
+        lines.append(f"- {a_id} ({a_act}) --{rel}--> {b_id} ({b_act})")
+    return "\n".join(lines)
+
+
+_TEMPORAL_EDGE_INSTRUCTION = (
+    "- Use the TEMPORAL EDGES section to follow the exact order of "
+    "operations (A --before--> B means A finishes before B starts; "
+    "--overlaps--> means they run concurrently). Trace this chain when the "
+    "question depends on operation order or what precedes/follows a step."
+)
+
+
 # ── multi-view stratagist ─────────────────────────────────────────
 
 def render_multi_view_kg(
     kg: StateMachineKG, active_views: list[str],
+    *, include_edges: bool = False,
 ) -> str:
-    """Build the multi-view markdown for Stage 4 prompt consumption."""
+    """Build the multi-view markdown for Stage 4 prompt consumption.
+
+    When ``include_edges`` is True, an explicit TEMPORAL EDGES section is
+    appended (STEP 2 probe). Default False preserves prior behavior.
+    """
     parts = [
         "# Knowledge Graph (multi-view)",
         f"Active views: {', '.join(active_views) if active_views else '(none)'}",
@@ -191,6 +249,9 @@ def render_multi_view_kg(
             continue
         parts.append(f"## {v.upper()} view")
         parts.append(renderer(kg))
+        parts.append("")
+    if include_edges:
+        parts.append(render_temporal_edges(kg))
         parts.append("")
     return "\n".join(parts)
 
@@ -232,6 +293,49 @@ def _format_options(options) -> str:
     return str(options)
 
 
+# Router-view sets where the KG markdown empirically *hurts* answer
+# accuracy on 7B SciVB (Phase B 2026-05-28 measurement). For those
+# views we skip the KG block and emit a vanilla prompt — effectively
+# falling back to V8 no_grounding behavior while preserving the
+# router output for diagnostics. See V9_RESEARCH_PLAN.md §6.1 and the
+# Phase B per-view analysis (procedural-set +14 pp, conceptual-only
+# / hypothetical-only / their intersection -5 to -17 pp).
+_SKIP_KG_VIEW_SETS: set[frozenset[str]] = {
+    frozenset(["conceptual"]),
+    frozenset(["hypothetical"]),
+    frozenset(["conceptual", "hypothetical"]),
+}
+
+
+def should_skip_kg(active_views: list[str]) -> bool:
+    """True if the router-determined view set is in the skip list."""
+    return frozenset(active_views) in _SKIP_KG_VIEW_SETS
+
+
+def _build_vanilla_prompt(*, question: str, options, task_type: str) -> str:
+    """KG-free fallback. Mirrors V8 no_grounding answering style."""
+    if task_type == "mc":
+        format_footer = (
+            "Reason briefly step by step, then on the FINAL line output "
+            "exactly one letter (A, B, C, ...) matching your chosen option."
+        )
+    else:
+        format_footer = (
+            "Reason briefly step by step, then on the FINAL line output "
+            "your answer in the format the question requested."
+        )
+    return f"""You are answering a question about a scientific experiment video.
+
+Question: {question.strip()}
+
+Options:
+{_format_options(options)}
+
+{format_footer}
+
+Reasoning:"""
+
+
 def build_stage4_prompt(
     *,
     question: str,
@@ -239,18 +343,35 @@ def build_stage4_prompt(
     kg: StateMachineKG,
     active_views: list[str],
     task_type: str = "mc",
+    gate_kg: bool = True,
+    include_edges: bool = False,
 ) -> str:
     """Build the final Stage 4 prompt with multi-view KG + reasoning hints.
 
     `task_type` is "mc" (answer A/B/...) or "seq_gen" (list output).
     The instruction footer adapts to the task type.
+
+    When `gate_kg=True` (default) and `active_views` is in the empirical
+    skip-list (conceptual-only / hypothetical-only / conceptual+
+    hypothetical), the KG block is omitted and a vanilla prompt is
+    returned — matching V8 no_grounding behavior for view sets where
+    the KG markdown has been measured to hurt accuracy. Set
+    `gate_kg=False` to force the full multi-view KG prompt (useful for
+    ablations and KG-quality diagnostics).
     """
-    kg_block = render_multi_view_kg(kg, active_views)
+    if gate_kg and should_skip_kg(active_views):
+        return _build_vanilla_prompt(
+            question=question, options=options, task_type=task_type,
+        )
+
+    kg_block = render_multi_view_kg(kg, active_views, include_edges=include_edges)
     instr_lines = [
         f"- {_VIEW_INSTRUCTIONS[v]}"
         for v in active_views
         if v in _VIEW_INSTRUCTIONS
     ]
+    if include_edges:
+        instr_lines.append(_TEMPORAL_EDGE_INSTRUCTION)
     instructions = "\n".join(instr_lines) if instr_lines else (
         "- Reason carefully step by step, then answer."
     )

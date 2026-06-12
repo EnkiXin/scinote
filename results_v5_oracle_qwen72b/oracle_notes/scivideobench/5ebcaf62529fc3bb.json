@@ -1,1 +1,0 @@
-{"video_id": "61829", "question_id": "4", "task": "mc", "gold": "H", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 15-20: A graph showing a time-resolved measurement with a final peak indicating a diameter of approximately 110 nm\"\n  ],\n  \"salient_objects_or_text\": [\n    \"PLA_black_200\u00b0C, Diameter [nm], 110 nm\"\n  ]\n}\n```"}

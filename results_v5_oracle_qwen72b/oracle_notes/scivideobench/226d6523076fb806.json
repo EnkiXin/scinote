@@ -1,1 +1,0 @@
-{"video_id": "4213", "question_id": "5", "task": "mc", "gold": "C", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 5-9: pipette transferring liquid into well containing clear medium\"\n  ],\n  \"salient_objects_or_text\": [\n    \"DMSO: dimethyl sulfoxide\"\n  ]\n}\n```"}

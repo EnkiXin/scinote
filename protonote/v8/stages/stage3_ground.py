@@ -431,4 +431,12 @@ def ground_kg(
                 or ent.grounded.identity is None):
             counts["ungrounded_total"] += 1
 
+    # Grounding mutated entity.grounded in place WITHOUT going through
+    # kg.update_entity_grounding(), so kg.metadata (comprehension_level +
+    # grounded_via_* counts) is still frozen at its Stage-1 value (0%, all
+    # ungrounded). Recompute it now so the comprehension metric AND the
+    # notes_md header reflect the grounding that actually happened.
+    # (Bug: comprehension_level reported 0% for 100% of samples — 2026-05-31.)
+    kg._update_metadata()
+
     return counts

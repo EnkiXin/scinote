@@ -1,0 +1,11 @@
+{
+  "benchmark": "scivideobench",
+  "condition": "phase_a_smoke",
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "n_items": 5,
+  "n_failed": 0,
+  "acc": 40.0,
+  "elapsed_s": 521.4,
+  "max_frames": 16,
+  "skip_ocr": false
+}

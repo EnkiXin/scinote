@@ -1,1 +1,0 @@
-{"video_id": "61997", "question_id": "1", "task": "mc", "gold": "F", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 10-15: A scientist is seen adding a solid substance into a liquid in a beaker, indicating a mixing process.\"\n  ],\n  \"salient_objects_or_text\": [\n    \"The beaker and the solid substance being added are clearly visible.\"\n  ]\n}\n```"}

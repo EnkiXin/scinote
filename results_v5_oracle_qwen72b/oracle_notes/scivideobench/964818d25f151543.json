@@ -1,1 +1,0 @@
-{"video_id": "59068", "question_id": "3", "task": "mc", "gold": "J", "note": "```json\n{\n  \"supporting_cues\": [\n    \"frame 20-25: pipette tip is shown dispensing a liquid into a small container, indicating a precise volume transfer\"\n  ],\n  \"salient_objects_or_text\": [\n    \"pipette with a visible liquid column, small container receiving the liquid\"\n  ]\n}\n```"}

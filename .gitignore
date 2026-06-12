@@ -68,3 +68,4 @@ venv/
 .vscode/
 *.zip
 cache/image_library/processed/*.csv
+archive_results/

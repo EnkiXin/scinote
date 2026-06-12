@@ -1,0 +1,54 @@
+[unified] expvid chunk 0/2 model=7b conds=['c0'] tag=rep2: 373/373 to run (resume skips 0)
+[VLMClient] loading Qwen/Qwen2.5-VL-7B-Instruct on auto
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<01:17,  9.42it/s]Loading weights:   0%|          | 2/729 [00:00<02:31,  4.80it/s]Loading weights:   2%|▏         | 17/729 [00:00<00:16, 42.81it/s]Loading weights:   4%|▎         | 27/729 [00:00<00:13, 52.77it/s]Loading weights:   6%|▌         | 41/729 [00:00<00:10, 62.92it/s]Loading weights:   7%|▋         | 54/729 [00:00<00:09, 74.57it/s]Loading weights:   9%|▉         | 66/729 [00:01<00:08, 77.73it/s]Loading weights:  11%|█         | 78/729 [00:01<00:08, 80.94it/s]Loading weights:  12%|█▏        | 90/729 [00:01<00:07, 82.60it/s]Loading weights:  14%|█▍        | 102/729 [00:01<00:07, 84.15it/s]Loading weights:  16%|█▌        | 113/729 [00:01<00:06, 90.26it/s]Loading weights:  17%|█▋        | 124/729 [00:01<00:07, 79.98it/s]Loading weights:  19%|█▉        | 138/729 [00:01<00:06, 90.99it/s]Loading weights:  21%|██        | 150/729 [00:02<00:06, 95.05it/s]Loading weights:  22%|██▏       | 160/729 [00:02<00:06, 92.63it/s]Loading weights:  24%|██▍       | 174/729 [00:02<00:05, 101.95it/s]Loading weights:  26%|██▌       | 186/729 [00:02<00:05, 103.18it/s]Loading weights:  27%|██▋       | 198/729 [00:02<00:04, 106.86it/s]Loading weights:  30%|██▉       | 216/729 [00:02<00:04, 124.09it/s]Loading weights:  31%|███▏      | 229/729 [00:02<00:03, 125.47it/s]Loading weights:  33%|███▎      | 242/729 [00:02<00:03, 123.50it/s]Loading weights:  35%|███▍      | 255/729 [00:02<00:03, 120.54it/s]Loading weights:  37%|███▋      | 268/729 [00:03<00:04, 115.11it/s]Loading weights:  38%|███▊      | 280/729 [00:03<00:04, 109.86it/s]Loading weights:  40%|████      | 292/729 [00:03<00:04, 89.10it/s] Loading weights:  42%|████▏     | 306/729 [00:03<00:04, 96.33it/s]Loading weights:  44%|████▎     | 318/729 [00:03<00:04, 98.11it/s]Loading weights:  45%|████▌     | 330/729 [00:03<00:04, 98.63it/s]Loading weights:  59%|█████▊    | 427/729 [00:03<00:00, 317.35it/s]Loading weights:  72%|███████▏  | 527/729 [00:03<00:00, 497.61it/s]Loading weights:  87%|████████▋ | 637/729 [00:03<00:00, 658.81it/s]Loading weights: 100%|█████████▉| 728/729 [00:04<00:00, 706.03it/s]Loading weights: 100%|██████████| 729/729 [00:04<00:00, 177.50it/s]
+[VLMClient] loaded (_QwenVLImpl)
+[unified] model ready
+  [10/373] c0~0.445 35s
+  [20/373] c0~0.380 75s
+  [30/373] c0~0.397 103s
+  [40/373] c0~0.428 138s
+  [50/373] c0~0.403 174s
+  [60/373] c0~0.425 208s
+  [70/373] c0~0.447 239s
+  [80/373] c0~0.435 261s
+  [90/373] c0~0.434 283s
+  [100/373] c0~0.431 309s
+  [110/373] c0~0.455 331s
+  [120/373] c0~0.451 354s
+  [130/373] c0~0.454 374s
+  [140/373] c0~0.472 388s
+  [150/373] c0~0.474 413s
+  [160/373] c0~0.457 432s
+  [170/373] c0~0.430 446s
+  [180/373] c0~0.406 467s
+  [190/373] c0~0.385 482s
+  [200/373] c0~0.365 499s
+  [210/373] c0~0.348 520s
+  [220/373] c0~0.332 538s
+  [230/373] c0~0.318 562s
+  [240/373] c0~0.317 583s
+  [250/373] c0~0.304 598s
+  [260/373] c0~0.296 618s
+  [270/373] c0~0.289 634s
+  [280/373] c0~0.282 654s
+  [290/373] c0~0.283 678s
+  [300/373] c0~0.277 697s
+  [310/373] c0~0.279 812s
+  [320/373] c0~0.274 1007s
+  [330/373] c0~0.272 1149s
+  [340/373] c0~0.270 1334s
+  [350/373] c0~0.266 1513s
+  [360/373] c0~0.264 1704s
+  [370/373] c0~0.260 1862s
+  [373/373] c0~0.259 1920s
+[unified] done -> /home/yz0392@unt.ad.unt.edu/xin_ai/scinote/results_unified/7b_expvid_rep2_chunk0of2.jsonl
+  c0   fitb      n=  69 mean=0.1664
+  c0   mc        n= 151 mean=0.3311
+  c0   seqgen    n=  81 mean=0.4329
+  c0   steppred  n=  72 mean=0.0000
+[unified] expvid chunk 0/2 model=7b conds=['c0'] tag=rep2: 0/373 to run (resume skips 373)
+[VLMClient] loading Qwen/Qwen2.5-VL-7B-Instruct on auto
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<01:35,  7.62it/s]Loading weights:   0%|          | 2/729 [00:00<01:57,  6.16it/s]Loading weights:   2%|▏         | 15/729 [00:00<00:14, 47.70it/s]Loading weights:   4%|▍         | 28/729 [00:00<00:09, 74.24it/s]Loading weights:   5%|▌         | 40/729 [00:00<00:08, 85.54it/s]Loading weights:   7%|▋         | 52/729 [00:00<00:07, 88.73it/s]Loading weights:   9%|▉         | 64/729 [00:00<00:07, 87.88it/s]Loading weights:  10%|█         | 76/729 [00:01<00:08, 79.88it/s]Loading weights:  12%|█▏        | 89/729 [00:01<00:07, 84.57it/s]Loading weights:  14%|█▍        | 101/729 [00:01<00:07, 85.97it/s]Loading weights:  15%|█▌        | 112/729 [00:01<00:07, 84.38it/s]Loading weights:  17%|█▋        | 124/729 [00:01<00:07, 85.27it/s]Loading weights:  19%|█▉        | 137/729 [00:01<00:06, 88.01it/s]Loading weights:  20%|██        | 148/729 [00:01<00:06, 85.84it/s]Loading weights:  22%|██▏       | 161/729 [00:02<00:06, 88.88it/s]Loading weights:  24%|██▎       | 173/729 [00:02<00:06, 81.74it/s]Loading weights:  26%|██▌       | 186/729 [00:02<00:06, 85.83it/s]Loading weights:  27%|██▋       | 198/729 [00:02<00:06, 85.99it/s]Loading weights:  29%|██▉       | 210/729 [00:02<00:05, 87.19it/s]Loading weights:  30%|███       | 222/729 [00:02<00:05, 87.31it/s]Loading weights:  32%|███▏      | 234/729 [00:02<00:05, 87.30it/s]Loading weights:  34%|███▎      | 246/729 [00:03<00:05, 87.10it/s]Loading weights:  35%|███▌      | 257/729 [00:03<00:05, 85.03it/s]Loading weights:  37%|███▋      | 270/729 [00:03<00:05, 88.67it/s]Loading weights:  39%|███▊      | 282/729 [00:03<00:04, 92.16it/s]Loading weights:  40%|████      | 292/729 [00:03<00:04, 89.52it/s]Loading weights:  42%|████▏     | 306/729 [00:03<00:04, 98.38it/s]Loading weights:  44%|████▎     | 318/729 [00:03<00:04, 95.59it/s]Loading weights:  45%|████▌     | 330/729 [00:03<00:04, 93.18it/s]Loading weights:  57%|█████▋    | 419/729 [00:04<00:01, 287.25it/s]Loading weights:  71%|███████   | 517/729 [00:04<00:00, 465.11it/s]Loading weights:  84%|████████▍ | 611/729 [00:04<00:00, 593.07it/s]Loading weights:  96%|█████████▋| 703/729 [00:04<00:00, 679.51it/s]Loading weights: 100%|██████████| 729/729 [00:04<00:00, 166.50it/s]
+[VLMClient] loaded (_QwenVLImpl)
+[unified] model ready
+[unified] done -> /home/yz0392@unt.ad.unt.edu/xin_ai/scinote/results_unified/7b_expvid_rep2_chunk0of2.jsonl

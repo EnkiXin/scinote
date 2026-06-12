@@ -1,0 +1,201 @@
+[unified] expvid chunk 0/2 model=7b conds=['c0', 'cot', 'c1'] tag=main: 373/373 to run (resume skips 0)
+[VLMClient] loading Qwen/Qwen2.5-VL-7B-Instruct on auto
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<02:13,  5.47it/s]Loading weights:   0%|          | 2/729 [00:00<02:39,  4.57it/s]Loading weights:   2%|▏         | 12/729 [00:00<00:23, 30.82it/s]Loading weights:   3%|▎         | 21/729 [00:00<00:14, 47.29it/s]Loading weights:   4%|▍         | 28/729 [00:00<00:13, 50.54it/s]Loading weights:   6%|▌         | 42/729 [00:00<00:09, 70.99it/s]Loading weights:   7%|▋         | 54/729 [00:01<00:08, 77.48it/s]Loading weights:   9%|▉         | 66/729 [00:01<00:08, 81.83it/s]Loading weights:  11%|█         | 78/729 [00:01<00:07, 84.49it/s]Loading weights:  12%|█▏        | 90/729 [00:01<00:07, 85.86it/s]Loading weights:  14%|█▍        | 102/729 [00:01<00:07, 87.18it/s]Loading weights:  16%|█▌        | 114/729 [00:01<00:06, 87.88it/s]Loading weights:  17%|█▋        | 126/729 [00:01<00:06, 90.69it/s]Loading weights:  19%|█▉        | 138/729 [00:01<00:06, 92.01it/s]Loading weights:  21%|██        | 150/729 [00:02<00:06, 94.10it/s]Loading weights:  22%|██▏       | 162/729 [00:02<00:06, 92.62it/s]Loading weights:  24%|██▍       | 174/729 [00:02<00:05, 93.61it/s]Loading weights:  26%|██▌       | 186/729 [00:02<00:05, 94.27it/s]Loading weights:  27%|██▋       | 198/729 [00:02<00:05, 94.81it/s]Loading weights:  29%|██▉       | 210/729 [00:02<00:05, 95.64it/s]Loading weights:  30%|███       | 222/729 [00:02<00:05, 96.30it/s]Loading weights:  32%|███▏      | 233/729 [00:02<00:05, 94.51it/s]Loading weights:  34%|███▎      | 246/729 [00:03<00:04, 98.74it/s]Loading weights:  35%|███▌      | 258/729 [00:03<00:04, 94.88it/s]Loading weights:  37%|███▋      | 270/729 [00:03<00:04, 96.47it/s]Loading weights:  39%|███▊      | 282/729 [00:03<00:04, 95.42it/s]Loading weights:  40%|████      | 294/729 [00:03<00:04, 94.96it/s]Loading weights:  42%|████▏     | 305/729 [00:03<00:04, 93.41it/s]Loading weights:  44%|████▎     | 318/729 [00:03<00:04, 96.50it/s]Loading weights:  45%|████▌     | 330/729 [00:03<00:04, 94.30it/s]Loading weights:  58%|█████▊    | 424/729 [00:04<00:00, 306.14it/s]Loading weights:  71%|███████▏  | 521/729 [00:04<00:00, 481.04it/s]Loading weights:  84%|████████▍ | 613/729 [00:04<00:00, 599.83it/s]Loading weights:  97%|█████████▋| 709/729 [00:04<00:00, 696.72it/s]Loading weights: 100%|██████████| 729/729 [00:04<00:00, 166.29it/s]
+[VLMClient] loaded (_QwenVLImpl)
+[unified] model ready
+  [10/373] c0~0.430 cot~0.324 c1~0.385 115s
+  [20/373] c0~0.372 cot~0.248 c1~0.314 239s
+  [30/373] c0~0.383 cot~0.264 c1~0.340 335s
+  [40/373] c0~0.418 cot~0.341 c1~0.389 436s
+  [50/373] c0~0.395 cot~0.329 c1~0.392 542s
+  [60/373] c0~0.418 cot~0.352 c1~0.399 649s
+  [70/373] c0~0.441 cot~0.331 c1~0.410 753s
+  [80/373] c0~0.430 cot~0.318 c1~0.400 839s
+  [90/373] c0~0.430 cot~0.341 c1~0.427 924s
+  [100/373] c0~0.427 cot~0.337 c1~0.434 1019s
+  [110/373] c0~0.452 cot~0.343 c1~0.458 1101s
+  [120/373] c0~0.447 cot~0.372 c1~0.445 1187s
+  [130/373] c0~0.451 cot~0.375 c1~0.457 1261s
+  [140/373] c0~0.469 cot~0.384 c1~0.474 1326s
+  [150/373] c0~0.471 cot~0.391 c1~0.476 1418s
+  [160/373] c0~0.454 cot~0.386 c1~0.453 1489s
+  [170/373] c0~0.427 cot~0.363 c1~0.426 1552s
+  [180/373] c0~0.404 cot~0.343 c1~0.402 1624s
+  [190/373] c0~0.382 cot~0.330 c1~0.381 1684s
+  [200/373] c0~0.363 cot~0.313 c1~0.362 1750s
+  [210/373] c0~0.346 cot~0.299 c1~0.350 1818s
+  [220/373] c0~0.330 cot~0.285 c1~0.334 1883s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [230/373] c0~0.316 cot~0.273 c1~0.324 1969s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [240/373] c0~0.315 cot~0.270 c1~0.318 2070s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [250/373] c0~0.303 cot~0.267 c1~0.306 2149s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [260/373] c0~0.295 cot~0.257 c1~0.298 2235s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [270/373] c0~0.288 cot~0.254 c1~0.290 2311s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [280/373] c0~0.281 cot~0.249 c1~0.291 2397s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [290/373] c0~0.282 cot~0.254 c1~0.291 2489s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [300/373] c0~0.276 cot~0.246 c1~0.285 2584s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [310/373] c0~0.278 cot~0.241 c1~0.289 2943s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [320/373] c0~0.273 cot~0.237 c1~0.284 3514s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [330/373] c0~0.271 cot~0.235 c1~0.281 3952s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [340/373] c0~0.269 cot~0.234 c1~0.278 4518s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [350/373] c0~0.265 cot~0.229 c1~0.274 5058s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [360/373] c0~0.263 cot~0.226 c1~0.272 5638s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [370/373] c0~0.260 cot~0.223 c1~0.268 6119s
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+The given max_pixels[604800] exceeds limit[602112].
+  [373/373] c0~0.258 cot~0.222 c1~0.267 6292s
+[unified] done -> /home/yz0392@unt.ad.unt.edu/xin_ai/scinote/results_unified/7b_expvid_main_chunk0of2.jsonl
+  c0   fitb      n=  69 mean=0.1682
+  c0   mc        n= 151 mean=0.3311
+  c0   seqgen    n=  81 mean=0.4280
+  c0   steppred  n=  72 mean=0.0000
+  c1   fitb      n=  69 mean=0.1600
+  c1   mc        n= 151 mean=0.3642
+  c1   seqgen    n=  81 mean=0.4002
+  c1   steppred  n=  72 mean=0.0139
+  cot  fitb      n=  69 mean=0.1323
+  cot  mc        n= 151 mean=0.3113
+  cot  seqgen    n=  81 mean=0.3173
+  cot  steppred  n=  72 mean=0.0139

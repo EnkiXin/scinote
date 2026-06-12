@@ -1,0 +1,5 @@
+[matrix gpu=3,4 chunk=1] expvid main c0,cot,c1 start Thu Jun 11 01:03:06 PM CDT 2026
+[matrix gpu=3,4 chunk=1] scivideobench main c0,cot,c1 start Thu Jun 11 04:06:08 PM CDT 2026
+[matrix gpu=3,4 chunk=1] expvid rep2 c0 start Thu Jun 11 05:42:10 PM CDT 2026
+[matrix gpu=3,4 chunk=1] scivideobench rep2 c0 start Thu Jun 11 06:21:51 PM CDT 2026
+[matrix gpu=3,4 chunk=1] ALL DONE Thu Jun 11 06:59:59 PM CDT 2026

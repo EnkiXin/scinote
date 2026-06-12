@@ -90,6 +90,47 @@ def parse_cot(raw: str, task_type: str, item: dict):
     return parse_for_task(lines[-1] if lines else "", task_type, item)
 
 
+class _V9VLMAdapter:
+    """v9 stages expect vlm.generate_video(prompt, frames, max_tokens=, temperature=);
+    VLMClient exposes generate(messages, max_new_tokens). Bridge the two."""
+
+    def __init__(self, vlm, max_pixels):
+        self._vlm = vlm
+        self._max_pixels = max_pixels
+
+    def generate_video(self, prompt, frames, max_tokens=512, temperature=0.0):
+        msgs = [{"role": "user", "content": [
+            {"type": "video", "video": frames, "max_pixels": self._max_pixels},
+            {"type": "text", "text": prompt},
+        ]}]
+        return self._vlm.generate(msgs, max_new_tokens=max_tokens)
+
+
+def _kg_sparse_facts(kg, question: str, k: int = 2) -> str:
+    """question-conditioned sparse injection (the 2026-06-01 pivot, never run):
+    pick the k KG facts with the highest lexical overlap with the question.
+    Deterministic, zero extra model calls."""
+    qtok = set(re.findall(r"[a-z0-9]+", (question or "").lower()))
+    facts = []
+    for op in getattr(kg, "operations", []) or []:
+        d = getattr(op, "description", "") or getattr(op, "verb", "") or ""
+        ins = ",".join(getattr(op, "input_states", []) or [])
+        outs = ",".join(getattr(op, "output_states", []) or [])
+        txt = f"Operation: {d}" + (f" (inputs: {ins}; outputs: {outs})" if ins or outs else "")
+        facts.append(txt)
+    for e in (getattr(kg, "entities", {}) or {}).values():
+        name = getattr(e, "name", "")
+        states = [getattr(s, "description", "") or getattr(s, "state_id", "")
+                  for s in (getattr(e, "states", []) or [])]
+        if name:
+            facts.append(f"Entity: {name}" + (f" — states: {'; '.join(states[:3])}" if states else ""))
+    def score(t):
+        return len(qtok & set(re.findall(r"[a-z0-9]+", t.lower())))
+    top = sorted(facts, key=score, reverse=True)[:k]
+    top = [t for t in top if score(t) > 0] or top[:1]
+    return "\n".join(f"- {t}" for t in top) if top else ""
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="Qwen/Qwen2.5-VL-72B-Instruct")
@@ -154,6 +195,30 @@ def main():
     vlm = VLMClient(model_name=args.model, device=args.device)
     nb = NoteBuffer(cache_dir=str(out_dir / "_notebuffer_cache"))
     tools = build_default_tools(vlm, nb) if "c1" in conds else None
+
+    kg_machinery = None
+    if "kg" in conds or "kgs" in conds:
+        from evaluate_unified import MAX_PIXELS
+        from protonote.v9.stages.stage1_1_core_entities import run_stage1_1
+        from protonote.v9.stages.stage1_2_state_tracking import run_stage1_2
+        from protonote.v9.stages.stage4_multi_view_strategist import render_multi_view_kg
+        from protonote.v9.kg.state_machine_kg import StateMachineKG
+        kg_dir = out_dir / f"kg_cache_{short}_{args.benchmark}"
+        kg_dir.mkdir(exist_ok=True)
+        v9vlm = _V9VLMAdapter(vlm, MAX_PIXELS)
+
+        def build_kg(frames, uid):
+            cache_f = kg_dir / (re.sub(r"[^\w#-]", "_", uid) + ".json")
+            if cache_f.exists():
+                return StateMachineKG.from_dict(json.loads(cache_f.read_text()))
+            s1_1 = run_stage1_1(frames, v9vlm)
+            s1_2 = run_stage1_2(frames, s1_1, [], v9vlm)  # ledger=[] — no OCR pass
+            kg = s1_2.kg
+            cache_f.write_text(json.dumps(kg.to_dict()))
+            return kg
+
+        KG_VIEWS = ["procedural", "conceptual", "quantitative", "hypothetical"]
+        kg_machinery = (build_kg, render_multi_view_kg, KG_VIEWS)
     print("[unified] model ready", flush=True)
 
     def answer(item, frames, note, task_type):
@@ -221,6 +286,23 @@ def main():
                     res["c1"] = {"pred": pred, "score": float(SCORERS[tt](pred, rec["gold"])),
                                  "raw": raw[:300], "note_chars": len(note or ""),
                                  "note_used": note is not None}
+                if kg_machinery is not None:
+                    build_kg, render_kg, KG_VIEWS = kg_machinery
+                    kg_obj = build_kg(frames, item["uid"])
+                    rec["kg_summary"] = {"n_entities": kg_obj.metadata.n_entities,
+                                         "n_operations": kg_obj.metadata.n_operations}
+                    if "kg" in conds:
+                        note = render_kg(kg_obj, KG_VIEWS, include_edges=True)[:4000] or None
+                        pred, raw = answer(item, frames, note, tt)
+                        res["kg"] = {"pred": pred, "score": float(SCORERS[tt](pred, rec["gold"])),
+                                     "raw": raw[:300], "note_chars": len(note or ""),
+                                     "note_used": note is not None}
+                    if "kgs" in conds:
+                        note = _kg_sparse_facts(kg_obj, q) or None
+                        pred, raw = answer(item, frames, note, tt)
+                        res["kgs"] = {"pred": pred, "score": float(SCORERS[tt](pred, rec["gold"])),
+                                      "raw": raw[:300], "note_chars": len(note or ""),
+                                      "note_used": note is not None}
                 rec["results"] = res
                 for c, sub in res.items():
                     k = (c, tt)

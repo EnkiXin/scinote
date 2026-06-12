@@ -1,0 +1,188 @@
+{
+ "7b_expvid": {
+  "n": 745,
+  "overall": {
+   "c0": 0.2665,
+   "cot": 0.2326,
+   "c1": 0.2786
+  },
+  "noise_floor": {
+   "n": 745,
+   "delta_pp": 0.12,
+   "flip_items": 13
+  },
+  "vs_c0": {
+   "cot": {
+    "delta_pp": -3.39,
+    "better": 104,
+    "worse": 193,
+    "sign_p": 0.0
+   },
+   "c1": {
+    "delta_pp": 1.21,
+    "better": 97,
+    "worse": 108,
+    "sign_p": 0.485
+   }
+  },
+  "per_task": {
+   "fitb": {
+    "c0": 0.186,
+    "cot": 0.158,
+    "c1": 0.169,
+    "n": 137
+   },
+   "mc": {
+    "c0": 0.348,
+    "cot": 0.311,
+    "c1": 0.371,
+    "n": 302
+   },
+   "seqgen": {
+    "c0": 0.423,
+    "cot": 0.308,
+    "c1": 0.412,
+    "n": 161
+   },
+   "steppred": {
+    "c0": 0.0,
+    "cot": 0.055,
+    "c1": 0.041,
+    "n": 145
+   }
+  }
+ },
+ "7b_scivideobench": {
+  "n": 218,
+  "overall": {
+   "c0": 0.2569,
+   "cot": 0.2523,
+   "c1": 0.2569
+  },
+  "noise_floor": {
+   "n": 218,
+   "delta_pp": 0.0,
+   "flip_items": 0
+  },
+  "vs_c0": {
+   "cot": {
+    "delta_pp": -0.46,
+    "better": 27,
+    "worse": 28,
+    "sign_p": 1.0
+   },
+   "c1": {
+    "delta_pp": 0.0,
+    "better": 11,
+    "worse": 11,
+    "sign_p": 1.0
+   }
+  },
+  "per_task": {
+   "mc": {
+    "c0": 0.257,
+    "cot": 0.252,
+    "c1": 0.257,
+    "n": 218
+   }
+  }
+ },
+ "72b_expvid": {
+  "n": 745,
+  "overall": {
+   "c0": 0.3496,
+   "cot": 0.3595,
+   "c1": 0.3513
+  },
+  "noise_floor": {
+   "n": 745,
+   "delta_pp": -0.15,
+   "flip_items": 12
+  },
+  "vs_c0": {
+   "cot": {
+    "delta_pp": 0.99,
+    "better": 139,
+    "worse": 137,
+    "sign_p": 0.95202
+   },
+   "c1": {
+    "delta_pp": 0.18,
+    "better": 96,
+    "worse": 114,
+    "sign_p": 0.24068
+   }
+  },
+  "per_task": {
+   "fitb": {
+    "c0": 0.282,
+    "cot": 0.253,
+    "c1": 0.262,
+    "n": 137
+   },
+   "mc": {
+    "c0": 0.477,
+    "cot": 0.447,
+    "c1": 0.467,
+    "n": 302
+   },
+   "seqgen": {
+    "c0": 0.446,
+    "cot": 0.498,
+    "c1": 0.465,
+    "n": 161
+   },
+   "steppred": {
+    "c0": 0.041,
+    "cot": 0.124,
+    "c1": 0.069,
+    "n": 145
+   }
+  }
+ },
+ "72b_scivideobench": {
+  "n": 218,
+  "overall": {
+   "c0": 0.4174,
+   "cot": 0.3303,
+   "c1": 0.3303
+  },
+  "noise_floor": {
+   "n": 218,
+   "delta_pp": 0.0,
+   "flip_items": 0
+  },
+  "vs_c0": {
+   "cot": {
+    "delta_pp": -8.72,
+    "better": 21,
+    "worse": 40,
+    "sign_p": 0.02041
+   },
+   "c1": {
+    "delta_pp": -8.72,
+    "better": 4,
+    "worse": 23,
+    "sign_p": 0.00031
+   }
+  },
+  "per_task": {
+   "mc": {
+    "c0": 0.417,
+    "cot": 0.33,
+    "c1": 0.33,
+    "n": 218
+   }
+  }
+ },
+ "interaction_7b_minus_72b_pp": {
+  "expvid": {
+   "cot": -4.38,
+   "c1": 1.03
+  },
+  "scivideobench": {
+   "cot": 8.26,
+   "c1": 8.72
+  }
+ }
+}

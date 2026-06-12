@@ -105,6 +105,14 @@ class _V9VLMAdapter:
         ]}]
         return self._vlm.generate(msgs, max_new_tokens=max_tokens)
 
+    def generate_image(self, prompt, image, max_tokens=256, temperature=0.0):
+        # OCRLedgerBuilder contract (per-frame OCR calls)
+        msgs = [{"role": "user", "content": [
+            {"type": "image", "image": image, "max_pixels": self._max_pixels},
+            {"type": "text", "text": prompt},
+        ]}]
+        return self._vlm.generate(msgs, max_new_tokens=max_tokens)
+
 
 def _kg_sparse_facts(kg, question: str, k: int = 2) -> str:
     """question-conditioned sparse injection (the 2026-06-01 pivot, never run):

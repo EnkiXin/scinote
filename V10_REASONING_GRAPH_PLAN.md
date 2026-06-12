@@ -68,6 +68,34 @@ prior-override——所以**每条提议边必须过视频核证**(受约束二�
 
 **目标域**:仅 SciVB(因果题密集、图较稠 ops 中位 5);ExpVid 因果题 2/745,不立项。
 
+### 3.6 KG Grounding Stack(PI 2026-06-12 补充:用 KB/OCR 等手段接地 KG)
+
+**原则**:图的每类元素绑定一个**可独立检验**的证据源;每个核查都必须**能失败**
+(V8 反模式教训:USE_AS_IS 把猜测重贴标签为已验证 → 本版 grounding 输出三值
+{grounded, ungrounded, conflict},conflict 必须保留并降级,严禁假置信);
+grounding 标记走安全通道使用,"grounded-only 注入"只作为对照臂。
+
+| 层 | ground 什么 → 用什么 | 机器 | 状态 |
+|---|---|---|---|
+| **G1 OCR** | 数量/标签/试剂名 ↔ 屏幕文本(带时间戳) | V9 `OCRLedgerBuilder` + stage1_2 原生对齐(建图时一直传空,从未启用!) | 现成,开关即用;成本控制:8 关键帧 OCR 而非逐帧 32 调用 |
+| **G2 感知** | 实体存在性/操作顺序 ↔ 定向回看二值核查 | = P2 arm-G,不重复立项;标记并入同一本不确定性账本 | P2 在建 |
+| **G3 KB** | 本体(X 是 Y 类试剂?)/操作合理性/因果边提议 ↔ 外部知识 | 与 P2.5 共享 LLM-as-KB;**只允许结构化判定查询(yes/no/归一名)**,禁自由文本 | 随 P2.5 |
+
+**grounding 标记的用途(通道纪律)**:
+1. **主用途(零注入)**:ungrounded/conflict 元素 → P2 核查优先队列;R3 裁决只信 grounded
+   元素;C-edge 只在 grounded 节点间提议因果边。grounding 是图的质检流水线,不是注入借口。
+2. **对照臂(注入)**:`kg_g` = 只渲染 grounded 元素的图,vs 全图 `kg` 配对——直接检验
+   PI 假设"接地后的图注入是否优于未接地的图"。预期咬合点:fitb/quantitative(OCR 正是
+   像素读数任务缺的读数器);SciVB 注入臂预期仍负(文本通道),但作为机制证据要测。
+
+**P2.6 试点(三级 gate)**:
+A(产出测量,150 题,~2 GPU-hr):开 OCR ledger 重建图 → grounding 率(有屏幕文本的题
+  ≥20% 实体被 ground)、quantity 修正数、conflict 数;产出不足 → G1 关闭只留 G2/G3。
+B(效果,配对):`kg_g` vs `kg` 于 ExpVid 路由子集(steppred+seqgen+fitb);GATE:
+  kg_g−kg>0 且过噪声底,否则 grounding 只服务零注入用途。
+C(KB 节点接地):随 P2.5 基建就绪后,同样按产出率 + conflict 率 gate。
+日历:6/26-7/3,与 P2.5 并行(共享 LLM-as-KB)。
+
 ## 4. 实验序列(全部接 `scripts/unified_harness.py`,一条件一 flag;判读对照 rep2 噪声底)
 
 | # | 实验 | 内容 | GATE(kill / continue) | 成本 | 日历 |
@@ -95,6 +123,7 @@ prior-override——所以**每条提议边必须过视频核证**(受约束二�
 | "根据置信度判断要不要 RAG" | 不立项(−8.72 通道 + kgs 无害无用 + prior-override 供弹) | 放弃;留一行论文证据 |
 | "较完整的 graph 后,用外在知识找 KG 内部因果关系、因果边链接"(2026-06-12) | **P2.5(正式立项)**:外部知识提议边 + 视频核证 + 仅后验/帧选择使用 | 存在性问题被提议机制解决;注入风险被"永不注入"规避;prior-override 风险被逐边视频核证对冲 |
 | 旧版时序/物质流自动推边 | 不复活(transmutation=0 的推边方式已死);P2.5 是其替代 | — |
+| "通过 KB、OCR 等方法 grounding KG"(2026-06-12) | **P2.6(正式立项,§3.6)**:G1 OCR(现成机器从未启用)/ G2 感知 / G3 KB 三层接地,三值标记,主用途零注入 + `kg_g` 注入对照臂 | kg 在 ExpVid 结构任务有信号(steppred p=.031)支持"图值得做好";V8 假验证教训定死"必须能失败"原则 |
 
 ## 6. 日历与论文
 

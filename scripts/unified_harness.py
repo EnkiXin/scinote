@@ -113,17 +113,21 @@ def _kg_sparse_facts(kg, question: str, k: int = 2) -> str:
     qtok = set(re.findall(r"[a-z0-9]+", (question or "").lower()))
     facts = []
     for op in getattr(kg, "operations", []) or []:
-        d = getattr(op, "description", "") or getattr(op, "verb", "") or ""
-        ins = ",".join(getattr(op, "input_states", []) or [])
-        outs = ",".join(getattr(op, "output_states", []) or [])
-        txt = f"Operation: {d}" + (f" (inputs: {ins}; outputs: {outs})" if ins or outs else "")
-        facts.append(txt)
+        # v9 field names: action (verb phrase), action_category, timestamp
+        d = getattr(op, "action", None) or getattr(op, "description", None) or ""
+        if not d:
+            continue
+        ts = getattr(op, "timestamp", None)
+        facts.append(f"Operation: {d}" + (f" (at ~{ts:.0f}s)" if isinstance(ts, (int, float)) else ""))
     for e in (getattr(kg, "entities", {}) or {}).values():
-        name = getattr(e, "name", "")
-        states = [getattr(s, "description", "") or getattr(s, "state_id", "")
-                  for s in (getattr(e, "states", []) or [])]
-        if name:
-            facts.append(f"Entity: {name}" + (f" — states: {'; '.join(states[:3])}" if states else ""))
+        name = getattr(e, "canonical_name", None) or ""
+        if not name:
+            continue
+        feats = [getattr(s, "visual_features", None) or ""
+                 for s in (getattr(e, "states", []) or [])]
+        feats = [f for f in feats if f]
+        facts.append(f"Entity: {name} ({getattr(e, 'type', '')})"
+                     + (f" — {feats[0]}" if feats else ""))
     def score(t):
         return len(qtok & set(re.findall(r"[a-z0-9]+", t.lower())))
     top = sorted(facts, key=score, reverse=True)[:k]

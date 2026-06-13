@@ -163,6 +163,67 @@
 4. KB 检索不立项:从未有可用实现(V8"KB"为图像接地库,假验证 bug + 0.1% 命中,线闭),
    且 presence-dominated 伤害 + generic-prior override 双重指向负期望。
 
+## 5.5 各方法实现细节(近期测试的每个条件,代码级)
+
+所有条件共享同一答题契约(`scripts/unified_harness.py` + `evaluate_c0_test_split.py` 的 BUILDERS):
+每题抽 **32 帧均匀采样**(`extract_frames`,一次抽取全条件复用),`MAX_PIXELS = 360×420 = 151200`
+像素/帧,greedy 解码(`do_sample=False`),按 task 给答题 token(mc=8 / seqgen=96 / steppred=16 / fitb=96)。
+注入物统一放进 prompt 的 `_ctx_block`:`"Visual notes:\n{note}\n\n"`,位于 video token 与 Question 之间;
+note=None 时该块为空。条件之间**只差这个槽位放什么**。输出过修复后的解析器
+(`parse_mc_aj` 分层解析 / `score_fitb` 多分隔符)和打分器。
+
+### c0 — 基线(无注入)
+note=None,`Visual notes:` 槽位为空。32 帧 + 题干 + 选项直接进 72B,按 task 的 BUILDER 组 prompt
+(mc 带 `Answer (A/B/.. only):` 结尾、seqgen 要求空格分隔步号、steppred 要求单整数、fitb 要求 ` | ` 分隔)。
+这是冻结基线 R0。每个干预条件在**同进程**内对同一题也跑一遍 c0 → 严格配对、消除跨进程漂移。
+
+### cot — 自生成推理(对照,非注入)
+不动 note 槽位,而是在 BUILDER 的 user 文本末尾追加推理后缀(`add_cot_suffix`):
+"先逐步推理视频实际显示了什么、如何关系到问题,**控制在 150 词内**,然后以一行
+`FINAL ANSWER: <格式提示>` 结束"。答题 token 放宽到 **1536**(修复前 768 会截断 seqgen)。
+解析用 marker-aware 的 `parse_cot`:有 FINAL/EXACT ANSWER 标记则取标记后内容,无标记则取
+verbose 输出**最后一行**(mc 用 parse_mc_aj 自底向上扫,避免抓到推理中途的 '60°C' 的 C)。
+
+### c1 — prose 笔记注入(ProtoNote C1_fixed,行内重建)
+答题前由**同一个 72B** 先生成一段散文笔记,缓存到 uid:
+1. `classify_task(item)` 给题分类 → `tools_for_task(task)` 返回该 task 路由的工具集;
+2. 按路由调工具:`visual_inspect`(问"1-2 句描述关键动作/材料/可见标签数量")和/或 `ocr`(OCR 取屏幕文本);
+3. 工具产出经 `NoteBuffer.append_entry` 累积,`render_for_llm(uid, question_context=q)` 渲染成
+   带小节标题(`## Visual` / `## OCR`)的散文 NoteBuffer(中位 ~800 字符,每条带硬编码置信 0.85/0.80);
+4. 这段散文放进 `Visual notes:` 槽位 → 同 c0 的答题路径作答。
+
+### kg — 全图注入(V9 状态机知识图谱,多视图渲染)
+答题前由同一个 72B 建图(缓存到 uid),两次 VLM 调用:
+1. **Stage 1.1**(`run_stage1_1`):看 32 帧 → 输出结构化实体清单(`canonical_name` / `type`
+   Material·Tool·Operator / `estimated_quantity` / `core_role` / `first_appearance` 时间);
+2. **Stage 1.2**(`run_stage1_2`,本轮 `ledger=[]` **未启用 OCR**):为每个实体追踪状态变化,
+   抽出 operations——每个 op 有 `action`(动词短语)/ `timestamp` / `duration` /
+   `input_states → output_states`(状态转移,物质流骨架)/ `confidence`(硬编码 1.0);
+3. `render_multi_view_kg(kg, ["procedural","conceptual","quantitative","hypothetical"], include_edges=True)`
+   渲染成四视图 Markdown + 时序边,合成 `# Knowledge Graph (multi-view)` 文本块(中位 **3229 字符**,
+   截断至 ≤4000);
+4. 整块放进 `Visual notes:` 槽位作答。
+
+### kgs-placebo — 稀疏注入(字段名 bug,意外安慰剂)
+本应注入按问题词面挑选的 2 条图事实,但 `_kg_sparse_facts` 读错了 v9 字段名
+(读 `description`/`name` 而非 `action`/`canonical_name`),实际注入的是无内容的状态 ID 符号串
+("Operation: (inputs: E1_S1; outputs: E1_S1)",中位 **51 字符**)。**作为零内容安慰剂臂保留**——
+正是它揭示了 SciVB 的 presence-dominated 伤害。
+
+### kgs2 — 真稀疏注入(字段修复后)
+`_kg_sparse_facts` 修复:从 kg 取所有 op 的 `action` 文本和实体的 `canonical_name`+`visual_features`,
+按与问题的词面 token 重叠排序,取 top-2(中位 **~190 字符**),如
+"- Operation: Preparing the samples (at ~1s)\n- Operation: Loading samples into electrophoresis cartridge (at ~5s)"。
+放进槽位作答。这是 PI 2026-06-01"稀疏检索注入"方向的首次正确执行。
+
+### P2.6-A OCR grounding(接地产出测量,非答题条件)
+检验"启用从未用过的 V9 OCR ledger 能否接地图"。`p26_ocr_grounding_pilot.py`:
+1. `OCRLedgerBuilder` 对 8 关键帧逐帧 OCR(`generate_image`),得带时间戳的屏幕文本 ledger;
+2. 用 ledger 重建图(`run_stage1_1` → `run_stage1_2(ledger=ledger)`,这次**启用** OCR 对齐);
+3. 确定性三值接地标记(必须能失败):实体名的判别 token 是否出现在 ledger / 估计数量是否对上
+   ledger 数字 token;与盲建图缓存 diff 数量修正数。
+⚠️ 指标偏松(`qty=1` 通配 + 单 token 匹配),宽松 38.7% / 严格地板 13.5%,真值待严格重测。
+
 ## 6. 下一步
 
 [V10_REASONING_GRAPH_PLAN.md](./V10_REASONING_GRAPH_PLAN.md):零注入阶梯(确定性任务路由 ⊕

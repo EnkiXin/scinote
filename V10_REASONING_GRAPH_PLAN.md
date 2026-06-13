@@ -96,12 +96,29 @@ B(效果,配对):`kg_g` vs `kg` 于 ExpVid 路由子集(steppred+seqgen+fitb);GA
 C(KB 节点接地):随 P2.5 基建就绪后,同样按产出率 + conflict 率 gate。
 日历:6/26-7/3,与 P2.5 并行(共享 LLM-as-KB)。
 
+## 3.7 P0 frontier 校准结果(2026-06-13,n=145,72B)
+
+cot-mode 100% 吐出 `LAST OBSERVED STEP` 标记。frontier 偏移直方图峰在 −1/0、左重尾:
+
+| 模式 | frontier 精确 | ±1 内 | 中位偏移 | 隐含 steppred(frontier+k) |
+|---|---|---|---|---|
+| **cot** | 15.2% | 42.1% | −1 | k=1:15.2% / **k=2:17.9%**(最佳常数纠偏)/ k=3:11.0% |
+| answer-only | 4.1% | 15.9% | +18 | —(过冲,弃用) |
+
+**结论(gate 判定)**:
+1. cot-mode 确认为正确模式(answer-only 中位过冲 +18,证实评审)。
+2. 字面 gate(40% exact)**未过**(15.2%);但 frontier+2 纠偏后 steppred 17.9% > 当前 12.4%
+   (+5.5pp 免费,确定性)——R3 steppred 头是**真实但弱**的小增益。
+3. **真正瓶颈是左重尾:26/145 题严重欠定位(≥6 步)= 感知失败**,正是 R2 回看的靶子。
+4. **执行计划应急分支触发**:R3 steppred 头不作独立主打,**折进 P2**——R2 回看先修欠定位尾,
+   再叠 frontier+2 纠偏。P1 取消独立形态,并入 P2 的结构裁决臂。
+
 ## 4. 实验序列(全部接 `scripts/unified_harness.py`,一条件一 flag;判读对照 rep2 噪声底)
 
 | # | 实验 | 内容 | GATE(kill / continue) | 成本 | 日历 |
 |---|---|---|---|---|---|
 | G0 | **KG 终判**(在跑) | c0/kg/kgs × ExpVid+SciVB @72B | kgs 在任一基准转正 → R3 加注入候选;否则注入家族盖棺(含 KB/RAG) | 已投 | 6/12 晚 |
-| P0 | frontier 校准 | cot 模式 JSON 调用测 last_observed 命中率(同录 answer-only 对照) | 命中 <40% → R3 主靶降级,转 P2 联合 | 0.3 GPU-hr | 6/13-15 |
+| P0 | frontier 校准 | cot 模式 JSON 调用测 last_observed 命中率(同录 answer-only 对照) | 命中 <40% → R3 主靶降级,转 P2 联合 | 0.3 GPU-hr | ✅ **完成 6/13** |
 | P1 | steppred override | R3 核心 + "盲+1" 零调用消融 | vs cot 18/145:≤20 杀 / ≥26 续;盲+1 追平 → 砍 grounded 调用 | 0.3 GPU-hr | 6/15-17 |
 | **P2** | **双触发器回看**(合并 PI 两案 + 原 c2_zoom) | 共享"触发→密采→原始帧重答";三臂:**arm-H** hedge 触发(ExpVid mc 池)/ **arm-G** 图元素不确定触发(行为性:双提取不一致+hedge,逐元素受约束二值核查,每题≤3 元素)/ **arm-GK** = arm-G + 核查后图注入(PI 的 verified-KG 完整版)。全臂记录数字置信(预期无判别,正式埋葬)。SciVB 臂用 mm:ss 缺帧触发(=原 c2_zoom,n=172,先 5 题目检对齐) | 触发子集 McNemar:纠错>误伤且 p<.05;**arm-GK>arm-G → "确定性是 KG 缺失成分"成立;arm-GK≈arm-G → 图是脚手架,感知承重** | ~6 GPU-hr | 6/17-24 |
 | P3 | 预算增量臂 | 56 帧均匀(解耦"密集 vs 少 global") | 仅归因,不进 headline | 0.5 GPU-hr | 同上 |

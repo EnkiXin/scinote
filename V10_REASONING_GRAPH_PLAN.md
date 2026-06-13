@@ -120,7 +120,7 @@ cot-mode 100% 吐出 `LAST OBSERVED STEP` 标记。frontier 偏移直方图峰�
 | G0 | **KG 终判**(在跑) | c0/kg/kgs × ExpVid+SciVB @72B | kgs 在任一基准转正 → R3 加注入候选;否则注入家族盖棺(含 KB/RAG) | 已投 | 6/12 晚 |
 | P0 | frontier 校准 | cot 模式 JSON 调用测 last_observed 命中率(同录 answer-only 对照) | 命中 <40% → R3 主靶降级,转 P2 联合 | 0.3 GPU-hr | ✅ **完成 6/13** |
 | P1 | steppred override | R3 核心 + "盲+1" 零调用消融 | vs cot 18/145:≤20 杀 / ≥26 续;盲+1 追平 → 砍 grounded 调用 | 0.3 GPU-hr | 6/15-17 |
-| **P2** | **双触发器回看**(合并 PI 两案 + 原 c2_zoom) | 共享"触发→密采→原始帧重答";三臂:**arm-H** hedge 触发(ExpVid mc 池)/ **arm-G** 图元素不确定触发(行为性:双提取不一致+hedge,逐元素受约束二值核查,每题≤3 元素)/ **arm-GK** = arm-G + 核查后图注入(PI 的 verified-KG 完整版)。全臂记录数字置信(预期无判别,正式埋葬)。SciVB 臂用 mm:ss 缺帧触发(=原 c2_zoom,n=172,先 5 题目检对齐) | 触发子集 McNemar:纠错>误伤且 p<.05;**arm-GK>arm-G → "确定性是 KG 缺失成分"成立;arm-GK≈arm-G → 图是脚手架,感知承重** | ~6 GPU-hr | 6/17-24 |
+| **P2** | **双触发器回看**(wave-1 完成 6/13) | 三 text-free 臂:arm-H(64帧整片)/ arm-SV(8+24 窗口)/ arm-Step(64帧+frontier+1) | ❌ **全负**:arm-H −1.28(p=1.0)/ arm-SV −2.60(窗口聚焦有害)/ arm-Step +3.45(p=.36 不显著)。**R2 感知层证伪**:帧数翻倍不帮、重聚焦有害、欠定位尾救不回。**wave-2(arm-G/GK)gate 掉**(arm-H 未过噪声底)。详见 REPORT §5.7 | 2.3 GPU-hr | ✅ 完成 |
 | P3 | 预算增量臂 | 56 帧均匀(解耦"密集 vs 少 global") | 仅归因,不进 headline | 0.5 GPU-hr | 同上 |
 | **P2.5** | **C-edge 因果增强**(§3.5,P2 机器就绪后) | SciVB:arm-G 核查图 → LLM-as-KB 提议因果边 → 逐边视频核证 → (a) 因果矛盾检查臂 (b) 因果帧选择臂;全程零注入 | **三级 gate**:①边产出:≥50% 题有 ≥1 条可核证候选边,否则"基底仍空"回 v11;②核证率 10-60% 之间(过低=提议无效,过高=核证沦为橡皮章,均杀);③hypothetical/mechanism 子集(n≈70)McNemar 纠错>误伤 p<.05 | ~4 GPU-hr | 6/24-7/1 |
 | P4 | vv 覆盖头 | margin≥2 + pairwise 歧义收窄(P1 续后) | vs cot 34/152:≤37 杀 / ≥42 续 | 0.4 GPU-hr | 6/24-28 |

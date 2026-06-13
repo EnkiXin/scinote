@@ -1,0 +1,100 @@
+{"uid": "scivideobench_mc_58827_1#e75abed5", "task_type": "mc", "task": "mc", "gold": "D", "rw_pred": "D", "rw_score": 1.0, "base_score": 1.0, "window": [142, 153], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_2967_1#6c3a453a", "task_type": "mc", "task": "mc", "gold": "D", "rw_pred": "D", "rw_score": 1.0, "base_score": 1.0, "window": [251, 265], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_67076_1#fd33bfd3", "task_type": "mc", "task": "mc", "gold": "I", "rw_pred": "C", "rw_score": 0.0, "base_score": 0.0, "window": [366, 383], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_60327_1#0a9ee4a4", "task_type": "mc", "task": "mc", "gold": "H", "rw_pred": "D", "rw_score": 0.0, "base_score": 0.0, "window": [70, 89], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65238_1#0a819225", "task_type": "mc", "task": "mc", "gold": "D", "dropped": true}
+{"uid": "scivideobench_mc_67123_4#a4efc962", "task_type": "mc", "task": "mc", "gold": "D", "rw_pred": "B", "rw_score": 0.0, "base_score": 1.0, "window": [271, 307], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65519_1#86951806", "task_type": "mc", "task": "mc", "gold": "C", "dropped": true}
+{"uid": "scivideobench_mc_66978_4#6b6813ca", "task_type": "mc", "task": "mc", "gold": "B", "dropped": true}
+{"uid": "scivideobench_mc_53963_2#ae6009a4", "task_type": "mc", "task": "mc", "gold": "C", "rw_pred": "J", "rw_score": 0.0, "base_score": 0.0, "window": [104, 112], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_67548_3#8e4ade08", "task_type": "mc", "task": "mc", "gold": "F", "rw_pred": "F", "rw_score": 1.0, "base_score": 1.0, "window": [122, 122], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65595_2#76025d27", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "E", "rw_score": 0.0, "base_score": 1.0, "window": [123, 138], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_67406_2#db0ffad0", "task_type": "mc", "task": "mc", "gold": "F", "rw_pred": "F", "rw_score": 1.0, "base_score": 1.0, "window": [296, 312], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65065_2#1c38f6bd", "task_type": "mc", "task": "mc", "gold": "G", "rw_pred": "G", "rw_score": 1.0, "base_score": 1.0, "window": [165, 180], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65450_5#3fb9d64b", "task_type": "mc", "task": "mc", "gold": "E", "rw_pred": "B", "rw_score": 0.0, "base_score": 1.0, "window": [227, 234], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_66969_5#906ced05", "task_type": "mc", "task": "mc", "gold": "D", "dropped": true}
+{"uid": "scivideobench_mc_50079_3#fe116524", "task_type": "mc", "task": "mc", "gold": "I", "dropped": true}
+{"uid": "scivideobench_mc_4178_1#2bfc46d4", "task_type": "mc", "task": "mc", "gold": "E", "rw_pred": "E", "rw_score": 1.0, "base_score": 0.0, "window": [145, 157], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_63742_3#bd25fad2", "task_type": "mc", "task": "mc", "gold": "F", "dropped": true}
+{"uid": "scivideobench_mc_58292_1#9eda5516", "task_type": "mc", "task": "mc", "gold": "F", "dropped": true}
+{"uid": "scivideobench_mc_4213_5#a154330e", "task_type": "mc", "task": "mc", "gold": "E", "rw_pred": "D", "rw_score": 0.0, "base_score": 1.0, "window": [279, 315], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_56474_1#3c576ae4", "task_type": "mc", "task": "mc", "gold": "G", "rw_pred": "C", "rw_score": 0.0, "base_score": 0.0, "window": [315, 340], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_55558_2#3efa6851", "task_type": "mc", "task": "mc", "gold": "D", "rw_pred": "D", "rw_score": 1.0, "base_score": 0.0, "window": [248, 258], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_60722_1#86623d97", "task_type": "mc", "task": "mc", "gold": "C", "dropped": true}
+{"uid": "scivideobench_mc_66035_2#1aa62526", "task_type": "mc", "task": "mc", "gold": "D", "rw_pred": "D", "rw_score": 1.0, "base_score": 1.0, "window": [301, 307], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_66035_4#19f2b50a", "task_type": "mc", "task": "mc", "gold": "A", "rw_pred": "G", "rw_score": 0.0, "base_score": 1.0, "window": [142, 146], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_67000_2#956a020c", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "B", "rw_score": 1.0, "base_score": 1.0, "window": [204, 211], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_57270_1#000bec04", "task_type": "mc", "task": "mc", "gold": "F", "rw_pred": "C", "rw_score": 0.0, "base_score": 0.0, "window": [249, 265], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_66766_4#66057244", "task_type": "mc", "task": "mc", "gold": "A", "dropped": true}
+{"uid": "scivideobench_mc_62174_2#3a91f90a", "task_type": "mc", "task": "mc", "gold": "E", "rw_pred": "E", "rw_score": 1.0, "base_score": 1.0, "window": [431, 449], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_57429_1#c2268b04", "task_type": "mc", "task": "mc", "gold": "G", "rw_pred": "C", "rw_score": 0.0, "base_score": 0.0, "window": [294, 310], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_52028_3#26f859a9", "task_type": "mc", "task": "mc", "gold": "J", "rw_pred": "J", "rw_score": 1.0, "base_score": 1.0, "window": [400, 410], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_52028_1#fb36f87f", "task_type": "mc", "task": "mc", "gold": "G", "rw_pred": "G", "rw_score": 1.0, "base_score": 1.0, "window": [91, 114], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_64112_1#9effef32", "task_type": "mc", "task": "mc", "gold": "C", "rw_pred": "C", "rw_score": 1.0, "base_score": 1.0, "window": [145, 160], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_2157_1#b2d54062", "task_type": "mc", "task": "mc", "gold": "J", "rw_pred": "G", "rw_score": 0.0, "base_score": 0.0, "window": [551, 585], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65317_1#597b058f", "task_type": "mc", "task": "mc", "gold": "G", "rw_pred": "D", "rw_score": 0.0, "base_score": 1.0, "window": [395, 425], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_60167_3#85eafaba", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "B", "rw_score": 1.0, "base_score": 1.0, "window": [325, 336], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_56383_4#484e9e03", "task_type": "mc", "task": "mc", "gold": "I", "rw_pred": "I", "rw_score": 1.0, "base_score": 1.0, "window": [70, 75], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_53276_3#eb2f8ca7", "task_type": "mc", "task": "mc", "gold": "B", "dropped": true}
+{"uid": "scivideobench_mc_54575_1#05f94f2a", "task_type": "mc", "task": "mc", "gold": "D", "rw_pred": "G", "rw_score": 0.0, "base_score": 0.0, "window": [286, 302], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_53598_1#28f0bb37", "task_type": "mc", "task": "mc", "gold": "G", "rw_pred": "C", "rw_score": 0.0, "base_score": 0.0, "window": [121, 128], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65956_1#19174374", "task_type": "mc", "task": "mc", "gold": "C", "dropped": true}
+{"uid": "scivideobench_mc_67370_1#c193dfba", "task_type": "mc", "task": "mc", "gold": "G", "rw_pred": "B", "rw_score": 0.0, "base_score": 0.0, "window": [142, 150], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_53825_5#0866c4e5", "task_type": "mc", "task": "mc", "gold": "J", "dropped": true}
+{"uid": "scivideobench_mc_61877_2#7db0a2ef", "task_type": "mc", "task": "mc", "gold": "I", "rw_pred": "I", "rw_score": 1.0, "base_score": 1.0, "window": [178, 189], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_56149_1#576b2287", "task_type": "mc", "task": "mc", "gold": "F", "rw_pred": "C", "rw_score": 0.0, "base_score": 0.0, "window": [91, 102], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65522_3#eaf66e4b", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "H", "rw_score": 0.0, "base_score": 0.0, "window": [165, 180], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_57818_3#793f584c", "task_type": "mc", "task": "mc", "gold": "E", "rw_pred": "E", "rw_score": 1.0, "base_score": 1.0, "window": [85, 88], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_2157_1#fbda7363", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "I", "rw_score": 0.0, "base_score": 0.0, "window": [551, 585], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_2967_1#677318ad", "task_type": "mc", "task": "mc", "gold": "C", "rw_pred": "C", "rw_score": 1.0, "base_score": 0.0, "window": [251, 265], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_3976_1#4f499a06", "task_type": "mc", "task": "mc", "gold": "C", "rw_pred": "C", "rw_score": 1.0, "base_score": 1.0, "window": [224, 252], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_4178_1#15fbc97a", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "B", "rw_score": 1.0, "base_score": 0.0, "window": [145, 157], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_4178_2#09e62df8", "task_type": "mc", "task": "mc", "gold": "G", "dropped": true}
+{"uid": "scivideobench_mc_4213_5#59e884f8", "task_type": "mc", "task": "mc", "gold": "C", "rw_pred": "D", "rw_score": 0.0, "base_score": 0.0, "window": [279, 315], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_50079_3#d9602c5b", "task_type": "mc", "task": "mc", "gold": "E", "dropped": true}
+{"uid": "scivideobench_mc_51387_4#9f23a582", "task_type": "mc", "task": "mc", "gold": "H", "rw_pred": "E", "rw_score": 0.0, "base_score": 1.0, "window": [179, 190], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_52028_3#e24e166d", "task_type": "mc", "task": "mc", "gold": "I", "rw_pred": "I", "rw_score": 1.0, "base_score": 0.0, "window": [400, 415], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_52028_1#55783575", "task_type": "mc", "task": "mc", "gold": "D", "rw_pred": "E", "rw_score": 0.0, "base_score": 1.0, "window": [91, 114], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_52456_3#981df038", "task_type": "mc", "task": "mc", "gold": "H", "rw_pred": "H", "rw_score": 1.0, "base_score": 1.0, "window": [388, 399], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_53276_3#fbfdcd3d", "task_type": "mc", "task": "mc", "gold": "E", "dropped": true}
+{"uid": "scivideobench_mc_53598_1#b93dfa60", "task_type": "mc", "task": "mc", "gold": "E", "rw_pred": "D", "rw_score": 0.0, "base_score": 0.0, "window": [121, 128], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_53825_5#9b0e8cb1", "task_type": "mc", "task": "mc", "gold": "C", "dropped": true}
+{"uid": "scivideobench_mc_53963_2#8918d3ff", "task_type": "mc", "task": "mc", "gold": "C", "rw_pred": "D", "rw_score": 0.0, "base_score": 0.0, "window": [104, 112], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_55258_4#553e51d3", "task_type": "mc", "task": "mc", "gold": "F", "rw_pred": "F", "rw_score": 1.0, "base_score": 1.0, "window": [263, 282], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_56383_4#4c7b4c48", "task_type": "mc", "task": "mc", "gold": "J", "rw_pred": "J", "rw_score": 1.0, "base_score": 1.0, "window": [70, 75], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_56593_1#009c066a", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "B", "rw_score": 1.0, "base_score": 0.0, "window": [77, 80], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_57270_2#959762a2", "task_type": "mc", "task": "mc", "gold": "C", "rw_pred": "C", "rw_score": 1.0, "base_score": 1.0, "window": [400, 404], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_57429_1#52aa553a", "task_type": "mc", "task": "mc", "gold": "J", "rw_pred": "C", "rw_score": 0.0, "base_score": 0.0, "window": [294, 310], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_57735_3#f0604aec", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "C", "rw_score": 0.0, "base_score": 0.0, "window": [225, 232], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_57818_3#f738ba78", "task_type": "mc", "task": "mc", "gold": "F", "rw_pred": "A", "rw_score": 0.0, "base_score": 0.0, "window": [85, 88], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_58292_1#feed7f5f", "task_type": "mc", "task": "mc", "gold": "A", "dropped": true}
+{"uid": "scivideobench_mc_58517_1#910abe01", "task_type": "mc", "task": "mc", "gold": "E", "rw_pred": "B", "rw_score": 0.0, "base_score": 0.0, "window": [270, 281], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_58827_1#dd63ea0b", "task_type": "mc", "task": "mc", "gold": "H", "rw_pred": "H", "rw_score": 1.0, "base_score": 1.0, "window": [142, 153], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_59909_1#fd35b11f", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "C", "rw_score": 0.0, "base_score": 1.0, "window": [68, 71], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_60167_3#1ddef9d2", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "B", "rw_score": 1.0, "base_score": 1.0, "window": [325, 336], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_61369_3#200fffa0", "task_type": "mc", "task": "mc", "gold": "G", "rw_pred": "A", "rw_score": 0.0, "base_score": 0.0, "window": [443, 455], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_61877_2#abfd31a9", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "B", "rw_score": 1.0, "base_score": 0.0, "window": [178, 189], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_62174_2#32b123b8", "task_type": "mc", "task": "mc", "gold": "A", "rw_pred": "H", "rw_score": 0.0, "base_score": 0.0, "window": [431, 449], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_64112_1#f7b0b8ff", "task_type": "mc", "task": "mc", "gold": "H", "rw_pred": "F", "rw_score": 0.0, "base_score": 0.0, "window": [145, 160], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65065_2#f07d3f93", "task_type": "mc", "task": "mc", "gold": "G", "rw_pred": "E", "rw_score": 0.0, "base_score": 0.0, "window": [165, 180], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65238_1#afdd2f27", "task_type": "mc", "task": "mc", "gold": "A", "dropped": true}
+{"uid": "scivideobench_mc_65382_1#ca6ec1f4", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "A", "rw_score": 0.0, "base_score": 0.0, "window": [343, 358], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65450_5#e73ba52b", "task_type": "mc", "task": "mc", "gold": "G", "rw_pred": "H", "rw_score": 0.0, "base_score": 0.0, "window": [227, 234], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65519_1#292b07c5", "task_type": "mc", "task": "mc", "gold": "H", "dropped": true}
+{"uid": "scivideobench_mc_65522_3#bc884082", "task_type": "mc", "task": "mc", "gold": "H", "rw_pred": "J", "rw_score": 0.0, "base_score": 0.0, "window": [165, 180], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_65595_2#76cb3954", "task_type": "mc", "task": "mc", "gold": "H", "rw_pred": "A", "rw_score": 0.0, "base_score": 0.0, "window": [123, 138], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_66035_2#6aa0364c", "task_type": "mc", "task": "mc", "gold": "C", "rw_pred": "D", "rw_score": 0.0, "base_score": 0.0, "window": [301, 307], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_66035_4#1efab014", "task_type": "mc", "task": "mc", "gold": "J", "rw_pred": "E", "rw_score": 0.0, "base_score": 0.0, "window": [142, 146], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_66063_1#2bbc33aa", "task_type": "mc", "task": "mc", "gold": "B", "rw_pred": "J", "rw_score": 0.0, "base_score": 1.0, "window": [64, 80], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_66530_1#8a4dc935", "task_type": "mc", "task": "mc", "gold": "I", "dropped": true}
+{"uid": "scivideobench_mc_66604_1#6337bd3c", "task_type": "mc", "task": "mc", "gold": "A", "rw_pred": "A", "rw_score": 1.0, "base_score": 0.0, "window": [91, 107], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_66708_1#63d178f3", "task_type": "mc", "task": "mc", "gold": "F", "rw_pred": "F", "rw_score": 1.0, "base_score": 1.0, "window": [325, 355], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_66871_1#66bc1d15", "task_type": "mc", "task": "mc", "gold": "A", "rw_pred": "D", "rw_score": 0.0, "base_score": 0.0, "window": [105, 114], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_66969_5#5c40b174", "task_type": "mc", "task": "mc", "gold": "A", "dropped": true}
+{"uid": "scivideobench_mc_66978_1#c04e345c", "task_type": "mc", "task": "mc", "gold": "E", "rw_pred": "E", "rw_score": 1.0, "base_score": 1.0, "window": [105, 123], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_66978_4#e07d62f5", "task_type": "mc", "task": "mc", "gold": "G", "dropped": true}
+{"uid": "scivideobench_mc_67000_2#11de6e52", "task_type": "mc", "task": "mc", "gold": "C", "rw_pred": "E", "rw_score": 0.0, "base_score": 0.0, "window": [204, 211], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_67076_1#75317df7", "task_type": "mc", "task": "mc", "gold": "A", "rw_pred": "A", "rw_score": 1.0, "base_score": 1.0, "window": [366, 383], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_67123_4#a27c17c5", "task_type": "mc", "task": "mc", "gold": "H", "rw_pred": "A", "rw_score": 0.0, "base_score": 0.0, "window": [271, 307], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_67370_1#a0a92113", "task_type": "mc", "task": "mc", "gold": "G", "rw_pred": "A", "rw_score": 0.0, "base_score": 0.0, "window": [142, 150], "window_fallback": false, "n_frames": 32}
+{"uid": "scivideobench_mc_59300_1#a6af94e9", "task_type": "mc", "task": "mc", "gold": "A", "dropped": true}

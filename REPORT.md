@@ -189,19 +189,28 @@ note=None,`Visual notes:` 槽位为空。32 帧 + 题干 + 选项直接进 72B,�
 这是冻结基线 R0。每个干预条件在**同进程**内对同一题也跑一遍 c0 → 严格配对、消除跨进程漂移。
 
 ### cot — 自生成推理(对照,非注入)
-不动 note 槽位,而是在 BUILDER 的 user 文本末尾追加推理后缀(`add_cot_suffix`):
-"先逐步推理视频实际显示了什么、如何关系到问题,**控制在 150 词内**,然后以一行
-`FINAL ANSWER: <格式提示>` 结束"。答题 token 放宽到 **1536**(修复前 768 会截断 seqgen)。
-解析用 marker-aware 的 `parse_cot`:有 FINAL/EXACT ANSWER 标记则取标记后内容,无标记则取
-verbose 输出**最后一行**(mc 用 parse_mc_aj 自底向上扫,避免抓到推理中途的 '60°C' 的 C)。
+**实现**(`scripts/unified_harness.py:60-90, 287-294`):**不调任何外部工具、不动 note 槽位、不增加任何输入**,只在 c0 的 BUILDER prompt 上做一处改动 —— `add_cot_suffix(messages, item)` 深拷贝 c0 的 messages,在 user content **最后一个 text 块**末尾追加(verbatim,英文原文):
+
+> `\n\nFirst reason step by step about what the video actually shows and how it bears on the question. Keep the reasoning under 150 words — do NOT enumerate every protocol step. Then end with ONE line exactly of the form:\nFINAL ANSWER: <{fmt_hint(item)}>`
+
+其中 `fmt_hint(item)` 按 task 给格式提示:mc=`the SINGLE correct option letter (A, B, C, ...)`、seqgen=`the space-separated step numbers (e.g. '3 4 5')`、steppred=`ONLY the step NUMBER of the next step (a single integer)`、fitb=`the value for each blank, separated by ' | '`。
+
+- **生成**:`vlm.generate(..., max_new_tokens=args.cot_tokens)`,`cot_tokens` 默认 **1536**(c0/c1 答题用 `ANSWER_TOKENS={mc:8,seqgen:96,steppred:16,fitb:96}`;修复前 cot 用 768 会截断长 seqgen 的推理→弃答,审计后放宽)。frames / system prompt / options / 32 帧抽取**与 c0 逐字相同**,唯一变量 = 这段推理后缀。
+- **解析**(`parse_cot`,审计修复版):marker 正则 `_MARKER = (?:FINAL|EXACT)?\s*ANSWER\s*[:：]`。① **mc**:有 marker → `extract_final(raw)` 取 marker 后内容,无 marker → 用全文;再交 `parse_for_task`(mc 用 `parse_mc_aj` **自底向上**扫第一个合法选项字母,避免抓到推理中途 "heated to 60°C" 的 'C')。② **非 mc**:有 marker → 取 marker 后内容;无 marker → 取 verbose 输出**最后一非空行**。这条修复是关键:旧版从推理文本头部抓首字母,系统性误判。
 
 ### c1 — prose 笔记注入(ProtoNote C1_fixed,行内重建)
-答题前由**同一个 72B** 先生成一段散文笔记,缓存到 uid:
-1. `classify_task(item)` 给题分类 → `tools_for_task(task)` 返回该 task 路由的工具集;
-2. 按路由调工具:`visual_inspect`(问"1-2 句描述关键动作/材料/可见标签数量")和/或 `ocr`(OCR 取屏幕文本);
-3. 工具产出经 `NoteBuffer.append_entry` 累积,`render_for_llm(uid, question_context=q)` 渲染成
-   带小节标题(`## Visual` / `## OCR`)的散文 NoteBuffer(中位 ~800 字符,每条带硬编码置信 0.85/0.80);
-4. 这段散文放进 `Visual notes:` 槽位 → 同 c0 的答题路径作答。
+**实现**(`scripts/unified_harness.py:244-264, 295-298` + `evaluate_c0_test_split.py:60-61`):答题前先由**同一个答题模型自己**生成一段散文视觉笔记,塞进 prompt 的 `Visual notes:` 槽位,再走与 c0 **完全相同**的答题路径。`build_c1_note(item, vp, q, uid)` 流程:
+
+1. **缓存**:笔记按 uid 缓存到 `notes_dir/<uid>.md`,命中直接读(保证可复现 + 同进程配对)。
+2. **task 路由**:`classify_task(item)` 给题分类 → `tools_for_task(task)` 返回该 task 路由的工具集(不是所有题都调所有工具)。
+3. **调工具(同一个 72B/7B 自己看视频)**:
+   - `visual_inspect(video_path=vp, query=_VIS_QUERY)`,`_VIS_QUERY`(verbatim)= `"In 1-2 sentences, describe the key actions, materials, and any visible labels/quantities."` → 产出 `NoteEntry(section="Visual")`;
+   - `ocr(video_path=vp, focus_query=q[:160])`(用题干前 160 字符做 OCR focus)→ `NoteEntry(section="OCR")`。
+   - 每条经 `NoteBuffer.append_entry(uid, NoteEntry(...))` 累积。
+4. **渲染**:`nb.render_for_llm(uid, question_context=q)` 把条目渲成带小节标题(`## Visual` / `## OCR`)的散文(中位 ~800 字符,每条带硬编码置信 0.85/0.80);无条目则空串→note=None。
+5. **注入并作答**:`answer(item, frames, note, tt)` 调 `BUILDERS[tt](item, frames, note, ...)`,`_ctx_block(note)` = `"Visual notes:\n{note}\n\n"`,**插在 video token 与 `Question:` 之间**;note=None 时该块为空(退化成 c0)。frames / system / options / 解析器(`parse_for_task`)/ 答题 token 全与 c0 相同。
+
+**单变量公平性**:c0 / cot / c1 三条在**同一进程、同一 uid、同一 32 帧抽取、同一 BUILDERS、同一解析打分器**下跑,唯一差异是 `Visual notes:` 槽位放什么(c0=空、c1=自生成散文笔记)或 user 文本是否追加推理后缀(cot)。这正是 §1「干净测量口径」的来源,使 §2 的 cot/c1 effect 可归因为单一干预。
 
 ### kg — 全图注入(V9 状态机知识图谱,多视图渲染)
 答题前由同一个 72B 建图(缓存到 uid),两次 VLM 调用:

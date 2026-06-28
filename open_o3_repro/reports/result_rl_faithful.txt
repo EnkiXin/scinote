@@ -1,0 +1,14 @@
+Overall Statistics:
+VQA: Avg All Score: 1.7393, Avg Valid Score: 1.7393, Accuracy: 0.5993
+Chain 1:
+Temporal Answer: R1@IoU=0.3: 0.3400, R1@IoU=0.5: 0.1695, R1@IoU=0.7: 0.0893, Mean IoU: 0.2416
+Spatial Answer: mAP@0.1: 0.5685, mAP@0.3: 0.3814, mAP@0.5: 0.2128, mAP@0.7: 0.0780, mAP@0.9: 0.0071, Mean mIoU: 0.2526
+
+
+Chain 2:
+Temporal Answer: R1@IoU=0.3: 0.3104, R1@IoU=0.5: 0.1543, R1@IoU=0.7: 0.0683, Mean IoU: 0.2204
+Spatial Answer: mAP@0.1: 0.1255, mAP@0.3: 0.0824, mAP@0.5: 0.0445, mAP@0.7: 0.0160, mAP@0.9: 0.0020, Mean mIoU: 0.0544
+
+
+AM1:0.3645, AM2:0.2914, mAM:0.3279
+LGM1:0.4941, LGM2:0.4065, mLGM:0.4503
